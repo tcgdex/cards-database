@@ -83,23 +83,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
 		fr: "Il fait son nid de façon à pouvoir loger son corps mince. Les autres Pokémon ne peuvent pas rentrer dans le nid."
 	},
 
-	thirdParty: {
-		cardmarket: 274435,
-		tcgplayer: 85589
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274435,
+				tcgplayer: 85589
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274435,
+				tcgplayer: 85589
+			}
 		}
 	]
 }

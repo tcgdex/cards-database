@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+	},
 
 	thirdParty: {
 		cardmarket: 281132

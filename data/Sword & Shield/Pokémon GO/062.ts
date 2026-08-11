@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Navitaub"
 	},
 
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -67,19 +68,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
 	},
 
-	thirdParty: {
-		cardmarket: 664638,
-		tcgplayer: 276988
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665679,
+				tcgplayer: 276988
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665679,
+				tcgplayer: 276988
+			}
+		},
+	],
 }
 
 export default card

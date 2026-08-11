@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	rarity: "Hyper rare",
@@ -74,19 +75,25 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826113,
+				tcgplayer: 633039
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826113
-	}
 }
 
 export default card

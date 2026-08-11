@@ -61,12 +61,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -74,10 +68,22 @@ const card: Card = {
 		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
 	},
 
-	thirdParty: {
-		cardmarket: 457808,
-		tcgplayer: 213164
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457808,
+				tcgplayer: 213164
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457808,
+				tcgplayer: 213164
+			}
+		},
+	],
 }
 
 export default card

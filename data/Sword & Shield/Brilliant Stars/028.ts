@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -65,20 +66,25 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608478,
-		tcgplayer: 263727
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608478,
+				tcgplayer: 263727
+			}
+		},
+	],
 }
 
 export default card

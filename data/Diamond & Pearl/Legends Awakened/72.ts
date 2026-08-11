@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
 		fr: "Il avale tout en une bouchée. Ses follicules sécrètent des fluides toxiques qui endorment l'ennemi."
 	},
 

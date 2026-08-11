@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its reckless leaps make it easy pickings for predators. On the bright side, many Pokémon enjoy longer life spans, thanks to Magikarp.",
+	},
+
 	thirdParty: {
 		cardmarket: 363491,
 		tcgplayer: 175381

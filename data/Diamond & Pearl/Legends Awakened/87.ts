@@ -67,6 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
 		fr: "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
 	},
 

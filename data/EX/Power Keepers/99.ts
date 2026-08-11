@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Phogleur"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -85,11 +85,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "holo"
 		}
 	]
 }

@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+	},
+
 	thirdParty: {
 		cardmarket: 291565,
 		tcgplayer: 121016

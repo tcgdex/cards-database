@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+	},
+
 	thirdParty: {
 		cardmarket: 279751,
 		tcgplayer: 84724

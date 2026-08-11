@@ -66,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It sends out electromagnetic waves, which let it float through the air. Touching it while it's eating electricity will give you a full-body shock.",
+	},
 }
 
 export default card

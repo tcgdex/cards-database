@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Sehr effektive Brille"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658813,
-		tcgplayer: 272404
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658813,
+				tcgplayer: 272404
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658813,
+				tcgplayer: 272404
+			}
+		},
+	],
 }
 
 export default card

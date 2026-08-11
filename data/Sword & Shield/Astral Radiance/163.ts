@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Dressella V"
 	},
 
+	illustrator: "kodama",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -54,20 +55,25 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658511,
-		tcgplayer: 272415
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658824,
+				tcgplayer: 272415
+			}
+		},
+	],
 }
 
 export default card

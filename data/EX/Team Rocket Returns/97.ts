@@ -22,7 +22,7 @@ const card: Card = {
 		"Darkness",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -82,16 +82,17 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276389,
-		tcgplayer: 88769
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276389,
+				tcgplayer: 88769
+			},
 		},
-	]
+	],
+
 }
 
 export default card

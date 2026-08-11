@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [658],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -13,15 +19,15 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Greninja {star}",
-		fr: "Amphinobi {star}",
-		de: "Quajutsu {star}",
-		es: "Greninja {star}",
-		pt: "Greninja {star}",
-		it: "Greninja {star}"
+		en: "Greninja ☆",
+		fr: "Amphinobi ☆",
+		de: "Quajutsu ☆",
+		es: "Greninja ☆",
+		pt: "Greninja ☆",
+		it: "Greninja ☆"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
@@ -66,7 +72,11 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		tcgplayer: 248731
+	}
 }
 
 export default card

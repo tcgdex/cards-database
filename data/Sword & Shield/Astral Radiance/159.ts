@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Belila"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658820,
-		tcgplayer: 272411
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658820,
+				tcgplayer: 272411
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658820,
+				tcgplayer: 272411
+			}
+		},
+	],
 }
 
 export default card

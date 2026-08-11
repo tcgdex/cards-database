@@ -76,21 +76,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
 		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
 	},
 
-	thirdParty: {
-		cardmarket: 274459,
-		tcgplayer: 85764
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274459,
+				tcgplayer: 85764
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274459,
+				tcgplayer: 85764
+			}
 		}
 	]
 }

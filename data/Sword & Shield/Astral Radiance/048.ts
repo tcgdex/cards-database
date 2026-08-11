@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Arktilas"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
 	},
 
-	thirdParty: {
-		cardmarket: 658589,
-		tcgplayer: 272248
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658589,
+				tcgplayer: 272248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658589,
+				tcgplayer: 272248
+			}
+		},
+	],
 }
 
 export default card

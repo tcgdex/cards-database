@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it."
 	},
 
-	thirdParty: {
-		cardmarket: 527675,
-		tcgplayer: 234227
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 527675,
+				tcgplayer: 234227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527675,
+				tcgplayer: 234227
+			}
+		},
+	],
 }
 
 export default card

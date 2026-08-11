@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Karippas GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "PLANETA Tsuji",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Fighting"],
@@ -90,7 +91,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
 }
 
 export default card

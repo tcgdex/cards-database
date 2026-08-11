@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		178,
-	],
+	dexId: [178],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Natu",
-		fr: "Natu",
+		fr: "Natu"
 	},
 
 	stage: "Stage1",
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an das Verteidigende Pokémon angelegten Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -91,21 +89,25 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90666,
+				cardmarket: 279167
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90666,
+				cardmarket: 279167
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279167,
-		tcgplayer: 90666
-	}
 }
 
 export default card

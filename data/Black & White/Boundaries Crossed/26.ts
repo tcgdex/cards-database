@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+	},
+
 	thirdParty: {
 		cardmarket: 280613,
 		tcgplayer: 85185

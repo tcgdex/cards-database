@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Krebscorps"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
 	},
 
-	thirdParty: {
-		cardmarket: 608482,
-		tcgplayer: 263731
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608482,
+				tcgplayer: 263731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608482,
+				tcgplayer: 263731
+			}
+		},
+	],
 }
 
 export default card

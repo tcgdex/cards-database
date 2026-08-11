@@ -7,6 +7,18 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -24,7 +36,7 @@ const card: Card = {
 		it: "Mewtwo V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 310,
 	types: ["Psychic"],
 

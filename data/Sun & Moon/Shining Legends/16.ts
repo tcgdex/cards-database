@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+	},
+
 	thirdParty: {
 		cardmarket: 302154,
 		tcgplayer: 146669

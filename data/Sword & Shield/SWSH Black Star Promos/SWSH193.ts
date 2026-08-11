@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Galarian Obstagoon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
@@ -54,6 +54,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 

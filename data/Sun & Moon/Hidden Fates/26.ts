@@ -49,8 +49,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+	},
+
 	thirdParty: {
-		cardmarket: 394722,
+		cardmarket: 394767,
 		tcgplayer: 197670
 	}
 }

@@ -80,10 +80,32 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+	},
+
 	thirdParty: {
 		cardmarket: 299477,
 		tcgplayer: 138562
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice",
+	thirdParty: {
+		tcgplayer: 173088
+	},
+
+
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+	},
+
 	thirdParty: {
 		cardmarket: 368956,
 		tcgplayer: 183795

@@ -84,6 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
 		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
 	},
 

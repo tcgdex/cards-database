@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "An examination of its cells revealed the presence of a gene not found in Horsea. It became a hot topic.",
 		fr: "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu."
 	},
 
-	thirdParty: {
-		cardmarket: 274448,
-		tcgplayer: 89009
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274448,
+				tcgplayer: 89009
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274448,
+				tcgplayer: 89009
+			}
 		}
 	]
 }

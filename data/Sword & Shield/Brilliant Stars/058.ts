@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Puppance"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -44,20 +45,42 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
 	},
 
-	thirdParty: {
-		cardmarket: 608508,
-		tcgplayer: 263774
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608508,
+				tcgplayer: 263774
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608508,
+				tcgplayer: 263774
+			}
+		},
+	],
 }
 
 export default card

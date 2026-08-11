@@ -71,12 +71,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
 	},
 
-	thirdParty: {
-		cardmarket: 457398,
-		tcgplayer: 213074
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457398,
+				tcgplayer: 213074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457398,
+				tcgplayer: 213074
+			}
+		},
+	],
 }
 
 export default card

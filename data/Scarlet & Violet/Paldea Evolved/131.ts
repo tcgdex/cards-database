@@ -66,18 +66,45 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715606,
+				tcgplayer: 497592,
+				cardtrader: 248788
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715606,
+				tcgplayer: 497592,
+				cardtrader: 248788
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 715606
-	}
+	description: {
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+	},
 }
 
 export default card

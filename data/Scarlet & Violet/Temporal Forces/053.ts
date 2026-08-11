@@ -48,23 +48,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760683,
+				tcgplayer: 542797
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760683,
+				tcgplayer: 542797
+			}
+		},
 	],
 
 	illustrator: "Uta",
 
-	thirdParty: {
-		cardmarket: 760683
-	}
 }
 
 export default card

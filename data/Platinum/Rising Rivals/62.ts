@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Gliscor 4",
+		en: "Gliscor E4",
 		fr: "Scorvol  Niv. 53",
 		de: "Skorgo 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		472,
-	],
+	dexId: [472],
 	hp: 80,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -59,7 +57,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -72,18 +70,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278636,
+				tcgplayer: 85776
+			}
 		},
 		{
 			type: "reverse",
-			foil: "cracked-ice"
+			thirdParty: {
+				cardmarket: 278636,
+				tcgplayer: 85776
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 272510
+			}
 		}
-	]
-
-
+	],
 
 }
 

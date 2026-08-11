@@ -65,15 +65,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273936,
-		tcgplayer: 42457
+
+	description: {
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273936,
+				tcgplayer: 42457
+			}
 		}
 	]
 }

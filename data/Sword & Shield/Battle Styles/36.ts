@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
 	},
 
-	thirdParty: {
-		cardmarket: 545186,
-		tcgplayer: 234168
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545186,
+				tcgplayer: 234168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545186,
+				tcgplayer: 234168
+			}
+		},
+	],
 }
 
 export default card

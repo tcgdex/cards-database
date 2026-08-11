@@ -44,18 +44,39 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715516,
+				tcgplayer: 497453,
+				cardtrader: 248631
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715516,
+				tcgplayer: 497453,
+				cardtrader: 248631
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 715516
-	}
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+	},
 }
 
 export default card

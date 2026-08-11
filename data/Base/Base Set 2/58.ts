@@ -68,15 +68,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273981,
-		tcgplayer: 42521
+
+	description: {
+		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273981,
+				tcgplayer: 42521
+			}
 		}
 	]
 }

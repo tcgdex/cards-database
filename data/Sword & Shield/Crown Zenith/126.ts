@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Buddel-Brüder"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691845,
-		tcgplayer: 478167
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691845,
+				tcgplayer: 478167
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691845,
+				tcgplayer: 478167
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Kangaskhan ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -72,19 +73,24 @@ const card: Card = {
 		damage: "200+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851235,
+				tcgplayer: 654503
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654503,
-		cardmarket: 851235
-	}
 }
 
 export default card

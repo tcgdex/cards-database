@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Extremely cautious, it quickly bounds off when it senses danger.",
+	},
+
 	thirdParty: {
 		cardmarket: 280704,
 		tcgplayer: 86828

@@ -69,23 +69,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling.",
 		fr: "Il fait onduler son corps en rythme. Celui-ci semble changer selon son humeur."
 	},
 
-	thirdParty: {
-		cardmarket: 274617,
-		tcgplayer: 86373
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274617,
+				tcgplayer: 86373
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274617,
+				tcgplayer: 86373
+			}
 		}
 	]
 }

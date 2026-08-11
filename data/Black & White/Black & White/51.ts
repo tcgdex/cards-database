@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+	},
+
 	thirdParty: {
 		cardmarket: 279789,
 		tcgplayer: 89724

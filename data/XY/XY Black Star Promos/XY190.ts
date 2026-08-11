@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 291576

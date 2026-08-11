@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Gyarados VMAX",
@@ -70,10 +64,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574053,
-		tcgplayer: 246726
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574265,
+				tcgplayer: 246726
+			}
+		},
+	],
 }
 
 export default card

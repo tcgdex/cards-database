@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Glurak & Rutena GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fire"],
@@ -68,7 +69,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Arkani"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -65,9 +65,28 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Ryuta Fuse"
+	illustrator: "Ryuta Fuse",
+	description: {
+		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 692231,
+				tcgplayer: 491186
+			},
+		}
+	],
 }
 
 export default card

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+	},
+
 	thirdParty: {
 		cardmarket: 288190,
 		tcgplayer: 111518

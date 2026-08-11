@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regieleki VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 310,
@@ -76,20 +77,25 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682105,
-		tcgplayer: 450293
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682105,
+				tcgplayer: 450293
+			}
+		},
+	],
 }
 
 export default card

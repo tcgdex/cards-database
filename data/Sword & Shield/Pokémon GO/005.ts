@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Kokowei V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 240,
@@ -63,19 +64,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664541,
-		tcgplayer: 276943
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665239,
+				tcgplayer: 276943
+			}
+		},
+	],
 }
 
 export default card

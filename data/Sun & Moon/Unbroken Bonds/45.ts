@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It swims through the ocean at a speed of eight knots, searching for Pokémon that will become its prey. It's especially fond of Wishiwashi.",
+	},
+
 	thirdParty: {
 		cardmarket: 372336,
 		tcgplayer: 189144

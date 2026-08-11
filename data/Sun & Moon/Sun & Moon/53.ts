@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+	},
+
 	thirdParty: {
 		cardmarket: 295364,
 		tcgplayer: 126924

@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	rarity: "Hyper rare",
@@ -83,19 +84,25 @@ const card: Card = {
 		damage: 260
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826115,
+				tcgplayer: 633041
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826115
-	}
 }
 
 export default card

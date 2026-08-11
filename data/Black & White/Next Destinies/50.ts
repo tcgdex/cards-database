@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280275,
 		tcgplayer: 90735

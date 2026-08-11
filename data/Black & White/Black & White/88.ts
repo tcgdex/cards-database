@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+	},
+
 	thirdParty: {
 		cardmarket: 279826,
 		tcgplayer: 87473

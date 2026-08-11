@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sleima"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -42,20 +43,36 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction.",
 	},
 
-	thirdParty: {
-		cardmarket: 608534,
-		tcgplayer: 263800
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608534,
+				tcgplayer: 263800
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608534,
+				tcgplayer: 263800
+			}
+		},
+	],
 }
 
 export default card

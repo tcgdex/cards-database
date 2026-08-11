@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It vibrates its wings to generate ultrasonic waves, causing its prey to faint. Then it buries the prey alive in the sand to preserve it.",
+	},
+
 	thirdParty: {
 		cardmarket: 408194,
 		tcgplayer: 201138

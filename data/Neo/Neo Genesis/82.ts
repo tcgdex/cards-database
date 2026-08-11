@@ -75,23 +75,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This Pokémon lives in cold water. It leaves the water to search for food when it gets cold outside.",
 		fr: "Ce Pokémon vit dans les eaux froides. Il sort de l'eau pour chercher de la nourriture lorsque la température baisse à l'extérieur."
 	},
 
-	thirdParty: {
-		cardmarket: 274482,
-		tcgplayer: 90632
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274482,
+				tcgplayer: 90632
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274482,
+				tcgplayer: 90632
+			}
 		}
 	]
 }

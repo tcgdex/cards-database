@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It punches with its four arms at blinding speed. It can launch 1,000 punches in two seconds.",
 		fr: "Ses quatre bras frappent à une vitesse aveuglante. Il peut porter 1000 coups en deux secondes."
 	},
 

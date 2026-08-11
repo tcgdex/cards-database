@@ -305,9 +305,8 @@ export type VariantFoil = 'normal' | 'holo' | 'reverse'
  * Foil pattern used on holo & reverse variants.
  * Also covers the former metal & lenticular TCGType and the glossy finish.
  */
-export type VariantPattern = 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'glitter'
-	| 'lenticular' | 'metal' | 'glossy'
+export type VariantPattern = 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'rainbow' | 'glitter'
 
 /**
  * Print state of a card, mostly relevant for the older sets
@@ -316,7 +315,7 @@ export type VariantPattern = 'pokeball' | 'greatball' | 'ultraball' | 'masterbal
 export type VariantPrint = 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-	| 'blue-border' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
+	| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
 	| '1995-1998-copyright' | 'no-rarity' | 'missing-retreat-cost' | 'phanphy-error' | 'peelable-ditto'
 
 /**
@@ -427,14 +426,14 @@ export type CardRarity = // todo reference each with a picture
 	| 'Amazing Rare'
 	| 'Classic Collection'
 	| 'Common'
-	| 'Double Rare'
+	| 'Double rare'
 	| 'Full Art Trainer'
 	| 'Holo Rare'
 	| 'Holo Rare V'
 	| 'Holo Rare VMAX'
 	| 'Holo Rare VSTAR'
-	| 'Hyper Rare'
-	| 'Illustration Rare'
+	| 'Hyper rare'
+	| 'Illustration rare'
 	| 'LEGEND'
 	| 'None'
 	| 'Radiant Rare'
@@ -444,15 +443,19 @@ export type CardRarity = // todo reference each with a picture
 	| 'Rare PRIME'
 	| 'Secret Rare'
 	| 'Shiny Ultra Rare'
-	| 'Shiny Rare'
-	| 'Shiny Rare V'
-	| 'Shiny Rare VMAX'
-	| 'Special Illustration Rare'
+	| 'Shiny rare'
+	| 'Shiny rare V'
+	| 'Shiny rare VMAX'
+	| 'Special illustration rare'
 	| 'Ultra Rare'
 	| 'Uncommon'
+	// Black White rare
 	| 'Black White Rare'
 	| 'Mega Hyper Rare'
-
+	| 'Triple Rare'
+	// Japanese Character Rares (since SM11b Dream League)
+	| 'Character Rare'
+	| 'Character Super Rare'
 	// Pokémon TCG Pocket Rarities
 	| 'One Diamond'
 	| 'Two Diamond'
@@ -464,6 +467,7 @@ export type CardRarity = // todo reference each with a picture
 	| 'Crown'
 	| 'One Shiny'
 	| 'Two Shiny'
+	| 'Promo'
 
 
 /**

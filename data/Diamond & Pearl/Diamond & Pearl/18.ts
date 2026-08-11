@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives in rivers and lakes. In water, its coloring and patterns trick the vision of foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277517,
 		tcgplayer: 83684

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		369,
-	],
+	dexId: [369],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -66,16 +64,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	description: {
+		en: "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88690,
+				cardmarket: 279712
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88690,
+				cardmarket: 279712
+			},
 		},
 	],
 
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 279712,
-		tcgplayer: 88690
-	}
 }
 
 export default card

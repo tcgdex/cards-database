@@ -58,23 +58,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
 		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
 	},
 
-	thirdParty: {
-		cardmarket: 274570,
-		tcgplayer: 87680
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274570,
+				tcgplayer: 87680
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274570,
+				tcgplayer: 87680
+			}
 		}
 	]
 }

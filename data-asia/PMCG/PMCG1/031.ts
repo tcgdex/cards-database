@@ -4,9 +4,10 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Magikarp",
+		ja: "コイキング",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [129],
@@ -39,7 +40,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575647
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577074
+			}
+		}
 	],
 };
 

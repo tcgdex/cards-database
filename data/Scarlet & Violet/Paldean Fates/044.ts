@@ -55,18 +55,46 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 751581
-	}
+	description: {
+		en: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+	},
+
 }
 
 export default card

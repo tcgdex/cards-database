@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		311,
-	],
+	dexId: [311],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -83,17 +81,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88171,
+				cardmarket: 279192
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88171,
+				cardmarket: 279192
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279192,
-		tcgplayer: 88171
-	}
 }
 
 export default card

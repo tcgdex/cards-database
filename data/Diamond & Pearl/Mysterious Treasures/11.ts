@@ -73,8 +73,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
 		fr: "Il vit au plus profond de l'océan. Il attire sa proie en illuminant les motifs de ses 4 nageoires."
 	},
 

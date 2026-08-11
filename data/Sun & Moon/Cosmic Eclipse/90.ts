@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Some say that ancient people invented Golurk to serve as a laborer. It follows its master's orders faithfully.",
+	},
+
 	thirdParty: {
 		cardmarket: 408094,
 		tcgplayer: 201264

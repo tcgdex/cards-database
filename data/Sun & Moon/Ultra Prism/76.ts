@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
+	},
+
 	thirdParty: {
 		cardmarket: 316004,
 		tcgplayer: 157693

@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
@@ -74,17 +80,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582030,
-		tcgplayer: 253072
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582030,
+				tcgplayer: 253072
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582030,
+				tcgplayer: 253072
+			}
+		},
+	],
 }
 
 export default card

@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Protected by a hard shell, its body is very sturdy. It skewers prey with its claws to feed.",
+	},
+
 	thirdParty: {
 		cardmarket: 291627,
 		tcgplayer: 121187

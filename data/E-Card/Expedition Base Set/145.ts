@@ -11,29 +11,39 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nRetirez tous les marqueurs de dégâts d'un de vos Pokémon. Défaussez-vous ensuite de toutes les cartes Énergie qui lui sont attachées, s'il en possède.",
-		de: "Entferne alle Schadensmarken von einem deiner Pokémon. Lege dann alle an es angelegten Energiekarten auf deinen Ablagestapel."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Remove all damage counters from 1 of your Pokémon. Then discard all Energy cards attached to it, if any.",
+		fr: "Retirez tous les marqueurs de dégâts d'un de vos Pokémon. Défaussez -vous ensuite de toutes les cartes Énergie qui lui sont attachées, s'il en possède.",
+		de: "Entferne alle Schadensmarken von einem deiner Pokémon. Lege dann alle an es angelegten Energiekarten auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		cardmarket: 275020
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275020,
+				tcgplayer: 88229,
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275020,
+				tcgplayer: 88229,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871848,
+				tcgplayer: 477414
+			}
 		}
-	]
+	],
 }
 
 export default card

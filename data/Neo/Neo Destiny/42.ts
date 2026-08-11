@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It has a perfect sense of balance and can lash out with powerful kicks from any position.",
 		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position."
 	},
 
-	thirdParty: {
-		cardmarket: 274694,
-		tcgplayer: 86103
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274694,
+				tcgplayer: 86103
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274694,
+				tcgplayer: 86103
+			}
 		}
 	]
 }

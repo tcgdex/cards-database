@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Taira Akitsu",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582960,
-		tcgplayer: 253089
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582960,
+				tcgplayer: 253089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582960,
+				tcgplayer: 253089
+			}
+		},
+	],
 }
 
 export default card

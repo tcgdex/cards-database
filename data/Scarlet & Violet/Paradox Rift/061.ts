@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740552,
+				tcgplayer: 523674,
+				cardtrader: 265170
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740552,
+				tcgplayer: 523674,
+				cardtrader: 265170
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 740552
-	}
+	
 }
 
 export default card

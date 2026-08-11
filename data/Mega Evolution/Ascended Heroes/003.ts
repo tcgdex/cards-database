@@ -14,6 +14,17 @@ const card: Card = {
 		pt: "Vileplume ex da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Gloom",
+		fr: "Ortide d'Erika",
+		es: "Gloom de Erika",
+		'es-mx': "Gloom de Erika",
+		de: "Erikas Duflor",
+		it: "Gloom di Erika",
+		pt: "Gloom da Érica",
+	},
+
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -71,13 +82,24 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675815,
-		cardmarket: 869614
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869614,
+				tcgplayer: 675815
+			}
+		}
+	],
 }
 
 export default card

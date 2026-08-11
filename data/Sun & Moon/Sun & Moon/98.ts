@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Drawings of a Pokémon resembling Fearow can be seen in murals from deep in ancient history.",
+	},
+
 	thirdParty: {
 		cardmarket: 295409,
 		tcgplayer: 126970

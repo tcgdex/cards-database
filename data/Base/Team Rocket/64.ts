@@ -52,23 +52,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A gentle grass-eater, it will allow riders on its back. However, anyone attempting to do so must be careful not to get burned.",
 		fr: "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler."
 	},
 
-	thirdParty: {
-		cardmarket: 274117,
-		tcgplayer: 88281
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274117,
+				tcgplayer: 88281
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274117,
+				tcgplayer: 88281
+			}
 		}
 	]
 }

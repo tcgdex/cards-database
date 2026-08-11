@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Infamomo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],
@@ -66,9 +66,28 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Souichirou Gunjima"
+	illustrator: "Souichirou Gunjima",
+	description: {
+		en: "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 770952,
+				tcgplayer: 562025
+			},
+		}
+	],
 }
 
 export default card

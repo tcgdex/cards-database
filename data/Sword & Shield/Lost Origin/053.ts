@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Raichu"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674063,
-		tcgplayer: 283927
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674063,
+				tcgplayer: 283927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674063,
+				tcgplayer: 283927
+			}
+		},
+	],
 }
 
 export default card

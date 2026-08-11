@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With its excellent sense of smell, it's even able to find mushrooms that are buried under frozen ground.",
+	},
+
 	thirdParty: {
 		cardmarket: 280767,
 		tcgplayer: 88121

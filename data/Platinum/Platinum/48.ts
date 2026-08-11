@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [180],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Mareep",
-		fr: "Wattouat",
+		fr: "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -84,19 +82,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278469,
-		tcgplayer: 85481
+	description: {
+		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85481,
+				cardmarket: 278469
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278469,
+				tcgplayer: 85481
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
+	},
+
 	thirdParty: {
 		cardmarket: 302141,
 		tcgplayer: 146655

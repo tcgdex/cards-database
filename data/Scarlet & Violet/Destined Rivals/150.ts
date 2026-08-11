@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	rarity: "Double rare",
@@ -81,18 +82,24 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826024,
+				tcgplayer: 632955
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826024
-	}
 }
 
 export default card

@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe."
 	},
 
-	thirdParty: {
-		cardmarket: 483114,
-		tcgplayer: 219351
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483114,
+				tcgplayer: 219351
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483114,
+				tcgplayer: 219351
+			}
+		},
+	],
 }
 
 export default card

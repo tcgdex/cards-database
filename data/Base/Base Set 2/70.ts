@@ -65,15 +65,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273993,
-		tcgplayer: 42490
+
+	description: {
+		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273993,
+				tcgplayer: 42490
+			}
 		}
 	]
 }

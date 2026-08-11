@@ -84,6 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its body is hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
 		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
 	},
 

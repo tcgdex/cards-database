@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hoothoot"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -57,20 +58,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
-	thirdParty: {
-		cardmarket: 658781,
-		tcgplayer: 272355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658781,
+				tcgplayer: 272355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658781,
+				tcgplayer: 272355
+			}
+		},
+	],
 }
 
 export default card

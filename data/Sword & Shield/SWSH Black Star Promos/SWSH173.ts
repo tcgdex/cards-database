@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Blitzle"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -42,6 +42,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 

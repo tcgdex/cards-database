@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
 	},
 
-	thirdParty: {
-		cardmarket: 567129,
-		tcgplayer: 241706
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567129,
+				tcgplayer: 241706
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567129,
+				tcgplayer: 241706
+			}
+		},
+	],
 }
 
 export default card

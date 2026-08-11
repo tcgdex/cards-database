@@ -8,7 +8,7 @@ const card: Card = {
 		'zh-tw': "雷電斑馬"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],

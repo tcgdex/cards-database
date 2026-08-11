@@ -65,19 +65,32 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751686,
+				tcgplayer: 534616,
+				cardtrader: 274330
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 751686
-	}
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+	},
+
 }
 
 export default card

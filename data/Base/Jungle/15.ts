@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
+		fr: "Ortide"
 	},
 
 	stage: "Stage2",
@@ -73,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
 		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
 	},
 
-	thirdParty: {
-		cardmarket: 273812,
-		tcgplayer: 45126
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273812,
+				tcgplayer: 45126
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273812,
+				tcgplayer: 45126
+			}
 		},
 		{
 			type: "holo",

@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Most people raise it for its milk, but it's quite tough and strong, so it's also well suited for battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 365795,
 		tcgplayer: 178979

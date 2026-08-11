@@ -35,18 +35,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751560,
+				tcgplayer: 534173,
+				cardtrader: 274211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751560,
+				tcgplayer: 534173,
+				cardtrader: 274211
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 751560
-	}
+	description: {
+		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
+	},
+
 }
 
 export default card

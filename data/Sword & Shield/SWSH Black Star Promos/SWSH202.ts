@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Sylveon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Psychic"],
@@ -58,6 +58,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 

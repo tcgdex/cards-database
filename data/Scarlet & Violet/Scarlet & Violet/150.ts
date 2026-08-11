@@ -72,14 +72,35 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Atsushi Furusawa",
+
+	description: {
+		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+	},
 
 	thirdParty: {
         cardmarket: 702446,

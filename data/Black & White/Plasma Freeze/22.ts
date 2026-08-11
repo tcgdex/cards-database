@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming.",
+	},
+
 	thirdParty: {
 		cardmarket: 280900,
 		tcgplayer: 88474

@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+	},
+
 	thirdParty: {
 		cardmarket: 280044,
 		tcgplayer: 90496

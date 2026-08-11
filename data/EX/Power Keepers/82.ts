@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nLes Pokémon  de chaque joueur ne peuvent pas être Endormis, Confus ou Paralysés.",
-		de: "Alle -Pokémon beider Spieler können nicht mehr schlafen, verwirrt oder gelähmt sein."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player's Darkness Pokémon can't be Asleep, Confused, or Paralyzed.",
+		fr: "Les Pokémon Obscurité de chaque joueur ne peuvent pas être Endormis, Confus ou Paralysés.",
+		de: "Alle -Pokémon beider Spieler können nicht mehr schlafen, verwirrt oder gelähmt sein.",
 	},
 
 	thirdParty: {

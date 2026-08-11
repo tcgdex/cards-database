@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It is shrouded by blue vines. No one has seen the face hidden behind this growth of vines.",
 		fr: "Il s'abrite derrière des lianes bleues. Nul n'a jamais vu le visage qu'elles dissimulent."
 	},
 

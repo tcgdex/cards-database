@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its hard shell cannot be shattered—not even by a bomb. The contents of the shell remain unknown.",
+	},
+
 	thirdParty: {
 		cardmarket: 295344,
 		tcgplayer: 126905

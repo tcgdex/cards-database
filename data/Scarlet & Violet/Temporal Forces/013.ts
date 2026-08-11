@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
+	description: {
+		en: "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760643,
+				tcgplayer: 542761
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760643,
+				tcgplayer: 542761
+			}
+		},
 	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 760643
-	}
 }
 
 export default card

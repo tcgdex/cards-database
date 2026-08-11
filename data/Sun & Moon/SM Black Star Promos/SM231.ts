@@ -13,7 +13,8 @@ const card: Card = {
 		de: "Festival der Champions"
 	},
 
-	rarity: "Rare",
+	illustrator: "Naoki Saito",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {

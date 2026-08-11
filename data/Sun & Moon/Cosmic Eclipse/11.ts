@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Normally, it lived on shallow sea shoals. When the tide went out, this Pokémon came up on land to search for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 407709,
 		tcgplayer: 201160

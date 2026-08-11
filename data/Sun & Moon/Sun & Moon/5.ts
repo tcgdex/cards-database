@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The large mushroom on its back controls it. It often fights over territory with Shiinotic.",
+	},
+
 	thirdParty: {
 		cardmarket: 295310,
 		tcgplayer: 126876

@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The protuberances on its head serve as sensors. It can even detect distant prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 316025,
 		tcgplayer: 157716

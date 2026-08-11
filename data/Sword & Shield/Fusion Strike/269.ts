@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "AKIRA EGAWA",
@@ -77,17 +89,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582613,
-		tcgplayer: 253177
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 583019,
+				tcgplayer: 253177
+			}
+		},
+	],
 }
 
 export default card

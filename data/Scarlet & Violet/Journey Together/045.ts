@@ -60,22 +60,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 817197
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817197,
+				tcgplayer: 623472
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817197,
+				tcgplayer: 623472
+			}
 		},
-	]
+	],
 }
 
 export default card

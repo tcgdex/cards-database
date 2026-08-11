@@ -75,23 +75,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although it looks frightening, it is actually kind and affectionate. It is very popular.",
 		fr: "Bien qu'il soit effrayant, il est en fait doux et attentionné. Il est très populaire."
 	},
 
-	thirdParty: {
-		cardmarket: 274474,
-		tcgplayer: 89412
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274474,
+				tcgplayer: 89412
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274474,
+				tcgplayer: 89412
+			}
 		}
 	]
 }

@@ -28,15 +28,35 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715647,
+				tcgplayer: 497544,
+				cardtrader: 248813
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['asia-promo'],
+			thirdParty: {
+				cardmarket: 872163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715647,
+				tcgplayer: 497544,
+				cardtrader: 248813
+			}
+		},
+	],
 
 	illustrator: "NC Empire",
 
-	thirdParty: {
-		cardmarket: 715647
-	}
+	
 }
 
 export default card

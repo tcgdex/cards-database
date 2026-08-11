@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its roar in battle shakes the ground like a tremor–or like an earthquake has struck.",
+	},
+
 	thirdParty: {
 		cardmarket: 289903,
 		tcgplayer: 117857

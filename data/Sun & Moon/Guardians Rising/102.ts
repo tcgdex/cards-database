@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Even the most ferocious Pokémon become calm when they eat Blissey's egg, which is said to be filled with happiness.",
+	},
+
 	thirdParty: {
 		cardmarket: 297695,
 		tcgplayer: 131020

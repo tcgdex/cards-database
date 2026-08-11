@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "There are people who swear that any place Gyarados appears is fated for destruction.",
+	},
+
 	thirdParty: {
 		cardmarket: 363492,
 		tcgplayer: 175382

@@ -92,10 +92,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A poisonous bite reacted with its system, blessing it with the enhanced intellect of a genius. It has full control of its psychic powers.",
+	},
+
 	thirdParty: {
 		cardmarket: 299452,
 		tcgplayer: 138530
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

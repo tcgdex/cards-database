@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food."
 	},
 
-	thirdParty: {
-		cardmarket: 567187,
-		tcgplayer: 241744
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567187,
+				tcgplayer: 241744
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567187,
+				tcgplayer: 241744
+			}
+		},
+	],
 }
 
 export default card

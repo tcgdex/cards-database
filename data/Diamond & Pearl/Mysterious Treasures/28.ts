@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 		fr: "Il libère l'électricité par sa crinière. Il crée un nuage d'orage pour appeler la foudre."
 	},
 

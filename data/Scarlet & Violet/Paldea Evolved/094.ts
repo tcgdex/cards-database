@@ -57,18 +57,45 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715569,
+				tcgplayer: 497509,
+				cardtrader: 248723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715569,
+				tcgplayer: 497509,
+				cardtrader: 248723
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 715569
-	}
+	description: {
+		en: "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
+	},
 }
 
 export default card

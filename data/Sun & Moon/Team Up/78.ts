@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its body had begun to change so it could function on land. But it didn't adapt in time and went extinct.",
+	},
+
 	thirdParty: {
 		cardmarket: 369008,
 		tcgplayer: 183856

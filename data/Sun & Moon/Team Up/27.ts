@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even fast-swimming fish Pokémon can be disabled by Golduck. It brings them to a standstill and seizes them.",
+	},
+
 	thirdParty: {
 		cardmarket: 368959,
 		tcgplayer: 183798

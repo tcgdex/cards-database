@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chelast"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
 	},
 
-	thirdParty: {
-		cardmarket: 608430,
-		tcgplayer: 263589
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608430,
+				tcgplayer: 263589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608430,
+				tcgplayer: 263589
+			}
+		},
+	],
 }
 
 export default card

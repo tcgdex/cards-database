@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,31 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
 	},
 
-	thirdParty: {
-		cardmarket: 691879,
-		tcgplayer: 478103
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691879,
+				tcgplayer: 478103
+			}
+		},
+	],
 }
 
 export default card

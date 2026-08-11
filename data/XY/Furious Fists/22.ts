@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+	},
+
 	thirdParty: {
 		cardmarket: 281686,
 		tcgplayer: 92197

@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rhyhorn",
+		ja: "サイホーン",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [111],
@@ -39,6 +40,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576644
+			},
 		},
 	],
 };

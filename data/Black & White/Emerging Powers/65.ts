@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+	},
+
 	thirdParty: {
 		cardmarket: 280030,
 		tcgplayer: 86726

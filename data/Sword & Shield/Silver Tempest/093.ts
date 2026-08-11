@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Puppance"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
 	},
 
-	thirdParty: {
-		cardmarket: 682140,
-		tcgplayer: 451747
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682140,
+				tcgplayer: 451747
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682140,
+				tcgplayer: 451747
+			}
+		},
+	],
 }
 
 export default card

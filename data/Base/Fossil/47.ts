@@ -52,25 +52,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
 		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
 	},
 
-	thirdParty: {
-		cardmarket: 273908,
-		tcgplayer: 44449
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273908,
+				tcgplayer: 44449
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273908,
+				tcgplayer: 44449
+			}
 		},
 		{
 			type: "normal",

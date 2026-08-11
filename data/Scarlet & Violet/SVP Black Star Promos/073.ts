@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenrad-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],
@@ -44,9 +44,38 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "5ban Graphics"
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751797,
+				tcgplayer: 538686
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 666603
+			}
+		}
+	],
 }
 
 export default card

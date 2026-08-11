@@ -61,12 +61,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -74,10 +68,22 @@ const card: Card = {
 		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
 	},
 
-	thirdParty: {
-		cardmarket: 511475,
-		tcgplayer: 226373
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511475,
+				tcgplayer: 226373
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511475,
+				tcgplayer: 226373
+			}
+		},
+	],
 }
 
 export default card

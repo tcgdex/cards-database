@@ -79,12 +79,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -92,10 +86,22 @@ const card: Card = {
 		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
 	},
 
-	thirdParty: {
-		cardmarket: 458028,
-		tcgplayer: 213222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458028,
+				tcgplayer: 213222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458028,
+				tcgplayer: 213222
+			}
+		},
+	],
 }
 
 export default card

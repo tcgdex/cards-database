@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
 	},
 
-	thirdParty: {
-		cardmarket: 483544,
-		tcgplayer: 219328
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483544,
+				tcgplayer: 219328
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483544,
+				tcgplayer: 219328
+			}
+		},
+	],
 }
 
 export default card

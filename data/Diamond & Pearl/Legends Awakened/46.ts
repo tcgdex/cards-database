@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
 		fr: "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
 	},
 

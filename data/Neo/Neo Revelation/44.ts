@@ -47,23 +47,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It uses its arms to steadily climb steep mountain paths. It swings its fists around if angered.",
 		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
 	},
 
-	thirdParty: {
-		cardmarket: 274630,
-		tcgplayer: 85683
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274630,
+				tcgplayer: 85683
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274630,
+				tcgplayer: 85683
+			}
 		}
 	]
 }

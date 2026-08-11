@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -40,7 +40,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810398,
+				tcgplayer: 620106
+			},
 		},
 	]
 }

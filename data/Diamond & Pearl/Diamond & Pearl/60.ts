@@ -87,6 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
 		fr: "Son cerveau s'est développé depuis qu'il tient debout. Sa corne peut traverser la pierre la plus dure."
 	},
 

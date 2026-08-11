@@ -72,18 +72,41 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733730,
+				tcgplayer: 516698,
+				cardtrader: 261233
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733730,
+				tcgplayer: 516698,
+				cardtrader: 261233
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 733730
-	}
+	
 }
 
 export default card

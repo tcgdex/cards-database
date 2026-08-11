@@ -71,29 +71,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 		fr: "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
 		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126"
 	},
 
-	thirdParty: {
-		cardmarket: 273731,
-		tcgplayer: 42378
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273731,
+				tcgplayer: 42378
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107033
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107033
+			},
 		},
 		{
 			type: "normal",

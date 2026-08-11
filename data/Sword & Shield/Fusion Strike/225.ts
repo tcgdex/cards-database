@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Ryo Ueda",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582961,
-		tcgplayer: 253091
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582961,
+				tcgplayer: 253091
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582961,
+				tcgplayer: 253091
+			}
+		},
+	],
 }
 
 export default card

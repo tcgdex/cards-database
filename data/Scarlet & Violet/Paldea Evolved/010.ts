@@ -35,18 +35,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715482,
+				tcgplayer: 497421,
+				cardtrader: 248306
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715482,
+				tcgplayer: 497421,
+				cardtrader: 248306
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 715482
-	}
+	description: {
+		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+	},
 }
 
 export default card

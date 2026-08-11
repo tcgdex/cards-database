@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+	},
+
 	thirdParty: {
 		cardmarket: 388622,
 		tcgplayer: 195167

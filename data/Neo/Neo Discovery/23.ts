@@ -77,23 +77,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
 		fr: "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
 	},
 
-	thirdParty: {
-		cardmarket: 274515,
-		tcgplayer: 86204
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274515,
+				tcgplayer: 86204
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274515,
+				tcgplayer: 86204
+			}
 		}
 	]
 }

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lycanroc VMAX",
@@ -89,10 +83,15 @@ const card: Card = {
 	dexId: [745],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574140,
-		tcgplayer: 246713
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574140,
+				tcgplayer: 246713
+			}
+		},
+	],
 }
 
 export default card

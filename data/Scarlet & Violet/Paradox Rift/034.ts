@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740510,
+				tcgplayer: 523643,
+				cardtrader: 265171
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740510,
+				tcgplayer: 523643,
+				cardtrader: 265171
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 740510
-	}
+	
 }
 
 export default card

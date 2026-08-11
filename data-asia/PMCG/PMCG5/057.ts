@@ -4,8 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Surgeの槍中",
+		ja: "マチスのオニスズメ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576811
+			},
 		},
 	],
 };

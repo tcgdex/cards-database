@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+	},
+
 	thirdParty: {
 		cardmarket: 280283,
 		tcgplayer: 87643

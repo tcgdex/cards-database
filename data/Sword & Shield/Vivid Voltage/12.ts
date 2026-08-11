@@ -91,12 +91,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action."
 	},
 
-	thirdParty: {
-		cardmarket: 511480,
-		tcgplayer: 226374
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511480,
+				tcgplayer: 226374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511480,
+				tcgplayer: 226374
+			}
+		},
+	],
 }
 
 export default card

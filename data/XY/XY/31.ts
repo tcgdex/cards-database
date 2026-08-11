@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+	},
+
 	thirdParty: {
 		cardmarket: 281368,
 		tcgplayer: 89139

@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking."
 	},
 
-	thirdParty: {
-		cardmarket: 545616,
-		tcgplayer: 234169
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545621,
+				tcgplayer: 234169
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545621,
+				tcgplayer: 234169
+			}
+		},
+	],
 }
 
 export default card

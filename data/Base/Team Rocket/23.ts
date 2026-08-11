@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -79,23 +80,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Digs large sinkholes in the ground and tries to trap its enemies in them.",
 		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274059,
-		tcgplayer: 84589
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274059,
+				tcgplayer: 84589
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274059,
+				tcgplayer: 84589
+			}
 		}
 	]
 }

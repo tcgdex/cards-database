@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+	},
+
 	thirdParty: {
 		cardmarket: 278119,
 		tcgplayer: 88088

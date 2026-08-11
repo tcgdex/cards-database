@@ -53,12 +53,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -66,10 +60,22 @@ const card: Card = {
 		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
 	},
 
-	thirdParty: {
-		cardmarket: 483549,
-		tcgplayer: 219329
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483549,
+				tcgplayer: 219329
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483549,
+				tcgplayer: 219329
+			}
+		},
+	],
 }
 
 export default card

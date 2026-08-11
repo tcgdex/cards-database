@@ -119,6 +119,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The body is covered by stiff, needle-like scales. If it becomes excited, the needles bristle outwards.",
+	},
+
 	thirdParty: {
 		cardmarket: 273599,
 		tcgplayer: 95967

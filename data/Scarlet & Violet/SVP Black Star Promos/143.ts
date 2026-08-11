@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Miraidon-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Lightning"],
@@ -66,9 +66,25 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "5ban Graphics"
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767569,
+				tcgplayer: 593277
+			},
+		}
+	],
 }
 
 export default card

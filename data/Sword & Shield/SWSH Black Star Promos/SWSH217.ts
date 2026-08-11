@@ -14,10 +14,16 @@ const card: Card = {
 		en: "Morpeko V-UNION"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	suffix: "V",
 	hp: 310,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -56,6 +56,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+	},
 
 	thirdParty: {
 		cardmarket: 290105

@@ -71,8 +71,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it's surprised or agitated, the 14 fur spikes on its back will stand up involuntarily.",
+	},
+
 	thirdParty: {
-		cardmarket: 408014,
+		cardmarket: 408019,
 		tcgplayer: 201248
 	}
 }

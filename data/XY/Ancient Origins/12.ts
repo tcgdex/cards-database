@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Legends say this Pokémon confounded opponents with its swift movements.",
+	},
+
 	thirdParty: {
 		cardmarket: 284193,
 		tcgplayer: 100619

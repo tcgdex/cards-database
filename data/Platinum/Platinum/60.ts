@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		476,
-	],
+	dexId: [476],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Nosepass",
-		fr: "Tarinor",
+		fr: "Tarinor"
 	},
 
 	stage: "Stage1",
@@ -78,19 +76,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278481,
-		tcgplayer: 88377
+	description: {
+		en: "It freely controls three small units called Mini-Noses using magnetic force."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88377,
+				cardmarket: 278481
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278481,
+				tcgplayer: 88377
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280516,
 		tcgplayer: 89283

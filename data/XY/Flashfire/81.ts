@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 281564,
 		tcgplayer: 91218

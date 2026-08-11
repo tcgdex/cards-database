@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
+		en: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
 		fr: "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes."
 	},
 

@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Lempar koin 2 kali. Jika semuanya sisi depan, pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705370,
+				tcgplayer: 565928,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

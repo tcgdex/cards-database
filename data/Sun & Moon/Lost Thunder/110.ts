@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Apparently, the larger the green parts of this Pokémon, the more collectors value it. It's a particular favorite among elderly people.",
+	},
+
 	thirdParty: {
 		cardmarket: 365747,
 		tcgplayer: 178923

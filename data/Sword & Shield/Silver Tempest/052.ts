@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lanturn"
 	},
 
+	illustrator: "aoki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
 	},
 
-	thirdParty: {
-		cardmarket: 682099,
-		tcgplayer: 451707
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682099,
+				tcgplayer: 451707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682099,
+				tcgplayer: 451707
+			}
+		},
+	],
 }
 
 export default card

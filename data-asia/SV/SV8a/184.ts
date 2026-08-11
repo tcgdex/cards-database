@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "雙方的所有寶可夢（「擁有規則的寶可夢」除外），不會受到對手的「寶可夢【ex】・【V】」招式的傷害。 這張卡只要在棄牌區，無法加入手牌，無法放回牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803297,
+				tcgplayer: 602644,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H"
 }

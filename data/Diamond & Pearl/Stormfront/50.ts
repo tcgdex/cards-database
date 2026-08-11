@@ -83,6 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
 		fr: "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant."
 	},
 

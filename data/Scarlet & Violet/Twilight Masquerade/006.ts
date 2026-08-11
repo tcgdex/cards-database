@@ -44,18 +44,38 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769180,
+				tcgplayer: 550050
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769180,
+				tcgplayer: 550050
+			}
+		},
+	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 769180
-	}
 }
 
 export default card

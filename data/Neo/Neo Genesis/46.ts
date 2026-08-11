@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
 		fr: "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu."
 	},
 
-	thirdParty: {
-		cardmarket: 274446,
-		tcgplayer: 88480
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274446,
+				tcgplayer: 88480
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274446,
+				tcgplayer: 88480
+			}
 		}
 	]
 }

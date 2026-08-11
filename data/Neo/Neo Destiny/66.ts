@@ -64,22 +64,29 @@ const card: Card = {
 		},
 	],
 
+	retreat: 1,
+
 	description: {
+		en: "Its tail has a brain of its own, which can respond to stimuli such as scents. Many unsuspecting people have been bitten by it.",
 		fr: "Sa queue a sa vie propre. Elle réagit à ce qui l'entoure. Bon nombre de personnes ne se méfiant pas se sont fait mordre."
 	},
 
-	thirdParty: {
-		cardmarket: 274718,
-		tcgplayer: 85728
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274718,
+				tcgplayer: 85728
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274718,
+				tcgplayer: 85728
+			}
 		}
 	]
 }

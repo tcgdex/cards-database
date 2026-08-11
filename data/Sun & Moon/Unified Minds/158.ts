@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Fruits are its favorite foods. This gourmet carefully picks out just the ripe ones using its sonar.",
+	},
+
 	thirdParty: {
 		cardmarket: 388582,
 		tcgplayer: 195156

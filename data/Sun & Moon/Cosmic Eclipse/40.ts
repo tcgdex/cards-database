@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+	},
+
 	thirdParty: {
 		cardmarket: 407849,
 		tcgplayer: 201216

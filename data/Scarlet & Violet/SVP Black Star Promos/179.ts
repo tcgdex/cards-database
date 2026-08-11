@@ -14,8 +14,9 @@ const card: Card = {
 		pt: "Xerneas ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],
@@ -59,7 +60,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 810394,
+				tcgplayer: 619584
+			},
+		}
+	],
 }
 
 export default card

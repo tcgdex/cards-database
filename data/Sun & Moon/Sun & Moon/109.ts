@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+	},
+
 	thirdParty: {
 		cardmarket: 295421,
 		tcgplayer: 126981

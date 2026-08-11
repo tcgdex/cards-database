@@ -78,23 +78,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
 		fr: "Un arôme épicé émane de son tour de cou. Cet arôme agit comme un stimulant réjuvénateur."
 	},
 
-	thirdParty: {
-		cardmarket: 274428,
-		tcgplayer: 83743
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274428,
+				tcgplayer: 83743
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274428,
+				tcgplayer: 83743
+			}
 		}
 	]
 }

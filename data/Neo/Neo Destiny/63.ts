@@ -67,23 +67,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Large from birth, this Pokémon increases in size throughout its life by regularly shedding its skin.",
 		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
 	},
 
-	thirdParty: {
-		cardmarket: 274715,
-		tcgplayer: 84929
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274715,
+				tcgplayer: 84929
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274715,
+				tcgplayer: 84929
+			}
 		}
 	]
 }

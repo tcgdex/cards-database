@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
+	},
+
 	thirdParty: {
 		cardmarket: 280539,
 		tcgplayer: 83529

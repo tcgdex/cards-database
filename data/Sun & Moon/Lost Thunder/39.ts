@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+	},
+
 	thirdParty: {
 		cardmarket: 365679,
 		tcgplayer: 178842

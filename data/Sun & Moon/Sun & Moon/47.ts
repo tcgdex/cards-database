@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 295358,
 		tcgplayer: 126918

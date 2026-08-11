@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When restored Anorith are released into the ocean, they don't thrive, because the water composition has changed since their era.",
+	},
+
 	thirdParty: {
 		cardmarket: 408204,
 		tcgplayer: 201143

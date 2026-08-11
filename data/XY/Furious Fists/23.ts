@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+	},
+
 	thirdParty: {
 		cardmarket: 281687,
 		tcgplayer: 92198

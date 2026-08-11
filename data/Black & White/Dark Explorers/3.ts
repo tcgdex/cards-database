@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280331,
 		tcgplayer: 90322

@@ -66,23 +66,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
 		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
 	},
 
-	thirdParty: {
-		cardmarket: 274113,
-		tcgplayer: 87068
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274113,
+				tcgplayer: 87068
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274113,
+				tcgplayer: 87068
+			}
 		}
 	]
 }

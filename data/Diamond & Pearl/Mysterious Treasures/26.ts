@@ -82,8 +82,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Once it appears, its rage never settles until it has razed the fields and mountains around it.",
 		fr: "Lorsqu'il apparaît, sa rage ne cesse qu'après qu'il a rasé les plaines et montagnes alentour."
 	},
 

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 281267,
 		tcgplayer: 90549

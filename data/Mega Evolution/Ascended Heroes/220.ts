@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Dustox"
 	},
 
+	evolveFrom: {
+		en: "Cascoon",
+		fr: "Blindalys",
+		es: "Cascoon",
+		'es-mx': "Cascoon",
+		de: "Panekon",
+		it: "Cascoon",
+		pt: "Cascoon",
+	},
+
 	illustrator: "IKEDA Saki",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [269],
 	hp: 140,
 	types: ["Grass"],
 	stage: "Stage2",
@@ -71,13 +82,28 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676032,
-		cardmarket: 869831
-	}
+	description: {
+		en: "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869831,
+				tcgplayer: 676032
+			}
+		}
+	],
 }
 
 export default card

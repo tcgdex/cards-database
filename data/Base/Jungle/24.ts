@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -80,21 +81,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
 		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
 	},
 
-	thirdParty: {
-		cardmarket: 273805,
-		tcgplayer: 106986
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273805,
+				tcgplayer: 106986
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273805,
+				tcgplayer: 106986
+			}
 		}
 	],
 }

@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273947,
-		tcgplayer: 42469
+
+	description: {
+		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273947,
+				tcgplayer: 42469
+			}
 		}
 	]
 }

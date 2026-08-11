@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Taiso"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658798,
-		tcgplayer: 272389
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658798,
+				tcgplayer: 272389
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658798,
+				tcgplayer: 272389
+			}
+		},
+	],
 }
 
 export default card

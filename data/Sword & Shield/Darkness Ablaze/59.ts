@@ -93,12 +93,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -106,10 +100,22 @@ const card: Card = {
 		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
 	},
 
-	thirdParty: {
-		cardmarket: 483169,
-		tcgplayer: 219408
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483169,
+				tcgplayer: 219408
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483169,
+				tcgplayer: 219408
+			}
+		},
+	],
 }
 
 export default card

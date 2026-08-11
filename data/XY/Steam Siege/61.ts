@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+	},
+
 	thirdParty: {
 		cardmarket: 291631,
 		tcgplayer: 121191

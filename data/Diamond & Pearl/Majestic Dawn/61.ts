@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
+	},
+
 	thirdParty: {
 		cardmarket: 278110,
 		tcgplayer: 84955

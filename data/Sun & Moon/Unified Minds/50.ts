@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will pick up anything it finds on the ground. Sometimes it finds coins, so Murkrow and Meowth will go after it.",
+	},
+
 	thirdParty: {
 		cardmarket: 388077,
 		tcgplayer: 194973

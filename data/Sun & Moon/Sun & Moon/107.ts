@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By bending its beak, it can produce a variety of call and brand itself a noisy nuisance for its neighbors.",
+	},
+
 	thirdParty: {
 		cardmarket: 295419,
 		tcgplayer: 126979

@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+	},
+
 	thirdParty: {
 		cardmarket: 297522,
 		tcgplayer: 130971

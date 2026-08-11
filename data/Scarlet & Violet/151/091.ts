@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733686,
+				tcgplayer: 516660,
+				cardtrader: 261163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733686,
+				tcgplayer: 516660,
+				cardtrader: 261163
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 733686
-	}
+	
 }
 
 export default card

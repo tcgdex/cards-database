@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+	},
+
 	thirdParty: {
 		cardmarket: 288490,
 		tcgplayer: 113710

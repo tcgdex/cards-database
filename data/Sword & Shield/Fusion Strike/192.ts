@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "KEIICHIRO ITO",
@@ -74,17 +86,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582866,
-		tcgplayer: 253347
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582866,
+				tcgplayer: 253347
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582866,
+				tcgplayer: 253347
+			}
+		},
+	],
 }
 
 export default card

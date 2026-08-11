@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.",
+	},
+
 	thirdParty: {
 		cardmarket: 278120,
 		tcgplayer: 88145

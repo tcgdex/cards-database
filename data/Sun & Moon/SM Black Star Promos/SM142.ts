@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Kyurem",
 		de: "Kyurem"
 	},
-	illustrator: "TOKIYA",
-	rarity: "Rare",
+	illustrator: "Masakazu Fukuda",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
 }
 
 export default card

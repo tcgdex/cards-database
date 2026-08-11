@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280906,
 		tcgplayer: 90267

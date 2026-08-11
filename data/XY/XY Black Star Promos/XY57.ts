@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -79,6 +79,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
+	},
 
 	thirdParty: {
 		cardmarket: 289782

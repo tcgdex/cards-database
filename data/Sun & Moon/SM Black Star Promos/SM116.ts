@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Voltriant"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -92,6 +92,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+	},
 }
 
 export default card

@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
 	},
 
-	thirdParty: {
-		cardmarket: 545446,
-		tcgplayer: 234242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545446,
+				tcgplayer: 234242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545446,
+				tcgplayer: 234242
+			}
+		},
+	],
 }
 
 export default card

@@ -74,18 +74,41 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its 80 tentacles can stretch and shrink freely. Tentacruel ensnares prey in a net of spread-out tentacles, delivering venomous stings to its catch.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733668,
+				tcgplayer: 516567,
+				cardtrader: 261221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733668,
+				tcgplayer: 516567,
+				cardtrader: 261221
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 733668
-	}
+	
 }
 
 export default card

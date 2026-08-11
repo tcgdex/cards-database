@@ -54,23 +54,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
 		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
 	},
 
-	thirdParty: {
-		cardmarket: 274568,
-		tcgplayer: 86632
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274568,
+				tcgplayer: 86632
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274568,
+				tcgplayer: 86632
+			}
 		}
 	]
 }

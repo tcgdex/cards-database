@@ -13,6 +13,14 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -72,19 +80,26 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857636,
-		tcgplayer: 662191
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857636,
+				tcgplayer: 662191,
+				cardtrader: 356845
+			}
+		},
+	],	
 }
 
 export default card

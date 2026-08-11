@@ -57,13 +57,54 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 805457
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805457,
+				tcgplayer: 610423
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805457,
+				tcgplayer: 610423
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806504,
+				tcgplayer: 610585
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806505,
+				tcgplayer: 610686
+			}
+		},
+	],
 }
 
 export default card

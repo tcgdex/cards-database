@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "將自己的所有手牌放回牌庫並重洗。然後，從牌庫抽出比放回張數多1張的卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803303,
+				tcgplayer: 602654,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

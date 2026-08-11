@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon can control water bubbles. It practice diligently so it can learn to make big bubbles.",
+	},
+
 	thirdParty: {
 		cardmarket: 365702,
 		tcgplayer: 178874

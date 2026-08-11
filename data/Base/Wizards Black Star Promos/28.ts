@@ -46,18 +46,27 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "One summer, a group of Pikachus was found riding the waves at the local beach.",
 		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
 	},
 
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161754
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89643
+			},
 		}
 	]
 }

@@ -74,18 +74,38 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "A rough customer that wildly flails its giant claws. It is said to be extremely hard to raise.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769222,
+				tcgplayer: 550092
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769222,
+				tcgplayer: 550092
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 769222
-	}
 }
 
 export default card

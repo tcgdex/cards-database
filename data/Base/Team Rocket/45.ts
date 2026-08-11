@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
 		fr: "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants."
 	},
 
-	thirdParty: {
-		cardmarket: 274098,
-		tcgplayer: 84665
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274098,
+				tcgplayer: 84665
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274098,
+				tcgplayer: 84665
+			}
 		}
 	]
 }

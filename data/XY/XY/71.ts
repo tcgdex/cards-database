@@ -107,6 +107,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+	},
+
 	thirdParty: {
 		cardmarket: 281408,
 		tcgplayer: 86545

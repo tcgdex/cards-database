@@ -76,21 +76,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The tips of its split tail quiver whenever it uses its psychic abilities to read its opponent's next move.",
 		fr: "La double extrémité de sa queue s'agite quand il utilise ses pouvoirs psychiques pour deviner quelle sera la prochaine action de son adversaire."
 	},
 
-	thirdParty: {
-		cardmarket: 274656,
-		tcgplayer: 84592
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274656,
+				tcgplayer: 84592
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274656,
+				tcgplayer: 84592
+			}
 		}
 	]
 }

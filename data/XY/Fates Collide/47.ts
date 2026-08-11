@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+	},
+
 	thirdParty: {
 		cardmarket: 289869,
 		tcgplayer: 117807

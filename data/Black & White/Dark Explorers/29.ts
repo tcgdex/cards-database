@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+	},
+
 	thirdParty: {
 		cardmarket: 280357,
 		tcgplayer: 85201

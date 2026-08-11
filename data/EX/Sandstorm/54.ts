@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		360,
-	],
+	dexId: [360],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Qulbutoké de votre main sur Okeoke (vous faites ainsi évoluer Okeoke). Retirez à Okeoke tous ses marqueurs de dégât.",
 				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du Woingenau von deiner Hand auf Isso legen (das zählt als Entwickeln von Isso). Entferne alle Schadensmarken von Isso."
-			},
+			}
 		},
 	],
 
@@ -70,19 +68,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275831,
-		tcgplayer: 90654
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275831,
+				tcgplayer: 90654
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275831,
+				tcgplayer: 90654
+			}
 		},
-	]
+	],
+
 }
 
 export default card

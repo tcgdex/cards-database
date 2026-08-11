@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hippopotas",
@@ -67,10 +61,22 @@ const card: Card = {
 	dexId: [449],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574132,
-		tcgplayer: 246878
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574132,
+				tcgplayer: 246878
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574132,
+				tcgplayer: 246878
+			}
+		},
+	],
 }
 
 export default card

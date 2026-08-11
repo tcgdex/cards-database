@@ -49,6 +49,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+	},
+
 	thirdParty: {
 		cardmarket: 281213,
 		tcgplayer: 84481

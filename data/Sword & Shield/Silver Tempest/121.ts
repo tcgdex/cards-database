@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kastadur"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,20 +49,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
 	},
 
-	thirdParty: {
-		cardmarket: 682168,
-		tcgplayer: 451774
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682168,
+				tcgplayer: 451774
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682168,
+				tcgplayer: 451774
+			}
+		},
+	],
 }
 
 export default card

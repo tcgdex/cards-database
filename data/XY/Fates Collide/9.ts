@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+	},
+
 	thirdParty: {
 		cardmarket: 289835,
 		tcgplayer: 117772

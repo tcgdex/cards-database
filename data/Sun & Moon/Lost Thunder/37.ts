@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The guardian deity of Ula'ula is a lazy Pokémon. It commands plants to immobilize its foes and then deals them a savage blow with its horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 365677,
 		tcgplayer: 178840

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dedenne"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A Dedenne's whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
 	},
 
-	thirdParty: {
-		cardmarket: 682132,
-		tcgplayer: 451739
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682132,
+				tcgplayer: 451739
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682132,
+				tcgplayer: 451739
+			}
+		},
+	],
 }
 
 export default card

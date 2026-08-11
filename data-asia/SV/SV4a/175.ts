@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Lihat Kartu Pegangan lawan, ambil kartu dari atas Deck sendiri sejumlah 2 lembar untuk tiap lembar Supporter yang ada di antaranya."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746557,
+				tcgplayer: 567576,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577405,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

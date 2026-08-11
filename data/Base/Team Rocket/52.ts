@@ -73,21 +73,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It follows Onixes in their tunnels, looking for scraps of food they have left behind.",
 		fr: "Il suit les Onix dans leurs tunnels, à la recherche des restes de nourriture qu'ils ont laissé derrière eux."
 	},
 
-	thirdParty: {
-		cardmarket: 274105,
-		tcgplayer: 84819
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274105,
+				tcgplayer: 84819
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274105,
+				tcgplayer: 84819
+			}
 		}
 	]
 }

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lucario"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
+	},
 }
 
 export default card

@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",
@@ -77,17 +89,17 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582613,
-		tcgplayer: 253176
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 583016,
+				tcgplayer: 253176
+			}
+		},
+	],
 }
 
 export default card

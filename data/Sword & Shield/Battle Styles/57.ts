@@ -56,12 +56,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	},
 
-	thirdParty: {
-		cardmarket: 545396,
-		tcgplayer: 234223
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545396,
+				tcgplayer: 234223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545396,
+				tcgplayer: 234223
+			}
+		},
+	],
 }
 
 export default card

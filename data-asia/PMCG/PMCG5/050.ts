@@ -4,8 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのサンドスラッシュ",
+		ja: "タケシのサンドパン",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576766
+			},
 		},
 	],
 };

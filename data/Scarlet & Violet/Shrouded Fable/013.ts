@@ -57,18 +57,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "Krgc",
 
-	thirdParty: {
-		cardmarket: 780903
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780903,
+				tcgplayer: 560323
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780903,
+				tcgplayer: 560323
+			}
+		},
+	],
 }
 
 export default card

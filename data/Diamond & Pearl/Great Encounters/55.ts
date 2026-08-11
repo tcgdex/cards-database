@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to appear in front of kindly people to scatter a glowing down called \"joy dust.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 277957,
 		tcgplayer: 89943

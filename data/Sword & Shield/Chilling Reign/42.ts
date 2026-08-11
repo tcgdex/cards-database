@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
 	},
 
-	thirdParty: {
-		cardmarket: 567122,
-		tcgplayer: 241695
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567122,
+				tcgplayer: 241695
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567122,
+				tcgplayer: 241695
+			}
+		},
+	],
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [261],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -47,13 +48,44 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675940,
-		cardmarket: 869739
-	}
+	description: {
+		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869739,
+			tcgplayer: 675940
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870338,
+			tcgplayer: 676953
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870337,
+			tcgplayer: 677093
+		}
+	},
+],
 }
 
 export default card

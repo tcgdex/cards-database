@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land.",
+	},
+
 	thirdParty: {
 		cardmarket: 278055,
 		tcgplayer: 86399

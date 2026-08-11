@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large.",
+	},
+
 	thirdParty: {
 		cardmarket: 278075,
 		tcgplayer: 87870

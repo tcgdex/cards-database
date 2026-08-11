@@ -75,16 +75,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857683,
+				tcgplayer: 662187,
+				cardtrader: 356894
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857683,
-		tcgplayer: 662187
-	},
 
 	weaknesses: [{
 		type: "Fire",
@@ -93,3 +94,4 @@ const card: Card = {
 }
 
 export default card
+

@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The solar rays it absorbs are processed in its energy core and fired as a ball of light.",
+	},
+
 	thirdParty: {
 		cardmarket: 281856,
 		tcgplayer: 94508

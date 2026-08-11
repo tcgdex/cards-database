@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix",
+		fr: "Goupix"
 	},
 
 	stage: "Stage1",
@@ -82,16 +80,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87776,
+				cardmarket: 279176
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87776,
+				cardmarket: 279176
+			}
 		},
 	],
-	thirdParty: {
-		cardmarket: 279176,
-		tcgplayer: 87776
-	}
+
 }
 
 export default card

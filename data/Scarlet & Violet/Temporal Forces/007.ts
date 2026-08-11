@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760637,
+				tcgplayer: 542653
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760637,
+				tcgplayer: 542653
+			}
+		},
 	],
 
 	illustrator: "Taiga Kasai",
 
-	thirdParty: {
-		cardmarket: 760637
-	}
 }
 
 export default card

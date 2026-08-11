@@ -75,12 +75,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
 	},
 
-	thirdParty: {
-		cardmarket: 457408,
-		tcgplayer: 213076
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457408,
+				tcgplayer: 213076
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457408,
+				tcgplayer: 213076
+			}
+		},
+	],
 }
 
 export default card

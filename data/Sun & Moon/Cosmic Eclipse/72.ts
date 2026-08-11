@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When the bacteria living inside its antennae absorb Lanturn's bodily fluids, a strong luminescent effect is produced.",
+	},
+
 	thirdParty: {
 		cardmarket: 408009,
 		tcgplayer: 201246

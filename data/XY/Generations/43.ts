@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+	},
+
 	thirdParty: {
 		cardmarket: 288481,
 		tcgplayer: 113701

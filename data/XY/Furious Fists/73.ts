@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+	},
+
 	thirdParty: {
 		cardmarket: 281737,
 		tcgplayer: 92252

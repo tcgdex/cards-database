@@ -63,20 +63,26 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 567125,
-		tcgplayer: 241698
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567125,
+				tcgplayer: 241698
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 672377
+			}
+		},
+	],
 }
 
 export default card

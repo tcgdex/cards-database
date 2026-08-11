@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Legend says a boulder on an icy mountain absorbed the distress and regrets of a stranded mountaineer, giving rise to Glalie.",
+	},
+
 	thirdParty: {
 		cardmarket: 297494,
 		tcgplayer: 130932

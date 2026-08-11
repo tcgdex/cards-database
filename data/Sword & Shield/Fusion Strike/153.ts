@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Souichirou Gunjima",
@@ -65,17 +71,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582781,
-		tcgplayer: 253367
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582781,
+				tcgplayer: 253367
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582781,
+				tcgplayer: 253367
+			}
+		},
+	],
 }
 
 export default card

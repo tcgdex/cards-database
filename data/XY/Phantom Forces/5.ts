@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 281806,
 		tcgplayer: 94138

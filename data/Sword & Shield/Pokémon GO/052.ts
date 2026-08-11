@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heiteira"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -65,19 +66,46 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
 	},
 
-	thirdParty: {
-		cardmarket: 664600,
-		tcgplayer: 276967
-	}
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665274,
+				tcgplayer: 276967
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665274,
+				tcgplayer: 276967
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 669498,
+				tcgplayer: 279929
+			}
+		},
+	],
 }
 
 export default card

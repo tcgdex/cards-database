@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shaymin VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 250,
@@ -55,20 +56,32 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608448,
-		tcgplayer: 263611
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608448,
+				tcgplayer: 263611
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 675937
+			}
+		},
+	],
 }
 
 export default card

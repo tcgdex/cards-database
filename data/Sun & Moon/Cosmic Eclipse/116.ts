@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+	},
+
 	thirdParty: {
 		cardmarket: 408229,
 		tcgplayer: 201148

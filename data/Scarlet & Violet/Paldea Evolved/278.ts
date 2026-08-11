@@ -18,14 +18,18 @@ const card: Card = {
 	types: ["Grass"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715753,
+				tcgplayer: 497700,
+				cardtrader: 248913
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 715753
-	}
+	
 }
 
 export default card

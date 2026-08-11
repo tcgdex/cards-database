@@ -65,18 +65,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its physical capabilities are no different than a Finizen's, but when its allies are in danger, it transforms and powers itself up.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769234,
+				tcgplayer: 550104
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769234,
+				tcgplayer: 550104
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775951,
+			}
+		},
+	],
 
 	illustrator: "Ligton",
 
-	thirdParty: {
-		cardmarket: 769234
-	}
 }
 
 export default card

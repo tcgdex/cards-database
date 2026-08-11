@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードは、HP60のタイプのたねポケモンとして、場に出すことができる。\n自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。\n\nこのカードは、にげられない。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680229,
+				tcgplayer: 570148,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Common"

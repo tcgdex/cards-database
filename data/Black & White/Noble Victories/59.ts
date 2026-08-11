@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+	},
+
 	thirdParty: {
 		cardmarket: 280182,
 		tcgplayer: 86587

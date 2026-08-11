@@ -15,7 +15,17 @@ const card: Card = {
 
 	rarity: "None",
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280091,
+				tcgplayer: 98683
+			}
+		},
+	],
+
 }
 
 export default card

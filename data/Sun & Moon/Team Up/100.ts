@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+	},
+
 	thirdParty: {
 		cardmarket: 369029,
 		tcgplayer: 183882

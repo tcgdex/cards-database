@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
+	},
+
+	illustrator: "Taiga Kayama",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857618,
+				tcgplayer: 662196,
+				cardtrader: 356826
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857618,
-		tcgplayer: 662196
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857618,
+				tcgplayer: 662196,
+				cardtrader: 356826
+			}
+		},
+	],	
 }
 
 export default card

@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+	},
+
 	thirdParty: {
 		cardmarket: 311931,
 		tcgplayer: 149109

@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
 		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
 	},
 

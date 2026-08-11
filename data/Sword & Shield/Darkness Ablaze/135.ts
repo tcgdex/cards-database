@@ -58,12 +58,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -71,10 +65,22 @@ const card: Card = {
 		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
 	},
 
-	thirdParty: {
-		cardmarket: 483554,
-		tcgplayer: 219331
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483554,
+				tcgplayer: 219331
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483554,
+				tcgplayer: 219331
+			}
+		},
+	],
 }
 
 export default card

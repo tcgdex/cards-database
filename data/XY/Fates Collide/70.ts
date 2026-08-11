@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+	},
+
 	thirdParty: {
 		cardmarket: 289891,
 		tcgplayer: 117845

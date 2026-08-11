@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+	},
+
 	thirdParty: {
 		cardmarket: 278118,
 		tcgplayer: 87860

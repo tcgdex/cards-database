@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
+	illustrator: "Yusuke Kozaki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,16 +29,18 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664706,
-		tcgplayer: 277009
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665689,
+				tcgplayer: 277009
+			}
+		},
+	],
 }
 
 export default card

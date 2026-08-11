@@ -70,23 +70,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes.",
 		fr: "Son ADN instable est affecté par son environnement. Il évolue en fonction des changements de son habitat."
 	},
 
-	thirdParty: {
-		cardmarket: 274549,
-		tcgplayer: 85075
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274549,
+				tcgplayer: 85075
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274549,
+				tcgplayer: 85075
+			}
 		}
 	]
 }

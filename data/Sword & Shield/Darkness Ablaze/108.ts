@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
 	},
 
-	thirdParty: {
-		cardmarket: 483419,
-		tcgplayer: 219420
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483419,
+				tcgplayer: 219420
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483419,
+				tcgplayer: 219420
+			}
+		},
+	],
 }
 
 export default card

@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
 		fr: "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
 	},
 

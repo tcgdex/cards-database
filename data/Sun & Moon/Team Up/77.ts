@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon thrived 300 million years ago. It's said that living specimens can still be seen in a certain region—a rare sight.",
+	},
+
 	thirdParty: {
 		cardmarket: 369007,
 		tcgplayer: 183855

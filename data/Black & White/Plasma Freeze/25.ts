@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280903,
 		tcgplayer: 87925

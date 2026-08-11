@@ -55,6 +55,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+	},
 }
 
 export default card

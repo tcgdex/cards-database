@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+	},
+
 	thirdParty: {
 		cardmarket: 281043,
 		tcgplayer: 85757

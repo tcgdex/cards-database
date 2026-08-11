@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flamiau"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
 	},
 
-	thirdParty: {
-		cardmarket: 682072,
-		tcgplayer: 451661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682072,
+				tcgplayer: 451661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682072,
+				tcgplayer: 451661
+			}
+		},
+	],
 }
 
 export default card

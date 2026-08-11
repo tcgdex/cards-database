@@ -59,22 +59,32 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 817242
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817242,
+				tcgplayer: 623517
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817242,
+				tcgplayer: 623517
+			}
 		},
-	]
+	],
 }
 
 export default card

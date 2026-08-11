@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hokumil"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They say that any patisserie visited by Milcery is guaranteed success and good fortune.",
 	},
 
-	thirdParty: {
-		cardmarket: 608520,
-		tcgplayer: 263786
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608520,
+				tcgplayer: 263786
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608520,
+				tcgplayer: 263786
+			}
+		},
+	],
 }
 
 export default card

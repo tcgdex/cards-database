@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "查看自己的牌庫上方7張卡，從其中選擇【草】寶可夢卡與「基本【草】能量」卡合計最多2張，在給對手看過後加入手牌。將剩餘卡放回牌庫並重洗。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803263,
+				tcgplayer: 602578,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602579,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

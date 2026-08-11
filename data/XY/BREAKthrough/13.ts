@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+	},
+
 	thirdParty: {
 		cardmarket: 286259,
 		tcgplayer: 107132

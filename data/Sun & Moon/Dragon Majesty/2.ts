@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+	},
+
 	thirdParty: {
 		cardmarket: 363475,
 		tcgplayer: 175269

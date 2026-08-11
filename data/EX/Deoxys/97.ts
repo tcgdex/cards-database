@@ -23,7 +23,7 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -72,16 +72,17 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84772,
-		cardmarket: 276500
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84772,
+				cardmarket: 276500
+			},
+		},
+	],
+
 }
 
 export default card

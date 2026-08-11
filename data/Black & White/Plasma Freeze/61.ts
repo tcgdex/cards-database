@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.",
+	},
+
 	thirdParty: {
 		cardmarket: 280939,
 		tcgplayer: 87886

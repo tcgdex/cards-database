@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Cupidos V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -70,16 +71,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674095,
-		tcgplayer: 283964
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674095,
+				tcgplayer: 283964
+			}
+		},
+	],
 }
 
 export default card

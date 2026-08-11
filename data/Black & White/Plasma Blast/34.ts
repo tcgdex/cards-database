@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon are called the \"Signpost for Wandering Spirits.\" Children holding them sometimes vanish.",
+	},
+
 	thirdParty: {
 		cardmarket: 281055,
 		tcgplayer: 84963

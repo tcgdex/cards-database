@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The gear with the red core is rotated at high speed for a rapid energy charge.",
+	},
+
 	thirdParty: {
 		cardmarket: 280405,
 		tcgplayer: 86487

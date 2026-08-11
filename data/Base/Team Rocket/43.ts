@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
+		fr: "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
 		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
 	},
 
-	thirdParty: {
-		cardmarket: 274096,
-		tcgplayer: 84641
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274096,
+				tcgplayer: 84641
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274096,
+				tcgplayer: 84641
+			}
 		}
 	]
 }

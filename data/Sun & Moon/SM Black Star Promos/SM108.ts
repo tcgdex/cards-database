@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pikachu de Sacha",
 	},
 	illustrator: "2017 Pikachu Project",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pikachu is wearing its Trainer's cap. Since the cap's not the right size, the fit is a bit loose.",
+	},
 }
 
 export default card

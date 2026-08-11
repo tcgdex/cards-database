@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its immense size is the reason for its popularity. Wailord watching is a favorite sightseeing activity in various parts of the world.",
+	},
+
 	thirdParty: {
 		cardmarket: 361287,
 		tcgplayer: 170857

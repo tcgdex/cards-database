@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280813,
 		tcgplayer: 86929

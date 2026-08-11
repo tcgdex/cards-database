@@ -4,15 +4,26 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "請求書",
+		ja: "マサキ",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575570
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 576997
+			},
 		},
 	],
 };

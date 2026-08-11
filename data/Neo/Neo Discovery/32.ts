@@ -76,23 +76,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
 		fr: "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
 	},
 
-	thirdParty: {
-		cardmarket: 274524,
-		tcgplayer: 90142
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274524,
+				tcgplayer: 90142
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274524,
+				tcgplayer: 90142
+			}
 		}
 	]
 }

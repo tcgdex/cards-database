@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
 	},
 
-	thirdParty: {
-		cardmarket: 539173,
-		tcgplayer: 232448
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539173,
+				tcgplayer: 232448
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539173,
+				tcgplayer: 232448
+			}
+		},
+	],
 }
 
 export default card

@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Flegmon"
 	},
 
-	illustrator: "Saya　Tsuruta",
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -69,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+	},
 
 	thirdParty: {
 		cardmarket: 277984,

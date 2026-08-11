@@ -45,22 +45,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 817218
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817218,
+				tcgplayer: 623493
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817218,
+				tcgplayer: 623493
+			}
 		},
-	]
+	],
 }
 
 export default card

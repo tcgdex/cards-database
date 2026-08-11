@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -59,14 +57,12 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It plays with others by touching tails and setting off sparks. This appears to be a test of courage.",
 		fr: "Il prouve son courage en touchant la queue électrifiée de ses pairs."
@@ -74,17 +70,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88020,
+				cardmarket: 278562
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278562,
-		tcgplayer: 88020
-	}
 }
 
 export default card

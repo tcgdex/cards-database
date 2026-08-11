@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+	},
+
 	thirdParty: {
 		cardmarket: 277929,
 		tcgplayer: 88363

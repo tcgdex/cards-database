@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Pifeuil"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -92,11 +92,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "holo"
 		}
 	]
 }

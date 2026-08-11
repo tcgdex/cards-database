@@ -58,6 +58,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 281501,
 		tcgplayer: 91151

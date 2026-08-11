@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Tornupto VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,
@@ -75,20 +76,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658615,
-		tcgplayer: 272255
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658615,
+				tcgplayer: 272255
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Studio Bora Inc.",
@@ -74,10 +80,16 @@ const card: Card = {
 		damage: 50
 	}],
 
-	thirdParty: {
-		cardmarket: 583041,
-		tcgplayer: 253284
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 583041,
+				tcgplayer: 253284
+			}
+		},
+	],
 }
 
 export default card

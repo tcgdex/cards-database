@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer.",
+	},
+
 	thirdParty: {
 		cardmarket: 280711,
 		tcgplayer: 90016

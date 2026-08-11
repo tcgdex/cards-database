@@ -14,23 +14,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
 		fr: "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc.",
 		de: "Tausche dein Aktives Pokémon mit 1 der Pokémon auf der Bank aus."
 	},
 
-	thirdParty: {
-		cardmarket: 275032,
-		tcgplayer: 89711
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89711,
+				cardmarket: 275032
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89711,
+				cardmarket: 275032
+			},
+		},
+	],
 }
 
 export default card

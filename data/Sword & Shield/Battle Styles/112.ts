@@ -56,12 +56,6 @@ const card: Card = {
 	regulationMark: "E",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!"
 	},
 
-	thirdParty: {
-		cardmarket: 545641,
-		tcgplayer: 234151
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545641,
+				tcgplayer: 234151
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545641,
+				tcgplayer: 234151
+			}
+		},
+	],
 }
 
 export default card

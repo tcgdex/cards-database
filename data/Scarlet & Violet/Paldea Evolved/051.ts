@@ -56,18 +56,39 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715526,
+				tcgplayer: 497462,
+				cardtrader: 248658
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715526,
+				tcgplayer: 497462,
+				cardtrader: 248658
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715526
-	}
+	description: {
+		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+	},
 }
 
 export default card

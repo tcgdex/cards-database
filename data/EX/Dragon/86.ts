@@ -15,14 +15,29 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nChaque Pokémon  et  en jeu (les vôtres et ceux de votre adversaire) obtient 10 PV de plus.",
-		de: "Each  and  Pokémon in play (both yours and your opponent's) gets +10HP."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Grass and Lightning Pokémon in play (both yours and your opponent's) gets +10 HP.",
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		de: "Each  and  Pokémon in play (both yours and your opponent's) gets +10HP.",
 	},
 
-	thirdParty: {
-		tcgplayer: 86846,
-		cardmarket: 275963
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86846,
+				cardmarket: 275963
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86846,
+				cardmarket: 275963
+			},
+		},
+	],
+
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aerodactyl V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -61,16 +62,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670815,
-		tcgplayer: 283980
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674105,
+				tcgplayer: 283980
+			}
+		},
+	],
 }
 
 export default card

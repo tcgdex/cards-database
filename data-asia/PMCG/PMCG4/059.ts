@@ -4,15 +4,19 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "詐欺師オークの復ven",
+		ja: "にせオーキドの逆襲",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575773
+			},
 		},
 	],
 };

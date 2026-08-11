@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dodrio",
+		en: "Eevee",
 		fr: "Évoli"
 	},
 
@@ -74,21 +74,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
 		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 274512,
-		tcgplayer: 85316
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85316
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85316
+			}
 		}
 	]
 

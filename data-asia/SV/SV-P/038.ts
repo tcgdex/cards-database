@@ -1,46 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "噴火龍VMAX"
+		ja: "基本炎エネルギー",
+		'zh-tw': "噴火龍VMAX",
 	},
 
-	illustrator: "Shiburingaru",
-	category: "Pokemon",
-	hp: 330,
-	types: ["Fire"],
-	stage: "VMAX",
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	attacks: [{
-		name: {
-			'zh-tw': "利爪劈擊"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695779,
+				tcgplayer: 587795,
+			},
 		},
+	],
 
-		damage: 100,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "超極巨地獄滅焰"
-		},
+	rarity: "Promo",
+};
 
-		effect: {
-			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。"
-		},
-
-		damage: 300,
-		cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

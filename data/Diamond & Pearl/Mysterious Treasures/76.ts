@@ -71,8 +71,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people.",
 		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
 	},
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -78,23 +76,33 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278435,
-		tcgplayer: 89106
+	description: {
+		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89106,
+				cardmarket: 278435
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			thirdParty: {
+				tcgplayer: 125077
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278435,
+				tcgplayer: 89106
+			}
 		}
-	]
+	],
+
 }
 
 export default card

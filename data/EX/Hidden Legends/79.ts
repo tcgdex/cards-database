@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts pour chaque marqueur de dégât sur Kaiminus.",
 				de: "Does 10 damage for each damage counter on Totodile."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -69,18 +67,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276153,
-		tcgplayer: 89996
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 89996,
+				cardmarket: 276153
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89996,
+				cardmarket: 276153
+			}
+		},
 	]
 }
 

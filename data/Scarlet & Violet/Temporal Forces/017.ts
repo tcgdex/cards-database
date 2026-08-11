@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "Sawsbuck in their Autumn Form are known for having very short tempers. The males fight each other incessantly.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760647,
+				tcgplayer: 542762
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760647,
+				tcgplayer: 542762
+			}
+		},
 	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 760647
-	}
 }
 
 export default card

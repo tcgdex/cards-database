@@ -48,22 +48,38 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+	},
+
+	illustrator: "osare",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857634,
+				tcgplayer: 660412,
+				cardtrader: 356842
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857634,
-		tcgplayer: 660412
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857634,
+				tcgplayer: 660412,
+				cardtrader: 356842
+			}
+		},
+	],	
 }
 
 export default card

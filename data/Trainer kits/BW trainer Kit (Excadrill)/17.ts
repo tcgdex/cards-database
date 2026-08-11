@@ -58,7 +58,7 @@ const card: Card = {
 			en: "Discard an Energy attached to the Defending Pokémon.",
 			fr: "Défaussez une Énergie attachée au Pokémon Défenseur."
 		},
-		damage: 80,
+		damage: 80
 	}],
 
 	weaknesses: [{
@@ -76,6 +76,16 @@ const card: Card = {
 	},
 
 	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280070,
+				tcgplayer: 98695
+			}
+		},
+	],
+
 }
 
 export default card

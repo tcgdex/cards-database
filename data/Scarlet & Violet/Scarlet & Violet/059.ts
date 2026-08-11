@@ -48,14 +48,29 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+	},
 
 	thirdParty: {
         cardmarket: 702354,

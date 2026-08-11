@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regieleki V"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682104,
-		tcgplayer: 451713
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682104,
+				tcgplayer: 451713
+			}
+		},
+	],
 }
 
 export default card

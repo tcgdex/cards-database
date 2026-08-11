@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This is Zygarde's form when about 10% of its cells have been gathered. It runs across the land at speeds greater than 60 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 327207,
 		tcgplayer: 165723

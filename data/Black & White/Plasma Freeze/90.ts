@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+	},
+
 	thirdParty: {
 		cardmarket: 280967,
 		tcgplayer: 85093

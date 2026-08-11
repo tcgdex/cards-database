@@ -50,12 +50,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -63,10 +57,22 @@ const card: Card = {
 		en: "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs."
 	},
 
-	thirdParty: {
-		cardmarket: 567110,
-		tcgplayer: 241683
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567110,
+				tcgplayer: 241683
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567110,
+				tcgplayer: 241683
+			}
+		},
+	],
 }
 
 export default card

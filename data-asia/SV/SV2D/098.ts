@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分のトラッシュから基本エネルギーを4枚まで選び、相手に見せて、手札に加える。（このカードの効果でトラッシュしたエネルギーは選べない。）"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707712,
+				tcgplayer: 565960,
+			},
+		},
+	],
+
 	trainerType: "Item"
 }
 

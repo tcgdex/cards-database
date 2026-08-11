@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+	},
+
 	thirdParty: {
 		cardmarket: 280350,
 		tcgplayer: 90404

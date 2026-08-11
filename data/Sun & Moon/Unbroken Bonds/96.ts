@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
+	},
+
 	thirdParty: {
 		cardmarket: 372387,
 		tcgplayer: 189195

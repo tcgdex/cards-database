@@ -74,18 +74,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Once it's caught the scent of faraway prey, the leader gives a signal, and the whole pack moves out.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769288,
+				tcgplayer: 550158
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769288,
+				tcgplayer: 550158
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 769288
-	}
 }
 
 export default card

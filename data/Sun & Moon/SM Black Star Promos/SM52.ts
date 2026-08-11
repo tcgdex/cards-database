@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Tectass"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
+	},
 }
 
 export default card

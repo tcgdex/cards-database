@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schneppke"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
 	},
 
-	thirdParty: {
-		cardmarket: 608484,
-		tcgplayer: 263733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608484,
+				tcgplayer: 263733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608484,
+				tcgplayer: 263733
+			}
+		},
+	],
 }
 
 export default card

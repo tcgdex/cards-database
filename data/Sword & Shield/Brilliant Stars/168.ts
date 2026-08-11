@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Cherens Obhut"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608680,
-		tcgplayer: 263887
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608714,
+				tcgplayer: 263887
+			}
+		},
+	],
 }
 
 export default card

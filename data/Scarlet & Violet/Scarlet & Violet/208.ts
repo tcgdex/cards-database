@@ -66,15 +66,26 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "zig",
+
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+	},
 
 	thirdParty: {
         cardmarket: 702504,

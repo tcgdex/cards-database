@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+	},
+
 	thirdParty: {
 		cardmarket: 280177,
 		tcgplayer: 85176

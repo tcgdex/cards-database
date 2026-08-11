@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Raichu GX"
 	},
 
-	illustrator: undefined,
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -93,7 +93,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
 }
 
 export default card

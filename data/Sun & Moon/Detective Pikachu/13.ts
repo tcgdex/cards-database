@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grasps its opponents with its four arms and twists them up in an intricate hold. People call it \"the Machamp special.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 370776,
 		tcgplayer: 186021

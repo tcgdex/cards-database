@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
 		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
 	},
 
-	thirdParty: {
-		cardmarket: 274520,
-		tcgplayer: 88274
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274520,
+				tcgplayer: 88274
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274520,
+				tcgplayer: 88274
+			}
 		}
 	]
 }

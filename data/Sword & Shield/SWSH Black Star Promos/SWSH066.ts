@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],
@@ -97,7 +97,7 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 505255
+		cardmarket: 516329
 	}
 }
 

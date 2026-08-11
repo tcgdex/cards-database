@@ -42,23 +42,44 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760703,
+				tcgplayer: 542817
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760703,
+				tcgplayer: 542817
+			}
+		},
 	],
 
 	illustrator: "Tomokazu Komiya",
 
-	thirdParty: {
-		cardmarket: 760703
-	}
 }
 
 export default card

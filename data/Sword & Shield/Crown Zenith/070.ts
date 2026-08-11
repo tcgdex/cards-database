@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Puppance"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +36,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
 	},
 
-	thirdParty: {
-		cardmarket: 691788,
-		tcgplayer: 478197
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691788,
+				tcgplayer: 478197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691788,
+				tcgplayer: 478197
+			}
+		},
+	],
 }
 
 export default card

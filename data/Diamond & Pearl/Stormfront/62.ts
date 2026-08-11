@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "This Pokémon's body is 95% made up of gases, which are blown away by strong gusts of wind.",
 		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser."
 	},
 

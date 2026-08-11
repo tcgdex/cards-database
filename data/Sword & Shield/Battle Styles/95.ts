@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "They make repeated eerie howls before dawn to call attention to their pack."
 	},
 
-	thirdParty: {
-		cardmarket: 545566,
-		tcgplayer: 234226
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545566,
+				tcgplayer: 234226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545566,
+				tcgplayer: 234226
+			}
+		},
+	],
 }
 
 export default card

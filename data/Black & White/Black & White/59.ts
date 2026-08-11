@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+	},
+
 	thirdParty: {
 		cardmarket: 279796,
 		tcgplayer: 89913

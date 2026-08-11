@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Manaphy"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 

@@ -98,6 +98,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It loves the honey of flowers and steals honey collected by Combee.",
+	},
+
 	thirdParty: {
 		cardmarket: 278091,
 		tcgplayer: 87582

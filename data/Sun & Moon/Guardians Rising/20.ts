@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Fleeing a volcanic eruption, it settled on a snowy mountain. As it races through the snowfields, it sends up a spray of snow.",
+	},
+
 	thirdParty: {
 		cardmarket: 297484,
 		tcgplayer: 130918

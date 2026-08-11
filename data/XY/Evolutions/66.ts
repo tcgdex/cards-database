@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
+	},
+
 	thirdParty: {
 		cardmarket: 293419,
 		tcgplayer: 124079

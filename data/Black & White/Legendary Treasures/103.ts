@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For some reason, it likes to land on people's heads softly and act like it's a hat.",
+	},
+
 	thirdParty: {
 		cardmarket: 281254,
 		tcgplayer: 89663

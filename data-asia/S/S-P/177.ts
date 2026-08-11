@@ -1,52 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "美錄梅塔V"
+		ja: "ユキワラシ",
+		'zh-tw': "美錄梅塔V",
 	},
 
-	illustrator: "sadaji",
+	illustrator: "otumami",
 	category: "Pokemon",
-	hp: 220,
-	types: ["Metal"],
+	hp: 60,
+	types: ["Water"],
+
+	description: {
+		ja: "寒い 土地でしか 生きられない。 マイナス １００度の 環境でも 元気に 跳ねまわっているよ。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "臂充能"
+	attacks: [
+		{
+			name: {
+				ja: "ずつき",
+				'zh-tw': "臂充能",
+			},
+			damage: 30,
+			cost: ["Water", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "若希望，從自己的手牌選擇1張【鋼】能量卡，附於這隻寶可夢身上。"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 570873,
+				tcgplayer: 597375,
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Metal", "Metal"]
-	}, {
-		name: {
-			'zh-tw': "百萬噸重拳"
-		},
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [361],
+};
 
-		damage: 140,
-		cost: ["Metal", "Metal", "Metal"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
-
-	retreat: 3,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

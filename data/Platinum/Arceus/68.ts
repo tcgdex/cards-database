@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		296,
-	],
+	dexId: [296],
 	
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -63,19 +61,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278940,
-		tcgplayer: 87132
+	description: {
+		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87132,
+				cardmarket: 278940
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278940,
+				tcgplayer: 87132
+			}
+		},
+	],
+
 }
 
 export default card

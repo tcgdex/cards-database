@@ -31,8 +31,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It is so powerful, it can knock down a mountain with hust one arm.",
 		fr: "Il est si puissant qu'il peut renverser une montagne d'un coup de coude."
 	},
 
@@ -66,18 +69,22 @@ const card: Card = {
 		damage: 50
 	}],
 
-	thirdParty: {
-		cardmarket: 274765,
-		tcgplayer: 89171
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274765,
+				tcgplayer: 89171
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274765,
+				tcgplayer: 89171
+			}
 		}
 	]
 }

@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725208,
+				tcgplayer: 509884,
+				cardtrader: 255813
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725208,
+				tcgplayer: 509884,
+				cardtrader: 255813
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 725208
-	}
+	
 }
 
 export default card

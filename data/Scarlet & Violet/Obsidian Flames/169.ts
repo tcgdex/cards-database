@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725249,
+				tcgplayer: 509698,
+				cardtrader: 256065
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725249,
+				tcgplayer: 509698,
+				cardtrader: 256065
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 725249
-	}
+	
 }
 
 export default card

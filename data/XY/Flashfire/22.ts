@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it.",
+	},
+
 	thirdParty: {
 		cardmarket: 281505,
 		tcgplayer: 91155

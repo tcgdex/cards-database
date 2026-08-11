@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
+	},
+
 	thirdParty: {
 		cardmarket: 277784,
 		tcgplayer: 87056

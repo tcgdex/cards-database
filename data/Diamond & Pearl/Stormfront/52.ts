@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
 		fr: "Il survole les forêts et les champs en quête de Pokémon insectes. Ils forment de grandes volées."
 	},
 

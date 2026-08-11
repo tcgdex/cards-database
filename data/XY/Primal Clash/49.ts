@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+	},
+
 	thirdParty: {
 		cardmarket: 273580,
 		tcgplayer: 95947

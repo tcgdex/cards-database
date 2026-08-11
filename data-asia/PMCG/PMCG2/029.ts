@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キューボン",
+		ja: "カラカラ",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [104],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576613
+			},
 		},
 	],
 };

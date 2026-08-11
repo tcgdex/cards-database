@@ -64,18 +64,38 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769213,
+				tcgplayer: 550083
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769213,
+				tcgplayer: 550083
+			}
+		},
+	],
 
 	illustrator: "Oku",
 
-	thirdParty: {
-		cardmarket: 769213
-	}
 }
 
 export default card

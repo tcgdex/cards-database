@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Yorkleff"
 	},
 
-	illustrator: "Mosakazu Fukuda",
+	illustrator: "Masakazu Fukuda",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
@@ -58,6 +58,16 @@ const card: Card = {
 	},
 
 	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280093,
+				tcgplayer: 98671
+			}
+		},
+	],
 
 }
 

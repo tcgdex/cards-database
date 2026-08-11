@@ -72,18 +72,39 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715505,
+				tcgplayer: 497443,
+				cardtrader: 248613
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715505,
+				tcgplayer: 497443,
+				cardtrader: 248613
+			}
+		},
+	],
 
 	illustrator: "Uta",
 
-	thirdParty: {
-		cardmarket: 715505
-	}
+	description: {
+		en: "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve.",
+	},
 }
 
 export default card

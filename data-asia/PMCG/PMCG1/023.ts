@@ -4,9 +4,10 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "squirtle",
+		ja: "ゼニガメ",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [7],
@@ -42,7 +43,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575593
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+		}
 	],
 };
 

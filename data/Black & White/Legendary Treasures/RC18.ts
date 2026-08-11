@@ -45,6 +45,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+	},
 
 	thirdParty: {
 		cardmarket: 281128

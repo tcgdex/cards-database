@@ -58,9 +58,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785965,
+				tcgplayer: 567337
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785965,
+				tcgplayer: 567337
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 786551,
+			}
+		},
+	],
 
 	illustrator: "kodama",
 

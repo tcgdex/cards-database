@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+	},
+
 	thirdParty: {
 		cardmarket: 280028,
 		tcgplayer: 89886

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its high intelligence enables it to understand human speech. It likes to ferry people on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 288203,
 		tcgplayer: 111534

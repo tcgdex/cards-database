@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zorua",
@@ -55,10 +49,22 @@ const card: Card = {
 	dexId: [570],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574150,
-		tcgplayer: 246899
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574150,
+				tcgplayer: 246899
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574150,
+				tcgplayer: 246899
+			}
+		},
+	],
 }
 
 export default card

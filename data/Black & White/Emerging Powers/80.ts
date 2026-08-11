@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+	},
+
 	thirdParty: {
 		cardmarket: 280045,
 		tcgplayer: 88056

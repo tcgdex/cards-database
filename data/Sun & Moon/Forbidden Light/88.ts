@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+	},
+
 	thirdParty: {
 		cardmarket: 355602,
 		tcgplayer: 165746

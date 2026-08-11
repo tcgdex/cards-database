@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
+	},
+
 	thirdParty: {
 		cardmarket: 361354,
 		tcgplayer: 170944

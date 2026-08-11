@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kagemaru Himeno",
@@ -74,17 +80,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582492,
-		tcgplayer: 253255
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582492,
+				tcgplayer: 253255
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582492,
+				tcgplayer: 253255
+			}
+		},
+	],
 }
 
 export default card

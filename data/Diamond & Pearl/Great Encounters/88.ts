@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
+	},
+
 	thirdParty: {
 		cardmarket: 277990,
 		tcgplayer: 89934

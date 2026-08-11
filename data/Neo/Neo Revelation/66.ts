@@ -66,23 +66,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet.",
 		fr: "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
 	},
 
-	thirdParty: {
-		cardmarket: 274652,
-		tcgplayer: 89166
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274652,
+				tcgplayer: 89166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274652,
+				tcgplayer: 89166
+			}
 		}
 	]
 }

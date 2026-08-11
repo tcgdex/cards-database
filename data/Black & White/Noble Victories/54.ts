@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 280177,
 		tcgplayer: 85175

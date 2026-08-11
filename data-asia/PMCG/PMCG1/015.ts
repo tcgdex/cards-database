@@ -4,9 +4,10 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vulpix",
+		ja: "ロコン",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [37],
@@ -32,7 +33,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575599
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577026
+			},
+		}
 	],
 };
 

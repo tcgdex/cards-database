@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [200],
+
 	name: {
 		en: "Misdreavus"
 	},

@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "PLANETA Mochizuki",
@@ -79,10 +85,16 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		cardmarket: 582954,
-		tcgplayer: 253270
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 583026,
+				tcgplayer: 253270
+			}
+		},
+	],
 }
 
 export default card

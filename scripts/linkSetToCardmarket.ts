@@ -2,6 +2,7 @@ import { Transform } from "jscodeshift"
 import expansionsJSON from '../products_nonsingles_6.json'
 import pathUtils from 'path/posix'
 import { set, simplify } from "./utils/jscodeshift-utils"
+import { cmExpansionMap } from "./utils-data/cm_expansions"
 
 /**
  * Start editing here !
@@ -21,15 +22,24 @@ const transformer: Transform = (file, api) => {
 
 			// console.log(setName)
 
-			const expansion = expansionsJSON.products.find((it) => it.name.startsWith(name))
-				?.idExpansion
+			const expansion = cmExpansionMap.get(name)
+				// ?? expansionsJSON.products.find((it) => it.name.startsWith(name))
+				// 	?.idExpansion
+
 			if (!expansion) {
 				return
 			}
 
-			set(j, simplified.item, j.objectExpression([
-				j.property('init', j.identifier('cardmarket'), j.literal(expansion))
-			]), 'thirdParty')
+			// check for existing cardmarket property and compare value
+			const existing = simplified.items.thirdParty?.item?.properties.find((prop: any) => prop.key.name === 'cardmarket')
+			if (existing && existing.value.value !== expansion) {
+				console.warn(`Cardmarket expansion mismatch for set ${name}: existing=${existing.value.value} new=${expansion}`)
+				return
+			}
+
+			// set(j, simplified.item, j.objectExpression([
+			// 	j.property('init', j.identifier('cardmarket'), j.literal(expansion))
+			// ]), 'thirdParty')
 		})
 		.toSource({ useTabs: true, lineTerminator: '\n' }).replace(/    /g, '	')
 }

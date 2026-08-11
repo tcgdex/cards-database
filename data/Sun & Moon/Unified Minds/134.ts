@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It takes pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 388467,
 		tcgplayer: 195105

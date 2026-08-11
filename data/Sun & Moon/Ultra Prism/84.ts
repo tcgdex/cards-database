@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it's thought.",
+	},
+
 	thirdParty: {
 		cardmarket: 316011,
 		tcgplayer: 157701

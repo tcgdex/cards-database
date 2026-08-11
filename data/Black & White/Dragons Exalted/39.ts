@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+	},
+
 	thirdParty: {
 		cardmarket: 280478,
 		tcgplayer: 85486

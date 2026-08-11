@@ -3,9 +3,9 @@ import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Gyarados Star δ",
+		en: "Gyarados ☆ δ",
 		fr: "Leviator ☆ δ",
-		de: "Garados *"
+		de: "Garados ☆ δ"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -40,8 +40,8 @@ const card: Card = {
 				de: "Spiralwachstum"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, search your discard pile for a basic Energy card and attach it to Gyarados Star.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Leviator .",
+				en: "Flip a coin until you get tails. For each heads, search your discard pile for a basic Energy card and attach it to Gyarados ☆.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Leviator ☆.",
 				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Für jedes Mal, wenn die Münze \"Kopf\" gezeigt hat, durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Garados ☆ an."
 			},
 			damage: 20,

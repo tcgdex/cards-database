@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramshef V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
@@ -67,20 +68,31 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608538,
-		tcgplayer: 263804
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608538,
+				tcgplayer: 263804
+			}
+		},
+	],
 }
 
 export default card

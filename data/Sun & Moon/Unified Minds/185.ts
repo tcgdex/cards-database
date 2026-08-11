@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stays asleep from the moment it's born. When it falls into a deep sleep, it stops moving altogether.",
+	},
+
 	thirdParty: {
 		cardmarket: 388712,
 		tcgplayer: 195215

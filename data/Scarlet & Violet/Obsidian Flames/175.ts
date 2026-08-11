@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725255,
+				tcgplayer: 509727,
+				cardtrader: 256071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725255,
+				tcgplayer: 509727,
+				cardtrader: 256071
+			}
+		},
+	],
 
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 725255
-	}
+	
 }
 
 export default card

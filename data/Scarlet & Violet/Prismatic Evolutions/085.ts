@@ -66,13 +66,54 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 805477
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805477,
+				tcgplayer: 610440
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805477,
+				tcgplayer: 610440
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806530,
+				tcgplayer: 610598
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806531,
+				tcgplayer: 610699
+			}
+		},
+	],
 }
 
 export default card

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Alolan home cooking involves drying Slowpoke tails and then simmering them into a salty stew.",
+	},
+
 	thirdParty: {
 		cardmarket: 365693,
 		tcgplayer: 178861

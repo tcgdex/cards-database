@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd.",
+	},
+
 	thirdParty: {
 		cardmarket: 388607,
 		tcgplayer: 195164

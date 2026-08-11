@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its auditory sense is astounding. It has radarlike ability to understand its surroundings through slight sounds.",
+	},
+
 	thirdParty: {
 		cardmarket: 280547,
 		tcgplayer: 83663

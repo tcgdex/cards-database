@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274030,
-		tcgplayer: 42556
+	effect: {
+		en: "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274030,
+				tcgplayer: 42556
+			}
 		}
 	]
 }

@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+	},
 }
 
 export default card

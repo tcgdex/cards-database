@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming.",
+	},
+
 	thirdParty: {
 		cardmarket: 372445,
 		tcgplayer: 189259

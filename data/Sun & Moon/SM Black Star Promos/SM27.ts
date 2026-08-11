@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Tortunator"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,6 +81,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+	},
 }
 
 export default card

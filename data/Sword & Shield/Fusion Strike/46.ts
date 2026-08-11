@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "miki kudo",
@@ -55,17 +61,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582180,
-		tcgplayer: 253172
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582180,
+				tcgplayer: 253172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582180,
+				tcgplayer: 253172
+			}
+		},
+	],
 }
 
 export default card

@@ -71,23 +71,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
 		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
 	},
 
-	thirdParty: {
-		cardmarket: 274574,
-		tcgplayer: 89061
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274574,
+				tcgplayer: 89061
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274574,
+				tcgplayer: 89061
+			}
 		}
 	]
 }

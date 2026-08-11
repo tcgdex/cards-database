@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+	},
+
 	thirdParty: {
 		cardmarket: 281357,
 		tcgplayer: 89347

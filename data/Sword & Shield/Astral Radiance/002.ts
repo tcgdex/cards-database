@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Voltobal"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -53,20 +54,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
 	},
 
-	thirdParty: {
-		cardmarket: 658487,
-		tcgplayer: 272202
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658487,
+				tcgplayer: 272202
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658487,
+				tcgplayer: 272202
+			}
+		},
+	],
 }
 
 export default card

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Balbuto"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -103,11 +103,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "holo"
 		}
 	]
 }

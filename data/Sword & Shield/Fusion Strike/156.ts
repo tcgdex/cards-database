@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",
@@ -70,17 +76,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582784,
-		tcgplayer: 253370
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582784,
+				tcgplayer: 253370
+			}
+		},
+	],
 }
 
 export default card

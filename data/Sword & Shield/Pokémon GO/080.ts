@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Melmetal VMAX"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,
@@ -54,19 +55,34 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664591,
-		tcgplayer: 277013
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 665691,
+				tcgplayer: 277013
+			}
+		},
+	],
 }
 
 export default card

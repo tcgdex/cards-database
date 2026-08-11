@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+	},
+
 	thirdParty: {
 		cardmarket: 280648,
 		tcgplayer: 85055

@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725247,
+				tcgplayer: 509690,
+				cardtrader: 256063
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725247,
+				tcgplayer: 509690,
+				cardtrader: 256063
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 725247
-	}
+	
 }
 
 export default card

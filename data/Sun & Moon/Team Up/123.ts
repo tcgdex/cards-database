@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+	},
+
 	thirdParty: {
 		cardmarket: 369050,
 		tcgplayer: 183912

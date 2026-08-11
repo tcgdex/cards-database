@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -71,21 +69,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 279650,
-		tcgplayer: 85999
-	}
+
+	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85999,
+				cardmarket: 279650
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85999,
+				cardmarket: 279650
+			},
+		},
+	],
+
 }
 
 export default card

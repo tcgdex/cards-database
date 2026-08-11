@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows."
 	},
 
-	thirdParty: {
-		cardmarket: 457448,
-		tcgplayer: 213081
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457448,
+				tcgplayer: 213081
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457448,
+				tcgplayer: 213081
+			}
+		},
+	],
 }
 
 export default card

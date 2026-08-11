@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫選擇最多2張HP為「70」以下的【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803260,
+				tcgplayer: 602574,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602575,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

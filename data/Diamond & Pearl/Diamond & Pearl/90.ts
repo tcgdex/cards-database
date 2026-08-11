@@ -70,6 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
 		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
 	},
 

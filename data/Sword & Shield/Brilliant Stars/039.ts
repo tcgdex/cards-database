@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bojelin"
 	},
 
+	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -65,20 +66,36 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
 	},
 
-	thirdParty: {
-		cardmarket: 608489,
-		tcgplayer: 263738
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608489,
+				tcgplayer: 263738
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608489,
+				tcgplayer: 263738
+			}
+		},
+	],
 }
 
 export default card

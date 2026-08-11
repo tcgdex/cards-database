@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pyukumuku"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],
@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 

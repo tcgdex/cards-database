@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+	},
+
 	thirdParty: {
 		cardmarket: 288243,
 		tcgplayer: 111607

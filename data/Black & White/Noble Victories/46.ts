@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+	},
+
 	thirdParty: {
 		cardmarket: 280169,
 		tcgplayer: 84384

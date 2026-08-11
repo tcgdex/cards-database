@@ -4,9 +4,10 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いweezing",
+		ja: "わるいマタドガス",
 	},
 
+	illustrator: "Shin-ichi Yoshida",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [110],
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575754
+			},
 		},
 	],
 };

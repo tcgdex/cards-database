@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's said that while this Pokémon has the power to predict the future, it's not powerful enough to change the future it sees.",
+	},
+
 	thirdParty: {
 		cardmarket: 408039,
 		tcgplayer: 201254

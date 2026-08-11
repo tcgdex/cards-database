@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		265,
-	],
+	dexId: [265],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Freundesruf"
 			},
 			effect: {
-				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward.\"",
+				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck des Pokémon de base  et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach -Basis-Pokémon-Karten und lege beliebig viele von ihnen auf deine Bank. Mische dein Deck danach."
 			},
@@ -64,17 +62,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90648,
+				cardmarket: 275958
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90648,
+				cardmarket: 275958
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 275958,
-		tcgplayer: 90648
-	}
 }
 
 export default card

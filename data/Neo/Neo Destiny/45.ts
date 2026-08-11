@@ -76,23 +76,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It has an aerodynamic shape that allows it to swim at great speeds. The colder the water gets, the more active it becomes.",
 		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
 	},
 
-	thirdParty: {
-		cardmarket: 274697,
-		tcgplayer: 86736
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274697,
+				tcgplayer: 86736
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274697,
+				tcgplayer: 86736
+			}
 		}
 	]
 }

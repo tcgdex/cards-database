@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 297478,
 		tcgplayer: 130950

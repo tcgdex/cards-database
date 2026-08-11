@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ponita"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
 	},
 
-	thirdParty: {
-		cardmarket: 658519,
-		tcgplayer: 272221
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658519,
+				tcgplayer: 272221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658519,
+				tcgplayer: 272221
+			}
+		},
+	],
 }
 
 export default card

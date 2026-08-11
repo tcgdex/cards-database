@@ -57,14 +57,29 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "sui",
+
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+	},
 
 	thirdParty: {
         cardmarket: 702440,

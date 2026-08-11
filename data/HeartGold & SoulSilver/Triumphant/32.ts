@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		148,
-	],
+	dexId: [148],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Dratini",
-		fr: "Minidraco",
+		fr: "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -64,7 +62,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -82,17 +80,23 @@ const card: Card = {
 		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84901,
+				cardmarket: 279562
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279562,
+				tcgplayer: 84901
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279562,
-		tcgplayer: 84901
-	}
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Selfe"
 	},
 
+	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -55,20 +56,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is said that its emergence gave humans the intelligence to improve their quality of life.",
 	},
 
-	thirdParty: {
-		cardmarket: 658641,
-		tcgplayer: 272266
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658641,
+				tcgplayer: 272266
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658641,
+				tcgplayer: 272266
+			}
+		},
+	],
 }
 
 export default card

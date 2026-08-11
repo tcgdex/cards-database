@@ -5,7 +5,8 @@ const set: Set = {
 	id: "B1",
 
 	name: {
-		en: "Mega Rising"
+		en: "Mega Rising",
+		fr: "Méga-Ascension"
 	},
 
 	serie: serie,
@@ -19,17 +20,20 @@ const set: Set = {
 	boosters: {
 		'mega-gyarados': {
 			name: {
-				en: 'Mega Gyarados'
+				en: 'Mega Gyarados',
+				fr: 'Méga-Léviator'
 			}
 		},
 		'mega-blaziken': {
 			name: {
-				en: 'Mega Blaziken'
+				en: 'Mega Blaziken',
+				fr: 'Méga-Braségali'
 			}
 		},
 		'mega-altaria': {
 			name: {
-				en: 'Mega Altaria'
+				en: 'Mega Altaria',
+				fr: 'Méga-Altaria'
 			}
 		}
 	}

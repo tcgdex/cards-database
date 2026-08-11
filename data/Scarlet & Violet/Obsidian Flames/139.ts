@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725219,
+				tcgplayer: 509911,
+				cardtrader: 255824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725219,
+				tcgplayer: 509911,
+				cardtrader: 255824
+			}
+		},
+	],
 
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 725219
-	}
+	
 }
 
 export default card

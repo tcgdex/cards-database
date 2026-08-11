@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
 	},
 
-	thirdParty: {
-		cardmarket: 457918,
-		tcgplayer: 213189
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457918,
+				tcgplayer: 213189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457918,
+				tcgplayer: 213189
+			}
+		},
+	],
 }
 
 export default card

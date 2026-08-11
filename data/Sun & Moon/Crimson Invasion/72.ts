@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It sheds its fine fur when the seasons change. The fur is gathered and spun into a luxurious yarn.",
+	},
+
 	thirdParty: {
 		cardmarket: 311920,
 		tcgplayer: 149098

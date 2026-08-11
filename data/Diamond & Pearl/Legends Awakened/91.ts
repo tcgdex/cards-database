@@ -69,6 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
 		fr: "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue."
 	},
 

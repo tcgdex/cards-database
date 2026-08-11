@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's frequently the cause of power outages, which is why some power plants send out electrical signals that it can't stand.",
+	},
+
 	thirdParty: {
 		cardmarket: 398539,
 		tcgplayer: 201353

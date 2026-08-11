@@ -63,10 +63,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lies around all day, becoming active near dusk. At night, it wanders the city in search of loose change.",
+	},
+
 	thirdParty: {
 		cardmarket: 299502,
 		tcgplayer: 138597
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

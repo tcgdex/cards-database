@@ -54,20 +54,23 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A legendary thunderbird Pokémon whose anger is said to cause storms. Some say it has lived above the clouds for thousands of years.",
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
 	},
 
-	thirdParty: {
-		cardmarket: 273876,
-		tcgplayer: 44424
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273876,
+				tcgplayer: 44424
+			}
 		},
 		{
 			type: "holo",
@@ -77,7 +80,11 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273876,
+				tcgplayer: 44424
+			}
 		},
 		{
 			type: "holo",

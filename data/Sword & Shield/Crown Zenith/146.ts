@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hyperball"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,17 +28,25 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691865,
-		tcgplayer: 478206
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691865,
+				tcgplayer: 478206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691865,
+				tcgplayer: 478206
+			}
+		},
+	],
 }
 
 export default card

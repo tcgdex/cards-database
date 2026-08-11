@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Staravia"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -45,20 +46,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
 	},
 
-	thirdParty: {
-		cardmarket: 608664,
-		tcgplayer: 263843
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608664,
+				tcgplayer: 263843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608664,
+				tcgplayer: 263843
+			}
+		},
+	],
 }
 
 export default card

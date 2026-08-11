@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+	},
+
 	thirdParty: {
 		cardmarket: 288242,
 		tcgplayer: 111606

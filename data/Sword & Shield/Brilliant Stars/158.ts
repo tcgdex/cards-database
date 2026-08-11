@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Raichu V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -65,20 +66,25 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608495,
-		tcgplayer: 263877
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608704,
+				tcgplayer: 263877
+			}
+		},
+	],
 }
 
 export default card

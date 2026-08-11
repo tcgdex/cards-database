@@ -14,22 +14,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them.",
 		fr: "Échangez 2 des autres cartes de votre main contre 4 Énergie de base de votre pile de défausse. Si vous avez moins de 4 cartes Énergie de base dans votre pile de défausse, prenez-les toutes.",
 		de: "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them."
 	},
 
-	thirdParty: {
-		cardmarket: 274489,
-		tcgplayer: 89628
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274489,
+				tcgplayer: 89628
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274489,
+				tcgplayer: 89628
+			}
 		}
 	]
 }

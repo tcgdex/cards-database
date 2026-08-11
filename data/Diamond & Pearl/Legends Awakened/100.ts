@@ -71,6 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its legs can stretch double. First-time foes are startled by its extensible reach.",
 		fr: "Ses pattes élastiques s'allongent, ce qui ne manque jamais de surprendre au premier combat."
 	},
 

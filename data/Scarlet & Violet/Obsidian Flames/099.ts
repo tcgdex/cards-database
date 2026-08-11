@@ -48,18 +48,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725179,
+				tcgplayer: 509933,
+				cardtrader: 255784
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725179,
+				tcgplayer: 509933,
+				cardtrader: 255784
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 725179
-	}
+	
 }
 
 export default card

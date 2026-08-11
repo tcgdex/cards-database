@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725120,
+				tcgplayer: 509746,
+				cardtrader: 255600
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725120,
+				tcgplayer: 509746,
+				cardtrader: 255600
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 725120
-	}
+	
 }
 
 export default card

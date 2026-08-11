@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kariya",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [152],
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
@@ -59,13 +60,52 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675820,
-		cardmarket: 869619
-	}
+	description: {
+		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869619,
+				tcgplayer: 675820
+			}
+		},
+		{
+			type: "reverse",
+			foil: "friendball",
+			thirdParty: {
+				cardmarket: 870148,
+				tcgplayer: 676858
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870147,
+				tcgplayer: 676998
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 878074,
+				tcgplayer: 680709
+			}
+		},
+	],
 }
 
 export default card

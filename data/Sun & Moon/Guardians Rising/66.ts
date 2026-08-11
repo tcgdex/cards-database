@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "To avoid attack, it mimics a tree. It will run off if splashed with water, which it hates.",
+	},
+
 	thirdParty: {
 		cardmarket: 297527,
 		tcgplayer: 130976

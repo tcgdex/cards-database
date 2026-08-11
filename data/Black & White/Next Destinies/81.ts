@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
+	},
+
 	thirdParty: {
 		cardmarket: 280306,
 		tcgplayer: 87988

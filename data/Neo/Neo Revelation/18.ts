@@ -61,22 +61,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
 		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage."
 	},
 
-	thirdParty: {
-		tcgplayer: 86119
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		}
 	]
 }

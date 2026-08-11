@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+	},
+
 	thirdParty: {
 		cardmarket: 311929,
 		tcgplayer: 149299

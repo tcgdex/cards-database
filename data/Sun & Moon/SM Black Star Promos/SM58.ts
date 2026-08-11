@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -109,7 +109,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
 }
 
 export default card

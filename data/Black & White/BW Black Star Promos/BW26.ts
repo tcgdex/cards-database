@@ -46,6 +46,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+	},
 }
 
 export default card

@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",
 		fr: "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
 	},
 
-	thirdParty: {
-		cardmarket: 274469,
-		tcgplayer: 87875
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274469,
+				tcgplayer: 87875
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274469,
+				tcgplayer: 87875
+			}
 		}
 	]
 }

@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",
@@ -49,17 +55,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582502,
-		tcgplayer: 253267
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582502,
+				tcgplayer: 253267
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582502,
+				tcgplayer: 253267
+			}
+		},
+	],
 }
 
 export default card

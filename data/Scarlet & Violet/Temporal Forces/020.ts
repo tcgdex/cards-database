@@ -35,22 +35,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760650,
+				tcgplayer: 542680
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760650,
+				tcgplayer: 542680
+			}
+		},
 	],
+
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 760650
-	}
 }
 
 export default card

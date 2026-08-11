@@ -30,16 +30,17 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857698,
+				tcgplayer: 662231,
+				cardtrader: 356909
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857698,
-		tcgplayer: 662231
-	}
 }
 
 export default card

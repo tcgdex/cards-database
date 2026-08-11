@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "At night, it weeps loudly for its dead mother, but those cries only attract its natural enemy—Mandibuzz.",
+	},
+
 	thirdParty: {
 		cardmarket: 372381,
 		tcgplayer: 189189

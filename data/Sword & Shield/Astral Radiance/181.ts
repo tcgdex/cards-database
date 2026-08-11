@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Diam"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658796,
-		tcgplayer: 272431
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658842,
+				tcgplayer: 272431
+			}
+		},
+	],
 }
 
 export default card

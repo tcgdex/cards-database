@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Federball"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658802,
-		tcgplayer: 272393
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658802,
+				tcgplayer: 272393
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658802,
+				tcgplayer: 272393
+			}
+		},
+	],
 }
 
 export default card

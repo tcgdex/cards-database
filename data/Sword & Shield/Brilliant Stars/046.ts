@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elektek"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 608496,
-		tcgplayer: 263750
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608496,
+				tcgplayer: 263750
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608496,
+				tcgplayer: 263750
+			}
+		},
+	],
 }
 
 export default card

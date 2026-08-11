@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Miraidon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
@@ -57,9 +57,35 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Akira Komayama"
+	illustrator: "Akira Komayama",
+	description: {
+		en: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 692233,
+				tcgplayer: 490719
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 692234,
+				tcgplayer: 490730
+			},
+		}
+	],
 }
 
 export default card

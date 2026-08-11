@@ -53,15 +53,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274009,
-		tcgplayer: 42537
+
+	description: {
+		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274009,
+				tcgplayer: 42537
+			}
 		}
 	]
 }

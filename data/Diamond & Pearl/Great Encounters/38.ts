@@ -72,6 +72,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+	},
+
 	thirdParty: {
 		cardmarket: 277940,
 		tcgplayer: 85844

@@ -44,20 +44,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725106,
+				tcgplayer: 509703,
+				cardtrader: 255586
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 727116
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725106,
+				tcgplayer: 509703,
+				cardtrader: 255586
+			}
+		},
+	],
 
 	illustrator: "DOM",
 
-	thirdParty: {
-		cardmarket: 725106
-	}
+	
 }
 
 export default card

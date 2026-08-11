@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Intelligent, good-natured, and valiant, it's a trustworthy partner on rescue teams.",
+	},
+
 	thirdParty: {
 		cardmarket: 295417,
 		tcgplayer: 126977

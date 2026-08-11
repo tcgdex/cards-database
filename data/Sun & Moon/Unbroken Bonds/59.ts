@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 372349,
 		tcgplayer: 189160

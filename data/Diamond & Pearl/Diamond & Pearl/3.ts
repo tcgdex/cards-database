@@ -86,6 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
 		fr: "Il place le bout de ses deux queues sur son ennemi et libère une décharge de 20 000 volts."
 	},
 

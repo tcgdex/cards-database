@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Eelektrik"
 	},
 
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		es: "Tynamo",
+		'es-mx': "Tynamo",
+		de: "Zapplardin",
+		it: "Tynamo",
+		pt: "Tynamo",
+	},
+
 	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [603],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
@@ -61,13 +72,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675872,
-		cardmarket: 869671
-	}
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869671,
+			tcgplayer: 675872
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870232,
+			tcgplayer: 676900
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870231,
+			tcgplayer: 677040
+		}
+	},
+],
 }
 
 export default card

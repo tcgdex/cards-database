@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
+	},
+
 	thirdParty: {
 		cardmarket: 295354,
 		tcgplayer: 126914

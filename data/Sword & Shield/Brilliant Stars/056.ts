@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -57,20 +58,49 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608506,
-		tcgplayer: 263772
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608506,
+				tcgplayer: 263772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608506,
+				tcgplayer: 263772
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 610906
+			}
+		},
+	],
 }
 
 export default card

@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Porygon"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		137,
-	],
+	dexId: [137],
 	hp: 50,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -59,12 +57,23 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It is a manmade Pokémon. Since it doesn't breathe, people are eager to try it in any environment.."
+	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275604,
+				tcgplayer: 88313
+			}
+		},
+	],
+
 }
 
 export default card

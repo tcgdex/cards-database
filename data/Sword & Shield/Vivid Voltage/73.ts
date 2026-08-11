@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it's evidence that Woobat live there."
 	},
 
-	thirdParty: {
-		cardmarket: 511785,
-		tcgplayer: 226481
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511785,
+				tcgplayer: 226481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511785,
+				tcgplayer: 226481
+			}
+		},
+	],
 }
 
 export default card

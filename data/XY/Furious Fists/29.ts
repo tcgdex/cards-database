@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Electricity runs across the surface of its body. In darkness, its body glows a whitish blue.",
+	},
+
 	thirdParty: {
 		cardmarket: 281693,
 		tcgplayer: 92204

@@ -86,20 +86,24 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 276654,
-		tcgplayer: 86341
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86341,
+				cardmarket: 276654
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86341,
+				cardmarket: 276654
+			},
 		}
-	]
+	],
 }
 
 export default card

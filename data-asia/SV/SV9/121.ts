@@ -16,6 +16,16 @@ const card: Card = {
 		ja: "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の手札が6枚になるように、山札を引く。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807708,
+				tcgplayer: 614997,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

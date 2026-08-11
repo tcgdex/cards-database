@@ -63,13 +63,48 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 805452
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805452,
+				tcgplayer: 610418
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805452,
+				tcgplayer: 610418
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806496,
+				tcgplayer: 610581
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806497,
+				tcgplayer: 610682
+			}
+		},
+	],
 }
 
 export default card

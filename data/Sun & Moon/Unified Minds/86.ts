@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+	},
+
 	thirdParty: {
 		cardmarket: 388237,
 		tcgplayer: 195016

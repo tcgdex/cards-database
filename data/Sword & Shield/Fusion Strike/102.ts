@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Teeziro",
@@ -51,17 +57,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582495,
-		tcgplayer: 253258
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582495,
+				tcgplayer: 253258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582495,
+				tcgplayer: 253258
+			}
+		},
+	],
 }
 
 export default card

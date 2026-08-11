@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
+	},
+
 	thirdParty: {
 		cardmarket: 365723,
 		tcgplayer: 178894

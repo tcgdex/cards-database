@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoshimi Miyoshi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [322],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
@@ -61,13 +62,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676035,
-		cardmarket: 869834
-	}
+	description: {
+		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869834,
+				tcgplayer: 676035
+			}
+		}
+	],
 }
 
 export default card

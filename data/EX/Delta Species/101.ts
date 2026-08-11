@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
 		fr: "Retirez 2 marqueurs de dégât à 1 de vos Pokémon (retirez-en 1 s'il n'y en a qu'1).",
 		de: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
 	},

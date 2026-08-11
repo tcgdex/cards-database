@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Resistance Gym",
+		en: "Resistance Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,20 +11,26 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274377,
-		tcgplayer: 88717
+	effect: {
+		en: "This card stays in play after being played. Discard this card if another Stadium card comes into play. Each Pokémon's Resistance is reduced by 20. (If a Pokémon's Resistance is -30, it becomes -10.)"
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88717,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88717,
+				cardmarket: 274377
+			}
 		},
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

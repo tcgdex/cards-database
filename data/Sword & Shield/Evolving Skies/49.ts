@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pikachu",
@@ -75,10 +69,22 @@ const card: Card = {
 	dexId: [25],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574073,
-		tcgplayer: 246881
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574073,
+				tcgplayer: 246881
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751840,
+				tcgplayer: 246881
+			}
+		},
+	],
 }
 
 export default card

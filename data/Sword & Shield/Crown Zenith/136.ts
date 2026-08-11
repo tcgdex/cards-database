@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kate"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691855,
-		tcgplayer: 478190
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691855,
+				tcgplayer: 478190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691855,
+				tcgplayer: 478190
+			}
+		},
+	],
 }
 
 export default card

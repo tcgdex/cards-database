@@ -72,18 +72,38 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769216,
+				tcgplayer: 550086
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769216,
+				tcgplayer: 550086
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 769216
-	}
 }
 
 export default card

@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If you are enchanted by its smooth, dance-like kicks, you may get a closer experience with one than you'd like.",
+	},
+
 	thirdParty: {
 		cardmarket: 365750,
 		tcgplayer: 178926

@@ -1,46 +1,69 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "沼王"
+		ja: "タギングルex",
+		'zh-tw': "沼王",
 	},
 
-	illustrator: "Saboteri",
+	illustrator: "aky CG Works",
 	category: "Pokemon",
-	hp: 120,
-	types: ["Water"],
+	hp: 250,
+	types: ["Colorless"],
+
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "滾動"
+	attacks: [
+		{
+			name: {
+				ja: "しびれるだえき",
+				'zh-tw': "滾動",
+			},
+			damage: 30,
+			cost: ["Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			},
 		},
-
-		damage: 30,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "濕透頭擊"
+		{
+			name: {
+				ja: "ポイポポイズン",
+				'zh-tw': "濕透頭擊",
+			},
+			damage: 180,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをどくにする。次の自分の番、このポケモンは「ポイポポイズン」が使えない。",
+				'zh-tw': "將自己的牌庫上方3張卡丟棄，造成其中能量卡的張數×80點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將自己的牌庫上方3張卡丟棄，造成其中能量卡的張數×80點傷害。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719857,
+				tcgplayer: 587846,
+			},
 		},
+	],
 
-		damage: "80×",
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	evolveFrom: {
+		ja: "シルシュルー",
+	},
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [945],
 
-	retreat: 3,
-	regulationMark: "H"
-}
+	suffix: "EX",
+};
 
-export default card
+export default card;

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Meltan"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,6 +83,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+	},
 }
 
 export default card

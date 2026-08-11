@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikk"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -48,20 +49,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
 	},
 
-	thirdParty: {
-		cardmarket: 608648,
-		tcgplayer: 263822
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608648,
+				tcgplayer: 263822
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608648,
+				tcgplayer: 263822
+			}
+		},
+	],
 }
 
 export default card

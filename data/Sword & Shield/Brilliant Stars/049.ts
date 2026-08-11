@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sheinux"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 608499,
-		tcgplayer: 263755
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608499,
+				tcgplayer: 263755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608499,
+				tcgplayer: 263755
+			}
+		},
+	],
 }
 
 export default card

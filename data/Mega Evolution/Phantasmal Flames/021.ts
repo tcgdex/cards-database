@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+	},
+
+	illustrator: "svlt",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226,
+				cardtrader: 356804
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857596,
-		tcgplayer: 662226
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226,
+				cardtrader: 356804
+			}
+		},
+	],	
 }
 
 export default card

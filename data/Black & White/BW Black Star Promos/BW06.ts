@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+	},
 }
 
 export default card

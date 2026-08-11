@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The buds that ring its neck give off a spicy aroma that perks people up.",
+	},
+
 	thirdParty: {
 		cardmarket: 288177,
 		tcgplayer: 111505

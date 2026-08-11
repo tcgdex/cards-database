@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		fr: "Minidraco",
 		it: "Dratini"
 	},
 
@@ -81,15 +82,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273713,
+				tcgplayer: 42358
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107013
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107013
+			}
 		},
 		{
 			type: "normal",
@@ -103,15 +114,13 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
 		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
-	},
-
-	thirdParty: {
-		cardmarket: 273713,
-		tcgplayer: 42358
 	}
 }
 

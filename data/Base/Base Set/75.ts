@@ -15,28 +15,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
 		fr: "Vous révélez votre main ainsi que votre adversaire, puis mélangez toutes les cartes Dresseur de vos mains dans vos decks respectifs.",
 		de: "Du und Dein Gegner zeigen sich gegenseitig die Karten auf der Hand, und mischen dann alle Trainerkarten aus der Hand in den Stapel-",
 		it: "Tu e il tuo avversario vi mostrate le carte che avete in mano; poi ognuno rimette tutte le carte Addestramento che ha in mano nel proprio mazzo e lo rimischia."
 	},
 
-	thirdParty: {
-		cardmarket: 273770,
-		tcgplayer: 42421
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273770,
+				tcgplayer: 42421
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107071
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107071
+			},
 		},
 		{
 			type: "normal",

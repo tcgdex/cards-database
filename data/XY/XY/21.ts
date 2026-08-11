@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 281358,
 		tcgplayer: 87018

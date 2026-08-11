@@ -49,29 +49,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Usually found in power plants. Easily mistaken for a Monster Ball, it has zapped many people.",
 		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",
 		it: "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
 	},
 
-	thirdParty: {
-		cardmarket: 273762,
-		tcgplayer: 42412
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273762,
+				tcgplayer: 42412
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107064
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107064
+			},
 		},
 		{
 			type: "normal",

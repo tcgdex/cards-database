@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said that its emergence gave humans the intelligence to improve their quality of life.",
+	},
+
 	thirdParty: {
 		cardmarket: 355560,
 		tcgplayer: 165692

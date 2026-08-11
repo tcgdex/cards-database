@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Very protective of its territory, it flaps its short wings busily to dart around at high speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 281884,
 		tcgplayer: 94646

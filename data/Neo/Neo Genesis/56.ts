@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
 		fr: "Il demeure habituellement courbé en avant. S'il est en colère ou surpris, il lance des flammes depuis son dos."
 	},
 
-	thirdParty: {
-		cardmarket: 274456,
-		tcgplayer: 84543
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		}
 	]
 }

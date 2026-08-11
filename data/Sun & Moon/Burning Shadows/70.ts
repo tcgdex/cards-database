@@ -73,10 +73,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can discern the physical and emotional states of people, Pokémon, and other natural things from the shape of their aura waves.",
+	},
+
 	thirdParty: {
 		cardmarket: 299472,
 		tcgplayer: 138556
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arboretoss"
 	},
 
+	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -58,20 +59,36 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
 	},
 
-	thirdParty: {
-		cardmarket: 658517,
-		tcgplayer: 272220
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658517,
+				tcgplayer: 272220
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658517,
+				tcgplayer: 272220
+			}
+		},
+	],
 }
 
 export default card

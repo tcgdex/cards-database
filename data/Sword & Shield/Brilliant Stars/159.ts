@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Granbull V"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608507,
-		tcgplayer: 263878
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608705,
+				tcgplayer: 263878
+			}
+		},
+	],
 }
 
 export default card

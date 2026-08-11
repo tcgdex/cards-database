@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+	},
+
 	thirdParty: {
 		cardmarket: 280462,
 		tcgplayer: 87036

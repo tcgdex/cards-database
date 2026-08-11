@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+	},
+
 	thirdParty: {
 		cardmarket: 280748,
 		tcgplayer: 89092

@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It always wears the skull of its dead mother, so no one has any idea what its hidden face looks like.",
+	},
+
 	thirdParty: {
 		cardmarket: 286323,
 		tcgplayer: 107196

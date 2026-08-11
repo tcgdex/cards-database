@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They absorb garbage and make it part of their bodies. They shoot poisonous liquid from their right-hand fingertips.",
+	},
+
 	thirdParty: {
 		cardmarket: 280172,
 		tcgplayer: 85615

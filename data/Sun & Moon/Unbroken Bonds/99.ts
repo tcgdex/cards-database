@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+	},
+
 	thirdParty: {
 		cardmarket: 372390,
 		tcgplayer: 189198

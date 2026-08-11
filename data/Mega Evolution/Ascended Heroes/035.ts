@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Salazzle"
 	},
 
+	evolveFrom: {
+		en: "Salandit",
+		fr: "Tritox",
+		es: "Salandit",
+		'es-mx': "Salandit",
+		de: "Molunk",
+		it: "Salandit",
+		pt: "Salandit",
+	},
+
 	illustrator: "Taiga Kasai",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [758],
 	hp: 120,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -69,13 +80,44 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675847,
-		cardmarket: 869646
-	}
+	description: {
+		en: "When two Salazzle meet, they will use their pheromone gas to fight over the males in each other’s group.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869646,
+			tcgplayer: 675847
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870194,
+			tcgplayer: 676881
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870193,
+			tcgplayer: 677021
+		}
+	},
+],
 }
 
 export default card

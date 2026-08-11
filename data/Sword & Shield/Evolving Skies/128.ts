@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Smeargle",
@@ -64,10 +58,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574182,
-		tcgplayer: 246853
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574182,
+				tcgplayer: 246853
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574182,
+				tcgplayer: 246853
+			}
+		},
+	],
 }
 
 export default card

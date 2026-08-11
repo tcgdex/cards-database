@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Nidoqueen"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+	},
 }
 
 export default card

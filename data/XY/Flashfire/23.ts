@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Milotic is breathtakingly beautiful. Those that see it are said to forget their combative spirits.",
+	},
+
 	thirdParty: {
 		cardmarket: 281506,
 		tcgplayer: 91156

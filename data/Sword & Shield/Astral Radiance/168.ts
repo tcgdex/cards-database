@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Luxtra V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658597,
-		tcgplayer: 272420
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658829,
+				tcgplayer: 272420
+			}
+		},
+	],
 }
 
 export default card

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Seen as a symbol of bad luck, it's generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it's close to.",
+	},
+
 	thirdParty: {
 		cardmarket: 315999,
 		tcgplayer: 157688

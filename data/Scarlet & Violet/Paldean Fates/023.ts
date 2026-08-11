@@ -55,18 +55,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751556,
+				tcgplayer: 534169,
+				cardtrader: 274207
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751556,
+				tcgplayer: 534169,
+				cardtrader: 274207
+			}
+		},
+	],
 
 	illustrator: "Kariya",
 
-	thirdParty: {
-		cardmarket: 751556
-	}
+	description: {
+		en: "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
+	},
+
 }
 
 export default card

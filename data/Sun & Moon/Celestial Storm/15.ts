@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When this Pokémon senses danger, a sweet fluid oozes from the tip of its head. The taste of it disgusts bird Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 361262,
 		tcgplayer: 170825

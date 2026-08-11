@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
 	rarity: "Ultra Rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826092,
+				tcgplayer: 633018
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826092
-	}
 }
 
 export default card

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+	},
+
 	thirdParty: {
 		cardmarket: 295307,
 		tcgplayer: 126873

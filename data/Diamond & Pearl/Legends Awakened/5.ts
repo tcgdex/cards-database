@@ -82,6 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
 		fr: "Il guette sa proie pendu à une branche la tête en bas, et s'en saisit à la première occasion."
 	},
 

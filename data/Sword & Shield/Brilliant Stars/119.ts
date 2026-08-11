@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Staraptor"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -74,20 +75,42 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
 	},
 
-	thirdParty: {
-		cardmarket: 608665,
-		tcgplayer: 263844
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608665,
+				tcgplayer: 263844
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608665,
+				tcgplayer: 263844
+			}
+		},
+	],
 }
 
 export default card

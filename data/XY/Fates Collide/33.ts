@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+	},
+
 	thirdParty: {
 		cardmarket: 289859,
 		tcgplayer: 117793

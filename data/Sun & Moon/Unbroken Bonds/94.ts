@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+	},
+
 	thirdParty: {
 		cardmarket: 372385,
 		tcgplayer: 189193

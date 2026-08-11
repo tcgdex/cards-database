@@ -67,23 +67,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
 		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable."
 	},
 
-	thirdParty: {
-		cardmarket: 274475,
-		tcgplayer: 89453
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		}
 	]
 }

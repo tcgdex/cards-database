@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
+	},
+
 	thirdParty: {
 		cardmarket: 408254,
 		tcgplayer: 201154

@@ -65,18 +65,40 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785969,
+				tcgplayer: 567341
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785969,
+				tcgplayer: 567341
+			}
+		},
+	],
 
 	illustrator: "matazo",
 
-	thirdParty: {
-		cardmarket: 785969
-	}
 }
 
 export default card

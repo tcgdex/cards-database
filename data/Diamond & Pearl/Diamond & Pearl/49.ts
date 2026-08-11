@@ -81,6 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
 		fr: "Il vit en forêt près de l'eau. En journée, il la quitte pour dorer sa carapace feuillue au soleil."
 	},
 

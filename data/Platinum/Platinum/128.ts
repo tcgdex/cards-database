@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -72,14 +70,17 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278549,
-		tcgplayer: 85116
+	description: {
+		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 85116,
+				cardmarket: 278549
+			}
 		}
 	]
 }

@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "When it travels underground, it causes rumbling and tremors. It can move at 50 mph.",
 		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h."
 	},
 

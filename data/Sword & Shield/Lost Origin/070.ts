@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zobiris"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 80,
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674079,
-		tcgplayer: 283946
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674079,
+				tcgplayer: 283946
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674079,
+				tcgplayer: 283946
+			}
+		},
+	],
 }
 
 export default card

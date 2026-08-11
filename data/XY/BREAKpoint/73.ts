@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By flapping its leafy fan, it can whip up gusts of 100 feet per second that can level houses.",
+	},
+
 	thirdParty: {
 		cardmarket: 288248,
 		tcgplayer: 111611

@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It gathers in forests to search for tree sap, its favorite food. It's strong enough to hurl foes.",
 		fr: "Il arpente la forêt en quête de sève, son mets favori. Il est assez fort pour projeter l'ennemi."
 	},
 

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+	},
+
 	thirdParty: {
 		cardmarket: 280819,
 		tcgplayer: 89916

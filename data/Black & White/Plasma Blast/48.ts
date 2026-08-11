@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It happily carries heavy cargo to toughen up. It willingly does hard work for people.",
+	},
+
 	thirdParty: {
 		cardmarket: 281069,
 		tcgplayer: 86985

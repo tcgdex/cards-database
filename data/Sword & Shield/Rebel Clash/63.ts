@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves."
 	},
 
-	thirdParty: {
-		cardmarket: 457748,
-		tcgplayer: 213146
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457748,
+				tcgplayer: 213146
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457748,
+				tcgplayer: 213146
+			}
+		},
+	],
 }
 
 export default card

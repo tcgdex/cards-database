@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
 		fr: "Il vit dans des endroits arides. Il exsude du sable granuleux au lieu de transpirer."
 	},
 

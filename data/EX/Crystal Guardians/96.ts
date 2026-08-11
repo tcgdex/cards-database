@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Gewaldro ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",

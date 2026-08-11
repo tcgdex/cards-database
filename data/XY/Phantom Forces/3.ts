@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+	},
+
 	thirdParty: {
 		cardmarket: 281804,
 		tcgplayer: 94136

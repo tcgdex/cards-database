@@ -66,13 +66,55 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 805463
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805463,
+				tcgplayer: 610429
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805463,
+				tcgplayer: 610429
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806514,
+				tcgplayer: 610590
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806515,
+				tcgplayer: 610691
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 813897,
+			}
+		},
+	],
 }
 
 export default card

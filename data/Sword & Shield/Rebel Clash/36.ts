@@ -90,19 +90,18 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 456423,
-		tcgplayer: 213113
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456423,
+				tcgplayer: 213113
+			}
+		},
+	],
 }
 
 export default card

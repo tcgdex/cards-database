@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+	},
+
 	thirdParty: {
 		cardmarket: 280395,
 		tcgplayer: 88984

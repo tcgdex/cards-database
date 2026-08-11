@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
+		fr: "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -75,25 +76,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail.",
 		fr: "Il peut nager à l'envers en agitant ses petites nageoires pectorales."
 	},
 
-	thirdParty: {
-		cardmarket: 273903,
-		tcgplayer: 44444
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273903,
+				tcgplayer: 44444
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273903,
+				tcgplayer: 44444
+			}
 		},
 		{
 			type: "normal",

@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+	},
+
 	thirdParty: {
 		cardmarket: 280256,
 		tcgplayer: 90269

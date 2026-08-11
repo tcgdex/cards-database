@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Golbat",
+		en: "Koga's Golbat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		42,
-	],
+	dexId: [42],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Zubat",
+		en: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 20,
@@ -47,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sonic Scream",
+				en: "Sonic Scream"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 30,
 
@@ -60,31 +58,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274314,
-		tcgplayer: 86508
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86508,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86508,
+				cardmarket: 274314
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
+	},
+
 	thirdParty: {
 		cardmarket: 281033,
 		tcgplayer: 86631

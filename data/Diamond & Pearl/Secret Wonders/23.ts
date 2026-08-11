@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it.",
+	},
+
 	thirdParty: {
 		cardmarket: 277776,
 		tcgplayer: 83722

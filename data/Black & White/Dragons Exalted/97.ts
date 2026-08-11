@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 280536,
 		tcgplayer: 86241

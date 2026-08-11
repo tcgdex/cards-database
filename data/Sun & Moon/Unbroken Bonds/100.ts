@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+	},
+
 	thirdParty: {
 		cardmarket: 372391,
 		tcgplayer: 189199

@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+	},
+
 	thirdParty: {
 		cardmarket: 279998,
 		tcgplayer: 86355

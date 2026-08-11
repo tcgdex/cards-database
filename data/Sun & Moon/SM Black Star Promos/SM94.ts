@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wasch-Rotom"
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,6 +83,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+	},
 }
 
 export default card

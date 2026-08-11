@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+	},
+
 	thirdParty: {
 		cardmarket: 289828,
 		tcgplayer: 117765

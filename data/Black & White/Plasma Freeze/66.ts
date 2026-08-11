@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They communicate by clawing signs in boulders and work together to surround enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280944,
 		tcgplayer: 90535

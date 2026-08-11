@@ -83,23 +83,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
 		fr: "Comme il ne voit rien à cause des longs poils qui recouvrent son corps, il passe son temps à charger tout ce qui bouge."
 	},
 
-	thirdParty: {
-		cardmarket: 274444,
-		tcgplayer: 88116
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274444,
+				tcgplayer: 88116
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274444,
+				tcgplayer: 88116
+			}
 		}
 	]
 }

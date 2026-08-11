@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kosturso"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -90,6 +90,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+	},
 }
 
 export default card

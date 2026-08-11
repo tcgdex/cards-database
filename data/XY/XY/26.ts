@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+	},
+
 	thirdParty: {
 		cardmarket: 281363,
 		tcgplayer: 84752

@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Strepoli"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
 
 	evolveFrom: {
 		en: "Timburr",
@@ -65,6 +68,16 @@ const card: Card = {
 	},
 
 	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280077,
+				tcgplayer: 98691
+			}
+		},
+	],
+
 }
 
 export default card

@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+	},
+
 	thirdParty: {
 		cardmarket: 284198,
 		tcgplayer: 100622

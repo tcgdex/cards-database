@@ -74,18 +74,47 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725225,
+				tcgplayer: 509929,
+				cardtrader: 255830
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725225,
+				tcgplayer: 509929,
+				cardtrader: 255830
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
-	thirdParty: {
-		cardmarket: 725225
-	}
+	
 }
 
 export default card

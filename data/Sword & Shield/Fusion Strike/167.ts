@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Megumi Mizutani",
@@ -42,17 +48,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582795,
-		tcgplayer: 253381
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582795,
+				tcgplayer: 253381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582795,
+				tcgplayer: 253381
+			}
+		},
+	],
 }
 
 export default card

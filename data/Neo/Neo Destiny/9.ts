@@ -78,23 +78,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws.",
 		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
 	},
 
-	thirdParty: {
-		cardmarket: 274661,
-		tcgplayer: 84652
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274661,
+				tcgplayer: 84652
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274661,
+				tcgplayer: 84652
+			}
 		}
 	]
 }

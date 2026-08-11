@@ -44,10 +44,27 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609809,
+				tcgplayer: 570611,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577628,
+			},
+		},
+	],
+
 	retreat: 4,
 	regulationMark: "F",
 	rarity: "Common",
-	dexId: [449]
+	dexId: [449],
 }
 
 export default card

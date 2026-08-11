@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
+	},
+
 	thirdParty: {
 		cardmarket: 282673,
 		tcgplayer: 98041

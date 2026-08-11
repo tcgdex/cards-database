@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines."
 	},
 
-	thirdParty: {
-		cardmarket: 483199,
-		tcgplayer: 219421
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483199,
+				tcgplayer: 219421
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483199,
+				tcgplayer: 219421
+			}
+		},
+	],
 }
 
 export default card

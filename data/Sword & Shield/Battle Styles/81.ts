@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	},
 
-	thirdParty: {
-		cardmarket: 545516,
-		tcgplayer: 234257
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545516,
+				tcgplayer: 234257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545516,
+				tcgplayer: 234257
+			}
+		},
+	],
 }
 
 export default card

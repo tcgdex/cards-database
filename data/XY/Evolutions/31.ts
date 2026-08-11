@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon has a geometric body. Because of its body, the locals suspect that it is an alien creature.",
+	},
+
 	thirdParty: {
 		cardmarket: 293388,
 		tcgplayer: 124044

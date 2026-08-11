@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When she's surrounded by cushions and dressers that I like, she looks just like a princess!",
+	},
+
 	thirdParty: {
 		cardmarket: 288520
 	}

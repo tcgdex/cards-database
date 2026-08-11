@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If you think that you had a good dream but you can't remember it, a Drowzee has probably eaten it.",
+	},
+
 	thirdParty: {
 		cardmarket: 288225,
 		tcgplayer: 111592

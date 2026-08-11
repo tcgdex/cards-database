@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+	},
+
 	thirdParty: {
 		cardmarket: 284186,
 		tcgplayer: 101454

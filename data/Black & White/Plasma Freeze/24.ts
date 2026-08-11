@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+	},
+
 	thirdParty: {
 		cardmarket: 280902,
 		tcgplayer: 90091

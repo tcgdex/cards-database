@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10P"
+import { Card } from "../../../interfaces";
+import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "艾姆利多"
+		ja: "エムリット",
+		'zh-tw': "艾姆利多",
 	},
 
 	illustrator: "zig",
@@ -14,44 +14,54 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "在湖底沉睡。 但據說牠的靈魂會跑出來， 在水面徘徊飛行。"
+		ja: "湖の 底で 眠っているが 魂が 抜け出して 水面を 飛び回ると 言われている。",
+		'zh-tw': "在湖底沉睡。 但據說牠的靈魂會跑出來， 在水面徘徊飛行。",
 	},
 
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "意識之帳"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "いしきのとばり",
+				'zh-tw': "意識之帳",
+			},
+			effect: {
+				ja: "自分の場に「ユクシー」「アグノム」がいるなら、自分のポケモン全員の弱点は、すべてなくなる。",
+				'zh-tw': "若自己的場上有「由克希」「亞克諾姆」，則自己的所有寶可夢的弱點全部消除。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若自己的場上有「由克希」「亞克諾姆」，則自己的所有寶可夢的弱點全部消除。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "意念頭錘"
+	attacks: [
+		{
+			name: {
+				ja: "しねんのずつき",
+				'zh-tw': "意念頭錘",
+			},
+			damage: 30,
+			cost: ["Psychic", "Psychic"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Psychic", "Psychic"]
-	}],
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 651089,
+				tcgplayer: 569873,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Rare",
+	dexId: [481],
+};
 
-export default card
+export default card;

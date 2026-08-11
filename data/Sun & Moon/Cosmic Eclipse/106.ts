@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+	},
+
 	thirdParty: {
 		cardmarket: 408174,
 		tcgplayer: 201135

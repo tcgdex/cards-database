@@ -48,14 +48,29 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Narumi Sato",
+
+	description: {
+		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+	},
 
 	thirdParty: {
         cardmarket: 702362,

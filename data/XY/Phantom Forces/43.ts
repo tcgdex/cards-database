@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 281849,
 		tcgplayer: 94501

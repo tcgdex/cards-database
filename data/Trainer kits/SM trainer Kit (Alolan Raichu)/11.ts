@@ -14,10 +14,26 @@ const card: Card = {
 		de: "Zubat"
 	},
 
+	illustrator: "Satoshi Shirai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
-	types: ["Psychic"],
+	types: [
+		"Psychic"
+	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				en: "Astonish"
+			},
+			effect: {
+				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+			}
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -31,9 +47,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152864
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297242,
+				tcgplayer: 152864
+			}
+		},
+	],
+
 }
 
 export default card

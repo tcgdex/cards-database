@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Miki Tanaka",
@@ -42,17 +48,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582216,
-		tcgplayer: 253236
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582216,
+				tcgplayer: 253236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582216,
+				tcgplayer: 253236
+			}
+		},
+	],
 }
 
 export default card

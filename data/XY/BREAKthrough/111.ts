@@ -111,6 +111,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+	},
+
 	thirdParty: {
 		cardmarket: 286357,
 		tcgplayer: 107230

@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582978,
-		tcgplayer: 253121
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582978,
+				tcgplayer: 253121
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582978,
+				tcgplayer: 253121
+			}
+		},
+	],
 }
 
 export default card

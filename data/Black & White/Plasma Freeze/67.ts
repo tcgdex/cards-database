@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It appears from deep in the mountains to warn people about upcoming disasters it has sensed with its horn.",
+	},
+
 	thirdParty: {
 		cardmarket: 280945,
 		tcgplayer: 83455

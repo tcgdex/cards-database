@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use the long fur on their arms as a whip to strike their opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280293,
 		tcgplayer: 87441

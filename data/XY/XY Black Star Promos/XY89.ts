@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -74,8 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+	},
+
 	thirdParty: {
-		cardmarket: 289809
+		cardmarket: 554190
 	}
 }
 

@@ -8,11 +8,17 @@ import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import type { paths as OpenAPI } from '../../openapi'
 import { betterSorter, checkLanguage, unique } from '../../util'
+<<<<<<< HEAD
 import { findCards, findOneCard, getAllCards, getCardById, toBrief } from '../Components/Card'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 
 type Response<Path extends keyof OpenAPI> = OpenAPI[Path]['get']['responses'][200]['content']['application/json']
+=======
+import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
+import { findOneSet, findSets, setToBrief } from '../Components/Set'
+import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
+>>>>>>> origin/master
 
 type CustomRequest = Request & {
 	/**
@@ -324,11 +330,19 @@ server
 
 		let result: unknown
 		switch (endpoint) {
+<<<<<<< HEAD
 			case 'cards':
 				if (subid === 'skus') {
 					result = await listSKUs(await getCardById(lang, id) as any)
 				}
 				break
+=======
+			// case 'cards':
+			// 	if (subid === 'skus') {
+			// 		result = await listSKUs(getCompiledCard(lang, id))
+			// 	}
+			// 	break
+>>>>>>> origin/master
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				// @ts-expect-error normal behavior until the filtering is more fiable

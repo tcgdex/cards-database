@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest.",
+	},
+
 	thirdParty: {
 		cardmarket: 282705,
 		tcgplayer: 98073

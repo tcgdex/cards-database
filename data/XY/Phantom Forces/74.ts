@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Their heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+	},
+
 	thirdParty: {
 		cardmarket: 281880,
 		tcgplayer: 94642

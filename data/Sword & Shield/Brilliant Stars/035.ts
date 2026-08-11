@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Plinfa"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
 	},
 
-	thirdParty: {
-		cardmarket: 608485,
-		tcgplayer: 263734
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608485,
+				tcgplayer: 263734
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608485,
+				tcgplayer: 263734
+			}
+		},
+	],
 }
 
 export default card

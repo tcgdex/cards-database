@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		279,
-	],
+	dexId: [279],
 	
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Wingull",
+		en: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -81,19 +79,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278896,
-		tcgplayer: 87978
+	description: {
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87978,
+				cardmarket: 278896
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278896,
+				tcgplayer: 87978
+			}
+		},
+	],
+
 }
 
 export default card

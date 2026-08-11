@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		139,
-	],
+	dexId: [139],
 	
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
+		en: "Omanyte"
 	},
 
 	stage: "Stage2",
@@ -71,19 +69,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278895,
-		tcgplayer: 87871
+	description: {
+		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87871,
+				cardmarket: 278895
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278895,
+				tcgplayer: 87871
+			}
+		},
+	],
+
 }
 
 export default card

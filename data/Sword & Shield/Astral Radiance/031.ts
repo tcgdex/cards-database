@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Quiekel"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill.",
 	},
 
-	thirdParty: {
-		cardmarket: 658538,
-		tcgplayer: 272231
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658538,
+				tcgplayer: 272231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658538,
+				tcgplayer: 272231
+			}
+		},
+	],
 }
 
 export default card

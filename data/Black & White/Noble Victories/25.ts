@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+	},
+
 	thirdParty: {
 		cardmarket: 280148,
 		tcgplayer: 89921

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stands up to massive opponents, not out of courage, but out of recklessness. But that is how it gets stronger.",
+	},
+
 	thirdParty: {
 		cardmarket: 280855,
 		tcgplayer: 88844

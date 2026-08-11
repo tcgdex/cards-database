@@ -72,12 +72,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
 
-	thirdParty: {
-		cardmarket: 457568,
-		tcgplayer: 213099
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457568,
+				tcgplayer: 213099
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457568,
+				tcgplayer: 213099
+			}
+		},
+	],
 }
 
 export default card

@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725189,
+				tcgplayer: 509801,
+				cardtrader: 255794
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725189,
+				tcgplayer: 509801,
+				cardtrader: 255794
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 725189
-	}
+	
 }
 
 export default card

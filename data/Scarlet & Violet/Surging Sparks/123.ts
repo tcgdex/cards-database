@@ -50,18 +50,40 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794496,
+				tcgplayer: 589856
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794496,
+				tcgplayer: 589856
+			}
+		},
+	],
 
 	illustrator: "Dsuke",
 
-	thirdParty: {
-		cardmarket: 794496
-	}
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Braviary",
@@ -99,10 +93,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574195,
-		tcgplayer: 246877
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574195,
+				tcgplayer: 246877
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574195,
+				tcgplayer: 246877
+			}
+		},
+	],
 }
 
 export default card

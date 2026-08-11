@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
 	},
 
-	thirdParty: {
-		cardmarket: 545746,
-		tcgplayer: 234160
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545746,
+				tcgplayer: 234160
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545746,
+				tcgplayer: 234160
+			}
+		},
+	],
 }
 
 export default card

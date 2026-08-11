@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rescue Carrier",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Ryo Ueda",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574212,
-		tcgplayer: 246780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574212,
+				tcgplayer: 246780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574212,
+				tcgplayer: 246780
+			}
+		},
+	],
 }
 
 export default card

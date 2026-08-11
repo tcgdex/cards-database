@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
+	},
+
 	thirdParty: {
 		cardmarket: 280401,
 		tcgplayer: 90430

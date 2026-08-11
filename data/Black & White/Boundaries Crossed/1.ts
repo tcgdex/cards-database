@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+	},
+
 	thirdParty: {
 		cardmarket: 280588,
 		tcgplayer: 87846

@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+	},
+
 	thirdParty: {
 		cardmarket: 281666,
 		tcgplayer: 92171

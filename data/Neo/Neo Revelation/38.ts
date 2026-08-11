@@ -76,23 +76,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
 		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
 	},
 
-	thirdParty: {
-		cardmarket: 274624,
-		tcgplayer: 89500
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274624,
+				tcgplayer: 89500
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274624,
+				tcgplayer: 89500
+			}
 		}
 	]
 }

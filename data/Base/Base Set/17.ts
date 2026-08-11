@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kakuna",
+		fr: "Coconfort",
 		it: "Kakuna"
 	},
 
@@ -94,15 +95,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273712,
+				tcgplayer: 42357
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107012
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107012
+			}
 		},
 		{
 			type: "normal",
@@ -111,14 +122,10 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
 		fr: "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras.",
 		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15"
 	},
-
-	thirdParty: {
-		cardmarket: 273712,
-		tcgplayer: 42357
-	}
 }
 
 export default card

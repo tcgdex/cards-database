@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+	},
+
 	thirdParty: {
 		cardmarket: 291655,
 		tcgplayer: 121221

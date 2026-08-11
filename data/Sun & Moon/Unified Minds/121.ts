@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This ancient Pokémon's plumage is delicate, so if anyone other than an experienced professional tries to restore it, they will fail.",
+	},
+
 	thirdParty: {
 		cardmarket: 388407,
 		tcgplayer: 195077

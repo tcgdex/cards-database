@@ -77,23 +77,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
 		fr: "Quand trois d'entre eux se retrouvent, ils chantent d'une voix tonitruante qui ressemble à des beuglements."
 	},
 
-	thirdParty: {
-		cardmarket: 274519,
-		tcgplayer: 88249
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274519,
+				tcgplayer: 88249
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274519,
+				tcgplayer: 88249
+			}
 		}
 	]
 }

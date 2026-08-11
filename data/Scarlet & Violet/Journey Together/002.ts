@@ -54,22 +54,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 817154
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817154,
+				tcgplayer: 623429
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817154,
+				tcgplayer: 623429
+			}
 		},
-	]
+	],
 }
 
 export default card

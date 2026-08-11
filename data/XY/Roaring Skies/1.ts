@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds.",
+	},
+
 	thirdParty: {
 		cardmarket: 282669,
 		tcgplayer: 98037

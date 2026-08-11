@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
@@ -74,17 +80,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582036,
-		tcgplayer: 253078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582036,
+				tcgplayer: 253078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582036,
+				tcgplayer: 253078
+			}
+		},
+	],
 }
 
 export default card

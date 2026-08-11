@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Keradar"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -57,16 +58,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674030,
-		tcgplayer: 283887
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674030,
+				tcgplayer: 283887
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674030,
+				tcgplayer: 283887
+			}
+		},
+	],
 }
 
 export default card

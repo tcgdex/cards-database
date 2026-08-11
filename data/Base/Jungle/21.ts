@@ -77,23 +77,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
 		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
 	},
 
-	thirdParty: {
-		cardmarket: 273802,
-		tcgplayer: 106983
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273802,
+				tcgplayer: 106983
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273802,
+				tcgplayer: 106983
+			}
 		}
 	],
 }

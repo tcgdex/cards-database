@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
+	},
+
 	thirdParty: {
 		cardmarket: 291651,
 		tcgplayer: 121217

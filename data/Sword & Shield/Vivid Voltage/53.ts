@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
 	},
 
-	thirdParty: {
-		cardmarket: 511685,
-		tcgplayer: 226449
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511685,
+				tcgplayer: 226449
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511685,
+				tcgplayer: 226449
+			}
+		},
+	],
 }
 
 export default card

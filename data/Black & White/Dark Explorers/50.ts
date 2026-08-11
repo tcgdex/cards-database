@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 280378,
 		tcgplayer: 90626

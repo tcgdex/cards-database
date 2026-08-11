@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "No matter how heavy the cargo, we can transport it to our destination with ease, thanks to Numel.",
+	},
+
 	thirdParty: {
 		cardmarket: 282512,
 		tcgplayer: 97047

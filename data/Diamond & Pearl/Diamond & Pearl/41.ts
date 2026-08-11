@@ -55,6 +55,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
 		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
 	},
 

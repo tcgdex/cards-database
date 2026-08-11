@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The force of this Pokémon's loud voice isn't just the sound—it's also the wave of air pressure that blows opponents away and damages them.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740689,
+				tcgplayer: 523830,
+				cardtrader: 265255
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740689,
+				tcgplayer: 523830,
+				cardtrader: 265255
+			}
+		},
+	],
 
 	illustrator: "Yukiko Baba",
 
-	thirdParty: {
-		cardmarket: 740689
-	}
+	
 }
 
 export default card

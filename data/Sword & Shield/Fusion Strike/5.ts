@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
@@ -74,17 +80,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582033,
-		tcgplayer: 253075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582033,
+				tcgplayer: 253075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582033,
+				tcgplayer: 253075
+			}
+		},
+	],
 }
 
 export default card

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+	},
+
 	thirdParty: {
 		cardmarket: 280504,
 		tcgplayer: 88807

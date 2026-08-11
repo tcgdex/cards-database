@@ -47,9 +47,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 84145
+			}
+		},
+	]
 
 }
 

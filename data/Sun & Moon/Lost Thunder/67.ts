@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its singing voice is its chief weapon in battle. This Pokémon's Trainer must prioritize the daily maintenance of its throat at all costs.",
+	},
+
 	thirdParty: {
 		cardmarket: 365705,
 		tcgplayer: 178876

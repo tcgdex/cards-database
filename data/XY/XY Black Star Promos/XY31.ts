@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -78,8 +78,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+	},
+
 	thirdParty: {
-		cardmarket: 281317
+		cardmarket: 552954
 	}
 }
 

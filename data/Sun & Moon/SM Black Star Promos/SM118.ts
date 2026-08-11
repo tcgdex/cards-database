@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wolwerock"
 	},
 	illustrator: "sui",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
+	},
 }
 
 export default card

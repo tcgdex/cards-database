@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
+	description: {
+		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760641,
+				tcgplayer: 542669
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760641,
+				tcgplayer: 542669
+			}
+		},
 	],
 
 	illustrator: "Uninori",
 
-	thirdParty: {
-		cardmarket: 760641
-	}
 }
 
 export default card

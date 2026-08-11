@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+	},
+
 	thirdParty: {
 		cardmarket: 280290,
 		tcgplayer: 86082

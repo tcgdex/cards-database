@@ -71,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",
 		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
 	},
 
-	thirdParty: {
-		cardmarket: 274724,
-		tcgplayer: 86749
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274724,
+				tcgplayer: 86749
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274724,
+				tcgplayer: 86749
+			}
 		}
 	]
 }

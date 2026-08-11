@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
+	},
+
 	thirdParty: {
 		cardmarket: 281531,
 		tcgplayer: 91181

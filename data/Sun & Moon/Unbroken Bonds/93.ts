@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+	},
+
 	thirdParty: {
 		cardmarket: 372383,
 		tcgplayer: 189192

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shaymin V"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
@@ -58,20 +59,25 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608437,
-		tcgplayer: 263871
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608698,
+				tcgplayer: 263871
+			}
+		},
+	],
 }
 
 export default card

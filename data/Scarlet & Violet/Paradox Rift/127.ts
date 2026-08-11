@@ -35,18 +35,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740664,
+				tcgplayer: 523804,
+				cardtrader: 265243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740664,
+				tcgplayer: 523804,
+				cardtrader: 265243
+			}
+		},
+	],
 
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 740664
-	}
+	
 }
 
 export default card

@@ -74,18 +74,41 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 833332,
+				tcgplayer: 590053
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 833332,
+				tcgplayer: 590053
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 794290,
+			}
+		},
+	],
 
 	illustrator: "akagi",
-
-	thirdParty: {
-		cardmarket: 794290
-	}
+	
 }
 
 export default card

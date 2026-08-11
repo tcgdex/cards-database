@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280348,
 		tcgplayer: 86630

@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its eyes are special. They can pick out objects as long as there is the tiniest amount of light.",
 		fr: "Ses yeux sont particuliers. La plus petite source de lumière leur permet de distinguer les objets."
 	},
 

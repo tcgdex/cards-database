@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladimperio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
@@ -63,9 +63,33 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "Oku"
+	illustrator: "Oku",
+	description: {
+		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 770950,
+				tcgplayer: 562087
+			},
+		}
+	],
 }
 
 export default card

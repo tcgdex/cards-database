@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+	},
+
 	thirdParty: {
 		cardmarket: 280492,
 		tcgplayer: 90066

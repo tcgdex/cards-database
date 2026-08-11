@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramurx"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,42 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
 	},
 
-	thirdParty: {
-		cardmarket: 682153,
-		tcgplayer: 451760
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682153,
+				tcgplayer: 451760
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682153,
+				tcgplayer: 451760
+			}
+		},
+	],
 }
 
 export default card

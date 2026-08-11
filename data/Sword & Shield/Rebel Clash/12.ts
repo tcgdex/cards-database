@@ -68,12 +68,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -81,10 +75,22 @@ const card: Card = {
 		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
 	},
 
-	thirdParty: {
-		cardmarket: 457453,
-		tcgplayer: 213082
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457453,
+				tcgplayer: 213082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457453,
+				tcgplayer: 213082
+			}
+		},
+	],
 }
 
 export default card

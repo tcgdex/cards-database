@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The cakes Slurpuff makes always look just like that one Pokémon it likes.",
+	},
+
 	thirdParty: {
 		cardmarket: 288529
 	}

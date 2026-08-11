@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Rockets Raikou ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -71,16 +72,17 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 88785,
-		cardmarket: 276511
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88785,
+				cardmarket: 276511
+			},
+		},
+	],
+
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gaunux"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
 	},
 
-	thirdParty: {
-		cardmarket: 658765,
-		tcgplayer: 272305
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658765,
+				tcgplayer: 272305
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658765,
+				tcgplayer: 272305
+			}
+		},
+	],
 }
 
 export default card

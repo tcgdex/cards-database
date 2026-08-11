@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 281538,
 		tcgplayer: 91192

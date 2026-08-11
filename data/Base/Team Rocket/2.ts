@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
+		fr: "Abo"
 	},
 
 	stage: "Stage1",
@@ -74,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
 		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
 	},
 
-	thirdParty: {
-		cardmarket: 274055,
-		tcgplayer: 84563
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274055,
+				tcgplayer: 84563
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274055,
+				tcgplayer: 84563
+			}
 		}
 	]
 }

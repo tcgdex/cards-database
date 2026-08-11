@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.",
+	},
+
 	thirdParty: {
 		cardmarket: 280671,
 		tcgplayer: 85063

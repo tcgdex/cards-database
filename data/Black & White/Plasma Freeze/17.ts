@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
+	},
+
 	thirdParty: {
 		cardmarket: 280895,
 		tcgplayer: 88708

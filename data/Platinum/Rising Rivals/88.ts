@@ -14,33 +14,46 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your discard pile for up to 2 in any combination of Pokémon SP and basic Energy cards, show them to your opponent, and put them into your hand.",
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
 		de: "Durchsuche deinen Ablagestapel nach bis zu 2 Karten in beliebiger Kombination aus Pokémon SP- und Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278662,
-		tcgplayer: 83439
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83439,
+				cardmarket: 278662,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278662,
+				tcgplayer: 83439
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 869030,
+				tcgplayer: 479852
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 868812,
+				tcgplayer: 479990
+			}
 		}
-	]
+	],
+
 }
 
 export default card

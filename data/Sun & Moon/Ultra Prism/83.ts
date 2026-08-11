@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting signals of unknown purpose.",
+	},
+
 	thirdParty: {
 		cardmarket: 316010,
 		tcgplayer: 157700

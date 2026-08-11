@@ -28,16 +28,20 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "imoniii",
 
-	thirdParty: {
-		cardmarket: 780956
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780956,
+				tcgplayer: 560371
+			}
+		},
+	],
 }
 
 export default card

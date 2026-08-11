@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
 		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
 	},
 
-	thirdParty: {
-		cardmarket: 274094,
-		tcgplayer: 84630
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274094,
+				tcgplayer: 84630
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274094,
+				tcgplayer: 84630
+			}
 		}
 	]
 }

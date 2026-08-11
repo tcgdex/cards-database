@@ -65,8 +65,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its legs are short, but its hooves are wide and flat, allowing it to easily walk over snow.",
 		fr: "Il a de courtes pattes, mais ses sabots sont larges et plats, ce qui lui permet de se déplacer facilement sur la neige."
 	},
 
@@ -84,18 +87,22 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274678,
-		tcgplayer: 86747
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274678,
+				tcgplayer: 86747
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274678,
+				tcgplayer: 86747
+			}
 		}
 	]
 }

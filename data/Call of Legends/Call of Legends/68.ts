@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		204,
-	],
+	dexId: [204],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -64,14 +62,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88131,
+				cardmarket: 279711
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88131,
+				cardmarket: 279711
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279711,
-		tcgplayer: 88131
-	}
 }
 
 export default card

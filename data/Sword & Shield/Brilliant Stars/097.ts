@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Stolloss VMAX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -76,20 +77,31 @@ const card: Card = {
 		damage: 270
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608643,
-		tcgplayer: 263815
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608643,
+				tcgplayer: 263815
+			}
+		},
+	],
 }
 
 export default card

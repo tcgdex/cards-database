@@ -66,19 +66,36 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 780990
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 560406
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 780990
+			}
+		},
+	],
 }
 
 export default card

@@ -75,8 +75,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because it continually ate only its favorite fruit, the fruit started growing around its neck.",
 		fr: "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
 	},
 

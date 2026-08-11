@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725139,
+				tcgplayer: 509810,
+				cardtrader: 255619
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725139,
+				tcgplayer: 509810,
+				cardtrader: 255619
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 725139
-	}
+	
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
+		fr: "Carapuce"
 	},
 
 	stage: "Stage1",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
 		fr: "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas."
 	},
 
-	thirdParty: {
-		cardmarket: 274099,
-		tcgplayer: 84670
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274099,
+				tcgplayer: 84670
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274099,
+				tcgplayer: 84670
+			}
 		}
 	]
 }

@@ -53,6 +53,16 @@ const card: Card = {
 		damage: 170
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 807661,
+				tcgplayer: 614925,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "I"
 }

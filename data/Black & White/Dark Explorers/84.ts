@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280411,
 		tcgplayer: 85091

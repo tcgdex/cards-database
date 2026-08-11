@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Abra",
+		fr: "Abra"
 	},
 
 	stage: "Stage1",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Some people say that Kadabras are responsible for many of the mysterious events reported in the news.",
 		fr: "Certaines personnes disent que les Kadabra sont responsables de bon nombre des mystérieux événements rapportés par les médias."
 	},
 
-	thirdParty: {
-		cardmarket: 274092,
-		tcgplayer: 84618
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274092,
+				tcgplayer: 84618
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274092,
+				tcgplayer: 84618
+			}
 		}
 	]
 }

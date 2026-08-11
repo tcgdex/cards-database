@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
-	rarity: "Rare",
+	illustrator: "Masakazu Fukuda",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],
@@ -60,7 +61,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
+	},
 }
 
 export default card

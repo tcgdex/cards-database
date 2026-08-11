@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+	},
 }
 
 export default card

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+	},
+
 	thirdParty: {
 		cardmarket: 288494,
 		tcgplayer: 113714

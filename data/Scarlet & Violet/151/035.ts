@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733630,
+				tcgplayer: 516030,
+				cardtrader: 261107
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733630,
+				tcgplayer: 516030,
+				cardtrader: 261107
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 733701
-	}
+	
 }
 
 export default card

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A tough Pokémon that is perfectly fine even in dirty water. However, due to its ragged, shabby appearance, it isn't popular.",
+	},
+
 	thirdParty: {
 		cardmarket: 311876,
 		tcgplayer: 149047

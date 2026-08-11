@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
+	},
+
 	thirdParty: {
 		cardmarket: 280769,
 		tcgplayer: 86839

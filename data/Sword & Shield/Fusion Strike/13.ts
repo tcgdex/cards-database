@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
@@ -42,17 +48,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582050,
-		tcgplayer: 253087
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582050,
+				tcgplayer: 253087
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582050,
+				tcgplayer: 253087
+			}
+		},
+	],
 }
 
 export default card

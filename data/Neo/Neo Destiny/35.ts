@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close.",
 		fr: "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés."
 	},
 
-	thirdParty: {
-		cardmarket: 274687,
-		tcgplayer: 84598
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274687,
+				tcgplayer: 84598
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274687,
+				tcgplayer: 84598
+			}
 		}
 	]
 }

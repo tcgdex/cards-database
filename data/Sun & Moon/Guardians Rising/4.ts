@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although the leaves on its head are bitter enough to cause dizziness, they provide relief from weariness—even more so when boiled.",
+	},
+
 	thirdParty: {
 		cardmarket: 297468,
 		tcgplayer: 130689

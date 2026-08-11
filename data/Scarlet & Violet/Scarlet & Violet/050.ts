@@ -63,14 +63,29 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Souichirou Gunjima",
+
+	description: {
+		en: "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
+	},
 
 	thirdParty: {
         cardmarket: 702345,

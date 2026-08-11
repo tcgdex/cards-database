@@ -4,8 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのジグリプフ",
+		ja: "エリカのプリン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576787
+			},
 		},
 	],
 };

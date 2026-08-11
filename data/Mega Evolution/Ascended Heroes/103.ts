@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [307],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -59,13 +60,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675915,
-		cardmarket: 869714
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869714,
+			tcgplayer: 675915
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870302,
+			tcgplayer: 676935
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870301,
+			tcgplayer: 677075
+		}
+	},
+],
 }
 
 export default card

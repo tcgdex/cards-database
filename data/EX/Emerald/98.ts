@@ -23,7 +23,7 @@ const card: Card = {
 		"Water",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -82,8 +82,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88660,
+				cardmarket: 276609
+			},
 		},
-	]
+	],
 }
 
 export default card

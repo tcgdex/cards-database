@@ -70,8 +70,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693094,
+				tcgplayer: 568246,
+			},
+		},
+	],
+
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
 }
 
 export default card

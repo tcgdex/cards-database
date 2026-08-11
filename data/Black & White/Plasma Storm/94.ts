@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 280834,
 		tcgplayer: 84982

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in the depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
+	},
+
 	thirdParty: {
 		cardmarket: 295360,
 		tcgplayer: 126920

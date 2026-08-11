@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分のトラッシュから「ポケモン」と「ポケモンのどうぐ」と「スタジアム」と「エネルギー」を、それぞれ1枚まで選び、相手に見せて、山札にもどして切る。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606289,
+				tcgplayer: 569752,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

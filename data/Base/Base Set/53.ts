@@ -74,29 +74,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
 		fr: "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair.",
 		it: "Usa l'antigravità per rimanere sospeso. Appare senza preavviso e usa attacchi come Tuononda. LIV 13 N.81"
 	},
 
-	thirdParty: {
-		cardmarket: 273748,
-		tcgplayer: 42397
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273748,
+				tcgplayer: 42397
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107050
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107050
+			},
 		},
 		{
 			type: "normal",

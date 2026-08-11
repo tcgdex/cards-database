@@ -85,23 +85,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its power is such that not even mountains can stand in its way.",
 		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
 	},
 
-	thirdParty: {
-		cardmarket: 274663,
-		tcgplayer: 84660
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274663,
+				tcgplayer: 84660
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274663,
+				tcgplayer: 84660
+			}
 		}
 	]
 }

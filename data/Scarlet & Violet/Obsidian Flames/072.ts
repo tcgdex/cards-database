@@ -72,20 +72,41 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
+	description: {
+		en: "Many youths admire the way this Pokémon listlessly picks fights and keeps its cool no matter what opponent it faces.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725152,
+				tcgplayer: 509844,
+				cardtrader: 255632
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725152,
+				tcgplayer: 509844,
+				cardtrader: 255632
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 725152
-	}
+	
 }
 
 export default card

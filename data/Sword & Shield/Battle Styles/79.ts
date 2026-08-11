@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit."
 	},
 
-	thirdParty: {
-		cardmarket: 545506,
-		tcgplayer: 234255
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545506,
+				tcgplayer: 234255
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545506,
+				tcgplayer: 234255
+			}
+		},
+	],
 }
 
 export default card

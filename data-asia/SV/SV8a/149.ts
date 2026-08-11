@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "選擇1隻自己的場上寶可夢，將那隻寶可夢與附加的卡，全部放回手牌。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803262,
+				tcgplayer: 602577,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

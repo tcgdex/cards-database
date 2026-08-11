@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Darkrai-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Darkness"],
@@ -48,9 +48,21 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "5ban Graphics"
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

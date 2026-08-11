@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+	},
+
 	thirdParty: {
 		cardmarket: 281486,
 		tcgplayer: 91136

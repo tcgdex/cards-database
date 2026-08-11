@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
@@ -51,17 +57,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582873,
-		tcgplayer: 253291
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582873,
+				tcgplayer: 253291
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582873,
+				tcgplayer: 253291
+			}
+		},
+	],
 }
 
 export default card

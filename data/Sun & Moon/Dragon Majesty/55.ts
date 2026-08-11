@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The child in its pouch leaves home after roughly three years. That is the only time the mother is heard to cry wildly.",
+	},
+
 	thirdParty: {
 		cardmarket: 363526,
 		tcgplayer: 175485

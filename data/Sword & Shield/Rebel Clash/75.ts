@@ -81,12 +81,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
 	},
 
-	thirdParty: {
-		cardmarket: 457793,
-		tcgplayer: 213161
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457793,
+				tcgplayer: 213161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457793,
+				tcgplayer: 213161
+			}
+		},
+	],
 }
 
 export default card

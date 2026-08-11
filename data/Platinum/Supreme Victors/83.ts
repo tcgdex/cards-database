@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		227,
-	],
+	dexId: [227],
 	hp: 80,
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				de: "Maximalmetall"
 			},
 			effect: {
-				en: "Discard all Metal Energy attached to Skarmory FB. Flip a coin for each Energy card you discarded. This attack does 20 damage plus 40 more damage for each heads.",
+				en: "Discard all Metal Energy attached to Skarmory FB. Flip a coin for each Energy card you discarded. This attack does 20 damage plus 40 damage for each heads.",
 				fr: "Défaussez toutes les Énergies Metal attachées à Airmure . Lancez une pièce pour chaque carte Énergie défaussée. Cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires pour chaque face.",
 				de: "Lege alle an Panzaeron FB angelegten -Energien auf deinen Ablagestapel. Wirf für jede auf diese Weise auf den Ablagestapel gelegte -Energiekarte 1 Münze. Dieser Angriff fügt 20 Schadenspunkte plus 40 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
@@ -63,7 +61,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -76,18 +74,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371550,
+				tcgplayer: 89250
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278774,
+				tcgplayer: 89250
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
+			thirdParty: {
+				cardmarket: 371550,
+				tcgplayer: 178010
+			}
 		},
-	]
-
-
+	],
 
 }
 

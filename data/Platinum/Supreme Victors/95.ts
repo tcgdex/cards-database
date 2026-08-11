@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		441,
-	],
+	dexId: [441],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,28 +66,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278745
+	description: {
+		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84242,
+				cardmarket: 278786
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278745,
+				tcgplayer: 84242
+			}
+		},
+	],
+
 }
 
 export default card

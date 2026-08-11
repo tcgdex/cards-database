@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 280400,
 		tcgplayer: 83845

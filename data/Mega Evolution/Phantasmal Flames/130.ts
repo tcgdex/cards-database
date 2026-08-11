@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mega Charizard X ex"
 	},
 
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		'es-mx': "Charmeleon",
+		de: "Glutexo",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+	},
+
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
 
@@ -53,14 +63,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 857705,
+				tcgplayer: 662185
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 857705,
-		tcgplayer: 662185
-	}
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+  
+	suffix: "ex",
+	illustrator: 'Takuyoa'
+
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This very loyal Pokémon helps trainers, and it also takes care of other Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280708,
 		tcgplayer: 86071

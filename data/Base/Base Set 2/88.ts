@@ -45,15 +45,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274011,
-		tcgplayer: 42539
+
+	description: {
+		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274011,
+				tcgplayer: 42539
+			}
 		}
 	]
 }

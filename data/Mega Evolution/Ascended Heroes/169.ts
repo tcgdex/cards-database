@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Staravia do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Starly",
+		fr: "Étourmi d'Okuba",
+		es: "Starly de Laureano",
+		'es-mx': "Starly de Laureano",
+		de: "Aokis Staralili",
+		it: "Starly di Ubaldo",
+		pt: "Starly do Lauro",
+	},
+
 	illustrator: "Fujimoto Gold",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -51,13 +61,50 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675981,
-		cardmarket: 869780
-	}
+	description: {
+		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869780,
+			tcgplayer: 675981
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870398,
+			tcgplayer: 676983
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870397,
+			tcgplayer: 677123
+		}
+	},
+],
 }
 
 export default card

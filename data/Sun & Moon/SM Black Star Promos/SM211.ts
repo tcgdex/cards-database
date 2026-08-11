@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Glurak GX"
 	},
 
-	illustrator: undefined,
-	rarity: "None",
+	illustrator: "aky CG Works",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -88,7 +88,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
 }
 
 export default card

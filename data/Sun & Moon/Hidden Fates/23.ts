@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.",
+	},
+
 	thirdParty: {
 		cardmarket: 396622,
 		tcgplayer: 197667

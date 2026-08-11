@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
+	},
 }
 
 export default card

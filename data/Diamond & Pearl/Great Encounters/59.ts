@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has feuded with SEVIPER for many generations. Its sharp claws are its biggest weapons.",
+	},
+
 	thirdParty: {
 		cardmarket: 277961,
 		tcgplayer: 90706

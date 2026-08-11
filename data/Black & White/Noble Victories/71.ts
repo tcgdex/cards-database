@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
+	},
+
 	thirdParty: {
 		cardmarket: 280194,
 		tcgplayer: 85832

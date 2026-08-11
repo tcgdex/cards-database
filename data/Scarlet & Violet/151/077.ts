@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733672,
+				tcgplayer: 516601,
+				cardtrader: 261142
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733672,
+				tcgplayer: 516601,
+				cardtrader: 261142
+			}
+		},
+	],
 
 	illustrator: "Nurikabe",
 
-	thirdParty: {
-		cardmarket: 733662
-	}
+	
 }
 
 export default card

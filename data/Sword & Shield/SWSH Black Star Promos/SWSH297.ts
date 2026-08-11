@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Zoroark V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Colorless"],
@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 

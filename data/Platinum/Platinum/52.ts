@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		271,
-	],
+	dexId: [271],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Lotad",
-		fr: "Nénupiot",
+		fr: "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -75,19 +73,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278473,
-		tcgplayer: 86820
+	description: {
+		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86820,
+				cardmarket: 278473
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278473,
+				tcgplayer: 86820
+			}
 		}
-	]
+	],
+
 }
 
 export default card

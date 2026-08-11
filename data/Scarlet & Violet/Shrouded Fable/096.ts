@@ -28,16 +28,26 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 780991
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 560407
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 780991
+			}
+		},
+	],
 }
 
 export default card

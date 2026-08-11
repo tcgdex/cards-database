@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
 		fr: "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand."
 	},
 

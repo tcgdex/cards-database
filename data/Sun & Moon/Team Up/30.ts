@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It fires hyper beams in all directions, burning the surrounding area to ash. There are some regions where it's called \"the deity of destruction.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 368962,
 		tcgplayer: 183801

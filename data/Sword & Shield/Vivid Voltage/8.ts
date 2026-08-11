@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "It sticks tree bark to itself with its saliva, making itself thicker and larger. Elderly Pineco are ridiculously huge."
 	},
 
-	thirdParty: {
-		cardmarket: 511460,
-		tcgplayer: 226370
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511460,
+				tcgplayer: 226370
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511460,
+				tcgplayer: 226370
+			}
+		},
+	],
 }
 
 export default card

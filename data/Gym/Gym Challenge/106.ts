@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga",
+		en: "Koga"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274277,
-		tcgplayer: 86503
+	effect: {
+		en: "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86503,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86503,
+				cardmarket: 274287
+			}
 		},
-	]
+	],
 }
 
 export default card

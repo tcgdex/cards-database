@@ -5,12 +5,6 @@ const card: Card = {
 	dexId: [894],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Regieleki",
@@ -76,10 +70,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574084,
-		tcgplayer: 246902
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574084,
+				tcgplayer: 246902
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574084,
+				tcgplayer: 246902
+			}
+		},
+	],
 }
 
 export default card

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
+	},
+
 	thirdParty: {
 		cardmarket: 288473,
 		tcgplayer: 113693

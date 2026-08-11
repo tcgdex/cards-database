@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This rowdy Pokémon boasts great physical strength. Many Trainers are also smitten by its lively character.",
+	},
+
 	thirdParty: {
 		cardmarket: 408249,
 		tcgplayer: 201152

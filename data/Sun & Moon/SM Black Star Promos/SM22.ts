@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -71,7 +71,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+	},
 }
 
 export default card

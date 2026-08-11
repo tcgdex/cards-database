@@ -55,19 +55,33 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733768,
+				tcgplayer: 513721,
+				cardtrader: 261321
+			}
+		},
+	],
 
 	illustrator: "Hiroyuki Yamamoto",
 
-	thirdParty: {
-		cardmarket: 733768
-	}
+	
 }
 
 export default card

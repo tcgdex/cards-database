@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -57,23 +58,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
 		fr: "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde."
 	},
 
-	thirdParty: {
-		cardmarket: 274136,
-		tcgplayer: 84647
-	},
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274136,
+				tcgplayer: 84647
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274136,
+				tcgplayer: 84647
+			}
 		}
 	]
 }

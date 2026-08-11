@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+	},
+
 	thirdParty: {
 		cardmarket: 284225,
 		tcgplayer: 101464

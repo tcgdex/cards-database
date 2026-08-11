@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In many places, there are folktales of stardust falling into the ocean and becoming Staryu.",
+	},
+
 	thirdParty: {
 		cardmarket: 394777,
 		tcgplayer: 197657

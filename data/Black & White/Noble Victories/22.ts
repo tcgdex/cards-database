@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+	},
+
 	thirdParty: {
 		cardmarket: 280145,
 		tcgplayer: 90088

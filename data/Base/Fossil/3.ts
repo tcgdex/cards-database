@@ -54,25 +54,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
 		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double."
 	},
 
-	thirdParty: {
-		cardmarket: 273864,
-		tcgplayer: 106519
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273864,
+				tcgplayer: 106519
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273864,
+				tcgplayer: 106519
+			}
 		},
 	]
 }

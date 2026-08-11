@@ -78,23 +78,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding.",
 		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
 	},
 
-	thirdParty: {
-		cardmarket: 274601,
-		tcgplayer: 83466
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
 		}
 	]
 }

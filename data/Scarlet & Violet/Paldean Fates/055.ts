@@ -55,18 +55,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751592,
+				tcgplayer: 534417,
+				cardtrader: 274239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751592,
+				tcgplayer: 534417,
+				cardtrader: 274239
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
-	thirdParty: {
-		cardmarket: 751592
-	}
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+	},
+
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mamutel"
 	},
 
+	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct.",
 	},
 
-	thirdParty: {
-		cardmarket: 658541,
-		tcgplayer: 272233
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658541,
+				tcgplayer: 272233
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658541,
+				tcgplayer: 272233
+			}
+		},
+	],
 }
 
 export default card

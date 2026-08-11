@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+	},
+
 	thirdParty: {
 		cardmarket: 277956,
 		tcgplayer: 89306

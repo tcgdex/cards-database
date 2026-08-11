@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Tepig"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 

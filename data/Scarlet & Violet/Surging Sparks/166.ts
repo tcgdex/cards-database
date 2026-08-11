@@ -28,15 +28,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794539,
+				tcgplayer: 589899
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794539,
+				tcgplayer: 589899
+			}
+		},
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794539
-	}
 }
 
 export default card

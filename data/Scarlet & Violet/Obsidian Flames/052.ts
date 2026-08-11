@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725132,
+				tcgplayer: 509796,
+				cardtrader: 255612
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725132,
+				tcgplayer: 509796,
+				cardtrader: 255612
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
-	thirdParty: {
-		cardmarket: 725132
-	}
+	
 }
 
 export default card

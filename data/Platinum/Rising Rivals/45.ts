@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		470,
-	],
+	dexId: [470],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Leafeon is your Active Pokémon, whenever you attach an Energy card from your hand to 1 of your Pokémon, remove 2 damage counters from that Pokémon.",
 				fr: "Tant que Phyllali est votre Pokémon Actif, lorsque vous attachez une carte Énergie de votre main à 1 de vos Pokémon, retirez à ce Pokémon 2 marqueurs de dégât.",
 				de: "Solange Folipurba dein Aktives Pokémon ist, entferne jedes Mal, wenn du 1 Energiekarte von deiner Hand an 1 deiner Pokémon anlegst, 2 Schadensmarken von diesem Pokémon."
-			},
+			}
 		},
 	],
 
@@ -92,29 +90,31 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278619,
-		tcgplayer: 86679
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278619,
+				tcgplayer: 86679
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278619,
+				tcgplayer: 86679
+			}
+		},
+	],
+
 }
 
 export default card

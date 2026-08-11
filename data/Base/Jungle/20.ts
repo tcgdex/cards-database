@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -75,23 +76,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts.",
 		fr: "Il se charge d'électricité statique pour envoyer des décharges de 10000 volts."
 	},
 
-	thirdParty: {
-		cardmarket: 273801,
-		tcgplayer: 106982
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273801,
+				tcgplayer: 106982
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273801,
+				tcgplayer: 106982
+			}
 		}
 	],
 }

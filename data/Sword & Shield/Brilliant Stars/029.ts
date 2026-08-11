@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler VMAX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -74,20 +75,25 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608479,
-		tcgplayer: 263728
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608479,
+				tcgplayer: 263728
+			}
+		},
+	],
 }
 
 export default card

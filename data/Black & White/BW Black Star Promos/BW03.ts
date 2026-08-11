@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+	},
 }
 
 export default card

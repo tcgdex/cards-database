@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+	},
 }
 
 export default card

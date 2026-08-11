@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+	},
+
 	thirdParty: {
 		cardmarket: 372304,
 		tcgplayer: 189049

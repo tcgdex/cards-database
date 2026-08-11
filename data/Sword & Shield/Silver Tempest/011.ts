@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tarnpignon"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "No one knows what the Poké Ball–like pattern on Foongus means or why Foongus has it.",
 	},
 
-	thirdParty: {
-		cardmarket: 682052,
-		tcgplayer: 451632
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682052,
+				tcgplayer: 451632
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682052,
+				tcgplayer: 451632
+			}
+		},
+	],
 }
 
 export default card

@@ -1,24 +1,36 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV5M"
+import { Card } from "../../../interfaces";
+import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ベルのまごころ",
 		'zh-tw': "白露的真心",
-		th: "ความจริงใจของเบล"
+		th: "ความจริงใจของเบล",
 	},
 
 	illustrator: "En Morikura",
 	category: "Trainer",
 
 	effect: {
+		ja: "残りHPが「30」以下の自分のポケモン1匹のHPを、すべて回復する。",
 		'zh-tw': "將自己的1隻剩餘HP為「30」以下的寶可夢的HP全部恢復。",
-		th: "ฟื้นฟู HP ทั้งหมดของโปเกมอนฝ่ายเรา 1 ตัวที่มี HP เหลือน้อยกว่าหรือเท่ากับ [30]"
+		th: "ฟื้นฟู HP ทั้งหมดของโปเกมอนฝ่ายเรา 1 ตัวที่มี HP เหลือน้อยกว่าหรือเท่ากับ [30]",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "H"
-}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 752976,
+				tcgplayer: 566243,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Supporter",
+	regulationMark: "H",
+	rarity: "Ultra Rare",
+};
+
+export default card;

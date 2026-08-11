@@ -65,15 +65,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273929,
-		tcgplayer: 42483
+
+	description: {
+		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273929,
+				tcgplayer: 42483
+			}
 		}
 	]
 }

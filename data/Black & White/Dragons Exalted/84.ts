@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+	},
+
 	thirdParty: {
 		cardmarket: 280523,
 		tcgplayer: 83519

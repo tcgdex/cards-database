@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The volcanoes on its back have a major eruption every 10 years–or whenever it becomes really angry.",
+	},
+
 	thirdParty: {
 		cardmarket: 280609,
 		tcgplayer: 84095

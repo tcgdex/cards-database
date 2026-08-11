@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
+	},
+
 	thirdParty: {
 		cardmarket: 279817,
 		tcgplayer: 90495

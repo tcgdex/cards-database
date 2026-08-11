@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.",
+	},
+
 	thirdParty: {
 		cardmarket: 355607,
 		tcgplayer: 165753

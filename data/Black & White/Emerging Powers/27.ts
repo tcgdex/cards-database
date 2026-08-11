@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 279992,
 		tcgplayer: 89685

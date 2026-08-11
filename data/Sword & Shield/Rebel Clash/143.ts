@@ -79,12 +79,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -92,10 +86,22 @@ const card: Card = {
 		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful—several hundred of them can gather at once."
 	},
 
-	thirdParty: {
-		cardmarket: 458103,
-		tcgplayer: 213243
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458103,
+				tcgplayer: 213243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458103,
+				tcgplayer: 213243
+			}
+		},
+	],
 }
 
 export default card

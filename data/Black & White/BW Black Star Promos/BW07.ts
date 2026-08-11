@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+	},
 }
 
 export default card

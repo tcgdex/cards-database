@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of all living creatures.",
+	},
+
 	thirdParty: {
 		cardmarket: 281415,
 		tcgplayer: 90697

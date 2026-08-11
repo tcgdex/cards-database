@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually murmurs but starts crying loudly if it senses danger. It stops when its ear covers are shut.",
+	},
+
 	thirdParty: {
 		cardmarket: 281889,
 		tcgplayer: 94651

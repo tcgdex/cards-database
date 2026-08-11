@@ -71,6 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
 		fr: "Il avale son poids en nourriture chaque jour. Il avale tout sans prendre le temps de mâcher."
 	},
 

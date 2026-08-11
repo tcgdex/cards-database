@@ -1,47 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "斗笠菇V"
+		ja: "基本雷エネルギー",
+		'zh-tw': "斗笠菇V",
 	},
 
-	illustrator: "PLANETA Mochizuki",
-	category: "Pokemon",
-	hp: 210,
-	types: ["Grass"],
-	stage: "Basic",
-	suffix: "V",
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	attacks: [{
-		name: {
-			'zh-tw': "雙倍奉還"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525150,
+				tcgplayer: 649912,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "增加與在上個對手的回合這隻寶可夢受到的招式的傷害點相同數量的傷害。"
-		},
+	rarity: "Promo",
+};
 
-		damage: "20+",
-		cost: ["Grass", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "音速直擊"
-		},
-
-		damage: 140,
-		cost: ["Grass", "Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

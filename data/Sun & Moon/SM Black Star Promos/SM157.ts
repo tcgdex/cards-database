@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -80,6 +80,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It's in its nature to store electricity. It feel stressed now and then if it's unable to fully discharge the electricity.",
+	},
 }
 
 export default card

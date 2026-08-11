@@ -71,15 +71,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273951,
-		tcgplayer: 42500
+
+	description: {
+		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273951,
+				tcgplayer: 42500
+			}
 		}
 	]
 }

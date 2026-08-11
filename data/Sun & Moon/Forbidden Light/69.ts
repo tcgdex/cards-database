@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Nothing could stop this Pokémon 100 million years ago, so it behaved like a king.",
+	},
+
 	thirdParty: {
 		cardmarket: 355587,
 		tcgplayer: 165721

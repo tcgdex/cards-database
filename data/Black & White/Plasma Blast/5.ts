@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flies by flapping its broad leaves and gives the sweet, delicious fruit around its neck to children.",
+	},
+
 	thirdParty: {
 		cardmarket: 281026,
 		tcgplayer: 90063

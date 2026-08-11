@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
+	},
+
 	thirdParty: {
 		cardmarket: 316032,
 		tcgplayer: 157723

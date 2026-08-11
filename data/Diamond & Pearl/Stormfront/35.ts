@@ -87,6 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
 		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
 	},
 

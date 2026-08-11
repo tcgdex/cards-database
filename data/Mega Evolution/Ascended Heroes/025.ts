@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [244],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Basic",
@@ -47,13 +48,44 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675837,
-		cardmarket: 869636
-	}
+	description: {
+		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869636,
+			tcgplayer: 675837
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870178,
+			tcgplayer: 676873
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870177,
+			tcgplayer: 677013
+		}
+	},
+],
 }
 
 export default card

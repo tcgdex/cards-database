@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Lee HyunJung",
@@ -74,17 +86,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582811,
-		tcgplayer: 253331
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582811,
+				tcgplayer: 253331
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582811,
+				tcgplayer: 253331
+			}
+		},
+	],
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Finsterpflaster"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,17 +28,23 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658800,
-		tcgplayer: 272391
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658800,
+				tcgplayer: 272391
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658800,
+				tcgplayer: 272391
+			}
+		},
+	],
 }
 
 export default card

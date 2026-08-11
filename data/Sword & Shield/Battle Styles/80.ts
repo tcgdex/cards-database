@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
 	},
 
-	thirdParty: {
-		cardmarket: 545511,
-		tcgplayer: 234256
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545511,
+				tcgplayer: 234256
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545511,
+				tcgplayer: 234256
+			}
+		},
+	],
 }
 
 export default card

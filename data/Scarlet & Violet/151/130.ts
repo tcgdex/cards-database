@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733725,
+				tcgplayer: 516693,
+				cardtrader: 261232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733725,
+				tcgplayer: 516693,
+				cardtrader: 261232
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 733725
-	}
+	
 }
 
 export default card

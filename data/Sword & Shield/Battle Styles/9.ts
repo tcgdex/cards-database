@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	},
 
-	thirdParty: {
-		cardmarket: 544941,
-		tcgplayer: 234058
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544941,
+				tcgplayer: 234058
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544941,
+				tcgplayer: 234058
+			}
+		},
+	],
 }
 
 export default card

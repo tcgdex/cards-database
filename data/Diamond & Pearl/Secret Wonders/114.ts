@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277867,
 		tcgplayer: 89621

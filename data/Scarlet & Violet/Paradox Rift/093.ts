@@ -64,19 +64,41 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740591,
+				tcgplayer: 523762,
+				cardtrader: 265191
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740591,
+				tcgplayer: 523762,
+				cardtrader: 265191
+			}
+		},
+	],
 
 	illustrator: "Uta",
 
-	thirdParty: {
-		cardmarket: 740591
-	}
+	
 }
 
 export default card

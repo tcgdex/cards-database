@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Tornupto"
 	},
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+	},
 }
 
 export default card

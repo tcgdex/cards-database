@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
 	},
 
-	thirdParty: {
-		cardmarket: 539233,
-		tcgplayer: 232505
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539233,
+				tcgplayer: 232505
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539233,
+				tcgplayer: 232505
+			}
+		},
+	],
 }
 
 export default card

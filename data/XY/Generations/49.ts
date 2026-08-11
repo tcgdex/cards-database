@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+	},
+
 	thirdParty: {
 		cardmarket: 288487,
 		tcgplayer: 113707

@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The webs on its hind legs enable it to cross rivers. It searches wide areas for food.",
+	},
+
 	thirdParty: {
 		cardmarket: 288263,
 		tcgplayer: 111623

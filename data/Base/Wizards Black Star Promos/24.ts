@@ -52,17 +52,24 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Your Birthdate: ______________________________",
 		fr: "Votre anniversaire : _________________________________________"
 	},
 
 	variants: [
 		{
 			type: "holo",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 159115
+			},
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 90784
+			},
 		}
 	]
 }

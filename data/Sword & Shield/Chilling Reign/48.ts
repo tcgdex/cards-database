@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
 	},
 
-	thirdParty: {
-		cardmarket: 567128,
-		tcgplayer: 241705
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567128,
+				tcgplayer: 241705
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567128,
+				tcgplayer: 241705
+			}
+		},
+	],
 }
 
 export default card

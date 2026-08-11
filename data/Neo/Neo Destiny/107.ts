@@ -62,23 +62,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The flames it breathes are so hot that they can melt anything.",
 		fr: "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
 	},
 
-	thirdParty: {
-		cardmarket: 274759,
-		tcgplayer: 89163
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
 		}
 	]
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Reveal cards from your deck until you reveal a Pokémon. Show that Pokémon to your opponent and put it into your hand. Shuffle the other revealed cards back into your deck. (If you don't reveal a Pokémon, shuffle all the revealed cards back into your deck.)",
 		fr: "Retournez des cartes de votre deck jusqu'à ce que vous retourniez un Pokémon. Montrez-le à votre adversaire et placez-le dans votre main. Mélangez les autres cartes à votre deck. (Si vous ne retournez pas de Pokémon, mélangez toutes les cartes retournées à votre deck.)",
 		de: "Decke solange Karten von deinem Deck auf, bis du eine Pokémon-Karte aufdeckst. Zeige die Pokémon-Karte deinem Gegner und nimm sie auf die Hand. Mische die übrigen aufgedeckten Karten zurück in dein Deck. (Falls du kein Pokémon-Karten aufgedeckt hast, mische alle aufgedeckten Karten zurück in dein Deck.)"
 	},

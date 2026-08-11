@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "When its belly is full, it becomes too lethargic to even lift a finger, so it is safe to bounce on its belly.",
+	},
+
 	thirdParty: {
 		cardmarket: 280696,
 		tcgplayer: 89393

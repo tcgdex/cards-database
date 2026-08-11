@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Charizard V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fire"],
@@ -58,6 +58,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 

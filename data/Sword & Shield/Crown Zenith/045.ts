@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rotom V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 190,
@@ -67,20 +68,27 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691762,
-		tcgplayer: 478150
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691762,
+				tcgplayer: 478150
+			}
+		},
+	],
 }
 
 export default card

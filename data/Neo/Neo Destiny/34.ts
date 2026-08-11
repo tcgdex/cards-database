@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
 		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
 	},
 
-	thirdParty: {
-		cardmarket: 274686,
-		tcgplayer: 84595
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274686,
+				tcgplayer: 84595
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274686,
+				tcgplayer: 84595
+			}
 		}
 	]
 }

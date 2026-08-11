@@ -66,18 +66,41 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725110,
+				tcgplayer: 509725,
+				cardtrader: 255590
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725110,
+				tcgplayer: 509725,
+				cardtrader: 255590
+			}
+		},
+	],
 
 	illustrator: "toriyufu",
 
-	thirdParty: {
-		cardmarket: 725110
-	}
+	
 }
 
 export default card

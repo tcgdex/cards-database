@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Dialga",
@@ -89,10 +83,15 @@ const card: Card = {
 
 	dexId: [483],
 
-	thirdParty: {
-		cardmarket: 576765,
-		tcgplayer: 250296
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576765,
+				tcgplayer: 250296
+			}
+		},
+	],
 }
 
 export default card

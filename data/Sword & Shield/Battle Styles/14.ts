@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
 	},
 
-	thirdParty: {
-		cardmarket: 544966,
-		tcgplayer: 234075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544966,
+				tcgplayer: 234075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544966,
+				tcgplayer: 234075
+			}
+		},
+	],
 }
 
 export default card

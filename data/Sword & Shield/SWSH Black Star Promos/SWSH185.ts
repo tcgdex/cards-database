@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Moltres"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 

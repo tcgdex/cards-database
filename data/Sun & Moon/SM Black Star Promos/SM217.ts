@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Trombork & Zwirrfinst GX"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -90,7 +90,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
 }
 
 export default card

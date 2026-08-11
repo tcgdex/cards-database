@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		208,
-	],
+	dexId: [208],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -74,26 +72,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 275058,
-		tcgplayer: 89557
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 89557,
+				cardmarket: 275107
+			}
+		},
 	]
 }
 

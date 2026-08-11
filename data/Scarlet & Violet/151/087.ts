@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733682,
+				tcgplayer: 516656,
+				cardtrader: 261169
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733682,
+				tcgplayer: 516656,
+				cardtrader: 261169
+			}
+		},
+	],
 
 	illustrator: "aoki",
 
-	thirdParty: {
-		cardmarket: 733682
-	}
+	
 }
 
 export default card

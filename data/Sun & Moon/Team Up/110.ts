@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
+	},
+
 	thirdParty: {
 		cardmarket: 369039,
 		tcgplayer: 183894

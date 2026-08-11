@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 295320,
 		tcgplayer: 126884

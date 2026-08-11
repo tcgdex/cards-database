@@ -1,47 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "新葉喵"
+		ja: "ガーディ",
+		'zh-tw': "新葉喵",
 	},
 
-	illustrator: "Saya Tsuruta",
+	illustrator: "Uta",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
+	hp: 90,
+	types: ["Fire"],
 
 	description: {
-		'zh-tw': "毛茸茸的體毛有著近似於植物的成分。會勤快地洗臉以防止乾燥。"
+		ja: "人懐こく 誠実な 性格。 敵には ほえて かみつき 追い払おうとする。",
+		'zh-tw': "毛茸茸的體毛有著近似於植物的成分。會勤快地洗臉以防止乾燥。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "抓"
+	attacks: [
+		{
+			name: {
+				ja: "もえあがる",
+				'zh-tw': "抓",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札から「基本[R]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+			},
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "樹葉"
+		{
+			name: {
+				ja: "ほのおのツメ",
+				'zh-tw': "樹葉",
+			},
+			damage: 70,
+			cost: ["Fire", "Fire", "Fire"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Grass", "Colorless"]
-	}],
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693185,
+				tcgplayer: 587781,
+			},
+		},
+	],
 
-	retreat: 1,
-	regulationMark: "G"
-}
+	retreat: 3,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [58],
+};
 
-export default card
+export default card;

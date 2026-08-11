@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magnezone V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 210,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674066,
-		tcgplayer: 283930
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674066,
+				tcgplayer: 283930
+			}
+		},
+	],
 }
 
 export default card

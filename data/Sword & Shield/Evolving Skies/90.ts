@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Seismitoad",
@@ -85,10 +79,22 @@ const card: Card = {
 	dexId: [537],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574138,
-		tcgplayer: 246892
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574138,
+				tcgplayer: 246892
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574138,
+				tcgplayer: 246892
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vibrava"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -45,20 +46,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
 	},
 
-	thirdParty: {
-		cardmarket: 608525,
-		tcgplayer: 263791
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608525,
+				tcgplayer: 263791
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608525,
+				tcgplayer: 263791
+			}
+		},
+	],
 }
 
 export default card

@@ -60,22 +60,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 817224
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817224,
+				tcgplayer: 623499
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817224,
+				tcgplayer: 623499
+			}
 		},
-	]
+	],
 }
 
 export default card

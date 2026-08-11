@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+	},
+
 	thirdParty: {
 		cardmarket: 281039,
 		tcgplayer: 88700

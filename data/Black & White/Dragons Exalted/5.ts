@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 280444,
 		tcgplayer: 90695

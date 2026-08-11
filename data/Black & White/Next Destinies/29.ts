@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 280254,
 		tcgplayer: 89219

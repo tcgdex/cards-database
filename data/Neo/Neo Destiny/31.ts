@@ -80,23 +80,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It holds its egg carefully when moving so as not to break it. Still, it is fast enough to disappear in the blink of an eye.",
 		fr: "Il serre précautionneusement son œuf pour ne pas le casser quand il bouge. Cependant, il reste assez rapide pour disparaître en un clin d'œil."
 	},
 
-	thirdParty: {
-		cardmarket: 274683,
-		tcgplayer: 84170
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274683,
+				tcgplayer: 84170
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274683,
+				tcgplayer: 84170
+			}
 		}
 	]
 }

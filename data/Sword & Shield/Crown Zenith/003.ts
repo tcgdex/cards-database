@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Blubella"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -54,20 +55,38 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
 	},
 
-	thirdParty: {
-		cardmarket: 691720,
-		tcgplayer: 478049
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691720,
+				tcgplayer: 478049
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691720,
+				tcgplayer: 478049
+			}
+		},
+	],
 }
 
 export default card

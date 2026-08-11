@@ -67,24 +67,28 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
 	},
 
 	variants: [
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
 			stamp: ["1st-movie-inverted"]
 		},
 		{
 			type: "normal",
-			stamp: ["1st-movie"]
+			stamp: ["1st-movie"],
+			thirdParty: {
+				tcgplayer: 88066
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161752
+			},
 		}
 	]
 }

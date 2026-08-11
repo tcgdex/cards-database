@@ -4,8 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカの奇妙な（lv.15）",
+		ja: "エリカのナゾノクサ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576791
+			},
 		},
 	],
 };

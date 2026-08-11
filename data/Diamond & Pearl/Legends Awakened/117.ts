@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+	},
+
 	thirdParty: {
 		cardmarket: 278266,
 		tcgplayer: 88754

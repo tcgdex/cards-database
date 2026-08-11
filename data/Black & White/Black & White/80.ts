@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+	},
+
 	thirdParty: {
 		cardmarket: 279818,
 		tcgplayer: 86797

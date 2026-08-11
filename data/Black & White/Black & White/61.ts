@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
+	},
+
 	thirdParty: {
 		cardmarket: 279799,
 		tcgplayer: 89899

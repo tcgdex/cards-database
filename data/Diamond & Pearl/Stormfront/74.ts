@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
 		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
 	},
 

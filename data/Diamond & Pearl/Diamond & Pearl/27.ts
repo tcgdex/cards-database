@@ -84,6 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It hides in shadows. It is said that if Gengar is hiding, it cools that area by nearly 10 degrees F.",
 		fr: "On dit que lorsqu'Ectoplasma se cache dans l'ombre, la température alentour chute de 5°C."
 	},
 

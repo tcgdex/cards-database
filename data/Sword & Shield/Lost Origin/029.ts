@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pyroleo"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674040,
-		tcgplayer: 283901
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674040,
+				tcgplayer: 283901
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674040,
+				tcgplayer: 283901
+			}
+		},
+	],
 }
 
 export default card

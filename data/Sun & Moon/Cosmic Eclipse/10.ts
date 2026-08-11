@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In ancient times, it lived in warm seas. It disguised itself as seaweed to ambush its prey and devoured them whole when they got close.",
+	},
+
 	thirdParty: {
 		cardmarket: 407704,
 		tcgplayer: 201159

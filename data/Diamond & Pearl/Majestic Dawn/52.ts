@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "X-ray photos were taken to check its body structure. Nothing appeared, however.",
+	},
+
 	thirdParty: {
 		cardmarket: 278101,
 		tcgplayer: 84002

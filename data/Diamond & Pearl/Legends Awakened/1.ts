@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
 		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
 	},
 

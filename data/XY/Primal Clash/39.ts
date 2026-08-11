@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its whiskers make a superb radar. They are used to locate prey, even in the murkiest of water.",
+	},
+
 	thirdParty: {
 		cardmarket: 273570,
 		tcgplayer: 95931

@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+	},
+
 	thirdParty: {
 		cardmarket: 284183,
 		tcgplayer: 100614

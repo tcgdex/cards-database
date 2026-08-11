@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
 		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
 	},
 

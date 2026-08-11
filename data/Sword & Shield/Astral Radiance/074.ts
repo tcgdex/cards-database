@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mogelbaum"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -66,20 +67,36 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
 	},
 
-	thirdParty: {
-		cardmarket: 658669,
-		tcgplayer: 272275
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658669,
+				tcgplayer: 272275
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658669,
+				tcgplayer: 272275
+			}
+		},
+	],
 }
 
 export default card

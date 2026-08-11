@@ -48,18 +48,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715541,
+				tcgplayer: 497477,
+				cardtrader: 248681
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715541,
+				tcgplayer: 497477,
+				cardtrader: 248681
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 715541
-	}
+	description: {
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+	},
 }
 
 export default card

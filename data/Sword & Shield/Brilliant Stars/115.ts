@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Porenta"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -44,20 +45,42 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
 	},
 
-	thirdParty: {
-		cardmarket: 608661,
-		tcgplayer: 263838
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608661,
+				tcgplayer: 263838
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608661,
+				tcgplayer: 263838
+			}
+		},
+	],
 }
 
 export default card

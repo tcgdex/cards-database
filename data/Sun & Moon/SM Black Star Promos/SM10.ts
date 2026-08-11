@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lamellux"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
+	},
 }
 
 export default card

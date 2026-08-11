@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its silhouette is like a star. It is believed to arrive riding on shooting stars.",
 		fr: "Sa silhouette rappelle une étoile. On dit qu'il descend sur terre en chevauchant une étoile filante."
 	},
 

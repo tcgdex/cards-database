@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+	},
+
 	thirdParty: {
 		cardmarket: 280440,
 		tcgplayer: 86183

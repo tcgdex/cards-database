@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
+		fr: "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -65,23 +66,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
 	},
 
-	thirdParty: {
-		cardmarket: 273843,
-		tcgplayer: 45149
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273843,
+				tcgplayer: 45149
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273843,
+				tcgplayer: 45149
+			}
 		}
 	],
 }

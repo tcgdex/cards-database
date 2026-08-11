@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725127,
+				tcgplayer: 509770,
+				cardtrader: 255607
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725127,
+				tcgplayer: 509770,
+				cardtrader: 255607
+			}
+		},
+	],
 
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 725127
-	}
+	
 }
 
 export default card

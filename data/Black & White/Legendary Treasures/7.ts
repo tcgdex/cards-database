@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+	},
+
 	thirdParty: {
 		cardmarket: 281129,
 		tcgplayer: 89079

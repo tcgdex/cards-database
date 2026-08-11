@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It grills berries and bug Pokémon with electric shocks and makes a meal of them. It usually nests in the holes gouged in trees by Pikipek.",
+	},
+
 	thirdParty: {
 		cardmarket: 368977,
 		tcgplayer: 183821

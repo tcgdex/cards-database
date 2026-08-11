@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Victreebel da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Weepinbell",
+		fr: "Boustiflor d'Erika",
+		es: "Weepinbell de Erika",
+		'es-mx': "Weepinbell de Erika",
+		de: "Erikas Ultrigaria",
+		it: "Weepinbell di Erika",
+		pt: "Weepinbell da Érica",
+	},
+
 	illustrator: "takashi shiraishi",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -61,13 +71,40 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675818,
-		cardmarket: 869617
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869617,
+				tcgplayer: 675818
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870144,
+				tcgplayer: 676856
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870143,
+				tcgplayer: 676996
+			}
+		},
+	],
 }
 
 export default card

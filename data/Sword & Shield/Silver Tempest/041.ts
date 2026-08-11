@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schneppke"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.",
 	},
 
-	thirdParty: {
-		cardmarket: 682086,
-		tcgplayer: 451677
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682086,
+				tcgplayer: 451677
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682086,
+				tcgplayer: 451677
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pachirisu"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 608502,
-		tcgplayer: 263758
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608502,
+				tcgplayer: 263758
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608502,
+				tcgplayer: 263758
+			}
+		},
+	],
 }
 
 export default card

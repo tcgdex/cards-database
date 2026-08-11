@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its fluffy fur coat acts as a sensor, enabling it to read the feelings of people and Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 365790,
 		tcgplayer: 178974

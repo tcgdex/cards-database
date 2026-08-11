@@ -40,9 +40,9 @@ const card: Card = {
 				pt: "Brisa Ardente",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Fighting or Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Fighting ou Fire de votre pile de défausse à ce Pokémon.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia de Luta ou Fogo da sua pilha de descarte a este Pokémon",
+				en: "Once during your turn (before your attack), you may attach a {F} or {R} Energy card from your discard pile to this Pokémon.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {F} ou {R} de votre pile de défausse à ce Pokémon.",
+				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia {F} ou {R} da sua pilha de descarte a este Pokémon.",
 			},
 		},
 	],
@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Camerupt, with its strength against fire, played a big role in rescuing team members.",
+	},
 
 	thirdParty: {
 		cardmarket: 282513,

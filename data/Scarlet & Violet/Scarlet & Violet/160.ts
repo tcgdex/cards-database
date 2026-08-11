@@ -44,14 +44,29 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "yuu",
+
+	description: {
+		en: "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+	},
 
 	thirdParty: {
         cardmarket: 702456,

@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+	},
+
 	thirdParty: {
 		cardmarket: 361249,
 		tcgplayer: 170807

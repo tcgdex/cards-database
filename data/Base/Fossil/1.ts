@@ -72,25 +72,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
 		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
 	},
 
-	thirdParty: {
-		cardmarket: 273862,
-		tcgplayer: 44418
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273862,
+				tcgplayer: 44418
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273862,
+				tcgplayer: 44418
+			}
 		},
 		{
 			type: "holo",

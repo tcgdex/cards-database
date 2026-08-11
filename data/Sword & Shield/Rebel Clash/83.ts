@@ -79,12 +79,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -92,10 +86,22 @@ const card: Card = {
 		en: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you."
 	},
 
-	thirdParty: {
-		cardmarket: 457833,
-		tcgplayer: 213169
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457833,
+				tcgplayer: 213169
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457833,
+				tcgplayer: 213169
+			}
+		},
+	],
 }
 
 export default card

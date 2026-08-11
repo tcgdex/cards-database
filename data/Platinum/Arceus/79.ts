@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		252,
-	],
+	dexId: [252],
 	
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -68,19 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278950,
-		tcgplayer: 90042
+	description: {
+		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90042,
+				cardmarket: 278950
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278950,
+				tcgplayer: 90042
+			}
+		},
+	],
+
 }
 
 export default card

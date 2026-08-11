@@ -74,6 +74,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
 		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 

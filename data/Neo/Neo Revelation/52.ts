@@ -78,21 +78,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
 		fr: "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour."
 	},
 
-	thirdParty: {
-		cardmarket: 274638,
-		tcgplayer: 89253
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274638,
+				tcgplayer: 89253
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274638,
+				tcgplayer: 89253
+			}
 		}
 	]
 }

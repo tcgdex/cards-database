@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Taira Akitsu",
@@ -51,17 +63,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582952,
-		tcgplayer: 253315
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582952,
+				tcgplayer: 253315
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582952,
+				tcgplayer: 253315
+			}
+		},
+	],
 }
 
 export default card

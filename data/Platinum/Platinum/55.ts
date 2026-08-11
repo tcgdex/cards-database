@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		429,
-	],
+	dexId: [429],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Misdreavus",
-		fr: "Feuforêve",
+		fr: "Feuforêve"
 	},
 
 	stage: "Stage1",
@@ -85,19 +83,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278476,
-		tcgplayer: 87516
+	description: {
+		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87516,
+				cardmarket: 278476
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278476,
+				tcgplayer: 87516
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
+		fr: "Reptincel",
 		it: "Charmeleon"
 	},
 
@@ -91,28 +92,34 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies.",
 		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6"
-	},
-
-	thirdParty: {
-		cardmarket: 273699,
-		tcgplayer: 42382
 	},
 
 	variants: [
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273699,
+				tcgplayer: 42382
+			},
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 106999
+			},
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 106999
+			},
 		},
 		{
 			type: "holo",

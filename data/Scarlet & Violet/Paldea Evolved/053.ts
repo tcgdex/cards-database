@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715528,
+				tcgplayer: 497464,
+				cardtrader: 248664
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785460
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715528,
+				tcgplayer: 497464,
+				cardtrader: 248664
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 715528
-	}
+	description: {
+		en: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+	},
 }
 
 export default card

@@ -17,12 +17,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278412,
+				tcgplayer: 88816
+			}
+		},
+	],
 }
 
 export default card

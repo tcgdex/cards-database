@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+	},
+
 	thirdParty: {
 		cardmarket: 281688,
 		tcgplayer: 92199

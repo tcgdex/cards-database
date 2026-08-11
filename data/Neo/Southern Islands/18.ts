@@ -61,15 +61,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275648,
-		tcgplayer: 46475
+
+	description: {
+		en: "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275648,
+				tcgplayer: 46475
+			}
 		}
 	]
 }

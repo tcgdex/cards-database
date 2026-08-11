@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
+	},
+
 	thirdParty: {
 		cardmarket: 408534,
 		tcgplayer: 201304

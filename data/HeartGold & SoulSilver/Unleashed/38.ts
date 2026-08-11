@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		247,
-	],
+	dexId: [247],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex",
+		fr: "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Antriebsgas"
 			},
 			effect: {
-				en: "If Pupitar has any Energy attached to it, the Retreat Cost for Pupitar is 0.",
+				en: "If Pupitar has any Energy attached to it, the Retreat Cost of Pupitar is 0.",
 				fr: "Si une ou plusieurs cartes Énergie sont attachées à Ymphect, le Coût de retraite de ce dernier est de 0.",
 				de: "Wenn an Pupitar mindestens 1 Energie angelegt ist, hat Pupitar Rückzugskosten von 0."
-			},
+			}
 		},
 	],
 
@@ -89,17 +87,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88453,
+				cardmarket: 279194
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88453,
+				cardmarket: 279194
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279194,
-		tcgplayer: 88453
-	}
 }
 
 export default card

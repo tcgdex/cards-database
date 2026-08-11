@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragoran VSTAR"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -78,16 +79,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664594,
-		tcgplayer: 277014
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 665692,
+				tcgplayer: 277014
+			}
+		},
+	],
 }
 
 export default card

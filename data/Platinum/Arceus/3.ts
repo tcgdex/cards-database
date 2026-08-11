@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Keiko Moritsugu",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		485,
-	],
+	dexId: [485],
 	
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -70,19 +68,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278875,
-		tcgplayer: 86050
+	description: {
+		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86050,
+				cardmarket: 278875
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278875,
+				tcgplayer: 86050
+			}
+		},
+	],
+
 }
 
 export default card

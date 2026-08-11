@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
+	},
+
 	thirdParty: {
 		cardmarket: 277939,
 		tcgplayer: 85513

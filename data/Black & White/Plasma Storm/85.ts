@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Proud of its sturdy skull, it suddenly headbutts everything, but its weight makes it unstable, too.",
+	},
+
 	thirdParty: {
 		cardmarket: 280825,
 		tcgplayer: 88985

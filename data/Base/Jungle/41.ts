@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paras",
+		fr: "Paras"
 	},
 
 	stage: "Stage1",
@@ -70,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
 	},
 
-	thirdParty: {
-		cardmarket: 273838,
-		tcgplayer: 45144
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273838,
+				tcgplayer: 45144
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273838,
+				tcgplayer: 45144
+			}
 		}
 	],
 }

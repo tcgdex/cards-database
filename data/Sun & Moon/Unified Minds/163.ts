@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down.",
+	},
+
 	thirdParty: {
 		cardmarket: 388602,
 		tcgplayer: 195163

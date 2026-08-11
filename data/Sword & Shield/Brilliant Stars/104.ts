@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikdiklak"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -76,20 +77,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 608650,
-		tcgplayer: 263824
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608650,
+				tcgplayer: 263824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608650,
+				tcgplayer: 263824
+			}
+		},
+	],
 }
 
 export default card

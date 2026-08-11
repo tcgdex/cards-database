@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733625,
+				tcgplayer: 516000,
+				cardtrader: 261198
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733625,
+				tcgplayer: 516000,
+				cardtrader: 261198
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 733625
-	}
+	
 }
 
 export default card

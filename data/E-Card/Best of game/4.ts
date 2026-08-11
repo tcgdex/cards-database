@@ -10,10 +10,11 @@ const card: Card = {
 
 	illustrator: "K. Hoshiba",
 	rarity: "None",
-	category: "Pokemon",		
-  hp: 60,
+	category: "Pokemon",
+	hp: 60,
 
 	dexId: [212],
+
 	stage: "Basic",
 
 	attacks: [{
@@ -39,14 +40,34 @@ const card: Card = {
 			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
+	retreat: 2,
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88786
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 167081
+			},
 		},
 		{
 			type: "normal",

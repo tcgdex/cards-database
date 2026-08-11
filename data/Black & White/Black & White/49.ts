@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 279787,
 		tcgplayer: 87659

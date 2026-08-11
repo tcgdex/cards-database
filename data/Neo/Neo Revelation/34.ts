@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head.",
 		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure."
 	},
 
-	thirdParty: {
-		cardmarket: 274620,
-		tcgplayer: 87830
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274620,
+				tcgplayer: 87830
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274620,
+				tcgplayer: 87830
+			}
 		}
 	]
 }

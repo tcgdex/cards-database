@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Highly aggressive, it uses the claws near its neck to dig into its opponent and poison them.",
+	},
+
 	thirdParty: {
 		cardmarket: 279792,
 		tcgplayer: 88968

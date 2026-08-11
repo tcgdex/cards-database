@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Barry"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608676,
-		tcgplayer: 263886
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608713,
+				tcgplayer: 263886
+			}
+		},
+	],
 }
 
 export default card

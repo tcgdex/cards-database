@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+	},
+
 	thirdParty: {
 		cardmarket: 369041,
 		tcgplayer: 183896

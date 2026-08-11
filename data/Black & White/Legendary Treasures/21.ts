@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each of its nine tails is imbued with supernatural power, and it can live for a thousand years.",
+	},
+
 	thirdParty: {
 		cardmarket: 281172,
 		tcgplayer: 87780

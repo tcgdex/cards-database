@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+	},
+
 	thirdParty: {
 		cardmarket: 280975,
 		tcgplayer: 89510

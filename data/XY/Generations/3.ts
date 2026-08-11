@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 288445,
 		tcgplayer: 113661

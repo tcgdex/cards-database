@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It follows Pangoro around like a henchman. When Pancham makes a big mistake, its leaf gets taken away.",
+	},
+
 	thirdParty: {
 		cardmarket: 408244,
 		tcgplayer: 201151

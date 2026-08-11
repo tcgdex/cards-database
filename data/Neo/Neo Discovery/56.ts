@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",
 		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
 	},
 
-	thirdParty: {
-		cardmarket: 274517,
-		tcgplayer: 86383
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274567,
+				tcgplayer: 86383
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274567,
+				tcgplayer: 86383
+			}
 		}
 	]
 }

@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming."
 	},
 
-	thirdParty: {
-		cardmarket: 511840,
-		tcgplayer: 226492
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511840,
+				tcgplayer: 226492
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511840,
+				tcgplayer: 226492
+			}
+		},
+	],
 }
 
 export default card

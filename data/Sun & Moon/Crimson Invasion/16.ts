@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its shining core is thought to receive and transmit enigmatic signals. It has been known to cause headaches in those who approach it.",
+	},
+
 	thirdParty: {
 		cardmarket: 311866,
 		tcgplayer: 149037

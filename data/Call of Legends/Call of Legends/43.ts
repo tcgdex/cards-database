@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [180],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -71,21 +69,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279686,
-		tcgplayer: 85485
-	}
+
+	description: {
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85485,
+				cardmarket: 279686
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85485,
+				cardmarket: 279686
+			},
+		},
+	],
+
 }
 
 export default card

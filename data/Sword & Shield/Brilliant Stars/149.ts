@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Jubel von Team Yell"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608695,
-		tcgplayer: 263869
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608695,
+				tcgplayer: 263869
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608695,
+				tcgplayer: 263869
+			}
+		},
+	],
 }
 
 export default card

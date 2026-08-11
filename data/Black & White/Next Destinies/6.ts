@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+	},
+
 	thirdParty: {
 		cardmarket: 280231,
 		tcgplayer: 87936

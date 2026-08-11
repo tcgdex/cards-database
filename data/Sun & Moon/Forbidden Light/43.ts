@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is thought that Uxie, Mesprit and Azelf all came from the same egg.",
+	},
+
 	thirdParty: {
 		cardmarket: 355562,
 		tcgplayer: 165694

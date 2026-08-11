@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When Azelf flew, people gained the determination to do things. It was the birth of willpower.",
+	},
+
 	thirdParty: {
 		cardmarket: 281059,
 		tcgplayer: 83676

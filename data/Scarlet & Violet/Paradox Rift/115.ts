@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740638,
+				tcgplayer: 523789,
+				cardtrader: 265231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740638,
+				tcgplayer: 523789,
+				cardtrader: 265231
+			}
+		},
+	],
 
 	illustrator: "Yoshioka",
 
-	thirdParty: {
-		cardmarket: 740638
-	}
+	
 }
 
 export default card

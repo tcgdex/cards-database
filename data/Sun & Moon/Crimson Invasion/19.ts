@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+	},
+
 	thirdParty: {
 		cardmarket: 311869,
 		tcgplayer: 149040

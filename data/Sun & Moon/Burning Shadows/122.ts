@@ -10,21 +10,11 @@ const card: Card = {
 		pt: "Pokédex Rotom - Modo Pokévisor",
 		de: "Rotom-Pokédex: Pokémon-Sucher-Modus"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez les 4 cartes du dessus de votre deck et replacez-les dans l’ordre de votre choix ou mélangez-les dans votre deck.",
@@ -34,8 +24,21 @@ const card: Card = {
 		pt: "Olhe as 4 primeiras cartas do seu baralho e coloque-as de volta em qualquer ordem ou embaralhe-as no seu baralho.",
 		de: "Schau dir die obersten 4 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck oder mische sie in dein Deck."
 	},
+
 	trainerType: "Item",
 
+	thirdParty: {
+		tcgplayer: 138626
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

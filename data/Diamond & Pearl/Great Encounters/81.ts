@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The world's first artificially created Pokémon. It can travel through electronic space.",
+	},
+
 	thirdParty: {
 		cardmarket: 277908,
 		tcgplayer: 88311

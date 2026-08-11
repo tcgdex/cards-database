@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760754,
+				tcgplayer: 542868
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760754,
+				tcgplayer: 542868
+			}
+		},
 	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 760754
-	}
 }
 
 export default card

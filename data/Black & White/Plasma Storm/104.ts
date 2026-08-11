@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shares many blessings with people who respect one another's rights and avoid needless strife.",
+	},
+
 	thirdParty: {
 		cardmarket: 280844,
 		tcgplayer: 89925

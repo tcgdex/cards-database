@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
 	},
 
-	thirdParty: {
-		cardmarket: 567199,
-		tcgplayer: 241760
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567199,
+				tcgplayer: 241760
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567199,
+				tcgplayer: 241760
+			}
+		},
+	],
 }
 
 export default card

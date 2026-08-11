@@ -48,19 +48,30 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+	},
+
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857681,
+				tcgplayer: 662195,
+				cardtrader: 356892
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857681,
-		tcgplayer: 662195
-	}
 }
 
 export default card

@@ -101,6 +101,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
 		fr: "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer."
 	},
 

@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+	},
+
 	thirdParty: {
 		cardmarket: 280023,
 		tcgplayer: 89900

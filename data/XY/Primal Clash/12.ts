@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful.",
+	},
+
 	thirdParty: {
 		cardmarket: 273543,
 		tcgplayer: 95896

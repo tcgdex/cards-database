@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Victini",
@@ -64,10 +58,22 @@ const card: Card = {
 	dexId: [494],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574044,
-		tcgplayer: 246836
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574044,
+				tcgplayer: 246836
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574044,
+				tcgplayer: 246836
+			}
+		},
+	],
 }
 
 export default card

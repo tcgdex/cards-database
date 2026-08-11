@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ayaka Yoshida",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 289791
+		cardmarket: 553449
 	}
 }
 

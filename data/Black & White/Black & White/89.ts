@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 279827,
 		tcgplayer: 84317

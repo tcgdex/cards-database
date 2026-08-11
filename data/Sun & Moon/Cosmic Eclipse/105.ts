@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
+	},
+
 	thirdParty: {
 		cardmarket: 408169,
 		tcgplayer: 201134

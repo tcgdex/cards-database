@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 284190,
 		tcgplayer: 101434

@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733674,
+				tcgplayer: 516650,
+				cardtrader: 261149
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733674,
+				tcgplayer: 516650,
+				cardtrader: 261149
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 733674
-	}
+	
 }
 
 export default card

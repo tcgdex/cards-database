@@ -64,19 +64,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733741,
+				tcgplayer: 516709,
+				cardtrader: 261236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733741,
+				tcgplayer: 516709,
+				cardtrader: 261236
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 733741
-	}
+	
 }
 
 export default card

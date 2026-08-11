@@ -78,23 +78,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
 		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
 	},
 
-	thirdParty: {
-		cardmarket: 274607,
-		tcgplayer: 88500
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274607,
+				tcgplayer: 88500
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274607,
+				tcgplayer: 88500
+			}
 		}
 	]
 }

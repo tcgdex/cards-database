@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280399,
 		tcgplayer: 90754

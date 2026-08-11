@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -44,14 +42,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87035,
+				cardmarket: 279704
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87035,
+				cardmarket: 279704
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279704,
-		tcgplayer: 87035
-	}
 }
 
 export default card

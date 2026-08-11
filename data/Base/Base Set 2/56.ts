@@ -71,14 +71,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273979,
-		tcgplayer: 42519
+	description: {
+		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273979,
+				tcgplayer: 42519
+			}
 		}
 	]
 }

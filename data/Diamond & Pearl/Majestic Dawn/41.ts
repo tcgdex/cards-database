@@ -75,6 +75,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+	},
+
 	thirdParty: {
 		cardmarket: 278090,
 		tcgplayer: 87571

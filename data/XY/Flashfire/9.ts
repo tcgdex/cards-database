@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 281492,
 		tcgplayer: 91142

@@ -61,15 +61,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274019,
-		tcgplayer: 42547
+
+	description: {
+		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274019,
+				tcgplayer: 42547
+			}
 		}
 	]
 }

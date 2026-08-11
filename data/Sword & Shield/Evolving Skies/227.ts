@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Inteleon",
@@ -70,10 +64,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574285,
-		tcgplayer: 246802
-	}
+	description: {
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574285,
+				tcgplayer: 246802
+			}
+		},
+	],
 }
 
 export default card

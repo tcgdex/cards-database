@@ -81,6 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
 		fr: "Ce Pokémon nocturne est attiré par les lueurs de la ville et aime les feuilles des arbres urbains."
 	},
 

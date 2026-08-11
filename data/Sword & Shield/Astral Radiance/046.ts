@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Quajutsu"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -64,20 +65,29 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
 	},
 
-	thirdParty: {
-		cardmarket: 658586,
-		tcgplayer: 272246
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658586,
+				tcgplayer: 272246
+			}
+		},
+	],
 }
 
 export default card

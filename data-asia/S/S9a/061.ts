@@ -17,6 +17,23 @@ const card: Card = {
 		ja: "このカードは、後攻プレイヤーの最初の番しか使えず、使ったら、自分の番は終わる。\n\n自分の山札から基本エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609829,
+				tcgplayer: 570631,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577639,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Uncommon"

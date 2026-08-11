@@ -37,19 +37,25 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 817323
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817323,
+				tcgplayer: 623597
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
+	},
 }
 
 export default card

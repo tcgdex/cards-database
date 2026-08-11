@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Serpiroyal VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 270,
@@ -77,20 +78,26 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682047,
-		tcgplayer: 452008
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 682259,
+				tcgplayer: 452008
+			}
+		},
+	],
 }
 
 export default card

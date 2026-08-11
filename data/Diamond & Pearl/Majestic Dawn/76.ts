@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sprays a nose-curling, stinky fluid from its rear to repel attackers.",
+	},
+
 	thirdParty: {
 		cardmarket: 278125,
 		tcgplayer: 89585

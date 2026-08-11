@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ur-Dialga VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -77,20 +78,32 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658775,
-		tcgplayer: 272465
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658871,
+				tcgplayer: 272465
+			}
+		},
+	],
 }
 
 export default card

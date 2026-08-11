@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Beautifly"
 	},
 
+	evolveFrom: {
+		en: "Silcoon",
+		fr: "Armulys",
+		es: "Silcoon",
+		'es-mx': "Silcoon",
+		de: "Schaloko",
+		it: "Silcoon",
+		pt: "Silcoon",
+	},
+
 	illustrator: "Narumi Sato",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [267],
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage2",
@@ -71,13 +82,44 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675825,
-		cardmarket: 869624
-	}
+	description: {
+		en: "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869624,
+				tcgplayer: 675825
+			}
+		},
+		{
+			type: "reverse",
+			foil: "loveball",
+			thirdParty: {
+				cardmarket: 870156,
+				tcgplayer: 676862
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870155,
+				tcgplayer: 677002
+			}
+		},
+	],
 }
 
 export default card

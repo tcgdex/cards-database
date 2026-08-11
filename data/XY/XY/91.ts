@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 281428,
 		tcgplayer: 87596

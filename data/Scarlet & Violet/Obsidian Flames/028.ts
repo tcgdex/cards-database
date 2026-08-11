@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725108,
+				tcgplayer: 509717,
+				cardtrader: 255588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725108,
+				tcgplayer: 509717,
+				cardtrader: 255588
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 725108
-	}
+	
 }
 
 export default card

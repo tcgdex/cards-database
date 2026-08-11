@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
+		fr: "Voltorbe"
 	},
 
 	stage: "Stage1",
@@ -71,23 +72,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
 	},
 
-	thirdParty: {
-		cardmarket: 273799,
-		tcgplayer: 45128
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273799,
+				tcgplayer: 45128
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273799,
+				tcgplayer: 45128
+			}
 		},
 		{
 			type: "holo",

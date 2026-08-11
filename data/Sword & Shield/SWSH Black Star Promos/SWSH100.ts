@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Venusaur V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [3],
 	hp: 220,
 	types: ["Grass"],

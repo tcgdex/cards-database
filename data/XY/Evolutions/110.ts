@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 293472,
 		tcgplayer: 124123

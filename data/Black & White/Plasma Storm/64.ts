@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Wanting more garbage, they follow people who litter. They always belch poison gas.",
+	},
+
 	thirdParty: {
 		cardmarket: 280803,
 		tcgplayer: 90068

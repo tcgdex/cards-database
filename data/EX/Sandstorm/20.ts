@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Pikachu de votre main sur Pichu (vous faites ainsi évoluer Pichu). Retirez à Pichu tous ses marqueurs de dégât.",
 				de: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu."
-			},
+			}
 		},
 	],
 
@@ -70,19 +68,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275797,
-		tcgplayer: 88012
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275797,
+				tcgplayer: 88012
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275797,
+				tcgplayer: 88012
+			}
 		},
-	]
+	],
+
 }
 
 export default card

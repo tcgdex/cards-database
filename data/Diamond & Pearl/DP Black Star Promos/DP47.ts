@@ -66,6 +66,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	variants: [
 		{

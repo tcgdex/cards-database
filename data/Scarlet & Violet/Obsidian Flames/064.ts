@@ -56,18 +56,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725144,
+				tcgplayer: 509826,
+				cardtrader: 255624
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725144,
+				tcgplayer: 509826,
+				cardtrader: 255624
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 725144
-	}
+	
 }
 
 export default card

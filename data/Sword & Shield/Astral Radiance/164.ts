@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Viridium V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658825,
-		tcgplayer: 272416
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658825,
+				tcgplayer: 272416
+			}
+		},
+	],
 }
 
 export default card

@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
 		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
 	},
 

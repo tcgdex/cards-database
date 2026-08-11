@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat."
 	},
 
-	thirdParty: {
-		cardmarket: 483134,
-		tcgplayer: 219379
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483134,
+				tcgplayer: 219379
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483134,
+				tcgplayer: 219379
+			}
+		},
+	],
 }
 
 export default card

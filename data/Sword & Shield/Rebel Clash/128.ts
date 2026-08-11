@@ -97,12 +97,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -110,10 +104,22 @@ const card: Card = {
 		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps."
 	},
 
-	thirdParty: {
-		cardmarket: 458038,
-		tcgplayer: 213224
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458038,
+				tcgplayer: 213224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458038,
+				tcgplayer: 213224
+			}
+		},
+	],
 }
 
 export default card

@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+	},
+
 	thirdParty: {
 		cardmarket: 280185,
 		tcgplayer: 89914

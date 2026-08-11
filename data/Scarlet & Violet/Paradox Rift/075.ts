@@ -42,18 +42,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740567,
+				tcgplayer: 523735,
+				cardtrader: 265189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740567,
+				tcgplayer: 523735,
+				cardtrader: 265189
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
-	thirdParty: {
-		cardmarket: 740567
-	}
+	
 }
 
 export default card

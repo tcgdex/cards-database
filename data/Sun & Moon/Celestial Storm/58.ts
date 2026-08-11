@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It gulps anything that fits in its mouth. Its special enzymes can dissolve anything.",
+	},
+
 	thirdParty: {
 		cardmarket: 361303,
 		tcgplayer: 170879

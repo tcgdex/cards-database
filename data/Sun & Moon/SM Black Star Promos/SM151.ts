@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Giratina",
 		de: "Giratina"
 	},
-	illustrator: "Hasuno",
-	rarity: "Rare",
+	illustrator: "Shin Nagasawa",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -89,6 +89,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+	},
 }
 
 export default card

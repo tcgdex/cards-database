@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
+	},
+
 	thirdParty: {
 		cardmarket: 297694,
 		tcgplayer: 131009

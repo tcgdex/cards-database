@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Rooting the tip of its snout into the ground, it searches for food. Sometimes, it even digs up a hot spring.",
+	},
+
 	thirdParty: {
 		cardmarket: 280766,
 		tcgplayer: 89706

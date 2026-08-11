@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725121,
+				tcgplayer: 509747,
+				cardtrader: 255601
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725121,
+				tcgplayer: 509747,
+				cardtrader: 255601
+			}
+		},
+	],
 
 	illustrator: "Yukiko Baba",
 
-	thirdParty: {
-		cardmarket: 725121
-	}
+	
 }
 
 export default card

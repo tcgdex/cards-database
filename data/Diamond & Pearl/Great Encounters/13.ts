@@ -76,6 +76,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+	},
+
 	thirdParty: {
 		cardmarket: 277915,
 		tcgplayer: 83770

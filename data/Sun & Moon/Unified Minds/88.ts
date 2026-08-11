@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+	},
+
 	thirdParty: {
 		cardmarket: 388247,
 		tcgplayer: 195020

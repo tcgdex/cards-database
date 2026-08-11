@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Colorless"],

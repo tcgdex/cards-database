@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+	},
+
 	thirdParty: {
 		cardmarket: 281817,
 		tcgplayer: 94147

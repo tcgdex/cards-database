@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Ei-Brutmaschine"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 664649,
-		tcgplayer: 276994
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665681,
+				tcgplayer: 276994
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665681,
+				tcgplayer: 276994
+			}
+		},
+	],
 }
 
 export default card

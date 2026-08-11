@@ -94,12 +94,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
 	},
 
-	thirdParty: {
-		cardmarket: 483514,
-		tcgplayer: 219388
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483514,
+				tcgplayer: 219388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483514,
+				tcgplayer: 219388
+			}
+		},
+	],
 }
 
 export default card

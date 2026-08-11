@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		324,
-	],
+	dexId: [324],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -73,19 +71,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278521,
-		tcgplayer: 89971
+	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89971,
+				cardmarket: 278521
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278521,
+				tcgplayer: 89971
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It curls up its long ears when swimming to prevent water from entering them.",
 		fr: "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre."
 	},
 
-	thirdParty: {
-		cardmarket: 274665,
-		tcgplayer: 86735
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274665,
+				tcgplayer: 86735
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274665,
+				tcgplayer: 86735
+			}
 		}
 	]
 }

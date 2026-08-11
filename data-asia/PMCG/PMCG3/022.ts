@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ラプラス",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [131],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575688
+			},
 		},
 	],
 };

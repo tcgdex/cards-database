@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 286288,
 		tcgplayer: 107161

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+	},
+
 	thirdParty: {
 		cardmarket: 280365,
 		tcgplayer: 86347

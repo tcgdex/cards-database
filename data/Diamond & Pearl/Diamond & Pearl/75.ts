@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
 		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
 	},
 

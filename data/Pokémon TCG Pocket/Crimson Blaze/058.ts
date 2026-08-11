@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [474],
+
 	name: {
 		en: "Porygon-Z"
 	},

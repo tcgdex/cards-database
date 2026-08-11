@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	stage: "Stage1",
@@ -75,23 +76,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid's.",
 		fr: "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène."
 	},
 
-	thirdParty: {
-		cardmarket: 273809,
-		tcgplayer: 45123
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273809,
+				tcgplayer: 45123
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273809,
+				tcgplayer: 45123
+			}
 		},
 		{
 			type: "holo",

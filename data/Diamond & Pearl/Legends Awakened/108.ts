@@ -67,6 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
 		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
 	},
 

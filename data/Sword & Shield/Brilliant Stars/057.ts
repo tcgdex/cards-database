@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Granbull V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608507,
-		tcgplayer: 263773
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608507,
+				tcgplayer: 263773
+			}
+		},
+	],
 }
 
 export default card

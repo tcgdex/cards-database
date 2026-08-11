@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニのニドランm",
+		ja: "ジョバンニのニドラン♂",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575310
+			},
 		},
 	],
 };

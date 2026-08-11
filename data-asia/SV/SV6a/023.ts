@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "不良蛙"
+		ja: "グレッグル",
+		'zh-tw': "不良蛙",
 	},
 
 	illustrator: "Aliya Chen",
@@ -14,39 +14,52 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "很少會堂堂正正地戰鬥， 但那都是為了要生存下去。 作為吉祥物非常受歡迎。"
+		ja: "正々堂々と 戦うことは 少ないが それも 生き延びるため。 マスコットとして 人気が 高い。",
+		'zh-tw': "很少會堂堂正正地戰鬥， 但那都是為了要生存下去。 作為吉祥物非常受歡迎。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "打擊"
+	attacks: [
+		{
+			name: {
+				ja: "なぐる",
+				'zh-tw': "打擊",
+			},
+			damage: 10,
+			cost: ["Fighting"],
 		},
-
-		damage: 10,
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "蛙跳"
+		{
+			name: {
+				ja: "かえるとび",
+				'zh-tw': "蛙跳",
+			},
+			damage: "20+",
+			cost: ["Fighting", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773772,
+				tcgplayer: 566274,
+			},
 		},
-
-		damage: "20+",
-		cost: ["Fighting", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [453],
+};
 
-export default card
+export default card;

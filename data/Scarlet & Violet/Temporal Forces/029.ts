@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
+	description: {
+		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760659,
+				tcgplayer: 542773
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760659,
+				tcgplayer: 542773
+			}
+		},
 	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 760659
-	}
 }
 
 export default card

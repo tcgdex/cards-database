@@ -17,6 +17,23 @@ const card: Card = {
 		ja: "コインを2回投げ、オモテの数ぶんまで、自分のトラッシュから好きなカードを選び、相手に見せて、好きな順番に入れ替えて、山札の上にもどす。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609832,
+				tcgplayer: 570634,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577642,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "F",
 	rarity: "Uncommon"

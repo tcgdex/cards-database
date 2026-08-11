@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
 		fr: "Il rêve de pouvoir voler un jour. Pour l'heure, il s'entraîne en sautant du haut des falaises."
 	},
 

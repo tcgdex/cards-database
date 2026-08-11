@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+	},
+
 	thirdParty: {
 		cardmarket: 281242,
 		tcgplayer: 84380

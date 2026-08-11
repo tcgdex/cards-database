@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	rarity: "Hyper rare",
@@ -74,19 +75,31 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826114,
+				tcgplayer: 633040
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826114
-	}
 }
 
 export default card

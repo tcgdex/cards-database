@@ -50,23 +50,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This ancient Pokémon possessed 10 tentacles, which it used to swim through the ocean.",
 		fr: "Ce Pokémon antique possédait 10 tentacules, qu'il utilisait pour nager dans l'océan."
 	},
 
-	thirdParty: {
-		cardmarket: 274689,
-		tcgplayer: 84634
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274689,
+				tcgplayer: 84634
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274689,
+				tcgplayer: 84634
+			}
 		}
 	]
 }

@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+	},
+
 	thirdParty: {
 		cardmarket: 280003,
 		tcgplayer: 90295

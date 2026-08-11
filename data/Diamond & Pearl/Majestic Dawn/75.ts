@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
+	},
+
 	thirdParty: {
 		cardmarket: 278124,
 		tcgplayer: 89523

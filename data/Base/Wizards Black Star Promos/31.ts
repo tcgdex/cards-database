@@ -42,12 +42,16 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
 		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84363
+			},
 		}
 	]
 }

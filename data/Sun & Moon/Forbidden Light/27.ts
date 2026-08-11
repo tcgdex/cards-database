@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This calm Pokémon lived in a cold land where there were no violent predators like Tyrantrum.",
+	},
+
 	thirdParty: {
 		cardmarket: 355546,
 		tcgplayer: 165678

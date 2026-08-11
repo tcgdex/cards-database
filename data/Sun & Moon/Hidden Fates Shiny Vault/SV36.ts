@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+	},
 }
 
 export default card

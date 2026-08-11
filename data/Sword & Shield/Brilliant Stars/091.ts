@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kleoparda"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608637,
-		tcgplayer: 263809
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608637,
+				tcgplayer: 263809
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608637,
+				tcgplayer: 263809
+			}
+		},
+	],
 }
 
 export default card

@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
+	},
+
 	thirdParty: {
 		cardmarket: 302165,
 		tcgplayer: 146681

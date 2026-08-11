@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Onix"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -112,20 +112,24 @@ const card: Card = {
 	
 	retreat: 5,
 
-	thirdParty: {
-		cardmarket: 276755,
-		tcgplayer: 89566
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89566,
+				cardmarket: 276755
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477965,
+				cardmarket: 869516
+			},
 		}
-	]
+	],
 }
 
 export default card

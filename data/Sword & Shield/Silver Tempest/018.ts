@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vulnona"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -74,20 +75,36 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
 	},
 
-	thirdParty: {
-		cardmarket: 682059,
-		tcgplayer: 451647
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682059,
+				tcgplayer: 451647
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682059,
+				tcgplayer: 451647
+			}
+		},
+	],
 }
 
 export default card

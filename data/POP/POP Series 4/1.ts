@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		358,
-	],
+	dexId: [358],
 
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Sonicboom"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 			damage: 30,
@@ -59,22 +57,22 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+	
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84298,
+				cardmarket: 277466
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277466
-	}
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Candela"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,25 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 664657,
-		tcgplayer: 276992
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665286,
+				tcgplayer: 276992
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665286,
+				tcgplayer: 276992
+			}
+		},
+	],
 }
 
 export default card

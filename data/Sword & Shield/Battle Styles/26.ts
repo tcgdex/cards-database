@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
 	},
 
-	thirdParty: {
-		cardmarket: 545031,
-		tcgplayer: 234129
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545031,
+				tcgplayer: 234129
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545031,
+				tcgplayer: 234129
+			}
+		},
+	],
 }
 
 export default card

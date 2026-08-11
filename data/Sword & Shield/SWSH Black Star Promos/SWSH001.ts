@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 	hp: 60,

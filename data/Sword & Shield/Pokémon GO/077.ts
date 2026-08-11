@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Letarking V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -58,19 +59,27 @@ const card: Card = {
 		damage: 260
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664617,
-		tcgplayer: 277008
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665688,
+				tcgplayer: 277008
+			}
+		},
+	],
 }
 
 export default card

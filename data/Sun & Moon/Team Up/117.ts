@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
+	},
+
 	thirdParty: {
 		cardmarket: 369044,
 		tcgplayer: 183904

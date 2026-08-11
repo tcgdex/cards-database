@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
 		fr: "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger."
 	},
 

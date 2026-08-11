@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "With extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
 		fr: "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
 	},
 

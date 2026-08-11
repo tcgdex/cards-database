@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+	},
+
 	thirdParty: {
 		cardmarket: 280153,
 		tcgplayer: 85563

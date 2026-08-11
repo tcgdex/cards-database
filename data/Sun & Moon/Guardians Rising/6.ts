@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.",
+	},
+
 	thirdParty: {
 		cardmarket: 297470,
 		tcgplayer: 130691

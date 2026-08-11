@@ -57,8 +57,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It intimidates foes with the heat of its flames. The fire burn more strongly when it readies to fight.",
 		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
 	},
 

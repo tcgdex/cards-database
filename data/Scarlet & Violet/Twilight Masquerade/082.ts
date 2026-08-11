@@ -72,18 +72,51 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769256,
+				tcgplayer: 550126
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769256,
+				tcgplayer: 550126
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 812590,
+			}
+		},
+	],
 
 	illustrator: "Masako Tomii",
 
-	thirdParty: {
-		cardmarket: 812590
-	}
 }
 
 export default card

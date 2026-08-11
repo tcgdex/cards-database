@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Turffield Stadium",
@@ -36,10 +30,16 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 574292,
-		tcgplayer: 246809
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574292,
+				tcgplayer: 246809
+			}
+		},
+	],
 }
 
 export default card

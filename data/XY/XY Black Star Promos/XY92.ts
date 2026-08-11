@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -55,6 +55,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+	},
 
 	thirdParty: {
 		cardmarket: 289794

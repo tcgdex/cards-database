@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+	},
+
 	thirdParty: {
 		cardmarket: 280303,
 		tcgplayer: 86320

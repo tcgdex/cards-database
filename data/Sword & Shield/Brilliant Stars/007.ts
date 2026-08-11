@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chelcarain"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
 	},
 
-	thirdParty: {
-		cardmarket: 608431,
-		tcgplayer: 263592
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608431,
+				tcgplayer: 263592
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608431,
+				tcgplayer: 263592
+			}
+		},
+	],
 }
 
 export default card

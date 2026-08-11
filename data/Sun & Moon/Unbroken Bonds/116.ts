@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it spots prey, even at a distance of over 30 miles, it swims through the desert as if it were water, then jumps out and chomps them.",
+	},
+
 	thirdParty: {
 		cardmarket: 372406,
 		tcgplayer: 189216

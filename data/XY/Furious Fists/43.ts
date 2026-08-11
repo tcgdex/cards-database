@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+	},
+
 	thirdParty: {
 		cardmarket: 281707,
 		tcgplayer: 92220

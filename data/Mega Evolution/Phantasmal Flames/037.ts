@@ -38,22 +38,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "In truth, it is a cowardly Pokémon. It growls eagerly in order to hide its fear from its opponent.",
+	},
+
+	illustrator: "Gapao",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857612,
+				tcgplayer: 662228,
+				cardtrader: 356820
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857612,
-		tcgplayer: 662228
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857612,
+				tcgplayer: 662228,
+				cardtrader: 356820
+			}
+		},
+	],	
 }
 
 export default card

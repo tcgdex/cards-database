@@ -75,6 +75,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+	},
+
 	thirdParty: {
 		cardmarket: 277504,
 		tcgplayer: 86274

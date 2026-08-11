@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+	},
+
 	thirdParty: {
 		cardmarket: 280346,
 		tcgplayer: 89973

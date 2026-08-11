@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280175,
 		tcgplayer: 88721

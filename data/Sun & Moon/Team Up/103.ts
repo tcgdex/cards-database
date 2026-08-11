@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+	},
+
 	thirdParty: {
 		cardmarket: 369032,
 		tcgplayer: 183885

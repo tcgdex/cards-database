@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "雙方場上所有「N的寶可夢」【撤退】所需的能量全部消除。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807684,
+				tcgplayer: 614948,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "I"
 }

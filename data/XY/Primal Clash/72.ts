@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain.",
+	},
+
 	thirdParty: {
 		cardmarket: 273603,
 		tcgplayer: 95970

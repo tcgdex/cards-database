@@ -1,4 +1,6 @@
 import { objectOmit } from '@dzeio/object-util'
+import cluster from 'node:cluster'
+import ClusterUtils from '../threadUtils'
 
 interface Root {
 	version: number
@@ -29,9 +31,20 @@ const SUPPORTED_VERSION = 1
 
 let lastUpdate: Date | undefined = undefined
 let lastFetch: Date | undefined = undefined
-let dataCache: Map<number, PriceGuide> = new Map()
+let dataCache: Array<PriceGuide> = []
+
+export function fillCardMarketDatas(data: typeof dataCache) {
+	lastFetch = new Date()
+	lastUpdate = new Date()
+	dataCache = data
+}
 
 export async function updateDatas(): Promise<boolean> {
+	// disable queries on secondary elements
+	if (!cluster.isPrimary) {
+		return true
+	}
+
 	// only fetch at max, once an hour
 	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
 		return false
@@ -45,24 +58,43 @@ export async function updateDatas(): Promise<boolean> {
 		return false
 	}
 
-	dataCache = new Map(data.priceGuides.map((pg) => [pg.idProduct, pg]))
+	const tmp: Array<any> = []
+	for (const it of data.priceGuides) {
+		tmp[it.idProduct] = it
+	}
+
+	dataCache = tmp
 	lastUpdate = new Date(data.createdAt)
 	lastFetch = new Date()
+	ClusterUtils.broadcard({
+		type: 'cardmarket-update',
+		data: dataCache
+	})
 
 	return true
 }
 
+<<<<<<< HEAD
 export async function getCardMarketPrice(card: { thirdParty?: { cardmarket?: number } }): Promise<any> {
 	if (!dataCache || typeof card.thirdParty?.cardmarket !== 'number') {
+=======
+export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
+	const id = card.thirdParty?.cardmarket
+	if (typeof id !== 'number') {
+>>>>>>> origin/master
 		return null
 	}
-	const input = dataCache.get(card.thirdParty!.cardmarket)
+
+	if (!dataCache) {
+		return null
+	}
+	const input = dataCache[id]
 	if (!input) {
 		return null
 	}
 	return Object.assign({
 		updated: lastUpdate!.toISOString(),
 		unit: 'EUR'
-	}, objectOmit(input,  'idCategory'))
+	}, objectOmit(input, 'idCategory'))
 
 }

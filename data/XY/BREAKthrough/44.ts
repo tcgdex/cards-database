@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+	},
+
 	thirdParty: {
 		cardmarket: 286290,
 		tcgplayer: 107163

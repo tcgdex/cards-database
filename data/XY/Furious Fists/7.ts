@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+	},
+
 	thirdParty: {
 		cardmarket: 281671,
 		tcgplayer: 92176

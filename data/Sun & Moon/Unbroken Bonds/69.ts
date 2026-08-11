@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "On moonless nights, Haunter searches for someone to curse, so it's best not to go out walking around.",
+	},
+
 	thirdParty: {
 		cardmarket: 372357,
 		tcgplayer: 189169

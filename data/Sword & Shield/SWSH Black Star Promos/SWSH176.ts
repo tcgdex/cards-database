@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hoopa V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Darkness"],
@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 

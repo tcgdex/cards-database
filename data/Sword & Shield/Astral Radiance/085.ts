@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Axantor"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
 	},
 
-	thirdParty: {
-		cardmarket: 658702,
-		tcgplayer: 272286
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658702,
+				tcgplayer: 272286
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658702,
+				tcgplayer: 272286
+			}
+		},
+	],
 }
 
 export default card

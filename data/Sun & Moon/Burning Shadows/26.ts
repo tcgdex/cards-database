@@ -82,10 +82,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+	},
+
 	thirdParty: {
 		cardmarket: 299432,
 		tcgplayer: 138506
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

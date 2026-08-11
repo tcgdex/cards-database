@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ditto"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -42,20 +43,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
 	},
 
-	thirdParty: {
-		cardmarket: 691826,
-		tcgplayer: 478117
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691826,
+				tcgplayer: 478117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691826,
+				tcgplayer: 478117
+			}
+		},
+	],
 }
 
 export default card

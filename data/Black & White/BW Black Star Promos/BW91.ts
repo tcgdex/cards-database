@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Jolteon",
 		fr: "Voltali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+	},
 }
 
 export default card

@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
 		fr: "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer."
 	},
 

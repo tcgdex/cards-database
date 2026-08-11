@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
 	},
 
-	thirdParty: {
-		cardmarket: 511650,
-		tcgplayer: 226437
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511650,
+				tcgplayer: 226437
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511650,
+				tcgplayer: 226437
+			}
+		},
+	],
 }
 
 export default card

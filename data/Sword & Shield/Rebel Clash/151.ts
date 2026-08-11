@@ -65,12 +65,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
 	},
 
-	thirdParty: {
-		cardmarket: 458153,
-		tcgplayer: 213251
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458153,
+				tcgplayer: 213251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458153,
+				tcgplayer: 213251
+			}
+		},
+	],
 }
 
 export default card

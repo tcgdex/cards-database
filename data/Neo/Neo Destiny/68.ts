@@ -48,23 +48,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It fears nothing, not even opponents larger than itself.",
 		fr: "Il n'a peur de rien, pas même d'adversaires plus grands que lui."
 	},
 
-	thirdParty: {
-		cardmarket: 274720,
-		tcgplayer: 85952
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274720,
+				tcgplayer: 85952
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274720,
+				tcgplayer: 85952
+			}
 		}
 	]
 }

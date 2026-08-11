@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		109,
-	],
+	dexId: [109],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -62,14 +60,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86499,
+				cardmarket: 279703
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86499,
+				cardmarket: 279703
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279703,
-		tcgplayer: 86499
-	}
 }
 
 export default card

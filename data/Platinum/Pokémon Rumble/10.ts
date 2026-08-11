@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Mew",
+		en: "Mew"
 	},
 
 	illustrator: undefined,
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		151,
-	],
+	dexId: [151],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
+				en: "Cut"
 			},
 
 			damage: 30,
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-Wisp",
+				en: "Will-o'-the-wisp"
 			},
 
 			damage: 60,
@@ -54,19 +52,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278850
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278850,
+				tcgplayer: 87404
+			},
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

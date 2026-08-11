@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Zoroark V"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670819,
-		tcgplayer: 284074
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674156,
+				tcgplayer: 284074
+			}
+		},
+	],
 }
 
 export default card

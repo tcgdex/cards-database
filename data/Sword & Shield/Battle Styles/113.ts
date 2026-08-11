@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
 	},
 
-	thirdParty: {
-		cardmarket: 545651,
-		tcgplayer: 234153
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545651,
+				tcgplayer: 234153
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545651,
+				tcgplayer: 234153
+			}
+		},
+	],
 }
 
 export default card

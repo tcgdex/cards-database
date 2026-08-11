@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 281236,
 		tcgplayer: 86593

@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+	},
+
 	thirdParty: {
 		cardmarket: 284184,
 		tcgplayer: 100615

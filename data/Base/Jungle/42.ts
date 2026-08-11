@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
+		fr: "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -80,21 +81,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
 		fr: "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif."
 	},
 
-	thirdParty: {
-		cardmarket: 273839,
-		tcgplayer: 45145
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273839,
+				tcgplayer: 45145
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273839,
+				tcgplayer: 45145
+			}
 		}
 	],
 }

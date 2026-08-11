@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280915,
 		tcgplayer: 87905

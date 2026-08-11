@@ -6,15 +6,23 @@ import jsonEndpoints from './V2/endpoints/jsonEndpoints'
 import openapi from './V2/endpoints/openapi'
 import graphql from './V2/graphql'
 import * as Sentry from "@sentry/node"
+<<<<<<< HEAD
 import { updateDatas } from './libs/providers/cardmarket'
 import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
 import status from './status'
+=======
+import { fillCardMarketDatas, getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
+import { fillTCGPlayerCache, getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import { Command } from './libs/threadUtils'
+>>>>>>> origin/master
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
 	dsn: process.env.GLITCHTIP_DSN,
 	environment: process.env.NODE_ENV
 })
+
+const port = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000
 
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
@@ -35,30 +43,90 @@ if (cluster.isPrimary) {
 
 	cluster.on('online', (worker) => {
 		console.log('Worker', worker.id, 'online')
+
+		// handle sub processes
+		worker.on('message', async (command: Command) => {
+			console.log('worker sent', command)
+			switch (command.type) {
+				case 'getTCGPlayerPrice': {
+					worker.send({
+						// @ts-expect-error f*ck off
+						type: `getTCGPlayerPrice-${command.data?.thirdParty.tcgplayer}`,
+						data: await getTCGPlayerPrice(command.data as any)
+					})
+					break
+				}
+				case 'getCardMarketPrice': {
+					worker.send({
+						// @ts-expect-error f*ck off
+						type: `getCardMarketPrice-${command.data?.thirdParty.cardmarket}`,
+						data: await getCardMarketPrice(command.data as any)
+					})
+					break
+				}
+			}
+		})
 	})
 
 	cluster.on("exit", (worker, code, signal) => {
 		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
 		cluster.fork()
 	})
-	console.log('🚀 Server ready at localhost:3000');
+
+	if (!('CI' in process.env)) {
+		// Load providers one time before loading http server
+		const fn = async () => {
+			await updateDatas()
+				.then(() => console.log('loaded cardmarket datas'))
+				.catch((err) => console.error('error loading cardmarket', err))
+			await updateTCGPlayerDatas()
+				.then(() => console.log('loaded TCGPlayer datas'))
+				.catch((err) => console.error('error loading TCGPlayer', err))
+		}
+
+		// auto update each hour the datasets
+		// @ts-expect-error f*ck off
+		await fn()
+		setInterval(fn, 86_400_000)
+	}
+
+
+	console.log('🚀 Server ready at localhost:' + port);
 } else {
+
+	if (!('CI' in process.env)) {
+		// load cache before responsing to requests
+		// @ts-expect-error f*ck off
+		await new Promise<void>((res) => {
+			let oneDone = false
+			process.on('message', (command: Command) => {
+				console.log('master sent', command)
+				switch (command.type) {
+					case 'tcgplayer-update': {
+						fillTCGPlayerCache(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
+					}
+					case 'cardmarket-update': {
+						fillCardMarketDatas(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
+					}
+				}
+			})
+		})
+	}
 
 	// Current API version
 	const VERSION = 2
-
-	const fn = () => {
-		void updateDatas()
-			.then(() => console.log('loaded cardmarket datas'))
-			.catch((err) => console.error('error loading cardmarket', err))
-		void updateTCGPlayerDatas()
-			.then(() => console.log('loaded TCGPlayer datas'))
-			.catch((err) => console.error('error loading TCGPlayer', err))
-	}
-
-	// auto update each hour the datasets
-	fn()
-	setInterval(fn, 3_600_000)
 
 	// Init Express server
 	const server = express()
@@ -157,5 +225,5 @@ if (cluster.isPrimary) {
 	})
 
 	// Start server
-	server.listen(3000)
+	server.listen(port)
 }

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur obscur"
 	},
 
 	stage: "Stage2",
@@ -71,23 +72,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It is almost impossible to defend against a Machamp's four powerful arms.",
 		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
 	},
 
-	thirdParty: {
-		cardmarket: 274063,
-		tcgplayer: 84619
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274063,
+				tcgplayer: 84619
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274063,
+				tcgplayer: 84619
+			}
 		}
 	]
 }

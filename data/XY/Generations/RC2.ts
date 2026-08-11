@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "I wonder if I would look a little cuter with a beautiful flower?",
+	},
+
 	thirdParty: {
 		cardmarket: 288511
 	}

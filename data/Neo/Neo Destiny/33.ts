@@ -74,22 +74,28 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "If one of its heads falls off, it turns into an Exeggcute, which begins to look for other Exeggcutes using a special form of telepathy.",
 		fr: "S'il perd une de ses deux têtes, il se transforme en Nœunœuf, qui part aussitôt à la recherche d'un autre Nœunœuf grâce à une forme spéciale de télépathie."
 	},
 
-	thirdParty: {
-		cardmarket: 274685
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274685
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274685
+			}
 		}
 	]
 }

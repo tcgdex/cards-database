@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
+	},
+
 	thirdParty: {
 		cardmarket: 288250,
 		tcgplayer: 111614

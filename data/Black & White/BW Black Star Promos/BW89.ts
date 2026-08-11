@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Vaporeon",
 		fr: "Aquali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
+	},
 }
 
 export default card

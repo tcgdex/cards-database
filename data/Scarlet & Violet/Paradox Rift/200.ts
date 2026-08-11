@@ -74,19 +74,33 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740743,
+				tcgplayer: 523881,
+				cardtrader: 265557
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 740609
-	}
+	
 }
 
 export default card

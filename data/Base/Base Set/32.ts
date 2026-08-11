@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Abra",
+		fr: "Abra",
 		it: "Abra"
 	},
 
@@ -75,29 +76,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
 		fr: "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
 		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
 	},
 
-	thirdParty: {
-		cardmarket: 273727,
-		tcgplayer: 42374
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273727,
+				tcgplayer: 42374
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107029
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107029
+			},
 		},
 		{
 			type: "normal",

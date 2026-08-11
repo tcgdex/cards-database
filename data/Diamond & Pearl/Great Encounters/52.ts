@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 277954,
 		tcgplayer: 89086

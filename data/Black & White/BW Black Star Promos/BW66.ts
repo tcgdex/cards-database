@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+	},
 }
 
 export default card

@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Togedemaru ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [777],
 	hp: 190,
 	types: ["Metal"],
 	stage: "Basic",
@@ -71,13 +73,30 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675961,
-		cardmarket: 869760
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869760,
+				tcgplayer: 675961
+			}
+		}
+	],
 }
 
 export default card

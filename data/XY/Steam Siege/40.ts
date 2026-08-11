@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+	},
+
 	thirdParty: {
 		cardmarket: 291619,
 		tcgplayer: 121129

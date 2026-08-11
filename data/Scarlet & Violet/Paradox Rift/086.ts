@@ -55,18 +55,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740578,
+				tcgplayer: 523752,
+				cardtrader: 265197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740578,
+				tcgplayer: 523752,
+				cardtrader: 265197
+			}
+		},
+	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 740578
-	}
+	
 }
 
 export default card

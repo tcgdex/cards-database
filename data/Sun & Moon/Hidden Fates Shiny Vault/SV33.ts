@@ -56,6 +56,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+	},
 }
 
 export default card

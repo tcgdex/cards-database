@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 286373,
 		tcgplayer: 107246

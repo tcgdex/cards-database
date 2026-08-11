@@ -74,19 +74,39 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740740,
+				tcgplayer: 523878,
+				cardtrader: 265529
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 740573
-	}
+	
 }
 
 export default card

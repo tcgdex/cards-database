@@ -64,15 +64,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273943,
-		tcgplayer: 42465
+
+	description: {
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273943,
+				tcgplayer: 42465
+			}
 		}
 	]
 }

@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It chats with others using the sounds of its colliding antennae. These sounds are fall hallmarks.",
+	},
+
 	thirdParty: {
 		cardmarket: 407719,
 		tcgplayer: 201163

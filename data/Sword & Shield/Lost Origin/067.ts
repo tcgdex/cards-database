@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pantimos"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -60,16 +61,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674076,
-		tcgplayer: 283942
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674076,
+				tcgplayer: 283942
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674076,
+				tcgplayer: 283942
+			}
+		},
+	],
 }
 
 export default card

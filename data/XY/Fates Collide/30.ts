@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 289856,
 		tcgplayer: 117790

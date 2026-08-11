@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With magnetic traction, it pulls its opponents in close. When they're in range, it slashes them with its rear claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 361336,
 		tcgplayer: 170917

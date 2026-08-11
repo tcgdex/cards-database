@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If it turns its back to an opponent, it is a sign that it is getting ready to attack.",
 		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer."
 	},
 
-	thirdParty: {
-		cardmarket: 274691,
-		tcgplayer: 84645
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274691,
+				tcgplayer: 84645
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274691,
+				tcgplayer: 84645
+			}
 		}
 	]
 }

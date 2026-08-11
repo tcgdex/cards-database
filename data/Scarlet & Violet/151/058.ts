@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733653,
+				tcgplayer: 516247,
+				cardtrader: 261122
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733653,
+				tcgplayer: 516247,
+				cardtrader: 261122
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 733653
-	}
+	
 }
 
 export default card

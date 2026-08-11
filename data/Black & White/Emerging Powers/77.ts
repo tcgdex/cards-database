@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+	},
+
 	thirdParty: {
 		cardmarket: 280042,
 		tcgplayer: 84377

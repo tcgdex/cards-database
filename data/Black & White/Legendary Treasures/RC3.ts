@@ -61,6 +61,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
+	},
 
 	thirdParty: {
 		cardmarket: 281151

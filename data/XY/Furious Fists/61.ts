@@ -91,6 +91,10 @@ const card: Card = {
 		de: "Kieferfossil"
 	},
 
+	description: {
+		en: "This Pokémon was restored from a fossil. If something happens that it doesn't like, it throws a tantrum and runs wild.",
+	},
+
 	thirdParty: {
 		cardmarket: 281725,
 		tcgplayer: 92238

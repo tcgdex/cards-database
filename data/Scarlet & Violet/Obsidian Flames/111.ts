@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725191,
+				tcgplayer: 509808,
+				cardtrader: 255796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725191,
+				tcgplayer: 509808,
+				cardtrader: 255796
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 725191
-	}
+	
 }
 
 export default card

@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Alola is the best environment for this Pokémon. Local people take pride in its appearance, saying this is how Exeggutor ought to look.",
+	},
+
 	thirdParty: {
 		cardmarket: 316021,
 		tcgplayer: 157712

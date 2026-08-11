@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
 	},
 
-	thirdParty: {
-		cardmarket: 483079,
-		tcgplayer: 219322
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483079,
+				tcgplayer: 219322
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483079,
+				tcgplayer: 219322
+			}
+		},
+	],
 }
 
 export default card

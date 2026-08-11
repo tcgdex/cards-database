@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
+	},
+
 	thirdParty: {
 		cardmarket: 277754,
 		tcgplayer: 83541

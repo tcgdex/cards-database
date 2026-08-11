@@ -80,12 +80,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
-	thirdParty: {
-		cardmarket: 457403,
-		tcgplayer: 213075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457403,
+				tcgplayer: 213075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457403,
+				tcgplayer: 213075
+			}
+		},
+	],
 }
 
 export default card

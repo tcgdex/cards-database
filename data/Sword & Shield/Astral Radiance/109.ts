@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schilterus"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -67,20 +68,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Although its fossils can be found in layers of primeval rock, nothing but its face has ever been discovered.",
 	},
 
-	thirdParty: {
-		cardmarket: 658770,
-		tcgplayer: 272324
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658770,
+				tcgplayer: 272324
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658770,
+				tcgplayer: 272324
+			}
+		},
+	],
 }
 
 export default card

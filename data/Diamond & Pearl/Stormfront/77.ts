@@ -82,6 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
 		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
 	},
 

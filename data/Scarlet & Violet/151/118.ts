@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733713,
+				tcgplayer: 516681,
+				cardtrader: 261120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733713,
+				tcgplayer: 516681,
+				cardtrader: 261120
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 
-	thirdParty: {
-		cardmarket: 733694
-	}
+	
 }
 
 export default card

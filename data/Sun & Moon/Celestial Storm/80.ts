@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The same rocks that form its body have been found in ground layers around the world.",
+	},
+
 	thirdParty: {
 		cardmarket: 361325,
 		tcgplayer: 170902

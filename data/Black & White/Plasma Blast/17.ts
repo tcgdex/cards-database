@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 281038,
 		tcgplayer: 86624

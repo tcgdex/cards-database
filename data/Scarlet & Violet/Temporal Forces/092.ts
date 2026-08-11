@@ -72,23 +72,38 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760722,
+				tcgplayer: 542836
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760722,
+				tcgplayer: 542836
+			}
+		},
 	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 760722
-	}
 }
 
 export default card

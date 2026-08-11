@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+	},
+
 	thirdParty: {
 		cardmarket: 281025,
 		tcgplayer: 84455

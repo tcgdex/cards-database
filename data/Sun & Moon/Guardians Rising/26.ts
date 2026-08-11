@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it naturally prefers colder locales, Delibird in Alola seem able to withstand the heat to a certain extent.",
+	},
+
 	thirdParty: {
 		cardmarket: 297488,
 		tcgplayer: 130926

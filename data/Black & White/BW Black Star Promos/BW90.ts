@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Glaceon",
 		fr: "Givrali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+	},
 }
 
 export default card

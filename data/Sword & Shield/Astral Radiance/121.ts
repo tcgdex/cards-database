@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Noctuh"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -76,20 +77,42 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
 	},
 
-	thirdParty: {
-		cardmarket: 658782,
-		tcgplayer: 272356
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658782,
+				tcgplayer: 272356
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658782,
+				tcgplayer: 272356
+			}
+		},
+	],
 }
 
 export default card

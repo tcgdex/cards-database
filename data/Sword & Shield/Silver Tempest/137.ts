@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Farbeagle"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.",
 	},
 
-	thirdParty: {
-		cardmarket: 682184,
-		tcgplayer: 451789
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682184,
+				tcgplayer: 451789
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682184,
+				tcgplayer: 451789
+			}
+		},
+	],
 }
 
 export default card

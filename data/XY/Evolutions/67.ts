@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers.",
+	},
+
 	thirdParty: {
 		cardmarket: 293420,
 		tcgplayer: 124080

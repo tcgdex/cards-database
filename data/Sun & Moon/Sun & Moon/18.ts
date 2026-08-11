@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+	},
+
 	thirdParty: {
 		cardmarket: 295326,
 		tcgplayer: 126889

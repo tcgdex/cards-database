@@ -79,10 +79,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+	},
+
 	thirdParty: {
 		cardmarket: 299470,
 		tcgplayer: 138554
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

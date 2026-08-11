@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bidiza"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -66,20 +67,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
-	thirdParty: {
-		cardmarket: 691830,
-		tcgplayer: 478139
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691830,
+				tcgplayer: 478139
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691830,
+				tcgplayer: 478139
+			}
+		},
+	],
 }
 
 export default card

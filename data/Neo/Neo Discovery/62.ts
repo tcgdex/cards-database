@@ -63,23 +63,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because it is inept at walking on its newly grown legs, it always swims around in water.",
 		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
 	},
 
-	thirdParty: {
-		cardmarket: 274573,
-		tcgplayer: 88254
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274573,
+				tcgplayer: 88254
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274573,
+				tcgplayer: 88254
+			}
 		}
 	]
 }

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+	},
 
 	thirdParty: {
 		cardmarket: 291578

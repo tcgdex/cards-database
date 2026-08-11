@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		331,
-	],
+	dexId: [331],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Cacnea is your Active Pokémon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking Pokémon is now Poisoned.",
 				fr: "Si Cacnea est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacnea est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
 				de: "Wenn Tuska dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird ( auch wenn Tuska kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
-			},
+			}
 		},
 	],
 
@@ -67,19 +65,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275834,
-		tcgplayer: 84069
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275834,
+				tcgplayer: 84069
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275834,
+				tcgplayer: 84069
+			}
 		},
-	]
+	],
+
 }
 
 export default card

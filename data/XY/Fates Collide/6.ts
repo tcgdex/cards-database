@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
+	},
+
 	thirdParty: {
 		cardmarket: 289832,
 		tcgplayer: 117769

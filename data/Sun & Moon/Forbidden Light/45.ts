@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+	},
+
 	thirdParty: {
 		cardmarket: 355564,
 		tcgplayer: 165696

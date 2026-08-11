@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
 	},
 
-	thirdParty: {
-		cardmarket: 567107,
-		tcgplayer: 241680
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567107,
+				tcgplayer: 241680
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567107,
+				tcgplayer: 241680
+			}
+		},
+	],
 }
 
 export default card

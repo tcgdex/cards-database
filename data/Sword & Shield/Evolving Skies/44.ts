@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Bergmite",
@@ -67,10 +61,22 @@ const card: Card = {
 	dexId: [712],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574068,
-		tcgplayer: 246868
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574068,
+				tcgplayer: 246868
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574068,
+				tcgplayer: 246868
+			}
+		},
+	],
 }
 
 export default card

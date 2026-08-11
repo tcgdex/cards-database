@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Slurpuff"
 	},
 
+	evolveFrom: {
+		en: "Swirlix",
+		fr: "Sucroquin",
+		es: "Swirlix",
+		'es-mx': "Swirlix",
+		de: "Flauschling",
+		it: "Swirlix",
+		pt: "Swirlix",
+	},
+
 	illustrator: "Yoshimoto Yoshimon",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [685],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -51,13 +62,28 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676048,
-		cardmarket: 869847
-	}
+	description: {
+		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869847,
+				tcgplayer: 676048
+			}
+		}
+	],
 }
 
 export default card

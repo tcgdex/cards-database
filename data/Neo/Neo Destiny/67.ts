@@ -63,21 +63,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point.",
 		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
 	},
 
-	thirdParty: {
-		cardmarket: 274719,
-		tcgplayer: 85762
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274719,
+				tcgplayer: 85762
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274719,
+				tcgplayer: 85762
+			}
 		}
 	]
 }

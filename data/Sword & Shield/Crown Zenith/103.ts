@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Duraludon V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -61,17 +62,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691822,
-		tcgplayer: 478213
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691822,
+				tcgplayer: 478213
+			}
+		},
+	],
 }
 
 export default card

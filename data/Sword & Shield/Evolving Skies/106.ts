@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Altaria",
@@ -81,10 +75,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574154,
-		tcgplayer: 246906
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574154,
+				tcgplayer: 246906
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574154,
+				tcgplayer: 246906
+			}
+		},
+	],
 }
 
 export default card

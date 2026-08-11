@@ -1,56 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "レジギガスV",
 		'zh-tw': "雷吉奇卡斯V",
 		th: "เรจิกิกัสV",
-		ja: "レジギガスV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Colorless"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "頭突",
-			th: "ตบหนัก",
-			ja: "ぶちかます"
+	attacks: [
+		{
+			name: {
+				ja: "ぶちかます",
+				'zh-tw': "頭突",
+				th: "ตบหนัก",
+			},
+			damage: 50,
+			cost: ["Colorless", "Colorless"],
 		},
-
-		damage: 50,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "憤怒懲處",
-			th: "ค้อนฉุนเฉียว",
-			ja: "ふんぬのてっつい"
+		{
+			name: {
+				ja: "ふんぬのてっつい",
+				'zh-tw': "憤怒懲處",
+				th: "ค้อนฉุนเฉียว",
+			},
+			damage: "100+",
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。このポケモンをこんらんにする。",
+				'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。將這隻寶可夢【混亂】。",
+				th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10 ทำให้โปเกมอนนี้เป็นสภาวะ[สับสน]",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。將這隻寶可夢【混亂】。",
-			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10 ทำให้โปเกมอนนี้เป็นสภาวะ[สับสน]",
-			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。このポケモンをこんらんにする。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687686,
+				tcgplayer: 571662,
+			},
 		},
-
-		damage: "100＋",
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 4,
 	regulationMark: "F",
-	rarity: "Double rare"
-}
+	rarity: "Double rare",
+	dexId: [486],
+};
 
-export default card
+export default card;

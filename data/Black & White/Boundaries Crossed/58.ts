@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+	},
+
 	thirdParty: {
 		cardmarket: 280645,
 		tcgplayer: 90623

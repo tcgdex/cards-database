@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Delfinator-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Water"],
@@ -74,9 +74,33 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "PLANETA Mochizuki"
+	suffix: "ex",
+	illustrator: "PLANETA Mochizuki",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769423,
+				tcgplayer: 556449
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 769424,
+				tcgplayer: 560085
+			}
+		}
+	],
 }
 
 export default card

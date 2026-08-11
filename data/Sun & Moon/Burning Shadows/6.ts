@@ -92,10 +92,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+	},
+
 	thirdParty: {
 		cardmarket: 299413,
 		tcgplayer: 138276
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

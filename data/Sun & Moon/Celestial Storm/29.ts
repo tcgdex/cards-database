@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If the fire burning within its shell goes out, it will die. Those who wish to raise one in their home must always keep something flammable at hand.",
+	},
+
 	thirdParty: {
 		cardmarket: 361276,
 		tcgplayer: 170844

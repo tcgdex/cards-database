@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+	},
+
 	thirdParty: {
 		cardmarket: 279802,
 		tcgplayer: 86536

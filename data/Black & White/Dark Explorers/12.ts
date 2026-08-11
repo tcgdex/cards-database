@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
+	},
+
 	thirdParty: {
 		cardmarket: 280340,
 		tcgplayer: 85500

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Golbat"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -45,20 +46,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
 	},
 
-	thirdParty: {
-		cardmarket: 682151,
-		tcgplayer: 451758
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682151,
+				tcgplayer: 451758
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682151,
+				tcgplayer: 451758
+			}
+		},
+	],
 }
 
 export default card

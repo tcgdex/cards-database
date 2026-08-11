@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than Nidorino's.",
+	},
+
 	thirdParty: {
 		cardmarket: 280919,
 		tcgplayer: 87739

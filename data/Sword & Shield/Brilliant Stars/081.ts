@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Karadonis"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "If you see a Sawk training in the mountains in its single-minded pursuit of strength, it's best to quietly pass by.",
 	},
 
-	thirdParty: {
-		cardmarket: 608531,
-		tcgplayer: 263797
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608531,
+				tcgplayer: 263797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608531,
+				tcgplayer: 263797
+			}
+		},
+	],
 }
 
 export default card

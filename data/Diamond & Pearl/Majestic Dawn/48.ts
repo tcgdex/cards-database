@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
+	},
+
 	thirdParty: {
 		cardmarket: 278097,
 		tcgplayer: 89595

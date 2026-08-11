@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another.",
+	},
+
 	thirdParty: {
 		cardmarket: 281074,
 		tcgplayer: 83608

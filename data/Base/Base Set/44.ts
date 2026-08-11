@@ -55,29 +55,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
 		fr: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.",
 		it: "Lo strano seme piantato sul suo dorso dalla nascita è germogliato in una pianta che continua a crescere insieme a questo Pokémon. LIV 13 N.1"
 	},
 
-	thirdParty: {
-		cardmarket: 273739,
-		tcgplayer: 42387
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273739,
+				tcgplayer: 42387
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107041
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107041
+			},
 		},
 		{
 			type: "normal",

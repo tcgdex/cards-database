@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -74,8 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+	},
+
 	thirdParty: {
-		cardmarket: 289787
+		cardmarket: 553364
 	}
 }
 

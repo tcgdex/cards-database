@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
+	},
+
 	thirdParty: {
 		cardmarket: 277815,
 		tcgplayer: 88820

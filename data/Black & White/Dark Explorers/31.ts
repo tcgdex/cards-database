@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They warn other of danger by vibrating their cheeks to create a high-pitched sound.",
+	},
+
 	thirdParty: {
 		cardmarket: 280359,
 		tcgplayer: 90089

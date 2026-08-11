@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725087,
+				tcgplayer: 509660,
+				cardtrader: 255567
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725087,
+				tcgplayer: 509660,
+				cardtrader: 255567
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 725087
-	}
+	
 }
 
 export default card

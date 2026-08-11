@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Psiana & Deoxys GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "Hasuno",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Psychic"],
@@ -68,7 +69,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
 }
 
 export default card

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+	},
+
 	thirdParty: {
 		cardmarket: 277933,
 		tcgplayer: 90562

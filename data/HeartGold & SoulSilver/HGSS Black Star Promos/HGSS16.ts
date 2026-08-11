@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Posipi"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		311,
-	],
+	dexId: [311],
 	hp: 60,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -46,7 +44,7 @@ const card: Card = {
 				fr: "Secousse tonnerre"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does 10 damage to Plusle.",
+				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts."
 			},
 			damage: 20,
@@ -65,12 +63,23 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275597,
+				tcgplayer: 88172
+			}
+		},
+	],
+
 }
 
 export default card

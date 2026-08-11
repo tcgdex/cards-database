@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+	},
+
 	thirdParty: {
 		cardmarket: 286377,
 		tcgplayer: 107251

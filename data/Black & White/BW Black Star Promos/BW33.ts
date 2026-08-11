@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+	},
 }
 
 export default card

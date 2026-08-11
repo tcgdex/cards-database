@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Although it has a violent disposition, if you give it a nice ripe fruit that it loves, Noivern will suddenly become tame.",
+	},
+
 	thirdParty: {
 		cardmarket: 388587,
 		tcgplayer: 195157

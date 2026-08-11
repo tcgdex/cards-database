@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+	},
+
 	thirdParty: {
 		cardmarket: 315969,
 		tcgplayer: 157655

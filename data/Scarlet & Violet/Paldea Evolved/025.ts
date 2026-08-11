@@ -35,18 +35,39 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715498,
+				tcgplayer: 497436,
+				cardtrader: 248322
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715498,
+				tcgplayer: 497436,
+				cardtrader: 248322
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 715498
-	}
+	description: {
+		en: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+	},
 }
 
 export default card

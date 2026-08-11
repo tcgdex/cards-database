@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Yuriko Akase",
 
 	rarity: "Special illustration rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826109,
+				tcgplayer: 633035
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826109
-	}
 }
 
 export default card

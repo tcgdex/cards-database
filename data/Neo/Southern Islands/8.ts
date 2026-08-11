@@ -63,15 +63,20 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275638,
-		tcgplayer: 46482
+
+	description: {
+		en: "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275638,
+				tcgplayer: 46482
+			}
 		}
 	]
 }

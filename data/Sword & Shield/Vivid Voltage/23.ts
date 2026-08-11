@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	},
 
-	thirdParty: {
-		cardmarket: 511535,
-		tcgplayer: 226392
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511535,
+				tcgplayer: 226392
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511535,
+				tcgplayer: 226392
+			}
+		},
+	],
 }
 
 export default card

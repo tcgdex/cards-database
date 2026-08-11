@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Stahlos"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 180,
@@ -76,19 +77,44 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
 	},
 
-	thirdParty: {
-		cardmarket: 664584,
-		tcgplayer: 277012
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665674,
+				tcgplayer: 277012
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665674,
+				tcgplayer: 277012
+			}
+		},
+	],
 }
 
 export default card

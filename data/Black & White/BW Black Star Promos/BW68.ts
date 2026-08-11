@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+	},
 }
 
 export default card

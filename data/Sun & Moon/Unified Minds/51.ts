@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The shell covering its body is as hard as diamond. This Pokémon will do anything it takes to win.",
+	},
+
 	thirdParty: {
 		cardmarket: 388082,
 		tcgplayer: 194974

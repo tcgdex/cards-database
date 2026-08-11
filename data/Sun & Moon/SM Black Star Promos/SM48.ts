@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zygarde"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,6 +83,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
+	},
 }
 
 export default card

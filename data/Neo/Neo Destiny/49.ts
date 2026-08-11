@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This Pokémon never gets tired, no matter what it does or how hard it works.",
 		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
 	},
 
-	thirdParty: {
-		cardmarket: 274701,
-		tcgplayer: 86745
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
 		}
 	]
 }

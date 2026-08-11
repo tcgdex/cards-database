@@ -92,12 +92,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
 	},
 
-	thirdParty: {
-		cardmarket: 457683,
-		tcgplayer: 213127
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457683,
+				tcgplayer: 213127
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457683,
+				tcgplayer: 213127
+			}
+		},
+	],
 }
 
 export default card

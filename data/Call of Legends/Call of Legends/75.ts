@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,14 +63,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90446,
+				cardmarket: 279718
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90446,
+				cardmarket: 279718
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279718,
-		tcgplayer: 90446
-	}
 }
 
 export default card

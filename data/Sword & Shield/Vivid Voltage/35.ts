@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody."
 	},
 
-	thirdParty: {
-		cardmarket: 511595,
-		tcgplayer: 226415
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511595,
+				tcgplayer: 226415
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511595,
+				tcgplayer: 226415
+			}
+		},
+	],
 }
 
 export default card

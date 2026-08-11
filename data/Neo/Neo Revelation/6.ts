@@ -69,23 +69,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
 		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
 	},
 
-	thirdParty: {
-		cardmarket: 274592,
-		tcgplayer: 85266
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274592,
+				tcgplayer: 85266
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274592,
+				tcgplayer: 85266
+			}
 		}
 	]
 }

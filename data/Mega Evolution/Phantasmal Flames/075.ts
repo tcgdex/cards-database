@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Archaludon"
 	},
 
+	evolveFrom: {
+		en: "Duraludon",
+		fr: "Duralugon",
+		es: "Duraludon",
+		'es-mx': "Duraludon",
+		de: "Duraludon",
+		it: "Duraludon",
+		pt: "Duraludon",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -48,22 +58,44 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+	},
+
+	illustrator: "toriyufu",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857650,
+				tcgplayer: 662129,
+				cardtrader: 356861
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857650,
+				tcgplayer: 662129,
+				cardtrader: 356861
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857650,
-		tcgplayer: 662129
-	}
 }
 
 export default card

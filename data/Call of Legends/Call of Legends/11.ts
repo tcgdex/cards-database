@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		385,
-	],
+	dexId: [385],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -63,14 +61,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86331,
+				cardmarket: 279654
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86331,
+				cardmarket: 279654
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279654,
-		tcgplayer: 86331
-	}
 }
 
 export default card

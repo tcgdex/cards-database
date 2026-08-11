@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gruff"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -44,9 +44,30 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Nisota Niso"
+	illustrator: "Nisota Niso",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751794,
+				tcgplayer: 536072
+			},
+		}
+	],
 }
 
 export default card

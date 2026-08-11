@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
 	},
 
-	thirdParty: {
-		cardmarket: 539178,
-		tcgplayer: 232455
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539178,
+				tcgplayer: 232455
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539178,
+				tcgplayer: 232455
+			}
+		},
+	],
 }
 
 export default card

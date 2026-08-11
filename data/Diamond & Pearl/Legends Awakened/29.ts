@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago.",
 		fr: "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il a longtemps de cela."
 	},
 

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+	},
+
 	thirdParty: {
 		cardmarket: 372397,
 		tcgplayer: 189205

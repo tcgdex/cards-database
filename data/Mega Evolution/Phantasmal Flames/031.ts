@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Boltund"
 	},
 
+	evolveFrom: {
+		en: "Yamper",
+		fr: "Voltoutou",
+		es: "Yamper",
+		'es-mx': "Yamper",
+		de: "Voldi",
+		it: "Yamper",
+		pt: "Yamper",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -48,22 +58,38 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+	},
+
+	illustrator: "Orca",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857606,
+				tcgplayer: 662134,
+				cardtrader: 356814
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857606,
+				tcgplayer: 662134,
+				cardtrader: 356814
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857606,
-		tcgplayer: 662134
-	}
 }
 
 export default card

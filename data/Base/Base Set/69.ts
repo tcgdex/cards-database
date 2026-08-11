@@ -54,29 +54,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
 		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.",
 		it: "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso. LIV 12 N.13"
 	},
 
-	thirdParty: {
-		cardmarket: 273764,
-		tcgplayer: 42414
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273764,
+				tcgplayer: 42414
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107066
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107066
+			},
 		},
 		{
 			type: "normal",

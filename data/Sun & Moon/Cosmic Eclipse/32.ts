@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+	},
+
 	thirdParty: {
 		cardmarket: 407809,
 		tcgplayer: 201210

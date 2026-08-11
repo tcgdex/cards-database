@@ -79,23 +79,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
 		fr: "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
 	},
 
-	thirdParty: {
-		cardmarket: 274415,
-		tcgplayer: 89555
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274415,
+				tcgplayer: 89555
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274415,
+				tcgplayer: 89555
+			}
 		}
 	]
 }

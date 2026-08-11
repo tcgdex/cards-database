@@ -65,19 +65,31 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Probopass radiates such a powerful magnetic field that nearby electrical appliances are rendered useless while it's around.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769356,
+				tcgplayer: 550226
+			}
+		},
+	],
 
 	illustrator: "Kariya",
 
-	thirdParty: {
-		cardmarket: 769356
-	}
 }
 
 export default card

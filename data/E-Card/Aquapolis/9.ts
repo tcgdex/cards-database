@@ -13,17 +13,15 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		239,
-	],
+	dexId: [239],
 
 	hp: 30,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
 	attacks: [
 		{
@@ -44,18 +42,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275081,
-		tcgplayer: 85167
-	},
+	retreat: 1,
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85167,
+				cardmarket: 275081
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85167,
+				cardmarket: 275081
+			}
+		},
 	]
 }
 

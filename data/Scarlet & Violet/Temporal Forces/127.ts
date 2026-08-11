@@ -52,27 +52,51 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760757,
+				tcgplayer: 542871
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760757,
+				tcgplayer: 542871
+			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
-		}
+			thirdParty: {
+				cardmarket: 800146,
+			}
+		},
 	],
 
 	illustrator: "toi8",
 
-	thirdParty: {
-		cardmarket: 760757
-	}
 }
 
 export default card

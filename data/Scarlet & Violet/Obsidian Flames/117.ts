@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon uses its rocky mane to slash any who approach. It will even disobey its Trainer if it dislikes the orders it was given.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725197,
+				tcgplayer: 509865,
+				cardtrader: 255802
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725197,
+				tcgplayer: 509865,
+				cardtrader: 255802
+			}
+		},
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 725197
-	}
+	
 }
 
 export default card

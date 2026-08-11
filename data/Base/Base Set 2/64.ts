@@ -60,15 +60,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273987,
-		tcgplayer: 42527
+
+	description: {
+		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273987,
+				tcgplayer: 42527
+			}
 		}
 	]
 }

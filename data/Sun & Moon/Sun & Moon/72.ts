@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+	},
+
 	thirdParty: {
 		cardmarket: 295383,
 		tcgplayer: 126943

@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
+	},
+
 	thirdParty: {
 		cardmarket: 295398,
 		tcgplayer: 126959

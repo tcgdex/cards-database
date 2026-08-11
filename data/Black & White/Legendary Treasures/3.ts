@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+	},
+
 	thirdParty: {
 		cardmarket: 281154,
 		tcgplayer: 89194

@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The magma in its body reaches 2,200 degrees F. Its hump gets smaller when it uses Fire-type moves.",
+	},
+
 	thirdParty: {
 		cardmarket: 280608,
 		tcgplayer: 87817

@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
 	},
 
-	thirdParty: {
-		cardmarket: 483309,
-		tcgplayer: 219474
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483309,
+				tcgplayer: 219474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483309,
+				tcgplayer: 219474
+			}
+		},
+	],
 }
 
 export default card

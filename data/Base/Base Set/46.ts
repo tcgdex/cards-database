@@ -69,29 +69,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
 		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue.",
 		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda."
 	},
 
-	thirdParty: {
-		cardmarket: 273741,
-		tcgplayer: 42389
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273741,
+				tcgplayer: 42389
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107043
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107043
+			},
 		},
 		{
 			type: "normal",

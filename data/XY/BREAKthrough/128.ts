@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+	},
+
 	thirdParty: {
 		cardmarket: 286374,
 		tcgplayer: 107247

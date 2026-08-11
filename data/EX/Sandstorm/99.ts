@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 160,
 
+	stage: "Stage2",
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +27,7 @@ const card: Card = {
 		fr: "Feurisson"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -87,14 +86,13 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275876,
-		tcgplayer: 90111
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90111,
+				cardmarket: 275876
+			}
 		},
 	]
 }

@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
+	},
+
 	thirdParty: {
 		cardmarket: 288256,
 		tcgplayer: 111617

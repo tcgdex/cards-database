@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Each time it yawns, the Shellder on its head releases an enzyme that makes it grow even smarter.",
 		fr: "À chaque fois qu'il baille, le Kokiyas qu'il porte sur la tête projette une enzyme qui le rend encore plus intelligent."
 	},
 
-	thirdParty: {
-		cardmarket: 274672,
-		tcgplayer: 84656
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274672,
+				tcgplayer: 84656
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274672,
+				tcgplayer: 84656
+			}
 		}
 	]
 }

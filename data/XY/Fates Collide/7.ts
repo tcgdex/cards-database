@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
+	},
+
 	thirdParty: {
 		cardmarket: 289833,
 		tcgplayer: 117770

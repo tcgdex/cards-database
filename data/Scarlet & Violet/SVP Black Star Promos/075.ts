@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mimigma"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -64,9 +64,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Mitsuhiro Arita"
+	illustrator: "Mitsuhiro Arita",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751799,
+				tcgplayer: 535952
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 751800,
+				tcgplayer: 535953
+			},
+		}
+	],
 }
 
 export default card

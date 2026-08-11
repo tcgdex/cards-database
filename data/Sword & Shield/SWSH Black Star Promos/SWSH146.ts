@@ -20,7 +20,7 @@ const card: Card = {
 		it: "Poké Ball"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 	types: ["Lightning"],
 

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Blanche"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,16 +29,19 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664663,
-		tcgplayer: 277015
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 665693,
+				tcgplayer: 277015
+			}
+		},
+	],
 }
 
 export default card

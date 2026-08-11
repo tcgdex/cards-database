@@ -47,22 +47,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 817206
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817206,
+				tcgplayer: 623481
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817206,
+				tcgplayer: 623481
+			}
 		},
-	]
+	],
 }
 
 export default card

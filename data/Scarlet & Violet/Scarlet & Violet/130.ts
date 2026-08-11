@@ -57,8 +57,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
 
 	thirdParty: {

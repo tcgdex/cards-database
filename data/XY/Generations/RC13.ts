@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The twinkle of the stars. The destiny of love. A miracle that grants wishes in the night sky.",
+	},
+
 	thirdParty: {
 		cardmarket: 288522
 	}

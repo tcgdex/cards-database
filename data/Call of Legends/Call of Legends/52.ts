@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -71,14 +69,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90287,
+				cardmarket: 279695
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90287,
+				cardmarket: 279695
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279695,
-		tcgplayer: 90287
-	}
 }
 
 export default card

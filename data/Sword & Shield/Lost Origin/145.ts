@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ambidiffel"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -77,16 +78,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674155,
-		tcgplayer: 284071
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674155,
+				tcgplayer: 284071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674155,
+				tcgplayer: 284071
+			}
+		},
+	],
 }
 
 export default card

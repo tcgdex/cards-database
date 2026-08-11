@@ -1,47 +1,60 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "化石翼龍V"
+		ja: "プテラV",
+		'zh-tw': "化石翼龍V",
 	},
 
 	illustrator: "N-DESIGN Inc.",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fighting"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "咬住"
+	attacks: [
+		{
+			name: {
+				ja: "かみつく",
+				'zh-tw': "咬住",
+			},
+			damage: 40,
+			cost: ["Fighting", "Colorless"],
 		},
-
-		damage: 40,
-		cost: ["Fighting", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "岩石細碎"
+		{
+			name: {
+				ja: "ロッククラッシュ",
+				'zh-tw': "岩石細碎",
+			},
+			damage: 120,
+			cost: ["Fighting", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 667931,
+				tcgplayer: 569987,
+			},
 		},
-
-		damage: 120,
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Double rare",
+	dexId: [142],
+};
 
-export default card
+export default card;

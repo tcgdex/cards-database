@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its cell composition is similar to water molecules. As a result, it can't be seen when it melts away into water.",
+	},
+
 	thirdParty: {
 		cardmarket: 280898,
 		tcgplayer: 90291

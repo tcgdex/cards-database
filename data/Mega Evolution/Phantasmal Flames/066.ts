@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Krookodile"
 	},
 
+	evolveFrom: {
+		en: "Krokorok",
+		fr: "Escroco",
+		es: "Krokorok",
+		'es-mx': "Krokorok",
+		de: "Rokkaiman",
+		it: "Krokorok",
+		pt: "Krokorok",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -62,22 +72,38 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
+	description: {
+		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+	},
+
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857641,
+				tcgplayer: 662174,
+				cardtrader: 356850
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857641,
-		tcgplayer: 662174
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857641,
+				tcgplayer: 662174,
+				cardtrader: 356850
+			}
+		},
+	],	
 }
 
 export default card

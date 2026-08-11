@@ -15,23 +15,30 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.",
 		fr: "Prenez une carte Énergie de base attachée à un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
 		de: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275730,
-		tcgplayer: 85252
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275730,
+				tcgplayer: 85252
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275730,
+				tcgplayer: 85252
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

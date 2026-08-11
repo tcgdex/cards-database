@@ -80,23 +80,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
 		fr: "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage."
 	},
 
-	thirdParty: {
-		cardmarket: 274445,
-		tcgplayer: 88468
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274445,
+				tcgplayer: 88468
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274445,
+				tcgplayer: 88468
+			}
 		}
 	]
 }

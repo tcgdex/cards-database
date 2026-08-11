@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hitmonchan",
@@ -85,10 +79,22 @@ const card: Card = {
 	dexId: [107],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574129,
-		tcgplayer: 246871
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574129,
+				tcgplayer: 246871
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574129,
+				tcgplayer: 246871
+			}
+		},
+	],
 }
 
 export default card

@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 394802,
 		tcgplayer: 197650

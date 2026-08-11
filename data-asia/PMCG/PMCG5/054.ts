@@ -4,9 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのヒットモンチャン",
+		ja: "R団のエビワラー",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [107],

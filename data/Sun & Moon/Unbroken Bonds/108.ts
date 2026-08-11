@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a weakness for shiny things. It's been known to sneak into the nests of Gabite—noted collectors of jewels—in search of treasure.",
+	},
+
 	thirdParty: {
 		cardmarket: 372398,
 		tcgplayer: 189206

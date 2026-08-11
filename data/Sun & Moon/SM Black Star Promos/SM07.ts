@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -69,7 +69,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
+	},
 }
 
 export default card

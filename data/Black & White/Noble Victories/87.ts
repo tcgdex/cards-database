@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+	},
+
 	thirdParty: {
 		cardmarket: 280210,
 		tcgplayer: 85558

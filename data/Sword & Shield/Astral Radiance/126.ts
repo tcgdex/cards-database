@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Miltank"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -66,20 +67,36 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Miltank produces highly nutritious milk, so it's been supporting the lives of people and other Pokémon since ancient times.",
 	},
 
-	thirdParty: {
-		cardmarket: 658787,
-		tcgplayer: 272363
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658787,
+				tcgplayer: 272363
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658787,
+				tcgplayer: 272363
+			}
+		},
+	],
 }
 
 export default card

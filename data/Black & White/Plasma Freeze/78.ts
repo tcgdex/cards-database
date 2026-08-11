@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!",
+	},
+
 	thirdParty: {
 		cardmarket: 280956,
 		tcgplayer: 86244

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Overflowing with beauty and majesty, this strong Pokémon appears in ancient Eastern folklore.",
+	},
+
 	thirdParty: {
 		cardmarket: 295330,
 		tcgplayer: 126893

@@ -22,6 +22,7 @@ const card: Card = {
 				de: "Aqua-Reaktion"
 			},
 			effect: {
+		en: "Play Helix Fossil as if it were a Colorless Basic Pokémon. (Helix Fossil counts as a Trainer card as well, but if Helix Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Helix Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Helix Fossil from play. (This doesn't count as a Knocked Out Pokémon.)",
 				fr: "Lorsque vous attachez une carte Énergie Eau de votre main à Fossile Nautile (effets d'attaques et Poké-Powers exclus), cherchez dans votre deck une carte qui évolue de Fossile Nautile et placez-la sur Fossile Nautile (vous le faites ainsi évoluer), Ensuite, mélangez votre deck.",
 				de: "Wenn du 1 -Energiekarte von deiner Hand an Helixfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Helixfossil entwickelt, und lege diese auf Helixfossil (dies zählt als Entwickeln von Helixfossil). Mische dein Deck danach."
 			},

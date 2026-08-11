@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+	},
+
 	thirdParty: {
 		cardmarket: 277905,
 		tcgplayer: 84699

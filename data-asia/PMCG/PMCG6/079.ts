@@ -4,15 +4,18 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "透明な壁",
+		ja: "見えない壁",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575326
+			},
 		},
 	],
 };

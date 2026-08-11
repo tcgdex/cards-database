@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If its fins being to vibrate, it is a sign that it will begin raining soon.",
 		fr: "Si sa nageoire commence à vibrer, c'est signe qu'il va bientôt pleuvoir."
 	},
 
-	thirdParty: {
-		cardmarket: 274704,
-		tcgplayer: 86751
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274704,
+				tcgplayer: 86751
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274704,
+				tcgplayer: 86751
+			}
 		}
 	]
 }

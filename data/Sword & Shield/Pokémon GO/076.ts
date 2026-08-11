@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragoran V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,
@@ -61,16 +62,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664592,
-		tcgplayer: 277006
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665687,
+				tcgplayer: 277006
+			}
+		},
+	],
 }
 
 export default card

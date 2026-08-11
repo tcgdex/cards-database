@@ -63,18 +63,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769290,
+				tcgplayer: 550160
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769290,
+				tcgplayer: 550160
+			}
+		},
+	],
 
 	illustrator: "Krgc",
 
-	thirdParty: {
-		cardmarket: 769290
-	}
 }
 
 export default card

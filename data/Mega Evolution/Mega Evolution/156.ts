@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Camerupt ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -81,19 +82,24 @@ const card: Card = {
 		damage: 280
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851227,
+				tcgplayer: 654495
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654495,
-		cardmarket: 851227
-	}
 }
 
 export default card

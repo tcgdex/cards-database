@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has always been supposed that Seel live only in cold seas. Their having shown up in Alola is a mystery.",
+	},
+
 	thirdParty: {
 		cardmarket: 372335,
 		tcgplayer: 189143

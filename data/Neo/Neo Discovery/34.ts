@@ -88,23 +88,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
 		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
 	},
 
-	thirdParty: {
-		cardmarket: 274526,
-		tcgplayer: 90250
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274526,
+				tcgplayer: 90250
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274526,
+				tcgplayer: 90250
+			}
 		}
 	]
 }

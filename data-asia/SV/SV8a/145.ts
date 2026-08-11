@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫選擇1張「太晶」寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803258,
+				tcgplayer: 602571,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602572,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

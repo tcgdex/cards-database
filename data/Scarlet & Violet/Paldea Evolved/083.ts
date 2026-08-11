@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715558,
+				tcgplayer: 497496,
+				cardtrader: 248710
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715558,
+				tcgplayer: 497496,
+				cardtrader: 248710
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 715558
-	}
+	description: {
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
 }
 
 export default card

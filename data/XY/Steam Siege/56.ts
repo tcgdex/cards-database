@@ -94,6 +94,10 @@ const card: Card = {
 		de: "Klauenfossil"
 	},
 
+	description: {
+		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 291626,
 		tcgplayer: 121186

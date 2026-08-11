@@ -67,12 +67,6 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 	illustrator: "Eske Yoshinob",
@@ -92,10 +86,16 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567331,
-		tcgplayer: 241874
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 567331,
+				tcgplayer: 241874
+			}
+		},
+	],
 }
 
 export default card

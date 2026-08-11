@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It seems that other Pokémon's efforts to take its delicious, nutritious egg away from it caused Chansey to get faster at fleeing.",
+	},
+
 	thirdParty: {
 		cardmarket: 394712,
 		tcgplayer: 197691

@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725248,
+				tcgplayer: 509696,
+				cardtrader: 256064
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725248,
+				tcgplayer: 509696,
+				cardtrader: 256064
+			}
+		},
+	],
 
 	illustrator: "Nagomi Nijo",
 
-	thirdParty: {
-		cardmarket: 725248
-	}
+	
 }
 
 export default card

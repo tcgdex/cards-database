@@ -35,17 +35,48 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
+	description: {
+		en: "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725093,
+				tcgplayer: 509692,
+				cardtrader: 255573
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 789503
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725093,
+				tcgplayer: 509692,
+				cardtrader: 255573
+			}
+		},
+	],
 
 	illustrator: "Tomokazu Komiya",
 
-	thirdParty: {
-		cardmarket: 725093
-	}
+	
 }
 
 export default card

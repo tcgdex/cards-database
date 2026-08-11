@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+	},
+
 	thirdParty: {
 		cardmarket: 277506,
 		tcgplayer: 86946

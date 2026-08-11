@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose."
 	},
 
-	thirdParty: {
-		cardmarket: 483344,
-		tcgplayer: 219485
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483344,
+				tcgplayer: 219485
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483344,
+				tcgplayer: 219485
+			}
+		},
+	],
 }
 
 export default card

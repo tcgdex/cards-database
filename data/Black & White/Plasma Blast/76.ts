@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+	},
+
 	thirdParty: {
 		cardmarket: 281097,
 		tcgplayer: 90258

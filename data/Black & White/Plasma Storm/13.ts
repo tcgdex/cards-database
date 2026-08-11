@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It moves the caps on both arms and does a dance to lure prey. It prefers damp places.",
+	},
+
 	thirdParty: {
 		cardmarket: 280753,
 		tcgplayer: 83533

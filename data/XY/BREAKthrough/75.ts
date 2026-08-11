@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.",
+	},
+
 	thirdParty: {
 		cardmarket: 286321,
 		tcgplayer: 107194

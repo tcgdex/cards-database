@@ -28,16 +28,20 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740806,
+				tcgplayer: 523944,
+				cardtrader: 265309
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 740806
-	}
+	
 }
 
 export default card

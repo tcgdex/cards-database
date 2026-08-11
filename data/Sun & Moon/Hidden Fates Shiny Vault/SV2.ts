@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+	},
 }
 
 export default card

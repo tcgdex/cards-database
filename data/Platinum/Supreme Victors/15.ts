@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		59,
-	],
+	dexId: [59],
 	hp: 90,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Arcanine G's Retreat Cost is Colorless less for each Fire Energy attached to Arcanine G.",
 				fr: "Le Coût de retraite d'Arcanin  est Colorless de moins pour chaque Énergie Fire attachée à Arcanin .",
 				de: "Die Rückzugskosten von Arkani G verringern sich für jede -Energie, die an Arkani G angelegt ist, um ."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,28 +59,36 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "holo",
-			foil: "cosmos",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278706,
+				tcgplayer: 83591
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
+			thirdParty: {
+				cardmarket: 371545,
+				tcgplayer: 83591
+			}
 		},
-	]
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 95826
+			}
+		},
+	],
+
 }
 
 export default card

@@ -1,51 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "烈焰猴V"
+		ja: "スイクン",
+		'zh-tw': "烈焰猴V",
 	},
 
-	illustrator: "Ayaka Yoshida",
+	illustrator: "so-taro",
 	category: "Pokemon",
-	hp: 200,
-	types: ["Fire"],
+	hp: 120,
+	types: ["Water"],
+
+	description: {
+		ja: "一瞬で 汚く 濁った 水も 清める 力を 持つ。 北風の 生まれ変わり という。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "流星拳"
+	attacks: [
+		{
+			name: {
+				ja: "スプラッシュ",
+				'zh-tw': "流星拳",
+			},
+			damage: 20,
+			cost: ["Water"],
 		},
-
-		effect: {
-			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×30點傷害。"
+		{
+			name: {
+				ja: "オーロラループ",
+				'zh-tw': "紅蓮火焰",
+			},
+			damage: 130,
+			cost: ["Water", "Water", "Colorless"],
+			effect: {
+				ja: "このポケモンについている[水]エネルギーを2個選び、手札にもどす。",
+				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
+			},
 		},
+	],
 
-		damage: "30×",
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "紅蓮火焰"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525430,
+				tcgplayer: 597349,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。"
-		},
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [245],
+};
 
-		damage: 200,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 0,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

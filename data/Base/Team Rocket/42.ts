@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
+		fr: "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -83,21 +84,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
 		fr: "Les femmes l'adorent en raison de sa magnifique fourrure. Le chef des Rocket en possède un comme animal de compagnie."
 	},
 
-	thirdParty: {
-		cardmarket: 274095,
-		tcgplayer: 84639
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274095,
+				tcgplayer: 84639
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274095,
+				tcgplayer: 84639
+			}
 		}
 	]
 }

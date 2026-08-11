@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Viscogon"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670817,
-		tcgplayer: 284055
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670817,
+				tcgplayer: 284055
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 670817,
+				tcgplayer: 284055
+			}
+		},
+	],
 }
 
 export default card

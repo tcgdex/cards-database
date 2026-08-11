@@ -64,19 +64,32 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751723,
+				tcgplayer: 535122,
+				cardtrader: 274369
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 751723
-	}
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+	},
+
 }
 
 export default card

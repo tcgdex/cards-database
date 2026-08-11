@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+	},
+
 	thirdParty: {
 		cardmarket: 280760,
 		tcgplayer: 89229

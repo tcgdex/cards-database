@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+	},
+
 	thirdParty: {
 		cardmarket: 280888,
 		tcgplayer: 84082

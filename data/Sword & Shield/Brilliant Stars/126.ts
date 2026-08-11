@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Boreos"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -57,20 +58,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
 	},
 
-	thirdParty: {
-		cardmarket: 608672,
-		tcgplayer: 263849
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608672,
+				tcgplayer: 263849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608672,
+				tcgplayer: 263849
+			}
+		},
+	],
 }
 
 export default card

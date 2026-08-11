@@ -51,23 +51,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276237,
-		tcgplayer: 84821
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276237,
+				tcgplayer: 84821
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276237,
+				tcgplayer: 84821
+			},
+		},
+	],
 }
 
 export default card

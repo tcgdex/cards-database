@@ -28,16 +28,17 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 805531
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805531,
+				tcgplayer: 610492
+			}
+		},
+	],
 }
 
 export default card

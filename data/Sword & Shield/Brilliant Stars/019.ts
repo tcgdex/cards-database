@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magmar"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
 	},
 
-	thirdParty: {
-		cardmarket: 608469,
-		tcgplayer: 263705
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608469,
+				tcgplayer: 263705
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608469,
+				tcgplayer: 263705
+			}
+		},
+	],
 }
 
 export default card

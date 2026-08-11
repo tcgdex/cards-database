@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		8,
-	],
+	dexId: [8],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Squirtle",
-		fr: "Carapuce",
+		fr: "Carapuce"
 	},
 
 	stage: "Stage1",
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -77,19 +75,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278486,
-		tcgplayer: 90490
+	description: {
+		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90490,
+				cardmarket: 278486
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278486,
+				tcgplayer: 90490
+			}
 		}
-	]
+	],
+
 }
 
 export default card

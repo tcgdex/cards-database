@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In their search for comfortable trees, they get into territorial disputes with groups of Passimian. They win about half the time.",
+	},
+
 	thirdParty: {
 		cardmarket: 408474,
 		tcgplayer: 201292

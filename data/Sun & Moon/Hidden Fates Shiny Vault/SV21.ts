@@ -61,6 +61,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It's tough enough to run right through the night, and it's also a hard worker, but it's still just a youngster.",
+	},
 }
 
 export default card

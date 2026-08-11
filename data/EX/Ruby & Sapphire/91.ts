@@ -15,31 +15,43 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
 		fr: "Retirez jusqu'à deux marqueurs de dégât à l'un de vos Pokémon.",
 		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
 	},
 
-	thirdParty: {
-		cardmarket: 275739,
-		tcgplayer: 88330
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275739,
+				tcgplayer: 88330
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275739,
+				tcgplayer: 88330
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125135
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 477417
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
 	},
 
-	thirdParty: {
-		cardmarket: 567103,
-		tcgplayer: 241675
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567103,
+				tcgplayer: 241675
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567103,
+				tcgplayer: 241675
+			}
+		},
+	],
 }
 
 export default card

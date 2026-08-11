@@ -60,22 +60,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
+	},
+
+	illustrator: "tono",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857658,
+				tcgplayer: 662139,
+				cardtrader: 356869
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857658,
+				tcgplayer: 662139,
+				cardtrader: 356869
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857658,
-		tcgplayer: 662139
-	}
 }
 
 export default card

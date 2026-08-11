@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Dedenne"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [702],
 	hp: 70,
 	types: ["Psychic"],

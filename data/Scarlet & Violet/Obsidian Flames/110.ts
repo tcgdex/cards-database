@@ -42,18 +42,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725190,
+				tcgplayer: 509804,
+				cardtrader: 255795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725190,
+				tcgplayer: 509804,
+				cardtrader: 255795
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 725190
-	}
+	
 }
 
 export default card

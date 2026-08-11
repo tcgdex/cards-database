@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+	},
+
 	thirdParty: {
 		cardmarket: 280161,
 		tcgplayer: 90093

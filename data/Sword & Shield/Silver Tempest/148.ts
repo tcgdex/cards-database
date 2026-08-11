@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Geronimatz"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,42 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
 	},
 
-	thirdParty: {
-		cardmarket: 682195,
-		tcgplayer: 451797
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682195,
+				tcgplayer: 451797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682195,
+				tcgplayer: 451797
+			}
+		},
+	],
 }
 
 export default card

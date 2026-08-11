@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The skull it wears on its head is that of its dead mother. According to some, it will evolve when it comes to terms with the pain of her death.",
+	},
+
 	thirdParty: {
 		cardmarket: 394657,
 		tcgplayer: 197681

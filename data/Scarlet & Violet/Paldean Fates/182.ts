@@ -35,19 +35,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751721,
+				tcgplayer: 535110,
+				cardtrader: 274367
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 751721
-	}
+	description: {
+		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+	},
+
 }
 
 export default card

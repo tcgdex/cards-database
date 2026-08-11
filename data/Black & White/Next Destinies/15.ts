@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+	},
+
 	thirdParty: {
 		cardmarket: 280240,
 		tcgplayer: 87943

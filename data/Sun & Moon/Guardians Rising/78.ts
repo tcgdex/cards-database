@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They awaken at dusk and take wing in the twilight, leading to the expression, \"Get home before the Murkrow fly.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 297536,
 		tcgplayer: 130990

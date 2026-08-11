@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 805491
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805491,
+				tcgplayer: 610452
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805491,
+				tcgplayer: 610452
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806550,
+				tcgplayer: 610608
+			}
+		},
+	],
 }
 
 export default card

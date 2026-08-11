@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Silvarro VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 270,
@@ -55,20 +56,26 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658696,
-		tcgplayer: 272449
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658856,
+				tcgplayer: 272449
+			}
+		},
+	],
 }
 
 export default card

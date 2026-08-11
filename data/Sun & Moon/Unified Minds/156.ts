@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+	},
+
 	thirdParty: {
 		cardmarket: 388572,
 		tcgplayer: 195154

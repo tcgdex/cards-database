@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This gourmet Pokémon is particular about the taste and freshness of its food. Restaurants where Raticate live have a good reputation.",
+	},
+
 	thirdParty: {
 		cardmarket: 295388,
 		tcgplayer: 126949

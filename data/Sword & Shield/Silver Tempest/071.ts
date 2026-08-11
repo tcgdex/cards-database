@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flunkifer VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,
@@ -77,20 +78,25 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682118,
-		tcgplayer: 451725
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682118,
+				tcgplayer: 451725
+			}
+		},
+	],
 }
 
 export default card

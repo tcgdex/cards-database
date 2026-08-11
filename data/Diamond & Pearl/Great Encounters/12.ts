@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It looks like a fluffy cloud when it is in flight. It hums with its soprano voice.",
+	},
+
 	thirdParty: {
 		cardmarket: 277914,
 		tcgplayer: 83516

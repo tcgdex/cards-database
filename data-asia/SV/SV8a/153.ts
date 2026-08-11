@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的寶可夢，【撤退】所需的能量減少1個。若那隻寶可夢的剩餘HP為「30」以下，則【撤退】所需的能量全部消除。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803266,
+				tcgplayer: 602583,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602584,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

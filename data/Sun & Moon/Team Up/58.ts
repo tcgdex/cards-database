@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+	},
+
 	thirdParty: {
 		cardmarket: 368988,
 		tcgplayer: 183836

@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it."
 	},
 
-	thirdParty: {
-		cardmarket: 567192,
-		tcgplayer: 241751
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567192,
+				tcgplayer: 241751
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567192,
+				tcgplayer: 241751
+			}
+		},
+	],
 }
 
 export default card

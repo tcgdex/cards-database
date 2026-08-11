@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sen-Long V"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608674,
-		tcgplayer: 263851
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608674,
+				tcgplayer: 263851
+			}
+		},
+	],
 }
 
 export default card

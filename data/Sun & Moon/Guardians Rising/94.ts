@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The weakest of all Dragon-type Pokémon, it's unable to breathe if its skin dries out, so it sticks to shady places.",
+	},
+
 	thirdParty: {
 		cardmarket: 297548,
 		tcgplayer: 131010

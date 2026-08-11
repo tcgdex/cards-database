@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+	},
+
 	thirdParty: {
 		cardmarket: 277826,
 		tcgplayer: 90302

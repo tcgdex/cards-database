@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+	},
+
 	thirdParty: {
 		cardmarket: 289838,
 		tcgplayer: 117775

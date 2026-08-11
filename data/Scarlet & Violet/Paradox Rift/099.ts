@@ -66,18 +66,41 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740613,
+				tcgplayer: 523769,
+				cardtrader: 265201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740613,
+				tcgplayer: 523769,
+				cardtrader: 265201
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 740613
-	}
+	
 }
 
 export default card

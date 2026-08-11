@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+	},
 }
 
 export default card

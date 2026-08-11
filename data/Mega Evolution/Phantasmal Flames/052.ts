@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vibrava"
 	},
 
+	evolveFrom: {
+		en: "Trapinch",
+		fr: "Kraknoix",
+		es: "Trapinch",
+		'es-mx': "Trapinch",
+		de: "Knacklion",
+		it: "Trapinch",
+		pt: "Trapinch",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -38,22 +48,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Rather than using its underdeveloped wings for flight, it rubs them together, emitting ultrasonic waves to attack its enemies.",
+	},
+
+	illustrator: "Miki Tanaka",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857627,
+				tcgplayer: 662237,
+				cardtrader: 356835
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857627,
+				tcgplayer: 662237,
+				cardtrader: 356835
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857627,
-		tcgplayer: 662237
-	}
 }
 
 export default card

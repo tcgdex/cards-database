@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck."
 	},
 
-	thirdParty: {
-		cardmarket: 512395,
-		tcgplayer: 226593
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512395,
+				tcgplayer: 226593
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512395,
+				tcgplayer: 226593
+			}
+		},
+	],
 }
 
 export default card

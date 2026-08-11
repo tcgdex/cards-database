@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Normally, it has 80 poisonous tentacles. The longer one has been alive, the fewer tentacles it will have.",
+	},
+
 	thirdParty: {
 		cardmarket: 297487,
 		tcgplayer: 130924

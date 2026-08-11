@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It generates powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
+
 	thirdParty: {
 		cardmarket: 280157,
 		tcgplayer: 86561

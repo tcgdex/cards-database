@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If you carelessly approach it because it's cute, the boss of the pack, Ninetales, will appear and freeze you.",
+	},
+
 	thirdParty: {
 		cardmarket: 407844,
 		tcgplayer: 201215

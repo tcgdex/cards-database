@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
+	},
+
 	thirdParty: {
 		cardmarket: 288178,
 		tcgplayer: 111506

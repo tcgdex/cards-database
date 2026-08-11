@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.",
+	},
+
 	thirdParty: {
 		cardmarket: 388687,
 		tcgplayer: 195183

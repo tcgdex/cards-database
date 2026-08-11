@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -66,20 +67,36 @@ const card: Card = {
 		damage: "150+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
 	},
 
-	thirdParty: {
-		cardmarket: 658791,
-		tcgplayer: 272371
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658791,
+				tcgplayer: 272371
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658791,
+				tcgplayer: 272371
+			}
+		},
+	],
 }
 
 export default card

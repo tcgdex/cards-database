@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -66,20 +67,42 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
 	},
 
-	thirdParty: {
-		cardmarket: 608646,
-		tcgplayer: 263819
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608646,
+				tcgplayer: 263819
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608646,
+				tcgplayer: 263819
+			}
+		},
+	],
 }
 
 export default card

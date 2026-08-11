@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+	},
+
+	illustrator: "Shin Nagasawa",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857635,
+				tcgplayer: 662140,
+				cardtrader: 356844
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857635,
-		tcgplayer: 662140
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857635,
+				tcgplayer: 662140,
+				cardtrader: 356844
+			}
+		},
+	],	
 }
 
 export default card

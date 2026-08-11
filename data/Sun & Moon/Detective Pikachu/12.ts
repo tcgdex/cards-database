@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon was created by years of horrific gene splicing and DNA engineering experiments.",
+	},
+
 	thirdParty: {
 		cardmarket: 370775,
 		tcgplayer: 186020

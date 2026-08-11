@@ -74,6 +74,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+	},
+
 	thirdParty: {
 		cardmarket: 278071,
 		tcgplayer: 86275

@@ -93,10 +93,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+	},
+
 	thirdParty: {
 		cardmarket: 299512,
 		tcgplayer: 138607
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

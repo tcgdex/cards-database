@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its swimming form is exquisitely elegant. With its thin mouth, it feeds on seaweed that grows between rocks.",
+	},
+
 	thirdParty: {
 		cardmarket: 273582,
 		tcgplayer: 95950

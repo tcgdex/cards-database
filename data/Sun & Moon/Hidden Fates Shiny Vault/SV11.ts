@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+	},
 }
 
 export default card

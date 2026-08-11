@@ -81,12 +81,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
 	},
 
-	thirdParty: {
-		cardmarket: 457388,
-		tcgplayer: 213072
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457388,
+				tcgplayer: 213072
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457388,
+				tcgplayer: 213072
+			}
+		},
+	],
 }
 
 export default card

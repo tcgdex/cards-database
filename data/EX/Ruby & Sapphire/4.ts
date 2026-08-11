@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -81,19 +79,24 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275652,
-		tcgplayer: 84087
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275652,
+				tcgplayer: 84087
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275652,
+				tcgplayer: 84087
+			}
 		},
-	]
+	],
+
 }
 
 export default card

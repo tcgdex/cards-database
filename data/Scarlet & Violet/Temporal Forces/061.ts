@@ -66,23 +66,38 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon shares many similarities with Iron Hands, an object mentioned in a certain expedition journal.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760691,
+				tcgplayer: 542805
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760691,
+				tcgplayer: 542805
+			}
+		},
 	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 760691
-	}
 }
 
 export default card

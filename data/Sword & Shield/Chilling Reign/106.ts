@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
 	},
 
-	thirdParty: {
-		cardmarket: 567215,
-		tcgplayer: 241781
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567215,
+				tcgplayer: 241781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567215,
+				tcgplayer: 241781
+			}
+		},
+	],
 }
 
 export default card

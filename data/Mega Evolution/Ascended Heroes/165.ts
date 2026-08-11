@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [300],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -37,13 +38,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675977,
-		cardmarket: 869776
-	}
+	description: {
+		en: "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869776,
+			tcgplayer: 675977
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870392,
+			tcgplayer: 676980
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870391,
+			tcgplayer: 677120
+		}
+	},
+],
 }
 
 export default card

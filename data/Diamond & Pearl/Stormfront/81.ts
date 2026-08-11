@@ -82,6 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
 		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
 	},
 

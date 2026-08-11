@@ -57,19 +57,54 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740565,
+				tcgplayer: 523727,
+				cardtrader: 265181
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 855026
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740565,
+				tcgplayer: 523727,
+				cardtrader: 265181
+			}
+		},
+	],
 
 	illustrator: "chibi",
 
-	thirdParty: {
-		cardmarket: 740565
-	}
+	
 }
 
 export default card

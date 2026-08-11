@@ -65,18 +65,47 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733613,
+				tcgplayer: 502567,
+				cardtrader: 261204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733613,
+				tcgplayer: 502567,
+				cardtrader: 261204
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 733613
-	}
+	
 }
 
 export default card

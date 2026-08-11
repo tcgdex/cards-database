@@ -55,18 +55,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751563,
+				tcgplayer: 534176,
+				cardtrader: 274214
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751563,
+				tcgplayer: 534176,
+				cardtrader: 274214
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 751563
-	}
+	description: {
+		en: "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+	},
+
 }
 
 export default card

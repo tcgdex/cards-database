@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
+		fr: "Herbizarre",
 		it: "Ivysaur"
 	},
 
@@ -75,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 		fr: "Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés.",
 		it: "È un tipo di pianta che sboccia quando assorbe l'energia solare e si mantiene sempre in movimento per poter rimanere esposta al sole. LIV 67 N.3"
 	},
@@ -85,15 +89,25 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273710,
+				tcgplayer: 42355
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107010
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107010
+			}
 		},
 		{
 			type: "holo",
@@ -101,11 +115,6 @@ const card: Card = {
 		}
 	],
 
-
-	thirdParty: {
-		cardmarket: 273710,
-		tcgplayer: 42355
-	}
 }
 
 export default card

@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Blue plant vines cloak the Pokémon's identity in a tangled mass. It entangles anything that gets close.",
+	},
+
 	thirdParty: {
 		cardmarket: 293365,
 		tcgplayer: 124021

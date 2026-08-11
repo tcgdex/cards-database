@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They use their large ears to dig burrows. They will dig the whole night through.",
+	},
+
 	thirdParty: {
 		cardmarket: 311934,
 		tcgplayer: 149112

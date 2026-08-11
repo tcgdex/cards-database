@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tauschwagen"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658815,
-		tcgplayer: 272406
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658815,
+				tcgplayer: 272406
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658815,
+				tcgplayer: 272406
+			}
+		},
+	],
 }
 
 export default card

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+	},
+
 	thirdParty: {
 		cardmarket: 280709,
 		tcgplayer: 89572

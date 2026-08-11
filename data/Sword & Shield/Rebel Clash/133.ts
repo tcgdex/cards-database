@@ -57,12 +57,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -70,10 +64,22 @@ const card: Card = {
 		en: "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
 	},
 
-	thirdParty: {
-		cardmarket: 458063,
-		tcgplayer: 213229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458063,
+				tcgplayer: 213229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458063,
+				tcgplayer: 213229
+			}
+		},
+	],
 }
 
 export default card

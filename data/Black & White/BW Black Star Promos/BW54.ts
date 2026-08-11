@@ -64,6 +64,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+	},
 }
 
 export default card

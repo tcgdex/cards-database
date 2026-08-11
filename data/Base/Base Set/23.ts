@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos",
 		it: "Growlithe"
 	},
 
@@ -81,15 +82,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273718,
+				tcgplayer: 42364
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107018
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107018
+			}
 		},
 		{
 			type: "normal",
@@ -103,16 +114,14 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
 		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.",
 		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59"
 	},
-
-	thirdParty: {
-		cardmarket: 273718,
-		tcgplayer: 42364
-	}
 }
 
 export default card

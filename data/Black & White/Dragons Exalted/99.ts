@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives high among the treetops. It can us its tail as freely and cleverly as its hands.",
+	},
+
 	thirdParty: {
 		cardmarket: 280538,
 		tcgplayer: 83494

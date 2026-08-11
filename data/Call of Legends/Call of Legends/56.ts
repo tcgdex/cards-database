@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -58,14 +56,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "It has the ability to alter the composition of its body to suit its surrounding environment.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85089,
+				cardmarket: 279699
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85089,
+				cardmarket: 279699
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279699,
-		tcgplayer: 85089
-	}
 }
 
 export default card

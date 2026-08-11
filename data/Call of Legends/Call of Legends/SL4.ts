@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuri Umemura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		383,
-	],
+	dexId: [383],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -51,15 +49,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 4,
+
+	description: {
+		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85926,
+				cardmarket: 279649
+			},
 		},
 	],
 
-	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 279643
-	}
 }
 
 export default card

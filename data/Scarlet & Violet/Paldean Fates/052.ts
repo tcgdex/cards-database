@@ -65,18 +65,40 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751589,
+				tcgplayer: 534414,
+				cardtrader: 274236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751589,
+				tcgplayer: 534414,
+				cardtrader: 274236
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 751589
-	}
+	description: {
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+	},
+
 }
 
 export default card

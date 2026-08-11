@@ -55,15 +55,26 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Toshinao Aoki",
+
+	description: {
+		en: "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+	},
 
 	thirdParty: {
         cardmarket: 702500,

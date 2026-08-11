@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Eri Yamaki",
@@ -74,17 +80,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582169,
-		tcgplayer: 253132
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582169,
+				tcgplayer: 253132
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582169,
+				tcgplayer: 253132
+			}
+		},
+	],
 }
 
 export default card

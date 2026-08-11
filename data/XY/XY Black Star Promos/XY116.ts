@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -67,6 +67,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+	},
 
 	thirdParty: {
 		cardmarket: 289806

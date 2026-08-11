@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its fangs rip through sheet iron. It swims at 75 mph and is known as",
+	},
+
 	thirdParty: {
 		cardmarket: 280773,
 		tcgplayer: 89103

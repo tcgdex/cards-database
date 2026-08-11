@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+	},
+
 	thirdParty: {
 		cardmarket: 280925,
 		tcgplayer: 87595

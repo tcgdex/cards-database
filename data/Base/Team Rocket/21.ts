@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
+		fr: "Reptincel obscur"
 	},
 
 	stage: "Stage2",
@@ -80,21 +81,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Seemingly possessed, it spews fire like a volcano, trying to burn all it sees.",
 		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
 	},
 
-	thirdParty: {
-		cardmarket: 274057,
-		tcgplayer: 84573
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274057,
+				tcgplayer: 84573
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274057,
+				tcgplayer: 84573
+			}
 		}
 	]
 }

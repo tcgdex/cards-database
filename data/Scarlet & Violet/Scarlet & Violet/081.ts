@@ -66,15 +66,27 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
+
+	description: {
+		en: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+	},
 
 	thirdParty: {
         cardmarket: 689766,

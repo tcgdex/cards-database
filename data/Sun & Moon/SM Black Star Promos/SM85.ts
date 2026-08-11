@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Marshadow"
 	},
 	illustrator: "Emi Ando",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
+	},
 }
 
 export default card

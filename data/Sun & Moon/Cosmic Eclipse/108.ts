@@ -64,8 +64,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its jaws are strong enough to crush rocks but so heavy that it can't get up if it flips over. Sandile seize those moments as their chance.",
+	},
+
 	thirdParty: {
-		cardmarket: 408179,
+		cardmarket: 408189,
 		tcgplayer: 201137
 	}
 }

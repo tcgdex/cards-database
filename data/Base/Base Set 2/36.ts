@@ -65,15 +65,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273959,
-		tcgplayer: 42475
+
+	description: {
+		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273959,
+				tcgplayer: 42475
+			}
 		}
 	]
 }

@@ -84,6 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It circles the sky in search of prey. When it spots one, it dive steeply to catch the prey.",
 		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
 	},
 

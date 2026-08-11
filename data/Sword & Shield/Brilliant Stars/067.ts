@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dedenne"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Since Dedenne can't generate as much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608517,
-		tcgplayer: 263783
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608517,
+				tcgplayer: 263783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608517,
+				tcgplayer: 263783
+			}
+		},
+	],
 }
 
 export default card

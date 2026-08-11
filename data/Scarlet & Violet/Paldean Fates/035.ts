@@ -43,18 +43,40 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751572,
+				tcgplayer: 534181,
+				cardtrader: 274219
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751572,
+				tcgplayer: 534181,
+				cardtrader: 274219
+			}
+		},
+	],
 
 	illustrator: "KYUPIYAMA",
 
-	thirdParty: {
-		cardmarket: 751572
-	}
+	description: {
+		en: "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+	},
+
 }
 
 export default card

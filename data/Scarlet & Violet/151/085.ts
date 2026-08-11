@@ -74,18 +74,47 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733680,
+				tcgplayer: 516654,
+				cardtrader: 261227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733680,
+				tcgplayer: 516654,
+				cardtrader: 261227
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 733680
-	}
+	
 }
 
 export default card

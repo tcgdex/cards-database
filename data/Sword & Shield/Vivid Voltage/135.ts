@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine."
 	},
 
-	thirdParty: {
-		cardmarket: 512385,
-		tcgplayer: 226591
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512385,
+				tcgplayer: 226591
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512385,
+				tcgplayer: 226591
+			}
+		},
+	],
 }
 
 export default card

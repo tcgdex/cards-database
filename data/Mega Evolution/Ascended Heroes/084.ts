@@ -13,10 +13,20 @@ const card: Card = {
 		it: "Azumarill-ex",
 		pt: "Azumarill ex"
 	},
+	evolveFrom: {
+		en: "Marill",
+		de: "Marill",
+		es: "Marill",
+		fr: "Marill",
+		it: "Marill",
+		pt: "Marill",
+	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [184],
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -71,13 +81,24 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675896,
-		cardmarket: 869695
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869695,
+				tcgplayer: 675896
+			}
+		}
+	],
 }
 
 export default card

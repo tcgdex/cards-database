@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A yellow body is proof of good health. If you touch its bright-red cheeks, you'll see its shining, smiling face!",
+	},
+
 	thirdParty: {
 		cardmarket: 288464
 	}

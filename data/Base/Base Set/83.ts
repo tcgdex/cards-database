@@ -15,28 +15,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
 		fr: "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte.",
 		de: "Mische 2 Karten aus Deiner Hand in Deinen Stapel.",
 		it: "Rimetti 2 delle altre carte che hai in mano nel tuo mazzo, rimischialo e poi pesca una carta."
 	},
 
-	thirdParty: {
-		cardmarket: 273778,
-		tcgplayer: 42429
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273778,
+				tcgplayer: 42429
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107080
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107080
+			},
 		},
 		{
 			type: "normal",

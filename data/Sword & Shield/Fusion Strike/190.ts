@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Ryuta Fuse",
@@ -83,17 +95,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582864,
-		tcgplayer: 253344
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582864,
+				tcgplayer: 253344
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582864,
+				tcgplayer: 253344
+			}
+		},
+	],
 }
 
 export default card

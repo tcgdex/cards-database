@@ -74,19 +74,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740512,
+				tcgplayer: 523645,
+				cardtrader: 265168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740512,
+				tcgplayer: 523645,
+				cardtrader: 265168
+			}
+		},
+	],
 
 	illustrator: "Atsuya Uki",
 
-	thirdParty: {
-		cardmarket: 740512
-	}
+	
 }
 
 export default card

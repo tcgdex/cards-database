@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+	},
+
 	thirdParty: {
 		cardmarket: 280242,
 		tcgplayer: 84721

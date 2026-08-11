@@ -66,19 +66,32 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751698,
+				tcgplayer: 534681,
+				cardtrader: 274344
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 751698
-	}
+	description: {
+		en: "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
+	},
+
 }
 
 export default card

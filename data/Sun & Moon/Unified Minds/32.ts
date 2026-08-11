@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its tough wings don't allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 387992,
 		tcgplayer: 194950

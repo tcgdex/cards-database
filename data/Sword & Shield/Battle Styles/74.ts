@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam."
 	},
 
-	thirdParty: {
-		cardmarket: 545486,
-		tcgplayer: 234250
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545486,
+				tcgplayer: 234250
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545486,
+				tcgplayer: 234250
+			}
+		},
+	],
 }
 
 export default card

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+	},
+
 	thirdParty: {
 		cardmarket: 280482,
 		tcgplayer: 87165

@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it comes to strong hypnosis, there's an endless number of people who utilize Malamar for their nefarious deeds.",
+	},
+
 	thirdParty: {
 		cardmarket: 372409,
 		tcgplayer: 189219

@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
+	},
+
 	thirdParty: {
 		cardmarket: 280796,
 		tcgplayer: 86501

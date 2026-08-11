@@ -64,18 +64,38 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769193,
+				tcgplayer: 550063
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769193,
+				tcgplayer: 550063
+			}
+		},
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 769193
-	}
 }
 
 export default card

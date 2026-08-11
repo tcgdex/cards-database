@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has strong regenerative capabilities. Even if parts of it are bitten off by fish Pokémon, it will return to normal within a few hours.",
+	},
+
 	thirdParty: {
 		cardmarket: 311904,
 		tcgplayer: 149077

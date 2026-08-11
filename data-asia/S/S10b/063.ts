@@ -8,7 +8,7 @@ const card: Card = {
 		'zh-tw': "咕咕鴿"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

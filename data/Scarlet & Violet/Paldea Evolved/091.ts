@@ -65,18 +65,45 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715566,
+				tcgplayer: 497506,
+				cardtrader: 248718
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715566,
+				tcgplayer: 497506,
+				cardtrader: 248718
+			}
+		},
+	],
 
 	illustrator: "Aya Kusube",
 
-	thirdParty: {
-		cardmarket: 715566
-	}
+	description: {
+		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
+	},
 }
 
 export default card

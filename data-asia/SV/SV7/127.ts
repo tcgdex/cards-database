@@ -39,6 +39,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779141,
+				tcgplayer: 567982,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Luxtra"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
 	},
 
-	thirdParty: {
-		cardmarket: 608501,
-		tcgplayer: 263757
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608501,
+				tcgplayer: 263757
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608501,
+				tcgplayer: 263757
+			}
+		},
+	],
 }
 
 export default card

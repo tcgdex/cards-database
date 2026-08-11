@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Blown by the seasonal winds, it circles the globe, scattering cotton spores as it goes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280442,
 		tcgplayer: 86368

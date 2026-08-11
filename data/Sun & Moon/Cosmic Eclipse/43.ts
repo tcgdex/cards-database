@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They will cooperate to steal eggs from the nests of bird Pokémon, but fights break out to determine which one gets to eat the eggs.",
+	},
+
 	thirdParty: {
 		cardmarket: 407864,
 		tcgplayer: 201219

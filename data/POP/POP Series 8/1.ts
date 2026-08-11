@@ -69,17 +69,24 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 278402,
-		tcgplayer: 86049
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278402,
+				tcgplayer: 86049
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 278402,
+				tcgplayer: 86049
+			}
+		},
+	],
 }
 
 export default card

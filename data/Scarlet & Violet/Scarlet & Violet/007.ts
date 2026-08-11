@@ -55,14 +55,29 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "aoki",
+
+	description: {
+		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+	},
 
 	thirdParty: {
         cardmarket: 702304,

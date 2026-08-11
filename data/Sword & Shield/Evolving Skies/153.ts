@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rapid Strike Scroll of the Flying Dragon",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574211,
-		tcgplayer: 246778
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574211,
+				tcgplayer: 246778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574211,
+				tcgplayer: 246778
+			}
+		},
+	],
 }
 
 export default card

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
+		fr: "Soporifik"
 	},
 
 	stage: "Stage1",
@@ -70,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Carries a pendulum with it always. Sometimes appears near less-traveled roads and schools at dusk.",
 		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles."
 	},
 
-	thirdParty: {
-		cardmarket: 274062,
-		tcgplayer: 84613
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274062,
+				tcgplayer: 84613
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274062,
+				tcgplayer: 84613
+			}
 		}
 	]
 }

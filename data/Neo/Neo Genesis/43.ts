@@ -70,23 +70,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It swings its long snout around playfully, but, because it is so strong, that can be dangerous.",
 		fr: "Il balance sa longue trompe pour s'amuser, mais il est si fort que cela peut être dangereux."
 	},
 
-	thirdParty: {
-		cardmarket: 274443,
-		tcgplayer: 87995
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274443,
+				tcgplayer: 87995
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274443,
+				tcgplayer: 87995
+			}
 		}
 	]
 }

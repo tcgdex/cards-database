@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Each of its two heads has a brain, and when they are in agreement, it attacks its enemies by exhaling a violent blizzard.",
+	},
+
 	thirdParty: {
 		cardmarket: 297497,
 		tcgplayer: 130935

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+	},
+
 	thirdParty: {
 		cardmarket: 280384,
 		tcgplayer: 85339

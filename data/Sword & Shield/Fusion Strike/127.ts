@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
@@ -62,17 +74,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582663,
-		tcgplayer: 253318
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582663,
+				tcgplayer: 253318
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582663,
+				tcgplayer: 253318
+			}
+		},
+	],
 }
 
 export default card

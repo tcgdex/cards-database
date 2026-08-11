@@ -47,12 +47,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -60,10 +54,22 @@ const card: Card = {
 		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
 	},
 
-	thirdParty: {
-		cardmarket: 539268,
-		tcgplayer: 232523
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539268,
+				tcgplayer: 232523
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539268,
+				tcgplayer: 232523
+			}
+		},
+	],
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When battling opponents, it sprays fire from its five horns. The max temperature of the flames can reach nearly 5,500 degrees Fahrenheit.",
+	},
+
 	thirdParty: {
 		cardmarket: 407819,
 		tcgplayer: 201212

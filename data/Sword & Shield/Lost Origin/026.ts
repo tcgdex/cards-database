@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Skelabra"
 	},
 
+	illustrator: "sui",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670828,
-		tcgplayer: 283897
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674037,
+				tcgplayer: 283897
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674037,
+				tcgplayer: 283897
+			}
+		},
+	],
 }
 
 export default card

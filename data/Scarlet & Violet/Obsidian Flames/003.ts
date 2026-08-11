@@ -74,18 +74,41 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725083,
+				tcgplayer: 509654,
+				cardtrader: 255563
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725083,
+				tcgplayer: 509654,
+				cardtrader: 255563
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 725083
-	}
+	
 }
 
 export default card

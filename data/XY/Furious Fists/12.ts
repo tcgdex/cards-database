@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged.",
+	},
+
 	thirdParty: {
 		cardmarket: 281676,
 		tcgplayer: 92184

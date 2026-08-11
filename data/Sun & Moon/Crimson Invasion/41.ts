@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+	},
+
 	thirdParty: {
 		cardmarket: 311891,
 		tcgplayer: 149064

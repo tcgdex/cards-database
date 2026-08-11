@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
 	},
 
-	thirdParty: {
-		cardmarket: 545776,
-		tcgplayer: 234164
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545776,
+				tcgplayer: 234164
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545776,
+				tcgplayer: 234164
+			}
+		},
+	],
 }
 
 export default card

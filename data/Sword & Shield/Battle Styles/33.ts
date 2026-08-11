@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "It stores energy by sleeping at underwater depths at which no other life forms can survive."
 	},
 
-	thirdParty: {
-		cardmarket: 545121,
-		tcgplayer: 234161
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545121,
+				tcgplayer: 234161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545121,
+				tcgplayer: 234161
+			}
+		},
+	],
 }
 
 export default card

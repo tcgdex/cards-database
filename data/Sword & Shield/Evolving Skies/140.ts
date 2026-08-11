@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Talonflame",
@@ -99,10 +93,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574198,
-		tcgplayer: 246885
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574198,
+				tcgplayer: 246885
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574198,
+				tcgplayer: 246885
+			}
+		},
+	],
 }
 
 export default card

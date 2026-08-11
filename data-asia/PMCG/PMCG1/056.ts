@@ -4,9 +4,10 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dugtrio",
+		ja: "ダグトリオ",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Pokemon",
 	dexId: [51],
@@ -39,7 +40,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575622
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577049
+			}
+		}
 	],
 };
 

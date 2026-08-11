@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
 		fr: "Il flotte grâce à sa bouée très développée. Il vole au secours des gens sur le point de se noyer."
 	},
 

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 315997,
 		tcgplayer: 157686

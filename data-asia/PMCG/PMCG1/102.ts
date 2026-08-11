@@ -1,20 +1,29 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG1"
 
 const card: Card = {
-    set: Set,
-    name: {
-        ja: "エネルギーとの戦い",
+  set: Set,
+  name: {
+    // Fighting Energy
+    ja: "基本闘エネルギー",
+  },
+
+  illustrator: "Keiji Kinebuchi",
+  rarity: "Common",
+  category: "Energy",
+
+  variants: [
+    {
+      type: "normal",
+      thirdParty: {
+        tcgplayer: 577170
+      },
     },
-
-    rarity: "Common",
-    category: "Energy",
-
-    variants: [
-        {
-            type: "normal",
-        },
-    ],
+    {
+      type: "normal",
+      subtype: "no-rarity",
+    }
+  ],
 };
 
 export default card

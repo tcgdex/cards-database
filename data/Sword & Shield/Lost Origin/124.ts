@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Stahlos"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -69,16 +70,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674137,
-		tcgplayer: 284032
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674137,
+				tcgplayer: 284032
+			}
+		},
+	],
 }
 
 export default card

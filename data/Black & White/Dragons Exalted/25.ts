@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
+	},
+
 	thirdParty: {
 		cardmarket: 280464,
 		tcgplayer: 90456

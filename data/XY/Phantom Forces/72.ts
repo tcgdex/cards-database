@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+	},
+
 	thirdParty: {
 		cardmarket: 281878,
 		tcgplayer: 94640

@@ -56,18 +56,39 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715542,
+				tcgplayer: 497478,
+				cardtrader: 248684
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715542,
+				tcgplayer: 497478,
+				cardtrader: 248684
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 715542
-	}
+	description: {
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+	},
 }
 
 export default card

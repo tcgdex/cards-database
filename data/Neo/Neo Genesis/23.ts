@@ -46,21 +46,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
 		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
 	},
 
-	thirdParty: {
-		cardmarket: 274423,
-		tcgplayer: 87001
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274423,
+				tcgplayer: 87001
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274423,
+				tcgplayer: 87001
+			}
 		}
 	]
 }

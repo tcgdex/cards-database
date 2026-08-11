@@ -75,8 +75,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
 		fr: "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras."
 	},
 

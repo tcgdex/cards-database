@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [384],
 	hp: 120,
 	types: ["Dragon"],
 	stage: "Basic",
@@ -64,10 +65,35 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675965,
-		cardmarket: 869764
-	}
+	description: {
+		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869764,
+			tcgplayer: 675965
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870374,
+			tcgplayer: 676971
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870373,
+			tcgplayer: 677111
+		}
+	},
+],
 }
 
 export default card

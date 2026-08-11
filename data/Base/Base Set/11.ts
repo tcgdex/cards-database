@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
+		fr: "Nidorino",
 		it: "Nidorino"
 	},
 
@@ -82,8 +83,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 		fr: "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os.",
 		it: "In combattimento, usa la sua potente coda per colpire, stritolare e poi spezzare le ossa della sua preda. LIV 48 N.34"
 	},
@@ -92,27 +96,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273706,
+				tcgplayer: 42351
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107006
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107006
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273706,
-		tcgplayer: 42351
-	}
+	]
 }
 
 export default card

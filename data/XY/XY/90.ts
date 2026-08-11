@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their fur feels so good that if two of them snuggle together, they won't want to be separated.",
+	},
+
 	thirdParty: {
 		cardmarket: 281426,
 		tcgplayer: 90602

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
+		fr: "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -74,23 +75,28 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
 		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
 	},
 
-	thirdParty: {
-		cardmarket: 273905,
-		tcgplayer: 44446
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
 		{
 			type: "normal",

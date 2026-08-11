@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It always stands on one foot. Even when attacked, it does not brace itself using both feet.",
 		fr: "Il se tient toujours sur un pied. Il ne prend jamais appui sur les deux, même en cas d'attaque."
 	},
 

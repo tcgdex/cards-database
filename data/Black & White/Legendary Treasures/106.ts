@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+	},
+
 	thirdParty: {
 		cardmarket: 281257,
 		tcgplayer: 84981

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+	},
+
 	thirdParty: {
 		cardmarket: 280599,
 		tcgplayer: 89078

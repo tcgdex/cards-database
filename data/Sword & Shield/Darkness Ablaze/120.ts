@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
 	},
 
-	thirdParty: {
-		cardmarket: 483479,
-		tcgplayer: 219376
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483479,
+				tcgplayer: 219376
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483479,
+				tcgplayer: 219376
+			}
+		},
+	],
 }
 
 export default card

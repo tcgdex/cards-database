@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly."
 	},
 
-	thirdParty: {
-		cardmarket: 545541,
-		tcgplayer: 234201
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545541,
+				tcgplayer: 234201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545541,
+				tcgplayer: 234201
+			}
+		},
+	],
 }
 
 export default card

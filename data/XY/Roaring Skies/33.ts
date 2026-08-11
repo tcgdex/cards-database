@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+	},
+
 	thirdParty: {
 		cardmarket: 282701,
 		tcgplayer: 98069

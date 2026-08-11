@@ -50,12 +50,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -63,10 +57,22 @@ const card: Card = {
 		en: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps."
 	},
 
-	thirdParty: {
-		cardmarket: 539168,
-		tcgplayer: 232446
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539168,
+				tcgplayer: 232446
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539168,
+				tcgplayer: 232446
+			}
+		},
+	],
 }
 
 export default card

@@ -70,8 +70,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
 		fr: "Il vivait dans la jungle il y a environ 100 millions d'années. Son crâne est dur comme du fer."
 	},
 

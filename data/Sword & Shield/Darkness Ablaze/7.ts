@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
 	},
 
-	thirdParty: {
-		cardmarket: 482909,
-		tcgplayer: 219075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482909,
+				tcgplayer: 219075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482909,
+				tcgplayer: 219075
+			}
+		},
+	],
 }
 
 export default card

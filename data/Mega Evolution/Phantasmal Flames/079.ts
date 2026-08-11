@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ambipom"
 	},
 
+	evolveFrom: {
+		en: "Aipom",
+		fr: "Capumain",
+		es: "Aipom",
+		'es-mx': "Aipom",
+		de: "Griffel",
+		it: "Aipom",
+		pt: "Aipom",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
@@ -60,22 +70,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+	},
+
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857654,
+				tcgplayer: 662127
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857654,
+				tcgplayer: 662127,
+				cardtrader: 356865
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857654,
-		tcgplayer: 662127
-	}
 }
 
 export default card

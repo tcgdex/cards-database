@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "After heightening its will to fight by whipping itself with its three tails, it charges at full speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 288495,
 		tcgplayer: 113715

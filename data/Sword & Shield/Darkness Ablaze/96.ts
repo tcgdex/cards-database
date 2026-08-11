@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
 	},
 
-	thirdParty: {
-		cardmarket: 483359,
-		tcgplayer: 219491
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483359,
+				tcgplayer: 219491
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483359,
+				tcgplayer: 219491
+			}
+		},
+	],
 }
 
 export default card

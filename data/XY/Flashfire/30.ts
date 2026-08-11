@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 281513,
 		tcgplayer: 91163

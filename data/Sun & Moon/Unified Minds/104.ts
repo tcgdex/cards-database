@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
+	},
+
 	thirdParty: {
 		cardmarket: 388327,
 		tcgplayer: 195045

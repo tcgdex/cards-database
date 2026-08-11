@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
+	},
+
 	thirdParty: {
 		cardmarket: 355611,
 		tcgplayer: 165760

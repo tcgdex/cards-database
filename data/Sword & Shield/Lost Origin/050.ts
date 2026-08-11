@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Urgl"
 	},
 
+	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -69,16 +70,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674060,
-		tcgplayer: 283924
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674060,
+				tcgplayer: 283924
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674060,
+				tcgplayer: 283924
+			}
+		},
+	],
 }
 
 export default card

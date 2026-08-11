@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When Whismur cries, the sound of its own voice startles it, making the Pokémon cry even louder. It cries until it's exhausted, then it falls asleep.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740688,
+				tcgplayer: 523829,
+				cardtrader: 265270
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740688,
+				tcgplayer: 523829,
+				cardtrader: 265270
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 740688
-	}
+	
 }
 
 export default card

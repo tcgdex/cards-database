@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
@@ -81,17 +87,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582772,
-		tcgplayer: 253359
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582772,
+				tcgplayer: 253359
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582772,
+				tcgplayer: 253359
+			}
+		},
+	],
 }
 
 export default card

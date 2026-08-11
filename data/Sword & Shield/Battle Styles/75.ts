@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists."
 	},
 
-	thirdParty: {
-		cardmarket: 545491,
-		tcgplayer: 234251
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545491,
+				tcgplayer: 234251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545491,
+				tcgplayer: 234251
+			}
+		},
+	],
 }
 
 export default card

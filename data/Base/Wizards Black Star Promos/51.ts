@@ -63,10 +63,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88575
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-center-ny"]
+			stamp: ["pokemon-center-ny"],
+			thirdParty: {
+				tcgplayer: 244347
+			},
 		}
 	]
 }

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 240,
@@ -58,20 +59,27 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691832,
-		tcgplayer: 478142
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691832,
+				tcgplayer: 478142
+			}
+		},
+	],
 }
 
 export default card

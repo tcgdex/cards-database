@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Brian"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682198,
-		tcgplayer: 451800
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682198,
+				tcgplayer: 451800
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682198,
+				tcgplayer: 451800
+			}
+		},
+	],
 }
 
 export default card

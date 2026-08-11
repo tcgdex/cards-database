@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 
-	thirdParty: {
-		cardmarket: 483059,
-		tcgplayer: 219271
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483059,
+				tcgplayer: 219271
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483059,
+				tcgplayer: 219271
+			}
+		},
+	],
 }
 
 export default card

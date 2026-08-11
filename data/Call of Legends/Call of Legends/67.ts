@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -60,21 +58,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279710,
-		tcgplayer: 88052
-	}
+
+	description: {
+		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88052,
+				cardmarket: 279710
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88052,
+				cardmarket: 279710
+			},
+		},
+	],
+
 }
 
 export default card

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Wigglytuff"
 	},
 
+	evolveFrom: {
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		'es-mx': "Jigglypuff",
+		de: "Pummeluff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 
@@ -62,19 +72,30 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+	},
+
+	illustrator: "REND",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857680,
+				tcgplayer: 662240,
+				cardtrader: 356891
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857680,
-		tcgplayer: 662240
-	}
 }
 
 export default card

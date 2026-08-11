@@ -61,21 +61,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Sensitive to cold, Ledyba gather in groups to share warmth when the temperature drops.",
 		fr: "Sensibles au froid, les Coxy se rassemblent en groupes pour partager leur chaleur quand la température descend dangereusement."
 	},
 
-	thirdParty: {
-		cardmarket: 274723,
-		tcgplayer: 86700
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274723,
+				tcgplayer: 86700
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274723,
+				tcgplayer: 86700
+			}
 		}
 	]
 }

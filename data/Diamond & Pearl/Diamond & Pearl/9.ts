@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+	},
+
 	thirdParty: {
 		cardmarket: 277508,
 		tcgplayer: 87143

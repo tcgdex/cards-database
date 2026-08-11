@@ -65,24 +65,44 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "holo",
-			stamp: ["player-rewards-program"],
-			foil: "cosmos",
-		}
+			thirdParty: {
+				cardmarket: 760759,
+				tcgplayer: 542873
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760759,
+				tcgplayer: 542873
+			}
+		},
+		{
+			type: "normal",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 883689,
+			}
+		},
 	],
 
 	illustrator: "Teeziro",
+
+	description: {
+		en: "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+	},
 
 	thirdParty: {
 		cardmarket: 760759

@@ -99,12 +99,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -112,10 +106,22 @@ const card: Card = {
 		en: "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
 	},
 
-	thirdParty: {
-		cardmarket: 512380,
-		tcgplayer: 226590
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512380,
+				tcgplayer: 226590
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512380,
+				tcgplayer: 226590
+			}
+		},
+	],
 }
 
 export default card

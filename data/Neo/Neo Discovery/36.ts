@@ -78,21 +78,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
 		fr: "S'il agite ses ailes très vite, il peut provoquer des ondes de choc qui font exploser toutes les vitres du voisinage."
 	},
 
-	thirdParty: {
-		cardmarket: 274528,
-		tcgplayer: 90681
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274528,
+				tcgplayer: 90681
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274528,
+				tcgplayer: 90681
+			}
 		}
 	]
 }

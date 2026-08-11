@@ -88,12 +88,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -101,10 +95,22 @@ const card: Card = {
 		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it."
 	},
 
-	thirdParty: {
-		cardmarket: 457913,
-		tcgplayer: 213188
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457913,
+				tcgplayer: 213188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457913,
+				tcgplayer: 213188
+			}
+		},
+	],
 }
 
 export default card

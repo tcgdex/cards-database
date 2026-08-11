@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Empoleon ex"
 	},
 
+	evolveFrom: {
+		en: "Prinplup",
+		fr: "Prinplouf",
+		es: "Prinplup",
+		'es-mx': "Prinplup",
+		de: "Pliprin",
+		it: "Prinplup",
+		pt: "Prinplup",
+	},
+
 	rarity: "Double rare",
 	category: "Pokemon",
 
@@ -72,19 +82,32 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857645,
-		tcgplayer: 662155
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857645,
+				tcgplayer: 662155,
+				cardtrader: 356856
+			}
+		},
+	],	
 }
 
 export default card

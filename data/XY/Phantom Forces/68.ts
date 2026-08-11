@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To entangle its opponents in battle, it extrudes white threads as sweet and as sticky as cotton candy.",
+	},
+
 	thirdParty: {
 		cardmarket: 281874,
 		tcgplayer: 94636

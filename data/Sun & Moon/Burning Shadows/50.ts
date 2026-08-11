@@ -87,10 +87,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 299454,
 		tcgplayer: 138532
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

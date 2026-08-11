@@ -74,18 +74,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769181,
+				tcgplayer: 550051
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769181,
+				tcgplayer: 550051
+			}
+		},
+	],
 
 	illustrator: "Ounishi",
 
-	thirdParty: {
-		cardmarket: 769181
-	}
 }
 
 export default card

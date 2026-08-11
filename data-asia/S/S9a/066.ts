@@ -17,6 +17,23 @@ const card: Card = {
 		ja: "自分の手札を1枚選び、残りの手札をすべてトラッシュする。その後、山札を4枚引く。（自分の手札がこのカード1枚だけなら、このカードは使えない。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609834,
+				tcgplayer: 570636,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577644,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "F",
 	rarity: "Uncommon"

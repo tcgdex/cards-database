@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],
@@ -57,9 +57,31 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Nisota Niso"
+	illustrator: "Nisota Niso",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796930,
+				tcgplayer: 594405
+			},
+		}
+	],
 }
 
 export default card

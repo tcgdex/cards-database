@@ -58,15 +58,32 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740679,
+				tcgplayer: 523822,
+				cardtrader: 265261
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740679,
+				tcgplayer: 523822,
+				cardtrader: 265261
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 740679
-	}
+	
 }
 
 export default card

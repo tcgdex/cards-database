@@ -50,29 +50,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.",
 		it: "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
 	},
 
-	thirdParty: {
-		cardmarket: 273723,
-		tcgplayer: 42369
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273723,
+				tcgplayer: 42369
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107025
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107025
+			},
 		},
 		{
 			type: "normal",

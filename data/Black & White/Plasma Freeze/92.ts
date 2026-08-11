@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+	},
+
 	thirdParty: {
 		cardmarket: 280970,
 		tcgplayer: 87796

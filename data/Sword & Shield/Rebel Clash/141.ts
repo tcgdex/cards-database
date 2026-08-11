@@ -80,12 +80,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
 	},
 
-	thirdParty: {
-		cardmarket: 458093,
-		tcgplayer: 213241
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458093,
+				tcgplayer: 213241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458093,
+				tcgplayer: 213241
+			}
+		},
+	],
 }
 
 export default card

@@ -80,12 +80,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
 	},
 
-	thirdParty: {
-		cardmarket: 458058,
-		tcgplayer: 213228
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458058,
+				tcgplayer: 213228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458058,
+				tcgplayer: 213228
+			}
+		},
+	],
 }
 
 export default card

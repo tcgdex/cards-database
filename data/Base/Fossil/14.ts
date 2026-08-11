@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -58,25 +59,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
 	},
 
-	thirdParty: {
-		cardmarket: 273875,
-		tcgplayer: 44423
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273875,
+				tcgplayer: 44423
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273875,
+				tcgplayer: 44423
+			}
 		},
 	]
 }

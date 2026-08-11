@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its oversized claw is very powerful, but when it's not in battle, the claw just gets in the way.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733694,
+				tcgplayer: 516668,
+				cardtrader: 261189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733694,
+				tcgplayer: 516668,
+				cardtrader: 261189
+			}
+		},
+	],
 
 	illustrator: "Yukiko Baba",
 
-	thirdParty: {
-		cardmarket: 733726
-	}
+	
 }
 
 export default card

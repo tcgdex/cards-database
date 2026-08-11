@@ -74,18 +74,38 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769279,
+				tcgplayer: 550149
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769279,
+				tcgplayer: 550149
+			}
+		},
+	],
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 769279
-	}
 }
 
 export default card

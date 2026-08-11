@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Lucario ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
@@ -81,20 +82,24 @@ const card: Card = {
 		damage: 270
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
 			type: "holo",
-			foil: "gold"
+			thirdParty: {
+				cardmarket: 851259,
+				tcgplayer: 654527
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654527,
-		cardmarket: 851259
-	}
 }
 
 export default card

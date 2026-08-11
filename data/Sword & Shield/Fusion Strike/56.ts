@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Tomokazu Komiya",
@@ -65,17 +71,23 @@ const card: Card = {
 		damage: 60
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582190,
-		tcgplayer: 253187
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582190,
+				tcgplayer: 253187
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582190,
+				tcgplayer: 253187
+			}
+		},
+	],
 }
 
 export default card

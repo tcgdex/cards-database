@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Olangaar"
 	},
 
+	illustrator: "DOM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -65,20 +66,36 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
 	},
 
-	thirdParty: {
-		cardmarket: 608640,
-		tcgplayer: 263812
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608640,
+				tcgplayer: 263812
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608640,
+				tcgplayer: 263812
+			}
+		},
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		24,
-	],
+	dexId: [24],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Beeindruckende Fangzähne"
 			},
 			effect: {
-				en: "As long as Arbok is your Active Pokémon, any damage to your Pokémon done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+				en: "As long as Arbok is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
 				fr: "Tant qu'Arbok est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
 				de: "Solange Arbok dein Aktives Pokémon ist, wird aller Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -78,19 +76,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275806,
-		tcgplayer: 83567
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 83567
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 83567
+			}
 		},
-	]
+	],
+
 }
 
 export default card

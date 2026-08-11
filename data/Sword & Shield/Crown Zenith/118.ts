@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Manguspektor"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Patient by nature, this Pokémon loses control of itself and pounces when it spots its favorite meal—Rattata!",
 	},
 
-	thirdParty: {
-		cardmarket: 691837,
-		tcgplayer: 478154
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691837,
+				tcgplayer: 478154
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691837,
+				tcgplayer: 478154
+			}
+		},
+	],
 }
 
 export default card

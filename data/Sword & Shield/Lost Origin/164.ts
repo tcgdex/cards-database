@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Banditenschwestern"
 	},
 
+	illustrator: "Souchirou Gunjima",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674172,
-		tcgplayer: 284096
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674172,
+				tcgplayer: 284096
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674172,
+				tcgplayer: 284096
+			}
+		},
+	],
 }
 
 export default card

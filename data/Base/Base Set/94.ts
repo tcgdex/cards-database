@@ -15,28 +15,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Remove up to 2 damage counters from 1 of your Pokémon.",
 		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
 		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon.",
 		it: "Togli al massimo 2 segnalini danno da uno dei tuoi Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 273789,
-		tcgplayer: 42438
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273789,
+				tcgplayer: 42438
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107091
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107091
+			},
 		},
 		{
 			type: "normal",

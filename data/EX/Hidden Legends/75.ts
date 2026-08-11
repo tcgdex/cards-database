@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		120,
-	],
+	dexId: [120],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Staryu has any Psychic Energy attached to it, damage done to Staryu by any attack is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Si Stari possède des Énergies , les dégâts qui lui sont infligés par une attaque sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "If Staryu has any  Energy attached to it, damage done to Staryu by any attack is reduced by 10 (after applying Weakness and Resistance)."
-			},
+			}
 		},
 	],
 
@@ -67,18 +65,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276149,
-		tcgplayer: 89546
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 89546,
+				cardmarket: 276149
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89546,
+				cardmarket: 276149
+			}
+		},
 	]
 }
 

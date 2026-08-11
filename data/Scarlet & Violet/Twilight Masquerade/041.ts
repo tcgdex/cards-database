@@ -57,18 +57,38 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its legs are newly grown, and it can't walk very well. It seems to prefer swimming through the water instead.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769215,
+				tcgplayer: 550085
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769215,
+				tcgplayer: 550085
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 769215
-	}
 }
 
 export default card

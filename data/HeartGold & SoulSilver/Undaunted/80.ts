@@ -23,21 +23,33 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279333,
+				tcgplayer: 87366
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 279333,
+				tcgplayer: 87366
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 371566,
+				tcgplayer: 153266
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279333,
-		tcgplayer: 87366
-	}
+	types: [
+		"Metal"
+	],
+	retreat: 0
 }
 
 export default card

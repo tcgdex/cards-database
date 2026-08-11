@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,28 @@ const card: Card = {
 		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
 	},
 
-	thirdParty: {
-		cardmarket: 457393,
-		tcgplayer: 213073
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457393,
+				tcgplayer: 213073
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 213073
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457393,
+				tcgplayer: 213073
+			}
+		},
+	],
 }
 
 export default card

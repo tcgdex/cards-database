@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bissbark V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -67,20 +68,27 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691835,
-		tcgplayer: 478151
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691835,
+				tcgplayer: 478151
+			}
+		},
+	],
 }
 
 export default card

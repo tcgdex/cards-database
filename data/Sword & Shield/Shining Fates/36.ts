@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 539198,
-		tcgplayer: 232470
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539203,
+				tcgplayer: 232470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539203,
+				tcgplayer: 232470
+			}
+		},
+	],
 }
 
 export default card

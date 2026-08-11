@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 286283,
 		tcgplayer: 107156

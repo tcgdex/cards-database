@@ -74,18 +74,61 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The tip of its forked tail quivers when it is predicting its opponent's next move.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725166,
+				tcgplayer: 509848,
+				cardtrader: 255771
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 727069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725166,
+				tcgplayer: 509848,
+				cardtrader: 255771
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 804328
+			}
+		},
+	],
 
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 725166
-	}
+	
 }
 
 export default card

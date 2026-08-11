@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	stage: "Stage1",
@@ -80,23 +81,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
 		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques."
 	},
 
-	thirdParty: {
-		cardmarket: 273813,
-		tcgplayer: 45127
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273813,
+				tcgplayer: 45127
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273813,
+				tcgplayer: 45127
+			}
 		},
 		{
 			type: "holo",

@@ -63,23 +63,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760682,
+				tcgplayer: 542796
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760682,
+				tcgplayer: 542796
+			}
+		},
 	],
 
 	illustrator: "cochi8i",
 
-	thirdParty: {
-		cardmarket: 760682
-	}
 }
 
 export default card

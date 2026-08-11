@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+	},
+
 	thirdParty: {
 		cardmarket: 355557,
 		tcgplayer: 165689

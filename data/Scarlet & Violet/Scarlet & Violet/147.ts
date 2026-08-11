@@ -55,14 +55,29 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "aoki",
+
+	description: {
+		en: "It's Seviper's archrival. To threaten those it encounters, it fans out the claws on its front paws.",
+	},
 
 	thirdParty: {
         cardmarket: 702443,

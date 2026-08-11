@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It has a sad history. In the past, its dorsal fin was a treasured foodstuff, so this Pokémon became a victim of overfishing.",
+	},
+
 	thirdParty: {
 		cardmarket: 295393,
 		tcgplayer: 126954

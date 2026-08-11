@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+	},
+
 	thirdParty: {
 		cardmarket: 355556,
 		tcgplayer: 165688

@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.",
+	},
+
 	thirdParty: {
 		cardmarket: 365755,
 		tcgplayer: 178931

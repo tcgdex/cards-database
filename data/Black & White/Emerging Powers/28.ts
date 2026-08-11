@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+	},
+
 	thirdParty: {
 		cardmarket: 279993,
 		tcgplayer: 84523

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -79,7 +79,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+	},
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		376,
-	],
+	dexId: [376],
 
 	hp: 130,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Metang"
 	},
 
 	stage: "Stage2",
@@ -63,7 +61,7 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -90,17 +88,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279271,
+				tcgplayer: 87341
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279271,
+				tcgplayer: 87341
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279271,
-		tcgplayer: 87341
-	}
 }
 
 export default card

@@ -79,8 +79,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
 		it: "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini. LIV 64 N.145"
 	},
@@ -89,27 +92,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273711,
+				tcgplayer: 42356
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107011
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107011
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273711,
-		tcgplayer: 42356
-	}
+	]
 }
 
 export default card

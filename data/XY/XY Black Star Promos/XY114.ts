@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -72,6 +72,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+	},
 
 	thirdParty: {
 		cardmarket: 281306

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "萌芽鹿"
+		ja: "メブキジカ",
+		'zh-tw': "萌芽鹿",
 	},
 
 	illustrator: "Sekio",
@@ -14,31 +14,52 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "會隨著季節的推移改變居所。所以也有人說萌芽鹿會運來春天。"
+		ja: "季節の 移り変わりと ともに 住処を 変えるので メブキジカが 春を運ぶと いう 人もいる。",
+		'zh-tw': "會隨著季節的推移改變居所。所以也有人說萌芽鹿會運來春天。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "連擊觸手"
+	attacks: [
+		{
+			name: {
+				ja: "たいあたり",
+				'zh-tw': "連擊觸手",
+			},
+			damage: 30,
+			cost: ["Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "從自己的手牌將任意數量的「連擊」卡給對手看過後，造成其張數×40點傷害。然後，將給對手看過的「連擊」卡放回牌庫並重洗。"
+		{
+			name: { ja: "ウインターホーン" },
+			damage: "80+",
+			cost: ["Grass", "Colorless", "Colorless"],
+			effect: {
+				ja: "場に自分のスタジアムが出ているなら、80ダメージ追加。",
+			},
 		},
+	],
 
-		damage: "40×",
-		cost: ["Psychic"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560422,
+				tcgplayer: 569138,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "シキジカ",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Uncommon",
+	dexId: [586],
+};
 
-export default card
+export default card;

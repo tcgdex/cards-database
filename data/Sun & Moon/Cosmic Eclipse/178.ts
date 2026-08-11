@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The more scars it has on its front, the more heroic it's considered to be. Those with many scars on their back are mocked by the flock.",
+	},
+
 	thirdParty: {
 		cardmarket: 408514,
 		tcgplayer: 201300

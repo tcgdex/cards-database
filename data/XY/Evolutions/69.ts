@@ -67,6 +67,10 @@ const card: Card = {
 		cost: ["Colorless"]
 	}],
 
+	description: {
+		en: "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
+	},
+
 	thirdParty: {
 		cardmarket: 293429,
 		tcgplayer: 124082

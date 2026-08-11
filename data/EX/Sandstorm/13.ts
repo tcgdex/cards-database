@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		338,
-	],
+	dexId: [338],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Lunatone is in play, you may use this power. Until the end of your turn, Solrock's type is Fire. This power can't be used if Solrock is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Seleroc est en jeu, vous pouvez utiliser ce pouvoir. Jusqu'à la fin du tour, Solaroc est . Ce pouvoir ne peut pas être utilisé si Solaroc est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), if Lunatone is in play, you may use this power. Until the end of your turn, Solrock's type is . This power can't be used if Solrock is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -85,19 +83,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275790,
-		tcgplayer: 89425
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275790,
+				tcgplayer: 89425
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275790,
+				tcgplayer: 89425
+			}
 		},
-	]
+	],
+
 }
 
 export default card

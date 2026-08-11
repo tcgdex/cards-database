@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It swims backwards by opening and closing its two shells. Its large tongue is always kept hanging out.",
+	},
+
 	thirdParty: {
 		cardmarket: 277858,
 		tcgplayer: 89138

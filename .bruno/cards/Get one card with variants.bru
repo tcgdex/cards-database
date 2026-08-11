@@ -1,0 +1,17 @@
+meta {
+  name: Get one card with variants
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/sv10.5b-001
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq sv10.5b-001
+  res.body.variants_detailed[0].variantId: eq endfynwn4n10gzq
+}

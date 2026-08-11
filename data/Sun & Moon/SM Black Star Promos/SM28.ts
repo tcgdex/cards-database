@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Donarion"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -93,6 +93,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pokémon with shocking beams of electrical energy.",
+	},
 }
 
 export default card

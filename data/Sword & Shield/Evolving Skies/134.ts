@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Herdier",
@@ -85,10 +79,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574192,
-		tcgplayer: 246869
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574192,
+				tcgplayer: 246869
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574192,
+				tcgplayer: 246869
+			}
+		},
+	],
 }
 
 export default card

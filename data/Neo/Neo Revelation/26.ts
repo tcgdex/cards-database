@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
 		fr: "Il se déguise en arbre pour éviter les attaques. Il déteste l'eau, aussi il disparaît dès qu'il se met à pleuvoir."
 	},
 
-	thirdParty: {
-		cardmarket: 274612,
-		tcgplayer: 89590
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274612,
+				tcgplayer: 89590
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274612,
+				tcgplayer: 89590
+			}
 		}
 	]
 }

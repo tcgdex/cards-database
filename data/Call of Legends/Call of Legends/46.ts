@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		240,
-	],
+	dexId: [240],
 
 	hp: 30,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -58,10 +56,28 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279689,
-		tcgplayer: 87007
-	}
+	description: {
+		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don't underestimate it.",
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87007,
+				cardmarket: 279689
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87007,
+				cardmarket: 279689
+			},
+		},
+	],
+
 }
 
 export default card

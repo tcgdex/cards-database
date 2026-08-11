@@ -66,18 +66,39 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715501,
+				tcgplayer: 497439,
+				cardtrader: 248325
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715501,
+				tcgplayer: 497439,
+				cardtrader: 248325
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 715501
-	}
+	description: {
+		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+	},
 }
 
 export default card

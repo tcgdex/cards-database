@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
+	},
+
 	thirdParty: {
 		cardmarket: 388012,
 		tcgplayer: 194958

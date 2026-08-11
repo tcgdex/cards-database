@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		413,
-	],
+	dexId: [413],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -37,7 +35,7 @@ const card: Card = {
 				fr: "Cape sable"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
+				en: "Prevent all effects, excluding damage, done to Wormadam Sandy Cloak.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire."
 			},
 		},
@@ -69,31 +67,28 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "When BURMY evolved, it cloak became a part of this Pokémon’s body. The cloak is never shed."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90643,
+				cardmarket: 278042
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278042,
-		tcgplayer: 90643
-	}
 }
 
 export default card

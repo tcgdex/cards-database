@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Belila"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,17 +29,17 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658820,
-		tcgplayer: 272462
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658868,
+				tcgplayer: 272462
+			}
+		},
+	],
 }
 
 export default card

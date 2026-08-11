@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ursaluna"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
@@ -74,20 +75,36 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
 	},
 
-	thirdParty: {
-		cardmarket: 658785,
-		tcgplayer: 272361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658785,
+				tcgplayer: 272361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658785,
+				tcgplayer: 272361
+			}
+		},
+	],
 }
 
 export default card

@@ -54,10 +54,20 @@ const card: Card = {
 		cost: ["Psychic", "Darkness"]
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680213,
+				tcgplayer: 570132,
+			},
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "F",
 	rarity: "Uncommon",
-	dexId: [715]
+	dexId: [715],
 }
 
 export default card

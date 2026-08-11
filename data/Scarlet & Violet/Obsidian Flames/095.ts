@@ -72,18 +72,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725175,
+				tcgplayer: 509924,
+				cardtrader: 255780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725175,
+				tcgplayer: 509924,
+				cardtrader: 255780
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 725175
-	}
+	
 }
 
 export default card

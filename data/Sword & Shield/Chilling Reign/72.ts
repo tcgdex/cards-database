@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer."
 	},
 
-	thirdParty: {
-		cardmarket: 567180,
-		tcgplayer: 241733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567180,
+				tcgplayer: 241733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567180,
+				tcgplayer: 241733
+			}
+		},
+	],
 }
 
 export default card

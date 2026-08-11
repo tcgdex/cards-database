@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+	},
+
 	thirdParty: {
 		cardmarket: 281748,
 		tcgplayer: 92264

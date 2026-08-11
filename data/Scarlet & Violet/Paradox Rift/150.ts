@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon can do more than just shout. To communicate with others of its kind, it'll emit all sorts of sounds from the holes in its body.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740690,
+				tcgplayer: 523831,
+				cardtrader: 265273
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740690,
+				tcgplayer: 523831,
+				cardtrader: 265273
+			}
+		},
+	],
 
 	illustrator: "LINNE",
 
-	thirdParty: {
-		cardmarket: 740690
-	}
+	
 }
 
 export default card

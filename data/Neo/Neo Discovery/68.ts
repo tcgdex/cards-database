@@ -47,8 +47,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
 		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
 	},
 
@@ -66,18 +69,22 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274579,
-		tcgplayer: 90213
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274579,
+				tcgplayer: 90213
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274579,
+				tcgplayer: 90213
+			}
 		}
 	]
 }

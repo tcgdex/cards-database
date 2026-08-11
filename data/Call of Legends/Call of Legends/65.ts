@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		200,
-	],
+	dexId: [200],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -60,21 +58,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279708,
-		tcgplayer: 87512
-	}
+
+	description: {
+		en: "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87512,
+				cardmarket: 279708
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87512,
+				cardmarket: 279708
+			},
+		},
+	],
+
 }
 
 export default card

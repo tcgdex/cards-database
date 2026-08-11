@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "There are still quite a few factories that rely on the flames provided by Magmortar to process metals.",
+	},
+
 	thirdParty: {
 		cardmarket: 387942,
 		tcgplayer: 194938

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
+	},
+
 	thirdParty: {
 		cardmarket: 288180,
 		tcgplayer: 111508

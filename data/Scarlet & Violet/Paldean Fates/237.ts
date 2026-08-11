@@ -28,16 +28,20 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751784,
+				tcgplayer: 535101,
+				cardtrader: 274421
+			}
+		},
+	],
 
 	illustrator: "hanabushi",
 
-	thirdParty: {
-		cardmarket: 751619
-	}
+	
 }
 
 export default card

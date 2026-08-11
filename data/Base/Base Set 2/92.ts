@@ -65,14 +65,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274015,
-		tcgplayer: 42543
+	description: {
+		en: "Eats bugs in grassy areas. It has to flap its short wings at high speeds to stay airborne.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274015,
+				tcgplayer: 42543
+			}
 		}
 	]
 }

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal.",
+	},
+
 	thirdParty: {
 		cardmarket: 281499,
 		tcgplayer: 91149

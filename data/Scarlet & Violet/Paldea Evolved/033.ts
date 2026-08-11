@@ -57,18 +57,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715506,
+				tcgplayer: 497444,
+				cardtrader: 248614
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715506,
+				tcgplayer: 497444,
+				cardtrader: 248614
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 715506
-	}
+	description: {
+		en: "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
+	},
 }
 
 export default card

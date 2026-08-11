@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weavile",
+		fr: "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -80,21 +81,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Sneaks up silently on its prey and attacks it from behind, sometimes killing it with one bite.",
 		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure."
 	},
 
-	thirdParty: {
-		cardmarket: 274060,
-		tcgplayer: 84602
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274060,
+				tcgplayer: 84602
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274060,
+				tcgplayer: 84602
+			}
 		}
 	]
 }

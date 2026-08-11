@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Blanas"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -57,16 +58,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674023,
-		tcgplayer: 283877
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674023,
+				tcgplayer: 283877
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674023,
+				tcgplayer: 283877
+			}
+		},
+	],
 }
 
 export default card

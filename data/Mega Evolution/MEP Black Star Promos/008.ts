@@ -13,8 +13,17 @@ const card: Card = {
 		pt: "Golduck"
 	},
 
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		de: "Enton",
+		it: "Psyduck",
+		es: "Psyduck",
+		pt: "Psyduck",
+	},
+
 	illustrator: "Jiro Sasumo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
@@ -70,15 +79,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656258,
-		cardmarket: 851054
-	},
+	weaknesses: [{
+		type: "Lightning",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				cardmarket: 851054,
+				tcgplayer: 656258
+			}
+		},
+	],
 }
 
 export default card

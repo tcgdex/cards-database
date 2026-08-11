@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733711,
+				tcgplayer: 516583,
+				cardtrader: 261123
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733711,
+				tcgplayer: 516583,
+				cardtrader: 261123
+			}
+		},
+	],
 
 	illustrator: "aspara",
 
-	thirdParty: {
-		cardmarket: 733759
-	}
+	
 }
 
 export default card

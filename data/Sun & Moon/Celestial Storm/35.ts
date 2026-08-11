@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+	},
+
 	thirdParty: {
 		cardmarket: 361282,
 		tcgplayer: 170852

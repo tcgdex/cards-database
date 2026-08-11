@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Koknodon"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.",
 	},
 
-	thirdParty: {
-		cardmarket: 658674,
-		tcgplayer: 272277
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658674,
+				tcgplayer: 272277
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658674,
+				tcgplayer: 272277
+			}
+		},
+	],
 }
 
 export default card

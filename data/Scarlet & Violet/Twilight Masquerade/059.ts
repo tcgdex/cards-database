@@ -44,18 +44,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769233,
+				tcgplayer: 550103
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769233,
+				tcgplayer: 550103
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775950,
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 769233
-	}
 }
 
 export default card

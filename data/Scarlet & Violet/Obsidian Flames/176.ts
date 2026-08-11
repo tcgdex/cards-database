@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725256,
+				tcgplayer: 509729,
+				cardtrader: 256072
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725256,
+				tcgplayer: 509729,
+				cardtrader: 256072
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 725256
-	}
+	
 }
 
 export default card

@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
@@ -51,17 +57,30 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582957,
-		tcgplayer: 253323
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582958,
+				tcgplayer: 253323
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 878475
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582958,
+				tcgplayer: 253323
+			}
+		},
+	],
 }
 
 export default card

@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In fights, they dominate with onslaughts of flowing, continuous attack. With their sharp claws, they cut enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280192,
 		tcgplayer: 87436

@@ -70,21 +70,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
 		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
 	},
 
-	thirdParty: {
-		cardmarket: 274632,
-		tcgplayer: 87647
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274632,
+				tcgplayer: 87647
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274632,
+				tcgplayer: 87647
+			}
 		}
 	]
 }

@@ -49,29 +49,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
 		fr: "La corne sur son front est très résistante. Elle lui sert à percer des blocs de glace.",
 		it: "Il corno che ha sulla testa è molto resistente e gli permette di sfondare anche le superfici di ghiaccio. LIV 12 N.86",
 	},
 
-	thirdParty: {
-		cardmarket: 273736,
-		tcgplayer: 42384
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273736,
+				tcgplayer: 42384
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107038
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107038
+			},
 		},
 		{
 			type: "normal",

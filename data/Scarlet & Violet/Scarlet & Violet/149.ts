@@ -54,14 +54,35 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+	},
 
 	thirdParty: {
         cardmarket: 702445,

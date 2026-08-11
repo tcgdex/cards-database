@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+	},
+
 	thirdParty: {
 		cardmarket: 279748,
 		tcgplayer: 86792

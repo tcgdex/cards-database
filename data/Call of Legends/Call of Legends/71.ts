@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		209,
-	],
+	dexId: [209],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -61,14 +59,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89417,
+				cardmarket: 279714
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89417,
+				cardmarket: 279714
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279714,
-		tcgplayer: 89417
-	}
 }
 
 export default card

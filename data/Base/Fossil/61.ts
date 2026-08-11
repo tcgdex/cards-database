@@ -14,24 +14,29 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Flip a coin. If heads, put a card in your discard pile on top of your deck.",
 		fr: "Lancez une pièce. Si c'est face, déplacez une carte de votre pile de défausse vers le sommet de votre deck.",
 		de: "Wirf eine Münze. Bei 'Kopf' suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 273922,
-		tcgplayer: 44463
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273922,
+				tcgplayer: 44463
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273922,
+				tcgplayer: 44463
+			}
 		},
 		{
 			type: "normal",

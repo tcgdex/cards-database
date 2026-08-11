@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It swings its long antlers wildly to attack. During cold periods, it hides deep in forests.",
+	},
+
 	thirdParty: {
 		cardmarket: 288451,
 		tcgplayer: 113667

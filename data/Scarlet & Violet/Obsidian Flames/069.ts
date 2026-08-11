@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725149,
+				tcgplayer: 509835,
+				cardtrader: 255629
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725149,
+				tcgplayer: 509835,
+				cardtrader: 255629
+			}
+		},
+	],
 
 	illustrator: "Masakazu Fukuda",
 
-	thirdParty: {
-		cardmarket: 725149
-	}
+	
 }
 
 export default card

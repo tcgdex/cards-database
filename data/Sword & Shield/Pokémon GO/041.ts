@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Rattfratz"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -44,19 +45,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Night after night, they sneak into people's homes seeking food. A massive outbreak of them has become an issue of public concern.",
 	},
 
-	thirdParty: {
-		cardmarket: 664581,
-		tcgplayer: 277002
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665671,
+				tcgplayer: 277002
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665671,
+				tcgplayer: 277002
+			}
+		},
+	],
 }
 
 export default card

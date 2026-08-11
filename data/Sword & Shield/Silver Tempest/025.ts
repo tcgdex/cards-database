@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fynx"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
 	},
 
-	thirdParty: {
-		cardmarket: 682066,
-		tcgplayer: 451656
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682066,
+				tcgplayer: 451656
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682066,
+				tcgplayer: 451656
+			}
+		},
+	],
 }
 
 export default card

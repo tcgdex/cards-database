@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorina",
+		fr: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -72,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
 	},
 
-	thirdParty: {
-		cardmarket: 273804,
-		tcgplayer: 106985
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273804,
+				tcgplayer: 106985
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273804,
+				tcgplayer: 106985
+			}
 		}
 	],
 }

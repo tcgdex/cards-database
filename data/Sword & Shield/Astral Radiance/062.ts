@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galagladi"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -76,20 +77,42 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
 	},
 
-	thirdParty: {
-		cardmarket: 658636,
-		tcgplayer: 272263
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658636,
+				tcgplayer: 272263
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658636,
+				tcgplayer: 272263
+			}
+		},
+	],
 }
 
 export default card

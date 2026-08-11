@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		119,
-	],
+	dexId: [119],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Goldeen",
-		fr: "Poissirène",
+		fr: "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -73,21 +71,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278734
+	description: {
+		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89028,
+				cardmarket: 278734
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278734,
+				tcgplayer: 89028
+			}
+		},
+	],
+
 }
 
 export default card

@@ -56,15 +56,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 274007,
-		tcgplayer: 42535
+
+	description: {
+		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274007,
+				tcgplayer: 42535
+			}
 		}
 	]
 }

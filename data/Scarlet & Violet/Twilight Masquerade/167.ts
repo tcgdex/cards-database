@@ -28,14 +28,16 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769341,
+				tcgplayer: 550211
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 769341
-	}
 }
 
 export default card

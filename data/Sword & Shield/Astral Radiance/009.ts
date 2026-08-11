@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zirpurze"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
 	},
 
-	thirdParty: {
-		cardmarket: 658500,
-		tcgplayer: 272209
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658500,
+				tcgplayer: 272209
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658500,
+				tcgplayer: 272209
+			}
+		},
+	],
 }
 
 export default card

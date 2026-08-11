@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
+	},
 }
 
 export default card

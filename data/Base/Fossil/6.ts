@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gastly",
+		fr: "Fantominus"
 	},
 
 	stage: "Stage1",
@@ -74,23 +75,28 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
 		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension."
 	},
 
-	thirdParty: {
-		cardmarket: 273867,
-		tcgplayer: 106522
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273867,
+				tcgplayer: 106522
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273867,
+				tcgplayer: 106522
+			}
 		},
 	]
 }

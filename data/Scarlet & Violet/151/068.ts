@@ -74,18 +74,48 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "With four arms that react more quickly than it can think, it can execute many punches at once.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733663,
+				tcgplayer: 516385,
+				cardtrader: 261239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733663,
+				tcgplayer: 516385,
+				cardtrader: 261239
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 864951
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 733663
-	}
+	
 }
 
 export default card

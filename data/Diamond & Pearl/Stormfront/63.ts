@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
 		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
 	},
 

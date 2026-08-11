@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.",
+	},
+
 	thirdParty: {
 		cardmarket: 279774,
 		tcgplayer: 84990

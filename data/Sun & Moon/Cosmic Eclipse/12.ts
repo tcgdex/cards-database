@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The bunches of fruit growing around the necks of Tropius in Alola are especially sweet compared to those in other regions.",
+	},
+
 	thirdParty: {
 		cardmarket: 407714,
 		tcgplayer: 201162

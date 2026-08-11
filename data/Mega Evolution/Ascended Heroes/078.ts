@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Exeggutor da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Exeggcute",
+		fr: "Noeunoeuf de la Team Rocket",
+		es: "Exeggcute del Team Rocket",
+		'es-mx': "Exeggcute del Equipo Rocket",
+		de: "Team Rockets Owei",
+		it: "Exeggcute del Team Rocket",
+		pt: "Exeggcute da Equipe Rocket",
+	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -69,13 +79,50 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 869689,
-		tcgplayer: 675890
-	}
+	description: {
+		en: "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869689,
+			tcgplayer: 675890
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870258,
+			tcgplayer: 677053
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870257,
+			tcgplayer: 676913
+		}
+	},
+],
 }
 
 export default card

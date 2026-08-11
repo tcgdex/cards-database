@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "Emitting ultrasonic cries, it floats on winds to travel great distances."
 	},
 
-	thirdParty: {
-		cardmarket: 545406,
-		tcgplayer: 234231
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545406,
+				tcgplayer: 234231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545406,
+				tcgplayer: 234231
+			}
+		},
+	],
 }
 
 export default card

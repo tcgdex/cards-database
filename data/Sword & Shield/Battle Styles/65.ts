@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
 	},
 
-	thirdParty: {
-		cardmarket: 545441,
-		tcgplayer: 234241
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545441,
+				tcgplayer: 234241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545441,
+				tcgplayer: 234241
+			}
+		},
+	],
 }
 
 export default card

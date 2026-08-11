@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
-	thirdParty: {
-		cardmarket: 511845,
-		tcgplayer: 226516
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511845,
+				tcgplayer: 226516
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511845,
+				tcgplayer: 226516
+			}
+		},
+	],
 }
 
 export default card

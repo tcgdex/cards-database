@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nPlacez 4 marqueurs de dégât au lieu de 2 sur chaque Pokémon Brûlé entre deux tours. L'État Spécial Brûlé ne peut pas être retiré en faisant évoluer ou en dés-évoluant le Pokémon Brûlé.",
-		de: "Zwischen den Zügen lege 4 Schadensmarken anstelle von 2 Schadensmarken auf Pokémon, die verbrannt sind. Der Spezielle Zustand verbrannt kann nicht mehr durch Entwickeln oder Rückentwickeln entfernt werden."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Put 4 damage counters instead of 2 on each Burned Pokémon between turns. The Special Condition Burned can't be removed by evolving or devolving the Burned Pokémon.",
+		fr: "Placez 4 marqueurs de dégât au lieu de 2 sur chaque Pokémon Brûlé entre deux tours. L'État Spécial Brûlé ne peut pas être retiré en faisant évoluer ou en dés-évoluant le Pokémon Brûlé.",
+		de: "Zwischen den Zügen lege 4 Schadensmarken anstelle von 2 Schadensmarken auf Pokémon, die verbrannt sind. Der Spezielle Zustand verbrannt kann nicht mehr durch Entwickeln oder Rückentwickeln entfernt werden.",
 	},
 
 	thirdParty: {

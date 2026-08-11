@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+	},
+
 	thirdParty: {
 		cardmarket: 369031,
 		tcgplayer: 183884

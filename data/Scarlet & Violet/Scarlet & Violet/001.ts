@@ -44,14 +44,29 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Shigenori Negishi",
+
+	description: {
+		en: "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
+	},
 
 	thirdParty: {
         cardmarket: 702298,

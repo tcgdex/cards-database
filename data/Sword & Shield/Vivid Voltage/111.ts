@@ -94,12 +94,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
 	},
 
-	thirdParty: {
-		cardmarket: 512265,
-		tcgplayer: 226564
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512265,
+				tcgplayer: 226564
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512265,
+				tcgplayer: 226564
+			}
+		},
+	],
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine",
+		en: "Blaine"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274269,
-		tcgplayer: 83859
+	effect: {
+		en: "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83859,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83859,
+				cardmarket: 274285
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its heartbeat is fast and its blood so agitated that it can't sit still for one second.",
+	},
+
 	thirdParty: {
 		cardmarket: 281746,
 		tcgplayer: 92262

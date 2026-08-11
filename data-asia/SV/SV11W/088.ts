@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "クルマユ",
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

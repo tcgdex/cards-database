@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Laternecto"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -57,16 +58,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674036,
-		tcgplayer: 283896
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674036,
+				tcgplayer: 283896
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674036,
+				tcgplayer: 283896
+			}
+		},
+	],
 }
 
 export default card

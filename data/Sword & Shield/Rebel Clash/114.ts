@@ -57,12 +57,6 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -70,10 +64,22 @@ const card: Card = {
 		en: "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
 	},
 
-	thirdParty: {
-		cardmarket: 457978,
-		tcgplayer: 213206
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457978,
+				tcgplayer: 213206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457978,
+				tcgplayer: 213206
+			}
+		},
+	],
 }
 
 export default card

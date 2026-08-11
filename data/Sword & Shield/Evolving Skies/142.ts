@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Boost Shake",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "sadaji",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574200,
-		tcgplayer: 246767
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574200,
+				tcgplayer: 246767
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574200,
+				tcgplayer: 246767
+			}
+		},
+	],
 }
 
 export default card

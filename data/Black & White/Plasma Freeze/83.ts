@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+	},
+
 	thirdParty: {
 		cardmarket: 280961,
 		tcgplayer: 84916

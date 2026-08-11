@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -71,6 +71,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+	},
 
 	thirdParty: {
 		cardmarket: 289809

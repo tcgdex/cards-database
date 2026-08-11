@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751545,
+				tcgplayer: 534163,
+				cardtrader: 274202
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751545,
+				tcgplayer: 534163,
+				cardtrader: 274202
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794904
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 751545
-	}
+	description: {
+		en: "﻿When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
+
 }
 
 export default card

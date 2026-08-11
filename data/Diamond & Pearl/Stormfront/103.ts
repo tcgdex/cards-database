@@ -86,6 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
 		fr: "Ses ailes peuvent le faire voler à plus de 1 400 mètres d'altitude. Ce Pokémon crache du feu à des températures très élevées."
 	},
 

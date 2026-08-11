@@ -48,10 +48,20 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787604,
+				tcgplayer: 579426,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
 	rarity: "Uncommon",
-	dexId: [776]
+	dexId: [776],
 }
 
 export default card

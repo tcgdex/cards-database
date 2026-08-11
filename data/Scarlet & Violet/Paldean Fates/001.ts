@@ -35,18 +35,40 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751527,
+				tcgplayer: 534132,
+				cardtrader: 274134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751527,
+				tcgplayer: 534132,
+				cardtrader: 274134
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 751527
-	}
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+	},
+
 }
 
 export default card

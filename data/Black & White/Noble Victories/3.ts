@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using cutters on its arms and sticky silk.",
+	},
+
 	thirdParty: {
 		cardmarket: 280126,
 		tcgplayer: 86687

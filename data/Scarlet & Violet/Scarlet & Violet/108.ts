@@ -59,8 +59,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
 	},
 
 	thirdParty: {

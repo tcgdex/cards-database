@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769219,
+				tcgplayer: 550089
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769219,
+				tcgplayer: 550089
+			}
+		},
+	],
 
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 769219
-	}
 }
 
 export default card

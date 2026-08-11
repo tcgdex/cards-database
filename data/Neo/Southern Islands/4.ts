@@ -45,15 +45,20 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275634,
-		tcgplayer: 46478
+
+	description: {
+		en: "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275634,
+				tcgplayer: 46478
+			}
 		}
 	]
 }

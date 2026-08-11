@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		319,
-	],
+	dexId: [319],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Carvanha",
-		fr: "Carvanha",
+		fr: "Carvanha"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Sharpedo is your Active Pokémon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), flip a coin. If heads, discard an Energy card attached to the Attacking Pokémon.",
 				fr: "Si Sharpedo est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Sharpedo est mis K.O), lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Attaquant.",
 				de: "Wenn Tohaido dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Tohaido dadurch kampfunfähig wird), wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Angreifenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
-			},
+			}
 		},
 	],
 
@@ -88,27 +86,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278623,
-		tcgplayer: 89100
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278623,
+				tcgplayer: 89100
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278623,
+				tcgplayer: 89100
+			}
+		},
+	],
+
 }
 
 export default card

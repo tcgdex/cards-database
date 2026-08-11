@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
 	},
 
-	thirdParty: {
-		cardmarket: 567200,
-		tcgplayer: 241761
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567200,
+				tcgplayer: 241761
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567200,
+				tcgplayer: 241761
+			}
+		},
+	],
 }
 
 export default card

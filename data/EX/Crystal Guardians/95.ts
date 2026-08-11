@@ -23,7 +23,7 @@ const card: Card = {
 		"Water",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

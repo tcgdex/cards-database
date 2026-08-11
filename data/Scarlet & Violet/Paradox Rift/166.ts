@@ -28,15 +28,28 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740708,
+				tcgplayer: 523847,
+				cardtrader: 265546
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740708,
+				tcgplayer: 523847,
+				cardtrader: 265546
+			}
+		},
+	],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 740708
-	}
+	
 }
 
 export default card

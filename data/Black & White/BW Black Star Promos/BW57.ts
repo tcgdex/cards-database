@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+	},
 }
 
 export default card

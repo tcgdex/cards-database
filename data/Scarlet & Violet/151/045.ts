@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733640,
+				tcgplayer: 516159,
+				cardtrader: 261623
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733640,
+				tcgplayer: 516159,
+				cardtrader: 261623
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 733640
-	}
+	
 }
 
 export default card

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It's quite a gifted swimmer, even among Water-type Pokémon, but it normally spends its time on land.",
+	},
+
 	thirdParty: {
 		cardmarket: 372330,
 		tcgplayer: 189114

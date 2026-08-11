@@ -15,28 +15,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 		fr: "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
 		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet.",
 		it: "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."
 	},
 
-	thirdParty: {
-		cardmarket: 273777,
-		tcgplayer: 42428
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273777,
+				tcgplayer: 42428
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107079
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107079
+			},
 		},
 		{
 			type: "normal",

@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+	},
+
 	thirdParty: {
 		cardmarket: 280947,
 		tcgplayer: 86539

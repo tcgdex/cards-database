@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When spotted, this Pokémon escapes backwards by furiously boring into the ground with its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 281438,
 		tcgplayer: 85015

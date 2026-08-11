@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+	},
 }
 
 export default card

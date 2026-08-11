@@ -94,12 +94,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging."
 	},
 
-	thirdParty: {
-		cardmarket: 512320,
-		tcgplayer: 226576
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512320,
+				tcgplayer: 226576
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512320,
+				tcgplayer: 226576
+			}
+		},
+	],
 }
 
 export default card

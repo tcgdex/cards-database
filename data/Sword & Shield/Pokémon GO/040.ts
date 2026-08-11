@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meistagrif V"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,
@@ -67,19 +68,27 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664580,
-		tcgplayer: 276999
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665670,
+				tcgplayer: 276999
+			}
+		},
+	],
 }
 
 export default card

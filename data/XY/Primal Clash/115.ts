@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The chances of two Spinda having identical spot patterns is less than one in four billion.",
+	},
+
 	thirdParty: {
 		cardmarket: 273646,
 		tcgplayer: 96013

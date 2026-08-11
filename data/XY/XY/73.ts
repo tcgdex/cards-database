@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+	},
+
 	thirdParty: {
 		cardmarket: 281410,
 		tcgplayer: 90756

@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+	},
+
 	thirdParty: {
 		cardmarket: 280289,
 		tcgplayer: 86882

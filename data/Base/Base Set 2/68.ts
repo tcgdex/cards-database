@@ -45,15 +45,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273991,
-		tcgplayer: 42487
+
+	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273991,
+				tcgplayer: 42487
+			}
 		}
 	]
 }

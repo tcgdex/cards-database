@@ -71,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted.",
 		fr: "Son épaisse toison stocke l'électricité. Sa peau caoutchouteuse le sauve de l'électrocution."
 	},
 
-	thirdParty: {
-		cardmarket: 274614,
-		tcgplayer: 85473
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274614,
+				tcgplayer: 85473
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274614,
+				tcgplayer: 85473
+			}
 		}
 	]
 }

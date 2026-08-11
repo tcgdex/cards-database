@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As a matter of course, it makes anyone it meets fall asleep and has a taste of their dreams. Anyone having a good dream, it carries off.",
+	},
+
 	thirdParty: {
 		cardmarket: 295371,
 		tcgplayer: 126931

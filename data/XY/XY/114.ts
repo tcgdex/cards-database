@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+	},
+
 	thirdParty: {
 		cardmarket: 281451,
 		tcgplayer: 85586

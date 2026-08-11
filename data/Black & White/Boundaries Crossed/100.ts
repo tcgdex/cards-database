@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+	},
+
 	thirdParty: {
 		cardmarket: 280687,
 		tcgplayer: 83851

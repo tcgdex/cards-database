@@ -15,36 +15,53 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nPiochez une carte. Si vous n'avez pas de Pokémon Évolués de niveau 2 en jeu, piochez 2 cartes supplémentaires.",
-		de: "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
+		fr: "Piochez une carte. Si vous n'avez pas de Pokémon Évolués de niveau 2 en jeu, piochez 2 cartes supplémentaires.",
+		de: "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 276732,
-		tcgplayer: 87243
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87243,
+				cardmarket: 276732
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87243,
+				cardmarket: 276732
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477868,
+				cardmarket: 869572
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477866,
+				cardmarket: 869573
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["miska-saari"]
-		},
-		{
-			type: "normal",
-			stamp: ["tom-roos"]
+			stamp: ["tom-roos"],
+			thirdParty: {
+				tcgplayer: 479704,
+				cardmarket: 869464
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -14,6 +14,17 @@ const card: Card = {
 		pt: "Dudunsparce ex do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Dunsparce",
+		fr: "Insolourdo d'Okuba",
+		es: "Dunsparce de Laureano",
+		'es-mx': "Dunsparce de Laureano",
+		de: "Aokis Dummisel",
+		it: "Dunsparce di Ubaldo",
+		pt: "Dunsparce do Lauro",
+	},
+
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -47,13 +58,24 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675976,
-		cardmarket: 869775
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869775,
+				tcgplayer: 675976
+			}
+		}
+	],
 }
 
 export default card

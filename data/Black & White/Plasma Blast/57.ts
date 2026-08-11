@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In order to build up its steel body, it eats iron ore. This pesky Pokémon is known to eat railroad tracks.",
+	},
+
 	thirdParty: {
 		cardmarket: 281078,
 		tcgplayer: 83641

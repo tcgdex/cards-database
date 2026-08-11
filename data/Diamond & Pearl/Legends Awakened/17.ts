@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
 		fr: "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes."
 	},
 

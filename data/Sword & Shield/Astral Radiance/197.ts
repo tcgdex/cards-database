@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Admurai VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 270,
@@ -55,20 +56,26 @@ const card: Card = {
 		damage: "110+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658762,
-		tcgplayer: 272451
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658858,
+				tcgplayer: 272451
+			}
+		},
+	],
 }
 
 export default card

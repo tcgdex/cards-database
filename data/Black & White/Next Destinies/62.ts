@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+	},
+
 	thirdParty: {
 		cardmarket: 280287,
 		tcgplayer: 83779

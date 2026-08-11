@@ -64,18 +64,41 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733634,
+				tcgplayer: 516108,
+				cardtrader: 261124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733634,
+				tcgplayer: 516108,
+				cardtrader: 261124
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 733634
-	}
+	
 }
 
 export default card

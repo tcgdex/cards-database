@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe obscur"
 	},
 
 	stage: "Stage2",
@@ -75,23 +76,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "An aggressive Pokémon that tackles anything it sees.",
 		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
 	},
 
-	thirdParty: {
-		cardmarket: 274056,
-		tcgplayer: 84568
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274056,
+				tcgplayer: 84568
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274056,
+				tcgplayer: 84568
+			}
 		}
 	]
 }

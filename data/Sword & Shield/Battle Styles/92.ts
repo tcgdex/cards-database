@@ -80,12 +80,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell."
 	},
 
-	thirdParty: {
-		cardmarket: 545551,
-		tcgplayer: 234204
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545551,
+				tcgplayer: 234204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545551,
+				tcgplayer: 234204
+			}
+		},
+	],
 }
 
 export default card

@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
+	},
+
 	thirdParty: {
 		cardmarket: 369052,
 		tcgplayer: 183914

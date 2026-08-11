@@ -56,19 +56,25 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 	illustrator: "Katsunori Sato",
 
-	thirdParty: {
-		cardmarket: 817314
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817314,
+				tcgplayer: 623589
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
+	},
+
 	thirdParty: {
 		cardmarket: 281090,
 		tcgplayer: 86036

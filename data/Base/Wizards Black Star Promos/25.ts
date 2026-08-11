@@ -65,18 +65,27 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
 		fr: "En apprenant à voler, Pikachu a surpassé sa faiblesse contre le Pokémon Combat."
 	},
 
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161749
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85534
+			},
 		}
 	]
 }

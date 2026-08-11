@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 355558,
 		tcgplayer: 165690

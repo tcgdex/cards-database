@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It fires off ultrasonic waves from its red orbs to weaken its prey, and then it wraps them up in its 80 tentacles.",
+	},
+
 	thirdParty: {
 		cardmarket: 368991,
 		tcgplayer: 183839

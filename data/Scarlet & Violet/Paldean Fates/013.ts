@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751539,
+				tcgplayer: 534154,
+				cardtrader: 274197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751539,
+				tcgplayer: 534154,
+				cardtrader: 274197
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 751539
-	}
+	description: {
+		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+	},
+
 }
 
 export default card

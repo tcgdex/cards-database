@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],

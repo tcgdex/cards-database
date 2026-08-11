@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It looks down on everyone other than itself. Its preferred tactics are sucker punches and blindside attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 365756,
 		tcgplayer: 178932

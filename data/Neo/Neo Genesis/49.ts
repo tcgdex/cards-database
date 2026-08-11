@@ -82,21 +82,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
 		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
 	},
 
-	thirdParty: {
-		cardmarket: 274449,
-		tcgplayer: 89252
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274449,
+				tcgplayer: 89252
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274449,
+				tcgplayer: 89252
+			}
 		}
 	]
 }

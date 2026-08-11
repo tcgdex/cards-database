@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A minigear and big gear comprises its body. If the minigear it launches at its foe doesn't return, it will die.",
+	},
+
 	thirdParty: {
 		cardmarket: 280829,
 		tcgplayer: 86477

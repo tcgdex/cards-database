@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Lokix"
 	},
 
+	evolveFrom: {
+		en: "Nymble",
+		fr: "Lilliterelle",
+		es: "Nymble",
+		'es-mx': "Nymble",
+		de: "Micrick",
+		it: "Nymble",
+		pt: "Nymble",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -62,22 +72,38 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+	},
+
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857585,
+				tcgplayer: 662176,
+				cardtrader: 356794
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857585,
+				tcgplayer: 662176,
+				cardtrader: 356794
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857585,
-		tcgplayer: 662176
-	}
 }
 
 export default card

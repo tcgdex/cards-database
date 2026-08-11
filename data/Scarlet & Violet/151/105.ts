@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "When this Pokémon evolved, the skull of its mother fused to it. Marowak's temperament also turned vicious at the same time.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733700,
+				tcgplayer: 516674,
+				cardtrader: 261240
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733700,
+				tcgplayer: 516674,
+				cardtrader: 261240
+			}
+		},
+	],
 
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 733700
-	}
+	
 }
 
 export default card

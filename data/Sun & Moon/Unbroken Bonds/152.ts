@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
+	},
+
 	thirdParty: {
 		cardmarket: 372440,
 		tcgplayer: 189254

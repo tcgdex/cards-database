@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Mochizuki",
@@ -48,17 +54,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582075,
-		tcgplayer: 253139
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582982,
+				tcgplayer: 253139
+			}
+		},
+	],
 }
 
 export default card

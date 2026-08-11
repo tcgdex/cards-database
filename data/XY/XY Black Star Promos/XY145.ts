@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -65,8 +65,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+	},
+
 	thirdParty: {
-		cardmarket: 291585
+		cardmarket: 553958
 	}
 }
 

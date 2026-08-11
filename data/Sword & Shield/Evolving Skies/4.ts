@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Jumpluff",
@@ -86,10 +80,22 @@ const card: Card = {
 	dexId: [189],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574028,
-		tcgplayer: 246817
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574028,
+				tcgplayer: 246817
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574028,
+				tcgplayer: 246817
+			}
+		},
+	],
 }
 
 export default card

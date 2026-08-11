@@ -55,15 +55,32 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Tomokazu Komiya",
+
+	description: {
+		en: "When it twitches its nose, it can tell where someone is sleeping and what that person is dreaming about.",
+	},
 
 	thirdParty: {
         cardmarket: 702506,

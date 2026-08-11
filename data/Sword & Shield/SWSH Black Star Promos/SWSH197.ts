@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Glaceon VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Water"],
@@ -77,6 +77,12 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 

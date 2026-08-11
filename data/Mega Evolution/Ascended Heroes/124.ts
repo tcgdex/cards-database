@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Haunter"
 	},
 
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		'es-mx': "Gastly",
+		de: "Nebulak",
+		it: "Gastly",
+		pt: "Gastly",
+	},
+
 	illustrator: "Rianti Hidayat",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [93],
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -37,13 +48,44 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675936,
-		cardmarket: 869735
-	}
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869735,
+			tcgplayer: 675936
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870332,
+			tcgplayer: 676950
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870331,
+			tcgplayer: 677090
+		}
+	},
+],
 }
 
 export default card

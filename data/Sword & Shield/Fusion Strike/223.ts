@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
@@ -74,17 +80,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582959,
-		tcgplayer: 253324
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582959,
+				tcgplayer: 253324
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582959,
+				tcgplayer: 253324
+			}
+		},
+	],
 }
 
 export default card

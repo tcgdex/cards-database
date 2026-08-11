@@ -48,6 +48,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+	},
+
 	thirdParty: {
 		cardmarket: 394732,
 		tcgplayer: 197659

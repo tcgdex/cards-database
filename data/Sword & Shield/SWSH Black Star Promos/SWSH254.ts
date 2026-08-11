@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Palkia VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Water"],
@@ -55,6 +55,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 

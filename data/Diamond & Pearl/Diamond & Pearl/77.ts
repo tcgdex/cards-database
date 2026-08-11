@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Thought to live with others on quiet mountains, it is popular for its adorable nature.",
 		fr: "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes."
 	},
 

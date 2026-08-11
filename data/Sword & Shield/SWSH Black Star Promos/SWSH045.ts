@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Darkness"],
@@ -92,7 +92,7 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 496315
+		cardmarket: 496325
 	}
 }
 

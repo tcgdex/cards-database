@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has been known to become so angry that it dies as a result. Its face looks peaceful in death, however.",
+	},
+
 	thirdParty: {
 		cardmarket: 311901,
 		tcgplayer: 149074

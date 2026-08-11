@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rotom"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities.",
 	},
 
-	thirdParty: {
-		cardmarket: 682100,
-		tcgplayer: 451709
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682100,
+				tcgplayer: 451709
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682100,
+				tcgplayer: 451709
+			}
+		},
+	],
 }
 
 export default card

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Kingambit"
 	},
 
+	evolveFrom: {
+		en: "Bisharp",
+		fr: "Scalproie",
+		es: "Bisharp",
+		'es-mx': "Bisharp",
+		de: "Caesurio",
+		it: "Bisharp",
+		pt: "Bisharp",
+	},
+
 	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [983],
 	hp: 170,
 	types: ["Metal"],
 	stage: "Stage2",
@@ -71,13 +82,50 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675960,
-		cardmarket: 869759
-	}
+	description: {
+		en: "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869759,
+			tcgplayer: 675960
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870368,
+			tcgplayer: 676968
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870367,
+			tcgplayer: 677108
+		}
+	},
+],
 }
 
 export default card

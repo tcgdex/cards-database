@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Scrafty",
@@ -85,10 +79,22 @@ const card: Card = {
 	dexId: [560],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574147,
-		tcgplayer: 246905
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574147,
+				tcgplayer: 246905
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574147,
+				tcgplayer: 246905
+			}
+		},
+	],
 }
 
 export default card

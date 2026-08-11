@@ -94,10 +94,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+	},
+
 	thirdParty: {
 		cardmarket: 299459,
 		tcgplayer: 138537
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

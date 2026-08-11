@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		439,
-	],
+	dexId: [439],
 
 	hp: 30,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -58,10 +56,28 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279690,
-		tcgplayer: 87472
-	}
+	description: {
+		en: "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87472,
+				cardmarket: 279690
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87472,
+				cardmarket: 279690
+			},
+		},
+	],
+
 }
 
 export default card

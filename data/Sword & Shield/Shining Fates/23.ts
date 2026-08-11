@@ -47,12 +47,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -60,10 +54,22 @@ const card: Card = {
 		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
 	},
 
-	thirdParty: {
-		cardmarket: 539138,
-		tcgplayer: 232419
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539138,
+				tcgplayer: 232419
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539138,
+				tcgplayer: 232419
+			}
+		},
+	],
 }
 
 export default card

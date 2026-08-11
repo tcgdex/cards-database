@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sleimok"
 	},
 
+	illustrator: "Scav",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
 	},
 
-	thirdParty: {
-		cardmarket: 608535,
-		tcgplayer: 263801
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608535,
+				tcgplayer: 263801
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608535,
+				tcgplayer: 263801
+			}
+		},
+	],
 }
 
 export default card

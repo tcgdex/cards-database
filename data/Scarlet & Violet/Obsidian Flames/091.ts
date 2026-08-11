@@ -63,18 +63,47 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725171,
+				tcgplayer: 509867,
+				cardtrader: 255776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725171,
+				tcgplayer: 509867,
+				cardtrader: 255776
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 725171
-	}
+	
 }
 
 export default card

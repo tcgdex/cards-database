@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.",
+	},
+
 	thirdParty: {
 		cardmarket: 363513,
 		tcgplayer: 175468

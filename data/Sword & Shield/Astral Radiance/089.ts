@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Baldorfish"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -42,20 +43,36 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
 	},
 
-	thirdParty: {
-		cardmarket: 658709,
-		tcgplayer: 272290
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658710,
+				tcgplayer: 272290
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658710,
+				tcgplayer: 272290
+			}
+		},
+	],
 }
 
 export default card

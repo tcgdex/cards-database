@@ -80,10 +80,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+	},
+
 	thirdParty: {
 		cardmarket: 299423,
 		tcgplayer: 138286
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

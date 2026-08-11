@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kabuto",
+		fr: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -72,25 +73,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids. ",
 		fr: "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie."
 	},
 
-	thirdParty: {
-		cardmarket: 273870,
-		tcgplayer: 44432
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273870,
+				tcgplayer: 44432
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273870,
+				tcgplayer: 44432
+			}
 		},
 		{
 			type: "normal",

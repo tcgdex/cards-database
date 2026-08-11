@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kapoera"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
 	},
 
-	thirdParty: {
-		cardmarket: 608522,
-		tcgplayer: 263788
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608522,
+				tcgplayer: 263788
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608522,
+				tcgplayer: 263788
+			}
+		},
+	],
 }
 
 export default card

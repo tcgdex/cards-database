@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rapidash",
+		ja: "ギャロップ",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [78],
@@ -41,6 +42,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576642
+			},
 		},
 	],
 };

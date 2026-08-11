@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Drackhaus"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -100,11 +100,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "holo"
 		}
 	]
 }

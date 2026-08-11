@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.",
+	},
+
 	thirdParty: {
 		cardmarket: 280924,
 		tcgplayer: 87627

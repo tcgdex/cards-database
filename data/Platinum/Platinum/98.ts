@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		128,
-	],
+	dexId: [128],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,19 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278519,
-		tcgplayer: 89765
+	description: {
+		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89765,
+				cardmarket: 278519
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278519,
+				tcgplayer: 89765
+			}
 		}
-	]
+	],
+
 }
 
 export default card

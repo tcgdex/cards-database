@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes.",
+	},
+
 	thirdParty: {
 		cardmarket: 278274,
 		tcgplayer: 89868

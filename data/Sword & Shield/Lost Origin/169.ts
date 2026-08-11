@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Volo"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670825,
-		tcgplayer: 284104
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674177,
+				tcgplayer: 284104
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674177,
+				tcgplayer: 284104
+			}
+		},
+	],
 }
 
 export default card

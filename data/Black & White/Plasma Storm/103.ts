@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To share its happiness, it flies around the world seeking kind-hearted people.",
+	},
+
 	thirdParty: {
 		cardmarket: 280843,
 		tcgplayer: 89945

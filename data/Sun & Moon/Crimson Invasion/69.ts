@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+	},
+
 	thirdParty: {
 		cardmarket: 311917,
 		tcgplayer: 149093

@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+	},
+
 	thirdParty: {
 		cardmarket: 279788,
 		tcgplayer: 90624

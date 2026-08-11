@@ -63,23 +63,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although it knows how to fish, no other intelligent behavior has been detected in it.",
 		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
 	},
 
-	thirdParty: {
-		cardmarket: 274120,
-		tcgplayer: 89322
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274120,
+				tcgplayer: 89322
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274120,
+				tcgplayer: 89322
+			}
 		}
 	]
 }

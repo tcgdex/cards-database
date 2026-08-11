@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+	},
+
 	thirdParty: {
 		cardmarket: 281525,
 		tcgplayer: 91175

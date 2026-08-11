@@ -30,7 +30,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760788,
+				tcgplayer: 542675
+			}
 		},
 		{
 			type: "holo",
@@ -40,9 +44,6 @@ const card: Card = {
 
 	illustrator: "inose yukie",
 
-	thirdParty: {
-		cardmarket: 760788
-	}
 }
 
 export default card

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
+	},
+
 	thirdParty: {
 		cardmarket: 293390,
 		tcgplayer: 124046

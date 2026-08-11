@@ -44,18 +44,48 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 781857,
+				tcgplayer: 509803,
+				cardtrader: 255616
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 725136
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725136,
+				tcgplayer: 509803,
+				cardtrader: 255616
+			}
+		},
+	],
 
 	illustrator: "Atsuya Uki",
 
-	thirdParty: {
-		cardmarket: 725136
-	}
+	
 }
 
 export default card

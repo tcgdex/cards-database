@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hyperball"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -27,17 +28,17 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608696,
-		tcgplayer: 263907
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 608732,
+				tcgplayer: 263907
+			}
+		},
+	],
 }
 
 export default card

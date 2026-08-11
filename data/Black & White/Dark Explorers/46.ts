@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280374,
 		tcgplayer: 85068

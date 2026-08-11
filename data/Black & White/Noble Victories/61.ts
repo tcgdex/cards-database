@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+	},
+
 	thirdParty: {
 		cardmarket: 280184,
 		tcgplayer: 85706

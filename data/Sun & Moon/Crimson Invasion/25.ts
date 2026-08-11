@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
+	},
+
 	thirdParty: {
 		cardmarket: 311875,
 		tcgplayer: 149046

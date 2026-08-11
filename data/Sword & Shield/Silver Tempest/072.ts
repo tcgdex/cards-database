@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meditie"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -57,20 +58,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
 	},
 
-	thirdParty: {
-		cardmarket: 682119,
-		tcgplayer: 451726
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682119,
+				tcgplayer: 451726
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682119,
+				tcgplayer: 451726
+			}
+		},
+	],
 }
 
 export default card

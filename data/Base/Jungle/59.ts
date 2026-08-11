@@ -65,23 +65,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
 	},
 
-	thirdParty: {
-		cardmarket: 273838,
-		tcgplayer: 45162
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273856,
+				tcgplayer: 45162
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273856,
+				tcgplayer: 45162
+			}
 		}
 	],
 }

@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Absol ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -70,23 +71,28 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 654425,
+				cardmarket: 851157
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"]
 		}
 	],
-
-	thirdParty: {
-		tcgplayer: 654425,
-		cardmarket: 851157
-	}
 }
 
 export default card

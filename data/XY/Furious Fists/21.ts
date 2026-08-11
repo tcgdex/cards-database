@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+	},
+
 	thirdParty: {
 		cardmarket: 281685,
 		tcgplayer: 92196

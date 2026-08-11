@@ -28,17 +28,30 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 456563,
-		tcgplayer: 213285
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 456563,
+				tcgplayer: 213285
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 456563,
+				tcgplayer: 213285
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 701484
+			}
+		},
+	],
 }
 
 export default card

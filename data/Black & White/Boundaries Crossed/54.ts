@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.",
+	},
+
 	thirdParty: {
 		cardmarket: 280641,
 		tcgplayer: 85124

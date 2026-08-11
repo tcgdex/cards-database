@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+	},
+
 	thirdParty: {
 		cardmarket: 355538,
 		tcgplayer: 165665

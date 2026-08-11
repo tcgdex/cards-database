@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+	},
+
 	thirdParty: {
 		cardmarket: 288233,
 		tcgplayer: 111599

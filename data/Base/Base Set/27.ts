@@ -77,20 +77,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273722,
+				tcgplayer: 42368
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107024
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107024
+			}
 		},
 		{
 			type: "normal",
@@ -98,13 +110,9 @@ const card: Card = {
 		}
 	],
 	description: {
+		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 		fr: "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier.",
 		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83"
-	},
-
-	thirdParty: {
-		cardmarket: 273722,
-		tcgplayer: 42368
 	}
 }
 

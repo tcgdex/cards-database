@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [602],
 	hp: 40,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -45,13 +46,44 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675871,
-		cardmarket: 869670
-	}
+	description: {
+		en: "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869670,
+			tcgplayer: 675871
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870230,
+			tcgplayer: 676899
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870229,
+			tcgplayer: 677039
+		}
+	},
+],
 }
 
 export default card

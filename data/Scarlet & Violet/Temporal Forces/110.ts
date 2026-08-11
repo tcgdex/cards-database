@@ -74,23 +74,44 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760740,
+				tcgplayer: 542854
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760740,
+				tcgplayer: 542854
+			}
+		},
 	],
 
 	illustrator: "osare",
 
-	thirdParty: {
-		cardmarket: 760740
-	}
 }
 
 export default card

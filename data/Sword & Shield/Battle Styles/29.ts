@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
 	},
 
-	thirdParty: {
-		cardmarket: 545056,
-		tcgplayer: 234135
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545056,
+				tcgplayer: 234135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545056,
+				tcgplayer: 234135
+			}
+		},
+	],
 }
 
 export default card

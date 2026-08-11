@@ -65,23 +65,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its punches are blindingly fast, but it can only fight for three minutes before tiring and needing to rest.",
 		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
 	},
 
-	thirdParty: {
-		cardmarket: 274721,
-		tcgplayer: 86090
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274721,
+				tcgplayer: 86090
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274721,
+				tcgplayer: 86090
+			}
 		}
 	]
 }

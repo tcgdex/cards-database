@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The five of us team up to be the Pretty Young Girl Force! We'll show you some beautiful moves!",
+	},
+
 	thirdParty: {
 		cardmarket: 288527
 	}

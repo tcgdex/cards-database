@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its two legs are well developed. Even though it can live on the ground, it prefers living in water.",
+	},
+
 	thirdParty: {
 		cardmarket: 293380,
 		tcgplayer: 124037

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Milza"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -45,17 +46,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "These Pokémon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other's strength.",
 	},
 
-	thirdParty: {
-		cardmarket: 608656,
-		tcgplayer: 263830
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608656,
+				tcgplayer: 263830
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608656,
+				tcgplayer: 263830
+			}
+		},
+	],
 }
 
 export default card

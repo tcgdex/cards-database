@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "Rare",
+	illustrator: "2019 Pikachu Project",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -75,7 +76,11 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+	},
 }
 
 export default card

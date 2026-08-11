@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
 		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
 	},
 
-	thirdParty: {
-		cardmarket: 273806,
-		tcgplayer: 106987
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273806,
+				tcgplayer: 106987
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273806,
+				tcgplayer: 106987
+			}
 		}
 	],
 }

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -76,6 +76,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of all living creatures.",
+	},
 
 	thirdParty: {
 		cardmarket: 281315

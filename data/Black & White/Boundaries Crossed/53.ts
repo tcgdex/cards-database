@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
+	},
+
 	thirdParty: {
 		cardmarket: 280640,
 		tcgplayer: 85118

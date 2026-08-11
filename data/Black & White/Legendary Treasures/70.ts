@@ -49,6 +49,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stares intently at everything. It can become so obsessed with watching that it doesn't notice attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 281220,
 		tcgplayer: 85850

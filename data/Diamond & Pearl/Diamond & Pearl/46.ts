@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
 		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
 	},
 

@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+	},
+
 	thirdParty: {
 		cardmarket: 281854,
 		tcgplayer: 94506

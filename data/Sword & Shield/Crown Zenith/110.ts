@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Staralili"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
 	},
 
-	thirdParty: {
-		cardmarket: 691829,
-		tcgplayer: 478137
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691829,
+				tcgplayer: 478137
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691829,
+				tcgplayer: 478137
+			}
+		},
+	],
 }
 
 export default card

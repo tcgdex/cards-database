@@ -63,27 +63,34 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
 		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.",
 		it: "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84"
 	},
 
-	thirdParty: {
-		cardmarket: 273743,
-		tcgplayer: 42391
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273743,
+				tcgplayer: 42391
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107045
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107045
+			},
 		},
 		{
 			type: "normal",

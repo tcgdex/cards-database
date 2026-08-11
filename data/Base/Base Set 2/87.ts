@@ -57,15 +57,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274010,
-		tcgplayer: 42538
+
+	description: {
+		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274010,
+				tcgplayer: 42538
+			}
 		}
 	]
 }

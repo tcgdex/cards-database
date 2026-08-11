@@ -44,18 +44,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When endangered, it may protect itself by increasing its magnetism and drawing nearby iron objects to its body.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769275,
+				tcgplayer: 550145
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769275,
+				tcgplayer: 550145
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 769275
-	}
 }
 
 export default card

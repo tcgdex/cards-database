@@ -17,7 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
 
 	evolveFrom: {
 		en: "Rockruff",
@@ -57,9 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152838
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 297261,
+				tcgplayer: 152838
+			}
+		},
+	],
+
 }
 
 export default card

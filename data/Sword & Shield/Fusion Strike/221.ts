@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Miki Tanaka",
@@ -73,17 +79,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582957,
-		tcgplayer: 253322
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582957,
+				tcgplayer: 253322
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582957,
+				tcgplayer: 253322
+			}
+		},
+	],
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280140,
 		tcgplayer: 89227

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+	},
+
 	thirdParty: {
 		cardmarket: 288194,
 		tcgplayer: 111522

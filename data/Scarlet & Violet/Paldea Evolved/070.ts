@@ -56,18 +56,39 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715545,
+				tcgplayer: 497481,
+				cardtrader: 249853
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715545,
+				tcgplayer: 497481,
+				cardtrader: 249853
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 715545
-	}
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+	},
 }
 
 export default card

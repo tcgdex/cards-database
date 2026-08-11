@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -51,7 +51,8 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 281320
+		cardmarket: 289561,
+		tcgplayer: 117267
 	}
 }
 

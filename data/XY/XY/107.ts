@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors.",
+	},
+
 	thirdParty: {
 		cardmarket: 281444,
 		tcgplayer: 83822

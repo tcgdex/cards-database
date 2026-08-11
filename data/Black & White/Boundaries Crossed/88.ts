@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+	},
+
 	thirdParty: {
 		cardmarket: 280675,
 		tcgplayer: 87442

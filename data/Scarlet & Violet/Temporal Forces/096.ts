@@ -57,27 +57,45 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
+	description: {
+		en: "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760726,
+				tcgplayer: 542840
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760726,
+				tcgplayer: 542840
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
-		}
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 866039,
+			}
+		},
 	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 760726
-	}
 }
 
 export default card

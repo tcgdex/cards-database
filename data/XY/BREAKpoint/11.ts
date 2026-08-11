@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its magnificent bark conveys a sense of majesty. Anyone hearing it can't help but grovel before it.",
+	},
+
 	thirdParty: {
 		cardmarket: 288186,
 		tcgplayer: 111514

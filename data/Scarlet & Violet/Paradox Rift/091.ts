@@ -42,18 +42,41 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740588,
+				tcgplayer: 523758,
+				cardtrader: 265205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740588,
+				tcgplayer: 523758,
+				cardtrader: 265205
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 740588
-	}
+	
 }
 
 export default card

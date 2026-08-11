@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "NC Empire",
@@ -73,17 +79,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582776,
-		tcgplayer: 253362
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582776,
+				tcgplayer: 253362
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582776,
+				tcgplayer: 253362
+			}
+		},
+	],
 }
 
 export default card

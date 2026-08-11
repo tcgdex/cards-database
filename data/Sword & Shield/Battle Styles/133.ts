@@ -29,17 +29,23 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 545961,
-		tcgplayer: 234138
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545961,
+				tcgplayer: 234138
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545961,
+				tcgplayer: 234138
+			}
+		},
+	],
 }
 
 export default card

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+	},
+
 	thirdParty: {
 		cardmarket: 311932,
 		tcgplayer: 149110

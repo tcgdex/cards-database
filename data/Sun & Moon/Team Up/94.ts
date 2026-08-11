@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "From the slight twitches of its bamboo leaf, it deduces its opponent's movements. It's eager to tussle but kindhearted toward its companions.",
+	},
+
 	thirdParty: {
 		cardmarket: 369024,
 		tcgplayer: 183872

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Krawell"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -90,6 +90,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
+	},
 }
 
 export default card

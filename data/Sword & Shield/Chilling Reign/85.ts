@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
 	},
 
-	thirdParty: {
-		cardmarket: 567193,
-		tcgplayer: 241752
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567193,
+				tcgplayer: 241752
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567193,
+				tcgplayer: 241752
+			}
+		},
+	],
 }
 
 export default card

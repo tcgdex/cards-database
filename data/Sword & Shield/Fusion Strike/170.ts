@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "nagimiso",
@@ -55,17 +61,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582798,
-		tcgplayer: 253384
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582798,
+				tcgplayer: 253384
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582798,
+				tcgplayer: 253384
+			}
+		},
+	],
 }
 
 export default card

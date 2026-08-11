@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schlapor"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: "100×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
 	},
 
-	thirdParty: {
-		cardmarket: 682192,
-		tcgplayer: 451795
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682192,
+				tcgplayer: 451795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682192,
+				tcgplayer: 451795
+			}
+		},
+	],
 }
 
 export default card

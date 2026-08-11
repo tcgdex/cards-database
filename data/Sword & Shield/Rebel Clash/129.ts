@@ -73,12 +73,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It appears in ancient ruins. The pattern on its body doesn't come from any culture in the Galar region, so it remains shrouded in mystery."
 	},
 
-	thirdParty: {
-		cardmarket: 458043,
-		tcgplayer: 213225
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458043,
+				tcgplayer: 213225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458043,
+				tcgplayer: 213225
+			}
+		},
+	],
 }
 
 export default card

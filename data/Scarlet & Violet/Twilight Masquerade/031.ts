@@ -44,18 +44,38 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769205,
+				tcgplayer: 550075
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769205,
+				tcgplayer: 550075
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 769205
-	}
 }
 
 export default card

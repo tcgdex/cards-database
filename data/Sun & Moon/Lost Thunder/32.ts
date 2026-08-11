@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
+	},
+
 	thirdParty: {
 		cardmarket: 365672,
 		tcgplayer: 178833

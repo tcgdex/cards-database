@@ -40,19 +40,33 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "This Pokémon makes its home near volcanoes. At the end of the day, Magby soaks in magma, resting and recovering from the day's fatigue.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740729,
+				tcgplayer: 523867,
+				cardtrader: 265514
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 740495
-	}
+	
 }
 
 export default card

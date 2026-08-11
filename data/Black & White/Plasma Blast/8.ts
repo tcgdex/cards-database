@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 281029,
 		tcgplayer: 83461

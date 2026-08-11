@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its feathers, which fall off as it grows, are thin and sharp. In times long past, warriors used them as swords.",
+	},
+
 	thirdParty: {
 		cardmarket: 295399,
 		tcgplayer: 126960

@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a flame sac in its body. Its body temperature tops 1,650 degrees Fahrenheit before battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 278068,
 		tcgplayer: 85496

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 291632,
 		tcgplayer: 121192

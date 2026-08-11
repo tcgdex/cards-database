@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Seedraking ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Masahiko Ishii",
 	rarity: "Rare",
 	category: "Pokemon",

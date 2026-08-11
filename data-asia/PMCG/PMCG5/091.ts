@@ -4,15 +4,18 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジスタンスジム",
+		ja: "抵抗力低下ジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576838
+			},
 		},
 	],
 };

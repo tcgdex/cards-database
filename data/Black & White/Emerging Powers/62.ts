@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+	},
+
 	thirdParty: {
 		cardmarket: 280027,
 		tcgplayer: 86542

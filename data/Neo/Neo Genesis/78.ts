@@ -69,23 +69,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It may drop out of the sky suddenly. If attacked by a Spearow, it violently shakes its leaves.",
 		fr: "Il tombe parfois du ciel sans prévenir. Quand un Piafabec l'attaque, il secoue violemment ses feuilles."
 	},
 
-	thirdParty: {
-		cardmarket: 274478,
-		tcgplayer: 89617
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274478,
+				tcgplayer: 89617
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274478,
+				tcgplayer: 89617
+			}
 		}
 	]
 }

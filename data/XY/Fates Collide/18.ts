@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Once wrapped around its prey, it never lets go. It eats the prey by tearing at it with sharp fangs.",
+	},
+
 	thirdParty: {
 		cardmarket: 289844,
 		tcgplayer: 117780

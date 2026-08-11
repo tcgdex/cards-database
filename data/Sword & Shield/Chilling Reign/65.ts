@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
 	},
 
-	thirdParty: {
-		cardmarket: 567173,
-		tcgplayer: 241726
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567173,
+				tcgplayer: 241726
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567173,
+				tcgplayer: 241726
+			}
+		},
+	],
 }
 
 export default card

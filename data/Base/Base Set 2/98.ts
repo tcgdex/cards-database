@@ -43,15 +43,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274021,
-		tcgplayer: 42549
+
+	description: {
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274021,
+				tcgplayer: 42549
+			}
 		}
 	]
 }

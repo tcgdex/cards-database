@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+	},
+
 	thirdParty: {
 		cardmarket: 302185,
 		tcgplayer: 146709

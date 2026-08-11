@@ -35,18 +35,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715595,
+				tcgplayer: 497535,
+				cardtrader: 248767
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715595,
+				tcgplayer: 497535,
+				cardtrader: 248767
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 715595
-	}
+	description: {
+		en: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+	},
 }
 
 export default card

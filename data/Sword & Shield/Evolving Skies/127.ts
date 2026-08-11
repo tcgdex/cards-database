@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Ursaring",
@@ -76,10 +70,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574181,
-		tcgplayer: 246850
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574181,
+				tcgplayer: 246850
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574181,
+				tcgplayer: 246850
+			}
+		},
+	],
 }
 
 export default card

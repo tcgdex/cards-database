@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its melodies are sung with a special vocalization method that can control the feels of those who hear it.",
+	},
+
 	thirdParty: {
 		cardmarket: 365741,
 		tcgplayer: 178917

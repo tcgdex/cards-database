@@ -50,15 +50,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275645,
-		tcgplayer: 46472
+
+	description: {
+		en: "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275645,
+				tcgplayer: 46472
+			}
 		}
 	]
 }

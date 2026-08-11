@@ -89,6 +89,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
+		en: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
 		fr: "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire."
 	},
 

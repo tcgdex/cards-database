@@ -62,6 +62,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+	},
 }
 
 export default card

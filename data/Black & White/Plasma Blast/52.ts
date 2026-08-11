@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+	},
+
 	thirdParty: {
 		cardmarket: 281073,
 		tcgplayer: 88940

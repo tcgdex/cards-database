@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pescragon V"
 	},
 
+	illustrator: "Satoshi Shirai",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -70,17 +71,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608660,
-		tcgplayer: 263836
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608660,
+				tcgplayer: 263836
+			}
+		},
+	],
 }
 
 export default card

@@ -3,28 +3,33 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock",
+		en: "Brock"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274138,
-		tcgplayer: 83959
+	effect: {
+		en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
 	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83959,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83959,
+				cardmarket: 274151
+			}
 		}
-	]
+	],
 }
 
 export default card

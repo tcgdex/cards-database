@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It gets picked on because it's meek. But then, whoever teased it gets to feel the full force of its horns and a good swatting from its thick tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 355608,
 		tcgplayer: 165754

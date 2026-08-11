@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280243,
 		tcgplayer: 86811

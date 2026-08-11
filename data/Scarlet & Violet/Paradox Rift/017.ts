@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740493,
+				tcgplayer: 523617,
+				cardtrader: 265065
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740493,
+				tcgplayer: 523617,
+				cardtrader: 265065
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 740493
-	}
+	
 }
 
 export default card

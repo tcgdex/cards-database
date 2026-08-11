@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+	},
 }
 
 export default card

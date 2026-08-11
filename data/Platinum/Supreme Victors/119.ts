@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		46,
-	],
+	dexId: [46],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -67,21 +65,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278729
+	description: {
+		en: "Mushrooms named tochukaso grow on its back. They grow along with the host Paras."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87952,
+				cardmarket: 278810
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278729,
+				tcgplayer: 87952
+			}
+		},
+	],
+
 }
 
 export default card

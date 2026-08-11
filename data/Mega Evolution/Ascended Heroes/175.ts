@@ -69,13 +69,52 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675987,
-		cardmarket: 869786
-	}
+	description: {
+		en: "A potent anesthetic can be made by diluting Komala’s drool. This anesthetic was used for surgeries in the past.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 870407,
+			tcgplayer: 675987
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870408,
+			tcgplayer: 676988
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870408,
+			tcgplayer: 677128
+		}
+	},
+	{
+		type: "holo",
+		foil: "cosmos",
+		thirdParty: {
+			cardmarket: 870107,
+			tcgplayer: 679249
+		}
+	},
+],
 }
 
 export default card

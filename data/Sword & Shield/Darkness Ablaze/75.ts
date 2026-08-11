@@ -99,12 +99,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -112,10 +106,22 @@ const card: Card = {
 		en: "It has tremendous psychic power, but it dislikes conflict. It's also able to predict the future based on the movement of the stars."
 	},
 
-	thirdParty: {
-		cardmarket: 483254,
-		tcgplayer: 219454
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483254,
+				tcgplayer: 219454
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483254,
+				tcgplayer: 219454
+			}
+		},
+	],
 }
 
 export default card

@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+	},
+
 	thirdParty: {
 		cardmarket: 297531,
 		tcgplayer: 130980

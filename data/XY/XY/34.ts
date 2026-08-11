@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+	},
+
 	thirdParty: {
 		cardmarket: 281371,
 		tcgplayer: 89539

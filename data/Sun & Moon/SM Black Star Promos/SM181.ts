@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Melmetal"
 	},
 
-	rarity: "Rare",
+	illustrator: "TOKIYA",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
@@ -65,7 +66,11 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+	},
 }
 
 export default card

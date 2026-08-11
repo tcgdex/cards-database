@@ -19,9 +19,19 @@ const card: Card = {
 		ja: "相手のポケモン全員についている「ポケモンのどうぐ」と「特殊エネルギー」と、場に出ている「スタジアム」を、すべてトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787616,
+				tcgplayer: 579438,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
-	rarity: "None"
+	rarity: "None",
 }
 
 export default card

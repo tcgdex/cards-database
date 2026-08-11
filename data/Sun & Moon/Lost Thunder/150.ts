@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
+	},
+
 	thirdParty: {
 		cardmarket: 365787,
 		tcgplayer: 178971

@@ -84,6 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
 		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
 	},
 

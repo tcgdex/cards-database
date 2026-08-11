@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		336,
-	],
+	dexId: [336],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -73,19 +71,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275788,
-		tcgplayer: 89082
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89082
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89082
+			}
 		},
-	]
+	],
+
 }
 
 export default card

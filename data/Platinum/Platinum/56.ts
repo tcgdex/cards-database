@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		391,
-	],
+	dexId: [391],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Chimchar",
-		fr: "Ouisticram",
+		fr: "Ouisticram"
 	},
 
 	stage: "Stage1",
@@ -75,19 +73,28 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278477,
-		tcgplayer: 87572
+	description: {
+		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87572,
+				cardmarket: 278477
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278477,
+				tcgplayer: 87572
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

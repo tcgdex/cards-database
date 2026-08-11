@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 365664,
 		tcgplayer: 178826

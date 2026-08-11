@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kliklak"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -67,20 +68,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
 	},
 
-	thirdParty: {
-		cardmarket: 608649,
-		tcgplayer: 263823
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608649,
+				tcgplayer: 263823
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608649,
+				tcgplayer: 263823
+			}
+		},
+	],
 }
 
 export default card

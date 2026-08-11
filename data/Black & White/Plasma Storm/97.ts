@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "On nights with a full moon, Clefairy gather from all over and dance. Bathing in moonlight makes them float.",
+	},
+
 	thirdParty: {
 		cardmarket: 280837,
 		tcgplayer: 84360

@@ -72,19 +72,29 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse"
 		},
 		{
-			type: 'holo'
-		},
+			type: "holo"
+		}
 	],
 
 	illustrator: "Shinji Kanda",
+
+	description: {
+		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
+	},
 
 	thirdParty: {
         cardmarket: 702338,

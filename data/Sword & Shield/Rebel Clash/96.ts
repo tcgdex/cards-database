@@ -67,12 +67,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -80,10 +74,22 @@ const card: Card = {
 		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
 	},
 
-	thirdParty: {
-		cardmarket: 457893,
-		tcgplayer: 213184
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457893,
+				tcgplayer: 213184
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457893,
+				tcgplayer: 213184
+			}
+		},
+	],
 }
 
 export default card

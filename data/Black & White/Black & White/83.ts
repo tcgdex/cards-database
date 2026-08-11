@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 279821,
 		tcgplayer: 89570

@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Latios"
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		381,
-	],
+	dexId: [381],
 	hp: 90,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 			effect: {
 				en: "If you have Latias in play, the Retreat Cost for Latios is 0.",
 				fr: "Si vous avez Latias en jeu, le Coût de retraite de Latios est de 0."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -60,21 +58,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
+	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 275615,
+				tcgplayer: 97706
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 86667
+			}
 		}
-	]
-
-
-
-
+	],
 
 }
 

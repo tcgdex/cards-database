@@ -3,7 +3,7 @@ import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Emcee’s Chatter",
+		en: "Emcee's Chatter",
 		fr: "Bavardage du maître",
 		de: "MCs Geschwätz"
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, piochez 3 cartes. Si c’est pile, piochez 2 cartes.",
-		en: "Flip a coin. If heads, draw 3 cards. If tails, draw 2 cards.",
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin. If heads, draw 3 cards. If tails, draw 2 cards.",
 		de: "Wirf eine Münze. Ziehe bei \"Kopf\" 3 Karten. Ziehe bei \"Zahl\" 2 Karten."
 	},
 
@@ -23,14 +23,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279229,
+				tcgplayer: 85187
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279229,
+				tcgplayer: 85187
+			}
 		},
 	],
-
-	hp: 0
 }
 
 export default card

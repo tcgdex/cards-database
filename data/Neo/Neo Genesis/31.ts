@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
 		fr: "S'il perd un croc, un nouveau poussera pour le remplacer. Il y a toujours 48 crocs dans sa bouche."
 	},
 
-	thirdParty: {
-		cardmarket: 274431,
-		tcgplayer: 84495
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84495
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84495
+			}
 		}
 	]
 }

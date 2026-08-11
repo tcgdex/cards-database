@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 361289,
 		tcgplayer: 170859

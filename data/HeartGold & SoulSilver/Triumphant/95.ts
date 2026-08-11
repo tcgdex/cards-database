@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 150,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur",
+		fr: "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Machamp is on your Bench, you may move all Fighting Energy attached to your Active Pokémon to Machamp. If you do, switch Machamp with your Active Pokémon.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si Mackogneur est sur votre Banc, vous pouvez lui attribuer toutes les cartes Énergie Fighting attachées à votre Pokémon Actif. Dans ce cas, échangez Mackogneur avec votre Pokémon Actif.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Machomei auf deiner Bank befindet, alle an dein Aktives Pokémon angelegten -Energien an Machomei anlegen. Wenn du das machst, tausche Machomei mit deinem Aktiven Pokémon aus."
-			},
+			}
 		},
 	],
 
@@ -98,17 +96,16 @@ const card: Card = {
 	retreat: 3,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86968,
+				cardmarket: 279556
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279556,
-		tcgplayer: 86968
-	}
 }
 
 export default card

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It blankets wide areas in snow by whipping up blizzards. It is also known as \"The Ice Monster.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 388037,
 		tcgplayer: 194963

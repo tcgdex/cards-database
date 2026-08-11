@@ -14,8 +14,18 @@ const card: Card = {
 		'es-mx': "Inteleon"
 	},
 
+	evolveFrom: {
+		en: "Drizzile",
+		fr: "Arrozard",
+		de: "Phlegleon",
+		it: "Drizzile",
+		es: "Drizzile",
+		pt: "Drizzile",
+		'es-mx': "Drizzile",
+	},
+
 	illustrator: "Kazumasa Yasukuni",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
@@ -73,21 +83,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654596,
-		cardmarket: 851045
-	},
+	weaknesses: [{
+		type: "Lightning",
+		value: "x2"
+	}],
 
 	variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 851045,
+				tcgplayer: 654596
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 851046,
+				tcgplayer: 656802
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+	},
+
 	thirdParty: {
 		cardmarket: 280291,
 		tcgplayer: 86086

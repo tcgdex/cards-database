@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		299,
-	],
+	dexId: [299],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -67,19 +65,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278505,
-		tcgplayer: 87802
+	description: {
+		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87802,
+				cardmarket: 278505
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278505,
+				tcgplayer: 87802
+			}
 		}
-	]
+	],
+
 }
 
 export default card

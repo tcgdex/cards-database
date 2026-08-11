@@ -123,6 +123,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 282725,
 		tcgplayer: 98093

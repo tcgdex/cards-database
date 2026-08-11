@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lepumentas"
 	},
 
+	illustrator: "Kazuma Koda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -67,20 +68,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
 	},
 
-	thirdParty: {
-		cardmarket: 608509,
-		tcgplayer: 263775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608509,
+				tcgplayer: 263775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608509,
+				tcgplayer: 263775
+			}
+		},
+	],
 }
 
 export default card

@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It anchors itself by wrapping twigs with the silk from its body. It motionlessly awaits evolution.",
 		fr: "Il s'accroche en enroulant sa soie autour des branches. Il reste immobile en attendant d'évoluer."
 	},
 

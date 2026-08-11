@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It marks time precisely. Some countries consider it to be a wise friend, versed in the world's ways.",
+	},
+
 	thirdParty: {
 		cardmarket: 280969,
 		tcgplayer: 86175

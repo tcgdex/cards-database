@@ -58,23 +58,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet.",
 		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
 	},
 
-	thirdParty: {
-		cardmarket: 274728,
-		tcgplayer: 87997
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274728,
+				tcgplayer: 87997
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274728,
+				tcgplayer: 87997
+			}
 		}
 	]
 }

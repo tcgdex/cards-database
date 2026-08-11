@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is the world's most beautiful Pokémon. There are many works of art featuring Milotic.",
+	},
+
 	thirdParty: {
 		cardmarket: 273575,
 		tcgplayer: 95941

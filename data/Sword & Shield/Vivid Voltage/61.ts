@@ -60,12 +60,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
 	},
 
-	thirdParty: {
-		cardmarket: 511725,
-		tcgplayer: 226459
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511725,
+				tcgplayer: 226459
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511725,
+				tcgplayer: 226459
+			}
+		},
+	],
 }
 
 export default card

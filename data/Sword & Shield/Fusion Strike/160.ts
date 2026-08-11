@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "sowsow",
@@ -52,17 +58,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582788,
-		tcgplayer: 253374
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582788,
+				tcgplayer: 253374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582788,
+				tcgplayer: 253374
+			}
+		},
+	],
 }
 
 export default card

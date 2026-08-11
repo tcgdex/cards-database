@@ -58,23 +58,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
 		fr: "Un liquide spécial recouvre l'extrémité de sa queue. Il l'utilise comme peinture pour marquer son territoire."
 	},
 
-	thirdParty: {
-		cardmarket: 274522,
-		tcgplayer: 89350
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274522,
+				tcgplayer: 89350
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274522,
+				tcgplayer: 89350
+			}
 		}
 	]
 }

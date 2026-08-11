@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It stomps on the ground to build power. It can send a 10-ton truck flying with a straight-arm punch.",
+	},
+
 	thirdParty: {
 		cardmarket: 281716,
 		tcgplayer: 92229

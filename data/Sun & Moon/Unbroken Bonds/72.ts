@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In Alola, Komala is Hypno's main target. It rarely harms people.",
+	},
+
 	thirdParty: {
 		cardmarket: 372360,
 		tcgplayer: 189172

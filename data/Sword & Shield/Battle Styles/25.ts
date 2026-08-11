@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire."
 	},
 
-	thirdParty: {
-		cardmarket: 527635,
-		tcgplayer: 234128
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 527635,
+				tcgplayer: 234128
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527635,
+				tcgplayer: 234128
+			}
+		},
+	],
 }
 
 export default card

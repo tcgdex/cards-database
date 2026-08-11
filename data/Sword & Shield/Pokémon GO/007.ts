@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ariados"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -76,19 +77,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
 	},
 
-	thirdParty: {
-		cardmarket: 664540,
-		tcgplayer: 276945
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665656,
+				tcgplayer: 276945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665656,
+				tcgplayer: 276945
+			}
+		},
+	],
 }
 
 export default card

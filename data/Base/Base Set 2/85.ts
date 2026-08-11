@@ -57,15 +57,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273978,
-		tcgplayer: 42536
+
+	description: {
+		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274008,
+				tcgplayer: 42536
+			}
 		}
 	]
 }

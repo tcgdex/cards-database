@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693037,
+				tcgplayer: 567187,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

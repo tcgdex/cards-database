@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ramoth"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -67,20 +68,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Volcarona scatters burning scales. Some say it does this to start fires. Others say it's trying to rescue those that suffer in the cold.",
 	},
 
-	thirdParty: {
-		cardmarket: 691742,
-		tcgplayer: 478120
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691742,
+				tcgplayer: 478120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691742,
+				tcgplayer: 478120
+			}
+		},
+	],
 }
 
 export default card

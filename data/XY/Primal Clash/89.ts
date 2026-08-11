@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "By spinning its body, it can dig straight through the ground at a speed of 30 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 273620,
 		tcgplayer: 95987

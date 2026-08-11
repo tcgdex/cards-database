@@ -53,6 +53,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+	},
 }
 
 export default card

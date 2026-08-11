@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Calamanero"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -80,6 +80,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+	},
 }
 
 export default card

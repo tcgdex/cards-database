@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It marches over the land in search of bug Pokémon to eat. Then it takes them underwater so it can dine on them where it's safe.",
+	},
+
 	thirdParty: {
 		cardmarket: 295341,
 		tcgplayer: 126902

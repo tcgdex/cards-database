@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		230,
-	],
+	dexId: [230],
 
 	hp: 150,
 
+	stage: "Basic",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,7 +27,7 @@ const card: Card = {
 		fr: "Hypocéan"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -71,21 +70,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86451,
+				cardmarket: 275969
+			},
 		},
 	],
 
-
-	retreat: 3,
-
-	thirdParty: {
-		tcgplayer: 86451,
-		cardmarket: 275969
-	}
 }
 
 export default card

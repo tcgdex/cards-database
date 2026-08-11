@@ -64,23 +64,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat.",
 		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
 	},
 
-	thirdParty: {
-		cardmarket: 274642,
-		tcgplayer: 89542
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274642,
+				tcgplayer: 89542
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274642,
+				tcgplayer: 89542
+			}
 		}
 	]
 }

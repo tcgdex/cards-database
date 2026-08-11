@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Recall",
+		en: "Recall"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274252,
-		tcgplayer: 88650
+	effect: {
+		en: "For your attack this turn, your Active Pokémon can use any attack from its Basic Pokémon card or any Evolution card attached to it. (You still have to pay for that attack's Energy cost.)"
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88650,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88650,
+				cardmarket: 274252
+			}
 		}
-	]
+	],
 }
 
 export default card

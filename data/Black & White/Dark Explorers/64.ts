@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+	},
+
 	thirdParty: {
 		cardmarket: 280392,
 		tcgplayer: 88915

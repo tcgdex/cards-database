@@ -91,10 +91,23 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 299488,
 		tcgplayer: 138576
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274043,
-		tcgplayer: 42562
+	effect: {
+		en: "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274043,
+				tcgplayer: 42562
+			}
 		}
 	]
 }

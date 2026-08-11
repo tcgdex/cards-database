@@ -64,15 +64,20 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275637,
-		tcgplayer: 46481
+
+	description: {
+		en: "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275637,
+				tcgplayer: 46481
+			}
 		}
 	]
 }

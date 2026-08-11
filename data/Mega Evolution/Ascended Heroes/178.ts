@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1024],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -59,13 +60,44 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675990,
-		cardmarket: 869789
-	}
+	description: {
+		en: "The shell is made of crystallized Terastal energy. When struck by a move, this shell absorbs the move’s energy and transfers it to Terapagos.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869789,
+			tcgplayer: 675990
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870414,
+			tcgplayer: 676991
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870413,
+			tcgplayer: 677131
+		}
+	},
+],
 }
 
 export default card

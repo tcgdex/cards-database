@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sichlor"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
 	},
 
-	thirdParty: {
-		cardmarket: 658491,
-		tcgplayer: 272204
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658491,
+				tcgplayer: 272204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658491,
+				tcgplayer: 272204
+			}
+		},
+	],
 }
 
 export default card

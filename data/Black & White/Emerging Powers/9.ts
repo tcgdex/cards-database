@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 279974,
 		tcgplayer: 84445

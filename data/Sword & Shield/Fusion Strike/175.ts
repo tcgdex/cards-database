@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "kawayoo",
@@ -55,17 +67,23 @@ const card: Card = {
 		damage: 110
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582803,
-		tcgplayer: 253389
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582803,
+				tcgplayer: 253389
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582803,
+				tcgplayer: 253389
+			}
+		},
+	],
 }
 
 export default card

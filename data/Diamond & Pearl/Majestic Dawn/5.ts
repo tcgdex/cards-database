@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+	},
+
 	thirdParty: {
 		cardmarket: 278054,
 		tcgplayer: 85744

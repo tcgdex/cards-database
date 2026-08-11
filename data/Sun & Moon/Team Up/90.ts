@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 369020,
 		tcgplayer: 183868

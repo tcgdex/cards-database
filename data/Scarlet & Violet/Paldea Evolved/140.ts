@@ -65,18 +65,46 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715615,
+				tcgplayer: 497645,
+				cardtrader: 248775
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 785703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715615,
+				tcgplayer: 497645,
+				cardtrader: 248775
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 715615
-	}
+	description: {
+		en: "Only the central head has a brain. It is very intelligent, but it thinks only of destruction.",
+	},
 }
 
 export default card

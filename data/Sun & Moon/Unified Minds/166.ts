@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With eyes that can see in pitch-darkness, it never lets its prey escape. Some even call it \"the emperor of dark nights.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 388617,
 		tcgplayer: 195166

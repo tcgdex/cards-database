@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 282704,
 		tcgplayer: 98072

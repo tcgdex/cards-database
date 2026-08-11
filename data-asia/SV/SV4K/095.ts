@@ -5,11 +5,22 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "基本悪エネルギー"
+		ja: "基本悪エネルギー",
+		ko: "기본 악 에너지"
 	},
 
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741525,
+				tcgplayer: 565850,
+			},
+		},
+	],
 }
 
 export default card

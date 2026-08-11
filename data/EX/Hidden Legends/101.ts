@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		40,
-	],
+	dexId: [40],
 
 	hp: 100,
 
+	stage: "Stage1",
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +27,7 @@ const card: Card = {
 		fr: "Rondoudou"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -80,15 +79,14 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276175,
-		tcgplayer: 90603
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 90603,
+				cardmarket: 276175
+			}
+		},
 	]
 }
 

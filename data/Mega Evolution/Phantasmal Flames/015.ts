@@ -48,22 +48,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
+	},
+
+	illustrator: "NC Empire",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857590,
+				tcgplayer: 662147,
+				cardtrader: 356798
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857590,
+				tcgplayer: 662147,
+				cardtrader: 356798
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857590,
-		tcgplayer: 662147
-	}
 }
 
 export default card

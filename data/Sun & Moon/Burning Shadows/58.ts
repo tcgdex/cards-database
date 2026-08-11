@@ -96,10 +96,23 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 299462,
 		tcgplayer: 138540
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

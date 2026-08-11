@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zubat",
+		fr: "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -80,21 +81,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Sneaks up silently on its prey and attacks it from behind, sometimes killing it with one bite.",
 		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure."
 	},
 
-	thirdParty: {
-		cardmarket: 274060,
-		tcgplayer: 84601
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274060,
+				tcgplayer: 84601
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274060,
+				tcgplayer: 84601
+			}
 		}
 	]
 }

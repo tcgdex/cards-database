@@ -67,15 +67,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273949,
-		tcgplayer: 42498
+
+	description: {
+		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273949,
+				tcgplayer: 42498
+			}
 		}
 	]
 }

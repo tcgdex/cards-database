@@ -44,27 +44,51 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760756,
+				tcgplayer: 542870
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760756,
+				tcgplayer: 542870
+			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
-		}
+			thirdParty: {
+				cardmarket: 800145,
+			}
+		},
 	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 760756
-	}
 }
 
 export default card

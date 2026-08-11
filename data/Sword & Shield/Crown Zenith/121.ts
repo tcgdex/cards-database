@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wolly"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,38 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
 	},
 
-	thirdParty: {
-		cardmarket: 691840,
-		tcgplayer: 478159
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691840,
+				tcgplayer: 478159
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691840,
+				tcgplayer: 478159
+			}
+		},
+	],
 }
 
 export default card

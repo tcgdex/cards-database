@@ -66,18 +66,41 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740620,
+				tcgplayer: 523777,
+				cardtrader: 265216
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740620,
+				tcgplayer: 523777,
+				cardtrader: 265216
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
-	thirdParty: {
-		cardmarket: 740620
-	}
+	
 }
 
 export default card

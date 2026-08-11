@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Naoyo Kimura",
@@ -61,17 +73,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582956,
-		tcgplayer: 253320
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582956,
+				tcgplayer: 253320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582956,
+				tcgplayer: 253320
+			}
+		},
+	],
 }
 
 export default card

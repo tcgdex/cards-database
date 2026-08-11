@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
+	},
+
 	thirdParty: {
 		cardmarket: 388427,
 		tcgplayer: 195091

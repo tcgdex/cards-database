@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 361257,
 		tcgplayer: 170818

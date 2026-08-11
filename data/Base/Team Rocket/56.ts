@@ -67,23 +67,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",
 		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
 	},
 
-	thirdParty: {
-		cardmarket: 274109,
-		tcgplayer: 85099
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274109,
+				tcgplayer: 85099
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274109,
+				tcgplayer: 85099
+			}
 		}
 	]
 }

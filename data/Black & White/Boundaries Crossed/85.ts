@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
+	},
+
 	thirdParty: {
 		cardmarket: 280672,
 		tcgplayer: 84510

@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
@@ -37,12 +49,12 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			fr: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			de: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			es: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			pt: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			it: "$$$ABILITY.TITLE.MISSING.TOKEN$$$"
+			en: "Solar Revelation",
+			fr: "Révélation Solaire",
+			de: "Solarschild",
+			es: "Revelación Solar",
+			pt: "Revelação Solar",
+			it: "Rivelasole"
 		},
 
 		effect: {
@@ -79,17 +91,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 583020,
-		tcgplayer: 253265
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 583020,
+				tcgplayer: 253265
+			}
+		},
+	],
 }
 
 export default card

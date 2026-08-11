@@ -72,18 +72,62 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725210,
+				tcgplayer: 509888,
+				cardtrader: 255815
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 727071
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 727070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725210,
+				tcgplayer: 509888,
+				cardtrader: 255815
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 742043
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 725210
-	}
+	
 }
 
 export default card

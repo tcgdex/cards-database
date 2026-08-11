@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+	},
+
 	thirdParty: {
 		cardmarket: 315962,
 		tcgplayer: 157648

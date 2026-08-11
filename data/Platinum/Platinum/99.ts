@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		255,
-	],
+	dexId: [255],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -68,19 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278520,
-		tcgplayer: 89961
+	description: {
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89961,
+				cardmarket: 278520
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278520,
+				tcgplayer: 89961
+			}
 		}
-	]
+	],
+
 }
 
 export default card

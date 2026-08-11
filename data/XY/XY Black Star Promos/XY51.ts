@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -69,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+	},
 
 	thirdParty: {
 		cardmarket: 289704

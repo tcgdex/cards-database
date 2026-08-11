@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magneton"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +55,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
 	},
 
-	thirdParty: {
-		cardmarket: 658767,
-		tcgplayer: 272307
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658767,
+				tcgplayer: 272307
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658767,
+				tcgplayer: 272307
+			}
+		},
+	],
 }
 
 export default card

@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Beware the poisonous liquid it shoots from its right arm. If even a little of it gets on you, you'll experience the effects of the unidentified toxin.",
+	},
+
 	thirdParty: {
 		cardmarket: 297513,
 		tcgplayer: 130957

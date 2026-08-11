@@ -60,26 +60,45 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+	},
+
+	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 858502
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857583,
-		tcgplayer: 662161
-	}
 }
 
 export default card

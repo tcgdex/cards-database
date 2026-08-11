@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+	},
+
 	thirdParty: {
 		cardmarket: 311863,
 		tcgplayer: 149034

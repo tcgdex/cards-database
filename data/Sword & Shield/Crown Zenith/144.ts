@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tausch"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Common",
 	category: "Trainer",
 
@@ -27,17 +28,25 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691863,
-		tcgplayer: 478203
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691863,
+				tcgplayer: 478203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691863,
+				tcgplayer: 478203
+			}
+		},
+	],
 }
 
 export default card

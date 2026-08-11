@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pamomamo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
@@ -74,9 +74,36 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "GIDORA"
+	illustrator: "GIDORA",
+	description: {
+		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 692228,
+				tcgplayer: 487752
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761120,
+				tcgplayer: 522648
+			},
+		}
+	],
 }
 
 export default card

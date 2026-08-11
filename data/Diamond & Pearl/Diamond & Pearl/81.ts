@@ -81,6 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Half of all blackouts occur when this Pokémon appears at power plants and eats electricity.",
 		fr: "Ce Pokémon dévore l'électricité des centrales. Il est responsable de la majorité des coupures de courant."
 	},
 

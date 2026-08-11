@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pixi"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -65,20 +66,36 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
 	},
 
-	thirdParty: {
-		cardmarket: 608504,
-		tcgplayer: 263770
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608504,
+				tcgplayer: 263770
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608504,
+				tcgplayer: 263770
+			}
+		},
+	],
 }
 
 export default card

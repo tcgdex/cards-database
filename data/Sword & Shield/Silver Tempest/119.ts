@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Metagross"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -76,20 +77,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Because the magnetic powers of these Pokémon get stronger in freezing temperatures, Metagross living on snowy mountains are full of energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 682166,
-		tcgplayer: 451773
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682166,
+				tcgplayer: 451773
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682166,
+				tcgplayer: 451773
+			}
+		},
+	],
 }
 
 export default card

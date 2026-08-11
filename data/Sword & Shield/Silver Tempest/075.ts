@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Symvolara"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -55,20 +56,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
 	},
 
-	thirdParty: {
-		cardmarket: 682122,
-		tcgplayer: 451729
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682122,
+				tcgplayer: 451729
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682122,
+				tcgplayer: 451729
+			}
+		},
+	],
 }
 
 export default card

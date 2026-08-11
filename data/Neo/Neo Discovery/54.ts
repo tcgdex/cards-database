@@ -60,21 +60,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
 		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
 	},
 
-	thirdParty: {
-		cardmarket: 274565,
-		tcgplayer: 85007
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274565,
+				tcgplayer: 85007
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274565,
+				tcgplayer: 85007
+			}
 		}
 	]
 }

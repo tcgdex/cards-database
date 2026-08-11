@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
+	},
+
 	thirdParty: {
 		cardmarket: 295406,
 		tcgplayer: 126967

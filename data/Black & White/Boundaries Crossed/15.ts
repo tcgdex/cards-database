@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280602,
 		tcgplayer: 90569

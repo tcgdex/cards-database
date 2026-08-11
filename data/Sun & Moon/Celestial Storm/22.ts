@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
+	},
+
 	thirdParty: {
 		cardmarket: 361269,
 		tcgplayer: 170832

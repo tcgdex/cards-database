@@ -55,15 +55,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273989,
-		tcgplayer: 42485
+
+	description: {
+		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273989,
+				tcgplayer: 42485
+			}
 		}
 	]
 }

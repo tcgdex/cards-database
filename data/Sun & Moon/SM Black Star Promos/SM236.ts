@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Alola-Sandamer GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Water"],
@@ -80,7 +81,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
 }
 
 export default card

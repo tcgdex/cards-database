@@ -55,6 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
 		fr: "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste."
 	},
 

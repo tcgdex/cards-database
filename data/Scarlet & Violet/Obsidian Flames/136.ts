@@ -66,18 +66,48 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725216,
+				tcgplayer: 509900,
+				cardtrader: 255821
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 858721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725216,
+				tcgplayer: 509900,
+				cardtrader: 255821
+			}
+		},
+	],
 
 	illustrator: "Bun Toujo",
 
-	thirdParty: {
-		cardmarket: 725216
-	}
+	
 }
 
 export default card

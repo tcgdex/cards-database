@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
+		fr: "Ortide obscur"
 	},
 
 	stage: "Stage2",
@@ -73,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
 		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
 	},
 
-	thirdParty: {
-		cardmarket: 274066,
-		tcgplayer: 84668
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274066,
+				tcgplayer: 84668
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274066,
+				tcgplayer: 84668
+			}
 		}
 	]
 }

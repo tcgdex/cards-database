@@ -69,8 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.",
+	},
+
 	thirdParty: {
-		cardmarket: 408389
+		cardmarket: 408394
 	}
 }
 

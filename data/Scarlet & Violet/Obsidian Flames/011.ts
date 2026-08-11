@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725091,
+				tcgplayer: 509671,
+				cardtrader: 255571
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725091,
+				tcgplayer: 509671,
+				cardtrader: 255571
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 725091
-	}
+	
 }
 
 export default card

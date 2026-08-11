@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If for some reason its body bursts, its soul spills out with a screaming sound.",
+	},
+
 	thirdParty: {
 		cardmarket: 315981,
 		tcgplayer: 157668

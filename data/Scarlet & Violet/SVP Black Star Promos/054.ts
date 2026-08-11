@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Quajutsu-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Water"],
@@ -72,9 +72,25 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "takuyoa"
+	suffix: "ex",
+	illustrator: "takuyoa",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 723928,
+				tcgplayer: 518878
+			},
+		}
+	],
 }
 
 export default card

@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
 	},
 
-	thirdParty: {
-		cardmarket: 539088,
-		tcgplayer: 232389
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539088,
+				tcgplayer: 232389
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539088,
+				tcgplayer: 232389
+			}
+		},
+	],
 }
 
 export default card

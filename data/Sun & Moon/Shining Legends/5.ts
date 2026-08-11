@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+	},
+
 	thirdParty: {
 		cardmarket: 302143,
 		tcgplayer: 146657

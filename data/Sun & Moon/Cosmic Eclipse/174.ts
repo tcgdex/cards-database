@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon has excellent judgment. If it decides it can't defeat an opponent, it immediately turns tail and vamooses.",
+	},
+
 	thirdParty: {
 		cardmarket: 408494,
 		tcgplayer: 201296

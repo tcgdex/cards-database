@@ -86,12 +86,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
 	},
 
-	thirdParty: {
-		cardmarket: 457458,
-		tcgplayer: 213083
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457458,
+				tcgplayer: 213083
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457458,
+				tcgplayer: 213083
+			}
+		},
+	],
 }
 
 export default card

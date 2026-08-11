@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its round face and smooth coat—softer than the most high-class velvet—have made this a very popular Pokémon in Alola.",
+	},
+
 	thirdParty: {
 		cardmarket: 295390,
 		tcgplayer: 126951

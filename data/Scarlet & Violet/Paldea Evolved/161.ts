@@ -65,18 +65,46 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715636,
+				tcgplayer: 497579,
+				cardtrader: 248815
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858719
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715636,
+				tcgplayer: 497579,
+				cardtrader: 248815
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 715636
-	}
+	description: {
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+	},
 }
 
 export default card

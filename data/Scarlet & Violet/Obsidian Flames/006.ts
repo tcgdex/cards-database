@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725086,
+				tcgplayer: 509658,
+				cardtrader: 255566
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725086,
+				tcgplayer: 509658,
+				cardtrader: 255566
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 725086
-	}
+	
 }
 
 export default card

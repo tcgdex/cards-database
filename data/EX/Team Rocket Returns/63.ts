@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Larvitar"
 	},
 
-	illustrator: "Midroi Harada",
+	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -62,27 +62,36 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276354,
-		tcgplayer: 86638
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276355,
+				tcgplayer: 86638
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276355,
+				tcgplayer: 86638
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
-		}
-	]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871535,
+				tcgplayer: 477544
+			},
+		},
+	],
+
 }
 
 export default card

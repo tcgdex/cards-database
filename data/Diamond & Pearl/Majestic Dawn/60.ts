@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
+	},
+
 	thirdParty: {
 		cardmarket: 278109,
 		tcgplayer: 84474

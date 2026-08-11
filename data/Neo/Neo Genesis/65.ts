@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
 		fr: "Si de l'électricité statique s'accumule dans son corps, sa toison double de volume. Tout contact avec lui vous électrocute."
 	},
 
-	thirdParty: {
-		cardmarket: 274465,
-		tcgplayer: 87193
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274465,
+				tcgplayer: 87193
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274465,
+				tcgplayer: 87193
+			}
 		}
 	]
 }

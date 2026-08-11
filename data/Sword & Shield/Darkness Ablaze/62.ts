@@ -68,12 +68,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -81,10 +75,22 @@ const card: Card = {
 		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
-	thirdParty: {
-		cardmarket: 483189,
-		tcgplayer: 219416
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483189,
+				tcgplayer: 219416
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483189,
+				tcgplayer: 219416
+			}
+		},
+	],
 }
 
 export default card

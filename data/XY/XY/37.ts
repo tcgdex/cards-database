@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 281374,
 		tcgplayer: 87930

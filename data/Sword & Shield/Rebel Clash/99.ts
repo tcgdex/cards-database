@@ -49,12 +49,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -62,10 +56,22 @@ const card: Card = {
 		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
 	},
 
-	thirdParty: {
-		cardmarket: 457908,
-		tcgplayer: 213187
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457908,
+				tcgplayer: 213187
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457908,
+				tcgplayer: 213187
+			}
+		},
+	],
 }
 
 export default card

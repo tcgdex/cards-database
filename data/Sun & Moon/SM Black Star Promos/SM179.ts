@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Volcanion"
 	},
 
-	rarity: "Rare",
+	illustrator: "Hasuno",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
@@ -68,7 +69,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
+	},
 }
 
 export default card

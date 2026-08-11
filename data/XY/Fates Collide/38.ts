@@ -65,6 +65,10 @@ const card: Card = {
 		de: "Domfossil Kabuto"
 	},
 
+	description: {
+		en: "This Pokémon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell.",
+	},
+
 	thirdParty: {
 		cardmarket: 289864,
 		tcgplayer: 117798

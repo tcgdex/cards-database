@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The tradition known as Pyukumuku chucking started from the custom of throwing Pyukumuku back into the sea after they wash onshore.",
+	},
+
 	thirdParty: {
 		cardmarket: 388087,
 		tcgplayer: 194975

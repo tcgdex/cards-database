@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Clean, clear waters are its usual habitat. When it's about to be attacked by an invading enemy, it dives into the water to hide.",
+	},
+
 	thirdParty: {
 		cardmarket: 396607,
 		tcgplayer: 197662

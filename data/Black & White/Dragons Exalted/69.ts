@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+	},
+
 	thirdParty: {
 		cardmarket: 280508,
 		tcgplayer: 88939

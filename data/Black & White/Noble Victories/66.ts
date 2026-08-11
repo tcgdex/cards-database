@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+	},
+
 	thirdParty: {
 		cardmarket: 280189,
 		tcgplayer: 83607

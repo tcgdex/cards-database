@@ -8,7 +8,7 @@ const card: Card = {
 		en: "Pikachu",
 		fr: "Pikachu"
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -44,12 +44,18 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: ["worlds-2025"],
+			thirdParty: {
+				tcgplayer: 648631
+			},
 		},
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 649940
+			},
 		},
 	]
 }

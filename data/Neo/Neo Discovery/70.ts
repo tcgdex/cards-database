@@ -53,23 +53,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
 		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274581,
-		tcgplayer: 90538
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274581,
+				tcgplayer: 90538
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274581,
+				tcgplayer: 90538
+			}
 		}
 	]
 }

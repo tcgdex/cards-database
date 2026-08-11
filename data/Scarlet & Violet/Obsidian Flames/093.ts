@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725173,
+				tcgplayer: 509872,
+				cardtrader: 255778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725173,
+				tcgplayer: 509872,
+				cardtrader: 255778
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 725173
-	}
+	
 }
 
 export default card

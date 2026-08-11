@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Arkani"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
 	},
 
-	thirdParty: {
-		cardmarket: 658660,
-		tcgplayer: 272272
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658660,
+				tcgplayer: 272272
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658660,
+				tcgplayer: 272272
+			}
+		},
+	],
 }
 
 export default card

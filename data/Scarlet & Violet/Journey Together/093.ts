@@ -47,22 +47,32 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 817245
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817245,
+				tcgplayer: 623520
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817245,
+				tcgplayer: 623520
+			}
 		},
-	]
+	],
 }
 
 export default card

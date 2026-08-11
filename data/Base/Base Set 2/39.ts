@@ -61,15 +61,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273962,
-		tcgplayer: 42478
+
+	description: {
+		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273962,
+				tcgplayer: 42478
+			}
 		}
 	]
 }

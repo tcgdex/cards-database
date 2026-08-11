@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent."
 	},
 
-	thirdParty: {
-		cardmarket: 567097,
-		tcgplayer: 241666
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567097,
+				tcgplayer: 241666
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567097,
+				tcgplayer: 241666
+			}
+		},
+	],
 }
 
 export default card

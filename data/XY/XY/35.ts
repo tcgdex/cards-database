@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.",
+	},
+
 	thirdParty: {
 		cardmarket: 281372,
 		tcgplayer: 86625

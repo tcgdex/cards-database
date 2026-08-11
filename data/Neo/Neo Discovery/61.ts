@@ -53,23 +53,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 		fr: "Il aime faire épaissir sa carapace en y ajoutant des couches d'écorce. Le poids supplémentaire ne le dérange pas."
 	},
 
-	thirdParty: {
-		cardmarket: 274572,
-		tcgplayer: 88122
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274572,
+				tcgplayer: 88122
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274572,
+				tcgplayer: 88122
+			}
 		}
 	]
 }

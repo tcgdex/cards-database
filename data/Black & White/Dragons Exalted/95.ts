@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+	},
+
 	thirdParty: {
 		cardmarket: 280534,
 		tcgplayer: 90780

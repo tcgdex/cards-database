@@ -44,6 +44,16 @@ const card: Card = {
 		value: "－30"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 787579,
+				tcgplayer: 579401,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Double rare",
@@ -62,7 +72,7 @@ const card: Card = {
 			'zh-cn': "只要這隻寶可夢在場上，自己的所有【基礎】寶可夢【撤退】所需的能量全部消除。",
 			ja: "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。"
 		}
-	}]
+	}],
 }
 
 export default card

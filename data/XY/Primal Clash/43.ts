@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+	},
+
 	thirdParty: {
 		cardmarket: 273574,
 		tcgplayer: 95940

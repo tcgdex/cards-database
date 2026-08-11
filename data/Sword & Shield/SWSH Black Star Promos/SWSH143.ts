@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -21,7 +27,7 @@ const card: Card = {
 		it: "Pikachu V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -56,7 +62,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 496545
+		cardmarket: 461594
 	}
 }
 

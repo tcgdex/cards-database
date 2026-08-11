@@ -47,12 +47,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -60,10 +54,22 @@ const card: Card = {
 		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
 	},
 
-	thirdParty: {
-		cardmarket: 545586,
-		tcgplayer: 234188
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545586,
+				tcgplayer: 234188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545586,
+				tcgplayer: 234188
+			}
+		},
+	],
 }
 
 export default card

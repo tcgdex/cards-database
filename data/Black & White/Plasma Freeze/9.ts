@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "By storing water in its body, this desert dweller can survive for 30 days without water.",
+	},
+
 	thirdParty: {
 		cardmarket: 280887,
 		tcgplayer: 84077

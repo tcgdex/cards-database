@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -98,10 +92,29 @@ const card: Card = {
 		en: "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves."
 	},
 
-	thirdParty: {
-		cardmarket: 483429,
-		tcgplayer: 219423
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483429,
+				tcgplayer: 219423
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['thank-you'],
+			thirdParty: {
+				cardmarket: 547941
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483429,
+				tcgplayer: 219423
+			}
+		},
+	],
 }
 
 export default card

@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+	},
+
 	thirdParty: {
 		cardmarket: 278051,
 		tcgplayer: 84468

@@ -58,6 +58,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+	},
 }
 
 export default card

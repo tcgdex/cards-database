@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
+	},
 }
 
 export default card

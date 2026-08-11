@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",
 		fr: "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
 	},
 
-	thirdParty: {
-		cardmarket: 274760,
-		tcgplayer: 89165
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
 		}
 	]
 }

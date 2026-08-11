@@ -48,8 +48,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+	},
+
 	thirdParty: {
-		cardmarket: 394587,
+		cardmarket: 396647,
 		tcgplayer: 197694
 	}
 }

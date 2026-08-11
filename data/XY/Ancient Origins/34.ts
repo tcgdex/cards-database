@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Ancient science fashioned this Pokémon from clay. It's been active for thousands of years.",
+	},
+
 	thirdParty: {
 		cardmarket: 284215,
 		tcgplayer: 101457

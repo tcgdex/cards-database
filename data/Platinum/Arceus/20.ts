@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		297,
-	],
+	dexId: [297],
 	
 	hp: 110,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
+		en: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -75,19 +73,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 278892,
-		tcgplayer: 86015
+	description: {
+		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86015,
+				cardmarket: 278892
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278892,
+				tcgplayer: 86015
+			}
+		},
+	],
+
 }
 
 export default card

@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "Naoki Saito",
@@ -68,17 +80,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582611,
-		tcgplayer: 253147
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582987,
+				tcgplayer: 253147
+			}
+		},
+	],
 }
 
 export default card

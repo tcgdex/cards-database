@@ -44,18 +44,49 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740513,
+				tcgplayer: 523646,
+				cardtrader: 265172
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785465
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740513,
+				tcgplayer: 523646,
+				cardtrader: 265172
+			}
+		},
+	],
 
 	illustrator: "satoma",
 
-	thirdParty: {
-		cardmarket: 740513
-	}
+	
 }
 
 export default card

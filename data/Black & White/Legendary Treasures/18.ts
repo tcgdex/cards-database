@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+	},
+
 	thirdParty: {
 		cardmarket: 281169,
 		tcgplayer: 84235

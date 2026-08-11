@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.",
+	},
+
 	thirdParty: {
 		cardmarket: 388707,
 		tcgplayer: 195214

@@ -56,6 +56,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+	},
 
 	thirdParty: {
 		cardmarket: 281141

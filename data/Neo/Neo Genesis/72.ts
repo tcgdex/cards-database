@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The Berries it stores in its vaselike shell decompose and become a gooey liquid.",
 		fr: "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant."
 	},
 
-	thirdParty: {
-		cardmarket: 274472,
-		tcgplayer: 89188
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274472,
+				tcgplayer: 89188
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274472,
+				tcgplayer: 89188
+			}
 		}
 	]
 }

@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit."
 	},
 
-	thirdParty: {
-		cardmarket: 511550,
-		tcgplayer: 226396
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511550,
+				tcgplayer: 226396
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511550,
+				tcgplayer: 226396
+			}
+		},
+	],
 }
 
 export default card

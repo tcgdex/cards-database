@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Spacing out is basically all it does. It turns back into Slowpoke if its tail, along with Shellder, breaks off.",
+	},
+
 	thirdParty: {
 		cardmarket: 372334,
 		tcgplayer: 189142

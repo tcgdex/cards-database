@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+	},
+
 	thirdParty: {
 		cardmarket: 291534,
 		tcgplayer: 121130

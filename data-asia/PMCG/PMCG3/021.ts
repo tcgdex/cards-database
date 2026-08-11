@@ -4,9 +4,10 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Omastar",
+		ja: "オムスター",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [139],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575705
+			},
 		},
 	],
 };

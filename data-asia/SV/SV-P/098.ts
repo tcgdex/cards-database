@@ -1,48 +1,61 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "拉帝亞斯"
+		ja: "名探偵ピカチュウ",
+		'zh-tw': "拉帝亞斯",
 	},
 
-	illustrator: "hncl",
+	illustrator: "MINAMINAMI Take",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Psychic"],
+	hp: 90,
+	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "透過心靈感應和人類交流情感。 會用能令光線折射的羽毛 變化成其他的樣子。"
+		ja: "調査には 根気が 必要。 粘り強い調査で 事件の手がかりを 探し出せ！",
+		'zh-tw': "透過心靈感應和人類交流情感。 會用能令光線折射的羽毛 變化成其他的樣子。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "0"
+	attacks: [
+		{
+			name: {
+				ja: "てっていちょうさ",
+				'zh-tw': "0",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'zh-tw': "‌若這隻寶可夢身上附有【超】能量，則將這隻寶可夢【撤退】所需的能量全部消除。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "‌若這隻寶可夢身上附有【超】能量，則將這隻寶可夢【撤退】所需的能量全部消除。"
+		{
+			name: { ja: "ライドダッシュ" },
+			damage: 50,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 0
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 727072,
+				tcgplayer: 587856,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [25],
+};
 
-	retreat: 2,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

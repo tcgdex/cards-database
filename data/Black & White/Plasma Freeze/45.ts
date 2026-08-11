@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280923,
 		tcgplayer: 85915

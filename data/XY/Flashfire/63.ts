@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 281545
 	}

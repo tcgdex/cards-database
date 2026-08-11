@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It rides on the wind and slips into people's homes. After it has turned a room into a cotton-filled mess, it giggles to itself and takes off.",
+	},
+
 	thirdParty: {
 		cardmarket: 297547,
 		tcgplayer: 131005

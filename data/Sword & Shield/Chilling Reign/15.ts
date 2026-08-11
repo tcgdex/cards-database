@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "A kick from the hardened tips of this Pokémon's legs leaves a wound in the opponent's body and soul that will never heal."
 	},
 
-	thirdParty: {
-		cardmarket: 567095,
-		tcgplayer: 241664
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567095,
+				tcgplayer: 241664
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567095,
+				tcgplayer: 241664
+			}
+		},
+	],
 }
 
 export default card

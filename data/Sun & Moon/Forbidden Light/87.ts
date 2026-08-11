@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When this Pokémon sights its prey, it swirls its ribbonlike feelers as a distraction. A moment later, it pounces.",
+	},
+
 	thirdParty: {
 		cardmarket: 355601,
 		tcgplayer: 165745

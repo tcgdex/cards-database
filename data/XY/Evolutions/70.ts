@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious.",
+	},
+
 	thirdParty: {
 		cardmarket: 293430,
 		tcgplayer: 124083

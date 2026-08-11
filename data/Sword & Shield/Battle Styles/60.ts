@@ -56,12 +56,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "There's enough psychic power in Espurr to send a wrestler flying, but because this power can't be controlled, Espurr finds it troublesome."
 	},
 
-	thirdParty: {
-		cardmarket: 545411,
-		tcgplayer: 234232
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545411,
+				tcgplayer: 234232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545411,
+				tcgplayer: 234232
+			}
+		},
+	],
 }
 
 export default card

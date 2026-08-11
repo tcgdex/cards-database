@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Magearna-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -65,6 +65,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 
 

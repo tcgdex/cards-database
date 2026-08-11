@@ -66,23 +66,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
 		fr: "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
 	},
 
-	thirdParty: {
-		cardmarket: 274589,
-		tcgplayer: 84141
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274589,
+				tcgplayer: 84141
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274589,
+				tcgplayer: 84141
+			}
 		}
 	]
 }

@@ -65,18 +65,41 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733707,
+				tcgplayer: 516573,
+				cardtrader: 261213
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733707,
+				tcgplayer: 516573,
+				cardtrader: 261213
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 733707
-	}
+	
 }
 
 export default card

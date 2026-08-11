@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+	},
+
 	thirdParty: {
 		cardmarket: 281001,
 		tcgplayer: 84938

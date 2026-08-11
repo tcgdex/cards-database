@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
+	},
+
 	thirdParty: {
 		cardmarket: 388307,
 		tcgplayer: 195040

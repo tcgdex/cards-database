@@ -65,12 +65,6 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
 	},
 
-	thirdParty: {
-		cardmarket: 458013,
-		tcgplayer: 213219
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458013,
+				tcgplayer: 213219
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458013,
+				tcgplayer: 213219
+			}
+		},
+	],
 }
 
 export default card

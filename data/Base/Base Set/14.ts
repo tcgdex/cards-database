@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu",
 		it: "Pikachu"
 	},
 
@@ -83,8 +84,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution.",
 		it: "Ha una coda molto lunga che gli serve come messa a terra per proteggersi dalle scariche ad alta tensione che emana dal suo corpo. LIV 40 N.26"
 	},
@@ -93,27 +97,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273709,
+				tcgplayer: 42354
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107009
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107009
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
 	],
-
-
-	thirdParty: {
-		cardmarket: 273709,
-		tcgplayer: 42354
-	}
 }
 
 export default card

@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
+	},
+
 	thirdParty: {
 		cardmarket: 280692,
 		tcgplayer: 88607

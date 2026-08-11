@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grows up imitating the behavior of Pangoro, which it looks up to as a leader.",
+	},
+
 	thirdParty: {
 		cardmarket: 297533,
 		tcgplayer: 130982

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Britzigel"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -64,20 +65,38 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
 	},
 
-	thirdParty: {
-		cardmarket: 691773,
-		tcgplayer: 478170
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691773,
+				tcgplayer: 478170
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691773,
+				tcgplayer: 478170
+			}
+		},
+	],
 }
 
 export default card

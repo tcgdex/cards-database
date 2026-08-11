@@ -57,18 +57,39 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715543,
+				tcgplayer: 497479,
+				cardtrader: 248688
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715543,
+				tcgplayer: 497479,
+				cardtrader: 248688
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 715543
-	}
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+	},
 }
 
 export default card

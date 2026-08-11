@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280388,
 		tcgplayer: 90149

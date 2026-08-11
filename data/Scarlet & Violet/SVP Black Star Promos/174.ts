@@ -15,9 +15,10 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Natsuko Shoji été",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Colorless"],
@@ -61,7 +62,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 810392,
+				tcgplayer: 632083
+			},
+		}
+	],
 }
 
 export default card

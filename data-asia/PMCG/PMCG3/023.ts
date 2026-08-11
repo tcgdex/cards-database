@@ -4,9 +4,10 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "articuno",
+		ja: "フリーザー",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [144],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575680
+			},
 		},
 	],
 };

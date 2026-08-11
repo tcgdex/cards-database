@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mewtwo ex da Equipe Rocket"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -71,13 +72,30 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675891,
-		cardmarket: 869690
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869690,
+				tcgplayer: 675891
+			}
+		}
+	],
 }
 
 export default card

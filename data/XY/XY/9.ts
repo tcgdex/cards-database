@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky.",
+	},
+
 	thirdParty: {
 		cardmarket: 281346,
 		tcgplayer: 86269

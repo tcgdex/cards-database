@@ -4,15 +4,19 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのスニーク攻撃",
+		ja: "ロケット団のおねーさん",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575756
+			},
 		},
 	],
 };

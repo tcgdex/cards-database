@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "inose yukie",
 
-	thirdParty: {
-		cardmarket: 805524
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805524,
+				tcgplayer: 610485
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805524,
+				tcgplayer: 610485
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806606,
+				tcgplayer: 610636
+			}
+		},
+	],
 }
 
 export default card

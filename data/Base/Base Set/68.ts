@@ -55,29 +55,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
 		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.",
 		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
 	},
 
-	thirdParty: {
-		cardmarket: 273763,
-		tcgplayer: 42413
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273763,
+				tcgplayer: 42413
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107065
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107065
+			},
 		},
 		{
 			type: "normal",

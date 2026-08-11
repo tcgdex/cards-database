@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
 	},
 
-	thirdParty: {
-		cardmarket: 511630,
-		tcgplayer: 226427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511630,
+				tcgplayer: 226427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511630,
+				tcgplayer: 226427
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Donphan"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
 	},
 
-	thirdParty: {
-		cardmarket: 682139,
-		tcgplayer: 451746
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682139,
+				tcgplayer: 451746
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682139,
+				tcgplayer: 451746
+			}
+		},
+	],
 }
 
 export default card

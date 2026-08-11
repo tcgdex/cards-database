@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		195,
-	],
+	dexId: [195],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Wooper",
-		fr: "Axoloto",
+		fr: "Axoloto"
 	},
 
 	stage: "Stage1",
@@ -43,7 +41,7 @@ const card: Card = {
 				de: "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 1 of your opponetn's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à l’un des Pokémon du Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -90,17 +88,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88473,
+				cardmarket: 278981
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88473,
+				cardmarket: 278981
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278981,
-		tcgplayer: 88473
-	}
 }
 
 export default card

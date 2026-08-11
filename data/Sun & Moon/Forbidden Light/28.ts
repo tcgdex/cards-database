@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 355547,
 		tcgplayer: 165679

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Togepi"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
 	},
 
-	thirdParty: {
-		cardmarket: 658617,
-		tcgplayer: 272256
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658617,
+				tcgplayer: 272256
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658617,
+				tcgplayer: 272256
+			}
+		},
+	],
 }
 
 export default card

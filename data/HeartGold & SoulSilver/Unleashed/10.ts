@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		389,
-	],
+	dexId: [389],
 
 	hp: 140,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Grotle",
-		fr: "Boskara",
+		fr: "Boskara"
 	},
 
 	stage: "Stage2",
@@ -83,21 +81,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89987,
+				cardmarket: 279166
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89987,
+				cardmarket: 279166
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 153265
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279166,
-		tcgplayer: 89987
-	}
 }
 
 export default card

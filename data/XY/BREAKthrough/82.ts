@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+	},
+
 	thirdParty: {
 		cardmarket: 286328,
 		tcgplayer: 107201

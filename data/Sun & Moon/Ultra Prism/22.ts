@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+	},
+
 	thirdParty: {
 		cardmarket: 315953,
 		tcgplayer: 157639

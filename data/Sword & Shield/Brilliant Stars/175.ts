@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elfun VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 250,
@@ -75,20 +76,26 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608515,
-		tcgplayer: 263895
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 608721,
+				tcgplayer: 263895
+			}
+		},
+	],
 }
 
 export default card

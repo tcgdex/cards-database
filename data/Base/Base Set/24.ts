@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
+		fr: "Salamèche",
 		it: "Charmander"
 	},
 
@@ -75,15 +76,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273719,
+				tcgplayer: 42365
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107021
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107021
+			}
 		},
 		{
 			type: "normal",
@@ -96,16 +107,14 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
 		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
 	},
-
-	thirdParty: {
-		cardmarket: 273719,
-		tcgplayer: 42365
-	}
 }
 
 export default card

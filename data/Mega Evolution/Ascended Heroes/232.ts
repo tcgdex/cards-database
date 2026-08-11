@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Rond",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [183],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,13 +60,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676044,
-		cardmarket: 869843
-	}
+	description: {
+		en: "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869843,
+				tcgplayer: 676044
+			}
+		}
+	],
 }
 
 export default card

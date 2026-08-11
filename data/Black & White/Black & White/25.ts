@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When weakened in battle, it transforms into a stone statue, then it sharpens its mind and fights on mentally.",
+	},
+
 	thirdParty: {
 		cardmarket: 279763,
 		tcgplayer: 84713

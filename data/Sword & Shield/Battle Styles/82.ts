@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,43 @@ const card: Card = {
 		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	},
 
-	thirdParty: {
-		cardmarket: 545521,
-		tcgplayer: 234259
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545521,
+				tcgplayer: 234259
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 569897
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 569898
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 883789
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545521,
+				tcgplayer: 234259
+			}
+		},
+	],
 }
 
 export default card

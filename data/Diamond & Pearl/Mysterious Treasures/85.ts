@@ -51,8 +51,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
 		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
 	},
 

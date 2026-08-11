@@ -54,10 +54,20 @@ const card: Card = {
 		cost: ["Water", "Metal"]
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787601,
+				tcgplayer: 579423,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "H",
 	rarity: "Uncommon",
-	dexId: [334]
+	dexId: [334],
 }
 
 export default card

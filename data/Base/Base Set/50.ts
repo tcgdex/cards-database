@@ -74,27 +74,34 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
 		fr: "Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles s'en aperçoivent.",
 		it: "Praticamente invisibile, questo Pokémon gassoso avvolge la sua preda in una nuvola di gas che la fa immediatamente addormentare. LIV 8 N.92"
 	},
 
-	thirdParty: {
-		cardmarket: 273745,
-		tcgplayer: 42394
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273745,
+				tcgplayer: 42394
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107047
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107047
+			},
 		},
 		{
 			type: "normal",

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
+	},
+
 	thirdParty: {
 		cardmarket: 387922,
 		tcgplayer: 194934

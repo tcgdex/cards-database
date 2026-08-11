@@ -70,23 +70,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
 		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté."
 	},
 
-	thirdParty: {
-		cardmarket: 274548,
-		tcgplayer: 84437
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274548,
+				tcgplayer: 84437
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274548,
+				tcgplayer: 84437
+			}
 		}
 	]
 }

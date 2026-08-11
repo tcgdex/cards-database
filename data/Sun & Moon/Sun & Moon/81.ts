@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they're rather cowardly.",
+	},
+
 	thirdParty: {
 		cardmarket: 295392,
 		tcgplayer: 126953

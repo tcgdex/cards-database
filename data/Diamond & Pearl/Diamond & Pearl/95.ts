@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
 		fr: "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
 	},
 

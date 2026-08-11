@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Bauz"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+	},
 }
 
 export default card

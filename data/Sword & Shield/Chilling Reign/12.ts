@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
 	},
 
-	thirdParty: {
-		cardmarket: 567092,
-		tcgplayer: 241661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567092,
+				tcgplayer: 241661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567092,
+				tcgplayer: 241661
+			}
+		},
+	],
 }
 
 export default card

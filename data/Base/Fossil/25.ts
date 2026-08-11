@@ -69,25 +69,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A Pokémon that has been overhunted almost to extinction. It can ferry people across water.",
 		fr: "Ce Pokémon en voie d'extinction peut transporter des passagers sur son dos par-delà les océans."
 	},
 
-	thirdParty: {
-		cardmarket: 273871,
-		tcgplayer: 106527
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273871,
+				tcgplayer: 106527
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273871,
+				tcgplayer: 106527
+			}
 		},
 		{
 			type: "normal",

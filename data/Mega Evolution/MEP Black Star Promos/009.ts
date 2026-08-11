@@ -14,8 +14,18 @@ const card: Card = {
 		'es-mx': "Alakazam"
 	},
 
+	evolveFrom: {
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra",
+		it: "Kadabra",
+		es: "Kadabra",
+		pt: "Kadabra",
+		'es-mx': "Kadabra",
+	},
+
 	illustrator: "Aya Kusube",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
@@ -73,19 +83,33 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654597,
-		cardmarket: 851055
-	},
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 851055,
+				tcgplayer: 656259
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 851056,
+				tcgplayer: 656261
+			}
+		},
+	],
 }
 
 export default card

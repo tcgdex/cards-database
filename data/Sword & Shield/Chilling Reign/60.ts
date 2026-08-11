@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "It has a psychic power that enables it to distort the space around it and see into the future."
 	},
 
-	thirdParty: {
-		cardmarket: 567168,
-		tcgplayer: 241721
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567168,
+				tcgplayer: 241721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567168,
+				tcgplayer: 241721
+			}
+		},
+	],
 }
 
 export default card

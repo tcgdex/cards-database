@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lin-Fu"
 	},
 
+	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -51,16 +52,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674116,
-		tcgplayer: 283997
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674116,
+				tcgplayer: 283997
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674116,
+				tcgplayer: 283997
+			}
+		},
+	],
 }
 
 export default card

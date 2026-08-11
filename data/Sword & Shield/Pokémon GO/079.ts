@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mewtu VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -75,19 +76,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664571,
-		tcgplayer: 277011
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 665690,
+				tcgplayer: 277011
+			}
+		},
+	],
 }
 
 export default card

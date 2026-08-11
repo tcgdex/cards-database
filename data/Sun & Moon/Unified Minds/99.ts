@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+	},
+
 	thirdParty: {
 		cardmarket: 388002,
 		tcgplayer: 195033

@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の場のたねポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693066,
+				tcgplayer: 567217,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

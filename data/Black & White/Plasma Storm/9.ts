@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280749,
 		tcgplayer: 89668

@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
@@ -72,17 +84,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582632,
-		tcgplayer: 253288
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582632,
+				tcgplayer: 253288
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582632,
+				tcgplayer: 253288
+			}
+		},
+	],
 }
 
 export default card

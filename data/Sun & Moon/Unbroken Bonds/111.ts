@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "People believe that carrying one of its discarded fangs will prevent mishaps at sea, so the fangs are made into accessories.",
+	},
+
 	thirdParty: {
 		cardmarket: 372401,
 		tcgplayer: 189211

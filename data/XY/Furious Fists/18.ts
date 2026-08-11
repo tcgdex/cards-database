@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+	},
+
 	thirdParty: {
 		cardmarket: 281682,
 		tcgplayer: 92193

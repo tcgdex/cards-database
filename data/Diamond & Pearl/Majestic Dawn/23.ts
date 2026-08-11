@@ -83,6 +83,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It controls 10,000-volt power and can raise all the furs on its body as if it were sharp needles.",
+	},
+
 	thirdParty: {
 		cardmarket: 278072,
 		tcgplayer: 86343

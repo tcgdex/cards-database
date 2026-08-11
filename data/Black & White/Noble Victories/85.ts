@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+	},
+
 	thirdParty: {
 		cardmarket: 280208,
 		tcgplayer: 83662

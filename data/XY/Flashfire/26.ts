@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 281509,
 		tcgplayer: 91159

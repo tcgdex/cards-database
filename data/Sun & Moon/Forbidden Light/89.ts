@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It inserts its horn into chinks in metal, absorbing metal ions. For some reason, it collects keys.",
+	},
+
 	thirdParty: {
 		cardmarket: 355603,
 		tcgplayer: 165747

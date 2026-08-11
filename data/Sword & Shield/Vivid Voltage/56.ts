@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
 	},
 
-	thirdParty: {
-		cardmarket: 511700,
-		tcgplayer: 226453
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511700,
+				tcgplayer: 226453
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511700,
+				tcgplayer: 226453
+			}
+		},
+	],
 }
 
 export default card

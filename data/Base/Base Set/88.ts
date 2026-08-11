@@ -16,28 +16,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Discard your hand, then draw 7 cards.",
 		fr: "Défaussez-vous de votre main, puis piochez 7 cartes.",
 		de: "Entferne alle Karten aus Deiner Hand und ziehe sieben neue Karten.",
 		it: "Scarta le carte che hai in mano e pescane altre 7."
 	},
 
-	thirdParty: {
-		cardmarket: 273783,
-		tcgplayer: 42431
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273783,
+				tcgplayer: 42431
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107085
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107085
+			},
 		},
 		{
 			type: "normal",

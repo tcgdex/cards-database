@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		322,
-	],
+	dexId: [322],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,26 +63,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276041,
-		tcgplayer: 89837
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275841,
+				tcgplayer: 89837
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275841,
+				tcgplayer: 89837
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871832,
+				tcgplayer: 477452
+			}
 		}
-	]
+	],
+
 }
 
 export default card

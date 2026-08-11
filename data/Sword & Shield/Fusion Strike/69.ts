@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shin Nagasawa",
@@ -83,17 +89,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582203,
-		tcgplayer: 253212
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582203,
+				tcgplayer: 253212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582203,
+				tcgplayer: 253212
+			}
+		},
+	],
 }
 
 export default card

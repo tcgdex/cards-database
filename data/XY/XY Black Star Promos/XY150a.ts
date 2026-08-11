@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Yveltal-EX"
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -69,6 +69,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 
 

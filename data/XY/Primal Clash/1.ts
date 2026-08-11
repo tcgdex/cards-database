@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 273532,
 		tcgplayer: 95885

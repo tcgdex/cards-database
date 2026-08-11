@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Hisui"
 	},
 
+	illustrator: "Kinu Nishimura",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,18 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691849,
-		tcgplayer: 478118
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691867,
+				tcgplayer: 478118
+			}
+		},
+	],
 }
 
 export default card

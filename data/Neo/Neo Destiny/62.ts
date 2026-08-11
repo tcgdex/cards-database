@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It likes to sleep in rock caves and will even steal other Octillery's nests.",
 		fr: "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery."
 	},
 
-	thirdParty: {
-		cardmarket: 274714,
-		tcgplayer: 84632
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274714,
+				tcgplayer: 84632
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274714,
+				tcgplayer: 84632
+			}
 		}
 	]
 }

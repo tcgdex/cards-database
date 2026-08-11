@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273974,
-		tcgplayer: 42514
+
+	description: {
+		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273974,
+				tcgplayer: 42514
+			}
 		}
 	]
 }

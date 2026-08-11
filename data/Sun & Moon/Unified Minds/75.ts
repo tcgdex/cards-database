@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The rich greenery of the Alola region is hard on Marowak. It controls fire to stay alive.",
+	},
+
 	thirdParty: {
 		cardmarket: 388187,
 		tcgplayer: 195003

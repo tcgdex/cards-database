@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+	},
 
 	thirdParty: {
 		cardmarket: 295150

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When Lairon uses Take Down, the impact from its solid body is enough to destroy concrete!",
+	},
+
 	thirdParty: {
 		cardmarket: 282524,
 		tcgplayer: 97059

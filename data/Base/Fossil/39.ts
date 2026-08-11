@@ -75,25 +75,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Found at the mouths of volcanoes and extremely hard to spot. There are very few instances of capturing this Pokémon.",
 		fr: "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 273900,
-		tcgplayer: 44441
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273900,
+				tcgplayer: 44441
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273900,
+				tcgplayer: 44441
+			}
 		},
 		{
 			type: "normal",

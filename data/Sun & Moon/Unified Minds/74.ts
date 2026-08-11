@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
+	},
+
 	thirdParty: {
 		cardmarket: 388182,
 		tcgplayer: 195002

@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
+	},
+
 	thirdParty: {
 		cardmarket: 279976,
 		tcgplayer: 90568

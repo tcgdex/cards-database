@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+	},
+
 	thirdParty: {
 		cardmarket: 311912,
 		tcgplayer: 149087

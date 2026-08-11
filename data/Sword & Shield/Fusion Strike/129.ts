@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "HYOGONOSUKE",
@@ -74,17 +86,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582668,
-		tcgplayer: 253325
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582668,
+				tcgplayer: 253325
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582668,
+				tcgplayer: 253325
+			}
+		},
+	],
 }
 
 export default card

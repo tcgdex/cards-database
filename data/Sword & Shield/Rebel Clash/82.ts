@@ -97,12 +97,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -110,10 +104,22 @@ const card: Card = {
 		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality."
 	},
 
-	thirdParty: {
-		cardmarket: 457828,
-		tcgplayer: 213168
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457828,
+				tcgplayer: 213168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457828,
+				tcgplayer: 213168
+			}
+		},
+	],
 }
 
 export default card

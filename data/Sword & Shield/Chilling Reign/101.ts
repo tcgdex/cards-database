@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
 	},
 
-	thirdParty: {
-		cardmarket: 567209,
-		tcgplayer: 241775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567209,
+				tcgplayer: 241775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567209,
+				tcgplayer: 241775
+			}
+		},
+	],
 }
 
 export default card

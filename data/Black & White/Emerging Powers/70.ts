@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They stick their spikes into cave walls and absorb the minerals they find in the rock.",
+	},
+
 	thirdParty: {
 		cardmarket: 280035,
 		tcgplayer: 85425

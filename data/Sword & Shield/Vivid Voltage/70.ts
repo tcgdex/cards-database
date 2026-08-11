@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
 	},
 
-	thirdParty: {
-		cardmarket: 511770,
-		tcgplayer: 226476
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511770,
+				tcgplayer: 226476
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511770,
+				tcgplayer: 226476
+			}
+		},
+	],
 }
 
 export default card

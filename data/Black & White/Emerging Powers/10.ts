@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+	},
+
 	thirdParty: {
 		cardmarket: 279974,
 		tcgplayer: 84446

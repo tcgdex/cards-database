@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+	},
+
 	thirdParty: {
 		cardmarket: 286367,
 		tcgplayer: 107240

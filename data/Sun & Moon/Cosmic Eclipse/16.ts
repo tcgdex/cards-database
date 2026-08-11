@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 407734,
 		tcgplayer: 201925

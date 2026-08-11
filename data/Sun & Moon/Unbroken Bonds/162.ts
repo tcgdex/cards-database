@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+	},
+
 	thirdParty: {
 		cardmarket: 372450,
 		tcgplayer: 189264

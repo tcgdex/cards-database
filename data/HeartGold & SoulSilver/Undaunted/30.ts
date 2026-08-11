@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		375,
-	],
+	dexId: [375],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Beldum",
-		fr: "Terhal",
+		fr: "Terhal"
 	},
 
 	stage: "Stage1",
@@ -61,7 +59,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -88,17 +86,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279283,
+				tcgplayer: 87382
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279283,
+				tcgplayer: 87382
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279283,
-		tcgplayer: 87382
-	}
 }
 
 export default card

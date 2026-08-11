@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
+	},
+
 	thirdParty: {
 		cardmarket: 297692,
 		tcgplayer: 130989

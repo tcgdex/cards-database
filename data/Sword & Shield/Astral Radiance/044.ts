@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Salmagnis"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
 	},
 
-	thirdParty: {
-		cardmarket: 658583,
-		tcgplayer: 272244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658583,
+				tcgplayer: 272244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658583,
+				tcgplayer: 272244
+			}
+		},
+	],
 }
 
 export default card

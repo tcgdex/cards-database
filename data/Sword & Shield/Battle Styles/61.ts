@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "The defensive instinct of the males is strong. It's when they're protecting themselves or their partners that they unleash their full power."
 	},
 
-	thirdParty: {
-		cardmarket: 545416,
-		tcgplayer: 234233
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545416,
+				tcgplayer: 234233
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545416,
+				tcgplayer: 234233
+			}
+		},
+	],
 }
 
 export default card

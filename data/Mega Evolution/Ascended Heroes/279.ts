@@ -14,6 +14,17 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+	evolveFrom: {
+		en: "Iono's Tadbulb",
+		fr: "Têtampoule de Mashynn",
+		es: "Tadbulb de e-Nigma",
+		'es-mx': "Tadbulb de e-Nigma",
+		de: "Enigmaras Blipp",
+		it: "Tadbulb di Kissara",
+		pt: "Tadbulb da Kissera",
+	},
+
+	suffix: "ex",
 	illustrator: "Akira Komayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -71,13 +82,24 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676091,
-		cardmarket: 869890
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869890,
+				tcgplayer: 676091
+			}
+		}
+	],
 }
 
 export default card

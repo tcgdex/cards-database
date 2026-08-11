@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Silvanas Vitalität"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658804,
-		tcgplayer: 272395
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658804,
+				tcgplayer: 272395
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658804,
+				tcgplayer: 272395
+			}
+		},
+	],
 }
 
 export default card

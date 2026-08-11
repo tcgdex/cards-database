@@ -67,23 +67,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It teleports itself away from danger, making it difficult to capture.",
 		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
 	},
 
-	thirdParty: {
-		cardmarket: 274102,
-		tcgplayer: 83445
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
 		}
 	]
 }

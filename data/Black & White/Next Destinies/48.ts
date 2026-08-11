@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+	},
+
 	thirdParty: {
 		cardmarket: 280273,
 		tcgplayer: 90730

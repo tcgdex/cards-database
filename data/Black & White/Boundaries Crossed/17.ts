@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+	},
+
 	thirdParty: {
 		cardmarket: 280604,
 		tcgplayer: 86796

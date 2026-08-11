@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
 		fr: "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif."
 	},
 

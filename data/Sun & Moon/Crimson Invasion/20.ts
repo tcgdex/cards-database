@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground.",
+	},
+
 	thirdParty: {
 		cardmarket: 311870,
 		tcgplayer: 149041

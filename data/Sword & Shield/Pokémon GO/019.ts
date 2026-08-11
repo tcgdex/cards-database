@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flegmon"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -62,19 +63,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Slow-witted and oblivious, this Pokémon won't feel any pain if its tail gets eaten. It won't notice when its tail grows back, either.",
 	},
 
-	thirdParty: {
-		cardmarket: 664556,
-		tcgplayer: 276949
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665659,
+				tcgplayer: 276949
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665659,
+				tcgplayer: 276949
+			}
+		},
+	],
 }
 
 export default card

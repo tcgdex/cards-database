@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Victini-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],
@@ -66,9 +66,25 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Saki Hayashiro"
+	suffix: "ex",
+	illustrator: "Saki Hayashiro",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767568,
+				tcgplayer: 586179
+			},
+		}
+	],
 }
 
 export default card

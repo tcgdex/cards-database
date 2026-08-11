@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+	},
+
 	thirdParty: {
 		cardmarket: 286291,
 		tcgplayer: 107164

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Illusionsportal"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 670821,
-		tcgplayer: 282257
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 670821,
+				tcgplayer: 282257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 670821,
+				tcgplayer: 282257
+			}
+		},
+	],
 }
 
 export default card

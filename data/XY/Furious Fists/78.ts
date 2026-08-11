@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful.",
+	},
+
 	thirdParty: {
 		cardmarket: 281742,
 		tcgplayer: 92258

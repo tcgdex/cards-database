@@ -14,16 +14,31 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Look at the top 4 cards of your deck and put as many of them as you like back on top of your deck in any order. Then, put the remaining cards on the bottom of your deck in any order.",
 		fr: "Regardez les 4 cartes du dessus de votre deck et replacez celles que vous voulez sur le dessus de votre deck dans n'importe quel ordre. Ensuite, placez les cartes restantes au-dessous de votre deck dans n'importe quel ordre.",
 		de: "Schau dir die obersten 4 Karten deines Decks an und lege beliebig viele davon in beliebiger Reihenfolge auf dein Deck. Lege dann die restlichen Karten in beliebiger Reihenfolge unter dein Deck."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 279727,
-		tcgplayer: 88703
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88703,
+				cardmarket: 279727
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88703,
+				cardmarket: 279727
+			},
+		},
+	],
+
 }
 
 export default card

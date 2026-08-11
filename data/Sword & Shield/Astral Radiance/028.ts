@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Enton"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Suffers perpetual headaches. If the agony grows too great, Psyduck's latent power erupts, contrary to Psyduck's intent. Ergo, I am exploring ways to ease the pain.",
 	},
 
-	thirdParty: {
-		cardmarket: 658533,
-		tcgplayer: 272228
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658533,
+				tcgplayer: 272228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658533,
+				tcgplayer: 272228
+			}
+		},
+	],
 }
 
 export default card

@@ -47,12 +47,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -60,10 +54,22 @@ const card: Card = {
 		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 545636,
-		tcgplayer: 234150
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545636,
+				tcgplayer: 234150
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545636,
+				tcgplayer: 234150
+			}
+		},
+	],
 }
 
 export default card

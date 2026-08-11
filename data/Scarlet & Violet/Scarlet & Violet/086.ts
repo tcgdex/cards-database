@@ -72,15 +72,33 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
+
+	description: {
+		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+	},
 
 	thirdParty: {
         cardmarket: 702382,

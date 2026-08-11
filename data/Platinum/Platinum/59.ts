@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		394,
-	],
+	dexId: [394],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Piplup",
-		fr: "Tiplouf",
+		fr: "Tiplouf"
 	},
 
 	stage: "Stage1",
@@ -74,19 +72,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278480,
-		tcgplayer: 88371
+	description: {
+		en: "Because every PRINPLUP considers itself to be the most important, they can never form a group."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88371,
+				cardmarket: 278480
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278480,
+				tcgplayer: 88371
+			}
 		}
-	]
+	],
+
 }
 
 export default card

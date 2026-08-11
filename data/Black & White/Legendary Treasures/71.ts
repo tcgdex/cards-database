@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+	},
+
 	thirdParty: {
 		cardmarket: 281222,
 		tcgplayer: 85859

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an Exeggcute.",
+	},
+
 	thirdParty: {
 		cardmarket: 280883,
 		tcgplayer: 85363

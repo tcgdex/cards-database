@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+	},
+
 	thirdParty: {
 		cardmarket: 278067,
 		tcgplayer: 85321

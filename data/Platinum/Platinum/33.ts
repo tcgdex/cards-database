@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		463,
-	],
+	dexId: [463],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Lickitung",
-		fr: "Excelangue",
+		fr: "Excelangue"
 	},
 
 	stage: "Stage1",
@@ -80,19 +78,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 278454,
-		tcgplayer: 86713
+	description: {
+		en: "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86713,
+				cardmarket: 278454
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278454,
+				tcgplayer: 86713
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Geduldturbo"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658819,
-		tcgplayer: 272410
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658819,
+				tcgplayer: 272410
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658819,
+				tcgplayer: 272410
+			}
+		},
+	],
 }
 
 export default card

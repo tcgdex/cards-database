@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "You can hear tales told all over the world about how Gengar will pay a visit to children who are naughty.",
+	},
+
 	thirdParty: {
 		cardmarket: 372358,
 		tcgplayer: 189170

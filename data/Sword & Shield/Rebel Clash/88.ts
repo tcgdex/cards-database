@@ -85,12 +85,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "These intelligent Pokémon touch horns with each other to share information between them."
 	},
 
-	thirdParty: {
-		cardmarket: 457858,
-		tcgplayer: 213174
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457858,
+				tcgplayer: 213174
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457858,
+				tcgplayer: 213174
+			}
+		},
+	],
 }
 
 export default card

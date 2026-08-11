@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+	},
+
 	thirdParty: {
 		cardmarket: 297479,
 		tcgplayer: 130761

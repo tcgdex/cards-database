@@ -64,15 +64,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274017,
-		tcgplayer: 42545
+
+	description: {
+		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274017,
+				tcgplayer: 42545
+			}
 		}
 	]
 }

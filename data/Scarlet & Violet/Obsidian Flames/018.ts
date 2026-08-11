@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725098,
+				tcgplayer: 509751,
+				cardtrader: 255578
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725098,
+				tcgplayer: 509751,
+				cardtrader: 255578
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 725098
-	}
+	
 }
 
 export default card

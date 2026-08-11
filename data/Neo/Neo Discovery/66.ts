@@ -48,21 +48,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
 		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
 	},
 
-	thirdParty: {
-		cardmarket: 274577,
-		tcgplayer: 90128
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		}
 	]
 }

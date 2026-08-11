@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It has the ability to sense the auras of all things. It understands human speech.",
 		fr: "Il ressent toutes les auras. Il comprend le langage humain."
 	},
 

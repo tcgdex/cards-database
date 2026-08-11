@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it wasn't originally found in Alola, this Pokémon was brought over a long time ago when there was a huge Rattata outbreak.",
+	},
+
 	thirdParty: {
 		cardmarket: 388692,
 		tcgplayer: 195185

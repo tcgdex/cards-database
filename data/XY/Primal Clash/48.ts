@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 273579,
 		tcgplayer: 95946

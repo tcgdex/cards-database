@@ -68,23 +68,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Awakened by moonlight, it roams actively at night. In the day it stays quietly underground.",
 		fr: "Réveillé par le clair de lune, il rode pendant la nuit. Le jour, il reste tranquillement sous terre."
 	},
 
-	thirdParty: {
-		cardmarket: 274468,
-		tcgplayer: 87838
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274468,
+				tcgplayer: 87838
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274468,
+				tcgplayer: 87838
+			}
 		}
 	]
 }

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+	},
+
 	thirdParty: {
 		cardmarket: 280282,
 		tcgplayer: 85637

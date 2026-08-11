@@ -64,23 +64,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
 		fr: "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
 	},
 
-	thirdParty: {
-		cardmarket: 274453,
-		tcgplayer: 84273
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274453,
+				tcgplayer: 84273
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274453,
+				tcgplayer: 84273
+			}
 		},
 		{
 			type: "normal",

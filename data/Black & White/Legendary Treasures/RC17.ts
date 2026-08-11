@@ -47,6 +47,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
+	},
 
 	thirdParty: {
 		cardmarket: 281140

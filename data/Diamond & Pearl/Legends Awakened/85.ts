@@ -71,6 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
 		fr: "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil."
 	},
 

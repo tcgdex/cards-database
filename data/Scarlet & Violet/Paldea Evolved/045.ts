@@ -74,18 +74,39 @@ const card: Card = {
 		damage: "100×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715519,
+				tcgplayer: 497456,
+				cardtrader: 248647
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715519,
+				tcgplayer: 497456,
+				cardtrader: 248647
+			}
+		},
+	],
 
 	illustrator: "En Morikura",
 
-	thirdParty: {
-		cardmarket: 715519
-	}
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+	},
 }
 
 export default card

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Sen-Long"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+	},
 }
 
 export default card

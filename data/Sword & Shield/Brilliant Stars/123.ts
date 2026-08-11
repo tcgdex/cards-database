@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arceus VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
@@ -55,20 +56,32 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608669,
-		tcgplayer: 257279
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608669,
+				tcgplayer: 257279
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 671808
+			}
+		},
+	],
 }
 
 export default card

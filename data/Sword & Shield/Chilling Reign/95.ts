@@ -80,12 +80,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing."
 	},
 
-	thirdParty: {
-		cardmarket: 567203,
-		tcgplayer: 241764
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567203,
+				tcgplayer: 241764
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567203,
+				tcgplayer: 241764
+			}
+		},
+	],
 }
 
 export default card

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
+	},
+
 	thirdParty: {
 		cardmarket: 286344,
 		tcgplayer: 107217

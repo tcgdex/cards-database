@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+	},
+
 	thirdParty: {
 		cardmarket: 365802,
 		tcgplayer: 178989

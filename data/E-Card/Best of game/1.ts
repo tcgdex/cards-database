@@ -12,12 +12,21 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	description: {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities."
 	},
-	
+
 	hp: 70,
+	types: ["Lightning"],
 
 	stage: "Basic",
 
@@ -47,26 +56,31 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		cardmarket: 275411,
-		tcgplayer: 85106
-	},
-
 	variants: [
 		{
 			type: "reverse",
-			foil: "cosmos"
-		},
-		{
-			type: "reverse",
 			foil: "cosmos",
-			stamp: ["winner"]
+			thirdParty: {
+				cardmarket: 275411,
+				tcgplayer: 85106
+			},
 		},
 		{
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["winner"],
-			size: "jumbo"
+			thirdParty: {
+				tcgplayer: 167078
+			},
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211445
+			},
 		}
 	]
 }

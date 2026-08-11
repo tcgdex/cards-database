@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It creates an electric charge by rubbing its feathers together. It dances over to its enemies and delivers shocking electrical punches.",
+	},
+
 	thirdParty: {
 		cardmarket: 361277,
 		tcgplayer: 170874

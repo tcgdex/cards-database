@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Narumi Sato",
@@ -74,17 +86,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582801,
-		tcgplayer: 253387
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582801,
+				tcgplayer: 253387
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582801,
+				tcgplayer: 253387
+			}
+		},
+	],
 }
 
 export default card

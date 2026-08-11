@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -67,6 +67,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The same rocks that form its body have been found in ground layers around the world.",
+	},
 
 	thirdParty: {
 		cardmarket: 289712

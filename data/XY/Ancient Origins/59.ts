@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+	},
+
 	thirdParty: {
 		cardmarket: 284240,
 		tcgplayer: 101481

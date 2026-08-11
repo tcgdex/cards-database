@@ -71,23 +71,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is born deep within the ground and has to burrow its way out.",
 		fr: "Il est né dans les profondeurs de la terre et il doit creuser pour sortir à l'air libre."
 	},
 
-	thirdParty: {
-		cardmarket: 274722,
-		tcgplayer: 86633
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274722,
+				tcgplayer: 86633
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274722,
+				tcgplayer: 86633
+			}
 		}
 	]
 }

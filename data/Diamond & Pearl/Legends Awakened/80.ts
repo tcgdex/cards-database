@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Shaped like an ancient writing, it is a huge mystery whether language or Unown came first.",
 		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier."
 	},
 

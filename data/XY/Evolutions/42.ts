@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "One of the legendary bird Pokémon. While it is flying, it makes crackling and snapping sounds.",
+	},
+
 	thirdParty: {
 		cardmarket: 293425,
 		tcgplayer: 124055

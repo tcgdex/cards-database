@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],
@@ -86,7 +86,8 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 427106
+		cardmarket: 427106,
+		tcgplayer: 210579
 	}
 }
 

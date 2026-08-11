@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
+	},
+
 	thirdParty: {
 		cardmarket: 277943,
 		tcgplayer: 86014

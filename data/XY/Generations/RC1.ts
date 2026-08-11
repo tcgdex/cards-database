@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Running around, climbing trees, playing hide-and-seek! Another wonderful day begins!",
+	},
+
 	thirdParty: {
 		cardmarket: 288510
 	}

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shnurgarst"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
 	},
 
-	thirdParty: {
-		cardmarket: 658789,
-		tcgplayer: 272367
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658789,
+				tcgplayer: 272367
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658789,
+				tcgplayer: 272367
+			}
+		},
+	],
 }
 
 export default card

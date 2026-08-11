@@ -63,15 +63,29 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+	},
 
 	thirdParty: {
         cardmarket: 702348,

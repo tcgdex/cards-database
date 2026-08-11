@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Poochyena can easily detect invading foes with its acute sense of smell. It's an excellent lookout!",
+	},
+
 	thirdParty: {
 		cardmarket: 282527,
 		tcgplayer: 97063

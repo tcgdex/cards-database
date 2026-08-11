@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tobutz"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
 	},
 
-	thirdParty: {
-		cardmarket: 658645,
-		tcgplayer: 272268
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658645,
+				tcgplayer: 272268
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658645,
+				tcgplayer: 272268
+			}
+		},
+	],
 }
 
 export default card

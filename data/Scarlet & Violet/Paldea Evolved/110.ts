@@ -44,18 +44,46 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715585,
+				tcgplayer: 497525,
+				cardtrader: 248756
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858714
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715585,
+				tcgplayer: 497525,
+				cardtrader: 248756
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 715585
-	}
+	description: {
+		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+	},
 }
 
 export default card

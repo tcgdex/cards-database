@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This fluffiness makes everyone go crazy. Is it really that charming?",
+	},
+
 	thirdParty: {
 		cardmarket: 288533
 	}

@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280642,
 		tcgplayer: 84311

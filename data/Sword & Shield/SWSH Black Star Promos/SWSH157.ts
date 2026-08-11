@@ -7,6 +7,12 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -24,7 +30,7 @@ const card: Card = {
 		it: "Greninja V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 300,
 	types: ["Water"],
 

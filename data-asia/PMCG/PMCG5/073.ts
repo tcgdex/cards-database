@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "エリカの香水",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576793
+			},
 		},
 	],
 };

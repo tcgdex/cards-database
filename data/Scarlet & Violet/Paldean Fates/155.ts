@@ -57,19 +57,38 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751694,
+				tcgplayer: 534662,
+				cardtrader: 274340
+			}
+		},
+	],
 
 	illustrator: "Kyoko Umemoto",
 
-	thirdParty: {
-		cardmarket: 751694
-	}
+	description: {
+		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+	},
+
 }
 
 export default card

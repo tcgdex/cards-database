@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 80,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
@@ -64,17 +76,23 @@ const card: Card = {
 		damage: 50
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582815,
-		tcgplayer: 253336
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582815,
+				tcgplayer: 253336
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582815,
+				tcgplayer: 253336
+			}
+		},
+	],
 }
 
 export default card

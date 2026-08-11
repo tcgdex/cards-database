@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has a sluggish nature. It lies at the river's bottom, waiting for prey to stray into its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 277813,
 		tcgplayer: 88472

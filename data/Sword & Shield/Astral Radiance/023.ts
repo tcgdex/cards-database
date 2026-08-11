@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Feurigel"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
 	},
 
-	thirdParty: {
-		cardmarket: 658523,
-		tcgplayer: 272223
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658523,
+				tcgplayer: 272223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658523,
+				tcgplayer: 272223
+			}
+		},
+	],
 }
 
 export default card

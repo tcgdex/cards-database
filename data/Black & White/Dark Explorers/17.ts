@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Flames spout from its wrists, enveloping its knuckles. Its punches scorch it foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280345,
 		tcgplayer: 83911

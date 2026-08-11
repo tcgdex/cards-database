@@ -55,12 +55,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -68,10 +62,22 @@ const card: Card = {
 		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
-	thirdParty: {
-		cardmarket: 457768,
-		tcgplayer: 213152
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457768,
+				tcgplayer: 213152
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457768,
+				tcgplayer: 213152
+			}
+		},
+	],
 }
 
 export default card

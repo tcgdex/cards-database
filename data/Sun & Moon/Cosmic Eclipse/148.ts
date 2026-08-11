@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
+	},
+
 	thirdParty: {
 		cardmarket: 408384,
 		tcgplayer: 201192

@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Kartu ini hanya dapat digunakan saat sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan. Pulihkan HP 1 Pokémon sendiri sejumlah 60."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705300,
+				tcgplayer: 567824,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

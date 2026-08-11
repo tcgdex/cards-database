@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack."
 	},
 
-	thirdParty: {
-		cardmarket: 458073,
-		tcgplayer: 213231
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458073,
+				tcgplayer: 213231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458073,
+				tcgplayer: 213231
+			}
+		},
+	],
 }
 
 export default card

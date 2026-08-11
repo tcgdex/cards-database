@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ギャラドス",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [130],
@@ -39,7 +40,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575606
+			},
 		},
+		{
+			type: "holo",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577033
+			}
+		}
 	],
 };
 

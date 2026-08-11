@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Webarak"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,19 +45,45 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
 	},
 
-	thirdParty: {
-		cardmarket: 664539,
-		tcgplayer: 276944
-	}
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665655,
+				tcgplayer: 276944
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665655,
+				tcgplayer: 276944
+			}
+		},
+		{
+			type: 'reverse',
+			subtype: 'peelable-ditto',
+			thirdParty: {
+				tcgplayer: 277793
+			}
+		},
+	],
 }
 
 export default card

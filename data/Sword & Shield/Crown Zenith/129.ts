@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Umschalter"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,17 +28,25 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691848,
-		tcgplayer: 478178
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691848,
+				tcgplayer: 478178
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691848,
+				tcgplayer: 478178
+			}
+		},
+	],
 }
 
 export default card

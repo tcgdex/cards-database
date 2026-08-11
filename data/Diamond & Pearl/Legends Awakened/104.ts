@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It is so timid, it can't move if it isn't with a swarm of others. It conveys its feelings with scent.",
 		fr: "Il est si timide qu'il ne se déplace qu'au milieu d'un essaim. Il exprime ses émotions par l'odeur."
 	},
 

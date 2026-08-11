@@ -57,15 +57,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273996,
-		tcgplayer: 42493
+
+	description: {
+		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273996,
+				tcgplayer: 42493
+			}
 		}
 	]
 }

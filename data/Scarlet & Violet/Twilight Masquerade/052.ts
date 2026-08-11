@@ -74,18 +74,38 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769226,
+				tcgplayer: 550096
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769226,
+				tcgplayer: 550096
+			}
+		},
+	],
 
 	illustrator: "Oku",
 
-	thirdParty: {
-		cardmarket: 769226
-	}
 }
 
 export default card

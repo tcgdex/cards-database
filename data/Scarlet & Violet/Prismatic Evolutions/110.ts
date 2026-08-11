@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 805504
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805504,
+				tcgplayer: 610465
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805504,
+				tcgplayer: 610465
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806576,
+				tcgplayer: 610621
+			}
+		},
+	],
 }
 
 export default card

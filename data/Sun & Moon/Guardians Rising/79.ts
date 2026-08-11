@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A single cry from this nocturnal Pokémon, and more than a hundred of its Murkrow cronies will assemble.",
+	},
+
 	thirdParty: {
 		cardmarket: 297537,
 		tcgplayer: 130991

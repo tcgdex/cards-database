@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -68,6 +68,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
+	},
 
 	thirdParty: {
 		cardmarket: 291586

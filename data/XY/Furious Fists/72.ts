@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+	},
+
 	thirdParty: {
 		cardmarket: 281736,
 		tcgplayer: 92250

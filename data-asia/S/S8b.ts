@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S8b',
+
 	name: {
 		ja: 'VMAXクライマックス',
 		ko: 'VMAX 클라이맥스',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 184
 	},
+
 	releaseDate: {
 		ja: '2021-12-03',
 		'zh-tw': '2021-12-17',
 		id: '2022-01-21',
 		th: '2021-12-17'
+	},
+
+	thirdParty: {
+		cardmarket: 4390
 	}
 }
 

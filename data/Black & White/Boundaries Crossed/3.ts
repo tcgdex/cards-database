@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+	},
+
 	thirdParty: {
 		cardmarket: 280590,
 		tcgplayer: 90382

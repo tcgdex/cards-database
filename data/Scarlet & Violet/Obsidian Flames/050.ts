@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725130,
+				tcgplayer: 509775,
+				cardtrader: 255610
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725130,
+				tcgplayer: 509775,
+				cardtrader: 255610
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 725130
-	}
+	
 }
 
 export default card

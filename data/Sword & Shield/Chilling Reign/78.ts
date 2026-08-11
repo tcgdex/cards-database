@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
 	},
 
-	thirdParty: {
-		cardmarket: 567186,
-		tcgplayer: 241743
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567186,
+				tcgplayer: 241743
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567186,
+				tcgplayer: 241743
+			}
+		},
+	],
 }
 
 export default card

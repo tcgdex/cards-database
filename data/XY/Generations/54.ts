@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its lithe muscles allow it to walk without making a sound. It attacks in an instant.",
+	},
+
 	thirdParty: {
 		cardmarket: 288492,
 		tcgplayer: 113712

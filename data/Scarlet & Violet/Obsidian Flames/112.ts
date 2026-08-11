@@ -66,18 +66,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725192,
+				tcgplayer: 509814,
+				cardtrader: 255797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725192,
+				tcgplayer: 509814,
+				cardtrader: 255797
+			}
+		},
+	],
 
 	illustrator: "Sumiyoshi Kizuki",
 
-	thirdParty: {
-		cardmarket: 725192
-	}
+	
 }
 
 export default card

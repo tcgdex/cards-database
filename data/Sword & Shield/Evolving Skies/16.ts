@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Eldegoss",
@@ -95,10 +89,22 @@ const card: Card = {
 	dexId: [830],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574040,
-		tcgplayer: 246831
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574040,
+				tcgplayer: 246831
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574040,
+				tcgplayer: 246831
+			}
+		},
+	],
 }
 
 export default card

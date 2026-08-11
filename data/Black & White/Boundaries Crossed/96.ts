@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 280682,
 		tcgplayer: 89245

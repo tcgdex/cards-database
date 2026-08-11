@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
 	},
 
-	thirdParty: {
-		cardmarket: 483304,
-		tcgplayer: 219473
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483304,
+				tcgplayer: 219473
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483304,
+				tcgplayer: 219473
+			}
+		},
+	],
 }
 
 export default card

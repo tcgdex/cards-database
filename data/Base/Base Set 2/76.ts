@@ -44,14 +44,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273999,
-		tcgplayer: 42528
+	description: {
+		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273999,
+				tcgplayer: 42528
+			}
 		}
 	]
 }

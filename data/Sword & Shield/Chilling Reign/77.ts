@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground."
 	},
 
-	thirdParty: {
-		cardmarket: 567185,
-		tcgplayer: 241742
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567185,
+				tcgplayer: 241742
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567185,
+				tcgplayer: 241742
+			}
+		},
+	],
 }
 
 export default card

@@ -66,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+	},
 }
 
 export default card

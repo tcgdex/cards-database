@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+	},
+
 	thirdParty: {
 		cardmarket: 277935,
 		tcgplayer: 83570

@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using its tail like a spring, it keeps its heart beating by bouncing constantly. If it stops, it dies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280646,
 		tcgplayer: 89479

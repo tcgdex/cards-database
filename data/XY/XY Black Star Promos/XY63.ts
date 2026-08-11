@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "M Absol EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

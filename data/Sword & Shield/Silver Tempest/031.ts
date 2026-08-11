@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Miezunder"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When its mane is standing on end, you can tell it's feeling good. When it isn't feeling well, its fur will lie down flat.",
 	},
 
-	thirdParty: {
-		cardmarket: 682073,
-		tcgplayer: 451662
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682073,
+				tcgplayer: 451662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682073,
+				tcgplayer: 451662
+			}
+		},
+	],
 }
 
 export default card

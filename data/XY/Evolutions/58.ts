@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
+	},
+
 	thirdParty: {
 		cardmarket: 293412,
 		tcgplayer: 124071

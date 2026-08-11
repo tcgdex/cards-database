@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740481,
+				tcgplayer: 523604,
+				cardtrader: 265012
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740481,
+				tcgplayer: 523604,
+				cardtrader: 265012
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 740481
-	}
+	
 }
 
 export default card

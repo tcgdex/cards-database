@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725213,
+				tcgplayer: 509893,
+				cardtrader: 255818
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725213,
+				tcgplayer: 509893,
+				cardtrader: 255818
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 725213
-	}
+	
 }
 
 export default card

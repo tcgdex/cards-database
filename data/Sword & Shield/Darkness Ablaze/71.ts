@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog."
 	},
 
-	thirdParty: {
-		cardmarket: 483234,
-		tcgplayer: 219446
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483234,
+				tcgplayer: 219446
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483234,
+				tcgplayer: 219446
+			}
+		},
+	],
 }
 
 export default card

@@ -73,8 +73,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
 	},
 
 	thirdParty: {

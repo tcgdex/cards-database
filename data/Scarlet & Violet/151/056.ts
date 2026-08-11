@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733651,
+				tcgplayer: 516242,
+				cardtrader: 261132
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733651,
+				tcgplayer: 516242,
+				cardtrader: 261132
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 733651
-	}
+	
 }
 
 export default card

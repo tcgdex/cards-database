@@ -14,10 +14,27 @@ const card: Card = {
 		de: "Peppeck"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Rock Smash"
+			},
+			effect: {
+				en: "Flip a coin. If heads, this attack does 10 more damage."
+			},
+			damage: "10+"
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -31,9 +48,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152836
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297246,
+				tcgplayer: 152836
+			}
+		},
+	],
+
 }
 
 export default card

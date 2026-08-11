@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Glurak"
 	},
 	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+	},
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Altaria"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -65,20 +66,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "As it flies in a calm and relaxed manner, Altaria performs a humming song that would enrapture any audience.",
 	},
 
-	thirdParty: {
-		cardmarket: 682190,
-		tcgplayer: 451793
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682190,
+				tcgplayer: 451793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682190,
+				tcgplayer: 451793
+			}
+		},
+	],
 }
 
 export default card

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "From its arm, it launches fireballs hotter than 3,500 degrees Fahrenheit. Its arm starts to melt when it fires a whole barrage.",
+	},
+
 	thirdParty: {
 		cardmarket: 315950,
 		tcgplayer: 157636

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
+	},
+
 	thirdParty: {
 		cardmarket: 291568,
 		tcgplayer: 121020

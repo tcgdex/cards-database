@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They dwell in cold places. This Pokémon's main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
+	},
+
 	thirdParty: {
 		cardmarket: 316002,
 		tcgplayer: 157691

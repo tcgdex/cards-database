@@ -1,12 +1,13 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いカダブラ",
+		ja: "わるいユンゲラー",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [64],
@@ -19,6 +20,7 @@ const card: Card = {
 			name: {
 				ja: "物質交換",
 			},
+			type: 'Pokemon Power',
 			effect: {
 				ja: "順番<em>（攻撃の前）</em>中に、手からカードを捨てることができます。もしそうなら、カードを描きます。このポケモンが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
@@ -42,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575766
+			},
 		},
 	],
 };

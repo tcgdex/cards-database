@@ -68,15 +68,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon stores up energy in its lungs, then shoots it out. It takes care of Dreepy and battles alongside them until they're all grown up.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769303,
+				tcgplayer: 550173
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769303,
+				tcgplayer: 550173
+			}
+		},
+	],
 
 	illustrator: "cochi8i",
 
-	thirdParty: {
-		cardmarket: 769303
-	}
 }
 
 export default card

@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nLes Pokémon Évolués ,  et  de chaque joueur ne peuvent pas utiliser de Poké-Powers ou de Poké-Bodies.",
-		de: "Each player's  Evolved Pokémon,  Evolved Pokémon, and  Evolved Pokémon can't use any Poké-Powers or Poké-Bodies."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player's Colorless Evolved Pokémon, Darkness Evolved Pokémon, and Metal Evolved Pokémon can't use any Poké-Powers or Poké-Bodies.",
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		de: "Each player's  Evolved Pokémon,  Evolved Pokémon, and  Evolved Pokémon can't use any Poké-Powers or Poké-Bodies.",
 	},
 
 	thirdParty: {
@@ -27,16 +28,28 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83740,
+				cardmarket: 276586
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 83740,
+				cardmarket: 276586
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477599,
+				cardmarket: 869581
+			},
 		}
-	]
+	],
 }
 
 export default card

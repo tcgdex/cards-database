@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
 	},
 
-	thirdParty: {
-		cardmarket: 483129,
-		tcgplayer: 219377
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483129,
+				tcgplayer: 219377
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483129,
+				tcgplayer: 219377
+			}
+		},
+	],
 }
 
 export default card

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",
@@ -48,17 +54,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582177,
-		tcgplayer: 253164
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582177,
+				tcgplayer: 253164
+			}
+		},
+	],
 }
 
 export default card

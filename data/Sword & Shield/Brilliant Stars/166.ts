@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arceus V"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -56,20 +57,25 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608668,
-		tcgplayer: 263885
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608712,
+				tcgplayer: 263885
+			}
+		},
+	],
 }
 
 export default card

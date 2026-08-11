@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse",
+		fr: "Malosse"
 	},
 
 	stage: "Stage1",
@@ -90,21 +88,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279258,
+				tcgplayer: 86209
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 279258,
+				tcgplayer: 86209
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 371567,
+				tcgplayer: 153259
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279258,
-		tcgplayer: 86209
-	}
 }
 
 export default card

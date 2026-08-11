@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Plaudagei"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -64,20 +65,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A versatile performer skilled in the imitation of human speech. It is said that older, more experienced Chatot can even understand the meaning of the words they mimic.",
 	},
 
-	thirdParty: {
-		cardmarket: 658790,
-		tcgplayer: 272370
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658790,
+				tcgplayer: 272370
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658790,
+				tcgplayer: 272370
+			}
+		},
+	],
 }
 
 export default card

@@ -64,8 +64,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It loves round white things. It carries and egg-shaped rock in imitation of CHANSEY.",
 		fr: "Ce Pokémon aime ce qui est rond et blanc et transporte un caillou en forme d'œuf pour imiter Leveinard."
 	},
 

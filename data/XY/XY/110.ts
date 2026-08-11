@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+	},
+
 	thirdParty: {
 		cardmarket: 281447,
 		tcgplayer: 89573

@@ -12,7 +12,7 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [25],
@@ -37,8 +37,26 @@ const card: Card = {
 		}
 	],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
+	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 735302,
+				tcgplayer: 518861
+			},
+		}
+	],
 }
 
 export default card

@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,16 @@ const card: Card = {
 		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
 	},
 
-	thirdParty: {
-		cardmarket: 512700,
-		tcgplayer: 226604
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 512700,
+				tcgplayer: 226604
+			}
+		},
+	],
 }
 
 export default card

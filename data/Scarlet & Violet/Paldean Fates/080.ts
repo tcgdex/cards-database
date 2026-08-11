@@ -28,15 +28,28 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751619,
+				tcgplayer: 534442,
+				cardtrader: 274264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751619,
+				tcgplayer: 534442,
+				cardtrader: 274264
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 751619
-	}
+	
 }
 
 export default card

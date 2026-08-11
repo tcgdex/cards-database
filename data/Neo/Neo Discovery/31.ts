@@ -80,23 +80,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
 		fr: "Son corps est invulnérable à toutes les attaques, alors il s'empresse de défier ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274523,
-		tcgplayer: 90116
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274523,
+				tcgplayer: 90116
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274523,
+				tcgplayer: 90116
+			}
 		}
 	]
 }

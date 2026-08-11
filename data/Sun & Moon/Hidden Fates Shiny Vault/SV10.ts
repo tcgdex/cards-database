@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.",
+	},
 }
 
 export default card

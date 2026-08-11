@@ -55,18 +55,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769184,
+				tcgplayer: 550054
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769184,
+				tcgplayer: 550054
+			}
+		},
+	],
 
 	illustrator: "Orca",
 
-	thirdParty: {
-		cardmarket: 769184
-	}
 }
 
 export default card

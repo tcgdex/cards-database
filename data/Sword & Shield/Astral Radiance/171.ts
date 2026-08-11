@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Machomei V"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -58,20 +59,25 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658662,
-		tcgplayer: 272421
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658832,
+				tcgplayer: 272421
+			}
+		},
+	],
 }
 
 export default card

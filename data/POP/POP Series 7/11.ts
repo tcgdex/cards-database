@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		412,
-	],
+	dexId: [412],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -62,24 +60,22 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84050,
+				cardmarket: 278043
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278043,
-		tcgplayer: 84050
-	}
 }
 
 export default card

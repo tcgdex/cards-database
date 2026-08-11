@@ -13,10 +13,20 @@ const card: Card = {
 		it: "Mega Feraligatr-ex",
 		pt: "Mega Feraligatr ex"
 	},
+	evolveFrom: {
+		en: "Croconaw",
+		de: "Tyracroc",
+		es: "Croconaw",
+		fr: "Crocrodil",
+		it: "Croconaw",
+		pt: "Croconaw",
+	},
 
+	suffix: "ex",
 	illustrator: "Souichirou Gunjima",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [160],
 	hp: 370,
 	types: ["Water"],
 	stage: "Stage2",
@@ -47,13 +57,24 @@ const card: Card = {
 		damage: "200+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676086,
-		cardmarket: 869885
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869885,
+				tcgplayer: 676086
+			}
+		}
+	],
 }
 
 export default card

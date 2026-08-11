@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+	},
+
 	thirdParty: {
 		cardmarket: 281539,
 		tcgplayer: 91193

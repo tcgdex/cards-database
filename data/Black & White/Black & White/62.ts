@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+	},
+
 	thirdParty: {
 		cardmarket: 279800,
 		tcgplayer: 88937

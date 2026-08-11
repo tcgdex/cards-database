@@ -1,50 +1,53 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "名偵探皮卡丘"
+		ja: "クヌギダマ",
+		'zh-tw': "名偵探皮卡丘",
 	},
 
-	illustrator: "MINAMINAMI Take",
+	illustrator: "Nobuhiro Imagawa",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Lightning"],
+	hp: 70,
+	types: ["Grass"],
 
 	description: {
-		'zh-tw': "調查工作需要毅力。憑著不屈不撓的調查，找出案件的線索！"
+		ja: "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
+		'zh-tw': "調查工作需要毅力。憑著不屈不撓的調查，找出案件的線索！",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "徹底調查"
+	attacks: [
+		{
+			name: {
+				ja: "ころがる",
+				'zh-tw': "徹底調查",
+			},
+			damage: 30,
+			cost: ["Grass", "Grass"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲硬幣直到出現反面，從自己的牌庫抽出與正面出現的次數相同數量的卡。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705376,
+				tcgplayer: 587807,
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "騎行衝刺"
-		},
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [204],
+};
 
-		damage: 50,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

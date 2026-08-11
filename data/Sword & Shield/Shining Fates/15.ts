@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
 	},
 
-	thirdParty: {
-		cardmarket: 539098,
-		tcgplayer: 232394
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539098,
+				tcgplayer: 232394
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539098,
+				tcgplayer: 232394
+			}
+		},
+	],
 }
 
 export default card

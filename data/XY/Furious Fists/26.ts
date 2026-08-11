@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 281690,
 		tcgplayer: 92201

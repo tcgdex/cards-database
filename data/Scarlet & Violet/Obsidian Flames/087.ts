@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725167,
+				tcgplayer: 509854,
+				cardtrader: 255772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725167,
+				tcgplayer: 509854,
+				cardtrader: 255772
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 725167
-	}
+	
 }
 
 export default card

@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+	},
+
 	thirdParty: {
 		cardmarket: 281887,
 		tcgplayer: 94649

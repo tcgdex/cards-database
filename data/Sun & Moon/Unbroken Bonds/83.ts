@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.",
+	},
+
 	thirdParty: {
 		cardmarket: 372374,
 		tcgplayer: 189182

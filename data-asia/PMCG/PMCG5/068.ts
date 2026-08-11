@@ -4,8 +4,9 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスティの決闘",
+		ja: "カスミの勝負",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Trainer",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576816
+			},
 		},
 	],
 };

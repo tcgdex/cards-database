@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		370,
-	],
+	dexId: [370],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -68,19 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278456,
-		tcgplayer: 86937
+	description: {
+		en: "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86937,
+				cardmarket: 278456
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278456,
+				tcgplayer: 86937
+			}
 		}
-	]
+	],
+
 }
 
 export default card

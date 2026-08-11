@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known as \"The Desert Spirit\" this Pokémon hides in the sandstorms it causes by beating its wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 280686,
 		tcgplayer: 85527

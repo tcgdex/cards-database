@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The shell on its back comes off easily, exposing the flames running through its body.",
 		fr: "La carapace qui couvre son dos s'enlève facilement, exposant à l'air son corps enflammé."
 	},
 
-	thirdParty: {
-		cardmarket: 274670,
-		tcgplayer: 84622
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274670,
+				tcgplayer: 84622
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274670,
+				tcgplayer: 84622
+			}
 		}
 	]
 }

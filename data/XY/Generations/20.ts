@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+	},
+
 	thirdParty: {
 		cardmarket: 288460,
 		tcgplayer: 113678

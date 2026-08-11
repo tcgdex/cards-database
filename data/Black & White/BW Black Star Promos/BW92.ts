@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Espeon",
 		fr: "Mentali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+	},
 }
 
 export default card

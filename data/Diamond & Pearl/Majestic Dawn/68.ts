@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It hides food under its long body hair. However, it forgets it has hidden the food.",
+	},
+
 	thirdParty: {
 		cardmarket: 278117,
 		tcgplayer: 87638

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		408,
-	],
+	dexId: [408],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Skull Fossil",
-		fr: "Fossile crâne",
+		fr: "Fossile crâne"
 	},
 
 	stage: "Stage1",
@@ -77,19 +75,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278467,
-		tcgplayer: 84460
+	description: {
+		en: "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84460,
+				cardmarket: 278467
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278467,
+				tcgplayer: 84460
+			}
 		}
-	]
+	],
+
 }
 
 export default card

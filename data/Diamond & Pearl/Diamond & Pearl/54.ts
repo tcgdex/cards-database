@@ -87,6 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It is actually three MAGNEMITE linked by magnetism. A group can set off a magnetic storm.",
 		fr: "Il est formé de trois Magneti liés par magnétisme. En groupe, ils déclenchent un orage magnétique."
 	},
 

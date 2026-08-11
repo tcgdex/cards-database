@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+	},
+
 	thirdParty: {
 		cardmarket: 280598,
 		tcgplayer: 89380

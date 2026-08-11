@@ -44,23 +44,44 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Girafarig's tail has a small head. It instinctively bites at any foe that approaches the Pokémon from behind.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760696,
+				tcgplayer: 542810
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760696,
+				tcgplayer: 542810
+			}
+		},
 	],
 
 	illustrator: "matazo",
 
-	thirdParty: {
-		cardmarket: 760696
-	}
 }
 
 export default card

@@ -44,20 +44,31 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760798,
+				tcgplayer: 542889
+			}
+		},
 	],
 
 	illustrator: "N-DESIGN Inc.",
 
-	thirdParty: {
-		cardmarket: 760798
-	}
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Saida"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691842,
-		tcgplayer: 478163
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691842,
+				tcgplayer: 478163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691842,
+				tcgplayer: 478163
+			}
+		},
+	],
 }
 
 export default card

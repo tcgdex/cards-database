@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
+	},
+
 	thirdParty: {
 		cardmarket: 388367,
 		tcgplayer: 195066

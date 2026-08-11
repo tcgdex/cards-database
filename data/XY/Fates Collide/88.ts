@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
+	},
+
 	thirdParty: {
 		cardmarket: 289909,
 		tcgplayer: 117861

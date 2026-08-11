@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 286313,
 		tcgplayer: 107186

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has a very sensitive nose. It touches new things with its nose to examine them.",
+	},
+
 	thirdParty: {
 		cardmarket: 407904,
 		tcgplayer: 201227

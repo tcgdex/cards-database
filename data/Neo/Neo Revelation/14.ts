@@ -69,23 +69,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water.",
 		fr: "On dit de lui qu'il est la réincarnation des vents boréals. Il peut instantanément purifier l'eau sale et boueuse."
 	},
 
-	thirdParty: {
-		cardmarket: 274600,
-		tcgplayer: 89597
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274600,
+				tcgplayer: 89597
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274600,
+				tcgplayer: 89597
+			}
 		}
 	]
 }

@@ -23,7 +23,7 @@ const card: Card = {
 		"Fighting",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -81,8 +81,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88675,
+				cardmarket: 276610
+			},
 		},
-	]
+	],
 }
 
 export default card

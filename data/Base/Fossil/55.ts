@@ -67,25 +67,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
 		fr: "Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque."
 	},
 
-	thirdParty: {
-		cardmarket: 273916,
-		tcgplayer: 44457
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273916,
+				tcgplayer: 44457
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273916,
+				tcgplayer: 44457
+			}
 		},
 		{
 			type: "normal",

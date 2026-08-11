@@ -67,25 +67,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
 		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy."
 	},
 
-	thirdParty: {
-		cardmarket: 273914,
-		tcgplayer: 44455
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273914,
+				tcgplayer: 44455
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273914,
+				tcgplayer: 44455
+			}
 		},
 		{
 			type: "normal",

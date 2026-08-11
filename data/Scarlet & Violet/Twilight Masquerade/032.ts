@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769206,
+				tcgplayer: 550076
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769206,
+				tcgplayer: 550076
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 769206
-	}
 }
 
 export default card

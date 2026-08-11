@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They has mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
+	},
+
 	thirdParty: {
 		cardmarket: 280292,
 		tcgplayer: 87437

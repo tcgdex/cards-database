@@ -38,22 +38,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
+	},
+
+	illustrator: "MINAMINAMI Take",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857576, 
-		tcgplayer: 662205
-	}
 }
 
 export default card

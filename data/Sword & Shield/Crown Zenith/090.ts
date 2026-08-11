@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Metang"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -54,20 +55,44 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
 	},
 
-	thirdParty: {
-		cardmarket: 691808,
-		tcgplayer: 478228
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691808,
+				tcgplayer: 478228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691808,
+				tcgplayer: 478228
+			}
+		},
+	],
 }
 
 export default card

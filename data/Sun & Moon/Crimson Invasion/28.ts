@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to have slept in a glacier for thousands of years. Its body can't be melted, even by magma.",
+	},
+
 	thirdParty: {
 		cardmarket: 311878,
 		tcgplayer: 149050

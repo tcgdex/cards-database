@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall.",
+	},
+
 	thirdParty: {
 		cardmarket: 281517,
 		tcgplayer: 91167

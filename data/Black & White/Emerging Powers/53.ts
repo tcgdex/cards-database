@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 280018,
 		tcgplayer: 85705

@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
 	},
 
-	thirdParty: {
-		cardmarket: 483084,
-		tcgplayer: 219324
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483084,
+				tcgplayer: 219324
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483084,
+				tcgplayer: 219324
+			}
+		},
+	],
 }
 
 export default card

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it finds others of its kind, they all stick together. When enough of them have collected, the mass resembles a cumulonimbus cloud.",
+	},
+
 	thirdParty: {
 		cardmarket: 297546,
 		tcgplayer: 131004

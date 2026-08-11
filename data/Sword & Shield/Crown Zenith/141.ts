@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Sonderbonbon"
 	},
 
+	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,17 +28,25 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691860,
-		tcgplayer: 478198
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691860,
+				tcgplayer: 478198
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691860,
+				tcgplayer: 478198
+			}
+		},
+	],
 }
 
 export default card

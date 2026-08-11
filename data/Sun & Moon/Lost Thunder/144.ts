@@ -109,6 +109,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+	},
+
 	thirdParty: {
 		cardmarket: 365781
 	}

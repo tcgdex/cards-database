@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+	},
+
 	thirdParty: {
 		cardmarket: 280791,
 		tcgplayer: 85613

@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It was upgraded to enable the exploration of other planets. However, it failed to measure up.",
+	},
+
 	thirdParty: {
 		cardmarket: 281094,
 		tcgplayer: 88329

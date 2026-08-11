@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schmerbe"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Makes its home in swamps with murky water. The poor visibility hides this Pokémon from predators, and the slime on its body makes grasping it difficult.",
 	},
 
-	thirdParty: {
-		cardmarket: 658543,
-		tcgplayer: 272235
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658543,
+				tcgplayer: 272235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658543,
+				tcgplayer: 272235
+			}
+		},
+	],
 }
 
 export default card

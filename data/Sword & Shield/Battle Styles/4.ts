@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
 	},
 
-	thirdParty: {
-		cardmarket: 544916,
-		tcgplayer: 234040
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544916,
+				tcgplayer: 234040
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544916,
+				tcgplayer: 234040
+			}
+		},
+	],
 }
 
 export default card

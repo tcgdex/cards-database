@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725154,
+				tcgplayer: 509850,
+				cardtrader: 255634
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725154,
+				tcgplayer: 509850,
+				cardtrader: 255634
+			}
+		},
+	],
 
 	illustrator: "kirisAki",
 
-	thirdParty: {
-		cardmarket: 725154
-	}
+	
 }
 
 export default card

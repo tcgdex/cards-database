@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 280665,
 		tcgplayer: 88927

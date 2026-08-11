@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flapteryx"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -58,20 +59,42 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
 	},
 
-	thirdParty: {
-		cardmarket: 682193,
-		tcgplayer: 451796
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682193,
+				tcgplayer: 451796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682193,
+				tcgplayer: 451796
+			}
+		},
+	],
 }
 
 export default card

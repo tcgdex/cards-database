@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Heracross 4",
+		en: "Heracross E4",
 		fr: "Scarhino  Niv. 51",
 		de: "Skaraborn 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		214,
-	],
+	dexId: [214],
 	hp: 90,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Heracross 's Megahorn attack's base damage is 100.",
+				en: "During your next turn, Heracross E4's Megahorn attack's base damage is 100.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Megacorne de Scarhino  sont de 100.",
 				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Vielender von Skaraborn 4 100 Schadenspunkte."
 			},
@@ -60,20 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278598,
+				tcgplayer: 86068
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278598,
+				tcgplayer: 86068
+			}
+		},
+	],
+
 }
 
 export default card

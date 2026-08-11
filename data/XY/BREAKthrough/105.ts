@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
+	},
+
 	thirdParty: {
 		cardmarket: 286351,
 		tcgplayer: 107224

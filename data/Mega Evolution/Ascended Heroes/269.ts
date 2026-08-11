@@ -13,10 +13,21 @@ const card: Card = {
 		it: "Mega Gengar-ex",
 		pt: "Mega Gengar ex"
 	},
+	evolveFrom: {
+		en: "Haunter",
+		de: "Alpollo",
+		es: "Haunter",
+		'es-mx': "Haunter",
+		fr: "Spectrum",
+		it: "Haunter",
+		pt: "Haunter",
+	},
 
+	suffix: "ex",
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [94],
 	hp: 350,
 	types: ["Darkness"],
 	stage: "Stage2",
@@ -71,13 +82,24 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676081,
-		cardmarket: 869880
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869880,
+				tcgplayer: 676081
+			}
+		}
+	],
 }
 
 export default card

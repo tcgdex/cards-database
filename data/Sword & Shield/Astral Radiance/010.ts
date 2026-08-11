@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zirpeise"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It uses its cutlass-like arms to produce sound, the melody of which varies from individual to individual. It is a worthwhile endeavor to seek out one's favorite tunes.",
 	},
 
-	thirdParty: {
-		cardmarket: 658502,
-		tcgplayer: 272210
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658502,
+				tcgplayer: 272210
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658502,
+				tcgplayer: 272210
+			}
+		},
+	],
 }
 
 export default card

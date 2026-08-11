@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lavados"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+	},
 }
 
 export default card

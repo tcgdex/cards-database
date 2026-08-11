@@ -1,51 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "葉伊布V"
+		ja: "チェリンボ",
+		'zh-tw': "葉伊布V",
 	},
 
-	illustrator: "PLANETA Mochizuki",
+	illustrator: "Lee HyunJung",
 	category: "Pokemon",
-	hp: 210,
+	hp: 50,
 	types: ["Grass"],
+
+	description: {
+		ja: "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "葉子防守"
+	attacks: [
+		{
+			name: {
+				ja: "このは",
+				'zh-tw': "葉子防守",
+			},
+			damage: 10,
+			cost: ["Grass"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561773,
+				tcgplayer: 597356,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Grass"]
-	}, {
-		name: {
-			'zh-tw': "猛擊在地"
-		},
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [420],
+};
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「猛擊在地」。"
-		},
-
-		damage: 180,
-		cost: ["Grass", "Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

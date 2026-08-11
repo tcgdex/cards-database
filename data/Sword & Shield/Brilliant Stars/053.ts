@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Piepi"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608503,
-		tcgplayer: 263769
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608503,
+				tcgplayer: 263769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608503,
+				tcgplayer: 263769
+			}
+		},
+	],
 }
 
 export default card

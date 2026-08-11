@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Poussacha"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -50,7 +50,11 @@ const card: Card = {
 	variants:[
 		{
 			type: "holo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 784941,
+				tcgplayer: 595036
+			},
 		}
 	]
 }

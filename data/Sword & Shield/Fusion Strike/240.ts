@@ -28,17 +28,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	illustrator: "Yuu Nishida",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582976,
-		tcgplayer: 253117
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582976,
+				tcgplayer: 253117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582976,
+				tcgplayer: 253117
+			}
+		},
+	],
 }
 
 export default card

@@ -76,21 +76,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Loves to eat walnuts, chestnuts, cheese, and milk.",
 		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
 	},
 
-	thirdParty: {
-		cardmarket: 274119,
-		tcgplayer: 88611
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274119,
+				tcgplayer: 88611
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274119,
+				tcgplayer: 88611
+			}
 		}
 	]
 }

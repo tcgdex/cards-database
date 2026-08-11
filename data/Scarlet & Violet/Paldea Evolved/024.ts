@@ -74,18 +74,39 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715497,
+				tcgplayer: 497435,
+				cardtrader: 248321
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715497,
+				tcgplayer: 497435,
+				cardtrader: 248321
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 715497
-	}
+	description: {
+		en: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+	},
 }
 
 export default card

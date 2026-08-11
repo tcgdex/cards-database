@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ur-Palkia VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
@@ -55,20 +56,25 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658560,
-		tcgplayer: 272240
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658560,
+				tcgplayer: 272240
+			}
+		},
+	],
 }
 
 export default card

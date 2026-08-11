@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It flies over raging seas as if they were nothing. Observing this, a ship's captain dubbed this Pokémon \"the sea incarnate.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 369047,
 		tcgplayer: 183906

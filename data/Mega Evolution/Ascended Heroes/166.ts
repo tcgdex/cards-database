@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Delcatty"
 	},
 
+	evolveFrom: {
+		en: "Skitty",
+		fr: "Skitty",
+		es: "Skitty",
+		'es-mx': "Skitty",
+		de: "Eneco",
+		it: "Skitty",
+		pt: "Skitty",
+	},
+
 	illustrator: "buchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [301],
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
@@ -61,13 +72,44 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675978,
-		cardmarket: 869777
-	}
+	description: {
+		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869777,
+			tcgplayer: 675978
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870394,
+			tcgplayer: 676981
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870393,
+			tcgplayer: 677121
+		}
+	},
+],
 }
 
 export default card

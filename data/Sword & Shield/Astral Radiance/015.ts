@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lilminip"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
 	},
 
-	thirdParty: {
-		cardmarket: 658509,
-		tcgplayer: 272215
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658509,
+				tcgplayer: 272215
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658509,
+				tcgplayer: 272215
+			}
+		},
+	],
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	},
 	
 	hp: 130,
+	types: ["Water"],
 
 	stage: "Stage1",
 
@@ -43,9 +44,6 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		tcgplayer: 85997
-	}
 }
 
 export default card

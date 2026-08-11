@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+	},
+
 	thirdParty: {
 		cardmarket: 388197,
 		tcgplayer: 195005

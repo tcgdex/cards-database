@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
+	},
+
 	thirdParty: {
 		cardmarket: 280831,
 		tcgplayer: 85022

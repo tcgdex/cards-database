@@ -79,23 +79,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
 		fr: "Son corps est protégé par une coquille dure comme l'acier. Ce que cache l'armure reste un mystère complet."
 	},
 
-	thirdParty: {
-		cardmarket: 274513,
-		tcgplayer: 85542
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274513,
+				tcgplayer: 85542
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274513,
+				tcgplayer: 85542
+			}
 		}
 	]
 }

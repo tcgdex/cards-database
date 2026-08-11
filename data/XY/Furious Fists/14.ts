@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can clear a 30-story building in a leap. Its fiery punches scorch its foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 281678,
 		tcgplayer: 92186

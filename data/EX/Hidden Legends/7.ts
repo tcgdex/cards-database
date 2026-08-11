@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		214,
-	],
+	dexId: [214],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Extra Draw"
 			},
 			effect: {
-				en: "If your opponent has any Pokémon-ex in play, search your deck for up to 2 Grass Energy and attach them to Heracross. Shuffle your deck afterward.",
+				en: "If your opponent has any Pokémon-ex in play, search your deck for up to 2 Grass Energy cards and attach them to Heracross. Shuffle your deck afterward.",
 				fr: "Si votre adversaire a des Pokémon-ex en jeu, cherchez dans votre deck jusqu'à 2 cartes Énergie  et attachez-les à Scarhino. Ensuite, mélangez votre deck.",
 				de: "If your opponent has any Pokémon-ex in play, search your deck for up to 2  Energy cards and attach them to Heracross. Shuffle your deck afterward."
 			},
@@ -73,19 +71,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276081,
-		tcgplayer: 86062
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86062,
+				cardmarket: 276081
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 86062,
+				cardmarket: 276081
+			}
+		},
 	]
 }
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Keldeo"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -57,20 +58,36 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 
-	thirdParty: {
-		cardmarket: 658584,
-		tcgplayer: 272245
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658584,
+				tcgplayer: 272245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658584,
+				tcgplayer: 272245
+			}
+		},
+	],
 }
 
 export default card

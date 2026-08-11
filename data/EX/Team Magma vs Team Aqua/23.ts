@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -58,7 +56,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu dont les noms comportent Team Magma.",
 				de: "Does 10 damage times the number of Pokémon in play with Team Magma in its name."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -70,26 +68,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276000,
-		tcgplayer: 89846
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275800,
+				tcgplayer: 89846
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275800,
+				tcgplayer: 89846
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871828,
+				tcgplayer: 477453
+			}
 		}
-	]
+	],
+
 }
 
 export default card

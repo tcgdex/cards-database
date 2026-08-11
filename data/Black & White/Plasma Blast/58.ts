@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+	},
+
 	thirdParty: {
 		cardmarket: 281079,
 		tcgplayer: 86585

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Écrapince"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

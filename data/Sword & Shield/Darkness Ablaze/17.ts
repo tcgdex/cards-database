@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean."
 	},
 
-	thirdParty: {
-		cardmarket: 482959,
-		tcgplayer: 219230
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482959,
+				tcgplayer: 219230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482959,
+				tcgplayer: 219230
+			}
+		},
+	],
 }
 
 export default card

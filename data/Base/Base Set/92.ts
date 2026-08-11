@@ -15,28 +15,35 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 		fr: "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
 		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie.",
 		it: "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
 	},
 
-	thirdParty: {
-		cardmarket: 273787,
-		tcgplayer: 42436
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273787,
+				tcgplayer: 42436
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107089
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107089
+			},
 		},
 		{
 			type: "normal",

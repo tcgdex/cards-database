@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Knattatox"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
@@ -74,9 +74,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "DOM"
+	illustrator: "DOM",
+	description: {
+		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 692230,
+				tcgplayer: 487756
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761122,
+				tcgplayer: 515203
+			},
+		}
+	],
 }
 
 export default card

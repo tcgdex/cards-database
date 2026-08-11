@@ -55,19 +55,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769353,
+				tcgplayer: 550223
+			}
+		},
+	],
 
 	illustrator: "REND",
 
-	thirdParty: {
-		cardmarket: 769353
-	}
 }
 
 export default card

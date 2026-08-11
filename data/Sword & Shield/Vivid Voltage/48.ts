@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,29 @@ const card: Card = {
 		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
 	},
 
-	thirdParty: {
-		cardmarket: 511660,
-		tcgplayer: 226439
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511660,
+				tcgplayer: 226439
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 874539
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511660,
+				tcgplayer: 226439
+			}
+		},
+	],
 }
 
 export default card

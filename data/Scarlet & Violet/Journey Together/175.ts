@@ -78,19 +78,26 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "takuyoa",
-
-	thirdParty: {
-		cardmarket: 817328
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817328,
+				tcgplayer: 623602
+			}
 		},
-	]
+	],
 }
 
 export default card

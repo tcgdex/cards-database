@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		233,
-	],
+	dexId: [233],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Porygon",
-		fr: "Porygon",
+		fr: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn, when you play Porygon2 from your hand to evolve 1 of your Pokémon, you may search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Une seule fois pendant votre tour, lorsque vous jouez Porygon2 dans votre main pour faire évoluer l’un de vos Pokémon, vous pouvez chercher une carte Stade dans votre deck, la montrer à votre adversaire et l’ajouter à votre main. Mélangez ensuite votre deck.",
 				de: "Einmal während deines Zuges kannst du, wenn du Porygon2 von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, dein Deck nach 1 Stadion-Karte durchsuchen, sie deinem Gegner zeigen und sie auf die Hand nehmen. Mische anschließend dein Deck."
-			},
+			}
 		},
 	],
 
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -74,23 +72,29 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1,
+	retreat: 2,
 
 	description: {
 		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88327,
+				cardmarket: 279579
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279579,
+				tcgplayer: 88327
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279579,
-		tcgplayer: 88327
-	}
 }
 
 export default card

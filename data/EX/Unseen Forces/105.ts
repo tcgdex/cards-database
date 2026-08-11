@@ -23,7 +23,7 @@ const card: Card = {
 		"Colorless",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -80,20 +80,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276751,
-		tcgplayer: 86912
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86912,
+				cardmarket: 276751
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477776,
+				cardmarket: 869511
+			},
 		}
-	]
+	],
 }
 
 export default card

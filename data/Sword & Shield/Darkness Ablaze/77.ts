@@ -90,12 +90,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -103,10 +97,22 @@ const card: Card = {
 		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
 	},
 
-	thirdParty: {
-		cardmarket: 483264,
-		tcgplayer: 219459
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483264,
+				tcgplayer: 219459
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483264,
+				tcgplayer: 219459
+			}
+		},
+	],
 }
 
 export default card

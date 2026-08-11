@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This is an extremely rare Meowth card. Maybe good fortune will come to you if you hold this card!",
+	},
+
 	thirdParty: {
 		cardmarket: 280225,
 		tcgplayer: 87325

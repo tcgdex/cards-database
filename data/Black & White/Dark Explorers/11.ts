@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+	},
+
 	thirdParty: {
 		cardmarket: 280339,
 		tcgplayer: 83460

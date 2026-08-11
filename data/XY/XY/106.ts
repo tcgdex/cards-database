@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+	},
+
 	thirdParty: {
 		cardmarket: 281443,
 		tcgplayer: 83830

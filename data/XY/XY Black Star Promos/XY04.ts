@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -76,6 +76,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+	},
 
 	thirdParty: {
 		cardmarket: 281326

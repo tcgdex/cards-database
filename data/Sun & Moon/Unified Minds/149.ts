@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.",
+	},
+
 	thirdParty: {
 		cardmarket: 388537,
 		tcgplayer: 195144

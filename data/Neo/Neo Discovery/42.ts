@@ -73,23 +73,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
 		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
 	},
 
-	thirdParty: {
-		cardmarket: 274553,
-		tcgplayer: 87385
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274553,
+				tcgplayer: 87385
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274553,
+				tcgplayer: 87385
+			}
 		}
 	]
 }

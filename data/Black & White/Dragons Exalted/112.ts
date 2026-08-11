@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+	},
+
 	thirdParty: {
 		cardmarket: 280551,
 		tcgplayer: 83951

@@ -67,8 +67,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes.",
 		fr: "On l'appelle \"être du savoir\". On raconte que son regard a le pouvoir d'effacer la mémoire."
 	},
 

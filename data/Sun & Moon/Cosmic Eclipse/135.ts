@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "No matter how strong the Bisharp, it's said that if the blade on its head is chipped, it will retire from its position as the boss.",
+	},
+
 	thirdParty: {
 		cardmarket: 408324,
 		tcgplayer: 201179

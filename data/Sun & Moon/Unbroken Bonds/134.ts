@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+	},
+
 	thirdParty: {
 		cardmarket: 372421,
 		tcgplayer: 189232

@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "In the spring, it grows berries with the texture of frozen treats around its belly.",
+	},
+
 	thirdParty: {
 		cardmarket: 315968,
 		tcgplayer: 157654

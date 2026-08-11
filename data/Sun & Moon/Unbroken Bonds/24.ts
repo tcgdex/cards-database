@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+	},
+
 	thirdParty: {
 		cardmarket: 372316,
 		tcgplayer: 189068

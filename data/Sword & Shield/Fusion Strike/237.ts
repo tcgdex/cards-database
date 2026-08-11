@@ -29,17 +29,37 @@ const card: Card = {
 	regulationMark: "D",
 	illustrator: "Ryo Ueda",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582973,
-		tcgplayer: 253112
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582973,
+				tcgplayer: 253112
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582973,
+				tcgplayer: 253112
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['national-championships'],
+			thirdParty: {
+				cardmarket: 653292
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['national-championships', 'staff'],
+			thirdParty: {
+				cardmarket: 653293
+			}
+		},
+	],
 }
 
 export default card

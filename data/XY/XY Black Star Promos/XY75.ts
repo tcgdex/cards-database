@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -65,6 +65,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+	},
 
 	thirdParty: {
 		cardmarket: 289798

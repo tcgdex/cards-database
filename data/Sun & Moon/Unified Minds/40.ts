@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Deep down at the bottom of the ocean, prey is scarce. Lumineon get into fierce disputes with Lanturn over food.",
+	},
+
 	thirdParty: {
 		cardmarket: 388027,
 		tcgplayer: 194961

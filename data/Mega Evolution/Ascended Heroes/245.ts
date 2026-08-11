@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Obstagoon de Galar"
 	},
 
+	evolveFrom: {
+		en: "Galarian Linoone",
+		fr: "Linéon de Galar",
+		es: "Linoone de Galar",
+		'es-mx': "Linoone de Galar",
+		de: "Galar-Geradaks",
+		it: "Linoone di Galar",
+		pt: "Linoone de Galar",
+	},
+
 	illustrator: "Krgc",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [862],
 	hp: 170,
 	types: ["Darkness"],
 	stage: "Stage2",
@@ -71,13 +82,28 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676057,
-		cardmarket: 869856
-	}
+	description: {
+		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869856,
+				tcgplayer: 676057
+			}
+		}
+	],
 }
 
 export default card

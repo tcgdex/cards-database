@@ -72,19 +72,36 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725233,
+				tcgplayer: 509940,
+				cardtrader: 255838
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
-	thirdParty: {
-		cardmarket: 725233
-	}
+	
 }
 
 export default card

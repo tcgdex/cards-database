@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It focuses psychic energy into its tail and rides it like it's surfing. Another name for this Pokémon is \"hodad.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 388107,
 		tcgplayer: 194983

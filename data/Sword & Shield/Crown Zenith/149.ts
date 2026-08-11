@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Sinnoh"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,18 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691850,
-		tcgplayer: 478119
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691868,
+				tcgplayer: 478119
+			}
+		},
+	],
 }
 
 export default card

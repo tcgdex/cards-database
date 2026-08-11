@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fire"],
@@ -74,7 +74,8 @@ const card: Card = {
 	suffix: "V",
 
 	thirdParty: {
-		cardmarket: 505255
+		cardmarket: 505255,
+		tcgplayer: 223754
 	}
 }
 

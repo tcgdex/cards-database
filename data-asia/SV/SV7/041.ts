@@ -50,10 +50,20 @@ const card: Card = {
 		value: "－30"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779055,
+				tcgplayer: 567896,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Uncommon",
-	dexId: [426]
+	dexId: [426],
 }
 
 export default card

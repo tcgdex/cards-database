@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Resladero"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -57,20 +58,29 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
 	},
 
-	thirdParty: {
-		cardmarket: 658690,
-		tcgplayer: 272282
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658690,
+				tcgplayer: 272282
+			}
+		},
+	],
 }
 
 export default card

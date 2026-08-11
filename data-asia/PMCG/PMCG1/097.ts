@@ -4,16 +4,24 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "草のエネルギー",
+		ja: "基本草エネルギー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 577172
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+		}
 	],
 };
 

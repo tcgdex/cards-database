@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mega Charizard X ex"
 	},
 
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		'es-mx': "Charmeleon",
+		de: "Glutexo",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+	},
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 
@@ -48,19 +58,26 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "danciao",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857700,
+				tcgplayer: 662184,
+				cardtrader: 356911
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857700,
-		tcgplayer: 662184
-	}
 }
 
 export default card

@@ -44,15 +44,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273965,
-		tcgplayer: 42505
+
+	description: {
+		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273965,
+				tcgplayer: 42505
+			}
 		}
 	]
 }

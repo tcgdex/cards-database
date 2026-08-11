@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
+	},
+
 	thirdParty: {
 		cardmarket: 280169,
 		tcgplayer: 84385

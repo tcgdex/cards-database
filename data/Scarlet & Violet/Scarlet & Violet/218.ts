@@ -72,15 +72,26 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "OKACHEKE",
+
+	description: {
+		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+	},
 
 	thirdParty: {
         cardmarket: 702514,

@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a black, cape-like fur that is very hard and decreases the amount of damage it receives.",
+	},
+
 	thirdParty: {
 		cardmarket: 280415,
 		tcgplayer: 86070

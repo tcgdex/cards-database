@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "You can tell how it's feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.",
+	},
+
 	thirdParty: {
 		cardmarket: 398524,
 		tcgplayer: 201206

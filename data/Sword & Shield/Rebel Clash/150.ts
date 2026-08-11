@@ -92,12 +92,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
 	},
 
-	thirdParty: {
-		cardmarket: 458148,
-		tcgplayer: 213250
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458148,
+				tcgplayer: 213250
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458148,
+				tcgplayer: 213250
+			}
+		},
+	],
 }
 
 export default card

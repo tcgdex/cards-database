@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+	},
+
 	thirdParty: {
 		cardmarket: 289887,
 		tcgplayer: 117841

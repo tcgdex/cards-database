@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Tomokazu Komiya",
@@ -51,17 +57,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582412,
-		tcgplayer: 253243
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582412,
+				tcgplayer: 253243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582412,
+				tcgplayer: 253243
+			}
+		},
+	],
 }
 
 export default card

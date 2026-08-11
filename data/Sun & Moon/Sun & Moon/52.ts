@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pokémon with shocking beams of electrical energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 295363,
 		tcgplayer: 126923

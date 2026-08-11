@@ -68,25 +68,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
 		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
 	},
 
-	thirdParty: {
-		cardmarket: 273907,
-		tcgplayer: 44448
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273907,
+				tcgplayer: 44448
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273907,
+				tcgplayer: 44448
+			}
 		},
 		{
 			type: "normal",

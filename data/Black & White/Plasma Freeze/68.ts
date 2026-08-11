@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
+	},
+
 	thirdParty: {
 		cardmarket: 280946,
 		tcgplayer: 88916

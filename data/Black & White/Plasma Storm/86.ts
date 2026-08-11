@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+	},
+
 	thirdParty: {
 		cardmarket: 280826,
 		tcgplayer: 88980

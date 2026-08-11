@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Spectrum"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -92,17 +92,15 @@ const card: Card = {
 		},
 	],
 
-	
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 276284,
-		tcgplayer: 85680
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276284,
+				tcgplayer: 85680
+			},
 		},
 	]
 }

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "An amazingly friendly Pokémon, but if left to itself, loneliness overcomes it, and it oozes gooey tears.",
+	},
+
 	thirdParty: {
 		cardmarket: 297550,
 		tcgplayer: 131012

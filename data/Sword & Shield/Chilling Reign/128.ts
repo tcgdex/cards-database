@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells."
 	},
 
-	thirdParty: {
-		cardmarket: 567236,
-		tcgplayer: 241810
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567236,
+				tcgplayer: 241810
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567236,
+				tcgplayer: 241810
+			}
+		},
+	],
 }
 
 export default card

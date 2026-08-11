@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
 		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
 	},
 

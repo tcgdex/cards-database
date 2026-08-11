@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		152,
-	],
+	dexId: [152],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -65,23 +63,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279696,
-		tcgplayer: 84280
-	}
+	description: {
+		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84280,
+				cardmarket: 279696
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84280,
+				cardmarket: 279696
+			},
+		},
+	],
+
 }
 
 export default card

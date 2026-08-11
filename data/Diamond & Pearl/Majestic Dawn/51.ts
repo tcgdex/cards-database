@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands.",
+	},
+
 	thirdParty: {
 		cardmarket: 278099,
 		tcgplayer: 83491

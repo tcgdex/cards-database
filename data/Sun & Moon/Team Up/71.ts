@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The smallest of things could cause it to lose its temper. Because it doesn't hold in its stress, this Pokémon can live a long time.",
+	},
+
 	thirdParty: {
 		cardmarket: 369001,
 		tcgplayer: 183849

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Golgantes"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
 	},
 
-	thirdParty: {
-		cardmarket: 608533,
-		tcgplayer: 263799
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608533,
+				tcgplayer: 263799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608533,
+				tcgplayer: 263799
+			}
+		},
+	],
 }
 
 export default card

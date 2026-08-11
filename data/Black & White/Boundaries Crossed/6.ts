@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+	},
+
 	thirdParty: {
 		cardmarket: 280593,
 		tcgplayer: 89755

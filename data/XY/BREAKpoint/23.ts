@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort.",
+	},
+
 	thirdParty: {
 		cardmarket: 288197,
 		tcgplayer: 111526

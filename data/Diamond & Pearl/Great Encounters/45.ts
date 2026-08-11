@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.",
+	},
+
 	thirdParty: {
 		cardmarket: 277947,
 		tcgplayer: 87016

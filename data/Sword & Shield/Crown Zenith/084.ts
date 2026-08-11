@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Mauzi"
 	},
 
+	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,44 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
 	},
 
-	thirdParty: {
-		cardmarket: 691802,
-		tcgplayer: 477163
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691802,
+				tcgplayer: 477163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691802,
+				tcgplayer: 477163
+			}
+		},
+	],
 }
 
 export default card

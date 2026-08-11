@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
 	},
 
-	thirdParty: {
-		cardmarket: 544956,
-		tcgplayer: 234068
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544956,
+				tcgplayer: 234068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544956,
+				tcgplayer: 234068
+			}
+		},
+	],
 }
 
 export default card

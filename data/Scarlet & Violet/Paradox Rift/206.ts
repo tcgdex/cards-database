@@ -66,19 +66,33 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740749,
+				tcgplayer: 523887,
+				cardtrader: 265552
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 740654
-	}
+	
 }
 
 export default card

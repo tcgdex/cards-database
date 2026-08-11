@@ -44,18 +44,46 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769236,
+				tcgplayer: 550106
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769236,
+				tcgplayer: 550106
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 785467,
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 769236
-	}
 }
 
 export default card

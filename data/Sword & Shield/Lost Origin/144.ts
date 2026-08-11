@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Griffel"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674154,
-		tcgplayer: 284070
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674154,
+				tcgplayer: 284070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674154,
+				tcgplayer: 284070
+			}
+		},
+	],
 }
 
 export default card

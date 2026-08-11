@@ -68,15 +68,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273928,
-		tcgplayer: 42482
+
+	description: {
+		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273928,
+				tcgplayer: 42482
+			}
 		}
 	]
 }

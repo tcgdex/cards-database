@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Nagomi Nijo",
@@ -42,17 +48,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582793,
-		tcgplayer: 253379
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582793,
+				tcgplayer: 253379
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582793,
+				tcgplayer: 253379
+			}
+		},
+	],
 }
 
 export default card

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Legends tell of its fighting alongside a general and conquering a whole country.",
+	},
+
 	thirdParty: {
 		cardmarket: 372314,
 		tcgplayer: 189063

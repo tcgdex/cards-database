@@ -1,0 +1,86 @@
+import { Card } from "../../../interfaces"
+import Set from "../Perfect Order"
+
+const card: Card = {
+	set: Set,
+
+	dexId: [662],
+
+	name: {
+		en: "Fletchinder",
+		fr: "Braisillon",
+		es: "Fletchinder",
+		'es-mx': "Fletchinder",
+		de: "Dartignis",
+		it: "Fletchinder",
+		pt: "Fletchinder"
+	},
+
+	evolveFrom: {
+		en: "Fletchling",
+		fr: "Passerouge",
+		es: "Fletchling",
+		'es-mx': "Fletchling",
+		de: "Dartiri",
+		it: "Fletchling",
+		pt: "Fletchling",
+	},
+
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fire", "Fire"],
+
+		name: {
+			en: "Flare",
+			fr: "Flamboiement",
+			es: "Llama",
+			'es-mx': "Llama",
+			de: "Flackern",
+			it: "Fiammata",
+			pt: "Chama"
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 684404,
+				cardmarket: 877425
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 684404,
+				cardmarket: 877425
+			}
+		}
+	],
+
+}
+
+export default card

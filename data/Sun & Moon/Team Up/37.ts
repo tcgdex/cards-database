@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It's grumpy and stubborn. If you upset it, it discharges electricity from the surface of its body and growls with a voice like thunder.",
+	},
+
 	thirdParty: {
 		cardmarket: 368968,
 		tcgplayer: 183810

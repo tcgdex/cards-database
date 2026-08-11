@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Oricorio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
@@ -64,6 +64,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 

@@ -72,21 +72,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
 		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
 	},
 
-	thirdParty: {
-		cardmarket: 274461,
-		tcgplayer: 86177
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274461,
+				tcgplayer: 86177
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274461,
+				tcgplayer: 86177
+			}
 		}
 	]
 }

@@ -65,23 +65,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although possessed of great mental powers, it doesn't know how to use them.",
 		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
 	},
 
-	thirdParty: {
-		cardmarket: 274731,
-		tcgplayer: 88433
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274731,
+				tcgplayer: 88433
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274731,
+				tcgplayer: 88433
+			}
 		}
 	]
 }

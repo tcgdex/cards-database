@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
 	rarity: "Ultra Rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: "140+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826084,
+				tcgplayer: 633010
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826084
-	}
 }
 
 export default card

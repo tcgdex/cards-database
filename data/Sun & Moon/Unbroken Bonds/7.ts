@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+	},
+
 	thirdParty: {
 		cardmarket: 372300,
 		tcgplayer: 189045

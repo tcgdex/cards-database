@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740500,
+				tcgplayer: 523631,
+				cardtrader: 265094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740500,
+				tcgplayer: 523631,
+				cardtrader: 265094
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
-	thirdParty: {
-		cardmarket: 740500
-	}
+	
 }
 
 export default card

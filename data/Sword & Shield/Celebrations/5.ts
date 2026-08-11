@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pikachu",
@@ -76,10 +70,15 @@ const card: Card = {
 
 	dexId: [25],
 
-	thirdParty: {
-		cardmarket: 576750,
-		tcgplayer: 250303
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576750,
+				tcgplayer: 250303
+			}
+		},
+	],
 }
 
 export default card

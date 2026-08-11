@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+	},
+
 	thirdParty: {
 		cardmarket: 280801,
 		tcgplayer: 85606

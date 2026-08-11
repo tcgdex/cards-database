@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there.",
+	},
+
 	thirdParty: {
 		cardmarket: 311886,
 		tcgplayer: 149059

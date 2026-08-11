@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Serpiroyal V"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -56,20 +57,25 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682046,
-		tcgplayer: 451818
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682217,
+				tcgplayer: 451818
+			}
+		},
+	],
 }
 
 export default card

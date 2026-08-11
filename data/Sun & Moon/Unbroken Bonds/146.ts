@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+	},
+
 	thirdParty: {
 		cardmarket: 372432,
 		tcgplayer: 189246

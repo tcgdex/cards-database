@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sekio",
@@ -51,17 +57,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582202,
-		tcgplayer: 253211
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582202,
+				tcgplayer: 253211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582202,
+				tcgplayer: 253211
+			}
+		},
+	],
 }
 
 export default card

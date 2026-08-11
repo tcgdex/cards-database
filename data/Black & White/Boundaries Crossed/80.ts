@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It clamps on to its chosen prey then jabs the stinger on its tail into the prey while it's stunned with surprise.",
+	},
+
 	thirdParty: {
 		cardmarket: 280667,
 		tcgplayer: 85769

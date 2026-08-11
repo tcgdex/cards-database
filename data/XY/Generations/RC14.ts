@@ -50,6 +50,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "My number one. Exceptionally cute. A little princess.",
+	},
+
 	thirdParty: {
 		cardmarket: 288523
 	}

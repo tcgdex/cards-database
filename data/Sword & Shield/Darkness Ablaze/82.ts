@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
 	},
 
-	thirdParty: {
-		cardmarket: 483289,
-		tcgplayer: 219468
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483289,
+				tcgplayer: 219468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483289,
+				tcgplayer: 219468
+			}
+		},
+	],
 }
 
 export default card

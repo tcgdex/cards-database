@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,29 @@ const card: Card = {
 		en: "This Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions."
 	},
 
-	thirdParty: {
-		cardmarket: 567090,
-		tcgplayer: 241659
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567090,
+				tcgplayer: 241659
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 672374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567090,
+				tcgplayer: 241659
+			}
+		},
+	],
 }
 
 export default card

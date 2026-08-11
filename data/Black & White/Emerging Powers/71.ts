@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+	},
+
 	thirdParty: {
 		cardmarket: 280035,
 		tcgplayer: 85426

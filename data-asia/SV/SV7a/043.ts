@@ -40,10 +40,20 @@ const card: Card = {
 		cost: ["Grass", "Water"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 787603,
+				tcgplayer: 579425,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Rare",
-	dexId: [484]
+	dexId: [484],
 }
 
 export default card

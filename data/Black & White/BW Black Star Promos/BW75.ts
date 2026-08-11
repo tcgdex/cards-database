@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+	},
 }
 
 export default card

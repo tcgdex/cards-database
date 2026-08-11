@@ -28,16 +28,18 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785988,
+				tcgplayer: 567392
+			}
+		},
+	],
 
 	illustrator: "inose yukie",
 
-	thirdParty: {
-		cardmarket: 785988
-	}
 }
 
 export default card

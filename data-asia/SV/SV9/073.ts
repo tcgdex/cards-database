@@ -53,8 +53,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807660,
+				tcgplayer: 614924,
+			},
+		},
+	],
+
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
 }
 
 export default card

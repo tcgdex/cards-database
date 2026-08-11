@@ -8,40 +8,50 @@ const card: Card = {
 		de: "Feuer-Würfel 01"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa"',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
 
 	effect: {
+		en: "Attach this card to 1 of your Fire Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Fire Cube 01.",
 		fr: "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de feu 01.",
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Feuer-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Versengung"
+	attacks: [
+		{
+			name: {
+				en: "Singe",
+				de: "Versengung",
+				fr: "Roussir"
+			},
+			effect: {
+				en: "The Defending Pokémon is now Burned.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			cost: [
+				"Fire",
+			]
 		},
-
-		effect: {
-			de: "Das Verteidigende Pokémon ist jetzt verbrannt."
-		},
-
-		cost: ["Fire"]
-	}],
-
-	thirdParty: {
-		cardmarket: 275198,
-		tcgplayer: 85451
-	},
+	],
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85451,
+				cardmarket: 275198
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85451,
+				cardmarket: 275198
+			}
+		},
 	]
 }
 

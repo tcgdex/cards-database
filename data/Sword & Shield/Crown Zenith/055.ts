@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 270,
@@ -75,20 +76,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691772,
-		tcgplayer: 478169
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691772,
+				tcgplayer: 478169
+			}
+		},
+	],
 }
 
 export default card

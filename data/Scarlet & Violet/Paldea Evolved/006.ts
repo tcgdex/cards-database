@@ -57,18 +57,39 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715478,
+				tcgplayer: 497417,
+				cardtrader: 248302
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715478,
+				tcgplayer: 497417,
+				cardtrader: 248302
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 715478
-	}
+	description: {
+		en: "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
+	},
 }
 
 export default card

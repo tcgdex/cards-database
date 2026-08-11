@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+	},
+
 	thirdParty: {
 		cardmarket: 281442,
 		tcgplayer: 84743

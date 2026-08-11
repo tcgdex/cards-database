@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F.",
+	},
+
 	thirdParty: {
 		cardmarket: 280890,
 		tcgplayer: 85502

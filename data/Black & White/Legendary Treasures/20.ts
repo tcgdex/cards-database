@@ -49,6 +49,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+	},
+
 	thirdParty: {
 		cardmarket: 281171,
 		tcgplayer: 90448

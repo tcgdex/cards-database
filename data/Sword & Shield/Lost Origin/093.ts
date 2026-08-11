@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aerodactyl VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,
@@ -78,16 +79,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670815,
-		tcgplayer: 282255
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670815,
+				tcgplayer: 282255
+			}
+		},
+	],
 }
 
 export default card

@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
+	},
+
 	thirdParty: {
 		cardmarket: 280691,
 		tcgplayer: 88622

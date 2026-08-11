@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Maxi-Malasada"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,9 +28,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		tcgplayer: 152849
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297259,
+				tcgplayer: 152849
+			}
+		},
+	],
+
 }
 
 export default card

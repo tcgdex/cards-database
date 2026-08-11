@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Eevee VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [133],
 	hp: 300,
 	types: ["Colorless"],
@@ -71,7 +71,8 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 540656
+		cardmarket: 540656,
+		tcgplayer: 232611
 	}
 }
 

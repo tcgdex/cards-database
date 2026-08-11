@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
+	},
+
 	thirdParty: {
 		cardmarket: 368998,
 		tcgplayer: 183846

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It was originally brought in from another region, but now Makuhita from Alola are more famous.",
+	},
+
 	thirdParty: {
 		cardmarket: 295378,
 		tcgplayer: 126938

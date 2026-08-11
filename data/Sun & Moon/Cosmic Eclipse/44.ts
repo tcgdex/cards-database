@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "One Weavile will trip a Sandshrew and flip it over, and then another Weavile will deal the finishing blow with its sharp claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 398529,
 		tcgplayer: 201220

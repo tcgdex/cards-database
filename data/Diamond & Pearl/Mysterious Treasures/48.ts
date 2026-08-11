@@ -72,8 +72,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "There is a long-held belief that medicine made from its scale will heal even incurable illnesses.",
 		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
 	},
 

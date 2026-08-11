@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dips its large bill in the sea, then scoops up numerous prey along with water.",
+	},
+
 	thirdParty: {
 		cardmarket: 277950,
 		tcgplayer: 87977

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+	},
+
 	thirdParty: {
 		cardmarket: 369016,
 		tcgplayer: 183864

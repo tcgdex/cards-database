@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+	},
+
 	thirdParty: {
 		cardmarket: 279824,
 		tcgplayer: 90159

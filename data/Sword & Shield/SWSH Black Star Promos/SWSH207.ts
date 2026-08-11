@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Samurott"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
@@ -76,6 +76,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 

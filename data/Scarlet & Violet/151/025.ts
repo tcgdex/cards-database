@@ -55,18 +55,62 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733620,
+				tcgplayer: 517033,
+				cardtrader: 261140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733620,
+				tcgplayer: 517033,
+				cardtrader: 261140
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-together'],
+			thirdParty: {
+				cardmarket: 748474
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845404
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794911
+			}
+		},
+	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 733620
-	}
+	
 }
 
 export default card

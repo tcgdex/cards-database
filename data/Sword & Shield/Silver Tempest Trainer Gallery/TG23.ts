@@ -1,0 +1,44 @@
+import { Card } from "../../../interfaces"
+import Set from "../Silver Tempest Trainer Gallery"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Friends in Galar",
+		fr: "Amis de Galar",
+		es: "Amigos de Galar",
+		it: "Amici a Galar",
+		pt: "Amigos em Galar",
+		de: "Freunde aus Galar"
+	},
+
+	illustrator: "Sanosuke Sakuma",
+	rarity: "Full Art Trainer",
+	category: "Trainer",
+
+	effect: {
+		en: "Draw 3 cards.",
+		fr: "Piochez 3 cartes.",
+		es: "Roba 3 cartas.",
+		it: "Pesca tre carte.",
+		pt: "Compre 3 cartas.",
+		de: "Ziehe 3 Karten."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "E",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682287,
+				tcgplayer: 452039
+			}
+		},
+	],
+}
+
+export default card

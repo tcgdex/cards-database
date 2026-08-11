@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+	},
+
 	thirdParty: {
 		cardmarket: 281273,
 		tcgplayer: 87946

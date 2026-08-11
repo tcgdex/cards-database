@@ -67,15 +67,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273932,
-		tcgplayer: 42497
+
+	description: {
+		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273932,
+				tcgplayer: 42497
+			}
 		}
 	]
 }

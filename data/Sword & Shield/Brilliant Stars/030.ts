@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sterndu"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "If you visit a beach at the end of summer, you'll be able to see groups of Staryu lighting up in a steady rhythm.",
 	},
 
-	thirdParty: {
-		cardmarket: 608480,
-		tcgplayer: 263729
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608480,
+				tcgplayer: 263729
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608480,
+				tcgplayer: 263729
+			}
+		},
+	],
 }
 
 export default card

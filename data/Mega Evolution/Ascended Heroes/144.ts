@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "CHORISO",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [303],
 	hp: 90,
 	types: ["Metal"],
 	stage: "Basic",
@@ -59,13 +60,50 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675956,
-		cardmarket: 869755
-	}
+	description: {
+		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869755,
+			tcgplayer: 675956
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870362,
+			tcgplayer: 676965
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870361,
+			tcgplayer: 677105
+		}
+	},
+],
 }
 
 export default card

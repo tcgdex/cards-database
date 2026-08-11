@@ -44,18 +44,39 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715480,
+				tcgplayer: 497419,
+				cardtrader: 248304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715480,
+				tcgplayer: 497419,
+				cardtrader: 248304
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 715480
-	}
+	description: {
+		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+	},
 }
 
 export default card

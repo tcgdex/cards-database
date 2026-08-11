@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Jolteon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -65,11 +65,17 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 576504
+		cardmarket: 547021
 	}
 }
 

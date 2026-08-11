@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+	},
+
 	thirdParty: {
 		cardmarket: 280962,
 		tcgplayer: 86449

@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.",
+	},
+
 	thirdParty: {
 		cardmarket: 368993,
 		tcgplayer: 183841

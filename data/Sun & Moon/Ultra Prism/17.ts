@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
+	},
+
 	thirdParty: {
 		cardmarket: 315948,
 		tcgplayer: 157634

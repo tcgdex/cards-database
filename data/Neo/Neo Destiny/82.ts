@@ -48,23 +48,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This Pokémon is often seen crawling around in volcanic regions.",
 		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
 	},
 
-	thirdParty: {
-		cardmarket: 274734,
-		tcgplayer: 89337
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274734,
+				tcgplayer: 89337
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274734,
+				tcgplayer: 89337
+			}
 		}
 	]
 }

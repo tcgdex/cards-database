@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It boasts superb physical strength. Those who wish to become Pangoro's Trainer have no choice but to converse with their fists.",
+	},
+
 	thirdParty: {
 		cardmarket: 297539,
 		tcgplayer: 130994

@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794948,
+				tcgplayer: 590077
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794948,
+				tcgplayer: 590077
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 794534,
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 794534
-	}
 }
 
 export default card

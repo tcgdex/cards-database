@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its sparkling core is called \"the gem of the sea.\" This core can be made into high-priced accessories that are traded in secret.",
+	},
+
 	thirdParty: {
 		cardmarket: 368995,
 		tcgplayer: 183843

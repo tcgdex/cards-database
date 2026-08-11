@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Ymphect"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -128,16 +128,16 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276757,
-		tcgplayer: 90125
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90125,
+				cardmarket: 276757
+			},
 		},
-	]
+	],
 }
 
 export default card

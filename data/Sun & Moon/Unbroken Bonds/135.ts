@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thanks to its bouncy body and fine fur, this Pokémon is sought after. Holding one in your arms while you sleep feels great.",
+	},
+
 	thirdParty: {
 		cardmarket: 372422,
 		tcgplayer: 189233

@@ -67,12 +67,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -80,10 +74,22 @@ const card: Card = {
 		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
 	},
 
-	thirdParty: {
-		cardmarket: 545556,
-		tcgplayer: 234224
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545556,
+				tcgplayer: 234224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545556,
+				tcgplayer: 234224
+			}
+		},
+	],
 }
 
 export default card

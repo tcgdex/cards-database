@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -70,25 +71,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
 		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
 	},
 
-	thirdParty: {
-		cardmarket: 273898,
-		tcgplayer: 44439
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
 		{
 			type: "normal",

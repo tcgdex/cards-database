@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -50,6 +50,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+	},
 
 	thirdParty: {
 		cardmarket: 289700

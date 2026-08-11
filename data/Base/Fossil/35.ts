@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -74,25 +75,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
 		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
 	},
 
-	thirdParty: {
-		cardmarket: 273896,
-		tcgplayer: 44437
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273896,
+				tcgplayer: 44437
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273896,
+				tcgplayer: 44437
+			}
 		},
 		{
 			type: "normal",

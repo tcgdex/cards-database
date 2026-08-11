@@ -35,19 +35,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751742,
+				tcgplayer: 535196,
+				cardtrader: 274388
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 751742
-	}
+	description: {
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+	},
+
 }
 
 export default card

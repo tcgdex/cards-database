@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "テツノカイナex",
-		th: "แขนเหล็กex"
+		th: "แขนเหล็กex",
+		ko: "무쇠손 ex"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -21,7 +22,8 @@ const card: Card = {
 
 		name: {
 			ja: "アームプレス",
-			th: "อาร์มเพรส"
+			th: "อาร์มเพรส",
+			ko: "암프레스"
 		},
 
 		damage: 160
@@ -30,7 +32,8 @@ const card: Card = {
 
 		name: {
 			ja: "ごっつあんプリファイ",
-			th: "เครื่องขยายขอบใจหลาย"
+			th: "เครื่องขยายขอบใจหลาย",
+			ko: "감사 앰플리파이"
 		},
 
 		damage: 120,
@@ -45,6 +48,16 @@ const card: Card = {
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741915,
+				tcgplayer: 566048,
+			},
+		},
+	],
 
 	retreat: 4,
 	regulationMark: "G"

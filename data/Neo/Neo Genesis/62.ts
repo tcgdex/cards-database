@@ -54,21 +54,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin.",
 		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
 	},
 
-	thirdParty: {
-		cardmarket: 274462,
-		tcgplayer: 86185
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274462,
+				tcgplayer: 86185
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274462,
+				tcgplayer: 86185
+			}
 		}
 	]
 }

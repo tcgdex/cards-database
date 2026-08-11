@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
+	},
+
 	thirdParty: {
 		cardmarket: 279989,
 		tcgplayer: 83732

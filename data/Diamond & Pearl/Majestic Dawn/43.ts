@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 278092,
 		tcgplayer: 87900

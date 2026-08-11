@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+	},
+
 	thirdParty: {
 		cardmarket: 281047,
 		tcgplayer: 83442

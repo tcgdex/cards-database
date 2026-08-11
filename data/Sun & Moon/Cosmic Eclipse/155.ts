@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Once a fight breaks out, it will unflinchingly charge at dragon Pokémon that are many times larger than itself.",
+	},
+
 	thirdParty: {
 		cardmarket: 408419,
 		tcgplayer: 201203

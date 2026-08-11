@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
 	},
 
-	thirdParty: {
-		cardmarket: 567081,
-		tcgplayer: 241648
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567081,
+				tcgplayer: 241648
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567081,
+				tcgplayer: 241648
+			}
+		},
+	],
 }
 
 export default card

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 302147,
 		tcgplayer: 146661

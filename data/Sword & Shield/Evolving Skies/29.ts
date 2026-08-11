@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Gyarados VMAX",
@@ -81,10 +75,15 @@ const card: Card = {
 	dexId: [130],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574053,
-		tcgplayer: 246724
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574053,
+				tcgplayer: 246724
+			}
+		},
+	],
 }
 
 export default card

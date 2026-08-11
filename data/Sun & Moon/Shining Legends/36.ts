@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+	},
+
 	thirdParty: {
 		cardmarket: 302174,
 		tcgplayer: 146703

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 279820,
 		tcgplayer: 86069

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
+	},
+
 	thirdParty: {
 		cardmarket: 297478,
 		tcgplayer: 130962

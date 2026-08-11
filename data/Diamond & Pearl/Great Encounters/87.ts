@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is shrouded by blue vines. No one has seen the face hidden behind this growth of vines.",
+	},
+
 	thirdParty: {
 		cardmarket: 277989,
 		tcgplayer: 89744

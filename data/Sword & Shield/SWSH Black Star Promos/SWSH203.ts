@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Umbreon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Darkness"],
@@ -67,6 +67,12 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 

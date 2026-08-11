@@ -80,8 +80,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
 		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
 	},
@@ -90,27 +93,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273700,
+				tcgplayer: 42393
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107001
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107001
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273700,
-		tcgplayer: 42393
-	}
+	]
 }
 
 export default card

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "A toxic fluids seeps from its body. The fluid instantly kills plants and trees on contact.",
+	},
+
 	thirdParty: {
 		cardmarket: 280278,
 		tcgplayer: 87626

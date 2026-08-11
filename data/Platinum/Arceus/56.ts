@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		412,
-	],
+	dexId: [412],
 	
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Burmy Plant Cloak can evolve during the turn you play it.",
 				de: "Burmy Pflanzenumhang kann in dem Zug entwickelt werden, in dem du es gespielt hast."
-			},
+			}
 		},
 	],
 
@@ -63,19 +61,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278928,
-		tcgplayer: 84051
+	description: {
+		en: "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84051,
+				cardmarket: 278928
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278928,
+				tcgplayer: 84051
+			}
+		},
+	],
+
 }
 
 export default card

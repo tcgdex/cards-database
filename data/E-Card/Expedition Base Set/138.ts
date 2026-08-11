@@ -11,38 +11,63 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nMélangez votre main avec votre deck. Comptez ensuite le nombre de cartes dans la main de votre adversaire et piochez autant de cartes.",
-		de: "Mische deine Hand in dein Deck. Zähle dann die Anzahl an Karten auf der Hand deines Gegners und ziehe so viele Karten."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand and draw that many cards.",
+		fr: "Mélangez votre main avec votre deck. Comptez ensuite le nombre de cartes dans la main de votre adversaire et piochez autant de cartes.",
+		de: "Mische deine Hand in dein Deck. Zähle dann die Anzahl an Karten auf der Hand deines Gegners und ziehe so viele Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275013,
-		tcgplayer: 84423
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84423,
+				cardmarket: 275013
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84423,
+				cardmarket: 275013
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871837,
+				tcgplayer: 477371,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871839,
+				tcgplayer: 477372,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
-		}
-	]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871838,
+				tcgplayer: 477373,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871565,
+				tcgplayer: 477503,
+			},
+		},
+	],
 }
 
 export default card

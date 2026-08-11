@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that is described in Chinese legends. It is said to race at an unbelievable speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 293374,
 		tcgplayer: 124031

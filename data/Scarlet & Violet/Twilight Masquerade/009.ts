@@ -64,18 +64,38 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769183,
+				tcgplayer: 550053
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769183,
+				tcgplayer: 550053
+			}
+		},
+	],
 
 	illustrator: "Orca",
 
-	thirdParty: {
-		cardmarket: 769183
-	}
 }
 
 export default card

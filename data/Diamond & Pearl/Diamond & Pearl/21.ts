@@ -81,6 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
 		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
 	},
 

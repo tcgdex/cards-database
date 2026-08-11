@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
+	},
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Electrode V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],
@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 

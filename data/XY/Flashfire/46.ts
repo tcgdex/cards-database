@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 281529,
 		tcgplayer: 91179

@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because of its sweet, delicious aroma, bird Pokémon are always after it, but it's not intelligent enough to care.",
+	},
+
 	thirdParty: {
 		cardmarket: 387917,
 		tcgplayer: 194933

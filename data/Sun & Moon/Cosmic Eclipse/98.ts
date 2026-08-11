@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.",
+	},
+
 	thirdParty: {
 		cardmarket: 408134,
 		tcgplayer: 201273

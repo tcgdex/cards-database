@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
 	},
 
-	thirdParty: {
-		cardmarket: 483069,
-		tcgplayer: 219303
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483069,
+				tcgplayer: 219303
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483069,
+				tcgplayer: 219303
+			}
+		},
+	],
 }
 
 export default card

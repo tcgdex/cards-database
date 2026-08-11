@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mimigma V"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 160,
@@ -65,20 +66,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608518,
-		tcgplayer: 263784
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608518,
+				tcgplayer: 263784
+			}
+		},
+	],
 }
 
 export default card

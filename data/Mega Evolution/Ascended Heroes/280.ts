@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Clefairy ex da Lílian"
 	},
 
+	suffix: "ex",
 	illustrator: "Naoki Saito",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -71,13 +72,24 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676092,
-		cardmarket: 869891
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869891,
+				tcgplayer: 676092
+			}
+		}
+	],
 }
 
 export default card

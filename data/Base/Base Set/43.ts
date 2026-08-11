@@ -57,27 +57,34 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
 		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
 		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
 	},
 
-	thirdParty: {
-		cardmarket: 273738,
-		tcgplayer: 42386
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273738,
+				tcgplayer: 42386
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107040
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107040
+			},
 		},
 		{
 			type: "normal",

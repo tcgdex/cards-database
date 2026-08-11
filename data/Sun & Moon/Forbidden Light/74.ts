@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
+	},
+
 	thirdParty: {
 		cardmarket: 327208
 	}

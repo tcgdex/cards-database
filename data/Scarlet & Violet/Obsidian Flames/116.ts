@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725196,
+				tcgplayer: 509856,
+				cardtrader: 255801
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725196,
+				tcgplayer: 509856,
+				cardtrader: 255801
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 725196
-	}
+	
 }
 
 export default card

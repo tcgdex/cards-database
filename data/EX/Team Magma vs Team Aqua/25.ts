@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		318,
-	],
+	dexId: [318],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Dark Lift"
 			},
 			effect: {
-				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.\"",
+				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.",
 				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
 				de: "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
-			},
+			}
 		},
 	],
 
@@ -69,22 +67,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276002,
-		tcgplayer: 89776
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275802,
+				tcgplayer: 89776
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275802,
+				tcgplayer: 89776
+			}
+		},
+	],
+
 }
 
 export default card

@@ -86,6 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
 		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
 	},
 

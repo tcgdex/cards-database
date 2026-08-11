@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It uses black pearls to amplify its psycho-power. It does an odd dance to gain control over foes.",
 		fr: "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis."
 	},
 

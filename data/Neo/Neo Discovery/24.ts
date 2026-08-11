@@ -71,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "To corner prey, they check each other's location using barks that only they can understand.",
 		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls."
 	},
 
-	thirdParty: {
-		cardmarket: 274516,
-		tcgplayer: 86217
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274516,
+				tcgplayer: 86217
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274516,
+				tcgplayer: 86217
+			}
 		}
 	]
 }

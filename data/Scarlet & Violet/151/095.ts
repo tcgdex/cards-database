@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733690,
+				tcgplayer: 516664,
+				cardtrader: 261201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733690,
+				tcgplayer: 516664,
+				cardtrader: 261201
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 733690
-	}
+	
 }
 
 export default card

@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
 		fr: "Il tire sa force de la lumière des étoiles. Plus il y en a et plus ses motifs dorsaux sont grands."
 	},
 

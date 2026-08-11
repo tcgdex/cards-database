@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273933,
-		tcgplayer: 42445
+
+	description: {
+		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273933,
+				tcgplayer: 42445
+			}
 		}
 	]
 }

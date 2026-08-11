@@ -65,23 +65,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
 		fr: "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
 	},
 
-	thirdParty: {
-		cardmarket: 274621,
-		tcgplayer: 87947
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274633,
+				tcgplayer: 87947
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274633,
+				tcgplayer: 87947
+			}
 		}
 	]
 }

@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Rarely seen by people, it is said to be drawn by the full moon to play at deserted lakes.",
 		fr: "Il joue au bord des lacs déserts les soirs de pleine lune. Rares sont ceux qui l'ont aperçu."
 	},
 

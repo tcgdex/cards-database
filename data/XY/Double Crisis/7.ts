@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
+	},
+
 	thirdParty: {
 		cardmarket: 282518,
 		tcgplayer: 97053

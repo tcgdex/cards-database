@@ -57,6 +57,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+	},
 
 	thirdParty: {
 		cardmarket: 281150

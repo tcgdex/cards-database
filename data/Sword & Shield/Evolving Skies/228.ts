@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Cresselia",
@@ -69,10 +63,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574286,
-		tcgplayer: 246803
-	}
+	description: {
+		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574286,
+				tcgplayer: 246803
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Glurak"
 	},
 
-	rarity: "Rare",
+	illustrator: "2019 Pikachu Project",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
@@ -70,7 +71,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "This Pokémon was created by Mewtwo to prove that copies can be even more powerful than their originals.",
+	},
 }
 
 export default card

@@ -81,23 +81,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
 		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler."
 	},
 
-	thirdParty: {
-		cardmarket: 274598,
-		tcgplayer: 88322
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274598,
+				tcgplayer: 88322
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274598,
+				tcgplayer: 88322
+			}
 		}
 	]
 }

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+	},
+
 	thirdParty: {
 		cardmarket: 302180,
 		tcgplayer: 146701

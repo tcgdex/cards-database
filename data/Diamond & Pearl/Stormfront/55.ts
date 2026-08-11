@@ -83,6 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
 		fr: "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés."
 	},
 

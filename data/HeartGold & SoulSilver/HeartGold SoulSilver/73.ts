@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Statische Elektrizität"
 			},
 			effect: {
-				en: "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent’s) and attach them to Mareep. Shuffle your deck afterward.",
+				en: "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent's) and attach them to Mareep. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck un nombre de cartes Énergie Lightning allant jusqu’au nombre de Wattouat en jeu (les vôtres et ceux de votre adversaire) et attachez-les à Wattouat. Mélangez ensuite votre deck.",
 				de: "Durchsuche dein Deck nach einer Anzahl Elektro-Energiekarten, die höchstens der Anzahl an Voltilamm-Karten im Spiel (deinen und denen deines Gegners) entspricht und lege sie an Voltilamm an. Mische anschließend dein Deck."
 			},
@@ -80,22 +78,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87204,
+				cardmarket: 279045
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87204,
+				cardmarket: 279045
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279045,
-		tcgplayer: 87204
-	}
 }
 
 export default card

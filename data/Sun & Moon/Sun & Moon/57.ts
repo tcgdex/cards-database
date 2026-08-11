@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out.",
+	},
+
 	thirdParty: {
 		cardmarket: 295368,
 		tcgplayer: 126928

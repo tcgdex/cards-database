@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Gamble",
+		en: "Blaine's Gamble"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274257,
-		tcgplayer: 83867
+	effect: {
+		en: "Discard any number of other cards from your hand, then flip a coin. If heads, draw twice that many cards."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83867,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83867,
+				cardmarket: 274257
+			}
 		}
-	]
+	],
 }
 
 export default card

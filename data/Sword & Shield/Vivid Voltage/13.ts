@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
 	},
 
-	thirdParty: {
-		cardmarket: 511485,
-		tcgplayer: 226376
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511485,
+				tcgplayer: 226376
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511485,
+				tcgplayer: 226376
+			}
+		},
+	],
 }
 
 export default card

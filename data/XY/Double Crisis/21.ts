@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It boasts fangs so powerful that they knock opponents out in one shot! Enemies that slip up will be taken down without fail!",
+	},
+
 	thirdParty: {
 		cardmarket: 282532,
 		tcgplayer: 97067

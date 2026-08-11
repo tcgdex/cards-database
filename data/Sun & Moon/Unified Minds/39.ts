@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When night falls, their pink patterns begin to shine. They're popular with divers, so there are resorts that feed them to keep them close.",
+	},
+
 	thirdParty: {
 		cardmarket: 388022,
 		tcgplayer: 194960

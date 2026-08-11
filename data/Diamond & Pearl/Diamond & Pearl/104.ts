@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It loves to eat leaves. If it is attacked by a STARLY, it will defend itself with its spiked rear.",
 		fr: "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur."
 	},
 

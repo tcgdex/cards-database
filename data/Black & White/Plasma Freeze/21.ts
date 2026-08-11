@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+	},
+
 	thirdParty: {
 		cardmarket: 280899,
 		tcgplayer: 90638

@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It freezes hikers who have come to climb snowy mountains and carries them back to its home. It only goes after men it thinks are handsome.",
+	},
+
 	thirdParty: {
 		cardmarket: 388017,
 		tcgplayer: 194959

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 279769,
 		tcgplayer: 88908

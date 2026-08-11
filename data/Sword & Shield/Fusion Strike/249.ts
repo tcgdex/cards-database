@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Eske Yoshinob",
@@ -70,17 +76,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582496,
-		tcgplayer: 253144
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582985,
+				tcgplayer: 253144
+			}
+		},
+	],
 }
 
 export default card

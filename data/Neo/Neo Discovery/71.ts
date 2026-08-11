@@ -71,23 +71,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
 		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné."
 	},
 
-	thirdParty: {
-		cardmarket: 274582,
-		tcgplayer: 90631
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274582,
+				tcgplayer: 90631
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274582,
+				tcgplayer: 90631
+			}
 		}
 	]
 }

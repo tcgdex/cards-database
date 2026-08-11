@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
 	},
 
-	thirdParty: {
-		cardmarket: 483634,
-		tcgplayer: 219364
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483634,
+				tcgplayer: 219364
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483634,
+				tcgplayer: 219364
+			}
+		},
+	],
 }
 
 export default card

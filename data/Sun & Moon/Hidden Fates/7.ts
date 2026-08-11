@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+	},
+
 	thirdParty: {
 		cardmarket: 394692,
 		tcgplayer: 197649

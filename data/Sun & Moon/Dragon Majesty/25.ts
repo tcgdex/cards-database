@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+	},
+
 	thirdParty: {
 		cardmarket: 363497,
 		tcgplayer: 175387

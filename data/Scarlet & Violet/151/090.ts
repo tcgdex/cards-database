@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733685,
+				tcgplayer: 516659,
+				cardtrader: 261148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733685,
+				tcgplayer: 516659,
+				cardtrader: 261148
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 733607
-	}
+	
 }
 
 export default card

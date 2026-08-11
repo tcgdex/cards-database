@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 311907,
 		tcgplayer: 149081

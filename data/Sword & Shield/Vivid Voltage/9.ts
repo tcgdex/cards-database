@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,15 @@ const card: Card = {
 		en: "This Pokémon has the ability to move through time. Records describing it as a forest deity can be found from many different eras."
 	},
 
-	thirdParty: {
-		cardmarket: 511465,
-		tcgplayer: 226371
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511465,
+				tcgplayer: 226371
+			}
+		},
+	],
 }
 
 export default card

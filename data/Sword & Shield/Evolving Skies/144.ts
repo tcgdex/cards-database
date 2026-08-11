@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Crystal Cave",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Toyste Beach",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574202,
-		tcgplayer: 246769
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574202,
+				tcgplayer: 246769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574202,
+				tcgplayer: 246769
+			}
+		},
+	],
 }
 
 export default card

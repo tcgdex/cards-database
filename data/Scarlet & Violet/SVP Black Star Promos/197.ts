@@ -15,9 +15,10 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fighting"],
@@ -61,7 +62,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 813956,
+				tcgplayer: 634348
+			},
+		}
+	],
 }
 
 export default card

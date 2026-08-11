@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
 		fr: "Il ressemble à un gland pendu à une branche. Il adore effrayer les autres Pokémon."
 	},
 

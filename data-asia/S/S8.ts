@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S8',
+
 	name: {
 		ja: 'フュージョンアーツ',
 		ko: '퓨전아츠',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 100
 	},
+
 	releaseDate: {
 		ja: '2021-09-24',
 		'zh-tw': '2021-10-01',
 		id: '2022-01-21',
 		th: '2021-11-26'
+	},
+
+	thirdParty: {
+		cardmarket: 4360
 	}
 }
 

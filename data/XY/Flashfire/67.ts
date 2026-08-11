@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
+	},
+
 	thirdParty: {
 		cardmarket: 281550,
 		tcgplayer: 91204

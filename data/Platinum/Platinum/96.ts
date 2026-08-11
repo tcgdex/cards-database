@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -64,19 +62,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278517,
-		tcgplayer: 89495
+	description: {
+		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89495,
+				cardmarket: 278517
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278517,
+				tcgplayer: 89495
+			}
 		}
-	]
+	],
+
 }
 
 export default card

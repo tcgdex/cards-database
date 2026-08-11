@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It was restored from an ancient fossil. Tirtouga lived in the sea but came up onto the land to search for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 388047,
 		tcgplayer: 194965

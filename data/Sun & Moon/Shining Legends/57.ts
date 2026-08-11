@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
+	},
+
 	thirdParty: {
 		cardmarket: 302194,
 		tcgplayer: 146720

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Galar"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608686,
-		tcgplayer: 263862
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608686,
+				tcgplayer: 263862
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608686,
+				tcgplayer: 263862
+			}
+		},
+	],
 }
 
 export default card

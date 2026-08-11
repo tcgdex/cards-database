@@ -50,23 +50,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
 		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
 	},
 
-	thirdParty: {
-		cardmarket: 274527,
-		tcgplayer: 90612
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274527,
+				tcgplayer: 90612
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274527,
+				tcgplayer: 90612
+			}
 		}
 	]
 }

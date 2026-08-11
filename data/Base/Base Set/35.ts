@@ -68,29 +68,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",
 		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
 	},
 
-	thirdParty: {
-		cardmarket: 273730,
-		tcgplayer: 42377
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273730,
+				tcgplayer: 42377
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107032
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107032
+			},
 		},
 		{
 			type: "normal",

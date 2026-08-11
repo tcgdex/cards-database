@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -51,22 +49,31 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 279640
-	}
+	description: {
+		en: "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84807,
+				cardmarket: 279646
+			},
+		},
+	],
+
 }
 
 export default card

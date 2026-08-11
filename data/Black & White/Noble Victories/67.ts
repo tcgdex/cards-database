@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+	},
+
 	thirdParty: {
 		cardmarket: 280190,
 		tcgplayer: 83609

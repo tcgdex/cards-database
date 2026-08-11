@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+	},
+
 	thirdParty: {
 		cardmarket: 280455,
 		tcgplayer: 87190

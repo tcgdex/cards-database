@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It move by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+	},
+
 	thirdParty: {
 		cardmarket: 280502,
 		tcgplayer: 83718

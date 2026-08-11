@@ -66,18 +66,34 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794266,
+				tcgplayer: 590099
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794266,
+				tcgplayer: 590099
+			}
+		},	
+	],
 
 	illustrator: "GOSSAN",
-
-	thirdParty: {
-		cardmarket: 794266
-	}
+	
 }
 
 export default card

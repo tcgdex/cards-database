@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its mechanized body is merely a vessel. Its true self is its Soul-Heart, an artificial soul.",
+	},
+
 	thirdParty: {
 		cardmarket: 365768,
 		tcgplayer: 178948

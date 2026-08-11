@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It seeks drifting will-o'-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+	},
+
 	thirdParty: {
 		cardmarket: 280649,
 		tcgplayer: 85031

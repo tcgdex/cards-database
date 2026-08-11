@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
 		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
 	},
 
-	thirdParty: {
-		cardmarket: 274555,
-		tcgplayer: 88262
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274555,
+				tcgplayer: 88262
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274555,
+				tcgplayer: 88262
+			}
 		}
 	]
 }

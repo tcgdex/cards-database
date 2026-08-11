@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
 	},
 
-	thirdParty: {
-		cardmarket: 567093,
-		tcgplayer: 241662
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567093,
+				tcgplayer: 241662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567093,
+				tcgplayer: 241662
+			}
+		},
+	],
 }
 
 export default card

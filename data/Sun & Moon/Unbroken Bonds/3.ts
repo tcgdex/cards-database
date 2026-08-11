@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+	},
+
 	thirdParty: {
 		cardmarket: 372296,
 		tcgplayer: 189041

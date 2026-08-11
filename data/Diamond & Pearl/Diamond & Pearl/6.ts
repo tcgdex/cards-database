@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has the ability to sense the auras of all things. It understands human speech.",
+	},
+
 	thirdParty: {
 		cardmarket: 277505,
 		tcgplayer: 86873

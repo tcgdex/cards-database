@@ -76,23 +76,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
 		fr: "Ce qui semble être de la bave est en fait un miel sucré. Il est très collant et adhère obstinément si on le touche."
 	},
 
-	thirdParty: {
-		cardmarket: 274436,
-		tcgplayer: 85778
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274436,
+				tcgplayer: 85778
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274436,
+				tcgplayer: 85778
+			}
 		}
 	]
 }

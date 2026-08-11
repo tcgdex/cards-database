@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "Rare",
+	illustrator: "Mizue",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],
@@ -58,7 +59,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+	},
 }
 
 export default card

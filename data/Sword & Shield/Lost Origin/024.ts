@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lichtel"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -45,16 +46,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674035,
-		tcgplayer: 283895
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674035,
+				tcgplayer: 283895
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674035,
+				tcgplayer: 283895
+			}
+		},
+	],
 }
 
 export default card

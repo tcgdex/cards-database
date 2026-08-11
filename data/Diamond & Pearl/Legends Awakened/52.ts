@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
 		fr: "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
 	},
 

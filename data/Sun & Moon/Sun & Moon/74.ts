@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.",
+	},
+
 	thirdParty: {
 		cardmarket: 295385,
 		tcgplayer: 126946

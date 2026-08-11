@@ -63,18 +63,38 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769291,
+				tcgplayer: 550161
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769291,
+				tcgplayer: 550161
+			}
+		},
+	],
 
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 769291
-	}
 }
 
 export default card

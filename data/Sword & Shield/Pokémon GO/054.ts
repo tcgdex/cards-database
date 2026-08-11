@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,19 +56,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It has the ability to alter the composition of its body to suit its surrounding environment.",
 	},
 
-	thirdParty: {
-		cardmarket: 664605,
-		tcgplayer: 276973
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665277,
+				tcgplayer: 276973
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665277,
+				tcgplayer: 276973
+			}
+		},
+	],
 }
 
 export default card

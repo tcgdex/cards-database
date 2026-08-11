@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega Venusaur ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -81,23 +82,24 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
-		}
+			thirdParty: {
+				cardmarket: 851074,
+				tcgplayer: 654342
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654342,
-		cardmarket: 851074
-	}
 }
 
 export default card

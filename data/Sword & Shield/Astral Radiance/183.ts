@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Zelestis"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658799,
-		tcgplayer: 272433
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658844,
+				tcgplayer: 272433
+			}
+		},
+	],
 }
 
 export default card

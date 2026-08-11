@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+	},
+
 	thirdParty: {
 		cardmarket: 277966,
 		tcgplayer: 84325

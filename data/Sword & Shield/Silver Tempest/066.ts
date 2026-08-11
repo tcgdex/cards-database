@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Icognito VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 250,
@@ -75,20 +76,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682113,
-		tcgplayer: 451720
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682113,
+				tcgplayer: 451720
+			}
+		},
+	],
 }
 
 export default card

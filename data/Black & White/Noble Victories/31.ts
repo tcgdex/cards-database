@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The fate of ships and crew that wander into Jellicent's habitats: all sunken, all lost, all vanished.",
+	},
+
 	thirdParty: {
 		cardmarket: 280154,
 		tcgplayer: 86305

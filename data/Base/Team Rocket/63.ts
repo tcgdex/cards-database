@@ -66,23 +66,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It wanders around at night sowing its seeds to create more Oddishes.",
 		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes."
 	},
 
-	thirdParty: {
-		cardmarket: 274116,
-		tcgplayer: 87837
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274116,
+				tcgplayer: 87837
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274116,
+				tcgplayer: 87837
+			}
 		}
 	]
 }

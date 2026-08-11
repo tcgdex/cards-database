@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "cochi8i",
 
 	rarity: "Special illustration rare",
@@ -83,18 +84,30 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826108,
+				tcgplayer: 633034
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826108
-	}
 }
 
 export default card

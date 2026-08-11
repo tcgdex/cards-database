@@ -56,18 +56,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725220,
+				tcgplayer: 509912,
+				cardtrader: 255825
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725220,
+				tcgplayer: 509912,
+				cardtrader: 255825
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 725220
-	}
+	
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		123,
-	],
+	dexId: [123],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -73,16 +71,20 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278551,
-		tcgplayer: 89002
+	description: {
+		en: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89002,
+				cardmarket: 278551
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kirlia"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
-	thirdParty: {
-		cardmarket: 682115,
-		tcgplayer: 451722
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682115,
+				tcgplayer: 451722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682115,
+				tcgplayer: 451722
+			}
+		},
+	],
 }
 
 export default card

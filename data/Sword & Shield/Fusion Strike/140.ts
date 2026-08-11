@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
@@ -62,17 +68,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582752,
-		tcgplayer: 253348
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582752,
+				tcgplayer: 253348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582752,
+				tcgplayer: 253348
+			}
+		},
+	],
 }
 
 export default card

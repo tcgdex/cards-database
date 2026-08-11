@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+	},
+
 	thirdParty: {
 		cardmarket: 280142,
 		tcgplayer: 86627

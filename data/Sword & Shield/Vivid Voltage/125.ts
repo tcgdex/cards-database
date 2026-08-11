@@ -90,12 +90,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -103,10 +97,22 @@ const card: Card = {
 		en: "Living in mud with a high iron content has given it a strong steel body."
 	},
 
-	thirdParty: {
-		cardmarket: 512335,
-		tcgplayer: 226579
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512335,
+				tcgplayer: 226579
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512335,
+				tcgplayer: 226579
+			}
+		},
+	],
 }
 
 export default card

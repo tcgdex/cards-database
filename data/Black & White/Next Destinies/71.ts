@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+	},
+
 	thirdParty: {
 		cardmarket: 280296,
 		tcgplayer: 87827

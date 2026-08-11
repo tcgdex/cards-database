@@ -61,12 +61,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -74,10 +68,22 @@ const card: Card = {
 		en: "Sandile's still not good at hunting, so it mostly eats things that have collapsed in the desert. It's called \"the cleaner of the desert.\""
 	},
 
-	thirdParty: {
-		cardmarket: 511955,
-		tcgplayer: 226560
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511955,
+				tcgplayer: 226560
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511955,
+				tcgplayer: 226560
+			}
+		},
+	],
 }
 
 export default card

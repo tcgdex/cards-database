@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
+	},
+
 	thirdParty: {
 		cardmarket: 280465,
 		tcgplayer: 90462

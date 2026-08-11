@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Voltali pendant le prochain tour de votre adversaire.",
 				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Blitza zugefügt werden."
 			},
@@ -87,17 +85,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279281,
+				tcgplayer: 86345
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279281,
+				tcgplayer: 86345
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279281,
-		tcgplayer: 86345
-	}
 }
 
 export default card

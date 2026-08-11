@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Trasla"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
 	},
 
-	thirdParty: {
-		cardmarket: 682114,
-		tcgplayer: 451721
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682114,
+				tcgplayer: 451721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682114,
+				tcgplayer: 451721
+			}
+		},
+	],
 }
 
 export default card

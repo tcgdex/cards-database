@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+	},
+
 	thirdParty: {
 		cardmarket: 369000,
 		tcgplayer: 183848

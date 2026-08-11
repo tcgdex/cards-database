@@ -86,10 +86,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+	},
+
 	thirdParty: {
 		cardmarket: 299507,
 		tcgplayer: 138602
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

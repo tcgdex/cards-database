@@ -58,12 +58,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -71,10 +65,22 @@ const card: Card = {
 		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
 	},
 
-	thirdParty: {
-		cardmarket: 483439,
-		tcgplayer: 219426
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483439,
+				tcgplayer: 219426
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483439,
+				tcgplayer: 219426
+			}
+		},
+	],
 }
 
 export default card

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
+	},
+
 	thirdParty: {
 		cardmarket: 297690,
 		tcgplayer: 130925

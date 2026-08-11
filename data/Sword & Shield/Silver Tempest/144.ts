@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Haspiror"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
 	},
 
-	thirdParty: {
-		cardmarket: 682191,
-		tcgplayer: 451794
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682191,
+				tcgplayer: 451794
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682191,
+				tcgplayer: 451794
+			}
+		},
+	],
 }
 
 export default card

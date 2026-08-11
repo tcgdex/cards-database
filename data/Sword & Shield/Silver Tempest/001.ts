@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bluzuk"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +36,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
 	},
 
-	thirdParty: {
-		cardmarket: 682040,
-		tcgplayer: 451620
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682040,
+				tcgplayer: 451620
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682040,
+				tcgplayer: 451620
+			}
+		},
+	],
 }
 
 export default card

@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
+	},
+
 	thirdParty: {
 		cardmarket: 295396,
 		tcgplayer: 126957

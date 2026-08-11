@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Carvanha"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -87,16 +87,17 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		tcgplayer: 89104,
-		cardmarket: 276507
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89104,
+				cardmarket: 276507
+			},
+		},
+	],
+
 }
 
 export default card

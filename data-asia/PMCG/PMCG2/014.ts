@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "vileplume",
+		ja: "ラフレシア",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [45],
@@ -43,6 +44,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576654
+			},
 		},
 	],
 };

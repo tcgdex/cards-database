@@ -49,10 +49,20 @@ const card: Card = {
 		cost: ["Water", "Lightning", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680210,
+				tcgplayer: 570129,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "F",
 	rarity: "Uncommon",
-	dexId: [148]
+	dexId: [148],
 }
 
 export default card

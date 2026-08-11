@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Seeing its swinging pendulum can induce sleep in three seconds, even if someone just woke up.",
+	},
+
 	thirdParty: {
 		cardmarket: 277921,
 		tcgplayer: 86254

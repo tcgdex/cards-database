@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja's.",
+	},
+
 	thirdParty: {
 		cardmarket: 278095,
 		tcgplayer: 89000

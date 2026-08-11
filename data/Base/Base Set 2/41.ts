@@ -73,14 +73,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273964,
-		tcgplayer: 42481
+	description: {
+		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273964,
+				tcgplayer: 42481
+			}
 		}
 	]
 }

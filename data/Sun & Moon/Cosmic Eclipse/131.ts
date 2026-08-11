@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
+	},
+
 	thirdParty: {
 		cardmarket: 408304,
 		tcgplayer: 201174

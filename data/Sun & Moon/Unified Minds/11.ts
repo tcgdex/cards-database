@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+	},
+
 	thirdParty: {
 		cardmarket: 387887,
 		tcgplayer: 194927

@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+	},
+
 	thirdParty: {
 		cardmarket: 311922,
 		tcgplayer: 149101

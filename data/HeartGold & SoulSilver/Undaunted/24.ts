@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [45],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide",
+		fr: "Ortide"
 	},
 
 	stage: "Stage2",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Allergieblume"
 			},
 			effect: {
-				en: "Each player can’t play any Trainer cards from his or her hand.",
+				en: "Each player can't play any Trainer cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de carte Dresseur de sa main.",
 				de: "Kein Spieler darf Trainerkarten von seiner Hand spielen."
-			},
+			}
 		},
 	],
 
@@ -83,21 +81,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279277,
+				tcgplayer: 90381
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279277,
+				tcgplayer: 90381
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["ross-cawthorn"]
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480517
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279277,
-		tcgplayer: 90381
-	}
 }
 
 export default card

@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Delicate equipment can malfunction in areas inhabited by Magneton, which send out mysterious electrical signals.",
+	},
+
 	thirdParty: {
 		cardmarket: 388117,
 		tcgplayer: 194985

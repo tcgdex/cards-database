@@ -49,21 +49,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
 		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
 	},
 
-	thirdParty: {
-		cardmarket: 273850,
-		tcgplayer: 45156
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273850,
+				tcgplayer: 45156
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273850,
+				tcgplayer: 45156
+			}
 		}
 	],
 }

@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+	},
+
 	thirdParty: {
 		cardmarket: 361274,
 		tcgplayer: 170840

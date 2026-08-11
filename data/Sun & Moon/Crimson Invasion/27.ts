@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
+	},
+
 	thirdParty: {
 		cardmarket: 311877,
 		tcgplayer: 149049

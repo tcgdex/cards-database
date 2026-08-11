@@ -58,27 +58,34 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
 		fr: "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout.",
 		it: "Morde quasiasi cosa quando attacca. Piccolo e velocissimo, è una presenza comune in molti luoghi. LIV 9 N.19"
 	},
 
-	thirdParty: {
-		cardmarket: 273756,
-		tcgplayer: 42406
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273756,
+				tcgplayer: 42406
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107058
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107058
+			},
 		},
 		{
 			type: "normal",

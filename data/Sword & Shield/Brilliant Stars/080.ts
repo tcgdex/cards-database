@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Jiutesto"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
 	},
 
-	thirdParty: {
-		cardmarket: 608530,
-		tcgplayer: 263796
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608530,
+				tcgplayer: 263796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608530,
+				tcgplayer: 263796
+			}
+		},
+	],
 }
 
 export default card

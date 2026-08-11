@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Felizia"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658811,
-		tcgplayer: 272438
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658849,
+				tcgplayer: 272438
+			}
+		},
+	],
 }
 
 export default card

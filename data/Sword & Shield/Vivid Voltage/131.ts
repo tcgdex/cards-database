@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -97,10 +91,29 @@ const card: Card = {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
 	},
 
-	thirdParty: {
-		cardmarket: 512365,
-		tcgplayer: 226587
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 512365,
+				tcgplayer: 226587
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 547891
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512365,
+				tcgplayer: 226587
+			}
+		},
+	],
 }
 
 export default card

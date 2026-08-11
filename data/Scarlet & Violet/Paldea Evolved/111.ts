@@ -43,18 +43,46 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715586,
+				tcgplayer: 497526,
+				cardtrader: 248757
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715586,
+				tcgplayer: 497526,
+				cardtrader: 248757
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 715586
-	}
+	description: {
+		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+	},
 }
 
 export default card

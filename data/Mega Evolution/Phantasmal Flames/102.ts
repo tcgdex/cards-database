@@ -48,19 +48,30 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It's dangerous for Wooper to travel alone. They line up in groups of three or four and help each other as they walk around the wetlands.",
+	},
+
+	illustrator: "OKACHEKE",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857677,
+				tcgplayer: 662209,
+				cardtrader: 356888
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857677,
-		tcgplayer: 662209
-	}
 }
 
 export default card

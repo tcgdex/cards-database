@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
+	},
+
 	thirdParty: {
 		cardmarket: 280932,
 		tcgplayer: 90678

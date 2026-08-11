@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Evoli GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

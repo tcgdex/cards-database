@@ -50,14 +50,29 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "saino misaki",
+
+	description: {
+		en: "This Pokémon uses red wavelengths of light to pour its own energy into flowers and draw forth their latent potential.",
+	},
 
 	thirdParty: {
         cardmarket: 702388,

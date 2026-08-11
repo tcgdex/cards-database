@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",
@@ -74,17 +80,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582489,
-		tcgplayer: 253252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582489,
+				tcgplayer: 253252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582489,
+				tcgplayer: 253252
+			}
+		},
+	],
 }
 
 export default card

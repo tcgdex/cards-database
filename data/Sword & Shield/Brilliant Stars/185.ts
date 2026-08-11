@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Magmabecken"
 	},
 
+	illustrator: "ORBITALLINK Inc.",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,17 +29,17 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608690,
-		tcgplayer: 263906
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 608731,
+				tcgplayer: 263906
+			}
+		},
+	],
 }
 
 export default card

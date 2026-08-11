@@ -4,9 +4,10 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "beedrill",
+		ja: "スピアー",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
 	dexId: [15],
@@ -41,7 +42,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575617
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577044
+			},
+		}
 	],
 };
 

@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
@@ -64,17 +70,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582941,
-		tcgplayer: 253304
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582941,
+				tcgplayer: 253304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582941,
+				tcgplayer: 253304
+			}
+		},
+	],
 }
 
 export default card

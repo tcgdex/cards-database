@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Serperior ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -84,9 +85,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835908
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835908,
+				tcgplayer: 642452
+			}
+		}
+	]
 }
 
 export default card

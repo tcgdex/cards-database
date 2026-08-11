@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lady"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,16 +28,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674167,
-		tcgplayer: 284090
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674167,
+				tcgplayer: 284090
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674167,
+				tcgplayer: 284090
+			}
+		},
+	],
 }
 
 export default card

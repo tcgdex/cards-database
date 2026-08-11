@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regidrago VSTAR"
 	},
 
+	illustrator: "PLANETA Yamashita",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
@@ -56,17 +57,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682183,
-		tcgplayer: 451395
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682183,
+				tcgplayer: 451395
+			}
+		},
+	],
 }
 
 export default card

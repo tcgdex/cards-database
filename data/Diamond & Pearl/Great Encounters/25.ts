@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.",
+	},
+
 	thirdParty: {
 		cardmarket: 277927,
 		tcgplayer: 87454

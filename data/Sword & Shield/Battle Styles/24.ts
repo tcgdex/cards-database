@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
 	},
 
-	thirdParty: {
-		cardmarket: 545026,
-		tcgplayer: 234126
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545026,
+				tcgplayer: 234126
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545026,
+				tcgplayer: 234126
+			}
+		},
+	],
 }
 
 export default card

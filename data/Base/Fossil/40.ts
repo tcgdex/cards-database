@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Omanyte",
+		fr: "Amonita"
 	},
 
 	stage: "Stage2",
@@ -74,25 +75,32 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
 		fr: "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
 	},
 
-	thirdParty: {
-		cardmarket: 273901,
-		tcgplayer: 44442
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273901,
+				tcgplayer: 44442
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273901,
+				tcgplayer: 44442
+			}
 		},
 		{
 			type: "normal",

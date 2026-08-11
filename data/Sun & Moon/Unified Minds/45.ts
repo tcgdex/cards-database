@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its jaws are terrifyingly powerful. It could eat Omastar and Omanyte whole and not be bothered in the slightest by their shells.",
+	},
+
 	thirdParty: {
 		cardmarket: 388052,
 		tcgplayer: 194966

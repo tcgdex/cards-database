@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers.",
+	},
+
 	thirdParty: {
 		cardmarket: 273601,
 		tcgplayer: 95969

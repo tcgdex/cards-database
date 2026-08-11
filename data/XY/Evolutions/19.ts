@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap.",
+	},
+
 	thirdParty: {
 		cardmarket: 293375,
 		tcgplayer: 124032

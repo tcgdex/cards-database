@@ -63,14 +63,29 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "DOM",
+
+	description: {
+		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+	},
 
 	thirdParty: {
         cardmarket: 702303,

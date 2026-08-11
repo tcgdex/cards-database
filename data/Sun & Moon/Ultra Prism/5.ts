@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+	},
+
 	thirdParty: {
 		cardmarket: 315937,
 		tcgplayer: 157622

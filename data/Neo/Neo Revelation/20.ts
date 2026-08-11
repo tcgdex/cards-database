@@ -63,23 +63,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
 		fr: "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
 	},
 
-	thirdParty: {
-		cardmarket: 274606,
-		tcgplayer: 86904
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274606,
+				tcgplayer: 86904
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274606,
+				tcgplayer: 86904
+			}
 		}
 	]
 }

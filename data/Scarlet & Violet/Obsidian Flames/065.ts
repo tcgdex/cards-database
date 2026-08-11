@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725145,
+				tcgplayer: 509829,
+				cardtrader: 255625
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725145,
+				tcgplayer: 509829,
+				cardtrader: 255625
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 725145
-	}
+	
 }
 
 export default card

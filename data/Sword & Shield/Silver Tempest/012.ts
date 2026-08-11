@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hutsassa"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -76,20 +77,36 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon puffs poisonous spores at its foes. If the spores aren't washed off quickly, they'll grow into mushrooms wherever they land.",
 	},
 
-	thirdParty: {
-		cardmarket: 682053,
-		tcgplayer: 451633
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682053,
+				tcgplayer: 451633
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682053,
+				tcgplayer: 451633
+			}
+		},
+	],
 }
 
 export default card

@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
 		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
 	},
 

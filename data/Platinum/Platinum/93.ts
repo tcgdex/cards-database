@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		300,
-	],
+	dexId: [300],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,19 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278514,
-		tcgplayer: 89268
+	description: {
+		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89268,
+				cardmarket: 278514
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278514,
+				tcgplayer: 89268
+			}
 		}
-	]
+	],
+
 }
 
 export default card

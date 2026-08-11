@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a volt of electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280165,
 		tcgplayer: 89580

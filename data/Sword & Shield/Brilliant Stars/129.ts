@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lolas Vorahnung"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608675,
-		tcgplayer: 263852
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608675,
+				tcgplayer: 263852
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608675,
+				tcgplayer: 263852
+			}
+		},
+	],
 }
 
 export default card

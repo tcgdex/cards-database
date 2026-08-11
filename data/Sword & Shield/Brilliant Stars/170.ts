@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hitzkopf"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608689,
-		tcgplayer: 263889
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608716,
+				tcgplayer: 263889
+			}
+		},
+	],
 }
 
 export default card

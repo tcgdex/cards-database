@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -69,16 +70,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674062,
-		tcgplayer: 283926
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674062,
+				tcgplayer: 283926
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674062,
+				tcgplayer: 283926
+			}
+		},
+	],
 }
 
 export default card

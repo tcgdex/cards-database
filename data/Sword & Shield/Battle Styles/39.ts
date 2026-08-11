@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
 	},
 
-	thirdParty: {
-		cardmarket: 545311,
-		tcgplayer: 234176
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545311,
+				tcgplayer: 234176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545311,
+				tcgplayer: 234176
+			}
+		},
+	],
 }
 
 export default card

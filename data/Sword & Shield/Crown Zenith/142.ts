@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Rettungsbox"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691861,
-		tcgplayer: 478200
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691861,
+				tcgplayer: 478200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691861,
+				tcgplayer: 478200
+			}
+		},
+	],
 }
 
 export default card

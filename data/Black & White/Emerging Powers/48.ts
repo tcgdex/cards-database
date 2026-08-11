@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
+	},
+
 	thirdParty: {
 		cardmarket: 280012,
 		tcgplayer: 85852

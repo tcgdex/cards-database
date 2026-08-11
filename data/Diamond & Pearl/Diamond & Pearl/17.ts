@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+	},
+
 	thirdParty: {
 		cardmarket: 277516,
 		tcgplayer: 89983

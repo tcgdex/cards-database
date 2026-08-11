@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Wampitz"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
@@ -72,9 +72,28 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Mizue"
+	illustrator: "Mizue",
+	description: {
+		en: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 751815,
+				tcgplayer: 544194
+			},
+		}
+	],
 }
 
 export default card

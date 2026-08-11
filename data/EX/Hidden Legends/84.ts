@@ -3,7 +3,7 @@ import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Ancient Technical Machine (Ice)",
+		en: "Ancient Technical Machine [Ice]",
 		fr: "Machine Technique Ancienne [Glace]",
 		de: "Ancient TM (Ice)*"
 	},
@@ -15,30 +15,47 @@ const card: Card = {
 	trainerType: "Tool",
 
 	effect: {
+		en: "Attach this card to 1 of your Evolved Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Ancient Technical Machine [Ice].",
 		fr: "Attachez cette carte à 1 des Pokémon Évolués que vous avez en jeu (Pokémon-ex et Pokémon dont le nom comporte un nom de Dresseur exclus). Ce Pokémon peut utiliser l'attaque de cette carte au lieu de ses propres attaques. À la fin du tour, défaussez Machine Technique Ancienne [Glace].",
 		de: "Attach this card to 1 of your Evolved Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Ancient Technical Machine [Ice]."
 	},
 
-	attacks: [{
-		name: {
-			de: "Ice Generator"
+	attacks: [
+		{
+			name: {
+				en: "Ice Generator",
+				de: "Ice Generator",
+				fr: "Générateur de glace"
+			},
+			effect: {
+				en: "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
+				de: "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
+				fr: "Défaussez toutes les cartes Dresseur que votre adversaire a en jeu. Prévenez ensuite tous les effets, dégâts inclus, infligés au Pokémon utilisant cette attaque lors du prochain tour de votre adversaire."
+			},
+			cost: [
+				"Colorless",
+			]
 		},
+	],
 
-		effect: {
-			de: "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn."
-		},
-
-		cost: ["Colorless"]
-	}],
-
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+	],
+
 }
 
 export default card

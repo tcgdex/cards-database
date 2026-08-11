@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 
-	thirdParty: {
-		cardmarket: 512370,
-		tcgplayer: 226588
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 512370,
+				tcgplayer: 226588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512370,
+				tcgplayer: 226588
+			}
+		},
+	],
 }
 
 export default card

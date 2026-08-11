@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+	},
+
 	thirdParty: {
 		cardmarket: 315936,
 		tcgplayer: 157621

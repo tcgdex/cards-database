@@ -56,6 +56,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+	},
 }
 
 export default card

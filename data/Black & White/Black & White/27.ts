@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+	},
+
 	thirdParty: {
 		cardmarket: 279765,
 		tcgplayer: 87890

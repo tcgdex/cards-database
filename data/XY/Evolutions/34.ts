@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
+	},
+
 	thirdParty: {
 		cardmarket: 293391,
 		tcgplayer: 124047

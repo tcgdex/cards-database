@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Takeshi Nakamura",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
@@ -77,7 +77,25 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 816614,
+				tcgplayer: 623233
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 817772,
+				tcgplayer: 624484
+			},
+		}
+	],
 }
 
 export default card

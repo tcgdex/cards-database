@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Fukano"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -53,20 +54,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
 	},
 
-	thirdParty: {
-		cardmarket: 658659,
-		tcgplayer: 272271
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658659,
+				tcgplayer: 272271
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658659,
+				tcgplayer: 272271
+			}
+		},
+	],
 }
 
 export default card

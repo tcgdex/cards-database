@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+	},
+
 	thirdParty: {
 		cardmarket: 281284,
 		tcgplayer: 86285

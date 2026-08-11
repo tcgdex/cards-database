@@ -66,19 +66,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751697,
+				tcgplayer: 534680,
+				cardtrader: 274343
+			}
+		},
+	],
 
 	illustrator: "MAHOU",
 
-	thirdParty: {
-		cardmarket: 751697
-	}
+	description: {
+		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+	},
+
 }
 
 export default card

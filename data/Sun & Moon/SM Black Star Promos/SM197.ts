@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "MPC Film",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -111,7 +111,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
 }
 
 export default card

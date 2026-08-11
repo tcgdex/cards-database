@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
+	},
+
 	thirdParty: {
 		cardmarket: 280957,
 		tcgplayer: 89565

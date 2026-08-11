@@ -62,12 +62,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 545316,
-		tcgplayer: 234183
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545316,
+				tcgplayer: 234183
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545316,
+				tcgplayer: 234183
+			}
+		},
+	],
 }
 
 export default card

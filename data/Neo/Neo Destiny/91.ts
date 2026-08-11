@@ -52,23 +52,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "As it grows older, its white tail changes colors and splits into six different tails. Its body radiates a faint warmth.",
 		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur."
 	},
 
-	thirdParty: {
-		cardmarket: 274743,
-		tcgplayer: 90433
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274743,
+				tcgplayer: 90433
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274743,
+				tcgplayer: 90433
+			}
 		}
 	]
 }

@@ -62,12 +62,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular."
 	},
 
-	thirdParty: {
-		cardmarket: 482924,
-		tcgplayer: 219087
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482924,
+				tcgplayer: 219087
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482924,
+				tcgplayer: 219087
+			}
+		},
+	],
 }
 
 export default card

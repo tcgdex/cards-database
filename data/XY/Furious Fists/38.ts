@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+	},
+
 	thirdParty: {
 		cardmarket: 281702,
 		tcgplayer: 92213

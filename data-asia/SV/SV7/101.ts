@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の場のたねポケモン1匹から進化する1進化ポケモンを、自分の山札から1枚選び、そのポケモンにのせて進化させてよい。進化したなら、続けて2進化ポケモンを1枚選び、進化させてよい。そして山札を切る。（最初の自分の番や、出したばかりのたねポケモンは進化させられない。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779115,
+				tcgplayer: 567956,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H",
 	rarity: "None"

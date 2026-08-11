@@ -55,14 +55,29 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Tika Matsuno",
+
+	description: {
+		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+	},
 
 	thirdParty: {
         cardmarket: 702327,

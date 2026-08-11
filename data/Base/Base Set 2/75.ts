@@ -58,14 +58,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273998,
-		tcgplayer: 42495
+	description: {
+		en: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273998,
+				tcgplayer: 42495
+			}
 		}
 	]
 }

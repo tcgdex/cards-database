@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
 	},
 
-	thirdParty: {
-		cardmarket: 567224,
-		tcgplayer: 241793
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567224,
+				tcgplayer: 241793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567224,
+				tcgplayer: 241793
+			}
+		},
+	],
 }
 
 export default card

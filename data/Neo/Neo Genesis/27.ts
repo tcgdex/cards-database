@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It spins string not only from its rear but also from its mouth. It's hard to tell which end is which.",
 		fr: "Il file sa toile non seulement depuis son derrière, mais aussi depuis sa bouche. Il est difficile de différencier l'avant de l'arrière."
 	},
 
-	thirdParty: {
-		cardmarket: 274427,
-		tcgplayer: 83615
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274427,
+				tcgplayer: 83615
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274427,
+				tcgplayer: 83615
+			}
 		}
 	]
 }

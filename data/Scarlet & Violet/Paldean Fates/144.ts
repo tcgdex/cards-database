@@ -74,19 +74,32 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751683,
+				tcgplayer: 534581,
+				cardtrader: 274327
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 751683
-	}
+	description: {
+		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+	},
+
 }
 
 export default card

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+	},
+
 	thirdParty: {
 		cardmarket: 381228,
 		tcgplayer: 197673

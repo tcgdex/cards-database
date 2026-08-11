@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		22,
-	],
+	dexId: [22],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec",
+		fr: "Piafabec"
 	},
 
 	stage: "Stage1",
@@ -61,7 +59,7 @@ const card: Card = {
 				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -88,17 +86,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85399,
+				cardmarket: 279171
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85399,
+				cardmarket: 279171
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279171,
-		tcgplayer: 85399
-	}
 }
 
 export default card

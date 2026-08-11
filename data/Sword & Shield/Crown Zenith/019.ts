@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
@@ -87,17 +88,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691736,
-		tcgplayer: 478094
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691736,
+				tcgplayer: 478094
+			}
+		},
+	],
 }
 
 export default card

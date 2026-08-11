@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran V"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658528,
-		tcgplayer: 272417
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658826,
+				tcgplayer: 272417
+			}
+		},
+	],
 }
 
 export default card

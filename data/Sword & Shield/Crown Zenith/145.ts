@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Trekkingschuhe"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691864,
-		tcgplayer: 478205
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691864,
+				tcgplayer: 478205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691864,
+				tcgplayer: 478205
+			}
+		},
+	],
 }
 
 export default card

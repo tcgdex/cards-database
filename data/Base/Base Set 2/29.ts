@@ -60,15 +60,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273952,
-		tcgplayer: 42501
+
+	description: {
+		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273952,
+				tcgplayer: 42501
+			}
 		}
 	]
 }

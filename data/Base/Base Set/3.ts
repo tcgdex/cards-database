@@ -83,20 +83,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	variants: [
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273698,
+				tcgplayer: 42371
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 106998
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 106998
+			}
 		},
 		{
 			type: "holo",
@@ -106,14 +118,10 @@ const card: Card = {
 
 
 	description: {
+		en: "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
 		fr: "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur.",
 		it: "Pokémon raro ed elusivo; di lui si dice che porti felicità a coloro che riescono ad acchiapparlo. LIV 55 N.113"
 	},
-
-	thirdParty: {
-		cardmarket: 273698,
-		tcgplayer: 42371
-	}
 }
 
 export default card

@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+	},
+
 	thirdParty: {
 		cardmarket: 291511,
 		tcgplayer: 120993

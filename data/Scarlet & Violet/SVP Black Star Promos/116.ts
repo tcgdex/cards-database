@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Panferno"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
@@ -74,9 +74,36 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Kazumasa Yasukuni"
+	illustrator: "Kazumasa Yasukuni",
+	description: {
+		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 769413,
+				tcgplayer: 551689
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 769414,
+				tcgplayer: 563316
+			},
+		}
+	],
 }
 
 export default card

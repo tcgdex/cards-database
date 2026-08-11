@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		219,
-	],
+	dexId: [219],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +27,7 @@ const card: Card = {
 		fr: "Limagma"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -72,17 +71,22 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87019,
+				cardmarket: 275972
+			},
 		},
 	],
 
-
-	retreat: 3,
-
-	thirdParty: {
-		tcgplayer: 87019,
-		cardmarket: 275972
-	}
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Endynalos"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -60,17 +61,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
 	},
 
-	thirdParty: {
-		cardmarket: 691824,
-		tcgplayer: 478216
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691824,
+				tcgplayer: 478216
+			}
+		},
+	],
 }
 
 export default card

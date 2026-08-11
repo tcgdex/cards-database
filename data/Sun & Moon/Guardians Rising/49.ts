@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It spaces out while gazing at the sea. With Shellder's poison flowing through its body, it becomes even spacier.",
+	},
+
 	thirdParty: {
 		cardmarket: 297511,
 		tcgplayer: 130955

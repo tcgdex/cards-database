@@ -1,50 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "泥泥鰍"
+		ja: "ルチャブル",
+		'zh-tw': "泥泥鰍",
 	},
 
-	illustrator: "ryoma uratsuka",
+	illustrator: "GOSSAN",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "２根鬍子是靈敏的雷達。即使在因為泥濘而渾濁的水中，也能偵查到獵物的位置。"
+		ja: "翼を 使い 軽やかに 跳び 相手を 華麗に 仕留める 技は 生まれ育った 森で 磨かれる。",
+		'zh-tw': "２根鬍子是靈敏的雷達。即使在因為泥濘而渾濁的水中，也能偵查到獵物的位置。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "躲藏"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "フライングエントリー" },
+			effect: {
+				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手のベンチポケモン2匹に、それぞれダメカンを1個のせる。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。"
+	attacks: [
+		{
+			name: {
+				ja: "つばさでうつ",
+				'zh-tw': "躲藏",
+			},
+			damage: 70,
+			cost: ["Fighting", "Colorless", "Colorless"],
 		},
+	],
 
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "擲泥"
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 691010,
+				tcgplayer: 587791,
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Fighting", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [701],
+};
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

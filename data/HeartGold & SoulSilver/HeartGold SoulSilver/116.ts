@@ -14,18 +14,22 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
-	variants: [
-		{
-			type: "normal"
-		}
-	],
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279088,
-		tcgplayer: 85464
-	}
+	types: [
+		"Fire"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279088,
+				tcgplayer: 85464
+			}
+		},
+	],
+
 }
 
 export default card

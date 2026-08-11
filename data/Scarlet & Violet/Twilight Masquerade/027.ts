@@ -52,18 +52,38 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769201,
+				tcgplayer: 550071
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769201,
+				tcgplayer: 550071
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 769201
-	}
 }
 
 export default card

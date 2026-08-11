@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 788057,
+				tcgplayer: 579466,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	rarity: "None"
 }

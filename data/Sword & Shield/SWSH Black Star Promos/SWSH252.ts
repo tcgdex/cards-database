@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Infernape V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Fire"],
@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 

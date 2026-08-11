@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its fine fur feels sublime to the touch. It can expand its body by inhaling air.",
+	},
+
 	thirdParty: {
 		cardmarket: 280304,
 		tcgplayer: 90600

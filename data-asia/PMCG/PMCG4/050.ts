@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ポリゴン",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [137],
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575775
+			},
 		},
 	],
 };

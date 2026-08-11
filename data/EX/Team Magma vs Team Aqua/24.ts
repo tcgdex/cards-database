@@ -13,15 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		331,
-	],
+	dexId: [331],
 
 	hp: 50,
 
 	types: [
 		"Grass",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -58,7 +56,7 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 4 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -70,26 +68,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276001,
-		tcgplayer: 89774
-	},
 
 	variants: [
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
-			stamp: ["pre-release"]
+			thirdParty: {
+				cardmarket: 275801,
+				tcgplayer: 89774
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275801,
+				tcgplayer: 89774
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 881780,
+				tcgplayer: 282798
+			}
+		},
+	],
+
 }
 
 export default card

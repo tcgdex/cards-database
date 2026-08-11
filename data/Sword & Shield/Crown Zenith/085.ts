@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Mauzinger"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,44 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
 	},
 
-	thirdParty: {
-		cardmarket: 691803,
-		tcgplayer: 478221
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691803,
+				tcgplayer: 478221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691803,
+				tcgplayer: 478221
+			}
+		},
+	],
 }
 
 export default card

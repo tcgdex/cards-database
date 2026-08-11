@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+	},
+
 	thirdParty: {
 		cardmarket: 387937,
 		tcgplayer: 194937

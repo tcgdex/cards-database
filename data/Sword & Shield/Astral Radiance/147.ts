@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Perla"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658808,
-		tcgplayer: 272399
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658808,
+				tcgplayer: 272399
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658808,
+				tcgplayer: 272399
+			}
+		},
+	],
 }
 
 export default card

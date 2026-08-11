@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Silvanas Vitalität"
 	},
 
+	illustrator: "En Morikura",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,17 +29,17 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658804,
-		tcgplayer: 272457
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658863,
+				tcgplayer: 272457
+			}
+		},
+	],
 }
 
 export default card

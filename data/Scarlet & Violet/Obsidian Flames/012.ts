@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Small roots that extend from the tips of this Pokémon's feet can tie into the trees of the forest and give Trevenant control over them.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725092,
+				tcgplayer: 509672,
+				cardtrader: 255572
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725092,
+				tcgplayer: 509672,
+				cardtrader: 255572
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 725092
-	}
+	
 }
 
 export default card

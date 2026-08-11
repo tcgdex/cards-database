@@ -45,21 +45,26 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
 		fr: "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
-	thirdParty: {
-		cardmarket: 274420,
-		tcgplayer: 84362
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274420,
+				tcgplayer: 84362
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["1st-edition"]
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274420,
+				tcgplayer: 84362
+			}
 		}
 	]
 }

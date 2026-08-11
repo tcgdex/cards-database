@@ -63,15 +63,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273924,
-		tcgplayer: 42444
+
+	description: {
+		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273924,
+				tcgplayer: 42444
+			}
 		}
 	]
 }

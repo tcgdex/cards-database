@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Drifzepeli"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -54,20 +55,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
 	},
 
-	thirdParty: {
-		cardmarket: 658639,
-		tcgplayer: 272265
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658639,
+				tcgplayer: 272265
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658639,
+				tcgplayer: 272265
+			}
+		},
+	],
 }
 
 export default card

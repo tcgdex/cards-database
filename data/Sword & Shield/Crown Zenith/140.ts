@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roy"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,25 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691859,
-		tcgplayer: 478196
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691859,
+				tcgplayer: 478196
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691859,
+				tcgplayer: 478196
+			}
+		},
+	],
 }
 
 export default card

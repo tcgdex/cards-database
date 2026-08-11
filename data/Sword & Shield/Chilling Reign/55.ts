@@ -56,12 +56,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
 	},
 
-	thirdParty: {
-		cardmarket: 567135,
-		tcgplayer: 241714
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567135,
+				tcgplayer: 241714
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567135,
+				tcgplayer: 241714
+			}
+		},
+	],
 }
 
 export default card

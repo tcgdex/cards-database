@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "REND",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [54],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
@@ -61,13 +62,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676038,
-		cardmarket: 869837
-	}
+	description: {
+		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869837,
+				tcgplayer: 676038
+			}
+		}
+	],
 }
 
 export default card

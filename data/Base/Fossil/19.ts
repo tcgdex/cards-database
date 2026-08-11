@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
+		fr: "Draco"
 	},
 
 	stage: "Stage2",
@@ -74,25 +75,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
 		fr: "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme."
 	},
 
-	thirdParty: {
-		cardmarket: 273865,
-		tcgplayer: 44427
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273865,
+				tcgplayer: 44427
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273865,
+				tcgplayer: 44427
+			}
 		},
 		{
 			type: "normal",

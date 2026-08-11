@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Water Gun",
 				fr: "Pistolet à O",
 				de: "Aquaknarre",
-				it:" Pistolacqua"
+				it: " Pistolacqua"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 damage for each Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Energy after the end don't count.",
@@ -54,29 +54,38 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
 		fr: "Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout.",
 		it: "Le sue gambe appena sviluppate non riescono a sostenerlo nella corsa; preferisce nuotare inceve di stare in piedi. LIV 13 N.60"
 	},
 
-	thirdParty: {
-		cardmarket: 273754,
-		tcgplayer: 42403
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273754,
+				tcgplayer: 42403
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107056
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107056
+			},
 		},
 		{
 			type: "normal",

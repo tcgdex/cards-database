@@ -74,12 +74,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -87,10 +81,22 @@ const card: Card = {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},
 
-	thirdParty: {
-		cardmarket: 482984,
-		tcgplayer: 219235
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482984,
+				tcgplayer: 219235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482984,
+				tcgplayer: 219235
+			}
+		},
+	],
 }
 
 export default card

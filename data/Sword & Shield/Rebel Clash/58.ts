@@ -67,12 +67,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -80,10 +74,22 @@ const card: Card = {
 		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
 	},
 
-	thirdParty: {
-		cardmarket: 457723,
-		tcgplayer: 213139
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457723,
+				tcgplayer: 213139
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457723,
+				tcgplayer: 213139
+			}
+		},
+	],
 }
 
 export default card

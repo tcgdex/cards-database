@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+	},
+
 	thirdParty: {
 		cardmarket: 302190,
 		tcgplayer: 146714

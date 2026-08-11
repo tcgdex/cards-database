@@ -6,13 +6,16 @@ const card: Card = {
 	name: {
 		ja: "エリカ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576776
+			},
 		},
 	],
 };

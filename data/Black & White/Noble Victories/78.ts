@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+	},
+
 	thirdParty: {
 		cardmarket: 280201,
 		tcgplayer: 90779

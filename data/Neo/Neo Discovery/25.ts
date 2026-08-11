@@ -71,23 +71,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
 		fr: "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite."
 	},
 
-	thirdParty: {
-		cardmarket: 274517,
-		tcgplayer: 86394
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274517,
+				tcgplayer: 86394
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274517,
+				tcgplayer: 86394
+			}
 		}
 	]
 }

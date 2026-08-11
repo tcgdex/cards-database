@@ -19,9 +19,19 @@ const card: Card = {
 		ja: "自分のバトル場のポケモンのHPを「60」回復する。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787617,
+				tcgplayer: 579439,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
-	rarity: "Uncommon"
+	rarity: "Uncommon",
 }
 
 export default card

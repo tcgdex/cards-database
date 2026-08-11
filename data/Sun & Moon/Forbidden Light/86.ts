@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+	},
+
 	thirdParty: {
 		cardmarket: 355600,
 		tcgplayer: 165744

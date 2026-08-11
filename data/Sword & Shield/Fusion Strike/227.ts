@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Yusuke Ohmura",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582963,
-		tcgplayer: 253097
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582963,
+				tcgplayer: 253097
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582963,
+				tcgplayer: 253097
+			}
+		},
+	],
 }
 
 export default card

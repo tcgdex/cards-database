@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+	},
+
 	thirdParty: {
 		cardmarket: 355534,
 		tcgplayer: 165662

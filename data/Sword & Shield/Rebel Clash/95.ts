@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,29 @@ const card: Card = {
 		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
 	},
 
-	thirdParty: {
-		cardmarket: 457888,
-		tcgplayer: 213183
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457888,
+				tcgplayer: 213183
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 883772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457888,
+				tcgplayer: 213183
+			}
+		},
+	],
 }
 
 export default card

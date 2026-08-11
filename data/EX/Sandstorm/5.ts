@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -81,19 +79,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275782,
-		tcgplayer: 85489
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 85489
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 85489
+			}
 		},
-	]
+	],
+
 }
 
 export default card

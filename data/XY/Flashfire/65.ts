@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 281547,
 		tcgplayer: 91202

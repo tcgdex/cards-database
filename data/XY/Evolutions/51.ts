@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon whose genetic code was repeatedly recombined for research. It turned vicious as a result.",
+	},
+
 	thirdParty: {
 		cardmarket: 293405,
 		tcgplayer: 124064

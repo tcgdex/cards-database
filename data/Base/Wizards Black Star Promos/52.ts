@@ -50,14 +50,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86120
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-center-ny"]
+			stamp: ["pokemon-center-ny"],
+			thirdParty: {
+				tcgplayer: 244348
+			},
 		}
 	]
 }

@@ -74,18 +74,48 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733621,
+				tcgplayer: 515957,
+				cardtrader: 261244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733621,
+				tcgplayer: 515957,
+				cardtrader: 261244
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 864950
+			}
+		},
+	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 733621
-	}
+	
 }
 
 export default card

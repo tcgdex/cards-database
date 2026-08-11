@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+	},
+
 	thirdParty: {
 		cardmarket: 281833,
 		tcgplayer: 94162

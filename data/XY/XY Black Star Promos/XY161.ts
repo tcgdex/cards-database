@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "Uncommon",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -61,6 +61,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+	},
 
 	thirdParty: {
 		cardmarket: 295152

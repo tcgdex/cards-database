@@ -20,6 +20,16 @@ const card: Card = {
 		th: "ดูการ์ดบนมือฝ่ายตรงข้าม เลือกการ์ดที่ชอบ 1 ใบจากในนั้น ใส่กลับไปด้านล่างของสำรับการ์ดฝ่ายตรงข้าม หลังจากนั้น หากฝ่ายตรงข้ามต้องการ จั่วการ์ด 1 ใบจากสำรับการ์ด"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 724058,
+				tcgplayer: 567058,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

@@ -47,15 +47,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751608,
+				tcgplayer: 534432,
+				cardtrader: 274254
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751608,
+				tcgplayer: 534432,
+				cardtrader: 274254
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 751608
-	}
+	description: {
+		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+	},
+
 }
 
 export default card

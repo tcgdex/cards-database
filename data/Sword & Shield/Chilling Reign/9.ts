@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
 	},
 
-	thirdParty: {
-		cardmarket: 567089,
-		tcgplayer: 241658
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567089,
+				tcgplayer: 241658
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567089,
+				tcgplayer: 241658
+			}
+		},
+	],
 }
 
 export default card

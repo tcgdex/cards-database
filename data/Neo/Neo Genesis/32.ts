@@ -72,23 +72,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",
 		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
 	},
 
-	thirdParty: {
-		cardmarket: 274431,
-		tcgplayer: 84496
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84496
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84496
+			}
 		}
 	]
 }

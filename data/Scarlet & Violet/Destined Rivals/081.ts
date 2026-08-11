@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	rarity: "Double rare",
@@ -74,21 +75,30 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825955,
+				tcgplayer: 632891
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825955
-	}
 }
 
 export default card

@@ -63,14 +63,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
 		fr: "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu."
 	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87395
+			},
 		},
 	]
 }

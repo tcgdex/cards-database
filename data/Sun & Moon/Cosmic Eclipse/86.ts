@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+	},
+
 	thirdParty: {
 		cardmarket: 408074,
 		tcgplayer: 201260

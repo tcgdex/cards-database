@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
 	},
 
-	thirdParty: {
-		cardmarket: 482919,
-		tcgplayer: 219081
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482919,
+				tcgplayer: 219081
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482919,
+				tcgplayer: 219081
+			}
+		},
+	],
 }
 
 export default card

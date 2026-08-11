@@ -70,23 +70,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
 		fr: "Il dresse sa queue pour observer les alentours. Parfois les éclairs frappent sa queue quand elle est en l'air."
 	},
 
-	thirdParty: {
-		cardmarket: 274470,
-		tcgplayer: 88072
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274470,
+				tcgplayer: 88072
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274470,
+				tcgplayer: 88072
+			}
 		}
 	]
 }

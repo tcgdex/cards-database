@@ -57,14 +57,29 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Tika Matsuno",
+
+	description: {
+		en: "It prefers harsh environments, such as deserts. It can survive for 30 days on water stored in its body.",
+	},
 
 	thirdParty: {
         cardmarket: 702302,

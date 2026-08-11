@@ -65,23 +65,38 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760634,
+				tcgplayer: 542649
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760634,
+				tcgplayer: 542649
+			}
+		},
 	],
 
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 760634
-	}
 }
 
 export default card

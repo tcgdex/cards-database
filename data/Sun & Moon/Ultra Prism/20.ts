@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+	},
+
 	thirdParty: {
 		cardmarket: 315951,
 		tcgplayer: 157637

@@ -65,23 +65,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
 		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
 	},
 
-	thirdParty: {
-		cardmarket: 274639,
-		tcgplayer: 89336
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274639,
+				tcgplayer: 89336
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274639,
+				tcgplayer: 89336
+			}
 		}
 	]
 }

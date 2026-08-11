@@ -75,23 +75,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
 		fr: "Les arômes qui s'élèvent de ses pétales contiennent des substances qui effacent les sentiments agressifs."
 	},
 
-	thirdParty: {
-		cardmarket: 274410,
-		tcgplayer: 87287
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274410,
+				tcgplayer: 87287
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274410,
+				tcgplayer: 87287
+			}
 		}
 	]
 }

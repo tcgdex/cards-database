@@ -68,12 +68,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -81,10 +75,22 @@ const card: Card = {
 		en: "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather."
 	},
 
-	thirdParty: {
-		cardmarket: 483109,
-		tcgplayer: 219349
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483109,
+				tcgplayer: 219349
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483109,
+				tcgplayer: 219349
+			}
+		},
+	],
 }
 
 export default card

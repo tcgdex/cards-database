@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+	},
+
 	thirdParty: {
 		cardmarket: 281851,
 		tcgplayer: 94503

@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733649,
+				tcgplayer: 516231,
+				cardtrader: 261144
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733649,
+				tcgplayer: 516231,
+				cardtrader: 261144
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 733649
-	}
+	
 }
 
 export default card

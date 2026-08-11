@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
 		fr: "On dirait qu'il pleure constamment. En fait, il régule ses fluides corporels en éliminant le surplus."
 	},
 

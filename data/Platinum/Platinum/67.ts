@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		331,
-	],
+	dexId: [331],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -77,19 +75,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278488,
-		tcgplayer: 84076
+	description: {
+		en: "By storing water in its body, this desert dweller can survive 30 days without water."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84076,
+				cardmarket: 278488
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278488,
+				tcgplayer: 84076
+			}
 		}
-	]
+	],
+
 }
 
 export default card

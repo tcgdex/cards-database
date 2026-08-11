@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep.",
 		fr: "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégât à chaque Pokémon Actif (ou un si un Pokémon n'en possède qu'un). Si c'est pile, chaque Pokémon Actif est maintenant Endormi.",
 		de: "Wirf 1 Münze. Entferne bei 'Kopf' 2 Schadensmarken von allen Aktiven Pokémon (1, falls nur 1 vorhanden). Bei 'Zahl' schlafen alle Aktiven Pokémon jetzt."
 	},

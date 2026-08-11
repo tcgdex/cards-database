@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+	},
+
 	thirdParty: {
 		cardmarket: 288214,
 		tcgplayer: 111546

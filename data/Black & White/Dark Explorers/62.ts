@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+	},
+
 	thirdParty: {
 		cardmarket: 280390,
 		tcgplayer: 88855

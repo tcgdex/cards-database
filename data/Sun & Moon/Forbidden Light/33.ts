@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Despite what its appearance suggests, it cares for others. If it finds vulnerable, weak Pokémon, it protectively brings them into its water bubble.",
+	},
+
 	thirdParty: {
 		cardmarket: 355552,
 		tcgplayer: 165684

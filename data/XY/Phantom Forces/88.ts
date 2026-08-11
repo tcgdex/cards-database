@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+	},
+
 	thirdParty: {
 		cardmarket: 281894,
 		tcgplayer: 94656

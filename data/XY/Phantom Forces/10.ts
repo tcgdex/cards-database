@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+	},
+
 	thirdParty: {
 		cardmarket: 281811,
 		tcgplayer: 94143

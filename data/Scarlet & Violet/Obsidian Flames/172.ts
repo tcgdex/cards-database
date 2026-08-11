@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725252,
+				tcgplayer: 509713,
+				cardtrader: 256068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725252,
+				tcgplayer: 509713,
+				cardtrader: 256068
+			}
+		},
+	],
 
 	illustrator: "Keisin",
 
-	thirdParty: {
-		cardmarket: 725252
-	}
+	
 }
 
 export default card

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+	},
+
 	thirdParty: {
 		cardmarket: 280000,
 		tcgplayer: 89903

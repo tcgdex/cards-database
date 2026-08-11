@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mounts where they live.",
+	},
+
 	thirdParty: {
 		cardmarket: 295331,
 		tcgplayer: 126894

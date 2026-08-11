@@ -64,18 +64,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769263,
+				tcgplayer: 550133
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769263,
+				tcgplayer: 550133
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 769263
-	}
 }
 
 export default card

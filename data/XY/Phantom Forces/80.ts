@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to deliver happiness. Being compassionate, it shares its egg with injured people.",
+	},
+
 	thirdParty: {
 		cardmarket: 281886,
 		tcgplayer: 94648

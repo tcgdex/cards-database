@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
+		fr: "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -78,24 +79,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain.",
 		en: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people."
 	},
 
-	thirdParty: {
-		cardmarket: 273798,
-		tcgplayer: 45120
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273798,
+				tcgplayer: 45120
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273798,
+				tcgplayer: 45120
+			}
 		},
 		{
 			type: "holo",

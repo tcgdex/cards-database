@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+	},
+
 	thirdParty: {
 		cardmarket: 387882,
 		tcgplayer: 194926

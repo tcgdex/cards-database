@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
+		fr: "Magnéti",
 		it: "Magnemite"
 	},
 
@@ -83,8 +84,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
 		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari. LIV 28 N.82"
 	},
@@ -93,27 +97,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273704,
+				tcgplayer: 42433
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107003
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107003
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
 	],
-
-
-	thirdParty: {
-		cardmarket: 273704,
-		tcgplayer: 42433
-	}
 }
 
 export default card

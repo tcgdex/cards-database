@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+	},
+
 	thirdParty: {
 		cardmarket: 281419,
 		tcgplayer: 83846

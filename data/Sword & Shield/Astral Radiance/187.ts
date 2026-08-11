@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Denboku"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658810,
-		tcgplayer: 272437
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658848,
+				tcgplayer: 272437
+			}
+		},
+	],
 }
 
 export default card

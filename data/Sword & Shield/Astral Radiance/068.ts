@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Diancie"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -66,20 +67,36 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
 	},
 
-	thirdParty: {
-		cardmarket: 658647,
-		tcgplayer: 272269
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658647,
+				tcgplayer: 272269
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658647,
+				tcgplayer: 272269
+			}
+		},
+	],
 }
 
 export default card

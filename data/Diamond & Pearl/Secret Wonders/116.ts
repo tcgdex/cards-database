@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its big eyes are actually clusters of tiny eyes. At nights, its kind is drawn by light.",
+	},
+
 	thirdParty: {
 		cardmarket: 277869,
 		tcgplayer: 90308

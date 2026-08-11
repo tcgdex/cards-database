@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its claws and horns often break off. The broken claws and horns can be used to carve plows for tilling farm fields.",
+	},
+
 	thirdParty: {
 		cardmarket: 372375,
 		tcgplayer: 189183

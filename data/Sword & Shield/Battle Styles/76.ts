@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack."
 	},
 
-	thirdParty: {
-		cardmarket: 545496,
-		tcgplayer: 234252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545496,
+				tcgplayer: 234252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545496,
+				tcgplayer: 234252
+			}
+		},
+	],
 }
 
 export default card

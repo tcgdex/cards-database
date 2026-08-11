@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Jolteon VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Lightning"],
@@ -54,6 +54,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 

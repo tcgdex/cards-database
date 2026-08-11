@@ -80,6 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
 		fr: "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
 	},
 

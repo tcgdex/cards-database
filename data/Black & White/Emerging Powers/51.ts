@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+	},
+
 	thirdParty: {
 		cardmarket: 280016,
 		tcgplayer: 83933

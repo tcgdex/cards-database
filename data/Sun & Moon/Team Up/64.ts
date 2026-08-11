@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.",
+	},
+
 	thirdParty: {
 		cardmarket: 368994,
 		tcgplayer: 183842

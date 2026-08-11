@@ -56,12 +56,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away."
 	},
 
-	thirdParty: {
-		cardmarket: 545606,
-		tcgplayer: 234194
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545606,
+				tcgplayer: 234194
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545606,
+				tcgplayer: 234194
+			}
+		},
+	],
 }
 
 export default card

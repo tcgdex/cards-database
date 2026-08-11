@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+	},
+
 	thirdParty: {
 		cardmarket: 281077,
 		tcgplayer: 86213

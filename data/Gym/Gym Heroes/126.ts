@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Trash Exchange",
+		en: "Trash Exchange"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274262,
-		tcgplayer: 90029
+	effect: {
+		en: "Count the number of cards in your discard pile and shuffle them into your deck. Then discard that many cards from the top of your deck."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90029,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 90029,
+				cardmarket: 274262
+			}
 		}
-	]
+	],
 }
 
 export default card

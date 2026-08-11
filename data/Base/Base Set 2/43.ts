@@ -61,15 +61,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273966,
-		tcgplayer: 42506
+
+	description: {
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273966,
+				tcgplayer: 42506
+			}
 		}
 	]
 }

@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Metal"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Tsuji",
@@ -70,17 +82,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582813,
-		tcgplayer: 253154
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582990,
+				tcgplayer: 253154
+			}
+		},
+	],
 }
 
 export default card

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
+	},
+
 	thirdParty: {
 		cardmarket: 281679,
 		tcgplayer: 92187

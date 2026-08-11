@@ -23,7 +23,6 @@ const card: Card = {
 	stage: "Basic",
 
 
-	
 
 	retreat: 1,
 
@@ -69,15 +68,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276246,
+				tcgplayer: 87717,
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276246,
+				tcgplayer: 87717,
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 871514,
+				tcgplayer: 477558,
+			}
 		}
 	]
 }

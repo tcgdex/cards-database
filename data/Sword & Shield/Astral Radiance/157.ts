@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Unbekanntes Fossil"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,17 +28,23 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658818,
-		tcgplayer: 272409
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658818,
+				tcgplayer: 272409
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658818,
+				tcgplayer: 272409
+			}
+		},
+	],
 }
 
 export default card

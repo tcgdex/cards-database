@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Kyoko Umemoto",
@@ -61,17 +67,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582710,
-		tcgplayer: 253449
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582710,
+				tcgplayer: 253449
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582710,
+				tcgplayer: 253449
+			}
+		},
+	],
 }
 
 export default card

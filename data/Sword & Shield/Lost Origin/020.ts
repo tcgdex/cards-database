@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Maritellit"
 	},
 
+	illustrator: "yuu",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674031,
-		tcgplayer: 283890
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674031,
+				tcgplayer: 283890
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674031,
+				tcgplayer: 283890
+			}
+		},
+	],
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+	},
+
 	thirdParty: {
 		cardmarket: 280308,
 		tcgplayer: 88058

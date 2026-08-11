@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+	},
+
 	thirdParty: {
 		cardmarket: 280745,
 		tcgplayer: 90330

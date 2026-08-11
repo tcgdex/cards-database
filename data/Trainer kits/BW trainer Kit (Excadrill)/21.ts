@@ -26,7 +26,17 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280069,
+				tcgplayer: 98697
+			}
+		},
+	],
+
 }
 
 export default card

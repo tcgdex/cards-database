@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Minefield Gym",
+		en: "Rocket's Minefield Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,24 +11,33 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274387,
-		tcgplayer: 88779
+	effect: {
+		en: "This card stays in play after being played. Discard this card if another Stadium card comes into play. Whenever a player puts a Basic Pokémon onto his or her Bench from his or her hand, he or she flips a coin. If tails, put damage counters on that Pokémon."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88779,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88779,
+				cardmarket: 274387
+			}
 		},
 		{
 			type: "normal",
-			subtype: "text-error"
+			subtype: "text-error",
+			thirdParty: {
+				tcgplayer: 88779,
+			},
 		}
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

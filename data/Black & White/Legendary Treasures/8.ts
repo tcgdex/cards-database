@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+	},
+
 	thirdParty: {
 		cardmarket: 281151,
 		tcgplayer: 89074

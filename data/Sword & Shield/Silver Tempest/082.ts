@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Psiaugon"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -67,20 +68,42 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
 	},
 
-	thirdParty: {
-		cardmarket: 682129,
-		tcgplayer: 451736
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682129,
+				tcgplayer: 451736
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682129,
+				tcgplayer: 451736
+			}
+		},
+	],
 }
 
 export default card

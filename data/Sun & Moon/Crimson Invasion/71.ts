@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you'll become sleepy right away.",
+	},
+
 	thirdParty: {
 		cardmarket: 311919,
 		tcgplayer: 149097

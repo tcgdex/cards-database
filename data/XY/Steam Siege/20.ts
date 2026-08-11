@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+	},
+
 	thirdParty: {
 		cardmarket: 291615,
 		tcgplayer: 121009

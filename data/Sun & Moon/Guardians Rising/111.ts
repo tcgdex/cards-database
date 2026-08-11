@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its favorite foods are Wingull and Pikipek. It attacks with a powerful kick and grasps them firmly in its talons.",
+	},
+
 	thirdParty: {
 		cardmarket: 297563,
 		tcgplayer: 131029

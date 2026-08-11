@@ -63,18 +63,41 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725117,
+				tcgplayer: 509739,
+				cardtrader: 255597
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725117,
+				tcgplayer: 509739,
+				cardtrader: 255597
+			}
+		},
+	],
 
 	illustrator: "Aya Kusube",
 
-	thirdParty: {
-		cardmarket: 725117
-	}
+	
 }
 
 export default card

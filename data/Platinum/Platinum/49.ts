@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		388,
-	],
+	dexId: [388],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Turtwig",
-		fr: "Tortipouss",
+		fr: "Tortipouss"
 	},
 
 	stage: "Stage1",
@@ -82,19 +80,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278470,
-		tcgplayer: 85918
+	description: {
+		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85918,
+				cardmarket: 278470
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278470,
+				tcgplayer: 85918
+			}
 		}
-	]
+	],
+
 }
 
 export default card

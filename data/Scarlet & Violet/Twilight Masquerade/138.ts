@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Split into two, the tails are so adept at handling and doing things that Ambipom rarely uses its hands.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769312,
+				tcgplayer: 550182
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769312,
+				tcgplayer: 550182
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 769312
-	}
 }
 
 export default card

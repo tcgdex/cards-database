@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "查看自己的牌庫上方7張卡，從其中選擇寶可夢卡與訓練家卡各1張，在給對手看過後加入手牌。將剩餘卡放回牌庫並重洗。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803342,
+				tcgplayer: 602693,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

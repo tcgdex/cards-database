@@ -44,18 +44,47 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740572,
+				tcgplayer: 523746,
+				cardtrader: 265190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740572,
+				tcgplayer: 523746,
+				cardtrader: 265190
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 740571
-	}
+	
 }
 
 export default card

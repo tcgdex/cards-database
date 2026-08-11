@@ -52,17 +52,48 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
+	description: {
+		en: "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 789504,
+				tcgplayer: 509705,
+				cardtrader: 255574
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 725094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725094,
+				tcgplayer: 509705,
+				cardtrader: 255574
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 725094
-	}
+	
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glumanda"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,19 +45,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
 	},
 
-	thirdParty: {
-		cardmarket: 664542,
-		tcgplayer: 274436
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665242,
+				tcgplayer: 274436
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665242,
+				tcgplayer: 274436
+			}
+		},
+	],
 }
 
 export default card

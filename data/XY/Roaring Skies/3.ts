@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+	},
+
 	thirdParty: {
 		cardmarket: 282671,
 		tcgplayer: 98039

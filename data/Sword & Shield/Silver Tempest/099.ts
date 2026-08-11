@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sankabuh"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -44,20 +45,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Grudges of the dead have possessed a mound of sand and become a Pokémon. Sandygast is fond of the shovel on its head.",
 	},
 
-	thirdParty: {
-		cardmarket: 682146,
-		tcgplayer: 451753
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682146,
+				tcgplayer: 451753
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682146,
+				tcgplayer: 451753
+			}
+		},
+	],
 }
 
 export default card

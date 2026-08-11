@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+	},
+
 	thirdParty: {
 		cardmarket: 288266,
 		tcgplayer: 111625

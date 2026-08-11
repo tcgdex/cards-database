@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lures Pokémon with its pattern that looks just like a Poké Ball then releases poison spores.",
+	},
+
 	thirdParty: {
 		cardmarket: 280752,
 		tcgplayer: 85540

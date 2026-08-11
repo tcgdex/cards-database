@@ -43,18 +43,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733612,
+				tcgplayer: 502566,
+				cardtrader: 261138
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733612,
+				tcgplayer: 502566,
+				cardtrader: 261138
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 733612
-	}
+	
 }
 
 export default card

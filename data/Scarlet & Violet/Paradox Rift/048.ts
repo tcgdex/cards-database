@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740530,
+				tcgplayer: 523657,
+				cardtrader: 265120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740530,
+				tcgplayer: 523657,
+				cardtrader: 265120
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 740527
-	}
+	
 }
 
 export default card

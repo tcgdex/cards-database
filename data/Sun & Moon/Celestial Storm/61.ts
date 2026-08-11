@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 361306,
 		tcgplayer: 170882

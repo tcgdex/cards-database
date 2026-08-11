@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+	},
+
 	thirdParty: {
 		cardmarket: 280697,
 		tcgplayer: 89936

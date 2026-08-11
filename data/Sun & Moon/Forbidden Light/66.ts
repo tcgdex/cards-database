@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+	},
+
 	thirdParty: {
 		cardmarket: 355584,
 		tcgplayer: 165718

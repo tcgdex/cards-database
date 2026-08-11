@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
+	},
+
 	thirdParty: {
 		cardmarket: 280460,
 		tcgplayer: 87062

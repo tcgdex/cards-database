@@ -57,14 +57,29 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Taira Akitsu",
+
+	description: {
+		en: "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
+	},
 
 	thirdParty: {
         cardmarket: 702299,

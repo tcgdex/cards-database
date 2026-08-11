@@ -69,6 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
 		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
 	},
 

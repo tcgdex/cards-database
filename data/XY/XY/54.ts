@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+	},
+
 	thirdParty: {
 		cardmarket: 281391,
 		tcgplayer: 88006

@@ -90,12 +90,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -103,10 +97,22 @@ const card: Card = {
 		en: "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible."
 	},
 
-	thirdParty: {
-		cardmarket: 511490,
-		tcgplayer: 226378
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511490,
+				tcgplayer: 226378
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511490,
+				tcgplayer: 226378
+			}
+		},
+	],
 }
 
 export default card

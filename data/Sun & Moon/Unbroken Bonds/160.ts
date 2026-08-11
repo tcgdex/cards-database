@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It would claim another Pokémon's nest as its own if it finds a nest sufficiently comfortable.",
+	},
+
 	thirdParty: {
 		cardmarket: 372448,
 		tcgplayer: 189262

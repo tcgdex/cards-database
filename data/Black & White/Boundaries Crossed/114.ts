@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The reason it does not have a nest is that it simply searches for a clean, comfortable place then sleeps there.",
+	},
+
 	thirdParty: {
 		cardmarket: 280701,
 		tcgplayer: 84742

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Sylveon VMAX",
@@ -73,10 +67,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574123,
-		tcgplayer: 246704
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574270,
+				tcgplayer: 246704
+			}
+		},
+	],
 }
 
 export default card

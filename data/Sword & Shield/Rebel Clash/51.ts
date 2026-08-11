@@ -88,12 +88,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -101,10 +95,22 @@ const card: Card = {
 		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
 	},
 
-	thirdParty: {
-		cardmarket: 457693,
-		tcgplayer: 213132
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457693,
+				tcgplayer: 213132
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457693,
+				tcgplayer: 213132
+			}
+		},
+	],
 }
 
 export default card

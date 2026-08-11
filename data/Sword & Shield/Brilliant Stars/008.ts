@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chelterrar"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 190,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
 	},
 
-	thirdParty: {
-		cardmarket: 608432,
-		tcgplayer: 263597
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608432,
+				tcgplayer: 263597
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608432,
+				tcgplayer: 263597
+			}
+		},
+	],
 }
 
 export default card

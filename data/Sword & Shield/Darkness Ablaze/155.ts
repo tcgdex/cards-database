@@ -93,12 +93,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -106,10 +100,22 @@ const card: Card = {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
 	},
 
-	thirdParty: {
-		cardmarket: 483654,
-		tcgplayer: 219370
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483654,
+				tcgplayer: 219370
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483654,
+				tcgplayer: 219370
+			}
+		},
+	],
 }
 
 export default card

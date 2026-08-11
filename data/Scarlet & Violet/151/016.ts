@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733611,
+				tcgplayer: 502565,
+				cardtrader: 261139
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733611,
+				tcgplayer: 502565,
+				cardtrader: 261139
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 733611
-	}
+	
 }
 
 export default card

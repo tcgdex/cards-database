@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+	},
+
 	thirdParty: {
 		cardmarket: 280771,
 		tcgplayer: 86901

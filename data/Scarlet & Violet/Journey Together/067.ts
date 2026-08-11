@@ -70,22 +70,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 	illustrator: "mashu",
 
-	thirdParty: {
-		cardmarket: 817219
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
-	]
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
+	],
 }
 
 export default card

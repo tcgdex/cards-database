@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		426,
-	],
+	dexId: [426],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Drifloon",
-		fr: "Baudrive",
+		fr: "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -91,17 +89,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279265,
+				tcgplayer: 84948
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279265,
+				tcgplayer: 84948
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279265,
-		tcgplayer: 84948
-	}
 }
 
 export default card

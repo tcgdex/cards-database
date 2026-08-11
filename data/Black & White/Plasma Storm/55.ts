@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+	},
+
 	thirdParty: {
 		cardmarket: 280795,
 		tcgplayer: 84491

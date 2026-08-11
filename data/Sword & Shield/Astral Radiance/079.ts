@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hippopotas"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -48,20 +49,36 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
 	},
 
-	thirdParty: {
-		cardmarket: 658686,
-		tcgplayer: 272280
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658686,
+				tcgplayer: 272280
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658686,
+				tcgplayer: 272280
+			}
+		},
+	],
 }
 
 export default card

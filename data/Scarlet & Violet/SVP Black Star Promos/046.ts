@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -35,9 +35,28 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "OKACHEKE"
+	illustrator: "OKACHEKE",
+	description: {
+		en: "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720944,
+				tcgplayer: 517271
+			},
+		}
+	],
 }
 
 export default card

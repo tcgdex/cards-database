@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While it's an amiable Pokémon, if you touch it unexpectedly, it will heat up its body in an instant, and you'll be burned.",
+	},
+
 	thirdParty: {
 		cardmarket: 388682,
 		tcgplayer: 195181

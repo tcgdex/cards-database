@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Miraidon ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1008],
 	hp: 220,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -61,13 +63,24 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675885,
-		cardmarket: 869684
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869684,
+				tcgplayer: 675885
+			}
+		}
+	],
 }
 
 export default card

@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "As a result of strict training, each Dewott learns different forms for using the scalchops."
 	},
 
-	thirdParty: {
-		cardmarket: 511590,
-		tcgplayer: 226413
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511590,
+				tcgplayer: 226413
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511590,
+				tcgplayer: 226413
+			}
+		},
+	],
 }
 
 export default card

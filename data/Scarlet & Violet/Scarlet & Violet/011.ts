@@ -48,14 +48,29 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Tika Matsuno",
+
+	description: {
+		en: "Until recently, people living in the mountains would ride on the back of these Pokémon to traverse the mountain paths.",
+	},
 
 	thirdParty: {
         cardmarket: 702308,

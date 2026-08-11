@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 288185,
 		tcgplayer: 111513

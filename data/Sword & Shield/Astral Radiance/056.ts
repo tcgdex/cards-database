@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Togetic"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -67,20 +68,36 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
 	},
 
-	thirdParty: {
-		cardmarket: 658621,
-		tcgplayer: 272257
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658621,
+				tcgplayer: 272257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658621,
+				tcgplayer: 272257
+			}
+		},
+	],
 }
 
 export default card

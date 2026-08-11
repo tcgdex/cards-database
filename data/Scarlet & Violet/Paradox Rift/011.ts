@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740487,
+				tcgplayer: 523610,
+				cardtrader: 265092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740487,
+				tcgplayer: 523610,
+				cardtrader: 265092
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 740487
-	}
+	
 }
 
 export default card

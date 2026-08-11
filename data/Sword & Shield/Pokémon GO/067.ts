@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lockmodul"
 	},
 
+	illustrator: "ORBITALLINK Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 664653,
-		tcgplayer: 276995
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665287,
+				tcgplayer: 276995
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665287,
+				tcgplayer: 276995
+			}
+		},
+	],
 }
 
 export default card

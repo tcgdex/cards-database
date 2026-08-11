@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Blutmond-Ursaluna-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Colorless"],
@@ -68,7 +68,25 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "aky CG Works"
+	suffix: "ex",
+	illustrator: "aky CG Works",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 796948,
+				tcgplayer: 595473
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 800150,
+				tcgplayer: 595474
+			}
+		}
+	],
 }
 
 export default card

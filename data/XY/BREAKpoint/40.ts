@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+	},
+
 	thirdParty: {
 		cardmarket: 288215,
 		tcgplayer: 111547

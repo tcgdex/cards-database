@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
+	},
+
 	thirdParty: {
 		cardmarket: 372380,
 		tcgplayer: 189188

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+	},
+
 	thirdParty: {
 		cardmarket: 361549,
 		tcgplayer: 175270

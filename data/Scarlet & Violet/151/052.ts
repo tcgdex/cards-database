@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733647,
+				tcgplayer: 516221,
+				cardtrader: 261133
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733647,
+				tcgplayer: 516221,
+				cardtrader: 261133
+			}
+		},
+	],
 
 	illustrator: "Naoki Saito",
 
-	thirdParty: {
-		cardmarket: 733758
-	}
+	
 }
 
 export default card

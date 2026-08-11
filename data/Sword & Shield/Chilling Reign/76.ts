@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
 	},
 
-	thirdParty: {
-		cardmarket: 567184,
-		tcgplayer: 241741
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567184,
+				tcgplayer: 241741
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567184,
+				tcgplayer: 241741
+			}
+		},
+	],
 }
 
 export default card

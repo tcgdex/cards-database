@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Giflor"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674015,
-		tcgplayer: 283865
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674015,
+				tcgplayer: 283865
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674015,
+				tcgplayer: 283865
+			}
+		},
+	],
 }
 
 export default card

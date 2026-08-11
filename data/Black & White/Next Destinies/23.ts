@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+	},
+
 	thirdParty: {
 		cardmarket: 280248,
 		tcgplayer: 89553

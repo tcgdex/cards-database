@@ -63,10 +63,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+	},
+
 	thirdParty: {
 		cardmarket: 299498,
 		tcgplayer: 138591
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

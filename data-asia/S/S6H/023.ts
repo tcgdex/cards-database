@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "海魔獅"
+		ja: "トドグラー",
+		'zh-tw': "海魔獅",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -14,41 +14,52 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "只要是圓形的東西，無論是精靈球還是海豹球，都能頂在鼻子上隨心所欲地轉動。"
+		ja: "まるければ モンスターボールでも タマザラシでも 鼻の上に 乗せて 自由自在に くるくる 回すぞ。",
+		'zh-tw': "只要是圓形的東西，無論是精靈球還是海豹球，都能頂在鼻子上隨心所欲地轉動。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "電磁吸附"
+	attacks: [
+		{
+			name: {
+				ja: "ぶつかる",
+				'zh-tw': "電磁吸附",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。"
+		{
+			name: {
+				ja: "オーロラビーム",
+				'zh-tw': "極巨衝刺",
+			},
+			damage: 70,
+			cost: ["Water", "Water", "Colorless"],
 		},
+	],
 
-		cost: ["Metal"]
-	}, {
-		name: {
-			'zh-tw': "極巨衝刺"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560439,
+				tcgplayer: 569155,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢「極巨衝刺」的傷害「+150」點。"
-		},
-
-		damage: 100,
-		cost: ["Metal", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "タマザラシ",
+	},
 
 	retreat: 4,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [364],
+};
 
-export default card
+export default card;

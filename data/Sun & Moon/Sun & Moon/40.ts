@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards it enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 295350,
 		tcgplayer: 126911

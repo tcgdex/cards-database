@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733608,
+				tcgplayer: 502562,
+				cardtrader: 261158
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733608,
+				tcgplayer: 502562,
+				cardtrader: 261158
+			}
+		},
+	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 733738
-	}
+	
 }
 
 export default card

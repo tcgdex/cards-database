@@ -113,8 +113,14 @@ export interface Variant {
 export interface VariantDetailed {
 	type: string
 	size?: string
+	subtype?: string
 	stamp?: Array<string>
 	foil?: string
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	variantId: string
 }
 
 export interface SetResume {

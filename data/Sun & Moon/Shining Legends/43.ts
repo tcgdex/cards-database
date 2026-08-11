@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 302181,
 		tcgplayer: 146707

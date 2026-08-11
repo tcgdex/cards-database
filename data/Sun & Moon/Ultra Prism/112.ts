@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot.",
+	},
+
 	thirdParty: {
 		cardmarket: 316038,
 		tcgplayer: 157729

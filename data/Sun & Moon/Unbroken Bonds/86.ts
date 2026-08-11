@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first.",
+	},
+
 	thirdParty: {
 		cardmarket: 372377,
 		tcgplayer: 189185

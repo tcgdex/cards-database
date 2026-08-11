@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It gathers groups of others as their leader. Its cries make Poliwag obey.",
 		fr: "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard."
 	},
 

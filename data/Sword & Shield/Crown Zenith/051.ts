@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Akkup"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -64,20 +65,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
 	},
 
-	thirdParty: {
-		cardmarket: 691768,
-		tcgplayer: 477055
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691768,
+				tcgplayer: 477055
+			}
+		},
+	],
 }
 
 export default card

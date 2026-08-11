@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The reason it guides people all the way down to the mountain's base is that it wants them to hurry up and leave.",
+	},
+
 	thirdParty: {
 		cardmarket: 408369,
 		tcgplayer: 201965

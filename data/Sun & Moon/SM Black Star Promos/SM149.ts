@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Suicune",
 		de: "Suicune"
 	},
-	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	illustrator: "Kouki Saitou",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+	},
 }
 
 export default card

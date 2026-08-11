@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	},
 
-	thirdParty: {
-		cardmarket: 511755,
-		tcgplayer: 226471
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511755,
+				tcgplayer: 226471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511755,
+				tcgplayer: 226471
+			}
+		},
+	],
 }
 
 export default card

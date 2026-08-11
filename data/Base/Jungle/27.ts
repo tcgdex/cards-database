@@ -81,23 +81,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
 	},
 
-	thirdParty: {
-		cardmarket: 273808,
-		tcgplayer: 106989
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273808,
+				tcgplayer: 106989
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273808,
+				tcgplayer: 106989
+			}
 		}
 	],
 }

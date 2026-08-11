@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings."
 	},
 
-	thirdParty: {
-		cardmarket: 511720,
-		tcgplayer: 226458
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511720,
+				tcgplayer: 226458
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511720,
+				tcgplayer: 226458
+			}
+		},
+	],
 }
 
 export default card

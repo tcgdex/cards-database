@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+	},
+
 	thirdParty: {
 		cardmarket: 281068,
 		tcgplayer: 86999

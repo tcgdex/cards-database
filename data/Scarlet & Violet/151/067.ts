@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733662,
+				tcgplayer: 516383,
+				cardtrader: 261192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733662,
+				tcgplayer: 516383,
+				cardtrader: 261192
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 733662
-	}
+	
 }
 
 export default card

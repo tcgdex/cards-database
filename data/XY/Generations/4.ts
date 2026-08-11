@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+	},
+
 	thirdParty: {
 		cardmarket: 288446,
 		tcgplayer: 113662

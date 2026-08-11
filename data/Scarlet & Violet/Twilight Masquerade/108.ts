@@ -44,18 +44,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Glimmet's toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769282,
+				tcgplayer: 550152
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769282,
+				tcgplayer: 550152
+			}
+		},
+	],
 
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 769282
-	}
 }
 
 export default card

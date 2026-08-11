@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 280019,
 		tcgplayer: 84965

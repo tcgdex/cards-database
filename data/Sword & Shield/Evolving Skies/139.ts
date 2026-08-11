@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Fletchinder",
@@ -78,10 +72,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574197,
-		tcgplayer: 246882
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574197,
+				tcgplayer: 246882
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574197,
+				tcgplayer: 246882
+			}
+		},
+	],
 }
 
 export default card

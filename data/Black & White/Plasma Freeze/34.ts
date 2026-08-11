@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By storing electricity in its body, it can shoot its bristlelike fur like a barrage of missiles.",
+	},
+
 	thirdParty: {
 		cardmarket: 280912,
 		tcgplayer: 86350

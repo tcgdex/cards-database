@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
+	},
+
 	thirdParty: {
 		cardmarket: 282724,
 		tcgplayer: 98092

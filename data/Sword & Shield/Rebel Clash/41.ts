@@ -79,12 +79,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -92,10 +86,22 @@ const card: Card = {
 		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
 	},
 
-	thirdParty: {
-		cardmarket: 457648,
-		tcgplayer: 213119
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457648,
+				tcgplayer: 213119
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457648,
+				tcgplayer: 213119
+			}
+		},
+	],
 }
 
 export default card

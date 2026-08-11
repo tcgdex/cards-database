@@ -69,23 +69,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
 		fr: "Les nuages gorgés de pluie qui l'accompagnent lui permettent de lancer des éclairs à volonté. On raconte qu'il est issu de la foudre."
 	},
 
-	thirdParty: {
-		cardmarket: 274599,
-		tcgplayer: 88529
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274599,
+				tcgplayer: 88529
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274599,
+				tcgplayer: 88529
+			}
 		}
 	]
 }

@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+	},
+
 	thirdParty: {
 		cardmarket: 316014,
 		tcgplayer: 157704

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Driftlon"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,42 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
 	},
 
-	thirdParty: {
-		cardmarket: 658637,
-		tcgplayer: 272264
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658637,
+				tcgplayer: 272264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658637,
+				tcgplayer: 272264
+			}
+		},
+	],
 }
 
 export default card

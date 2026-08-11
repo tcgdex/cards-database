@@ -57,18 +57,38 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "No matter how high a place it falls from, this Pokémon can save itself by rolling into a ball and bouncing.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769271,
+				tcgplayer: 550141
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769271,
+				tcgplayer: 550141
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 769271
-	}
 }
 
 export default card

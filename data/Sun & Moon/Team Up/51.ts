@@ -95,6 +95,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
+	},
 }
 
 export default card

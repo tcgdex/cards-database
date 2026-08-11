@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
 		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
 	},
 

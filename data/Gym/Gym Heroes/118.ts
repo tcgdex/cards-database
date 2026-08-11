@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Secret Mission",
+		en: "Secret Mission"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274254,
-		tcgplayer: 89035
+	effect: {
+		en: "Look at your opponent's hand. Then, you may discard as many other cards as you want from your hand and draw that many cards."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89035,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 89035,
+				cardmarket: 274254
+			}
 		}
-	]
+	],
 }
 
 export default card

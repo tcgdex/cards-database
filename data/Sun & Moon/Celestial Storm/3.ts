@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
+	},
+
 	thirdParty: {
 		cardmarket: 361250,
 		tcgplayer: 170808

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Arctovish V",
@@ -81,10 +75,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574072,
-		tcgplayer: 246761
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574234,
+				tcgplayer: 246761
+			}
+		},
+	],
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Erd-Siegelstein"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682201,
-		tcgplayer: 451802
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682201,
+				tcgplayer: 451802
+			}
+		},
+	],
 }
 
 export default card

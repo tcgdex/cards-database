@@ -80,23 +80,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
 		fr: "Dès qu'il apparaît, il devient violent. Il reste enragé jusqu'à ce que tout ce qui l'entoure soit détruit."
 	},
 
-	thirdParty: {
-		cardmarket: 274651,
-		tcgplayer: 89164
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274651,
+				tcgplayer: 89164
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274651,
+				tcgplayer: 89164
+			}
 		}
 	]
 }

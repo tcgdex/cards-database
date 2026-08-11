@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+	},
+
 	thirdParty: {
 		cardmarket: 280629,
 		tcgplayer: 84994

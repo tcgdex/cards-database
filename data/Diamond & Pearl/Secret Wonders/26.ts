@@ -81,6 +81,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 277779,
 		tcgplayer: 85156

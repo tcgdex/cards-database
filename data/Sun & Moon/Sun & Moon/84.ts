@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They move in groups of a few individuals. A female is often the leader of the group, and the males will gather food.",
+	},
+
 	thirdParty: {
 		cardmarket: 295395,
 		tcgplayer: 126956

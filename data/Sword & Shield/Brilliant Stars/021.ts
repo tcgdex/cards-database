@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lavados"
 	},
 
+	illustrator: "otumami",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -44,20 +45,43 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
 	},
 
-	thirdParty: {
-		cardmarket: 608471,
-		tcgplayer: 263711
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608471,
+				tcgplayer: 263711
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 778297
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608471,
+				tcgplayer: 263711
+			}
+		},
+	],
 }
 
 export default card

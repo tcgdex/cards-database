@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Terada Tera",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [280],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,13 +60,50 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675899,
-		cardmarket: 869698
-	}
+	description: {
+		en: "The horns on its head provide a strong power that enables it to sense people’s emotions.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869698,
+			tcgplayer: 675899
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870272,
+			tcgplayer: 676920
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870271,
+			tcgplayer: 677060
+		}
+	},
+],
 }
 
 export default card

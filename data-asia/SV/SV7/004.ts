@@ -45,6 +45,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 778997,
+				tcgplayer: 567859,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
 	rarity: "Uncommon",
@@ -64,7 +74,7 @@ const card: Card = {
 				'zh-tw': "在自己的回合時可使用1次。擲1次硬幣若為正面，則從【中毒】・【灼傷】・【混亂】中選擇1種，將對手的戰鬥寶可夢處於那個狀態。",
 				'zh-cn': "在自己的回合時可使用1次。擲1次硬幣若為正面，則從【中毒】・【灼傷】・【混亂】中選擇1種，將對手的戰鬥寶可夢處於那個狀態。"
 		}
-	}]
+	}],
 }
 
 export default card

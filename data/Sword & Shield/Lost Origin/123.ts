@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Hisui-Snieboss"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -69,16 +70,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674136,
-		tcgplayer: 284031
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674136,
+				tcgplayer: 284031
+			}
+		},
+	],
 }
 
 export default card

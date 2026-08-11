@@ -74,8 +74,11 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
 		fr: "Il attaque en projetant des flammes. Il se dissimule derrière les vagues de chaleur qu'il produit."
 	},
 

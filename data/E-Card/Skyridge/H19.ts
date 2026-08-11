@@ -7,19 +7,17 @@ const card: Card = {
 		de: "Magneton"
 	},
 
-	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	illustrator: "Kouki Saitou",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Lightning",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Magnetwelle"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage times the number of your Benched Pokémon minus the number of your opponent's Benched Pokémon. (For example, if your opponent has 1 Benched Pokémon and you have 3, this attack will do 30 damage plus 20 more damage.)",
+				en: "This attack does 30 damage plus 10 damage times the number of your Benched Pokémon minus the number of your opponent's Benched Pokémon. (For example, if your opponent has 1 Benched Pokémon and you have 3, this attack will do 30 damage plus 20 more damage.)",
 				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank minus 10 Schadenspunkte für jedes Pokémon auf der Bank deines Gegners zu. (Hat zum Beispiel dein Gegner 1 Pokémon auf seiner Bank und du 3 auf deiner, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu.)"
 			},
 			damage: "30+",
@@ -66,28 +64,28 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275228,
-		tcgplayer: 87096
-	},
 
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87096,
+				cardmarket: 275277
+			},
+		},
+	],
 }
 
 export default card

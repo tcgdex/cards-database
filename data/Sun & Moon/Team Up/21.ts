@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It boasts powerful front legs. With a single punch, it can bend an iron bar right over.",
+	},
+
 	thirdParty: {
 		cardmarket: 368953,
 		tcgplayer: 183792

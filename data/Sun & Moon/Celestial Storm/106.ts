@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up the fields it passes over.",
+	},
+
 	thirdParty: {
 		cardmarket: 361347,
 		tcgplayer: 170933

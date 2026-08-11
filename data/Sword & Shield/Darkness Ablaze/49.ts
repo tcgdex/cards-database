@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
 	},
 
-	thirdParty: {
-		cardmarket: 483119,
-		tcgplayer: 219361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483119,
+				tcgplayer: 219361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483119,
+				tcgplayer: 219361
+			}
+		},
+	],
 }
 
 export default card

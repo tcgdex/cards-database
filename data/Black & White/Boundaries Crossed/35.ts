@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When its forehead shines mysteriously, Golduck can use the full extent of its power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280621,
 		tcgplayer: 85819

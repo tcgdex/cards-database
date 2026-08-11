@@ -59,15 +59,28 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733748,
+				tcgplayer: 516715,
+				cardtrader: 261625
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733748,
+				tcgplayer: 516715,
+				cardtrader: 261625
+			}
+		},
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 733748
-	}
+	
 }
 
 export default card

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+	},
+
 	thirdParty: {
 		cardmarket: 278272,
 		tcgplayer: 89703

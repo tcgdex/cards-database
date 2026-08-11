@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "OKACHEKE",
@@ -83,17 +89,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582490,
-		tcgplayer: 253253
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582490,
+				tcgplayer: 253253
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582490,
+				tcgplayer: 253253
+			}
+		},
+	],
 }
 
 export default card

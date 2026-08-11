@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		435,
-	],
+	dexId: [435],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Stunky",
-		fr: "Moufouette",
+		fr: "Moufouette"
 	},
 
 	stage: "Stage1",
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -89,17 +87,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279290,
+				tcgplayer: 89282
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279290,
+				tcgplayer: 89282
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279290,
-		tcgplayer: 89282
-	}
 }
 
 export default card

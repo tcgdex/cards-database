@@ -64,22 +64,29 @@ const card: Card = {
 		},
 	],
 
+	retreat: 1,
+
 	description: {
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
 		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
 	},
 
-	thirdParty: {
-		cardmarket: 274458,
-		tcgplayer: 85726
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274458,
+				tcgplayer: 85726
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274458,
+				tcgplayer: 85726
+			}
 		}
 	]
 }

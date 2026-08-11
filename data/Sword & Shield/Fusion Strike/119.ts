@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
@@ -51,17 +57,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582635,
-		tcgplayer: 253290
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582635,
+				tcgplayer: 253290
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582635,
+				tcgplayer: 253290
+			}
+		},
+	],
 }
 
 export default card

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "Basic",
 
@@ -67,6 +67,12 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -80,7 +86,8 @@ const card: Card = {
 	retreat: 1,
 
 	thirdParty: {
-		cardmarket: 576733
+		cardmarket: 576733,
+		tcgplayer: 251090
 	}
 }
 

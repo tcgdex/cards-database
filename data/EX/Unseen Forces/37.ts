@@ -70,24 +70,32 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276683,
-		tcgplayer: 84440
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84440,
+				cardmarket: 276683
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84440,
+				cardmarket: 276683
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "normal",
-			stamp: ["akira-miyazaki"]
+			stamp: ["akira-miyazaki"],
+			thirdParty: {
+				tcgplayer: 479529,
+				cardmarket: 869360
+			},
 		}
-	]
+	],
 }
 
 export default card

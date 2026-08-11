@@ -35,14 +35,35 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Yuka Morii",
+
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+	},
 
 	thirdParty: {
         cardmarket: 702444,

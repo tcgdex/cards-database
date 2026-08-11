@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Cresselia"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674086,
-		tcgplayer: 283953
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674086,
+				tcgplayer: 283953
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674086,
+				tcgplayer: 283953
+			}
+		},
+	],
 }
 
 export default card

@@ -85,10 +85,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+	},
+
 	thirdParty: {
 		cardmarket: 299442,
 		tcgplayer: 138517
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

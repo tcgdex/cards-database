@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+	},
+
 	thirdParty: {
 		cardmarket: 388477,
 		tcgplayer: 195110

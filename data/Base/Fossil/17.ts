@@ -73,25 +73,32 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
 	},
 
-	thirdParty: {
-		cardmarket: 273863,
-		tcgplayer: 44425
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273863,
+				tcgplayer: 44425
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273863,
+				tcgplayer: 44425
+			}
 		},
 		{
 			type: "normal",

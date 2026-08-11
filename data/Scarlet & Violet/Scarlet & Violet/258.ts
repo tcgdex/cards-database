@@ -18,10 +18,11 @@ const card: Card = {
 	energyType: "Normal",
 	types: ["Fighting"],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
         cardmarket: 702554,

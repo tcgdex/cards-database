@@ -60,22 +60,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+	},
+
+	illustrator: "Hideki Ishikawa",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857602,
+				tcgplayer: 662214,
+				cardtrader: 356810
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857602,
+				tcgplayer: 662214,
+				cardtrader: 356810
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857602,
-		tcgplayer: 662214
-	}
 }
 
 export default card

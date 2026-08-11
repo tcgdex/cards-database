@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733681,
+				tcgplayer: 516655,
+				cardtrader: 261147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733681,
+				tcgplayer: 516655,
+				cardtrader: 261147
+			}
+		},
+	],
 
 	illustrator: "aoki",
 
-	thirdParty: {
-		cardmarket: 733681
-	}
+	
 }
 
 export default card

@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+	},
+
 	thirdParty: {
 		cardmarket: 288269,
 		tcgplayer: 111627

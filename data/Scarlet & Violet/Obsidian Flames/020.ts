@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725100,
+				tcgplayer: 509757,
+				cardtrader: 255580
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725100,
+				tcgplayer: 509757,
+				cardtrader: 255580
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 725100
-	}
+	
 }
 
 export default card

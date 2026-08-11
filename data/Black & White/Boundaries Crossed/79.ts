@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280666,
 		tcgplayer: 88935

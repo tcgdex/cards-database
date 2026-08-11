@@ -42,18 +42,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785904,
+				tcgplayer: 567276
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785904,
+				tcgplayer: 567276
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 785904
-	}
 }
 
 export default card

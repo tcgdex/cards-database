@@ -13,21 +13,19 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		152,
-	],
+	dexId: [152],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
@@ -40,38 +38,46 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 	},
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			name: {
+				en: "Poisonpowder",
+				fr: "Poudre toxik",
+				de: "Poisonpowder"
+			},
 
-		name: {
-			fr: "Poudre toxik",
-			de: "Poisonpowder"
-		},
+			cost: ["Colorless"],
 
-		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-			de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
+
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
+			}
 		}
-	}],
+	],
 
-	
+
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 276129,
-		tcgplayer: 84276
-	},
 
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 84276,
+				cardmarket: 276129
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84276,
+				cardmarket: 276129
+			}
+		},
 	]
 }
 

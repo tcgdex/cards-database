@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		208,
-	],
+	dexId: [208],
 
 	hp: 120,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Onix",
-		fr: "Onix",
+		fr: "Onix"
 	},
 
 	stage: "Stage1",
@@ -43,7 +41,7 @@ const card: Card = {
 				de: "Schutzdruck"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Steelix by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Steelix by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Steelix par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Stahlos durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -67,7 +65,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "80x",
+			damage: "80×",
 
 		},
 	],
@@ -94,25 +92,35 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "holo",
-			foil: "cosmos"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89563,
+				cardmarket: 279180
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 89563,
+				cardmarket: 279180
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 164283,
+				cardmarket: 371565
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 125050
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279180,
-		tcgplayer: 89563
-	}
 }
 
 export default card

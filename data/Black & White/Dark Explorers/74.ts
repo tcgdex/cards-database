@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+	},
+
 	thirdParty: {
 		cardmarket: 280402,
 		tcgplayer: 85314

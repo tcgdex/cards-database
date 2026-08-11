@@ -7,6 +7,18 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -24,7 +36,7 @@ const card: Card = {
 		it: "Zacian V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 320,
 	types: ["Metal"],
 

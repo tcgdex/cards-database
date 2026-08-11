@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its sweet aroma, it guides VOLBEAT to draw signs with light in the night sky.",
+	},
+
 	thirdParty: {
 		cardmarket: 277973,
 		tcgplayer: 86267

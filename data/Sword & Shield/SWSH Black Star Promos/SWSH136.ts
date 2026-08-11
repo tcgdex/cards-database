@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [778],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -21,7 +27,7 @@ const card: Card = {
 		it: "Mimikyu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

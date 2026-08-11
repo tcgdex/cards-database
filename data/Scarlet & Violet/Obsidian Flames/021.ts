@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725101,
+				tcgplayer: 509762,
+				cardtrader: 255581
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725101,
+				tcgplayer: 509762,
+				cardtrader: 255581
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 725101
-	}
+	
 }
 
 export default card

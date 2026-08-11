@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280806,
 		tcgplayer: 85620

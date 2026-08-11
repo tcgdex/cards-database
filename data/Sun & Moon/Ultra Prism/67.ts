@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
+	},
+
 	thirdParty: {
 		cardmarket: 315995,
 		tcgplayer: 157684

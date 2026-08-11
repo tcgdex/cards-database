@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -51,6 +51,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 289557

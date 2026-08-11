@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -63,6 +63,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+	},
 
 	thirdParty: {
 		cardmarket: 289801

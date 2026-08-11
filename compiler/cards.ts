@@ -3,7 +3,7 @@ import Queue from '@dzeio/queue'
 import { globSync } from 'glob'
 import fs from 'node:fs'
 import path from 'node:path'
-import { Card as DBCard, Serie as DBSerie, Set as DBSet, Languages, SupportedLanguages } from '../../interfaces'
+import { Card as DBCard, Serie as DBSerie, Set as DBSet, Languages, SupportedLanguages, variant_detailed, VariantStamps, VariantType } from '../../interfaces'
 import { extractCached } from '../utils/ts-extract-utils'
 import { translate, validateLanguages } from './libs/translation'
 import { getAsset } from './providers/assets'
@@ -11,6 +11,7 @@ import { getLastEdit } from './providers/git'
 
 import { CompiledCard } from './interfaces'
 import { cardIsLegal } from './libs/legalUtils'
+import { formatVariant, variantToIdentifier } from './libs/variantUtil'
 import { getHashs } from './providers/assets'
 
 await getHashs()
@@ -65,6 +66,18 @@ for (const file of files) {
 				effect: validateLanguages(attack.effect, langs),
 				cost: attack.cost?.map((type) => translate('types', type, langs))
 			})),
+			variants_detailed: Array.isArray(card.variants)
+			? await Promise.all(card.variants.map(async (variant, index) => {
+				const variantId = variantToIdentifier(variant);
+				let formattedVariant = formatVariant(variant,lang)
+
+				return {
+					...formattedVariant,
+					variantId
+				} as ApiVariantDetailed
+			}))
+			: variantsToVariantsDetailed(card.variants, lang),
+
 			weaknesses: card.weaknesses?.map((it) => ({
 				...it,
 				type: translate('types', it.type, langs)

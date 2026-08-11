@@ -5,12 +5,6 @@ const card: Card = {
 	dexId: [895],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Regidrago",
@@ -71,10 +65,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574172,
-		tcgplayer: 246923
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574172,
+				tcgplayer: 246923
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574172,
+				tcgplayer: 246923
+			}
+		},
+	],
 }
 
 export default card

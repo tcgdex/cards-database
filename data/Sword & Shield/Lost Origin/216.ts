@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Finsterpflaster"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -27,16 +28,17 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674222,
-		tcgplayer: 284171
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 674222,
+				tcgplayer: 284171
+			}
+		},
+	],
 }
 
 export default card

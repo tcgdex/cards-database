@@ -74,23 +74,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The faster it swims, the brighter the glow on its forehead becomes.",
 		fr: "Plus il nage vite, plus l'aura sur son front brille."
 	},
 
-	thirdParty: {
-		cardmarket: 274699,
-		tcgplayer: 86740
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274699,
+				tcgplayer: 86740
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274699,
+				tcgplayer: 86740
+			}
 		}
 	]
 }

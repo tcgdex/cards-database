@@ -63,23 +63,30 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "If an Onix lives 100 years or more, its skin hardens, eventually becoming even harder than a diamond.",
 		fr: "Si un Onix vit au moins 100 ans, sa peau durcit et devient peu à peu plus dure que le diamant."
 	},
 
-	thirdParty: {
-		cardmarket: 274764,
-		tcgplayer: 89170
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274764,
+				tcgplayer: 89170
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274764,
+				tcgplayer: 89170
+			}
 		}
 	]
 }

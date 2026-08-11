@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+	},
+
 	thirdParty: {
 		cardmarket: 388497,
 		tcgplayer: 195119

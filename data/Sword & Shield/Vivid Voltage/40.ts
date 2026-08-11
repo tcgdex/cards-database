@@ -67,12 +67,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -80,10 +74,22 @@ const card: Card = {
 		en: "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat."
 	},
 
-	thirdParty: {
-		cardmarket: 511620,
-		tcgplayer: 226425
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511620,
+				tcgplayer: 226425
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511620,
+				tcgplayer: 226425
+			}
+		},
+	],
 }
 
 export default card

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
+
 	thirdParty: {
 		cardmarket: 280265,
 		tcgplayer: 88522

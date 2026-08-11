@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Le Coût de Retraite de chaque Pokémon en jeu (à part les Pokémon de la Team Aqua) est augmenté de Colorless.",
-		en: "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
-		pt: "O Custo para Recuar de cada um dos Pokémon em jogo (exceto os Pokémon da Equipe Aqua) será de Incolor a mais.",
+		fr: "Le Coût de Retraite de chaque Pokémon en jeu (à part les Pokémon de la Team Aqua) est augmenté de {C}.",
+		en: "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is {C} more.",
+		pt: "O Custo para Recuar de cada um dos Pokémon em jogo (exceto os Pokémon da Equipe Aqua) será de {C} a mais.",
 	},
 
 	trainerType: "Stadium",

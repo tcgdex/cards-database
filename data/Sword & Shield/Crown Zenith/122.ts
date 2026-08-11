@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwollock"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -76,20 +77,38 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
 	},
 
-	thirdParty: {
-		cardmarket: 691841,
-		tcgplayer: 478161
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691841,
+				tcgplayer: 478161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691841,
+				tcgplayer: 478161
+			}
+		},
+	],
 }
 
 export default card

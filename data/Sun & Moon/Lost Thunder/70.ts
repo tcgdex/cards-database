@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
+	},
+
 	thirdParty: {
 		cardmarket: 365708,
 		tcgplayer: 178879
