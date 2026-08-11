@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Doubleslap",
 				fr: "Double gifle",
-				de: "Doubleslap"
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Mirror Shell",
 				fr: "Carapace miroir",
-				de: "Mirror Shell"
+				de: "Spiegelpanzer"
 			},
 			effect: {
 				en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle attacks the Defending Pokémon for an equal amount of damage.",
 				fr: "Si une attaque inflige des dégâts à Carabaffe obscur pendant le prochain tour de votre adversaire (même si Carabaffe obscur est K.O.), Carabaffe obscur attaque le Pokémon Défenseur avec une quantité de dégâts égale.",
-				de: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out). Dark Wartortle does an equal amount of damage to the Defending Pokémon."
+				de: "Falls ein Angriff Dunkles Schillok während des nächsten Zuge deines Gegners Schaden zufügt (selbst wenn Dunkles Schillok kampfunfähig gemacht wird), greift Dunkles Schillok das verteidigende Pokémon mit der gleichen Schadensmenge an."
 			},
 
 		},
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
-		fr: "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas."
+		fr: "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas.",
+		de: "Ein Pokémon mit einer negativen Einstellung. Es versteckt sich in seiner eigenen Schale, wenn es schlechter Laune ist, was oft zutrifft."
 	},
 
 

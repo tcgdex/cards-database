@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
-		fr: "Carabaffe obscur"
+		fr: "Carabaffe obscur",
+		de: "Schillok"
 	},
 
 	stage: "Stage2",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each W Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Tortank obscur en plus du coût de cette attaque. Vous ne pouvez ajouter plus de 40 dégâts de cette façon.",
-				de: "Fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf Dunkles Turtok abgelegte  -Energie zu, die nicht zum Zahlen auf diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+				de: "Fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf Dunkles Turtok abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
 			},
 			damage: "30+",
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "An aggressive Pokémon that tackles anything it sees.",
-		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
+		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit.",
+		de: "Ein aggressives Pokémon, das alles in seinem Blickfeld angreift."
 	},
 
 

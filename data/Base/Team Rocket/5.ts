@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
-		fr: "Draco obscur"
+		fr: "Draco obscur",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Summon Minions",
 				fr: "Convocation de serviteurs",
-				de: "Summon Minions"
+				de: "Lakaien zusammenrufen"
 			},
 			effect: {
 				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Lorsque vous jouez Dracolosse obscur depuis votre main, cherchez jusqu'à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				de: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+				de: "Wenn du Dunkles Dragoran von deiner Hand spielst, darfst du dein Deck nach bis zu zwei Basis-Pokémonkarten durchsuchen und sie auf deine Bank legen. Mische dein Deck danach."
 			},
 		},
 	],
@@ -58,13 +59,13 @@ const card: Card = {
 			name: {
 				en: "Giant Tail",
 				fr: "Longue queue",
-				de: "Giant Tail"
+				de: "Riesenschweif"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 
 			damage: 70
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight.",
-		fr: "Il est parfois appelé \"Le dieu destructeur\". Ses ailes le supportent en dépit de sa masse imposante."
+		fr: "Il est parfois appelé \"Le dieu destructeur\". Ses ailes le supportent en dépit de sa masse imposante.",
+		de: "Manchmal der „Gott der Zerstörung“ genannt. Seine Flügel halten es trotz seines ernormen Gewichts in der Luft."
 	},
 
 

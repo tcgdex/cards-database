@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -40,7 +41,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Whirlpool",
 				fr: "Tourbillon",
-				de: "Whirlpool"
+				de: "Strudel"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la.",
-				de: "If the Defending Pokémon has any Energy attached to it, choose 1 of them and discard it."
+				de: "Falls auf dem verteidigenden Pokémon irgendwelche Energiekarten abgelegt sind, wähle eine von ihnen und entferne sie."
 			},
 			damage: 20,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
-		fr: "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants."
+		fr: "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants.",
+		de: "Ein Pokémon, das fähig ist, Wasser zu beherrschen, so dass es riesige Strudel produzieren kann."
 	},
 
 

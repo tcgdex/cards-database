@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kadabra",
-		fr: "Kadabra obscur"
+		fr: "Kadabra obscur",
+		de: "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -40,12 +41,12 @@ const card: Card = {
 			name: {
 				en: "Teleport Blast",
 				fr: "Téléportation instantanée",
-				de: "Teleport Blast"
+				de: "Teleportstoß"
 			},
 			effect: {
 				en: "You may switch Dark Alakazam with 1 of your Benched Pokémon (Do the damage before switching the Pokémon).",
 				fr: "Vous pouvez échanger Alakazam obscur avec 1 des Pokémon de votre Banc. (Infligez les dégâts avant d'échanger les Pokémon.)",
-				de: "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
+				de: "Du kannst Dunkles Simsala mit einem Pokémon auf deiner Bank austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)"
 			},
 			damage: 30,
 
@@ -59,12 +60,12 @@ const card: Card = {
 			name: {
 				en: "Mind Shock",
 				fr: "Choc mémoriel",
-				de: "Mind Shock"
+				de: "Verstandesschock"
 			},
 			effect: {
 				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)",
-				de: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and resistance still happen.)"
+				de: "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
 			damage: 40,
 
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",
-		fr: "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue."
+		fr: "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue.",
+		de: "Fast als ob es ferngesteuert wäre, ändert es selbst in der Mitte der Schlacht seinen Gesichtsausdruck nie."
 	},
 
 
