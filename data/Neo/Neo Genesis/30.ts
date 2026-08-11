@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Doubleslap",
 				fr: "Torgnoles",
-				de: "Doubleslap"
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the total number of Pokémon in play. For each heads, you may search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez un nombre de pièces égal au nombre total de Pokémon en jeu. Pour chaque face, vous pouvez chercher une carte Énergie de base dans votre deck, montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck.",
-				de: "Flip a number of coins equal to the total number of Pokémon in play. For each heads, you may search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				de: "Wirf eine Anzahl Münzen gleich der Gesamtanzahl der Pokémon im Spiel. Bei jedem „Kopf“ kannst du dein Deck nach einer Basis-Energiekarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische dein Deck danach."
 			},
 
 		},
@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
-		fr: "Le clair de lune qui est stocké dans les ailes qu'il porte sur son dos lui donne apparemment la possibilité de flotter dans les airs."
+		fr: "Le clair de lune qui est stocké dans les ailes qu'il porte sur son dos lui donne apparemment la possibilité de flotter dans les airs.",
+		de: "Das in seinen Flügeln auf dem Rücken gespeicherte Mondlicht gibt ihm anscheinend die Fähigkeit, mitten in der Luft zu schweben."
 	},
 
 

@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei Zahl fügt dieser Angriff 20 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -83,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
-		fr: "Les bois courbés changent le flot d'air afin de créer un espace étrange où la réalité est déformée."
+		fr: "Les bois courbés changent le flot d'air afin de créer un espace étrange où la réalité est déformée.",
+		de: "Die gebogenen Geweihsprossen verändern den Luftstrom so unauffällig, dass sie einen seltsamen Bereich erzeugen, in dem die Realität verzerrt ist."
 	},
 
 

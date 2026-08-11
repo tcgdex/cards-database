@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Herbal Scent",
 				fr: "Senteur de thé",
-				de: "Herbal Scent"
+				de: "Kräuterduft"
 			},
 			effect: {
 				en: "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.",
 				fr: "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon  en jeu.",
-				de: "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all  Pokémon in play."
+				de: "Wenn du Meganie aus deiner Hand ausspielst, kannst du eine Münze werfen. Entferne bei „Kopf“ alle Schadensmarken von allen {G}-Pokémon im Spiel."
 			},
 		},
 	],
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
-				de: "Body Slam"
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
-		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes."
+		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes.",
+		de: "Meganies Atem hat die Heilkraft, abgestorbenes Gras und Pflanzen wieder ins Leben zurückzurufen. Es kann sie wieder gesund machen."
 	},
 
 

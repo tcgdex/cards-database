@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Psyshock",
 				fr: "Choc psy",
-				de: "Psyshock"
+				de: "Psychoschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
-				de: "Water Gun"
+				de: "Aquaknarre"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Slowpoke but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Ramoloss en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 10 damage plus 10 more damage for each  Energy attached to Slowpoke but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				de: "Fügt 10 Schadenspunkte 10 weitere Schadenspunkte für jede an Flegmon angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
 			},
 			damage: "10+",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
-		fr: "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée."
+		fr: "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée.",
+		de: "Es faulenzt sorgenlos in der Nähe von Wasser. Falls etwas seinen Schweif beißt, merkt es das einen ganzen langen Tag nicht."
 	},
 
 

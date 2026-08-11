@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Your opponent may search his or her deck for 1 Basic Pokémon card and put it onto his or her Bench. Then, you may search your deck for 1 Basic Pokémon card and put it onto your Bench. Then, each player shuffles his or her deck. (A player can't do any of this if his or her Bench is full.)",
 		fr: "Votre adversaire peut chercher 1 carte Pokémon de base dans son deck et la placer sur son Banc. Ensuite, vous pouvez chercher 1 carte Pokémon de base dans votre deck et la placer sur votre Banc. Enfin, chaque joueur mélange son deck. (Un joueur ne peut rien faire de tout cela si son Banc est plein.)",
-		de: "Your opponent may search his or her deck for 1 Basic Pokémon card and put it into his or her Bench. Then, you may search your deck for 1 Basic Pokémon card and put it onto your Bench. Then, each player shuffles his or her deck. (A player can't do any of this if his or her Bench is full.)"
+		de: "Dein Gegner kann sein Deck nach einer Basis-Pokémon-Karte durchsuchen und sie auf seine Bank legen. Dann kannst du in deinem Deck nach einer Basis-Pokémon-Karte suchen und sie auf deine Bank legen. Dann mischt jeder Spieler sein Deck. (Ein Spieler kann nichts davon machen, wenn seine Bank voll ist.)"
 	},
 
 
