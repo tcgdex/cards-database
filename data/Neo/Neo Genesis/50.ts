@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sunkern",
-		fr: "Tournegrin"
+		fr: "Tournegrin",
+		de: "Sonnkern"
 	},
 
 	stage: "Stage1",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage).",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts).",
-				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schdenspunkte mal der Anzahl 'Kopf' zu. Sonnflora ist jetzt verwirrt (nach der Schadensverteilung)."
+				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu. Sonnflora ist jetzt verwirrt (nach der Schadensverrechnung)."
 			},
 			damage: "30x",
 
@@ -63,7 +64,8 @@ const card: Card = {
 
 	description: {
 		en: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
-		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
+		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile.",
+		de: "Es verwandelt Sonnenlicht in Energie. In der Dunkelheit nach dem Sonnenuntergang schließt es seine Blätter und wird still."
 	},
 
 

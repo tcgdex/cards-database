@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Attach Gold Berry to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. At any time between turns, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, you may remove 4 of them and discard Gold Berry. At the start of each turn, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, remove 4 of them and discard Gold Berry.",
 		fr: "Attachez Baie dorée à un de vos Pokémon qui n'a pas d'Outil Pokémon attaché à lui.\n\nN'importe quand entre deux tours, si le Pokémon auquel est attaché Baie dorée a au moins 4 marqueurs de dégâts, vous pouvez retirer 4 de ces marqueurs et défausser Baie dorée. Au début de chaque tour, si le Pokémon auquel est attaché Baie d'or a au moins 4 marqueurs de dégâts, retirez 4 de ces marqueurs et défausser Baie dorée.",
-		de: "At any time between turns, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, you may remove 4 of them and discard Gold Berry. At the start of each turn, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, remove 4 of them and discard Gold Berry."
+		de: "Lege Goldbeere an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen mindestens vier Schadensmarken auf dem Pokémon liegen, an das du Goldbeere angelegt hast, kannst du vier von ihnen entfernen. Lege dann Goldbeere ab. Wenn zu Beginn eines Zugs mindestens vier Schadensmarken auf dem Pokémon liegen, an das du Goldbeere angelegt hast, entferne vier von ihnen und lege Goldbeere ab."
 	},
 
 

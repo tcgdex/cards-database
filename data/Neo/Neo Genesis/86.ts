@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Attach Focus Band to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. If the Pokémon Focus Band is attached to would be Knocked Out by your opponent's attack, flip a coin. If heads, that Pokémon is not Knocked Out and its remaining HP become 10 instead. Then, discard Focus Band.",
 		fr: "Attachez Bandeau de concentration à 1 de vos Pokémon qui n'a pas d'Outil Pokémon attaché sur lui.\n\nSi le Pokémon auquel est attaché Bandeau de concentration est mis K.O. par l'attaque de votre adversaire, lancez une pièce. Si c'est face, ce Pokémon n'est pas K.O. et il lui reste 10 PV. Ensuite, défaussez Bandeau de concentration.",
-		de: "If the Pokémon Focus Band is attached to would be Knocked Out by your opponent's attack, flip a coin. If heads, that Pokémon is now Knocked Out and its remaining HP become 10 instead. Then, discard Focus Band."
+		de: "Lege Fokus-Band an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Falls das Pokémon, auf dem das Fokus-Band liegt, durch den Angriff deines Gegners kampfunfähig gemacht würde, wirf eine Münze. Bei „Kopf“ wird dieses Pokémon nicht kampfunfähig gemacht und seine verbleibenden KP gehen stattdessen auf 10. Lege dann Fokus-Band auf deinen Ablagestapel."
 	},
 
 

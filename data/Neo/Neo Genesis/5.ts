@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croconaw",
-		fr: "Crocrodil"
+		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -40,12 +41,12 @@ const card: Card = {
 			name: {
 				en: "Riptide",
 				fr: "Courant",
-				de: "Riptide"
+				de: "Springflut"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 damage times the number of Energy cards in your discard pile. Then, shuffle all Energy cards from your discard pile into your deck.",
 				fr: "Inflige 10 dégâts plus 10 dégâts multipliés par le nombre de cartes Énergie  dans votre pile de défausse. Ensuite, mélangez toutes les cartes Énergie  de votre pile de défausse dans votre deck.",
-				de: "Does 10 damage plus 10 damage times the number of -Energy cards in your discard pile. Then shuffle all -Energy cards from your discard pile into your deck."
+				de: "Fügt 10 Schadenspunkte plus 10 Schadenspunkte mal der Anzahl an {W}-Energiekarten in deinem Ablagestapel zu. Mische danach alle {W}-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 			damage: "10+",
 
@@ -63,18 +64,21 @@ const card: Card = {
 
 	description: {
 		en: "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",
-		fr: "Il lui est difficile de supporter son propre poids hors de l'eau, c'est pourquoi il se met à quatre pattes. Mais il se déplace rapidement."
+		fr: "Il lui est difficile de supporter son propre poids hors de l'eau, c'est pourquoi il se met à quatre pattes. Mais il se déplace rapidement.",
+		de: "Es kann sein Eigengewicht nur sehr schwer außerhalb des Wassers unterstützen. Daher läuft es auf allen Vieren, bewegt sich aber schnell."
 	},
 
 	abilities: [{
 		name: {
 			en: "Downpour",
-			fr: "Averse"
+			fr: "Averse",
+			de: "Wolkenbruch"
 		},
 
 		effect: {
 			en: "As often as you like during your turn (before your attack, you may discard a -Energy card from your hand. This power can´t be used if Feligatr is Asleep, Confused, or Paralyzed.",
-			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé."
+			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé.",
+			de: "Bist du am Zug, kannst du (vor deinem Angriff) beliebig viele {W}-Energiekarten aus deiner Hand abwerfen. Diese Fähigkeit kann nicht verwendet werden, wenn Impergator schläft, verwirrt oder gelähmt ist."
 		},
 
 		type: "Pokemon Power"

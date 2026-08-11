@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like.",
 		fr: "Mélangez votre deck. Ensuite, regardez jusqu'à 5 cartes du dessus de votre deck et ordonnez-les comme bon vous semble.",
-		de: "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like."
+		de: "Mische dein Deck. Schaue dir dann bis zu fünf der obersten Karten deines Decks an und und lege sie in einer beliebigen Reihenfolge wieder auf dein Deck zurück."
 	},
 
 

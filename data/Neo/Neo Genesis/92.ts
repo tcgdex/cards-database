@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Choose 1 of your opponent's face-down Prizes. Guess whether it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face up (and leave it face up). If you guessed right, draw 2 cards.",
 		fr: "Choisissez 1 des récompenses de votre adversaire qui est face cachée. Devinez si c'est une carte Énergie, une carte Dresseur ou une carte Pokémon (de base ou Évolution). Retournez la carte (et laissez-la découverte). Si vous avez deviné juste, piochez 2 cartes.",
-		de: "Choose 1 of your opponent's face-down Prizes. Guess wheter it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face up (and leave it face up). If you guessed right, draw 2 cards."
+		de: "Wähle einen verdeckt liegenden Preis deines Gegners. Rate, ob es eine Energiekarte, eine Trainerkarte oder eine Pokémon- (Basis- oder Evolutions-) Karte ist. Decke die Karte auf (und lasse sie offen liegen). Wenn du richtig geraten hast, ziehe zwei Karten."
 	},
 
 

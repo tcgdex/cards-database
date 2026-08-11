@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Draw 2 cards. Then, shuffle 2 cards from your hand into your deck.",
 		fr: "Piochez 2 cartes. Ensuite, mélangez 2 cartes de votre main avec votre deck.",
-		de: "Draw 2 cards. Then, shuffle 2 cards from your hand into your deck."
+		de: "Ziehe zwei Karten. Mische dann zwei Karten von deiner Hand in dein Deck."
 	},
 
 

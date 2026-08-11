@@ -46,7 +46,8 @@ const card: Card = {
 
 	description: {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
-		fr: "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+		fr: "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore.",
+		de: "Aufgrund seiner ungewöhnlichen sternenförmigen Silhouette glauben Leute, dass es auf einem Meteor hierherkam."
 	},
 
 
