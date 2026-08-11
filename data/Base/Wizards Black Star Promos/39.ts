@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
-		fr: "Feuforêve"
+		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pain Split",
-				fr: "Balance"
+				fr: "Balance",
+				de: "Leidteiler"
 			},
 			effect: {
 				en: "Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Défenseur pour chaque marqueur de dégâts sur Feuforêve."
+				fr: "Placez un marqueur de dégâts sur le Pokémon Défenseur pour chaque marqueur de dégâts sur Feuforêve.",
+				de: "Lege für jede Schadensmarke auf Traunfugil eine Schadensmarke auf das verteidigende Pokémon."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -68,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
-		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
+		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée.",
+		de: "Es beißt gerne Leute von hinten oder zieht sie ohne Vorwarnung an den Haaren, nur um ihre schockierte Reaktion zu sehen."
 	},
 
 	variants: [

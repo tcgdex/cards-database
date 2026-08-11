@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Cleffa",
-		fr: "Mélo"
+		fr: "Mélo",
+		de: "Pii"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Eek",
-				fr: "Hi !"
+				fr: "Hi !",
+				de: "Pieps"
 			},
 			effect: {
 				en: "Draw 2 cards",
-				fr: "Piochez 2 cartes."
+				fr: "Piochez 2 cartes.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 
 	description: {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
-		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore.",
+		de: "Wegen seiner ungewöhnlichen sternenartigen Silhouette denken viele, dass es auf einer Sternschnuppe hergekommen ist."
 	},
 
 	variants: [
