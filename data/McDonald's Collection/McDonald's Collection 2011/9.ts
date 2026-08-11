@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [570],
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
+		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		de: "Es übertölpelt andere, indem es verschiedene Gestalten annimmt. Angeblich tarnt es sich oft als wortkarges Kind."
 	},
 
 	stage: "Basic",
@@ -17,27 +18,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Scratch",
-			fr: "Griffe"
+			fr: "Griffe",
+			de: "Kratzer"
 		},
 
 		damage: 10
 	}, {
 		name: {
 			en: "Fury Swipes",
-			fr: "Combo-Griffe"
+			fr: "Combo-Griffe",
+			de: "Kratzfurie"
 		},
 
 		damage: "10×",
 
 		effect: {
 			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+			de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 		}
 	}],
 
 	name: {
 		en: "Zorua",
-		fr: "Zorua"
+		fr: "Zorua",
+		de: "Zorua"
 	},
 
 	rarity: "None",

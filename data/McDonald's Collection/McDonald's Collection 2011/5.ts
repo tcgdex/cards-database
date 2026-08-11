@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [594],
 
 	description: {
-		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
+		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		de: "Es treibt durch den Ozean. Findet es ein verletztes Pokémon, nimmt es dieses auf und trägt es zurück an Land."
 	},
 
 	stage: "Basic",
@@ -17,14 +18,16 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras'Face"
+			fr: "Écras'Face",
+			de: "Pfund"
 		},
 
 		damage: 20
 	}, {
 		name: {
 			en: "Wave Splash",
-			fr: "Grosse Vague"
+			fr: "Grosse Vague",
+			de: "Wellenplatscher"
 		},
 
 		damage: 60
@@ -32,7 +35,8 @@ const card: Card = {
 
 	name: {
 		en: "Alomomola",
-		fr: "Mamanbo"
+		fr: "Mamanbo",
+		de: "Mamolida"
 	},
 
 	rarity: "None",
