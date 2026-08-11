@@ -88,6 +88,12 @@ const card: Card = {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280438,
 		tcgplayer: 83610

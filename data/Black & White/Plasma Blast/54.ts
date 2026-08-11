@@ -80,6 +80,16 @@ const card: Card = {
 		en: "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281075,
 		tcgplayer: 83611

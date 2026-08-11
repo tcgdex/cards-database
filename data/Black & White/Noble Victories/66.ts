@@ -72,6 +72,16 @@ const card: Card = {
 		en: "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "es", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280189,
 		tcgplayer: 83607

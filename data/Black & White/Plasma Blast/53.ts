@@ -79,6 +79,16 @@ const card: Card = {
 		en: "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another.",
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281074,
 		tcgplayer: 83608

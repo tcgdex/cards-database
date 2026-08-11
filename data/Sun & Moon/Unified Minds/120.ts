@@ -79,6 +79,15 @@ const card: Card = {
 		en: "Once thought to be the ancestor of all bird Pokémon, some of the latest research suggests that may not be the case.",
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 388402,
 		tcgplayer: 195075

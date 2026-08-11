@@ -88,6 +88,16 @@ const card: Card = {
 		en: "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "es", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280190,
 		tcgplayer: 83609
