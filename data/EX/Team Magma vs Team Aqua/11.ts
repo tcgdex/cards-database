@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Magma Jab",
 				fr: "Taquet de Magma",
-				de: "Magma Jab"
+				de: "Magmastich"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				de: "Der Schaden dieses Angriffs wird nicht durch die Resistenz des Verteidigenden Pokémon verringert."
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Shoot Down",
 				fr: "Démolir",
-				de: "Shoot Down"
+				de: "Niederschießen"
 			},
 			effect: {
 				en: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.",
 				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus.",
-				de: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused."
+				de: "Wenn das Verteidigende Pokémon „Team Aqua“ im Namen hat, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 

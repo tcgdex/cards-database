@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Double Pinchers",
 				fr: "Doubles pinces",
-				de: "Double Pinchers"
+				de: "Doppelkneifzange"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Dark Poison",
 				fr: "Sombre poison",
-				de: "Dark Poison"
+				de: "Dunkles Gift"
 			},
 			effect: {
 				en: "Discard a basic Energy card attached to Team Aqua's Corphish or this attack does nothing. The Defending Pokémon is now Poisoned.",
 				fr: "Défaussez une carte Énergie de base attachée à Écrapince de Team Aqua ou cette attaque est sans effet. Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Discard a basic Energy card attached to Team Aqua's Corphish or this attack does nothing. The Defending Pokémon is now Poisoned."
+				de: "Entferne 1 Basis-Energiekarte von Team Aquas Krebscorps und lege sie auf den Ablagestapel, ansonsten hat dieser Angriff keine Auswirkungen. Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 

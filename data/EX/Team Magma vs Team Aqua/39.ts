@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
-				de: "Growth"
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
 				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
-				de: "Attach a  Energy card from your hand to Bulbasaur."
+				de: "Lege eine {G}-Energiekarte von deiner Hand an Bisasam an."
 			},
 
 		},
@@ -47,7 +47,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				de: "Rasierblatt"
 			},
 
 			damage: 10,

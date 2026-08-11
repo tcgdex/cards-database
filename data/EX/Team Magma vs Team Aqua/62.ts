@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
-				de: "Combustion"
+				de: "Glühen"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 

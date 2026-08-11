@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon that does not have Team Aqua in its name pays Colorless more to retreat.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
-		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Jedes Pokémon ohne „Team Aqua“ im Namen muss {C} mehr bezahlen, um sich zurück zu ziehen."
 	},
 
 

@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Blast",
 				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Lightning Tackle",
 				fr: "Charge éclair",
-				de: "Lightning Tackle"
+				de: "Blitztackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Raikou ex does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Raikou ex s'inflige 20 dégâts.",
-				de: "Flip a coin. If tails, Raikou ex does 20 damage to itself."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Raikou ex selbst 20 Schadenspunkte zu."
 			},
 			damage: 70,
 

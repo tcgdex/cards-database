@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Knock Over",
 				fr: "Culbute",
-				de: "Knock Over"
+				de: "Umwerfen"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
 				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 10,
 

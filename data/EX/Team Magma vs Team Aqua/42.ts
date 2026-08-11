@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Plunder",
 				fr: "Pillage",
-				de: "Plunder"
+				de: "Plündern"
 			},
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).",
 				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur (avant qu'elles n'affectent les dégâts).",
-				de: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage)."
+				de: "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigenden Pokémon angelegten Trainerkarten auf den Ablagestapel (bevor sie den Schaden beeinflussen)."
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
-				de: "Scratch"
+				de: "Kratzer"
 			},
 
 			damage: 20,

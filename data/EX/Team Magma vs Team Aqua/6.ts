@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Power Blow",
 				fr: "Coup puissant",
-				de: "Power Blow"
+				de: "Mächtiger Schlag"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Team Aqua's Walrein.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Kaimorse de Team Aqua.",
-				de: "Does 10 damage plus 10 more damage for each Energy card attached to Team Aqua´s Walrain."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Team Aquas Walraisa angelegte Energie zu."
 			},
 			damage: "10+",
 
@@ -52,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Reverse",
 				fr: "Hydro-revers",
-				de: "Hydro Reverse"
+				de: "Gegenwelle"
 			},
 			effect: {
 				en: "You may return any number of basic Water Energy cards attached to all of your Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned.",
 				fr: "Vous pouvez reprendre dans votre main autant de cartes Énergie de base  que vous le voulez. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie reprise.",
-				de: "You may return any number of basic  Energy card attached to all Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned."
+				de: "Du kannst beliebig viele an deine Pokémon angelegte {W}-Basis-Energiekarten zurück auf die Hand nehmen. Wenn du das machst, fügt dieser Angriff 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise zurück genommene Energie zu."
 			},
 			damage: "50+",
 

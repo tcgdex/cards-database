@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Trance",
 				fr: "Aqua-transe",
-				de: "Aqua Trance"
+				de: "Aquatrance"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep.",
 				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
+				de: "Nach dem nächsten Zug deines Gegner schläft das Verteidigende Pokémon."
 			},
 			damage: 20,
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Super Hypnoblast",
 				fr: "Super hypno-rafale",
-				de: "Super Hypnoblast"
+				de: "Super Hypnoschuss"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep, this attack does 30 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur est Endormi, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Asleep, this attack does 30 damage plus 20 more damage."
+				de: "Wenn das Verteidigende Pokémon schläft, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
