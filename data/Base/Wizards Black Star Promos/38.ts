@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Unown [J]",
-		fr: "Zarbi J"
+		fr: "Zarbi J",
+		de: "Icognito [J]"
 	},
 
 	illustrator: "Hideki Kazama",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Join]",
-				fr: "JOIN"
+				fr: "JOIN",
+				de: "Join"
 			},
 			effect: {
 				en: "Once during your turn (before you attack), if you have Unown J, Unown O, Unown I, and Unown N on your Bench, you may search your deck for a Basic Pokémon or Evolution Pokémon card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
-				fr: "Une fois durant votre tour (avant votre attaque), si vous avez Zarbi [J], Zarbi [O], Zarbi [I] et Zarbi [N] sur votre Banc, vous pouvez chercher une carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck."
+				fr: "Une fois durant votre tour (avant votre attaque), si vous avez Zarbi [J], Zarbi [O], Zarbi [I] et Zarbi [N] sur votre Banc, vous pouvez chercher une carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
+				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) dein Deck nach einem Basis-Pokémon oder einer Evolutionskarte durchsuchen, wenn Icognito [J], Icognito [O], Icognito [I] und Icognito [N] auf deiner Bank sind. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puis Cachee"
+				fr: "Puis Cachee",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,
@@ -64,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. Certains croient qu'il existe un lien entre les hiéroglyphes et eux."
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. Certains croient qu'il existe un lien entre les hiéroglyphes et eux.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steinplatten. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
 	variants: [
