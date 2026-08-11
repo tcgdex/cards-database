@@ -1,4 +1,4 @@
-import * as legals from '../../../meta/legals'
+import * as legals from 'data/legals'
 
 /**
  * Check if a card is currently Legal

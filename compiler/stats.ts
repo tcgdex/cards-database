@@ -1,9 +1,9 @@
 import { objectRemap } from '@dzeio/object-util'
 import { StatsFs } from 'node:fs'
 import fs from 'node:fs/promises'
-import cardsDB from '../../server/generated/cards.json'
-import seriesDB from '../../server/generated/series.json'
-import setsDB from '../../server/generated/sets.json'
+import cardsDB from '../server/generated/cards.json'
+import seriesDB from '../server/generated/series.json'
+import setsDB from '../server/generated/sets.json'
 
 type Stats = Record<string /* lang */, {
 	count: number

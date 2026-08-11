@@ -71,7 +71,7 @@ jobs:
       - name: Pre build server
         run: |
           bun install --frozen-lockfile
-          bun scripts/compiler/index.ts
+          bun compiler/index.ts
           rm -rf node_modules
           cd ..
           rm -rf node_modules

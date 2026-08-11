@@ -1,5 +1,5 @@
 {
-	"include": ["data", "server/compiler", "interfaces.d.ts"],
+	"include": ["data", "meta", "compiler", "interfaces.d.ts"],
 	"compilerOptions": {
 		"lib": ["ESNext"],
 		"target": "ESNext",
@@ -27,7 +27,7 @@
 			],
 
 			"models/*": [
-				"./meta/models/database/*"
+				"./meta/models/*"
 			]
 		}
 	}

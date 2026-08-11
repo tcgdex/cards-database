@@ -1,6 +1,7 @@
-import { Set, Serie as DBSerie } from '../../interfaces'
+import { Set as DBSet } from 'models/database/set'
+import { Serie as DBSerie } from 'models/database/serie'
 import { globSync } from 'glob'
-import { extractCached } from '../utils/ts-extract-utils'
+import { extractCached } from './utils/ts-extract-utils'
 import fs from 'node:fs'
 import { objectClean, objectKeys, objectMap } from '@dzeio/object-util'
 import { getLastEdit } from './providers/git'
@@ -12,9 +13,8 @@ import { setIsLegal } from './libs/legalUtils'
 import path from 'node:path'
 
 await getHashs()
-type DBSet = Set
 
-const files = globSync('{data,data-asia}/*/*.ts')
+const files = globSync('data/*/*/*.ts')
 
 let counter = 0
 let lastPrint = 0
@@ -36,7 +36,7 @@ for (const file of files) {
 		const set: DBSet = await extractCached(file)
 		const localId = file.slice(file.lastIndexOf(path.sep) + 1, file.lastIndexOf('.'))
 		const serie: DBSerie = await extractCached(setPath)
-		const cards = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/{${set.name.en},${set.id}}/*.ts`)
+		const cards = globSync(`data/*/{${serie.name.en},${serie.id}}/{${set.name.en},${set.id}}/*.ts`)
 
 		const langs = objectKeys(set.name)
 

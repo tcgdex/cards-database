@@ -34,7 +34,7 @@ jobs:
       run: |
         bun install -g @usebruno/cli
         bun install --frozen-lockfile
-        bun scripts/compiler/index.ts
+        bun compiler/index.ts
 
     - name: Validate the data & the server
       run: |

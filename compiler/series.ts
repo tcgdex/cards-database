@@ -1,9 +1,10 @@
 import { objectClean, objectKeys } from '@dzeio/object-util'
 import Queue from '@dzeio/queue'
 import { globSync } from 'glob'
-import fs from 'node:fs'
-import { Serie as DBSerie, Set as DBSet, Languages } from '../../interfaces'
-import { extractCached } from '../utils/ts-extract-utils'
+import fs from 'node:fs/promises'
+import { Set as DBSet } from 'models/database/set'
+import { Serie as DBSerie } from 'models/database/serie'
+import { extractCached } from './utils/ts-extract-utils'
 import { CompiledSerie } from './interfaces'
 import { translate } from './libs/translation'
 import { getHashs } from './providers/assets'
@@ -11,7 +12,7 @@ import { getLastEdit } from './providers/git'
 
 await getHashs()
 
-const files = globSync('{data,data-asia}/*.ts')
+const files = globSync('data/*/*.ts')
 
 let counter = 0
 let lastPrint = 0
@@ -37,7 +38,7 @@ for (const file of files) {
 		}
 		// const localId = file.slice(file.lastIndexOf('/') + 1, file.lastIndexOf('.'))
 		// const serie: DBSerie = await extractCached(setPath)
-		const setsList = globSync(`{data,data-asia}/{${serie.name.en},${serie.id}}/*.ts`)
+		const setsList = globSync(`data/*/{${serie.name.en},${serie.id}}/*.ts`)
 
 		const langs = objectKeys(serie.name)
 
@@ -76,6 +77,6 @@ for (const file of files) {
 await queue.waitEnd()
 
 
-await fs.promises.mkdir('./server/generated', { recursive: true })
-await fs.promises.writeFile('./server/generated/series.json', JSON.stringify(out))
+await fs.mkdir('./server/generated', { recursive: true })
+await fs.writeFile('./server/generated/series.json', JSON.stringify(out))
 console.log(`Done processing series`)

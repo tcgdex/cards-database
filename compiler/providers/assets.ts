@@ -1,5 +1,5 @@
 import { objectGet } from "@dzeio/object-util"
-import { Card, Languages, SupportedLanguages } from "../../../interfaces"
+import { LanguageSpecific, SupportedLanguages } from "models/globals"
 
 const REMOTE = 'https://assets.tcgdex.net/datas.json'
 
@@ -13,9 +13,9 @@ export async function getHashs(): Promise<any> {
 	return dlCache
 }
 
-export async function getAsset(langs: Array<SupportedLanguages>, ...path: Array<string>): Promise<Languages | undefined>
+export async function getAsset(langs: Array<SupportedLanguages>, ...path: Array<string>): Promise<LanguageSpecific<string> | undefined>
 export async function getAsset(lang: SupportedLanguages, ...path: Array<string>): Promise<string | undefined>
-export async function getAsset(langs: SupportedLanguages | Array<SupportedLanguages>, ...path: Array<string>): Promise<string | Languages | undefined> {
+export async function getAsset(langs: SupportedLanguages | Array<SupportedLanguages>, ...path: Array<string>): Promise<string | LanguageSpecific<string> | undefined> {
 	if (typeof langs === 'string') {
 		const hashs = await getHashs()
 		const exists = Boolean(objectGet(hashs, [langs, ...path]))
@@ -25,7 +25,7 @@ export async function getAsset(langs: SupportedLanguages | Array<SupportedLangua
 		return `https://assets.tcgdex.net/${langs}/${path.join('/')}`
 	}
 
-	const out: Languages = {}
+	const out: LanguageSpecific<string> = {}
 	for (const lang of langs) {
 		out[lang] = await getAsset(lang, ...path)
 	}

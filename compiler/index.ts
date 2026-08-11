@@ -14,6 +14,7 @@ console.log('2.2. Compiling sets')
 await import('./sets')
 console.log('2.3. Compiling series')
 await import('./series')
+console.log('2.3. Compiling stats')
 await import('./stats')
 
 console.log('3. Moving public files')

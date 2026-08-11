@@ -1,9 +1,9 @@
-import { Languages, SupportedLanguages } from '../../../interfaces'
-import es from '../../../meta/translations/es.json'
-import it from '../../../meta/translations/it.json'
-import pt from '../../../meta/translations/pt.json'
-import de from '../../../meta/translations/de.json'
-import fr from '../../../meta/translations/fr.json'
+import { LanguageSpecific, SupportedLanguages } from 'models/globals'
+import es from '../../meta/translations/es.json'
+import it from '../../meta/translations/it.json'
+import pt from '../../meta/translations/pt.json'
+import de from '../../meta/translations/de.json'
+import fr from '../../meta/translations/fr.json'
 
 type translatable = 'types' | 'rarity' | 'stage' | 'category' | 'suffix' | 'abilityType' | 'trainerType' | 'energyType'
 
@@ -15,9 +15,9 @@ const translations: Record<string, Record<translatable, Record<string, string>>>
 	de
 }
 
-export function translate(item: translatable, key: string, langs: Array<SupportedLanguages>): Languages {
+export function translate(item: translatable, key: string, langs: Array<SupportedLanguages>): LanguageSpecific<string> {
 
-	const res: Languages = {}
+	const res: LanguageSpecific<string> = {}
 
 	for (const lang of langs) {
 		// Temporary trenslations are in english while they are being worked on
@@ -31,7 +31,7 @@ export function translate(item: translatable, key: string, langs: Array<Supporte
 	return res
 }
 
-export function validateLanguages<T extends Languages | undefined>(key: T, langs: Array<SupportedLanguages>): T {
+export function validateLanguages<T extends LanguageSpecific<string> | undefined>(key: T, langs: Array<SupportedLanguages>): T {
 	if (!key) {
 		return key
 	}
@@ -46,11 +46,11 @@ export function validateLanguages<T extends Languages | undefined>(key: T, langs
 	return key
 }
 
-export function normalizeLanguages(pot: Languages | string, langs: Array<SupportedLanguages>): Languages {
+export function normalizeLanguages(pot: LanguageSpecific<string> | string, langs: Array<SupportedLanguages>): LanguageSpecific<string> {
 	if (typeof pot === 'object') {
 		return pot
 	}
-	const out: Languages = {}
+	const out: LanguageSpecific<string> = {}
 	for (const lang of langs) {
 		out[lang] = pot
 	}

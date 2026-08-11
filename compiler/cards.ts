@@ -3,8 +3,10 @@ import Queue from '@dzeio/queue'
 import { globSync } from 'glob'
 import fs from 'node:fs'
 import path from 'node:path'
-import { Card as DBCard, Serie as DBSerie, Set as DBSet, Languages, SupportedLanguages, variant_detailed, VariantStamps, VariantType } from '../../interfaces'
-import { extractCached } from '../utils/ts-extract-utils'
+import { Card as DBCard } from 'models/database/card'
+import { Set as DBSet } from 'models/database/set'
+import { Serie as DBSerie } from 'models/database/serie'
+import { extractCached } from './utils/ts-extract-utils'
 import { translate, validateLanguages } from './libs/translation'
 import { getAsset } from './providers/assets'
 import { getLastEdit } from './providers/git'
@@ -18,7 +20,7 @@ await getHashs()
 
 //
 // const files = globSync('data/*/*/*.ts')
-const files = globSync('{data,data-asia}/*/*/*.ts')
+const files = globSync('data/*/*/*/*.ts')
 
 let counter = 0
 let lastPrint = 0
@@ -66,17 +68,15 @@ for (const file of files) {
 				effect: validateLanguages(attack.effect, langs),
 				cost: attack.cost?.map((type) => translate('types', type, langs))
 			})),
-			variants_detailed: Array.isArray(card.variants)
-			? await Promise.all(card.variants.map(async (variant, index) => {
+			variants: card.variants ? await Promise.all(card.variants.map(async (variant, index) => {
 				const variantId = variantToIdentifier(variant);
-				let formattedVariant = formatVariant(variant,lang)
+				let formattedVariant = formatVariant(variant, lang)
 
 				return {
 					...formattedVariant,
 					variantId
 				} as ApiVariantDetailed
-			}))
-			: variantsToVariantsDetailed(card.variants, lang),
+			})) : undefined,
 
 			weaknesses: card.weaknesses?.map((it) => ({
 				...it,
@@ -103,8 +103,8 @@ for (const file of files) {
 
 		out.push(res)
 	})()
-		.catch(() => {
-			console.warn("error processing card :( skipping...")
+		.catch((err) => {
+			console.warn("error processing card :( skipping...", err)
 			void addToCounter()
 		})
 		.finally(() => {

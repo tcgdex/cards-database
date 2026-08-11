@@ -1,15 +1,15 @@
 
-import { SupportedLanguages, variant_detailed } from "../../../interfaces";
-import translate from "./translationUtil";
+import { SupportedLanguages } from "models/globals";
+import { translate } from "./translation";
 
 // Adding new keys to this array will break existing identifiers, so be cautious when modifying it. Only include keys that are essential for identifying a variant uniquely.
-const includeKeys: Array<keyof variant_detailed> = ['type', 'subtype', 'size', 'stamp', 'foil'];
+const includeKeys: Array<keyof any> = ['type', 'subtype', 'size', 'stamp', 'foil'];
 
-export function variantToIdentifier(variant: variant_detailed): string {
-	const enVariant = formatVariant(variant,"en" as SupportedLanguages);
+export function variantToIdentifier(variant: any): string {
+	const enVariant = formatVariant(variant, "en" as SupportedLanguages);
 
 	const str = Object.entries(enVariant)
-		.filter(([key, value]) => includeKeys.includes(key as keyof variant_detailed) && value != null)
+		.filter(([key, value]) => includeKeys.includes(key as keyof any) && value != null)
 		.sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
 		.map(([, value]) => {
 			if (Array.isArray(value)) {
