@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
-		fr: "Un ancien fossile ramené à la vie, ce Pokémon utilise l'air conservé dans sa carapace pour plonger dans l'eau et refaire surface."
+		fr: "Un ancien fossile ramené à la vie, ce Pokémon utilise l'air conservé dans sa carapace pour plonger dans l'eau et refaire surface.",
+		de: "Aus einem alten Fossil wiederbelebt benutzt dieses Pokémon Luft, die in seiner Muschel gespeichert ist, um im Wasser auf- und abzutauchen."
 	},
 
 

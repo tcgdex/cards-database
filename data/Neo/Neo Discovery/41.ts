@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weedle",
-		fr: "Aspicot"
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, whenever your opponent's attack damages Kakuna (even if Kakuna is knocked out), your opponent's Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Pendant le prochain tour de votre adversaire, quand son attaque fait des dégâts à Coconfort (même si Coconfort est K.O.), le Pokémon Actif de votre adversaire est Empoisonné et Coconfort inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance pour les Pokémon du Banc.)",
-				de: "Immer wenn während des nächsten Zugs deines gegners der Angriff deines gegners Kokuna Schaden zufügt (selbst wenn Kokuna kampfunfähig ist), ist das verteidigende Pokémon deines Gegners dann vergiftet und Kokuna fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Immer wenn während des nächsten Zugs deines Gegners der Angriff deines Gegners Kokuna Schaden zufügt (selbst wenn Kokuna kampfunfähig ist), ist das aktive Pokémon deines Gegners dann vergiftet und Kokuna fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -61,7 +62,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
-		fr: "Même si c'est un cocon, il peut bouger un peu. Il peut allonger ses pointes empoisonnées s'il est attrapé."
+		fr: "Même si c'est un cocon, il peut bouger un peu. Il peut allonger ses pointes empoisonnées s'il est attrapé.",
+		de: "Obwohl es ein Kokon ist, kann es sich ein wenig bewegen. Es kann seine Giftstachel ausfahren, wenn es angegriffen wird."
 	},
 
 

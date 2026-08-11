@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Omanyte",
-		fr: "Amonita"
+		fr: "Amonita",
+		de: "Amonitas"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est Paralysé. Si c'est pile, l'attaque ne fait que 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt. Bei \"Zahl\" fügt dieser Angriff 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu, und das verteidigende Pokémon ist jetzt gelähmt. Bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy attached to Omastar. This attack does 20 damage plus 20 more for each heads.",
 				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Amonistar. Cette attaque fait 20 dégâts plus 20 dégâts par face.",
-				de: "Wirf so viele Münzen, wie -Energie an Amoroso angelegt ist. Dieser Anrgiff fügt 20 Schadenspunkte pro geworfenem \"Kopf\" zu."
+				de: "Wirf so viele Münzen, wie {W}-Energie an Amoroso angelegt ist. Dieser Angriff fügt 20 Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Apparently, it cracked Shellder's shell with its sharp fangs and sucked out the insides.",
-		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur."
+		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur.",
+		de: "Anscheinend hat es Muschas Muschel mit seinen scharfen Zähnen geknackt und sie dann ausgesaugt."
 	},
 
 
