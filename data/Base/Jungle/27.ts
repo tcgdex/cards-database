@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Munchlax",
+		de: "Mampfaxo"
 	},
 
 	stage: "Basic",
@@ -40,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
 				fr: "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé.",
-				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet weden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo scchläft, verwirrt oder gelähmt ist."
+				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet werden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jezt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
-		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
+		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant.",
+		de: "Totaler Faulenzer. Frisst und schläft nur. Je mehr seine rundliche Masse zunimmt, desto träger wird es."
 	},
 
 

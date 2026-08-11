@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez changer le type d'Aéromite pour le type de n'importe quel Pokémon en jeu autre qu'Incolore. Ce pouvoir ne peut être utilisé si Aéromite est Endormi, Confus, ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du den Typ von Omot in den Typ eines im Spiewl befindlichen Pokémon deiuner Wahl (Farblos ausgenommen) umwndeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Omot schläft, verwirrt oder gelähmt ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du den Typ von Omot in den Typ eines im Spiel befindlichen Pokémon deiner Wahl (Farblos ausgenommen) umwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Omot schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt verwirrt und vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 
 			damage: 10
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
-		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison."
+		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison.",
+		de: "Die staubähnlichen Schuppen, die seine Flügel bedecken, sind je nach Art ihres Giftes farbkodiert."
 	},
 
 

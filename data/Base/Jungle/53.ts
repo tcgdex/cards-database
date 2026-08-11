@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
-				de: "Kopfnuss"
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -50,7 +50,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
-		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
+		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\".",
+		de: "Seine Schwanzflosse bauscht sich wie ein elegantes Abendkleid, was ihm den Spitznamen „Wasserkönigin“ verleiht."
 	},
 
 

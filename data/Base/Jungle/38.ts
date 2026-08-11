@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
-		fr: "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation."
+		fr: "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation.",
+		de: "Seine Zunge lässt sich ausziehen wie die eines Chamäleons. Es hinterläßt ein stechendes Gefühl, wenn es Feinde leckt."
 	},
 
 

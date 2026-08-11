@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic.",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
-		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
+		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement.",
+		de: "Mit seinen riesigen und prächtigen Flügeln kann es in der Luft bleiben, ohne jemals zum Ausruhen landen zu müssen."
 	},
 
 

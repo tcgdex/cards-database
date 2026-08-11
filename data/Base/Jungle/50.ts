@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 				fr: "Si le Pokémon Défenseur attaque Osselait pendant le prochain tour de votre adversaire, les dégâts infligés par l'attaque sont réduits de 20 (après application de la Faiblesse et de la Résistance). (Si l'un des Pokémon bat en retraite, cet effet prend fin.)",
-				de: "Greift das verteidigende Pokémon Tragossi während des nächsten gegnerischen Zuges an, wird aller aufgrund dieses Angriffs zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nich weiter gültig.)"
+				de: "Greift das verteidigende Pokémon Tragosso während des nächsten gegnerischen Zuges an, wird aller aufgrund dieses Angriffs zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nicht weiter gültig.)"
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
-		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon."
+		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon.",
+		de: "Da es nie seinen Schädelhelm abnimmt, hat noch nie jemand das wahre Gesicht dieses Pokémon gesehen."
 	},
 
 

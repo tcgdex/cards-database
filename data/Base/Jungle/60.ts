@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pichu",
+		de: "Pichu"
 	},
 
 	stage: "Basic",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Spark",
 				fr: "Étincelle",
-				de: "Funkensprung"
+				de: "Funkenregen"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
@@ -61,7 +62,8 @@ const card: Card = {
 
 	description: {
 		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+		de: "Wenn mehrere dieser Pokémon sich versammeln, kann ihre Elektrizität Gewitter verursachen."
 	},
 
 

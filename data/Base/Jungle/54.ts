@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "das verteidigende Pokémon ist jetzt gelähmt."
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
-		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse.",
+		de: "Wenn seine riesigen Augen aufleuchten, singt es eine gewaltige Melodei, die seine Feinde auf eine geheimnisvolle sanfte Weise in den Schlaf versetzt."
 	},
 
 

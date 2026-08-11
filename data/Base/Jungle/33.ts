@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Si votre adversaire a au moins 1 Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant de faire l'échange des Pokémon.)",
-				de: "Falls dein gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémonaus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
 			},
 			damage: 20,
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
-		fr: "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis."
+		fr: "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis.",
+		de: "In der Schlacht schlägt es seine Flügel mit hoher Geschwindigkeit, um so hochgiftigen Staub in die Luft zu wirbeln."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorina",
-		fr: "Nidorina"
+		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
 				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Nidoking que vous avez en jeu.",
-				de: "Fügt 20 Schadenspunkte plus 20 weitere für jeden Nidoking zu, den du im Spiel hast."
+				de: "Fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte für jeden Nidoking zu, den du im Spiel hast."
 			},
 			damage: "20+",
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
-		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
+		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices.",
+		de: "Seine harten Schuppen bieten ihm starken Schutz. Es nutzt seine massige Gestalt für kräftige Bewegungen."
 	},
 
 
