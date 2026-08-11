@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Counter",
 				fr: "Riposte",
-				de: "Counter"
+				de: "Konter"
 			},
 			effect: {
 				en: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.",
 				fr: "Si une attaque inflige des dégâts à Qulbutoke pendant le prochain tour de votre adversaire (même si Qulbutoke est K.O.), lancez 1 pièce. Si c'est face, Qulbutoke attaque le Pokémon Défenseur et lui inflige le même nombre de dégâts.",
-				de: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+				de: "Wirf eine Münze, wenn ein Angriff während des nächsten Zugs deines Gegners Woingenau Schaden zufügt (selbst wenn Woingenau kampfunfähig ist). Bei Kopf greift Woingenau das verteidigende Pokémon für genau dieselbe Menge Schaden an."
 			},
 
 		},
@@ -55,7 +55,8 @@ const card: Card = {
 
 	description: {
 		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
-		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
+		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier.",
+		de: "Um seinen pechschwarzen Schwanz zu verbergen, lebt es ruhig im Dunkeln. Es ist daher nicht sehr offensiv."
 	},
 
 

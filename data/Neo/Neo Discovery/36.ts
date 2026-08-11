@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Shockwave",
 				fr: "Onde de choc",
-				de: "Shockwave"
+				de: "Schockwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. N'appliquez pas la Faiblesse et la Résistance. Puis, si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur.",
-				de: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Wenn dein Gegner dann mindestens ein Pokémon auf seiner Bank hat, wählt er eines davon und tauscht es mit dem verteidigenden Pokémon aus."
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
-				de: "Swift"
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+				de: "Die Schadenspunkte aus diesem Angriff werden von Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
 			},
 			damage: 30,
 
@@ -79,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
-		fr: "S'il agite ses ailes très vite, il peut provoquer des ondes de choc qui font exploser toutes les vitres du voisinage."
+		fr: "S'il agite ses ailes très vite, il peut provoquer des ondes de choc qui font exploser toutes les vitres du voisinage.",
+		de: "Wenn es sehr schnell flattert, kann es Druckwellen erzeugen, die Fensterscheiben zerspringen lassen."
 	},
 
 

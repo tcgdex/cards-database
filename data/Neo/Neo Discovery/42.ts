@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Caterpie",
-		fr: "Chenipan"
+		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 20 dégâts ou moins sont infligés à Chrysacier (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Immer wenn Safcon während des nächsten Zuges deines Gegners 20 oder weniger Schadenspunkte zugefügt werden (nachdem Schäwche und Resistenz verrechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				de: "Immer wenn Safcon während des nächsten Zuges deines Gegners 20 oder weniger Schadenspunkte zugefügt werden (nachdem Schwäche und Resistenz verrechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
-		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
+		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon.",
+		de: "In seiner Schale ist es weich und schwach, während es sich auf seine Entwicklung vorbereitet. Es verbleibt bewegungslos in seiner Schale."
 	},
 
 

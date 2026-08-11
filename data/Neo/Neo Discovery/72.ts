@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)",
 		fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck ou prenez dans votre main une carte Évolution de Mystérieux Fossile et placez-la sur votre Banc. Dans un cas ou l'autre, utilisez la nouvelle carte comme un Pokémon de base. Si vous avez cherché dans votre deck, mélangez-le. (Vous ne pouvez pas jouer cette carte si votre Banc est plein.)",
-		de: "Flip a coin. If heads, either search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)"
+		de: "Wirf eine Münze. Durchsuche bei „Kopf“ dein Deck nach einer Karte, die aus dem Geheimnis-Fossil entsteht, und lege sie auf deine Bank, oder lege eine Karte, die aus dem Geheimnis-Fossil entsteht, von deiner Hand auf deine Bank. Behandle auf jeden Fall die neue Karte als ein Basis-Pokémon. Mische dein Deck, wenn du es durchsucht hast. (Du kannst diese Karte nicht spielen, wenn deine Bank voll ist.)"
 	},
 
 

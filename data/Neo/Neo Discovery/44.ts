@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwag",
-		fr: "Ptitard"
+		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each W Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Têtarte en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quaputzi angelegte -Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quaputzi angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
 			},
 			damage: "30+",
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
-		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
+		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir.",
+		de: "Der Strudel auf seinem Bauch bewegt sich in Wellen. Wenn man zu genau hinschaut, kann man Kopfweh bekommen."
 	},
 
 

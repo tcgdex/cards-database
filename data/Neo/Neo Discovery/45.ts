@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage to each non- Pokémon in play. Don't apply Weakness and Resistance.",
 				fr: "Inflige 10 dégâts à chaque Pokémon non- en jeu. N'appliquez pas la Faiblesse et la Résistance.",
-				de: "Fügt jedem Pokémon im Spiel, das nicht vom Typ  ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+				de: "Fügt jedem Pokémon im Spiel, das nicht vom Typ {F} ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
-		fr: "Sa carapace est dure comme de la pierre, et elle le rend très fort. Ses coups peuvent renverser une montagne."
+		fr: "Sa carapace est dure comme de la pierre, et elle le rend très fort. Ses coups peuvent renverser une montagne.",
+		de: "Seine Schale ist so hart wie Stein, und es ist sehr stark. Sein Schlag kann einen Berg umhauen."
 	},
 
 
