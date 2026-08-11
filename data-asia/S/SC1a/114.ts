@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Sc1a"
+import Set from "../SC1a"
 
 const card: Card = {
 	set: Set,
@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鋼鎧鴉"
 	},
 
+	dexId: [823],
 	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Metal"],
