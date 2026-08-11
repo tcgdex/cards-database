@@ -4,7 +4,8 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Rogne"
+				fr: "Rogne",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
