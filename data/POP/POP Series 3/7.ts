@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flamme"
+				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Combusken.",
-				fr: "Défaussez une Énergie  attachée à Galifeu."
+				fr: "Défaussez une Énergie  attachée à Galifeu.",
+				de: "Entferne eine {R}-Energie von Jungglut und lege sie auf den Ablagestapel."
 			},
 			damage: 50,
 
