@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Sand-attack",
 				fr: "Jet de sable",
-				de: "Sand-attack"
+				de: "Sandwirbel"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+				de: "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ richtet dieser Angriff nichts aus."
 			},
 			damage: 10,
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "A rare and unique Pokémon about which little is known, as few have been captured.",
-		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
+		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés.",
+		de: "Ein seltenes und einzigartiges Pokémon, über das man nicht viel weiß, da nur wenige gefangen wurden."
 	},
 
 

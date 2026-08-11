@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
-				de: "Scwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+				de: "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
 			damage: 20,
 
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Magnetic Lines",
 				fr: "Lignes magnétiques",
-				de: "Schlafpuder"
+				de: "Magnetische Linien"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any basic Energy cards attached to it, choose 1 of them. If your opponent has any Benched Pokémon, choose 1 of them and attach that Energy card to it.",
 				fr: "Si le Pokémon Défenseur a des cartes Énergies de base attachées à lui, choisissez l'une d'elles. Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et attachez cette carte Énergie sur lui.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				de: "Falls auf dem verteidigenden Pokémon irgendwelche Basis-Energiekarten abgelegt sind, wähle eine von ihnen. Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und lege diese Energiekarte darauf ab."
 			},
 			damage: 20,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "The number of incidents of hackers using Magnetons to damage computer systems is steadily increasing.",
-		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement."
+		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement.",
+		de: "Die Anzahl an Vorfällen, in denen Hacker mit Hilfe von Magnetons Computer beschädigen, steigt ständig."
 	},
 
 

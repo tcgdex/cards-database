@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Afternoon Nap",
 				fr: "Siestre",
-				de: "Afernoon Nap"
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Search your deck for a Energy card and attach it to Slowpoke. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à Ramoloss. Mélangez ensuite votre deck.",
-				de: "Search your deck for a  Energy card and attach it to Slowpoke. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer {P}-Energiekarte und lege sie unter Flegmon. Mische dein Deck danach."
 			},
 
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it knows how to fish, no other intelligent behavior has been detected in it.",
-		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
+		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence.",
+		de: "Obwohl es weiß, wie man Fische fängt, konnte kein anderes intelligentes Verhalten bei ihm festgestellt werden."
 	},
 
 

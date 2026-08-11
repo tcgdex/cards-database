@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent flips a number of coins equal to the number of Pokémon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "Votre adversaire lance un nombre de pièces égal au nombre de Pokémon sur son Banc. Cette attaque inflige 20 dégâts multipliés par le nombre de piles. N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent).",
-				de: "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl der Pokémon auf seiner oderihrer Babk entspricht. Dieser Angriff fügt jedesmal, wenn die Münze Zahl zeigt, 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden (Alle anderen Auswirkungen nach der Anwendung von Schwächeund Resistenz finden immer noch statt)"
+				de: "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl Pokémon auf seiner oder ihrer Bank entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Zahl“ zeigt, 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
 			damage: "20x",
 
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "Carries a pendulum with it always. Sometimes appears near less-traveled roads and schools at dusk.",
-		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles."
+		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles.",
+		de: "Es trägt stets ein Pendel bei sich. Es erscheint manchmal zur Abenddämmerung auf weniger befahrenen Straßen und in der Nähe von Schulen."
 	},
 
 

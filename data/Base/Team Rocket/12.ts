@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand.",
 				fr: "Lorsque vous jouez Flagadoss obscur depuis votre main, choisissez jusqu'à 3 Pokémon de base et/ou cartes Évolution de votre pile de défausse et placez-les dans votre main.",
-				de: "Wenn du Dunkles Lahmus von einer Hand spielst, wähle bis zu 3 Basis-Pokémon- und/oder Evolutionskarten von deinem Ablagestapel und nimm sie auf deine Hand."
+				de: "Wenn du Dunkles Lahmus von deiner Hand spielst, wähle bis zu drei Basis-Pokémon- und/oder Evolutionskarten von deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 		},
 	],
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirfeine Münze. Bei Zahl hat dieser Angriff keine Schadenspunkte"
+				de: "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 
 			damage: 40
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people.",
-		fr: "Sa principale volonté est qu'on le laisse tranquille, il en vient parfois à être manipulé par des gens sans scrupules."
+		fr: "Sa principale volonté est qu'on le laisse tranquille, il en vient parfois à être manipulé par des gens sans scrupules.",
+		de: "Es möchte am liebsten alleine gelassen werden, und daher wird es manchmal von skrupellosen Menschen manipuliert."
 	},
 
 
