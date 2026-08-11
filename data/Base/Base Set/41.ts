@@ -56,6 +56,7 @@ const card: Card = {
 		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
 		fr: "La corne sur son front est très résistante. Elle lui sert à percer des blocs de glace.",
 		it: "Il corno che ha sulla testa è molto resistente e gli permette di sfondare anche le superfici di ghiaccio. LIV 12 N.86",
+		de: "Das hervorstehende Horn auf seinem Kopf ist sehr hart. Es hackt damit sogar dickste Eisschichten auf."
 	},
 
 	variants: [

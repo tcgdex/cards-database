@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kadabra",
 		fr: "Kadabra",
-		it: "Kadabra"
+		it: "Kadabra",
+		de: "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -66,7 +67,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon défenseur est maintenant Confus.",
-				de: "Wirf eine Münze bei \"Kopf\" ist das verteidigende Pokémon verwirrt",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon verwirrt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
 			},
 			damage: 30,
@@ -116,7 +117,8 @@ const card: Card = {
 	description: {
 		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 		fr: "Son super cerveau peut effectuer des opérations plus rapidement qu'un super ordinateur. Il a un Q.I. de 5000.",
-		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65"
+		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65",
+		de: "Sein Gehirn übertrifft einen Supercomputer. Sein Intelligenzquotient soll 5000 betragen."
 	},
 }
 
