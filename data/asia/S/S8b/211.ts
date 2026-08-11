@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポワルン",
+		'ja-jp': "ポワルン",
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "天気に よって 姿が 変わる。 気象が 荒くなるほど 気性も 荒っぽく なってくる。",
+		'ja-jp': "天気に よって 姿が 変わる。 気象が 荒くなるほど 気性も 荒っぽく なってくる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "てんきよみ" },
 			effect: {
-				ja: "自分のトラッシュに「スタジアム」が8枚以上あるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
+				'ja-jp': "自分のトラッシュに「スタジアム」が8枚以上あるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 	],

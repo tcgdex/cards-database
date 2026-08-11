@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Trevenant VMAX",
-		fr: "Desséliande VMAX",
-		es: "Trevenant VMAX",
-		it: "Trevenant VMAX",
-		pt: "Trevenant VMAX",
-		de: "Trombork VMAX"
+		'en-us': "Trevenant VMAX",
+		'fr-fr': "Desséliande VMAX",
+		'es-es': "Trevenant VMAX",
+		'it-it': "Trevenant VMAX",
+		'pt-br': "Trevenant VMAX",
+		'de-de': "Trombork VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,25 +23,25 @@ const card: Card = {
 	dexId: [709],
 
 	evolveFrom: {
-		en: "Trevenant V",
-		fr: "Desséliande-V",
-		es: "Trevenant V",
-		it: "Trevenant-V",
-		pt: "Trevenant V",
-		de: "Trombork-V"
+		'en-us': "Trevenant V",
+		'fr-fr': "Desséliande-V",
+		'es-es': "Trevenant V",
+		'it-it': "Trevenant-V",
+		'pt-br': "Trevenant V",
+		'de-de': "Trombork-V"
 	},
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Missing in the Forest",
-			fr: "Perdus en Forêt"
+			'en-us': "Missing in the Forest",
+			'fr-fr': "Perdus en Forêt"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire."
+			'en-us': "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire."
 		},
 
 		damage: "40×"
@@ -49,8 +49,8 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Max Tree",
-			fr: "Arbromax"
+			'en-us': "Max Tree",
+			'fr-fr': "Arbromax"
 		},
 
 		damage: 180

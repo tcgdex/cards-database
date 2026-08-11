@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lairon",
-		fr: "Galegon"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon"
 	},
 
 	illustrator: "Mizue",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Aron"
+		'en-us': "Aron"
 	},
 
 	description: {
-		en: "It loves iron ore. Groups of them fight for territory\nby bashing one another with their steel bodies.",
-		fr: "Il raffole du minerai de fer. Il défend son territoire en chargeant avec son corps d'acier."
+		'en-us': "It loves iron ore. Groups of them fight for territory\nby bashing one another with their steel bodies.",
+		'fr-fr': "Il raffole du minerai de fer. Il défend son territoire en chargeant avec son corps d'acier."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger"
 		},
 
 		damage: 60,

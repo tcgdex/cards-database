@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッドキップスター",
+		'ja-jp': "マッドキップスター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "渦",
+				'ja-jp': "渦",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "バックバック",
+				'ja-jp': "バックバック",
 			},
 			effect: {
-				ja: "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが眠っています。",
+				'ja-jp': "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが眠っています。",
 			},
 		},
 	],

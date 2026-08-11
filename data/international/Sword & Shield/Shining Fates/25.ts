@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Volcanion",
-		en: "Volcanion",
-		es: "Volcanion",
-		it: "Volcanion",
-		pt: "Volcanion",
-		de: "Volcanion"
+		'fr-fr': "Volcanion",
+		'en-us': "Volcanion",
+		'es-es': "Volcanion",
+		'it-it': "Volcanion",
+		'pt-br': "Volcanion",
+		'de-de': "Volcanion"
 	},
 
 	illustrator: "nagimiso",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement",
-			en: "Hammer In",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'fr-fr': "Enfoncement",
+			'en-us': "Hammer In",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 50,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			fr: "Vapeur Explosive",
-			en: "Dynamite Steam",
-			es: "Vapor Dinamita",
-			it: "Vapordinamite",
-			pt: "Vapor de Dinamite",
-			de: "Dynamitdampf"
+			'fr-fr': "Vapeur Explosive",
+			'en-us': "Dynamite Steam",
+			'es-es': "Vapor Dinamita",
+			'it-it': "Vapordinamite",
+			'pt-br': "Vapor de Dinamite",
+			'de-de': "Dynamitdampf"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 120 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 120 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "120×",
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+		'en-us': "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
 	},
 
 	variants: [

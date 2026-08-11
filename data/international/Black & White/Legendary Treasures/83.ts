@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Stunfisk",
+		'en-us': "Stunfisk",
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Muddy Water",
+				'en-us': "Muddy Water",
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 20,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rumble",
+				'en-us': "Rumble",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+		'en-us': "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
 	},
 
 	thirdParty: {

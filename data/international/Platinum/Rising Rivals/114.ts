@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Surfing Pikachu",
-		fr: "Pikachu surfeur Niv. 13",
-		de: "Surfendes Pikachu"
+		'en-us': "Surfing Pikachu",
+		'fr-fr': "Pikachu surfeur Niv. 13",
+		'de-de': "Surfendes Pikachu"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 30,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "One summer, a group of Pikachu was found riding the waves at the local beach."
+		'en-us': "One summer, a group of Pikachu was found riding the waves at the local beach."
 	},
 
 	variants: [

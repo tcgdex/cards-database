@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon"
+		'en-us': "Porygon"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Code Check",
+				'en-us': "Code Check",
 			},
 			effect: {
-				en: "Look at 1 of your opponent's face-down Prize cards."
+				'en-us': "Look at 1 of your opponent's face-down Prize cards."
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Beam",
+				'en-us': "Beam",
 			},
 			damage: 10,
 		}

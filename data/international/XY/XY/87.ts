@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -50,20 +50,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Heartfelt Song",
-				fr: "Chanson du Cœur",
-				es: "Canto Sincero",
-				it: "Cantosincero",
-				pt: "Canção Sincera",
-				de: "Melodie des Herzens"
+				'en-us': "Heartfelt Song",
+				'fr-fr': "Chanson du Cœur",
+				'es-es': "Canto Sincero",
+				'it-it': "Cantosincero",
+				'pt-br': "Canção Sincera",
+				'de-de': "Melodie des Herzens"
 			},
 			effect: {
-				en: "Discard a Darkness Energy attached to your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie Darkness attachée au Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Darkness unida al Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia Darkness assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte uma Energia Darkness ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Darkness-Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Darkness Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie Darkness attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Darkness unida al Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia Darkness assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte uma Energia Darkness ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Darkness-Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+		'en-us': "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
 	},
 
 	thirdParty: {

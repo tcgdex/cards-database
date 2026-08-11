@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		es: "Hypno",
-		it: "Hypno",
-		pt: "Hypno",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'es-es': "Hypno",
+		'it-it': "Hypno",
+		'pt-br': "Hypno",
+		'de-de': "Hypno"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	stage: "Stage1",
@@ -35,32 +35,32 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psy Call",
-			fr: "Appel Psy",
-			es: "Psicollamada",
-			it: "Psicochiamata",
-			pt: "Chamado Psíquico",
-			de: "Psyruf"
+			'en-us': "Psy Call",
+			'fr-fr': "Appel Psy",
+			'es-es': "Psicollamada",
+			'it-it': "Psicochiamata",
+			'pt-br': "Chamado Psíquico",
+			'de-de': "Psyruf"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Stage 1 Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de Niveau 1 et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon de Fase 1 y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon di Fase 1 e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 Pokémon Estágio 1 no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Phase-1-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 2 Stage 1 Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de Niveau 1 et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 Pokémon de Fase 1 y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due Pokémon di Fase 1 e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 Pokémon Estágio 1 no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Phase-1-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
-			de: "Zen-Kopfstoß"
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
 		},
 
 		damage: 90
@@ -83,7 +83,7 @@ const card: Card = {
 
 
 	description: {
-		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
+		'en-us': "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
 	},
 
 	variants: [

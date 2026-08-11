@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de flammes",
-				de: "Flammenschweif"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de flammes",
+				'de-de': "Flammenschweif"
 			},
 
 			damage: 30,
@@ -65,8 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
-		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+		'en-us': "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
+		'fr-fr': "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
 	},
 
 	thirdParty: {

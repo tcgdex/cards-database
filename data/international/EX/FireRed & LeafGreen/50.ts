@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		de: "Schillok"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'de-de': "Schillok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Water Gun"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Carabaffe qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 20 damage plus 10 more damage for each  Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Carabaffe qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 20 damage plus 10 more damage for each  Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour fracassant",
-				de: "Smash Turn"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour fracassant",
+				'de-de': "Smash Turn"
 			},
 			effect: {
-				en: "After your attack, you may switch Wartortle with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Carabaffe avec 1 des Pokémon de votre Banc.",
-				de: "After your attack, you may switch Wartortle with 1 of your Benched Pokémon."
+				'en-us': "After your attack, you may switch Wartortle with 1 of your Benched Pokémon.",
+				'fr-fr': "Après votre attaque, vous pouvez échanger Carabaffe avec 1 des Pokémon de votre Banc.",
+				'de-de': "After your attack, you may switch Wartortle with 1 of your Benched Pokémon."
 			},
 			damage: 40,
 

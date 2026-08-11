@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seismitoad"
+		'en-us': "Seismitoad"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Palpitoad"
+		'en-us': "Palpitoad"
 	},
 
 	description: {
-		en: "This Pokémon is popular among the elderly,\nwho say the vibrations of its lumps are great\nfor massages."
+		'en-us': "This Pokémon is popular among the elderly,\nwho say the vibrations of its lumps are great\nfor massages."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Split Spiral Punch"
+			'en-us': "Split Spiral Punch"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			'en-us': "Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

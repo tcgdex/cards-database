@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガヤミラミ&バンギラスGX",
+		'ja-jp': "メガヤミラミ&バンギラスGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
+				'ja-jp': "このワザのダメージで、相手の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "追加でエネルギーが5個ついているなら、相手の山札を上から15枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加でエネルギーが5個ついているなら、相手の山札を上から15枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

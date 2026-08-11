@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウ",
+		'ja-jp': "ライチュウ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "身体に 電気が たまるに つれ 攻撃的に。 実は 電気が ストレスなのでは という 説もある。",
+		'ja-jp': "身体に 電気が たまるに つれ 攻撃的に。 実は 電気が ストレスなのでは という 説もある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ネバーギブアップ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、自分のサイドの残り枚数が、相手より3枚以上多いときにしか使えない。自分のトラッシュにある[雷]エネルギーをすべて、自分のポケモンに好きなようにつける。",
+				'ja-jp': "このワザは、自分のサイドの残り枚数が、相手より3枚以上多いときにしか使えない。自分のトラッシュにある[雷]エネルギーをすべて、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトーン",
+		'ja-jp': "ルナトーン",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "４０年前に 隕石の 落ちた  場所で 初めて 見つかった。  にらむ だけで 敵を 眠らせる。",
+		'ja-jp': "４０年前に 隕石の 落ちた  場所で 初めて 見つかった。  にらむ だけで 敵を 眠らせる。",
 	},
 
 	stage: "Basic",

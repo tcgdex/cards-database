@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Black Kyurem",
-		fr: "Kyurem Noir",
+		'en-us': "Black Kyurem",
+		'fr-fr': "Kyurem Noir",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Nail",
-				fr: "Clou Tonnerre",
+				'en-us': "Thunder Nail",
+				'fr-fr': "Clou Tonnerre",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 40,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Slice",
-				fr: "Tranche Gelée"
+				'en-us': "Frozen Slice",
+				'fr-fr': "Tranche Gelée"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: 120,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		'en-us': "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
 	},
 
 	thirdParty: {

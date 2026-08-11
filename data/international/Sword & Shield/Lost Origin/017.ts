@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande",
-		es: "Trevenant",
-		it: "Trevenant",
-		pt: "Trevenant",
-		de: "Trombork"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
+		'es-es': "Trevenant",
+		'it-it': "Trevenant",
+		'pt-br': "Trevenant",
+		'de-de': "Trombork"
 	},
 
 	illustrator: "Yuya Oka",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Elder Tree Barrier",
-			fr: "Barrière Vieillarbre",
-			es: "Barrera Árbol Viejo",
-			it: "Barriera Alberantico",
-			pt: "Barreira da Árvore Anciã",
-			de: "Urgehölzbarriere"
+			'en-us': "Elder Tree Barrier",
+			'fr-fr': "Barrière Vieillarbre",
+			'es-es': "Barrera Árbol Viejo",
+			'it-it': "Barriera Alberantico",
+			'pt-br': "Barreira da Árvore Anciã",
+			'de-de': "Urgehölzbarriere"
 		},
 
 		effect: {
-			en: "If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon V, your opponent can't take any Prize cards for it.",
-			fr: "Si ce Pokémon est mis K.O. par les dégâts d'une attaque d'un Pokémon-V de votre adversaire, ce dernier ne peut pas récupérer de carte Récompense pour ce Pokémon.",
-			es: "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon V de tu rival, tu rival no puede coger ninguna carta de Premio por ello.",
-			it: "Se questo Pokémon viene messo KO dai danni inflitti da un attacco di un Pokémon-V del tuo avversario, il tuo avversario non può prendere carte Premio per effetto di quel KO.",
-			pt: "Se este Pokémon for Nocauteado pelo dano de um ataque dos Pokémon V do seu oponente, seu oponente não poderá pegar cartas de Prêmio por isto.",
-			de: "Wenn dieses Pokémon durch Schaden einer Attacke von Pokémon-V deines Gegners kampfunfähig wird, kann dein Gegner dafür keine Preiskarten nehmen."
+			'en-us': "If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon V, your opponent can't take any Prize cards for it.",
+			'fr-fr': "Si ce Pokémon est mis K.O. par les dégâts d'une attaque d'un Pokémon-V de votre adversaire, ce dernier ne peut pas récupérer de carte Récompense pour ce Pokémon.",
+			'es-es': "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon V de tu rival, tu rival no puede coger ninguna carta de Premio por ello.",
+			'it-it': "Se questo Pokémon viene messo KO dai danni inflitti da un attacco di un Pokémon-V del tuo avversario, il tuo avversario non può prendere carte Premio per effetto di quel KO.",
+			'pt-br': "Se este Pokémon for Nocauteado pelo dano de um ataque dos Pokémon V do seu oponente, seu oponente não poderá pegar cartas de Prêmio por isto.",
+			'de-de': "Wenn dieses Pokémon durch Schaden einer Attacke von Pokémon-V deines Gegners kampfunfähig wird, kann dein Gegner dafür keine Preiskarten nehmen."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact",
-			es: "Gigaimpacto",
-			it: "Gigaimpatto",
-			pt: "Gigaimpacto",
-			de: "Gigastoß"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact",
+			'es-es': "Gigaimpacto",
+			'it-it': "Gigaimpatto",
+			'pt-br': "Gigaimpacto",
+			'de-de': "Gigastoß"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 150

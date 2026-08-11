@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		de: "Krebutack",
-		it: "Crawdaunt",
-		es: "Crawdaunt",
-		pt: "Crawdaunt",
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'de-de': "Krebutack",
+		'it-it': "Crawdaunt",
+		'es-es': "Crawdaunt",
+		'pt-br': "Crawdaunt",
 		'es-mx': "Crawdaunt"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Écrapince",
-		de: "Krebscorps",
-		it: "Corphish",
-		es: "Corphish",
-		pt: "Corphish",
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'de-de': "Krebscorps",
+		'it-it': "Corphish",
+		'es-es': "Corphish",
+		'pt-br': "Corphish",
 		'es-mx': "Corphish"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			de: "Klammer",
-			it: "Presa",
-			es: "Agarre",
-			pt: "Agarramento Compressor",
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'de-de': "Klammer",
+			'it-it': "Presa",
+			'es-es': "Agarre",
+			'pt-br': "Agarramento Compressor",
 			'es-mx': "Fuerza de Garra"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Cutting Riposte",
-			fr: "Riposte Coupante",
-			de: "Schneidiger Gegenschlag",
-			it: "Risposta Tagliente",
-			es: "Contraataque Cortante",
-			pt: "Retaliação Cortante",
+			'en-us': "Cutting Riposte",
+			'fr-fr': "Riposte Coupante",
+			'de-de': "Schneidiger Gegenschlag",
+			'it-it': "Risposta Tagliente",
+			'es-es': "Contraataque Cortante",
+			'pt-br': "Retaliação Cortante",
 			'es-mx': "Revancha Cortante"
 		},
 
 		effect: {
-			en: "If this Pokémon has any damage counters on it, this attack can be used for {D}.",
-			fr: "Si ce Pokémon a au moins un marqueur de dégâts, cette attaque peut être utilisée pour {D}.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {D} eingesetzt werden.",
-			it: "Se questo Pokémon ha dei segnalini danno, questo attacco può essere usato al costo di {D}.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {D}.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por {D}.",
+			'en-us': "If this Pokémon has any damage counters on it, this attack can be used for {D}.",
+			'fr-fr': "Si ce Pokémon a au moins un marqueur de dégâts, cette attaque peut être utilisée pour {D}.",
+			'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {D} eingesetzt werden.",
+			'it-it': "Se questo Pokémon ha dei segnalini danno, questo attacco può essere usato al costo di {D}.",
+			'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {D}.",
+			'pt-br': "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por {D}.",
 			'es-mx': "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {D}."
 		},
 

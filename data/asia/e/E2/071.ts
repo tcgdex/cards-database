@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "猟犬-071/092",
+		'ja-jp': "猟犬-071/092",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "花火",
+				'ja-jp': "花火",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合は、猟犬に取り付けられた消防剤カードを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合は、猟犬に取り付けられた消防剤カードを捨ててください。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "暗い衝撃",
+				'ja-jp': "暗い衝撃",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンは、敵の次のターンの終わりまで、ポックを使用できません。",
+				'ja-jp': "ディフェンディングポケモンは、敵の次のターンの終わりまで、ポックを使用できません。",
 			},
 			damage: 40,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロトムV",
+		'ja-jp': "ロトムV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そくせきじゅうでん" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札を3枚引く。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札を3枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "自分のトラッシュにある「ポケモンのどうぐ」を好きなだけロストゾーンに置き、その枚数×40ダメージ追加。",
+				'ja-jp': "自分のトラッシュにある「ポケモンのどうぐ」を好きなだけロストゾーンに置き、その枚数×40ダメージ追加。",
 			},
 		},
 	],

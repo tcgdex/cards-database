@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Garchomp",
-		fr: "Carchacrok",
-		es: "Garchomp",
-		it: "Garchomp",
-		pt: "Garchomp",
-		de: "Knakrack"
+		'en-us': "Garchomp",
+		'fr-fr': "Carchacrok",
+		'es-es': "Garchomp",
+		'it-it': "Garchomp",
+		'pt-br': "Garchomp",
+		'de-de': "Knakrack"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gabite",
-		fr: "Carmache",
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mach Cut",
-				fr: "Coupe Vive",
+				'en-us': "Mach Cut",
+				'fr-fr': "Coupe Vive",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
 			},
 			damage: 60,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dragonblade",
-				fr: "Draco-Lame",
+				'en-us': "Dragonblade",
+				'fr-fr': "Draco-Lame",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				'en-us': "Discard the top 2 cards of your deck.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
 			},
 			damage: 100,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+		'en-us': "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
 	},
 
 	thirdParty: {

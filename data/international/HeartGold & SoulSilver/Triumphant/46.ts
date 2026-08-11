@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud’korne",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’korne",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Ausfall"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
+		'en-us': "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
 	},
 
 	variants: [

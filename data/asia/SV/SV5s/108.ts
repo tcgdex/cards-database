@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hoothoot"
+		'id-id': "Hoothoot"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Hoothoot selalu berdiri dengan satu kaki. Momen pergantian kaki tersebut sangat cepat sehingga jarang untuk dapat disaksikan."
+		'id-id': "Hoothoot selalu berdiri dengan satu kaki. Momen pergantian kaki tersebut sangat cepat sehingga jarang untuk dapat disaksikan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Silent Wing"
+			'id-id': "Silent Wing"
 		},
 
 		effect: {
-			id: "Lihat Kartu Pegangan lawan."
+			'id-id': "Lihat Kartu Pegangan lawan."
 		},
 
 		damage: 20,

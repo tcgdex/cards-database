@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Tyrantrum",
-		fr: "Rexillius",
-		es: "Tyrantrum",
-		it: "Tyrantrum",
-		pt: "Tyrantrum",
-		de: "Monargoras"
+		'en-us': "Tyrantrum",
+		'fr-fr': "Rexillius",
+		'es-es': "Tyrantrum",
+		'it-it': "Tyrantrum",
+		'pt-br': "Tyrantrum",
+		'de-de': "Monargoras"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tyrunt",
-		fr: "Ptyranidur",
-		es: "Tyrunt",
-		it: "Tyrunt",
-		pt: "Tyrunt",
-		de: "Balgoras"
+		'en-us': "Tyrunt",
+		'fr-fr': "Ptyranidur",
+		'es-es': "Tyrunt",
+		'it-it': "Tyrunt",
+		'pt-br': "Tyrunt",
+		'de-de': "Balgoras"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chew Up",
-				fr: "Mâchoires Affamées",
-				es: "Mascar",
-				it: "Masticata",
-				pt: "Mastigar",
-				de: "Zerkauen"
+				'en-us': "Chew Up",
+				'fr-fr': "Mâchoires Affamées",
+				'es-es': "Mascar",
+				'it-it': "Masticata",
+				'pt-br': "Mastigar",
+				'de-de': "Zerkauen"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.",
-				fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, este ataque hace 90 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, questo attacco infligge 90 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente possuir alguma Energia Especial ligada a ele, este ataque causará 90 de danos adicionais.",
-				de: "Wenn an dem Aktiven Pokémon deines Gegners Spezial-Energie angelegt ist, fügt dieser Angriff 90 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.",
+				'fr-fr': "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente possuir alguma Energia Especial ligada a ele, este ataque causará 90 de danos adicionais.",
+				'de-de': "Wenn an dem Aktiven Pokémon deines Gegners Spezial-Energie angelegt ist, fügt dieser Angriff 90 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -71,20 +71,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Impact",
-				fr: "Giga Impact",
-				es: "Giga Impacto",
-				it: "Gigaimpatto",
-				pt: "Giga Impacto",
-				de: "Gigastoß"
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
+				'es-es': "Giga Impacto",
+				'it-it': "Gigaimpatto",
+				'pt-br': "Giga Impacto",
+				'de-de': "Gigastoß"
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 150,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
+		'en-us': "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
 	},
 
 	thirdParty: {

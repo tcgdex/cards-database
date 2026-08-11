@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マクノシタ",
+		'ja-jp': "マクノシタ",
 		'zh-tw': "幕下力士",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強い マクノシタを 育てるために トレーナーたちが 伝統的に 作る ナベ料理が あるという。",
+		'ja-jp': "強い マクノシタを 育てるために トレーナーたちが 伝統的に 作る ナベ料理が あるという。",
 		'zh-tw': "據說為了培育強大的幕下力士，訓練家們會製作一種傳統的火鍋料理。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきたおし",
+				'ja-jp': "つきたおし",
 				'zh-tw': "撞倒",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 			},
 			damage: 60,

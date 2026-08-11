@@ -1,4 +1,4 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Base'
 
 /**
@@ -9,9 +9,9 @@ const wp: Set = {
 	id: "wp",
 
 	name: {
-		en: "W Promotional",
-		fr: "W Promotional",
-		it: "Carte Promo Wizards"
+		'en-us': "W Promotional",
+		'fr-fr': "W Promotional",
+		'it-it': "Carte Promo Wizards"
 	},
 
 	serie: serie,

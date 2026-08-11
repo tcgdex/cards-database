@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Walrein",
-		fr: "Kaimorse",
-		es: "Walrein",
-		it: "Walrein",
-		pt: "Walrein",
-		de: "Walraisa"
+		'en-us': "Walrein",
+		'fr-fr': "Kaimorse",
+		'es-es': "Walrein",
+		'it-it': "Walrein",
+		'pt-br': "Walrein",
+		'de-de': "Walraisa"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sealeo",
-		fr: "Phogleur",
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
 	},
 
 	stage: "Stage2",
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde Boréale",
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde Boréale",
 			},
 
 			damage: 80,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Entomb",
-				fr: "Cercueil de Glace",
+				'en-us': "Ice Entomb",
+				'fr-fr': "Cercueil de Glace",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Paralyzed. This Pokémon can't use Ice Entomb during your next turn.",
-				fr: "Le Pokémon Défenseur est maintenant Paralysé. Ce Pokémon ne peut pas utiliser Cercueil de Glace pendant votre prochain tour.",
+				'en-us': "The Defending Pokémon is now Paralyzed. This Pokémon can't use Ice Entomb during your next turn.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Paralysé. Ce Pokémon ne peut pas utiliser Cercueil de Glace pendant votre prochain tour.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+		'en-us': "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
 	},
 
 	thirdParty: {

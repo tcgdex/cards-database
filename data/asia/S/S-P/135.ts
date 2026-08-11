@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ジグザグマ",
+		'ja-jp': "ガラル ジグザグマ",
 		'zh-tw': "炎兔兒",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "この姿が いちばん 古い ジグザグマの 姿 らしい。 ジグザグ動いて あたりを 荒らす。",
+		'ja-jp': "この姿が いちばん 古い ジグザグマの 姿 らしい。 ジグザグ動いて あたりを 荒らす。",
 		'zh-tw': "不斷奔跑使體溫升高後，火之能量會在牠體內循環，促使牠發揮出真正的力量。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かんしゃくヘッド" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手のポケモン1匹に、ダメカンを1個のせる。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手のポケモン1匹に、ダメカンを1個のせる。",
 			},
 		},
 	],
@@ -33,13 +33,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふいをつく",
+				'ja-jp': "ふいをつく",
 				'zh-tw': "搶先一步",
 			},
 			damage: 30,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "從自己的牌庫抽出1張卡。",
 			},
 		},

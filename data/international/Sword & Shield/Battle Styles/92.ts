@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Slowbro",
-		fr: "Flagadoss de Galar",
-		es: "Slowbro de Galar",
-		it: "Slowbro di Galar",
-		pt: "Slowbro de Galar",
-		de: "Galar-Lahmus"
+		'en-us': "Galarian Slowbro",
+		'fr-fr': "Flagadoss de Galar",
+		'es-es': "Slowbro de Galar",
+		'it-it': "Slowbro di Galar",
+		'pt-br': "Slowbro de Galar",
+		'de-de': "Galar-Lahmus"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,51 +21,51 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar",
-		es: "Slowpoke de Galar",
-		it: "Slowpoke di Galar",
-		pt: "Slowpoke de Galar",
-		de: "Galar-Flegmon"
+		'en-us': "Galarian Slowpoke",
+		'fr-fr': "Ramoloss de Galar",
+		'es-es': "Slowpoke de Galar",
+		'it-it': "Slowpoke di Galar",
+		'pt-br': "Slowpoke de Galar",
+		'de-de': "Galar-Flegmon"
 	},
 
 	attacks: [{
 		name: {
-			en: "Splattering Poison",
-			fr: "Poison Éclaboussant",
-			es: "Veneno Salpicante",
-			it: "Spruzzata di Veleno",
-			pt: "Respingar Veneno",
-			de: "Giftgespritze"
+			'en-us': "Splattering Poison",
+			'fr-fr': "Poison Éclaboussant",
+			'es-es': "Veneno Salpicante",
+			'it-it': "Spruzzata di Veleno",
+			'pt-br': "Respingar Veneno",
+			'de-de': "Giftgespritze"
 		},
 
 		effect: {
-			en: "Both Active Pokémon are now Poisoned.",
-			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
-			es: "Ambos Pokémon Activos pasan a estar Envenenados.",
-			it: "Entrambi i Pokémon attivi vengono avvelenati.",
-			pt: "Ambos os Pokémon Ativos agora estão Envenenados.",
-			de: "Beide Aktiven Pokémon sind jetzt vergiftet."
+			'en-us': "Both Active Pokémon are now Poisoned.",
+			'fr-fr': "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
+			'es-es': "Ambos Pokémon Activos pasan a estar Envenenados.",
+			'it-it': "Entrambi i Pokémon attivi vengono avvelenati.",
+			'pt-br': "Ambos os Pokémon Ativos agora estão Envenenados.",
+			'de-de': "Beide Aktiven Pokémon sind jetzt vergiftet."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			en: "Unhinged Hammer",
-			fr: "Marteau Dérangé",
-			es: "Martillo Desquiciado",
-			it: "Martello Scatenato",
-			pt: "Martelo Ensandecido",
-			de: "Rasender Hammer"
+			'en-us': "Unhinged Hammer",
+			'fr-fr': "Marteau Dérangé",
+			'es-es': "Martillo Desquiciado",
+			'it-it': "Martello Scatenato",
+			'pt-br': "Martelo Ensandecido",
+			'de-de': "Rasender Hammer"
 		},
 
 		effect: {
-			en: "If this Pokémon is affected by a Special Condition, this attack does 120 more damage.",
-			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si este Pokémon se ve afectado por una Condición Especial, este ataque hace 120 puntos de daño más.",
-			it: "Se questo Pokémon è influenzato da una condizione speciale, questo attacco infligge 120 danni in più.",
-			pt: "Se este Pokémon estiver afetado por uma Condição Especial, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon is affected by a Special Condition, this attack does 120 more damage.",
+			'fr-fr': "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon se ve afectado por una Condición Especial, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se questo Pokémon è influenzato da una condizione speciale, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se este Pokémon estiver afetado por uma Condição Especial, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell."
+		'en-us': "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell."
 	},
 
 	variants: [

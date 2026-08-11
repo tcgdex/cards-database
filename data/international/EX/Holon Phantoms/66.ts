@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Horsea δ",
-		fr: "Hypotrempe δ",
-		de: "Seeper"
+		'en-us': "Horsea δ",
+		'fr-fr': "Hypotrempe δ",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Firebreathing",
-				fr: "Crachage de feu régulier",
-				de: "Stetiger Feuerhauch"
+				'en-us': "Steady Firebreathing",
+				'fr-fr': "Crachage de feu régulier",
+				'de-de': "Stetiger Feuerhauch"
 			},
 
 			damage: 20,

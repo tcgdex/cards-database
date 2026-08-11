@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		es: "Croconaw",
-		it: "Croconaw",
-		pt: "Croconaw",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'es-es': "Croconaw",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw",
+		'de-de': "Tyracroc"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
-		it: "Totodile",
-		pt: "Totodile",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
+		'it-it': "Totodile",
+		'pt-br': "Totodile",
+		'de-de': "Karnimani"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 
 	description: {
-		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place."
+		'en-us': "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			de: "Wellenplatscher",
-			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante",
-			it: "Schizzi d'Onda"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'de-de': "Wellenplatscher",
+			'es-es': "Chapoteo Ondulante",
+			'pt-br': "Onda Borrifante",
+			'it-it': "Schizzi d'Onda"
 		},
 
 		damage: 30
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			de: "Surfer",
-			es: "Surf",
-			pt: "Surfar",
-			it: "Surf"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'de-de': "Surfer",
+			'es-es': "Surf",
+			'pt-br': "Surfar",
+			'it-it': "Surf"
 		},
 
 		damage: 60

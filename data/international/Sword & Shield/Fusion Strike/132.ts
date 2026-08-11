@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandslash",
-		fr: "Sablaireau",
-		es: "Sandslash",
-		it: "Sandslash",
-		pt: "Sandslash",
-		de: "Sandamer"
+		'en-us': "Sandslash",
+		'fr-fr': "Sablaireau",
+		'es-es': "Sandslash",
+		'it-it': "Sandslash",
+		'pt-br': "Sandslash",
+		'de-de': "Sandamer"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		es: "Sandshrew",
-		it: "Sandshrew",
-		pt: "Sandshrew",
-		de: "Sandan"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'es-es': "Sandshrew",
+		'it-it': "Sandshrew",
+		'pt-br': "Sandshrew",
+		'de-de': "Sandan"
 	},
 
 	stage: "Stage1",
@@ -40,30 +40,30 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 
 	description: {
-		en: "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep."
+		'en-us': "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep."
 	},
 
 	attacks: [{
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Dig Uppercut",
-			fr: "Poing Excavateur",
-			de: "Schaufelhaken",
-			es: "Gancho Excavador",
-			pt: "Cavar para Cima",
-			it: "Scavalesto"
+			'en-us': "Dig Uppercut",
+			'fr-fr': "Poing Excavateur",
+			'de-de': "Schaufelhaken",
+			'es-es': "Gancho Excavador",
+			'pt-br': "Cavar para Cima",
+			'it-it': "Scavalesto"
 		},
 
 		damage: 60,
 
 		effect: {
-			en: "Put a card from your discard pile into your hand.",
-			fr: "Ajoutez à votre main une carte de votre pile de défausse.",
-			de: "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand.",
-			es: "Pon 1 carta de tu pila de descartes en tu mano.",
-			pt: "Coloque 1 carta da sua pilha de descarte na sua mão.",
-			it: "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano."
+			'en-us': "Put a card from your discard pile into your hand.",
+			'fr-fr': "Ajoutez à votre main une carte de votre pile de défausse.",
+			'de-de': "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand.",
+			'es-es': "Pon 1 carta de tu pila de descartes en tu mano.",
+			'pt-br': "Coloque 1 carta da sua pilha de descarte na sua mão.",
+			'it-it': "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano."
 		}
 	}],
 

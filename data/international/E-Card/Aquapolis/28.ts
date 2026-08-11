@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Backup",
-				fr: "Sauvegarde",
-				de: "Unterstützung"
+				'en-us': "Backup",
+				'fr-fr': "Sauvegarde",
+				'de-de': "Unterstützung"
 			},
 			effect: {
-				en: "Once during each of your turns (before your attack), if you have 2 or fewer cards in your hand, you may draw cards from your deck until you have 3 cards in your hand. This power can't be used if Porygon2 is affected by a Special Condition.",
-				fr: "Une seule fois pendant chacun de vos tours (avant votre attaque), si vous avez au maximum 2 cartes dans votre main, vous pouvez piocher des cartes de votre deck jusqu'à ce que vous ayez 3 cartes dans votre main. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du 2 oder weniger Karten auf deiner Hand hast, so viele Karten von deinem Deck ziehen, bis du 3 Karten auf deiner Hand hast. Diese Fähigkeit kann nicht verwendet werden, falls Porygon2 von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during each of your turns (before your attack), if you have 2 or fewer cards in your hand, you may draw cards from your deck until you have 3 cards in your hand. This power can't be used if Porygon2 is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant chacun de vos tours (avant votre attaque), si vous avez au maximum 2 cartes dans votre main, vous pouvez piocher des cartes de votre deck jusqu'à ce que vous ayez 3 cartes dans votre main. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du 2 oder weniger Karten auf deiner Hand hast, so viele Karten von deinem Deck ziehen, bis du 3 Karten auf deiner Hand hast. Diese Fähigkeit kann nicht verwendet werden, falls Porygon2 von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Ray",
-				fr: "Onde hypnotique",
-				de: "Hypnotischer Strahl"
+				'en-us': "Hypnotic Ray",
+				'fr-fr': "Onde hypnotique",
+				'de-de': "Hypnotischer Strahl"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 

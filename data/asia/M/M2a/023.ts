@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクーダ",
+		'ja-jp': "バクーダ",
 	},
 
 	illustrator: "Minahamu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "背中の コブの 火山は １０年ごとに 大噴火 するが 激しく 怒っても 噴火する。",
+		'ja-jp': "背中の コブの 火山は １０年ごとに 大噴火 するが 激しく 怒っても 噴火する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンがやけどでないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンがやけどでないなら、このワザは失敗。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 	},
 
 	retreat: 3,

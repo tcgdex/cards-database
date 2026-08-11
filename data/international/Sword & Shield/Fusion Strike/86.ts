@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu V",
-		fr: "Pikachu V",
-		es: "Pikachu V",
-		it: "Pikachu V",
-		pt: "Pikachu V",
-		de: "Pikachu V"
+		'en-us': "Pikachu V",
+		'fr-fr': "Pikachu V",
+		'es-es': "Pikachu V",
+		'it-it': "Pikachu V",
+		'pt-br': "Pikachu V",
+		'de-de': "Pikachu V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			de: "Schweifvertrimmer",
-			es: "Coletón",
-			pt: "Surra de Cauda",
-			it: "Codabotta"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'de-de': "Schweifvertrimmer",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
+			'it-it': "Codabotta"
 		},
 
 		damage: 20
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			de: "Donnerblitz",
-			es: "Rayo",
-			pt: "Relâmpago",
-			it: "Fulmine"
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'de-de': "Donnerblitz",
+			'es-es': "Rayo",
+			'pt-br': "Relâmpago",
+			'it-it': "Fulmine"
 		},
 
 		damage: 100

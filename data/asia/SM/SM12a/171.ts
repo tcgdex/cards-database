@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリプル加速エネルギー",
+		'ja-jp': "トリプル加速エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、進化ポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり[無]エネルギー3個ぶんとしてはたらく。（このカードが進化ポケモン以外についているなら、トラッシュする。）",
+		'ja-jp': "このカードは、進化ポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり[無]エネルギー3個ぶんとしてはたらく。（このカードが進化ポケモン以外についているなら、トラッシュする。）",
 	},
 
 	variants: [

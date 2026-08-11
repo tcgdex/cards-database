@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Leafeon VMAX",
-		fr: "Phyllali VMAX",
-		es: "Leafeon VMAX",
-		it: "Leafeon VMAX",
-		pt: "Leafeon VMAX",
-		de: "Folipurba VMAX"
+		'en-us': "Leafeon VMAX",
+		'fr-fr': "Phyllali VMAX",
+		'es-es': "Leafeon VMAX",
+		'it-it': "Leafeon VMAX",
+		'pt-br': "Leafeon VMAX",
+		'de-de': "Folipurba VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,25 +23,25 @@ const card: Card = {
 	dexId: [470],
 
 	evolveFrom: {
-		en: "Leafeon V",
-		fr: "Phyllali-V",
-		es: "Leafeon V",
-		it: "Leafeon-V",
-		pt: "Leafeon V",
-		de: "Folipurba-V"
+		'en-us': "Leafeon V",
+		'fr-fr': "Phyllali-V",
+		'es-es': "Leafeon V",
+		'it-it': "Leafeon-V",
+		'pt-br': "Leafeon V",
+		'de-de': "Folipurba-V"
 	},
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Grass Knot",
-			fr: "Nœud Herbe"
+			'en-us': "Grass Knot",
+			'fr-fr': "Nœud Herbe"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque  dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+			'en-us': "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chaque  dans le Coût de Retraite du Pokémon Actif de votre adversaire."
 		},
 
 		damage: "60×"
@@ -49,13 +49,13 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Max Leaf",
-			fr: "Feuillomax"
+			'en-us': "Max Leaf",
+			'fr-fr': "Feuillomax"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon."
 		},
 
 		damage: 170

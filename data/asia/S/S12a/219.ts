@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラVMAX",
+		'ja-jp': "ゼラオラVMAX",
 		'zh-tw': "捷拉奧拉VMAX",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "リアクトパルス",
+				'ja-jp': "リアクトパルス",
 				'zh-tw': "反應脈衝",
 			},
 			damage: "60×",
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "相手の場の特性を持つポケモンの数×60ダメージ。",
+				'ja-jp': "相手の場の特性を持つポケモンの数×60ダメージ。",
 				'zh-tw': "造成對手場上擁有特性的寶可夢的數量×60點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイフィスト",
+				'ja-jp': "ダイフィスト",
 				'zh-tw': "極巨電拳",
 			},
 			damage: 240,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゼラオラV",
+		'ja-jp': "ゼラオラV",
 	},
 
 	retreat: 2,

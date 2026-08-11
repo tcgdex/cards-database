@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spearhead",
-				fr: "Meneur",
-				de: "Spearhead"
+				'en-us': "Spearhead",
+				'fr-fr': "Meneur",
+				'de-de': "Spearhead"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosedive",
-				fr: "Descendre en piqué",
-				de: "Nosedive"
+				'en-us': "Nosedive",
+				'fr-fr': "Descendre en piqué",
+				'de-de': "Nosedive"
 			},
 			effect: {
-				en: "Farfetch'd does 10 damage to itself.",
-				fr: "Canarticho s'inflige 10 dégâts.",
-				de: "Farfetch'd does 10 damage to itself."
+				'en-us': "Farfetch'd does 10 damage to itself.",
+				'fr-fr': "Canarticho s'inflige 10 dégâts.",
+				'de-de': "Farfetch'd does 10 damage to itself."
 			},
 			damage: 30,
 

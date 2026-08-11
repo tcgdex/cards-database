@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
-		it: "Mightyena",
-		pt: "Mightyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Fang",
-				fr: "Croc Obscurité",
-				es: "Colmillo Siniestro",
-				it: "Zanna Oscura",
-				pt: "Presa da Escuridão",
-				de: "Finsterzahn"
+				'en-us': "Dark Fang",
+				'fr-fr': "Croc Obscurité",
+				'es-es': "Colmillo Siniestro",
+				'it-it': "Zanna Oscura",
+				'pt-br': "Presa da Escuridão",
+				'de-de': "Finsterzahn"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a random card from your opponent’s hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+				'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+		'en-us': "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
 	},
 
 	thirdParty: {

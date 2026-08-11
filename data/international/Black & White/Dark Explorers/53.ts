@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptéra",
-		es: "Aerodactyl",
-		it: "Aerodactyl",
-		pt: "Aerodactyl",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptéra",
+		'es-es': "Aerodactyl",
+		'it-it': "Aerodactyl",
+		'pt-br': "Aerodactyl",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Ancient Scream",
-				fr: "Cri Préhistorique",
-				es: "Grito Prehistórico",
-				it: "Urloantico",
-				pt: "Grito Ancestral",
-				de: "Urzeitschrei"
+				'en-us': "Ancient Scream",
+				'fr-fr': "Cri Préhistorique",
+				'es-es': "Grito Prehistórico",
+				'it-it': "Urloantico",
+				'pt-br': "Grito Ancestral",
+				'de-de': "Urzeitschrei"
 			},
 			effect: {
-				en: "Your Pokémon’s attacks do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
-				es: "Los ataques de tus Pokémon hacen 10 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
-				it: "Gli attacchi dei tuoi Pokémon infliggono 10 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
-				pt: "Os ataques do seu Pokémon causam 10 de danos extras ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Angriffe deiner Pokémon fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "Your Pokémon’s attacks do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques de tus Pokémon hacen 10 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Gli attacchi dei tuoi Pokémon infliggono 10 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Os ataques do seu Pokémon causam 10 de danos extras ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Die Angriffe deiner Pokémon fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -58,8 +58,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile"
 			},
 
 			damage: 40,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		'en-us': "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
 	},
 
 	thirdParty: {

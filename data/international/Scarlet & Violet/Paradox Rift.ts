@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv04",
 
 	name: {
-		de: "Paradoxrift",
-		en: "Paradox Rift",
-		es: "Brecha Paradójica",
-		fr: "Faille Paradoxe",
-		it: "Paradosso Temporale",
-		pt: "Fenda Paradoxal"
+		'de-de': "Paradoxrift",
+		'en-us': "Paradox Rift",
+		'es-es': "Brecha Paradójica",
+		'fr-fr': "Faille Paradoxe",
+		'it-it': "Paradosso Temporale",
+		'pt-br': "Fenda Paradoxal"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PAR",
-		fr: "FAP"
+		'fr-fr': "FAP"
 	},
 
 	thirdParty: {

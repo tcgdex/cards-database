@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dugtrio",
+		'ja-jp': "Dugtrio",
 	},
 
 	rarity: "Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "泥の平手打ち",
+				'ja-jp': "泥の平手打ち",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "大きさ",
+				'ja-jp': "大きさ",
 			},
 			effect: {
-				ja: "各ベンチポケモン（あなたと対戦相手）に10のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "各ベンチポケモン（あなたと対戦相手）に10のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 40,
 		},

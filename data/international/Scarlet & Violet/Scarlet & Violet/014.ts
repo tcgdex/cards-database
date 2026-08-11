@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Floragato",
-		fr: "Matourgeon",
-		es: "Floragato",
-		it: "Floragato",
-		pt: "Floragato",
-		de: "Feliospa"
+		'en-us': "Floragato",
+		'fr-fr': "Matourgeon",
+		'es-es': "Floragato",
+		'it-it': "Floragato",
+		'pt-br': "Floragato",
+		'de-de': "Feliospa"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Sprigatito",
-		fr: "Poussacha"
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 20
@@ -43,12 +43,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
-			it: "Passofoglia",
-			pt: "Passo de Folha",
-			de: "Blattschritt"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha",
+			'de-de': "Blattschritt"
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+		'en-us': "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		es: "Taillow",
-		it: "Taillow",
-		pt: "Taillow",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'es-es': "Taillow",
+		'it-it': "Taillow",
+		'pt-br': "Taillow",
+		'de-de': "Schwalbini"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
+		'en-us': "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
 	},
 
 	thirdParty: {

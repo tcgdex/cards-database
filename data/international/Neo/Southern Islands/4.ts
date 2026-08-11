@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
+		'en-us': "Togepi",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bawl",
+				'en-us': "Bawl",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
+		'en-us': "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
 	},
 
 	variants: [

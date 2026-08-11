@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Swadloon",
-		fr: "Couverdure",
-		es: "Swadloon",
-		it: "Swadloon",
-		pt: "Swadloon",
-		de: "Folikon"
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
+		'es-es': "Swadloon",
+		'it-it': "Swadloon",
+		'pt-br': "Swadloon",
+		'de-de': "Folikon"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sewaddle",
-		fr: "Larveyette",
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Grass Cocooning",
-				fr: "Cocon Vert",
+				'en-us': "Grass Cocooning",
+				'fr-fr': "Cocon Vert",
 			},
 			effect: {
-				en: "Heal 40 damage from this Pokémon.",
-				fr: "Soignez 40 dégâts à ce Pokémon.",
+				'en-us': "Heal 40 damage from this Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+		'en-us': "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
 	},
 
 	thirdParty: {

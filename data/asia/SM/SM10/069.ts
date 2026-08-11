@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペルシアンGX",
+		'ja-jp': "ペルシアンGX",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "キャットウォーク" },
 			effect: {
-				ja: "前の相手の番に、自分の「ポケモンGX・EX」がきぜつしていたなら、自分の番に1回使える。自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。この番、すでに別の「キャットウォーク」を使っていたなら、この特性は使えない。",
+				'ja-jp': "前の相手の番に、自分の「ポケモンGX・EX」がきぜつしていたなら、自分の番に1回使える。自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。この番、すでに別の「キャットウォーク」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるポケモンの枚数x20ダメージ追加。追加できるダメージはポケモン9枚ぶんまで。",
+				'ja-jp': "自分のトラッシュにあるポケモンの枚数x20ダメージ追加。追加できるダメージはポケモン9枚ぶんまで。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	retreat: 2,

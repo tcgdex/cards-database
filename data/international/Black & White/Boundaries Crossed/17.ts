@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Lilligant",
-		fr: "Fragilady",
-		es: "Lilligant",
-		it: "Lilligant",
-		pt: "Lilligant",
-		de: "Dressella"
+		'en-us': "Lilligant",
+		'fr-fr': "Fragilady",
+		'es-es': "Lilligant",
+		'it-it': "Lilligant",
+		'pt-br': "Lilligant",
+		'de-de': "Dressella"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Petilil",
-		fr: "Chlorobule",
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
+				'en-us': "Return",
+				'fr-fr': "Retour",
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Leaf",
-				fr: "Feuillemagik",
+				'en-us': "Magical Leaf",
+				'fr-fr': "Feuillemagik",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 50,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+		'en-us': "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
 	},
 
 	thirdParty: {

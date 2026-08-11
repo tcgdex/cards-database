@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Politoed ex",
-		fr: "Tarpaud ex",
-		de: "Quaxo ex"
+		'en-us': "Politoed ex",
+		'fr-fr': "Tarpaud ex",
+		'de-de': "Quaxo ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Tetarte"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Tetarte"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Upward Lick",
-				fr: "Grosse lèche",
-				de: "Upward Lick"
+				'en-us': "Upward Lick",
+				'fr-fr': "Grosse lèche",
+				'de-de': "Upward Lick"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Si ce Pokémon est un Pokémon Évolué de niveau 2, cette attaque inflige 50 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage more instead. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Si ce Pokémon est un Pokémon Évolué de niveau 2, cette attaque inflige 50 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage more instead. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch and Run",
-				fr: "Frapper et partir en courant",
-				de: "Punch and Run"
+				'en-us': "Punch and Run",
+				'fr-fr': "Frapper et partir en courant",
+				'de-de': "Punch and Run"
 			},
 			effect: {
-				en: "Switch Politoed ex with 1 of your Benched Pokémon.",
-				fr: "Échangez Tarpaud ex avec 1 des Pokémon de votre Banc.",
-				de: "Switch Politoed ex with 1 of your Benched Pokémon."
+				'en-us': "Switch Politoed ex with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Tarpaud ex avec 1 des Pokémon de votre Banc.",
+				'de-de': "Switch Politoed ex with 1 of your Benched Pokémon."
 			},
 			damage: 40,
 
@@ -75,14 +75,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
-				fr: "Engloutir",
-				de: "Swallow Up"
+				'en-us': "Swallow Up",
+				'fr-fr': "Engloutir",
+				'de-de': "Swallow Up"
 			},
 			effect: {
-				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Politoed ex. If the Defending Pokémon has fewer remaining HP than Politoed ex's, this attack does 120 damage instead.",
-				fr: "Avant d'infliger des dégâts, comptabilisez les Points de vie restants du Pokémon Défenseur et de Tarpaud ex. S'il reste au Pokémon Défenseur moins de Points de vie que Tarpaud ex, cette attaque inflige 120 dégâts.",
-				de: "Before doing damage, count the remaining HP of the Defending Pokémon and Politoed ex. If the Defending Pokémon has fewer remaining HP than Politoed ex's, this attack does 120 damage instead."
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Politoed ex. If the Defending Pokémon has fewer remaining HP than Politoed ex's, this attack does 120 damage instead.",
+				'fr-fr': "Avant d'infliger des dégâts, comptabilisez les Points de vie restants du Pokémon Défenseur et de Tarpaud ex. S'il reste au Pokémon Défenseur moins de Points de vie que Tarpaud ex, cette attaque inflige 120 dégâts.",
+				'de-de': "Before doing damage, count the remaining HP of the Defending Pokémon and Politoed ex. If the Defending Pokémon has fewer remaining HP than Politoed ex's, this attack does 120 damage instead."
 			},
 			damage: 70,
 

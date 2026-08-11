@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Iono's Tadbulb",
-		fr: "Têtampoule de Mashynn",
-		es: "Tadbulb de e-Nigma",
+		'en-us': "Iono's Tadbulb",
+		'fr-fr': "Têtampoule de Mashynn",
+		'es-es': "Tadbulb de e-Nigma",
 		'es-mx': "Tadbulb de e-Nigma",
-		de: "Enigmaras Blipp",
-		it: "Tadbulb di Kissara",
-		pt: "Tadbulb da Kissera"
+		'de-de': "Enigmaras Blipp",
+		'it-it': "Tadbulb di Kissara",
+		'pt-br': "Tadbulb da Kissera"
 	},
 
 	illustrator: "kurumitsu",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Tiny Charge",
-			fr: "Décharge Mineure",
-			es: "Carga Diminuta",
+			'en-us': "Tiny Charge",
+			'fr-fr': "Décharge Mineure",
+			'es-es': "Carga Diminuta",
 			'es-mx': "Minicarga",
-			de: "Mini-Stromstoß",
-			it: "Sottocarica Minuscola",
-			pt: "Carga Pequenina"
+			'de-de': "Mini-Stromstoß",
+			'it-it': "Sottocarica Minuscola",
+			'pt-br': "Carga Pequenina"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+		'en-us': "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
 	},
 
 	variants: [

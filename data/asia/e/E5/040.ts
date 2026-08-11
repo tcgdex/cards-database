@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "電極",
+		'ja-jp': "電極",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "プラズマ",
+				'ja-jp': "プラズマ",
 			},
 			effect: {
-				ja: "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つを電極に取り付けます。",
+				'ja-jp': "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つを電極に取り付けます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "セルフデストラクト",
+				'ja-jp': "セルフデストラクト",
 			},
 			effect: {
-				ja: "この攻撃は、各プレイヤーのベンチで各ポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）電極はそれ自体に100の損傷を与えます。",
+				'ja-jp': "この攻撃は、各プレイヤーのベンチで各ポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）電極はそれ自体に100の損傷を与えます。",
 			},
 			damage: 100,
 		},

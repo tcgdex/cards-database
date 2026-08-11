@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリィのズルズキン",
+		'ja-jp': "マリィのズルズキン",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "縄張りに 入ってきた 相手を 集団で 打ちのめす。 口から 酸性の 体液を 飛ばす。",
+		'ja-jp': "縄張りに 入ってきた 相手を 集団で 打ちのめす。 口から 酸性の 体液を 飛ばす。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マリィのズルッグ",
+		'ja-jp': "マリィのズルッグ",
 	},
 
 	retreat: 2,

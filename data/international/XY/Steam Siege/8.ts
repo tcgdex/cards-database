@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Yanmega BREAK",
-		fr: "Yanmega TURBO",
-		es: "Yanmega TURBO",
-		it: "Yanmega TURBO",
-		pt: "Yanmega TURBO",
-		de: "Yanmega-TURBO"
+		'en-us': "Yanmega BREAK",
+		'fr-fr': "Yanmega TURBO",
+		'es-es': "Yanmega TURBO",
+		'it-it': "Yanmega TURBO",
+		'pt-br': "Yanmega TURBO",
+		'de-de': "Yanmega-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yanmega",
-		fr: "Yanmega",
-		es: "Yanmega",
-		it: "Yanmega",
-		pt: "Yanmega",
-		de: "Yanmega"
+		'en-us': "Yanmega",
+		'fr-fr': "Yanmega",
+		'es-es': "Yanmega",
+		'it-it': "Yanmega",
+		'pt-br': "Yanmega",
+		'de-de': "Yanmega"
 	},
 
 	stage: "BREAK",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Barrier Break",
-				fr: "Brise Barrière",
-				es: "Rotura Barrera",
-				it: "Infrangibarriera",
-				pt: "Quebra-barreira",
-				de: "Barrierebrecher"
+				'en-us': "Barrier Break",
+				'fr-fr': "Brise Barrière",
+				'es-es': "Rotura Barrera",
+				'it-it': "Infrangibarriera",
+				'pt-br': "Quebra-barreira",
+				'de-de': "Barrierebrecher"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
-				es: "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
-				it: "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
-				pt: "Os danos deste ataque não são afetados por Fraqueza, Resistência ou qualquer outro efeito no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Os danos deste ataque não são afetados por Fraqueza, Resistência ou qualquer outro efeito no Pokémon Ativo do seu oponente.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 100,
 

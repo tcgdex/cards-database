@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	rarity: "Uncommon",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+		'en-us': "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Fiery Cheering",
-			fr: "Soutien Fougueux",
-			de: "Feuriges Anfeuern",
-			es: "Ovación Ardiente",
-			pt: "Torcida Flamejante",
-			it: "Incitamento Ardente"
+			'en-us': "Fiery Cheering",
+			'fr-fr': "Soutien Fougueux",
+			'de-de': "Feuriges Anfeuern",
+			'es-es': "Ovación Ardiente",
+			'pt-br': "Torcida Flamejante",
+			'it-it': "Incitamento Ardente"
 		},
 
 		effect: {
-			en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-			fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an.",
-			es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
-			pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti."
+			'en-us': "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+			'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			'de-de': "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an.",
+			'es-es': "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
+			'pt-br': "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			'it-it': "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti."
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			de: "Flackern",
-			es: "Llama",
-			pt: "Chama",
-			it: "Fiammata"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'de-de': "Flackern",
+			'es-es': "Llama",
+			'pt-br': "Chama",
+			'it-it': "Fiammata"
 		},
 
 		damage: 20

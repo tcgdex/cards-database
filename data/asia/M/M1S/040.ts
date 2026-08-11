@@ -1,30 +1,30 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラルトス"
+		'ja-jp': "ラルトス"
 	},
 	illustrator: "Terada Tera",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
 	description: {
-		ja: "人の感情を頭の赤いツノで敏感にキャッチする力を持つ。"
+		'ja-jp': "人の感情を頭の赤いツノで敏感にキャッチする力を持つ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "もってくる"
+			'ja-jp': "もってくる"
 		},
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			'ja-jp': "自分の山札を1枚引く。"
 		},
 		cost: ["Colorless"]
 	}, {
 		name: {
-			ja: "ずつき"
+			'ja-jp': "ずつき"
 		},
 		damage: 10,
 		cost: ["Psychic"]

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [434],
 
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
-		it: "Stunky",
-		pt: "Stunky",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,20 +25,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz Toxik",
-				es: "Gas Venenoso",
-				it: "Velenogas",
-				pt: "Gás Venenoso",
-				de: "Giftwolke"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz Toxik",
+				'es-es': "Gas Venenoso",
+				'it-it': "Velenogas",
+				'pt-br': "Gás Venenoso",
+				'de-de': "Giftwolke"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
+		'en-us': "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
 	},
 
 	variants: [

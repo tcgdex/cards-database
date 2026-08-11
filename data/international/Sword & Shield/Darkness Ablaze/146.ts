@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [397],
 
 	name: {
-		en: "Staravia",
-		fr: "Étourvol",
-		es: "Staravia",
-		it: "Staravia",
-		pt: "Staravia",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
+		'es-es': "Staravia",
+		'it-it': "Staravia",
+		'pt-br': "Staravia",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "chibi",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi",
-		es: "Starly",
-		it: "Starly",
-		pt: "Starly",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'es-es': "Starly",
+		'it-it': "Starly",
+		'pt-br': "Starly",
+		'de-de': "Staralili"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				es: "Emboscada",
-				it: "Imboscata",
-				pt: "Emboscada",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'es-es': "Emboscada",
+				'it-it': "Imboscata",
+				'pt-br': "Emboscada",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Ailes",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Ailes",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 40,
@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide."
+		'en-us': "It lives in forests and fields. Squabbles over territory occur when flocks collide."
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw2: Set = {
 	id: "bw2",
 
 	name: {
-		en: "Emerging Powers",
-		fr: "Pouvoirs Émergents",
-		es: "Fuerzas Emergentes",
-		it: "Nuove Forze",
-		de: "Aufstreben der Mächtigen",
-		pt: "Poderes Emergentes"
+		'en-us': "Emerging Powers",
+		'fr-fr': "Pouvoirs Émergents",
+		'es-es': "Fuerzas Emergentes",
+		'it-it': "Nuove Forze",
+		'de-de': "Aufstreben der Mächtigen",
+		'pt-br': "Poderes Emergentes"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw2: Set = {
 
 	abbreviations: {
 		official: "EP",
-		fr: "PEM"
+		'fr-fr': "PEM"
 	},
 
 	thirdParty: {

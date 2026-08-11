@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		es: "Croconaw",
-		it: "Croconaw",
-		pt: "Croconaw",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'es-es': "Croconaw",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw",
+		'de-de': "Tyracroc"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
-		it: "Totodile",
-		pt: "Totodile",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
+		'it-it': "Totodile",
+		'pt-br': "Totodile",
+		'de-de': "Karnimani"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Reverse Thrust",
-			fr: "Poussée Inverse",
-			es: "Invertir Impulso",
-			it: "Tornaindietro",
-			pt: "Impulso Reverso",
-			de: "Umkehrschub"
+			'en-us': "Reverse Thrust",
+			'fr-fr': "Poussée Inverse",
+			'es-es': "Invertir Impulso",
+			'it-it': "Tornaindietro",
+			'pt-br': "Impulso Reverso",
+			'de-de': "Umkehrschub"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+		'en-us': "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Coalossal"
+		'id-id': "Coalossal"
 	},
 
 	illustrator: "Shiburingaru",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Coalossal mengguncangkan badannya dan menyebarkan batu bara dari punggungnya yang membara ke sekitar untuk mengintimidasi."
+		'id-id': "Coalossal mengguncangkan badannya dan menyebarkan batu bara dari punggungnya yang membara ke sekitar untuk mengintimidasi."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Gatling Tar"
+			'id-id': "Gatling Tar"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 80 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 80 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "40+",
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Gunung Longsor"
+			'id-id': "Gunung Longsor"
 		},
 
 		effect: {
-			id: "Buang 2 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 2 kartu dari atas Deck lawan ke Trash."
 		},
 
 		damage: 150,

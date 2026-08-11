@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
-		de: "Celebi",
-		it: "Celebi",
-		es: "Celebi",
-		pt: "Celebi",
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
+		'de-de': "Celebi",
+		'it-it': "Celebi",
+		'es-es': "Celebi",
+		'pt-br': "Celebi",
 		'es-mx': "Celebi"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Traverse Time",
-			fr: "À Travers le Temps",
-			de: "Reise durch die Zeit",
-			it: "Traversata Temporale",
-			es: "Viaje Transtemporal",
-			pt: "Travessia Temporal",
+			'en-us': "Traverse Time",
+			'fr-fr': "À Travers le Temps",
+			'de-de': "Reise durch die Zeit",
+			'it-it': "Traversata Temporale",
+			'es-es': "Viaje Transtemporal",
+			'pt-br': "Travessia Temporal",
 			'es-mx': "Travesía Temporal"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 in any combination of {G} Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une combinaison d'un maximum de 3 Pokémon {G} et/ou cartes Stade, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 {G}-Pokémon und Stadionkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a tre fra Pokémon {G} e carte Stadio in qualsiasi combinazione, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			es: "Busca en tu baraja, en cualquier combinación, hasta 3 cartas de Pokémon {G} y de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 3 cartas de Pokémon {G} e de Estádio no seu baralho em qualquer combinação, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'en-us': "Search your deck for up to 3 in any combination of {G} Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une combinaison d'un maximum de 3 Pokémon {G} et/ou cartes Stade, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'de-de': "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 {G}-Pokémon und Stadionkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo fino a tre fra Pokémon {G} e carte Stadio in qualsiasi combinazione, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+			'es-es': "Busca en tu baraja, en cualquier combinación, hasta 3 cartas de Pokémon {G} y de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por até 3 cartas de Pokémon {G} e de Estádio no seu baralho em qualquer combinação, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 			'es-mx': "Busca en tu mazo, en cualquier combinación, hasta 3 cartas de Pokémon {G} y de Estadio, muéstralas y ponlas en tu mano. Después, baraja tu mazo."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Solar Cutter",
-			fr: "Coupe Solaire",
-			de: "Solarschneider",
-			it: "Taglio Solare",
-			es: "Corte Solar",
-			pt: "Cortador Solar",
+			'en-us': "Solar Cutter",
+			'fr-fr': "Coupe Solaire",
+			'de-de': "Solarschneider",
+			'it-it': "Taglio Solare",
+			'es-es': "Corte Solar",
+			'pt-br': "Cortador Solar",
 			'es-mx': "Corte Solar"
 		},
 

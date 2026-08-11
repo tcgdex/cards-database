@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミライドン",
+		'ja-jp': "ミライドン",
 		'zh-tw': "操陷蛛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "詳細は よく わかっていない。 モトトカゲに 似た 印象だが はるかに 強く 冷酷なのだ。",
+		'ja-jp': "詳細は よく わかっていない。 モトトカゲに 似た 印象だが はるかに 強く 冷酷なのだ。",
 		'zh-tw': "用絲線吸附在樹枝或天花板上 無聲無息地移動。會在自己 被察覺到之前將獵物打倒。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "千絲束縛",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ライトニングレーザー",
+				'ja-jp': "ライトニングレーザー",
 				'zh-tw': "噴射頭擊",
 			},
 			damage: 90,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

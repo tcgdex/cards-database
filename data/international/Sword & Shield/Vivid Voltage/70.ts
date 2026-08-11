@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [356],
 
 	name: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		it: "Dusclops",
-		pt: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'it-it': "Dusclops",
+		'pt-br': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		it: "Duskull",
-		pt: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				es: "Rayo Confuso",
-				it: "Stordiraggio",
-				pt: "Raio da Confusão",
-				de: "Konfusstrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'es-es': "Rayo Confuso",
+				'it-it': "Stordiraggio",
+				'pt-br': "Raio da Confusão",
+				'de-de': "Konfusstrahl"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de Poing Psy",
-				es: "Psicopuño",
-				it: "Psicopugno",
-				pt: "Soco Psíquico",
-				de: "Psyhieb"
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de Poing Psy",
+				'es-es': "Psicopuño",
+				'it-it': "Psicopugno",
+				'pt-br': "Soco Psíquico",
+				'de-de': "Psyhieb"
 			},
 
 			damage: 60,
@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
+		'en-us': "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
 	},
 
 	variants: [

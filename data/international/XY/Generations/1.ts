@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Venusaur EX",
-		fr: "Florizarre-EX",
+		'en-us': "Venusaur EX",
+		'fr-fr': "Florizarre-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frog Hop",
-				fr: "Bond de Grenouille",
+				'en-us': "Frog Hop",
+				'fr-fr': "Bond de Grenouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "40+",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Impact",
-				fr: "Impact Poison",
+				'en-us': "Poison Impact",
+				'fr-fr': "Impact Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 			damage: 80,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frogadier"
+		'en-us': "Frogadier"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Froakie"
+		'en-us': "Froakie"
 	},
 
 	description: {
-		en: "Its swiftness is unparalleled.\nIt can scale a tower of more\nthan 2,000 feet in a minute's time."
+		'en-us': "Its swiftness is unparalleled.\nIt can scale a tower of more\nthan 2,000 feet in a minute's time."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bounce"
+			'en-us': "Bounce"
 		},
 
 		damage: 40,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドータクン",
+		'ja-jp': "ドータクン",
 		'zh-tw': "青銅鐘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "雨雲を呼ぶ 神と いわれる。 怒らせると 鐘の音の ような 不気味な 声で 威嚇する。",
+		'ja-jp': "雨雲を呼ぶ 神と いわれる。 怒らせると 鐘の音の ような 不気味な 声で 威嚇する。",
 		'zh-tw': "被稱為能召喚雨雲的神明。生氣時會用像鐘聲一般令人 毛骨悚然的聲音來威嚇對手。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "たいねつ",
+				'ja-jp': "たいねつ",
 				'zh-tw': "耐熱",
 			},
 			effect: {
-				ja: "このポケモンは、相手の[R]ポケモンからワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手の[R]ポケモンからワザのダメージを受けない。",
 				'zh-tw': "這隻寶可夢不會受到對手的【火】寶可夢招式的傷害。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 			},
 			damage: 100,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	retreat: 3,

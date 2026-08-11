@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Astonish",
-				de: "Erstauner"
+				'en-us': "Astonish",
+				'de-de': "Erstauner"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
-				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 30,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
+		'en-us': "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
 	},
 
 	variants: [

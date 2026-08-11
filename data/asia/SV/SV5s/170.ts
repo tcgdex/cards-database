@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gouging Fire ex"
+		'id-id': "Gouging Fire ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,18 +17,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Heat Blast"
+			'id-id': "Heat Blast"
 		},
 
 		damage: 60,
 		cost: ["Fire", "Colorless"]
 	}, {
 		name: {
-			id: "Maju Pesat Api Berkobar"
+			'id-id': "Maju Pesat Api Berkobar"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini telah menggunakan serangan ini, Pokémon ini tidak dapat menggunakan Maju Pesat Api Berkobar hingga meninggalkan Arena Bertarung."
+			'id-id': "Jika Pokémon ini telah menggunakan serangan ini, Pokémon ini tidak dapat menggunakan Maju Pesat Api Berkobar hingga meninggalkan Arena Bertarung."
 		},
 
 		damage: 260,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アチゲータ",
+		'ja-jp': "アチゲータ",
 	},
 
 	illustrator: "Atsuya Uki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "声帯と 炎袋の 弁は 密接な 関係。 だみ声を 上げながら 炎を 吐き散らす。",
+		'ja-jp': "声帯と 炎袋の 弁は 密接な 関係。 だみ声を 上げながら 炎を 吐き散らす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、50ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、50ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホゲータ",
+		'ja-jp': "ホゲータ",
 	},
 
 	retreat: 3,

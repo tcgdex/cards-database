@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキメノコ",
+		'ja-jp': "ユキメノコ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪山登山に 来た 山男を 氷漬けにし 棲家に 持ち帰る。 美男子 しか 狙われない。",
+		'ja-jp': "雪山登山に 来た 山男を 氷漬けにし 棲家に 持ち帰る。 美男子 しか 狙われない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンにダメカンを7個までのせ、のせた数×20ダメージ。",
+				'ja-jp': "このポケモンにダメカンを7個までのせ、のせた数×20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Incineroar ex"
+		'en-us': "Incineroar ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torracat"
+		'en-us': "Torracat"
 	},
 
 	stage: "Stage2",
@@ -25,25 +25,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Fang"
+			'en-us': "Fire Fang"
 		},
 
 		damage: 30,
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			'en-us': "Your opponent's Active Pokémon is now Burned."
 		}
 	}, {
 		name: {
-			en: "Scar-Charged Smash"
+			'en-us': "Scar-Charged Smash"
 		},
 
 		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has damage on it, this attack does 60 more damage."
+			'en-us': "If this Pokémon has damage on it, this attack does 60 more damage."
 		}
 	}],
 

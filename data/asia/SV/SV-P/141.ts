@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカイフィールド",
+		'ja-jp': "スカイフィールド",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーがベンチに出せるポケモンの数は、8匹になる。（このカードがトラッシュされたとき、ベンチに6匹以上いるプレイヤーは、ベンチが5匹になるまでポケモンをトラッシュする。トラッシュするのは、このカードの持ち主から。）",
+		'ja-jp': "おたがいのプレイヤーがベンチに出せるポケモンの数は、8匹になる。（このカードがトラッシュされたとき、ベンチに6匹以上いるプレイヤーは、ベンチが5匹になるまでポケモンをトラッシュする。トラッシュするのは、このカードの持ち主から。）",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		es: "Muk",
-		it: "Muk",
-		pt: "Muk",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'es-es': "Muk",
+		'it-it': "Muk",
+		'pt-br': "Muk",
+		'de-de': "Sleimok"
 	},
 
 	illustrator: "Scav",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		es: "Grimer",
-		it: "Grimer",
-		pt: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'es-es': "Grimer",
+		'it-it': "Grimer",
+		'pt-br': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sludge Street",
-			fr: "Passage Dégueu",
-			es: "Calle Lodo",
-			it: "Strada di Melma",
-			pt: "Lodo na Rua",
-			de: "Schlammstraße"
+			'en-us': "Sludge Street",
+			'fr-fr': "Passage Dégueu",
+			'es-es': "Calle Lodo",
+			'it-it': "Strada di Melma",
+			'pt-br': "Lodo na Rua",
+			'de-de': "Schlammstraße"
 		},
 
 		effect: {
-			en: "The Retreat Cost of your opponent's Poisoned Pokémon is Colorless more.",
-			fr: "Le Coût de Retraite des Pokémon Empoisonnés de votre adversaire augmente de Colorless.",
-			es: "El Coste de Retirada de los Pokémon Envenenados de tu rival es de Colorless más.",
-			it: "Il costo di ritirata dei Pokémon avvelenati del tuo avversario aumenta di Colorless.",
-			pt: "O custo de Recuo dos Pokémon Envenenados do seu oponente é Colorless a mais.",
-			de: "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um Colorless."
+			'en-us': "The Retreat Cost of your opponent's Poisoned Pokémon is Colorless more.",
+			'fr-fr': "Le Coût de Retraite des Pokémon Empoisonnés de votre adversaire augmente de Colorless.",
+			'es-es': "El Coste de Retirada de los Pokémon Envenenados de tu rival es de Colorless más.",
+			'it-it': "Il costo di ritirata dei Pokémon avvelenati del tuo avversario aumenta di Colorless.",
+			'pt-br': "O custo de Recuo dos Pokémon Envenenados do seu oponente é Colorless a mais.",
+			'de-de': "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um Colorless."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Shrieking Poison",
-			fr: "Poison Hurleur",
-			es: "Veneno Chillón",
-			it: "Velenostrido",
-			pt: "Veneno Gritante",
-			de: "Kreischendes Gift"
+			'en-us': "Shrieking Poison",
+			'fr-fr': "Poison Hurleur",
+			'es-es': "Veneno Chillón",
+			'it-it': "Velenostrido",
+			'pt-br': "Veneno Gritante",
+			'de-de': "Kreischendes Gift"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 		},
 
 		damage: 90
@@ -88,7 +88,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+		'en-us': "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
 	},
 
 	variants: [

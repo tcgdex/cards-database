@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リーフィアex",
-		id: "Leafeon ex",
+		'ja-jp': "リーフィアex",
+		'id-id': "Leafeon ex",
 		'zh-tw': "葉伊布ex",
 		'zh-cn': "葉伊布ex"
 	},
@@ -23,8 +23,8 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "あおばのあらし",
-			id: "Badai Daun Segar",
+			'ja-jp': "あおばのあらし",
+			'id-id': "Badai Daun Segar",
 			'zh-tw': "綠葉風暴",
 			'zh-cn': "綠葉風暴"
 		},
@@ -32,8 +32,8 @@ const card: Card = {
 		damage: "60×",
 
 		effect: {
-			ja: "相手のポケモン全員についているエネルギーの数×60ダメージ。",
-			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Energi yang dikenakan pada semua Pokémon lawan.",
+			'ja-jp': "相手のポケモン全員についているエネルギーの数×60ダメージ。",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Energi yang dikenakan pada semua Pokémon lawan.",
 			'zh-tw': "造成對手的所有寶可夢身上附加的能量的數量×60點傷害。",
 			'zh-cn': "造成對手的所有寶可夢身上附加的能量的數量×60點傷害。"
 		}
@@ -41,8 +41,8 @@ const card: Card = {
 		cost: ["Grass", "Fire", "Water"],
 
 		name: {
-			ja: "モスアゲート",
-			id: "Moss Agate",
+			'ja-jp': "モスアゲート",
+			'id-id': "Moss Agate",
 			'zh-tw': "苔紋瑪瑙",
 			'zh-cn': "苔紋瑪瑙"
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 		damage: 230,
 
 		effect: {
-			ja: "自分のベンチポケモン全員のHPを、それぞれ「100」回復する。",
-			id: "Pulihkan HP semua Pokémon Cadangan sendiri masing-masing sejumlah 100.",
+			'ja-jp': "自分のベンチポケモン全員のHPを、それぞれ「100」回復する。",
+			'id-id': "Pulihkan HP semua Pokémon Cadangan sendiri masing-masing sejumlah 100.",
 			'zh-tw': "將自己的所有備戰寶可夢各恢復「100」HP。",
 			'zh-cn': "將自己的所有備戰寶可夢各恢復「100」HP。"
 		}

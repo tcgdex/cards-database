@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィアGX",
+		'ja-jp': "ニンフィアGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "マジカルリボン" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の山札にある好きなカードを3枚まで、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある好きなカードを3枚まで、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			name: { ja: "プリエールGX" },
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹と、そのポケモンについているすべてのカードを、相手の手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモン2匹と、そのポケモンについているすべてのカードを、相手の手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

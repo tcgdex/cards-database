@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAL"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "電龍ex",
-		th: "เด็นริวex",
-		id: "Ampharos ex"
+		'th-th': "เด็นริวex",
+		'id-id': "Ampharos ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,8 +20,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "電球",
-			th: "อิเล็กทริกบอล",
-			id: "Electro Ball"
+			'th-th': "อิเล็กทริกบอล",
+			'id-id': "Electro Ball"
 		},
 
 		damage: 60,
@@ -29,14 +29,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "雷電尾",
-			th: "ไลท์นิงเทล",
-			id: "Lightning Tail"
+			'th-th': "ไลท์นิงเทล",
+			'id-id': "Lightning Tail"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將2個這隻寶可夢身上附加的能量丟棄，增加100點傷害。",
-			th: "หากต้องการ ทิ้งพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูกที่ตำแหน่งทิ้งการ์ด การโจมตีนี้จะเพิ่มแดเมจอีก 100",
-			id: "Pemain dapat membuang 2 Energi yang dikenakan pada Pokémon ini ke Trash, kerusakan yang diberikan bertambah sejumlah 100."
+			'th-th': "หากต้องการ ทิ้งพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูกที่ตำแหน่งทิ้งการ์ด การโจมตีนี้จะเพิ่มแดเมจอีก 100",
+			'id-id': "Pemain dapat membuang 2 Energi yang dikenakan pada Pokémon ini ke Trash, kerusakan yang diberikan bertambah sejumlah 100."
 		},
 
 		damage: "140+",

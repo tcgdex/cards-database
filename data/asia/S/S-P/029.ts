@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャースVMAX",
+		'ja-jp': "ニャースVMAX",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャースV",
+		'ja-jp': "ニャースV",
 	},
 
 	retreat: 2,

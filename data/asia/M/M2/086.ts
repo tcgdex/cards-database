@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワンパチ",
+		'ja-jp': "ワンパチ",
 	},
 
 	illustrator: "tono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "おやつに 釣られて 人の 仕事を  手伝う 食いしん坊。 パチパチと  電気を まとって ひた走る。",
+		'ja-jp': "おやつに 釣られて 人の 仕事を  手伝う 食いしん坊。 パチパチと  電気を まとって ひた走る。",
 	},
 
 	stage: "Basic",

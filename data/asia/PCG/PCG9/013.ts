@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミロティック（デルタ種）",
+		'ja-jp': "ミロティック（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "共有",
+				'ja-jp': "共有",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、相手の手を見ることができます。そこにあるサポーターカードの効果を、このパワーの効果として使用できます。 （サポーターカードは相手の手に残ります。）ターンごとに1つ以上の共有Pokã©Powerを使用することはできません。 Miloticが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、相手の手を見ることができます。そこにあるサポーターカードの効果を、このパワーの効果として使用できます。 （サポーターカードは相手の手に残ります。）ターンごとに1つ以上の共有Pokã©Powerを使用することはできません。 Miloticが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "フレア",
+				'ja-jp': "フレア",
 			},
 			damage: 60,
 		},

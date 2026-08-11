@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Salamence",
-		fr: "Drattak",
-		de: "Brutalanda"
+		'en-us': "Salamence",
+		'fr-fr': "Drattak",
+		'de-de': "Brutalanda"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Fang",
-				fr: "Croc intimidant",
-				de: "Intimidating Fang"
+				'en-us': "Intimidating Fang",
+				'fr-fr': "Croc intimidant",
+				'de-de': "Intimidating Fang"
 			},
 			effect: {
-				en: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Tant que Drattak est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+				'en-us': "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Drattak est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Flame",
-				fr: "Flamme de dragon",
-				de: "Dragon Flame"
+				'en-us': "Dragon Flame",
+				'fr-fr': "Flamme de dragon",
+				'de-de': "Dragon Flame"
 			},
 			effect: {
-				en: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage.",
-				fr: "Vous pouvez défausser une carte Énergie attachée à Drattak. Cette attaque inflige alors 60 dégâts.",
-				de: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage."
+				'en-us': "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie attachée à Drattak. Cette attaque inflige alors 60 dégâts.",
+				'de-de': "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

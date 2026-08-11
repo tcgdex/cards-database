@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピンロトム",
+		'ja-jp': "スピンロトム",
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ロトムが 入れる 家電製品は いくつか あるが いちばん 初めに 開発されたのは 扇風機だ。",
+		'ja-jp': "ロトムが 入れる 家電製品は いくつか あるが いちばん 初めに 開発されたのは 扇風機だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ファンコール" },
 			effect: {
-				ja: "最初の自分の番にだけ1回使える。自分の山札から、HPが「100」以下の[C]ポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「ファンコール」を使っていたなら、この特性は使えない。",
+				'ja-jp': "最初の自分の番にだけ1回使える。自分の山札から、HPが「100」以下の[C]ポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「ファンコール」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ていないなら、このワザは失敗。",
+				'ja-jp': "場にスタジアムが出ていないなら、このワザは失敗。",
 			},
 		},
 	],

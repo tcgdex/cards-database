@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
 			},
 
 			damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+		'en-us': "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
 	},
 
 	thirdParty: {

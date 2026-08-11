@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex",
-		fr: "Pikachu-ex",
-		es: "Pikachu ex",
-		pt: "Pikachu ex",
-		it: "Pikachu-ex",
-		de: "Pikachu-ex"
+		'en-us': "Pikachu ex",
+		'fr-fr': "Pikachu-ex",
+		'es-es': "Pikachu ex",
+		'pt-br': "Pikachu ex",
+		'it-it': "Pikachu-ex",
+		'de-de': "Pikachu-ex"
 	},
 
 	rarity: "Double rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			pt: "Surra de Cauda",
-			it: "Codabotta",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
+			'it-it': "Codabotta",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Thunder",
-			fr: "Fatal-Foudre",
-			es: "Trueno",
-			pt: "Trovão",
-			it: "Tuono",
-			de: "Donner"
+			'en-us': "Thunder",
+			'fr-fr': "Fatal-Foudre",
+			'es-es': "Trueno",
+			'pt-br': "Trovão",
+			'it-it': "Tuono",
+			'de-de': "Donner"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 220

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โฮเกเตอร์",
-		id: "Fuecoco"
+		'th-th': "โฮเกเตอร์",
+		'id-id': "Fuecoco"
 	},
 
 	illustrator: "Gemi",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "นอนเกลือกกลิ้งอยู่บนหินอุ่น สร้างพลังงานไฟด้วยความร้อนที่ดูดซับเข้ามาด้วยเกล็ดสี่เหลี่ยม",
-		id: "Fuecoco berbaring di atas batu hangat dan menciptakan energi api dengan menyerap energi panas tersebut menggunakan sisik perseginya."
+		'th-th': "นอนเกลือกกลิ้งอยู่บนหินอุ่น สร้างพลังงานไฟด้วยความร้อนที่ดูดซับเข้ามาด้วยเกล็ดสี่เหลี่ยม",
+		'id-id': "Fuecoco berbaring di atas batu hangat dan menciptakan energi api dengan menyerap energi panas tersebut menggunakan sisik perseginya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เชื้อไฟ",
-			id: "Nyala Api"
+			'th-th': "เชื้อไฟ",
+			'id-id': "Nyala Api"
 		},
 
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 30,

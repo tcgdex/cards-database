@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [494],
 
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Draw",
-				fr: "Pioche Rapide",
-				es: "Robo Rápido",
-				it: "Pescalesto",
-				pt: "Retirada Rápida",
-				de: "Schnellzieher"
+				'en-us': "Quick Draw",
+				'fr-fr': "Pioche Rapide",
+				'es-es': "Robo Rápido",
+				'it-it': "Pescalesto",
+				'pt-br': "Retirada Rápida",
+				'de-de': "Schnellzieher"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+		'en-us': "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	},
 
 	thirdParty: {

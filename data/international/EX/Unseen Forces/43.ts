@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spearhead",
-				fr: "Meneur",
-				de: "Spearhead"
+				'en-us': "Spearhead",
+				'fr-fr': "Meneur",
+				'de-de': "Spearhead"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				de: "Draw 3 cards."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'de-de': "Draw 3 cards."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise",
-				fr: "Surprise",
-				de: "Surprise"
+				'en-us': "Surprise",
+				'fr-fr': "Surprise",
+				'de-de': "Surprise"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire. Ensuite, regardez la carte et demandez à votre adversaire de la mélanger à son deck.",
-				de: "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
+				'fr-fr': "Choisissez sans regarder 1 carte de la main de votre adversaire. Ensuite, regardez la carte et demandez à votre adversaire de la mélanger à son deck.",
+				'de-de': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
 			},
 			damage: 30,
 

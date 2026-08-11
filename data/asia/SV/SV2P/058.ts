@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キャモメ",
+		'ja-jp': "キャモメ",
 		'zh-tw': "長翅鷗",
-		th: "คาโมเมะ",
-		id: "Wingull"
+		'th-th': "คาโมเมะ",
+		'id-id': "Wingull"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "上昇 気流に 乗って グライダーのように 大空を 舞い くちばしに 挟んだ エサを運ぶ。",
+		'ja-jp': "上昇 気流に 乗って グライダーのように 大空を 舞い くちばしに 挟んだ エサを運ぶ。",
 		'zh-tw': "會乘著上升氣流，如同滑翔機般地飛在空中 輸送鳥嘴銜著的食物。",
-		th: "คาบอาหารไว้ในปากแล้วอาศัยกระแสลมไหลขึ้นเพื่อบินสูงขึ้นไปบนฟ้ากว้างราวเครื่องร่อน",
-		id: "Wingull menggunakan aliran angin untuk terbang ke langit layaknya pesawat luncur. Pokémon ini menjepit dan membawa makanannya dengan paruhnya."
+		'th-th': "คาบอาหารไว้ในปากแล้วอาศัยกระแสลมไหลขึ้นเพื่อบินสูงขึ้นไปบนฟ้ากว้างราวเครื่องร่อน",
+		'id-id': "Wingull menggunakan aliran angin untuk terbang ke langit layaknya pesawat luncur. Pokémon ini menjepit dan membawa makanannya dengan paruhnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かぜおこし",
+			'ja-jp': "かぜおこし",
 			'zh-tw': "起風",
-			th: "เรียกลม",
-			id: "Hembusan Angin"
+			'th-th': "เรียกลม",
+			'id-id': "Hembusan Angin"
 		},
 
 		damage: 30

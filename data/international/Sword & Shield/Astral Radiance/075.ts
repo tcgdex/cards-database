@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Regirock",
-		fr: "Regirock",
-		es: "Regirock",
-		it: "Regirock",
-		pt: "Regirock",
-		de: "Regirock"
+		'en-us': "Regirock",
+		'fr-fr': "Regirock",
+		'es-es': "Regirock",
+		'it-it': "Regirock",
+		'pt-br': "Regirock",
+		'de-de': "Regirock"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Regi Gate",
-			fr: "Porte Regi",
-			es: "Regi Puerta",
-			it: "Portale Regi",
-			pt: "Portal Regi",
-			de: "Regi-Pforte"
+			'en-us': "Regi Gate",
+			'fr-fr': "Porte Regi",
+			'es-es': "Regi Puerta",
+			'it-it': "Portale Regi",
+			'pt-br': "Portal Regi",
+			'de-de': "Regi-Pforte"
 		},
 
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact",
-			es: "Gigaimpacto",
-			it: "Gigaimpatto",
-			pt: "Gigaimpacto",
-			de: "Gigastoß"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact",
+			'es-es': "Gigaimpacto",
+			'it-it': "Gigaimpatto",
+			'pt-br': "Gigaimpacto",
+			'de-de': "Gigastoß"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 140
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
+		'en-us': "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
 	},
 
 	variants: [

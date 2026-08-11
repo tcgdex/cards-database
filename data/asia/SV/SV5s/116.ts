@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tranquill"
+		'id-id': "Tranquill"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Kecepatan terbang Tranquill di angkasa biasa saja. Akan tetapi, ia dapat mengingat wajah pelatih dan posisi sarangnya sehingga selalu bisa pulang kembali walau terpisah di tempat sejauh apa pun."
+		'id-id': "Kecepatan terbang Tranquill di angkasa biasa saja. Akan tetapi, ia dapat mengingat wajah pelatih dan posisi sarangnya sehingga selalu bisa pulang kembali walau terpisah di tempat sejauh apa pun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Terbang Cepat"
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Jet Wing"
+			'id-id': "Jet Wing"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 70,

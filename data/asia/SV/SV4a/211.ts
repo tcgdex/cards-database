@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 		'zh-tw': "火恐龍",
-		id: "Charmeleon"
+		'id-id': "Charmeleon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
+		'ja-jp': "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
 		'zh-tw': "如果牠在戰鬥中亢奮起來，就會噴出灼熱的火焰， 把周圍的東西燒得一乾二淨。",
-		id: "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya."
+		'id-id': "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya."
 	},
 
 	stage: "Stage1",
@@ -28,15 +28,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "フレアヴェール",
+			'ja-jp': "フレアヴェール",
 			'zh-tw': "閃焰之幕",
-			id: "Tudung Berkobar"
+			'id-id': "Tudung Berkobar"
 		},
 
 		effect: {
-			ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+			'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 			'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
-			id: "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
+			'id-id': "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
 		}
 	}],
 
@@ -44,9 +44,9 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "かえん",
+			'ja-jp': "かえん",
 			'zh-tw': "烈焰",
-			id: "Lidah Api"
+			'id-id': "Lidah Api"
 		},
 
 		damage: 50

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
 		'es-mx': "Slowpoke",
-		de: "Flegmon",
-		it: "Slowpoke",
-		pt: "Slowpoke"
+		'de-de': "Flegmon",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke"
 	},
 
 	illustrator: "Nelnal",
@@ -24,35 +24,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "All-You-Can-Yeet",
-			fr: "Balance Tout",
-			es: "Bufé de Descartes",
+			'en-us': "All-You-Can-Yeet",
+			'fr-fr': "Balance Tout",
+			'es-es': "Bufé de Descartes",
 			'es-mx': "Descarte a Granel",
-			de: "Weg damit",
-			it: "Scarta a Volontà",
-			pt: "Taca à Vontade"
+			'de-de': "Weg damit",
+			'it-it': "Scarta a Volontà",
+			'pt-br': "Taca à Vontade"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "You may discard any number of cards from your hand.",
-			fr: "Vous pouvez défausser le nombre voulu de cartes de votre main.",
-			es: "Puedes descartar cualquier cantidad de cartas de tu mano.",
+			'en-us': "You may discard any number of cards from your hand.",
+			'fr-fr': "Vous pouvez défausser le nombre voulu de cartes de votre main.",
+			'es-es': "Puedes descartar cualquier cantidad de cartas de tu mano.",
 			'es-mx': "Puedes descartar cualquier cantidad de cartas de tu mano.",
-			de: "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen.",
-			it: "Puoi scartare un numero qualsiasi di carte che hai in mano.",
-			pt: "Você pode descartar qualquer número de cartas da sua mão."
+			'de-de': "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen.",
+			'it-it': "Puoi scartare un numero qualsiasi di carte che hai in mano.",
+			'pt-br': "Você pode descartar qualquer número de cartas da sua mão."
 		}
 	}, {
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		cost: ["Colorless", "Colorless"],

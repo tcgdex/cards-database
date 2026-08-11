@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Marowak δ",
-		fr: "Ossatueur δ",
-		de: "Knogga"
+		'en-us': "Marowak δ",
+		'fr-fr': "Ossatueur δ",
+		'de-de': "Knogga"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
-		fr: "Osselait"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Energy Bone",
-				fr: "Énergie-os",
-				de: "Energieknochen"
+				'en-us': "Energy Bone",
+				'fr-fr': "Énergie-os",
+				'de-de': "Energieknochen"
 			},
 			effect: {
-				en: "Choose a number of your opponent's Pokémon up to the amount of Energy attached to Marowak. This attack does 20 damage to each of them.",
-				fr: "Vous pouvez choisir autant de Pokémon de votre adversaire qu'il y a d'Énergie attachée à Ossatueur. Cette attaque inflige 20 dégâts à chacun de ces Pokémon.",
-				de: "Wähle eine Anzahl gegnerischer Pokémon, die maximal der Anzahl der an Knogga angelegten Energiekarten entspricht. Dieser Angriff fügt jedem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose a number of your opponent's Pokémon up to the amount of Energy attached to Marowak. This attack does 20 damage to each of them.",
+				'fr-fr': "Vous pouvez choisir autant de Pokémon de votre adversaire qu'il y a d'Énergie attachée à Ossatueur. Cette attaque inflige 20 dégâts à chacun de ces Pokémon.",
+				'de-de': "Wähle eine Anzahl gegnerischer Pokémon, die maximal der Anzahl der an Knogga angelegten Energiekarten entspricht. Dieser Angriff fügt jedem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Crusher",
-				fr: "Écrase-métal",
-				de: "Metallzermalmer"
+				'en-us': "Metal Crusher",
+				'fr-fr': "Écrase-métal",
+				'de-de': "Metallzermalmer"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Metal Pokémon, this attack's base damage is 90.",
-				fr: "Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 90.",
-				de: "Wenn das Verteidigende Pokémon ein -Pokémon ist, fügt dieser Angriff 90 Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is Metal Pokémon, this attack's base damage is 90.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 90.",
+				'de-de': "Wenn das Verteidigende Pokémon ein -Pokémon ist, fügt dieser Angriff 90 Schadenspunkte zu."
 			},
 			damage: 50,
 

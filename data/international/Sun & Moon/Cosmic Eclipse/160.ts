@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
-		es: "Jangmo-o",
-		it: "Jangmo-o",
-		pt: "Jangmo-o",
-		de: "Miniras"
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
+		'es-es': "Jangmo-o",
+		'it-it': "Jangmo-o",
+		'pt-br': "Jangmo-o",
+		'de-de': "Miniras"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Raging Claws",
-				fr: "Griffes Enragées",
-				es: "Garras Furiosas",
-				it: "Furiartigli",
-				pt: "Garras Devastadoras",
-				de: "Wutklauen"
+				'en-us': "Raging Claws",
+				'fr-fr': "Griffes Enragées",
+				'es-es': "Garras Furiosas",
+				'it-it': "Furiartigli",
+				'pt-br': "Garras Devastadoras",
+				'de-de': "Wutklauen"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
-				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+				'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 			},
 			damage: "20+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
+		'en-us': "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
 	},
 
 	thirdParty: {

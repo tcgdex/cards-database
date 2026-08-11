@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 		'zh-tw': "喵喵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "眩しく 光るものが 大好き。 光るものを 見つけたとき なぜか 額の小判も 輝く。",
+		'ja-jp': "眩しく 光るものが 大好き。 光るものを 見つけたとき なぜか 額の小判も 輝く。",
 		'zh-tw': "非常喜歡耀眼的發光物。 找到發光物時，不知為何 額頭的金幣也會跟著發光。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みだれひっかき",
+				'ja-jp': "みだれひっかき",
 				'zh-tw': "亂抓",
 			},
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×20ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×20ダメージ。",
 				'zh-tw': "擲3次硬幣，造成正面出現的次數×20點傷害。",
 			},
 		},

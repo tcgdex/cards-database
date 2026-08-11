@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドゴーム",
+		'ja-jp': "ドゴーム",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大声の 衝撃波で トラックを ひっくりかえしてしまう。 足を 踏みならして パワーアップ。",
+		'ja-jp': "大声の 衝撃波で トラックを ひっくりかえしてしまう。 足を 踏みならして パワーアップ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴニョニョ",
+		'ja-jp': "ゴニョニョ",
 	},
 
 	retreat: 3,

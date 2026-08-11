@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'de-de': "Sleimok"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sludge Drag",
-				fr: "Gliss’Crade",
-				de: "Schlammzieher"
+				'en-us': "Sludge Drag",
+				'fr-fr': "Gliss’Crade",
+				'de-de': "Schlammzieher"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Confused and Poisoned.",
-				fr: "Échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon ist jetzt verwirrt und vergiftet."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				'de-de': "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon ist jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pester",
-				fr: "Abattre",
-				de: "Verfolgung"
+				'en-us': "Pester",
+				'fr-fr': "Abattre",
+				'de-de': "Verfolgung"
 			},
 			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
+		'en-us': "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
 	},
 
 	variants: [

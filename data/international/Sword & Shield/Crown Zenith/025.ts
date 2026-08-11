@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	illustrator: "Yuya Oka",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 40
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Volcanic Heat",
-			fr: "Chaleur Volcanique",
-			es: "Calor Volcánico",
-			it: "Calore Vulcanico",
-			pt: "Calor Vulcânico",
-			de: "Vulkanhitze"
+			'en-us': "Volcanic Heat",
+			'fr-fr': "Chaleur Volcanique",
+			'es-es': "Calor Volcánico",
+			'it-it': "Calore Vulcanico",
+			'pt-br': "Calor Vulcânico",
+			'de-de': "Vulkanhitze"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Volcarona scatters burning scales. Some say it does this to start fires. Others say it's trying to rescue those that suffer in the cold.",
+		'en-us': "Volcarona scatters burning scales. Some say it does this to start fires. Others say it's trying to rescue those that suffer in the cold.",
 	},
 
 	

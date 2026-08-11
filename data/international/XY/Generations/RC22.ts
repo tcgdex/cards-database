@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Diancie",
-		fr: "Diancie",
+		'en-us': "Diancie",
+		'fr-fr': "Diancie",
 	},
 
 	illustrator: "Mizue",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Sparkle",
-				fr: "Éclat",
+				'en-us': "Sparkle",
+				'fr-fr': "Éclat",
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Diamond Storm",
-				fr: "Orage Adamantin",
+				'en-us': "Diamond Storm",
+				'fr-fr': "Orage Adamantin",
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Fairy Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
+				'en-us': "Heal 30 damage from each of your Fairy Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Open the magic door and a dream-colored party will start again today. I'll teach you the secret password.",
+		'en-us': "Open the magic door and a dream-colored party will start again today. I'll teach you the secret password.",
 	},
 
 	thirdParty: {

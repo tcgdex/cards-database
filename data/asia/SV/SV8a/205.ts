@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シャワーズex",
-		id: "Vaporeon ex",
+		'ja-jp': "シャワーズex",
+		'id-id': "Vaporeon ex",
 		'zh-tw': "水伊布ex",
 		'zh-cn': "水伊布ex"
 	},
@@ -23,15 +23,15 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "ヘビースコール",
-			id: "Heavy Squall",
+			'ja-jp': "ヘビースコール",
+			'id-id': "Heavy Squall",
 			'zh-tw': "重磅驟雨",
 			'zh-cn': "重磅驟雨"
 		},
 
 		effect: {
-			ja: "相手の「ポケモンex」全員に、それぞれ60ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
-			id: "Serangan ini memberikan kerusakan masing-masing sejumlah 60 kepada semua Pokémon {ex} lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi.",
+			'ja-jp': "相手の「ポケモンex」全員に、それぞれ60ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
+			'id-id': "Serangan ini memberikan kerusakan masing-masing sejumlah 60 kepada semua Pokémon {ex} lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi.",
 			'zh-tw': "對手的所有「寶可夢【ex】」各受到60點傷害。這個招式的傷害不計算弱點・抵抗力。",
 			'zh-cn': "對手的所有「寶可夢【ex】」各受到60點傷害。這個招式的傷害不計算弱點・抵抗力。"
 		}
@@ -39,8 +39,8 @@ const card: Card = {
 		cost: ["Fire", "Water", "Lightning"],
 
 		name: {
-			ja: "アクアマリン",
-			id: "Aquamarine",
+			'ja-jp': "アクアマリン",
+			'id-id': "Aquamarine",
 			'zh-tw': "海藍寶石",
 			'zh-cn': "海藍寶石"
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 		damage: 280,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}

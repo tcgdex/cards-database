@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes."
+		'en-us': "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Arrow"
+			'en-us': "Water Arrow"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "This attack does 10 damage to 1 of your opponent's Pokémon."
+			'en-us': "This attack does 10 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

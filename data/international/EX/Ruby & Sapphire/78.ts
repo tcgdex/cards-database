@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		de: "Waumpel"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'de-de': "Waumpel"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Signs of Evolution",
-				fr: "Signes d'évolution",
-				de: "Spuren der Evolution"
+				'en-us': "Signs of Evolution",
+				'fr-fr': "Signes d'évolution",
+				'de-de': "Spuren der Evolution"
 			},
 			effect: {
-				en: "Search your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card or both cards of a pair to your opponent and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck les Pokémon Armulys et Charmillon ou Blindalys et Papinox. Montrez à votre adversaire la ou les cartes composant une paire et placez-les dans votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach Schaloko oder Papinella oder Panekon und Pudox. Zeige deinem Gegner 1 oder beide Karten des gewählten Paars und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card or both cards of a pair to your opponent and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck les Pokémon Armulys et Charmillon ou Blindalys et Papinox. Montrez à votre adversaire la ou les cartes composant une paire et placez-les dans votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach Schaloko oder Papinella oder Panekon und Pudox. Zeige deinem Gegner 1 oder beide Karten des gewählten Paars und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Barb",
-				fr: "Barbelés empoisonnés",
-				de: "Giftdorn"
+				'en-us': "Poison Barb",
+				'fr-fr': "Barbelés empoisonnés",
+				'de-de': "Giftdorn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Souffle-feu",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Souffle-feu",
+				'de-de': "Flackern"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Magma Ring",
-				fr: "Anneau magma",
-				de: "Magmaring"
+				'en-us': "Magma Ring",
+				'fr-fr': "Anneau magma",
+				'de-de': "Magmaring"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
-				de: "Das verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				'de-de': "Das verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
-		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
+		'en-us': "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+		'fr-fr': "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
 	},
 
 

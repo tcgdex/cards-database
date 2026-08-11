@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Reshiram",
-		fr: "Reshiram",
+		'en-us': "Reshiram",
+		'fr-fr': "Reshiram",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 20,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Repeater Blaze",
-				fr: "Multi-Brasier"
+				'en-us': "Repeater Blaze",
+				'fr-fr': "Multi-Brasier"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un coté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+				'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un coté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: "90+",
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
+		'en-us': "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
 	},
 
 	thirdParty: {

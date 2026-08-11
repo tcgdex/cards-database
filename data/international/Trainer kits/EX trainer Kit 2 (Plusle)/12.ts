@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
-		fr: "Énergie Psy"
+		'en-us': "Psychic Energy",
+		'fr-fr': "Énergie Psy"
 	},
 
 	rarity: "None",

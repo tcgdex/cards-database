@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Veluza",
-		fr: "Délestin",
-		es: "Veluza",
-		it: "Veluza",
-		pt: "Veluza",
-		de: "Agiluza"
+		'en-us': "Veluza",
+		'fr-fr': "Délestin",
+		'es-es': "Veluza",
+		'it-it': "Veluza",
+		'pt-br': "Veluza",
+		'de-de': "Agiluza"
 	},
 
 	rarity: "Shiny rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slim Screw",
-			fr: "Vis Fine",
-			es: "Rosca Fina",
-			it: "Vite Snella",
-			pt: "Parafuso Esbelto",
-			de: "Schmale Schraube"
+			'en-us': "Slim Screw",
+			'fr-fr': "Vis Fine",
+			'es-es': "Rosca Fina",
+			'it-it': "Vite Snella",
+			'pt-br': "Parafuso Esbelto",
+			'de-de': "Schmale Schraube"
 		},
 
 		effect: {
-			en: "If you have no cards in your hand, this attack can be used for {W}.",
-			fr: "Si vous n'avez aucune carte dans votre main, cette attaque peut être utilisée pour {W}.",
-			es: "Si no tienes ninguna carta en tu mano, este ataque se puede usar por {W}.",
-			it: "Se non hai carte in mano, il costo di questo attacco è {W}.",
-			pt: "Se você não tiver cartas na sua mão, este ataque poderá ser usado por {W}.",
-			de: "Wenn du keine Karten auf deiner Hand hast, kann diese Attacke für {W} eingesetzt werden."
+			'en-us': "If you have no cards in your hand, this attack can be used for {W}.",
+			'fr-fr': "Si vous n'avez aucune carte dans votre main, cette attaque peut être utilisée pour {W}.",
+			'es-es': "Si no tienes ninguna carta en tu mano, este ataque se puede usar por {W}.",
+			'it-it': "Se non hai carte in mano, il costo di questo attacco è {W}.",
+			'pt-br': "Se você não tiver cartas na sua mão, este ataque poderá ser usado por {W}.",
+			'de-de': "Wenn du keine Karten auf deiner Hand hast, kann diese Attacke für {W} eingesetzt werden."
 		},
 
 		damage: 120
@@ -80,7 +80,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	description: {
-		en: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+		'en-us': "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
 	},
 
 }

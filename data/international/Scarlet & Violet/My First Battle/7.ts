@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther",
+		'en-us': "Scyther",
 	},
 
 	rarity: "None",
@@ -19,11 +19,11 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "X-Scissor",
+			'en-us': "X-Scissor",
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage.",
+			'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
 		},
 
 		damage: "20+"

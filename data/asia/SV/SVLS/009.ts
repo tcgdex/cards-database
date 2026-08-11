@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホーホー"
+		'ja-jp': "ホーホー"
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "正確に 時を 告げることから 世界の ことわりを わきまえた 知恵の神様 とする 国もある。"
+		'ja-jp': "正確に 時を 告げることから 世界の ことわりを わきまえた 知恵の神様 とする 国もある。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "さんどづき"
+			'ja-jp': "さんどづき"
 		},
 
 		damage: "10×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。"
 		}
 	}],
 

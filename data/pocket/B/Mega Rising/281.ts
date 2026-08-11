@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragalge ex"
+		'en-us': "Dragalge ex"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Skrelp"
+		'en-us': "Skrelp"
 	},
 
 	stage: "Stage1",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Poison Point"
+			'en-us': "Poison Point"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned."
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Draconic Whip"
+			'en-us': "Draconic Whip"
 		},
 
 		damage: 80,

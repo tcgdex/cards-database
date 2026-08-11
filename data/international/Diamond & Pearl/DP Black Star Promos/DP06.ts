@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'de-de': "Haspiror"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				de: "Platscher"
+				'en-us': "Splash",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump Kick",
-				de: "Sprungkick"
+				'en-us': "Jump Kick",
+				'de-de': "Sprungkick"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 10,
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+		'en-us': "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
 	},
 
 	variants: [

@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../HeartGold & SoulSilver'
 
 const hgssp: Set = {
 	id: "hgssp",
 
 	name: {
-		en: "HGSS Black Star Promos",
-		fr: "Promo HGSS",
-		es: "HGSS Black Star Promos",
-		it: "HGSS Promo",
-		de: "Promo HGSS"
+		'en-us': "HGSS Black Star Promos",
+		'fr-fr': "Promo HGSS",
+		'es-es': "HGSS Black Star Promos",
+		'it-it': "HGSS Promo",
+		'de-de': "Promo HGSS"
 	},
 
 	serie: serie,

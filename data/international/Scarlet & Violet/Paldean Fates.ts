@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv04.5",
 
 	name: {
-		de: "Paldeas Schicksale",
-		en: "Paldean Fates",
-		es: "Destinos de Paldea",
-		fr: "Destinées de Paldea",
-		it: "Destino di Paldea",
-		pt: "Destinos de Paldea"
+		'de-de': "Paldeas Schicksale",
+		'en-us': "Paldean Fates",
+		'es-es': "Destinos de Paldea",
+		'fr-fr': "Destinées de Paldea",
+		'it-it': "Destino di Paldea",
+		'pt-br': "Destinos de Paldea"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PAF",
-		fr: "DDP"
+		'fr-fr': "DDP"
 	},
 
 	thirdParty: {

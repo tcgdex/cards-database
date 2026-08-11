@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フリーザー",
+		'ja-jp': "フリーザー",
 	},
 
 	illustrator: "Takumi Wada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷を 自在に 操る 力を もつ。 永久凍土の 雪山に 棲んでいるという。",
+		'ja-jp': "氷を 自在に 操る 力を もつ。 永久凍土の 雪山に 棲んでいるという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つめたいはばたき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[W]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[W]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

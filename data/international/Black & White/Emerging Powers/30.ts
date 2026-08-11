@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Beartic",
-		fr: "Polagriffe",
-		es: "Beartic",
-		it: "Beartic",
-		pt: "Beartic",
-		de: "Siberio"
+		'en-us': "Beartic",
+		'fr-fr': "Polagriffe",
+		'es-es': "Beartic",
+		'it-it': "Beartic",
+		'pt-br': "Beartic",
+		'de-de': "Siberio"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubchoo",
-		fr: "Polarhume",
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sheer Cold",
-				fr: "Glaciation",
+				'en-us': "Sheer Cold",
+				'fr-fr': "Glaciation",
 			},
 			effect: {
-				en: "The Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 50,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icicle Crash",
-				fr: "Chute Glace",
+				'en-us': "Icicle Crash",
+				'fr-fr': "Chute Glace",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+		'en-us': "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โซโรอาร์ค",
-		id: "Zoroark"
+		'th-th': "โซโรอาร์ค",
+		'id-id': "Zoroark"
 	},
 
 	illustrator: "nagimiso",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "มีพลังที่สามารถหลอกคนจำนวนมากได้พร้อม ๆ กัน จะสร้างภาพลวงตาขึ้นมาเพื่อปกป้องรัง",
-		id: "Zoroark memiliki kekuatan untuk mengelabui orang banyak secara bersamaan. Pokémon ini memperlihatkan pemandangan ilusi untuk melindungi sarangnya."
+		'th-th': "มีพลังที่สามารถหลอกคนจำนวนมากได้พร้อม ๆ กัน จะสร้างภาพลวงตาขึ้นมาเพื่อปกป้องรัง",
+		'id-id': "Zoroark memiliki kekuatan untuk mengelabui orang banyak secara bersamaan. Pokémon ini memperlihatkan pemandangan ilusi untuk melindungi sarangnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "โจรกรรมลวงตา",
-			id: "Pembajakan Fantom"
+			'th-th': "โจรกรรมลวงตา",
+			'id-id': "Pembajakan Fantom"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวน [โปเกมอน【ex】 /【V】] บนกระดานฝ่ายตรงข้าม x60",
-			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Pokémon {ex}/{V} di Arena lawan."
+			'th-th': "แดเมจจะเท่ากับจำนวน [โปเกมอน【ex】 /【V】] บนกระดานฝ่ายตรงข้าม x60",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Pokémon {ex}/{V} di Arena lawan."
 		},
 
 		damage: "60×",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "กรงเล็บฉีกร่าง",
-			id: "Cakar Penyayat"
+			'th-th': "กรงเล็บฉีกร่าง",
+			'id-id': "Cakar Penyayat"
 		},
 
 		damage: 110,

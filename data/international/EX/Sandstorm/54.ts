@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Wynaut",
-		fr: "Okeoke",
-		de: "Isso"
+		'en-us': "Wynaut",
+		'fr-fr': "Okeoke",
+		'de-de': "Isso"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Qulbutoké de votre main sur Okeoke (vous faites ainsi évoluer Okeoke). Retirez à Okeoke tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du Woingenau von deiner Hand auf Isso legen (das zählt als Entwickeln von Isso). Entferne alle Schadensmarken von Isso."
+				'en-us': "Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Qulbutoké de votre main sur Okeoke (vous faites ainsi évoluer Okeoke). Retirez à Okeoke tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff), kannst du Woingenau von deiner Hand auf Isso legen (das zählt als Entwickeln von Isso). Entferne alle Schadensmarken von Isso."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Alluring Smile",
-				fr: "Sourire attractif",
-				de: "Verlockendes Lächeln"
+				'en-us': "Alluring Smile",
+				'fr-fr': "Sourire attractif",
+				'de-de': "Verlockendes Lächeln"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon card or Evolution card for each Energy attached to Wynaut, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base ou une carte Évolution pour chaque Énergie attachée à Okeoke. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck für jede Energie, die an Isso angelegt ist, nach einer Basis-Pokémon oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon card or Evolution card for each Energy attached to Wynaut, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base ou une carte Évolution pour chaque Énergie attachée à Okeoke. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck für jede Energie, die an Isso angelegt ist, nach einer Basis-Pokémon oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},

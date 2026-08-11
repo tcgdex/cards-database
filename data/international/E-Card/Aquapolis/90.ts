@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "Yuka Morii",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Long Tongue",
-				fr: "Longue léchouille",
-				de: "Lange Zunge"
+				'en-us': "Long Tongue",
+				'fr-fr': "Longue léchouille",
+				'de-de': "Lange Zunge"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon in play. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance.",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez ni la Faiblesse ni la Résistance.",
-				de: "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+				'en-us': "Choose 1 of your opponent's Pokémon in play. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance.",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez ni la Faiblesse ni la Résistance.",
+				'de-de': "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			}
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

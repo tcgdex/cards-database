@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
-		it: "Wimpod",
-		pt: "Wimpod",
-		de: "Reißlaus"
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod",
+		'de-de': "Reißlaus"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Punk Out",
-			fr: "Poudre d'Escampette",
-			es: "Renuncia",
-			it: "Scappovia",
-			pt: "Arregar",
-			de: "Rückzack"
+			'en-us': "Punk Out",
+			'fr-fr': "Poudre d'Escampette",
+			'es-es': "Renuncia",
+			'it-it': "Scappovia",
+			'pt-br': "Arregar",
+			'de-de': "Rückzack"
 		},
 
 		effect: {
-			en: "If your opponent has any Pokémon V in play, this Pokémon has no Retreat Cost.",
-			fr: "Si votre adversaire a au moins un Pokémon-V en jeu, ce Pokémon n'a pas de Coût de Retraite.",
-			es: "Si tu rival tiene algún Pokémon V en juego, este Pokémon no tiene ningún Coste de Retirada.",
-			it: "Se il tuo avversario ha dei Pokémon-V in gioco, questo Pokémon non ha costo di ritirata.",
-			pt: "Se o seu oponente tiver algum Pokémon V em jogo, este Pokémon não terá custo de Recuo.",
-			de: "Wenn dein Gegner mindestens 1 Pokémon-V im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
+			'en-us': "If your opponent has any Pokémon V in play, this Pokémon has no Retreat Cost.",
+			'fr-fr': "Si votre adversaire a au moins un Pokémon-V en jeu, ce Pokémon n'a pas de Coût de Retraite.",
+			'es-es': "Si tu rival tiene algún Pokémon V en juego, este Pokémon no tiene ningún Coste de Retirada.",
+			'it-it': "Se il tuo avversario ha dei Pokémon-V in gioco, questo Pokémon non ha costo di ritirata.",
+			'pt-br': "Se o seu oponente tiver algum Pokémon V em jogo, este Pokémon não terá custo de Recuo.",
+			'de-de': "Wenn dein Gegner mindestens 1 Pokémon-V im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+		'en-us': "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
 	},
 
 	

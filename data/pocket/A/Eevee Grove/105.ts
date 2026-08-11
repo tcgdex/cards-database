@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zapdos ex",
-		fr: "Électhor-ex"
+		'en-us': "Zapdos ex",
+		'fr-fr': "Électhor-ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -21,24 +21,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Peck",
-			fr: "Picpic"
+			'en-us': "Peck",
+			'fr-fr': "Picpic"
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Thundering Hurricane",
-			fr: "Rafale d'Éclairs"
+			'en-us': "Thundering Hurricane",
+			'fr-fr': "Rafale d'Éclairs"
 		},
 
 		damage: 50,
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Flip 4 coins. This attack does 50 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts pour chaque côté face."
+			'en-us': "Flip 4 coins. This attack does 50 damage for each heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts pour chaque côté face."
 		}
 	}],
 

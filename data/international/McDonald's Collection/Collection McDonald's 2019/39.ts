@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Kangourex",
+		'fr-fr': "Kangourex",
 	},
 
 	rarity: "None",
@@ -29,27 +29,27 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Rapporte"
+				'fr-fr': "Rapporte"
 			},
 			effect: {
-				fr: "Piochez une carte."
+				'fr-fr': "Piochez une carte."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Coup d'Boule"
+				'fr-fr': "Coup d'Boule"
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				fr: "En Deux Punch"
+				'fr-fr': "En Deux Punch"
 			},
 			damage: "60+",
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 			}
 		},
 	],

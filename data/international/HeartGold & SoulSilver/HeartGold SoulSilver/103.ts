@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
-		fr: "Énergie doublement incolore",
-		de: "Doppel-Farblos-Energie"
+		'en-us': "Double Colorless Energy",
+		'fr-fr': "Énergie doublement incolore",
+		'de-de': "Doppel-Farblos-Energie"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "L’énergie doublement incolore fournit de l’énergie ColorlessColorless.",
-		en: "Double Colorless Energy provides Colorless Colorless Energy",
-		de: "Doppel-Farblos-Energie liefert -Energie."
+		'fr-fr': "L’énergie doublement incolore fournit de l’énergie ColorlessColorless.",
+		'en-us': "Double Colorless Energy provides Colorless Colorless Energy",
+		'de-de': "Doppel-Farblos-Energie liefert -Energie."
 	},
 
 	energyType: "Special",

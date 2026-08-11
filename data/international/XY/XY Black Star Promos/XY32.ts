@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yveltal",
-		fr: "Yveltal",
+		'en-us': "Yveltal",
+		'fr-fr': "Yveltal",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Crash",
-				fr: "Crash Aérien",
+				'en-us': "Air Crash",
+				'fr-fr': "Crash Aérien",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wings of Destruction",
-				fr: "Ailes de l'Annihilation",
+				'en-us': "Wings of Destruction",
+				'fr-fr': "Ailes de l'Annihilation",
 			},
 			effect: {
-				en: "If your opponent has Xerneas (including Xerneas-EX) in play, this attack does 40 more damage.",
-				fr: "Si votre adversaire a Xerneas (y compris Xerneas-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If your opponent has Xerneas (including Xerneas-EX) in play, this attack does 40 more damage.",
+				'fr-fr': "Si votre adversaire a Xerneas (y compris Xerneas-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80＋",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+		'en-us': "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
 	},
 
 	thirdParty: {

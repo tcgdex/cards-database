@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Forretress",
-		fr: "Foretress"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Pineco"
+		'en-us': "Pineco"
 	},
 
 	description: {
-		en: "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away.",
-		fr: "Il est totalement fixé à son arbre. Il lance des morceaux de sa carapace pour faire fuir son ennemi."
+		'en-us': "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away.",
+		'fr-fr': "Il est totalement fixé à son arbre. Il lance des morceaux de sa carapace pour faire fuir son ennemi."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Shell Crash",
-			fr: "Collision Carapace"
+			'en-us': "Shell Crash",
+			'fr-fr': "Collision Carapace"
 		},
 
 		damage: 80,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid Niv. 21",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid Niv. 21",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Takao Unno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Iron Head",
-				fr: "Tête d'acier",
-				de: "Eisenschädel"
+				'en-us': "Iron Head",
+				'fr-fr': "Tête d'acier",
+				'de-de': "Eisenschädel"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars."
+		'en-us': "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars."
 	},
 
 	variants: [

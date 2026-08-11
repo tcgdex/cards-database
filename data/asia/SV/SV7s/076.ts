@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ชาเรมex",
-		id: "Medicham ex"
+		'th-th': "ชาเรมex",
+		'id-id': "Medicham ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -18,25 +18,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "กดจุดลมปราณ",
-			id: "Totokan Tenaga Dalam"
+			'th-th': "กดจุดลมปราณ",
+			'id-id': "Totokan Tenaga Dalam"
 		},
 
 		effect: {
-			th: "วางตัวนับแดเมจให้ HP ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเหลือเท่ากับ [50]",
-			id: "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 50."
+			'th-th': "วางตัวนับแดเมจให้ HP ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเหลือเท่ากับ [50]",
+			'id-id': "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 50."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "ลูกเตะโยคะ",
-			id: "Yoga Kick"
+			'th-th': "ลูกเตะโยคะ",
+			'id-id': "Yoga Kick"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้นี้จะไม่นำจุดอ่อนและความต้านทานมาคิด",
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi."
+			'th-th': "แดเมจของท่าต่อสู้นี้จะไม่นำจุดอ่อนและความต้านทานมาคิด",
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi."
 		},
 
 		damage: 190,

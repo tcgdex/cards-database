@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Énergie Grass de base",
-		en: "Basic Grass Energy",
-		es: "Energía Grass Básica",
-		it: "Energia base Grass",
-		pt: "Energia Grass Básica",
-		de: "Basis-Grass-Energie"
+		'fr-fr': "Énergie Grass de base",
+		'en-us': "Basic Grass Energy",
+		'es-es': "Energía Grass Básica",
+		'it-it': "Energia base Grass",
+		'pt-br': "Energia Grass Básica",
+		'de-de': "Basis-Grass-Energie"
 	},
 
 	rarity: "Hyper rare",

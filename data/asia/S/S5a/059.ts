@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "哈約克",
-		th: "เฮอเดอเรีย"
+		'th-th': "เฮอเดอเรีย"
 	},
 
 	illustrator: "kirisAki",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "長久以來一直與人類共同生活。就連遠古時代的壁畫上都留有牠的身影。",
-		th: "อยู่ร่วมกับคนนานจนถึงขนาดมีภาพวาดอยู่บนกำแพงหินสมัยโบราณ"
+		'th-th': "อยู่ร่วมกับคนนานจนถึงขนาดมีภาพวาดอยู่บนกำแพงหินสมัยโบราณ"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "撞擊",
-			th: "พุ่งเข้าชน"
+			'th-th': "พุ่งเข้าชน"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "猛撞",
-			th: "พุ่งเข้าใส่"
+			'th-th': "พุ่งเข้าใส่"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			th: "โปเกมอนตัวนี้ก็จะได้รับแดเมจ 20 ด้วย"
+			'th-th': "โปเกมอนตัวนี้ก็จะได้รับแดเมจ 20 ด้วย"
 		},
 
 		damage: 80,

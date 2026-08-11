@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カゲツ",
+		'ja-jp': "カゲツ",
 	},
 
 	illustrator: "Hideki Ishikawa",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中から「ポケモンのどうぐ」「スタジアム」「特殊エネルギー」を2枚まで選び、トラッシュする。",
+		'ja-jp': "相手の手札を見て、その中から「ポケモンのどうぐ」「スタジアム」「特殊エネルギー」を2枚まで選び、トラッシュする。",
 	},
 
 	variants: [

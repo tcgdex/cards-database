@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Slaking",
-		fr: "Monaflèmit",
-		es: "Slaking",
-		it: "Slaking",
-		pt: "Slaking",
-		de: "Letarking"
+		'en-us': "Slaking",
+		'fr-fr': "Monaflèmit",
+		'es-es': "Slaking",
+		'it-it': "Slaking",
+		'pt-br': "Slaking",
+		'de-de': "Letarking"
 	},
 
 	illustrator: "Framestore",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
 	},
 
 	stage: "Stage2",
@@ -42,20 +42,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pitch",
-				fr: "Lancer",
-				es: "Arrojar",
-				it: "Spingivia",
-				pt: "Lançamento",
-				de: "Einwerfen"
+				'en-us': "Pitch",
+				'fr-fr': "Lancer",
+				'es-es': "Arrojar",
+				'it-it': "Spingivia",
+				'pt-br': "Lançamento",
+				'de-de': "Einwerfen"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 150,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+		'en-us': "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
 	},
 
 	thirdParty: {

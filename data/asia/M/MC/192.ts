@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジアイスex",
+		'ja-jp': "レジアイスex",
 	},
 
 	illustrator: "akagi",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "レジチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから「基本[W]エネルギー」を2枚まで選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから「基本[W]エネルギー」を2枚まで選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

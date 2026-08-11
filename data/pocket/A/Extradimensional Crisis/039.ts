@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It submerges itself in sand and moves as if\nswimming. This wise behavior keeps its enemies\nfrom finding it and maintains its temperature.",
-		fr: "Ce Pokémon avance tapi dans le sable, ce qui lui permet de se cacher des prédateurs et de maintenir sa température corporelle."
+		'en-us': "It submerges itself in sand and moves as if\nswimming. This wise behavior keeps its enemies\nfrom finding it and maintains its temperature.",
+		'fr-fr': "Ce Pokémon avance tapi dans le sable, ce qui lui permet de se cacher des prédateurs et de maintenir sa température corporelle."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 20,

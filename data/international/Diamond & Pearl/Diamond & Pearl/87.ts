@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Metal Sound",
-				fr: "Strido-son",
-				de: "Metallsound"
+				'en-us': "Metal Sound",
+				'fr-fr': "Strido-son",
+				'de-de': "Metallsound"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Resonance",
-				fr: "Résonance",
-				de: "Resonanz"
+				'en-us': "Resonance",
+				'fr-fr': "Résonance",
+				'de-de': "Resonanz"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon verwirrt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon verwirrt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
-		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
+		'en-us': "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
+		'fr-fr': "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
 	},
 
 	thirdParty: {

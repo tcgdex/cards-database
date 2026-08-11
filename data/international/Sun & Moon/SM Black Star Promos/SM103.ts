@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lunala GX",
-		fr: "Lunala GX",
-		es: "Lunala GX",
-		it: "Lunala GX",
-		pt: "Lunala GX",
-		de: "Lunala GX"
+		'en-us': "Lunala GX",
+		'fr-fr': "Lunala GX",
+		'es-es': "Lunala GX",
+		'it-it': "Lunala GX",
+		'pt-br': "Lunala GX",
+		'de-de': "Lunala GX"
 	},
 
 	illustrator: "PLANETA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cosmoem",
-		fr: "Cosmovum",
+		'en-us': "Cosmoem",
+		'fr-fr': "Cosmovum",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
-				es: "Planeo",
-				it: "Aliante",
-				pt: "Planeio",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
+				'es-es': "Planeo",
+				'it-it': "Aliante",
+				'pt-br': "Planeio",
+				'de-de': "Gleiten"
 			},
 
 			damage: 50,
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunar Javelin",
-				fr: "Javelot Lunaire",
-				es: "Lanza Lunar",
-				it: "Giavellotto Lunare",
-				pt: "Dardo Lunar",
-				de: "Lunarspeer"
+				'en-us': "Lunar Javelin",
+				'fr-fr': "Javelot Lunaire",
+				'es-es': "Lanza Lunar",
+				'it-it': "Giavellotto Lunare",
+				'pt-br': "Dardo Lunar",
+				'de-de': "Lunarspeer"
 			},
 			effect: {
-				en: "Discard 2 Psychic Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies Psychic de ce Pokémon.",
-				es: "Descarta 2 Energías Psychic de este Pokémon.",
-				it: "Scarta due Energie Psychic assegnate a questo Pokémon.",
-				pt: "Descarte 2 Energias Psychic deste Pokémon.",
-				de: "Lege 2 Psychic-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Psychic Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies Psychic de ce Pokémon.",
+				'es-es': "Descarta 2 Energías Psychic de este Pokémon.",
+				'it-it': "Scarta due Energie Psychic assegnate a questo Pokémon.",
+				'pt-br': "Descarte 2 Energias Psychic deste Pokémon.",
+				'de-de': "Lege 2 Psychic-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 200,
 
@@ -86,20 +86,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Requiem GX",
-				fr: "Requiem GX",
-				es: "Réquiem GX",
-				it: "Requiem GX",
-				pt: "Réquiem GX",
-				de: "Requiem GX"
+				'en-us': "Requiem GX",
+				'fr-fr': "Requiem GX",
+				'es-es': "Réquiem GX",
+				'it-it': "Requiem GX",
+				'pt-br': "Réquiem GX",
+				'de-de': "Requiem GX"
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "(No puedes usar más de 1 ataque GX en una partida).",
-				it: "Non puoi usare più di un attacco GX a partita.",
-				pt: "(Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "(No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "(Você não pode usar mais de 1 ataque GX por partida.)",
+				'de-de': "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 250,
 

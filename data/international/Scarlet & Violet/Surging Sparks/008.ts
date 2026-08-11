@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morelull",
-		fr: "Spododo",
-		es: "Morelull",
-		it: "Morelull",
-		pt: "Morelull",
-		de: "Bubungus"
+		'en-us': "Morelull",
+		'fr-fr': "Spododo",
+		'es-es': "Morelull",
+		'it-it': "Morelull",
+		'pt-br': "Morelull",
+		'de-de': "Bubungus"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Attach",
-			fr: "Accrochage",
-			es: "Pegarse",
-			it: "Appiccicoso",
-			pt: "Conectar",
-			de: "Festkleben"
+			'en-us': "Attach",
+			'fr-fr': "Accrochage",
+			'es-es': "Pegarse",
+			'it-it': "Appiccicoso",
+			'pt-br': "Conectar",
+			'de-de': "Festkleben"
 		},
 
 		damage: 10

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴチミル",
+		'ja-jp': "ゴチミル",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "星明りが パワーの 源。 夜になると サイコパワーで 石を 浮かべて 星の 配置を 印す。",
+		'ja-jp': "星明りが パワーの 源。 夜になると サイコパワーで 石を 浮かべて 星の 配置を 印す。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴチム",
+		'ja-jp': "ゴチム",
 	},
 
 	retreat: 2,

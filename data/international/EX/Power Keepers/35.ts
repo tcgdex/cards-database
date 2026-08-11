@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Clear Body",
-				fr: "Corps sain",
-				de: "Neutraltorso"
+				'en-us': "Clear Body",
+				'fr-fr': "Corps sain",
+				'de-de': "Neutraltorso"
 			},
 			effect: {
-				en: "Metang can't be affected by any Special Conditions.",
-				fr: "Metang ne peut pas être affecté par des États Spéciaux.",
-				de: "Metang kann nicht von Speziellen Zuständen betroffen werden."
+				'en-us': "Metang can't be affected by any Special Conditions.",
+				'fr-fr': "Metang ne peut pas être affecté par des États Spéciaux.",
+				'de-de': "Metang kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Comet Punch",
-				fr: "Poing météore",
-				de: "Extra Kometenhieb"
+				'en-us': "Extra Comet Punch",
+				'fr-fr': "Poing météore",
+				'de-de': "Extra Kometenhieb"
 			},
 			effect: {
-				en: "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
-				fr: "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "In deinem nächsten Zug fügt der Extra Kometenhieb 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
+				'fr-fr': "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "In deinem nächsten Zug fügt der Extra Kometenhieb 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

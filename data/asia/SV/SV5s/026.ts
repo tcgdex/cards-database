@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Magcargo"
+		'id-id': "Magcargo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Cangkang di punggung Magcargo mudah mengelupas, terkadang api bersuhu tinggi yang mengalir di dalam tubuhnya tersembur dari cangkang tersebut."
+		'id-id': "Cangkang di punggung Magcargo mudah mengelupas, terkadang api bersuhu tinggi yang mengalir di dalam tubuhnya tersembur dari cangkang tersebut."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Daerah Lava"
+			'id-id': "Daerah Lava"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, pada giliran lawan, tiap kali Pokémon Bertarung lawan kembali ke Cadangan, ubah kondisi Pokémon Bertarung yang baru menjadi Luka Bakar."
+			'id-id': "Selama Pokémon ini ada di Arena, pada giliran lawan, tiap kali Pokémon Bertarung lawan kembali ke Cadangan, ubah kondisi Pokémon Bertarung yang baru menjadi Luka Bakar."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Heat Blast"
+			'id-id': "Heat Blast"
 		},
 
 		damage: 100,

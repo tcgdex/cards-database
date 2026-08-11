@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ルガルガンex"
+		'ja-jp': "ルガルガンex"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "いわおとし"
+			'ja-jp': "いわおとし"
 		},
 
 		damage: 40
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スケアリーファング"
+			'ja-jp': "スケアリーファング"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを10個のせる。"
+			'ja-jp': "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを10個のせる。"
 		}
 	}],
 

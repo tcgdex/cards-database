@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴンZ",
+		'ja-jp': "ポリゴンZ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "さらに 優れた ポケモンを 目指し 追加した プログラムに 不具合が あったらしく 動きが おかしい。",
+		'ja-jp': "さらに 優れた ポケモンを 目指し 追加した プログラムに 不具合が あったらしく 動きが おかしい。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しょきか" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の進化しているポケモン全員の上から、それぞれ「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の進化しているポケモン全員の上から、それぞれ「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「でんじほう」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「でんじほう」が使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン２",
+		'ja-jp': "ポリゴン２",
 	},
 
 	retreat: 2,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		es: "Teddiursa",
-		it: "Teddiursa",
-		pt: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'es-es': "Teddiursa",
+		'it-it': "Teddiursa",
+		'pt-br': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "kodama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		'en-us': "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
 	},
 
 	thirdParty: {

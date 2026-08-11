@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コライドンex",
+		'ja-jp': "コライドンex",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 280,
 			cost: ["Fire", "Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンにも60ダメージ。",
+				'ja-jp': "このポケモンにも60ダメージ。",
 			},
 		},
 	],

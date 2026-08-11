@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'de-de': "Kapilz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Blow",
-				fr: "Coup puissant",
-				de: "Power Blow"
+				'en-us': "Power Blow",
+				'fr-fr': "Coup puissant",
+				'de-de': "Power Blow"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Energy attached to Breloom.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Chapignon.",
-				de: "Does 10 damage plus 10 more damage for each Energy attached to Breloom"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Energy attached to Breloom.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Chapignon.",
+				'de-de': "Does 10 damage plus 10 more damage for each Energy attached to Breloom"
 			},
 			damage: "10+",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. if heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. if heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 

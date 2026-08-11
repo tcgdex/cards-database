@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラペルシアン",
+		'ja-jp': "アローラペルシアン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "丸い 顔と 最高級の ベルベットより 滑らかな 毛並みが アローラで 大人気の ポケモン。",
+		'ja-jp': "丸い 顔と 最高級の ベルベットより 滑らかな 毛並みが アローラで 大人気の ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょうはつ" },
 			cost: [],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、30ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラニャース",
+		'ja-jp': "アローラニャース",
 	},
 
 	retreat: 1,

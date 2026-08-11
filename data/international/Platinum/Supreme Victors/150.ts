@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Electhor",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Electhor",
+		'de-de': "Zapdos"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Burn",
-				fr: "Brûlure éclairante",
-				de: "Blitzbrand"
+				'en-us': "Lightning Burn",
+				'fr-fr': "Brûlure éclairante",
+				'de-de': "Blitzbrand"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, Zapdos does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Si c'est pile, Electhor s'inflige 30 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Bei \"Zahl\" fügt Zapdos sich selbst 30 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, Zapdos does 30 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Si c'est pile, Electhor s'inflige 30 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Bei \"Zahl\" fügt Zapdos sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This legendary Pokémon is said to be present wherever there is a lightning storm."
+		'en-us': "This legendary Pokémon is said to be present wherever there is a lightning storm."
 	},
 
 	variants: [

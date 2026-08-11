@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "xatu",
+		'ja-jp': "xatu",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "預言",
+				'ja-jp': "預言",
 			},
 			effect: {
-				ja: "いずれかのプレイヤーのデッキのトップ3カードを見て、好きなように再配置します。",
+				'ja-jp': "いずれかのプレイヤーのデッキのトップ3カードを見て、好きなように再配置します。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Psychic"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 30,
 		},

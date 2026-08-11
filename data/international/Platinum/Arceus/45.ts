@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull"
+		'en-us': "Wingull"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Ball",
-				de: "Wasserball"
+				'en-us': "Water Ball",
+				'de-de': "Wasserball"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte -Energie zu."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte -Energie zu."
 			},
 			damage: "20+",
 
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 60,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		'en-us': "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
 	},
 
 	variants: [

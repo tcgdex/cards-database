@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hydreigon"
+		'en-us': "Hydreigon"
 	},
 
 	illustrator: "matazo",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zweilous"
+		'en-us': "Zweilous"
 	},
 
 	description: {
-		en: "It's said that Hydreigon grew ferocious because\npeople in times long past loathed it, considering\nit to be evil incarnate and attacking it relentlessly."
+		'en-us': "It's said that Hydreigon grew ferocious because\npeople in times long past loathed it, considering\nit to be evil incarnate and attacking it relentlessly."
 	},
 
 	stage: "Stage2",
@@ -30,24 +30,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Roar in Unison"
+			'en-us': "Roar in Unison"
 		},
 
 		effect: {
-			en: "Once during your turn, you may take 2 {D} Energy from your Energy Zone and attach it to this Pokémon. If you do, do 30 damage to this Pokémon."
+			'en-us': "Once during your turn, you may take 2 {D} Energy from your Energy Zone and attach it to this Pokémon. If you do, do 30 damage to this Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hyper Ray"
+			'en-us': "Hyper Ray"
 		},
 
 		damage: 130,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			'en-us': "Discard all Energy from this Pokémon."
 		}
 	}],
 

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [177],
 
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		es: "Natu",
-		it: "Natu",
-		pt: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'es-es': "Natu",
+		'it-it': "Natu",
+		'pt-br': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Me First",
-				fr: "Moi d'Abord",
-				es: "Yo Primero",
-				it: "Precedenza",
-				pt: "Primeiro Eu",
-				de: "Egotrip"
+				'en-us': "Me First",
+				'fr-fr': "Moi d'Abord",
+				'es-es': "Yo Primero",
+				'it-it': "Precedenza",
+				'pt-br': "Primeiro Eu",
+				'de-de': "Egotrip"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+		'en-us': "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
 	},
 
 	variants: [

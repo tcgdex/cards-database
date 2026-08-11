@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		es: "Forretress",
-		it: "Forretress",
-		pt: "Forretress",
-		de: "Forstellka"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'es-es': "Forretress",
+		'it-it': "Forretress",
+		'pt-br': "Forretress",
+		'de-de': "Forstellka"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		es: "Pineco",
-		it: "Pineco",
-		pt: "Pineco",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'es-es': "Pineco",
+		'it-it': "Pineco",
+		'pt-br': "Pineco",
+		'de-de': "Tannza"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Spike Cannon",
-			fr: "Picanon",
-			es: "Clavo Cañón",
-			it: "Sparalance",
-			pt: "Canhão de Espinhos",
-			de: "Dornkanone"
+			'en-us': "Spike Cannon",
+			'fr-fr': "Picanon",
+			'es-es': "Clavo Cañón",
+			'it-it': "Sparalance",
+			'pt-br': "Canhão de Espinhos",
+			'de-de': "Dornkanone"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Steel Tackle",
-			fr: "Charge d'Acier",
-			es: "Placaje de Acero",
-			it: "Ferrazione",
-			pt: "Colisão de Aço",
-			de: "Stahltackle"
+			'en-us': "Steel Tackle",
+			'fr-fr': "Charge d'Acier",
+			'es-es': "Placaje de Acero",
+			'it-it': "Ferrazione",
+			'pt-br': "Colisão de Aço",
+			'de-de': "Stahltackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 40 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 40 dégâts.",
-			es: "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 40 danni a se stesso.",
-			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 40 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 40 dégâts.",
+			'es-es': "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 40 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 40 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
 		},
 
 		damage: 130
@@ -90,7 +90,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+		'en-us': "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
 	},
 
 	variants: [

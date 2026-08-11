@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [698],
 
 	name: {
-		en: "Amaura"
+		'en-us': "Amaura"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Sail Fossil"
+		'en-us': "Sail Fossil"
 	},
 
 	description: {
-		en: "Amaura is an ancient Pokémon that has gone\nextinct. Specimens of this species can sometimes\nbe found frozen in ice."
+		'en-us': "Amaura is an ancient Pokémon that has gone\nextinct. Specimens of this species can sometimes\nbe found frozen in ice."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Aurora Beam"
+			'en-us': "Aurora Beam"
 		},
 
 		damage: 50,

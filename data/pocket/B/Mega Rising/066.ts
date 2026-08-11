@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tirtouga"
+		'en-us': "Tirtouga"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Cover Fossil"
+		'en-us': "Cover Fossil"
 	},
 
 	description: {
-		en: "Tirtouga is considered to be the ancestor of\nmany turtle Pokémon. It was restored to life\nfrom a fossil."
+		'en-us': "Tirtouga is considered to be the ancestor of\nmany turtle Pokémon. It was restored to life\nfrom a fossil."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Shell Attack"
+			'en-us': "Shell Attack"
 		},
 
 		damage: 50,

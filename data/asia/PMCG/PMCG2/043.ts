@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピジョット",
+		'ja-jp': "ピジョット",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ハリケーン",
+				'ja-jp': "ハリケーン",
 			},
 			effect: {
-				ja: "この攻撃が防御ポケモンをノックアウトしない限り、防御ポケモンとそれに取り付けられたすべてのカードを相手の手に返します。",
+				'ja-jp': "この攻撃が防御ポケモンをノックアウトしない限り、防御ポケモンとそれに取り付けられたすべてのカードを相手の手に返します。",
 			},
 			damage: 30,
 		},

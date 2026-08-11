@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
 		'es-mx': "Lotad",
-		de: "Loturzel",
-		it: "Lotad",
-		pt: "Lotad"
+		'de-de': "Loturzel",
+		'it-it': "Lotad",
+		'pt-br': "Lotad"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		damage: 30
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pokémon that are covered in mud.",
+		'en-us': "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pokémon that are covered in mud.",
 	},
 
 	illustrator: "Wintr Wandr",

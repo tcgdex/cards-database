@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Framestore",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Healing Melody",
-				fr: "Mélodie Apaisante",
-				es: "Melodía Curativa",
-				it: "Cura Melodiosa",
-				pt: "Melodia Curativa",
-				de: "Heilende Melodie"
+				'en-us': "Healing Melody",
+				'fr-fr': "Mélodie Apaisante",
+				'es-es': "Melodía Curativa",
+				'it-it': "Cura Melodiosa",
+				'pt-br': "Melodia Curativa",
+				'de-de': "Heilende Melodie"
 			},
 			effect: {
-				en: "Heal 10 damage from each of your Pokémon.",
-				fr: "Soignez 10 dégâts à chacun de vos Pokémon.",
-				es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-				it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
-				de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
+				'en-us': "Heal 10 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à chacun de vos Pokémon.",
+				'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+		'en-us': "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
 	},
 
 	thirdParty: {

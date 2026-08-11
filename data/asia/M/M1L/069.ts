@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "あらゆる 影の 中に 潜りこむ 能力を もっているため 長い あいだ 誰にも 見つからなかった。",
+		'ja-jp': "あらゆる 影の 中に 潜りこむ 能力を もっているため 長い あいだ 誰にも 見つからなかった。",
 	},
 
 	stage: "Basic",

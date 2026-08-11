@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
+		'en-us': "Sewaddle",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
+				'en-us': "Gnaw",
 			},
 
 			damage: 20,
@@ -48,7 +48,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+		'en-us': "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
 	},
 
 	thirdParty: {

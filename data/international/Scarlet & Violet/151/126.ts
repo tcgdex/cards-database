@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magmar",
-		en: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'fr-fr': "Magmar",
+		'en-us': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Charbon Mutant",
-			en: "Live Coal",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'fr-fr': "Charbon Mutant",
+			'en-us': "Live Coal",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Combo Flamboyant",
-			en: "Flare Combo",
-			es: "Combo Flamígero",
-			it: "Fiammacombo",
-			pt: "Flamacombo",
-			de: "Flammenkombo"
+			'fr-fr': "Combo Flamboyant",
+			'en-us': "Flare Combo",
+			'es-es': "Combo Flamígero",
+			'it-it': "Fiammacombo",
+			'pt-br': "Flamacombo",
+			'de-de': "Flammenkombo"
 		},
 
 		effect: {
-			fr: "Si Élektek est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
-			en: "If Electabuzz is on your Bench, this attack does 80 more damage.",
-			es: "Si Electabuzz está en tu Banca, este ataque hace 80 puntos de daño más.",
-			it: "Se Electabuzz è nella tua panchina, questo attacco infligge 80 danni in più.",
-			pt: "Se Electabuzz estiver no seu Banco, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn sich Elektek auf deiner Bank befindet, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'fr-fr': "Si Élektek est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
+			'en-us': "If Electabuzz is on your Bench, this attack does 80 more damage.",
+			'es-es': "Si Electabuzz está en tu Banca, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se Electabuzz è nella tua panchina, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se Electabuzz estiver no seu Banco, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn sich Elektek auf deiner Bank befindet, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
+		'en-us': "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
 	},
 
 	variants: [

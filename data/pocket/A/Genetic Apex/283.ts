@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mew",
-		fr: "Mew",
-		es: "Mew",
-		it: "Mew",
-		de: "Mew",
+		'en-us': "Mew",
+		'fr-fr': "Mew",
+		'es-es': "Mew",
+		'it-it': "Mew",
+		'de-de': "Mew",
 		'pt-br': "Mew",
-		ko: "뮤"
+		'ko-kr': "뮤"
 	},
 
 	illustrator: "Amelicart",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psy Report",
-			fr: "Observation Psychique",
-			es: "Psicoinforme",
-			it: "Psicosoffiata",
-			de: "Psycho-Offenlegung",
+			'en-us': "Psy Report",
+			'fr-fr': "Observation Psychique",
+			'es-es': "Psicoinforme",
+			'it-it': "Psicosoffiata",
+			'de-de': "Psycho-Offenlegung",
 			'pt-br': "Relatório Psíquico",
-			ko: "사이코리포트"
+			'ko-kr': "사이코리포트"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire dévoile sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			de: "Dein Gegner zeigt dir seine Handkarten.",
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire dévoile sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten.",
 			'pt-br': "Seu oponente revela a mão dele.",
-			ko: "상대의 패의 앞면을 모두 본다."
+			'ko-kr': "상대의 패의 앞면을 모두 본다."
 		},
 
 		damage: "20"
@@ -57,13 +57,13 @@ const card: Card = {
 	rarity: "Three Star",
 
 	description: {
-		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
-		fr: "Nombre de scientifiques voient en lui l'ancêtre des Pokémon\ncar il maîtrise toutes leurs capacités.",
-		es: "Varios científicos lo consideran el antecesor de los\nPokémon porque usa todo tipo de movimientos.",
-		it: "Poiché sa usare qualsiasi mossa,\nmolti scienziati ritengono che Mew\nsia l'antenato di tutti i Pokémon.",
-		de: "Es beherrscht alle möglichen Attacken, daher sieht\nman in ihm den Vorfahren aller Pokémon.",
+		'en-us': "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		'fr-fr': "Nombre de scientifiques voient en lui l'ancêtre des Pokémon\ncar il maîtrise toutes leurs capacités.",
+		'es-es': "Varios científicos lo consideran el antecesor de los\nPokémon porque usa todo tipo de movimientos.",
+		'it-it': "Poiché sa usare qualsiasi mossa,\nmolti scienziati ritengono che Mew\nsia l'antenato di tutti i Pokémon.",
+		'de-de': "Es beherrscht alle möglichen Attacken, daher sieht\nman in ihm den Vorfahren aller Pokémon.",
 		'pt-br': "Como pode usar todos os tipos de movimentos,\nmuitos cientistas acreditam que Mew seja\no ancestral dos Pokémon.",
-		ko: "모든 기술을 사용하기 때문에\n포켓몬의 조상이라고 생각하는\n학자가 많다."
+		'ko-kr': "모든 기술을 사용하기 때문에\n포켓몬의 조상이라고 생각하는\n학자가 많다."
 	},
 
 	boosters: []

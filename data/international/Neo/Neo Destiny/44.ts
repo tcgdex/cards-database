@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla",
-				de: "Expand"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Expand"
 			},
 			effect: {
-				en: "All damage done to Jigglypuff during your opponent's next turn is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à Rondoudou pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "All damage done to Jigglypuff during your opponent´s next turn is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "All damage done to Jigglypuff during your opponent's next turn is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à Rondoudou pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "All damage done to Jigglypuff during your opponent´s next turn is reduced by 10 (after applying Weakness and Resistance)."
 			},
 			damage: 10,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep.",
-		fr: "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil."
+		'en-us': "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep.",
+		'fr-fr': "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil."
 	},
 
 

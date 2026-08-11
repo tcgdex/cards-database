@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Porygon-Z",
-		fr: "Porygon-Z",
-		es: "Porygon-Z",
-		it: "Porygon-Z",
-		pt: "Porygon-Z",
-		de: "Porygon-Z"
+		'en-us': "Porygon-Z",
+		'fr-fr': "Porygon-Z",
+		'es-es': "Porygon-Z",
+		'it-it': "Porygon-Z",
+		'pt-br': "Porygon-Z",
+		'de-de': "Porygon-Z"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Porygon2",
-		fr: "Porygon2",
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Crazy Code",
-				fr: "Code Fou",
-				es: "Código Loco",
-				it: "Codice Instabile",
-				pt: "Código Instável",
-				de: "Verrückter Code"
+				'en-us': "Crazy Code",
+				'fr-fr': "Code Fou",
+				'es-es': "Código Loco",
+				'it-it': "Codice Instabile",
+				'pt-br': "Código Instável",
+				'de-de': "Verrückter Code"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l’un de vos Pokémon.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Especial de tu mano a 1 de tus Pokémon.",
-				it: "Durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon una carta Energia speciale dalla tua mano tutte le volte che vuoi.",
-				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Especial da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Spezial-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l’un de vos Pokémon.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Especial de tu mano a 1 de tus Pokémon.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon una carta Energia speciale dalla tua mano tutte le volte che vuoi.",
+				'pt-br': "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Especial da sua mão a 1 dos seus Pokémon.",
+				'de-de': "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Spezial-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tantrum",
-				fr: "Mauvaise Humeur",
-				es: "Rabieta",
-				it: "Collera",
-				pt: "Petulância",
-				de: "Rappel"
+				'en-us': "Tantrum",
+				'fr-fr': "Mauvaise Humeur",
+				'es-es': "Rabieta",
+				'it-it': "Collera",
+				'pt-br': "Petulância",
+				'de-de': "Rappel"
 			},
 			effect: {
-				en: "This Pokémon is now Confused.",
-				fr: "Ce Pokémon est maintenant Confus.",
-				es: "Este Pokémon pasa a estar Confundido.",
-				it: "Questo Pokémon viene confuso.",
-				pt: "Este Pokémon agora está Confuso.",
-				de: "Dieses Pokémon ist jetzt verwirrt."
+				'en-us': "This Pokémon is now Confused.",
+				'fr-fr': "Ce Pokémon est maintenant Confus.",
+				'es-es': "Este Pokémon pasa a estar Confundido.",
+				'it-it': "Questo Pokémon viene confuso.",
+				'pt-br': "Este Pokémon agora está Confuso.",
+				'de-de': "Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: 120,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming.",
+		'en-us': "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming.",
 	},
 
 	thirdParty: {

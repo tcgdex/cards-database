@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recharge",
-				fr: "Recharge"
+				'en-us': "Recharge",
+				'fr-fr': "Recharge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Lightning Energy card and attach it to Pikachu. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre deck et attachez-la à Pikachu. Mélangez ensuite votre deck."
+				'en-us': "Flip a coin. If heads, search your deck for a Lightning Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre deck et attachez-la à Pikachu. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre"
 			},
 			effect: {
-				en: "Discard all Energy attached to Pikachu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu."
+				'en-us': "Discard all Energy attached to Pikachu.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Pikachu."
 			},
 			damage: 100,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
+		'en-us': "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
 	},
 
 	variants: [

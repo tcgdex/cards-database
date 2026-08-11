@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé",
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surefire Spin",
-				fr: "Tourbillon Glacé",
+				'en-us': "Surefire Spin",
+				'fr-fr': "Tourbillon Glacé",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, this attack does 40 more damage.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip 2 coins. If both of them are heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		'en-us': "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
 	},
 
 	thirdParty: {

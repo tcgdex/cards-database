@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Nidoran♂"
+		'en-us': "Nidoran♂"
 	},
 
 	description: {
-		en: "With a horn that's harder than diamond, this\nPokémon goes around shattering boulders as it\nsearches for a moon stone.",
-		fr: "Il erre à la recherche d'une Pierre Lune, brisant tous les rochers sur son passage avec sa corne plus solide qu'un diamant."
+		'en-us': "With a horn that's harder than diamond, this\nPokémon goes around shattering boulders as it\nsearches for a moon stone.",
+		'fr-fr': "Il erre à la recherche d'une Pierre Lune, brisant tous les rochers sur son passage avec sa corne plus solide qu'un diamant."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Horn Attack",
-			fr: "Koud'Korne"
+			'en-us': "Horn Attack",
+			'fr-fr': "Koud'Korne"
 		},
 
 		damage: 40,

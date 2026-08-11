@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
+		'en-us': "Rayquaza",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Pulse",
+				'en-us': "Dragon Pulse",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
+				'en-us': "Discard the top 2 cards of your deck.",
 			},
 			damage: 40,
 
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shred",
+				'en-us': "Shred",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
 			},
 			damage: 90,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		'en-us': "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
 	},
 
 	thirdParty: {

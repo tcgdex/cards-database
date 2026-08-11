@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Giratina",
-		fr: "Giratina",
+		'en-us': "Giratina",
+		'fr-fr': "Giratina",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hex",
-				fr: "Châtiment",
+				'en-us': "Hex",
+				'fr-fr': "Châtiment",
 			},
 			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires",
+				'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires",
 			},
 			damage: 50,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Claw",
-				fr: "Griffe Ombre",
+				'en-us': "Shadow Claw",
+				'fr-fr': "Griffe Ombre",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 90,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		'en-us': "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
 	},
 }
 

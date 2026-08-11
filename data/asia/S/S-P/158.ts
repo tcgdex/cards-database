@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チェリンボ",
+		'ja-jp': "チェリンボ",
 		'zh-tw': "葉伊布V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。",
+		'ja-jp': "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "このは",
+				'ja-jp': "このは",
 				'zh-tw': "葉子防守",
 			},
 			damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガカエンジシex",
+		'ja-jp': "メガカエンジシex",
 	},
 
 	illustrator: "Keisuke Azuma",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
 			},
 		},
 		{
 			name: { ja: "ビッグバンファイヤー 290-" },
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	retreat: 2,

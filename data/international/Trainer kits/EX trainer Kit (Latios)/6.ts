@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,8 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Scratch",
-			fr: "Griffe"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe"
 		},
 		damage: 10
 	}, {
@@ -36,8 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Pika Bolt",
-			fr: "Pik'éclair"
+			'en-us': "Pika Bolt",
+			'fr-fr': "Pik'éclair"
 		},
 		damage: 40
 	}],

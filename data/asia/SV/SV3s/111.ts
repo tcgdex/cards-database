@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scraggy"
+		'id-id': "Scraggy"
 	},
 
 	illustrator: "sowsow",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Scraggy melindungi diri menggunakan kulitnya yang kuat. Kabarnya jika kulitnya telah memanjang hingga maksimal, artinya Pokémon ini akan segera berevolusi."
+		'id-id': "Scraggy melindungi diri menggunakan kulitnya yang kuat. Kabarnya jika kulitnya telah memanjang hingga maksimal, artinya Pokémon ini akan segera berevolusi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Rendah"
+			'id-id': "Tendangan Rendah"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Headbutt"
+			'id-id': "Headbutt"
 		},
 
 		damage: 50,

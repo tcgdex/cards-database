@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルビート",
+		'ja-jp': "バルビート",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "水の きれいな 池に 生息。 夜に なると お尻が 光り 点滅させて 仲間と 会話。",
+		'ja-jp': "水の きれいな 池に 生息。 夜に なると お尻が 光り 点滅させて 仲間と 会話。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Grass"],
 			effect: {
-				ja: "前の自分の番、自分の「イルミーゼ」が「フェロモンサイン」を使っていたなら、100ダメージ追加。",
+				'ja-jp': "前の自分の番、自分の「イルミーゼ」が「フェロモンサイン」を使っていたなら、100ダメージ追加。",
 			},
 		},
 	],

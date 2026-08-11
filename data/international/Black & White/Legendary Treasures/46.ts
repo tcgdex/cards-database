@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
+		'en-us': "Zapdos",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Random Spark",
+				'en-us': "Random Spark",
 			},
 			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundering Hurricane",
+				'en-us': "Thundering Hurricane",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		'en-us': "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
 	},
 
 	thirdParty: {

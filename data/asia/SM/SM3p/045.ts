@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグ",
+		'ja-jp': "ゴルーグ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ゴルーグを 作った 古代人から 人や ポケモンを 守るように 命令されていると 言われている。",
+		'ja-jp': "ゴルーグを 作った 古代人から 人や ポケモンを 守るように 命令されていると 言われている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x60ダメージ追加。",
+				'ja-jp': "コインを3回投げ、オモテの数x60ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	retreat: 4,

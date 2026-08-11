@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy",
-		de: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy",
+		'de-de': "Manaphy"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Aqua Skin",
-				fr: "Aqua peau",
-				de: "Aquahaut"
+				'en-us': "Aqua Skin",
+				'fr-fr': "Aqua peau",
+				'de-de': "Aquahaut"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Manaphy, remove 2 damage counters from Manaphy.",
-				fr: "Lorsque vous attachez une carte Énergie Water de votre main à Manaphy, retirez-lui 2 marqueurs de dégât.",
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Manaphy anlegst, entferne 2 Schadensmarken von Manaphy."
+				'en-us': "When you attach a Water Energy card from your hand to Manaphy, remove 2 damage counters from Manaphy.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie Water de votre main à Manaphy, retirez-lui 2 marqueurs de dégât.",
+				'de-de': "Wenn du 1 -Energiekarte von deiner Hand an Manaphy anlegst, entferne 2 Schadensmarken von Manaphy."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chase Up",
-				fr: "Relancer",
-				de: "Dampf machen"
+				'en-us': "Chase Up",
+				'fr-fr': "Relancer",
+				'de-de': "Dampf machen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fountain",
-				fr: "Fontaine",
-				de: "Fontäne"
+				'en-us': "Fountain",
+				'fr-fr': "Fontaine",
+				'de-de': "Fontäne"
 			},
 			effect: {
-				en: "You may attach up to 2 basic Water Energy cards from your hand to your Benched Pokémon in any way you like.",
-				fr: "Vous pouvez attacher jusqu'à 2 cartes Énergie de base Water de votre main à vos Pokémon de Banc de la façon que vous voulez.",
-				de: "Du kannst bis zu 2 -Basis-Energiekarten von deiner Hand in beliebiger Verteilung an Pokémon auf deiner Bank anlegen."
+				'en-us': "You may attach up to 2 basic Water Energy cards from your hand to your Benched Pokémon in any way you like.",
+				'fr-fr': "Vous pouvez attacher jusqu'à 2 cartes Énergie de base Water de votre main à vos Pokémon de Banc de la façon que vous voulez.",
+				'de-de': "Du kannst bis zu 2 -Basis-Energiekarten von deiner Hand in beliebiger Verteilung an Pokémon auf deiner Bank anlegen."
 			},
 			damage: 30,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+		'en-us': "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
 	},
 
 	thirdParty: {

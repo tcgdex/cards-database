@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Surfing Pikachu",
-		fr: "Pikachu Surfeur",
-		es: "Pikachu Surf",
-		it: "Pikachu Surf",
-		pt: "Pikachu Surfista",
-		de: "Surfendes Pikachu"
+		'en-us': "Surfing Pikachu",
+		'fr-fr': "Pikachu Surfeur",
+		'es-es': "Pikachu Surf",
+		'it-it': "Pikachu Surf",
+		'pt-br': "Pikachu Surfista",
+		'de-de': "Surfendes Pikachu"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfe",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfe",
+				'de-de': "Surfer"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "One summer, a group of Pikachu was found riding the waves at the local beach.",
+		'en-us': "One summer, a group of Pikachu was found riding the waves at the local beach.",
 	},
 
 	thirdParty: {

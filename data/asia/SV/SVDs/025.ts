@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "แชนเดลา",
-		id: "Chandelure"
+		'th-th': "แชนเดลา",
+		'id-id': "Chandelure"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ว่ากันว่าในคฤหาสน์ที่ใช้แชนเดลาแทนแสงไฟนั้นจะมีงานศพอยู่ตลอด",
-		id: "Dikatakan bahwa rumah besar yang menggunakan Chandelure sebagai pengganti lampu kandelir untuk penerangan terus menerus mengadakan acara pemakaman."
+		'th-th': "ว่ากันว่าในคฤหาสน์ที่ใช้แชนเดลาแทนแสงไฟนั้นจะมีงานศพอยู่ตลอด",
+		'id-id': "Dikatakan bahwa rumah besar yang menggunakan Chandelure sebagai pengganti lampu kandelir untuk penerangan terus menerus mengadakan acara pemakaman."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			th: "เผาเป็นลูกโซ่",
-			id: "Rentetan Pembakaran"
+			'th-th': "เผาเป็นลูกโซ่",
+			'id-id': "Rentetan Pembakaran"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x50",
-			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x50",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		},
 
 		damage: "10+",
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "ฮีทบลาสต์",
-			id: "Heat Blast"
+			'th-th': "ฮีทบลาสต์",
+			'id-id': "Heat Blast"
 		},
 
 		damage: 150,

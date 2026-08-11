@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グリマー",
+		'ja-jp': "グリマー",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "おしゃべり",
+				'ja-jp': "おしゃべり",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つを選択し、1つの防御ポケモンで切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。",
+				'ja-jp': "対戦相手のベンチポケモンの1つを選択し、1つの防御ポケモンで切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スピット毒",
+				'ja-jp': "スピット毒",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 10,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラントン",
+		'ja-jp': "ラントン",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "水力発電",
+				'ja-jp': "水力発電",
 			},
 			effect: {
-				ja: "Lanturnに付着した水エネルギーごとにFloodlightに10回のダメージを与えるが、Floodlightのエネルギーコストの支払いには使用されない場合があります。 Lanturnが眠ったり、混乱したり、麻痺している場合、この力は使用できません。",
+				'ja-jp': "Lanturnに付着した水エネルギーごとにFloodlightに10回のダメージを与えるが、Floodlightのエネルギーコストの支払いには使用されない場合があります。 Lanturnが眠ったり、混乱したり、麻痺している場合、この力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "投光照明",
+				'ja-jp': "投光照明",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

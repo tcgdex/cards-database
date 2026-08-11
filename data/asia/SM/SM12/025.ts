@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラックキュレム",
+		'ja-jp': "ブラックキュレム",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "失った 体を 真実と 理想で 埋めてくれる 英雄を 待つ 氷の 伝説ポケモン。",
+		'ja-jp': "失った 体を 真実と 理想で 埋めてくれる 英雄を 待つ 氷の 伝説ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、100ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、100ダメージ追加。",
 			},
 		},
 	],

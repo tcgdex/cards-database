@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "さぎょういん"
+		'ja-jp': "さぎょういん"
 	},
 
 	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
+		'ja-jp': "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
 	},
 
 	variants: [

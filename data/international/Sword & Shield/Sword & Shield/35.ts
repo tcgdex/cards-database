@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Cinderace",
-		fr: "Pyrobut",
-		es: "Cinderace",
-		it: "Cinderace",
-		pt: "Cinderace",
-		de: "Liberlo"
+		'en-us': "Cinderace",
+		'fr-fr': "Pyrobut",
+		'es-es': "Cinderace",
+		'it-it': "Cinderace",
+		'pt-br': "Cinderace",
+		'de-de': "Liberlo"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Raboot",
-		fr: "Lapyro",
-		es: "Raboot",
-		it: "Raboot",
-		pt: "Raboot",
-		de: "Kickerlo"
+		'en-us': "Raboot",
+		'fr-fr': "Lapyro",
+		'es-es': "Raboot",
+		'it-it': "Raboot",
+		'pt-br': "Raboot",
+		'de-de': "Kickerlo"
 	},
 
 	stage: "Stage2",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Pyro Ball",
-				fr: "Ballon Brûlant",
-				es: "Balón Ígneo",
-				it: "Palla Infuocata",
-				pt: "Bola Incendiária",
-				de: "Feuerball"
+				'en-us': "Pyro Ball",
+				'fr-fr': "Ballon Brûlant",
+				'es-es': "Balón Ígneo",
+				'it-it': "Palla Infuocata",
+				'pt-br': "Bola Incendiária",
+				'de-de': "Feuerball"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 50,
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Burning Kick",
-				fr: "Coup de Pied Brûlant",
-				es: "Patada Ardiente",
-				it: "Calcio Fiammeggiante",
-				pt: "Petardo",
-				de: "Brennender Schuss"
+				'en-us': "Burning Kick",
+				'fr-fr': "Coup de Pied Brûlant",
+				'es-es': "Patada Ardiente",
+				'it-it': "Calcio Fiammeggiante",
+				'pt-br': "Petardo",
+				'de-de': "Brennender Schuss"
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l'Énergie de ce Pokémon.",
-				es: "Descarta todas las Energías de este Pokémon.",
-				it: "Scarta tutte le Energie da questo Pokémon.",
-				pt: "Descarte todas as Energias deste Pokémon.",
-				de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l'Énergie de ce Pokémon.",
+				'es-es': "Descarta todas las Energías de este Pokémon.",
+				'it-it': "Scarta tutte le Energie da questo Pokémon.",
+				'pt-br': "Descarte todas as Energias deste Pokémon.",
+				'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 160,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
+		'en-us': "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
 	},
 
 	dexId: [815],

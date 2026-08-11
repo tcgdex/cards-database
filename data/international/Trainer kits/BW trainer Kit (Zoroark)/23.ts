@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Zoroark).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,12 +29,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Lunge",
-			fr: "Coup Rapide"
+			'en-us': "Lunge",
+			'fr-fr': "Coup Rapide"
 		},
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		},
 		damage: 30
 	}],
@@ -50,7 +50,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+		'en-us': "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
 	},
 
 	retreat: 1,

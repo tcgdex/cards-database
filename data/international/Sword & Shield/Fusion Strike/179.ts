@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morpeko",
-		fr: "Morpeko",
-		es: "Morpeko",
-		it: "Morpeko",
-		pt: "Morpeko",
-		de: "Morpeko"
+		'en-us': "Morpeko",
+		'fr-fr': "Morpeko",
+		'es-es': "Morpeko",
+		'it-it': "Morpeko",
+		'pt-br': "Morpeko",
+		'de-de': "Morpeko"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Teeziro",
 
 	description: {
-		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
+		'en-us': "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
 	},
 
 	attacks: [{
 		cost: ["Darkness"],
 
 		name: {
-			en: "Explosive Discontent",
-			fr: "Mécontentement Explosif",
-			de: "Stinksaure Explosion",
-			es: "Descontento Explosivo",
-			pt: "Desagrado Explosivo",
-			it: "Malcontento Esplosivo"
+			'en-us': "Explosive Discontent",
+			'fr-fr': "Mécontentement Explosif",
+			'de-de': "Stinksaure Explosion",
+			'es-es': "Descontento Explosivo",
+			'pt-br': "Desagrado Explosivo",
+			'it-it': "Malcontento Esplosivo"
 		},
 
 		damage: "30×",
 
 		effect: {
-			en: "This attack does 30 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
-			es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
-			it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon."
+			'en-us': "This attack does 30 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+			'it-it': "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cling",
-				fr: "Se cramponner",
-				de: "Cling"
+				'en-us': "Cling",
+				'fr-fr': "Se cramponner",
+				'de-de': "Cling"
 			},
 			effect: {
-				en: "After your attack, remove from Gloom the number of damage counters equal to the damage you did to the Defending Pokémon. If Gloom has fewer damage counters than that, remove all of them.",
-				fr: "Après votre attaque, retirez à Ortide autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ortide possède moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous.",
-				de: "After your attack, remove from Gloom the number of damage counters equal to the damage you did to the Defending Pokémon. If Gloom has fewer damage counters than that, remove all of them."
+				'en-us': "After your attack, remove from Gloom the number of damage counters equal to the damage you did to the Defending Pokémon. If Gloom has fewer damage counters than that, remove all of them.",
+				'fr-fr': "Après votre attaque, retirez à Ortide autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ortide possède moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous.",
+				'de-de': "After your attack, remove from Gloom the number of damage counters equal to the damage you did to the Defending Pokémon. If Gloom has fewer damage counters than that, remove all of them."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Razor Leaf",
-				fr: "Double tranch'herb",
-				de: "Double Razor Leaf"
+				'en-us': "Double Razor Leaf",
+				'fr-fr': "Double tranch'herb",
+				'de-de': "Double Razor Leaf"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
 			damage: "40×",
 

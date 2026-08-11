@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイオーガV",
+		'ja-jp': "カイオーガV",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "デュアルスプラッシュ" },
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「アクアタイフーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「アクアタイフーン」が使えない。",
 			},
 		},
 	],

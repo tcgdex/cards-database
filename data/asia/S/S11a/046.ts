@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギアル",
+		'ja-jp': "ギアル",
 		'zh-tw': "齒輪兒",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。",
+		'ja-jp': "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。",
 		'zh-tw': "２個身體比雙胞胎還要親近。要是換成別的齒輪兒，就沒有辦法好好咬合。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "コールサイン",
+				'ja-jp': "コールサイン",
 				'zh-tw': "呼喚信號",
 			},
 			cost: ["Metal"],
 			effect: {
-				ja: "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},

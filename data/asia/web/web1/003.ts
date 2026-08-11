@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヴェノナト",
+		'ja-jp': "ヴェノナト",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "無効にします",
+				'ja-jp': "無効にします",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御するポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御するポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "PSYBEAM",
+				'ja-jp': "PSYBEAM",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "こだわりメット",
+		'ja-jp': "こだわりメット",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが、相手の「ポケモンGX・EX」から受けるワザのダメージは「-30」される。",
+		'ja-jp': "このカードをつけているポケモンが、相手の「ポケモンGX・EX」から受けるワザのダメージは「-30」される。",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュウメイ",
+		'ja-jp': "シュウメイ",
 	},
 
 	illustrator: "kantaro",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、相手のバトルポケモンがどくのときにしか使えない。自分の手札をすべて山札にもどして切る。その後、山札を7枚引く。",
+		'ja-jp': "このカードは、相手のバトルポケモンがどくのときにしか使えない。自分の手札をすべて山札にもどして切る。その後、山札を7枚引く。",
 	},
 
 	variants: [

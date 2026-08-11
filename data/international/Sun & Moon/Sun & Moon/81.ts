@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw Through",
-				fr: "Grignotage",
-				es: "Roedura Perforante",
-				it: "Rosicchiadentro",
-				pt: "Roída Interrupta",
-				de: "Durchnagen"
+				'en-us': "Gnaw Through",
+				'fr-fr': "Grignotage",
+				'es-es': "Roedura Perforante",
+				'it-it': "Rosicchiadentro",
+				'pt-br': "Roída Interrupta",
+				'de-de': "Durchnagen"
 			},
 			effect: {
-				en: "Discard all Pokémon Tool cards from your opponent’s Active Pokémon.",
-				fr: "Défaussez toutes les cartes Outil Pokémon du Pokémon Actif de votre adversaire.",
-				es: "Descarta todas las cartas de Herramienta Pokémon del Pokémon Activo de tu rival.",
-				it: "Scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
-				pt: "Descarte todas as cartas de Ferramenta Pokémon do Pokémon Ativo do seu oponente.",
-				de: "Lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard all Pokémon Tool cards from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez toutes les cartes Outil Pokémon du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta todas las cartas de Herramienta Pokémon del Pokémon Activo de tu rival.",
+				'it-it': "Scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte todas as cartas de Ferramenta Pokémon do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they're rather cowardly.",
+		'en-us': "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they're rather cowardly.",
 	},
 
 	thirdParty: {

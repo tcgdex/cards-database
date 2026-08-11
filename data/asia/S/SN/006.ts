@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "袋獸",
-		ja: "ガルーラ"
+		'ja-jp': "ガルーラ"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "絕對不要靠近從袋獸腹中溜出來玩耍的孩子， 因為母親正在某處守護著牠。",
-		ja: "袋から 抜け出して 遊んでいる 子どもには 近付いては いけない。 どこかで 母親が 見守っている。"
+		'ja-jp': "袋から 抜け出して 遊んでいる 子どもには 近付いては いけない。 どこかで 母親が 見守っている。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "拍擊",
-			ja: "はたく"
+			'ja-jp': "はたく"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "親子聯合拳",
-			ja: "れんけいおやこパンチ"
+			'ja-jp': "れんけいおやこパンチ"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則增加100點傷害。",
-			ja: "コインを1回投げオモテなら、100ダメージ追加。"
+			'ja-jp': "コインを1回投げオモテなら、100ダメージ追加。"
 		},
 
 		damage: "60＋",

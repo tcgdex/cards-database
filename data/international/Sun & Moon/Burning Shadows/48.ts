@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Slowking",
-		fr: "Roigada",
-		es: "Slowking",
-		it: "Slowking",
-		pt: "Slowking",
-		de: "Laschoking"
+		'en-us': "Slowking",
+		'fr-fr': "Roigada",
+		'es-es': "Slowking",
+		'it-it': "Slowking",
+		'pt-br': "Slowking",
+		'de-de': "Laschoking"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Drift Ashore",
-				fr: "À la Dérive",
-				es: "Orillar",
-				it: "Spiaggiamento",
-				pt: "Flutuar à Costa",
-				de: "Anschwemmen"
+				'en-us': "Drift Ashore",
+				'fr-fr': "À la Dérive",
+				'es-es': "Orillar",
+				'it-it': "Spiaggiamento",
+				'pt-br': "Flutuar à Costa",
+				'de-de': "Anschwemmen"
 			},
 			effect: {
-				en: "Search your deck for a card and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a card and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Unarmed",
-				fr: "Désarmé",
-				es: "Desarmado",
-				it: "Inerme",
-				pt: "Desarmado",
-				de: "Wehrlos"
+				'en-us': "Unarmed",
+				'fr-fr': "Désarmé",
+				'es-es': "Desarmado",
+				'it-it': "Inerme",
+				'pt-br': "Desarmado",
+				'de-de': "Wehrlos"
 			},
 			effect: {
-				en: "If you have no cards in your hand, ignore all Energy in this attack’s cost.",
-				fr: "Si vous n’avez aucune carte dans votre main, ignorez toute l’Énergie dans le coût de cette attaque.",
-				es: "Si no tienes ninguna carta en tu mano, ignora todas las Energías en el coste de este ataque.",
-				it: "Se non hai carte in mano, ignora tutte le Energie necessarie per usare questo attacco.",
-				pt: "Se você não possuir cartas na sua mão, ignore todas as Energias no custo deste ataque.",
-				de: "Wenn du keine Karten auf deiner Hand hast, ignoriere alle Energien in den Kosten dieser Attacke."
+				'en-us': "If you have no cards in your hand, ignore all Energy in this attack’s cost.",
+				'fr-fr': "Si vous n’avez aucune carte dans votre main, ignorez toute l’Énergie dans le coût de cette attaque.",
+				'es-es': "Si no tienes ninguna carta en tu mano, ignora todas las Energías en el coste de este ataque.",
+				'it-it': "Se non hai carte in mano, ignora tutte le Energie necessarie per usare questo attacco.",
+				'pt-br': "Se você não possuir cartas na sua mão, ignore todas as Energias no custo deste ataque.",
+				'de-de': "Wenn du keine Karten auf deiner Hand hast, ignoriere alle Energien in den Kosten dieser Attacke."
 			},
 			damage: 110,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A poisonous bite reacted with its system, blessing it with the enhanced intellect of a genius. It has full control of its psychic powers.",
+		'en-us': "A poisonous bite reacted with its system, blessing it with the enhanced intellect of a genius. It has full control of its psychic powers.",
 	},
 
 	thirdParty: {

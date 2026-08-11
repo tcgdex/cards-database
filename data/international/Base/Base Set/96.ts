@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
-		fr: "Double Énergie Incolore",
-		de: "Doppelte farblose Energie",
-		it: "Energia Incolore Doppia",
+		'en-us': "Double Colorless Energy",
+		'fr-fr': "Double Énergie Incolore",
+		'de-de': "Doppelte farblose Energie",
+		'it-it': "Energia Incolore Doppia",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -16,10 +16,10 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Provides {C}{C} energy.\nDoesn't count as a basic Energy card.",
-		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte.",
-		it: "Fornisce energia Incolore Incolore. Non conta come carta Energia base.",
-		fr: "Fournit Incolore Incolore énergies. Ne compte pas comme une carte Énergie de base.",
+		'en-us': "Provides {C}{C} energy.\nDoesn't count as a basic Energy card.",
+		'de-de': "Liefert   Energie. Zählt nicht als Basis-Energiekarte.",
+		'it-it': "Fornisce energia Incolore Incolore. Non conta come carta Energia base.",
+		'fr-fr': "Fournit Incolore Incolore énergies. Ne compte pas comme une carte Énergie de base.",
 	},
 
 	variants: [

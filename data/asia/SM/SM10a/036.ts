@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オノノクス",
+		'ja-jp': "オノノクス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "優しい 性格だが 縄張りを 荒らす 者には 容赦しない。 鉄を 切る キバで 挑みかかる。",
+		'ja-jp': "優しい 性格だが 縄張りを 荒らす 者には 容赦しない。 鉄を 切る キバで 挑みかかる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "グラインダーアップ" },
 			effect: {
-				ja: "自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、自分の手札にある[炎]または[鋼]エネルギーを3枚まで、このポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、自分の手札にある[炎]または[鋼]エネルギーを3枚まで、このポケモンにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire", "Metal"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーの数×40ダメージ追加。",
+				'ja-jp': "このポケモンについている基本エネルギーの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オノンド",
+		'ja-jp': "オノンド",
 	},
 
 	retreat: 3,

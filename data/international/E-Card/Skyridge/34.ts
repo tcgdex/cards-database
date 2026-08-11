@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff",
-		de: "Knuddeluff"
+		'en-us': "Wigglytuff",
+		'de-de': "Knuddeluff"
 	},
 
 	illustrator: "Hizuki Misono",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jigglypuff",
+		'en-us': "Jigglypuff",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Good Neighbor",
-				de: "Guter Nachbar"
+				'en-us': "Good Neighbor",
+				'de-de': "Guter Nachbar"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Wigglytuff is on your bench, you may flip a coin. If heads, each player removes up to 2 damage counters from his or her Active Pokémon. This power can't be used if you have already used another Wigglytuff's Good Neighbor Poké-Power this turn.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Knuddeluff auf deiner Bank ist, eine Münze werfen. Bei \"Kopf\" entfernt jeder Spieler 2 Schadensmarken von seinem aktiven Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls du in diesem Zug bereits die Poké-Power \"Guter Nachbar\" eines anderen Knuddeluffs verwendet hast."
+				'en-us': "Once during your turn (before your attack), if Wigglytuff is on your bench, you may flip a coin. If heads, each player removes up to 2 damage counters from his or her Active Pokémon. This power can't be used if you have already used another Wigglytuff's Good Neighbor Poké-Power this turn.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Knuddeluff auf deiner Bank ist, eine Münze werfen. Bei \"Kopf\" entfernt jeder Spieler 2 Schadensmarken von seinem aktiven Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls du in diesem Zug bereits die Poké-Power \"Guter Nachbar\" eines anderen Knuddeluffs verwendet hast."
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
-				de: "Wellenreiten"
+				'en-us': "Do the Wave",
+				'de-de': "Wellenreiten"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage times the number of Pokémon you have in play.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Pokémon, die du im Spiel hast, zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage times the number of Pokémon you have in play.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Pokémon, die du im Spiel hast, zu."
 			},
 			damage: "10×",
 

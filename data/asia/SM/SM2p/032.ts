@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。",
+		'ja-jp': "よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。",
 	},
 
 	stage: "Basic",

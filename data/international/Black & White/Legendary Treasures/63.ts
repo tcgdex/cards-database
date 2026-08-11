@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak",
+		'en-us': "Toxicroak",
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk",
+		'en-us': "Croagunk",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge",
+				'en-us': "Revenge",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
 			},
 			damage: 20,
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
+				'en-us': "Poison Jab",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
 			},
 			damage: 60,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
+		'en-us': "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
 	},
 
 	thirdParty: {

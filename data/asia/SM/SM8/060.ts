@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォレトス",
+		'ja-jp': "フォレトス",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "木に くっついたまま 動かない。 硬い殻の 破片を ばらまいて 近づくものを 追い払う。",
+		'ja-jp': "木に くっついたまま 動かない。 硬い殻の 破片を ばらまいて 近づくものを 追い払う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "トゲトゲふんしゃ" },
 			cost: ["Metal"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x10ダメージを、相手のポケモン全員にそれぞれ与える。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "コインを3回投げ、オモテの数x10ダメージを、相手のポケモン全員にそれぞれ与える。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 	},
 
 	retreat: 2,

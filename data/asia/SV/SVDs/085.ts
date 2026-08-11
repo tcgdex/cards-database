@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พัลเดีย เคนเทารอส",
-		id: "Paldean Tauros"
+		'th-th': "พัลเดีย เคนเทารอส",
+		'id-id': "Paldean Tauros"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "จุดเด่นคือกล้ามเนื้อหนาอันทรงพลังและอารมณ์ที่รุนแรง เรียกกันว่าพันธุ์ประจัญบาน",
-		id: "Otot tebal bertenaga dan sifatnya yang kasar adalah karakteristiknya. Pokémon ini dikenal sebagai Tauros Varian Tempur."
+		'th-th': "จุดเด่นคือกล้ามเนื้อหนาอันทรงพลังและอารมณ์ที่รุนแรง เรียกกันว่าพันธุ์ประจัญบาน",
+		'id-id': "Otot tebal bertenaga dan sifatnya yang kasar adalah karakteristiknya. Pokémon ini dikenal sebagai Tauros Varian Tempur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เขาพิโรธ",
-			id: "Tanduk Kemarahan"
+			'th-th': "เขาพิโรธ",
+			'id-id': "Tanduk Kemarahan"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
-			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: "20+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "คอมแบตแท็กเกิล",
-			id: "Combat Tackle"
+			'th-th': "คอมแบตแท็กเกิล",
+			'id-id': "Combat Tackle"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 130,

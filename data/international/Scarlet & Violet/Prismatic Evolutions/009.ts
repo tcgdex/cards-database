@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Applin",
-		fr: "Verpom",
-		es: "Applin",
-		pt: "Applin",
-		it: "Applin",
-		de: "Knapfel"
+		'en-us': "Applin",
+		'fr-fr': "Verpom",
+		'es-es': "Applin",
+		'pt-br': "Applin",
+		'it-it': "Applin",
+		'de-de': "Knapfel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spray Fluid",
-			fr: "Fluide Éclaboussant",
-			es: "Fluido Rociado",
-			pt: "Fluido Spray",
-			it: "Fluidospray",
-			de: "Sprühwasser"
+			'en-us': "Spray Fluid",
+			'fr-fr': "Fluide Éclaboussant",
+			'es-es': "Fluido Rociado",
+			'pt-br': "Fluido Spray",
+			'it-it': "Fluidospray",
+			'de-de': "Sprühwasser"
 		},
 
 		damage: 20

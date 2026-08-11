@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime",
+		'en-us': "Mr. Mime",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mime Jr.",
+		'en-us': "Mime Jr.",
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Invisible Wall",
+				'en-us': "Invisible Wall",
 			},
 			effect: {
-				en: "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed.",
+				'en-us': "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
+				'en-us': "Meditate",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 			},
 			damage: 10,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If interrupted while miming, it will slap around the enemy with its broad hands.",
+		'en-us': "If interrupted while miming, it will slap around the enemy with its broad hands.",
 	},
 
 

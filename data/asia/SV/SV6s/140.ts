@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Swanna"
+		'id-id': "Swanna"
 	},
 
 	illustrator: "Susumu Maeya",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Konon banyak seniman yang mendapatkan inspirasi dari tarian elok yang ditarikan Pokémon ini di saat langit temaram."
+		'id-id': "Konon banyak seniman yang mendapatkan inspirasi dari tarian elok yang ditarikan Pokémon ini di saat langit temaram."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Sayap Semangat Petarung"
+			'id-id': "Sayap Semangat Petarung"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {ex}/{V}, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {ex}/{V}, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "20+",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Embusan Angin"
+			'id-id': "Embusan Angin"
 		},
 
 		damage: 70,

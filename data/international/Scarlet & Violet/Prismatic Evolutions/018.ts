@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
-		pt: "Slowpoke",
-		it: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'it-it': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			pt: "Revólver d'Água",
-			it: "Pistolacqua",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'pt-br': "Revólver d'Água",
+			'it-it': "Pistolacqua",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			pt: "Surra de Cauda",
-			it: "Codabotta",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
+			'it-it': "Codabotta",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 30

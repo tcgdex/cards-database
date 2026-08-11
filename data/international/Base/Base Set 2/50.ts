@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				'en-us': "Tackle",
 			},
 
 			damage: 10,
@@ -40,10 +40,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Flail",
+				'en-us': "Flail",
 			},
 			effect: {
-				en: "Does 10 damage times number of damage counters on Magikarp.",
+				'en-us': "Does 10 damage times number of damage counters on Magikarp.",
 			},
 			damage: 10,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
+		'en-us': "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 	},
 
 

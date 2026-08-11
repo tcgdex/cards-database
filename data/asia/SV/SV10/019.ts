@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワカシャモ",
+		'ja-jp': "ワカシャモ",
 		'zh-tw': "力壯雞",
 		'zh-cn': "力壯雞",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "鋭い 鳴き声を あげて 集中力を 高める。 足技は 破壊力 抜群。",
+		'ja-jp': "鋭い 鳴き声を あげて 集中力を 高める。 足技は 破壊力 抜群。",
 		'zh-tw': "會發出尖銳的叫聲 來提高集中力。 腿技極具破壞力。",
 		'zh-cn': "會發出尖銳的叫聲 來提高集中力。 腿技極具破壞力。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かえん",
+				'ja-jp': "かえん",
 				'zh-tw': "烈焰",
 				'zh-cn': "烈焰",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "にどげり",
+				'ja-jp': "にどげり",
 				'zh-tw': "二連踢",
 				'zh-cn': "二連踢",
 			},
 			damage: "40×",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×40ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×40ダメージ。",
 				'zh-tw': "擲2次硬幣，造成正面出現的次數×40點傷害。",
 				'zh-cn': "擲2次硬幣，造成正面出現的次數×40點傷害。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アチャモ",
+		'ja-jp': "アチャモ",
 	},
 
 	retreat: 2,

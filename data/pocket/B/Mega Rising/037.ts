@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pansear"
+		'en-us': "Pansear"
 	},
 
 	illustrator: "Jerky",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "This Pokémon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach\n600 degrees Fahrenheit."
+		'en-us': "This Pokémon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach\n600 degrees Fahrenheit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Beat"
+			'en-us': "Beat"
 		},
 
 		damage: 10,

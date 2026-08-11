@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルチャブル",
+		'ja-jp': "ルチャブル",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "翼を 使い 空中で 姿勢を コントロール。 防ぎにくい 頭上から 攻撃を 仕掛ける。",
+		'ja-jp': "翼を 使い 空中で 姿勢を コントロール。 防ぎにくい 頭上から 攻撃を 仕掛ける。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "フリーフォール 80-" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x20ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x20ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],

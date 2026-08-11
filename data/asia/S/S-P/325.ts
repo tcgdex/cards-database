@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルギアVSTAR",
+		'ja-jp': "ルギアVSTAR",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アッセンブルスター" },
 			effect: {
-				ja: "自分の番に使える。自分のトラッシュから[C]ポケモン（「ルールを持つポケモン」をのぞく）を2枚まで選び、ベンチに出す。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分のトラッシュから[C]ポケモン（「ルールを持つポケモン」をのぞく）を2枚まで選び、ベンチに出す。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ルギアV",
+		'ja-jp': "ルギアV",
 	},
 
 	retreat: 2,

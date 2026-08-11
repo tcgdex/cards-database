@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou",
-		es: "Geodude",
-		it: "Geodude",
-		pt: "Geodude",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'es-es': "Geodude",
+		'it-it': "Geodude",
+		'pt-br': "Geodude",
+		'de-de': "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Boulder Crush",
-			fr: "Rocher Écrasant",
-			es: "Alud de Rocas",
-			it: "Macignata",
-			pt: "Rocha Esmagadora",
-			de: "Felsenquetscher"
+			'en-us': "Boulder Crush",
+			'fr-fr': "Rocher Écrasant",
+			'es-es': "Alud de Rocas",
+			'it-it': "Macignata",
+			'pt-br': "Rocha Esmagadora",
+			'de-de': "Felsenquetscher"
 		},
 
 		damage: 70
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+		'en-us': "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
 	},
 
 	

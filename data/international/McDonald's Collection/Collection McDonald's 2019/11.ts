@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Sulfura",
+		'fr-fr': "Sulfura",
 	},
 
 	rarity: "None",
@@ -36,18 +36,18 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				fr: "Cru-Aile"
+				'fr-fr': "Cru-Aile"
 			},
 			damage: 70,
 		},
 		{
 			cost: ["Fire",  "Colorless","Colorless", "Colorless"],
 			name: {
-				fr: "Piqué"
+				'fr-fr': "Piqué"
 			},
 			damage: 150,
 			effect: {
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 			}
 		},
 	],

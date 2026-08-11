@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Mail from Bill",
-		fr: "Courrier de Léo",
-		de: "Post von Bill"
+		'en-us': "Mail from Bill",
+		'fr-fr': "Courrier de Léo",
+		'de-de': "Post von Bill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can't play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand.",
-		fr: "Vous ne pouvez pas jouer cette carte si vous avez 5 cartes ou plus dans votre main (y compris celle-ci). Piochez des cartes jusqu'à ce que votre main soit de 4 cartes.",
-		de: "You can´t play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand."
+		'en-us': "You can't play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand.",
+		'fr-fr': "Vous ne pouvez pas jouer cette carte si vous avez 5 cartes ou plus dans votre main (y compris celle-ci). Piochez des cartes jusqu'à ce que votre main soit de 4 cartes.",
+		'de-de': "You can´t play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand."
 	},
 
 

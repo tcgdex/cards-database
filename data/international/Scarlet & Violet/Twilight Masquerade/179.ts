@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chimecho",
-		fr: "Éoko",
-		es: "Chimecho",
-		it: "Chimecho",
-		pt: "Chimecho",
-		de: "Palimpalim"
+		'en-us': "Chimecho",
+		'fr-fr': "Éoko",
+		'es-es': "Chimecho",
+		'it-it': "Chimecho",
+		'pt-br': "Chimecho",
+		'de-de': "Palimpalim"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			es: "Vozarrón",
-			it: "Granvoce",
-			pt: "Hipervoz",
-			de: "Schallwelle"
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'es-es': "Vozarrón",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz",
+			'de-de': "Schallwelle"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Homeward Chime",
-			fr: "Carillon de Rentrée",
-			es: "Campanas de Bienvenida",
-			it: "Tintinnio Familiare",
-			pt: "Sino de Boas-vindas",
-			de: "Heimklang"
+			'en-us': "Homeward Chime",
+			'fr-fr': "Carillon de Rentrée",
+			'es-es': "Campanas de Bienvenida",
+			'it-it': "Tintinnio Familiare",
+			'pt-br': "Sino de Boas-vindas",
+			'de-de': "Heimklang"
 		},
 
 		effect: {
-			en: "Shuffle 1 of your Benched Pokémon and all attached cards into your deck.",
-			fr: "Mélangez avec votre deck l'un de vos Pokémon de Banc et toutes les cartes qui lui sont attachées.",
-			es: "Pon 1 de tus Pokémon en Banca y todas las cartas unidas a él en tu baraja, y barájalas todas.",
-			it: "Rimischia uno dei tuoi Pokémon in panchina e tutte le carte a esso assegnate nel tuo mazzo.",
-			pt: "Embaralhe 1 dos seus Pokémon no Banco e todas as cartas ligadas a ele no seu baralho.",
-			de: "Mische 1 Pokémon auf deiner Bank und alle angelegten Karten in dein Deck."
+			'en-us': "Shuffle 1 of your Benched Pokémon and all attached cards into your deck.",
+			'fr-fr': "Mélangez avec votre deck l'un de vos Pokémon de Banc et toutes les cartes qui lui sont attachées.",
+			'es-es': "Pon 1 de tus Pokémon en Banca y todas las cartas unidas a él en tu baraja, y barájalas todas.",
+			'it-it': "Rimischia uno dei tuoi Pokémon in panchina e tutte le carte a esso assegnate nel tuo mazzo.",
+			'pt-br': "Embaralhe 1 dos seus Pokémon no Banco e todas as cartas ligadas a ele no seu baralho.",
+			'de-de': "Mische 1 Pokémon auf deiner Bank und alle angelegten Karten in dein Deck."
 		}
 	}],
 
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+		'en-us': "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
 	},
 
 	variants: [

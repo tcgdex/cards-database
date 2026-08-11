@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プロトーガ",
+		'ja-jp': "プロトーガ",
 	},
 
 	illustrator: "Akino Fukuji",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "古代の 化石から 復活した。 深さ １０００メートルまで 潜水することが できる。",
+		'ja-jp': "古代の 化石から 復活した。 深さ １０００メートルまで 潜水することが できる。",
 	},
 
 	stage: "Stage1",
@@ -38,7 +38,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "古びたふたの化石",
+		'ja-jp': "古びたふたの化石",
 	},
 
 	retreat: 3,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Pidgeotto",
+		'en-us': "Pidgeotto",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgey",
+		'en-us': "Pidgey",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				'en-us': "Whirlwind",
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 			},
 			damage: 20,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move",
+				'en-us': "Mirror Move",
 			},
 			effect: {
-				en: "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.",
+				'en-us': "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.",
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
+		'en-us': "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 	},
 
 

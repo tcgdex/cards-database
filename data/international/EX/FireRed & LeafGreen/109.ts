@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Gyarados ex",
-		fr: "Léviator ex",
-		de: "Garados ex"
+		'en-us': "Gyarados ex",
+		'fr-fr': "Léviator ex",
+		'de-de': "Garados ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twister",
-				fr: "Ouragan",
-				de: "Twister"
+				'en-us': "Twister",
+				'fr-fr': "Ouragan",
+				'de-de': "Twister"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 Énergie attachée au Pokémon Défenseur et défaussez-la. Si vous obtenez 2 piles, cette attaque est sans effet.",
-				de: "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing."
+				'en-us': "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque face, choisissez 1 Énergie attachée au Pokémon Défenseur et défaussez-la. Si vous obtenez 2 piles, cette attaque est sans effet.",
+				'de-de': "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing."
 			},
 			damage: 40,
 
@@ -58,9 +58,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-rage",
-				de: "Dragon Rage"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-rage",
+				'de-de': "Dragon Rage"
 			},
 
 			damage: 100,

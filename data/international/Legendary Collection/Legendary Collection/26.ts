@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Jynx"
+		'en-us': "Jynx"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Doubleslap"
+				'en-us': "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate"
+				'en-us': "Meditate"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
 			},
 			damage: "20+",
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack."
+		'en-us': "Merely by meditating, the Pokémon launches a powerful psychic energy attack."
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh3: Set = {
 	id: "swsh3",
 
 	name: {
-		en: "Darkness Ablaze",
-		fr: "Ténèbres Embrasées",
-		es: "Oscuridad Incandescente",
-		it: "Fiamme Oscure",
-		de: "Flammende Finsternis",
-		pt: "Escuridão Incandescente"
+		'en-us': "Darkness Ablaze",
+		'fr-fr': "Ténèbres Embrasées",
+		'es-es': "Oscuridad Incandescente",
+		'it-it': "Fiamme Oscure",
+		'de-de': "Flammende Finsternis",
+		'pt-br': "Escuridão Incandescente"
 	},
 
 	tcgOnline: 'DAA',
@@ -24,7 +24,7 @@ const swsh3: Set = {
 
 	abbreviations: {
 		official: "DAA",
-		fr: "TEM"
+		'fr-fr': "TEM"
 	},
 
 	thirdParty: {

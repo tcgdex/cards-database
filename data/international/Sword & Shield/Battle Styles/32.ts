@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seadra",
-		fr: "Hypocéan",
-		es: "Seadra",
-		it: "Seadra",
-		pt: "Seadra",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan",
+		'es-es': "Seadra",
+		'it-it': "Seadra",
+		'pt-br': "Seadra",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "0313",
@@ -21,22 +21,22 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	attacks: [{
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 40,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
+		'en-us': "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
 	},
 
 	variants: [

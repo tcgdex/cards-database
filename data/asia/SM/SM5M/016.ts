@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレキブル",
+		'ja-jp': "エレキブル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "興奮すると 胸を 打ち鳴らす。 そのたびに 電気火花が 散り 雷鳴が あたりに 響き渡る。",
+		'ja-jp': "興奮すると 胸を 打ち鳴らす。 そのたびに 電気火花が 散り 雷鳴が あたりに 響き渡る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[鋼]ポケモンなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "相手のバトルポケモンが[鋼]ポケモンなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	retreat: 4,

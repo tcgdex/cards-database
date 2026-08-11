@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cerbyllin",
-		de: "Damythir",
-		es: "Wyrdeer",
-		pt: "Wyrdeer",
-		it: "Wyrdeer",
-		en: "Wyrdeer"
+		'fr-fr': "Cerbyllin",
+		'de-de': "Damythir",
+		'es-es': "Wyrdeer",
+		'pt-br': "Wyrdeer",
+		'it-it': "Wyrdeer",
+		'en-us': "Wyrdeer"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Cerfrousse",
-		de: "Damhirplex",
-		es: "Stantler",
-		pt: "Stantler",
-		it: "Stantler",
-		en: "Stantler"
+		'fr-fr': "Cerfrousse",
+		'de-de': "Damhirplex",
+		'es-es': "Stantler",
+		'pt-br': "Stantler",
+		'it-it': "Stantler",
+		'en-us': "Stantler"
 	},
 
 	stage: "Stage1",
@@ -34,21 +34,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Allure Pressée",
-			de: "Eiliger Gang",
-			es: "Marcha Apresurada",
-			pt: "Marcha Apressada",
-			it: "Andatura Frettolosa",
-			en: "Hurried Gait"
+			'fr-fr': "Allure Pressée",
+			'de-de': "Eiliger Gang",
+			'es-es': "Marcha Apresurada",
+			'pt-br': "Marcha Apressada",
+			'it-it': "Andatura Frettolosa",
+			'en-us': "Hurried Gait"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez piocher une carte.",
-			de: "Einmal während deines Zuges kannst du 1 Karte ziehen.",
-			es: "Una vez durante tu turno, puedes robar 1 carta.",
-			pt: "Uma vez durante o seu turno, você poderá comprar 1 carta.",
-			it: "Una sola volta durante il tuo turno, puoi pescare una carta.",
-			en: "Once during your turn, you may draw a card."
+			'fr-fr': "Une fois pendant votre tour, vous pouvez piocher une carte.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Karte ziehen.",
+			'es-es': "Una vez durante tu turno, puedes robar 1 carta.",
+			'pt-br': "Uma vez durante o seu turno, você poderá comprar 1 carta.",
+			'it-it': "Una sola volta durante il tuo turno, puoi pescare una carta.",
+			'en-us': "Once during your turn, you may draw a card."
 		}
 	}],
 
@@ -56,21 +56,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Extrasenseur",
-			de: "Sondersensor",
-			es: "Paranormal",
-			pt: "Extrassensorial",
-			it: "Extrasenso",
-			en: "Extrasensory"
+			'fr-fr': "Extrasenseur",
+			'de-de': "Sondersensor",
+			'es-es': "Paranormal",
+			'pt-br': "Extrassensorial",
+			'it-it': "Extrasenso",
+			'en-us': "Extrasensory"
 		},
 
 		effect: {
-			fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-			de: "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			es: "Si tienes la misma cantidad de cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
-			pt: "Se você tiver o mesmo número de cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",
-			it: "Se hai lo stesso numero di carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
-			en: "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage."
+			'fr-fr': "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'de-de': "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'es-es': "Si tienes la misma cantidad de cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
+			'pt-br': "Se você tiver o mesmo número de cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",
+			'it-it': "Se hai lo stesso numero di carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
+			'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage."
 		},
 
 		damage: "40+"
@@ -92,7 +92,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	description: {
-		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing."
+		'en-us': "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing."
 	},
 
 	thirdParty: {

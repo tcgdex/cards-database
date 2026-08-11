@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジヘッド",
+		'ja-jp': "ジヘッド",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "２つの 頭は 仲が 悪く 相手より 多く 食べることで 主導権を 握ろうと する。",
+		'ja-jp': "２つの 頭は 仲が 悪く 相手より 多く 食べることで 主導権を 握ろうと する。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x60ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x60ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モノズ",
+		'ja-jp': "モノズ",
 	},
 
 	retreat: 2,

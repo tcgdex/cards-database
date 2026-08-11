@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [129],
 
 	description: {
-		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+		'en-us': "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
 	},
 
 	hp: 30,
@@ -19,21 +19,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Epic Splash",
-			fr: "Trempette Épique"
+			'en-us': "Epic Splash",
+			'fr-fr': "Trempette Épique"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-			fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+			'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+			'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
 		}
 	}],
 
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	rarity: "None",

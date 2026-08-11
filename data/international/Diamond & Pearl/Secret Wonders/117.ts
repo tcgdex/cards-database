@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Satoshi Ohta",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Speed Ball",
-				fr: "Balle rapide",
-				de: "Geschwindigkeitsball"
+				'en-us': "Speed Ball",
+				'fr-fr': "Balle rapide",
+				'de-de': "Geschwindigkeitsball"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Explosion",
-				fr: "Grosse explosion",
-				de: "Große Explosion"
+				'en-us': "Big Explosion",
+				'fr-fr': "Grosse explosion",
+				'de-de': "Große Explosion"
 			},
 			effect: {
-				en: "Voltorb does 50 damage to itself.",
-				fr: "Voltorbe s'inflige 50 dégâts.",
-				de: "Voltobal fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "Voltorb does 50 damage to itself.",
+				'fr-fr': "Voltorbe s'inflige 50 dégâts.",
+				'de-de': "Voltobal fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+		'en-us': "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
 	},
 
 	thirdParty: {

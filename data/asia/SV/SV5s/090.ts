@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mightyena"
+		'id-id': "Mightyena"
 	},
 
 	illustrator: "akagi",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Mightyena pasti akan menuruti perintah pelatih yang unggul. Ini adalah perilaku bawaan ketika ia beraktivitas dalam kelompok pada zaman dahulu."
+		'id-id': "Mightyena pasti akan menuruti perintah pelatih yang unggul. Ini adalah perilaku bawaan ketika ia beraktivitas dalam kelompok pada zaman dahulu."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Menghempaskan"
+			'id-id': "Tendangan Menghempaskan"
 		},
 
 		effect: {
-			id: "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
+			'id-id': "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			id: "Taring Tajam"
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 130,

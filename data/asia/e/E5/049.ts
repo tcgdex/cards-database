@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dugtrio",
+		'ja-jp': "Dugtrio",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "バロウ",
+				'ja-jp': "バロウ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中にDugtrioに攻撃によって行われたすべての損害を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中にDugtrioに攻撃によって行われたすべての損害を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "下を掘ります",
+				'ja-jp': "下を掘ります",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。衰弱や抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。衰弱や抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 		},
 	],

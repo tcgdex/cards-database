@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タネボー",
+		'ja-jp': "タネボー",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "枝に ぶらさがっていると 木の実に そっくり。 ついばもうとした ポケモンを 驚かせて 喜ぶ。",
+		'ja-jp': "枝に ぶらさがっていると 木の実に そっくり。 ついばもうとした ポケモンを 驚かせて 喜ぶ。",
 	},
 
 	stage: "Basic",

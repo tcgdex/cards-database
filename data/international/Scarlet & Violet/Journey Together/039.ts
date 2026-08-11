@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		es: "Pelipper",
-		de: "Pelipper",
-		it: "Pelipper",
-		pt: "Pelipper",
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'es-es': "Pelipper",
+		'de-de': "Pelipper",
+		'it-it': "Pelipper",
+		'pt-br': "Pelipper",
 		'es-mx': "Pelipper"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		de: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'de-de': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
 		'es-mx': "Wingull"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spit Up",
-			fr: "Relâche",
-			es: "Escupir",
-			de: "Entfessler",
-			it: "Sfoghenergia",
-			pt: "Cuspir",
+			'en-us': "Spit Up",
+			'fr-fr': "Relâche",
+			'es-es': "Escupir",
+			'de-de': "Entfessler",
+			'it-it': "Sfoghenergia",
+			'pt-br': "Cuspir",
 			'es-mx': "Escupida"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide",
-			es: "Picado Rápido",
-			de: "Tempohechtsprung",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
+			'en-us': "Speed Dive",
+			'fr-fr': "Plongée Rapide",
+			'es-es': "Picado Rápido",
+			'de-de': "Tempohechtsprung",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
 			'es-mx': "Descenso Veloz"
 		},
 

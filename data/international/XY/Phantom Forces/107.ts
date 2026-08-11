@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Tierno",
-		fr: "Tierno",
-		es: "Beni",
-		it: "Tierno",
-		pt: "Tierno",
-		de: "Tierno"
+		'en-us': "Tierno",
+		'fr-fr': "Tierno",
+		'es-es': "Beni",
+		'it-it': "Tierno",
+		'pt-br': "Tierno",
+		'de-de': "Tierno"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Piochez 3 cartes.",
-		en: "Draw 3 cards.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cards.",
-		de: "Ziehe 3 Karten."
+		'fr-fr': "Piochez 3 cartes.",
+		'en-us': "Draw 3 cards.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cards.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

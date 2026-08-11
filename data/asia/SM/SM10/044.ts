@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダグトリオ",
+		'ja-jp': "ダグトリオ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "いつも 仲良しの ３つ子だが ごく まれに どの頭が 初めに エサを 食うかで 大ゲンカになる。",
+		'ja-jp': "いつも 仲良しの ３つ子だが ごく まれに どの頭が 初めに エサを 食うかで 大ゲンカになる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、60ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ディグダ",
+		'ja-jp': "ディグダ",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		es: "Hippowdon",
-		it: "Hippowdon",
-		pt: "Hippowdon",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'es-es': "Hippowdon",
+		'it-it': "Hippowdon",
+		'pt-br': "Hippowdon",
+		'de-de': "Hippoterus"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Bazooka",
-				fr: "Canon à Sable",
+				'en-us': "Sand Bazooka",
+				'fr-fr': "Canon à Sable",
 			},
 			effect: {
-				en: "You may move a basic Energy attached to this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie de base attachée à ce Pokémon vers 1 de vos Pokémon de Banc.",
+				'en-us': "You may move a basic Energy attached to this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une Énergie de base attachée à ce Pokémon vers 1 de vos Pokémon de Banc.",
 			},
 			damage: 70,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-Pierre",
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-Pierre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 90,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+		'en-us': "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
 	},
 
 	thirdParty: {

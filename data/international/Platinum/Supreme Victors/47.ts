@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Ruhe"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 4 damage counters from Wailord. Wailord is now Asleep.",
-				fr: "Retirez à Wailord tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Wailord est maintenant Endormi.",
-				de: "Entferne alle Speziellen Zustände und 4 Schadensmarken von Wailord. Wailord schläft jetzt."
+				'en-us': "Remove all Special Conditions and 4 damage counters from Wailord. Wailord is now Asleep.",
+				'fr-fr': "Retirez à Wailord tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Wailord est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 4 Schadensmarken von Wailord. Wailord schläft jetzt."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Wave",
-				fr: "Vague géante",
-				de: "Riesenwelle"
+				'en-us': "Giant Wave",
+				'fr-fr': "Vague géante",
+				'de-de': "Riesenwelle"
 			},
 			effect: {
-				en: "Wailord can't use Giant Wave during your next turn.",
-				fr: "Wailord ne peut pas utiliser Vague géante lors de votre prochain tour.",
-				de: "Wailord kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
+				'en-us': "Wailord can't use Giant Wave during your next turn.",
+				'fr-fr': "Wailord ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				'de-de': "Wailord kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 100,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath."
+		'en-us': "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath."
 	},
 
 	variants: [

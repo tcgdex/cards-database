@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゾノクサ",
+		'ja-jp': "ナゾノクサ",
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "別名 アルキメンデス。 夜になると ２本の 根っこで ３００メートルも 歩くという。",
+		'ja-jp': "別名 アルキメンデス。 夜になると ２本の 根っこで ３００メートルも 歩くという。",
 	},
 
 	stage: "Basic",

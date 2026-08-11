@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frog Hop",
-				fr: "Bond de Grenouille",
-				es: "Salto de la Rana",
-				it: "Ranabalzo",
-				pt: "Pulo de Sapo",
-				de: "Froschhopser"
+				'en-us': "Frog Hop",
+				'fr-fr': "Bond de Grenouille",
+				'es-es': "Salto de la Rana",
+				'it-it': "Ranabalzo",
+				'pt-br': "Pulo de Sapo",
+				'de-de': "Froschhopser"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
-				es: "Disparo Lodo",
-				it: "Colpodifango",
-				pt: "Água Viscosa",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
+				'es-es': "Disparo Lodo",
+				'it-it': "Colpodifango",
+				'pt-br': "Água Viscosa",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 60,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+		'en-us': "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
 	},
 
 	thirdParty: {

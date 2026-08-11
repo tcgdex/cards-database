@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Suicune Star",
+		'ja-jp': "Suicune Star",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "スプラッシングターン",
+				'ja-jp': "スプラッシングターン",
 			},
 			effect: {
-				ja: "1つのベンチポケモンを使用して、suicune {{star | this pokemon}}を切り替えます。",
+				'ja-jp': "1つのベンチポケモンを使用して、suicune {{star | this pokemon}}を切り替えます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "交差風",
+				'ja-jp': "交差風",
 			},
 			effect: {
-				ja: "対戦相手よりも賞品が少ない場合は、すべてのポケモンに取り付けられたすべてのエネルギーカードを捨ててください。",
+				'ja-jp': "対戦相手よりも賞品が少ない場合は、すべてのポケモンに取り付けられたすべてのエネルギーカードを捨ててください。",
 			},
 			damage: 70,
 		},

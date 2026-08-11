@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon mutant",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon mutant",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Punch",
-				fr: "Poing magma",
-				de: "Magmahieb"
+				'en-us': "Magma Punch",
+				'fr-fr': "Poing magma",
+				'de-de': "Magmahieb"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+		'en-us': "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Yuichi Sawayama",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Foul Odor",
-				fr: "Odeur fétide",
-				de: "Fäulnisgeruch"
+				'en-us': "Foul Odor",
+				'fr-fr': "Odeur fétide",
+				'de-de': "Fäulnisgeruch"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
-				fr: "Le Pokémon Défenseur et Ordide sont maintenant Confus (après avoir infligé les dégâts).",
-				de: "Sowohl das Verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nachdem der Schaden zugefügt wurde)."
+				'en-us': "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
+				'fr-fr': "Le Pokémon Défenseur et Ordide sont maintenant Confus (après avoir infligé les dégâts).",
+				'de-de': "Sowohl das Verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nachdem der Schaden zugefügt wurde)."
 			},
 			damage: 30,
 

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   
 	name: {
-		fr: "Tissenboule",
-		en: "Tarountula",
-		es: "Tarountula",
-		it: "Tarountula",
-		pt: "Tarountula",
-		de: "Tarundel"
+		'fr-fr': "Tissenboule",
+		'en-us': "Tarountula",
+		'es-es': "Tarountula",
+		'it-it': "Tarountula",
+		'pt-br': "Tarountula",
+		'de-de': "Tarundel"
 	},
 
   illustrator: "Mina Nakai",
@@ -26,9 +26,9 @@ const card: Card = {
   attacks: [
     {
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				de: "Hook"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'de-de': "Hook"
 			},
       damage: 20,
       cost: ["Grass"],

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンデ",
+		'ja-jp': "ダンデ",
 	},
 
 	illustrator: "Naoki Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		'ja-jp': "この番、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 	},
 
 	variants: [

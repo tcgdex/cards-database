@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Garchomp",
-		fr: "Carchacrok",
-		es: "Garchomp",
-		it: "Garchomp",
-		pt: "Garchomp",
-		de: "Knakrack"
+		'en-us': "Garchomp",
+		'fr-fr': "Carchacrok",
+		'es-es': "Garchomp",
+		'it-it': "Garchomp",
+		'pt-br': "Garchomp",
+		'de-de': "Knakrack"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Turbo Assault",
-				fr: "Assaut Turbo",
-				es: "Turboasalto",
-				it: "Assalto Repentino",
-				pt: "Turbo Ataque",
-				de: "Turboüberfall"
+				'en-us': "Turbo Assault",
+				'fr-fr': "Assaut Turbo",
+				'es-es': "Turboasalto",
+				'it-it': "Assalto Repentino",
+				'pt-br': "Turbo Ataque",
+				'de-de': "Turboüberfall"
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à l'un de vos Pokémon.",
-				es: "Une 1 carta de Energía de tu pila de descartes a 1 de tus Pokémon.",
-				it: "Assegna a uno dei tuoi Pokémon una carta Energia dalla tua pila degli scarti.",
-				pt: "Ligue um card de Energia da sua pilha de descarte a 1 dos seus Pokémon.",
-				de: "Lege 1 Energiekarte von deinem Ablagestapel an 1 deiner Pokémon an."
+				'en-us': "Attach an Energy card from your discard pile to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à l'un de vos Pokémon.",
+				'es-es': "Une 1 carta de Energía de tu pila de descartes a 1 de tus Pokémon.",
+				'it-it': "Assegna a uno dei tuoi Pokémon una carta Energia dalla tua pila degli scarti.",
+				'pt-br': "Ligue um card de Energia da sua pilha de descarte a 1 dos seus Pokémon.",
+				'de-de': "Lege 1 Energiekarte von deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 60,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bite Off",
-				fr: "Arrachage",
-				es: "Despedazar",
-				it: "Addentare",
-				pt: "Mordida Estraçalhante",
-				de: "Abbeißen"
+				'en-us': "Bite Off",
+				'fr-fr': "Arrachage",
+				'es-es': "Despedazar",
+				'it-it': "Addentare",
+				'pt-br': "Mordida Estraçalhante",
+				'de-de': "Abbeißen"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 80 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 80 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 80 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, este ataque causará 80 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 80 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, este ataque causará 80 de danos adicionais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, fügt dieser Angriff 80 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape.",
+		'en-us': "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape.",
 	},
 
 	thirdParty: {

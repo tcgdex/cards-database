@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Charbi",
-		en: "Rolycoly",
-		es: "Rolycoly",
-		it: "Rolycoly",
-		pt: "Rolycoly",
-		de: "Klonkett"
+		'fr-fr': "Charbi",
+		'en-us': "Rolycoly",
+		'es-es': "Rolycoly",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly",
+		'de-de': "Klonkett"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10,
@@ -44,7 +44,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+		'en-us': "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
 	},
 
 	variants: [

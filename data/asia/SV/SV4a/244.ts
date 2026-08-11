@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボルトロス",
+		'ja-jp': "ボルトロス",
 		'zh-tw': "雷電雲",
-		id: "Thundurus"
+		'id-id': "Thundurus"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "大空を 飛び回りながら あちこちに 雷を 落として 山火事を 起こすので 嫌われる。",
+		'ja-jp': "大空を 飛び回りながら あちこちに 雷を 落として 山火事を 起こすので 嫌われる。",
 		'zh-tw': "一邊在空中飛來飛去，一邊四處打雷引發森林大火， 因此受到厭惡。",
-		id: "Thundurus terbang mengelilingi langit luas sambil menjatuhkan petir ke sana kemari dan menyebabkan kebakaran gunung sehingga Pokémon ini tidak disukai."
+		'id-id': "Thundurus terbang mengelilingi langit luas sambil menjatuhkan petir ke sana kemari dan menyebabkan kebakaran gunung sehingga Pokémon ini tidak disukai."
 	},
 
 	stage: "Basic",
@@ -28,15 +28,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "あくてんこう",
+			'ja-jp': "あくてんこう",
 			'zh-tw': "壞天氣",
-			id: "Cuaca Buruk"
+			'id-id': "Cuaca Buruk"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。",
+			'ja-jp': "このポケモンがバトル場にいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。",
 			'zh-tw': "只要這隻寶可夢在戰鬥場上，自己的所有備戰寶可夢不會受到對手的招式的傷害。",
-			id: "Selama Pokémon ini ada di Arena Bertarung, semua Pokémon Cadangan sendiri tidak menerima kerusakan akibat serangan lawan."
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, semua Pokémon Cadangan sendiri tidak menerima kerusakan akibat serangan lawan."
 		}
 	}],
 
@@ -44,17 +44,17 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			ja: "ギガントボルト",
+			'ja-jp': "ギガントボルト",
 			'zh-tw': "巨烈伏特",
-			id: "Gigant Bolt"
+			'id-id': "Gigant Bolt"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "このポケモンにも90ダメージ。",
+			'ja-jp': "このポケモンにも90ダメージ。",
 			'zh-tw': "這隻寶可夢也受到90點傷害。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 90."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 90."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ココロモリ",
+		'ja-jp': "ココロモリ",
 	},
 
 	illustrator: "Wintr Wandr",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いろいろな 周波数の 音波を 鼻の 穴から 発射する。 岩を 破壊する 音波も 出す。",
+		'ja-jp': "いろいろな 周波数の 音波を 鼻の 穴から 発射する。 岩を 破壊する 音波も 出す。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "ハッピーリターン" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。",
+				'ja-jp': "自分のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。",
 			},
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コロモリ",
+		'ja-jp': "コロモリ",
 	},
 
 	retreat: 1,

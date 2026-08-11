@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bebop Punch",
-				fr: "Rythmofrappe",
-				de: "Bebop-Hieb"
+				'en-us': "Bebop Punch",
+				'fr-fr': "Rythmofrappe",
+				'de-de': "Bebop-Hieb"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l’un des Pokémon de votre adversaire. Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte mal der Anzahl \"Kopf\" zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an)."
+				'en-us': "Choose 1 of your opponent's Pokémon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez l’un des Pokémon de votre adversaire. Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte mal der Anzahl \"Kopf\" zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an)."
 			},
 
 		},
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
+		'en-us': "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
 	},
 
 	variants: [

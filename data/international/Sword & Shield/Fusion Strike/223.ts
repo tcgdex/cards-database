@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dubwool",
-		fr: "Moumouflon",
-		es: "Dubwool",
-		it: "Dubwool",
-		pt: "Dubwool",
-		de: "Zwollock"
+		'en-us': "Dubwool",
+		'fr-fr': "Moumouflon",
+		'es-es': "Dubwool",
+		'it-it': "Dubwool",
+		'pt-br': "Dubwool",
+		'de-de': "Zwollock"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Wooloo",
-		fr: "Moumouton",
-		es: "Wooloo",
-		it: "Wooloo",
-		pt: "Wooloo",
-		de: "Wolly"
+		'en-us': "Wooloo",
+		'fr-fr': "Moumouton",
+		'es-es': "Wooloo",
+		'it-it': "Wooloo",
+		'pt-br': "Wooloo",
+		'de-de': "Wolly"
 	},
 
 	stage: "Stage1",
@@ -40,41 +40,41 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+		'en-us': "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bounce",
-			fr: "Rebond",
-			de: "Sprungfeder",
-			es: "Bote",
-			pt: "Ricochete",
-			it: "Rimbalzo"
+			'en-us': "Bounce",
+			'fr-fr': "Rebond",
+			'de-de': "Sprungfeder",
+			'es-es': "Bote",
+			'pt-br': "Ricochete",
+			'it-it': "Rimbalzo"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
-			es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+			'es-es': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			de: "Rolltackle",
-			es: "Placaje Giro",
-			pt: "Golpe de Colisão Rolante",
-			it: "Rollazione"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'de-de': "Rolltackle",
+			'es-es': "Placaje Giro",
+			'pt-br': "Golpe de Colisão Rolante",
+			'it-it': "Rollazione"
 		},
 
 		damage: 70

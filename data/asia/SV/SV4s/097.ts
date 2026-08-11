@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Honedge"
+		'id-id': "Honedge"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Tubuh asli Honedge adalah bola mata biru di gagang pedang. Pokémon ini mengisap vitalitas manusia menggunakan kain tuanya."
+		'id-id': "Tubuh asli Honedge adalah bola mata biru di gagang pedang. Pokémon ini mengisap vitalitas manusia menggunakan kain tuanya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

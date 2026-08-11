@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
-		it: "Goomy",
-		pt: "Goomy",
-		de: "Viscora"
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gooey",
-				fr: "Poisseux",
-				es: "Baba",
-				it: "Viscosità",
-				pt: "Pegajoso",
-				de: "Viskosität"
+				'en-us': "Gooey",
+				'fr-fr': "Poisseux",
+				'es-es': "Baba",
+				'it-it': "Viscosità",
+				'pt-br': "Pegajoso",
+				'de-de': "Viskosität"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 de danos deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
+		'en-us': "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
 	},
 
 	thirdParty: {

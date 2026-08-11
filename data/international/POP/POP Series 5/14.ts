@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Pelipper δ",
-		fr: "Pelipper δ"
+		'en-us': "Pelipper δ",
+		'fr-fr': "Pelipper δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise"
 	},
 
 	stage: "Stage1",
@@ -31,12 +31,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Mist",
-				fr: "Brume"
+				'en-us': "Mist",
+				'fr-fr': "Brume"
 			},
 			effect: {
-				en: "Any damage done to Pelipper by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Bekipan par des attaques des Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+				'en-us': "Any damage done to Pelipper by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Bekipan par des attaques des Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Wing",
-				fr: "Aile éclair"
+				'en-us': "Lightning Wing",
+				'fr-fr': "Aile éclair"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				'en-us': "Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 50,
 

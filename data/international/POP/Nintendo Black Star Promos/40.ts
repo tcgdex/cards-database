@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew",
+		'en-us': "Mew",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psywave",
+				'en-us': "Psywave",
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
 			},
 			damage: 10,
 
@@ -40,10 +40,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Devolution Beam",
+				'en-us': "Devolution Beam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of either player's Evolved Pokémon, remove the highest Stage Evolution card from that Pokémon, and put it into that player's hand.",
+				'en-us': "Flip a coin. If heads, choose 1 of either player's Evolved Pokémon, remove the highest Stage Evolution card from that Pokémon, and put it into that player's hand.",
 			},
 
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤミラミ",
+		'ja-jp': "ヤミラミ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "宝石が 好物で メレシーを 狙って 付け回しているが ガバイトに 横取り されてしまう。",
+		'ja-jp': "宝石が 好物で メレシーを 狙って 付け回しているが ガバイトに 横取り されてしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "そくばく" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "次の相手の番、相手は手札からサポートを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からサポートを出して使えない。",
 			},
 		},
 		{

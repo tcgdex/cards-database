@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โซรัว <ของ N>",
-		id: "Zorua <N>"
+		'th-th': "โซรัว <ของ N>",
+		'id-id': "Zorua <N>"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -15,15 +15,15 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "แปลงกายเป็นอีกฝ่ายให้ตกใจ เหมือนว่าจะแปลงเป็นเด็กเงียบ ๆ อยู่ บ่อย ๆ"
+		'th-th': "แปลงกายเป็นอีกฝ่ายให้ตกใจ เหมือนว่าจะแปลงเป็นเด็กเงียบ ๆ อยู่ บ่อย ๆ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ข่วน",
-			id: "Mencakar"
+			'th-th': "ข่วน",
+			'id-id': "Mencakar"
 		},
 
 		damage: 20,

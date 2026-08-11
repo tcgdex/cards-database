@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [755],
 
 	name: {
-		en: "Morelull",
-		fr: "Spododo",
-		es: "Morelull",
-		it: "Morelull",
-		pt: "Morelull",
-		de: "Bubungus"
+		'en-us': "Morelull",
+		'fr-fr': "Spododo",
+		'es-es': "Morelull",
+		'it-it': "Morelull",
+		'pt-br': "Morelull",
+		'de-de': "Bubungus"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spore",
-				fr: "Spore",
-				es: "Espora",
-				it: "Spora",
-				pt: "Esporos",
-				de: "Pilzspore"
+				'en-us': "Spore",
+				'fr-fr': "Spore",
+				'es-es': "Espora",
+				'it-it': "Spora",
+				'pt-br': "Esporos",
+				'de-de': "Pilzspore"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
+		'en-us': "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
 	},
 
 	variants: [

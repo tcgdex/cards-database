@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンドパン",
+		'ja-jp': "サンドパン",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "よく ツメや ツノが 折れてしまう。 折れた ツメや ツノで 土を 耕す 道具が 作られる。",
+		'ja-jp': "よく ツメや ツノが 折れてしまう。 折れた ツメや ツノで 土を 耕す 道具が 作られる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サンド",
+		'ja-jp': "サンド",
 	},
 
 	retreat: 1,

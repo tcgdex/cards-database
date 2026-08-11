@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Musharna",
-		fr: "Mushana",
-		es: "Musharna",
-		it: "Musharna",
-		pt: "Musharna",
-		de: "Somnivora"
+		'en-us': "Musharna",
+		'fr-fr': "Mushana",
+		'es-es': "Musharna",
+		'it-it': "Musharna",
+		'pt-br': "Musharna",
+		'de-de': "Somnivora"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream of Memories",
-				fr: "Retour en Arrière",
-				es: "Sueño de Memorias",
-				it: "Reminiscenze Oniriche",
-				pt: "Sonho de Lembranças",
-				de: "Traum der Erinnerungen"
+				'en-us': "Dream of Memories",
+				'fr-fr': "Retour en Arrière",
+				'es-es': "Sueño de Memorias",
+				'it-it': "Reminiscenze Oniriche",
+				'pt-br': "Sonho de Lembranças",
+				'de-de': "Traum der Erinnerungen"
 			},
 			effect: {
-				en: "Shuffle 3 cards from your discard pile into your deck.",
-				fr: "Mélangez 3 cartes de votre pile de défausse avec votre deck.",
-				es: "Pon 3 cartas de tu pila de descartes en tu baraja y baraja todas las cartas.",
-				it: "Rimischia tre carte dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 3 cards da sua pilha de descarte no seu baralho.",
-				de: "Mische 3 Karten aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle 3 cards from your discard pile into your deck.",
+				'fr-fr': "Mélangez 3 cartes de votre pile de défausse avec votre deck.",
+				'es-es': "Pon 3 cartas de tu pila de descartes en tu baraja y baraja todas las cartas.",
+				'it-it': "Rimischia tre carte dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 3 cards da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische 3 Karten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Dance",
-				fr: "Danse-Rêve",
-				es: "Danza Onírica",
-				it: "Sognodanza",
-				pt: "Dança dos Sonhos",
-				de: "Traumtanz"
+				'en-us': "Dream Dance",
+				'fr-fr': "Danse-Rêve",
+				'es-es': "Danza Onírica",
+				'it-it': "Sognodanza",
+				'pt-br': "Dança dos Sonhos",
+				'de-de': "Traumtanz"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Asleep.",
-				fr: "Les deux Pokémon Actifs sont maintenant Endormis.",
-				es: "Ambos Pokémon Activos pasan a estar Dormidos.",
-				it: "Entrambi i Pokémon attivi vengono addormentati.",
-				pt: "Ambos os Pokémon Ativos agora estão Adormecidos.",
-				de: "Beide Aktiven Pokémon schlafen jetzt."
+				'en-us': "Both Active Pokémon are now Asleep.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Endormis.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Dormidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono addormentati.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Adormecidos.",
+				'de-de': "Beide Aktiven Pokémon schlafen jetzt."
 			},
 			damage: 30,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+		'en-us': "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
 	},
 
 	thirdParty: {

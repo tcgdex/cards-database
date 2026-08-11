@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Shelgon δ",
-		fr: "Drackhaus δ",
-		de: "Draschel"
+		'en-us': "Shelgon δ",
+		'fr-fr': "Drackhaus δ",
+		'de-de': "Draschel"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bagon",
-		fr: "Draby"
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Shelgon does 10 damage to itself.",
-				fr: "Drackhaus s'inflige 10 dégâts.",
-				de: "Draschel fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Shelgon does 10 damage to itself.",
+				'fr-fr': "Drackhaus s'inflige 10 dégâts.",
+				'de-de': "Draschel fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 

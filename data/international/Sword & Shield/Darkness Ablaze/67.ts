@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [39],
 
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
-				es: "Farfullar",
-				it: "Borbottio",
-				pt: "Resmungo",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Kick",
-				fr: "Coup d'Pied Lunaire",
-				es: "Patada Lunar",
-				it: "Calcioluna",
-				pt: "Chute Lunar",
-				de: "Mondkick"
+				'en-us': "Moon Kick",
+				'fr-fr': "Coup d'Pied Lunaire",
+				'es-es': "Patada Lunar",
+				'it-it': "Calcioluna",
+				'pt-br': "Chute Lunar",
+				'de-de': "Mondkick"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+		'en-us': "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
 	},
 
 	variants: [

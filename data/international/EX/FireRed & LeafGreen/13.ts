@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fiery Aura",
-				fr: "Aura flamboyante",
-				de: "Fiery Aura"
+				'en-us': "Fiery Aura",
+				'fr-fr': "Aura flamboyante",
+				'de-de': "Fiery Aura"
 			},
 			effect: {
-				en: "As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 on Burned Pokémon between turns.",
-				fr: "Tant que Galopa est votre Pokémon Actif, placez 4 marqueurs de dégât au lieu de 2 sur les Pokémon Brûlés entre deux tours.",
-				de: "As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 damage counters on Burned Pokémon between turns."
+				'en-us': "As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 on Burned Pokémon between turns.",
+				'fr-fr': "Tant que Galopa est votre Pokémon Actif, placez 4 marqueurs de dégât au lieu de 2 sur les Pokémon Brûlés entre deux tours.",
+				'de-de': "As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 damage counters on Burned Pokémon between turns."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Searing Flame"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Searing Flame"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rear Kick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rear Kick"
 			},
 
 			damage: 40,

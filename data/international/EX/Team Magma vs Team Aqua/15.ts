@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Mightyena",
-		fr: "Grahyena de Team Aqua",
-		de: "Team Aquas Magnayen"
+		'en-us': "Team Aqua's Mightyena",
+		'fr-fr': "Grahyena de Team Aqua",
+		'de-de': "Team Aquas Magnayen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mystic Fang",
-				fr: "Croc mystique",
-				de: "Mystic Fang"
+				'en-us': "Mystic Fang",
+				'fr-fr': "Croc mystique",
+				'de-de': "Mystic Fang"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
-				de: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

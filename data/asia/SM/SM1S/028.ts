@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "死んだように まったく 動かないが 触れると ほのかに 温かい。 大昔は 星の繭と 呼ばれた。",
+		'ja-jp': "死んだように まったく 動かないが 触れると ほのかに 温かい。 大昔は 星の繭と 呼ばれた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "テレポート" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモッグ",
+		'ja-jp': "コスモッグ",
 	},
 
 	retreat: 3,

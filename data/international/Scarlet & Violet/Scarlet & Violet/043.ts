@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		es: "Slowbro",
-		it: "Slowbro",
-		pt: "Slowbro",
-		de: "Lahmus"
+		'en-us': "Slowbro",
+		'fr-fr': "Flagadoss",
+		'es-es': "Slowbro",
+		'it-it': "Slowbro",
+		'pt-br': "Slowbro",
+		'de-de': "Lahmus"
 	},
 
 	rarity: "Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Strange Behavior",
-			fr: "Comportement Étrange",
-			es: "Comportamiento Extraño",
-			it: "Strano Comportamento",
-			pt: "Comportamento Estranho",
-			de: "Seltsames Verhalten"
+			'en-us': "Strange Behavior",
+			'fr-fr': "Comportement Étrange",
+			'es-es': "Comportamiento Extraño",
+			'it-it': "Strano Comportamento",
+			'pt-br': "Comportamento Estranho",
+			'de-de': "Seltsames Verhalten"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos autres Pokémon vers ce Pokémon.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus otros Pokémon a este Pokémon.",
-			it: "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi altri Pokémon a questo Pokémon tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus outros Pokémon para este Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner anderen Pokémon auf dieses Pokémon verschieben."
+			'en-us': "As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon.",
+			'fr-fr': "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos autres Pokémon vers ce Pokémon.",
+			'es-es': "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de uno de tus otros Pokémon a este Pokémon.",
+			'it-it': "Durante il tuo turno, puoi spostare un segnalino danno da uno dei tuoi altri Pokémon a questo Pokémon tutte le volte che vuoi.",
+			'pt-br': "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus outros Pokémon para este Pokémon.",
+			'de-de': "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner anderen Pokémon auf dieses Pokémon verschieben."
 		}
 	}],
 
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Bubble Drain",
-			fr: "Vide Bulle",
-			es: "Drenaje Burbujas",
-			it: "Assorbibolla",
-			pt: "Dreno de Bolha",
-			de: "Blasengully"
+			'en-us': "Bubble Drain",
+			'fr-fr': "Vide Bulle",
+			'es-es': "Drenaje Burbujas",
+			'it-it': "Assorbibolla",
+			'pt-br': "Dreno de Bolha",
+			'de-de': "Blasengully"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 60
@@ -93,7 +93,7 @@ const card: Card = {
 	illustrator: "Shinji Kanda",
 
 	description: {
-		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
+		'en-us': "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
 	},
 
 	thirdParty: {

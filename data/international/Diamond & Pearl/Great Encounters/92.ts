@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Volbeat",
-		fr: "Muciole",
-		de: "Volbeat"
+		'en-us': "Volbeat",
+		'fr-fr': "Muciole",
+		'de-de': "Volbeat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Light Conduct",
-				fr: "Conducteur de lumière",
-				de: "Lichtleiter"
+				'en-us': "Light Conduct",
+				'fr-fr': "Conducteur de lumière",
+				'de-de': "Lichtleiter"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if you have Illumise in play, you may search your discard pile for a Supporter card, show it to your opponent, and put it on top of your deck. This power can't be used if Volbeat is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si vous avez Lumivole en jeu, vous pouvez choisir dans votre pile de défausse une carte Supporter. Montrez-la à votre adversaire et placez-la au dessus de votre deck. Ce pouvoir ne peut pas être utilisé si Muciole est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Illumise im Spiel hast, deinen Ablagestapel nach 1 Unterstützerkarte durchsuchen, sie deinem Gegner zeigen und auf dein Deck legen. Diese Poké-Power kann nicht benutzt werden, wenn Volbeat von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), if you have Illumise in play, you may search your discard pile for a Supporter card, show it to your opponent, and put it on top of your deck. This power can't be used if Volbeat is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si vous avez Lumivole en jeu, vous pouvez choisir dans votre pile de défausse une carte Supporter. Montrez-la à votre adversaire et placez-la au dessus de votre deck. Ce pouvoir ne peut pas être utilisé si Muciole est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Illumise im Spiel hast, deinen Ablagestapel nach 1 Unterstützerkarte durchsuchen, sie deinem Gegner zeigen und auf dein Deck legen. Diese Poké-Power kann nicht benutzt werden, wenn Volbeat von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Firefly Light",
-				fr: "Lumière de luciole",
-				de: "Leuchtkäferglühen"
+				'en-us': "Firefly Light",
+				'fr-fr': "Lumière de luciole",
+				'de-de': "Leuchtkäferglühen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It communicates with others by lighting up its rear at night. It loves ILLUMISE's sweet aroma.",
+		'en-us': "It communicates with others by lighting up its rear at night. It loves ILLUMISE's sweet aroma.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		es: "Mienshao",
-		it: "Mienshao",
-		pt: "Mienshao",
-		de: "Wie-Shu"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'es-es': "Mienshao",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'de-de': "Wie-Shu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feint",
-				fr: "Ruse",
+				'en-us': "Feint",
+				'fr-fr': "Ruse",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 30,
 
@@ -55,8 +55,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
 			},
 
 			damage: 50,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It wield the fur on its arms like a whip. Its arms attacks come with such rapidity that they cannot even be seen.",
+		'en-us': "It wield the fur on its arms like a whip. Its arms attacks come with such rapidity that they cannot even be seen.",
 	},
 
 	thirdParty: {

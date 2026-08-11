@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "搬運小匠",
-		th: "ด็อคโคเรอร์"
+		'th-th': "ด็อคโคเรอร์"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "如果搬運小匠可以搬起自己體重３倍左右的木材，就代表牠進化的日子要到了。",
-		th: "ด็อคโคเรอร์ที่เริ่มยกท่อนไม้สี่เหลี่ยมขนาดประมาณ 3 เท่าของตัวเองได้ ก็ใกล้ถึงวันที่ตัวเองจะวิวัฒนาการ"
+		'th-th': "ด็อคโคเรอร์ที่เริ่มยกท่อนไม้สี่เหลี่ยมขนาดประมาณ 3 เท่าของตัวเองได้ ก็ใกล้ถึงวันที่ตัวเองจะวิวัฒนาการ"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "拍擊",
-			th: "ปัด"
+			'th-th': "ปัด"
 		},
 
 		damage: 20,

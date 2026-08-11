@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Graveler",
-		fr: "Gravalanch d'Alola",
-		es: "Graveler de Alola",
-		de: "Alola-Georok",
-		it: "Graveler di Alola",
-		pt: "Graveler de Alola",
+		'en-us': "Alolan Graveler",
+		'fr-fr': "Gravalanch d'Alola",
+		'es-es': "Graveler de Alola",
+		'de-de': "Alola-Georok",
+		'it-it': "Graveler di Alola",
+		'pt-br': "Graveler de Alola",
 		'es-mx': "Graveler de Alola"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Alolan Geodude",
-		fr: "Racaillou d'Alola",
-		es: "Geodude de Alola",
-		de: "Alola-Kleinstein",
-		it: "Geodude di Alola",
-		pt: "Geodude de Alola",
+		'en-us': "Alolan Geodude",
+		'fr-fr': "Racaillou d'Alola",
+		'es-es': "Geodude de Alola",
+		'de-de': "Alola-Kleinstein",
+		'it-it': "Geodude di Alola",
+		'pt-br': "Geodude de Alola",
 		'es-mx': "Geodude de Alola"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			de: "Rolltackle",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'de-de': "Rolltackle",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
 			'es-mx': "Tacleada Rodante"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Punch",
-			fr: "Poing Électrique",
-			es: "Puño Eléctrico",
-			de: "Elektroschlag",
-			it: "Pugno Elettrico",
-			pt: "Murro Elétrico",
+			'en-us': "Electric Punch",
+			'fr-fr': "Poing Électrique",
+			'es-es': "Puño Eléctrico",
+			'de-de': "Elektroschlag",
+			'it-it': "Pugno Elettrico",
+			'pt-br': "Murro Elétrico",
 			'es-mx': "Puño Eléctrico"
 		},
 

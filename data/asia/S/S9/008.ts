@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "土台龜",
-		ja: "ドダイトス"
+		'ja-jp': "ドダイトス"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "有時候小型的寶可夢們會聚集起來，在一動不動的 土台龜背上築起巢穴。",
-		ja: "小さな ポケモンたちが 集まり 動かない ドダイトスの 背中で 巣作りを はじめることがある。"
+		'ja-jp': "小さな ポケモンたちが 集まり 動かない ドダイトスの 背中で 巣作りを はじめることがある。"
 	},
 
 	stage: "Stage2",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "進化壓制",
-			ja: "エボルプレス"
+			'ja-jp': "エボルプレス"
 		},
 
 		effect: {
 			'zh-tw': "造成自己的場上進化寶可夢的數量×50點傷害。",
-			ja: "自分の場の進化ポケモンの数×50ダメージ。"
+			'ja-jp': "自分の場の進化ポケモンの数×50ダメージ。"
 		},
 
 		damage: "50×",
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "頭突",
-			ja: "ぶちかます"
+			'ja-jp': "ぶちかます"
 		},
 
 		damage: 160,

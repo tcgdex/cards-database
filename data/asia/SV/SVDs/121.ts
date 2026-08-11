@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โนก็อจจิ",
-		id: "Dunsparce"
+		'th-th': "โนก็อจจิ",
+		'id-id': "Dunsparce"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "สร้างทางวงกตในที่มืด พอมีคนเจอก็จะใช้หางขุดมุดดินหนี",
-		id: "Dunsparce membuat labirin di tempat gelap. Jika ada yang melihatnya, Pokémon ini akan melarikan diri dengan menggali lubang menggunakan ekornya."
+		'th-th': "สร้างทางวงกตในที่มืด พอมีคนเจอก็จะใช้หางขุดมุดดินหนี",
+		'id-id': "Dunsparce membuat labirin di tempat gelap. Jika ada yang melihatnya, Pokémon ini akan melarikan diri dengan menggali lubang menggunakan ekornya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หาพรรคพวก",
-			id: "Mencari Teman"
+			'th-th': "หาพรรคพวก",
+			'id-id': "Mencari Teman"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
-			id: "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "กัดติด",
-			id: "Menggigit"
+			'th-th': "กัดติด",
+			'id-id': "Menggigit"
 		},
 
 		damage: 50,

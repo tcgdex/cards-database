@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Frogadier",
-		fr: "Croâporal",
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Froakie",
-		fr: "Grenousse",
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Gale Shuriken",
-				fr: "Bourrasque Shuriken",
+				'en-us': "Gale Shuriken",
+				'fr-fr': "Bourrasque Shuriken",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -43,8 +43,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Drip",
-				fr: "Goutte à Goutte",
+				'en-us': "Water Drip",
+				'fr-fr': "Goutte à Goutte",
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+		'en-us': "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
 	},
 }
 

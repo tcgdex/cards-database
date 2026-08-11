@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Shiftry",
-		fr: "Tengalice",
-		de: "Tengulist"
+		'en-us': "Shiftry",
+		'fr-fr': "Tengalice",
+		'de-de': "Tengulist"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nuzleaf",
-		fr: "Pifeuil"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Aside",
-				fr: "Pousser de côté",
-				de: "Push Aside"
+				'en-us': "Push Aside",
+				'fr-fr': "Pousser de côté",
+				'de-de': "Push Aside"
 			},
 			effect: {
-				en: "Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck.",
-				fr: "Regardez la main de votre adversaire et choisissez 1 Pokémon de base ou une carte Évolution. Votre adversaire place cette carte au dessous de son deck.",
-				de: "Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck."
+				'en-us': "Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck.",
+				'fr-fr': "Regardez la main de votre adversaire et choisissez 1 Pokémon de base ou une carte Évolution. Votre adversaire place cette carte au dessous de son deck.",
+				'de-de': "Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck."
 			},
 			damage: 30,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supernatural Power",
-				fr: "Extrasenseur",
-				de: "Supernatural Power"
+				'en-us': "Supernatural Power",
+				'fr-fr': "Extrasenseur",
+				'de-de': "Supernatural Power"
 			},
 			effect: {
-				en: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
-				fr: "Si vous possédez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage."
+				'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
+				'fr-fr': "Si vous possédez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage."
 			},
 			damage: "40+",
 

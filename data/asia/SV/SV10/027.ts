@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキノオー",
+		'ja-jp': "ユキノオー",
 		'zh-tw': "暴雪王",
 		'zh-cn': "暴雪王",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
+		'ja-jp': "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
 		'zh-tw': "在萬年積雪的山脈 靜靜生活。會引發 暴風雪來隱藏自己。",
 		'zh-cn': "在萬年積雪的山脈 靜靜生活。會引發 暴風雪來隱藏自己。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきたおし",
+				'ja-jp': "つきたおし",
 				'zh-tw': "撞倒",
 				'zh-cn': "撞倒",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ひょうけつウッド",
+				'ja-jp': "ひょうけつウッド",
 				'zh-tw': "結冰木",
 				'zh-cn': "結冰木",
 			},
 			damage: "120+",
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンに[G]エネルギーが2個以上ついているなら、120ダメージ追加。",
+				'ja-jp': "このポケモンに[G]エネルギーが2個以上ついているなら、120ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有2個以上【草】能量，則增加120點傷害。",
 				'zh-cn': "若這隻寶可夢身上附有2個以上【草】能量，則增加120點傷害。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 	},
 
 	retreat: 4,

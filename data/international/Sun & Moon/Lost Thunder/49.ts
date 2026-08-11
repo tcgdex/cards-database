@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	illustrator: "sowsow",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "V-Beatdown",
-				fr: "Dérouillée Victoire",
-				es: "Doblegar V",
-				it: "Batosta V",
-				pt: "Surra V",
-				de: "V-Niederprügler"
+				'en-us': "V-Beatdown",
+				'fr-fr': "Dérouillée Victoire",
+				'es-es': "Doblegar V",
+				'it-it': "Batosta V",
+				'pt-br': "Surra V",
+				'de-de': "V-Niederprügler"
 			},
 			effect: {
-				en: "This attack does 20 damage for each of your Basic Pokémon in play.",
-				fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de base en jeu.",
-				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon Básicos en juego.",
-				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon Base in gioco.",
-				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon Básicos em jogo.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Basis-Pokémon im Spiel zu."
+				'en-us': "This attack does 20 damage for each of your Basic Pokémon in play.",
+				'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de base en jeu.",
+				'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon Básicos en juego.",
+				'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon Base in gioco.",
+				'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon Básicos em jogo.",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Basis-Pokémon im Spiel zu."
 			},
 			damage: "20×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		'en-us': "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
 	},
 
 	thirdParty: {

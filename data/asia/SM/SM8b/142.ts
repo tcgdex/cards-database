@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヴェラ火山公園",
+		'ja-jp': "ヴェラ火山公園",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのやけどのポケモンは、ポケモンチェックのときに投げるコインがオモテでも、やけどは回復しない。",
+		'ja-jp': "おたがいのやけどのポケモンは、ポケモンチェックのときに投げるコインがオモテでも、やけどは回復しない。",
 	},
 
 	variants: [

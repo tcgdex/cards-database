@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 		'zh-tw': "鬼斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "薄い ガスのような 体で どこにでも 忍びこむが 風が 吹くと 吹きとばされる。",
+		'ja-jp': "薄い ガスのような 体で どこにでも 忍びこむが 風が 吹くと 吹きとばされる。",
 		'zh-tw': "能用稀薄氣體狀的身體潛入任何地方，但只要起風就會被吹跑。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ねむりのはどう",
+				'ja-jp': "ねむりのはどう",
 				'zh-tw': "睡眠波動",
 			},
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【睡眠】。",
 			},
 		},

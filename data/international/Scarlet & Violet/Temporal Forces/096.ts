@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Great Tusk",
-		fr: "Fort-Ivoire",
-		es: "Colmilargo",
-		it: "Grandizanne",
-		pt: "Presa Grande",
-		de: "Riesenzahn"
+		'en-us': "Great Tusk",
+		'fr-fr': "Fort-Ivoire",
+		'es-es': "Colmilargo",
+		'it-it': "Grandizanne",
+		'pt-br': "Presa Grande",
+		'de-de': "Riesenzahn"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger",
-			es: "Arremeter",
-			it: "Affondo Lungo",
-			pt: "Bote",
-			de: "Sprungangriff"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger",
+			'es-es': "Arremeter",
+			'it-it': "Affondo Lungo",
+			'pt-br': "Bote",
+			'de-de': "Sprungangriff"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wrathful Charge",
-			fr: "Charge Furieuse",
-			es: "Carga Iracunda",
-			it: "Carica Furibonda",
-			pt: "Colisão Enfurecida",
-			de: "Zorniger Ansturm"
+			'en-us': "Wrathful Charge",
+			'fr-fr': "Charge Furieuse",
+			'es-es': "Carga Iracunda",
+			'it-it': "Carica Furibonda",
+			'pt-br': "Colisão Enfurecida",
+			'de-de': "Zorniger Ansturm"
 		},
 
 		effect: {
-			en: "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
-			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+		'en-us': "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
 	},
 
 	variants: [

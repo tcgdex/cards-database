@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arrokuda",
-		fr: "Embrochet",
-		es: "Arrokuda",
-		it: "Arrokuda",
-		pt: "Arrokuda",
-		de: "Pikuda"
+		'en-us': "Arrokuda",
+		'fr-fr': "Embrochet",
+		'es-es': "Arrokuda",
+		'it-it': "Arrokuda",
+		'pt-br': "Arrokuda",
+		'de-de': "Pikuda"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
+		'en-us': "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			de: "Pikser",
-			es: "Picotazo",
-			pt: "Bicada",
-			it: "Beccata"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'de-de': "Pikser",
+			'es-es': "Picotazo",
+			'pt-br': "Bicada",
+			'it-it': "Beccata"
 		},
 
 		damage: 10

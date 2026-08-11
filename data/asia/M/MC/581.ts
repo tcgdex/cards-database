@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナマケロ",
+		'ja-jp': "ナマケロ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。",
+		'ja-jp': "ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のんびりする" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「60」回復する。次の自分の番、このポケモンはにげられない。",
+				'ja-jp': "このポケモンのHPを「60」回復する。次の自分の番、このポケモンはにげられない。",
 			},
 		},
 	],

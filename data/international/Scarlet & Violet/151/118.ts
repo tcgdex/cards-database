@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Poissirène",
-		en: "Goldeen",
-		es: "Goldeen",
-		it: "Goldeen",
-		pt: "Goldeen",
-		de: "Goldini"
+		'fr-fr': "Poissirène",
+		'en-us': "Goldeen",
+		'es-es': "Goldeen",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen",
+		'de-de': "Goldini"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Triple Frappe",
-			en: "Triple Strike",
-			es: "Triple Impacto",
-			it: "Triplo Colpo",
-			pt: "Golpe Triplo",
-			de: "Dreifachstoß"
+			'fr-fr': "Triple Frappe",
+			'en-us': "Triple Strike",
+			'es-es': "Triple Impacto",
+			'it-it': "Triplo Colpo",
+			'pt-br': "Golpe Triplo",
+			'de-de': "Dreifachstoß"
 		},
 
 		effect: {
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Eau Aspergeante",
-			en: "Sprinkle Water",
-			es: "Esparcir Agua",
-			it: "Goccioline",
-			pt: "Aspergir Água",
-			de: "Wassersprüher"
+			'fr-fr': "Eau Aspergeante",
+			'en-us': "Sprinkle Water",
+			'es-es': "Esparcir Agua",
+			'it-it': "Goccioline",
+			'pt-br': "Aspergir Água",
+			'de-de': "Wassersprüher"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
+		'en-us': "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
 	},
 
 	variants: [

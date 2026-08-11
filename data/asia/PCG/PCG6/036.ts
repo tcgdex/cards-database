@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベルダム（デルタ種）",
+		'ja-jp': "ベルダム（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "導電性ボディ",
+				'ja-jp': "導電性ボディ",
 			},
 			effect: {
-				ja: "ベルダムがあなたのアクティブなポケモンである限り、あなたはあなたのベンチの各ベルダムのベルダムを後退させるために無色の少ない支払いをします。",
+				'ja-jp': "ベルダムがあなたのアクティブなポケモンである限り、あなたはあなたのベンチの各ベルダムのベルダムを後退させるために無色の少ない支払いをします。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "Beldumはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Beldumはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Entei",
-		fr: "Entei",
-		de: "Entei"
+		'en-us': "Entei",
+		'fr-fr': "Entei",
+		'de-de': "Entei"
 	},
 
 	illustrator: "Yuri Umemura",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extreme Speed",
-				fr: "Vitesse extrême",
-				de: "Turbotempo"
+				'en-us': "Extreme Speed",
+				'fr-fr': "Vitesse extrême",
+				'de-de': "Turbotempo"
 			},
 			effect: {
-				en: "Entei's Retreat Cost is Colorless Energy less for each Fire Energy attached to Entei.",
-				fr: "Le Coût de retraite de Entei est Colorless de moins pour chaque Énergie Fire attachée à Entei.",
-				de: "Die Rückzugskosten von Entei verringern sich für jede an Entei angelegte -Energie um ."
+				'en-us': "Entei's Retreat Cost is Colorless Energy less for each Fire Energy attached to Entei.",
+				'fr-fr': "Le Coût de retraite de Entei est Colorless de moins pour chaque Énergie Fire attachée à Entei.",
+				'de-de': "Die Rückzugskosten von Entei verringern sich für jede an Entei angelegte -Energie um ."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Blaze",
-				fr: "Brasier sauvage",
-				de: "Wilde Flamme"
+				'en-us': "Wild Blaze",
+				'fr-fr': "Brasier sauvage",
+				'de-de': "Wilde Flamme"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck.",
-				de: "Lege die obersten 3 Karten von deinem Deck auf deinen Ablagestapel."
+				'en-us': "Discard the top 3 cards of your deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck.",
+				'de-de': "Lege die obersten 3 Karten von deinem Deck auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+		'en-us': "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
 	},
 
 	variants: [

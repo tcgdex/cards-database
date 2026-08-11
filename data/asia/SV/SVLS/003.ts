@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホウオウ"
+		'ja-jp': "ホウオウ"
 	},
 
 	illustrator: "kodama",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体は 七色に 輝き 飛んだあとは 虹が できると 神話に 残されている ポケモン。"
+		'ja-jp': "体は 七色に 輝き 飛んだあとは 虹が できると 神話に 残されている ポケモン。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 50
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "シャインブレイズ"
+			'ja-jp': "シャインブレイズ"
 		},
 
 		damage: "100＋",
 
 		effect: {
-			ja: "自分のベンチに「テラスタル」のポケモンがいるなら、100ダメージ追加。"
+			'ja-jp': "自分のベンチに「テラスタル」のポケモンがいるなら、100ダメージ追加。"
 		}
 	}],
 

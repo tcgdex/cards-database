@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		es: "Skwovet",
-		de: "Raffel",
-		it: "Skwovet",
-		pt: "Skwovet",
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'de-de': "Raffel",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
 		'es-mx': "Skwovet"
 	},
 
@@ -25,34 +25,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
 			'es-mx': "Mordisquear"
 		},
 

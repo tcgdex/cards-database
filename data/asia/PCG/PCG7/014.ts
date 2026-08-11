@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオス（デルタ種）",
+		'ja-jp': "ラティオス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルオーラ",
+				'ja-jp': "デュアルオーラ",
 			},
 			effect: {
-				ja: "LatiasまたはLatias Exがプレイしている限り、各プレイヤーの進化したPokã©Mon（Pokã©Mon-Exを除く）はPokã©-Bodiesを使用できません。",
+				'ja-jp': "LatiasまたはLatias Exがプレイしている限り、各プレイヤーの進化したPokã©Mon（Pokã©Mon-Exを除く）はPokã©-Bodiesを使用できません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダイビング",
+				'ja-jp': "ダイビング",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアブラスト",
+				'ja-jp': "アクアブラスト",
 			},
 			effect: {
-				ja: "ラティオスに取り付けられた水エネルギーを捨てます。",
+				'ja-jp': "ラティオスに取り付けられた水エネルギーを捨てます。",
 			},
 			damage: 50,
 		},

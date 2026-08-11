@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのカイリキー",
+		'ja-jp': "サカキのカイリキー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "不屈の精神",
+				'ja-jp': "不屈の精神",
 			},
 			effect: {
-				ja: "GiovanniのMachampが相手の攻撃によってノックアウトされる場合は、コインをひっくり返します。ヘッドの場合、ジョバンニのマチャンプはノックアウトされず、代わりに残りのHPが10になります。ジョバンニのマチャンプがすでに眠っている、混乱し、麻痺している場合、この力は使用できません。",
+				'ja-jp': "GiovanniのMachampが相手の攻撃によってノックアウトされる場合は、コインをひっくり返します。ヘッドの場合、ジョバンニのマチャンプはノックアウトされず、代わりに残りのHPが10になります。ジョバンニのマチャンプがすでに眠っている、混乱し、麻痺している場合、この力は使用できません。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ハリケーンパンチ",
+				'ja-jp': "ハリケーンパンチ",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

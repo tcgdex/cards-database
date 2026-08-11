@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルスワンV",
+		'ja-jp': "パルスワンV",
 	},
 
 	illustrator: "GIDORA",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "そうでん" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の山札から[雷]エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[雷]エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[雷]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[雷]エネルギーの数×30ダメージ追加。",
 			},
 		},
 	],

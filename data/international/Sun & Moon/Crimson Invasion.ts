@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm4: Set = {
 	id: "sm4",
 
 	name: {
-		en: "Crimson Invasion",
-		fr: "Invasion Carmin",
-		es: "Invasión Carmesí",
-		it: "Invasione Scarlatta",
-		de: "Aufziehen der Sturmröte",
-		pt: "Invasão Carmim"
+		'en-us': "Crimson Invasion",
+		'fr-fr': "Invasion Carmin",
+		'es-es': "Invasión Carmesí",
+		'it-it': "Invasione Scarlatta",
+		'de-de': "Aufziehen der Sturmröte",
+		'pt-br': "Invasão Carmim"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm4: Set = {
 
 	abbreviations: {
 		official: "CIN",
-		fr: "INC"
+		'fr-fr': "INC"
 	},
 
 	thirdParty: {

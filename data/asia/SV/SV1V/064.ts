@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワッカネズミ",
+		'ja-jp': "ワッカネズミ",
 		'zh-tw': "一對鼠",
-		th: "วักคาเนซูมิ",
-		id: "Tandemaus"
+		'th-th': "วักคาเนซูมิ",
+		'id-id': "Tandemaus"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。",
+		'ja-jp': "どんなときでも ２匹は 一緒。 見つけた エサは ぴったりと 半分こして 仲良く 食べる。",
 		'zh-tw': "無論何時２隻都待在一起。會把尋獲的食物均分成兩半， 親密無間地一同進食。",
-		th: "ไม่ว่าเมื่อไหร่ก็จะอยู่ด้วยกัน 2 ตัว เมื่อพบอาหารก็จะแบ่งเท่า ๆ กัน และกินด้วยกันอย่างสนิทสนม",
-		id: "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
+		'th-th': "ไม่ว่าเมื่อไหร่ก็จะอยู่ด้วยกัน 2 ตัว เมื่อพบอาหารก็จะแบ่งเท่า ๆ กัน และกินด้วยกันอย่างสนิทสนม",
+		'id-id': "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かじる",
+			'ja-jp': "かじる",
 			'zh-tw': "咬",
-			th: "แทะ",
-			id: "Menggerogot"
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
 		},
 
 		damage: 20

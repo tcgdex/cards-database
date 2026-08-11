@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Cradily ex",
-		fr: "Vacilys ex",
-		de: "Wielie ex"
+		'en-us': "Cradily ex",
+		'fr-fr': "Vacilys ex",
+		'de-de': "Wielie ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Vibes",
-				fr: "Vibrations primales",
-				de: "Primal Vibes"
+				'en-us': "Primal Vibes",
+				'fr-fr': "Vibrations primales",
+				'de-de': "Primal Vibes"
 			},
 			effect: {
-				en: "As long as Cradily ex is your Active Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon.",
-				fr: "Tant que Vacilys ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon Actifs.",
-				de: "As long as Cradily ex is your Acrive Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon"
+				'en-us': "As long as Cradily ex is your Active Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon.",
+				'fr-fr': "Tant que Vacilys ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon Actifs.",
+				'de-de': "As long as Cradily ex is your Acrive Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon"
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eerie Light",
-				fr: "Lumière étrange",
-				de: "Eerie Light"
+				'en-us': "Eerie Light",
+				'fr-fr': "Lumière étrange",
+				'de-de': "Eerie Light"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 30,
 
@@ -67,14 +67,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acidic Poison",
-				fr: "Poison acide",
-				de: "Acidic Poison"
+				'en-us': "Acidic Poison",
+				'fr-fr': "Poison acide",
+				'de-de': "Acidic Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned and Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné et Brûlé.",
-				de: "The Defending Pokémon is now Poisoned and Burned."
+				'en-us': "The Defending Pokémon is now Poisoned and Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné et Brûlé.",
+				'de-de': "The Defending Pokémon is now Poisoned and Burned."
 			},
 			damage: 60,
 

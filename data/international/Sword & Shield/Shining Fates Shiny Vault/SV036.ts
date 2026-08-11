@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hydragon",
-		en: "Dracovish",
-		es: "Dracovish",
-		it: "Dracovish",
-		pt: "Dracovish",
-		de: "Pescragon"
+		'fr-fr': "Hydragon",
+		'en-us': "Dracovish",
+		'es-es': "Dracovish",
+		'it-it': "Dracovish",
+		'pt-br': "Dracovish",
+		'de-de': "Pescragon"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -21,40 +21,40 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Fossile Rare",
-		en: "Rare Fossil"
+		'fr-fr': "Fossile Rare",
+		'en-us': "Rare Fossil"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Loi Primordiale",
-			en: "Primal Law",
-			es: "Ley Primigenia",
-			it: "Legge Primordiale",
-			pt: "Lei Primitiva",
-			de: "Urzeitgesetz"
+			'fr-fr': "Loi Primordiale",
+			'en-us': "Primal Law",
+			'es-es': "Ley Primigenia",
+			'it-it': "Legge Primordiale",
+			'pt-br': "Lei Primitiva",
+			'de-de': "Urzeitgesetz"
 		},
 
 		effect: {
-			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
-			en: "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon from their hand to evolve their Pokémon.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir os Pokémon dele(a).",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
+			'fr-fr': "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
+			'en-us': "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon from their hand to evolve their Pokémon.",
+			'es-es': "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
+			'it-it': "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
+			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir os Pokémon dele(a).",
+			'de-de': "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement",
-			en: "Hammer In",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'fr-fr': "Enfoncement",
+			'en-us': "Hammer In",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 120,
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
+		'en-us': "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
 	},
 
 	variants: [

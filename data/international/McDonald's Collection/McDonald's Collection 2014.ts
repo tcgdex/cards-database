@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../McDonald\'s Collection'
 
 const s2014xy: Set = {
 	id: "2014xy",
 
 	name: {
-		en: "McDonald's Collection 2014",
-		fr: "Collection McDonald's 2014",
-		it: "McDonald's Collection 2014",
+		'en-us': "McDonald's Collection 2014",
+		'fr-fr': "Collection McDonald's 2014",
+		'it-it': "McDonald's Collection 2014",
 	},
 
 	serie: serie,
@@ -20,7 +20,7 @@ const s2014xy: Set = {
 
 	abbreviations: {
 		official: "MCD14",
-		fr: "M14"
+		'fr-fr': "M14"
 	},
 
 	thirdParty: {

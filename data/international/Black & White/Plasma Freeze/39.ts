@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Zekrom",
-		fr: "Zekrom",
-		es: "Zekrom",
-		it: "Zekrom",
-		pt: "Zekrom",
-		de: "Zekrom"
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom",
+		'es-es': "Zekrom",
+		'it-it': "Zekrom",
+		'pt-br': "Zekrom",
+		'de-de': "Zekrom"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 50,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fusion Bolt",
-				fr: "Éclair Croix",
+				'en-us': "Fusion Bolt",
+				'fr-fr': "Éclair Croix",
 			},
 			effect: {
-				en: "If Reshiram is on your Bench, this attack does 40 more damage.",
-				fr: "Si Reshiram est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If Reshiram is on your Bench, this attack does 40 more damage.",
+				'fr-fr': "Si Reshiram est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+		'en-us': "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kyurem Hitam ex",
-		th: "แบล็กคิวเรมex"
+		'id-id': "Kyurem Hitam ex",
+		'th-th': "แบล็กคิวเรมex"
 	},
 
 	illustrator: "kawayoo",
@@ -18,26 +18,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Ice Age",
-			th: "ไอซ์เอจ"
+			'id-id': "Ice Age",
+			'th-th': "ไอซ์เอจ"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {Naga}, ubah kondisi Pokémon tersebut menjadi Lumpuh.",
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอน[มังกร] จะทำให้โปเกมอนนั้น เป็นสภาวะ[ชา]"
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {Naga}, ubah kondisi Pokémon tersebut menjadi Lumpuh.",
+			'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอน[มังกร] จะทำให้โปเกมอนนั้น เป็นสภาวะ[ชา]"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Black Frost",
-			th: "แบล็กฟรอสต์"
+			'id-id': "Black Frost",
+			'th-th': "แบล็กฟรอสต์"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30.",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย"
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30.",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย"
 		},
 
 		damage: 250,

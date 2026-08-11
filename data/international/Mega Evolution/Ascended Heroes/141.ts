@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoopa",
-		fr: "Hoopa",
-		es: "Hoopa",
+		'en-us': "Hoopa",
+		'fr-fr': "Hoopa",
+		'es-es': "Hoopa",
 		'es-mx': "Hoopa",
-		de: "Hoopa",
-		it: "Hoopa",
-		pt: "Hoopa"
+		'de-de': "Hoopa",
+		'it-it': "Hoopa",
+		'pt-br': "Hoopa"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -26,45 +26,45 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Filch",
-			fr: "Maraudage",
-			es: "Birlar",
+			'en-us': "Filch",
+			'fr-fr': "Maraudage",
+			'es-es': "Birlar",
 			'es-mx': "Hurtar",
-			de: "Mopsen",
-			it: "Furtarello",
-			pt: "Furtar"
+			'de-de': "Mopsen",
+			'it-it': "Furtarello",
+			'pt-br': "Furtar"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Knuckle Impact",
-			fr: "Coup d'Articulations",
-			es: "Impacto Nudillo",
+			'en-us': "Knuckle Impact",
+			'fr-fr': "Coup d'Articulations",
+			'es-es': "Impacto Nudillo",
 			'es-mx': "Impacto de Puño",
-			de: "Knöchelprall",
-			it: "Impatto Nocche",
-			pt: "Impacto Ossudo"
+			'de-de': "Knöchelprall",
+			'it-it': "Impatto Nocche",
+			'pt-br': "Impacto Ossudo"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use attacks.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
+			'en-us': "During your next turn, this Pokémon can't use attacks.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
 		},
 
 		damage: 130
@@ -80,7 +80,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+		'en-us': "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
 	},
 
 	variants: [

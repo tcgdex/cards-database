@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードランV",
+		'ja-jp': "ヒードランV",
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、90ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、90ダメージ追加。",
 			},
 		},
 	],

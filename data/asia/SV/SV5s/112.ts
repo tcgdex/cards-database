@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Skitty"
+		'id-id': "Skitty"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Skitty mengejar begitu saja sesuatu yang bergerak. Ia mengejar ekornya sendiri dan berputar-putar di tempat yang sama."
+		'id-id': "Skitty mengejar begitu saja sesuatu yang bergerak. Ia mengejar ekornya sendiri dan berputar-putar di tempat yang sama."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Teman"
+			'id-id': "Memanggil Teman"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Serudukan"
+			'id-id': "Serudukan"
 		},
 
 		damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Hoopa",
-		fr: "Hoopa",
-		es: "Hoopa",
-		it: "Hoopa",
-		pt: "Hoopa",
-		de: "Hoopa"
+		'en-us': "Hoopa",
+		'fr-fr': "Hoopa",
+		'es-es': "Hoopa",
+		'it-it': "Hoopa",
+		'pt-br': "Hoopa",
+		'de-de': "Hoopa"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Scoundrel Guard",
-				fr: "Protection Malicieuse",
-				es: "Guardia Perversa",
-				it: "Scudo Malandrino",
-				pt: "Guarda Vigarista",
-				de: "Spitzbubenwacht"
+				'en-us': "Scoundrel Guard",
+				'fr-fr': "Protection Malicieuse",
+				'es-es': "Guardia Perversa",
+				'it-it': "Scudo Malandrino",
+				'pt-br': "Guarda Vigarista",
+				'de-de': "Spitzbubenwacht"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon-GX or Pokémon-EX.",
-				fr: "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-GX ou les Pokémon-EX de votre adversaire.",
-				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon-GX o Pokémon-EX de tu rival.",
-				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon-GX o dai Pokémon-EX del tuo avversario.",
-				pt: "Previne todos os efeitos de ataques, incluindo dano, causados a este Pokémon pelos Pokémon-GX ou Pokémon-EX do seu oponente.",
-				de: "Verhindere alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon durch Pokémon-GX oder Pokémon-EX deines Gegners zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon-GX or Pokémon-EX.",
+				'fr-fr': "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-GX ou les Pokémon-EX de votre adversaire.",
+				'es-es': "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon-GX o Pokémon-EX de tu rival.",
+				'it-it': "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon-GX o dai Pokémon-EX del tuo avversario.",
+				'pt-br': "Previne todos os efeitos de ataques, incluindo dano, causados a este Pokémon pelos Pokémon-GX ou Pokémon-EX do seu oponente.",
+				'de-de': "Verhindere alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon durch Pokémon-GX oder Pokémon-EX deines Gegners zugefügt werden."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super Psy",
-				es: "Superrayo Psi",
-				it: "Superpsico",
-				pt: "Super-raio Psíquico",
-				de: "Super-Psischlag"
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super Psy",
+				'es-es': "Superrayo Psi",
+				'it-it': "Superpsico",
+				'pt-br': "Super-raio Psíquico",
+				'de-de': "Super-Psischlag"
 			},
 
 			damage: 80,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In its true form, it possess a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.",
+		'en-us': "In its true form, it possess a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Firestarter",
-				fr: "Pyroteknik",
-				de: "Firestarter"
+				'en-us': "Firestarter",
+				'fr-fr': "Pyroteknik",
+				'de-de': "Firestarter"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une Carte Énergie  de votre pile de défausse à un des Pokémon de votre Banc. Ce pouvoir ne peut être utilisé si Brasegali est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may attach a  Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une Carte Énergie  de votre pile de défausse à un des Pokémon de votre Banc. Ce pouvoir ne peut être utilisé si Brasegali est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may attach a  Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Stream",
-				fr: "Courant de feu",
-				de: "Fire Stream"
+				'en-us': "Fire Stream",
+				'fr-fr': "Courant de feu",
+				'de-de': "Fire Stream"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez défausser une Carte Énergie  attachée à Brasegali. Cette attaque inflige alors 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Discard a  Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Discard a Fire Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Vous pouvez défausser une Carte Énergie  attachée à Brasegali. Cette attaque inflige alors 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Discard a  Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 

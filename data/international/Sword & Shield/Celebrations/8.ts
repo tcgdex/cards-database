@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Surfing Pikachu V",
-		fr: "Pikachu Surfeur V",
-		es: "Pikachu Surf V",
-		it: "Pikachu Surf V",
-		pt: "Pikachu Surfista V",
-		de: "Surfendes Pikachu V"
+		'en-us': "Surfing Pikachu V",
+		'fr-fr': "Pikachu Surfeur V",
+		'es-es': "Pikachu Surf V",
+		'it-it': "Pikachu Surf V",
+		'pt-br': "Pikachu Surfista V",
+		'de-de': "Surfendes Pikachu V"
 	},
 
 	rarity: "Holo Rare V",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 150,

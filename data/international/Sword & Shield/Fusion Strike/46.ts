@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	description: {
-		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+		'en-us': "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			es: "Roer",
-			pt: "Roída",
-			it: "Rosicchiamento"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'de-de': "Nagen",
+			'es-es': "Roer",
+			'pt-br': "Roída",
+			'it-it': "Rosicchiamento"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			de: "Glut",
-			es: "Ascuas",
-			pt: "Brasa",
-			it: "Braciere"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'de-de': "Glut",
+			'es-es': "Ascuas",
+			'pt-br': "Brasa",
+			'it-it': "Braciere"
 		},
 
 		damage: 20

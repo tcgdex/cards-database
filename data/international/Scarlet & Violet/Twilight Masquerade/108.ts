@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glimmet",
-		fr: "Germéclat",
-		es: "Glimmet",
-		it: "Glimmet",
-		pt: "Glimmet",
-		de: "Lumispross"
+		'en-us': "Glimmet",
+		'fr-fr': "Germéclat",
+		'es-es': "Glimmet",
+		'it-it': "Glimmet",
+		'pt-br': "Glimmet",
+		'de-de': "Lumispross"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rock Shot",
-			fr: "Tir Rocheux",
-			es: "Disparo Roca",
-			it: "Rocciacolpo",
-			pt: "Pedrada",
-			de: "Felsschuss"
+			'en-us': "Rock Shot",
+			'fr-fr': "Tir Rocheux",
+			'es-es': "Disparo Roca",
+			'it-it': "Rocciacolpo",
+			'pt-br': "Pedrada",
+			'de-de': "Felsschuss"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Glimmet's toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
+		'en-us': "Glimmet's toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
 	},
 
 	variants: [

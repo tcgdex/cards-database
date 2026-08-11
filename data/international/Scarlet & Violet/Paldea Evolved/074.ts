@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pohm",
-		en: "Pawmi",
-		es: "Pawmi",
-		it: "Pawmi",
-		pt: "Pawmi",
-		de: "Pamo"
+		'fr-fr': "Pohm",
+		'en-us': "Pawmi",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'pt-br': "Pawmi",
+		'de-de': "Pamo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Choc Statique",
-			en: "Static Shock",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'fr-fr': "Choc Statique",
+			'en-us': "Static Shock",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+		'en-us': "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
 	},
 }
 

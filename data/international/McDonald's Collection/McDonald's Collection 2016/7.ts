@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [559],
 
 	description: {
-		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling it skin up to its neck."
+		'en-us': "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling it skin up to its neck."
 	},
 
 	hp: 60,
@@ -19,16 +19,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon"
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon"
 		},
 
 		damage: 30
 	}],
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane"
 	},
 
 	rarity: "None",

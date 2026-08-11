@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir",
-		fr: "Gardevoir",
-		de: "Guardevoir"
+		'en-us': "Gardevoir",
+		'fr-fr': "Gardevoir",
+		'de-de': "Guardevoir"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Psychic Connect",
-				fr: "Connection psy",
-				de: "Psychic Connect"
+				'en-us': "Psychic Connect",
+				'fr-fr': "Connection psy",
+				'de-de': "Psychic Connect"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Psychic Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Gardevoir is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Psychic attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
-				de: "As often as you like during your turn (before your attack), you may move a  Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Guardevoir is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Psychic Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Gardevoir is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Psychic attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
+				'de-de': "As often as you like during your turn (before your attack), you may move a  Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Guardevoir is affected by a Special Condition."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Burst",
-				fr: "Explosion d'énergie",
-				de: "Energy Burst"
+				'en-us': "Energy Burst",
+				'fr-fr': "Explosion d'énergie",
+				'de-de': "Energy Burst"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Gardevoir and the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Gardevoir et au Pokémon Défenseur.",
-				de: "Does 20 damage plus 10 more damage for each Energy attached to Guardevoir and the Defending Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to Gardevoir and the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Gardevoir et au Pokémon Défenseur.",
+				'de-de': "Does 20 damage plus 10 more damage for each Energy attached to Guardevoir and the Defending Pokémon."
 			},
 			damage: "20+",
 
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Protection",
-				fr: "Protection psy",
-				de: "Psychic Protection"
+				'en-us': "Psychic Protection",
+				'fr-fr': "Protection psy",
+				'de-de': "Psychic Protection"
 			},
 			effect: {
-				en: "Gardevoir has no Weakness during your opponent's next turn.",
-				fr: "Gardevoir ne possède pas de Faiblesse lors du prochain tour de votre adversaire.",
-				de: "Guardevoir has no Weakness during your opponent's next turn."
+				'en-us': "Gardevoir has no Weakness during your opponent's next turn.",
+				'fr-fr': "Gardevoir ne possède pas de Faiblesse lors du prochain tour de votre adversaire.",
+				'de-de': "Guardevoir has no Weakness during your opponent's next turn."
 			},
 			damage: 60,
 

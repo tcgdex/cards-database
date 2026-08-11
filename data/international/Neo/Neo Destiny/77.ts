@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,8 +52,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",
-		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
+		'en-us': "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",
+		'fr-fr': "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
 	},
 
 

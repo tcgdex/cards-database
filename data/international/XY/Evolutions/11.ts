@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		es: "Charizard",
-		it: "Charizard",
-		pt: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'es-es': "Charizard",
+		'it-it': "Charizard",
+		'pt-br': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Energy Burn",
-				fr: "Dépense d'Énergie",
-				es: "Quema Energía",
-				it: "Bruciaenergia",
-				pt: "Energia Queimada",
-				de: "Energie verbrennen"
+				'en-us': "Energy Burn",
+				'fr-fr': "Dépense d'Énergie",
+				'es-es': "Quema Energía",
+				'it-it': "Bruciaenergia",
+				'pt-br': "Energia Queimada",
+				'de-de': "Energie verbrennen"
 			},
 			effect: {
-				en: "All Energy attached to this Pokémon are Fire Energy instead of their usual type.",
-				fr: "Toutes les Énergies attachées à ce Pokémon sont des Énergies Fire au lieu de leur type habituel.",
-				es: "Todas las Energías unidas a este Pokémon son Energías Fire en vez de su tipo habitual.",
-				it: "Tutte le Energie assegnate a questo Pokémon sono Energie Fire anziché del loro solito tipo.",
-				pt: "Toda Energia ligada a este Pokémon é Energia Fire em vez do tipo usual.",
-				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern Fire-Energie anstelle ihres normalen Typs."
+				'en-us': "All Energy attached to this Pokémon are Fire Energy instead of their usual type.",
+				'fr-fr': "Toutes les Énergies attachées à ce Pokémon sont des Énergies Fire au lieu de leur type habituel.",
+				'es-es': "Todas las Energías unidas a este Pokémon son Energías Fire en vez de su tipo habitual.",
+				'it-it': "Tutte le Energie assegnate a questo Pokémon sono Energie Fire anziché del loro solito tipo.",
+				'pt-br': "Toda Energia ligada a este Pokémon é Energia Fire em vez do tipo usual.",
+				'de-de': "Alle Energien, die an dieses Pokémon angelegt sind, liefern Fire-Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -68,20 +68,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danse Flamme",
-				es: "Giro Fuego",
-				it: "Turbofuoco",
-				pt: "Chama Furacão",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danse Flamme",
+				'es-es': "Giro Fuego",
+				'it-it': "Turbofuoco",
+				'pt-br': "Chama Furacão",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 3 Energy attached to this Pokémon.",
-				fr: "Défaussez 3 Énergies attachées à ce Pokémon.",
-				es: "Descarta 3 Energías unidas a este Pokémon.",
-				it: "Scarta tre Energie assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias ligadas a este Pokémon.",
-				de: "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies attachées à ce Pokémon.",
+				'es-es': "Descarta 3 Energías unidas a este Pokémon.",
+				'it-it': "Scarta tre Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias ligadas a este Pokémon.",
+				'de-de': "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 200,
 
@@ -105,7 +105,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+		'en-us': "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
 	},
 
 	thirdParty: {

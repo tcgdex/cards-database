@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャローダV",
+		'ja-jp': "ジャローダV",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "けだかいひかり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 		{

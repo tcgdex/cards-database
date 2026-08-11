@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コバルオンex",
+		'ja-jp': "コバルオンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "メタルロード" },
 			effect: {
-				ja: "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについている[M]エネルギーを好きなだけ選び、このポケモンにつけ替える。",
+				'ja-jp': "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについている[M]エネルギーを好きなだけ選び、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinderace V",
-		fr: "Pyrobut V",
-		es: "Cinderace V",
-		it: "Cinderace V",
-		pt: "Cinderace V",
-		de: "Liberlo V"
+		'en-us': "Cinderace V",
+		'fr-fr': "Pyrobut V",
+		'es-es': "Cinderace V",
+		'it-it': "Cinderace V",
+		'pt-br': "Cinderace V",
+		'de-de': "Liberlo V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,23 +34,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Blaze Kick",
-			fr: "Pied Brûleur",
-			de: "Feuerfeger",
-			es: "Patada Ígnea",
-			pt: "Chute Labareda",
-			it: "Calciardente"
+			'en-us': "Blaze Kick",
+			'fr-fr': "Pied Brûleur",
+			'de-de': "Feuerfeger",
+			'es-es': "Patada Ígnea",
+			'pt-br': "Chute Labareda",
+			'it-it': "Calciardente"
 		},
 
 		damage: 210,
 
 		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies {R} de ce Pokémon.",
-			de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 2 Energías {R} de este Pokémon.",
-			pt: "Descarte 2 Energias {R} deste Pokémon.",
-			it: "Scarta due Energie {R} da questo Pokémon."
+			'en-us': "Discard 2 {R} Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies {R} de ce Pokémon.",
+			'de-de': "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 2 Energías {R} de este Pokémon.",
+			'pt-br': "Descarte 2 Energias {R} deste Pokémon.",
+			'it-it': "Scarta due Energie {R} da questo Pokémon."
 		}
 	}],
 

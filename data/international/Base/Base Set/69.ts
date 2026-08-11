@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		de: "Hornliu",
-		it: "Weedle"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'de-de': "Hornliu",
+		'it-it': "Weedle"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				de: "Giftstachel",
-				it: "Velenospina"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'de-de': "Giftstachel",
+				'it-it': "Velenospina"
 			},
 			effect: {
-				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
+				'en-us': "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
 			},
 			damage: 10,
 
@@ -58,9 +58,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
-		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.",
-		it: "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso. LIV 12 N.13"
+		'en-us': "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
+		'fr-fr': "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.",
+		'it-it': "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso. LIV 12 N.13"
 	},
 
 	variants: [

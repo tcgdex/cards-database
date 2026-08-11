@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
+		'en-us': "Primeape",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
+		'en-us': "Mankey",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
+				'en-us': "Low Kick",
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rampage",
+				'en-us': "Rampage",
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage).",
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage).",
 			},
 			damage: 20,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
+		'en-us': "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
 	},
 
 	variants: [

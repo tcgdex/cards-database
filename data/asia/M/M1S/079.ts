@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガラティアスex"
+		'ja-jp': "メガラティアスex"
 	},
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -13,20 +13,20 @@ const card: Card = {
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ひるがえす"
+			'ja-jp': "ひるがえす"
 		},
 		damage: 40,
 		effect: {
-			ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
 		},
 		cost: ["Colorless"]
 	}, {
 		name: {
-			ja: "ミラージュインパルス"
+			'ja-jp': "ミラージュインパルス"
 		},
 		damage: 300,
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。"
 		},
 		cost: ["Fire", "Psychic", "Colorless"]
 	}],

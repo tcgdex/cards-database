@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita",
-		it: "Ponyta",
-		es: "Ponyta",
-		pt: "Ponyta",
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita",
+		'it-it': "Ponyta",
+		'es-es': "Ponyta",
+		'pt-br': "Ponyta",
 		'es-mx': "Ponyta"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Headbutt",
-			fr: "Double Coup d'Boule",
-			de: "Doppelte Kopfnuss",
-			it: "Doppia Bottintesta",
-			es: "Doble Cabezazo",
-			pt: "Cabeçada Dupla",
+			'en-us': "Double Headbutt",
+			'fr-fr': "Double Coup d'Boule",
+			'de-de': "Doppelte Kopfnuss",
+			'it-it': "Doppia Bottintesta",
+			'es-es': "Doble Cabezazo",
+			'pt-br': "Cabeçada Dupla",
 			'es-mx': "Doble Cabezazo"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara."
 		},
 

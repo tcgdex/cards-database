@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "venomoth",
+		'ja-jp': "venomoth",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "ツイスターをかき混ぜます",
+				'ja-jp': "ツイスターをかき混ぜます",
 			},
 			effect: {
-				ja: "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。次に、ベンチ付きポケモン1枚でアクティブなポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+				'ja-jp': "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。次に、ベンチ付きポケモン1枚でアクティブなポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "レインボーパウダー",
+				'ja-jp': "レインボーパウダー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御ポケモンは現在毒されます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御ポケモンは現在毒されます。",
 			},
 			damage: 20,
 		},

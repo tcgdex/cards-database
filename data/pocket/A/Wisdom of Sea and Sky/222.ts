@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge"
 	},
 
 	illustrator: "MAHOU",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	description: {
-		en: "It becomes wildly furious if it even senses\nsomeone looking at it. It chases anyone\nthat meets its glare.",
-		fr: "Il devient fou furieux s'il se sent observé et pourchasse tout être qui croise son regard."
+		'en-us': "It becomes wildly furious if it even senses\nsomeone looking at it. It chases anyone\nthat meets its glare.",
+		'fr-fr': "Il devient fou furieux s'il se sent observé et pourchasse tout être qui croise son regard."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fight Back",
-			fr: "Rendre les Coups"
+			'en-us': "Fight Back",
+			'fr-fr': "Rendre les Coups"
 		},
 
 		damage: 40,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "If this Pokémon has damage on it, this attack does 60 more damage.",
-			fr: "Si ce Pokémon a subi des dégâts, cette attaque inflige 60 dégâts de plus."
+			'en-us': "If this Pokémon has damage on it, this attack does 60 more damage.",
+			'fr-fr': "Si ce Pokémon a subi des dégâts, cette attaque inflige 60 dégâts de plus."
 		}
 	}],
 

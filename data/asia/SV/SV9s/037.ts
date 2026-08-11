@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เวลโอ",
-		id: "Wailord"
+		'th-th': "เวลโอ",
+		'id-id': "Wailord"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "เป็นที่นิยมด้วยขนาดใหญ่ยักษ์ การชมเวลโอนั้นเป็นแผนท่องเที่ยว ยอดนิยมในทุกพื้นที่",
-		id: "Populer karena ukurannya yang sangat besar. Wisata mengamati Wailord merupakan aktivitas wisata populer di berbagai daerah."
+		'th-th': "เป็นที่นิยมด้วยขนาดใหญ่ยักษ์ การชมเวลโอนั้นเป็นแผนท่องเที่ยว ยอดนิยมในทุกพื้นที่",
+		'id-id': "Populer karena ukurannya yang sangat besar. Wisata mengamati Wailord merupakan aktivitas wisata populer di berbagai daerah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ไฮโดรปั๊มพ์",
-			id: "Pompa Air"
+			'th-th': "ไฮโดรปั๊มพ์",
+			'id-id': "Pompa Air"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงาน[น้ำ]ที่ติดอยู่กับโปเกมอนนี้ x50",
-			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi {Air} yang dikenakan pada Pokémon ini."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงาน[น้ำ]ที่ติดอยู่กับโปเกมอนนี้ x50",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi {Air} yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "10+",

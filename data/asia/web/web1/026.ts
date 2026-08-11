@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "電極",
+		'ja-jp': "電極",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "Sonicboom",
+				'ja-jp': "Sonicboom",
 			},
 			effect: {
-				ja: "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "エネルギースパイク",
+				'ja-jp': "エネルギースパイク",
 			},
 			effect: {
-				ja: "デッキを検索して、基本的なエネルギーカードを検索し、ポケモンの1枚に添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、基本的なエネルギーカードを検索し、ポケモンの1枚に添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 	],

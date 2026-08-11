@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Deoxys V",
-		de: "Deoxys V",
-		es: "Deoxys V",
-		pt: "Deoxys V",
-		it: "Deoxys V",
-		en: "Deoxys V"
+		'fr-fr': "Deoxys V",
+		'de-de': "Deoxys V",
+		'es-es': "Deoxys V",
+		'pt-br': "Deoxys V",
+		'it-it': "Deoxys V",
+		'en-us': "Deoxys V"
 	},
 
 	rarity: "Promo",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Psyko",
-			de: "Psychokinese",
-			es: "Psíquico",
-			pt: "Psíquico",
-			it: "Psichico",
-			en: "Psychic"
+			'fr-fr': "Psyko",
+			'de-de': "Psychokinese",
+			'es-es': "Psíquico",
+			'pt-br': "Psíquico",
+			'it-it': "Psichico",
+			'en-us': "Psychic"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
 		},
 
 		damage: "30+"
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			fr: "Lame Puissante",
-			de: "Kraftklinge",
-			es: "Filo Poderoso",
-			pt: "Gume Poderoso",
-			it: "Colpotente",
-			en: "Power Edge"
+			'fr-fr': "Lame Puissante",
+			'de-de': "Kraftklinge",
+			'es-es': "Filo Poderoso",
+			'pt-br': "Gume Poderoso",
+			'it-it': "Colpotente",
+			'en-us': "Power Edge"
 		},
 
 		damage: 140

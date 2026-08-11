@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Grondogue",
-		en: "Maschiff",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'fr-fr': "Grondogue",
+		'en-us': "Maschiff",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "One Diamond",

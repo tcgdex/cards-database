@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โดคูร็อก",
-		id: "Toxicroak"
+		'th-th': "โดคูร็อก",
+		'id-id': "Toxicroak"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "มีถุงพิษในลำคอ เมื่อส่งเสียงร้องในลำคอ พิษที่สะสมไว้จะผสมจนเข้ากันและมีฤทธิ์แรงขึ้น",
-		id: "Toxicroak memiliki kantong racun di tenggorokannya. Ketika menguak, racunnya terkocok dan meningkatkan kekuatannya."
+		'th-th': "มีถุงพิษในลำคอ เมื่อส่งเสียงร้องในลำคอ พิษที่สะสมไว้จะผสมจนเข้ากันและมีฤทธิ์แรงขึ้น",
+		'id-id': "Toxicroak memiliki kantong racun di tenggorokannya. Ketika menguak, racunnya terkocok dan meningkatkan kekuatannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ต่อยตี",
-			id: "Menohok"
+			'th-th': "ต่อยตี",
+			'id-id': "Menohok"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "คลีนฮิต",
-			id: "Clean Hit"
+			'th-th': "คลีนฮิต",
+			'id-id': "Clean Hit"
 		},
 
 		effect: {
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอนวิวัฒนาการ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon Evolusi, kerusakan yang diberikan bertambah sejumlah 90."
+			'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอนวิวัฒนาการ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon Evolusi, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "90+",

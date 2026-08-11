@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Swoobat",
-		fr: "Rhinolove",
-		es: "Swoobat",
-		it: "Swoobat",
-		pt: "Swoobat",
-		de: "Fletiamo"
+		'en-us': "Swoobat",
+		'fr-fr': "Rhinolove",
+		'es-es': "Swoobat",
+		'it-it': "Swoobat",
+		'pt-br': "Swoobat",
+		'de-de': "Fletiamo"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Woobat",
-		fr: "Chovsourir",
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Jet Woofer",
-				fr: "Infrasons",
+				'en-us': "Jet Woofer",
+				'fr-fr': "Infrasons",
 			},
 			effect: {
-				en: "For each Psychic Energy attached to this Pokémon, discard the top card of your opponent's deck.",
-				fr: "Pour chaque Énergie Psychic attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "For each Psychic Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+				'fr-fr': "Pour chaque Énergie Psychic attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 20,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+		'en-us': "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
 	},
 
 	thirdParty: {

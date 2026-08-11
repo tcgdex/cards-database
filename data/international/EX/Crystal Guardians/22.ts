@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Kingler δ",
-		fr: "Krabboss δ",
-		de: "Kingler"
+		'en-us': "Kingler δ",
+		'fr-fr': "Krabboss δ",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Prop-up Pinchers",
-				fr: "Pinces calantes",
-				de: "Greifzangen"
+				'en-us': "Prop-up Pinchers",
+				'fr-fr': "Pinces calantes",
+				'de-de': "Greifzangen"
 			},
 			effect: {
-				en: "If Kingler has a Pokémon Tool card attached to it, this attack does 40 damage plus 40 more damage.",
-				fr: "Si Krabboss possède une carte Outil Pokémon, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wenn an Kingler eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "If Kingler has a Pokémon Tool card attached to it, this attack does 40 damage plus 40 more damage.",
+				'fr-fr': "Si Krabboss possède une carte Outil Pokémon, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "Wenn an Kingler eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

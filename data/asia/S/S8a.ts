@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S8a',
 
 	name: {
-		ja: '25th アニバーサリーコレクション',
-		ko: '25th Anniversary',
+		'ja-jp': '25th アニバーサリーコレクション',
+		'ko-kr': '25th Anniversary',
 		'zh-tw': '25週年收藏款',
-		id: 'Koleksi Perayaan 25 Tahun',
-		th: 'คอลเลกชันฉลองครบรอบ 25 ปี'
+		'id-id': 'Koleksi Perayaan 25 Tahun',
+		'th-th': 'คอลเลกชันฉลองครบรอบ 25 ปี'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2021-10-22',
+		'ja-jp': '2021-10-22',
 		'zh-tw': '2021-10-20',
-		th: '2021-10-29',
-		id: '2021-12-15'
+		'th-th': '2021-10-29',
+		'id-id': '2021-12-15'
 	},
 
 	thirdParty: {

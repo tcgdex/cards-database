@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリス",
+		'ja-jp': "チルタリス",
 		'zh-tw': "七夕青鳥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大空を ゆったりと 飛びながら 耳にした 者を うっとりさせる 美しい ハミングを 奏でる。",
+		'ja-jp': "大空を ゆったりと 飛びながら 耳にした 者を うっとりさせる 美しい ハミングを 奏でる。",
 		'zh-tw': "會一邊在天空中悠然飛翔，一邊哼唱出令人心醉神迷的美妙旋律。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "マジカルエコー",
+				'ja-jp': "マジカルエコー",
 				'zh-tw': "魔法迴響",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。",
+				'ja-jp': "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。",
 				'zh-tw': "選擇自己的1隻備戰寶可夢，將所選的寶可夢身上放置的傷害指示物，全部改放於對手的戰鬥寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "ブラストウインド",
+				'ja-jp': "ブラストウインド",
 				'zh-tw': "爆破之風",
 			},
 			damage: 90,
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 1,

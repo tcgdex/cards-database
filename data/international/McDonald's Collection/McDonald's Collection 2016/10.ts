@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [702],
 
 	description: {
-		en: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances."
+		'en-us': "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances."
 	},
 
 	hp: 70,
@@ -19,31 +19,31 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Nuzzle",
-			fr: "Frotte-Frimousse"
+			'en-us': "Nuzzle",
+			'fr-fr': "Frotte-Frimousse"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}, {
 		name: {
-			en: "Spiral Drain",
-			fr: "Spirale Épuisante"
+			'en-us': "Spiral Drain",
+			'fr-fr': "Spirale Épuisante"
 		},
 
 		damage: 60,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts à ce Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts à ce Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne"
+		'en-us': "Dedenne",
+		'fr-fr': "Dedenne"
 	},
 
 	rarity: "None",

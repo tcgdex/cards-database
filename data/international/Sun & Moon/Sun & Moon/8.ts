@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		es: "Masquerain",
-		it: "Masquerain",
-		pt: "Masquerain",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'es-es': "Masquerain",
+		'it-it': "Masquerain",
+		'pt-br': "Masquerain",
+		'de-de': "Maskeregen"
 	},
 
 	illustrator: "miki kudo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo",
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Struggle Bug",
-				fr: "Survinsecte",
-				es: "Estoicismo",
-				it: "Entomoblocco",
-				pt: "Ira de Inseto",
-				de: "Käfertrutz"
+				'en-us': "Struggle Bug",
+				'fr-fr': "Survinsecte",
+				'es-es': "Estoicismo",
+				'it-it': "Entomoblocco",
+				'pt-br': "Ira de Inseto",
+				'de-de': "Käfertrutz"
 			},
 			effect: {
-				en: "Move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.",
-				fr: "Déplacez une Énergie du Pokémon Actif de votre adversaire vers l’un de ses Pokémon de Banc.",
-				es: "Mueve 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
-				it: "Sposta un’Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
-				pt: "Mova 1 Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele(a).",
-				de: "Verschiebe 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank."
+				'en-us': "Move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie du Pokémon Actif de votre adversaire vers l’un de ses Pokémon de Banc.",
+				'es-es': "Mueve 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
+				'it-it': "Sposta un’Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+				'pt-br': "Mova 1 Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Verschiebe 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank."
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
+		'en-us': "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
 	},
 
 	thirdParty: {

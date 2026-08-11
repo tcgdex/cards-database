@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maractus",
-		fr: "Maracachi",
-		es: "Maractus",
-		it: "Maractus",
-		pt: "Maractus",
-		de: "Maracamba"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi",
+		'es-es': "Maractus",
+		'it-it': "Maractus",
+		'pt-br': "Maractus",
+		'de-de': "Maracamba"
 	},
 
 	rarity: "Common",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Pin Missile",
-			fr: "Dard-Nuée",
-			es: "Pin Misil",
-			it: "Missilspillo",
-			pt: "Míssil de Espinhos",
-			de: "Nadelrakete"
+			'en-us': "Pin Missile",
+			'fr-fr': "Dard-Nuée",
+			'es-es': "Pin Misil",
+			'it-it': "Missilspillo",
+			'pt-br': "Míssil de Espinhos",
+			'de-de': "Nadelrakete"
 		},
 
 		effect: {
-			en: "Flip 4 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 4 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 4 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 4 coins. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 4 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 4 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -95,7 +95,7 @@ const card: Card = {
 	illustrator: "Masako Tomii",
 
 	description: {
-		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
+		'en-us': "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
 	},
 
 }

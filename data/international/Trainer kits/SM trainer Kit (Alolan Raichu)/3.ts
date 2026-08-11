@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy"
+		'en-us': "Lightning Energy"
 	},
 
 	illustrator: "N/A",

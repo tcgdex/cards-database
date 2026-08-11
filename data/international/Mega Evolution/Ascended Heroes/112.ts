@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
 		'es-mx': "Riolu",
-		de: "Riolu",
-		it: "Riolu",
-		pt: "Riolu"
+		'de-de': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu"
 	},
 
 	illustrator: "hncl",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Accelerating Stab",
-			fr: "Poignard Accélérateur",
-			es: "Puñalada Aceleradora",
+			'en-us': "Accelerating Stab",
+			'fr-fr': "Poignard Accélérateur",
+			'es-es': "Puñalada Aceleradora",
 			'es-mx': "Cuchillada Aceleradora",
-			de: "Beschleunigter Stich",
-			it: "Pugnalata Rapida",
-			pt: "Estocada Aceleratória"
+			'de-de': "Beschleunigter Stich",
+			'it-it': "Pugnalata Rapida",
+			'pt-br': "Estocada Aceleratória"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Accelerating Stab.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
+			'en-us': "During your next turn, this Pokémon can't use Accelerating Stab.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Cuchillada Aceleradora.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória."
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		'en-us': "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピード雷エネルギー",
+		'ja-jp': "スピード雷エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[雷]エネルギー1個ぶんとしてはたらく。このカードを手札から[雷]ポケモンにつけたとき、自分の山札を2枚引く。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[雷]エネルギー1個ぶんとしてはたらく。このカードを手札から[雷]ポケモンにつけたとき、自分の山札を2枚引く。",
 	},
 
 	variants: [

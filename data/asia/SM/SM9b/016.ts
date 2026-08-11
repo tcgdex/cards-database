@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズバット",
+		'ja-jp': "ズバット",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "目玉が ないので 目は 見えない。 口から 出す 超音波で 周りの 様子を うかがっている。",
+		'ja-jp': "目玉が ないので 目は 見えない。 口から 出す 超音波で 周りの 様子を うかがっている。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがどくなら、50ダメージ追加。",
 			},
 		},
 	],

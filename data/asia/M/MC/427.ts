@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン いしずえのめん",
+		'ja-jp': "オーガポン いしずえのめん",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "家を 支える 礎のように どっしりと 衝撃を 受け止める 守りに 秀でた 姿。",
+		'ja-jp': "家を 支える 礎のように どっしりと 衝撃を 受け止める 守りに 秀でた 姿。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いわかぐら" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[F]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[F]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 	],

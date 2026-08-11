@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Meltan"
+		'id-id': "Meltan"
 	},
 
 	illustrator: "Masa",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Meltan melelehkan logam dan memakannya. Pokémon ini menyirkulasikan logam cair untuk menciptakan energi di dalam tubuhnya."
+		'id-id': "Meltan melelehkan logam dan memakannya. Pokémon ini menyirkulasikan logam cair untuk menciptakan energi di dalam tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala"
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 50,

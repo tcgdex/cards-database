@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rolycoly"
+		'en-us': "Rolycoly"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Chunks of the surface of this Pokémon's body\nthat have grown old and flaked off have long\nbeen used for fuel as an alternative to coal."
+		'en-us': "Chunks of the surface of this Pokémon's body\nthat have grown old and flaked off have long\nbeen used for fuel as an alternative to coal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 20,

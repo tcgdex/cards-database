@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fletchinder",
-		fr: "Braisillon"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Fletchling"
+		'en-us': "Fletchling"
 	},
 
 	description: {
-		en: "Fletchinder scatters embers in tall grass\nwhere bug Pokémon might be hiding and\nthen catches them as they come leaping out.",
-		fr: "Il disperse des étincelles dans les hautes herbes qui pourraient abriter des Pokémon Insecte et attrape ceux qui en sortent pour s'enfuir."
+		'en-us': "Fletchinder scatters embers in tall grass\nwhere bug Pokémon might be hiding and\nthen catches them as they come leaping out.",
+		'fr-fr': "Il disperse des étincelles dans les hautes herbes qui pourraient abriter des Pokémon Insecte et attrape ceux qui en sortent pour s'enfuir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fire Wing",
-			fr: "Aile de Feu"
+			'en-us': "Fire Wing",
+			'fr-fr': "Aile de Feu"
 		},
 
 		damage: 40,

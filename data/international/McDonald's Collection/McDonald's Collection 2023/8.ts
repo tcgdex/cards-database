@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Kilowattrel",
-		fr: "Fulgulairo",
-		es: "Kilowattrel",
-		it: "Kilowattrel",
-		pt: "Kilowattrel",
-		de: "Voltrean"
+		'en-us': "Kilowattrel",
+		'fr-fr': "Fulgulairo",
+		'es-es': "Kilowattrel",
+		'it-it': "Kilowattrel",
+		'pt-br': "Kilowattrel",
+		'de-de': "Voltrean"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,31 +25,31 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Wattrel",
-		fr: "Zapétrel",
-		es: "Wattrel",
-		it: "Wattrel",
-		pt: "Wattrel",
-		de: "Voltrel"
+		'en-us': "Wattrel",
+		'fr-fr': "Zapétrel",
+		'es-es': "Wattrel",
+		'it-it': "Wattrel",
+		'pt-br': "Wattrel",
+		'de-de': "Voltrel"
 	},
 
 	attacks: [
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Skill Dive",
+				'en-us': "Skill Dive",
 			},
 			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				en: "Thunder Blast",
+				'en-us': "Thunder Blast",
 			},
 			effect: {
-				en: "Discard a Lightning Energy from this Pokémon",
+				'en-us': "Discard a Lightning Energy from this Pokémon",
 			},
 			damage: 140,
 		},

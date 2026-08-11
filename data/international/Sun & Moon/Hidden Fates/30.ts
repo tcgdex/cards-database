@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou",
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lovely Kiss",
-				fr: "Grobisou",
+				'en-us': "Lovely Kiss",
+				'fr-fr': "Grobisou",
 			},
 
 			damage: 30,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
+		'en-us': "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
 	},
 
 	thirdParty: {

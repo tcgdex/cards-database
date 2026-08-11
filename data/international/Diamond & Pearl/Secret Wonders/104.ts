@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
-		fr: "Fouinette",
-		de: "Wiesor"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
+		'de-de': "Wiesor"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grope",
-				fr: "À l'aveuglette",
-				de: "Herumtasten"
+				'en-us': "Grope",
+				'fr-fr': "À l'aveuglette",
+				'de-de': "Herumtasten"
 			},
 			effect: {
-				en: "Look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck.",
-				fr: "Regardez les 2 cartes du dessus de votre deck, choisissez-en 1 et placez-la dans votre main. Replacez l'autre carte au dessous de votre deck.",
-				de: "Schau dir die obersten 2 Karten deines Decks an. Wähle 1 von ihnen und nimm sie auf die Hand. Lege die andere Karte unter dein Deck."
+				'en-us': "Look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck.",
+				'fr-fr': "Regardez les 2 cartes du dessus de votre deck, choisissez-en 1 et placez-la dans votre main. Replacez l'autre carte au dessous de votre deck.",
+				'de-de': "Schau dir die obersten 2 Karten deines Decks an. Wähle 1 von ihnen und nimm sie auf die Hand. Lege die andere Karte unter dein Deck."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+		'en-us': "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
 	},
 
 	thirdParty: {

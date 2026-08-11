@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のミミッキュ",
+		'ja-jp': "ロケット団のミミッキュ",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "陽の 当たらない 暗がりに 棲む。 人前に 出るときは ピカチュウに 似せた 布で 全身を 隠す。",
+		'ja-jp': "陽の 当たらない 暗がりに 棲む。 人前に 出るときは ピカチュウに 似せた 布で 全身を 隠す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ほうせきごっこ" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトル場の「テラスタル」のポケモンが持つワザを1つ選び、このワザとして使う。",
+				'ja-jp': "相手のバトル場の「テラスタル」のポケモンが持つワザを1つ選び、このワザとして使う。",
 			},
 		},
 	],

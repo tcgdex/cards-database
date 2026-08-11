@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Farfetch'd",
+		'ja-jp': "Farfetch'd",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "突風",
+				'ja-jp': "突風",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ネギのジャブ",
+				'ja-jp': "ネギのジャブ",
 			},
 			effect: {
-				ja: "この攻撃は、次のターン中に使用することはできません。 （ベンチングファーフェッチはこの効果を終了します。）",
+				'ja-jp': "この攻撃は、次のターン中に使用することはできません。 （ベンチングファーフェッチはこの効果を終了します。）",
 			},
 			damage: 40,
 		},

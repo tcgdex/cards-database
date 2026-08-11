@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'de-de': "Hypno"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drowzee",
-		fr: "Soporifik"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Sleep Pendulum",
-				fr: "Pendule dodo",
-				de: "Sleep Pendulum"
+				'en-us': "Sleep Pendulum",
+				'fr-fr': "Pendule dodo",
+				'de-de': "Sleep Pendulum"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you may make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Hypnomade est votre Pokémon Actif, vous pouvez faire que le Pokémon Défenseur soit Endormi. Ce pouvoir ne peut pas être utilisé si Hypnomade est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Hypno is your Active Pokémon, you may make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si Hypnomade est votre Pokémon Actif, vous pouvez faire que le Pokémon Défenseur soit Endormi. Ce pouvoir ne peut pas être utilisé si Hypnomade est affecté par un État spécial.",
+				'de-de': "Once during your turn (before your attack), if Hypno is your Active Pokémon, you make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Aura",
-				fr: "Aura spirale",
-				de: "Spiral Aura"
+				'en-us': "Spiral Aura",
+				'fr-fr': "Aura spirale",
+				'de-de': "Spiral Aura"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
-				fr: "Si le Pokémon Défenseur n'est pas mis K.O. par les dégâts de cette attaque, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger avec le Pokémon Défenseur.",
-				de: "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it."
+				'en-us': "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas mis K.O. par les dégâts de cette attaque, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger avec le Pokémon Défenseur.",
+				'de-de': "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it."
 			},
 			damage: 30,
 

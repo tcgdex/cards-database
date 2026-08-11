@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タネボー",
+		'ja-jp': "タネボー",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "生息地を 広げるため 木の実の 振りをして 鳥ポケモンに つかまり 遠くまで 運んでもらうのだ。",
+		'ja-jp': "生息地を 広げるため 木の実の 振りをして 鳥ポケモンに つかまり 遠くまで 運んでもらうのだ。",
 	},
 
 	stage: "Basic",

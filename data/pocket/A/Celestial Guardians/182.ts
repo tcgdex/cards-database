@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Celestial Guardians"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Incineroar ex",
-		fr: "Félinferno-ex",
-		es: "Incineroar ex",
-		it: "Incineroar-ex",
-		de: "Fuegro-ex",
+		'en-us': "Incineroar ex",
+		'fr-fr': "Félinferno-ex",
+		'es-es': "Incineroar ex",
+		'it-it': "Incineroar-ex",
+		'de-de': "Fuegro-ex",
 		'pt-br': "Incineroar ex",
-		ko: "어흥염 ex"
+		'ko-kr': "어흥염 ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torracat"
+		'en-us': "Torracat"
 	},
 
 	stage: "Stage2",
@@ -31,50 +31,50 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Fang",
-			fr: "Crocs Feu",
-			es: "Colmillo Ígneo",
-			it: "Rogodenti",
-			de: "Feuerzahn",
+			'en-us': "Fire Fang",
+			'fr-fr': "Crocs Feu",
+			'es-es': "Colmillo Ígneo",
+			'it-it': "Rogodenti",
+			'de-de': "Feuerzahn",
 			'pt-br': "Presas de Fogo",
-			ko: "불꽃엄니"
+			'ko-kr': "불꽃엄니"
 		},
 
 		damage: 30,
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
 			
-			ko: "상대의 배틀 포켓몬을 화상으로 만든다.",
+			'ko-kr': "상대의 배틀 포켓몬을 화상으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado."
 		}
 	}, {
 		name: {
-			en: "Scar-Charged Smash",
-			fr: "Frappe Balafre",
-			es: "Hacer Cicatrizas",
-			it: "Colpo Rabbioso",
-			de: "Narbenhieb",
+			'en-us': "Scar-Charged Smash",
+			'fr-fr': "Frappe Balafre",
+			'es-es': "Hacer Cicatrizas",
+			'it-it': "Colpo Rabbioso",
+			'de-de': "Narbenhieb",
 			'pt-br': "Destruir a Cicatriz",
-			ko: "스카스매시"
+			'ko-kr': "스카스매시"
 		},
 
 		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has damage on it, this attack does 60 more damage.",
-			fr: "Si ce Pokémon a subi des dégâts, cette attaque inflige 60 dégâts de plus.",
-			es: "Si este Pokémon ya tiene daño, este ataque hace 60 puntos de daño más.",
-			it: "Se questo Pokémon è danneggiato, questo attacco infligge 60 danni in più.",
-			de: "Wenn diesem Pokémon bereits Schaden zugefügt wurde, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'en-us': "If this Pokémon has damage on it, this attack does 60 more damage.",
+			'fr-fr': "Si ce Pokémon a subi des dégâts, cette attaque inflige 60 dégâts de plus.",
+			'es-es': "Si este Pokémon ya tiene daño, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se questo Pokémon è danneggiato, questo attacco infligge 60 danni in più.",
+			'de-de': "Wenn diesem Pokémon bereits Schaden zugefügt wurde, fügt diese Attacke 60 Schadenspunkte mehr zu.",
 			'pt-br': "Se este Pokémon estiver danificado, este ataque causará 60 pontos de dano a mais.",
-			ko: "이 포켓몬이 데미지를 받고 있다면 60데미지를 추가한다."
+			'ko-kr': "이 포켓몬이 데미지를 받고 있다면 60데미지를 추가한다."
 		}
 	}],
 

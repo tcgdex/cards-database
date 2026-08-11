@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ceruledge ex",
-		fr: "Malvalame-ex",
-		es: "Ceruledge ex",
-		pt: "Ceruledge ex",
-		it: "Ceruledge-ex",
-		de: "Azugladis-ex"
+		'en-us': "Ceruledge ex",
+		'fr-fr': "Malvalame-ex",
+		'es-es': "Ceruledge ex",
+		'pt-br': "Ceruledge ex",
+		'it-it': "Ceruledge-ex",
+		'de-de': "Azugladis-ex"
 	},
 
 	rarity: "Special illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 270,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		es: "Charcadet",
-		pt: "Charcadet",
-		it: "Charcadet",
-		de: "Knarbon"
+		'en-us': "Charcadet",
+		'fr-fr': "Charbambin",
+		'es-es': "Charcadet",
+		'pt-br': "Charcadet",
+		'it-it': "Charcadet",
+		'de-de': "Knarbon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Abyssal Flames",
-			fr: "Flammes Abyssales",
-			es: "Llamas Abismales",
-			pt: "Chamas Abissais",
-			it: "Fiamme Abissali",
-			de: "Flammen des Abgrunds"
+			'en-us': "Abyssal Flames",
+			'fr-fr': "Flammes Abyssales",
+			'es-es': "Llamas Abismales",
+			'pt-br': "Chamas Abissais",
+			'it-it': "Fiamme Abissali",
+			'de-de': "Flammen des Abgrunds"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy card in your discard pile.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie dans votre pile de défausse.",
-			es: "Este ataque hace 20 puntos de daño más por cada carta de Energía en tu pila de descartes.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada carta de Energia na sua pilha de descarte.",
-			it: "Questo attacco infligge 20 danni in più per ogni carta Energia nella tua pila degli scarti.",
-			de: "Diese Attacke fügt für jede Energiekarte in deinem Ablagestapel 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each Energy card in your discard pile.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie dans votre pile de défausse.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada carta de Energía en tu pila de descartes.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada carta de Energia na sua pilha de descarte.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni carta Energia nella tua pila degli scarti.",
+			'de-de': "Diese Attacke fügt für jede Energiekarte in deinem Ablagestapel 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Psychic", "Metal"],
 
 		name: {
-			en: "Raging Amethyst",
-			fr: "Améthyste Enragée",
-			es: "Amatista Iracunda",
-			pt: "Ametista Feroz",
-			it: "Furia di Ametista",
-			de: "Furioser Amethyst"
+			'en-us': "Raging Amethyst",
+			'fr-fr': "Améthyste Enragée",
+			'es-es': "Amatista Iracunda",
+			'pt-br': "Ametista Feroz",
+			'it-it': "Furia di Ametista",
+			'de-de': "Furioser Amethyst"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 280

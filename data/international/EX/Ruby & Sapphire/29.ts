@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		de: "Enekoro"
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'de-de': "Enekoro"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Call",
-				fr: "Énergie supplémentaire",
-				de: "Energieruf"
+				'en-us': "Energy Call",
+				'fr-fr': "Énergie supplémentaire",
+				'de-de': "Energieruf"
 			},
 			effect: {
-				en: "Attach 1 Energy card from your discard pile to your Active Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à votre Pokémon Actif.",
-				de: "Nimm eine Energiekarte von deinem Ablagestapel und lege sie an das Aktive Pokémon an."
+				'en-us': "Attach 1 Energy card from your discard pile to your Active Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à votre Pokémon Actif.",
+				'de-de': "Nimm eine Energiekarte von deinem Ablagestapel und lege sie an das Aktive Pokémon an."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cannonball",
-				fr: "Boulet de canon",
-				de: "Kanonenkugel"
+				'en-us': "Cannonball",
+				'fr-fr': "Boulet de canon",
+				'de-de': "Kanonenkugel"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Energy attached to Delcatty but not used to pay for this attack's Energy cost.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à Delcatty qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Enekoro angelegte Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde."
+				'en-us': "Does 30 damage plus 10 more damage for each Energy attached to Delcatty but not used to pay for this attack's Energy cost.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à Delcatty qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Enekoro angelegte Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde."
 			},
 			damage: "30+",
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Mizue",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
-				es: "Hidrobomba",
-				it: "Idropompa",
-				pt: "Jato d’Água",
-				de: "Hydropumpe"
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'es-es': "Hidrobomba",
+				'it-it': "Idropompa",
+				'pt-br': "Jato d’Água",
+				'de-de': "Hydropumpe"
 			},
 			effect: {
-				en: "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon.",
-				es: "Este ataque hace 10 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 10 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Este ataque causa 10 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				'en-us': "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
 			},
 			damage: "10+",
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		'en-us': "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
 	},
 
 	thirdParty: {

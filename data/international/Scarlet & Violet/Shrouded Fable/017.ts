@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		es: "Hypno",
-		it: "Hypno",
-		pt: "Hypno",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'es-es': "Hypno",
+		'it-it': "Hypno",
+		'pt-br': "Hypno",
+		'de-de': "Hypno"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Daydream",
-			fr: "Rêve Éveillé",
-			es: "Ensoñación",
-			it: "Fantasticheria",
-			pt: "Devaneio",
-			de: "Tagtraum"
+			'en-us': "Daydream",
+			'fr-fr': "Rêve Éveillé",
+			'es-es': "Ensoñación",
+			'it-it': "Fantasticheria",
+			'pt-br': "Devaneio",
+			'de-de': "Tagtraum"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if they attach an Energy card from their hand to the Defending Pokémon, their turn ends.",
-			fr: "Pendant le prochain tour de votre adversaire, s'il attache une carte Énergie de sa main au Pokémon Défenseur, son tour se termine.",
-			es: "Durante el próximo turno de tu rival, si une una carta de Energía de su mano al Pokémon Defensor, su turno termina.",
-			it: "Se il tuo avversario assegna al Pokémon difensore una carta Energia dalla propria mano durante il suo prossimo turno, il suo turno finisce.",
-			pt: "Durante o próximo turno do seu oponente, se ele ligar uma carta de Energia da mão dele ao Pokémon Defensor, o turno dele acabará.",
-			de: "Wenn dein Gegner während seines nächsten Zuges 1 Energiekarte aus seiner Hand an das Verteidigende Pokémon anlegt, endet sein Zug."
+			'en-us': "During your opponent's next turn, if they attach an Energy card from their hand to the Defending Pokémon, their turn ends.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, s'il attache une carte Énergie de sa main au Pokémon Défenseur, son tour se termine.",
+			'es-es': "Durante el próximo turno de tu rival, si une una carta de Energía de su mano al Pokémon Defensor, su turno termina.",
+			'it-it': "Se il tuo avversario assegna al Pokémon difensore una carta Energia dalla propria mano durante il suo prossimo turno, il suo turno finisce.",
+			'pt-br': "Durante o próximo turno do seu oponente, se ele ligar uma carta de Energia da mão dele ao Pokémon Defensor, o turno dele acabará.",
+			'de-de': "Wenn dein Gegner während seines nächsten Zuges 1 Energiekarte aus seiner Hand an das Verteidigende Pokémon anlegt, endet sein Zug."
 		},
 
 		damage: 80

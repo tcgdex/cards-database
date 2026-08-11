@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "伊布V",
-		ja: "イーブイV"
+		'ja-jp': "イーブイV"
 	},
 
 	illustrator: "You Iribi",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "撞擊",
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 30,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "布之勇",
-			ja: "ブイブレイブ"
+			'ja-jp': "ブイブレイブ"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加80點傷害。",
-			ja: "相手のバトルポケモンが「ポケモンV」なら、80ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、80ダメージ追加。"
 		},
 
 		damage: "80＋",

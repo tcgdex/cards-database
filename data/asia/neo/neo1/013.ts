@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンフロラ",
+		'ja-jp': "サンフロラ",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "花びらのダンス",
+				'ja-jp': "花びらのダンス",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 Sunfloraは現在混乱しています（ダメージを受けた後）。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 Sunfloraは現在混乱しています（ダメージを受けた後）。",
 			},
 		},
 	],

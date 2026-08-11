@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		es: "Grumpig",
-		it: "Grumpig",
-		pt: "Grumpig",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'es-es': "Grumpig",
+		'it-it': "Grumpig",
+		'pt-br': "Grumpig",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink",
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extrasensory",
-				fr: "Extrasenseur",
+				'en-us': "Extrasensory",
+				'fr-fr': "Extrasenseur",
 			},
 			effect: {
-				en: "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
-				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
+				'fr-fr': "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
+		'en-us': "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
 	},
 
 	thirdParty: {

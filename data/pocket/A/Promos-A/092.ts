@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		es: "Eevee"
+		'en-us': "Eevee",
+		'es-es': "Eevee"
 	},
 
 	illustrator: "nisimono",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
-		es: "Es capaz de evolucionar de muchas maneras\npara adaptarse sin problemas a cualquier medio."
+		'en-us': "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
+		'es-es': "Es capaz de evolucionar de muchas maneras\npara adaptarse sin problemas a cualquier medio."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			es: "Placaje"
+			'en-us': "Tackle",
+			'es-es': "Placaje"
 		},
 
 		damage: 20,

@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S11',
 
 	name: {
-		ja: 'ロストアビス',
-		ko: '트리플렛비트',
+		'ja-jp': 'ロストアビス',
+		'ko-kr': '트리플렛비트',
 		'zh-tw': '三連音爆',
-		id: 'Hantaman Triplet',
-		th: 'ทริปเปิลบีต'
+		'id-id': 'Hantaman Triplet',
+		'th-th': 'ทริปเปิลบีต'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-07-15',
+		'ja-jp': '2022-07-15',
 		'zh-tw': '2022-07-29',
-		th: '2022-08-26',
-		id: '2022-09-23'
+		'th-th': '2022-08-26',
+		'id-id': '2022-09-23'
 	},
 
 	thirdParty: {

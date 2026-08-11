@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [52],
 
 	name: {
-		en: "Alolan Meowth"
+		'en-us': "Alolan Meowth"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Deeply proud and keenly smart, this Pokémon\nmoves with cunning during battle and relentlessly\nattacks enemies' weak points."
+		'en-us': "Deeply proud and keenly smart, this Pokémon\nmoves with cunning during battle and relentlessly\nattacks enemies' weak points."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Swagger"
+			'en-us': "Swagger"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+			'en-us': "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
 		}
 	}],
 

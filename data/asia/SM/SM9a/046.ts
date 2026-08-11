@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "隠密フード",
+		'ja-jp': "隠密フード",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、相手のポケモンから特性の効果を受けない。",
+		'ja-jp': "このカードをつけているポケモンは、相手のポケモンから特性の効果を受けない。",
 	},
 
 	variants: [

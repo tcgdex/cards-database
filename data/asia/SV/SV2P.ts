@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV2P',
 
 	name: {
-		ja: 'スノーハザード',
-		ko: '스노해저드',
+		'ja-jp': 'スノーハザード',
+		'ko-kr': '스노해저드',
 		'zh-tw': '冰雪險境',
-		id: 'Mara Bahaya Salju',
-		th: 'สโนว์ฮาซาร์ด'
+		'id-id': 'Mara Bahaya Salju',
+		'th-th': 'สโนว์ฮาซาร์ด'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-04-14',
+		'ja-jp': '2023-04-14',
 		'zh-tw': '2023-04-28',
-		id: '2023-06-30',
-		th: '2023-06-30'
+		'id-id': '2023-06-30',
+		'th-th': '2023-06-30'
 	},
 
 	thirdParty: {

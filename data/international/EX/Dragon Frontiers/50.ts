@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Horsea δ",
-		fr: "Hypotrempe δ",
-		de: "Seeper"
+		'en-us': "Horsea δ",
+		'fr-fr': "Hypotrempe δ",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleepy Ball",
-				fr: "Boule dodo",
-				de: "Schlafball"
+				'en-us': "Sleepy Ball",
+				'fr-fr': "Boule dodo",
+				'de-de': "Schlafball"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

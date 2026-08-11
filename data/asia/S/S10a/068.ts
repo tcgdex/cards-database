@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ススキ",
+		'ja-jp': "ススキ",
 		'zh-tw': "阿芒",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。自分のバトルポケモンが名前に「ヒスイ」とつくポケモンなら、さらに2枚引く。",
+		'ja-jp': "自分の山札を2枚引く。自分のバトルポケモンが名前に「ヒスイ」とつくポケモンなら、さらに2枚引く。",
 		'zh-tw': "從自己的牌庫抽出2張卡。若自己的戰鬥寶可夢為名稱中有「洗翠」的寶可夢，則再抽出2張卡。",
 	},
 

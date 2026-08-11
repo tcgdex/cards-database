@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 		'zh-tw': "噴火龍GX",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。",
+		'ja-jp': "５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいりき",
+				'ja-jp': "かいりき",
 				'zh-tw': "翅膀攻擊",
 			},
 			damage: 60,

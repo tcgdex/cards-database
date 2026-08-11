@@ -1,12 +1,12 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../B'
 
 const set: Set = {
 	id: "B1",
 
 	name: {
-		en: "Mega Rising",
-		fr: "Méga-Ascension"
+		'en-us': "Mega Rising",
+		'fr-fr': "Méga-Ascension"
 	},
 
 	serie: serie,
@@ -20,20 +20,20 @@ const set: Set = {
 	boosters: {
 		'mega-gyarados': {
 			name: {
-				en: 'Mega Gyarados',
-				fr: 'Méga-Léviator'
+				'en-us': 'Mega Gyarados',
+				'fr-fr': 'Méga-Léviator'
 			}
 		},
 		'mega-blaziken': {
 			name: {
-				en: 'Mega Blaziken',
-				fr: 'Méga-Braségali'
+				'en-us': 'Mega Blaziken',
+				'fr-fr': 'Méga-Braségali'
 			}
 		},
 		'mega-altaria': {
 			name: {
-				en: 'Mega Altaria',
-				fr: 'Méga-Altaria'
+				'en-us': 'Mega Altaria',
+				'fr-fr': 'Méga-Altaria'
 			}
 		}
 	}

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Phione",
+		'en-us': "Phione",
 	},
 
 	illustrator: "kawayoo",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pull Out",
+				'en-us': "Pull Out",
 			},
 			effect: {
-				en: "Put a card from your discard pile on top of your deck.",
+				'en-us': "Put a card from your discard pile on top of your deck.",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Boomerang",
+				'en-us': "Aqua Boomerang",
 			},
 			effect: {
-				en: "Return this Pokémon and all cards attached to it to your hand.",
+				'en-us': "Return this Pokémon and all cards attached to it to your hand.",
 			},
 			damage: 20,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+		'en-us': "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
 	},
 
 	thirdParty: {

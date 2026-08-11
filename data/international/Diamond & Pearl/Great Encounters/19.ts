@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'de-de': "Hypno"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drowzee",
-		fr: "Soporifik",
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Catcher",
-				fr: "Attrap'rêve",
-				de: "Traumfänger"
+				'en-us': "Dream Catcher",
+				'fr-fr': "Attrap'rêve",
+				'de-de': "Traumfänger"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur est Endormi, déplacez tous les marqueurs de dégât d'Hypnomade sur le Pokémon Défenseur.",
-				de: "Wenn das Verteidigende Pokémon schläft, entferne alle Schadensmarken von Hypno und lege sie auf das Verteidigende Pokémon."
+				'en-us': "If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur est Endormi, déplacez tous les marqueurs de dégât d'Hypnomade sur le Pokémon Défenseur.",
+				'de-de': "Wenn das Verteidigende Pokémon schläft, entferne alle Schadensmarken von Hypno und lege sie auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Seeing its swinging pendulum can induce sleep in three seconds, even if someone just woke up.",
+		'en-us': "Seeing its swinging pendulum can induce sleep in three seconds, even if someone just woke up.",
 	},
 
 	thirdParty: {

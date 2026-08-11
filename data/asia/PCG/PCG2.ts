@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../PCG'
 
 const set: Set = {
 	id: 'PCG2',
 	name: {
-		ja: '蒼空の激突'
+		'ja-jp': '蒼空の激突'
 	},
 
 	serie: serie,

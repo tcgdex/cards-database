@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SK"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "通頂雪道",
-		ja: "頂への雪道"
+		'ja-jp': "頂への雪道"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "雙方場上的「擁有規則的寶可夢」的特性全部消除。",
-		ja: "おたがいの場の「ルールを持つポケモン」の特性は、すべてなくなる。"
+		'ja-jp': "おたがいの場の「ルールを持つポケモン」の特性は、すべてなくなる。"
 	},
 
 	trainerType: "Stadium",

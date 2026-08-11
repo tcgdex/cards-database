@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nenupiot"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Aqua Lift",
-				fr: "Aqua-élévation",
-				de: "Aqua Lift"
+				'en-us': "Aqua Lift",
+				'fr-fr': "Aqua-élévation",
+				'de-de': "Aqua Lift"
 			},
 			effect: {
-				en: "If Lombre has any Water Energy attached to it, the Retreat Cost for Lombre is 0.",
-				fr: "Si Lombre possède une Énergie , son Coût de retraite est de 0.",
-				de: "If Lombre has any  Energy attached to it, the Retreat Cost of Lombre is 0."
+				'en-us': "If Lombre has any Water Energy attached to it, the Retreat Cost for Lombre is 0.",
+				'fr-fr': "Si Lombre possède une Énergie , son Coût de retraite est de 0.",
+				'de-de': "If Lombre has any  Energy attached to it, the Retreat Cost of Lombre is 0."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				de: "Ambush"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'de-de': "Ambush"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. if heads, this attack does 20 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. if heads, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 

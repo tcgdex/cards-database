@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ferrothorn"
+		'id-id': "Ferrothorn"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Ferrothorn memiliki duri yang lebih keras dari baja. Pokémon ini bergerak merayapi dinding batu dengan menusukkan duri di tentakelnya."
+		'id-id': "Ferrothorn memiliki duri yang lebih keras dari baja. Pokémon ini bergerak merayapi dinding batu dengan menusukkan duri di tentakelnya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tubuh Keras"
+			'id-id': "Tubuh Keras"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Spinning Needle"
+			'id-id': "Spinning Needle"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, kerusakan akibat Spinning Needle Pokémon ini bertambah sejumlah 100."
+			'id-id': "Pada giliran sendiri berikutnya, kerusakan akibat Spinning Needle Pokémon ini bertambah sejumlah 100."
 		},
 
 		damage: 50,

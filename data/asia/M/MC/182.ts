@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。",
+		'ja-jp': "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。",
 	},
 
 	stage: "Basic",

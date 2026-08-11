@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Larvesta",
-		th: "เมลาร์วา"
+		'id-id': "Larvesta",
+		'th-th': "เมลาร์วา"
 	},
 
 	illustrator: "MARINA Chikazawa",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Zaman dahulu kala, orang-orang memuja Larvesta sebagai utusan matahari, tetapi ia dibenci karena sering menyebabkan kebakaran gunung.",
-		th: "ในอดีตเคยถูกเคารพบูชาในฐานะบริวารของพระอาทิตย์ แต่เพราะ ชอบทำให้เกิดไฟป่าอยู่บ่อย ๆ เลยถูกเกลียดชังด้วยเช่นกัน"
+		'id-id': "Zaman dahulu kala, orang-orang memuja Larvesta sebagai utusan matahari, tetapi ia dibenci karena sering menyebabkan kebakaran gunung.",
+		'th-th': "ในอดีตเคยถูกเคารพบูชาในฐานะบริวารของพระอาทิตย์ แต่เพราะ ชอบทำให้เกิดไฟป่าอยู่บ่อย ๆ เลยถูกเกลียดชังด้วยเช่นกัน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyeruduk",
-			th: "กระแทก"
+			'id-id': "Menyeruduk",
+			'th-th': "กระแทก"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Memuntahkan Api",
-			th: "พ่นอัคคี"
+			'id-id': "Memuntahkan Api",
+			'th-th': "พ่นอัคคี"
 		},
 
 		damage: 20,

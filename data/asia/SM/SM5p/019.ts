@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エムリット",
+		'ja-jp': "エムリット",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "湖の 底で 眠っているが 魂が 抜け出して 水面を 飛び回ると 言われている。",
+		'ja-jp': "湖の 底で 眠っているが 魂が 抜け出して 水面を 飛び回ると 言われている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "せいじゃくのなみ" },
 			effect: {
-				ja: "自分の場に「アグノム」がいるなら、相手のポケモン全員の抵抗力は、すべてなくなる。",
+				'ja-jp': "自分の場に「アグノム」がいるなら、相手のポケモン全員の抵抗力は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「ユクシー」がいるなら、50ダメージ追加。",
+				'ja-jp': "自分のベンチに「ユクシー」がいるなら、50ダメージ追加。",
 			},
 		},
 	],

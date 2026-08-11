@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lampéroie",
-		en: "Eelektrik",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'fr-fr': "Lampéroie",
+		'en-us': "Eelektrik",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Anchwatt",
-		en: "Tynamo",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'fr-fr': "Anchwatt",
+		'en-us': "Tynamo",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Vague Survoltée",
-			en: "Volt Wave",
-			es: "Onda Electrificante",
-			it: "Onda Volt",
-			pt: "Onda de Volts",
-			de: "Voltwelle"
+			'fr-fr': "Vague Survoltée",
+			'en-us': "Volt Wave",
+			'es-es': "Onda Electrificante",
+			'it-it': "Onda Volt",
+			'pt-br': "Onda de Volts",
+			'de-de': "Voltwelle"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 20
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Boule de Foudre",
-			en: "Electric Ball",
-			es: "Bola Eléctrica",
-			it: "Lamposfera",
-			pt: "Bola de Eletricidade",
-			de: "Stromball"
+			'fr-fr': "Boule de Foudre",
+			'en-us': "Electric Ball",
+			'es-es': "Bola Eléctrica",
+			'it-it': "Lamposfera",
+			'pt-br': "Bola de Eletricidade",
+			'de-de': "Stromball"
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+		'en-us': "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
 	},
 
 	variants: [

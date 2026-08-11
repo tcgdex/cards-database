@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Landorus-EX",
-		fr: "Démétéros-EX",
-		es: "Landorus-EX",
-		it: "Landorus-EX",
-		pt: "Landorus-EX",
-		de: "Demeteros-EX"
+		'en-us': "Landorus-EX",
+		'fr-fr': "Démétéros-EX",
+		'es-es': "Landorus-EX",
+		'it-it': "Landorus-EX",
+		'pt-br': "Landorus-EX",
+		'de-de': "Demeteros-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Hammerhead",
-				fr: "Massue",
+				'en-us': "Hammerhead",
+				'fr-fr': "Massue",
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land's Judgment",
-				fr: "Jugement Terrestre",
+				'en-us': "Land's Judgment",
+				'fr-fr': "Jugement Terrestre",
 			},
 			effect: {
-				en: "You may discard all Fighting Energy attached to this Pokémon. If you do, this attack does 70 more damage.",
-				fr: "Vous pouvez défausser toutes les Énergies Fighting attachées à ce Pokémon. Dans ce cas, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "You may discard all Fighting Energy attached to this Pokémon. If you do, this attack does 70 more damage.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies Fighting attachées à ce Pokémon. Dans ce cas, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: 80,
 

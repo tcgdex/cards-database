@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのバリヤード",
+		'ja-jp': "ナツメのバリヤード",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "手の手",
+				'ja-jp': "手の手",
 			},
 			effect: {
-				ja: "手から最大3枚のカードを選択し、デッキの上に置きます。次に、その多くの基本エネルギーカードをデッキに検索します。それらのカードを相手に見せてから、それらを手に入れます。その後、デッキをシャッフルします。",
+				'ja-jp': "手から最大3枚のカードを選択し、デッキの上に置きます。次に、その多くの基本エネルギーカードをデッキに検索します。それらのカードを相手に見せてから、それらを手に入れます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "平手打ち",
+				'ja-jp': "平手打ち",
 			},
 			damage: 20,
 		},

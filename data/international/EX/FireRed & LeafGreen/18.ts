@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Tackle",
-				fr: "Charge énergétique",
-				de: "Hitze Tackle"
+				'en-us': "Heat Tackle",
+				'fr-fr': "Charge énergétique",
+				'de-de': "Hitze Tackle"
 			},
 			effect: {
-				en: "Arcanine does 10 damage to itself.",
-				fr: "Arcanin s'inflige 10 dégâts.",
-				de: "Arkani fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Arcanine does 10 damage to itself.",
+				'fr-fr': "Arcanin s'inflige 10 dégâts.",
+				'de-de': "Arkani fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 70,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピンダ",
+		'ja-jp': "スピンダ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "パターンの気晴らし",
+				'ja-jp': "パターンの気晴らし",
 			},
 			effect: {
-				ja: "Spindaがあなたのアクティブなポカモンである限り、相手の基本的なPokã©Monが攻撃を試みるたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 1つ以上のパターンの注意散漫Pokã©-Body各ターンを使用することはできません。",
+				'ja-jp': "Spindaがあなたのアクティブなポカモンである限り、相手の基本的なPokã©Monが攻撃を試みるたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 1つ以上のパターンの注意散漫Pokã©-Body各ターンを使用することはできません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "気まぐれなドロー",
+				'ja-jp': "気まぐれなドロー",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。各ヘッドについて、2枚のカードを描きます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。各ヘッドについて、2枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルエッジ",
+				'ja-jp': "ダブルエッジ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Spindaはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Spindaはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

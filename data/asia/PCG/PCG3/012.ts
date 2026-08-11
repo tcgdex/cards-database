@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークアーボック",
+		'ja-jp': "ダークアーボック",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "飲み込む",
+				'ja-jp': "飲み込む",
 			},
 			effect: {
-				ja: "ダメージを与える前に、防御するポケモンとダークアーボックの残りのHPを数えます。ディフェンディングポケモンの残りのHPがDark Arbokよりも少ない場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "ダメージを与える前に、防御するポケモンとダークアーボックの残りのHPを数えます。ディフェンディングポケモンの残りのHPがDark Arbokよりも少ない場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "余分な毒",
+				'ja-jp': "余分な毒",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモンエクスである場合、防御するポケモンは眠って毒されています。",
+				'ja-jp': "防御ポケモンがポケモンエクスである場合、防御するポケモンは眠って毒されています。",
 			},
 			damage: 30,
 		},

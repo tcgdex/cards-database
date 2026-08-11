@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPZ"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "捷拉奧拉V",
-		ja: "ゼラオラV"
+		'ja-jp': "ゼラオラV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "利爪劈擊",
-			ja: "ツメできりさく"
+			'ja-jp': "ツメできりさく"
 		},
 
 		damage: 50,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "閃電伏特",
-			ja: "サンダーボルト"
+			'ja-jp': "サンダーボルト"
 		},
 
 		effect: {
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 190,

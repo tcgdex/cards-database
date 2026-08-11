@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "kawayoo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Mantle",
-				fr: "Manteau de Magma",
-				es: "Manto Magma",
-				it: "Magmamanto",
-				pt: "Manto de Magma",
-				de: "Magmahülle"
+				'en-us': "Magma Mantle",
+				'fr-fr': "Manteau de Magma",
+				'es-es': "Manto Magma",
+				'it-it': "Magmamanto",
+				'pt-br': "Manto de Magma",
+				'de-de': "Magmahülle"
 			},
 			effect: {
-				en: "You may discard the top card of your deck. If that card is a Fire Energy card, this attack does 50 more damage.",
-				fr: "Vous pouvez défausser la carte du dessus de votre deck. Si cette carte est une carte Énergie Fire, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Puedes descartar la primera carta de tu baraja. Si es una carta de Energía Fire, este ataque hace 50 puntos de daño más.",
-				it: "Puoi scartare la carta in cima al tuo mazzo. Se è una carta Energia Fire, questo attacco infligge 50 danni in più.",
-				pt: "Você pode descartar o card do topo do seu baralho. Se esse card for um card de Energia Fire, esse ataque causará 50 de danos adicionais.",
-				de: "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine Fire-Energiekarte ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				'en-us': "You may discard the top card of your deck. If that card is a Fire Energy card, this attack does 50 more damage.",
+				'fr-fr': "Vous pouvez défausser la carte du dessus de votre deck. Si cette carte est une carte Énergie Fire, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Puedes descartar la primera carta de tu baraja. Si es una carta de Energía Fire, este ataque hace 50 puntos de daño más.",
+				'it-it': "Puoi scartare la carta in cima al tuo mazzo. Se è una carta Energia Fire, questo attacco infligge 50 danni in più.",
+				'pt-br': "Você pode descartar o card do topo do seu baralho. Se esse card for um card de Energia Fire, esse ataque causará 50 de danos adicionais.",
+				'de-de': "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine Fire-Energiekarte ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 80,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+		'en-us': "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
 	},
 
 	thirdParty: {

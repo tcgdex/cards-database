@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		es: "Mienshao",
-		it: "Mienshao",
-		pt: "Mienshao",
-		de: "Wie-Shu"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'es-es': "Mienshao",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'de-de': "Wie-Shu"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Gale Roundhouse",
-			fr: "Coup Circulaire Bourrasque",
-			es: "Gancho Vendaval",
-			it: "Calcioraffica",
-			pt: "Chute Vendaval",
-			de: "Rundumwirbel"
+			'en-us': "Gale Roundhouse",
+			'fr-fr': "Coup Circulaire Bourrasque",
+			'es-es': "Gancho Vendaval",
+			'it-it': "Calcioraffica",
+			'pt-br': "Chute Vendaval",
+			'de-de': "Rundumwirbel"
 		},
 
 		effect: {
-			en: "If your opponent has 5 or fewer cards in their hand, this attack does 60 more damage.",
-			fr: "Si votre adversaire a 5 cartes ou moins dans sa main, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si tu rival tiene 5 cartas o menos en su mano, este ataque hace 60 puntos de daño más.",
-			it: "Se il tuo avversario ha cinque o meno carte in mano, questo attacco infligge 60 danni in più.",
-			pt: "Se o seu oponente tiver 5 ou menos cartas na mão dele, este ataque causará 60 pontos de dano a mais.",
-			de: "Wenn dein Gegner 5 oder weniger Karten auf seiner Hand hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'en-us': "If your opponent has 5 or fewer cards in their hand, this attack does 60 more damage.",
+			'fr-fr': "Si votre adversaire a 5 cartes ou moins dans sa main, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si tu rival tiene 5 cartas o menos en su mano, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se il tuo avversario ha cinque o meno carte in mano, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se o seu oponente tiver 5 ou menos cartas na mão dele, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wenn dein Gegner 5 oder weniger Karten auf seiner Hand hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"

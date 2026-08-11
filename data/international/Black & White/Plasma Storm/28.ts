@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Mamoswine",
-		fr: "Mammochon",
-		es: "Mamoswine",
-		it: "Mamoswine",
-		pt: "Mamoswine",
-		de: "Mamutel"
+		'en-us': "Mamoswine",
+		'fr-fr': "Mammochon",
+		'es-es': "Mamoswine",
+		'it-it': "Mamoswine",
+		'pt-br': "Mamoswine",
+		'de-de': "Mamutel"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piloswine",
-		fr: "Cochignon",
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Stone",
-				fr: "Roc Gelé",
+				'en-us': "Frost Stone",
+				'fr-fr': "Roc Gelé",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 50,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Headbutt",
-				fr: "Coup d'Boule Sans Fin",
+				'en-us': "Continuous Headbutt",
+				'fr-fr': "Coup d'Boule Sans Fin",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 90 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 90 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 90 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 90 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 90,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "When the temperature rose at the end of the ice age, most Mamoswine disappeared.",
+		'en-us': "When the temperature rose at the end of the ice age, most Mamoswine disappeared.",
 	},
 
 	thirdParty: {

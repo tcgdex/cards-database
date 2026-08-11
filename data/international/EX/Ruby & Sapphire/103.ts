@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Sneasel ex",
-		fr: "Farfuret ex",
-		de: "Sniebel ex"
+		'en-us': "Sneasel ex",
+		'fr-fr': "Farfuret ex",
+		'de-de': "Sniebel ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Double Scratch",
-				fr: "Double écorchure",
-				de: "Doppelkratzer"
+				'en-us': "Double Scratch",
+				'fr-fr': "Double écorchure",
+				'de-de': "Doppelkratzer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Kopf zu."
 			},
 			damage: "10×",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat Up",
-				fr: "Baston",
-				de: "Prügler"
+				'en-us': "Beat Up",
+				'fr-fr': "Baston",
+				'de-de': "Prügler"
 			},
 			effect: {
-				en: "Flip a coin for each of your Pokémon in play (including Sneasel ex). This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Pokémon que vous avez en jeu (Farfuret Ex inclus). Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
-				de: "Wirf eine Münze für jedes deiner Pokémon (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl Kopf zu."
+				'en-us': "Flip a coin for each of your Pokémon in play (including Sneasel ex). This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Pokémon que vous avez en jeu (Farfuret Ex inclus). Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				'de-de': "Wirf eine Münze für jedes deiner Pokémon (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl Kopf zu."
 			},
 			damage: "20×",
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Lucario)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Geodude",
-		fr: "Racaillou"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,13 +28,13 @@ const card: Card = {
 		],
 
 		name: {
-			en: "Stone Throw",
-			fr: "Jet-pierres"
+			'en-us': "Stone Throw",
+			'fr-fr': "Jet-pierres"
 		},
 
 		effect: {
-			en: "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			'en-us': "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		}
 	}],
 
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Many live on mountain trails and remain half buried while keeping an eye on climbers"
+		'en-us': "Many live on mountain trails and remain half buried while keeping an eye on climbers"
 	},
 
 	retreat: 2,

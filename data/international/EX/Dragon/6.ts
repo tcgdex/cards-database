@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychic Boom"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "20+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Trip",
-				fr: "Avoir l'esprit ailleurs",
-				de: "Mind Trip"
+				'en-us': "Mind Trip",
+				'fr-fr': "Avoir l'esprit ailleurs",
+				'de-de': "Mind Trip"
 			},
 			effect: {
-				en: "If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.",
-				fr: "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus.",
-				de: "If grumpig and the Defending Pokémon have the same number off Energy attached to them, the Defending Pokémon is now Confused."
+				'en-us': "If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If grumpig and the Defending Pokémon have the same number off Energy attached to them, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

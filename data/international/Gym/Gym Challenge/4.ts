@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Venusaur"
+		'en-us': "Erika's Venusaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur"
+		'en-us': "Ivysaur"
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Growth"
+				'en-us': "Growth"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may attach up to 2 Grass Energy cards from your hand to Erika's Venusaur."
+				'en-us': "Flip a coin. If heads, you may attach up to 2 Grass Energy cards from your hand to Erika's Venusaur."
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wide Solarbeam"
+				'en-us': "Wide Solarbeam"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Poliwrath",
+		'ja-jp': "Poliwrath",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "コークスクリューパンチ",
+				'ja-jp': "コークスクリューパンチ",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "提出",
+				'ja-jp': "提出",
 			},
 			effect: {
-				ja: "Poliwrathはそれ自体に20のダメージを与えます。",
+				'ja-jp': "Poliwrathはそれ自体に20のダメージを与えます。",
 			},
 			damage: 70,
 		},

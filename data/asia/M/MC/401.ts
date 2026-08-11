@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	illustrator: "Scav",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ハサミは もげても すぐに 生える。 カラから 良い 出汁が でるので パエリアの 具材として 人気。",
+		'ja-jp': "ハサミは もげても すぐに 生える。 カラから 良い 出汁が でるので パエリアの 具材として 人気。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Clawitzer",
-		fr: "Gamblast",
+		'en-us': "Clawitzer",
+		'fr-fr': "Gamblast",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clauncher",
-		fr: "Flingouste",
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Mega Boost",
-				fr: "Méga Boost",
+				'en-us': "Mega Boost",
+				'fr-fr': "Méga Boost",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Mega Evolution Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l'un de vos Pokémon Méga-Évolution.",
+				'en-us': "Once during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Mega Evolution Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l'un de vos Pokémon Méga-Évolution.",
 			},
 		},
 	],
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
+		'en-us': "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
 	},
 
 	thirdParty: {

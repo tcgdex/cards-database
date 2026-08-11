@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮาซึโบ",
-		id: "Lotad"
+		'th-th': "ฮาซึโบ",
+		'id-id': "Lotad"
 	},
 
 	illustrator: "Ayako Ozaki",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "ใบไม้บนหัวมีคุณสมบัติกันเปื้อน ถึงจะให้โปเกมอนที่ตัวเต็มไปด้วยโคลน ขึ้นขี่ ใบไม้ก็ยังสะอาดเหมือนเดิม",
-		id: "Daun di atas kepalanya bersifat menangkal kotoran. Meskipun ia menaikkan Pokémon yang berlumur lumpur di atasnya, daun tersebut akan tetap bersih."
+		'th-th': "ใบไม้บนหัวมีคุณสมบัติกันเปื้อน ถึงจะให้โปเกมอนที่ตัวเต็มไปด้วยโคลน ขึ้นขี่ ใบไม้ก็ยังสะอาดเหมือนเดิม",
+		'id-id': "Daun di atas kepalanya bersifat menangkal kotoran. Meskipun ia menaikkan Pokémon yang berlumur lumpur di atasnya, daun tersebut akan tetap bersih."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ปืนฉีดน้ำ",
-			id: "Pistol Air"
+			'th-th': "ปืนฉีดน้ำ",
+			'id-id': "Pistol Air"
 		},
 
 		damage: 20,

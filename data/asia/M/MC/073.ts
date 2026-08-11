@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アノホラグサ",
+		'ja-jp': "アノホラグサ",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "乾燥地帯を 放浪する。 ごくまれに 大量発生して 町ひとつを 埋めつくしてしまう。",
+		'ja-jp': "乾燥地帯を 放浪する。 ごくまれに 大量発生して 町ひとつを 埋めつくしてしまう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ざっそうだましい" },
 			effect: {
-				ja: "相手がすでにとったサイド1枚につき、このポケモンの最大HPは「＋50」される。",
+				'ja-jp': "相手がすでにとったサイド1枚につき、このポケモンの最大HPは「＋50」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アノクサ",
+		'ja-jp': "アノクサ",
 	},
 
 	retreat: 3,

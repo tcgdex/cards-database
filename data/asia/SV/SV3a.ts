@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV3a',
 
 	name: {
-		ja: 'レイジングサーフ',
-		ko: '레이징서프',
+		'ja-jp': 'レイジングサーフ',
+		'ko-kr': '레이징서프',
 		'zh-tw': '激狂駭浪',
-		th: 'คลื่นพิโรธ'
+		'th-th': 'คลื่นพิโรธ'
 	},
 
 	serie: serie,
@@ -18,10 +18,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-09-22',
+		'ja-jp': '2023-09-22',
 		'zh-tw': '2023-09-29',
-		th: '2023-10-27',
-		id: '2023-10-27'
+		'th-th': '2023-10-27',
+		'id-id': '2023-10-27'
 	},
 
 	thirdParty: {

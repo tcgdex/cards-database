@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Layabout",
-				fr: "Traîne-savates",
-				de: "Faulenzer"
+				'en-us': "Layabout",
+				'fr-fr': "Traîne-savates",
+				'de-de': "Faulenzer"
 			},
 			effect: {
-				en: "Remove all damage counters from Snorlax. Snorlax can't use Layabout during your next turn.",
-				fr: "Retirez tous ses marqueurs de dégâts à Ronflex. Ronflex ne peut pas utiliser Traîne-savates pendant votre prochain tour.",
-				de: "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzten."
+				'en-us': "Remove all damage counters from Snorlax. Snorlax can't use Layabout during your next turn.",
+				'fr-fr': "Retirez tous ses marqueurs de dégâts à Ronflex. Ronflex ne peut pas utiliser Traîne-savates pendant votre prochain tour.",
+				'de-de': "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzten."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clomp Clomp Clobber",
-				fr: "Barda abasourdissant",
-				de: "Rumpeldipumpel"
+				'en-us': "Clomp Clomp Clobber",
+				'fr-fr': "Barda abasourdissant",
+				'de-de': "Rumpeldipumpel"
 			},
 			effect: {
-				en: "Put 1 Energy card attached to Snorlax in the Lost Zone.",
-				fr: "Placez 1 carte Énergie attachée à Ronflex dans la Zone Perdue.",
-				de: "Entferne 1 Energiekarte, die an Relaxo angelegt ist, und lege sie ins Nirgendwo."
+				'en-us': "Put 1 Energy card attached to Snorlax in the Lost Zone.",
+				'fr-fr': "Placez 1 carte Énergie attachée à Ronflex dans la Zone Perdue.",
+				'de-de': "Entferne 1 Energiekarte, die an Relaxo angelegt ist, und lege sie ins Nirgendwo."
 			},
 			damage: 80,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
+		'en-us': "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハンター",
+		'ja-jp': "ハンター",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "タイムスパイラル",
+				'ja-jp': "タイムスパイラル",
 			},
 			effect: {
-				ja: "相手が進化したポケモンをプレイしている場合は、1つを選択してコインをひっくり返します。頭の場合は、そのポケモンの最高段階の進化カードを取り外し、相手にそれを彼または彼女のデッキにシャッフルさせます。",
+				'ja-jp': "相手が進化したポケモンをプレイしている場合は、1つを選択してコインをひっくり返します。頭の場合は、そのポケモンの最高段階の進化カードを取り外し、相手にそれを彼または彼女のデッキにシャッフルさせます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "出没",
+				'ja-jp': "出没",
 			},
 			effect: {
-				ja: "防御ポケモンに2つのダメージカウンターを置きます。",
+				'ja-jp': "防御ポケモンに2つのダメージカウンターを置きます。",
 			},
 		},
 	],

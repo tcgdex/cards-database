@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tyranitar",
-		fr: "Tyranocif"
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif"
 	},
 
 	illustrator: "Hasuno",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Pupitar"
+		'en-us': "Pupitar"
 	},
 
 	description: {
-		en: "Extremely strong, it can change the landscape.\nIt is so insolent that it doesn't care about others.",
-		fr: "Ce Pokémon est si fort qu'il est capable de modifier la topographie d'un lieu. Il ne se préoccupe pas des autres."
+		'en-us': "Extremely strong, it can change the landscape.\nIt is so insolent that it doesn't care about others.",
+		'fr-fr': "Ce Pokémon est si fort qu'il est capable de modifier la topographie d'un lieu. Il ne se préoccupe pas des autres."
 	},
 
 	stage: "Stage2",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Energy Plunder",
-			fr: "Pillage d'Énergie"
+			'en-us': "Energy Plunder",
+			'fr-fr': "Pillage d'Énergie"
 		},
 
 		effect: {
-			en: "Once during your turn, you may move all {D} Energy from each of your Pokémon to this Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez déplacer toute l'Énergie {D} de chacun de vos Pokémon vers ce Pokémon."
+			'en-us': "Once during your turn, you may move all {D} Energy from each of your Pokémon to this Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez déplacer toute l'Énergie {D} de chacun de vos Pokémon vers ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Buster Tail",
-			fr: "Queue Destructrice"
+			'en-us': "Buster Tail",
+			'fr-fr': "Queue Destructrice"
 		},
 
 		damage: 130,

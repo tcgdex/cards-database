@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kabutops"
+		'en-us': "Kabutops"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto"
+		'en-us': "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sharp Sickle"
+				'en-us': "Sharp Sickle"
 			},
 
 			damage: 30,
@@ -46,10 +46,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Absorb"
+				'en-us': "Absorb"
 			},
 			effect: {
-				en: "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+				'en-us': "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
 			},
 			damage: 40,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
+		'en-us': "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
 	},
 
 	variants: [

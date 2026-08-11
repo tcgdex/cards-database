@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Deep Sleep",
-				fr: "Gros dodo",
-				de: "Deep Sleep"
+				'en-us': "Deep Sleep",
+				'fr-fr': "Gros dodo",
+				'de-de': "Deep Sleep"
 			},
 			effect: {
-				en: "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.",
-				fr: "Tant que Relicanth est votre Pokémon Actif, un Joueur lance 2 pièces entre deux tours pour chaque Pokémon Endormi qu'il possède. Si l'une des pièces est pile, le ou les Pokémon restent Endormis.",
-				de: "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep."
+				'en-us': "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.",
+				'fr-fr': "Tant que Relicanth est votre Pokémon Actif, un Joueur lance 2 pièces entre deux tours pour chaque Pokémon Endormi qu'il possède. Si l'une des pièces est pile, le ou les Pokémon restent Endormis.",
+				'de-de': "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Yawn"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Yawn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

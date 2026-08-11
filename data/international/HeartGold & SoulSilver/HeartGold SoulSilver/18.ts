@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Absorption",
-				fr: "Absorption d’énergie",
-				de: "Energieaufnahme"
+				'en-us': "Energy Absorption",
+				'fr-fr': "Absorption d’énergie",
+				'de-de': "Energieaufnahme"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Energy cards and attach them to Exeggutor.",
-				fr: "Cherchez dans votre pile de défausse jusqu’à deux cartes Énergie et attachez-les à Noadkoko.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Energiekarten und lege sie an Kokowei an."
+				'en-us': "Search your discard pile for up to 2 Energy cards and attach them to Exeggutor.",
+				'fr-fr': "Cherchez dans votre pile de défausse jusqu’à deux cartes Énergie et attachez-les à Noadkoko.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 Energiekarten und lege sie an Kokowei an."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Big Eggsplosion",
-				fr: "Grosse éclate",
-				de: "Große Eggsplosion"
+				'en-us': "Big Eggsplosion",
+				'fr-fr': "Grosse éclate",
+				'de-de': "Große Eggsplosion"
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf für jede an Kokowei angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf für jede an Kokowei angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40×",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
+		'en-us': "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
 	},
 
 	variants: [

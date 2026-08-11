@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Poochyena",
-		fr: "Medhyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyena",
+		'de-de': "Fiffyen"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
-				de: "Abschlagen"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
+				'de-de': "Abschlagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
-				de: "Wirf eine Münze. Bei 'Kopf' wähle 1 zufällige Karte von der Hand deines Gegners. Dein Gegner legt diese Karte auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' wähle 1 zufällige Karte von der Hand deines Gegners. Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 20,

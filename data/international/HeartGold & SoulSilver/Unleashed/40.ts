@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Seadra",
-		fr: "Hypocean",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocean",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Muddy Water",
-				fr: "Ocroupi",
-				de: "Lehmbrühe"
+				'en-us': "Muddy Water",
+				'fr-fr': "Ocroupi",
+				'de-de': "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistzenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistzenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 50,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
+		'en-us': "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
 	},
 
 	variants: [

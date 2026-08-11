@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のネンドール",
+		'ja-jp': "マグマ団のネンドール",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ネンドールが 放つ ビームは 確実に 敵を 捉えるの。 遠くからの 攻撃は 任せなさい！",
+		'ja-jp': "ネンドールが 放つ ビームは 確実に 敵を 捉えるの。 遠くからの 攻撃は 任せなさい！",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マグマスイッチ" },
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーを1個選び、自分の別の「マグマ団」のポケモンにつけ替える。この特性は、自分の番に1回使える。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーを1個選び、自分の別の「マグマ団」のポケモンにつけ替える。この特性は、自分の番に1回使える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマ団のヤジロン",
+		'ja-jp': "マグマ団のヤジロン",
 	},
 
 	retreat: 2,

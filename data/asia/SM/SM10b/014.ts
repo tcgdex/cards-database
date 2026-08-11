@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪や 氷が 主な エサ。 暖かな アローラでは 限られた 場所 でしか 生きていけない。",
+		'ja-jp': "雪や 氷が 主な エサ。 暖かな アローラでは 限られた 場所 でしか 生きていけない。",
 	},
 
 	stage: "Basic",

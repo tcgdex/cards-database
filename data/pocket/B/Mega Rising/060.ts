@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luvdisc"
+		'en-us': "Luvdisc"
 	},
 
 	illustrator: "sui",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "During the spawning season, countless Luvdisc\ncongregate at coral reefs, turning the waters pink."
+		'en-us': "During the spawning season, countless Luvdisc\ncongregate at coral reefs, turning the waters pink."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Paired Tackle"
+			'en-us': "Paired Tackle"
 		},
 
 		damage: 30,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "If you have exactly 2, 4, or 6 cards in your hand, this attack does 30 more damage."
+			'en-us': "If you have exactly 2, 4, or 6 cards in your hand, this attack does 30 more damage."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Gyarados VMAX",
-		fr: "Léviator VMAX",
-		es: "Gyarados VMAX",
-		it: "Gyarados VMAX",
-		pt: "Gyarados VMAX",
-		de: "Garados VMAX"
+		'en-us': "Gyarados VMAX",
+		'fr-fr': "Léviator VMAX",
+		'es-es': "Gyarados VMAX",
+		'it-it': "Gyarados VMAX",
+		'pt-br': "Gyarados VMAX",
+		'de-de': "Garados VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,25 +23,25 @@ const card: Card = {
 	dexId: [130],
 
 	evolveFrom: {
-		en: "Gyarados V",
-		fr: "Léviator-V",
-		es: "Gyarados V",
-		it: "Gyarados-V",
-		pt: "Gyarados V",
-		de: "Garados-V"
+		'en-us': "Gyarados V",
+		'fr-fr': "Léviator-V",
+		'es-es': "Gyarados V",
+		'it-it': "Gyarados-V",
+		'pt-br': "Gyarados V",
+		'de-de': "Garados-V"
 	},
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Hyper Beam",
-			fr: "Ultralaser"
+			'en-us': "Hyper Beam",
+			'fr-fr': "Ultralaser"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire."
 		},
 
 		damage: 120
@@ -49,8 +49,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		name: {
-			en: "Max Tyrant",
-			fr: "Tyranomax"
+			'en-us': "Max Tyrant",
+			'fr-fr': "Tyranomax"
 		},
 
 		damage: 240

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		es: "Sandshrew",
-		it: "Sandshrew",
-		pt: "Sandshrew",
-		de: "Sandan"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'es-es': "Sandshrew",
+		'it-it': "Sandshrew",
+		'pt-br': "Sandshrew",
+		'de-de': "Sandan"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
+		'en-us': "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
 	},
 
 	thirdParty: {

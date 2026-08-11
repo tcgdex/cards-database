@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Passimian",
-		fr: "Quartermac",
-		es: "Passimian",
-		it: "Passimian",
-		pt: "Passimian",
-		de: "Quartermak"
+		'en-us': "Passimian",
+		'fr-fr': "Quartermac",
+		'es-es': "Passimian",
+		'it-it': "Passimian",
+		'pt-br': "Passimian",
+		'de-de': "Quartermak"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Coordinated Throwing",
-			fr: "Lancer Coopération",
-			es: "Lanzamiento Coordinado",
-			it: "Tiro di Squadra",
-			pt: "Arremesso Coordenado",
-			de: "Koordiniertes Werfen"
+			'en-us': "Coordinated Throwing",
+			'fr-fr': "Lancer Coopération",
+			'es-es': "Lanzamiento Coordinado",
+			'it-it': "Tiro di Squadra",
+			'pt-br': "Arremesso Coordenado",
+			'de-de': "Koordiniertes Werfen"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each of your Basic Pokémon in play.",
-			fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de base en jeu.",
-			es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon Básicos en juego.",
-			it: "Questo attacco infligge 20 danni per ogni tuo Pokémon Base in gioco.",
-			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon Básicos em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Basis-Pokémon im Spiel 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each of your Basic Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de base en jeu.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon Básicos en juego.",
+			'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon Base in gioco.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon Básicos em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Basis-Pokémon im Spiel 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"

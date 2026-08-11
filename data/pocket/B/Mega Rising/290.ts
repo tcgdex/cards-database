@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rowlet"
+		'en-us': "Rowlet"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
+		'en-us': "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Skill Dive"
+			'en-us': "Skill Dive"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "This attack does 10 damage to 1 of your opponent's Pokémon."
+			'en-us': "This attack does 10 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

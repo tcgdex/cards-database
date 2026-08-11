@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Submerge",
-				fr: "Submerger",
-				de: "Untertauchen"
+				'en-us': "Submerge",
+				'fr-fr': "Submerger",
+				'de-de': "Untertauchen"
 			},
 			effect: {
-				en: "As long as Mudkip is on your Bench, prevent all damage done to Mudkip by attacks (both yours and your opponent's).",
-				fr: "Tant que Gobou est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
-				de: "Solange sich Hydropi auf deiner Bank befindet, verhindere allen Schaden, der Hydropi durch Angriffe zugefügt wird (eigene und gegnerische Angriffe)."
+				'en-us': "As long as Mudkip is on your Bench, prevent all damage done to Mudkip by attacks (both yours and your opponent's).",
+				'fr-fr': "Tant que Gobou est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
+				'de-de': "Solange sich Hydropi auf deiner Bank befindet, verhindere allen Schaden, der Hydropi durch Angriffe zugefügt wird (eigene und gegnerische Angriffe)."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Lehmschelle"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,

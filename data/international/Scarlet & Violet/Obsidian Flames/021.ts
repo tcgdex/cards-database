@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Arboliva",
-		en: "Arboliva",
-		es: "Arboliva",
-		it: "Arboliva",
-		pt: "Arboliva",
-		de: "Olithena"
+		'fr-fr': "Arboliva",
+		'en-us': "Arboliva",
+		'es-es': "Arboliva",
+		'it-it': "Arboliva",
+		'pt-br': "Arboliva",
+		'de-de': "Olithena"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Olivado",
-		en: "Dolliv",
-		es: "Dolliv",
-		it: "Dolliv",
-		pt: "Dolliv",
-		de: "Olivinio"
+		'fr-fr': "Olivado",
+		'en-us': "Dolliv",
+		'es-es': "Dolliv",
+		'it-it': "Dolliv",
+		'pt-br': "Dolliv",
+		'de-de': "Olivinio"
 	},
 	stage: "Stage2",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Fruit Soigneur",
-			en: "Healing Fruit",
-			es: "Fruta Sanadora",
-			it: "Frutto Toccasana",
-			pt: "Fruta de Cura",
-			de: "Heilendes Obst"
+			'fr-fr': "Fruit Soigneur",
+			'en-us': "Healing Fruit",
+			'es-es': "Fruta Sanadora",
+			'it-it': "Frutto Toccasana",
+			'pt-br': "Fruta de Cura",
+			'de-de': "Heilendes Obst"
 		},
 
 		effect: {
-			fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
-			en: "Heal all damage from 1 of your Benched Pokémon.",
-			es: "Cura todos los puntos de daño a uno de tus Pokémon en Banca.",
-			it: "Cura uno dei tuoi Pokémon in panchina da tutti i danni.",
-			pt: "Cure todo o dano de 1 dos seus Pokémon no Banco.",
-			de: "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
+			'fr-fr': "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
+			'en-us': "Heal all damage from 1 of your Benched Pokémon.",
+			'es-es': "Cura todos los puntos de daño a uno de tus Pokémon en Banca.",
+			'it-it': "Cura uno dei tuoi Pokémon in panchina da tutti i danni.",
+			'pt-br': "Cure todo o dano de 1 dos seus Pokémon no Banco.",
+			'de-de': "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Tir d'Huile",
-			en: "Oil Shot",
-			es: "Disparo de Aceite",
-			it: "Colpolio",
-			pt: "Disparo de Azeite",
-			de: "Ölschuss"
+			'fr-fr': "Tir d'Huile",
+			'en-us': "Oil Shot",
+			'es-es': "Disparo de Aceite",
+			'it-it': "Colpolio",
+			'pt-br': "Disparo de Azeite",
+			'de-de': "Ölschuss"
 		},
 
 		damage: 90
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+		'en-us': "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
 	},
 
 	variants: [

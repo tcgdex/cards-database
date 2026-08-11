@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤナップ",
+		'ja-jp': "ヤナップ",
 	},
 
 	illustrator: "saino misaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "深い 森で 暮らす ポケモン。 頭に 生えた 葉っぱを 食べると 疲れが ウソのように 消える。",
+		'ja-jp': "深い 森で 暮らす ポケモン。 頭に 生えた 葉っぱを 食べると 疲れが ウソのように 消える。",
 	},
 
 	stage: "Basic",

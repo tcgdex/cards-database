@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラセクト",
+		'ja-jp': "パラセクト",
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "背中の キノコが 育つほど ばらまかれる キノコの 胞子の 効果は 強力になる。",
+		'ja-jp': "背中の キノコが 育つほど ばらまかれる キノコの 胞子の 効果は 強力になる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "キノコのほうし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×30ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	retreat: 2,

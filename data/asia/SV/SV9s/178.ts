@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ปิปปีex ของลิเลีย",
-		id: "Clefairy <Lillie> ex"
+		'th-th': "ปิปปีex ของลิเลีย",
+		'id-id': "Clefairy <Lillie> ex"
 	},
 
 	illustrator: "Susumu Maeya",
@@ -19,25 +19,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "แฟรี่โซน",
-			id: "Fairy Zone"
+			'th-th': "แฟรี่โซน",
+			'id-id': "Fairy Zone"
 		},
 
 		effect: {
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่ จุดอ่อนของโปเกมอน[มังกร]บนกระดานฝ่ายตรงข้าม ทุกตัว จะเป็นประเภท[พลังจิต]ทั้งหมด {จุดอ่อน คำนวณแดเมจ x2}",
-			id: "Selama Pokémon ini ada di Arena, Kelemahan semua Pokémon {Naga} di Arena lawan menjadi tipe {Psychic}. [Perhitungan kerusakan dari tipe yang menjadi Kelemahan adalah 2 kali lipat.]"
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ จุดอ่อนของโปเกมอน[มังกร]บนกระดานฝ่ายตรงข้าม ทุกตัว จะเป็นประเภท[พลังจิต]ทั้งหมด {จุดอ่อน คำนวณแดเมจ x2}",
+			'id-id': "Selama Pokémon ini ada di Arena, Kelemahan semua Pokémon {Naga} di Arena lawan menjadi tipe {Psychic}. [Perhitungan kerusakan dari tipe yang menjadi Kelemahan adalah 2 kali lipat.]"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ฟูลมูนรอนโด",
-			id: "Full Moon Rondo"
+			'th-th': "ฟูลมูนรอนโด",
+			'id-id': "Full Moon Rondo"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ของทั้งสองฝ่าย x20",
-			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Pokémon Cadangan kedua pemain."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ของทั้งสองฝ่าย x20",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Pokémon Cadangan kedua pemain."
 		},
 
 		damage: "20+",

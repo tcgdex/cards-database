@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フローゼル",
+		'ja-jp': "フローゼル",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水中の 獲物を 追いかける うちに 浮き袋が 発達した。 ゴムボートのように 人を 乗せる。",
+		'ja-jp': "水中の 獲物を 追いかける うちに 浮き袋が 発達した。 ゴムボートのように 人を 乗せる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについている[水]エネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブイゼル",
+		'ja-jp': "ブイゼル",
 	},
 
 	retreat: 1,

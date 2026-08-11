@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [529],
 
 	name: {
-		en: "Drilbur"
+		'en-us': "Drilbur"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It makes its way swiftly through the soil by putting\nboth claws together and rotating at high speed."
+		'en-us': "It makes its way swiftly through the soil by putting\nboth claws together and rotating at high speed."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce"
+			'en-us': "Headbutt Bounce"
 		},
 
 		damage: 30,

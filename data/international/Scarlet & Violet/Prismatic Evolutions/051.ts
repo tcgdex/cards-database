@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario ex",
-		fr: "Lucario-ex",
-		es: "Lucario ex",
-		pt: "Lucario ex",
-		it: "Lucario-ex",
-		de: "Lucario-ex"
+		'en-us': "Lucario ex",
+		'fr-fr': "Lucario-ex",
+		'es-es': "Lucario ex",
+		'pt-br': "Lucario ex",
+		'it-it': "Lucario-ex",
+		'de-de': "Lucario-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		pt: "Riolu",
-		it: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'pt-br': "Riolu",
+		'it-it': "Riolu",
+		'de-de': "Riolu"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Aura Uppercut",
-			fr: "Uppercut Aura",
-			es: "Gancho Aura",
-			pt: "Gancho de Aura",
-			it: "Auramontante",
-			de: "Aura-Uppercut"
+			'en-us': "Aura Uppercut",
+			'fr-fr': "Uppercut Aura",
+			'es-es': "Gancho Aura",
+			'pt-br': "Gancho de Aura",
+			'it-it': "Auramontante",
+			'de-de': "Aura-Uppercut"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Tornado Rush",
-			fr: "Ruée Tornade",
-			es: "Tornado Raudo",
-			pt: "Arremetida Tornado",
-			it: "Tornadoraffica",
-			de: "Tornadoansturm"
+			'en-us': "Tornado Rush",
+			'fr-fr': "Ruée Tornade",
+			'es-es': "Tornado Raudo",
+			'pt-br': "Arremetida Tornado",
+			'it-it': "Tornadoraffica",
+			'de-de': "Tornadoansturm"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon's Tornado Rush attack does 100 more damage (before applying Weakness and Resistance).",
-			fr: "Pendant votre prochain tour, l'attaque Ruée Tornade de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-			es: "Durante tu próximo turno, el ataque Tornado Raudo de este Pokémon hace 100 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-			pt: "Durante o seu próximo turno, o ataque Arremetida Tornado deste Pokémon causará 100 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
-			it: "Durante il tuo prossimo turno, l'attacco Tornadoraffica di questo Pokémon infligge 100 danni in più, prima di aver applicato debolezza e resistenza.",
-			de: "Während deines nächsten Zuges fügt die Attacke Tornadoansturm dieses Pokémon 100 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			'en-us': "During your next turn, this Pokémon's Tornado Rush attack does 100 more damage (before applying Weakness and Resistance).",
+			'fr-fr': "Pendant votre prochain tour, l'attaque Ruée Tornade de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante tu próximo turno, el ataque Tornado Raudo de este Pokémon hace 100 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+			'pt-br': "Durante o seu próximo turno, o ataque Arremetida Tornado deste Pokémon causará 100 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
+			'it-it': "Durante il tuo prossimo turno, l'attacco Tornadoraffica di questo Pokémon infligge 100 danni in più, prima di aver applicato debolezza e resistenza.",
+			'de-de': "Während deines nächsten Zuges fügt die Attacke Tornadoansturm dieses Pokémon 100 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		},
 
 		damage: 100

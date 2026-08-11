@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシュトンプ",
+		'ja-jp': "マーシュトンプ",
 	},
 
 	rarity: "Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "雨が降る",
+				'ja-jp': "雨が降る",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "泥のスプラッシュ",
+				'ja-jp': "泥のスプラッシュ",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンの1つに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

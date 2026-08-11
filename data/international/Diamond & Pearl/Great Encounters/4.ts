@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
-		de: "Darkrai"
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
+		'de-de': "Darkrai"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Roar",
-				fr: "Rugissement obscur",
-				de: "Finsteres Gebrüll"
+				'en-us': "Darkness Roar",
+				'fr-fr': "Rugissement obscur",
+				'de-de': "Finsteres Gebrüll"
 			},
 			effect: {
-				en: "You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Vous pouvez demander à votre adversaire d'échanger le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Du kannst deinen Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank austauschen lassen."
+				'en-us': "You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Vous pouvez demander à votre adversaire d'échanger le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Du kannst deinen Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank austauschen lassen."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Hole",
-				fr: "Trou-dodo",
-				de: "Schlafloch"
+				'en-us': "Sleep Hole",
+				'fr-fr': "Trou-dodo",
+				'de-de': "Schlafloch"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep.",
-				fr: "Si le Pokémon Défenseur est Endormi, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si le Pokémon Défenseur n'est pas Endormi, il est maintenant Endormi.",
-				de: "Wenn das Verteidigende Pokémon schläft, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Wenn das Verteidigende Pokémon nicht schläft, schläft es jetzt."
+				'en-us': "If the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep.",
+				'fr-fr': "Si le Pokémon Défenseur est Endormi, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si le Pokémon Défenseur n'est pas Endormi, il est maintenant Endormi.",
+				'de-de': "Wenn das Verteidigende Pokémon schläft, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Wenn das Verteidigende Pokémon nicht schläft, schläft es jetzt."
 			},
 			damage: "40+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		'en-us': "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
 	},
 
 	thirdParty: {

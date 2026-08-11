@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Glimmet"
+		'id-id': "Glimmet"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Kristal zat racun Glimmet terlihat seperti kelopak bunga. Pokémon ini melindungi diri dengan menyebarkan racun layaknya serbuk bunga."
+		'id-id': "Kristal zat racun Glimmet terlihat seperti kelopak bunga. Pokémon ini melindungi diri dengan menyebarkan racun layaknya serbuk bunga."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Rock Shot"
+			'id-id': "Rock Shot"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 30,

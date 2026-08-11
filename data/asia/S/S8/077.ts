@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメイル",
+		'ja-jp': "ヌメイル",
 		'zh-tw': "黏美兒",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "背中の 突起の 中に 小さな 脳みそが ある。 エサと 敵から 逃げることしか 考えていない。",
+		'ja-jp': "背中の 突起の 中に 小さな 脳みそが ある。 エサと 敵から 逃げることしか 考えていない。",
 		'zh-tw': "背上的突起物裡裝著牠小小的腦子，裡面只想著吃飯和逃離敵人這兩件事。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とかす",
+				'ja-jp': "とかす",
 				'zh-tw': "溶解",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "のしかかり",
+				'ja-jp': "のしかかり",
 				'zh-tw': "泰山壓頂",
 			},
 			damage: 50,
 			cost: ["Water", "Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Luring Light",
-				fr: "Appât Lumineux",
+				'en-us': "Luring Light",
+				'fr-fr': "Appât Lumineux",
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+		'en-us': "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
 	},
 
 	thirdParty: {

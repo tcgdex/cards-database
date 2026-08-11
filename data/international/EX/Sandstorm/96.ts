@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir ex",
-		fr: "Gardevoir ex",
-		de: "Guardevoir ex"
+		'en-us': "Gardevoir ex",
+		'fr-fr': "Gardevoir ex",
+		'de-de': "Guardevoir ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	suffix: "ex",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feedback",
-				fr: "Réaction",
-				de: "Feedback"
+				'en-us': "Feedback",
+				'fr-fr': "Réaction",
+				'de-de': "Feedback"
 			},
 			effect: {
-				en: "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
-				fr: "Comptez le nombre de cartes dans la main de votre adversaire. Placez sur le Pokémon Défenseur autant de marqueurs de dégât qu'il y a de cartes.",
-				de: "Count the number of cards in your opponents hand. Put that many damage counters on the Defending Pokémon"
+				'en-us': "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
+				'fr-fr': "Comptez le nombre de cartes dans la main de votre adversaire. Placez sur le Pokémon Défenseur autant de marqueurs de dégât qu'il y a de cartes.",
+				'de-de': "Count the number of cards in your opponents hand. Put that many damage counters on the Defending Pokémon"
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psystorm",
-				fr: "Tempête Psy",
-				de: "Psystorm"
+				'en-us': "Psystorm",
+				'fr-fr': "Tempête Psy",
+				'de-de': "Psystorm"
 			},
 			effect: {
-				en: "Does 10 damage times the total amount of Energy attached to all Pokémon in play.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées à tous les Pokémon en jeu.",
-				de: "Does 10 damage times the total number of Energy attached to all Pokémon in play."
+				'en-us': "Does 10 damage times the total amount of Energy attached to all Pokémon in play.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées à tous les Pokémon en jeu.",
+				'de-de': "Does 10 damage times the total number of Energy attached to all Pokémon in play."
 			},
 			damage: "10×",
 

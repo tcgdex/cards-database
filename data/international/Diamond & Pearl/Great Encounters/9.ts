@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Swampert",
-		fr: "Laggron",
-		de: "Sumpex"
+		'en-us': "Swampert",
+		'fr-fr': "Laggron",
+		'de-de': "Sumpex"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marshtomp",
-		fr: "Flobio",
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Wash Out",
-				fr: "Partir au lavage",
-				de: "Wegspülen"
+				'en-us': "Wash Out",
+				'fr-fr': "Partir au lavage",
+				'de-de': "Wegspülen"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Water or Fighting Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water ou Fighting attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 - oder -Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Water or Fighting Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water ou Fighting attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 - oder -Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Matro-Poing",
-				de: "Hammerarm"
+				'en-us': "Hammer Arm",
+				'fr-fr': "Matro-Poing",
+				'de-de': "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card from your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card from your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+		'en-us': "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
 	},
 
 	thirdParty: {

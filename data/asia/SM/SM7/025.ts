@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x50ダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x50ダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 	],

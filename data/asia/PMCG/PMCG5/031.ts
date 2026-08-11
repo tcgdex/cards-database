@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのジュゴン",
+		'ja-jp': "カスミのジュゴン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "アイススロー",
+				'ja-jp': "アイススロー",
 			},
 			effect: {
-				ja: "防御ポケモンが戦っている場合、この攻撃の基本ダメージは2倍になります。",
+				'ja-jp': "防御ポケモンが戦っている場合、この攻撃の基本ダメージは2倍になります。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "MistyのDewgongはそれ自体に20のダメージを与えます。",
+				'ja-jp': "MistyのDewgongはそれ自体に20のダメージを与えます。",
 			},
 			damage: 60,
 		},

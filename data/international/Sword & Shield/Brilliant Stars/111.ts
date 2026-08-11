@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
-		es: "Fraxure",
-		it: "Fraxure",
-		pt: "Fraxure",
-		de: "Sharfax"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'es-es': "Fraxure",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'de-de': "Sharfax"
 	},
 
 	illustrator: "Hataya",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
-		es: "Axew",
-		it: "Axew",
-		pt: "Axew",
-		de: "Milza"
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'es-es': "Axew",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'de-de': "Milza"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Metal"],
 
 		name: {
-			en: "Dragon Claw",
-			fr: "Draco-Griffe",
-			es: "Garra Dragón",
-			it: "Dragartigli",
-			pt: "Garra de Dragão",
-			de: "Drachenklaue"
+			'en-us': "Dragon Claw",
+			'fr-fr': "Draco-Griffe",
+			'es-es': "Garra Dragón",
+			'it-it': "Dragartigli",
+			'pt-br': "Garra de Dragão",
+			'de-de': "Drachenklaue"
 		},
 
 		damage: 60
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
+		'en-us': "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
 	},
 
 	variants: [

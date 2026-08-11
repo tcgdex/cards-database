@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アラブルタケ",
+		'ja-jp': "アラブルタケ",
 	},
 
 	illustrator: "danciao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。",
+		'ja-jp': "ある本の中で アラブルタケと 記されていた 生物は このポケモンの 可能性がある。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくをとばす" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×50ダメージ追加。",
 			},
 		},
 	],

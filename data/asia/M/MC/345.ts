@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーロンゲ",
+		'ja-jp': "オーロンゲ",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "森の 奥深くに 暮らしている。 立派に 進化しても くだらない 悪さと 悪戯は やめないのだ。",
+		'ja-jp': "森の 奥深くに 暮らしている。 立派に 進化しても くだらない 悪さと 悪戯は やめないのだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ギモー",
+		'ja-jp': "ギモー",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニV",
+		'ja-jp': "ケケンカニV",
 	},
 
 	illustrator: "MUGENUP",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "なだれおこし" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手の山札を上から2枚トラッシュする。",
+				'ja-jp': "相手の山札を上から2枚トラッシュする。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×60ダメージ追加。",
 			},
 		},
 	],

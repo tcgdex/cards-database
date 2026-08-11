@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Dialga-EX",
-		fr: "Dialga EX",
-		es: "Dialga-EX",
-		it: "Dialga-EX",
-		pt: "Dialga-EX",
-		de: "Dialga-EX"
+		'en-us': "Dialga-EX",
+		'fr-fr': "Dialga EX",
+		'es-es': "Dialga-EX",
+		'it-it': "Dialga-EX",
+		'pt-br': "Dialga-EX",
+		'de-de': "Dialga-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reverse Edge",
-				fr: "Revers-Lame",
+				'en-us': "Reverse Edge",
+				'fr-fr': "Revers-Lame",
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
+				'en-us': "Flip a coin. If heads, put a card from your discard pile into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
 			},
 			damage: 50,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fast Forward",
-				fr: "Avance Rapide",
+				'en-us': "Fast Forward",
+				'fr-fr': "Avance Rapide",
 			},
 			effect: {
-				en: "For each Plasma Energy attached to this Pokémon, discard the top card of your opponent's deck.",
-				fr: "Pour chaque Énergie Plasma attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "For each Plasma Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+				'fr-fr': "Pour chaque Énergie Plasma attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 90,
 

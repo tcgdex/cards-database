@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelsporen"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelsporen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sprout",
-				fr: "Repousse",
-				de: "Sprössling"
+				'en-us': "Sprout",
+				'fr-fr': "Repousse",
+				'de-de': "Sprössling"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Mystherbe et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+				'en-us': "Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Cherchez dans votre deck un Pokémon de base appelé Mystherbe et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
 			},
 
 		},
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
-		fr: "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines."
+		'en-us': "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+		'fr-fr': "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'de-de': "Griffel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grab",
-				fr: "Vivacité",
-				de: "Grabschen"
+				'en-us': "Grab",
+				'fr-fr': "Vivacité",
+				'de-de': "Grabschen"
 			},
 			effect: {
-				en: "Choose a Trainer card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck.",
-				fr: "Choisissez une carte Dresseur attachée à l'un des Pokémon de votre adversaire. Votre adversaire doit mélanger cette carte à son deck.",
-				de: "Wähle eine Trainerkarte, die an ein Pokémon deines Gegners angelegt ist. Dein Gegner mischt diese Karte in sein Deck."
+				'en-us': "Choose a Trainer card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck.",
+				'fr-fr': "Choisissez une carte Dresseur attachée à l'un des Pokémon de votre adversaire. Votre adversaire doit mélanger cette carte à son deck.",
+				'de-de': "Wähle eine Trainerkarte, die an ein Pokémon deines Gegners angelegt ist. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Punch",
-				fr: "Coud'keu",
-				de: "Schwanzhieb"
+				'en-us': "Tail Punch",
+				'fr-fr': "Coud'keu",
+				'de-de': "Schwanzhieb"
 			},
 
 			damage: 20,
@@ -73,8 +73,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
-		fr: "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre."
+		'en-us': "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+		'fr-fr': "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre."
 	},
 
 

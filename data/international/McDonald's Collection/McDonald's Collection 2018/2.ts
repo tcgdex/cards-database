@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confusion Wave",
+				'en-us': "Confusion Wave",
 			},
 			effect: {
-				en: "Both Activate Pokémon are now Confused"
+				'en-us': "Both Activate Pokémon are now Confused"
 			},
 		},
 	],

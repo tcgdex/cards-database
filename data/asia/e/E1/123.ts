@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "pidgeot",
+		'ja-jp': "pidgeot",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "翼を鼓動します",
+				'ja-jp': "翼を鼓動します",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、PidgeotがアクティブなPokmonである場合、ベンチで1枚のPokmonとすべてのカードをデッキに接続します。 Pidgeotが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、PidgeotがアクティブなPokmonである場合、ベンチで1枚のPokmonとすべてのカードをデッキに接続します。 Pidgeotが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "シャープなくちばし",
+				'ja-jp': "シャープなくちばし",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

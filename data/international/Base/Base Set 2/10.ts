@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
+		'en-us': "Mewtwo",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
+				'en-us': "Psychic",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				'en-us': "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 			},
 			damage: 10,
 
@@ -44,10 +44,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Barrier",
+				'en-us': "Barrier",
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.",
+				'en-us': "Discard 1 Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.",
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
+		'en-us': "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
 
 

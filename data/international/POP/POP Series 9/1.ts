@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Garchomp",
-		fr: "Carchacrok"
+		'en-us': "Garchomp",
+		'fr-fr': "Carchacrok"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gabite",
-		fr: "Carmache"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache"
 	},
 
 	stage: "Stage2",
@@ -34,13 +34,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-Rage"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-Rage"
 			},
 
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
 			},
 
 			damage: 80,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Sword",
-				fr: "Jet Sword"
+				'en-us': "Jet Sword",
+				'fr-fr': "Jet Sword"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez deux Énergies attachées à Carchacrok. Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez deux Énergies attachées à Carchacrok. Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 100,
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
-		fr: "Il vole à la vitesse d'un avion à réaction et ne lâche jamais sa proie."
+		'en-us': "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+		'fr-fr': "Il vole à la vitesse d'un avion à réaction et ne lâche jamais sa proie."
 	},
 
 	variants: [

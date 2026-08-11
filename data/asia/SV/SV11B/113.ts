@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クマシュン",
+		'ja-jp': "クマシュン",
 	},
 
 	illustrator: "osare",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "具合が 悪くなると 鼻水が 水っぽくなり こおり技の 威力が 落ちてしまうのだ。",
+		'ja-jp': "具合が 悪くなると 鼻水が 水っぽくなり こおり技の 威力が 落ちてしまうのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
 			},
 		},
 	],

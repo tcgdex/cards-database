@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Moustillon",
-		de: "Ottaro",
-		es: "Oshawott",
-		pt: "Oshawott",
-		it: "Oshawott",
-		en: "Oshawott"
+		'fr-fr': "Moustillon",
+		'de-de': "Ottaro",
+		'es-es': "Oshawott",
+		'pt-br': "Oshawott",
+		'it-it': "Oshawott",
+		'en-us': "Oshawott"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Bataille",
-			de: "Verprügler",
-			es: "Toque",
-			pt: "Pulso",
-			it: "Battuta",
-			en: "Beat"
+			'fr-fr': "Bataille",
+			'de-de': "Verprügler",
+			'es-es': "Toque",
+			'pt-br': "Pulso",
+			'it-it': "Battuta",
+			'en-us': "Beat"
 		},
 
 		damage: 10
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	description: {
-		en: "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name \"scalchop.\""
+		'en-us': "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name \"scalchop.\""
 	},
 
 	thirdParty: {

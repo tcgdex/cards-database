@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Evoli",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for as many Eevee as you like and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck autant d'Evoli que vous le voulez et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach beliebig vielen Evoli-Karten und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for as many Eevee as you like and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck autant d'Evoli que vous le voulez et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach beliebig vielen Evoli-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Ausfall"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen"
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen"
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+		'en-us': "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
 	},
 
 	thirdParty: {

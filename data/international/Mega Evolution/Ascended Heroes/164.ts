@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larry's Dudunsparce ex",
-		fr: "Deusolourdo-ex d'Okuba",
-		es: "Dudunsparce ex de Laureano",
+		'en-us': "Larry's Dudunsparce ex",
+		'fr-fr': "Deusolourdo-ex d'Okuba",
+		'es-es': "Dudunsparce ex de Laureano",
 		'es-mx': "Dudunsparce ex de Laureano",
-		de: "Aokis Dummimisel-ex",
-		it: "Dudunsparce-ex di Ubaldo",
-		pt: "Dudunsparce ex do Lauro"
+		'de-de': "Aokis Dummimisel-ex",
+		'it-it': "Dudunsparce-ex di Ubaldo",
+		'pt-br': "Dudunsparce ex do Lauro"
 	},
 
 	evolveFrom: {
-		en: "Larry's Dunsparce",
-		fr: "Insolourdo d'Okuba",
-		es: "Dunsparce de Laureano",
+		'en-us': "Larry's Dunsparce",
+		'fr-fr': "Insolourdo d'Okuba",
+		'es-es': "Dunsparce de Laureano",
 		'es-mx': "Dunsparce de Laureano",
-		de: "Aokis Dummisel",
-		it: "Dunsparce di Ubaldo",
-		pt: "Dunsparce do Lauro",
+		'de-de': "Aokis Dummisel",
+		'it-it': "Dunsparce di Ubaldo",
+		'pt-br': "Dunsparce do Lauro",
 	},
 
 	suffix: "ex",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Work Rush",
-			fr: "Ruée Travailleuse",
-			es: "Trabajo Apresurado",
+			'en-us': "Work Rush",
+			'fr-fr': "Ruée Travailleuse",
+			'es-es': "Trabajo Apresurado",
 			'es-mx': "Mucha Chamba",
-			de: "Arbeitsrausch",
-			it: "Frenesia Lavorativa",
-			pt: "Carga de Trabalho"
+			'de-de': "Arbeitsrausch",
+			'it-it': "Frenesia Lavorativa",
+			'pt-br': "Carga de Trabalho"
 		},
 
 		effect: {
-			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
-			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
+			'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
+			'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
 			'es-mx': "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
-			de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara."
+			'de-de': "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara."
 		},
 
 		damage: "80×"

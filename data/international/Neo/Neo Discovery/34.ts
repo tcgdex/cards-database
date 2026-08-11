@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -38,15 +38,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Headpress",
-				fr: "Press'tête",
-				de: "Headpress"
+				'en-us': "Headpress",
+				'fr-fr': "Press'tête",
+				'de-de': "Headpress"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack dois nothing (not even damage)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack dois nothing (not even damage)."
 			},
 
 			damage: 20
@@ -60,15 +60,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Double Lariat",
-				fr: "Double lasso",
-				de: "Double Lariat"
+				'en-us': "Double Lariat",
+				'fr-fr': "Double lasso",
+				'de-de': "Double Lariat"
 			},
 
 			effect: {
-				en: "Flip 2 coins. This attack does 40 times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 40 times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
 
 			damage: "40x"
@@ -92,8 +92,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
-		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
+		'en-us': "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
+		'fr-fr': "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
 	},
 
 

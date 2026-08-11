@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプサイジ",
+		'ja-jp': "カプサイジ",
 		'zh-tw': "熱辣娃",
 		'zh-cn': "熱辣娃",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。",
+		'ja-jp': "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。",
 		'zh-tw': "帕底亞當地會用熱辣娃 掉落的門牙來做料理， 所以超級無敵霹靂辣。",
 		'zh-cn': "帕底亞當地會用熱辣娃 掉落的門牙來做料理， 所以超級無敵霹靂辣。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とびだしヘッド",
+				'ja-jp': "とびだしヘッド",
 				'zh-tw': "魯莽頭擊",
 				'zh-cn': "魯莽頭擊",
 			},

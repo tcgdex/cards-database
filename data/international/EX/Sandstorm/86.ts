@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Double Full Heal",
-		fr: "Double guérison totale",
-		de: "Doppel Hyperheiler"
+		'en-us': "Double Full Heal",
+		'fr-fr': "Double guérison totale",
+		'de-de': "Doppel Hyperheiler"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Remove all Special Conditions from each of your Active Pokémon.",
-		fr: "Retirez à chacun de vos Pokémon Actifs ses États Spéciaux.",
-		de: "Alle speziellen Zuständen auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
+		'en-us': "Remove all Special Conditions from each of your Active Pokémon.",
+		'fr-fr': "Retirez à chacun de vos Pokémon Actifs ses États Spéciaux.",
+		'de-de': "Alle speziellen Zuständen auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
 

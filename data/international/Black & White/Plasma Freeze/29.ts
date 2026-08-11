@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Vanilluxe",
-		fr: "Sorbouboul",
-		es: "Vanilluxe",
-		it: "Vanilluxe",
-		pt: "Vanilluxe",
-		de: "Gelatwino"
+		'en-us': "Vanilluxe",
+		'fr-fr': "Sorbouboul",
+		'es-es': "Vanilluxe",
+		'it-it': "Vanilluxe",
+		'pt-br': "Vanilluxe",
+		'de-de': "Gelatwino"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillish",
-		fr: "Sorboul",
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "ChillMAX",
-				fr: "Gel Maximal",
+				'en-us': "ChillMAX",
+				'fr-fr': "Gel Maximal",
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 60,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cold Breath",
-				fr: "Souffle Froid",
+				'en-us': "Cold Breath",
+				'fr-fr': "Souffle Froid",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+		'en-us': "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
 	},
 
 	thirdParty: {

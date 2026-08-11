@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タネボー",
+		'ja-jp': "タネボー",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "枝に ぶらさがっていると 木の実に そっくり。 ついばもうとした ポケモンを 驚かせて 喜ぶ。",
+		'ja-jp': "枝に ぶらさがっていると 木の実に そっくり。 ついばもうとした ポケモンを 驚かせて 喜ぶ。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "かたくなる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このポケモンは「40」以下のワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは「40」以下のワザのダメージを受けない。",
 			},
 		},
 	],

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โบมันเดอร์ex",
-		id: "Salamence ex"
+		'th-th': "โบมันเดอร์ex",
+		'id-id': "Salamence ex"
 	},
 
 	illustrator: "toriyufu",
@@ -18,25 +18,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "ไวด์บลาสต์",
-			id: "Wide Blast"
+			'th-th': "ไวด์บลาสต์",
+			'id-id': "Wide Blast"
 		},
 
 		effect: {
-			th: "โปเกมอนบนเบนช์ฝ่ายตรงข้ามทุกตัว จะได้รับแดเมจตัวละ 50 {โปเกมอนบน เบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada semua Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "โปเกมอนบนเบนช์ฝ่ายตรงข้ามทุกตัว จะได้รับแดเมจตัวละ 50 {โปเกมอนบน เบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada semua Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Fire", "Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "ดรากอนอิมแพกต์",
-			id: "Dragon Impact"
+			'th-th': "ดรากอนอิมแพกต์",
+			'id-id': "Dragon Impact"
 		},
 
 		effect: {
-			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 300,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
-		fr: "Crustabri",
-		de: "Austos"
+		'en-us': "Cloyster",
+		'fr-fr': "Crustabri",
+		'de-de': "Austos"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shellder",
-		fr: "Kokiyas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas"
 	},
 
 	abilities: [
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Super Dynamo",
+				'en-us': "Super Dynamo",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
+				'en-us': "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
 			},
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -65,14 +65,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Auto Fire",
-				fr: "Tir automatique",
-				de: "Dauerfeuer"
+				'en-us': "Auto Fire",
+				'fr-fr': "Tir automatique",
+				'de-de': "Dauerfeuer"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "20×",
 

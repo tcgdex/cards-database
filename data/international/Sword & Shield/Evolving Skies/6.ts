@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		es: "Tropius",
-		it: "Tropius",
-		pt: "Tropius",
-		de: "Tropius"
+		'en-us': "Tropius",
+		'fr-fr': "Tropius",
+		'es-es': "Tropius",
+		'it-it': "Tropius",
+		'pt-br': "Tropius",
+		'de-de': "Tropius"
 	},
 
 	rarity: "Rare",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rally Back",
-			fr: "Répercussions",
-			es: "Apoyo Vengativo",
-			it: "Radunata Rinforzi",
-			pt: "Rally Back",
-			de: "Aufholjagd"
+			'en-us': "Rally Back",
+			'fr-fr': "Répercussions",
+			'es-es': "Apoyo Vengativo",
+			'it-it': "Radunata Rinforzi",
+			'pt-br': "Rally Back",
+			'de-de': "Aufholjagd"
 		},
 
 		effect: {
-			en: "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.",
-			fr: "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, este ataque hace 90 puntos de daño más.",
-			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, questo attacco infligge 90 danni in più.",
-			pt: "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.",
-			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, questo attacco infligge 90 danni in più.",
+			'pt-br': "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 90 more damage.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Solar Beam",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Solar Beam",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 100,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+		'en-us': "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
 	},
 
 	dexId: [357],

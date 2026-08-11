@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		es: "Kangaskhan",
-		it: "Kangaskhan",
-		pt: "Kangaskhan",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'es-es': "Kangaskhan",
+		'it-it': "Kangaskhan",
+		'pt-br': "Kangaskhan",
+		'de-de': "Kangama"
 	},
 
 	rarity: "Rare",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
+		'en-us': "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			de: "Klaps",
-			es: "Destructor",
-			pt: "Pancada",
-			it: "Botta"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'de-de': "Klaps",
+			'es-es': "Destructor",
+			'pt-br': "Pancada",
+			'it-it': "Botta"
 		},
 
 		damage: 30
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Coordinated One-Two Punch",
-			fr: "En Deux Punch Coordonnés",
-			de: "Koordinierter Doppelschubser",
-			es: "Puñetazo Uno-Dos Coordinado",
-			pt: "Soco em Dois Tempos Coordenado",
-			it: "Pugni Rapidi Coordinati"
+			'en-us': "Coordinated One-Two Punch",
+			'fr-fr': "En Deux Punch Coordonnés",
+			'de-de': "Koordinierter Doppelschubser",
+			'es-es': "Puñetazo Uno-Dos Coordinado",
+			'pt-br': "Soco em Dois Tempos Coordenado",
+			'it-it': "Pugni Rapidi Coordinati"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 100 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più."
+			'en-us': "Flip a coin. If heads, this attack does 100 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più."
 		}
 	}],
 

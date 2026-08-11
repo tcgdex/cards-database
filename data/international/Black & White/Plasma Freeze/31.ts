@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Kyurem",
-		fr: "Kyurem",
-		es: "Kyurem",
-		it: "Kyurem",
-		pt: "Kyurem",
-		de: "Kyurem"
+		'en-us': "Kyurem",
+		'fr-fr': "Kyurem",
+		'es-es': "Kyurem",
+		'it-it': "Kyurem",
+		'pt-br': "Kyurem",
+		'de-de': "Kyurem"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Spear",
-				fr: "Lance de Givre",
+				'en-us': "Frost Spear",
+				'fr-fr': "Lance de Givre",
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard Burn",
-				fr: "Blizzard Étourdissant",
+				'en-us': "Blizzard Burn",
+				'fr-fr': "Blizzard Étourdissant",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 120,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+		'en-us': "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
 	},
 
 	thirdParty: {

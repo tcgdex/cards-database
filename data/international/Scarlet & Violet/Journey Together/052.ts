@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Iono's Tadbulb",
-		fr: "Têtampoule de Mashynn",
-		es: "Tadbulb de e-Nigma",
-		de: "Enigmaras Blipp",
-		it: "Tadbulb di Kissara",
-		pt: "Tadbulb da Kissera",
+		'en-us': "Iono's Tadbulb",
+		'fr-fr': "Têtampoule de Mashynn",
+		'es-es': "Tadbulb de e-Nigma",
+		'de-de': "Enigmaras Blipp",
+		'it-it': "Tadbulb di Kissara",
+		'pt-br': "Tadbulb da Kissera",
 		'es-mx': "Tadbulb de e-Nigma"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Tiny Charge",
-			fr: "Décharge Mineure",
-			es: "Carga Diminuta",
-			de: "Mini-Stromstoß",
-			it: "Sottocarica Minuscola",
-			pt: "Carga Pequenina",
+			'en-us': "Tiny Charge",
+			'fr-fr': "Décharge Mineure",
+			'es-es': "Carga Diminuta",
+			'de-de': "Mini-Stromstoß",
+			'it-it': "Sottocarica Minuscola",
+			'pt-br': "Carga Pequenina",
 			'es-mx': "Minicarga"
 		},
 

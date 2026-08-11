@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "喜びや 怒りと いった 感情を 波の形 として 見分ける 不思議な力を 持つ。",
+		'ja-jp': "喜びや 怒りと いった 感情を 波の形 として 見分ける 不思議な力を 持つ。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne",
-				de: "Kopfnuss"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -49,8 +49,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
-		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
+		'en-us': "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
+		'fr-fr': "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
 	},
 
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill",
-		es: "Azumarill",
-		it: "Azumarill",
-		pt: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill",
+		'es-es': "Azumarill",
+		'it-it': "Azumarill",
+		'pt-br': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Glistening Bubbles",
-			fr: "Bulles Chatoyantes",
-			es: "Burbujas Brillantes",
-			it: "Bolle Scintillanti",
-			pt: "Bolhas Cintilantes",
-			de: "Glitzernde Bläschen"
+			'en-us': "Glistening Bubbles",
+			'fr-fr': "Bulles Chatoyantes",
+			'es-es': "Burbujas Brillantes",
+			'it-it': "Bolle Scintillanti",
+			'pt-br': "Bolhas Cintilantes",
+			'de-de': "Glitzernde Bläschen"
 		},
 
 		effect: {
-			en: "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for {P}.",
-			fr: "Si vous avez au moins un Pokémon Téracristal en jeu, ce Pokémon peut utiliser l'attaque Damoclès pour {P}.",
-			es: "Si tienes algún Pokémon Teracristal en juego, este Pokémon puede usar el ataque Doble Filo por {P}.",
-			it: "Se hai dei Pokémon Teracristal in gioco, questo Pokémon può usare l'attacco Sdoppiatore al costo di {P}.",
-			pt: "Se você tiver algum Pokémon Tera em jogo, este Pokémon poderá usar o ataque Faca de Dois Gumes por {P}.",
-			de: "Wenn du mindestens 1 Terakristall-Pokémon im Spiel hast, kann dieses Pokémon die Attacke Risikotackle für {P} einsetzen."
+			'en-us': "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for {P}.",
+			'fr-fr': "Si vous avez au moins un Pokémon Téracristal en jeu, ce Pokémon peut utiliser l'attaque Damoclès pour {P}.",
+			'es-es': "Si tienes algún Pokémon Teracristal en juego, este Pokémon puede usar el ataque Doble Filo por {P}.",
+			'it-it': "Se hai dei Pokémon Teracristal in gioco, questo Pokémon può usare l'attacco Sdoppiatore al costo di {P}.",
+			'pt-br': "Se você tiver algum Pokémon Tera em jogo, este Pokémon poderá usar o ataque Faca de Dois Gumes por {P}.",
+			'de-de': "Wenn du mindestens 1 Terakristall-Pokémon im Spiel hast, kann dieses Pokémon die Attacke Risikotackle für {P} einsetzen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic", "Psychic"],
 
 		name: {
-			en: "Double-Edge",
-			fr: "Damoclès",
-			es: "Doble Filo",
-			it: "Sdoppiatore",
-			pt: "Faca de Dois Gumes",
-			de: "Risikotackle"
+			'en-us': "Double-Edge",
+			'fr-fr': "Damoclès",
+			'es-es': "Doble Filo",
+			'it-it': "Sdoppiatore",
+			'pt-br': "Faca de Dois Gumes",
+			'de-de': "Risikotackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 230

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Électhor",
+		'en-us': "Zapdos",
+		'fr-fr': "Électhor",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec Vrille",
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec Vrille",
 			},
 
 			damage: 20,
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Thunder",
-				fr: "Tonnerre Déchaîné",
+				'en-us': "Raging Thunder",
+				'fr-fr': "Tonnerre Déchaîné",
 			},
 			effect: {
-				en: "This attack does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 40 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 40 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 120,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		'en-us': "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
 	},
 
 	thirdParty: {

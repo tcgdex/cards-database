@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		de: "Unratütox",
-		it: "Trubbish",
-		pt: "Trubbish",
-		es: "Trubbish",
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'de-de': "Unratütox",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'es-es': "Trubbish",
 		'es-mx': "Trubbish"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Drool",
-			fr: "Gluant",
-			de: "Sabbern",
-			it: "Sbavare",
-			pt: "Babar",
-			es: "Babeo",
+			'en-us': "Drool",
+			'fr-fr': "Gluant",
+			'de-de': "Sabbern",
+			'it-it': "Sbavare",
+			'pt-br': "Babar",
+			'es-es': "Babeo",
 			'es-mx': "Babeo"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Sludge Bomb",
-			fr: "Bombe Beurk",
-			de: "Matschbombe",
-			it: "Fangobomba",
-			pt: "Bomba de Lodo",
-			es: "Bomba Lodo",
+			'en-us': "Sludge Bomb",
+			'fr-fr': "Bombe Beurk",
+			'de-de': "Matschbombe",
+			'it-it': "Fangobomba",
+			'pt-br': "Bomba de Lodo",
+			'es-es': "Bomba Lodo",
 			'es-mx': "Bomba Lodo"
 		},
 

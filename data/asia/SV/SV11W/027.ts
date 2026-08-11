@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ケルディオex",
+		'ja-jp': "ケルディオex",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -21,7 +21,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "この番に、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
+				'ja-jp': "この番に、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

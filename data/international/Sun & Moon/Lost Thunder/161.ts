@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Kecleon",
-		fr: "Kecleon",
-		es: "Kecleon",
-		it: "Kecleon",
-		pt: "Kecleon",
-		de: "Kecleon"
+		'en-us': "Kecleon",
+		'fr-fr': "Kecleon",
+		'es-es': "Kecleon",
+		'it-it': "Kecleon",
+		'pt-br': "Kecleon",
+		'de-de': "Kecleon"
 	},
 
 	illustrator: "OOYAMA",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Unit Color 1",
-				fr: "Couleur Unitaire 1",
-				es: "Color Unidad 1",
-				it: "Unione Colore 1",
-				pt: "Cor Unitária 1",
-				de: "Aggregat-Farbe 1"
+				'en-us': "Unit Color 1",
+				'fr-fr': "Couleur Unitaire 1",
+				'es-es': "Color Unidad 1",
+				'it-it': "Unione Colore 1",
+				'pt-br': "Cor Unitária 1",
+				'de-de': "Aggregat-Farbe 1"
 			},
 			effect: {
-				en: "As long as this Pokémon has Unit Energy GrassFireWater attached to it, it is a Grass, Fire, and Water Pokémon.",
-				fr: "Tant que de l’Énergie Unitaire GrassFireWater est attachée à ce Pokémon, c’est un Pokémon Grass, Fire et Water.",
-				es: "Mientras este Pokémon tenga alguna carta de Energía Unidad GrassFireWater unida a él, es un Pokémon Grass, Fire y Water.",
-				it: "Fintanto che ha delle carte Energia Unione GrassFireWater assegnate, questo Pokémon è di tipo Grass, Fire e Water.",
-				pt: "Enquanto este Pokémon tiver Energia Unitária GrassFireWater ligada a ele, será um Pokémon Grass, Fire e Water.",
-				de: "Solang an dieses Pokémon Aggregat-Energie GrassFireWater angelegt ist, ist es ein Grass-, Fire- und Water-Pokémon."
+				'en-us': "As long as this Pokémon has Unit Energy GrassFireWater attached to it, it is a Grass, Fire, and Water Pokémon.",
+				'fr-fr': "Tant que de l’Énergie Unitaire GrassFireWater est attachée à ce Pokémon, c’est un Pokémon Grass, Fire et Water.",
+				'es-es': "Mientras este Pokémon tenga alguna carta de Energía Unidad GrassFireWater unida a él, es un Pokémon Grass, Fire y Water.",
+				'it-it': "Fintanto che ha delle carte Energia Unione GrassFireWater assegnate, questo Pokémon è di tipo Grass, Fire e Water.",
+				'pt-br': "Enquanto este Pokémon tiver Energia Unitária GrassFireWater ligada a ele, será um Pokémon Grass, Fire e Water.",
+				'de-de': "Solang an dieses Pokémon Aggregat-Energie GrassFireWater angelegt ist, ist es ein Grass-, Fire- und Water-Pokémon."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Smack",
-				fr: "Frappe Langue",
-				es: "Lengüetada",
-				it: "Slinguazzata",
-				pt: "Golpe de Língua",
-				de: "Zungenschlag"
+				'en-us': "Tongue Smack",
+				'fr-fr': "Frappe Langue",
+				'es-es': "Lengüetada",
+				'it-it': "Slinguazzata",
+				'pt-br': "Golpe de Língua",
+				'de-de': "Zungenschlag"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+		'en-us': "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
 	},
 
 	thirdParty: {

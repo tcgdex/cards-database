@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラム",
+		'ja-jp': "レシラム",
 	},
 
 	illustrator: "Iwamoto05",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎で 世界を 燃やしつくせる 伝説の ポケモン。真実の 世界を 築く 人を 助ける。",
+		'ja-jp': "炎で 世界を 燃やしつくせる 伝説の ポケモン。真実の 世界を 築く 人を 助ける。",
 	},
 
 	stage: "Basic",

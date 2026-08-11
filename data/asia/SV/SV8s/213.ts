@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palossand ex"
+		'id-id': "Palossand ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Neraka Pasir"
+			'id-id': "Neraka Pasir"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 160,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Baryte Jail"
+			'id-id': "Baryte Jail"
 		},
 
 		effect: {
-			id: "Letakkan Token Kerusakan pada semua Pokémon Cadangan lawan hingga sisa HP masing-masing Pokémon tersebut menjadi sejumlah 100."
+			'id-id': "Letakkan Token Kerusakan pada semua Pokémon Cadangan lawan hingga sisa HP masing-masing Pokémon tersebut menjadi sejumlah 100."
 		},
 
 		cost: ["Water", "Psychic", "Fighting"]

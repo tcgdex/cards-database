@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルギア",
+		'ja-jp': "ルギア",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Water", "Lightning"],
 			name: {
-				ja: "エレメンタルブラスト",
+				'ja-jp': "エレメンタルブラスト",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Lugiaに取り付けられた消防エネルギーカード、水エネルギーカード、Lightning Energyカードを捨てます。",
+				'ja-jp': "この攻撃を使用するために、Lugiaに取り付けられた消防エネルギーカード、水エネルギーカード、Lightning Energyカードを捨てます。",
 			},
 			damage: 90,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "猟犬-019/092",
+		'ja-jp': "猟犬-019/092",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "煙幕",
+				'ja-jp': "煙幕",
 			},
 			effect: {
-				ja: "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+				'ja-jp': "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "燃え尽きます",
+				'ja-jp': "燃え尽きます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合は、ハウズームに取り付けられたすべての消防型カードを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合は、ハウズームに取り付けられたすべての消防型カードを捨ててください。",
 			},
 			damage: 60,
 		},

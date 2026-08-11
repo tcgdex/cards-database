@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Copycat",
+		'en-us': "Copycat",
 	},
 
 	illustrator: "Kanako Eo",

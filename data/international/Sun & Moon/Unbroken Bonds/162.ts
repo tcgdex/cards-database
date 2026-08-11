@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		es: "Chatot",
-		it: "Chatot",
-		pt: "Chatot",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'es-es': "Chatot",
+		'it-it': "Chatot",
+		'pt-br': "Chatot",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mimic",
-				fr: "Copie",
-				es: "Mimético",
-				it: "Mimica",
-				pt: "Mímica",
-				de: "Mimikry"
+				'en-us': "Mimic",
+				'fr-fr': "Copie",
+				'es-es': "Mimético",
+				'it-it': "Mimica",
+				'pt-br': "Mímica",
+				'de-de': "Mimikry"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez une carte pour chaque carte dans la main de votre adversaire.",
-				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 1 carta por cada carta en la mano de tu rival.",
-				it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca una carta per ogni carta nella mano del tuo avversario.",
-				pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 1 carta para cada carta na mão do seu oponente.",
-				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 1 Karte für jede Karte auf der Hand deines Gegners."
+				'en-us': "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez une carte pour chaque carte dans la main de votre adversaire.",
+				'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 1 carta por cada carta en la mano de tu rival.",
+				'it-it': "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca una carta per ogni carta nella mano del tuo avversario.",
+				'pt-br': "Embaralhe a sua mão no seu baralho. Em seguida, compre 1 carta para cada carta na mão do seu oponente.",
+				'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 1 Karte für jede Karte auf der Hand deines Gegners."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tone-Deaf",
-				fr: "Dur d’Oreille",
-				es: "Mal Oído",
-				it: "Sordotono",
-				pt: "Desafinar",
-				de: "Unmusikalisch"
+				'en-us': "Tone-Deaf",
+				'fr-fr': "Dur d’Oreille",
+				'es-es': "Mal Oído",
+				'it-it': "Sordotono",
+				'pt-br': "Desafinar",
+				'de-de': "Unmusikalisch"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+		'en-us': "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
 	},
 
 	thirdParty: {

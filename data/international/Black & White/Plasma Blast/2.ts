@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		es: "Masquerain",
-		it: "Masquerain",
-		pt: "Masquerain",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'es-es': "Masquerain",
+		'it-it': "Masquerain",
+		'pt-br': "Masquerain",
+		'de-de': "Maskeregen"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo",
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Tool Reversal",
-				fr: "Aspire-Outil",
-				es: "Invertir Herramientas",
-				it: "Invertioggetto",
-				pt: "Inversão de Ferramenta",
-				de: "Ausrüstungsumkehr"
+				'en-us': "Tool Reversal",
+				'fr-fr': "Aspire-Outil",
+				'es-es': "Invertir Herramientas",
+				'it-it': "Invertioggetto",
+				'pt-br': "Inversão de Ferramenta",
+				'de-de': "Ausrüstungsumkehr"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez placer une carte Outil Pokémon attachée à 1 de vos Pokémon dans votre main.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes poner una carta de Herramienta Pokémon unida a 1 de tus Pokémon en tu mano.",
-				it: "Durante il tuo turno, prima di attaccare, puoi aggiungere a piacimento alle carte che hai in mano una carta Oggetto Pokémon assegnata a uno dei tuoi Pokémon.",
-				pt: "Quantas vezes desejar durante o seu turno (antes de atacar), você pode colocar um card de Ferramenta Pokémon ligada a 1 dos seus Pokémon em sua mão.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon-Ausrüstung, die an 1 deiner Pokémon angelegt ist, auf deine Hand nehmen."
+				'en-us': "As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez placer une carte Outil Pokémon attachée à 1 de vos Pokémon dans votre main.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes poner una carta de Herramienta Pokémon unida a 1 de tus Pokémon en tu mano.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi aggiungere a piacimento alle carte che hai in mano una carta Oggetto Pokémon assegnata a uno dei tuoi Pokémon.",
+				'pt-br': "Quantas vezes desejar durante o seu turno (antes de atacar), você pode colocar um card de Ferramenta Pokémon ligada a 1 dos seus Pokémon em sua mão.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon-Ausrüstung, die an 1 deiner Pokémon angelegt ist, auf deine Hand nehmen."
 			},
 		},
 	],
@@ -63,8 +63,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
 			},
 
 			damage: 60,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+		'en-us': "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Duraludon VMAX",
-		fr: "Duralugon VMAX",
-		es: "Duraludon VMAX",
-		it: "Duraludon VMAX",
-		pt: "Duraludon VMAX",
-		de: "Duraludon VMAX"
+		'en-us': "Duraludon VMAX",
+		'fr-fr': "Duralugon VMAX",
+		'es-es': "Duraludon VMAX",
+		'it-it': "Duraludon VMAX",
+		'pt-br': "Duraludon VMAX",
+		'de-de': "Duraludon VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,25 +23,25 @@ const card: Card = {
 	dexId: [884],
 
 	evolveFrom: {
-		en: "Duraludon V",
-		fr: "Duralugon-V",
-		es: "Duraludon V",
-		it: "Duraludon-V",
-		pt: "Duraludon V",
-		de: "Duraludon-V"
+		'en-us': "Duraludon V",
+		'fr-fr': "Duralugon-V",
+		'es-es': "Duraludon V",
+		'it-it': "Duraludon-V",
+		'pt-br': "Duraludon V",
+		'de-de': "Duraludon-V"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Skyscraper",
-			fr: "Gratte-Ciel"
+			'en-us': "Skyscraper",
+			'fr-fr': "Gratte-Ciel"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée."
+			'en-us': "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
+			'fr-fr': "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée."
 		}
 	}],
 
@@ -49,13 +49,13 @@ const card: Card = {
 		cost: ["Fighting", "Metal", "Metal"],
 
 		name: {
-			en: "G-Max Pulverization",
-			fr: "Pulvérisation G-Max"
+			'en-us': "G-Max Pulverization",
+			'fr-fr': "Pulvérisation G-Max"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 		},
 
 		damage: 220

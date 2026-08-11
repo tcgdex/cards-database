@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Galvantula",
-		fr: "Mygavolt",
-		es: "Galvantula",
-		it: "Galvantula",
-		pt: "Galvantula",
-		de: "Voltula"
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Joltik",
-		fr: "Statitik",
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electroweb",
-				fr: "Toile Élek",
+				'en-us': "Electroweb",
+				'fr-fr': "Toile Élek",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Life",
-				fr: "Vampirisme",
+				'en-us': "Leech Life",
+				'fr-fr': "Vampirisme",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+		'en-us': "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
 	},
 
 	thirdParty: {

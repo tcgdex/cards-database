@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Typhlosion",
-		fr: "Typhlosion de Luth",
-		de: "Klarins Tornupto",
-		it: "Typhlosion di Armonio",
-		es: "Typhlosion de Eco",
-		pt: "Typhlosion do Ethan",
+		'en-us': "Ethan's Typhlosion",
+		'fr-fr': "Typhlosion de Luth",
+		'de-de': "Klarins Tornupto",
+		'it-it': "Typhlosion di Armonio",
+		'es-es': "Typhlosion de Eco",
+		'pt-br': "Typhlosion do Ethan",
 		'es-mx': "Typhlosion de Ethan"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Ethan's Quilava",
-		fr: "Feurisson de Luth",
-		de: "Klarins Igelavar",
-		it: "Quilava di Armonio",
-		es: "Quilava de Eco",
-		pt: "Quilava do Ethan",
+		'en-us': "Ethan's Quilava",
+		'fr-fr': "Feurisson de Luth",
+		'de-de': "Klarins Igelavar",
+		'it-it': "Quilava di Armonio",
+		'es-es': "Quilava de Eco",
+		'pt-br': "Quilava do Ethan",
 		'es-mx': "Quilava de Ethan"
 	},
 	stage: "Stage2",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Buddy Blast",
-			fr: "Explosion Partenaire",
-			de: "Kumpel-Explosion",
-			it: "Esplosione Amica",
-			es: "Amistad Explosiva",
-			pt: "Rajada Amiga",
+			'en-us': "Buddy Blast",
+			'fr-fr': "Explosion Partenaire",
+			'de-de': "Kumpel-Explosion",
+			'it-it': "Esplosione Amica",
+			'es-es': "Amistad Explosiva",
+			'pt-br': "Rajada Amiga",
 			'es-mx': "Explosión Amistosa"
 		},
 
 		effect: {
-			en: "This attack does 60 more damage for each Ethan's Adventure card in your discard pile.",
-			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Aventure de Luth dans votre pile de défausse.",
-			de: "Diese Attacke fügt für jede Klarins Abenteuer-Karte in deinem Ablagestapel 60 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 60 danni in più per ogni carta Avventura di Armonio nella tua pila degli scarti.",
-			es: "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Eco en tu pila de descartes.",
-			pt: "Este ataque causa 60 pontos de dano a mais para cada carta Aventura do Ethan na sua pilha de descarte.",
+			'en-us': "This attack does 60 more damage for each Ethan's Adventure card in your discard pile.",
+			'fr-fr': "Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Aventure de Luth dans votre pile de défausse.",
+			'de-de': "Diese Attacke fügt für jede Klarins Abenteuer-Karte in deinem Ablagestapel 60 Schadenspunkte mehr zu.",
+			'it-it': "Questo attacco infligge 60 danni in più per ogni carta Avventura di Armonio nella tua pila degli scarti.",
+			'es-es': "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Eco en tu pila de descartes.",
+			'pt-br': "Este ataque causa 60 pontos de dano a mais para cada carta Aventura do Ethan na sua pilha de descarte.",
 			'es-mx': "Este ataque hace 60 puntos de daño más por cada carta de Aventura de Ethan en tu pila de descartes."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Steam Artillery",
-			fr: "Artillerie Vapeur",
-			de: "Dampfgeschütz",
-			it: "Artiglieria Vapore",
-			es: "Artillería de Vapor",
-			pt: "Artilharia de Vapor",
+			'en-us': "Steam Artillery",
+			'fr-fr': "Artillerie Vapeur",
+			'de-de': "Dampfgeschütz",
+			'it-it': "Artiglieria Vapore",
+			'es-es': "Artillería de Vapor",
+			'pt-br': "Artilharia de Vapor",
 			'es-mx': "Artillería de Vapor"
 		},
 

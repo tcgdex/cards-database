@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [699],
 
 	name: {
-		en: "Aurorus"
+		'en-us': "Aurorus"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Amaura"
+		'en-us': "Amaura"
 	},
 
 	description: {
-		en: "When gripped by rage, Aurorus will emanate\nfreezing air, covering everything around it in ice."
+		'en-us': "When gripped by rage, Aurorus will emanate\nfreezing air, covering everything around it in ice."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Hail Prison"
+			'en-us': "Hail Prison"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard Water2 {W} Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed."
+			'en-us': "Discard Water2 {W} Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed."
 		}
 	}],
 

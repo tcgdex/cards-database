@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Barb",
-				fr: "Barbelés empoisonnés",
-				de: "Giftzacken"
+				'en-us': "Poison Barb",
+				'fr-fr': "Barbelés empoisonnés",
+				'de-de': "Giftzacken"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
-		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
+		'en-us': "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+		'fr-fr': "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
 	},
 
 

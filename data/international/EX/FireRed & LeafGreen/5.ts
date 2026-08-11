@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeufnoeuf"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeufnoeuf"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Exchange",
-				fr: "Échange psychique",
-				de: "Psychic Exchange"
+				'en-us': "Psychic Exchange",
+				'fr-fr': "Échange psychique",
+				'de-de': "Psychic Exchange"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Draw up to 8 cards.",
-				fr: "Mélangez votre main avec votre deck. Piochez ensuite jusqu'à 8 cartes.",
-				de: "Shuffle your hand into your deck. Draw up to 8 cards."
+				'en-us': "Shuffle your hand into your deck. Draw up to 8 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Piochez ensuite jusqu'à 8 cartes.",
+				'de-de': "Shuffle your hand into your deck. Draw up to 8 cards."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Eggsplosion",
-				fr: "Grosse éclate",
-				de: "Big Eggsplosion"
+				'en-us': "Big Eggsplosion",
+				'fr-fr': "Grosse éclate",
+				'de-de': "Big Eggsplosion"
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads",
-				fr: "Lancez une pièce pour chaque Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads."
+				'en-us': "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads",
+				'fr-fr': "Lancez une pièce pour chaque Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads."
 			},
 			damage: "40x",
 

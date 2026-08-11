@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
-		fr: "Parasect",
-		de: "Parasek"
+		'en-us': "Parasect",
+		'fr-fr': "Parasect",
+		'de-de': "Parasek"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
-		fr: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wild Spores",
-				fr: "Spores sauvages",
-				de: "Wilde Sporen"
+				'en-us': "Wild Spores",
+				'fr-fr': "Spores sauvages",
+				'de-de': "Wilde Sporen"
 			},
 			effect: {
-				en: "If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Si Parasect a évolué de Paras lors de ce tour, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Wenn Parasek sich in diesem Zug aus Paras entwickelt hat, fügt dieser Angriff 40 Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt und ist vergiftet."
+				'en-us': "If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Si Parasect a évolué de Paras lors de ce tour, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "Wenn Parasek sich in diesem Zug aus Paras entwickelt hat, fügt dieser Angriff 40 Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extend Fungus",
-				fr: "Champignon grandissant",
-				de: "Pilzausbreitung"
+				'en-us': "Extend Fungus",
+				'fr-fr': "Champignon grandissant",
+				'de-de': "Pilzausbreitung"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Parasect.",
-				fr: "Retirez à Parasect 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Parasek."
+				'en-us': "Remove 2 damage counters from Parasect.",
+				'fr-fr': "Retirez à Parasect 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Parasek."
 			},
 			damage: 60,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A mushroom grown larger than the host's body controls PARASECT. It scatters poisonous spores.",
-		fr: "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
+		'en-us': "A mushroom grown larger than the host's body controls PARASECT. It scatters poisonous spores.",
+		'fr-fr': "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
 	},
 
 	thirdParty: {

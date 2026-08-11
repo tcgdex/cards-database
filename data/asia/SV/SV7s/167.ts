@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เรเดียน"
+		'th-th': "เรเดียน"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,11 +16,11 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "สปีดสตาร์"
+			'th-th': "สปีดสตาร์"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำจุดอ่อน ความต้านทาน และเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด"
+			'th-th': "แดเมจของท่าต่อสู้นี้ จะไม่นำจุดอ่อน ความต้านทาน และเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด"
 		},
 
 		damage: 70,

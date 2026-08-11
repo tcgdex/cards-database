@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Greninja",
-		fr: "Amphinobi",
-		es: "Greninja",
-		it: "Greninja",
-		pt: "Greninja",
-		de: "Quajutsu"
+		'en-us': "Greninja",
+		'fr-fr': "Amphinobi",
+		'es-es': "Greninja",
+		'it-it': "Greninja",
+		'pt-br': "Greninja",
+		'de-de': "Quajutsu"
 	},
 
 	illustrator: "MPC Film",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Frogadier",
-		fr: "Croâporal",
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Evasion Jutsu",
-				fr: "Jutsu Évasion",
-				es: "Evasión Jutsu",
-				it: "Jutsu Evasiva",
-				pt: "Fugiu-jitsu",
-				de: "Ausweichmanöver"
+				'en-us': "Evasion Jutsu",
+				'fr-fr': "Jutsu Évasion",
+				'es-es': "Evasión Jutsu",
+				'it-it': "Jutsu Evasiva",
+				'pt-br': "Fugiu-jitsu",
+				'de-de': "Ausweichmanöver"
 			},
 			effect: {
-				en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, évitez ces dégâts.",
-				es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, evita ese daño.",
-				it: "Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.",
-				pt: "Se qualquer dano for causado a este Pokémon por ataques, jogue 1 moeda. Se sair cara, previna esse dano.",
-				de: "Wirf 1 Münze, wenn diesem Pokémon durch Attacken Schaden zugefügt wird. Verhindere diesen Schaden bei Kopf."
+				'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+				'fr-fr': "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, évitez ces dégâts.",
+				'es-es': "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, evita ese daño.",
+				'it-it': "Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.",
+				'pt-br': "Se qualquer dano for causado a este Pokémon por ataques, jogue 1 moeda. Se sair cara, previna esse dano.",
+				'de-de': "Wirf 1 Münze, wenn diesem Pokémon durch Attacken Schaden zugefügt wird. Verhindere diesen Schaden bei Kopf."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Furious Shurikens",
-				fr: "Shuriken Furieux",
-				es: "Shuriken Furiosos",
-				it: "Lamefuriose",
-				pt: "Estrelas Ninja Furiosas",
-				de: "Wütende Shuriken"
+				'en-us': "Furious Shurikens",
+				'fr-fr': "Shuriken Furieux",
+				'es-es': "Shuriken Furiosos",
+				'it-it': "Lamefuriose",
+				'pt-br': "Estrelas Ninja Furiosas",
+				'de-de': "Wütende Shuriken"
 			},
 			effect: {
-				en: "This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 50 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 50 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 50 danni a due dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 50 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 2 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 50 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 50 danni a due dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 50 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt 2 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+		'en-us': "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Old Amber"
+		'en-us': "Old Amber"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Unearth",
-				de: "Aufstöbern"
+				'en-us': "Unearth",
+				'de-de': "Aufstöbern"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for Helix Fossil, Dome Fossil, or Old Amber, show it your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Aerodactyl is affected by a Special Condition.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Helixfossil-, Domfossil- oder Altbernstein-Karte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Aerodactyl von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may search your deck for Helix Fossil, Dome Fossil, or Old Amber, show it your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Aerodactyl is affected by a Special Condition.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Helixfossil-, Domfossil- oder Altbernstein-Karte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Aerodactyl von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades."
+		'en-us': "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades."
 	},
 
 	variants: [

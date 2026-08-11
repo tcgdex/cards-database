@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マスカーニャ",
+		'ja-jp': "マスカーニャ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "浮いているように 見える 花は マント裏の 毛の 反射で 茎を カモフラージュしているのだ。",
+		'ja-jp': "浮いているように 見える 花は マント裏の 毛の 反射で 茎を カモフラージュしているのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ショータイム" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンをバトルポケモンと入れ替える。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンをバトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャローテ",
+		'ja-jp': "ニャローテ",
 	},
 
 	retreat: 1,

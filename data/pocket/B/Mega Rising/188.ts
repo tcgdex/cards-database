@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zigzagoon"
+		'en-us': "Zigzagoon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "A Pokémon with abundant curiosity. It shows an\ninterest in everything, so it always zigzags."
+		'en-us': "A Pokémon with abundant curiosity. It shows an\ninterest in everything, so it always zigzags."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 20,

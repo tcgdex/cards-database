@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Chimecho",
+		'en-us': "Chimecho",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Resonate",
+				'en-us': "Resonate",
 			},
 			effect: {
-				en: "Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch.",
+				'en-us': "Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch.",
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Sound",
+				'en-us': "Healing Sound",
 			},
 			effect: {
-				en: "Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep.",
+				'en-us': "Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep.",
 			},
 
 		},

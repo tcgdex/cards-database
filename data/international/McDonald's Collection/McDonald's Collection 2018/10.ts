@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chansey"
+		'en-us': "Chansey"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless", "Colorless"
 			],
 			name: {
-				en: "Bind Wound",
+				'en-us': "Bind Wound",
 			},
 			effect: {
-				en: "Flip a coin. If heads, heal 30 damage from 1 of your Pokémon."
+				'en-us': "Flip a coin. If heads, heal 30 damage from 1 of your Pokémon."
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless", "Colorless", "Colorless", "Colorless"
 			],
 			name: {
-				en: "Hammer In",
+				'en-us': "Hammer In",
 			},
 			damage: 80,
 		}

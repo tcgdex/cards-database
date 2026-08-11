@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クワガノン",
+		'ja-jp': "クワガノン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "腹部に 発電 器官を 持つ。 大アゴに エネルギーを 集め 凄まじい 電撃を 放つ。",
+		'ja-jp': "腹部に 発電 器官を 持つ。 大アゴに エネルギーを 集め 凄まじい 電撃を 放つ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ステルスボディ" },
 			effect: {
-				ja: "場にスタジアムが出ているなら、このポケモンの弱点は、すべてなくなる。",
+				'ja-jp': "場にスタジアムが出ているなら、このポケモンの弱点は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[雷]エネルギーを、すべてトラッシュする。その場合、100ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[雷]エネルギーを、すべてトラッシュする。その場合、100ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	retreat: 2,

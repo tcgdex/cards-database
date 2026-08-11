@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Jynx"
+		'id-id': "Jynx"
 	},
 
 	illustrator: "Gapao",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pada suatu kawasan di Galar, Jynx dikenal sebagai Ratu Es serta disembah dan ditakuti."
+		'id-id': "Pada suatu kawasan di Galar, Jynx dikenal sebagai Ratu Es serta disembah dan ditakuti."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Ciuman Mengundang"
+			'id-id': "Ciuman Mengundang"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck. Setelah itu, pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon yang baru dimasukkan."
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck. Setelah itu, pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon yang baru dimasukkan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Snow Ice"
+			'id-id': "Snow Ice"
 		},
 
 		damage: 30,

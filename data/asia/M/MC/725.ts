@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マコモ",
+		'ja-jp': "マコモ",
 	},
 
 	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のポケモン全員のHPを、それぞれ「40」回復する。",
+		'ja-jp': "自分のポケモン全員のHPを、それぞれ「40」回復する。",
 	},
 
 	variants: [

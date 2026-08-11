@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Brute Bonnet",
-		fr: "Fongus-Furie",
-		es: "Furioseta",
-		it: "Fungofurioso",
-		pt: "Capuz Bruto",
-		de: "Wutpilz"
+		'en-us': "Brute Bonnet",
+		'fr-fr': "Fongus-Furie",
+		'es-es': "Furioseta",
+		'it-it': "Fungofurioso",
+		'pt-br': "Capuz Bruto",
+		'de-de': "Wutpilz"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Toxic Powder",
-			fr: "Poudre Toxique",
-			es: "Polvareda Tóxica",
-			it: "Pulvitossina",
-			pt: "Pó Tóxico",
-			de: "Giftiger Puder"
+			'en-us': "Toxic Powder",
+			'fr-fr': "Poudre Toxique",
+			'es-es': "Polvareda Tóxica",
+			'it-it': "Pulvitossina",
+			'pt-br': "Pó Tóxico",
+			'de-de': "Giftiger Puder"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon has an Ancient Booster Energy Capsule attached, you may make both Active Pokémon Poisoned.",
-			fr: "Une fois pendant votre tour, si Capsule Énergie Booster Temps Passé est attachée à ce Pokémon, vous pouvez laisser les deux Pokémon Actifs Empoisonnés.",
-			es: "Una vez durante tu turno, si este Pokémon tiene un Tanque de Energía Potenciadora del Pasado unido, puedes dejar a ambos Pokémon Activos Envenenados.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon ha una Capsula energetica Tempo Passato assegnata, puoi lasciare entrambi i Pokémon attivi avvelenati.",
-			pt: "Uma vez durante o seu turno, se este Pokémon tiver uma Cápsula Energética de Melhoria Ancestral ligada a ele, você poderá deixar ambos os Pokémon Ativos Envenenados.",
-			de: "Einmal während deines Zuges, wenn an dieses Pokémon 1 Energiekapsel aus der Vergangenheit angelegt ist, kannst du beide Aktiven Pokémon vergiften."
+			'en-us': "Once during your turn, if this Pokémon has an Ancient Booster Energy Capsule attached, you may make both Active Pokémon Poisoned.",
+			'fr-fr': "Une fois pendant votre tour, si Capsule Énergie Booster Temps Passé est attachée à ce Pokémon, vous pouvez laisser les deux Pokémon Actifs Empoisonnés.",
+			'es-es': "Una vez durante tu turno, si este Pokémon tiene un Tanque de Energía Potenciadora del Pasado unido, puedes dejar a ambos Pokémon Activos Envenenados.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon ha una Capsula energetica Tempo Passato assegnata, puoi lasciare entrambi i Pokémon attivi avvelenati.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon tiver uma Cápsula Energética de Melhoria Ancestral ligada a ele, você poderá deixar ambos os Pokémon Ativos Envenenados.",
+			'de-de': "Einmal während deines Zuges, wenn an dieses Pokémon 1 Energiekapsel aus der Vergangenheit angelegt ist, kannst du beide Aktiven Pokémon vergiften."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Rampaging Hammer",
-			fr: "Marteau Furieux",
-			es: "Martillazo Furioso",
-			it: "Martello Infuriato",
-			pt: "Martelo Furioso",
-			de: "Tobender Hammer"
+			'en-us': "Rampaging Hammer",
+			'fr-fr': "Marteau Furieux",
+			'es-es': "Martillazo Furioso",
+			'it-it': "Martello Infuriato",
+			'pt-br': "Martelo Furioso",
+			'de-de': "Tobender Hammer"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+		'en-us': "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
 	},
 
 	variants: [

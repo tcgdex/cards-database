@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Kangourex",
-		en: "Kangaskhan",
-		es: "Kangaskhan",
-		it: "Kangaskhan",
-		pt: "Kangaskhan",
-		de: "Kangama"
+		'fr-fr': "Kangourex",
+		'en-us': "Kangaskhan",
+		'es-es': "Kangaskhan",
+		'it-it': "Kangaskhan",
+		'pt-br': "Kangaskhan",
+		'de-de': "Kangama"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Coup d'Boule",
-			en: "Headbutt",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'fr-fr': "Coup d'Boule",
+			'en-us': "Headbutt",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Pique-Pioche",
-			en: "Spike Draw",
-			es: "Robo Pico",
-			it: "Battipesca",
-			pt: "Comprada Espinhosa",
-			de: "Stachelzug"
+			'fr-fr': "Pique-Pioche",
+			'en-us': "Spike Draw",
+			'es-es': "Robo Pico",
+			'it-it': "Battipesca",
+			'pt-br': "Comprada Espinhosa",
+			'de-de': "Stachelzug"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			en: "Draw 2 cards.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'fr-fr': "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 60
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "There are records of a lost human child being raised by a childless Kangaskhan.",
+		'en-us': "There are records of a lost human child being raised by a childless Kangaskhan.",
 	},
 
 	variants: [

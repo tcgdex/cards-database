@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Aggron",
-		fr: "Galeking de Team Magma",
-		de: "Team Magmas Stolloss"
+		'en-us': "Team Magma's Aggron",
+		'fr-fr': "Galeking de Team Magma",
+		'de-de': "Team Magmas Stolloss"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Crush",
-				fr: "Écrase",
-				de: "Crush"
+				'en-us': "Crush",
+				'fr-fr': "Écrase",
+				'de-de': "Crush"
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie attachée à Galeking de Team Magma. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads."
+				'en-us': "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie attachée à Galeking de Team Magma. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Stream",
-				fr: "Courant de terre",
-				de: "Land Stream"
+				'en-us': "Land Stream",
+				'fr-fr': "Courant de terre",
+				'de-de': "Land Stream"
 			},
 			effect: {
-				en: "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded.",
-				fr: "Vous pouvez défausser autant de cartes Énergie de base attachées à Galeking de Team Magma que vous le voulez. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie de base défaussée.",
-				de: "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded."
+				'en-us': "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded.",
+				'fr-fr': "Vous pouvez défausser autant de cartes Énergie de base attachées à Galeking de Team Magma que vous le voulez. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie de base défaussée.",
+				'de-de': "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded."
 			},
 			damage: "50+",
 

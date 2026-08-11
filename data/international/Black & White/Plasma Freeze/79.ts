@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		fr: "Steelix",
-		es: "Steelix",
-		it: "Steelix",
-		pt: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix",
+		'es-es': "Steelix",
+		'it-it': "Steelix",
+		'pt-br': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix",
+		'en-us': "Onix",
+		'fr-fr': "Onix",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Defender",
-				fr: "Défense Métallique",
+				'en-us': "Metal Defender",
+				'fr-fr': "Défense Métallique",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				'en-us': "During your opponent's next turn, this Pokémon has no Weakness.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 50,
 
@@ -60,8 +60,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
 			},
 
 			damage: 100,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
+		'en-us': "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
 	},
 
 	thirdParty: {

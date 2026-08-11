@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メノクラゲ",
+		'ja-jp': "メノクラゲ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海辺を 漂い 獲物を 探す。 毒の 触手は ちぎれることも あるが 時間が 経てば 生えてくる。",
+		'ja-jp': "海辺を 漂い 獲物を 探す。 毒の 触手は ちぎれることも あるが 時間が 経てば 生えてくる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "この番、手札から「アンズ」を出して使っていたなら、50ダメージ追加。",
+				'ja-jp': "この番、手札から「アンズ」を出して使っていたなら、50ダメージ追加。",
 			},
 		},
 	],

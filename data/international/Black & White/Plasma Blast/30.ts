@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Kyurem-EX",
-		fr: "Kyurem EX",
-		es: "Kyurem-EX",
-		it: "Kyurem-EX",
-		pt: "Kyurem-EX",
-		de: "Kyurem-EX"
+		'en-us': "Kyurem-EX",
+		'fr-fr': "Kyurem EX",
+		'es-es': "Kyurem-EX",
+		'it-it': "Kyurem-EX",
+		'pt-br': "Kyurem-EX",
+		'de-de': "Kyurem-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
-				fr: "Colère",
+				'en-us': "Outrage",
+				'fr-fr': "Colère",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Frost",
-				fr: "Giga Givre",
+				'en-us': "Giga Frost",
+				'fr-fr': "Giga Givre",
 			},
 			effect: {
-				en: "Discard 2 Water Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies Water attachées à ce Pokémon.",
+				'en-us': "Discard 2 Water Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies Water attachées à ce Pokémon.",
 			},
 			damage: 150,
 

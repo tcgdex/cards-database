@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Eevee"
+		'id-id': "Eevee"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Eevee berpotensi untuk berevolusi ke berbagai macam wujud untuk segera dapat beradaptasi terhadap perubahan lingkungan."
+		'id-id': "Eevee berpotensi untuk berevolusi ke berbagai macam wujud untuk segera dapat beradaptasi terhadap perubahan lingkungan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Dukungan"
+			'id-id': "Dukungan"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
+			'id-id': "Pilih 1 lembar Energi dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Kick"
+			'id-id': "Kick"
 		},
 
 		damage: 20,

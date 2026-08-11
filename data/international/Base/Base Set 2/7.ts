@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
+		'en-us': "Gyarados",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	stage: "Stage1",
@@ -35,7 +35,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Rage",
+				'en-us': "Dragon Rage",
 			},
 
 			damage: 50,
@@ -49,10 +49,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubblebeam",
+				'en-us': "Bubblebeam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, Defending Pokémon is now Paralyzed.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+		'en-us': "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
 	},
 
 

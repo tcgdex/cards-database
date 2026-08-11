@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Yuka Morii",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				de: "Collect"
+				'en-us': "Collect",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				de: "Rising Lunge"
+				'en-us': "Rising Lunge",
+				'de-de': "Rising Lunge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

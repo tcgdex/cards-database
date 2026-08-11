@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャーマンダー",
+		'ja-jp': "チャーマンダー",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "ダメージ数のダメージ数は、チャーマンダーのダメージ数をカウンターします。",
+				'ja-jp': "ダメージ数のダメージ数は、チャーマンダーのダメージ数をカウンターします。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "炎の尾",
+				'ja-jp': "炎の尾",
 			},
 			damage: 20,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire's Power",
-				fr: "Pouvoir Incendiaire",
+				'en-us': "Fire's Power",
+				'fr-fr': "Pouvoir Incendiaire",
 			},
 			effect: {
-				en: "If this Pokémon has any Fire Energy attached to it, the Defending Pokémon is now Burned.",
-				fr: "Si de l'Énergie Fire est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "If this Pokémon has any Fire Energy attached to it, the Defending Pokémon is now Burned.",
+				'fr-fr': "Si de l'Énergie Fire est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 30,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
 			},
 
 			damage: 60,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		'en-us': "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
 	},
 
 	thirdParty: {

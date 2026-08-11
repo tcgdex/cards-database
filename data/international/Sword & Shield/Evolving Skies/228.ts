@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Cresselia",
-		fr: "Cresselia",
-		es: "Cresselia",
-		it: "Cresselia",
-		pt: "Cresselia",
-		de: "Cresselia"
+		'en-us': "Cresselia",
+		'fr-fr': "Cresselia",
+		'es-es': "Cresselia",
+		'it-it': "Cresselia",
+		'pt-br': "Cresselia",
+		'de-de': "Cresselia"
 	},
 
 	rarity: "Secret Rare",
@@ -26,25 +26,25 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Crescent Glow",
-			fr: "Lueur Lunule"
+			'en-us': "Crescent Glow",
+			'fr-fr': "Lueur Lunule"
 		},
 
 		effect: {
-			en: "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie , puis attachez-la à l'un de vos Pokémon. Si vous jouez en second et que c'est votre premier tour, cherchez jusqu'à 3 cartes Énergie  à la place, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck."
+			'en-us': "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie , puis attachez-la à l'un de vos Pokémon. Si vous jouez en second et que c'est votre premier tour, cherchez jusqu'à 3 cartes Énergie  à la place, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Photon Laser",
-			fr: "Laser à Photons"
+			'en-us': "Photon Laser",
+			'fr-fr': "Laser à Photons"
 		},
 
 		effect: {
-			en: "If you have at least 5 Energy in play, this attack does 90 more damage.",
-			fr: "Si vous avez au moins 5 Énergies en jeu, cette attaque inflige 90 dégâts supplémentaires."
+			'en-us': "If you have at least 5 Energy in play, this attack does 90 more damage.",
+			'fr-fr': "Si vous avez au moins 5 Énergies en jeu, cette attaque inflige 90 dégâts supplémentaires."
 		},
 
 		damage: "30+"
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
+		'en-us': "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
 	},
 
 	variants: [

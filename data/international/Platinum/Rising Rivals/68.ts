@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo Niv. 22",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo Niv. 22",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Offensive Gas",
-				fr: "Gaz offensif",
-				de: "Gasattacke"
+				'en-us': "Offensive Gas",
+				'fr-fr': "Gaz offensif",
+				'de-de': "Gasattacke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Gas Bomb",
-				fr: "Bombe à gaz",
-				de: "Gasbombe"
+				'en-us': "Gas Bomb",
+				'fr-fr': "Bombe à gaz",
+				'de-de': "Gasbombe"
 			},
 			effect: {
-				en: "Koffing does 30 damage to itself, and don't apply Weakness and Resistance to this damage.",
-				fr: "Smogo s'inflige 30 dégâts. N'appliquez pas la Faiblesse et la Résistance à ces dégâts.",
-				de: "Smogon fügt sich selbst 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+				'en-us': "Koffing does 30 damage to itself, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Smogo s'inflige 30 dégâts. N'appliquez pas la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Smogon fügt sich selbst 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 30,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
+		'en-us': "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
 	},
 
 	variants: [

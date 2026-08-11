@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Meloetta",
+		'en-us': "Meloetta",
 	},
 
 	illustrator: "Mizue",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Dance",
+				'en-us': "Magical Dance",
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Benched Pokémon.",
+				'en-us': "Heal 30 damage from each of your Benched Pokémon.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shooting Star Pirouette",
+				'en-us': "Shooting Star Pirouette",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
 			},
 			damage: 40,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+		'en-us': "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
 	},
 
 	thirdParty: {

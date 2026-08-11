@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Snorlax"
+		'id-id': "Snorlax"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Cairan pencerna lambungnya dapat mencerna racun apa pun. Memakan sesuatu yang terjatuh di tanah pun bukanlah masalah bagi Pokémon ini."
+		'id-id': "Cairan pencerna lambungnya dapat mencerna racun apa pun. Memakan sesuatu yang terjatuh di tanah pun bukanlah masalah bagi Pokémon ini."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengisi Perut"
+			'id-id': "Mengisi Perut"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon ini. Setelah itu, pulihkan HP Pokémon ini sejumlah 60."
+			'id-id': "Pilih 1 lembar Energi dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon ini. Setelah itu, pulihkan HP Pokémon ini sejumlah 60."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Heavy Impact"
+			'id-id': "Heavy Impact"
 		},
 
 		damage: 160,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โอทาจิ",
-		id: "Sentret"
+		'th-th': "โอทาจิ",
+		'id-id': "Sentret"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "โปเกมอนที่มีความระแวดระวังสูง หางที่เคลื่อนไหวอย่างอ่อนช้อยนั้น เต็มไปด้วยกล้ามเนื้อ เมื่อสัมผัสจะรู้สึกแข็ง",
-		id: "Pokémon yang memiliki kewaspadaan tinggi. Ekornya yang bergerak luwes itu berotot dan keras jika disentuh."
+		'th-th': "โปเกมอนที่มีความระแวดระวังสูง หางที่เคลื่อนไหวอย่างอ่อนช้อยนั้น เต็มไปด้วยกล้ามเนื้อ เมื่อสัมผัสจะรู้สึกแข็ง",
+		'id-id': "Pokémon yang memiliki kewaspadaan tinggi. Ekornya yang bergerak luwes itu berotot dan keras jika disentuh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ฝ่ามือตบ",
-			id: "Tampar"
+			'th-th': "ฝ่ามือตบ",
+			'id-id': "Tampar"
 		},
 
 		damage: 20,

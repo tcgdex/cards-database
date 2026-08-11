@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latias",
-		fr: "Latias",
-		es: "Latias",
-		it: "Latias",
-		pt: "Latias",
-		de: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias",
+		'es-es': "Latias",
+		'it-it': "Latias",
+		'pt-br': "Latias",
+		'de-de': "Latias"
 	},
 
 	rarity: "Uncommon",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Allure",
-			fr: "Allure",
-			es: "Atractivo",
-			it: "Affascinante",
-			pt: "Fascinar",
-			de: "Verlockung"
+			'en-us': "Allure",
+			'fr-fr': "Allure",
+			'es-es': "Atractivo",
+			'it-it': "Affascinante",
+			'pt-br': "Fascinar",
+			'de-de': "Verlockung"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Lagoon Flight",
-			fr: "Survol du Lagon",
-			es: "Vuelo Laguna",
-			it: "Volo Lagunare",
-			pt: "Sobrevoar a Laguna",
-			de: "Lagunenflug"
+			'en-us': "Lagoon Flight",
+			'fr-fr': "Survol du Lagon",
+			'es-es': "Vuelo Laguna",
+			'it-it': "Volo Lagunare",
+			'pt-br': "Sobrevoar a Laguna",
+			'de-de': "Lagunenflug"
 		},
 
 		damage: 60
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+		'en-us': "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
 	},
 
 	variants: [

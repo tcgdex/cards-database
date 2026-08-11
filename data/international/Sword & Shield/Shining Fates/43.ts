@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mimigal",
-		en: "Spinarak",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'fr-fr': "Mimigal",
+		'en-us': "Spinarak",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "sowsow",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Suspension",
-			en: "Hang Down",
-			es: "Prender",
-			it: "Tirar Giù",
-			pt: "Dependurar",
-			de: "Herunterhängen"
+			'fr-fr': "Suspension",
+			'en-us': "Hang Down",
+			'es-es': "Prender",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar",
+			'de-de': "Herunterhängen"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Dard",
-			en: "Sting",
-			es: "Aguijonazo",
-			it: "Puntura",
-			pt: "Ferroada",
-			de: "Einstich"
+			'fr-fr': "Dard",
+			'en-us': "Sting",
+			'es-es': "Aguijonazo",
+			'it-it': "Puntura",
+			'pt-br': "Ferroada",
+			'de-de': "Einstich"
 		},
 
 		damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+		'en-us': "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
 	},
 
 	variants: [

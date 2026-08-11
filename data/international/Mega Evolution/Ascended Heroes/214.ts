@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Urbain",
-		fr: "Boro",
-		es: "Urbi",
+		'en-us': "Urbain",
+		'fr-fr': "Boro",
+		'es-es': "Urbi",
 		'es-mx': "Vinci",
-		de: "Alton",
-		it: "Ryon",
-		pt: "Urbano"
+		'de-de': "Alton",
+		'it-it': "Ryon",
+		'pt-br': "Urbano"
 	},
 
 	illustrator: "Teeziro",
@@ -19,13 +19,13 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		es: "Roba 3 cartas.",
+		'en-us': "Draw 3 cards.",
+		'fr-fr': "Piochez 3 cartes.",
+		'es-es': "Roba 3 cartas.",
 		'es-mx': "Roba 3 cartas.",
-		de: "Ziehe 3 Karten.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas."
+		'de-de': "Ziehe 3 Karten.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cartas."
 	},
 
 	trainerType: "Supporter",

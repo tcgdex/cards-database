@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのゴルバット",
+		'ja-jp': "タケシのゴルバット",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダイビング",
+				'ja-jp': "ダイビング",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイラルダイビング",
+				'ja-jp': "スパイラルダイビング",
 			},
 			effect: {
-				ja: "対戦相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "対戦相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Stand Sentry",
-			fr: "Veilleur au Guet",
-			es: "Posición Centinela",
-			it: "Sentinella in Posizione",
-			pt: "Ficar de Sentinela",
-			de: "Wache stehen"
+			'en-us': "Stand Sentry",
+			'fr-fr': "Veilleur au Guet",
+			'es-es': "Posición Centinela",
+			'it-it': "Sentinella in Posizione",
+			'pt-br': "Ficar de Sentinela",
+			'de-de': "Wache stehen"
 		},
 
 		effect: {
-			en: "Basic Energy attached to your Benched Pokémon can't be discarded by an effect of your opponent's Item or Supporter cards.",
-			fr: "Les Énergies de base attachées à vos Pokémon de Banc ne peuvent pas être défaussées par les effets des cartes Objet ou Supporter de votre adversaire.",
-			es: "Las Energías Básicas unidas a tus Pokémon en Banca no pueden descartarse por ningún efecto de las cartas de Objeto o de Partidario de tu rival.",
-			it: "Nessuna Energia base assegnata ai tuoi Pokémon in panchina può essere scartata per effetto delle carte Strumento o carte Aiuto del tuo avversario.",
-			pt: "Energias básicas ligadas aos seus Pokémon no Banco não podem ser descartadas pelos efeitos de cartas de Item ou Apoiador do seu oponente.",
-			de: "An die Pokémon auf deiner Bank angelegte Basis-Energien können nicht durch einen Effekt von Item- oder Unterstützerkarten deines Gegners auf deinen Ablagestapel gelegt werden."
+			'en-us': "Basic Energy attached to your Benched Pokémon can't be discarded by an effect of your opponent's Item or Supporter cards.",
+			'fr-fr': "Les Énergies de base attachées à vos Pokémon de Banc ne peuvent pas être défaussées par les effets des cartes Objet ou Supporter de votre adversaire.",
+			'es-es': "Las Energías Básicas unidas a tus Pokémon en Banca no pueden descartarse por ningún efecto de las cartas de Objeto o de Partidario de tu rival.",
+			'it-it': "Nessuna Energia base assegnata ai tuoi Pokémon in panchina può essere scartata per effetto delle carte Strumento o carte Aiuto del tuo avversario.",
+			'pt-br': "Energias básicas ligadas aos seus Pokémon no Banco não podem ser descartadas pelos efeitos de cartas de Item ou Apoiador do seu oponente.",
+			'de-de': "An die Pokémon auf deiner Bank angelegte Basis-Energien können nicht durch einen Effekt von Item- oder Unterstützerkarten deines Gegners auf deinen Ablagestapel gelegt werden."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 20
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+		'en-us': "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
 	variants: [

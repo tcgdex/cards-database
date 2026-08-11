@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガンV",
+		'ja-jp': "ルガルガンV",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

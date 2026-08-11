@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [815],
 
 	name: {
-		en: "Cinderace"
+		'en-us': "Cinderace"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Raboot"
+		'en-us': "Raboot"
 	},
 
 	description: {
-		en: "Using a ball that it made out of flames,\nCinderace blinds its opponents and\nkeeps them at bay."
+		'en-us': "Using a ball that it made out of flames,\nCinderace blinds its opponents and\nkeeps them at bay."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Fireball Shot"
+			'en-us': "Fireball Shot"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			'en-us': "During your next turn, this Pokémon can't attack."
 		}
 	}],
 

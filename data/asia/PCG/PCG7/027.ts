@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "OMASTAR（デルタ種）",
+		'ja-jp': "OMASTAR（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "バインド",
+				'ja-jp': "バインド",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "復geのスパイク",
+				'ja-jp': "復geのスパイク",
 			},
 			effect: {
-				ja: "30のダメージに加えて、オマンテ、オマスター、カブト、カブトップス、カブトップスごとにさらに10ダメージを与えます。この方法で60以上のダメージを追加することはできません。",
+				'ja-jp': "30のダメージに加えて、オマンテ、オマスター、カブト、カブトップス、カブトップスごとにさらに10ダメージを与えます。この方法で60以上のダメージを追加することはできません。",
 			},
 		},
 	],

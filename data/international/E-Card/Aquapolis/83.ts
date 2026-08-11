@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lightweight",
-				fr: "Poids-plume",
-				de: "Leichtgewicht"
+				'en-us': "Lightweight",
+				'fr-fr': "Poids-plume",
+				'de-de': "Leichtgewicht"
 			},
 			effect: {
-				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
-				fr: "Vous payez  de moins pour faire battre Granivol en retraite pour chaque Énergie  qui lui est attachée.",
-				de: "Für jede an Hoppspross angelegte -Energie zahlst du  weniger, wenn du es zurückziehst."
+				'en-us': "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
+				'fr-fr': "Vous payez  de moins pour faire battre Granivol en retraite pour chaque Énergie  qui lui est attachée.",
+				'de-de': "Für jede an Hoppspross angelegte -Energie zahlst du  weniger, wenn du es zurückziehst."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Careless Tackle",
-				fr: "Plaquage imprudent",
-				de: "Unvorsichtiger Tackle"
+				'en-us': "Careless Tackle",
+				'fr-fr': "Plaquage imprudent",
+				'de-de': "Unvorsichtiger Tackle"
 			},
 			effect: {
-				en: "Hoppip does 10 damage to itself.",
-				fr: "Granivol s'inflige 30 dégâts.",
-				de: "Hoppspross fügt sich selber 10 Schadenspunkte zu."
+				'en-us': "Hoppip does 10 damage to itself.",
+				'fr-fr': "Granivol s'inflige 30 dégâts.",
+				'de-de': "Hoppspross fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

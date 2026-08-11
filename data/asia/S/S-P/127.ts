@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プレイヤーズセレモニー",
+		'ja-jp': "プレイヤーズセレモニー",
 	},
 
 	illustrator: "Kagemaru Himeno",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札を2枚引いてよい。その場合、自分の番は終わる。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札を2枚引いてよい。その場合、自分の番は終わる。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル サニーゴ",
+		'ja-jp': "ガラル サニーゴ",
 		'zh-tw': "伽勒爾 太陽珊瑚",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "急な 環境の 変化で 死んだ 太古の サニーゴ。 枝で 人の 生気を 吸う。",
+		'ja-jp': "急な 環境の 変化で 死んだ 太古の サニーゴ。 枝で 人の 生気を 吸う。",
 		'zh-tw': "牠是因急遽環境變化而死去的遠古太陽珊瑚。會用珊瑚枝吸取人的精氣。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Evil Eye",
-				de: "Böser Blick"
+				'en-us': "Evil Eye",
+				'de-de': "Böser Blick"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Put a damage counter on that Pokémon.",
-				de: "Wähle 1 der Pokémon deines Gegners. Lege eine Schadensmarke auf dieses Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. Put a damage counter on that Pokémon.",
+				'de-de': "Wähle 1 der Pokémon deines Gegners. Lege eine Schadensmarke auf dieses Pokémon."
 			}
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blindside",
-				de: "Wunder Punkt"
+				'en-us': "Blindside",
+				'de-de': "Wunder Punkt"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that has a damage counter on it. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
-				de: "Wähle 1 der Pokémon deines Gegners, auf dem Schadensmarken liegen. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an."
+				'en-us': "Choose 1 of your opponent's Pokémon that has a damage counter on it. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
+				'de-de': "Wähle 1 der Pokémon deines Gegners, auf dem Schadensmarken liegen. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an."
 			},
 
 		},

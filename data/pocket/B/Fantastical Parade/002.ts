@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [166],
 
 	name: {
-		en: "Ledian"
+		'en-us': "Ledian"
 	},
 
 	illustrator: "mashu",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Ledyba"
+		'en-us': "Ledyba"
 	},
 
 	description: {
-		en: "It flies through the night sky, sprinkling sparkly\ndust. According to some, if that dust sticks to\nyou, good things will happen to you."
+		'en-us': "It flies through the night sky, sprinkling sparkly\ndust. According to some, if that dust sticks to\nyou, good things will happen to you."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Swift"
+			'en-us': "Swift"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "This attack's damage isn't affected by Weakness or by any effects on your opponent's Active Pokémon."
+			'en-us': "This attack's damage isn't affected by Weakness or by any effects on your opponent's Active Pokémon."
 		}
 	}],
 

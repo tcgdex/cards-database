@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピーニャ"
+		'ja-jp': "ピーニャ"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のポケモン全員についている特殊エネルギーをそれぞれ1個ずつ選び、トラッシュする。"
+		'ja-jp': "相手のポケモン全員についている特殊エネルギーをそれぞれ1個ずつ選び、トラッシュする。"
 	},
 
 	variants: [

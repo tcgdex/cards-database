@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンギラスGX",
+		'ja-jp': "バンギラスGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ロストアウト" },
 			effect: {
-				ja: "このポケモンのワザのダメージで、相手のポケモンがきぜつしたなら、そのポケモンと、ついているすべてのカードはトラッシュせず、ロストゾーンに置く。",
+				'ja-jp': "このポケモンのワザのダメージで、相手のポケモンがきぜつしたなら、そのポケモンと、ついているすべてのカードはトラッシュせず、ロストゾーンに置く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のベンチのたねポケモン全員にも、それぞれ30ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+				'ja-jp': "相手のベンチのたねポケモン全員にも、それぞれ30ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 	},
 
 	retreat: 3,

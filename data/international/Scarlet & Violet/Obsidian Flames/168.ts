@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Linéon",
-		en: "Linoone",
-		es: "Linoone",
-		it: "Linoone",
-		pt: "Linoone",
-		de: "Geradaks"
+		'fr-fr': "Linéon",
+		'en-us': "Linoone",
+		'es-es': "Linoone",
+		'it-it': "Linoone",
+		'pt-br': "Linoone",
+		'de-de': "Geradaks"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Zigzaton",
-		en: "Zigzagoon",
-		es: "Zigzagoon",
-		it: "Zigzagoon",
-		pt: "Zigzagoon",
-		de: "Zigzachs"
+		'fr-fr': "Zigzaton",
+		'en-us': "Zigzagoon",
+		'es-es': "Zigzagoon",
+		'it-it': "Zigzagoon",
+		'pt-br': "Zigzagoon",
+		'de-de': "Zigzachs"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Bélier Volant",
-			en: "Jet Headbutt",
-			es: "Turbocabezazo",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato",
-			de: "Flinke Kopfnuss"
+			'fr-fr': "Bélier Volant",
+			'en-us': "Jet Headbutt",
+			'es-es': "Turbocabezazo",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato",
+			'de-de': "Flinke Kopfnuss"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Attaque Imprudente",
-			en: "Reckless Charge",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'fr-fr': "Attaque Imprudente",
+			'en-us': "Reckless Charge",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 150
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+		'en-us': "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
 	},
 
 	variants: [

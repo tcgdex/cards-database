@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu",
-		it: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu",
+		'it-it': "Pikachu"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -21,32 +21,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tail Whip",
-			fr: "Mimi-Queue",
-			es: "Látigo",
-			pt: "Cauda Chicote",
-			de: "Rutenschlag",
-			it: "Colpocoda"
+			'en-us': "Tail Whip",
+			'fr-fr': "Mimi-Queue",
+			'es-es': "Látigo",
+			'pt-br': "Cauda Chicote",
+			'de-de': "Rutenschlag",
+			'it-it': "Colpocoda"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
-			pt: "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
-			de: "Wirf 1 Münze. Bei Kopf kann sich das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
+			'de-de': "Wirf 1 Münze. Bei Kopf kann sich das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Pika Bolt",
-			fr: "Pik'Éclair",
-			es: "Rayo Pika",
-			pt: "Relâmpagochu",
-			de: "Pikaschuss",
-			it: "Pikafulmine"
+			'en-us': "Pika Bolt",
+			'fr-fr': "Pik'Éclair",
+			'es-es': "Rayo Pika",
+			'pt-br': "Relâmpagochu",
+			'de-de': "Pikaschuss",
+			'it-it': "Pikafulmine"
 		},
 
 		damage: 50,
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+		'en-us': "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
 
 	stage: "Basic",

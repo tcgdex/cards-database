@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Draïeul",
-		en: "Drampa",
-		es: "Drampa",
-		it: "Drampa",
-		pt: "Drampa",
-		de: "Sen-Long"
+		'fr-fr': "Draïeul",
+		'en-us': "Drampa",
+		'es-es': "Drampa",
+		'it-it': "Drampa",
+		'pt-br': "Drampa",
+		'de-de': "Sen-Long"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Colère",
-			en: "Outrage",
-			es: "Enfado",
-			it: "Oltraggio",
-			pt: "Ultraje",
-			de: "Wutanfall"
+			'fr-fr': "Colère",
+			'en-us': "Outrage",
+			'es-es': "Enfado",
+			'it-it': "Oltraggio",
+			'pt-br': "Ultraje",
+			'de-de': "Wutanfall"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
-			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
+		'en-us': "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Donphan"
+		'id-id': "Donphan"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Karena diselimuti kulit yang keras, bukanlah perkara serius bagi Donphan jika ditabrak mobil. Namun, Pokémon ini sangat lemah terhadap hujan."
+		'id-id': "Karena diselimuti kulit yang keras, bukanlah perkara serius bagi Donphan jika ditabrak mobil. Namun, Pokémon ini sangat lemah terhadap hujan."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Gunung Longsor"
+			'id-id': "Gunung Longsor"
 		},
 
 		effect: {
-			id: "Buang 2 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 2 kartu dari atas Deck lawan ke Trash."
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Putaran Besar"
+			'id-id': "Putaran Besar"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 160,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "mewtwo",
+		'ja-jp': "mewtwo",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "催眠",
+				'ja-jp': "催眠",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "サイキック",
+				'ja-jp': "サイキック",
 			},
 			effect: {
-				ja: "この攻撃は、ディフェンディングポケモンに取り付けられた各エネルギーカードに対して20のダメージと10のダメージをさらに10ダメージします。",
+				'ja-jp': "この攻撃は、ディフェンディングポケモンに取り付けられた各エネルギーカードに対して20のダメージと10のダメージをさらに10ダメージします。",
 			},
 		},
 	],

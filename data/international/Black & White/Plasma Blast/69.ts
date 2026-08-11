@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Haxorus",
-		fr: "Tranchodon",
-		es: "Haxorus",
-		it: "Haxorus",
-		pt: "Haxorus",
-		de: "Maxax"
+		'en-us': "Haxorus",
+		'fr-fr': "Tranchodon",
+		'es-es': "Haxorus",
+		'it-it': "Haxorus",
+		'pt-br': "Haxorus",
+		'de-de': "Maxax"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fraxure",
-		fr: "Incisache",
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Dragonaxe",
-				fr: "Hache Draconique",
+				'en-us': "Dragonaxe",
+				'fr-fr': "Hache Draconique",
 			},
 			effect: {
-				en: "Does 40 damage times the amount of Metal Energy attached to this Pokémon.",
-				fr: "Inflige 40 dégâts multipliés par le nombre d'Énergies Metal attachées à ce Pokémon.",
+				'en-us': "Does 40 damage times the amount of Metal Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 40 dégâts multipliés par le nombre d'Énergies Metal attachées à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Strike of the Champion",
-				fr: "Frappe de Maître",
+				'en-us': "Strike of the Champion",
+				'fr-fr': "Frappe de Maître",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Team Plasma Pokémon, it is Knocked Out. (If the Defending Pokémon is not a Team Plasma Pokémon, this attack does nothing.)",
-				fr: "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, il est mis K.O. (Si le Pokémon Défenseur n'est pas un Pokémon de la Team Plasma, cette attaque ne fait rien.)",
+				'en-us': "If the Defending Pokémon is a Team Plasma Pokémon, it is Knocked Out. (If the Defending Pokémon is not a Team Plasma Pokémon, this attack does nothing.)",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, il est mis K.O. (Si le Pokémon Défenseur n'est pas un Pokémon de la Team Plasma, cette attaque ne fait rien.)",
 			},
 
 		},
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
+		'en-us': "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
 	},
 
 	thirdParty: {

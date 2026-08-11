@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tsareena ex"
+		'id-id': "Tsareena ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Icicle Sole"
+			'id-id': "Icicle Sole"
 		},
 
 		effect: {
-			id: "Letakkan Token Kerusakan pada 1 Pokémon lawan hingga sisa HP Pokémon tersebut menjadi sejumlah 30."
+			'id-id': "Letakkan Token Kerusakan pada 1 Pokémon lawan hingga sisa HP Pokémon tersebut menjadi sejumlah 30."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Tendangan Tropis"
+			'id-id': "Tendangan Tropis"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 30, lalu pulihkan juga semua Kondisi Khusus yang dialami Pokémon ini."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 30, lalu pulihkan juga semua Kondisi Khusus yang dialami Pokémon ini."
 		},
 
 		damage: 180,

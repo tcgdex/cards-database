@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Zap Kick",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				de: "Donnerrüttler"
+				'en-us': "Thunder Jolt",
+				'de-de': "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Electrike does 10 damage to itself.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt Frizelbliz sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Electrike does 10 damage to itself.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt Frizelbliz sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
+		'en-us': "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
 	},
 
 	variants: [

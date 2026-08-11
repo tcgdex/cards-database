@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Duralugon",
-		en: "Duraludon",
-		es: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon",
-		de: "Duraludon"
+		'fr-fr': "Duralugon",
+		'en-us': "Duraludon",
+		'es-es': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon",
+		'de-de': "Duraludon"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Affuteur de Métal",
-			en: "Metal Sharpener",
-			es: "Afilador de Metales",
-			it: "Affilametallo",
-			pt: "Amolador de Metal",
-			de: "Metallschleifer"
+			'fr-fr': "Affuteur de Métal",
+			'en-us': "Metal Sharpener",
+			'es-es': "Afilador de Metales",
+			'it-it': "Affilametallo",
+			'pt-br': "Amolador de Metal",
+			'de-de': "Metallschleifer"
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
-			en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-			es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
-			pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+			'fr-fr': "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
+			'en-us': "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
+			'es-es': "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
+			'it-it': "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
+			'pt-br': "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
+			'de-de': "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Puissant Rayon",
-			en: "Power Beam",
-			es: "Rayo de Luz Poderoso",
-			it: "Raggiopotenza",
-			pt: "Raio de Poder",
-			de: "Power-Strahl"
+			'fr-fr': "Puissant Rayon",
+			'en-us': "Power Beam",
+			'es-es': "Rayo de Luz Poderoso",
+			'it-it': "Raggiopotenza",
+			'pt-br': "Raio de Poder",
+			'de-de': "Power-Strahl"
 		},
 
 		damage: 110,
@@ -70,7 +70,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+		'en-us': "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	variants: [

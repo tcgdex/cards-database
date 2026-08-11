@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh LEGEND",
-		fr: "Ho-Oh LÉGENDAIRE",
-		de: "Ho-Oh LEGENDE"
+		'en-us': "Ho-Oh LEGEND",
+		'fr-fr': "Ho-Oh LÉGENDAIRE",
+		'de-de': "Ho-Oh LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi",
@@ -38,7 +38,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+		'en-us': "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
 	},
 
 	variants: [
@@ -54,12 +54,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sacred Rainbow",
-				fr: "Arc-en-ciel sacré"
+				'en-us': "Sacred Rainbow",
+				'fr-fr': "Arc-en-ciel sacré"
 			},
 			effect: {
-				en: "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
-				fr: "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel."
+				'en-us': "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
+				'fr-fr': "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel."
 			}
 		},
 	],
@@ -67,15 +67,15 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Bright Wing",
-				de: "Strahlenschwinge",
-				fr: "Ailes lumineuses"
+				'en-us': "Bright Wing",
+				'de-de': "Strahlenschwinge",
+				'fr-fr': "Ailes lumineuses"
 			},
 			damage: 100,
 			effect: {
-				en: "Discard an Energy attached to Ho-Oh LEGEND.",
-				de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel.",
-				fr: "Défaussez une Énergie attachée à Ho-Oh LÉGENDE."
+				'en-us': "Discard an Energy attached to Ho-Oh LEGEND.",
+				'de-de': "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel.",
+				'fr-fr': "Défaussez une Énergie attachée à Ho-Oh LÉGENDE."
 			},
 			cost: [
 				"Fire",

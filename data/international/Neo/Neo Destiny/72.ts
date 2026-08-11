@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Sunflora",
-		fr: "Heliatronc lumineux",
-		de: "Helles Sonnflora"
+		'en-us': "Light Sunflora",
+		'fr-fr': "Heliatronc lumineux",
+		'de-de': "Helles Sonnflora"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sunkern",
-		fr: "Tournegrin"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflected Sunlight",
-				fr: "Reflet du soleil",
-				de: "Reflected Sunlight"
+				'en-us': "Reflected Sunlight",
+				'fr-fr': "Reflet du soleil",
+				'de-de': "Reflected Sunlight"
 			},
 			effect: {
-				en: "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon .",
-				de: "Attached up to 2  Energy cards from your hand to 1 of your  Pokémon."
+				'en-us': "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon .",
+				'de-de': "Attached up to 2  Energy cards from your hand to 1 of your  Pokémon."
 			},
 
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Solarbeam",
-				fr: "Lance-soleil",
-				de: "Solarbeam"
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-soleil",
+				'de-de': "Solarbeam"
 			},
 
 			damage: 40,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",
-		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
+		'en-us': "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",
+		'fr-fr': "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
 	},
 
 

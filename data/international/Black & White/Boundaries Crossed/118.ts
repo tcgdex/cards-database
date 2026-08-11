@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Patrat",
-		fr: "Ratentif",
-		es: "Patrat",
-		it: "Patrat",
-		pt: "Patrat",
-		de: "Nagelotz"
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Patrol",
-				fr: "Patrouille",
+				'en-us': "Patrol",
+				'fr-fr': "Patrouille",
 			},
 			effect: {
-				en: "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				'en-us': "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
+				'fr-fr': "Regardez les 3 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
+		'en-us': "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
 	},
 
 	thirdParty: {

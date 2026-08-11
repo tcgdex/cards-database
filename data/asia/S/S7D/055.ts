@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バイウールー",
+		'ja-jp': "バイウールー",
 		'zh-tw': "毛毛角羊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "立派に 伸びた ツノは 異性に アピールするために 生えている。 武器として 使うことはない。",
+		'ja-jp': "立派に 伸びた ツノは 異性に アピールするために 生えている。 武器として 使うことはない。",
 		'zh-tw': "長得長長的角是為了向異性求愛而存在的。牠從不會把角當作武器。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とびはねる",
+				'ja-jp': "とびはねる",
 				'zh-tw': "彈跳",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
 		{
 			name: {
-				ja: "ころがりタックル",
+				'ja-jp': "ころがりタックル",
 				'zh-tw': "滾動衝撞",
 			},
 			damage: 70,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウールー",
+		'ja-jp': "ウールー",
 	},
 
 	retreat: 2,

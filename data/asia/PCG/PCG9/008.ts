@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボック（デルタ種）",
+		'ja-jp': "アーボック（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "燃えている毒",
+				'ja-jp': "燃えている毒",
 			},
 			effect: {
-				ja: "防御ポケモンは現在燃やされ、毒されています。",
+				'ja-jp': "防御ポケモンは現在燃やされ、毒されています。",
 			},
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "絞め殺し",
+				'ja-jp': "絞め殺し",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンがカードにDがある場合、この攻撃は50のダメージと30ダメージを与えます。",
+				'ja-jp': "ディフェンディングポケモンがカードにDがある場合、この攻撃は50のダメージと30ダメージを与えます。",
 			},
 		},
 	],

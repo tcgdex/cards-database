@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ambipom"
+		'id-id': "Ambipom"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Karena ekornya yang terbagi 2 dapat terampil dalam melakukan berbagai macam hal, tangannya menjadi hampir tidak pernah digunakan."
+		'id-id': "Karena ekornya yang terbagi 2 dapat terampil dalam melakukan berbagai macam hal, tangannya menjadi hampir tidak pernah digunakan."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Ekor Tega"
+			'id-id': "Ekor Tega"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lempar koin 2 kali. Pilih kartu dari Kartu Pegangan lawan tanpa melihat sisi depan untuk tiap lemparan dengan hasil sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lempar koin 2 kali. Pilih kartu dari Kartu Pegangan lawan tanpa melihat sisi depan untuk tiap lemparan dengan hasil sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Menepuk"
+			'id-id': "Menepuk"
 		},
 
 		damage: 100,

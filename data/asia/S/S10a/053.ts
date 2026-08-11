@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 		'zh-tw': "黏黏寶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "湿度 高き 木陰に 身を 潜める。 体表を覆う ぬめりとした 液体が 乾くと たちどころに 生気を 失う。",
+		'ja-jp': "湿度 高き 木陰に 身を 潜める。 体表を覆う ぬめりとした 液体が 乾くと たちどころに 生気を 失う。",
 		'zh-tw': "藏身在濕度較高的樹蔭下。覆蓋著身體的黏糊液體一旦 乾枯，就會立刻失去生命力。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "とかす",
+				'ja-jp': "とかす",
 				'zh-tw': "溶解",
 			},
 			damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Houndoom",
-		de: "Dunkles Hundemon"
+		'en-us': "Dark Houndoom",
+		'de-de': "Dunkles Hundemon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
+		'en-us': "Houndour",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shakedown",
-				de: "Shakedown"
+				'en-us': "Shakedown",
+				'de-de': "Shakedown"
 			},
 			effect: {
-				en: "Choose a card from your opponent's hand without looking and discard it.",
-				de: "Choose a card from your opponent's hand without looking and discard it."
+				'en-us': "Choose a card from your opponent's hand without looking and discard it.",
+				'de-de': "Choose a card from your opponent's hand without looking and discard it."
 			},
 			damage: 20,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Fire",
-				de: "Dark Fire"
+				'en-us': "Dark Fire",
+				'de-de': "Dark Fire"
 			},
 			effect: {
-				en: "You may discard a Fire Energy or Darkness Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage.\"",
-				de: "You may discard a  Energy or  Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage."
+				'en-us': "You may discard a Fire Energy or Darkness Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage.\"",
+				'de-de': "You may discard a  Energy or  Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

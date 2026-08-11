@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードラン",
+		'ja-jp': "ヒードラン",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山の 洞穴に 生息。 十字の ツメを 食いこませて 壁や 天井を はい回る。",
+		'ja-jp': "火山の 洞穴に 生息。 十字の ツメを 食いこませて 壁や 天井を はい回る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こがす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンはやけどのポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンはやけどのポケモンからワザのダメージを受けない。",
 			},
 		},
 	],

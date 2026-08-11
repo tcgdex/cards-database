@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ouistempo",
-		en: "Grookey",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'fr-fr': "Ouistempo",
+		'en-us': "Grookey",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Combo-Griffe",
-			en: "Fury Swipes",
-			es: "Golpes Furia",
-			it: "Sfuriate",
-			pt: "Golpes de Fúria",
-			de: "Kratzfurie"
+			'fr-fr': "Combo-Griffe",
+			'en-us': "Fury Swipes",
+			'es-es': "Golpes Furia",
+			'it-it': "Sfuriate",
+			'pt-br': "Golpes de Fúria",
+			'de-de': "Kratzfurie"
 		},
 
 		effect: {
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×",
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	variants: [

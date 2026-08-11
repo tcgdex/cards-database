@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Abomasnow",
-		fr: "Blizzaroi",
-		es: "Abomasnow",
-		it: "Abomasnow",
-		pt: "Abomasnow",
-		de: "Rexblisar"
+		'en-us': "Abomasnow",
+		'fr-fr': "Blizzaroi",
+		'es-es': "Abomasnow",
+		'it-it': "Abomasnow",
+		'pt-br': "Abomasnow",
+		'de-de': "Rexblisar"
 	},
 
 	illustrator: "kodama",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Icicle Punch",
-			fr: "Poing Stalactite",
-			es: "Puñetazo Gélido",
-			it: "Freddopugno",
-			pt: "Soco de Icelo",
-			de: "Eiswatsche"
+			'en-us': "Icicle Punch",
+			'fr-fr': "Poing Stalactite",
+			'es-es': "Puñetazo Gélido",
+			'it-it': "Freddopugno",
+			'pt-br': "Soco de Icelo",
+			'de-de': "Eiswatsche"
 		},
 
 		damage: 50
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Double-Edge",
-			fr: "Damoclès",
-			es: "Doble Filo",
-			it: "Sdoppiatore",
-			pt: "Faca de Dois Gumes",
-			de: "Risikotackle"
+			'en-us': "Double-Edge",
+			'fr-fr': "Damoclès",
+			'es-es': "Doble Filo",
+			'it-it': "Sdoppiatore",
+			'pt-br': "Faca de Dois Gumes",
+			'de-de': "Risikotackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160

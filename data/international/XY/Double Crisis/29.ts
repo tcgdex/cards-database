@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma Admin",
-		fr: "Admin Team Magma",
-		pt: "Admin. da Equipe Magma",
+		'en-us': "Team Magma Admin",
+		'fr-fr': "Admin Team Magma",
+		'pt-br': "Admin. da Equipe Magma",
 	},
 
 	illustrator: "GAME FREAK inc.",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Ajoutez jusqu'à 3 Pokémon de la Team Magma de votre pile de défausse à votre main.",
-		en: "Put up to 3 Team Magma Pokémon from your discard pile into your hand.",
-		pt: "Coloque até 3 Pokémon da Equipe Magma da sua pilha de descarte em sua mão.",
+		'fr-fr': "Ajoutez jusqu'à 3 Pokémon de la Team Magma de votre pile de défausse à votre main.",
+		'en-us': "Put up to 3 Team Magma Pokémon from your discard pile into your hand.",
+		'pt-br': "Coloque até 3 Pokémon da Equipe Magma da sua pilha de descarte em sua mão.",
 	},
 
 	trainerType: "Supporter",

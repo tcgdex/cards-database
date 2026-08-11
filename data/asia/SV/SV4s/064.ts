@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Espathra"
+		'id-id': "Espathra"
 	},
 
 	illustrator: "Teeziro",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Espathra mengeluarkan kekuatan psikokinesis dari celah embel-embel warna-warninya, lalu berlari dengan kecepatan 200 km/jam."
+		'id-id': "Espathra mengeluarkan kekuatan psikokinesis dari celah embel-embel warna-warninya, lalu berlari dengan kecepatan 200 km/jam."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Penglihatan Pemastian"
+			'id-id': "Penglihatan Pemastian"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Hingga akhir giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon lawan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Hingga akhir giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Glitter Eyes"
+			'id-id': "Glitter Eyes"
 		},
 
 		effect: {
-			id: "Jika ada Tulip di Trash sendiri, kerusakan yang diberikan bertambah sejumlah 70."
+			'id-id': "Jika ada Tulip di Trash sendiri, kerusakan yang diberikan bertambah sejumlah 70."
 		},
 
 		damage: "70+",

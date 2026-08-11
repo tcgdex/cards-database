@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	illustrator: "miki kudo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie",
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball’Glace",
-				es: "Bola Hielo",
-				it: "Palla Gelo",
-				pt: "Bola de Gelo",
-				de: "Frostbeule"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball’Glace",
+				'es-es': "Bola Hielo",
+				'it-it': "Palla Gelo",
+				'pt-br': "Bola de Gelo",
+				'de-de': "Frostbeule"
 			},
 
 			damage: 90,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has a very sensitive nose. It touches new things with its nose to examine them.",
+		'en-us': "It has a very sensitive nose. It touches new things with its nose to examine them.",
 	},
 
 	thirdParty: {

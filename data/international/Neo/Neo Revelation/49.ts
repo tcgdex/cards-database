@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Qwilfish",
-		fr: "Qwilfish",
-		de: "Baldorfish"
+		'en-us': "Qwilfish",
+		'fr-fr': "Qwilfish",
+		'de-de': "Baldorfish"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -32,15 +32,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Giftstachel"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Needle Storm",
-				fr: "Nuée d'épines",
-				de: "Nadelsturm"
+				'en-us': "Needle Storm",
+				'fr-fr': "Nuée d'épines",
+				'de-de': "Nadelsturm"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads you get.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Münze, bis du das erste Mal 'Zahl' wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu, die di bis dahin wirfst."
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads you get.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf eine Münze, bis du das erste Mal 'Zahl' wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu, die di bis dahin wirfst."
 			},
 			damage: "20x",
 
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
-		fr: "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup."
+		'en-us': "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+		'fr-fr': "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		fr: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'fr-fr': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
-		fr: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Super Slap Push",
-				fr: "Super gifle",
-				de: "Super Slap Push"
+				'en-us': "Super Slap Push",
+				'fr-fr': "Super gifle",
+				'de-de': "Super Slap Push"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
-				de: "Does 20 damage to each Defending Pokémon."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon Défenseur.",
+				'de-de': "Does 20 damage to each Defending Pokémon."
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Throw",
-				fr: "Mega lancer",
-				de: "Mega Throw"
+				'en-us': "Mega Throw",
+				'fr-fr': "Mega lancer",
+				'de-de': "Mega Throw"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque lui inflige 80 dégâts.",
-				de: "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque lui inflige 80 dégâts.",
+				'de-de': "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage."
 			},
 			damage: "40+",
 

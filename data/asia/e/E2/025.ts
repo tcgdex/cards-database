@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アズマリル-025/092",
+		'ja-jp': "アズマリル-025/092",
 	},
 
 	rarity: "Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "バブルターン",
+				'ja-jp': "バブルターン",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、アズマリルがベンチにいる場合、コインをひっくり返すことができます。頭の場合は、Azumarillとそれに取り付けられたすべてのカードをあなたの手に返します。",
+				'ja-jp': "ターン中に（攻撃の前に）</em> </em>、アズマリルがベンチにいる場合、コインをひっくり返すことができます。頭の場合は、Azumarillとそれに取り付けられたすべてのカードをあなたの手に返します。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアソニック",
+				'ja-jp': "アクアソニック",
 			},
 			effect: {
-				ja: "抵抗を適用しないでください。",
+				'ja-jp': "抵抗を適用しないでください。",
 			},
 			damage: 40,
 		},

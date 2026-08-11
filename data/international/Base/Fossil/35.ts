@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak",
-		de: "Entoron"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak",
+		'de-de': "Entoron"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyschock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das vertdigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das vertdigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
-				fr: "Si des cartes Énergies sont attachées au Pokémon, choisissez l'une d'elle et défaussez-la.",
-				de: "Falls das vertdigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'fr-fr': "Si des cartes Énergies sont attachées au Pokémon, choisissez l'une d'elle et défaussez-la.",
+				'de-de': "Falls das vertdigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
 			},
 			damage: 20,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
-		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
+		'en-us': "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+		'fr-fr': "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
 	},
 
 

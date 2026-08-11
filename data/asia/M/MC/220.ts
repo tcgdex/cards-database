@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘイラッシャex",
+		'ja-jp': "ヘイラッシャex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、120ダメージ追加。その場合、このポケモンにも50ダメージ。",
+				'ja-jp': "のぞむなら、120ダメージ追加。その場合、このポケモンにも50ダメージ。",
 			},
 		},
 	],

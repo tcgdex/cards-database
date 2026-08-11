@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Metal Energy",
-		fr: "Énergie Métal",
-		de: "Metall-Energie"
+		'en-us': "Metal Energy",
+		'fr-fr': "Énergie Métal",
+		'de-de': "Metall-Energie"
 	},
 
 	illustrator: undefined,

@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
 		'es-mx': "Dragonair",
-		de: "Dragonir",
-		it: "Dragonair",
-		pt: "Dragonair"
+		'de-de': "Dragonir",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair"
 	},
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
 		'es-mx': "Dratini",
-		de: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
+		'de-de': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
 	},
 
 	illustrator: "Gemi",
@@ -36,23 +36,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Evolutionary Guidance",
-			fr: "Conseil Évolutif",
-			es: "Guía Evolutiva",
+			'en-us': "Evolutionary Guidance",
+			'fr-fr': "Conseil Évolutif",
+			'es-es': "Guía Evolutiva",
 			'es-mx': "Guía Evolutiva",
-			de: "Evolutionäres Geleit",
-			it: "Guida Evolutiva",
-			pt: "Orientação Evolucionária"
+			'de-de': "Evolutionäres Geleit",
+			'it-it': "Guida Evolutiva",
+			'pt-br': "Orientação Evolucionária"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon has any Energy attached, you may use this Ability. Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, si au moins une Énergie est attachée à ce Pokémon, vous pouvez utiliser ce talent. Cherchez dans votre deck un Pokémon Évolutif, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, si este Pokémon tiene alguna Energía unida, puedes usar esta habilidad. Busca en tu baraja 1 Pokémon Evolución, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+			'en-us': "Once during your turn, if this Pokémon has any Energy attached, you may use this Ability. Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, si au moins une Énergie est attachée à ce Pokémon, vous pouvez utiliser ce talent. Cherchez dans votre deck un Pokémon Évolutif, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, si este Pokémon tiene alguna Energía unida, puedes usar esta habilidad. Busca en tu baraja 1 Pokémon Evolución, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Una vez durante tu turno, si este Pokémon tiene alguna Energía unida, puedes usar esta Habilidad. Busca en tu mazo 1 Pokémon Evolución, muéstralo y ponlo en tu mano. Después, baraja tu mazo.",
-			de: "Einmal während deines Zuges, wenn an dieses Pokémon mindestens 1 Energie angelegt ist, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Entwicklungs-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon ha delle Energie assegnate, puoi usare questa abilità. Cerca nel tuo mazzo un Pokémon Evoluzione, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			pt: "Uma vez durante o seu turno, se este Pokémon tiver alguma Energia ligada a ele, você poderá usar esta Habilidade. Procure por um Pokémon de Evolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
+			'de-de': "Einmal während deines Zuges, wenn an dieses Pokémon mindestens 1 Energie angelegt ist, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Entwicklungs-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon ha delle Energie assegnate, puoi usare questa abilità. Cerca nel tuo mazzo un Pokémon Evoluzione, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon tiver alguma Energia ligada a ele, você poderá usar esta Habilidade. Procure por um Pokémon de Evolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			en: "Tail Snap",
-			fr: "Coud'Queue Sec",
-			es: "Pinza Cola",
+			'en-us': "Tail Snap",
+			'fr-fr': "Coud'Queue Sec",
+			'es-es': "Pinza Cola",
 			'es-mx': "Castigo de Cola",
-			de: "Schweifhieb",
-			it: "Schioccacoda",
-			pt: "Surpresa de Cauda"
+			'de-de': "Schweifhieb",
+			'it-it': "Schioccacoda",
+			'pt-br': "Surpresa de Cauda"
 		},
 
 		damage: 60
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+		'en-us': "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
 	},
 
 	variants: [

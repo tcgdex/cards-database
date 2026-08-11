@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Shaymin-EX",
+		'en-us': "Shaymin-EX",
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Ultra Rare",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Synthesis",
+				'en-us': "Synthesis",
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge Blast",
+				'en-us': "Revenge Blast",
 			},
 			effect: {
-				en: "Does 30 more damage for each Prize card your opponent has taken.",
+				'en-us': "Does 30 more damage for each Prize card your opponent has taken.",
 			},
 			damage: 30,
 

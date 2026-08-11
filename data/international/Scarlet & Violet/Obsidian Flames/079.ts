@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Miraidon-ex",
-		en: "Miraidon ex",
-		es: "Miraidon ex",
-		it: "Miraidon-ex",
-		pt: "Miraidon ex",
-		de: "Miraidon-ex"
+		'fr-fr': "Miraidon-ex",
+		'en-us': "Miraidon ex",
+		'es-es': "Miraidon ex",
+		'it-it': "Miraidon-ex",
+		'pt-br': "Miraidon ex",
+		'de-de': "Miraidon-ex"
 	},
 
 	rarity: "Double rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Pioche Rapide",
-			en: "Rapid Draw",
-			es: "Robo Rápido",
-			it: "Pescalesto",
-			pt: "Retirada Rápida",
-			de: "Schnellzieher"
+			'fr-fr': "Pioche Rapide",
+			'en-us': "Rapid Draw",
+			'es-es': "Robo Rápido",
+			'it-it': "Pescalesto",
+			'pt-br': "Retirada Rápida",
+			'de-de': "Schnellzieher"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			en: "Draw 2 cards.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'fr-fr': "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 20
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			fr: "Techno-Turbo",
-			en: "Techno Turbo",
-			es: "Tecno Turbo",
-			it: "Tecnoturbo",
-			pt: "Turbo Tecnológico",
-			de: "Techturbo"
+			'fr-fr': "Techno-Turbo",
+			'en-us': "Techno Turbo",
+			'es-es': "Tecno Turbo",
+			'it-it': "Tecnoturbo",
+			'pt-br': "Turbo Tecnológico",
+			'de-de': "Techturbo"
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie {L} de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			en: "Attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon.",
-			es: "Une 1 carta de Energía {L} Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {L} dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia {L} Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Lege 1 Basis-{L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+			'fr-fr': "Attachez une carte Énergie {L} de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			'en-us': "Attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon.",
+			'es-es': "Une 1 carta de Energía {L} Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
+			'it-it': "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {L} dalla tua pila degli scarti.",
+			'pt-br': "Ligue uma carta de Energia {L} Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			'de-de': "Lege 1 Basis-{L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		},
 
 		damage: 150

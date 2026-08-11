@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Virovent",
-		en: "Bramblin",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'fr-fr': "Virovent",
+		'en-us': "Bramblin",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Pâté",
-			en: "Blot",
-			es: "Absorción",
-			it: "Macchia",
-			pt: "Borrão",
-			de: "Klecks"
+			'fr-fr': "Pâté",
+			'en-us': "Blot",
+			'es-es': "Absorción",
+			'it-it': "Macchia",
+			'pt-br': "Borrão",
+			'de-de': "Klecks"
 		},
 
 		effect: {
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			en: "Heal 10 damage from this Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 10
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+		'en-us': "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
 	},
 }
 

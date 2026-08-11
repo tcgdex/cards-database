@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blissey ex"
+		'en-us': "Blissey ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Chansey"
+		'en-us': "Chansey"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Happy Punch"
+			'en-us': "Happy Punch"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, heal 60 damage from this Pokémon."
+			'en-us': "Flip a coin. If heads, heal 60 damage from this Pokémon."
 		}
 	}],
 

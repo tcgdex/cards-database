@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [353],
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Haunt",
-				fr: "Hanter",
-				es: "Espanto",
-				it: "Infestare",
-				pt: "Assombrar",
-				de: "Spuk"
+				'en-us': "Haunt",
+				'fr-fr': "Hanter",
+				'es-es': "Espanto",
+				'it-it': "Infestare",
+				'pt-br': "Assombrar",
+				'de-de': "Spuk"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
-				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on your opponent's Active Pokémon.",
+				'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -69,7 +69,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+		'en-us': "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	},
 
 	variants: [

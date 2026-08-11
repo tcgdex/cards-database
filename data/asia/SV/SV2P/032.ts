@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチミル",
+		'ja-jp': "ゴチミル",
 		'zh-tw': "哥德小童",
-		th: "โกธิมิรุ",
-		id: "Gothorita"
+		'th-th': "โกธิมิรุ",
+		'id-id': "Gothorita"
 	},
 
 	illustrator: "Aya Kusube",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。",
+		'ja-jp': "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。",
 		'zh-tw': "一定要小心星光閃閃的夜晚。因為牠會帶走被牠施了 催眠術而睡著的小孩。",
-		th: "จะสะกดจิตให้เด็กหลับแล้วพาตัวไป เพราะฉะนั้นให้ระวังคืนที่ดาวระยิบระยับให้ดี",
-		id: "Gothorita menghipnotis anak-anak agar tertidur lalu menculik mereka. Berhati-hatilah pada malam saat bintang bersinar."
+		'th-th': "จะสะกดจิตให้เด็กหลับแล้วพาตัวไป เพราะฉะนั้นให้ระวังคืนที่ดาวระยิบระยับให้ดี",
+		'id-id': "Gothorita menghipnotis anak-anak agar tertidur lalu menculik mereka. Berhati-hatilah pada malam saat bintang bersinar."
 	},
 
 	stage: "Stage1",
@@ -31,28 +31,28 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "サイコトリップ",
+			'ja-jp': "サイコトリップ",
 			'zh-tw': "精神歪曲",
-			th: "ไซโคทริป",
-			id: "Psychotrip"
+			'th-th': "ไซโคทริป",
+			'id-id': "Psychotrip"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。",
+			'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ちょうねんりき",
+			'ja-jp': "ちょうねんりき",
 			'zh-tw': "超念力",
-			th: "ซูเปอร์โทรจิต",
-			id: "Psikokinesis Super"
+			'th-th': "ซูเปอร์โทรจิต",
+			'id-id': "Psikokinesis Super"
 		},
 
 		damage: 40

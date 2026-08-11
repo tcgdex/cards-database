@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Unown K",
-		fr: "Zarbi K",
-		de: "Icognito K"
+		'en-us': "Unown K",
+		'fr-fr': "Zarbi K",
+		'de-de': "Icognito K"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Uncommon",
@@ -26,14 +26,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "KIND",
-				fr: "KATÉGORIE",
-				de: "KIND"
+				'en-us': "KIND",
+				'fr-fr': "KATÉGORIE",
+				'de-de': "KIND"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of the Defending Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 des Pokémon Défenseurs.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 2 Schadensmarken von 1 Verteidigenden Pokémon entfernen."
+				'en-us': "Once during your turn (before your attack), you may remove 2 damage counters from 1 of the Defending Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 des Pokémon Défenseurs.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 2 Schadensmarken von 1 Verteidigenden Pokémon entfernen."
 			},
 		},
 	],
@@ -43,9 +43,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
+		'en-us': "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
 	},
 
 	variants: [

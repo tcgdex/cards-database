@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dragon Call",
-				fr: "Appel du Dragon",
-				es: "Llamada de Dragón",
-				it: "Dragorichiamo",
-				pt: "Chamado do Dragão",
-				de: "Drachenruf"
+				'en-us': "Dragon Call",
+				'fr-fr': "Appel du Dragon",
+				'es-es': "Llamada de Dragón",
+				'it-it': "Dragorichiamo",
+				'pt-br': "Chamado do Dragão",
+				'de-de': "Drachenruf"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Dragon Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Dragon dans votre deck, le montrer et l’ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja un Pokémon Dragon, enseñarlo y ponerlo en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Dragon, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um Pokémon Dragon no seu deck, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Dragon-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Dragon Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Dragon dans votre deck, le montrer et l’ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja un Pokémon Dragon, enseñarlo y ponerlo en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Dragon, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um Pokémon Dragon no seu deck, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Dragon-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -62,8 +62,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dragonslice",
-				fr: "Draco-Tranche",
+				'en-us': "Dragonslice",
+				'fr-fr': "Draco-Tranche",
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+		'en-us': "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
 	},
 
 	thirdParty: {

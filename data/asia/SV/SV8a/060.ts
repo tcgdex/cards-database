@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ネイティ",
-		id: "Natu",
-		th: "เนที",
+		'ja-jp': "ネイティ",
+		'id-id': "Natu",
+		'th-th': "เนที",
 		'zh-tw': "天然雀",
 		'zh-cn': "天然雀"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "羽が 育ちきって おらず 飛び跳ねるようにして 移動する。 いつも なにかを 見つめている。",
-		id: "Karena sayapnya belum tumbuh sempurna, Natu berpindah dengan cara melompat. Pokémon ini selalu memandangi sesuatu.",
-		th: "เคลื่อนที่ด้วยการกระโดดหยอย ๆ เพราะปีกยังโตไม่เต็มที่ มักจะจ้องมองอะไรบางอย่างอยู่ตลอดเวลา",
+		'ja-jp': "羽が 育ちきって おらず 飛び跳ねるようにして 移動する。 いつも なにかを 見つめている。",
+		'id-id': "Karena sayapnya belum tumbuh sempurna, Natu berpindah dengan cara melompat. Pokémon ini selalu memandangi sesuatu.",
+		'th-th': "เคลื่อนที่ด้วยการกระโดดหยอย ๆ เพราะปีกยังโตไม่เต็มที่ มักจะจ้องมองอะไรบางอย่างอยู่ตลอดเวลา",
 		'zh-tw': "翅膀還沒有完全長好， 所以只能一跳一跳地移動。 一直在注視著什麼。",
 		'zh-cn': "翅膀還沒有完全長好， 所以只能一跳一跳地移動。 一直在注視著什麼。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "さんれんづき",
-			id: "Tusukan Tiga Kali",
-			th: "พุ่งชนสามครั้ง",
+			'ja-jp': "さんれんづき",
+			'id-id': "Tusukan Tiga Kali",
+			'th-th': "พุ่งชนสามครั้ง",
 			'zh-tw': "三連撞",
 			'zh-cn': "三連撞"
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 		damage: "10×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。",
-			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
-			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
+			'id-id': "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
+			'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			'zh-cn': "擲3次硬幣，造成正面出現的次數×10點傷害。"
 		}

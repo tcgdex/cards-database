@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bail Out",
-				fr: "Renflouage",
-				es: "Sacar de Apuros",
-				it: "Soccorso",
-				pt: "Salvamento",
-				de: "Freilassen"
+				'en-us': "Bail Out",
+				'fr-fr': "Renflouage",
+				'es-es': "Sacar de Apuros",
+				'it-it': "Soccorso",
+				'pt-br': "Salvamento",
+				'de-de': "Freilassen"
 			},
 			effect: {
-				en: "Put a Pokémon from your discard pile into your hand.",
-				fr: "Ajoutez un Pokémon de votre pile de défausse à votre main.",
-				es: "Pon 1 Pokémon de tu pila de descartes en tu mano.",
-				it: "Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
-				pt: "Coloque 1 Pokémon da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put a Pokémon from your discard pile into your hand.",
+				'fr-fr': "Ajoutez un Pokémon de votre pile de défausse à votre main.",
+				'es-es': "Pon 1 Pokémon de tu pila de descartes en tu mano.",
+				'it-it': "Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
+				'pt-br': "Coloque 1 Pokémon da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+		'en-us': "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
 	},
 
 	thirdParty: {

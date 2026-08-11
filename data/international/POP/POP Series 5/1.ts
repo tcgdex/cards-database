@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh",
-		fr: "Ho-Oh"
+		'en-us': "Ho-Oh",
+		'fr-fr': "Ho-Oh"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Wing",
-				fr: "Aile de feu"
+				'en-us': "Fire Wing",
+				'fr-fr': "Aile de feu"
 			},
 
 			damage: 20,
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Ho-Oh.",
-				fr: "Défaussez une Énergie  attachée à ce Pokémon."
+				'en-us': "Discard a Fire Energy attached to Ho-Oh.",
+				'fr-fr': "Défaussez une Énergie  attachée à ce Pokémon."
 			},
 			damage: 60,
 

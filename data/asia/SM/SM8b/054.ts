@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウソッキー",
+		'ja-jp': "ウソッキー",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "襲われないため 樹木の 真似を するが 嫌いな 水を かけられて あわてて 逃げだしていく。",
+		'ja-jp': "襲われないため 樹木の 真似を するが 嫌いな 水を かけられて あわてて 逃げだしていく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みちをふさぐ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手がベンチに出せるポケモンの数は、4匹になる。相手のベンチに5匹以上いる場合は、相手はベンチが4匹になるまでポケモンをトラッシュする。［ベンチの数を変更する効果は、少ない数が優先される。］",
+				'ja-jp': "このポケモンがいるかぎり、相手がベンチに出せるポケモンの数は、4匹になる。相手のベンチに5匹以上いる場合は、相手はベンチが4匹になるまでポケモンをトラッシュする。［ベンチの数を変更する効果は、少ない数が優先される。］",
 			},
 		},
 	],

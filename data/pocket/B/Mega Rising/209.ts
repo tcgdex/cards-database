@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rookidee"
+		'en-us': "Rookidee"
 	},
 
 	illustrator: "OKACHEKE",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "The females are fussier than the males. If another\ncreature dirties a female Rookidee's wings, it'll\npeck the offender relentlessly in a burning rage."
+		'en-us': "The females are fussier than the males. If another\ncreature dirties a female Rookidee's wings, it'll\npeck the offender relentlessly in a burning rage."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flap"
+			'en-us': "Flap"
 		},
 
 		damage: 20,

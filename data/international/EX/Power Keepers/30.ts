@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Glalie",
-		fr: "Oniglali",
-		de: "Firnontor"
+		'en-us': "Glalie",
+		'fr-fr': "Oniglali",
+		'de-de': "Firnontor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snorunt",
-		fr: "Stalgamin"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Synergy Effect",
-				fr: "Effet synergie",
-				de: "Synergieeffekt"
+				'en-us': "Synergy Effect",
+				'fr-fr': "Effet synergie",
+				'de-de': "Synergieeffekt"
 			},
 			effect: {
-				en: "If Glacia's Stadium is in play, any damage done to Glalie by attacks from your opponent's Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Si Stade de Glacia est en jeu, tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Wenn Frosinas Stadion im Spiel ist, wird aller Schaden, der Firnontor durch Angriffe gegnerischer Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden.)"
+				'en-us': "If Glacia's Stadium is in play, any damage done to Glalie by attacks from your opponent's Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Si Stade de Glacia est en jeu, tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Wenn Frosinas Stadion im Spiel ist, wird aller Schaden, der Firnontor durch Angriffe gegnerischer Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden.)"
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				de: "Pulverschnee"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'de-de': "Pulverschnee"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Glalie does 10 damage to itself.",
-				fr: "Oniglali s'inflige 10 dégâts.",
-				de: "Firnontor fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Glalie does 10 damage to itself.",
+				'fr-fr': "Oniglali s'inflige 10 dégâts.",
+				'de-de': "Firnontor fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

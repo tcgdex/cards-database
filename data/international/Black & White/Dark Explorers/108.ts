@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Tornadus-EX",
-		fr: "Boréas-EX",
-		es: "Tornadus-EX",
-		it: "Tornadus-EX",
-		pt: "Tornadus-EX",
-		de: "Boreos-EX"
+		'en-us': "Tornadus-EX",
+		'fr-fr': "Boréas-EX",
+		'es-es': "Tornadus-EX",
+		'it-it': "Tornadus-EX",
+		'pt-br': "Tornadus-EX",
+		'de-de': "Boreos-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blow Through",
-				fr: "Grosse Bourrasque"
+				'en-us': "Blow Through",
+				'fr-fr': "Grosse Bourrasque"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 30 more damage.",
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires."
+				'en-us': "If there is any Stadium card in play, this attack does 30 more damage.",
+				'fr-fr': "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Blast",
-				fr: "Violente Déflagration"
+				'en-us': "Power Blast",
+				'fr-fr': "Violente Déflagration"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon."
+				'en-us': "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 100,
 

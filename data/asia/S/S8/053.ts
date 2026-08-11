@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 		'zh-tw': "隆隆石",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
+		'ja-jp': "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
 		'zh-tw': "藉著從山崖上滾落來移動。如果不小心掉進河裡，就會在最後掙扎時來個大爆炸。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ロックスマッシュ",
+				'ja-jp': "ロックスマッシュ",
 				'zh-tw': "岩石粉碎",
 			},
 			damage: 70,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 	},
 
 	retreat: 4,

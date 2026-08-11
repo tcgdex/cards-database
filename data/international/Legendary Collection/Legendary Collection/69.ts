@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Caterpie"
+		'en-us': "Caterpie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "String Shot"
+				'en-us': "String Shot"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+		'en-us': "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
 	},
 
 	variants: [

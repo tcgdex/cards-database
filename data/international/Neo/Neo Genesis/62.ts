@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fin Slap",
-				fr: "Koud' nageoire",
-				de: "Fin Slap"
+				'en-us': "Fin Slap",
+				'fr-fr': "Koud' nageoire",
+				'de-de': "Fin Slap"
 			},
 			effect: {
-				en: "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage.",
-				fr: "Si une attaque a infligé des dégâts à Hypotrempe durant le dernier tour de votre adversaire, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Sinon, cette attaque inflige 20 dégâts.",
-				de: "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage."
+				'en-us': "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage.",
+				'fr-fr': "Si une attaque a infligé des dégâts à Hypotrempe durant le dernier tour de votre adversaire, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Sinon, cette attaque inflige 20 dégâts.",
+				'de-de': "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage."
 			},
 			damage: "20+",
 
@@ -54,8 +54,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin.",
-		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
+		'en-us': "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin.",
+		'fr-fr': "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
 	},
 
 

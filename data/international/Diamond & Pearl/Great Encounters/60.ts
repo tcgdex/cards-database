@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Balance",
-				fr: "Équilibre psy",
-				de: "Psycho-Ausgleich"
+				'en-us': "Psychic Balance",
+				'fr-fr': "Équilibre psy",
+				'de-de': "Psycho-Ausgleich"
 			},
 			effect: {
-				en: "If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)",
-				fr: "Si vous avez moins de cartes en main que votre adversaire, piochez des cartes jusqu'à ce que vous ayez le même nombre de cartes en main. (Si vous avez plus ou autant de cartes en main que votre adversaire, cette attaque est sans effet.)",
-				de: "Wenn du weniger Karten auf der Hand hast als dein Gegner, ziehe so viele Karten von deinem Deck, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner. (Dieser Angriff hat keine Auswirkungen, wenn du nicht weniger Karten auf der Hand hast als dein Gegner.)"
+				'en-us': "If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)",
+				'fr-fr': "Si vous avez moins de cartes en main que votre adversaire, piochez des cartes jusqu'à ce que vous ayez le même nombre de cartes en main. (Si vous avez plus ou autant de cartes en main que votre adversaire, cette attaque est sans effet.)",
+				'de-de': "Wenn du weniger Karten auf der Hand hast als dein Gegner, ziehe so viele Karten von deinem Deck, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner. (Dieser Angriff hat keine Auswirkungen, wenn du nicht weniger Karten auf der Hand hast als dein Gegner.)"
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spin Turn",
-				fr: "Vrille",
-				de: "Absatzdreher"
+				'en-us': "Spin Turn",
+				'fr-fr': "Vrille",
+				'de-de': "Absatzdreher"
 			},
 			effect: {
-				en: "Switch Baltoy with 1 of your Benched Pokémon.",
-				fr: "Échangez Balbuto avec 1 de vos Pokémon de Banc.",
-				de: "Tausche Puppance gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Baltoy with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Balbuto avec 1 de vos Pokémon de Banc.",
+				'de-de': "Tausche Puppance gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+		'en-us': "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
 	},
 
 	thirdParty: {

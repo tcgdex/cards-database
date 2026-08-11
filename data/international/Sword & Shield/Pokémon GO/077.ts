@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slaking V",
-		fr: "Monaflèmit V",
-		es: "Slaking V",
-		it: "Slaking V",
-		pt: "Slaking V",
-		de: "Letarking V"
+		'en-us': "Slaking V",
+		'fr-fr': "Monaflèmit V",
+		'es-es': "Slaking V",
+		'it-it': "Slaking V",
+		'pt-br': "Slaking V",
+		'de-de': "Letarking V"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -26,21 +26,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Kinda Lazy",
-			fr: "Tire-au-Flanc",
-			es: "Remolón",
-			it: "Pigritudine",
-			pt: "Preguicento",
-			de: "Faulpelz"
+			'en-us': "Kinda Lazy",
+			'fr-fr': "Tire-au-Flanc",
+			'es-es': "Remolón",
+			'it-it': "Pigritudine",
+			'pt-br': "Preguicento",
+			'de-de': "Faulpelz"
 		},
 
 		effect: {
-			en: "If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can't attack.",
-			fr: "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, ce Pokémon ne peut pas attaquer.",
-			es: "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este Pokémon no puede atacar.",
-			it: "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo Pokémon non può attaccare.",
-			pt: "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este Pokémon não poderá atacar.",
-			de: "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, kann dieses Pokémon nicht angreifen."
+			'en-us': "If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can't attack.",
+			'fr-fr': "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este Pokémon no puede atacar.",
+			'it-it': "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo Pokémon non può attaccare.",
+			'pt-br': "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este Pokémon não poderá atacar.",
+			'de-de': "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, kann dieses Pokémon nicht angreifen."
 		}
 	}],
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			es: "Impacto Pesado",
-			it: "Impatto Pesante",
-			pt: "Impacto Pesado",
-			de: "Schwerer Einschlag"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'es-es': "Impacto Pesado",
+			'it-it': "Impatto Pesante",
+			'pt-br': "Impacto Pesado",
+			'de-de': "Schwerer Einschlag"
 		},
 
 		damage: 260

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Golurk V",
-		fr: "Golemastoc V",
-		es: "Golurk V",
-		it: "Golurk V",
-		pt: "Golurk V",
-		de: "Golgantes V"
+		'en-us': "Golurk V",
+		'fr-fr': "Golemastoc V",
+		'es-es': "Golurk V",
+		'it-it': "Golurk V",
+		'pt-br': "Golurk V",
+		'de-de': "Golgantes V"
 	},
 
 	rarity: "Ultra Rare",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			pt: "Mega Punch",
-			de: "Megahieb"
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'it-it': "Megapugno",
+			'pt-br': "Mega Punch",
+			'de-de': "Megahieb"
 		},
 
 		damage: 80,
 		cost: ["Psychic", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Rewind Beam",
-			fr: "Rayon Régressif",
-			es: "Rayo de Retorno",
-			it: "Riavvolgiraggio",
-			pt: "Rewind Beam",
-			de: "Rückspulstrahl"
+			'en-us': "Rewind Beam",
+			'fr-fr': "Rayon Régressif",
+			'es-es': "Rayo de Retorno",
+			'it-it': "Riavvolgiraggio",
+			'pt-br': "Rewind Beam",
+			'de-de': "Rückspulstrahl"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon évolué, faites-le dés-évoluer en plaçant la carte Évolution la plus élevée placée dessus dans la main de votre adversaire.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon evolucionado, involuciónalo poniendo la carta de Evolución de fase más alta que tenga sobre él en la mano de tu rival.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon evoluto, annulla la sua evoluzione mettendone la carta Evoluzione di fase più alta nella mano del tuo avversario.",
-			pt: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein entwickeltes Pokémon ist, rückentwickle es, indem du deinem Gegner die Karte mit der höchsten Entwicklungsstufe auf die Hand gibst."
+			'en-us': "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon évolué, faites-le dés-évoluer en plaçant la carte Évolution la plus élevée placée dessus dans la main de votre adversaire.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon evolucionado, involuciónalo poniendo la carta de Evolución de fase más alta que tenga sobre él en la mano de tu rival.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon evoluto, annulla la sua evoluzione mettendone la carta Evoluzione di fase più alta nella mano del tuo avversario.",
+			'pt-br': "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein entwickeltes Pokémon ist, rückentwickle es, indem du deinem Gegner die Karte mit der höchsten Entwicklungsstufe auf die Hand gibst."
 		},
 
 		damage: 180,

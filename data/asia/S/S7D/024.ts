@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガンV",
+		'ja-jp': "ルガルガンV",
 		'zh-tw': "鬃岩狼人V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "いわおとし",
+				'ja-jp': "いわおとし",
 				'zh-tw': "落石",
 			},
 			damage: 40,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "クラッシュファング",
+				'ja-jp': "クラッシュファング",
 				'zh-tw': "粉碎獠牙",
 			},
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルガモス",
+		'ja-jp': "ウルガモス",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎の りんぷんを まき散らす。 危険なのは 高熱よりも あたりの 酸素が なくなること。",
+		'ja-jp': "炎の りんぷんを まき散らす。 危険なのは 高熱よりも あたりの 酸素が なくなること。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'de-de': "Kapilz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Battle Blast",
-				fr: "Combat explosif",
-				de: "Battle Blast"
+				'en-us': "Battle Blast",
+				'fr-fr': "Combat explosif",
+				'de-de': "Battle Blast"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
-				de: "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
+				'en-us': "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
+				'de-de': "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
 			},
 			damage: "40+",
 

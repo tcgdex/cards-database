@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Light Steps",
-				fr: "Pas Légers",
-				es: "Pasos Ligeros",
-				it: "Passetto",
-				pt: "Passos Quietos",
-				de: "Auf leisen Sohlen"
+				'en-us': "Light Steps",
+				'fr-fr': "Pas Légers",
+				'es-es': "Pasos Ligeros",
+				'it-it': "Passetto",
+				'pt-br': "Passos Quietos",
+				'de-de': "Auf leisen Sohlen"
 			},
 			effect: {
-				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-				es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-				it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-				pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 an dieses Pokémon angelegte Energie auf 1 Pokémon auf deiner Bank."
+				'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+				'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+				'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+				'pt-br': "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+				'de-de': "Verschiebe 1 an dieses Pokémon angelegte Energie auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 40,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+		'en-us': "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
 	},
 
 	thirdParty: {

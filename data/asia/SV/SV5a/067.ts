@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイロス"
+		'ja-jp': "カイロス"
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ツノで 互いを 格付けする。 太く 立派な ツノを 持つ カイロスほど 異性に 人気。"
+		'ja-jp': "ツノで 互いを 格付けする。 太く 立派な ツノを 持つ カイロスほど 異性に 人気。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "スロークランチ"
+			'ja-jp': "スロークランチ"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "かいりきホーン"
+			'ja-jp': "かいりきホーン"
 		},
 
 		damage: 100

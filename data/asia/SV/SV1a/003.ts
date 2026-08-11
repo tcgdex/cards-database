@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モロバレル",
+		'ja-jp': "モロバレル",
 		'zh-tw': "敗露球菇",
-		th: "โมโรบาเรรุ",
-		id: "Amoonguss"
+		'th-th': "โมโรบาเรรุ",
+		'id-id': "Amoonguss"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "吹き出す 毒の胞子に 注意。 浴びた 部分から モロバレルの カサに 似た キノコが 生えてくる。",
+		'ja-jp': "吹き出す 毒の胞子に 注意。 浴びた 部分から モロバレルの カサに 似た キノコが 生えてくる。",
 		'zh-tw': "小心牠噴出的毒孢子。因為被噴到的地方會長出蘑菇， 形狀像是敗露球菇的菌傘。",
-		th: "ระวังสปอร์พิษที่มันพ่นออกมาให้ดี ถ้าโดนจะมีเห็ดที่เหมือนหมวกเห็ดของโมโรบาเรรุงอกขึ้นมาที่ส่วนนั้น",
-		id: "Hati-hati dengan spora racun yang dikeluarkan Amoonguss. Akan tumbuh jamur yang mirip dengan topi Pokémon ini pada bagian yang terkena."
+		'th-th': "ระวังสปอร์พิษที่มันพ่นออกมาให้ดี ถ้าโดนจะมีเห็ดที่เหมือนหมวกเห็ดของโมโรบาเรรุงอกขึ้นมาที่ส่วนนั้น",
+		'id-id': "Hati-hati dengan spora racun yang dikeluarkan Amoonguss. Akan tumbuh jamur yang mirip dengan topi Pokémon ini pada bagian yang terkena."
 	},
 
 	stage: "Stage1",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "あぶないほうし",
+			'ja-jp': "あぶないほうし",
 			'zh-tw': "險惡孢子",
-			th: "สปอร์อันตราย",
-			id: "Spora Berbahaya"
+			'th-th': "สปอร์อันตราย",
+			'id-id': "Spora Berbahaya"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくとマヒにする。",
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをどくとマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【中毒】與【麻痺】。",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]และ[ชา]",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun dan Lumpuh."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]และ[ชา]",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun dan Lumpuh."
 		}
 	}],
 

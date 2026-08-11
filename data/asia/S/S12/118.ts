@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ルギアVSTAR"
+		'ja-jp': "ルギアVSTAR"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -18,25 +18,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ストームダイブ"
+			'ja-jp': "ストームダイブ"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		}
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "アッセンブルスター"
+			'ja-jp': "アッセンブルスター"
 		},
 
 		effect: {
-			ja: "自分の番に使える。自分のトラッシュからポケモン（「ルールを持つポケモン」をのぞく）を2枚まで選び、ベンチに出す。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。自分のトラッシュからポケモン（「ルールを持つポケモン」をのぞく）を2枚まで選び、ベンチに出す。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

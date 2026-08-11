@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
-		fr: "Sulfura",
-		es: "Moltres",
-		it: "Moltres",
-		pt: "Moltres",
-		de: "Lavados"
+		'en-us': "Moltres",
+		'fr-fr': "Sulfura",
+		'es-es': "Moltres",
+		'it-it': "Moltres",
+		'pt-br': "Moltres",
+		'de-de': "Lavados"
 	},
 	illustrator: "Hitoshi Ariga",
 	rarity: "Promo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
-				es: "Ataque Ala",
-				it: "Attacco d’Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d’Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 70,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Attack",
-				fr: "Piqué",
-				es: "Ataque Aéreo",
-				it: "Aeroattacco",
-				pt: "Ataque do Céu",
-				de: "Himmelsfeger"
+				'en-us': "Sky Attack",
+				'fr-fr': "Piqué",
+				'es-es': "Ataque Aéreo",
+				'it-it': "Aeroattacco",
+				'pt-br': "Ataque do Céu",
+				'de-de': "Himmelsfeger"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 150,
 
@@ -90,7 +90,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+		'en-us': "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
 	},
 }
 

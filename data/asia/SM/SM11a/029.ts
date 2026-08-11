@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン",
+		'ja-jp': "ダダリン",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "緑のモズクを 絡ませ 生気を 奪い すする。 ホエルオーみたいな 大物ばかりを 好んで 狙う。",
+		'ja-jp': "緑のモズクを 絡ませ 生気を 奪い すする。 ホエルオーみたいな 大物ばかりを 好んで 狙う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "モズクでひろう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるトレーナーズを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるトレーナーズを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

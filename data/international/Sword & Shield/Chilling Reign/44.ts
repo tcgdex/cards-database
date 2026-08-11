@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapid Strike Urshifu",
-		fr: "Shifours Mille Poings",
-		es: "Urshifu Golpe Fluido",
-		it: "Urshifu Pluricolpo",
-		pt: "Urshifu Golpe Fluido",
-		de: "Fließender-Angriff-Wulaosu"
+		'en-us': "Rapid Strike Urshifu",
+		'fr-fr': "Shifours Mille Poings",
+		'es-es': "Urshifu Golpe Fluido",
+		'it-it': "Urshifu Pluricolpo",
+		'pt-br': "Urshifu Golpe Fluido",
+		'de-de': "Fließender-Angriff-Wulaosu"
 	},
 
 	illustrator: "Naoki Saito",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Kubfu",
-		fr: "Wushours",
-		es: "Kubfu",
-		it: "Kubfu",
-		pt: "Kubfu",
-		de: "Dakuma"
+		'en-us': "Kubfu",
+		'fr-fr': "Wushours",
+		'es-es': "Kubfu",
+		'it-it': "Kubfu",
+		'pt-br': "Kubfu",
+		'de-de': "Dakuma"
 	},
 
 	attacks: [{
 		name: {
-			en: "Slashing Claw",
-			fr: "Griffe Taillante",
-			es: "Garra Cuchillazo",
-			it: "Artigli Laceranti",
-			pt: "Garra Cortadora",
-			de: "Schlitzende Klaue"
+			'en-us': "Slashing Claw",
+			'fr-fr': "Griffe Taillante",
+			'es-es': "Garra Cuchillazo",
+			'it-it': "Artigli Laceranti",
+			'pt-br': "Garra Cortadora",
+			'de-de': "Schlitzende Klaue"
 		},
 
 		damage: 40,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Rapid-Fisted Rush",
-			fr: "Mille Poings Chargés",
-			es: "Embestida de Puño Fluido",
-			it: "Pugni Raffica Rapida",
-			pt: "Fúria de Punho Rápido",
-			de: "Fließende Fäuste"
+			'en-us': "Rapid-Fisted Rush",
+			'fr-fr': "Mille Poings Chargés",
+			'es-es': "Embestida de Puño Fluido",
+			'it-it': "Pugni Raffica Rapida",
+			'pt-br': "Fúria de Punho Rápido",
+			'de-de': "Fließende Fäuste"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
-			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
-			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
-			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Fließender-Angriff-Pokémon im Spiel 30 Schadenspunkte zu."
+			'en-us': "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
+			'it-it': "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Fließender-Angriff-Pokémon im Spiel 30 Schadenspunkte zu."
 		},
 
 		damage: "30×",
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+		'en-us': "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
 	},
 
 	variants: [

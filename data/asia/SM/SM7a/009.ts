@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・ブルル",
+		'ja-jp': "カプ・ブルル",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ウラウラの 守り神で 物臭。 草木を 操り 敵を 縛りつけ 動きを 止めて 角で 一突き。",
+		'ja-jp': "ウラウラの 守り神で 物臭。 草木を 操り 敵を 縛りつけ 動きを 止めて 角で 一突き。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数x20ダメージ。",
+				'ja-jp': "相手のベンチポケモンの数x20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このポケモンにも30ダメージ。",
+				'ja-jp': "コインを1回投げウラなら、このポケモンにも30ダメージ。",
 			},
 		},
 	],

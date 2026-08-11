@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウV",
+		'ja-jp': "ピカチュウV",
 		'zh-tw': "辣味香料咖哩",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			name: { ja: "じゅうでん" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の山札から[雷]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[雷]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Gähnen"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Gähnen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Attack",
-				fr: "Jet de sable",
-				de: "Sandwirbel"
+				'en-us': "Sand Attack",
+				'fr-fr': "Jet de sable",
+				'de-de': "Sandwirbel"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
-		fr: "Il vit dans des endroits arides. Il exsude du sable granuleux au lieu de transpirer."
+		'en-us': "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+		'fr-fr': "Il vit dans des endroits arides. Il exsude du sable granuleux au lieu de transpirer."
 	},
 
 	thirdParty: {

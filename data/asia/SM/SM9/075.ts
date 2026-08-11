@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケンタロス",
+		'ja-jp': "ケンタロス",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "集団で 生活する。 群れの 中で １番 太く 長く キズだらけの ツノを持つのが ボス。",
+		'ja-jp': "集団で 生活する。 群れの 中で １番 太く 長く キズだらけの ツノを持つのが ボス。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の「ケンタロス（GXをふくむ）」にのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "自分の場の「ケンタロス（GXをふくむ）」にのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 	],

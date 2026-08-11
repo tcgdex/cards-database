@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Klinklang",
-		fr: "Cliticlic",
-		es: "Klinklang",
-		it: "Klinklang",
-		pt: "Klinklang",
-		de: "Klikdiklak"
+		'en-us': "Klinklang",
+		'fr-fr': "Cliticlic",
+		'es-es': "Klinklang",
+		'it-it': "Klinklang",
+		'pt-br': "Klinklang",
+		'de-de': "Klikdiklak"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klang",
-		fr: "Clic"
+		'en-us': "Klang",
+		'fr-fr': "Clic"
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Blast",
-				fr: "Explosion Métallique"
+				'en-us': "Metal Blast",
+				'fr-fr': "Explosion Métallique"
 			},
 			effect: {
-				en: "Does 20 more damage for each Metal Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie  attachée à ce Pokémon."
+				'en-us': "Does 20 more damage for each Metal Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie  attachée à ce Pokémon."
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lock Gear",
-				fr: "Déclic Mécanique"
+				'en-us': "Lock Gear",
+				'fr-fr': "Déclic Mécanique"
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The gear with the red core is rotated at high speed for a rapid energy charge.",
+		'en-us': "The gear with the red core is rotated at high speed for a rapid energy charge.",
 	},
 
 	thirdParty: {

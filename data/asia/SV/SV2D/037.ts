@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 		'zh-tw': "沙基拉斯",
-		th: "ซานากิราส",
-		id: "Pupitar"
+		'th-th': "ซานากิราส",
+		'id-id': "Pupitar"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
+		'ja-jp': "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
 		'zh-tw': "會以強勁的力道噴出在體內壓縮好的氣體，好讓自己 能飛在空中大搞破壞的蛹。",
-		th: "เป็นดักแด้ที่บินและอาละวาดไปมาโดยการพ่นแก๊สที่อัดแน่นอยู่ภายในร่างกายออกมาอย่างรุนแรง",
-		id: "Pupitar adalah pupa yang mengamuk dan terbang dengan menyemburkan gas yang terkompres di dalam tubuhnya."
+		'th-th': "เป็นดักแด้ที่บินและอาละวาดไปมาโดยการพ่นแก๊สที่อัดแน่นอยู่ภายในร่างกายออกมาอย่างรุนแรง",
+		'id-id': "Pupitar adalah pupa yang mengamuk dan terbang dengan menyemburkan gas yang terkompres di dalam tubuhnya."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "とびだしヘッド",
+			'ja-jp': "とびだしヘッド",
 			'zh-tw': "魯莽頭擊",
-			th: "กระโดดโหม่ง",
-			id: "Sundulan Meloncat"
+			'th-th': "กระโดดโหม่ง",
+			'id-id': "Sundulan Meloncat"
 		},
 
 		damage: 50

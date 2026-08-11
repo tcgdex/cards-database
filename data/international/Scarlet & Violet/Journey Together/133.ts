@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hop's Rookidee",
-		fr: "Minisange de Nabil",
-		es: "Rookidee de Paul",
-		de: "Hops Meikro",
-		it: "Rookidee di Hop",
-		pt: "Rookidee do Lupo",
+		'en-us': "Hop's Rookidee",
+		'fr-fr': "Minisange de Nabil",
+		'es-es': "Rookidee de Paul",
+		'de-de': "Hops Meikro",
+		'it-it': "Rookidee di Hop",
+		'pt-br': "Rookidee do Lupo",
 		'es-mx': "Rookidee de Paul"
 	},
 
@@ -25,34 +25,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Intimidating Stare",
-			fr: "Yeux Intimidants",
-			es: "Mirada Intimidante",
-			de: "Einschüchterndes Starren",
-			it: "Sguardo Intimidatorio",
-			pt: "Encarada",
+			'en-us': "Intimidating Stare",
+			'fr-fr': "Yeux Intimidants",
+			'es-es': "Mirada Intimidante",
+			'de-de': "Einschüchterndes Starren",
+			'it-it': "Sguardo Intimidatorio",
+			'pt-br': "Encarada",
 			'es-mx': "Mirada Intimidante"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
-			de: "Während des nächsten Zuges deines Gegners fügen die vom Verteidigenden Pokémon eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
-			it: "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+			'en-us': "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			'de-de': "Während des nächsten Zuges deines Gegners fügen die vom Verteidigenden Pokémon eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
+			'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
 			'es-mx': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia)."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			de: "Pikser",
-			it: "Beccata",
-			pt: "Bicada",
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'de-de': "Pikser",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
 			'es-mx': "Picotazo"
 		},
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Beartic",
-		fr: "Polagriffe",
-		es: "Beartic",
-		it: "Beartic",
-		pt: "Beartic",
-		de: "Siberio"
+		'en-us': "Beartic",
+		'fr-fr': "Polagriffe",
+		'es-es': "Beartic",
+		'it-it': "Beartic",
+		'pt-br': "Beartic",
+		'de-de': "Siberio"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubchoo",
-		fr: "Polarhume",
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent Glace",
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent Glace",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpower",
-				fr: "Surpuissance",
+				'en-us': "Superpower",
+				'fr-fr': "Surpuissance",
 			},
 			effect: {
-				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+		'en-us': "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Palossand",
-		fr: "Trépassable",
-		es: "Palossand",
-		it: "Palossand",
-		pt: "Palossand",
-		de: "Colossand"
+		'en-us': "Palossand",
+		'fr-fr': "Trépassable",
+		'es-es': "Palossand",
+		'it-it': "Palossand",
+		'pt-br': "Palossand",
+		'de-de': "Colossand"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandygast",
-		fr: "Bacabouh",
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Wall of Sand",
-				fr: "Muraille de Sable",
-				es: "Muro de Arena",
-				it: "Murosabbia",
-				pt: "Muralha de Areia",
-				de: "Sandfeste"
+				'en-us': "Wall of Sand",
+				'fr-fr': "Muraille de Sable",
+				'es-es': "Muro de Arena",
+				'it-it': "Murosabbia",
+				'pt-br': "Muralha de Areia",
+				'de-de': "Sandfeste"
 			},
 			effect: {
-				en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb Vitality",
-				fr: "Absorb Vitalité",
-				es: "Absorber Vitalidad",
-				it: "Vitassorbimento",
-				pt: "Absorção de Vitalidade",
-				de: "Vitalitätsabsorber"
+				'en-us': "Absorb Vitality",
+				'fr-fr': "Absorb Vitalité",
+				'es-es': "Absorber Vitalidad",
+				'it-it': "Vitassorbimento",
+				'pt-br': "Absorção de Vitalidade",
+				'de-de': "Vitalitätsabsorber"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
-				es: "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
-				it: "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
-				pt: "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
-				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+				'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
+				'es-es': "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
+				'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
+				'pt-br': "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
+				'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 			},
 			damage: 50,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
+		'en-us': "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
 	},
 
 	thirdParty: {

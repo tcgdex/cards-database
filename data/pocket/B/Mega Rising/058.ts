@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish"
+		'en-us': "Corphish"
 	},
 
 	illustrator: "Sekio",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It was originally a Pokémon from afar that escaped\nto the wild. It can adapt to the dirtiest river."
+		'en-us': "It was originally a Pokémon from afar that escaped\nto the wild. It can adapt to the dirtiest river."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			'en-us': "Water Gun"
 		},
 
 		damage: 20,

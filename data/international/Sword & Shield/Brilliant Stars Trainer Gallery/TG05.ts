@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zekrom",
-		fr: "Zekrom",
-		es: "Zekrom",
-		it: "Zekrom",
-		pt: "Zekrom",
-		de: "Zekrom"
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom",
+		'es-es': "Zekrom",
+		'it-it': "Zekrom",
+		'pt-br': "Zekrom",
+		'de-de': "Zekrom"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Wild Shock",
-			fr: "Éclair Sauvage",
-			es: "Voltio Salvaje",
-			it: "Shock Feroce",
-			pt: "Choque Selvagem",
-			de: "Wilder Schock"
+			'en-us': "Wild Shock",
+			'fr-fr': "Éclair Sauvage",
+			'es-es': "Voltio Salvaje",
+			'it-it': "Shock Feroce",
+			'pt-br': "Choque Selvagem",
+			'de-de': "Wilder Schock"
 		},
 
 		effect: {
-			en: "This Pokémon also does 60 damage to itself. Your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Ce Pokémon s'inflige aussi 60 dégâts. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo. El Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Questo Pokémon infligge anche 60 danni a se stesso. Il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo. O Pokémon Ativo do seu oponente agora está Paralisado.",
-			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+			'en-us': "This Pokémon also does 60 damage to itself. Your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 60 dégâts. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Este Pokémon también se hace 60 puntos de daño a sí mismo. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Questo Pokémon infligge anche 60 danni a se stesso. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Este Pokémon também causa 60 pontos de dano a si mesmo. O Pokémon Ativo do seu oponente agora está Paralisado.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 		},
 
 		damage: 130
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings.",
+		'en-us': "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings.",
 	},
 
 	variants: [

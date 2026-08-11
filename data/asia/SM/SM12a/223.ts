@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲッコウガ&ゾロアークGX",
+		'ja-jp': "ゲッコウガ&ゾロアークGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ナイトユニゾンGX" },
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

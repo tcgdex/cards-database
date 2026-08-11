@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシレーヌGX",
+		'ja-jp': "アシレーヌGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[水]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[水]エネルギーの数x20ダメージ追加。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "グランエコーGX" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	retreat: 2,

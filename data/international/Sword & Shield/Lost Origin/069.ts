@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Radiant Gardevoir",
-		fr: "Gardevoir Radieux",
-		es: "Gardevoir Radiante",
-		it: "Gardevoir Lucente",
-		pt: "Gardevoir Radiante",
-		de: "Strahlendes Guardevoir"
+		'en-us': "Radiant Gardevoir",
+		'fr-fr': "Gardevoir Radieux",
+		'es-es': "Gardevoir Radiante",
+		'it-it': "Gardevoir Lucente",
+		'pt-br': "Gardevoir Radiante",
+		'de-de': "Strahlendes Guardevoir"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Loving Veil",
-			fr: "Voile Affectueux",
-			es: "Velo Amoroso",
-			it: "Velo Affettuoso",
-			pt: "Véu de Afeição",
-			de: "Liebevoller Schleier"
+			'en-us': "Loving Veil",
+			'fr-fr': "Voile Affectueux",
+			'es-es': "Velo Amoroso",
+			'it-it': "Velo Affettuoso",
+			'pt-br': "Véu de Afeição",
+			'de-de': "Liebevoller Schleier"
 		},
 
 		effect: {
-			en: "All of your Pokémon take 20 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).",
-			fr: "Tous vos Pokémon subissent 20 dégâts de moins provenant des attaques des Pokémon-V de votre adversaire (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques de los Pokémon V de tu rival hacen 20 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "I tuoi Pokémon subiscono 20 danni in meno dagli attacchi dei Pokémon-V del tuo avversario, dopo aver applicato debolezza e resistenza.",
-			pt: "Todos os seus Pokémon recebem 20 pontos de dano a menos de ataques dos Pokémon V do seu oponente (depois de aplicar Fraqueza e Resistência).",
-			de: "Allen deinen Pokémon werden durch Attacken von Pokémon-V deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "All of your Pokémon take 20 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance).",
+			'fr-fr': "Tous vos Pokémon subissent 20 dégâts de moins provenant des attaques des Pokémon-V de votre adversaire (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques de los Pokémon V de tu rival hacen 20 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "I tuoi Pokémon subiscono 20 danni in meno dagli attacchi dei Pokémon-V del tuo avversario, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Todos os seus Pokémon recebem 20 pontos de dano a menos de ataques dos Pokémon V do seu oponente (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Allen deinen Pokémon werden durch Attacken von Pokémon-V deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Psychic",
-			fr: "Psyko",
-			es: "Psíquico",
-			it: "Psichico",
-			pt: "Psíquico",
-			de: "Psychokinese"
+			'en-us': "Psychic",
+			'fr-fr': "Psyko",
+			'es-es': "Psíquico",
+			'it-it': "Psichico",
+			'pt-br': "Psíquico",
+			'de-de': "Psychokinese"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "70+"

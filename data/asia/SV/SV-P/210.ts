@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハッサムex",
+		'ja-jp': "ハッサムex",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "120×",
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "このポケモンについている[M]エネルギーを2枚までトラッシュし、その枚数×120ダメージ。",
+				'ja-jp': "このポケモンについている[M]エネルギーを2枚までトラッシュし、その枚数×120ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	retreat: 2,

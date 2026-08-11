@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユニラン",
+		'ja-jp': "ユニラン",
 	},
 
 	illustrator: "Cona Nitanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "テレパシーで 意思を 送りあう。 強いショックを 受けると 体を 包む 液体が 漏れ出す。",
+		'ja-jp': "テレパシーで 意思を 送りあう。 強いショックを 受けると 体を 包む 液体が 漏れ出す。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

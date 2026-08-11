@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライトドラゴンエア",
+		'ja-jp': "ライトドラゴンエア",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "癒しの光",
+				'ja-jp': "癒しの光",
 			},
 			effect: {
-				ja: "ダメージカウンターがあるポケモンのそれぞれから1つのダメージカウンターを削除します。",
+				'ja-jp': "ダメージカウンターがあるポケモンのそれぞれから1つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "保護波",
+				'ja-jp': "保護波",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ダメージを含む攻撃のすべての影響を防ぎ、Light Dragonairに行われます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ダメージを含む攻撃のすべての影響を防ぎ、Light Dragonairに行われます。",
 			},
 			damage: 20,
 		},

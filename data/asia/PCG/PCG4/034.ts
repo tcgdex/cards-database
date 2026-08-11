@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョルテオン",
+		'ja-jp': "ジョルテオン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "電流を引き付けます",
+				'ja-jp': "電流を引き付けます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、デッキを稲妻エネルギーカードに検索し、ポケモン1枚に取り付けます。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、デッキを稲妻エネルギーカードに検索し、ポケモン1枚に取り付けます。その後、デッキをシャッフルします。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "マルチパルス",
+				'ja-jp': "マルチパルス",
 			},
 			effect: {
-				ja: "Jolteonに3つ以上の異なるタイプの基本エネルギーカードが付属している場合、この攻撃は40ダメージに20ダメージを与え、防御ポケモンが混乱しています。",
+				'ja-jp': "Jolteonに3つ以上の異なるタイプの基本エネルギーカードが付属している場合、この攻撃は40ダメージに20ダメージを与え、防御ポケモンが混乱しています。",
 			},
 		},
 	],

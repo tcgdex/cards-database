@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Nounourson",
+		'fr-fr': "Nounourson",
 	},
 
 	rarity: "None",
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Regard Touchant"
+				'fr-fr': "Regard Touchant"
 			},
 			effect: {
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Charge"
+				'fr-fr': "Charge"
 			},
 			damage: 20
 		}

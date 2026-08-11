@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Staryu",
-		fr: "Stari",
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,13 +23,13 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup Rapide",
+				'en-us': "Lunge",
+				'fr-fr': "Coup Rapide",
 			},
 			damage: "20",
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
+		'en-us': "Luxio",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
+		'en-us': "Shinx",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fasten Claws",
+				'en-us': "Fasten Claws",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
 			},
 			damage: "10+",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Fang",
+				'en-us': "Thunder Fang",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups."
+		'en-us': "Its claws loose electricity with enough amperage to cause fainting. They live in small groups."
 	},
 
 	retreat: 0,

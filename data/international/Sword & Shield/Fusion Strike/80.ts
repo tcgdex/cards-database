@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chewtle",
-		fr: "Khélocrok",
-		es: "Chewtle",
-		it: "Chewtle",
-		pt: "Chewtle",
-		de: "Kamehaps"
+		'en-us': "Chewtle",
+		'fr-fr': "Khélocrok",
+		'es-es': "Chewtle",
+		'it-it': "Chewtle",
+		'pt-br': "Chewtle",
+		'de-de': "Kamehaps"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+		'en-us': "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
 	},
 
 	attacks: [{
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso"
 		},
 
 		damage: 30

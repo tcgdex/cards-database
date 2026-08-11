@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コンパン",
+		'ja-jp': "コンパン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。",
+		'ja-jp': "小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "レーダーアイ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札を上から7枚見て、その中にあるカードを1枚、手札に加える。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の山札を上から7枚見て、その中にあるカードを1枚、手札に加える。残りのカードは山札にもどして切る。",
 			},
 		},
 		{

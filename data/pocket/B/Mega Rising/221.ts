@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marlon"
+		'en-us': "Marlon"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Heal 70 damage from 1 of your Carracosta or Jellicent."
+		'en-us': "Heal 70 damage from 1 of your Carracosta or Jellicent."
 	},
 
 	trainerType: "Supporter",

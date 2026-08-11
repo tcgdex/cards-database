@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [623],
 
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	attacks: [
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dynamic Chop",
-				fr: "Coupe Dynamique",
-				es: "Golpe Dinámico",
-				it: "Dinamicolpo",
-				pt: "Golpe Dinâmico",
-				de: "Wuchthieb"
+				'en-us': "Dynamic Chop",
+				'fr-fr': "Coupe Dynamique",
+				'es-es': "Golpe Dinámico",
+				'it-it': "Dinamicolpo",
+				'pt-br': "Golpe Dinâmico",
+				'de-de': "Wuchthieb"
 			},
 
 			damage: 80,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Golurk Hammer",
-				fr: "Maillet Golemastoc",
-				es: "Martillo Golurk",
-				it: "Martello Golurk",
-				pt: "Martelo Golurk",
-				de: "Golgantes-Hammer"
+				'en-us': "Golurk Hammer",
+				'fr-fr': "Maillet Golemastoc",
+				'es-es': "Martillo Golurk",
+				'it-it': "Martello Golurk",
+				'pt-br': "Martelo Golurk",
+				'de-de': "Golgantes-Hammer"
 			},
 
 			damage: 180,
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
+		'en-us': "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
 	},
 
 	variants: [

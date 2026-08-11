@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Corphish",
-		fr: "Ecrapince",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Ecrapince",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing en tire-bouchon",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing en tire-bouchon",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 10,
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'de-de': "Guillotine"
 			},
 
 			damage: 30,

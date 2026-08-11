@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw5: Set = {
 	id: "bw5",
 
 	name: {
-		en: "Dark Explorers",
-		fr: "Explorateurs Obscurs",
-		it: "Esploratori delle Tenebre",
-		de: "Erfoscher der Finsternis",
-		es: "Oscuros Exploradores",
-		pt: "Exploradores da Escuridão"
+		'en-us': "Dark Explorers",
+		'fr-fr': "Explorateurs Obscurs",
+		'it-it': "Esploratori delle Tenebre",
+		'de-de': "Erfoscher der Finsternis",
+		'es-es': "Oscuros Exploradores",
+		'pt-br': "Exploradores da Escuridão"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw5: Set = {
 
 	abbreviations: {
 		official: "DEX",
-		fr: "EOB"
+		'fr-fr': "EOB"
 	},
 
 	thirdParty: {

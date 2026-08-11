@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "otumami",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud’Korne",
-				es: "Cornada",
-				it: "Incornata",
-				pt: "Ataque de Chifre",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’Korne",
+				'es-es': "Cornada",
+				'it-it': "Incornata",
+				'pt-br': "Ataque de Chifre",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
-				es: "Alud de Rocas",
-				it: "Macignata",
-				pt: "Rocha Esmagadora",
-				de: "Felsenquetscher"
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
+				'es-es': "Alud de Rocas",
+				'it-it': "Macignata",
+				'pt-br': "Rocha Esmagadora",
+				'de-de': "Felsenquetscher"
 			},
 
 			damage: 80,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		'en-us': "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	illustrator: "Kazuhisa Uragami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "食べた 落ち葉を 消化するとき 発電して 電気を 溜めこむ。 あごの 先端から 放電する。",
+		'ja-jp': "食べた 落ち葉を 消化するとき 発電して 電気を 溜めこむ。 あごの 先端から 放電する。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	retreat: 2,

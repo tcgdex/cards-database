@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Headache",
-				fr: "Migraine"
+				'en-us': "Headache",
+				'fr-fr': "Migraine"
 			},
 			effect: {
-				en: "Your opponent can't play Trainer cards during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de carte Dresseur pendant son prochain tour."
+				'en-us': "Your opponent can't play Trainer cards during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de carte Dresseur pendant son prochain tour."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
 			damage: "10×",
 
@@ -66,8 +66,8 @@ const card: Card = {
 
 
 	description: {
-		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
-		fr: "Alors qu'il trompe ses ennemis avec son air niais, ce Pokémon rusé utilise des pouvoirs psychokinésiques."
+		'en-us': "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
+		'fr-fr': "Alors qu'il trompe ses ennemis avec son air niais, ce Pokémon rusé utilise des pouvoirs psychokinésiques."
 	},
 
 	variants: [

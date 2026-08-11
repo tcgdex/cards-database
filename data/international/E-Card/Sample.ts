@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../E-Card'
 
 const sp: Set = {
 	id: "sp",
 
 	name: {
-		en: "Sample"
+		'en-us': "Sample"
 	},
 
 	serie: serie,

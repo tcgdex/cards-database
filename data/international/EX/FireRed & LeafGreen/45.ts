@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Pidgeotto",
-		fr: "Roucoups",
-		de: "Tauboga"
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
+		'de-de': "Tauboga"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgey",
-		fr: "Roucool"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Clutch"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Clutch"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 10,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cutting Wind",
-				fr: "Vent glacial",
-				de: "Cutting Wind"
+				'en-us': "Cutting Wind",
+				'fr-fr': "Vent glacial",
+				'de-de': "Cutting Wind"
 			},
 
 			damage: 30,

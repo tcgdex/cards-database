@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジガルデ",
+		'ja-jp': "ジガルデ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "生態系を 脅かす者を 圧倒的な 力を 以て 制圧する ジガルデの 姿。",
+		'ja-jp': "生態系を 脅かす者を 圧倒的な 力を 以て 制圧する ジガルデの 姿。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Darkness", "Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[悪]エネルギーと[妖]エネルギーを、1個ずつトラッシュする。",
+				'ja-jp': "このポケモンについている[悪]エネルギーと[妖]エネルギーを、1個ずつトラッシュする。",
 			},
 		},
 	],

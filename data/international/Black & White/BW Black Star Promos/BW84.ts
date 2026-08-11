@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Porygon-Z",
-		fr: "Porygon-Z",
+		'en-us': "Porygon-Z",
+		'fr-fr': "Porygon-Z",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Colorless",
 	],
 	evolveFrom: {
-		en: "Porygon2",
-		fr: "Porygon2",
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
 	},
 	stage: "Stage2",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Plasma Transfer",
-				fr: "Transfert Plasma",
+				'en-us': "Plasma Transfer",
+				'fr-fr': "Transfert Plasma",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Plasma Energy attached to 1 of your Pokémon to another of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Plasma attachée à 1 de vos Pokémon vers un autre de vos Pokémon.",
+				'en-us': "As often as you like during your turn (before your attack), you may move a Plasma Energy attached to 1 of your Pokémon to another of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Plasma attachée à 1 de vos Pokémon vers un autre de vos Pokémon.",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tri Attack",
-				fr: "Triplattaque",
+				'en-us': "Tri Attack",
+				'fr-fr': "Triplattaque",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+		'en-us': "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
 	},
 }
 

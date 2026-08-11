@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electivire",
-		fr: "Élekable",
-		es: "Electivire",
-		it: "Electivire",
-		pt: "Electivire",
-		de: "Elevoltek"
+		'en-us': "Electivire",
+		'fr-fr': "Élekable",
+		'es-es': "Electivire",
+		'it-it': "Electivire",
+		'pt-br': "Electivire",
+		'de-de': "Elevoltek"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Electroslug",
-			fr: "Électro Frappe",
-			es: "Electropuñetazo",
-			it: "Elettropugno",
-			pt: "Soco Elétrico",
-			de: "Elektroschuss"
+			'en-us': "Electroslug",
+			'fr-fr': "Électro Frappe",
+			'es-es': "Electropuñetazo",
+			'it-it': "Elettropugno",
+			'pt-br': "Soco Elétrico",
+			'de-de': "Elektroschuss"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Unleash Lightning",
-			fr: "Déchaînement d'Éclairs",
-			es: "Relámpago Desatado",
-			it: "Scatenafulmini",
-			pt: "Lançamento de Raios",
-			de: "Blitzentladung"
+			'en-us': "Unleash Lightning",
+			'fr-fr': "Déchaînement d'Éclairs",
+			'es-es': "Relámpago Desatado",
+			'it-it': "Scatenafulmini",
+			'pt-br': "Lançamento de Raios",
+			'de-de': "Blitzentladung"
 		},
 
 		effect: {
-			en: "During your next turn, your Pokémon can't attack. (This includes new Pokémon that come into play.)",
-			fr: "Pendant votre prochain tour, vos Pokémon ne peuvent pas attaquer. (Cela comprend les nouveaux Pokémon qui sont mis en jeu.)",
-			es: "Durante tu próximo turno, tus Pokémon no pueden atacar. (Esto incluye los nuevos Pokémon que entren en juego).",
-			it: "Durante il tuo prossimo turno, i tuoi Pokémon non possono attaccare. Questo include i nuovi Pokémon entrati in gioco.",
-			pt: "Durante o seu próximo turno, seus Pokémon não poderão atacar. (Isto inclui novos Pokémon que entrarem em jogo.)",
-			de: "Während deines nächsten Zuges können deine Pokémon nicht angreifen. (Dies schließt neue Pokémon ein, die ins Spiel gebracht werden.)"
+			'en-us': "During your next turn, your Pokémon can't attack. (This includes new Pokémon that come into play.)",
+			'fr-fr': "Pendant votre prochain tour, vos Pokémon ne peuvent pas attaquer. (Cela comprend les nouveaux Pokémon qui sont mis en jeu.)",
+			'es-es': "Durante tu próximo turno, tus Pokémon no pueden atacar. (Esto incluye los nuevos Pokémon que entren en juego).",
+			'it-it': "Durante il tuo prossimo turno, i tuoi Pokémon non possono attaccare. Questo include i nuovi Pokémon entrati in gioco.",
+			'pt-br': "Durante o seu próximo turno, seus Pokémon não poderão atacar. (Isto inclui novos Pokémon que entrarem em jogo.)",
+			'de-de': "Während deines nächsten Zuges können deine Pokémon nicht angreifen. (Dies schließt neue Pokémon ein, die ins Spiel gebracht werden.)"
 		},
 
 		damage: 220

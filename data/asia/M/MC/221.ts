@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウネルミナモ",
+		'ja-jp': "ウネルミナモ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "謎多き 凶暴な 生物。 古い 探検記に 記された 水の 怪物から 名付けられた。",
+		'ja-jp': "謎多き 凶暴な 生物。 古い 探検記に 記された 水の 怪物から 名付けられた。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。",
+				'ja-jp': "このポケモンのHPを「20」回復する。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンを9個までのせ、のせた数×20ダメージ。",
+				'ja-jp': "このポケモンにダメカンを9個までのせ、のせた数×20ダメージ。",
 			},
 		},
 	],

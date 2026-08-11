@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クワガノンGX",
+		'ja-jp': "クワガノンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュにあるエネルギーを1枚、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュにあるエネルギーを1枚、このポケモンにつける。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 180,
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "ギガトロンGX" },
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモン全員に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	retreat: 1,

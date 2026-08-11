@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Garbodor",
-		fr: "Miasmax",
-		es: "Garbodor",
-		it: "Garbodor",
-		pt: "Garbodor",
-		de: "Deponitox"
+		'en-us': "Garbodor",
+		'fr-fr': "Miasmax",
+		'es-es': "Garbodor",
+		'it-it': "Garbodor",
+		'pt-br': "Garbodor",
+		'de-de': "Deponitox"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trubbish",
-		fr: "Miamiasme",
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Biosmog",
-				fr: "Brouillard Toxique",
+				'en-us': "Biosmog",
+				'fr-fr': "Brouillard Toxique",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, discard an Energy attached to that Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "The Defending Pokémon is now Poisoned. Flip a coin. If heads, discard an Energy attached to that Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
 			},
 
 			damage: 70,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		'en-us': "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
 	},
 
 	thirdParty: {

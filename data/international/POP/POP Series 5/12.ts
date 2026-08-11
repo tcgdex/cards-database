@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule éclair"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule éclair"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Pikachu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu."
+				'en-us': "Discard all Energy cards attached to Pikachu.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Pikachu."
 			},
 			damage: 50,
 

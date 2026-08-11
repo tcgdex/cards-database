@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xurkitree",
-		es: "Xurkitree"
+		'en-us': "Xurkitree",
+		'es-es': "Xurkitree"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Although it's alien to this world and a danger here, it's apparently\na common organism in the world where it normally lives.",
-		es: "Para los seres de este mundo resulta extraño y peligroso, pero\nen el mundo del que procede es una criatura muy común."
+		'en-us': "Although it's alien to this world and a danger here, it's apparently\na common organism in the world where it normally lives.",
+		'es-es': "Para los seres de este mundo resulta extraño y peligroso, pero\nen el mundo del que procede es una criatura muy común."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Electronica",
-			es: "Electrónica"
+			'en-us': "Electronica",
+			'es-es': "Electrónica"
 		},
 
 		damage: 60,
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido"
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido"
 		}
 	}],
 

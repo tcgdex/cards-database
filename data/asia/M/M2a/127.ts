@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザ",
+		'ja-jp': "レックウザ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
+		'ja-jp': "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "この番に、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
+				'ja-jp': "この番に、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
 			},
 		},
 		{

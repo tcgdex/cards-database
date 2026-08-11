@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グリガー",
+		'ja-jp': "グリガー",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "フリーフライト",
+				'ja-jp': "フリーフライト",
 			},
 			effect: {
-				ja: "Gligarにエネルギーが付着していない場合、Gligarのリトリートコストは0です。",
+				'ja-jp': "Gligarにエネルギーが付着していない場合、Gligarのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "有毒グリップ",
+				'ja-jp': "有毒グリップ",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 10,
 		},

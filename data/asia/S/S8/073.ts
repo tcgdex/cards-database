@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーマーガア",
+		'ja-jp': "アーマーガア",
 		'zh-tw': "鋼鎧鴉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "飛行能力に 優れていて とても 賢いため ガラル地方で 空の タクシーとして 活躍。",
+		'ja-jp': "飛行能力に 優れていて とても 賢いため ガラル地方で 空の タクシーとして 活躍。",
 		'zh-tw': "擁有優秀飛行能力和極度聰明頭腦的牠在伽勒爾地區從事飛翔計程車的工作。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はがねのつばさ",
+				'ja-jp': "はがねのつばさ",
 				'zh-tw': "鋼翼",
 			},
 			damage: 50,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			},
 		},
 		{
 			name: {
-				ja: "パワーサイクロン",
+				'ja-jp': "パワーサイクロン",
 				'zh-tw': "能量旋風",
 			},
 			damage: 160,
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，改附於備戰寶可夢身上。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アオガラス",
+		'ja-jp': "アオガラス",
 	},
 
 	retreat: 2,

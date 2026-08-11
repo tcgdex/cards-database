@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニスズメ",
+		'ja-jp': "オニスズメ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分のテリトリーを 守るためなら 大きな ポケモンが 相手でも 向かっていく 向こう見ずな 性質。",
+		'ja-jp': "自分のテリトリーを 守るためなら 大きな ポケモンが 相手でも 向かっていく 向こう見ずな 性質。",
 	},
 
 	stage: "Basic",

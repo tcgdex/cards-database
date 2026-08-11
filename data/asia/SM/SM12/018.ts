@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニゴーリ",
+		'ja-jp': "オニゴーリ",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "獲物を 凍らせ 丸かじり。 だけど 好物は バニプッチなどの もともと 凍っている ポケモンだ。",
+		'ja-jp': "獲物を 凍らせ 丸かじり。 だけど 好物は バニプッチなどの もともと 凍っている ポケモンだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。さらに、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。さらに、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 3,

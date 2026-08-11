@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Numel does 10 damage to itself.",
-				fr: "Chamallot s'inflige 10 dégâts.",
-				de: "Camaub fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Numel does 10 damage to itself.",
+				'fr-fr': "Chamallot s'inflige 10 dégâts.",
+				'de-de': "Camaub fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

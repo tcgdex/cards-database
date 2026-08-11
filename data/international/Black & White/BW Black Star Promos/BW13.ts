@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+		'en-us': "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
 	},
 }
 

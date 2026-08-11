@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Tangela"
+		'en-us': "Tangela"
 	},
 
 	description: {
-		en: "Tangrowth has two arms that it can extend as it\npleases. Recent research has shown that these\narms are, in fact, bundles of vines.",
-		fr: "La science a récemment découvert que les deux bras qu'il peut allonger à volonté sont en fait des lianes entrelacées."
+		'en-us': "Tangrowth has two arms that it can extend as it\npleases. Recent research has shown that these\narms are, in fact, bundles of vines.",
+		'fr-fr': "La science a récemment découvert que les deux bras qu'il peut allonger à volonté sont en fait des lianes entrelacées."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Grass Knot",
-			fr: "Nœud Herbe"
+			'en-us': "Grass Knot",
+			'fr-fr': "Nœud Herbe"
 		},
 
 		damage: 10,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "This attack does 40 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+			'en-us': "This attack does 40 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost.",
+			'fr-fr': "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie dans le Coût de Retraite du Pokémon Actif de votre adversaire."
 		}
 	}],
 

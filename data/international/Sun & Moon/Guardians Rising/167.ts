@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Grass Energy",
-		fr: "Énergie Plante",
-		es: "Energía Planta",
-		it: "Energia Erba",
-		pt: "Energia de Planta",
-		de: "Pflanze-Energie"
+		'en-us': "Grass Energy",
+		'fr-fr': "Énergie Plante",
+		'es-es': "Energía Planta",
+		'it-it': "Energia Erba",
+		'pt-br': "Energia de Planta",
+		'de-de': "Pflanze-Energie"
 	},
 
 	illustrator: undefined,
@@ -19,12 +19,12 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'en-us': "",
+		'fr-fr': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	thirdParty: {

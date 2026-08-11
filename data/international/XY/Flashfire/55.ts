@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Skuntank",
-		fr: "Moufflair",
-		es: "Skuntank",
-		it: "Skuntank",
-		pt: "Skuntank",
-		de: "Skuntank"
+		'en-us': "Skuntank",
+		'fr-fr': "Moufflair",
+		'es-es': "Skuntank",
+		'it-it': "Skuntank",
+		'pt-br': "Skuntank",
+		'de-de': "Skuntank"
 	},
 
 	illustrator: "kirisAki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
-		it: "Stunky",
-		pt: "Stunky",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Recul",
-				es: "Oprimir",
-				it: "Spintonare",
-				pt: "Rebaixar",
-				de: "Runterdrücken"
+				'en-us': "Push Down",
+				'fr-fr': "Recul",
+				'es-es': "Oprimir",
+				'it-it': "Spintonare",
+				'pt-br': "Rebaixar",
+				'de-de': "Runterdrücken"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acid Spray",
-				fr: "Bombe Acide",
-				es: "Bomba Ácida",
-				it: "Acidobomba",
-				pt: "Spray Ácido",
-				de: "Säurespeier"
+				'en-us': "Acid Spray",
+				'fr-fr': "Bombe Acide",
+				'es-es': "Bomba Ácida",
+				'it-it': "Acidobomba",
+				'pt-br': "Spray Ácido",
+				'de-de': "Säurespeier"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 
@@ -106,7 +106,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+		'en-us': "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
 	},
 
 	thirdParty: {

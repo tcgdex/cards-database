@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 30,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stomp",
-				fr: "Double Écrasement",
-				es: "Pisotón Doble",
-				it: "Doppio Pestone",
-				pt: "Pisoteada Dupla",
-				de: "Doppelstampfer"
+				'en-us': "Double Stomp",
+				'fr-fr': "Double Écrasement",
+				'es-es': "Pisotón Doble",
+				'it-it': "Doppio Pestone",
+				'pt-br': "Pisoteada Dupla",
+				'de-de': "Doppelstampfer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50+",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+		'en-us': "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
 	},
 
 	thirdParty: {

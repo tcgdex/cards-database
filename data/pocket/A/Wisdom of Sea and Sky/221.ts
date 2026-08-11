@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	illustrator: "MAHOU",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It lives in groups in the treetops. If it loses sight of\nits group, it becomes infuriated by its loneliness.",
-		fr: "Il vit en groupe au sommet des arbres. S'il perd ses congénères de vue, la solitude le rend furieux."
+		'en-us': "It lives in groups in the treetops. If it loses sight of\nits group, it becomes infuriated by its loneliness.",
+		'fr-fr': "Il vit en groupe au sommet des arbres. S'il perd ses congénères de vue, la solitude le rend furieux."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Focus Fist",
-			fr: "Poing Concentré"
+			'en-us': "Focus Fist",
+			'fr-fr': "Poing Concentré"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 

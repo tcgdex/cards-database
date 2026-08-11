@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
+		'en-us': "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			es: "Placaje",
-			pt: "Investida",
-			it: "Azione"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
+			'it-it': "Azione"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			de: "Samenbomben",
-			es: "Bomba Germen",
-			pt: "Bomba de Sementes",
-			it: "Semebomba"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'de-de': "Samenbomben",
+			'es-es': "Bomba Germen",
+			'pt-br': "Bomba de Sementes",
+			'it-it': "Semebomba"
 		},
 
 		damage: 20

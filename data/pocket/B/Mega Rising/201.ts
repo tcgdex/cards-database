@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillipup"
+		'en-us': "Lillipup"
 	},
 
 	illustrator: "Sekio",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon is far brighter than the average\nchild, and Lillipup won't forget the love it\nreceives or any abuse it suffers."
+		'en-us': "This Pokémon is far brighter than the average\nchild, and Lillipup won't forget the love it\nreceives or any abuse it suffers."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			'en-us': "Collect"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			'en-us': "Draw a card."
 		}
 	}],
 

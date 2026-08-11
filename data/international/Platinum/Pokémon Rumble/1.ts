@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Venusaur"
+		'en-us': "Venusaur"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur"
+		'en-us': "Ivysaur"
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain"
+				'en-us': "Giga Drain"
 			},
 			effect: {
-				en: "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
+				'en-us': "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
 			},
 			damage: 50,
 

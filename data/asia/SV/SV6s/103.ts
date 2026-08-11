@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Timburr"
+		'id-id': "Timburr"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Timburr bertarung dengan mengayun-ayunkan balok kayu. Jika ia dapat mengangkat balok kayu yang berat tanpa kesulitan, itu pertanda evolusinya sudah dekat."
+		'id-id': "Timburr bertarung dengan mengayun-ayunkan balok kayu. Jika ia dapat mengangkat balok kayu yang berat tanpa kesulitan, itu pertanda evolusinya sudah dekat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pukulan Sekuat Tenaga"
+			'id-id': "Pukulan Sekuat Tenaga"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 40,

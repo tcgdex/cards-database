@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Armor",
-				fr: "Double armure",
-				de: "Dual Armor"
+				'en-us': "Dual Armor",
+				'fr-fr': "Double armure",
+				'de-de': "Dual Armor"
 			},
 			effect: {
-				en: "As long as Magcargo has any Fighting Energy attached to it, Magcargo is both Fire and Fighting type.",
-				fr: "Tant que Volcaropod possède des Énergies , il est de type  et .",
-				de: "As long as Magcargo has any  Energy attached to it, Magcargo is both  and  type."
+				'en-us': "As long as Magcargo has any Fighting Energy attached to it, Magcargo is both Fire and Fighting type.",
+				'fr-fr': "Tant que Volcaropod possède des Énergies , il est de type  et .",
+				'de-de': "As long as Magcargo has any  Energy attached to it, Magcargo is both  and  type."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 30,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Flame",
-				fr: "Flamme supplémentaire",
-				de: "Extra Flame"
+				'en-us': "Extra Flame",
+				'fr-fr': "Flamme supplémentaire",
+				'de-de': "Extra Flame"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage."
 			},
 			damage: "40+",
 

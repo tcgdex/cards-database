@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティテート",
+		'ja-jp': "ラティテート",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "連続した噛みつき",
+				'ja-jp': "連続した噛みつき",
 			},
 			effect: {
-				ja: "3コインをフリップします。 1ヘッドを獲得した場合、この攻撃は10ダメージに加えて10ダメージを与えます。 2つのヘッドを獲得した場合、この攻撃は10ダメージに加えて30ダメージを与えます。 3ヘッドを獲得した場合、この攻撃は10ダメージに加えて60ダメージを与えます。",
+				'ja-jp': "3コインをフリップします。 1ヘッドを獲得した場合、この攻撃は10ダメージに加えて10ダメージを与えます。 2つのヘッドを獲得した場合、この攻撃は10ダメージに加えて30ダメージを与えます。 3ヘッドを獲得した場合、この攻撃は10ダメージに加えて60ダメージを与えます。",
 			},
 		},
 	],

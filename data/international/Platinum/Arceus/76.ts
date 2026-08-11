@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				de: "Absorber"
+				'en-us': "Absorb",
+				'de-de': "Absorber"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Tangela.",
-				de: "Entferne 1 Schadensmarke von Tangela."
+				'en-us': "Remove 1 damage counter from Tangela.",
+				'de-de': "Entferne 1 Schadensmarke von Tangela."
 			},
 			damage: 10,
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Powder",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
+		'en-us': "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
 	},
 
 	variants: [

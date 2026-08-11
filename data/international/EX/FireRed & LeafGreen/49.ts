@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Venomoth",
-		fr: "Aéromite",
-		de: "Omot"
+		'en-us': "Venomoth",
+		'fr-fr': "Aéromite",
+		'de-de': "Omot"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat",
-		fr: "Mimitoss"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Protective Dust",
-				fr: "Poussière Protectrice",
-				de: "Protective Dust"
+				'en-us': "Protective Dust",
+				'fr-fr': "Poussière Protectrice",
+				'de-de': "Protective Dust"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite par le Pokémon Attaquant.",
-				de: "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon."
+				'en-us': "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite par le Pokémon Attaquant.",
+				'de-de': "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison dodo",
-				de: "Sleep Poison"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison dodo",
+				'de-de': "Sleep Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "The Defending Pokémon is now Asleep and Poisoned."
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "The Defending Pokémon is now Asleep and Poisoned."
 			},
 
 		},
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind",
-				fr: "Coupe-vent",
-				de: "Razor Wind"
+				'en-us': "Razor Wind",
+				'fr-fr': "Coupe-vent",
+				'de-de': "Razor Wind"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 60,
 

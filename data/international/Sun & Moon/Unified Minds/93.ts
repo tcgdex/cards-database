@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Cutter",
-				fr: "Lame Lacérante",
-				es: "Cuchillada Afilada",
-				it: "Fil di Lama",
-				pt: "Cortador Dilacerante",
-				de: "Schlitzender Schnitt"
+				'en-us': "Slashing Cutter",
+				'fr-fr': "Lame Lacérante",
+				'es-es': "Cuchillada Afilada",
+				'it-it': "Fil di Lama",
+				'pt-br': "Cortador Dilacerante",
+				'de-de': "Schlitzender Schnitt"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+		'en-us': "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
 	},
 
 	thirdParty: {

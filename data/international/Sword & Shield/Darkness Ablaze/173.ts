@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Yell Horn",
-		fr: "Clairon de la Team Yell",
-		es: "Trompeta Yell",
-		it: "Trombetta Yell",
-		pt: "Corneta da Equipe Yell",
-		de: "Yell-Tröte"
+		'en-us': "Yell Horn",
+		'fr-fr': "Clairon de la Team Yell",
+		'es-es': "Trompeta Yell",
+		'it-it': "Trombetta Yell",
+		'pt-br': "Corneta da Equipe Yell",
+		'de-de': "Yell-Tröte"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Both Active Pokémon are now Confused.",
-		fr: "Les deux Pokémon Actifs sont maintenant Confus.",
-		es: "Ambos Pokémon Activos pasan a estar Confundidos.",
-		it: "Entrambi i Pokémon attivi vengono confusi.",
-		pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-		de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+		'en-us': "Both Active Pokémon are now Confused.",
+		'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus.",
+		'es-es': "Ambos Pokémon Activos pasan a estar Confundidos.",
+		'it-it': "Entrambi i Pokémon attivi vengono confusi.",
+		'pt-br': "Ambos os Pokémon Ativos agora estão Confusos.",
+		'de-de': "Beide Aktiven Pokémon sind jetzt verwirrt."
 	},
 
 	trainerType: "Item",

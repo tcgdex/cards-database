@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "人気だが 数が 少ないので 貴重。 むやみに 見せびらかすと 泥棒に 狙われるぞ。",
+		'ja-jp': "人気だが 数が 少ないので 貴重。 むやみに 見せびらかすと 泥棒に 狙われるぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、手札にもどす。その後、のぞむなら、自分の手札にある「リーリエのピッピ人形」を直接バトル場に出す。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、手札にもどす。その後、のぞむなら、自分の手札にある「リーリエのピッピ人形」を直接バトル場に出す。",
 			},
 		},
 	],

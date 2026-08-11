@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Wachstum"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Wachstum"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
-				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
-				de: "Lege eine -Energiekarte von deiner Hand an Bisasam an."
+				'en-us': "Attach a Grass Energy card from your hand to Bulbasaur.",
+				'fr-fr': "Attachez une carte Énergie  de votre main à Bulbizarre.",
+				'de-de': "Lege eine -Energiekarte von deiner Hand an Bisasam an."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet lianes",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet lianes",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 20,

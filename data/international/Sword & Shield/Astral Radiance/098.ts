@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai V",
-		fr: "Darkrai V",
-		es: "Darkrai V",
-		it: "Darkrai V",
-		pt: "Darkrai V",
-		de: "Darkrai V"
+		'en-us': "Darkrai V",
+		'fr-fr': "Darkrai V",
+		'es-es': "Darkrai V",
+		'it-it': "Darkrai V",
+		'pt-br': "Darkrai V",
+		'de-de': "Darkrai V"
 	},
 
 	illustrator: "takuyoa",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Wind of Darkness",
-			fr: "Vent Obscur",
-			es: "Viento de Oscuridad",
-			it: "Vento dell'Oscurità",
-			pt: "Vento da Escuridão",
-			de: "Wind der Finsternis"
+			'en-us': "Wind of Darkness",
+			'fr-fr': "Vent Obscur",
+			'es-es': "Viento de Oscuridad",
+			'it-it': "Vento dell'Oscurità",
+			'pt-br': "Vento da Escuridão",
+			'de-de': "Wind der Finsternis"
 		},
 
 		damage: 50
@@ -39,21 +39,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Dark Void",
-			fr: "Trou Noir",
-			es: "Brecha Negra",
-			it: "Vuototetro",
-			pt: "Vácuo da Escuridão",
-			de: "Schlummerort"
+			'en-us': "Dark Void",
+			'fr-fr': "Trou Noir",
+			'es-es': "Brecha Negra",
+			'it-it': "Vuototetro",
+			'pt-br': "Vácuo da Escuridão",
+			'de-de': "Schlummerort"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 130

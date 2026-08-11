@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shinx",
-		fr: "Lixy"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "The extension and contraction of its muscles\ngenerates electricity. It glows when in trouble.",
-		fr: "Ses muscles génèrent un courant électrique lorsqu'ils travaillent. Il s'illumine en cas de danger."
+		'en-us': "The extension and contraction of its muscles\ngenerates electricity. It glows when in trouble.",
+		'fr-fr': "Ses muscles génèrent un courant électrique lorsqu'ils travaillent. Il s'illumine en cas de danger."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 20,

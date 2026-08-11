@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Diglett",
-		fr: "Taupiqueur d'Alola",
-		es: "Diglett de Alola",
-		it: "Diglett di Alola",
-		pt: "Diglett de Alola",
-		de: "Alola-Digda"
+		'en-us': "Alolan Diglett",
+		'fr-fr': "Taupiqueur d'Alola",
+		'es-es': "Diglett de Alola",
+		'it-it': "Diglett di Alola",
+		'pt-br': "Diglett de Alola",
+		'de-de': "Alola-Digda"
 	},
 
 	rarity: "Common",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			es: "Ataque Sorpresa",
-			it: "Attacco a Sorpresa",
-			pt: "Ataque Surpresa",
-			de: "Überraschungsangriff"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'es-es': "Ataque Sorpresa",
+			'it-it': "Attacco a Sorpresa",
+			'pt-br': "Ataque Surpresa",
+			'de-de': "Überraschungsangriff"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30

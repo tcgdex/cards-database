@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウパー",
+		'ja-jp': "ウパー",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "夕暮れどき 涼しくなると 水から 上がってきた ウパーたちは エサを 探して 水辺を 歩く。",
+		'ja-jp': "夕暮れどき 涼しくなると 水から 上がってきた ウパーたちは エサを 探して 水辺を 歩く。",
 	},
 
 	stage: "Basic",

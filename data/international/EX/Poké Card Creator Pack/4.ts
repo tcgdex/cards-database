@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Mudkip"
+		'en-us': "Mudkip"
 	},
 
 	illustrator: "Rowan Laidlaw",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Rap"
+				'en-us': "Tail Rap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypno Splash"
+				'en-us': "Hypno Splash"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 

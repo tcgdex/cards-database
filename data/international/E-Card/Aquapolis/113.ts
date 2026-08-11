@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Gaz toxik",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Gaz toxik",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Erholung"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Erholung"
 			},
 			effect: {
-				en: "Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
-				de: "Lege 1 an Tentacha angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Entferne alle Schadensmarken von Tentacha."
+				'en-us': "Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
+				'de-de': "Lege 1 an Tentacha angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Entferne alle Schadensmarken von Tentacha."
 			},
 
 		},

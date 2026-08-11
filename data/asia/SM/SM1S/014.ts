@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェルダー",
+		'ja-jp': "シェルダー",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "殻の 硬度は ダイヤモンドを 超える。 昔の人は カラを 集めて 盾を 造っていた。",
+		'ja-jp': "殻の 硬度は ダイヤモンドを 超える。 昔の人は カラを 集めて 盾を 造っていた。",
 	},
 
 	stage: "Basic",

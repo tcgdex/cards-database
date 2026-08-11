@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Croconaw",
-		fr: "Crocrodil obscur",
-		de: "Dunkles Tyracroc"
+		'en-us': "Dark Croconaw",
+		'fr-fr': "Crocrodil obscur",
+		'de-de': "Dunkles Tyracroc"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -38,15 +38,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Clamping Jaw",
-				fr: "Gouffre",
-				de: "Clamping Jaw"
+				'en-us': "Clamping Jaw",
+				'fr-fr': "Gouffre",
+				'de-de': "Clamping Jaw"
 			},
 
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing. (Benching either Pokémon ends this effect.)",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire. Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque ne fait rien. (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)",
-				de: "The Defending Pokémon can't retreat during your opponent's next turn. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing. (Benching either Pokémon ends this effect.)"
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing. (Benching either Pokémon ends this effect.)",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire. Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque ne fait rien. (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)",
+				'de-de': "The Defending Pokémon can't retreat during your opponent's next turn. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing. (Benching either Pokémon ends this effect.)"
 			},
 
 			damage: 20
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has 49 teeth in its mouth that are constantly replacing themselves. Pull one out, and a new one grows in.",
-		fr: "Il a 49 dents dans sa gueule qui se régénèrent constamment. Arrachez-en une et une nouvelle pousse à sa place."
+		'en-us': "It has 49 teeth in its mouth that are constantly replacing themselves. Pull one out, and a new one grows in.",
+		'fr-fr': "Il a 49 dents dans sa gueule qui se régénèrent constamment. Arrachez-en une et une nouvelle pousse à sa place."
 	},
 
 

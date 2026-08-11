@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Cacnea",
-		fr: "Cacnea",
-		es: "Cacnea",
-		it: "Cacnea",
-		pt: "Cacnea",
-		de: "Tuska"
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
+		'es-es': "Cacnea",
+		'it-it': "Cacnea",
+		'pt-br': "Cacnea",
+		'de-de': "Tuska"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 
 		},
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "By storing water in its body, this desert dweller can survive for 30 days without water.",
+		'en-us': "By storing water in its body, this desert dweller can survive for 30 days without water.",
 	},
 
 	thirdParty: {

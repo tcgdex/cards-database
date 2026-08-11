@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Corayon de Galar",
-		en: "Galarian Corsola",
-		es: "Corsola de Galar",
-		it: "Corsola di Galar",
-		pt: "Corsola de Galar",
-		de: "Galar-Corasonn"
+		'fr-fr': "Corayon de Galar",
+		'en-us': "Galarian Corsola",
+		'es-es': "Corsola de Galar",
+		'it-it': "Corsola di Galar",
+		'pt-br': "Corsola de Galar",
+		'de-de': "Galar-Corasonn"
 	},
 
 	illustrator: "Mizue",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Chute Maudite",
-			en: "Cursed Drop",
-			es: "Caída Maldita",
-			it: "Caduta Maledetta",
-			pt: "Queda Amaldiçoada",
-			de: "Verfluchter Fall"
+			'fr-fr': "Chute Maudite",
+			'en-us': "Cursed Drop",
+			'es-es': "Caída Maldita",
+			'it-it': "Caduta Maledetta",
+			'pt-br': "Queda Amaldiçoada",
+			'de-de': "Verfluchter Fall"
 		},
 
 		effect: {
-			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
-			es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-			it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
-			de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+			'fr-fr': "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			'en-us': "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+			'es-es': "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+			'it-it': "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+			'pt-br': "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+			'de-de': "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		},
 
 		cost: ["Psychic"]
@@ -57,7 +57,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
+		'en-us': "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
 	},
 
 	variants: [

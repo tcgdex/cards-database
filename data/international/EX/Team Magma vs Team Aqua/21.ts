@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Mightyena",
-		fr: "Grahyena de Team Magma",
-		de: "Team Magmas Magnayen"
+		'en-us': "Team Magma's Mightyena",
+		'fr-fr': "Grahyena de Team Magma",
+		'de-de': "Team Magmas Magnayen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Overrun",
-				fr: "Dépassement",
-				de: "Overrun"
+				'en-us': "Overrun",
+				'fr-fr': "Dépassement",
+				'de-de': "Overrun"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 10,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite Off",
-				fr: "Arracher d'un coup de dent",
-				de: "Bite Off"
+				'en-us': "Bite Off",
+				'fr-fr': "Arracher d'un coup de dent",
+				'de-de': "Bite Off"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage."
 			},
 			damage: "40+",
 

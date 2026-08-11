@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Steenee"
+		'id-id': "Steenee"
 	},
 
 	illustrator: "Kariya",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Steenee menyebarkan aroma manis yang dapat membuat perasaan menjadi semangat. Aroma tersebut sangat populer sebagai aroma perasa antiperspiran."
+		'id-id': "Steenee menyebarkan aroma manis yang dapat membuat perasaan menjadi semangat. Aroma tersebut sangat populer sebagai aroma perasa antiperspiran."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Serangan Berputar"
+			'id-id': "Serangan Berputar"
 		},
 
 		damage: 30,
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Double Spin"
+			'id-id': "Double Spin"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "40×",

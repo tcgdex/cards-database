@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのラフレシア",
+		'ja-jp': "エリカのラフレシア",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "花粉防衛",
+				'ja-jp': "花粉防衛",
 			},
 			effect: {
-				ja: "攻撃があなたのアクティブなPokmon <em>（たとえそれがノックアウトされていても）である間にエリカのvileplumeにダメージを与える場合、コインをひっくり返します。頭の場合、相手のアクティブなポクモンが混乱しています。エリカのvileplumeが眠っている、混乱し、麻痺しているときでさえ、この力は機能します。",
+				'ja-jp': "攻撃があなたのアクティブなPokmon <em>（たとえそれがノックアウトされていても）である間にエリカのvileplumeにダメージを与える場合、コインをひっくり返します。頭の場合、相手のアクティブなポクモンが混乱しています。エリカのvileplumeが眠っている、混乱し、麻痺しているときでさえ、この力は機能します。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "メガドレイン",
+				'ja-jp': "メガドレイン",
 			},
 			effect: {
-				ja: "ErikaのVileplumeが防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、ErikaのVileplumeから多くのダメージカウンターを除去して、防御ポケモンに与えられたダメージの半分に等しい（最も近い10に丸められます）。 ErikaのVileplumeのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
+				'ja-jp': "ErikaのVileplumeが防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、ErikaのVileplumeから多くのダメージカウンターを除去して、防御ポケモンに与えられたダメージの半分に等しい（最も近い10に丸められます）。 ErikaのVileplumeのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
 			},
 			damage: 30,
 		},

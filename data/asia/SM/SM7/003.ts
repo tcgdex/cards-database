@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュプトル",
+		'ja-jp': "ジュプトル",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "密林に 生息する。 枝から 枝へ 飛び移りながら 移動して 獲物に 接近する。",
+		'ja-jp': "密林に 生息する。 枝から 枝へ 飛び移りながら 移動して 獲物に 接近する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、40ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、40ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キモリ",
+		'ja-jp': "キモリ",
 	},
 
 	retreat: 1,

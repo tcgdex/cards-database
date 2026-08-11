@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow"
+		'en-us': "Honchkrow"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow"
+		'en-us': "Murkrow"
 	},
 
 	description: {
-		en: "A single cry from this nocturnal Pokémon, and\nmore than 100 of its Murkrow cronies will\nassemble."
+		'en-us': "A single cry from this nocturnal Pokémon, and\nmore than 100 of its Murkrow cronies will\nassemble."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Evil Admonition"
+			'en-us': "Evil Admonition"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 40 more damage for each of your opponent's Pokémon in play that has an Ability."
+			'en-us': "This attack does 40 more damage for each of your opponent's Pokémon in play that has an Ability."
 		}
 	}],
 

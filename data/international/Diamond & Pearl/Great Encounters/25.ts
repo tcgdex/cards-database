@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'de-de': "Milotic"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau",
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Marvel Scale",
-				fr: "Écaille spé.",
-				de: "Notschutz"
+				'en-us': "Marvel Scale",
+				'fr-fr': "Écaille spé.",
+				'de-de': "Notschutz"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Milotic by your opponent's Pokémon LV.X.",
-				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Milobellus par les Pokémon LV.X de votre adversaire.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Milotic von Pokémon LV.X deines Gegners zugefügt würden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Milotic by your opponent's Pokémon LV.X.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Milobellus par les Pokémon LV.X de votre adversaire.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Milotic von Pokémon LV.X deines Gegners zugefügt würden."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twister",
-				fr: "Ouragan",
-				de: "Windhose"
+				'en-us': "Twister",
+				'fr-fr': "Ouragan",
+				'de-de': "Windhose"
 			},
 			effect: {
-				en: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si ce sont 2 piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Si ce sont 2 piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.",
+		'en-us': "When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.",
 	},
 
 	thirdParty: {

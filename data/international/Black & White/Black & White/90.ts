@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
 			},
 
 			damage: 20,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stomp",
-				fr: "Double Écrasement",
+				'en-us': "Double Stomp",
+				'fr-fr': "Double Écrasement",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
+		'en-us': "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
 	},
 
 	thirdParty: {

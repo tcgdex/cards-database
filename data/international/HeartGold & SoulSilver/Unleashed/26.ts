@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar",
-		fr: "Tyranocif",
-		de: "Despotar"
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif",
+		'de-de': "Despotar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Crush",
-				fr: "Destruqueue",
-				de: "Zerquetschender Schweif"
+				'en-us': "Tail Crush",
+				'fr-fr': "Destruqueue",
+				'de-de': "Zerquetschender Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Discard an Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others."
+		'en-us': "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウVMAX",
+		'ja-jp': "ピカチュウVMAX",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュから[L]エネルギーを3枚まで選び、自分のポケモン1匹につける。",
+				'ja-jp': "自分のトラッシュから[L]エネルギーを3枚まで選び、自分のポケモン1匹につける。",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウV",
+		'ja-jp': "ピカチュウV",
 	},
 
 	retreat: 2,

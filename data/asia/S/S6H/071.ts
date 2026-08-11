@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオンV",
+		'ja-jp': "ボルケニオンV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンが10個以上のっているなら、150ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンが10個以上のっているなら、150ダメージ追加。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
-		fr: "Kabuto",
-		de: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "Takao Unno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		'en-us': "Mysterious Fossil",
+		'fr-fr': "Mystérieux fossile"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Ancient Protection",
-				fr: "Protection ancienne",
-				de: "Uralter Schutz"
+				'en-us': "Ancient Protection",
+				'fr-fr': "Protection ancienne",
+				'de-de': "Uralter Schutz"
 			},
 			effect: {
-				en: "Each of your Omanyte, Omastar, Kabuto, Kabutops, and Kabutops ex has no Weakness.",
-				fr: "Vos Amonita, Amonistar, Kabuto, Kabutops et Kabutops ex ne possèdent pas de Faiblesse.",
-				de: "Jedes deiner Amonitas, Amoroso, Kabuto, Kabutops und Kabutops ex hat keine Schwäche mehr."
+				'en-us': "Each of your Omanyte, Omastar, Kabuto, Kabutops, and Kabutops ex has no Weakness.",
+				'fr-fr': "Vos Amonita, Amonistar, Kabuto, Kabutops et Kabutops ex ne possèdent pas de Faiblesse.",
+				'de-de': "Jedes deiner Amonitas, Amoroso, Kabuto, Kabutops und Kabutops ex hat keine Schwäche mehr."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Granite Head",
-				fr: "Tête de granit",
-				de: "Granitkopf"
+				'en-us': "Granite Head",
+				'fr-fr': "Tête de granit",
+				'de-de': "Granitkopf"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Kabuto by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Kabuto par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Im nächsten Zug deines Gegners wird Schaden, der Kabuto durch gegneriche Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Kabuto by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés à Kabuto par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Im nächsten Zug deines Gegners wird Schaden, der Kabuto durch gegneriche Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 

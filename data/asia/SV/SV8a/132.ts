@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "レジギガス",
-		id: "Regigigas",
-		th: "เรจิกิกัส",
+		'ja-jp': "レジギガス",
+		'id-id': "Regigigas",
+		'th-th': "เรจิกิกัส",
 		'zh-tw': "雷吉奇卡斯",
 		'zh-cn': "雷吉奇卡斯"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "特殊な 氷山や 岩石 マグマから 自分の 姿に 似た ポケモンを つくったと 言われる。",
-		id: "Dikatakan bahwa Regigigas dapat membuat Pokémon yang wujudnya mirip dengan dirinya dari gunung es dan bebatuan magma khusus.",
-		th: "ว่ากันว่าจะสร้างโปเกมอนที่มีรูปร่างคล้ายตนจากแม็กมา หินผา และ ภูเขาน้ำแข็งพิเศษ",
+		'ja-jp': "特殊な 氷山や 岩石 マグマから 自分の 姿に 似た ポケモンを つくったと 言われる。",
+		'id-id': "Dikatakan bahwa Regigigas dapat membuat Pokémon yang wujudnya mirip dengan dirinya dari gunung es dan bebatuan magma khusus.",
+		'th-th': "ว่ากันว่าจะสร้างโปเกมอนที่มีรูปร่างคล้ายตนจากแม็กมา หินผา และ ภูเขาน้ำแข็งพิเศษ",
 		'zh-tw': "據說牠以特殊的冰山、 岩石和熔岩做出了 神似自己的寶可夢。",
 		'zh-cn': "據說牠以特殊的冰山、 岩石和熔岩做出了 神似自己的寶可夢。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ジュエルブレイク",
-			id: "Jewel Break",
-			th: "จิวเวลเบรก",
+			'ja-jp': "ジュエルブレイク",
+			'id-id': "Jewel Break",
+			'th-th': "จิวเวลเบรก",
 			'zh-tw': "寶石破壞",
 			'zh-cn': "寶石破壞"
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 		damage: "100+",
 
 		effect: {
-			ja: "相手のバトルポケモンが「テラスタル」のポケモンなら、230ダメージ追加。",
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon Terastal, kerusakan yang diberikan bertambah sejumlah 230.",
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอน [เทรัสตัล] การโจมตี นี้จะเพิ่มแดเมจอีก 230",
+			'ja-jp': "相手のバトルポケモンが「テラスタル」のポケモンなら、230ダメージ追加。",
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon Terastal, kerusakan yang diberikan bertambah sejumlah 230.",
+			'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอน [เทรัสตัล] การโจมตี นี้จะเพิ่มแดเมจอีก 230",
 			'zh-tw': "若對手的戰鬥寶可夢為「太晶」寶可夢，則增加230點傷害。",
 			'zh-cn': "若對手的戰鬥寶可夢為「太晶」寶可夢，則增加230點傷害。"
 		}

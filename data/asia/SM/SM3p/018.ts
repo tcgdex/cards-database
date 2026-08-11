@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガオガエン",
+		'ja-jp': "ガオガエン",
 	},
 
 	illustrator: "Emi Ando",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "粗暴で 身勝手な 性格。 気分が 乗らなければ トレーナーの 命令も 平気で 無視するぞ。",
+		'ja-jp': "粗暴で 身勝手な 性格。 気分が 乗らなければ トレーナーの 命令も 平気で 無視するぞ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャヒート",
+		'ja-jp': "ニャヒート",
 	},
 
 	retreat: 2,

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハラバリーex",
+		'ja-jp': "ハラバリーex",
 		'zh-tw': "電肚蛙ex",
-		th: "ฮาราบารีex",
-		id: "Bellibolt ex"
+		'th-th': "ฮาราบารีex",
+		'id-id': "Bellibolt ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -23,35 +23,35 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ジャンププレス",
+			'ja-jp': "ジャンププレス",
 			'zh-tw': "跳躍壓制",
-			th: "จัมป์เพรส",
-			id: "Jump Press"
+			'th-th': "จัมป์เพรส",
+			'id-id': "Jump Press"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻寶可夢受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
-			th: "ทำแดเมจ 50 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "ทำแดเมจ 50 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "パラライズボール",
+			'ja-jp': "パラライズボール",
 			'zh-tw': "麻痺球",
-			th: "พาราไลซ์บอล",
-			id: "Paralyze Ball"
+			'th-th': "พาราไลซ์บอล",
+			'id-id': "Paralyze Ball"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+			'ja-jp': "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "若希望，將2個這隻寶可夢身上附加的【雷】能量丟棄，將對手的戰鬥寶可夢【麻痺】。",
-			th: "หากต้องการ ทิ้งพลังงาน[สายฟ้า]ที่ติดอยู่กับโปเกมอนนี้ 2 ลูกที่ตำแหน่งทิ้งการ์ด ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
-			id: "Pemain dapat membuang 2 Energi {Listrik} yang dikenakan pada Pokémon ini ke Trash, lalu ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'th-th': "หากต้องการ ทิ้งพลังงาน[สายฟ้า]ที่ติดอยู่กับโปเกมอนนี้ 2 ลูกที่ตำแหน่งทิ้งการ์ด ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
+			'id-id': "Pemain dapat membuang 2 Energi {Listrik} yang dikenakan pada Pokémon ini ke Trash, lalu ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		}
 	}],
 

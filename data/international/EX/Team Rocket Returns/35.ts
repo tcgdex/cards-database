@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Golduck",
-		de: "Dunkles Entoron"
+		'en-us': "Dark Golduck",
+		'de-de': "Dunkles Entoron"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
+		'en-us': "Psyduck",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Shield",
-				de: "Darkness Shield"
+				'en-us': "Darkness Shield",
+				'de-de': "Darkness Shield"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent's next turn.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent's next turn.",
+				'de-de': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pokémon during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cold Crush",
-				de: "Cold Crush"
+				'en-us': "Cold Crush",
+				'de-de': "Cold Crush"
 			},
 			effect: {
-				en: "You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon.",
-				de: "You may dicard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon."
+				'en-us': "You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon.",
+				'de-de': "You may dicard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 40,
 

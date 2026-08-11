@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オンバーン",
+		'ja-jp': "オンバーン",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "耳から 発する 超音波で 巨大な 岩も 粉砕する。 暗闇に 紛れて 襲いかかる。",
+		'ja-jp': "耳から 発する 超音波で 巨大な 岩も 粉砕する。 暗闇に 紛れて 襲いかかる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがこんらんなら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがこんらんなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オンバット",
+		'ja-jp': "オンバット",
 	},
 
 	retreat: 1,

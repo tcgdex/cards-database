@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Silvally",
-		fr: "Silvallié"
+		'en-us': "Silvally",
+		'fr-fr': "Silvallié"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Type: Null"
+		'en-us': "Type: Null"
 	},
 
 	description: {
-		en: "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased.",
-		fr: "Il a réveillé tout son potentiel et a évolué. Briser son lourd masque a décuplé sa vitesse."
+		'en-us': "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased.",
+		'fr-fr': "Il a réveillé tout son potentiel et a évolué. Briser son lourd masque a décuplé sa vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Brave Buddies",
-			fr: "Copains Courageux"
+			'en-us': "Brave Buddies",
+			'fr-fr': "Copains Courageux"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If you played a Supporter card from your hand during this turn, this attack does 50 more damage.",
-			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 50 dégâts supplémentaires."
+			'en-us': "If you played a Supporter card from your hand during this turn, this attack does 50 more damage.",
+			'fr-fr': "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 

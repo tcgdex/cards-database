@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "最大電圧",
+				'ja-jp': "最大電圧",
 			},
 			effect: {
-				ja: "ピカチュウに取り付けられたすべての稲妻エネルギーカードを捨てます。この攻撃は、この方法で破棄されたエネルギーカードごとに20のダメージに加えて10ダメージを与えます。",
+				'ja-jp': "ピカチュウに取り付けられたすべての稲妻エネルギーカードを捨てます。この攻撃は、この方法で破棄されたエネルギーカードごとに20のダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

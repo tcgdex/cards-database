@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stone Throw",
-				fr: "Jet de pierre",
-				de: "Steine werfen"
+				'en-us': "Stone Throw",
+				'fr-fr': "Jet de pierre",
+				'de-de': "Steine werfen"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et Résistance aux Pokémon de Banc.)",
-				de: "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -61,8 +61,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Many live on mountain trails and remain half buried while keeping an eye on climbers.",
-		fr: "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes."
+		'en-us': "Many live on mountain trails and remain half buried while keeping an eye on climbers.",
+		'fr-fr': "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes."
 	},
 
 	thirdParty: {

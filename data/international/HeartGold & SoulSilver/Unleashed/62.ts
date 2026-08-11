@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roost",
-				fr: "Atterrissage",
-				de: "Ruheort"
+				'en-us': "Roost",
+				'fr-fr': "Atterrissage",
+				'de-de': "Ruheort"
 			},
 			effect: {
-				en: "Remove 4 damage counters from Spearow. Spearow can't retreat during your next turn.",
-				fr: "Retirez 4 marqueurs de dégât à Piafabec. Piafabec ne peut pas battre en retraite pendant votre prochain tour.",
-				de: "Entferne 4 Schadensmarken von Habitak. Habitak kann sich in deinem nächsten Zug nicht zurückziehen."
+				'en-us': "Remove 4 damage counters from Spearow. Spearow can't retreat during your next turn.",
+				'fr-fr': "Retirez 4 marqueurs de dégât à Piafabec. Piafabec ne peut pas battre en retraite pendant votre prochain tour.",
+				'de-de': "Entferne 4 Schadensmarken von Habitak. Habitak kann sich in deinem nächsten Zug nicht zurückziehen."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'de-de': "Flattern"
 			},
 
 			damage: 10,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flaps its short wings to flush out insects from tall grass. It then plucks them with its stubby beak."
+		'en-us': "It flaps its short wings to flush out insects from tall grass. It then plucks them with its stubby beak."
 	},
 
 	variants: [

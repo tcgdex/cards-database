@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wugtrio",
-		fr: "Triopikeau",
-		es: "Wugtrio",
-		it: "Wugtrio",
-		pt: "Wugtrio",
-		de: "Schligdri"
+		'en-us': "Wugtrio",
+		'fr-fr': "Triopikeau",
+		'es-es': "Wugtrio",
+		'it-it': "Wugtrio",
+		'pt-br': "Wugtrio",
+		'de-de': "Schligdri"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wiglett",
-		fr: "Taupikeau"
+		'en-us': "Wiglett",
+		'fr-fr': "Taupikeau"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 30
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Undersea Tunnel",
-			fr: "Tunnel Sous-Marin",
-			es: "Túnel Submarino",
-			it: "Tunnel Sommerso",
-			pt: "Túnel Subaquático",
-			de: "Tiefseetunnel"
+			'en-us': "Undersea Tunnel",
+			'fr-fr': "Tunnel Sous-Marin",
+			'es-es': "Túnel Submarino",
+			'it-it': "Tunnel Sommerso",
+			'pt-br': "Túnel Subaquático",
+			'de-de': "Tiefseetunnel"
 		},
 
 		effect: {
-			en: "Flip 3 coins. For each heads, discard the top 3 cards of your opponent's deck.",
-			fr: "Lancez 3 pièces. Pour chaque côté face, défaussez les 3 cartes du dessus du deck de votre adversaire.",
-			es: "Lanza 3 monedas. Por cada cara, descarta las 3 primeras cartas de la baraja de tu rival.",
-			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta le prime tre carte del mazzo del tuo avversario.",
-			pt: "Jogue 3 moedas. Para cada cara, descarte as 3 cartas de cima do baralho do seu oponente.",
-			de: "Wirf 3 Münzen. Lege pro Kopf die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip 3 coins. For each heads, discard the top 3 cards of your opponent's deck.",
+			'fr-fr': "Lancez 3 pièces. Pour chaque côté face, défaussez les 3 cartes du dessus du deck de votre adversaire.",
+			'es-es': "Lanza 3 monedas. Por cada cara, descarta las 3 primeras cartas de la baraja de tu rival.",
+			'it-it': "Lancia tre volte una moneta. Ogni volta che esce testa, scarta le prime tre carte del mazzo del tuo avversario.",
+			'pt-br': "Jogue 3 moedas. Para cada cara, descarte as 3 cartas de cima do baralho do seu oponente.",
+			'de-de': "Wirf 3 Münzen. Lege pro Kopf die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 
@@ -82,7 +82,7 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+		'en-us': "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
 	},
 
 	thirdParty: {

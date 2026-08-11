@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクガメス",
+		'ja-jp': "バクガメス",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "鼻の 孔から 炎や 毒ガスを 吹く。 フンは 爆発物で 色んな 使い道が ある。",
+		'ja-jp': "鼻の 孔から 炎や 毒ガスを 吹く。 フンは 爆発物で 色んな 使い道が ある。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "自分の場のポケモンについている[炎]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[炎]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
 			},
 		},
 	],

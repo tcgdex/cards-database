@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロボン",
+		'ja-jp': "ニョロボン",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "みずポケモンの 中でも かなり 泳ぎは 達者な 部類 なのに 普段は 陸で 過ごしている。",
+		'ja-jp': "みずポケモンの 中でも かなり 泳ぎは 達者な 部類 なのに 普段は 陸で 過ごしている。",
 	},
 
 	stage: "Stage2",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「ニョロモ」「ニョロゾ」がいるなら、90ダメージ追加。",
+				'ja-jp': "自分のベンチに「ニョロモ」「ニョロゾ」がいるなら、90ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 	},
 
 	retreat: 3,

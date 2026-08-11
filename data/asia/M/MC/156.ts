@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのスターミー",
+		'ja-jp': "カスミのスターミー",
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体を 高速で 回転させ 海を 泳ぎながら 小さな プランクトンを 吸収する。",
+		'ja-jp': "体を 高速で 回転させ 海を 泳ぎながら 小さな プランクトンを 吸収する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water"],
 			effect: {
-				ja: "この番に、このポケモンが「カスミのヒトデマン」から進化していたなら、80ダメージ追加。",
+				'ja-jp': "この番に、このポケモンが「カスミのヒトデマン」から進化していたなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カスミのヒトデマン",
+		'ja-jp': "カスミのヒトデマン",
 	},
 
 	retreat: 1,

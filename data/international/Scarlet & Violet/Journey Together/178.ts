@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dudunsparce ex",
-		fr: "Deusolourdo-ex",
-		es: "Dudunsparce ex",
-		de: "Dummimisel-ex",
-		it: "Dudunsparce-ex",
-		pt: "Dudunsparce ex",
+		'en-us': "Dudunsparce ex",
+		'fr-fr': "Deusolourdo-ex",
+		'es-es': "Dudunsparce ex",
+		'de-de': "Dummimisel-ex",
+		'it-it': "Dudunsparce-ex",
+		'pt-br': "Dudunsparce ex",
 		'es-mx': "Dudunsparce ex"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 270,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		es: "Dunsparce",
-		de: "Dummisel",
-		it: "Dunsparce",
-		pt: "Dunsparce",
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'de-de': "Dummisel",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
 		'es-mx': "Dunsparce"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tenacious Tail",
-			fr: "Queue Tenace",
-			es: "Cola Tenaz",
-			de: "Hartnäckiger Schweif",
-			it: "Coda Tenace",
-			pt: "Cauda Tenaz",
+			'en-us': "Tenacious Tail",
+			'fr-fr': "Queue Tenace",
+			'es-es': "Cola Tenaz",
+			'de-de': "Hartnäckiger Schweif",
+			'it-it': "Coda Tenace",
+			'pt-br': "Cauda Tenaz",
 			'es-mx': "Cola Tenaz"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each of your opponent's Pokémon ex in play.",
-			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon-ex en jeu de votre adversaire.",
-			es: "Este ataque hace 60 puntos de daño por cada uno de los Pokémon ex en juego de tu rival.",
-			de: "Diese Attacke fügt für jedes Pokémon-ex deines Gegners im Spiel 60 Schadenspunkte zu.",
-			it: "Questo attacco infligge 60 danni per ogni Pokémon-ex in gioco del tuo avversario.",
-			pt: "Este ataque causa 60 pontos de dano para cada Pokémon ex do seu oponente em jogo.",
+			'en-us': "This attack does 60 damage for each of your opponent's Pokémon ex in play.",
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chacun des Pokémon-ex en jeu de votre adversaire.",
+			'es-es': "Este ataque hace 60 puntos de daño por cada uno de los Pokémon ex en juego de tu rival.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon-ex deines Gegners im Spiel 60 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 60 danni per ogni Pokémon-ex in gioco del tuo avversario.",
+			'pt-br': "Este ataque causa 60 pontos de dano para cada Pokémon ex do seu oponente em jogo.",
 			'es-mx': "Este ataque hace 60 puntos de daño por cada uno de los Pokémon ex en juego de tu rival."
 		},
 
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Destructive Drill",
-			fr: "Perceuse Destructrice",
-			es: "Taladro Destructivo",
-			de: "Zerstörerischer Bohrer",
-			it: "Trapano Distruttivo",
-			pt: "Broca Bruta",
+			'en-us': "Destructive Drill",
+			'fr-fr': "Perceuse Destructrice",
+			'es-es': "Taladro Destructivo",
+			'de-de': "Zerstörerischer Bohrer",
+			'it-it': "Trapano Distruttivo",
+			'pt-br': "Broca Bruta",
 			'es-mx': "Taladro Destructivo"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
 			'es-mx': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival."
 		},
 

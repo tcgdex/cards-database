@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S8b',
 
 	name: {
-		ja: 'VMAXクライマックス',
-		ko: 'VMAX 클라이맥스',
+		'ja-jp': 'VMAXクライマックス',
+		'ko-kr': 'VMAX 클라이맥스',
 		'zh-tw': 'VMAX絕群壓軸',
-		id: 'VMAX Klimaks',
-		th: 'VMAX ไคลแมกซ์'
+		'id-id': 'VMAX Klimaks',
+		'th-th': 'VMAX ไคลแมกซ์'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2021-12-03',
+		'ja-jp': '2021-12-03',
 		'zh-tw': '2021-12-17',
-		id: '2022-01-21',
-		th: '2021-12-17'
+		'id-id': '2022-01-21',
+		'th-th': '2021-12-17'
 	},
 
 	thirdParty: {

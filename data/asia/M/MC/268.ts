@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワンパチ",
+		'ja-jp': "ワンパチ",
 	},
 
 	illustrator: "kurumitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "走る ときに しっぽの 根元から 電気を 生み出す。 ガラルでは 牧羊犬として 人気。",
+		'ja-jp': "走る ときに しっぽの 根元から 電気を 生み出す。 ガラルでは 牧羊犬として 人気。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

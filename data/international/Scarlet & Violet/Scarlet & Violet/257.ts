@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Basic Lightning Energy",
-		fr: "Énergie Lightning de base",
-		es: "Energía Lightning Básica",
-		it: "Energia base Lightning",
-		pt: "Energia Lightning Básica",
-		de: "Basis-Lightning-Energie"
+		'en-us': "Basic Lightning Energy",
+		'fr-fr': "Énergie Lightning de base",
+		'es-es': "Energía Lightning Básica",
+		'it-it': "Energia base Lightning",
+		'pt-br': "Energia Lightning Básica",
+		'de-de': "Basis-Lightning-Energie"
 	},
 
 	rarity: "Hyper rare",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーレム",
+		'ja-jp': "ゴーレム",
 	},
 
 	rarity: "Secret Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "クリスタルタイプ",
+				'ja-jp': "クリスタルタイプ",
 			},
 			effect: {
-				ja: "手からゴーレムに草、火、または基本エネルギーカードとの戦いをするときはいつでも、ゴーレムのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
+				'ja-jp': "手からゴーレムに草、火、または基本エネルギーカードとの戦いをするときはいつでも、ゴーレムのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ロックスロー",
+				'ja-jp': "ロックスロー",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Grass", "Fire", "Colorless"],
 			name: {
-				ja: "地球爆弾",
+				'ja-jp': "地球爆弾",
 			},
 			effect: {
-				ja: "ゴーレムはそれ自体に20のダメージを与えます。この攻撃は、各ベンチポケモン（あなたと相手）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "ゴーレムはそれ自体に20のダメージを与えます。この攻撃は、各ベンチポケモン（あなたと相手）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 50,
 		},

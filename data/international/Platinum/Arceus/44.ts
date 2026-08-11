@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike"
+		'en-us': "Electrike"
 	},
 
 	stage: "Stage1",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Head Bolt",
-				de: "Kopf-Blitz"
+				'en-us': "Head Bolt",
+				'de-de': "Kopf-Blitz"
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
-		fr: "Kabuto",
-		es: "Kabuto",
-		it: "Kabuto",
-		pt: "Kabuto",
-		de: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto",
+		'es-es': "Kabuto",
+		'it-it': "Kabuto",
+		'pt-br': "Kabuto",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
-				es: "Disparo Lodo",
-				it: "Colpodifango",
-				pt: "Água Viscosa",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
+				'es-es': "Disparo Lodo",
+				'it-it': "Colpodifango",
+				'pt-br': "Água Viscosa",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 30,
@@ -57,16 +57,16 @@ const card: Card = {
 	retreat: 1,
 
 	evolveFrom: {
-		en: "Dome Fossil Kabuto",
-		fr: "Fossile Dôme Kabuto",
-		es: "Fósil Domo Kabuto",
-		it: "Domofossile di Kabuto",
-		pt: "Fóssil Cúpula de Kabuto",
-		de: "Domfossil Kabuto"
+		'en-us': "Dome Fossil Kabuto",
+		'fr-fr': "Fossile Dôme Kabuto",
+		'es-es': "Fósil Domo Kabuto",
+		'it-it': "Domofossile di Kabuto",
+		'pt-br': "Fóssil Cúpula de Kabuto",
+		'de-de': "Domfossil Kabuto"
 	},
 
 	description: {
-		en: "This Pokémon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell.",
+		'en-us': "This Pokémon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell.",
 	},
 
 	thirdParty: {

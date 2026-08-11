@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ぶあついうろこ",
+		'ja-jp': "ぶあついうろこ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている[N]ポケモンが、相手の[G][R][W][L]ポケモンから受けるワザのダメージは「-50」される。",
+		'ja-jp': "このカードをつけている[N]ポケモンが、相手の[G][R][W][L]ポケモンから受けるワザのダメージは「-50」される。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガケガニex",
+		'ja-jp': "ガケガニex",
 		'zh-tw': "布撥",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はんげきバサミ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -28,13 +28,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フォーリングプレス",
+				'ja-jp': "フォーリングプレス",
 				'zh-tw': "劈啪巴掌",
 			},
 			damage: "100+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、80ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、80ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

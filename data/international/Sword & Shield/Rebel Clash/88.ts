@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Indeedee",
-		fr: "Wimessir",
-		es: "Indeedee",
-		it: "Indeedee",
-		pt: "Indeedee",
-		de: "Servol"
+		'en-us': "Indeedee",
+		'fr-fr': "Wimessir",
+		'es-es': "Indeedee",
+		'it-it': "Indeedee",
+		'pt-br': "Indeedee",
+		'de-de': "Servol"
 	},
 
 	illustrator: "Mizue",
@@ -23,20 +23,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Replenish Time",
-				fr: "Gain de Temps",
-				es: "Hora de Reponerse",
-				it: "Ristoratempo",
-				pt: "Hora de Reabastecer",
-				de: "Verschnaufpause"
+				'en-us': "Replenish Time",
+				'fr-fr': "Gain de Temps",
+				'es-es': "Hora de Reponerse",
+				'it-it': "Ristoratempo",
+				'pt-br': "Hora de Reabastecer",
+				'de-de': "Verschnaufpause"
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Pokémon.",
-				fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
-				es: "Cura 30 puntos de daño a cada uno de tus Pokémon.",
-				it: "Cura ciascuno dei tuoi Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano de cada um dos seus Pokémon.",
-				de: "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
+				'en-us': "Heal 30 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de chacun de vos Pokémon.",
+				'es-es': "Cura 30 puntos de daño a cada uno de tus Pokémon.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano de cada um dos seus Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
-				es: "Psicorrayo",
-				it: "Psicoraggio",
-				pt: "Feixe Psíquico",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
+				'es-es': "Psicorrayo",
+				'it-it': "Psicoraggio",
+				'pt-br': "Feixe Psíquico",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "These intelligent Pokémon touch horns with each other to share information between them."
+		'en-us': "These intelligent Pokémon touch horns with each other to share information between them."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドクイン",
+		'ja-jp': "ニドクイン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "彼氏",
+				'ja-jp': "彼氏",
 			},
 			effect: {
-				ja: "20のダメージに加えて、プレイ中のニドキングごとに20ダメージをさらに20回かけます。",
+				'ja-jp': "20のダメージに加えて、プレイ中のニドキングごとに20ダメージをさらに20回かけます。",
 			},
 
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "メガパンチ",
+				'ja-jp': "メガパンチ",
 			},
 			damage: 50,
 		},

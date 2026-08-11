@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Volbeat",
-		fr: "Muciole",
-		de: "Volbeat"
+		'en-us': "Volbeat",
+		'fr-fr': "Muciole",
+		'de-de': "Volbeat"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -26,14 +26,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Uplifting Glow",
-				fr: "Lueur indicatrice",
-				de: "Uplifting Glow"
+				'en-us': "Uplifting Glow",
+				'fr-fr': "Lueur indicatrice",
+				'de-de': "Uplifting Glow"
 			},
 			effect: {
-				en: "As long as Illumise is in play, Volbeat's Retreat Cost is 0.",
-				fr: "Tant que Lumivole est en jeu, le Coût de retraite de Muciole est de 0.",
-				de: "As long as Illumise is in play, Volbeat's Retreat Cost is 0."
+				'en-us': "As long as Illumise is in play, Volbeat's Retreat Cost is 0.",
+				'fr-fr': "Tant que Lumivole est en jeu, le Coût de retraite de Muciole est de 0.",
+				'de-de': "As long as Illumise is in play, Volbeat's Retreat Cost is 0."
 			}
 		},
 	],
@@ -46,36 +46,36 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
+		'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Toxic Vibration",
-			fr: "Vibration toxik",
-			de: "Toxic Vibration"
+			'en-us': "Toxic Vibration",
+			'fr-fr': "Vibration toxik",
+			'de-de': "Toxic Vibration"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-			de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
+			'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Pester",
-			fr: "Abattre",
-			de: "Pester"
+			'en-us': "Pester",
+			'fr-fr': "Abattre",
+			'de-de': "Pester"
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage.",
-			fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts.",
-			de: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
+			'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage.",
+			'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts.",
+			'de-de': "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
 		},
 
 		damage: 20

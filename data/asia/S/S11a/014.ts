@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンテイ",
+		'ja-jp': "エンテイ",
 		'zh-tw': "炎帝",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
+		'ja-jp': "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
 		'zh-tw': "據說如果炎帝吼叫的話，世界上的某處火山就會爆發。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ばくねつダッシュ",
+				'ja-jp': "ばくねつダッシュ",
 				'zh-tw': "爆熱衝刺",
 			},
 			effect: {
-				ja: "このポケモンに[R]エネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンに[R]エネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 				'zh-tw': "若這隻寶可夢身上附有【火】能量，則這隻寶可夢【撤退】所需的能量全部消除。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "利爪劈擊",
 			},
 			damage: 90,

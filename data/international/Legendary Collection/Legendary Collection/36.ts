@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Arcanine"
+		'en-us': "Arcanine"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower"
+				'en-us': "Flamethrower"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy card attached to Arcanine or this attack does nothing."
+				'en-us': "Discard 1 Fire Energy card attached to Arcanine or this attack does nothing."
 			},
 			damage: 50,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down"
+				'en-us': "Take Down"
 			},
 			effect: {
-				en: "Arcanine does 30 damage to itself."
+				'en-us': "Arcanine does 30 damage to itself."
 			},
 			damage: 80,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings."
+		'en-us': "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings."
 	},
 
 	variants: [

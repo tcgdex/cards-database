@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing Léger",
-				es: "Puño Ligero",
-				it: "Pugnetto",
-				pt: "Soco de Luz",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing Léger",
+				'es-es': "Puño Ligero",
+				'it-it': "Pugnetto",
+				'pt-br': "Soco de Luz",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confront",
-				fr: "Confrontation",
-				es: "Confrontar",
-				it: "Confronto",
-				pt: "Confrontar",
-				de: "Konfrontieren"
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'es-es': "Confrontar",
+				'it-it': "Confronto",
+				'pt-br': "Confrontar",
+				'de-de': "Konfrontieren"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
+		'en-us': "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
 	},
 
 	thirdParty: {

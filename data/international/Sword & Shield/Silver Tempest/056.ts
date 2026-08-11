@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zeraora",
-		fr: "Zeraora",
-		es: "Zeraora",
-		it: "Zeraora",
-		pt: "Zeraora",
-		de: "Zeraora"
+		'en-us': "Zeraora",
+		'fr-fr': "Zeraora",
+		'es-es': "Zeraora",
+		'it-it': "Zeraora",
+		'pt-br': "Zeraora",
+		'de-de': "Zeraora"
 	},
 
 	illustrator: "GOSSAN",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Battle Claw",
-			fr: "Griffe de Combat",
-			es: "Garra Combativa",
-			it: "Artiglio Lotta",
-			pt: "Garra de Batalha",
-			de: "Kampfkralle"
+			'en-us': "Battle Claw",
+			'fr-fr': "Griffe de Combat",
+			'es-es': "Garra Combativa",
+			'it-it': "Artiglio Lotta",
+			'pt-br': "Garra de Batalha",
+			'de-de': "Kampfkralle"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 30 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 30 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mach Bolt",
-			fr: "Éclair Fulgurant",
-			es: "Rayo Mach",
-			it: "Fulmine Mach",
-			pt: "Raio Supersônico",
-			de: "Flotter Sprung"
+			'en-us': "Mach Bolt",
+			'fr-fr': "Éclair Fulgurant",
+			'es-es': "Rayo Mach",
+			'it-it': "Fulmine Mach",
+			'pt-br': "Raio Supersônico",
+			'de-de': "Flotter Sprung"
 		},
 
 		damage: 80
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+		'en-us': "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
 	},
 
 	variants: [

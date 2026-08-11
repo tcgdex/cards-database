@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビクティニ",
+		'ja-jp': "ビクティニ",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ビクティニが 無限に 生み出す エネルギーを 分け与えてもらうと 全身に パワーが あふれ出す。",
+		'ja-jp': "ビクティニが 無限に 生み出す エネルギーを 分け与えてもらうと 全身に パワーが あふれ出す。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "自分の場のたねポケモンの数x20ダメージ。",
+				'ja-jp': "自分の場のたねポケモンの数x20ダメージ。",
 			},
 		},
 	],

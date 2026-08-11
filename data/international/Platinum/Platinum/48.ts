@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark",
-				fr: "Étincelle",
-				de: "Spark"
+				'en-us': "Spark",
+				'fr-fr': "Étincelle",
+				'de-de': "Spark"
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
+				'en-us': "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Code",
-				fr: "Queue codée",
-				de: "Tail Code"
+				'en-us': "Tail Code",
+				'fr-fr': "Queue codée",
+				'de-de': "Tail Code"
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
-				fr: "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
-				de: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon."
+				'en-us': "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				'fr-fr': "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
+				'de-de': "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon."
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact."
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact."
 	},
 
 	variants: [

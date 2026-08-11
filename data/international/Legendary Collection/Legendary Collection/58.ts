@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Omastar"
+		'en-us': "Omastar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte"
+		'en-us': "Omanyte"
 	},
 
 	stage: "Stage2",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun"
+				'en-us': "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spike Cannon"
+				'en-us': "Spike Cannon"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey."
+		'en-us': "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey."
 	},
 
 	variants: [

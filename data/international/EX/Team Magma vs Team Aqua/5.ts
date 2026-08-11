@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Sharpedo",
-		fr: "Sharpedo de Team Aqua",
-		de: "Team Aquas Tohaido"
+		'en-us': "Team Aqua's Sharpedo",
+		'fr-fr': "Sharpedo de Team Aqua",
+		'de-de': "Team Aquas Tohaido"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Sharpedo de Team Aqua.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Sharpedo de Team Aqua.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo."
 			},
 			damage: "10+",
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Slash",
-				fr: "Aqua-tranche",
-				de: "Aqua Slash"
+				'en-us': "Aqua Slash",
+				'fr-fr': "Aqua-tranche",
+				'de-de': "Aqua Slash"
 			},
 			effect: {
-				en: "Team Aqua's Sharpedo can't attack during your next turn.",
-				fr: "Sharpedo de Team Aqua ne peut pas attaquer lors de votre prochain tour.",
-				de: "Team Aqua's Sharpedo can't attack during your next turn."
+				'en-us': "Team Aqua's Sharpedo can't attack during your next turn.",
+				'fr-fr': "Sharpedo de Team Aqua ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Team Aqua's Sharpedo can't attack during your next turn."
 			},
 			damage: 60,
 

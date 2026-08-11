@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini"
 	},
 
 	illustrator: "Takao Unno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance",
-				de: "Energiefokus"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance",
+				'de-de': "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Taillow's Peck attack's base damage is 30.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Picpic de Nirondelle sont de 30.",
-				de: "In deinem nächsten Zug beträgt der Grundschaden von Schwalbinis Angriff Schnabel 30 Schadenspunkte."
+				'en-us': "During your next turn, Taillow's Peck attack's base damage is 30.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Picpic de Nirondelle sont de 30.",
+				'de-de': "In deinem nächsten Zug beträgt der Grundschaden von Schwalbinis Angriff Schnabel 30 Schadenspunkte."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
+		'en-us': "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
 	},
 
 	thirdParty: {

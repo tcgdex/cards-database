@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Archeops",
-		fr: "Aéroptéryx",
-		es: "Archeops",
-		it: "Archeops",
-		pt: "Archeops",
-		de: "Aeropteryx"
+		'en-us': "Archeops",
+		'fr-fr': "Aéroptéryx",
+		'es-es': "Archeops",
+		'it-it': "Archeops",
+		'pt-br': "Archeops",
+		'de-de': "Aeropteryx"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Archen",
-		fr: "Arkéapti",
+		'en-us': "Archen",
+		'fr-fr': "Arkéapti",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Swift Dive",
-				fr: "Vive Plongée",
+				'en-us': "Swift Dive",
+				'fr-fr': "Vive Plongée",
 			},
 			effect: {
-				en: "If this Pokémon's remaining HP is 50 or less, this attack's base damage is 50.",
-				fr: "S'il reste 50 PV ou moins à ce Pokémon, les dégâts de base de cette attaque sont de 50.",
+				'en-us': "If this Pokémon's remaining HP is 50 or less, this attack's base damage is 50.",
+				'fr-fr': "S'il reste 50 PV ou moins à ce Pokémon, les dégâts de base de cette attaque sont de 50.",
 			},
 			damage: 100,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
+		'en-us': "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
 	},
 
 	thirdParty: {

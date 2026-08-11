@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "寶石海星",
-		ja: "スターミー"
+		'ja-jp': "スターミー"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "釋放強烈的精神力量時，被稱為核心的器官就會 閃爍七彩光芒。",
-		ja: "強烈な サイコパワーを 放つとき コアと 呼ばれる 器官が 七色に きらめく。"
+		'ja-jp': "強烈な サイコパワーを 放つとき コアと 呼ばれる 器官が 七色に きらめく。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "精神強念",
-			ja: "サイコキネシス"
+			'ja-jp': "サイコキネシス"
 		},
 
 		effect: {
 			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
 		},
 
 		damage: "10＋",
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "力量寶石",
-			ja: "パワージェム"
+			'ja-jp': "パワージェム"
 		},
 
 		damage: 60,

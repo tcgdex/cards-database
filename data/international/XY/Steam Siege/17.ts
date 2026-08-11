@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		es: "Rapidash",
-		it: "Rapidash",
-		pt: "Rapidash",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'es-es': "Rapidash",
+		'it-it': "Rapidash",
+		'pt-br': "Rapidash",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				es: "Patada Trasera",
-				it: "Retrocalcio",
-				pt: "Chute Traseiro",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'es-es': "Patada Trasera",
+				'it-it': "Retrocalcio",
+				'pt-br': "Chute Traseiro",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 30,
@@ -60,20 +60,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
-				es: "Llamarada",
-				it: "Fuocobomba",
-				pt: "Rajada de Fogo",
-				de: "Feuersturm"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
+				'es-es': "Llamarada",
+				'it-it': "Fuocobomba",
+				'pt-br': "Rajada de Fogo",
+				'de-de': "Feuersturm"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
-				es: "Descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Fire unida a este Pokémon.",
+				'it-it': "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
+		'en-us': "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "走路草",
-		ja: "ナゾノクサ"
+		'ja-jp': "ナゾノクサ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "沐浴月光就會開始活動。為了四處散播種子， 會在夜晚到處走動。",
-		ja: "月の光を 浴びて 動きだす。 夜のあいだに タネを あちこちに ばらまくため 歩きまわる。"
+		'ja-jp': "月の光を 浴びて 動きだす。 夜のあいだに タネを あちこちに ばらまくため 歩きまわる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝撞",
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 
 		damage: 30,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Doduo"
+		'en-us': "Doduo"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "A two-headed Pokémon that was discovered as a\nsudden mutation. It runs at a pace of over 60 miles\nper hour."
+		'en-us': "A two-headed Pokémon that was discovered as a\nsudden mutation. It runs at a pace of over 60 miles\nper hour."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 20,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Articuno ex",
-		fr: "Artikodin-ex"
+		'en-us': "Articuno ex",
+		'fr-fr': "Artikodin-ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -21,24 +21,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ice Wing",
-			fr: "Aile Glace"
+			'en-us': "Ice Wing",
+			'fr-fr': "Aile Glace"
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			en: "Blizzard",
-			fr: "Blizzard"
+			'en-us': "Blizzard",
+			'fr-fr': "Blizzard"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
-			fr: "Cette attaque inflige aussi 10 dégâts à chaque Pokémon de Banc de votre adversaire."
+			'en-us': "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige aussi 10 dégâts à chaque Pokémon de Banc de votre adversaire."
 		}
 	}],
 

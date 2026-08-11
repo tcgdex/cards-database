@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix",
-		it: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix",
+		'it-it': "Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				de: "Konfustrahl",
-				it: "Stordiraggio"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'de-de': "Konfustrahl",
+				'it-it': "Stordiraggio"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
 			},
 			damage: 10,
 
@@ -59,9 +59,9 @@ const card: Card = {
 
 
 	description: {
-		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
-		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.",
-		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
+		'en-us': "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
+		'fr-fr': "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.",
+		'it-it': "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
 	},
 
 	variants: [

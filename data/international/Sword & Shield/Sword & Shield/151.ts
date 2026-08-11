@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Corvisquire",
-		fr: "Bleuseille",
-		es: "Corvisquire",
-		it: "Corvisquire",
-		pt: "Corvisquire",
-		de: "Kranoviz"
+		'en-us': "Corvisquire",
+		'fr-fr': "Bleuseille",
+		'es-es': "Corvisquire",
+		'it-it': "Corvisquire",
+		'pt-br': "Corvisquire",
+		'de-de': "Kranoviz"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rookidee",
-		fr: "Minisange",
-		es: "Rookidee",
-		it: "Rookidee",
-		pt: "Rookidee",
-		de: "Meikro"
+		'en-us': "Rookidee",
+		'fr-fr': "Minisange",
+		'es-es': "Rookidee",
+		'it-it': "Rookidee",
+		'pt-br': "Rookidee",
+		'de-de': "Meikro"
 	},
 
 	stage: "Stage1",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pluck",
-				fr: "Picore",
-				es: "Picoteo",
-				it: "Spennata",
-				pt: "Colher",
-				de: "Pflücker"
+				'en-us': "Pluck",
+				'fr-fr': "Picore",
+				'es-es': "Picoteo",
+				'it-it': "Spennata",
+				'pt-br': "Colher",
+				'de-de': "Pflücker"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-				es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-				it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-				pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
-				de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+				'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+				'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+				'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec Vrille",
-				es: "Pico Taladro",
-				it: "Perforbecco",
-				pt: "Bico Broca",
-				de: "Bohrschnabel"
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec Vrille",
+				'es-es': "Pico Taladro",
+				'it-it': "Perforbecco",
+				'pt-br': "Bico Broca",
+				'de-de': "Bohrschnabel"
 			},
 
 			damage: 50,
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
+		'en-us': "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
 	},
 
 	dexId: [822],

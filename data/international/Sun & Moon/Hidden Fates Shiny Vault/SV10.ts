@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto",
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Wash Out",
-				fr: "Surlavage",
+				'en-us': "Wash Out",
+				'fr-fr': "Surlavage",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Water Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water de l’un de vos Pokémon de Banc vers votre Pokémon Actif.",
+				'en-us': "As often as you like during your turn (before your attack), you may move a Water Energy from 1 of your Benched Pokémon to your Active Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water de l’un de vos Pokémon de Banc vers votre Pokémon Actif.",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "This attack does 20 more damage times the amount of Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon.",
+				'en-us': "This attack does 20 more damage times the amount of Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.",
+		'en-us': "This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.",
 	},
 }
 

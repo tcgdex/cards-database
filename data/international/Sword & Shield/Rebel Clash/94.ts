@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Galarian Farfetch'd",
-		fr: "Canarticho de Galar",
-		es: "Farfetch'd de Galar",
-		it: "Farfetch'd di Galar",
-		pt: "Farfetch'd de Galar",
-		de: "Galar-Porenta"
+		'en-us': "Galarian Farfetch'd",
+		'fr-fr': "Canarticho de Galar",
+		'es-es': "Farfetch'd de Galar",
+		'it-it': "Farfetch'd di Galar",
+		'pt-br': "Farfetch'd de Galar",
+		'de-de': "Galar-Porenta"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,20 +23,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
-				es: "Golpe Roca",
-				it: "Spaccaroccia",
-				pt: "Esmagamento de Pedras",
-				de: "Zertrümmerer"
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
+				'es-es': "Golpe Roca",
+				'it-it': "Spaccaroccia",
+				'pt-br': "Esmagamento de Pedras",
+				'de-de': "Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+		'en-us': "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	},
 
 	variants: [

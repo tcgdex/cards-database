@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビアル",
+		'ja-jp': "ワルビアル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "５０キロ 先に いる 獲物を 見つけると 砂漠を 泳ぐように 移動して 飛びかかり 噛みつく。",
+		'ja-jp': "５０キロ 先に いる 獲物を 見つけると 砂漠を 泳ぐように 移動して 飛びかかり 噛みつく。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x50ダメージ。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	retreat: 3,

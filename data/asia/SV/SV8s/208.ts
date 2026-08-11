@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scovillain ex"
+		'id-id': "Scovillain ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tipe Ganda"
+			'id-id': "Tipe Ganda"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
+			'id-id': "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Spicy Rage"
+			'id-id': "Spicy Rage"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 70 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 70 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: "10+",

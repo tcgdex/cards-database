@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Igglybuff",
+		'ja-jp': "Igglybuff",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ホバーリフト",
+				'ja-jp': "ホバーリフト",
 			},
 			effect: {
-				ja: "Jigglypuff、Wigglytuff、Wigglytuff ex、およびIgglybuffを支払います。ターン中（攻撃の前に）一度、Jigglypuffを手からIgglybuff（これは進化するIgglybuffとしてカウント）に入れ、Igglybuffからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "Jigglypuff、Wigglytuff、Wigglytuff ex、およびIgglybuffを支払います。ターン中（攻撃の前に）一度、Jigglypuffを手からIgglybuff（これは進化するIgglybuffとしてカウント）に入れ、Igglybuffからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 

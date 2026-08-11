@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドドゲザン",
+		'ja-jp': "ドドゲザン",
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大軍勢を 率いて 戦うが 難しい 作戦は 苦手なので 力で 押して 押しまくるだけ。",
+		'ja-jp': "大軍勢を 率いて 戦うが 難しい 作戦は 苦手なので 力で 押して 押しまくるだけ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そうだいしょう" },
 			effect: {
-				ja: "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手がすでにとったサイド1枚につき「+30」される。",
+				'ja-jp': "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手がすでにとったサイド1枚につき「+30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "このポケモンにも50ダメージ。",
+				'ja-jp': "このポケモンにも50ダメージ。",
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キリキザン",
+		'ja-jp': "キリキザン",
 	},
 
 	retreat: 3,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Coalossal"
+		'en-us': "Coalossal"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Carkol"
+		'en-us': "Carkol"
 	},
 
 	description: {
-		en: "It's gentle usually but fearsome when angered.\nWith a body that burns at over 2,700 degrees\nFahrenheit, it crushes foes and turns them to ash."
+		'en-us': "It's gentle usually but fearsome when angered.\nWith a body that burns at over 2,700 degrees\nFahrenheit, it crushes foes and turns them to ash."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Coal Drop"
+			'en-us': "Coal Drop"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a {G} Pokémon, this attack does 50 more damage."
+			'en-us': "If your opponent's Active Pokémon is a {G} Pokémon, this attack does 50 more damage."
 		}
 	}],
 

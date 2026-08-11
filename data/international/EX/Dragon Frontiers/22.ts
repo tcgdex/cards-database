@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Seadra δ",
-		fr: "Hypocéan δ",
-		de: "Seemon"
+		'en-us': "Seadra δ",
+		'fr-fr': "Hypocéan δ",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Rauchwolke"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Rauchwolke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner I Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner I Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wing",
-				fr: "Aile tranchante",
-				de: "Rasierflügel"
+				'en-us': "Razor Wing",
+				'fr-fr': "Aile tranchante",
+				'de-de': "Rasierflügel"
 			},
 
 			damage: 40,

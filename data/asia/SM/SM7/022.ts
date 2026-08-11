@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミズゴロウ",
+		'ja-jp': "ミズゴロウ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の ヒレで 水の 流れを 感じて まわりの 様子を 知る。 岩を 持ち上げる 力持ち。",
+		'ja-jp': "頭の ヒレで 水の 流れを 感じて まわりの 様子を 知る。 岩を 持ち上げる 力持ち。",
 	},
 
 	stage: "Basic",

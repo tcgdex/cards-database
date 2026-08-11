@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Probopass",
+		'en-us': "Probopass",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nosepass",
+		'en-us': "Nosepass",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide",
+				'en-us': "Rock Slide",
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 20,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Nose",
+				'en-us': "Triple Nose",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads.",
+				'en-us': "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads.",
 			},
 			damage: "50+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It exudes strong magnetium from all cover. It controls three small units called Mini-Noses."
+		'en-us': "It exudes strong magnetium from all cover. It controls three small units called Mini-Noses."
 	},
 
 	retreat: 3,

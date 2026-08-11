@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホワイトキュレム",
+		'ja-jp': "ホワイトキュレム",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "強力な 冷凍エネルギーを 体内で 作り出すが 漏れ出した 冷気で 体が 凍っている。",
+		'ja-jp': "強力な 冷凍エネルギーを 体内で 作り出すが 漏れ出した 冷気で 体が 凍っている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "場に出ている相手のスタジアムをトラッシュする。",
+				'ja-jp': "場に出ている相手のスタジアムをトラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンに[炎]エネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンに[炎]エネルギーがついているなら、80ダメージ追加。",
 			},
 		},
 	],

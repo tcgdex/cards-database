@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Buneary",
-		fr: "Laporeille",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'de-de': "Haspiror"
 	},
 
 	illustrator: "Kanako Eo",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bounce",
-				fr: "Faire des bonds",
-				de: "Sprungfeder"
+				'en-us': "Bounce",
+				'fr-fr': "Faire des bonds",
+				'de-de': "Sprungfeder"
 			},
 			effect: {
-				en: "Switch Buneary with 1 of your Benched Pokémon.",
-				fr: "Échangez Laporeille avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Haspiror gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Buneary with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Laporeille avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Haspiror gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mini Drain",
-				fr: "Mini-assèchement",
-				de: "Minisauger"
+				'en-us': "Mini Drain",
+				'fr-fr': "Mini-assèchement",
+				'de-de': "Minisauger"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Buneary.",
-				fr: "Retirez à Laporeille 1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Haspiror."
+				'en-us': "Remove 1 damage counter from Buneary.",
+				'fr-fr': "Retirez à Laporeille 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Haspiror."
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder."
+		'en-us': "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder."
 	},
 
 	variants: [

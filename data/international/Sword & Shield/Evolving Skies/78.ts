@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Cutiefly",
-		fr: "Bombydou",
-		es: "Cutiefly",
-		it: "Cutiefly",
-		pt: "Cutiefly",
-		de: "Wommel"
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
+		'es-es': "Cutiefly",
+		'it-it': "Cutiefly",
+		'pt-br': "Cutiefly",
+		'de-de': "Wommel"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Flap",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Flap",
+			'de-de': "Flattern"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
+		'en-us': "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
 	},
 
 	dexId: [742],

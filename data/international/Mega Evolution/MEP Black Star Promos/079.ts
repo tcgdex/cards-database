@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
 		'es-mx': "Charmeleon",
-		de: "Glutexo",
-		it: "Charmeleon",
-		pt: "Charmeleon"
+		'de-de': "Glutexo",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon"
 	},
 
 	illustrator: "Teeziro",
@@ -23,26 +23,26 @@ const card: Card = {
 	dexId: [5],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
 		'es-mx': "Charmander",
-		de: "Glumanda",
-		it: "Charmander",
-		pt: "Charmander"
+		'de-de': "Glumanda",
+		'it-it': "Charmander",
+		'pt-br': "Charmander"
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'es-es': "Lanzallamas Continuo",
 			'es-mx': "Lanzallamas Continuo",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante"
+			'de-de': "Stetiger Feuerhauch",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante"
 		},
 
 		damage: 40

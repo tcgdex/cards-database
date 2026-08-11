@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
+		'en-us': "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
 	},
 
 	attacks: [{
 		cost: ["Darkness"],
 
 		name: {
-			en: "Play Rough",
-			fr: "Câlinerie",
-			de: "Knuddler",
-			es: "Carantoña",
-			pt: "Jogo Duro",
-			it: "Carineria"
+			'en-us': "Play Rough",
+			'fr-fr': "Câlinerie",
+			'de-de': "Knuddler",
+			'es-es': "Carantoña",
+			'pt-br': "Jogo Duro",
+			'it-it': "Carineria"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
 		}
 	}],
 

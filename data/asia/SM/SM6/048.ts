@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジガルデ",
+		'ja-jp': "ジガルデ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "セルと 呼ばれる ジガルデの 一部が １０％ほど 集まった 姿。 時速１００キロで 地を 駆ける。",
+		'ja-jp': "セルと 呼ばれる ジガルデの 一部が １０％ほど 集まった 姿。 時速１００キロで 地を 駆ける。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "だいちのオーラ" },
 			effect: {
-				ja: "このポケモンが使うワザのダメージは、弱点・抵抗力を計算しない。",
+				'ja-jp': "このポケモンが使うワザのダメージは、弱点・抵抗力を計算しない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手の場に「ウルトラビースト」がいるなら、30ダメージ追加。",
+				'ja-jp': "相手の場に「ウルトラビースト」がいるなら、30ダメージ追加。",
 			},
 		},
 	],

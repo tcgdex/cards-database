@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ソウブレイズex"
+		'ja-jp': "ソウブレイズex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "しんえんほむら"
+			'ja-jp': "しんえんほむら"
 		},
 
 		damage: "30＋",
 
 		effect: {
-			ja: "自分のトラッシュにあるエネルギーの枚数×20ダメージ追加。"
+			'ja-jp': "自分のトラッシュにあるエネルギーの枚数×20ダメージ追加。"
 		}
 	}, {
 		cost: ["Fire", "Psychic", "Metal"],
 
 		name: {
-			ja: "アメジストレイジ"
+			'ja-jp': "アメジストレイジ"
 		},
 
 		damage: 280,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。"
 		}
 	}],
 

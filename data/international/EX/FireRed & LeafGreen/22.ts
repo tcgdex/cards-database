@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom",
-				fr: "Sonicboom",
-				de: "Sonicboom"
+				'en-us': "Sonicboom",
+				'fr-fr': "Sonicboom",
+				'de-de': "Sonicboom"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 30,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rumble",
-				fr: "Bagarre",
-				de: "Rumble"
+				'en-us': "Rumble",
+				'fr-fr': "Bagarre",
+				'de-de': "Rumble"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 50,
 

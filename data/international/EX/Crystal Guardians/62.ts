@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psywave",
-				fr: "Vague Psy",
-				de: "Psywelle"
+				'en-us': "Psywave",
+				'fr-fr': "Vague Psy",
+				'de-de': "Psywelle"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt für jede Energie, die am Verteidigenden Pokémon angelegt ist, 10 Schadenspunkte zu."
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt für jede Energie, die am Verteidigenden Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo",
-		es: "Alomomola",
-		it: "Alomomola",
-		pt: "Alomomola",
-		de: "Mamolida"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo",
+		'es-es': "Alomomola",
+		'it-it': "Alomomola",
+		'pt-br': "Alomomola",
+		'de-de': "Mamolida"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Super Deep Dive",
-				fr: "Super Gros Plongeon",
-				es: "Superzambullida Submarina",
-				it: "Super Immersione",
-				pt: "Mergulho Super Profundo",
-				de: "Super Tieftaucher"
+				'en-us': "Super Deep Dive",
+				'fr-fr': "Super Gros Plongeon",
+				'es-es': "Superzambullida Submarina",
+				'it-it': "Super Immersione",
+				'pt-br': "Mergulho Super Profundo",
+				'de-de': "Super Tieftaucher"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cura 30 puntos de daño a este Pokémon. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Cura questo Pokémon da 30 danni. Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Cure 30 de danos deste Pokémon. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Cura questo Pokémon da 30 danni. Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Cure 30 de danos deste Pokémon. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 80,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		'en-us': "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
 	},
 
 	thirdParty: {

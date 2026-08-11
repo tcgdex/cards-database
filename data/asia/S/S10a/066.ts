@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "災いの箱",
+		'ja-jp': "災いの箱",
 		'zh-tw': "災禍箱",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ポケモンV」のHPがまんたんの状態で、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを8個のせる。",
+		'ja-jp': "このカードをつけている「ポケモンV」のHPがまんたんの状態で、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを8個のせる。",
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
 	},
 

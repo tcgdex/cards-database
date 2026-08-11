@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Aron",
-		fr: "Galekid de la Team Magma",
-		pt: "Aron da Equipe Magma",
+		'en-us': "Team Magma's Aron",
+		'fr-fr': "Galekid de la Team Magma",
+		'pt-br': "Aron da Equipe Magma",
 	},
 
 	illustrator: "Akira Komayama",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				pt: "Roída",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'pt-br': "Roída",
 			},
 
 			damage: 10,
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
+		'en-us': "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルレイド",
+		'ja-jp': "エルレイド",
 	},
 
 	illustrator: "Huang Tzu En",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手の 考えを 敏感に キャッチする 能力を 持つため 先に 攻撃が できるのだ。",
+		'ja-jp': "相手の 考えを 敏感に キャッチする 能力を 持つため 先に 攻撃が できるのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルタイプ" },
 			effect: {
-				ja: "このポケモンは、場にいるかぎり[超]と[闘]の2つのタイプになる。",
+				'ja-jp': "このポケモンは、場にいるかぎり[超]と[闘]の2つのタイプになる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita"
+		'en-us': "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Out",
-				de: "Verdrängen"
+				'en-us': "Push Out",
+				'de-de': "Verdrängen"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 50,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vortex Chop",
-				de: "Wirbelsturm-Schlag"
+				'en-us': "Vortex Chop",
+				'de-de': "Wirbelsturm-Schlag"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Resistance, this attack's base damage is 120 instead of 60.",
-				de: "Wenn das Verteidigende Pokémon mindestens eine Resistenz hat, beträgt der Grundschaden dieses Angriffs 120 Schadenspunkte anstelle von 60 Schadenspunkten."
+				'en-us': "If the Defending Pokémon has any Resistance, this attack's base damage is 120 instead of 60.",
+				'de-de': "Wenn das Verteidigende Pokémon mindestens eine Resistenz hat, beträgt der Grundschaden dieses Angriffs 120 Schadenspunkte anstelle von 60 Schadenspunkten."
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts."
+		'en-us': "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts."
 	},
 
 	variants: [

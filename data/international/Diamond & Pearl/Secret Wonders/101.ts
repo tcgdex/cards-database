@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Qwilfish",
-		fr: "Qwilfish",
-		de: "Baldorfish"
+		'en-us': "Qwilfish",
+		'fr-fr': "Qwilfish",
+		'de-de': "Baldorfish"
 	},
 
 	illustrator: "Kenkichi Toyama",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Balloon Sting",
-				fr: "Piqûre ballon",
-				de: "Stachelballon"
+				'en-us': "Balloon Sting",
+				'fr-fr': "Piqûre ballon",
+				'de-de': "Stachelballon"
 			},
 			effect: {
-				en: "Once during your opponent's turn, if Qwilfish is your Active Pokémon and is damaged by an attack (even if Qwilfish is Knocked Out), you may flip a coin. If heads, the Attacking Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Une seule fois lors du tour de votre adversaire, si Qwilfish est votre Pokémon Actif et qu'une attaque lui inflige des dégâts (même si Qwilfish est mis K.O), vous pouvez lancer une pièce. Si c'est face, le Pokémon Attaquant est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur ce Pokémon entre deux tours.",
-				de: "Einmal während des Zuges deines Gegners kannst du, wenn Baldorfish dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Baldorfish dadurch kampfunfähig wird), 1 Münze werfen. Bei \"Kopf\" ist das Angreifende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf dieses Pokémon."
+				'en-us': "Once during your opponent's turn, if Qwilfish is your Active Pokémon and is damaged by an attack (even if Qwilfish is Knocked Out), you may flip a coin. If heads, the Attacking Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Une seule fois lors du tour de votre adversaire, si Qwilfish est votre Pokémon Actif et qu'une attaque lui inflige des dégâts (même si Qwilfish est mis K.O), vous pouvez lancer une pièce. Si c'est face, le Pokémon Attaquant est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur ce Pokémon entre deux tours.",
+				'de-de': "Einmal während des Zuges deines Gegners kannst du, wenn Baldorfish dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Baldorfish dadurch kampfunfähig wird), 1 Münze werfen. Bei \"Kopf\" ist das Angreifende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf dieses Pokémon."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Nerve Shot",
-				fr: "Coup nerveux",
-				de: "Nerventreffer"
+				'en-us': "Nerve Shot",
+				'fr-fr': "Coup nerveux",
+				'de-de': "Nerventreffer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+		'en-us': "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
 	},
 
 	thirdParty: {

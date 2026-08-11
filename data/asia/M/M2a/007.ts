@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マユルド",
+		'ja-jp': "マユルド",
 	},
 
 	illustrator: "June",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "やわらかい 糸で できた 体は 時間と ともに 硬くなっていく。 ひび割れると 進化は 間近だ。",
+		'ja-jp': "やわらかい 糸で できた 体は 時間と ともに 硬くなっていく。 ひび割れると 進化は 間近だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いれかわる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケムッソ",
+		'ja-jp': "ケムッソ",
 	},
 
 	retreat: 3,

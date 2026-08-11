@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバゴ",
+		'ja-jp': "キバゴ",
 		'zh-tw': "牙牙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "岩や 樹木に 独特の 歯形を 見かけたら 近くに キバゴが 棲んでいるはずだ。",
+		'ja-jp': "岩や 樹木に 独特の 歯形を 見かけたら 近くに キバゴが 棲んでいるはずだ。",
 		'zh-tw': "如果在岩石或樹木上 發現了獨特的齒痕， 附近一定棲息著牙牙。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "抓",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "銳利之牙",
 			},
 			damage: 30,

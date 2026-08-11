@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dubwool"
+		'en-us': "Dubwool"
 	},
 
 	illustrator: "You Iribi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Wooloo"
+		'en-us': "Wooloo"
 	},
 
 	description: {
-		en: "Its majestic horns are meant only to impress the\nopposite gender. They never see use in battle."
+		'en-us': "Its majestic horns are meant only to impress the\nopposite gender. They never see use in battle."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Boundless Power"
+			'en-us': "Boundless Power"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			'en-us': "During your next turn, this Pokémon can't attack."
 		}
 	}],
 

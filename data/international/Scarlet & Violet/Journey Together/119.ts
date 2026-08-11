@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furret",
-		fr: "Fouinar",
-		es: "Furret",
-		de: "Wiesenior",
-		it: "Furret",
-		pt: "Furret",
+		'en-us': "Furret",
+		'fr-fr': "Fouinar",
+		'es-es': "Furret",
+		'de-de': "Wiesenior",
+		'it-it': "Furret",
+		'pt-br': "Furret",
 		'es-mx': "Furret"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Sentret",
-		fr: "Fouinette",
-		es: "Sentret",
-		de: "Wiesor",
-		it: "Sentret",
-		pt: "Sentret",
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
+		'es-es': "Sentret",
+		'de-de': "Wiesor",
+		'it-it': "Sentret",
+		'pt-br': "Sentret",
 		'es-mx': "Sentret"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			de: "Kratzer",
-			it: "Graffio",
-			pt: "Arranhão",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
 			'es-mx': "Arañazo"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Jet Headbutt",
-			fr: "Bélier Volant",
-			es: "Turbocabezazo",
-			de: "Flinke Kopfnuss",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato",
+			'en-us': "Jet Headbutt",
+			'fr-fr': "Bélier Volant",
+			'es-es': "Turbocabezazo",
+			'de-de': "Flinke Kopfnuss",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato",
 			'es-mx': "Cabezazo Jet"
 		},
 

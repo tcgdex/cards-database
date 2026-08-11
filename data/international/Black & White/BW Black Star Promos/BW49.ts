@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lilligant",
-		fr: "Fragilady",
+		'en-us': "Lilligant",
+		'fr-fr': "Fragilady",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Petilil",
-		fr: "Petilil",
+		'en-us': "Petilil",
+		'fr-fr': "Petilil",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lead",
-				fr: "Mentor",
+				'en-us': "Lead",
+				'fr-fr': "Mentor",
 			},
 			effect: {
-				en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Dance",
-				fr: "Danse-Rêve",
+				'en-us': "Dream Dance",
+				'fr-fr': "Danse-Rêve",
 			},
 			effect: {
-				en: "Both this Pokémon and the Defending Pokémon are now Asleep.",
-				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis.",
+				'en-us': "Both this Pokémon and the Defending Pokémon are now Asleep.",
+				'fr-fr': "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis.",
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+		'en-us': "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
 	},
 }
 

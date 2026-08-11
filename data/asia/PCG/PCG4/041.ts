@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Espeon Ex",
+		'ja-jp': "Espeon Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デボフラッシュ",
+				'ja-jp': "デボフラッシュ",
 			},
 			effect: {
-				ja: "ターン中に、Pokã©Monの1つを進化させるためにEspeon Exをプレイすると、相手のベンチで1つの進化したPokã©Monを選択し、そのPokã©Monから最高のステージ進化カードを削除し、それを手に戻します。",
+				'ja-jp': "ターン中に、Pokã©Monの1つを進化させるためにEspeon Exをプレイすると、相手のベンチで1つの進化したPokã©Monを選択し、そのPokã©Monから最高のステージ進化カードを削除し、それを手に戻します。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スナップテール",
+				'ja-jp': "スナップテール",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "ピループ",
+				'ja-jp': "ピループ",
 			},
 			effect: {
-				ja: "対戦相手がプレイしているトレーナーカードごとに60のダメージと30のダメージを与えます。",
+				'ja-jp': "対戦相手がプレイしているトレーナーカードごとに60のダメージと30のダメージを与えます。",
 			},
 		},
 	],

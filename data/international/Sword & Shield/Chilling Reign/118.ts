@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon-Z",
-		fr: "Porygon-Z",
-		es: "Porygon-Z",
-		it: "Porygon-Z",
-		pt: "Porygon-Z",
-		de: "Porygon-Z"
+		'en-us': "Porygon-Z",
+		'fr-fr': "Porygon-Z",
+		'es-es': "Porygon-Z",
+		'it-it': "Porygon-Z",
+		'pt-br': "Porygon-Z",
+		'de-de': "Porygon-Z"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,53 +21,53 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'es-es': "Porygon2",
+		'it-it': "Porygon2",
+		'pt-br': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Bug Transmission",
-			fr: "Piratage",
-			es: "Transmisión de Errores",
-			it: "Trasmissione Bug",
-			pt: "Transmissão Bugada",
-			de: "Fehlerübertragung"
+			'en-us': "Bug Transmission",
+			'fr-fr': "Piratage",
+			'es-es': "Transmisión de Errores",
+			'it-it': "Trasmissione Bug",
+			'pt-br': "Transmissão Bugada",
+			'de-de': "Fehlerübertragung"
 		},
 
 		effect: {
-			en: "Whenever you attach an Energy card from your hand to this Pokémon during your turn, you may make your opponent's Active Pokémon Confused.",
-			fr: "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Confus.",
-			es: "Cada vez que unas 1 carta de Energía de tu mano a este Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Confundido.",
-			it: "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario confuso.",
-			pt: "Sempre que você ligar 1 carta de Energia da sua mão a este Pokémon durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Confuso.",
-			de: "Jedes Mal, wenn du während deines Zuges 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du das Aktive Pokémon deines Gegners verwirren."
+			'en-us': "Whenever you attach an Energy card from your hand to this Pokémon during your turn, you may make your opponent's Active Pokémon Confused.",
+			'fr-fr': "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Confus.",
+			'es-es': "Cada vez que unas 1 carta de Energía de tu mano a este Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Confundido.",
+			'it-it': "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario confuso.",
+			'pt-br': "Sempre que você ligar 1 carta de Energia da sua mão a este Pokémon durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Confuso.",
+			'de-de': "Jedes Mal, wenn du während deines Zuges 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du das Aktive Pokémon deines Gegners verwirren."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Superbeam",
-			fr: "Super Rayon",
-			es: "Supertransmisión",
-			it: "Super Raggio",
-			pt: "Superraio",
-			de: "Superstrahl"
+			'en-us': "Superbeam",
+			'fr-fr': "Super Rayon",
+			'es-es': "Supertransmisión",
+			'it-it': "Super Raggio",
+			'pt-br': "Superraio",
+			'de-de': "Superstrahl"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 170,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
+		'en-us': "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
 	},
 
 	variants: [

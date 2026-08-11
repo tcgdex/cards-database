@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Boldore",
-		fr: "Géolithe",
-		de: "Sedimantur",
-		it: "Boldore",
-		pt: "Boldore",
-		es: "Boldore",
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
+		'de-de': "Sedimantur",
+		'it-it': "Boldore",
+		'pt-br': "Boldore",
+		'es-es': "Boldore",
 		'es-mx': "Boldore"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		de: "Kiesling",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		es: "Roggenrola",
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'de-de': "Kiesling",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'es-es': "Roggenrola",
 		'es-mx': "Roggenrola"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Smack Down",
-			fr: "Anti-Air",
-			de: "Katapult",
-			it: "Abbattimento",
-			pt: "Derrubada",
-			es: "Antiaéreo",
+			'en-us': "Smack Down",
+			'fr-fr': "Anti-Air",
+			'de-de': "Katapult",
+			'it-it': "Abbattimento",
+			'pt-br': "Derrubada",
+			'es-es': "Antiaéreo",
 			'es-mx': "Antiaéreo"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon has {F} Resistance, this attack does 50 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a une Résistance à {F}, cette attaque inflige 50 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners {F}-Resistenz hat, fügt diese Attacke 50 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha resistenza al tipo {F}, questo attacco infligge 50 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente tiver Resistência {F}, este ataque causará 50 pontos de dano a mais.",
-			es: "Si el Pokémon Activo de tu rival tiene Resistencia a {F}, este ataque hace 50 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon has {F} Resistance, this attack does 50 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a une Résistance à {F}, cette attaque inflige 50 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners {F}-Resistenz hat, fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha resistenza al tipo {F}, questo attacco infligge 50 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver Resistência {F}, este ataque causará 50 pontos de dano a mais.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene Resistencia a {F}, este ataque hace 50 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival tiene Resistencia a {F}, este ataque hace 50 puntos de daño más."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			de: "Juwelenkraft",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			es: "Joya de Luz",
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'de-de': "Juwelenkraft",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'es-es': "Joya de Luz",
 			'es-mx': "Joya de Luz"
 		},
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Beautifly",
-		fr: "Charmillon",
-		es: "Beautifly",
-		it: "Beautifly",
-		pt: "Beautifly",
-		de: "Papinella"
+		'en-us': "Beautifly",
+		'fr-fr': "Charmillon",
+		'es-es': "Beautifly",
+		'it-it': "Beautifly",
+		'pt-br': "Beautifly",
+		'de-de': "Papinella"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Silcoon",
-		fr: "Armulys",
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Triple Energy",
-				fr: "Triple Énergie",
+				'en-us': "Triple Energy",
+				'fr-fr': "Triple Énergie",
 			},
 			effect: {
-				en: "Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck 3 différents types de cartes Énergie de base et attachez-les à vos Pokémon de la manière que vous voulez. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck 3 différents types de cartes Énergie de base et attachez-les à vos Pokémon de la manière que vous voulez. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drainpour",
-				fr: "Sangsue-Déluge",
+				'en-us': "Drainpour",
+				'fr-fr': "Sangsue-Déluge",
 			},
 			effect: {
-				en: "Heal 40 damage from each of your Benched Pokémon.",
-				fr: "Soignez 40 dégâts à chacun de vos Pokémon de Banc.",
+				'en-us': "Heal 40 damage from each of your Benched Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à chacun de vos Pokémon de Banc.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+		'en-us': "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
 	},
 
 	thirdParty: {

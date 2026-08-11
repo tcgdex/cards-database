@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Snorunt"
+		'id-id': "Snorunt"
 	},
 
 	illustrator: "Mékayu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Dikatakan bahwa rumah yang dikunjungi Snorunt akan menjadi makmur. Suhu -100 ºC tidak masalah bagi Pokémon ini."
+		'id-id': "Dikatakan bahwa rumah yang dikunjungi Snorunt akan menjadi makmur. Suhu -100 ºC tidak masalah bagi Pokémon ini."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengejutkan"
+			'id-id': "Mengejutkan"
 		},
 
 		effect: {
-			id: "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
+			'id-id': "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
 		},
 
 		damage: 20,

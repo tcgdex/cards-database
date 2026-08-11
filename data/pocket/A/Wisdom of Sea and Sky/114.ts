@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow",
-		fr: "Corboss"
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss"
 	},
 
 	illustrator: "Shiburingaru",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow"
+		'en-us': "Murkrow"
 	},
 
 	description: {
-		en: "It is merciless by nature. It is said that it never\nforgives the mistakes of its Murkrow followers.",
-		fr: "Ce Pokémon impitoyable ne tolère aucun échec de la part de ses sbires, les Cornèbre."
+		'en-us': "It is merciless by nature. It is said that it never\nforgives the mistakes of its Murkrow followers.",
+		'fr-fr': "Ce Pokémon impitoyable ne tolère aucun échec de la part de ses sbires, les Cornèbre."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dark Cutter",
-			fr: "Tranch'Obscur"
+			'en-us': "Dark Cutter",
+			'fr-fr': "Tranch'Obscur"
 		},
 
 		damage: 60,

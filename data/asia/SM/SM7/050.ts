@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グラードン",
+		'ja-jp': "グラードン",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "カイオーガと 死闘の末 長い 眠りに ついた。 大地の 化身と 言われる 伝説の ポケモン。",
+		'ja-jp': "カイオーガと 死闘の末 長い 眠りに ついた。 大地の 化身と 言われる 伝説の ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、50ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、50ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

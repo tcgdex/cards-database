@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli",
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Cleanse Away",
-				fr: "Grand nettoyage",
-				de: "Wunden lecken"
+				'en-us': "Cleanse Away",
+				'fr-fr': "Grand nettoyage",
+				'de-de': "Wunden lecken"
 			},
 			effect: {
-				en: "Remove 2 damage counters from each of your Benched Pokémon.",
-				fr: "Retirez 2 marqueurs de dégât à chacun de vos Pokémon de Banc.",
-				de: "Entferne 2 Schadensmarken von jedem Pokémon auf deiner Bank."
+				'en-us': "Remove 2 damage counters from each of your Benched Pokémon.",
+				'fr-fr': "Retirez 2 marqueurs de dégât à chacun de vos Pokémon de Banc.",
+				'de-de': "Entferne 2 Schadensmarken von jedem Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Whirlpool",
-				fr: "Hyper tourbillon",
-				de: "Hyper Whirlpool"
+				'en-us': "Hyper Whirlpool",
+				'fr-fr': "Hyper tourbillon",
+				'de-de': "Hyper Whirlpool"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has evolved to be suitable for aquatic life. It can invisibly melt away into water.",
+		'en-us': "It has evolved to be suitable for aquatic life. It can invisibly melt away into water.",
 	},
 
 	thirdParty: {

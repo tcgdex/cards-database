@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "0313",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
-				es: "Llama abrasadora",
-				it: "Fulminshock",
-				pt: "Fogo-fátuo",
-				de: "Irrlicht"
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
+				'es-es': "Llama abrasadora",
+				'it-it': "Fulminshock",
+				'pt-br': "Fogo-fátuo",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 30,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
 
 	thirdParty: {

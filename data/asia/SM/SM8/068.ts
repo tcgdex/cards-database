@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。",
+		'ja-jp': "今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。",
 	},
 
 	stage: "Basic",

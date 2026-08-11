@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セキタンザン",
+		'ja-jp': "セキタンザン",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "温厚な 気質だが 怒ると 怖い。 １５００度の 燃えあがる 体で のしかかり 焼きつくす。",
+		'ja-jp': "温厚な 気質だが 怒ると 怖い。 １５００度の 燃えあがる 体で のしかかり 焼きつくす。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "タールキャノン" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のポケモン1匹に、140ダメージ。自分のトラッシュに「基本[F]エネルギー」が10枚以上ないなら、このワザは失敗。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、140ダメージ。自分のトラッシュに「基本[F]エネルギー」が10枚以上ないなら、このワザは失敗。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
 			},
 		},
 	],
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トロッゴン",
+		'ja-jp': "トロッゴン",
 	},
 
 	retreat: 4,

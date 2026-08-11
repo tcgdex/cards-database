@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tygnon",
-		en: "Hitmonchan",
-		es: "Hitmonchan",
-		it: "Hitmonchan",
-		pt: "Hitmonchan",
-		de: "Nockchan"
+		'fr-fr': "Tygnon",
+		'en-us': "Hitmonchan",
+		'es-es': "Hitmonchan",
+		'it-it': "Hitmonchan",
+		'pt-br': "Hitmonchan",
+		'de-de': "Nockchan"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Contre-Attaque",
-			en: "Counterattack",
-			es: "Contragolpe",
-			it: "Respinta",
-			pt: "Contra-ataque",
-			de: "Gegenangriff"
+			'fr-fr': "Contre-Attaque",
+			'en-us': "Counterattack",
+			'es-es': "Contragolpe",
+			'it-it': "Respinta",
+			'pt-br': "Contra-ataque",
+			'de-de': "Gegenangriff"
 		},
 
 		effect: {
-			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
-			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
-			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
-			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
+			'fr-fr': "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
+			'es-es': "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
+			'it-it': "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
+			'pt-br': "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
+			'de-de': "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Coup de Poing Dynamique",
-			en: "Excited Punch",
-			es: "Puño Exaltado",
-			it: "Fervorpugno",
-			pt: "Soco Animado",
-			de: "Aufgeregter Punch"
+			'fr-fr': "Coup de Poing Dynamique",
+			'en-us': "Excited Punch",
+			'es-es': "Puño Exaltado",
+			'it-it': "Fervorpugno",
+			'pt-br': "Soco Animado",
+			'de-de': "Aufgeregter Punch"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, l'attaque Coup de Poing Dynamique de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-			en: "During your next turn, this Pokémon's Excited Punch attack does 60 more damage (before applying Weakness and Resistance).",
-			es: "Durante tu próximo turno, el ataque Puño Exaltado de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-			it: "Durante il tuo prossimo turno, l'attacco Fervorpugno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
-			pt: "Durante o seu próximo turno, o ataque Soco Animado deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
-			de: "Während deines nächsten Zuges fügt die Attacke Aufgeregter Punch dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			'fr-fr': "Pendant votre prochain tour, l'attaque Coup de Poing Dynamique de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			'en-us': "During your next turn, this Pokémon's Excited Punch attack does 60 more damage (before applying Weakness and Resistance).",
+			'es-es': "Durante tu próximo turno, el ataque Puño Exaltado de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il tuo prossimo turno, l'attacco Fervorpugno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o seu próximo turno, o ataque Soco Animado deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Während deines nächsten Zuges fügt die Attacke Aufgeregter Punch dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		},
 
 		damage: 60
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		'en-us': "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [104],
 
 	name: {
-		en: "Cubone"
+		'en-us': "Cubone"
 	},
 
 	illustrator: "Mizue",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon wears the skull of its deceased\nmother. Sometimes Cubone's dreams make it cry,\nbut each tear Cubone sheds makes it stronger."
+		'en-us': "This Pokémon wears the skull of its deceased\nmother. Sometimes Cubone's dreams make it cry,\nbut each tear Cubone sheds makes it stronger."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			'en-us': "Headbutt"
 		},
 
 		damage: 10,

@@ -1,35 +1,35 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイオーガ"
+		'ja-jp': "カイオーガ"
 	},
 	illustrator: "Nisota Niso",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
 	description: {
-		ja: "大雨を降らせる能力で海を広げたと言われている。海溝の底で眠っていた。"
+		'ja-jp': "大雨を降らせる能力で海を広げたと言われている。海溝の底で眠っていた。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ぎゃくりゅう"
+			'ja-jp': "ぎゃくりゅう"
 		},
 		damage: "20×",
 		effect: {
-			ja: "自分のトラッシュにある「基本水エネルギー」をすべて相手に見せ、その枚数×20ダメージ。その後、見せたエネルギーを山札に戻して切る。"
+			'ja-jp': "自分のトラッシュにある「基本水エネルギー」をすべて相手に見せ、その枚数×20ダメージ。その後、見せたエネルギーを山札に戻して切る。"
 		},
 		cost: ["Water"]
 	}, {
 		name: {
-			ja: "うずまくなみ"
+			'ja-jp': "うずまくなみ"
 		},
 		damage: 130,
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		},
 		cost: ["Water", "Water", "Colorless"]
 	}],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran ♂",
-		de: "Nidoran M"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran ♂",
+		'de-de': "Nidoran M"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Nidoran ♀ or a Nidoran ♂ card and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Nidoran ♀ ou une carte Nidoran ♂ et placez-la sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Nidoran W oder Nidoran M Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Nidoran ♀ or a Nidoran ♂ card and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Nidoran ♀ ou une carte Nidoran ♂ et placez-la sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Nidoran W oder Nidoran M Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Coup double",
-				de: "Doppelstich"
+				'en-us': "Double Stab",
+				'fr-fr': "Coup double",
+				'de-de': "Doppelstich"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 

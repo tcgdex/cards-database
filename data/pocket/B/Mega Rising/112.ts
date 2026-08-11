@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gothita"
+		'en-us': "Gothita"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Beware of touching the ribbon-shaped feelers\nthat control its psychic power. Gothita will begin\nbawling if you do."
+		'en-us': "Beware of touching the ribbon-shaped feelers\nthat control its psychic power. Gothita will begin\nbawling if you do."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stampede"
+			'en-us': "Stampede"
 		},
 
 		damage: 20,

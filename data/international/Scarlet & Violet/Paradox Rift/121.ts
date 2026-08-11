@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morpeko",
-		fr: "Morpeko",
-		es: "Morpeko",
-		it: "Morpeko",
-		pt: "Morpeko",
-		de: "Morpeko"
+		'en-us': "Morpeko",
+		'fr-fr': "Morpeko",
+		'es-es': "Morpeko",
+		'it-it': "Morpeko",
+		'pt-br': "Morpeko",
+		'de-de': "Morpeko"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "In a Hungry Hurry",
-			fr: "Faim Urgente",
-			es: "Con Hambre y a lo Loco",
-			it: "Fretta Famelica",
-			pt: "Afobado de Fome",
-			de: "In hungriger Hast"
+			'en-us': "In a Hungry Hurry",
+			'fr-fr': "Faim Urgente",
+			'es-es': "Con Hambre y a lo Loco",
+			'it-it': "Fretta Famelica",
+			'pt-br': "Afobado de Fome",
+			'de-de': "In hungriger Hast"
 		},
 
 		effect: {
-			en: "If this Pokémon has no Energy attached, it has no Retreat Cost.",
-			fr: "Si aucune Énergie n'est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon non ha Energie assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten."
+			'en-us': "If this Pokémon has no Energy attached, it has no Retreat Cost.",
+			'fr-fr': "Si aucune Énergie n'est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			'es-es': "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Coste de Retirada.",
+			'it-it': "Se questo Pokémon non ha Energie assegnate, non ha costo di ritirata.",
+			'pt-br': "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo.",
+			'de-de': "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Energizer Wheel",
-			fr: "Roue Énergisante",
-			es: "Rueda Vigorizante",
-			it: "Ruota Energizzante",
-			pt: "Roda Energizante",
-			de: "Energiespendendes Rad"
+			'en-us': "Energizer Wheel",
+			'fr-fr': "Roue Énergisante",
+			'es-es': "Rueda Vigorizante",
+			'it-it': "Ruota Energizzante",
+			'pt-br': "Roda Energizante",
+			'de-de': "Energiespendendes Rad"
 		},
 
 		effect: {
-			en: "Move 2 {D} Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez 2 Énergies {D} de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 2 Energías {D} de este Pokémon a uno de tus Pokémon en Banca.",
-			it: "Sposta due Energie {D} da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova 2 Energias {D} deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 2 {D}-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'en-us': "Move 2 {D} Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez 2 Énergies {D} de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'es-es': "Mueve 2 Energías {D} de este Pokémon a uno de tus Pokémon en Banca.",
+			'it-it': "Sposta due Energie {D} da questo Pokémon a uno di quelli nella tua panchina.",
+			'pt-br': "Mova 2 Energias {D} deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'de-de': "Verschiebe 2 {D}-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 70
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
+		'en-us': "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
 	},
 
 	variants: [

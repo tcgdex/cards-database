@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				es: "Bofetón",
-				it: "Sberla",
-				pt: "Tapa",
-				de: "Hieb"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'es-es': "Bofetón",
+				'it-it': "Sberla",
+				'pt-br': "Tapa",
+				'de-de': "Hieb"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Follow Me",
-				fr: "Par Ici",
-				es: "Señuelo",
-				it: "Sonoqui",
-				pt: "Isca-viva",
-				de: "Spotlight"
+				'en-us': "Follow Me",
+				'fr-fr': "Par Ici",
+				'es-es': "Señuelo",
+				'it-it': "Sonoqui",
+				'pt-br': "Isca-viva",
+				'de-de': "Spotlight"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its adorable behavior and appearance make it popular with men and women, young and old. Its numbers are few, however.",
+		'en-us': "Its adorable behavior and appearance make it popular with men and women, young and old. Its numbers are few, however.",
 	},
 
 	thirdParty: {

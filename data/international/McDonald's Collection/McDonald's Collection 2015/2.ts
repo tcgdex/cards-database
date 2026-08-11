@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -24,8 +24,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 			damage: "20",
 		},

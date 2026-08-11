@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Friends in Galar",
-		fr: "Amis de Galar",
-		es: "Amigos de Galar",
-		it: "Amici a Galar",
-		pt: "Amigos em Galar",
-		de: "Freunde aus Galar"
+		'en-us': "Friends in Galar",
+		'fr-fr': "Amis de Galar",
+		'es-es': "Amigos de Galar",
+		'it-it': "Amici a Galar",
+		'pt-br': "Amigos em Galar",
+		'de-de': "Freunde aus Galar"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		'en-us': "Draw 3 cards.",
+		'fr-fr': "Piochez 3 cartes.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cartas.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

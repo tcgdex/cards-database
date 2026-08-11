@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
-		fr: "Énergie Feu"
+		'en-us': "Fire Energy",
+		'fr-fr': "Énergie Feu"
 	},
 
 	rarity: "None",

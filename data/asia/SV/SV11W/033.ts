@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コロモリ",
+		'ja-jp': "コロモリ",
 	},
 
 	illustrator: "Wintr Wandr",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "暗い 森や 洞穴で 暮らす。 鼻の 穴から 超音波を 出して あたりの 様子を 探る。",
+		'ja-jp': "暗い 森や 洞穴で 暮らす。 鼻の 穴から 超音波を 出して あたりの 様子を 探る。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Sceptile",
-		fr: "Jungko",
-		de: "Gewaldro"
+		'en-us': "Sceptile",
+		'fr-fr': "Jungko",
+		'de-de': "Gewaldro"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
-		fr: "Massko"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lizard Poison",
-				fr: "Poison de lézard",
-				de: "Echsengift"
+				'en-us': "Lizard Poison",
+				'fr-fr': "Poison de lézard",
+				'de-de': "Echsengift"
 			},
 			effect: {
-				en: "If 1 Energy is attached to Sceptile, the Defending Pokémon is now Asleep. If 2 Energy is attached to Sceptile, the Defending Pokémon is now Poisoned. If 3 Energy is attached to Sceptile, the Defending Pokémon is now Asleep and Poisoned. If 4 or more Energy is attached to Sceptile, the Defending Pokémon is now Asleep, Burned, and Poisoned.",
-				fr: "Si Jungko possède une carte Énergie, le Pokémon Défenseur est maintenant Endormi. S'il en a deux, le Pokémon Défenseur est maintenant Empoisonné. S'il en a trois, le Pokémon Défenseur est Endormi et Empoisonné. S'il en a quatre ou plus, le Pokémon Défenseur est Endormi, Brûlé et Empoisonné.",
-				de: "Wenn 1 Energie an Gewaldro angelegt ist, schläft das Verteidigende Pokémon jetzt. Wenn 2 Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn 3 Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet und schläft. Wenn 4 oder mehr Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet, verbrannt und schläft."
+				'en-us': "If 1 Energy is attached to Sceptile, the Defending Pokémon is now Asleep. If 2 Energy is attached to Sceptile, the Defending Pokémon is now Poisoned. If 3 Energy is attached to Sceptile, the Defending Pokémon is now Asleep and Poisoned. If 4 or more Energy is attached to Sceptile, the Defending Pokémon is now Asleep, Burned, and Poisoned.",
+				'fr-fr': "Si Jungko possède une carte Énergie, le Pokémon Défenseur est maintenant Endormi. S'il en a deux, le Pokémon Défenseur est maintenant Empoisonné. S'il en a trois, le Pokémon Défenseur est Endormi et Empoisonné. S'il en a quatre ou plus, le Pokémon Défenseur est Endormi, Brûlé et Empoisonné.",
+				'de-de': "Wenn 1 Energie an Gewaldro angelegt ist, schläft das Verteidigende Pokémon jetzt. Wenn 2 Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn 3 Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet und schläft. Wenn 4 oder mehr Energie an Gewaldro angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet, verbrannt und schläft."
 			},
 			damage: 20,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
-				fr: "Lance-soleil",
-				de: "Solarstrahl"
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-soleil",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 70,

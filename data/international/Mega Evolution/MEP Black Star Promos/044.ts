@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		de: "Flamiau",
-		it: "Litten",
-		es: "Litten",
-		pt: "Litten",
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'de-de': "Flamiau",
+		'it-it': "Litten",
+		'es-es': "Litten",
+		'pt-br': "Litten",
 		'es-mx': "Litten"
 	},
 
@@ -26,24 +26,24 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Fire Fang",
-			fr: "Crocs Feu",
-			de: "Feuerzahn",
-			it: "Rogodenti",
-			es: "Colmillo Ígneo",
-			pt: "Presas de Fogo",
+			'en-us': "Fire Fang",
+			'fr-fr': "Crocs Feu",
+			'de-de': "Feuerzahn",
+			'it-it': "Rogodenti",
+			'es-es': "Colmillo Ígneo",
+			'pt-br': "Presas de Fogo",
 			'es-mx': "Colmillo Ígneo"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado."
 		}
 	}],

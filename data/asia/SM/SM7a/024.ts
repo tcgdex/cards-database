@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシレーヌ",
+		'ja-jp': "アシレーヌ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "歌声を 活かし 戦う。 毎日の のどの メンテナンスは トレーナーの 大切な 役目。",
+		'ja-jp': "歌声を 活かし 戦う。 毎日の のどの メンテナンスは トレーナーの 大切な 役目。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハーモニクス" },
 			effect: {
-				ja: "このポケモンがいるかぎり、手札から自分のポケモンにエネルギーをつけるとき、同時に2枚までつけられる。（ワザ・「ハーモニクス」以外の特性・トレーナーズでつける場合はのぞく。）",
+				'ja-jp': "このポケモンがいるかぎり、手札から自分のポケモンにエネルギーをつけるとき、同時に2枚までつけられる。（ワザ・「ハーモニクス」以外の特性・トレーナーズでつける場合はのぞく。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	retreat: 2,

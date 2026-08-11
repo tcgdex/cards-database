@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scizor"
+		'id-id': "Scizor"
 	},
 
 	illustrator: "otumami",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Dengan capitnya yang mengandung baja, Scizor akan menghancurkan benda sekeras apa pun yang ditangkapnya menjadi debu."
+		'id-id': "Dengan capitnya yang mengandung baja, Scizor akan menghancurkan benda sekeras apa pun yang ditangkapnya menjadi debu."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Punish Scissor"
+			'id-id': "Punish Scissor"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Pokémon yang memiliki Ability di Arena lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Pokémon yang memiliki Ability di Arena lawan."
 		},
 
 		damage: "10+",
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Potongan Iai"
+			'id-id': "Potongan Iai"
 		},
 
 		damage: 70,

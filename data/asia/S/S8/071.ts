@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 		'zh-tw': "美錄坦",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "とろりと 溶けた 鋼の 体。 地中の 鉄分や 金属を 溶かして 吸収する。",
+		'ja-jp': "とろりと 溶けた 鋼の 体。 地中の 鉄分や 金属を 溶かして 吸収する。",
 		'zh-tw': "身體是融化成液狀的鋼鐵。能夠將地底的鐵或其他金屬溶解後吸收進體內。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "てつぶんせっしゅ",
+				'ja-jp': "てつぶんせっしゅ",
 				'zh-tw': "鐵質攝取",
 			},
 			cost: ["Metal"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
 			},
 			damage: 20,

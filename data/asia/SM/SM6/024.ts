@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマルルガ",
+		'ja-jp': "アマルルガ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ひし形の 結晶で 氷の 壁を 瞬間的に 作り 敵の 攻撃を 防ぐのだ。",
+		'ja-jp': "ひし形の 結晶で 氷の 壁を 瞬間的に 作り 敵の 攻撃を 防ぐのだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アマルス",
+		'ja-jp': "アマルス",
 	},
 
 	retreat: 4,

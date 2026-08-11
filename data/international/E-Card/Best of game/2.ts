@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Best of game'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmonchan"
+		'en-us': "Hitmonchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 
 
 	description: {
-		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
+		'en-us': "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
 	},
 
 	hp: 60,
@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Jab"
+			'en-us': "Jab"
 		},
 
 		damage: 20
@@ -41,7 +41,7 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Special Punch"
+			'en-us': "Special Punch"
 		},
 
 		damage: 40

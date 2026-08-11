@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		es: "Manectric",
-		it: "Manectric",
-		pt: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'es-es': "Manectric",
+		'it-it': "Manectric",
+		'pt-br': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Crush",
-				fr: "Écras'Énergie",
+				'en-us': "Energy Crush",
+				'fr-fr': "Écras'Énergie",
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon de votre adversaire.",
+				'en-us': "Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon de votre adversaire.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flash Impact",
-				fr: "Impact-Flash",
+				'en-us': "Flash Impact",
+				'fr-fr': "Impact-Flash",
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 80,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
-		it: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo"
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+		'en-us': "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
 
 	dexId: [813],

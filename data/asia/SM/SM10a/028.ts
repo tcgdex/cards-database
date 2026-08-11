@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジガルデ",
+		'ja-jp': "ジガルデ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ジガルデの 一部が １割ほど 集まった。 相手の 懐に 飛びかかり 鋭いキバで 噛みつく。",
+		'ja-jp': "ジガルデの 一部が １割ほど 集まった。 相手の 懐に 飛びかかり 鋭いキバで 噛みつく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "セルカンパニー" },
 			effect: {
-				ja: "このポケモンがベンチにいるかぎり、自分の「ジガルデ（GXをふくむ）」が使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "このポケモンがベンチにいるかぎり、自分の「ジガルデ（GXをふくむ）」が使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のトラッシュにある[闘]エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある[闘]エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 	],

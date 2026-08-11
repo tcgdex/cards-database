@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		de: "Onix",
-		it: "Onix",
-		es: "Onix",
-		pt: "Onix",
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'de-de': "Onix",
+		'it-it': "Onix",
+		'es-es': "Onix",
+		'pt-br': "Onix",
 		'es-mx': "Onix"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bind",
-			fr: "Étreinte",
-			de: "Klammergriff",
-			it: "Legatutto",
-			es: "Atadura",
-			pt: "Ligação",
+			'en-us': "Bind",
+			'fr-fr': "Étreinte",
+			'de-de': "Klammergriff",
+			'it-it': "Legatutto",
+			'es-es': "Atadura",
+			'pt-br': "Ligação",
 			'es-mx': "Atadura"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			de: "Stärke",
-			it: "Forza",
-			es: "Fuerza",
-			pt: "Força",
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'de-de': "Stärke",
+			'it-it': "Forza",
+			'es-es': "Fuerza",
+			'pt-br': "Força",
 			'es-mx': "Fuerza"
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Deoxys",
-		fr: "Deoxys",
-		de: "Deoxys"
+		'en-us': "Deoxys",
+		'fr-fr': "Deoxys",
+		'de-de': "Deoxys"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Cell Storm",
-				fr: "Tempête cellulaire",
-				de: "Zellsturm"
+				'en-us': "Cell Storm",
+				'fr-fr': "Tempête cellulaire",
+				'de-de': "Zellsturm"
 			},
 			effect: {
-				en: "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
-				fr: "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts.",
-				de: "Lege 2 an Deoxys angelegte -Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
+				'en-us': "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
+				'fr-fr': "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts.",
+				'de-de': "Lege 2 an Deoxys angelegte -Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
 			},
 			damage: 60,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		'en-us': "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
 	},
 
 	variants: [

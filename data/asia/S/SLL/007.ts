@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "岩狗狗",
-		ja: "イワンコ"
+		'ja-jp': "イワンコ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "非常容易親近，但是卻喜歡東咬西咬，所以如果要一直培育牠的話會相當費勁。",
-		ja: "よく 懐くが 噛み癖が あるので ずっと 育てるには なかなか 骨が 折れるぞ。"
+		'ja-jp': "よく 懐くが 噛み癖が あるので ずっと 育てるには なかなか 骨が 折れるぞ。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "雙重抽出",
-			ja: "ダブルドロー"
+			'ja-jp': "ダブルドロー"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出2張卡。",
-			ja: "自分の山札を2枚引く。"
+			'ja-jp': "自分の山札を2枚引く。"
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
 			'zh-tw': "後踢",
-			ja: "うしろげり"
+			'ja-jp': "うしろげり"
 		},
 
 		damage: 30,

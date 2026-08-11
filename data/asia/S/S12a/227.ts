@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオンV",
+		'ja-jp': "ドラピオンV",
 		'zh-tw': "龍王蠍V",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ワイルドスタイル",
+				'ja-jp': "ワイルドスタイル",
 				'zh-tw': "狂野風格",
 			},
 			effect: {
-				ja: "相手の場の「いちげき」「れんげき」「フュージョン」のポケモンの数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
+				'ja-jp': "相手の場の「いちげき」「れんげき」「フュージョン」のポケモンの数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
 				'zh-tw': "這隻寶可夢使用招式所需的【無】能量，減少對手的場上「一擊」「連擊」「匯流」寶可夢的數量。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイナミックテール",
+				'ja-jp': "ダイナミックテール",
 				'zh-tw': "極限之尾",
 			},
 			damage: 190,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "自己的1隻寶可夢也受到60點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},

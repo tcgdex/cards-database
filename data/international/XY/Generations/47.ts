@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
-		fr: "Kicklee",
+		'en-us': "Hitmonlee",
+		'fr-fr': "Kicklee",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stretch Kick",
-				fr: "Allonge",
+				'en-us': "Stretch Kick",
+				'fr-fr': "Allonge",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Spiral Kick",
-				fr: "Coup'd Pied en Spirale",
+				'en-us': "Spiral Kick",
+				'fr-fr': "Coup'd Pied en Spirale",
 			},
 
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+		'en-us': "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
 	},
 
 	thirdParty: {

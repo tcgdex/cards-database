@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
 	},
 
 	illustrator: "TOKIYA",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Doduo",
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Retreat Aid",
-				fr: "Soutien de Retraite",
+				'en-us': "Retreat Aid",
+				'fr-fr': "Soutien de Retraite",
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
-				fr: "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
+				'en-us': "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "40×",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+		'en-us': "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
 	},
 
 	thirdParty: {

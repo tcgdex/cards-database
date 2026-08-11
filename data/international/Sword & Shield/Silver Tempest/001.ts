@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		es: "Venonat",
-		it: "Venonat",
-		pt: "Venonat",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'es-es': "Venonat",
+		'it-it': "Venonat",
+		'pt-br': "Venonat",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "Sekio",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+		'en-us': "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
 	},
 
 	variants: [

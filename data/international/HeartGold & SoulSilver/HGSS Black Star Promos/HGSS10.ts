@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Assist",
-				fr: "Assist-Énergie"
+				'en-us': "Energy Assist",
+				'fr-fr': "Assist-Énergie"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 des Pokémon de votre Banc."
+				'en-us': "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 des Pokémon de votre Banc."
 			},
 			damage: 10,
 
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Infinite Wind",
-				fr: "Vent éternel"
+				'en-us': "Infinite Wind",
+				'fr-fr': "Vent éternel"
 			},
 			effect: {
-				en: "If Latios is on your Bench, remove 2 damage counters from each of your Benched Pokémon.",
-				fr: "Si Latios est sur votre Banc, retirez 2 marqueurs de dégât à chacun de vos Pokémon de Banc."
+				'en-us': "If Latios is on your Bench, remove 2 damage counters from each of your Benched Pokémon.",
+				'fr-fr': "Si Latios est sur votre Banc, retirez 2 marqueurs de dégât à chacun de vos Pokémon de Banc."
 			},
 			damage: 40,
 
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible."
+		'en-us': "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "燈籠魚",
 		'zh-cn': "燈籠魚",
-		ja: "チョンチー"
+		'ja-jp': "チョンチー"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "會從２根觸手的前端 釋放正負電流來麻痺對手。",
 		'zh-cn': "會從２根觸手的前端 釋放正負電流來麻痺對手。",
-		ja: "２つの 触手の 先から プラスと マイナスの 電気を 流して 相手を しびれさせる。"
+		'ja-jp': "２つの 触手の 先から プラスと マイナスの 電気を 流して 相手を しびれさせる。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "雙重伏特",
 			'zh-cn': "雙重伏特",
-			ja: "ダブルボルト"
+			'ja-jp': "ダブルボルト"
 		},
 
 		effect: {
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。",
 			'zh-cn': "擲2次硬幣，造成正面出現的次數×20點傷害。",
-			ja: "コインを2回投げ、オモテの数×20ダメージ。"
+			'ja-jp': "コインを2回投げ、オモテの数×20ダメージ。"
 		},
 
 		damage: "20×",

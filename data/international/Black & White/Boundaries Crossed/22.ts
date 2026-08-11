@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Shard",
-				fr: "Écharde de Feu",
+				'en-us': "Fire Shard",
+				'fr-fr': "Écharde de Feu",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est face, le Pokémon Défenseur est aussi Paralysé.",
+				'en-us': "The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est face, le Pokémon Défenseur est aussi Paralysé.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The volcanoes on its back have a major eruption every 10 years–or whenever it becomes really angry.",
+		'en-us': "The volcanoes on its back have a major eruption every 10 years–or whenever it becomes really angry.",
 	},
 
 	thirdParty: {

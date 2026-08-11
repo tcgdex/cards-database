@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Clutch"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Clutch"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flamethrower"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flamethrower"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Blaziken.",
-				fr: "Défaussez une carte Énergie  attachée à Brasegali.",
-				de: "Discard a  Energy card attached to Blaziken."
+				'en-us': "Discard a Fire Energy card attached to Blaziken.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Brasegali.",
+				'de-de': "Discard a  Energy card attached to Blaziken."
 			},
 			damage: 80,
 

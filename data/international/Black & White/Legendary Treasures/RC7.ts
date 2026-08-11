@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
+				'en-us': "Thundershock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
+				'en-us': "Tail Whap",
 			},
 
 			damage: 20,
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+		'en-us': "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
 	},
 
 	thirdParty: {

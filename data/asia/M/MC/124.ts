@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルガモス",
+		'ja-jp': "ウルガモス",
 	},
 
 	illustrator: "mashu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山灰で 地上が 真っ暗に なったとき ウルガモスの 炎が 太陽の 代わりに なったという。",
+		'ja-jp': "火山灰で 地上が 真っ暗に なったとき ウルガモスの 炎が 太陽の 代わりに なったという。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ねっぱりんぷん" },
 			effect: {
-				ja: "自分の番に、自分の手札から「基本[R]エネルギー」を1枚トラッシュするなら、1回使える。相手のバトルポケモンをやけどにする。",
+				'ja-jp': "自分の番に、自分の手札から「基本[R]エネルギー」を1枚トラッシュするなら、1回使える。相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 	},
 
 	retreat: 1,

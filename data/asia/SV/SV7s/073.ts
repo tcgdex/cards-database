@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ไซดอน",
-		id: "Rhydon"
+		'th-th': "ไซดอน",
+		'id-id': "Rhydon"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "มันวิวัฒนาการขึ้นเพื่อให้สามารถเดินได้ด้วยขาหลังเพียงอย่างเดียว ทำให้มันสามารถแผ่ขยายถิ่นที่อยู่อาศัยได้แม้บนเขาสูงชันก็ตาม",
-		id: "Karena telah berevolusi sehingga menjadi dapat berjalan hanya dengan kaki belakangnya, ia dapat memperluas habitatnya bahkan di gunung terjal sekalipun."
+		'th-th': "มันวิวัฒนาการขึ้นเพื่อให้สามารถเดินได้ด้วยขาหลังเพียงอย่างเดียว ทำให้มันสามารถแผ่ขยายถิ่นที่อยู่อาศัยได้แม้บนเขาสูงชันก็ตาม",
+		'id-id': "Karena telah berevolusi sehingga menjadi dapat berjalan hanya dengan kaki belakangnya, ia dapat memperluas habitatnya bahkan di gunung terjal sekalipun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "เขาแห่งการทำลาย",
-			id: "Tanduk Penghancur"
+			'th-th': "เขาแห่งการทำลาย",
+			'id-id': "Tanduk Penghancur"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 80,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อบูรี <ของลิเลีย>",
-		id: "Cutiefly <Lillie>"
+		'th-th': "อบูรี <ของลิเลีย>",
+		'id-id': "Cutiefly <Lillie>"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "เมื่อมันจับออราที่แผ่ความสนุกของคนหรือโปเกมอนได้ มันจะเข้าไป ใกล้และใช้ปากอันยาวของมันแทงใส่ ทำให้เจ็บล่ะ",
-		id: "Ketika merasakan aura menyenangkan dari manusia atau Pokémon, ia akan datang mendekat dan menyodok dengan belalainya yang panjang sehingga terasa sakit."
+		'th-th': "เมื่อมันจับออราที่แผ่ความสนุกของคนหรือโปเกมอนได้ มันจะเข้าไป ใกล้และใช้ปากอันยาวของมันแทงใส่ ทำให้เจ็บล่ะ",
+		'id-id': "Ketika merasakan aura menyenangkan dari manusia atau Pokémon, ia akan datang mendekat dan menyodok dengan belalainya yang panjang sehingga terasa sakit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "อยู่นิ่ง ๆ",
-			id: "Tidak Bergerak"
+			'th-th': "อยู่นิ่ง ๆ",
+			'id-id': "Tidak Bergerak"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
-			id: "Pulihkan HP Pokémon ini sejumlah 10."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 10."
 		},
 
 		cost: ["Psychic"]

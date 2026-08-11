@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -16,7 +16,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
+		'en-us': "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Special Delivery Bidoof"
+		'en-us': "Special Delivery Bidoof"
 	},
 
 	rarity: "Promo",
@@ -40,23 +40,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Happy Delivery"
+			'en-us': "Happy Delivery"
 		},
 
 		effect: {
-			en: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
+			'en-us': "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Rock Smash"
+			'en-us': "Rock Smash"
 		},
 
 		damage: "30+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

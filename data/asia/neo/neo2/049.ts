@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Eevee",
+		'ja-jp': "Eevee",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "エネルギーの進化",
+				'ja-jp': "エネルギーの進化",
 			},
 			effect: {
-				ja: "Eeveeにエネルギーカードを取り付けるときはいつでも、コインをひっくり返します。頭の場合は、Eeveeに接続したエネルギーカードと同じタイプのEeveeから進化するカードをデッキに検索してください。そのカードをEeveeに添付します。これは進化するEeveeとしてカウントされます。その後、デッキをシャッフルします。 Eeveeが眠ったり、混乱したり、麻痺したりしている場合、このパワーは使用できません。",
+				'ja-jp': "Eeveeにエネルギーカードを取り付けるときはいつでも、コインをひっくり返します。頭の場合は、Eeveeに接続したエネルギーカードと同じタイプのEeveeから進化するカードをデッキに検索してください。そのカードをEeveeに添付します。これは進化するEeveeとしてカウントされます。その後、デッキをシャッフルします。 Eeveeが眠ったり、混乱したり、麻痺したりしている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スマッシュキック",
+				'ja-jp': "スマッシュキック",
 			},
 			damage: 10,
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime",
-		fr: "M. Mime",
+		'en-us': "Mr. Mime",
+		'fr-fr': "M. Mime",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Happy Mime",
-				fr: "Mime Heureux",
+				'en-us': "Happy Mime",
+				'fr-fr': "Mime Heureux",
 			},
 			effect: {
-				en: "Each player draws a card.",
-				fr: "Chaque joueur pioche une carte.",
+				'en-us': "Each player draws a card.",
+				'fr-fr': "Chaque joueur pioche une carte.",
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 40 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
 			},
 			damage: "40×",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+		'en-us': "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
 	},
 
 	thirdParty: {

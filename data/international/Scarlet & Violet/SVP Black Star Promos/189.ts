@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Zorua",
-		fr: "Zorua de N",
-		de: "Ns Zorua",
-		es: "Zorua de N",
-		it: "Zorua di N",
-		pt: "Zorua do N"
+		'en-us': "N's Zorua",
+		'fr-fr': "Zorua de N",
+		'de-de': "Ns Zorua",
+		'es-es': "Zorua de N",
+		'it-it': "Zorua di N",
+		'pt-br': "Zorua do N"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão"
 		},
 
 		damage: 20

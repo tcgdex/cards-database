@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
-		fr: "Nidoran"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -35,15 +35,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Horn",
-				fr: "Corne empoisonnée",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne empoisonnée",
+				'de-de': "Gifthorn"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Nidorino does 10 damage to itself.",
-				fr: "Nidorino s'inflige 30 dégâts.",
-				de: "Nidorino fügt sich selber 10 Schadenspunkte zu."
+				'en-us': "Nidorino does 10 damage to itself.",
+				'fr-fr': "Nidorino s'inflige 30 dégâts.",
+				'de-de': "Nidorino fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 40,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Carracosta",
-		fr: "Mégapagos",
-		es: "Carracosta",
-		it: "Carracosta",
-		pt: "Carracosta",
-		de: "Karippas"
+		'en-us': "Carracosta",
+		'fr-fr': "Mégapagos",
+		'es-es': "Carracosta",
+		'it-it': "Carracosta",
+		'pt-br': "Carracosta",
+		'de-de': "Karippas"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tirtouga",
-		fr: "Carapagos",
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fossil Clutch",
-				fr: "Munition Fossile",
+				'en-us': "Fossil Clutch",
+				'fr-fr': "Munition Fossile",
 			},
 			effect: {
-				en: "You may discard an Item card that has Fossil in its name from your hand. If you do, this attack does 50 more damage.",
-				fr: "Vous pouvez défausser une carte Objet qui a Fossile dans son nom de votre main. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "You may discard an Item card that has Fossil in its name from your hand. If you do, this attack does 50 more damage.",
+				'fr-fr': "Vous pouvez défausser une carte Objet qui a Fossile dans son nom de votre main. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -59,8 +59,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
 			},
 
 			damage: 80,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+		'en-us': "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
 	},
 
 	thirdParty: {

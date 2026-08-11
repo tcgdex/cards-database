@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Thick Fat",
-				fr: "Isograisse",
-				de: "Speckschicht"
+				'en-us': "Thick Fat",
+				'fr-fr': "Isograisse",
+				'de-de': "Speckschicht"
 			},
 			effect: {
-				en: "Any damage done to Grumpig by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Groret par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Jeder Schaden, der Groink durch Angriffe von -Pokémon und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to Grumpig by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous dégâts infligés à Groret par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Jeder Schaden, der Groink durch Angriffe von -Pokémon und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Circular Steps",
-				fr: "Pas circulaires",
-				de: "Umkreisende Tanzschritte"
+				'en-us': "Circular Steps",
+				'fr-fr': "Pas circulaires",
+				'de-de': "Umkreisende Tanzschritte"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Grumpig.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire), Groret exclu.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jedes Pokémon im Spiel (deine und die deines Gegners), ausgenommen Groink, zu."
+				'en-us': "Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Grumpig.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire), Groret exclu.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jedes Pokémon im Spiel (deine und die deines Gegners), ausgenommen Groink, zu."
 			},
 			damage: "10x",
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♀",
-		fr: "Nidoran♀ Niv. 14",
-		de: "Nidoran w"
+		'en-us': "Nidoran ♀",
+		'fr-fr': "Nidoran♀ Niv. 14",
+		'de-de': "Nidoran w"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -27,9 +27,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -41,14 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Offer Help",
-				fr: "Offrir de l'aide",
-				de: "Hilfe anbieten"
+				'en-us': "Offer Help",
+				'fr-fr': "Offrir de l'aide",
+				'de-de': "Hilfe anbieten"
 			},
 			effect: {
-				en: "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal."
+		'en-us': "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal."
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -18,8 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon startles people in the middle of\nthe night. It gathers fear as its energy.",
-		fr: "Il fait peur aux gens en pleine nuit et se nourrit de leur frayeur."
+		'en-us': "This Pokémon startles people in the middle of\nthe night. It gathers fear as its energy.",
+		'fr-fr': "Il fait peur aux gens en pleine nuit et se nourrit de leur frayeur."
 	},
 
 	stage: "Basic",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Infiltrating Inspection",
-			fr: "Inspection Insinuante"
+			'en-us': "Infiltrating Inspection",
+			'fr-fr': "Inspection Insinuante"
 		},
 
 		effect: {
-			en: "Once during your turn, when you put this Pokémon from your hand onto your Bench, you may have your opponent reveal their hand.",
-			fr: "Une seule fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez demander à votre adversaire de dévoiler sa main."
+			'en-us': "Once during your turn, when you put this Pokémon from your hand onto your Bench, you may have your opponent reveal their hand.",
+			'fr-fr': "Une seule fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez demander à votre adversaire de dévoiler sa main."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet"
 		},
 
 		damage: 20,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Copperajah",
-		fr: "Pachyradjah",
-		es: "Copperajah",
-		de: "Patinaraja",
-		it: "Copperajah",
-		pt: "Copperajah",
+		'en-us': "Copperajah",
+		'fr-fr': "Pachyradjah",
+		'es-es': "Copperajah",
+		'de-de': "Patinaraja",
+		'it-it': "Copperajah",
+		'pt-br': "Copperajah",
 		'es-mx': "Copperajah"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 190,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Cufant",
-		fr: "Charibari",
-		es: "Cufant",
-		de: "Kupfanti",
-		it: "Cufant",
-		pt: "Cufant",
+		'en-us': "Cufant",
+		'fr-fr': "Charibari",
+		'es-es': "Cufant",
+		'de-de': "Kupfanti",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
 		'es-mx': "Cufant"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
 			'es-mx': "Colisión"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mega Impact",
-			fr: "Méga Impact",
-			es: "Megaimpacto",
-			de: "Mega-Einschlag",
-			it: "Mega Impatto",
-			pt: "Mega-impacto",
+			'en-us': "Mega Impact",
+			'fr-fr': "Méga Impact",
+			'es-es': "Megaimpacto",
+			'de-de': "Mega-Einschlag",
+			'it-it': "Mega Impatto",
+			'pt-br': "Mega-impacto",
 			'es-mx': "Megaimpacto"
 		},
 

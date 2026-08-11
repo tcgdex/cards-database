@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	illustrator: "Cona Nitanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "背中の 翼に 月の光を 集めることで 空中に 浮かぶことが できるらしい。",
+		'ja-jp': "背中の 翼に 月の光を 集めることで 空中に 浮かぶことが できるらしい。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		es: "Gliscor",
-		it: "Gliscor",
-		pt: "Gliscor",
-		de: "Skorgro"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'es-es': "Gliscor",
+		'it-it': "Gliscor",
+		'pt-br': "Gliscor",
+		'de-de': "Skorgro"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Scorplane",
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
-				es: "Puya Nociva",
-				it: "Velenpuntura",
-				pt: "Golpe Envenenado",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
+				'es-es': "Puya Nociva",
+				'it-it': "Velenpuntura",
+				'pt-br': "Golpe Envenenado",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 70,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+		'en-us': "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
 	},
 
 	thirdParty: {

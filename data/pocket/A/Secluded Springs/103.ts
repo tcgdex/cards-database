@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garchomp ex",
-		fr: "Carchacrok-ex"
+		'en-us': "Garchomp ex",
+		'fr-fr': "Carchacrok-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Gabite"
+		'en-us': "Gabite"
 	},
 
 	stage: "Stage2",
@@ -26,20 +26,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Linear Attack",
-			fr: "Attaque Linéaire"
+			'en-us': "Linear Attack",
+			'fr-fr': "Attaque Linéaire"
 		},
 
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire."
+			'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Dragon Claw",
-			fr: "Draco-Griffe"
+			'en-us': "Dragon Claw",
+			'fr-fr': "Draco-Griffe"
 		},
 
 		damage: 100,

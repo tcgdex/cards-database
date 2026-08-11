@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "催眠",
+				'ja-jp': "催眠",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 
 		},
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "夢の食べる人",
+				'ja-jp': "夢の食べる人",
 			},
 			effect: {
-				ja: "防御するポケモンが眠っていない限り、この攻撃を使用することはできません。",
+				'ja-jp': "防御するポケモンが眠っていない限り、この攻撃を使用することはできません。",
 			},
 			damage: 50,
 		},

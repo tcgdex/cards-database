@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコVMAX",
+		'ja-jp': "カプ・コケコVMAX",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カプ・コケコV",
+		'ja-jp': "カプ・コケコV",
 	},
 
 	retreat: 1,

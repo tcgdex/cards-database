@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Munch",
-				fr: "Mange-Feuille",
-				es: "Mascahojas",
-				it: "Mangifoglia",
-				pt: "Mastigar Folhas",
-				de: "Laubmampfer"
+				'en-us': "Leaf Munch",
+				'fr-fr': "Mange-Feuille",
+				'es-es': "Mascahojas",
+				'it-it': "Mangifoglia",
+				'pt-br': "Mastigar Folhas",
+				'de-de': "Laubmampfer"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 20 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Grass, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Grass, este ataque hace 20 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è di tipo Grass, questo attacco infligge 20 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Grass, esse ataque causará 20 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Grass-Pokémon ist, fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 20 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Grass, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Grass, este ataque hace 20 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è di tipo Grass, questo attacco infligge 20 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Grass, esse ataque causará 20 de danos adicionais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Grass-Pokémon ist, fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		'en-us': "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
 	},
 
 	thirdParty: {

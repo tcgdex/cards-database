@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Seadra",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
+		'en-us': "Horsea",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Trick",
-				de: "Aqua Trick"
+				'en-us': "Aqua Trick",
+				'de-de': "Aqua Trick"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokemon, move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing.",
-				de: "Move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing."
+				'en-us': "If your opponent has any Benched Pokemon, move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing.",
+				'de-de': "Move 1 Energy card attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, this effect does nothing."
 			},
 			damage: 30,
 

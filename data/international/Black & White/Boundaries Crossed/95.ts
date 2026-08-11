@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		es: "Skarmory",
-		it: "Skarmory",
-		pt: "Skarmory",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'es-es': "Skarmory",
+		'it-it': "Skarmory",
+		'pt-br': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Claw",
-				fr: "Ergots",
+				'en-us': "Claw",
+				'fr-fr': "Ergots",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 20,
 
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec Vrille",
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec Vrille",
 			},
 
 			damage: 50,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Despite being clad entirely in iron-hard armor, it flies at speed of over 180 mph.",
+		'en-us': "Despite being clad entirely in iron-hard armor, it flies at speed of over 180 mph.",
 	},
 
 	thirdParty: {

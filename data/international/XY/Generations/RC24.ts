@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 
 	stage: "Stage1",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
+				'en-us': "Flap",
+				'fr-fr': "Battement",
 			},
 
 			damage: 20,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Friend",
-				fr: "Ami Féérique",
+				'en-us': "Fairy Friend",
+				'fr-fr': "Ami Féérique",
 			},
 			effect: {
-				en: "If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.",
-				fr: "Si vous avez un Pokémon Fairy sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.",
+				'fr-fr': "Si vous avez un Pokémon Fairy sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This fluffiness makes everyone go crazy. Is it really that charming?",
+		'en-us': "This fluffiness makes everyone go crazy. Is it really that charming?",
 	},
 
 	thirdParty: {

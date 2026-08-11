@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เคเค็นคานิ",
-		id: "Crabominable"
+		'th-th': "เคเค็นคานิ",
+		'id-id': "Crabominable"
 	},
 
 	illustrator: "nagimiso",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "พลังต่อยแข็งแกร่งมาก แต่เคลื่อนไหวช้า พ่นฟองน้ำแข็งจากปากเพื่อหยุดการเคลื่อนไหวของฝ่ายตรงข้าม",
-		id: "Kekuatan pukulannya kuat, tetapi pergerakannya lambat. Crabominable meniupkan gelembung es dari mulutnya untuk menghentikan pergerakan lawan."
+		'th-th': "พลังต่อยแข็งแกร่งมาก แต่เคลื่อนไหวช้า พ่นฟองน้ำแข็งจากปากเพื่อหยุดการเคลื่อนไหวของฝ่ายตรงข้าม",
+		'id-id': "Kekuatan pukulannya kuat, tetapi pergerakannya lambat. Crabominable meniupkan gelembung es dari mulutnya untuk menghentikan pergerakan lawan."
 	},
 
 	stage: "Stage1",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "จัดเตรียม",
-			id: "Persiapan Sebelum"
+			'th-th': "จัดเตรียม",
+			'id-id': "Persiapan Sebelum"
 		},
 
 		effect: {
-			th: "พลังงาน[ไร้สี]สำหรับใช้ท่าต่อสู้ของโปเกมอนนี้จะลดลง ตามจำนวนการ์ด [ไห่ไต้] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา",
-			id: "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan serangan berkurang untuk tiap lembar Algo yang ada di Trash sendiri."
+			'th-th': "พลังงาน[ไร้สี]สำหรับใช้ท่าต่อสู้ของโปเกมอนนี้จะลดลง ตามจำนวนการ์ด [ไห่ไต้] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา",
+			'id-id': "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan serangan berkurang untuk tiap lembar Algo yang ada di Trash sendiri."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "หมัดหนัก",
-			id: "Pukulan Ayunan Lebar"
+			'th-th': "หมัดหนัก",
+			'id-id': "Pukulan Ayunan Lebar"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [หมัดหนัก] ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Pukulan Ayunan Lebar."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [หมัดหนัก] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Pukulan Ayunan Lebar."
 		},
 
 		damage: 250,

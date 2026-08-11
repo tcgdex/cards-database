@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バリヤードGX",
+		'ja-jp': "バリヤードGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パールバリア" },
 			effect: {
-				ja: "このポケモンは、相手のポケモンから「20・40・60・80・100・120・140・160・180・200・220・240・260」のワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンから「20・40・60・80・100・120・140・160・180・200・220・240・260」のワザのダメージを受けない。",
 			},
 		},
 	],
@@ -29,14 +29,14 @@ const card: Card = {
 			name: { ja: "ブレイクダウン" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手の手札の枚数ぶんのダメカンを、相手のバトルポケモンにのせる。",
+				'ja-jp': "相手の手札の枚数ぶんのダメカンを、相手のバトルポケモンにのせる。",
 			},
 		},
 		{
 			name: { ja: "ライフトリックGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンのHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンのHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

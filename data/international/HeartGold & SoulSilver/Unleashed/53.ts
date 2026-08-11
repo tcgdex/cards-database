@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud’poing",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud’poing",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karateschlag"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karateschlag"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Mankey.",
-				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Férosinge.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
+				'en-us': "Does 40 damage minus 10 damage for each damage counter on Mankey.",
+				'fr-fr': "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Férosinge.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
 			damage: "40-",
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
+		'en-us': "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
 	},
 
 	variants: [

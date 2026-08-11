@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Jolteon",
-		fr: "Voltali obscur",
-		de: "Dunkles Blitza"
+		'en-us': "Dark Jolteon",
+		'fr-fr': "Voltali obscur",
+		'de-de': "Dunkles Blitza"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Flash",
-				fr: "Flash éclair",
-				de: "Blitzaufleuchten"
+				'en-us': "Lightning Flash",
+				'fr-fr': "Flash éclair",
+				'de-de': "Blitzaufleuchten"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein gegner eine Münze. Bei 'Zahl' richtet dieser Angriff nichts aus."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein gegner eine Münze. Bei 'Zahl' richtet dieser Angriff nichts aus."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Attack",
-				fr: "Attaque tonnerre",
-				de: "Donnerangriff"
+				'en-us': "Thunder Attack",
+				'fr-fr': "Attaque tonnerre",
+				'de-de': "Donnerangriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Voltali obscur s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' fügt sich Dunkles Blitza selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Voltali obscur s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' fügt sich Dunkles Blitza selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A dangerous Pokémon when angered. It likes to playfully shock people with the electricity it stores within its body.",
-		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
+		'en-us': "A dangerous Pokémon when angered. It likes to playfully shock people with the electricity it stores within its body.",
+		'fr-fr': "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
 	},
 
 

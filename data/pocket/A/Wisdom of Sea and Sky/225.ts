@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidoqueen",
-		fr: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'fr-fr': "Nidoqueen"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Nidorina"
+		'en-us': "Nidorina"
 	},
 
 	description: {
-		en: "Nidoqueen is better at defense than offense.\nWith scales like armor, this Pokémon will shield\nits children from any kind of attack.",
-		fr: "Il est plus doué pour se défendre que pour attaquer. Grâce à son blindage d'écailles, il protège ses petits de toute agression."
+		'en-us': "Nidoqueen is better at defense than offense.\nWith scales like armor, this Pokémon will shield\nits children from any kind of attack.",
+		'fr-fr': "Il est plus doué pour se défendre que pour attaquer. Grâce à son blindage d'écailles, il protège ses petits de toute agression."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Lovestrike",
-			fr: "Coup de Foudre"
+			'en-us': "Lovestrike",
+			'fr-fr': "Coup de Foudre"
 		},
 
 		damage: 80,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "This attack does 50 more damage for each of your Benched Nidoking.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Nidoking sur votre Banc."
+			'en-us': "This attack does 50 more damage for each of your Benched Nidoking.",
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque Nidoking sur votre Banc."
 		}
 	}],
 

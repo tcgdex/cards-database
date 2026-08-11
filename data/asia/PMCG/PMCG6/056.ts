@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのマンキー",
+		'ja-jp': "カツラのマンキー",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "いたずら",
+				'ja-jp': "いたずら",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の捨てられた山からカードを選択し、デッキの上に置きます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の捨てられた山からカードを選択し、デッキの上に置きます。",
 			},
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

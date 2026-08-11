@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャーレムex",
+		'ja-jp': "チャーレムex",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "きこうあつ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンの残りHPが「50」になるように、ダメカンをのせる。",
+				'ja-jp': "相手のバトルポケモンの残りHPが「50」になるように、ダメカンをのせる。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アサナン",
+		'ja-jp': "アサナン",
 	},
 
 	retreat: 1,

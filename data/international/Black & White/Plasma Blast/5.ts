@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		es: "Tropius",
-		it: "Tropius",
-		pt: "Tropius",
-		de: "Tropius"
+		'en-us': "Tropius",
+		'fr-fr': "Tropius",
+		'es-es': "Tropius",
+		'it-it': "Tropius",
+		'pt-br': "Tropius",
+		'de-de': "Tropius"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
+				'en-us': "Return",
+				'fr-fr': "Retour",
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Press",
-				fr: "Pression Énergétique",
+				'en-us': "Energy Press",
+				'fr-fr': "Pression Énergétique",
 			},
 			effect: {
-				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 20 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flies by flapping its broad leaves and gives the sweet, delicious fruit around its neck to children.",
+		'en-us': "It flies by flapping its broad leaves and gives the sweet, delicious fruit around its neck to children.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパ",
+		'ja-jp': "フーパ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "真の姿は 巨大な 力を 持っている。 財宝 欲しさに それが 隠された 城ごと 引き抜き 奪い去った という 伝説が ある。",
+		'ja-jp': "真の姿は 巨大な 力を 持っている。 財宝 欲しさに それが 隠された 城ごと 引き抜き 奪い去った という 伝説が ある。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バンデットガード" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
 			},
 		},
 	],

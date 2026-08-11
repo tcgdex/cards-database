@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Goélise",
+		'fr-fr': "Goélise",
 	},
 
 	rarity: "None",
@@ -36,10 +36,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Atterrissage"
+				'fr-fr': "Atterrissage"
 			},
 			effect: {
-				fr: "Soignez 30 dégâts à ce Pokémon. Il ne peut pas battre en retraite pendant votre prochain tour."
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Il ne peut pas battre en retraite pendant votre prochain tour."
 			}
 		},
 	],

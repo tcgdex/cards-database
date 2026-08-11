@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu Niv. 12",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu Niv. 12",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Donnerrüttler"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+		'en-us': "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
 	},
 
 	variants: [

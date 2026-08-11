@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [845],
 
 	name: {
-		en: "Cramorant"
+		'en-us': "Cramorant"
 	},
 
 	illustrator: "osare",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Cramorant takes advantage of Arrokuda's frantic\nthrashing to help spit Arrokuda out at high speed."
+		'en-us': "Cramorant takes advantage of Arrokuda's frantic\nthrashing to help spit Arrokuda out at high speed."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spit-Out Shot"
+			'en-us': "Spit-Out Shot"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

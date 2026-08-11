@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サケブシッポ",
+		'ja-jp': "サケブシッポ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "目撃例は 過去 １件のみ。 古い 探検記に 記された 謎の 生物に 似た ポケモン。",
+		'ja-jp': "目撃例は 過去 １件のみ。 古い 探検記に 記された 謎の 生物に 似た ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "うたいはげます" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチの「古代」のポケモン1匹のHPを「100」回復する。",
+				'ja-jp': "自分のベンチの「古代」のポケモン1匹のHPを「100」回復する。",
 			},
 		},
 		{

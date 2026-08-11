@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 
 	stage: "Stage1",
@@ -38,9 +38,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard a fire Energy attached to Charmeleon.",
-				fr: "Défaussez une Énergie Fire attachée à Reptincel.",
-				de: "Lege eine an Glutexo angelegte -Energie auf deinen Ablagestapel."
+				'en-us': "Discard a fire Energy attached to Charmeleon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à Reptincel.",
+				'de-de': "Lege eine an Glutexo angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -77,8 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
-		fr: "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées."
+		'en-us': "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		'fr-fr': "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées."
 	},
 
 	thirdParty: {

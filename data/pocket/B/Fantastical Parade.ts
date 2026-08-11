@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../B'
 
 const set: Set = {
 	id: "B2",
 
 	name: {
-		de: "Traumhafte Parade",
-		en: "Fantastical Parade",
-		es: "Desfile de Ensueño",
-		fr: "Parade Onirique",
-		it: "Parata Fantasmagorica",
+		'de-de': "Traumhafte Parade",
+		'en-us': "Fantastical Parade",
+		'es-es': "Desfile de Ensueño",
+		'fr-fr': "Parade Onirique",
+		'it-it': "Parata Fantasmagorica",
 		'pt-br': "Desfile Onírico",
-		ko: '몽환 퍼레이드'
+		'ko-kr': '몽환 퍼레이드'
 	},
 
 	serie: serie,
@@ -23,13 +23,13 @@ const set: Set = {
 	boosters: {
 		booster: {
 			name: {
-				de: "Booster",
-				en: 'Booster',
-				fr: 'Booster',
-				es: 'Booster',
-				it: 'Booster',
+				'de-de': "Booster",
+				'en-us': 'Booster',
+				'fr-fr': 'Booster',
+				'es-es': 'Booster',
+				'it-it': 'Booster',
 				'pt-br': 'Booster',
-				ko: 'Booster'
+				'ko-kr': 'Booster'
 			}
 		}
 	},

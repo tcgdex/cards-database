@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Orthworm"
+		'id-id': "Orthworm"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Jika diserang musuh, Orthworm menggunakan bulu badannya seperti kepalan tangan dan menyarangkan badai pukulan."
+		'id-id': "Jika diserang musuh, Orthworm menggunakan bulu badannya seperti kepalan tangan dan menyarangkan badai pukulan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Punch & Draw"
+			'id-id': "Punch & Draw"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		damage: 20,
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Terjangan Detik Terakhir"
+			'id-id': "Terjangan Detik Terakhir"
 		},
 
 		effect: {
-			id: "Jika sisa Deck sendiri adalah 3 lembar atau kurang, kerusakan yang diberikan bertambah sejumlah 150."
+			'id-id': "Jika sisa Deck sendiri adalah 3 lembar atau kurang, kerusakan yang diberikan bertambah sejumlah 150."
 		},
 
 		damage: "90+",

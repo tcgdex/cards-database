@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Tauros de Paldea",
-		en: "Paldean Tauros",
-		es: "Tauros de Paldea",
-		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea",
-		de: "Paldea-Tauros"
+		'fr-fr': "Tauros de Paldea",
+		'en-us': "Paldean Tauros",
+		'es-es': "Tauros de Paldea",
+		'it-it': "Tauros di Paldea",
+		'pt-br': "Tauros de Paldea",
+		'de-de': "Paldea-Tauros"
   },
   illustrator: "Shin Nagasawa",
   rarity: "Two Diamond",

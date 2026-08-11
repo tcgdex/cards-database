@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Electric Generator",
-		fr: "Générateur Électrique",
-		es: "Generador Eléctrico",
-		it: "Generatore di Elettricità",
-		pt: "Gerador Elétrico",
-		de: "Elektrischer Generator"
+		'en-us': "Electric Generator",
+		'fr-fr': "Générateur Électrique",
+		'es-es': "Generador Eléctrico",
+		'it-it': "Generatore di Elettricità",
+		'pt-br': "Gerador Elétrico",
+		'de-de': "Elektrischer Generator"
 	},
 	
 	illustrator: "Toyste Beach",
@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Flip a coin. If heads, take a Lightning Energy from your Energy Zone and attach it to 1 of your Benched Lightning Pokémon.",
+		'en-us': "Flip a coin. If heads, take a Lightning Energy from your Energy Zone and attach it to 1 of your Benched Lightning Pokémon.",
 	},
 
 	trainerType: "Item",

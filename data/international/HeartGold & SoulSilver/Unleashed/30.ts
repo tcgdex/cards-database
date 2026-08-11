@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Mean Look",
-				fr: "Regard noir",
-				de: "Horrorblick"
+				'en-us': "Mean Look",
+				'fr-fr': "Regard noir",
+				'de-de': "Horrorblick"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
+		'en-us': "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
 	},
 
 	variants: [

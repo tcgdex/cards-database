@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Justified",
-				fr: "Cœur Noble",
+				'en-us': "Justified",
+				'fr-fr': "Cœur Noble",
 			},
 			effect: {
-				en: "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
-				fr: "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-Feuille",
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+		'en-us': "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
 	},
 }
 

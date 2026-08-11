@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		de: "Golgantes",
-		it: "Golurk",
-		pt: "Golurk",
-		es: "Golurk",
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'de-de': "Golgantes",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'es-es': "Golurk",
 		'es-mx': "Golurk"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
-		de: "Golbit",
-		it: "Golett",
-		pt: "Golett",
-		es: "Golett",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'de-de': "Golbit",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'es-es': "Golett",
 		'es-mx': "Golett"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double Smash",
-			fr: "Double Broiement",
-			de: "Doppelstoß",
-			it: "Colpo Duplice",
-			pt: "Bordoada Dupla",
-			es: "Golpe Doble",
+			'en-us': "Double Smash",
+			'fr-fr': "Double Broiement",
+			'de-de': "Doppelstoß",
+			'it-it': "Colpo Duplice",
+			'pt-br': "Bordoada Dupla",
+			'es-es': "Golpe Doble",
 			'es-mx': "Doble Golpazo"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 80 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
-			es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+			'en-us': "Flip 2 coins. This attack does 80 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Golurk Hammer",
-			fr: "Maillet Golemastoc",
-			de: "Golgantes-Hammer",
-			it: "Martello Golurk",
-			pt: "Martelo Golurk",
-			es: "Martillo Golurk",
+			'en-us': "Golurk Hammer",
+			'fr-fr': "Maillet Golemastoc",
+			'de-de': "Golgantes-Hammer",
+			'it-it': "Martello Golurk",
+			'pt-br': "Martelo Golurk",
+			'es-es': "Martillo Golurk",
 			'es-mx': "Martillo Golurk"
 		},
 

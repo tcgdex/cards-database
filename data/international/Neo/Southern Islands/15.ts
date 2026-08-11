@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
+		'en-us': "Wartortle",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
+		'en-us': "Squirtle",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
+				'en-us': "Water Gun",
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 			},
 			damage: 20,
 
@@ -54,7 +54,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
+		'en-us': "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
 	},
 
 	variants: [

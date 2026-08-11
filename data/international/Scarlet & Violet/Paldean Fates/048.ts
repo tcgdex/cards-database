@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		es: "Phanpy",
-		it: "Phanpy",
-		pt: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'es-es': "Phanpy",
+		'it-it': "Phanpy",
+		'pt-br': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'es-es': "Fuerza",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'de-de': "Stärke"
 		},
 
 		damage: 30
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 60
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
+		'en-us': "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
 	},
 
 }

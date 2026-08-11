@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		it: "Tepig",
-		pt: "Tepig",
-		de: "Floink"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'de-de': "Floink"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+		'en-us': "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
 	},
 
 	thirdParty: {

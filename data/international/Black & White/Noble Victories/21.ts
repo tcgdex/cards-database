@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fiery Dance",
-				fr: "Danse du Feu",
+				'en-us': "Fiery Dance",
+				'fr-fr': "Danse du Feu",
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
+				'en-us': "Attach a basic Energy card from your discard pile to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Wave",
-				fr: "Canicule",
+				'en-us': "Heat Wave",
+				'fr-fr': "Canicule",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+		'en-us': "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
 	},
 
 	thirdParty: {

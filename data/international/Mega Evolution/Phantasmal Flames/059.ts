@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
-		es: "Sableye",
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
+		'es-es': "Sableye",
 		'es-mx': "Sableye",
-		de: "Zobiris",
-		it: "Sableye",
-		pt: "Sableye"
+		'de-de': "Zobiris",
+		'it-it': "Sableye",
+		'pt-br': "Sableye"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Cocky Claw",
-			fr: "Griffe Arrogante",
-			es: "Garra Altiva",
+			'en-us': "Cocky Claw",
+			'fr-fr': "Griffe Arrogante",
+			'es-es': "Garra Altiva",
 			'es-mx': "Garra Altanera",
-			de: "Großspurige Klaue",
-			it: "Spocchiartiglio",
-			pt: "Garra da Marra"
+			'de-de': "Großspurige Klaue",
+			'it-it': "Spocchiartiglio",
+			'pt-br': "Garra da Marra"
 		},
 
 		effect: {
-			en: "If you have any Stage 2 {D} Pokémon on your Bench, this attack does 70 more damage.",
-			fr: "Si vous avez au moins un Pokémon {D} de Niveau 2 sur votre Banc, cette attaque inflige 70 dégâts supplémentaires.",
-			es: "Si tienes algún Pokémon {D} de Fase 2 en tu Banca, este ataque hace 70 puntos de daño más.",
+			'en-us': "If you have any Stage 2 {D} Pokémon on your Bench, this attack does 70 more damage.",
+			'fr-fr': "Si vous avez au moins un Pokémon {D} de Niveau 2 sur votre Banc, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Si tienes algún Pokémon {D} de Fase 2 en tu Banca, este ataque hace 70 puntos de daño más.",
 			'es-mx': "Si tienes algún Pokémon {D} de Fase 2 en tu Banca, este ataque hace 70 puntos de daño más.",
-			de: "Wenn du mindestens 1 Phase-2-{D}-Pokémon auf deiner Bank hast, fügt diese Attacke 70 Schadenspunkte mehr zu.",
-			it: "Se hai dei Pokémon di Fase 2 {D} nella tua panchina, questo attacco infligge 70 danni in più.",
-			pt: "Se você tiver algum Pokémon {D} Estágio 2 no seu Banco, este ataque causará 70 pontos de dano a mais."
+			'de-de': "Wenn du mindestens 1 Phase-2-{D}-Pokémon auf deiner Bank hast, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Se hai dei Pokémon di Fase 2 {D} nella tua panchina, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se você tiver algum Pokémon {D} Estágio 2 no seu Banco, este ataque causará 70 pontos de dano a mais."
 		},
 
 		damage: "20+"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		'en-us': "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
 	},
 
 	illustrator: "osare",

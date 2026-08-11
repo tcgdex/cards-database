@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポワルン たいようのすがた",
+		'ja-jp': "ポワルン たいようのすがた",
 	},
 
 	illustrator: "osare",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "晴れた 日の ポワルンの 姿。 ヒーターの前に 置く 実験では この 形に 変化しなかった。",
+		'ja-jp': "晴れた 日の ポワルンの 姿。 ヒーターの前に 置く 実験では この 形に 変化しなかった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こがす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべて、ベンチポケモン1匹につけ替える。",
+				'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモン1匹につけ替える。",
 			},
 		},
 	],

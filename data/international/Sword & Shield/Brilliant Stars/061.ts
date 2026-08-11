@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		it: "Dusclops",
-		pt: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'it-it': "Dusclops",
+		'pt-br': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "miki kudo",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		it: "Duskull",
-		pt: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fade to Black",
-			fr: "Fondu au Noir",
-			es: "Ennegrecer",
-			it: "Svanire nel Buio",
-			pt: "Breu",
-			de: "Schwarz vor Augen"
+			'en-us': "Fade to Black",
+			'fr-fr': "Fondu au Noir",
+			'es-es': "Ennegrecer",
+			'it-it': "Svanire nel Buio",
+			'pt-br': "Breu",
+			'de-de': "Schwarz vor Augen"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+		'en-us': "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
 	},
 
 	variants: [

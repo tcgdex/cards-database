@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Keldeo",
-		fr: "Keldeo",
-		es: "Keldeo",
-		it: "Keldeo",
-		pt: "Keldeo",
-		de: "Keldeo"
+		'en-us': "Keldeo",
+		'fr-fr': "Keldeo",
+		'es-es': "Keldeo",
+		'it-it': "Keldeo",
+		'pt-br': "Keldeo",
+		'de-de': "Keldeo"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte Secrète",
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte Secrète",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Kick",
-				fr: "Pied Hydro",
+				'en-us': "Hydro Kick",
+				'fr-fr': "Pied Hydro",
 			},
 
 			damage: 70,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+		'en-us': "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
 	},
 
 	thirdParty: {

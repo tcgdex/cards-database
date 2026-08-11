@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Whiscash",
-		fr: "Barbicha",
-		de: "Welsar"
+		'en-us': "Whiscash",
+		'fr-fr': "Barbicha",
+		'de-de': "Welsar"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Barboach",
-		fr: "Barloche"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Tremble",
-				fr: "Tremblement de rage",
-				de: "Raging Tremble"
+				'en-us': "Raging Tremble",
+				'fr-fr': "Tremblement de rage",
+				'de-de': "Raging Tremble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pokémon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur pour chaque marqueur de dégât sur Barbicha. Si c'est pile, cette attaque inflige 10 dégâts au Pokémon Défenseur pour chaque marqueur de dégât sur Barbicha.",
-				de: "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pokémon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pokémon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur pour chaque marqueur de dégât sur Barbicha. Si c'est pile, cette attaque inflige 10 dégâts au Pokémon Défenseur pour chaque marqueur de dégât sur Barbicha.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pokémon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dwindling Wave",
-				fr: "Vague diminutrice",
-				de: "Dwindling Wave"
+				'en-us': "Dwindling Wave",
+				'fr-fr': "Vague diminutrice",
+				'de-de': "Dwindling Wave"
 			},
 			effect: {
-				en: "Does 70 damage minus 10 damage for each damage counter on Whiscash.",
-				fr: "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Barbicha.",
-				de: "Does 70 damage minus 10 damage for each damage counter on Whiscash."
+				'en-us': "Does 70 damage minus 10 damage for each damage counter on Whiscash.",
+				'fr-fr': "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Barbicha.",
+				'de-de': "Does 70 damage minus 10 damage for each damage counter on Whiscash."
 			},
 			damage: "70-",
 

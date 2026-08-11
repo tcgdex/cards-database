@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニネタール（デルタ種）",
+		'ja-jp': "ニネタール（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ボランティア",
+				'ja-jp': "ボランティア",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に（攻撃の前）、ニネタールから4つのダメージカウンターを削除し、VulpixからNinetalesを破棄することができます。そうした場合は、デッキをNineTalesまたはNinetales Exを検索し、Vulpixに置いてください（これは進化するVulpixとしてカウントされます）。  その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中（攻撃前）に（攻撃の前）、ニネタールから4つのダメージカウンターを削除し、VulpixからNinetalesを破棄することができます。そうした場合は、デッキをNineTalesまたはNinetales Exを検索し、Vulpixに置いてください（これは進化するVulpixとしてカウントされます）。  その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "トリックテール",
+				'ja-jp': "トリックテール",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、エネルギーカードを1枚取り付けます。",
+				'ja-jp': "廃棄の山を検索して、エネルギーカードを1枚取り付けます。",
 			},
 			damage: 30,
 		},

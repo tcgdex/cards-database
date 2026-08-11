@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gothitelle",
+		'en-us': "Gothitelle",
 	},
 
 	illustrator: "kawayoo",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothorita",
+		'en-us': "Gothorita",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Magic Room",
+				'en-us': "Magic Room",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
+				'en-us': "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Madkinesis",
+				'en-us': "Madkinesis",
 			},
 			effect: {
-				en: "Does 20 more damage for each Psychic Energy attached to this Pokémon.",
+				'en-us': "Does 20 more damage for each Psychic Energy attached to this Pokémon.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+		'en-us': "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
 	},
 
 	thirdParty: {

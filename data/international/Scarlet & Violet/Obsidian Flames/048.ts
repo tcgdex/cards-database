@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mustébouée",
-		en: "Buizel",
-		es: "Buizel",
-		it: "Buizel",
-		pt: "Buizel",
-		de: "Bamelin"
+		'fr-fr': "Mustébouée",
+		'en-us': "Buizel",
+		'es-es': "Buizel",
+		'it-it': "Buizel",
+		'pt-br': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Vive-Attaque",
-			en: "Quick Attack",
-			es: "Ataque Rápido",
-			it: "Attacco Rapido",
-			pt: "Ataque Rápido",
-			de: "Ruckzuckhieb"
+			'fr-fr': "Vive-Attaque",
+			'en-us': "Quick Attack",
+			'es-es': "Ataque Rápido",
+			'it-it': "Attacco Rapido",
+			'pt-br': "Ataque Rápido",
+			'de-de': "Ruckzuckhieb"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+		'en-us': "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
 	},
 
 	variants: [

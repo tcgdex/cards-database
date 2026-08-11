@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		es: "Farfetch'd",
-		it: "Farfetch'd",
-		pt: "Farfetch'd",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'es-es': "Farfetch'd",
+		'it-it': "Farfetch'd",
+		'pt-br': "Farfetch'd",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Leek Lash",
-			fr: "Fouet Poireau",
-			es: "Latigazo Puerro",
-			it: "Gambofrusta",
-			pt: "Chicote-poró",
-			de: "Lauchhieb"
+			'en-us': "Leek Lash",
+			'fr-fr': "Fouet Poireau",
+			'es-es': "Latigazo Puerro",
+			'it-it': "Gambofrusta",
+			'pt-br': "Chicote-poró",
+			'de-de': "Lauchhieb"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+		'en-us': "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
 	},
 
 	variants: [

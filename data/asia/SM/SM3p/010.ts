@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるゲノセクト",
+		'ja-jp': "ひかるゲノセクト",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "プラズマ団によって 改造された 古代の むしポケモン。 背中の 大砲が パワーアップした。",
+		'ja-jp': "プラズマ団によって 改造された 古代の むしポケモン。 背中の 大砲が パワーアップした。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エナジーリロード" },
 			effect: {
-				ja: "自分の番に1回使える。自分の場のポケモンについている[草]エネルギーを1個、このポケモンにつけ替える。",
+				'ja-jp': "自分の番に1回使える。自分の場のポケモンについている[草]エネルギーを1個、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[草]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "このポケモンについている[草]エネルギーの数x20ダメージ追加。",
 			},
 		},
 	],

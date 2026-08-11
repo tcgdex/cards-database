@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Givrali",
+		'fr-fr': "Givrali",
 	},
 	illustrator: "Rya Ueda",
 	rarity: "None",
@@ -25,10 +25,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Vive-Attaque",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "10+",
 
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "ranvoi d'Énergie",
+				'fr-fr': "ranvoi d'Énergie",
 			},
 			effect: {
-				fr: "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc.",
 			},
 			damage: 40,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Afternoon Nap",
-				fr: "Siestre",
-				de: "Afernoon Nap"
+				'en-us': "Afternoon Nap",
+				'fr-fr': "Siestre",
+				'de-de': "Afernoon Nap"
 			},
 			effect: {
-				en: "Search your deck for a Energy card and attach it to Slowpoke. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à Ramoloss. Mélangez ensuite votre deck.",
-				de: "Search your deck for a  Energy card and attach it to Slowpoke. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Energy card and attach it to Slowpoke. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie  dans votre deck et attachez-la à Ramoloss. Mélangez ensuite votre deck.",
+				'de-de': "Search your deck for a  Energy card and attach it to Slowpoke. Shuffle your deck afterward."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although it knows how to fish, no other intelligent behavior has been detected in it.",
-		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
+		'en-us': "Although it knows how to fish, no other intelligent behavior has been detected in it.",
+		'fr-fr': "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
 	},
 
 

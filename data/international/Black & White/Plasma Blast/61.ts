@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Escavalier",
-		fr: "Lançargot",
-		es: "Escavalier",
-		it: "Escavalier",
-		pt: "Escavalier",
-		de: "Cavalanzas"
+		'en-us': "Escavalier",
+		'fr-fr': "Lançargot",
+		'es-es': "Escavalier",
+		'it-it': "Escavalier",
+		'pt-br': "Escavalier",
+		'de-de': "Cavalanzas"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Karrablast",
-		fr: "Carabing",
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steamroll",
-				fr: "Rouleau Compresseur",
+				'en-us': "Steamroll",
+				'fr-fr': "Rouleau Compresseur",
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 40,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup Déchirant",
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup Déchirant",
 			},
 			effect: {
-				en: "This Pokémon can't use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Slashing Strike during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+		'en-us': "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
 	},
 
 	thirdParty: {

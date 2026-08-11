@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Slugma"
+		'id-id': "Slugma"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Slugma sering muncul di wilayah gunung berapi. Ia mencari tempat yang hangat dan merayap berkeliling secara perlahan."
+		'id-id': "Slugma sering muncul di wilayah gunung berapi. Ia mencari tempat yang hangat dan merayap berkeliling secara perlahan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Panas Pemanggang"
+			'id-id': "Panas Pemanggang"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan mengalami kondisi Luka Bakar, kerusakan yang diberikan bertambah sejumlah 40."
+			'id-id': "Jika Pokémon Bertarung lawan mengalami kondisi Luka Bakar, kerusakan yang diberikan bertambah sejumlah 40."
 		},
 
 		damage: "10+",

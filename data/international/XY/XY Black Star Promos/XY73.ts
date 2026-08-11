@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza EX",
-		fr: "Rayquaza EX",
+		'en-us': "Rayquaza EX",
+		'fr-fr': "Rayquaza EX",
 	},
 
 	illustrator: "PLANETA",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 30,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Strike",
-				fr: "Frappe du Dragon"
+				'en-us': "Dragon Strike",
+				'fr-fr': "Frappe du Dragon"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Frappe du Dragon pendant votre prochain tour."
+				'en-us': "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Frappe du Dragon pendant votre prochain tour."
 			},
 			damage: 130,
 

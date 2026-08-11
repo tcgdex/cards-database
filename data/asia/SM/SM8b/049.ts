@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネクロズマ あかつきのつばさGX",
+		'ja-jp': "ネクロズマ あかつきのつばさGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "インベイジョン" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンを自分のバトルポケモンと入れ替える。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンを自分のバトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

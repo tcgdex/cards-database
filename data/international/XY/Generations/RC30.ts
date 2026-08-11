@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir EX",
-		fr: "Gardevoir-EX",
+		'en-us': "Gardevoir EX",
+		'fr-fr': "Gardevoir-EX",
 	},
 
 	illustrator: "Mizue",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Life Leap",
-				fr: "Projection Vitale",
+				'en-us': "Life Leap",
+				'fr-fr': "Projection Vitale",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Shining Wind",
-				fr: "Vent Étincelant",
+				'en-us': "Shining Wind",
+				'fr-fr': "Vent Étincelant",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				'en-us': "During your opponent's next turn, this Pokémon has no Weakness.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 100,
 

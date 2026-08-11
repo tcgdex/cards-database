@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Chimecho",
-		fr: "Eoko",
-		de: "Palimpalim"
+		'en-us': "Chimecho",
+		'fr-fr': "Eoko",
+		'de-de': "Palimpalim"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chime",
-				fr: "Carillon",
-				de: "Chime"
+				'en-us': "Chime",
+				'fr-fr': "Carillon",
+				'de-de': "Chime"
 			},
 			effect: {
-				en: "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)",
-				fr: "Choisissez une carte Supporter dans la pile de défausse de votre adversaire et appliquez l'effet de cette carte au lieu de l'effet de cette attaque. (La carte Supporter reste dans la pile de défausse de votre adversaire.)",
-				de: "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)"
+				'en-us': "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)",
+				'fr-fr': "Choisissez une carte Supporter dans la pile de défausse de votre adversaire et appliquez l'effet de cette carte au lieu de l'effet de cette attaque. (La carte Supporter reste dans la pile de défausse de votre adversaire.)",
+				'de-de': "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)"
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychic Boom"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
-				de: "Dies 10 damage times the amount of Energy attached to the Defending Pokémon."
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
+				'de-de': "Dies 10 damage times the amount of Energy attached to the Defending Pokémon."
 			},
 			damage: "10×",
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Cynthia",
-		fr: "Cynthia",
+		'en-us': "Cynthia",
+		'fr-fr': "Cynthia",
 	},
 	illustrator: "Yusuke Ohmura",
 	rarity: "Shiny rare",
@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		en: "Shuffle your hand into your deck. Then, draw 6 cards. You may play only 1 Supporter card during your turn (before your attack).",
-		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+		'en-us': "Shuffle your hand into your deck. Then, draw 6 cards. You may play only 1 Supporter card during your turn (before your attack).",
+		'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 	},
 	trainerType: "Supporter",
 

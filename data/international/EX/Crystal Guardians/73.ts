@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Celio's Network",
-		fr: "Le réseau de Cileo",
-		de: "Celios Netzwerk"
+		'en-us': "Celio's Network",
+		'fr-fr': "Le réseau de Cileo",
+		'de-de': "Celios Netzwerk"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-		fr: "Choisissez dans votre deck un Pokémon de base ou une carte Évolution (Pokémon-ex exclus). Montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Ensuite, mélangez votre deck.",
-		de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte oder einer Evolutionskarte (kein Pokémon-ex), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Choisissez dans votre deck un Pokémon de base ou une carte Évolution (Pokémon-ex exclus). Montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Ensuite, mélangez votre deck.",
+		'de-de': "Durchsuche dein Deck nach einer Basis-Pokémon-Karte oder einer Evolutionskarte (kein Pokémon-ex), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
 	thirdParty: {

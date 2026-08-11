@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "月のない 夜。 ゴーストは 呪う 相手を 探しているので 出歩かない 方が いいぞ。",
+		'ja-jp': "月のない 夜。 ゴーストは 呪う 相手を 探しているので 出歩かない 方が いいぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふきつなきり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。相手のベンチポケモン全員に、それぞれダメカンを1個のせる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。相手のベンチポケモン全員に、それぞれダメカンを1個のせる。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	retreat: 1,

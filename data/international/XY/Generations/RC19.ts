@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
 	},
 
 	illustrator: "Yuka Morii",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Lick Away",
-				fr: "Lèche-Lèche",
+				'en-us': "Lick Away",
+				'fr-fr': "Lèche-Lèche",
 			},
 			effect: {
-				en: "Remove all Special Conditions from this Pokémon.",
-				fr: "Retirez tous les États Spéciaux de ce Pokémon.",
+				'en-us': "Remove all Special Conditions from this Pokémon.",
+				'fr-fr': "Retirez tous les États Spéciaux de ce Pokémon.",
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "My fluffy heart makes me feel like a marshmallow. A thrilling macaron full of colorful magic. Everybody's crazy about the taste of candy! ☆",
+		'en-us': "My fluffy heart makes me feel like a marshmallow. A thrilling macaron full of colorful magic. Everybody's crazy about the taste of candy! ☆",
 	},
 
 	thirdParty: {

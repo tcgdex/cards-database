@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイトウ",
+		'ja-jp': "サイトウ",
 		'zh-tw': "洗翠 勇士雄鷹",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、ベンチの[闘]ポケモンに好きなようにつける。",
+		'ja-jp': "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、ベンチの[闘]ポケモンに好きなようにつける。",
 	},
 
 	variants: [

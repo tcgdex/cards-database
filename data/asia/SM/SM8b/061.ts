@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガンGX",
+		'ja-jp': "ルガルガンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "トワイライトアイ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のトラッシュにあるエネルギーの枚数x30ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のトラッシュにあるエネルギーの枚数x30ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 2,

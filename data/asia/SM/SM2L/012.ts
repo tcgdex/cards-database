@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ママンボウ",
+		'ja-jp': "ママンボウ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "傷ついた ポケモンを 抱きしめ 特殊な 粘液で 傷を ふさぐ。 その理由は 不明。",
+		'ja-jp': "傷ついた ポケモンを 抱きしめ 特殊な 粘液で 傷を ふさぐ。 その理由は 不明。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きしにはこぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分または相手のトラッシュにあるたねポケモンを1枚、持ち主のベンチに出す。",
+				'ja-jp': "自分または相手のトラッシュにあるたねポケモンを1枚、持ち主のベンチに出す。",
 			},
 		},
 		{

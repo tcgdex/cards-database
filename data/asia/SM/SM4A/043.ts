@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリス",
+		'ja-jp': "チルタリス",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大空を ゆったりと 飛ぶ。 チルタリスの 美しい ハミングを 聴くと うっとり 夢心地だ。",
+		'ja-jp': "大空を ゆったりと 飛ぶ。 チルタリスの 美しい ハミングを 聴くと うっとり 夢心地だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "りゅうのメロディ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、自分の山札にある[竜]ポケモンを1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "コインを1回投げオモテなら、自分の山札にある[竜]ポケモンを1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [664],
 
 	name: {
-		en: "Scatterbug"
+		'en-us': "Scatterbug"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "This Pokémon scatters poisonous powder\nto repel enemies. It will eat different plants\ndepending on where it lives."
+		'en-us': "This Pokémon scatters poisonous powder\nto repel enemies. It will eat different plants\ndepending on where it lives."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bug Bite"
+			'en-us': "Bug Bite"
 		},
 
 		damage: 10,

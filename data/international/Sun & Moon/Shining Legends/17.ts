@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Incineroar",
-		fr: "Félinferno",
-		es: "Incineroar",
-		it: "Incineroar",
-		pt: "Incineroar",
-		de: "Fuegro"
+		'en-us': "Incineroar",
+		'fr-fr': "Félinferno",
+		'es-es': "Incineroar",
+		'it-it': "Incineroar",
+		'pt-br': "Incineroar",
+		'de-de': "Fuegro"
 	},
 
 	illustrator: "Emi Ando",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torracat",
-		fr: "Matoufeu",
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Profane Punch",
-				fr: "Poing Vulgaire",
-				es: "Puñetazo Profano",
-				it: "Pugno Ribelle",
-				pt: "Soco Profano",
-				de: "Ruchloshieb"
+				'en-us': "Profane Punch",
+				'fr-fr': "Poing Vulgaire",
+				'es-es': "Puñetazo Profano",
+				'it-it': "Pugno Ribelle",
+				'pt-br': "Soco Profano",
+				'de-de': "Ruchloshieb"
 			},
 			effect: {
-				en: "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
-				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
-				it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
-				pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
+				'fr-fr': "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
+				'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu",
-				es: "Envite Ígneo",
-				it: "Fuococarica",
-				pt: "Blitz de Labaredas",
-				de: "Flammenblitz"
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu",
+				'es-es': "Envite Ígneo",
+				'it-it': "Fuococarica",
+				'pt-br': "Blitz de Labaredas",
+				'de-de': "Flammenblitz"
 			},
 			effect: {
-				en: "Discard all Fire Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie Fire de ce Pokémon.",
-				es: "Descarta todas las Energías Fire de este Pokémon.",
-				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
-				pt: "Descarte todas as Energias Fire deste Pokémon.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Fire Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie Fire de ce Pokémon.",
+				'es-es': "Descarta todas las Energías Fire de este Pokémon.",
+				'it-it': "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
+				'pt-br': "Descarte todas as Energias Fire deste Pokémon.",
+				'de-de': "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 180,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
+		'en-us': "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
 	},
 
 	thirdParty: {

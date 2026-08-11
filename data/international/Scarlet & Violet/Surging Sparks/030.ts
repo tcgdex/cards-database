@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crocalor",
-		fr: "Crocogril",
-		es: "Crocalor",
-		it: "Crocalor",
-		pt: "Crocalor",
-		de: "Lokroko"
+		'en-us': "Crocalor",
+		'fr-fr': "Crocogril",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Fuecoco",
-		fr: "Chochodile",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'en-us': "Fuecoco",
+		'fr-fr': "Chochodile",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Heat Breath",
-			fr: "Souffle Ardent",
-			es: "Aliento Ardiente",
-			it: "Alitorovente",
-			pt: "Bafo de Calor",
-			de: "Heißer Atem"
+			'en-us': "Heat Breath",
+			'fr-fr': "Souffle Ardent",
+			'es-es': "Aliento Ardiente",
+			'it-it': "Alitorovente",
+			'pt-br': "Bafo de Calor",
+			'de-de': "Heißer Atem"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 50 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"

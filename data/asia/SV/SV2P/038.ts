@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 		'zh-tw': "猴怪",
-		th: "แมนคี",
-		id: "Mankey"
+		'th-th': "แมนคี",
+		'id-id': "Mankey"
 	},
 
 	illustrator: "kurumitsu",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "木の上で 群れをつくって 暮らす。 群れから はぐれた マンキーは 寂しくて すぐに 怒りだす。",
+		'ja-jp': "木の上で 群れをつくって 暮らす。 群れから はぐれた マンキーは 寂しくて すぐに 怒りだす。",
 		'zh-tw': "在樹上群居的寶可夢。和夥伴走散的猴怪會因為 按捺不住寂寞而動不動就生氣。",
-		th: "อาศัยอยู่กันเป็นฝูงบนต้นไม้ แมนคีที่พลัดจากฝูงจะเหงาจนโกรธขึ้นมา",
-		id: "Pokémon ini hidup berkelompok di atas pohon. Mankey yang terpisah dari kawanannya langsung mengamuk karena kesepian."
+		'th-th': "อาศัยอยู่กันเป็นฝูงบนต้นไม้ แมนคีที่พลัดจากฝูงจะเหงาจนโกรธขึ้นมา",
+		'id-id': "Pokémon ini hidup berkelompok di atas pohon. Mankey yang terpisah dari kawanannya langsung mengamuk karena kesepian."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "けたぐり",
+			'ja-jp': "けたぐり",
 			'zh-tw': "踢倒",
-			th: "เตะเลียด",
-			id: "Tendangan Rendah"
+			'th-th': "เตะเลียด",
+			'id-id': "Tendangan Rendah"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "ぶらさがる",
+			'ja-jp': "ぶらさがる",
 			'zh-tw': "垂吊",
-			th: "ห้อยโตงเตง",
-			id: "Bergantung"
+			'th-th': "ห้อยโตงเตง",
+			'id-id': "Bergantung"
 		},
 
 		damage: 30

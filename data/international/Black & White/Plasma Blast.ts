@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw10: Set = {
 	id: "bw10",
 
 	name: {
-		en: "Plasma Blast",
-		fr: "Explosion Plasma",
-		de: "Plasma-Blaster",
-		pt: "Explosão de Plasma" // also "Explosão Plasma" in the PTCGO
+		'en-us': "Plasma Blast",
+		'fr-fr': "Explosion Plasma",
+		'de-de': "Plasma-Blaster",
+		'pt-br': "Explosão de Plasma" // also "Explosão Plasma" in the PTCGO
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const bw10: Set = {
 
 	abbreviations: {
 		official: "PLB",
-		fr: "EPL"
+		'fr-fr': "EPL"
 	},
 
 	thirdParty: {

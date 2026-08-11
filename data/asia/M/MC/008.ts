@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのウツボット",
+		'ja-jp': "エリカのウツボット",
 	},
 
 	illustrator: "takashi shiraishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体内に 取りこまれた ものは どんなに 硬くても 溶解液で 跡形なく 溶かされてしまう。",
+		'ja-jp': "体内に 取りこまれた ものは どんなに 硬くても 溶解液で 跡形なく 溶かされてしまう。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分の場の「エリカのポケモン」の数×40ダメージ。",
+				'ja-jp': "自分の場の「エリカのポケモン」の数×40ダメージ。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリカのウツドン",
+		'ja-jp': "エリカのウツドン",
 	},
 
 	retreat: 3,

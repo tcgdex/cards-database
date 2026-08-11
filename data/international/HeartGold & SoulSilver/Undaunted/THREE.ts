@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Alph Lithograph",
-		fr: "Lithographie d’Alph",
-		de: "Alph Lithograph"
+		'en-us': "Alph Lithograph",
+		'fr-fr': "Lithographie d’Alph",
+		'de-de': "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Return any Stadium card in play to its player's hand!",
-		fr: "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
-		de: "Gib eine Stadionkarte im Spiel auf die Hand des jeweiligen Spielers zurück!"
+		'en-us': "Return any Stadium card in play to its player's hand!",
+		'fr-fr': "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
+		'de-de': "Gib eine Stadionkarte im Spiel auf die Hand des jeweiligen Spielers zurück!"
 	},
 
 	trainerType: "Item",

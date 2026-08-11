@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Donphan",
-		fr: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -21,33 +21,33 @@ const card: Card = {
 		type: "Poke-BODY",
 
 		name: {
-			en: "Exoskeleton",
-			fr: "Exosquelette"
+			'en-us': "Exoskeleton",
+			'fr-fr': "Exosquelette"
 		},
 
 		effect: {
-			en: "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
-			fr: "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance)."
+			'en-us': "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
+			'fr-fr': "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Earthquake",
-			fr: "Séisme"
+			'en-us': "Earthquake",
+			'fr-fr': "Séisme"
 		},
 
 		effect: {
-			en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: 60,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros impact"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros impact"
 		},
 
 		damage: 90,

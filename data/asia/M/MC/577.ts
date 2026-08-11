@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのノココッチex",
+		'ja-jp': "アオキのノココッチex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アオキのノコッチ",
+		'ja-jp': "アオキのノコッチ",
 	},
 
 	retreat: 3,

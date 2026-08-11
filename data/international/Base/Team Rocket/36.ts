@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Gloom",
-		fr: "Ortide obscur",
-		de: "Dunkles Duflor"
+		'en-us': "Dark Gloom",
+		'fr-fr': "Ortide obscur",
+		'de-de': "Dunkles Duflor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Pollen Stench",
-				fr: "Pollen puant",
-				de: "Pollengestank"
+				'en-us': "Pollen Stench",
+				'fr-fr': "Pollen puant",
+				'de-de': "Pollengestank"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Confused; if tails, your Active Pokémon is now Confused. This power can't be used if Dark Gloom is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus ; si c'est pile, votre Pokémon Actif est maintenant Confus. Ce pouvoir ne peut être utilisé si Ortide obscur est Endormi, Confus ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Duflor schläft, verwirrt oder gelähmt ist."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Confused; if tails, your Active Pokémon is now Confused. This power can't be used if Dark Gloom is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus ; si c'est pile, votre Pokémon Actif est maintenant Confus. Ce pouvoir ne peut être utilisé si Ortide obscur est Endormi, Confus ou Paralysé.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Duflor schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das vertdidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das vertdidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its pollen has such a strong smell that it even confuses itself at times.",
-		fr: "Son pollen sent si fort qu'il s'étourdit parfois lui-même."
+		'en-us': "Its pollen has such a strong smell that it even confuses itself at times.",
+		'fr-fr': "Son pollen sent si fort qu'il s'étourdit parfois lui-même."
 	},
 
 

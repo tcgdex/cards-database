@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Cosmog",
-		fr: "Cosmog",
-		es: "Cosmog",
-		it: "Cosmog",
-		pt: "Cosmog",
-		de: "Cosmog"
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
+		'es-es': "Cosmog",
+		'it-it': "Cosmog",
+		'pt-br': "Cosmog",
+		'de-de': "Cosmog"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dust Gathering",
-				fr: "Ramasse Poussière",
-				es: "Concentración de Polvo",
-				it: "Coglipolvere",
-				pt: "Coleta de Poeira",
-				de: "Staubfänger"
+				'en-us': "Dust Gathering",
+				'fr-fr': "Ramasse Poussière",
+				'es-es': "Concentración de Polvo",
+				'it-it': "Coglipolvere",
+				'pt-br': "Coleta de Poeira",
+				'de-de': "Staubfänger"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+		'en-us': "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
 	},
 
 	thirdParty: {

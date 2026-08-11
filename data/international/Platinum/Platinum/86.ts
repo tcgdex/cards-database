@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Poochyena",
-		fr: "Medhyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyena",
+		'de-de': "Fiffyen"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Howl",
-				fr: "Grondement",
-				de: "Howl"
+				'en-us': "Howl",
+				'fr-fr': "Grondement",
+				'de-de': "Howl"
 			},
 			effect: {
-				en: "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Medhyena dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Medhyena dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Lunge"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Lunge"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted."
+		'en-us': "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted."
 	},
 
 	variants: [

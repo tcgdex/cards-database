@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
-		fr: "Florizarre",
-		es: "Venusaur",
-		it: "Venusaur",
-		pt: "Venusaur",
-		de: "Bisaflor"
+		'en-us': "Venusaur",
+		'fr-fr': "Florizarre",
+		'es-es': "Venusaur",
+		'it-it': "Venusaur",
+		'pt-br': "Venusaur",
+		'de-de': "Bisaflor"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur",
-		fr: "Herbizarre",
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Jungle Totem",
-				fr: "Jungle Dominante",
-				es: "Dominio de la Selva",
-				it: "Signore della Giungla",
-				pt: "Totem da Selva",
-				de: "Dschungelherrschaft"
+				'en-us': "Jungle Totem",
+				'fr-fr': "Jungle Dominante",
+				'es-es': "Dominio de la Selva",
+				'it-it': "Signore della Giungla",
+				'pt-br': "Totem da Selva",
+				'de-de': "Dschungelherrschaft"
 			},
 			effect: {
-				en: "Each basic Grass Energy attached to your Pokémon provides GrassGrass Energy. You can’t apply more than 1 Jungle Totem Ability at a time.",
-				fr: "Chaque Énergie Grass de base attachée à vos Pokémon fournit de l’Énergie GrassGrass. Vous ne pouvez pas utiliser plus d’un talent Jungle Dominante à la fois.",
-				es: "Cada Energía Grass Básica unida a tus Pokémon proporciona Energía GrassGrass. No puedes aplicar más de 1 habilidad Dominio de la Selva a la vez.",
-				it: "Ogni Energia base Grass assegnata ai tuoi Pokémon fornisce GrassGrass. Può essere applicata solo un’abilità Signore della Giungla alla volta.",
-				pt: "Cada Energia Grass básica ligada aos seus Pokémon fornece Energias GrassGrass. Você não pode usar mais de 1 Habilidade Totem da Selva por vez.",
-				de: "Jede an deine Pokémon angelegte Grass-Basis-Energie liefert GrassGrass-Energie. Du kannst immer nur jeweils 1 Fähigkeit Dschungelherrschaft einsetzen."
+				'en-us': "Each basic Grass Energy attached to your Pokémon provides GrassGrass Energy. You can’t apply more than 1 Jungle Totem Ability at a time.",
+				'fr-fr': "Chaque Énergie Grass de base attachée à vos Pokémon fournit de l’Énergie GrassGrass. Vous ne pouvez pas utiliser plus d’un talent Jungle Dominante à la fois.",
+				'es-es': "Cada Energía Grass Básica unida a tus Pokémon proporciona Energía GrassGrass. No puedes aplicar más de 1 habilidad Dominio de la Selva a la vez.",
+				'it-it': "Ogni Energia base Grass assegnata ai tuoi Pokémon fornisce GrassGrass. Può essere applicata solo un’abilità Signore della Giungla alla volta.",
+				'pt-br': "Cada Energia Grass básica ligada aos seus Pokémon fornece Energias GrassGrass. Você não pode usar mais de 1 Habilidade Totem da Selva por vez.",
+				'de-de': "Jede an deine Pokémon angelegte Grass-Basis-Energie liefert GrassGrass-Energie. Du kannst immer nur jeweils 1 Fähigkeit Dschungelherrschaft einsetzen."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
-				fr: "Lance-Soleil",
-				es: "Rayo Solar",
-				it: "Solarraggio",
-				pt: "Raio Solar",
-				de: "Solarstrahl"
+				'en-us': "Solar Beam",
+				'fr-fr': "Lance-Soleil",
+				'es-es': "Rayo Solar",
+				'it-it': "Solarraggio",
+				'pt-br': "Raio Solar",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 90,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
+		'en-us': "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
 	},
 
 	thirdParty: {

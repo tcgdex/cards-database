@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガカイリューex",
+		'ja-jp': "メガカイリューex",
 	},
 
 	illustrator: "DOM",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スカイキャリー" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 330,
 			cost: ["Water", "Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	retreat: 2,

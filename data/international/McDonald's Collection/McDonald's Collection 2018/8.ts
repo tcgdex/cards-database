@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite"
+		'en-us': "Magnemite"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searching Magnet",
+				'en-us': "Searching Magnet",
 			},
 			effect: {
-				en: "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+				'en-us': "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Tackle",
+				'en-us': "Tackle",
 			},
 			damage: 10,
 		}

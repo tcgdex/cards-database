@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラランテス",
+		'ja-jp': "ラランテス",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "鮮やかな 体色を 保つには 非常に 手間が かかるが それを 趣味にする 好事家も いるのだ。",
+		'ja-jp': "鮮やかな 体色を 保つには 非常に 手間が かかるが それを 趣味にする 好事家も いるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "にほんばれ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[草]または[炎]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[草]または[炎]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	retreat: 2,

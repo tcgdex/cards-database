@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'de-de': "Raupy"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spin Tackle",
-				fr: "Charge vrille",
-				de: "Drehtackle"
+				'en-us': "Spin Tackle",
+				'fr-fr': "Charge vrille",
+				'de-de': "Drehtackle"
 			},
 			effect: {
-				en: "Caterpie does 10 damage to itself.",
-				fr: "Chenipan s'inflige 10 dégâts.",
-				de: "Raupy fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Caterpie does 10 damage to itself.",
+				'fr-fr': "Chenipan s'inflige 10 dégâts.",
+				'de-de': "Raupy fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -55,8 +55,8 @@ const card: Card = {
 
 
 	description: {
-		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
-		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
+		'en-us': "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+		'fr-fr': "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
 	},
 
 

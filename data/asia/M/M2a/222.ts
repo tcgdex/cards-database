@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャミングタワー",
+		'ja-jp': "ジャミングタワー",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのポケモン全員についている「ポケモンのどうぐ」の効果は、すべてなくなる。",
+		'ja-jp': "おたがいのポケモン全員についている「ポケモンのどうぐ」の効果は、すべてなくなる。",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Hitmontop",
-		fr: "Kapoera",
-		de: "Kapoera"
+		'en-us': "Hitmontop",
+		'fr-fr': "Kapoera",
+		'de-de': "Kapoera"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Kick",
-				fr: "Triple pied",
-				de: "Dreifachkick"
+				'en-us': "Triple Kick",
+				'fr-fr': "Triple pied",
+				'de-de': "Dreifachkick"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gut Spin",
-				fr: "Tour de tripes",
-				de: "Magendreher"
+				'en-us': "Gut Spin",
+				'fr-fr': "Tour de tripes",
+				'de-de': "Magendreher"
 			},
 			effect: {
-				en: "If Tyrogue is anywhere under Hitmontop, you may switch Hitmontop with 1 of your Benched Pokémon.",
-				fr: "Si Debugant se trouve sous Kapoera, vous pouvez échanger Kapoera avec 1 des Pokémon de votre Banc.",
-				de: "Wenn Rabauz sich an beliebiger Stelle unter Kapoera befindet, kannst du Kapoera gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "If Tyrogue is anywhere under Hitmontop, you may switch Hitmontop with 1 of your Benched Pokémon.",
+				'fr-fr': "Si Debugant se trouve sous Kapoera, vous pouvez échanger Kapoera avec 1 des Pokémon de votre Banc.",
+				'de-de': "Wenn Rabauz sich an beliebiger Stelle unter Kapoera befindet, kannst du Kapoera gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 50,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by ten.",
-		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
+		'en-us': "It fights while spinning like a top. The centrifugal force boosts its destructive power by ten.",
+		'fr-fr': "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
 	},
 
 	thirdParty: {

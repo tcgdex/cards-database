@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのナッシー",
+		'ja-jp': "エリカのナッシー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "サイキック交換",
+				'ja-jp': "サイキック交換",
 			},
 			effect: {
-				ja: "デッキに手をシャッフルしてから、5枚のカードを描きます。",
+				'ja-jp': "デッキに手をシャッフルしてから、5枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "踏みつけ",
+				'ja-jp': "踏みつけ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30のダメージに加えて10ダメージを与えます。尾の場合、この攻撃は30のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30のダメージに加えて10ダメージを与えます。尾の場合、この攻撃は30のダメージを与えます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Blissey Ex",
+		'ja-jp': "Blissey Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "至福のサポート",
+				'ja-jp': "至福のサポート",
 			},
 			effect: {
-				ja: "ターン中に、手からブリッシーの元をプレイしてポカンの1つを進化させると、ポケモンの任意の数に取り付けられたすべてのエネルギーカードを破棄し、それらのポケモンからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中に、手からブリッシーの元をプレイしてポカンの1つを進化させると、ポケモンの任意の数に取り付けられたすべてのエネルギーカードを破棄し、それらのポケモンからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギー吸収",
+				'ja-jp': "エネルギー吸収",
 			},
 			effect: {
-				ja: "廃棄パイルから最大3枚のエネルギーカードをブリッシーエクシートに取り付けます。",
+				'ja-jp': "廃棄パイルから最大3枚のエネルギーカードをブリッシーエクシートに取り付けます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 60,
 		},

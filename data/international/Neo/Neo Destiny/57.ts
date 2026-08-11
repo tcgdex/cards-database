@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Unown [C]",
-		fr: "Zarbi C",
-		de: "Icognito C"
+		'en-us': "Unown [C]",
+		'fr-fr': "Zarbi C",
+		'de-de': "Icognito C"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "[Chase]",
-				fr: "[Chase]",
-				de: "Chase"
+				'en-us': "[Chase]",
+				'fr-fr': "[Chase]",
+				'de-de': "Chase"
 			},
 			effect: {
-				en: "As long as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance.",
-				fr: "Tant que Zarbi [C] est votre Pokémon Actif, si le Pokémon Actif de votre adversaire essaie de battre en retraite, lancez une pièce. Si c'est face, placez 1 marqueur de dégâts sur ce Pokémon. Appliquez la Faiblesse et la Résistance.",
-				de: "As laong as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance"
+				'en-us': "As long as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance.",
+				'fr-fr': "Tant que Zarbi [C] est votre Pokémon Actif, si le Pokémon Actif de votre adversaire essaie de battre en retraite, lancez une pièce. Si c'est face, placez 1 marqueur de dégâts sur ce Pokémon. Appliquez la Faiblesse et la Résistance.",
+				'de-de': "As laong as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance"
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		'en-us': "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
+		'fr-fr': "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
 	},
 
 

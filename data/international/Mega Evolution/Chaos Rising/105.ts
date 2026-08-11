@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
@@ -6,13 +6,13 @@ const card: Card = {
 
 
 	name: {
-		en: "Cinccino ex",
-		fr: "Pashmilla-ex",
-		es: "Cinccino ex",
+		'en-us': "Cinccino ex",
+		'fr-fr': "Pashmilla-ex",
+		'es-es': "Cinccino ex",
 		'es-mx': "Cinccino ex",
-		de: "Chillabell-ex",
-		it: "Cinccino-ex",
-		pt: "Cinccino ex"
+		'de-de': "Chillabell-ex",
+		'it-it': "Cinccino-ex",
+		'pt-br': "Cinccino ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Mincinno"
+		'en-us': "Mincinno"
 	},
 
 	stage: "Stage1",
@@ -33,48 +33,48 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Smooth Coat",
-			fr: "Pelage Lustré",
-			es: "Manto Suave",
+			'en-us': "Smooth Coat",
+			'fr-fr': "Pelage Lustré",
+			'es-es': "Manto Suave",
 			'es-mx': "Pelaje Suave",
-			de: "Geschmeidiger Mantel",
-			it: "Pelliscia",
-			pt: "Manto Suave"
+			'de-de': "Geschmeidiger Mantel",
+			'it-it': "Pelliscia",
+			'pt-br': "Manto Suave"
 		},
 
 		effect: {
-			en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
-			fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c'est face, évitez ces dégâts.",
-			es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, se evita ese daño.",
+			'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+			'fr-fr': "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c'est face, évitez ces dégâts.",
+			'es-es': "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, se evita ese daño.",
 			'es-mx': "Si se inflige algún punto de daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, se evita ese daño.",
-			de: "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden.",
-			it: "Se vengono inflitti dei danni a questo Pokémon da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.",
-			pt: "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, previna aquele dano."
+			'de-de': "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere bei Kopf jenen Schaden.",
+			'it-it': "Se vengono inflitti dei danni a questo Pokémon da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.",
+			'pt-br': "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, previna aquele dano."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Energized Slap",
-			fr: "Gifle Énergisée",
-			es: "Bofetada Energética",
+			'en-us': "Energized Slap",
+			'fr-fr': "Gifle Énergisée",
+			'es-es': "Bofetada Energética",
 			'es-mx': "Bofetón Energético",
-			de: "Energischer Klatscher",
-			it: "Sberla Energizzata",
-			pt: "Tapa Energizado"
+			'de-de': "Energischer Klatscher",
+			'it-it': "Sberla Energizzata",
+			'pt-br': "Tapa Energizado"
 		},
 
 		cost: ["Colorless"],
 		damage: "40×",
 
 		effect: {
-			en: "This attack does 40 damage for each Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque Énergie attachée à ce Pokémon.",
-			es: "Este ataque hace 40 puntos de daño por cada Energía unida a este Pokémon.",
+			'en-us': "This attack does 40 damage for each Energy attached to this Pokémon.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque Énergie attachée à ce Pokémon.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada Energía unida a este Pokémon.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada Energía unida a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ogni Energia assegnata a questo Pokémon.",
-			pt: "Este ataque causa 40 pontos de dano para cada Energia ligada a este Pokémon."
+			'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ogni Energia assegnata a questo Pokémon.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada Energia ligada a este Pokémon."
 		}
 	}],
 

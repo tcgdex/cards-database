@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オンバーンex"
+		'ja-jp': "オンバーンex"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "おんみつひこう"
+			'ja-jp': "おんみつひこう"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+			'ja-jp': "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
 		}
 	}, {
 		cost: ["Psychic", "Darkness"],
 
 		name: {
-			ja: "ドミネートエコー"
+			'ja-jp': "ドミネートエコー"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "次の相手の番、相手は手札から特殊エネルギーを出してつけられず、スタジアムも出せない。"
+			'ja-jp': "次の相手の番、相手は手札から特殊エネルギーを出してつけられず、スタジアムも出せない。"
 		}
 	}],
 

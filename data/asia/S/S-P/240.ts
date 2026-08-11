@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "からくちスパイシーカレー",
+		'ja-jp': "からくちスパイシーカレー",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをやけどにする。自分のバトルポケモンのHPを「40」回復する。",
+		'ja-jp': "自分のバトルポケモンをやけどにする。自分のバトルポケモンのHPを「40」回復する。",
 	},
 
 	variants: [

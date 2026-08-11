@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Golem",
-		fr: "Grolem",
-		es: "Golem",
-		it: "Golem",
-		pt: "Golem",
-		de: "Geowaz"
+		'en-us': "Golem",
+		'fr-fr': "Grolem",
+		'es-es': "Golem",
+		'it-it': "Golem",
+		'pt-br': "Golem",
+		'de-de': "Geowaz"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	stage: "Stage2",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Edge",
-				fr: "Lame de Roc",
-				es: "Roca Afilada",
-				it: "Pietrataglio",
-				pt: "Gume de Pedra",
-				de: "Steinkante"
+				'en-us': "Stone Edge",
+				'fr-fr': "Lame de Roc",
+				'es-es': "Roca Afilada",
+				'it-it': "Pietrataglio",
+				'pt-br': "Gume de Pedra",
+				'de-de': "Steinkante"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -71,20 +71,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Explosion",
-				fr: "Explosion",
-				es: "Explosión",
-				it: "Esplosione",
-				pt: "Explosão",
-				de: "Explosion"
+				'en-us': "Explosion",
+				'fr-fr': "Explosion",
+				'es-es': "Explosión",
+				'it-it': "Esplosione",
+				'pt-br': "Explosão",
+				'de-de': "Explosion"
 			},
 			effect: {
-				en: "This Pokémon does 100 damage to itself.",
-				fr: "Ce Pokémon s'inflige 100 dégâts.",
-				es: "Este Pokémon se hace 100 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 100 danni a se stesso.",
-				pt: "Este Pokémon causa 100 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 100 Schadenspunkte zu."
+				'en-us': "This Pokémon does 100 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 100 dégâts.",
+				'es-es': "Este Pokémon se hace 100 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 100 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 100 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 150,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+		'en-us': "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
 	},
 
 	thirdParty: {

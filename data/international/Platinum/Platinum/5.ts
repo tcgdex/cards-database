@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dialga",
-		fr: "Dialga",
-		de: "Dialga"
+		'en-us': "Dialga",
+		'fr-fr': "Dialga",
+		'de-de': "Dialga"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Reverse Time",
-				fr: "Temps inverse",
-				de: "Reverse Time"
+				'en-us': "Reverse Time",
+				'fr-fr': "Temps inverse",
+				'de-de': "Reverse Time"
 			},
 			effect: {
-				en: "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Dialga de votre main sur votre Banc, vous pouvez chercher dans votre pile de défausse n'importe quelle combinaison de jusqu'à 3 Pokémon (Pokémon NIV.X exclus) et cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre.",
-				de: "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order."
+				'en-us': "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Dialga de votre main sur votre Banc, vous pouvez chercher dans votre pile de défausse n'importe quelle combinaison de jusqu'à 3 Pokémon (Pokémon NIV.X exclus) et cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre.",
+				'de-de': "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Time-Space Traveling",
-				fr: "Voyage espace-temps",
-				de: "Time-Space Traveling"
+				'en-us': "Time-Space Traveling",
+				'fr-fr': "Voyage espace-temps",
+				'de-de': "Time-Space Traveling"
 			},
 			effect: {
-				en: "Draw cards until you have 7 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 7 cartes en main.",
-				de: "Draw cards until you have 7 cards in your hand."
+				'en-us': "Draw cards until you have 7 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 7 cartes en main.",
+				'de-de': "Draw cards until you have 7 cards in your hand."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+		'en-us': "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 
 	variants: [

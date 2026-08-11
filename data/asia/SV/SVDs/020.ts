@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บูเบิร์น",
-		id: "Magmortar"
+		'th-th': "บูเบิร์น",
+		'id-id': "Magmortar"
 	},
 
 	illustrator: "Hasuno",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ระหว่างที่อาศัยอยู่ ณ ปากปล่องภูเขาไฟทำให้มีร่างกายเหมือนภูเขาไฟซึ่งมีอวัยวะคล้ายแหล่งกักเก็บแม็กมาขึ้นมา",
-		id: "Hidup di kepundan gunung berapi membuat tubuh Magmortar menjadi seperti gunung berapi yang memiliki organ menyerupai endapan magma."
+		'th-th': "ระหว่างที่อาศัยอยู่ ณ ปากปล่องภูเขาไฟทำให้มีร่างกายเหมือนภูเขาไฟซึ่งมีอวัยวะคล้ายแหล่งกักเก็บแม็กมาขึ้นมา",
+		'id-id': "Hidup di kepundan gunung berapi membuat tubuh Magmortar menjadi seperti gunung berapi yang memiliki organ menyerupai endapan magma."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ไฟ",
-			id: "Api"
+			'th-th': "ไฟ",
+			'id-id': "Api"
 		},
 
 		damage: 40,
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "โวลเคนิกฮีท",
-			id: "Volcanic Heat"
+			'th-th': "โวลเคนิกฮีท",
+			'id-id': "Volcanic Heat"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 170,

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh45: Set = {
 	id: "swsh4.5",
 
 	name: {
-		en: "Shining Fates",
-		fr: "Destinées Radieuses",
-		es: "Destinos Brillantes",
-		it: "Destino Splendente",
-		de: "Glänzendes Schicksal",
-		pt: "Destinos Brilhantes "
+		'en-us': "Shining Fates",
+		'fr-fr': "Destinées Radieuses",
+		'es-es': "Destinos Brillantes",
+		'it-it': "Destino Splendente",
+		'de-de': "Glänzendes Schicksal",
+		'pt-br': "Destinos Brilhantes "
 	},
 
 	tcgOnline: 'SHF',
@@ -24,7 +24,7 @@ const swsh45: Set = {
 
 	abbreviations: {
 		official: "SHF",
-		fr: "DRA"
+		'fr-fr': "DRA"
 	},
 
 	thirdParty: {

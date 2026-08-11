@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Pinsir GX",
-		fr: "Scarabrute-GX",
+		'en-us': "Pinsir GX",
+		'fr-fr': "Scarabrute-GX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpowered Horns",
-				fr: "Cornes Surpuissantes",
+				'en-us': "Superpowered Horns",
+				'fr-fr': "Cornes Surpuissantes",
 			},
 
 			damage: 110,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine GX",
-				fr: "Guillotine-GX",
+				'en-us': "Guillotine GX",
+				'fr-fr': "Guillotine-GX",
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 160,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sharpedo"
+		'id-id': "Sharpedo"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Begitu mencium bau mangsa, Sharpedo menyemburkan air laut dari bagian belakang tubuhnya dan menyerang dengan kecepatan 120 km/jam."
+		'id-id': "Begitu mencium bau mangsa, Sharpedo menyemburkan air laut dari bagian belakang tubuhnya dan menyerang dengan kecepatan 120 km/jam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Gigit dan Buang"
+			'id-id': "Gigit dan Buang"
 		},
 
 		effect: {
-			id: "Lempar koin 3 kali. Pilih kartu dari Kartu Pegangan lawan tanpa melihat sisi depan untuk tiap lemparan dengan hasil sisi depan, lalu buang ke Trash."
+			'id-id': "Lempar koin 3 kali. Pilih kartu dari Kartu Pegangan lawan tanpa melihat sisi depan untuk tiap lemparan dengan hasil sisi depan, lalu buang ke Trash."
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Jet Head"
+			'id-id': "Jet Head"
 		},
 
 		damage: 100,

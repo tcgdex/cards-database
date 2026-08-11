@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
+		'en-us': "Snorlax",
 	},
 	illustrator: "Craig Turvey",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Guard",
+				'en-us': "Guard",
 			},
 			effect: {
-				en: "As long as Snorlax is your Active Pokémon, the Defending Pokémon can't retreat. This power stops working when Snorlax is affected by a Special Condition.",
+				'en-us': "As long as Snorlax is your Active Pokémon, the Defending Pokémon can't retreat. This power stops working when Snorlax is affected by a Special Condition.",
 			},
 		},
 	],
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roll Over",
+				'en-us': "Roll Over",
 			},
 			effect: {
-				en: "Snorlax is now Asleep. Flip a coin, If heads, the Defending Pokémon is now Asleep.",
+				'en-us': "Snorlax is now Asleep. Flip a coin, If heads, the Defending Pokémon is now Asleep.",
 			},
 			damage: 30,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+		'en-us': "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 	},
 
 	variants: [

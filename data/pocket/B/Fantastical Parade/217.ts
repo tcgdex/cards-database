@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [381],
 
 	name: {
-		en: "Latios"
+		'en-us': "Latios"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It understands human speech and is highly\nintelligent. It is a tender Pokémon that\ndislikes fighting."
+		'en-us': "It understands human speech and is highly\nintelligent. It is a tender Pokémon that\ndislikes fighting."
 	},
 
 	stage: "Basic",
@@ -26,24 +26,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fantastical Floating"
+			'en-us': "Fantastical Floating"
 		},
 
 		effect: {
-			en: "If you have Latias in play, this Pokémon has no Retreat Cost."
+			'en-us': "If you have Latias in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Luster Purge"
+			'en-us': "Luster Purge"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			'en-us': "Discard all Energy from this Pokémon."
 		}
 	}],
 

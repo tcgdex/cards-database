@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュカインGX",
+		'ja-jp': "ジュカインGX",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "このポケモンについている[草]エネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについている[草]エネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 		{
 			name: { ja: "ジャングルヒールGX" },
 			cost: ["Grass"],
 			effect: {
-				ja: "[草]エネルギーがついている自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "[草]エネルギーがついている自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジュプトル",
+		'ja-jp': "ジュプトル",
 	},
 
 	retreat: 1,

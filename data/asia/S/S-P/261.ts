@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラ",
+		'ja-jp': "マニューラ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "群れを 成し 獲物を 襲う。 チームプレーで マンムーなどの 大物も たやすく しとめる。",
+		'ja-jp': "群れを 成し 獲物を 襲う。 チームプレーで マンムーなどの 大物も たやすく しとめる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おいうちクロー" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、そのポケモンにのっているダメカンの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、そのポケモンにのっているダメカンの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 1,

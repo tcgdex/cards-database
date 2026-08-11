@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Core Beam",
-				fr: "Faisceau Central",
-				es: "Rayo Nuclear",
-				it: "Raggio Nucleico",
-				pt: "Feixe do Núcleo",
-				de: "Kernstrahl"
+				'en-us': "Core Beam",
+				'fr-fr': "Faisceau Central",
+				'es-es': "Rayo Nuclear",
+				'it-it': "Raggio Nucleico",
+				'pt-br': "Feixe do Núcleo",
+				'de-de': "Kernstrahl"
 			},
 			effect: {
-				en: "Discard a Metal Energy from this Pokémon.",
-				fr: "Défaussez une Énergie Metal de ce Pokémon.",
-				es: "Descarta 1 Energía Metal de este Pokémon.",
-				it: "Scarta un’Energia Metal assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia Metal deste Pokémon.",
-				de: "Lege 1 Metal-Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard a Metal Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Metal de ce Pokémon.",
+				'es-es': "Descarta 1 Energía Metal de este Pokémon.",
+				'it-it': "Scarta un’Energia Metal assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia Metal deste Pokémon.",
+				'de-de': "Lege 1 Metal-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+		'en-us': "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
 	},
 
 	thirdParty: {

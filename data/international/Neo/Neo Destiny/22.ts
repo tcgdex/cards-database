@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Dragonair",
-		fr: "Draco lumineux",
-		de: "Helles Dragonir"
+		'en-us': "Light Dragonair",
+		'fr-fr': "Draco lumineux",
+		'de-de': "Helles Dragonir"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Light",
-				fr: "Lumière soignante",
-				de: "Healing Light"
+				'en-us': "Healing Light",
+				'fr-fr': "Lumière soignante",
+				'de-de': "Healing Light"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
-				fr: "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts.",
-				de: "Remove 1 damage counter from each of you Pokémon that has any damage counters on it."
+				'en-us': "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
+				'fr-fr': "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts.",
+				'de-de': "Remove 1 damage counter from each of you Pokémon that has any damage counters on it."
 			},
 
 		},
@@ -56,15 +56,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Protective Wave",
-				fr: "Onde protectrice",
-				de: "Protective Wave"
+				'en-us': "Protective Wave",
+				'fr-fr': "Onde protectrice",
+				'de-de': "Protective Wave"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux.",
-				de: "Flip a coin. If heads, during your opponent's turn, prevent all effects of attacks, including damage, done to Light Dragonair."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux.",
+				'de-de': "Flip a coin. If heads, during your opponent's turn, prevent all effects of attacks, including damage, done to Light Dragonair."
 			},
 
 			damage: 20
@@ -81,8 +81,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The aura it projects from its body has an effect on the surrounding climate and weather.",
-		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
+		'en-us': "The aura it projects from its body has an effect on the surrounding climate and weather.",
+		'fr-fr': "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
 	},
 
 

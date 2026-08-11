@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Heal Energy",
-		fr: "Énergie guérisseuse",
-		de: "Heilungs-Energie"
+		'en-us': "Heal Energy",
+		'fr-fr': "Énergie guérisseuse",
+		'de-de': "Heilungs-Energie"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -15,9 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Heal Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If Heal Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
-		de: "Heal Energy provides  Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If heals Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
-		fr: "Énergie guérisseuse fournit une Énergie Incolore. Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie.",
+		'en-us': "Heal Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If Heal Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
+		'de-de': "Heal Energy provides  Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If heals Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
+		'fr-fr': "Énergie guérisseuse fournit une Énergie Incolore. Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie.",
 	},
 
 

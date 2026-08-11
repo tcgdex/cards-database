@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sprigatito",
-		fr: "Poussacha"
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha"
 	},
 
 	rarity: "Promo",
@@ -27,8 +27,8 @@ const card: Card = {
 			cost: ["Colorless"],
 
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: "10"
@@ -37,8 +37,8 @@ const card: Card = {
 			cost: ["Grass", "Colorless"],
 
 			name: {
-				en: "Leafage",
-				fr: "Feuillage"
+				'en-us': "Leafage",
+				'fr-fr': "Feuillage"
 			},
 			damage: "20",
 		}

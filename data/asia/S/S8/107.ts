@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパV",
+		'ja-jp': "フーパV",
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルフェイス" },
 			effect: {
-				ja: "このポケモンは、場にいるかぎり[超]と[悪]の2つのタイプになる。",
+				'ja-jp': "このポケモンは、場にいるかぎり[超]と[悪]の2つのタイプになる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹に、ダメカンを3個のせる。",
+				'ja-jp': "自分のポケモン1匹に、ダメカンを3個のせる。",
 			},
 		},
 	],

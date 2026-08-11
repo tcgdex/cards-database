@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisear"
+		'en-us': "Simisear"
 	},
 
 	illustrator: "kirisAki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Pansear"
+		'en-us': "Pansear"
 	},
 
 	description: {
-		en: "When it gets excited, embers rise from its head\nand tail and it gets hot. For some reason, it\nloves sweets."
+		'en-us': "When it gets excited, embers rise from its head\nand tail and it gets hot. For some reason, it\nloves sweets."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fury Swipes"
+			'en-us': "Fury Swipes"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Colorless"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 40 damage for each heads."
+			'en-us': "Flip 3 coins. This attack does 40 damage for each heads."
 		}
 	}],
 

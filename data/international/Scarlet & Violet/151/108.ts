@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Excelangue",
-		en: "Lickitung",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'fr-fr': "Excelangue",
+		'en-us': "Lickitung",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Langue Ligotante",
-			en: "Tongue-Tied",
-			es: "Traba-Lengua",
-			it: "Legalingua",
-			pt: "Nó de Língua",
-			de: "Zungenzügel"
+			'fr-fr': "Langue Ligotante",
+			'en-us': "Tongue-Tied",
+			'es-es': "Traba-Lengua",
+			'it-it': "Legalingua",
+			'pt-br': "Nó de Língua",
+			'de-de': "Zungenzügel"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
-			en: "During your opponent's next turn, the Defending Pokémon can't attack.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
-			de: "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon nicht angreifen."
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't attack.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon nicht angreifen."
 		},
 
 		damage: 70
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Bug Pokémon are Lickitung's main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
+		'en-us': "Bug Pokémon are Lickitung's main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
 	},
 
 	variants: [

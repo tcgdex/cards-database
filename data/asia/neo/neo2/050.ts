@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Igglybuff",
+		'ja-jp': "Igglybuff",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "視線",
+				'ja-jp': "視線",
 			},
 			effect: {
-				ja: "ターン中に<em>（攻撃の前）</em> </em>、ポクモンパワーを持つ相手のベンチ付きポッコンを1つ選択します。そのパワーは、このターンの終わりまで機能しなくなります。この効果は、そのポクモンがベンチを離れると終了します。",
+				'ja-jp': "ターン中に<em>（攻撃の前）</em> </em>、ポクモンパワーを持つ相手のベンチ付きポッコンを1つ選択します。そのパワーは、このターンの終わりまで機能しなくなります。この効果は、そのポクモンがベンチを離れると終了します。",
 			},
 		}],
 

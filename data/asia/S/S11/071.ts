@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 		'zh-tw': "好壞星",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "棘に 刺されると まず 痺れに 襲われ やがて 掻きむしりたくなる ほどの 痒みに 苦しむのだ。",
+		'ja-jp': "棘に 刺されると まず 痺れに 襲われ やがて 掻きむしりたくなる ほどの 痒みに 苦しむのだ。",
 		'zh-tw': "要是被牠的毒刺給刺中，首先會發麻，接著會奇癢無比， 讓人恨不得把皮都給抓爛。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どくばり",
+				'ja-jp': "どくばり",
 				'zh-tw': "毒針",
 			},
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},

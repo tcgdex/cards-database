@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アリゲイツ",
-		id: "Croconaw",
-		th: "อัลลิเกต",
+		'ja-jp': "アリゲイツ",
+		'id-id': "Croconaw",
+		'th-th': "อัลลิเกต",
 		'zh-tw': "藍鱷",
 		'zh-cn': "藍鱷"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "キバは 抜けても 次から 次に 生えてくる。いつも 口の中には ４８本の キバが そろっている。",
-		id: "Meskipun copot, taring Croconaw akan terus-menerus tumbuh. Di dalam mulutnya, selalu ada 48 taring lengkap.",
-		th: "แม้เขี้ยวจะหลุดไป ก็จะงอกขึ้นมาใหม่เรื่อย ๆ ในปากจึงมีเขี้ยวครบ 48 ซี่เสมอ",
+		'ja-jp': "キバは 抜けても 次から 次に 生えてくる。いつも 口の中には ４８本の キバが そろっている。",
+		'id-id': "Meskipun copot, taring Croconaw akan terus-menerus tumbuh. Di dalam mulutnya, selalu ada 48 taring lengkap.",
+		'th-th': "แม้เขี้ยวจะหลุดไป ก็จะงอกขึ้นมาใหม่เรื่อย ๆ ในปากจึงมีเขี้ยวครบ 48 ซี่เสมอ",
 		'zh-tw': "即使牙齒掉了也會 不斷重新長出來。 嘴裡總是長滿著４８顆牙齒。",
 		'zh-cn': "即使牙齒掉了也會 不斷重新長出來。 嘴裡總是長滿著４８顆牙齒。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "ぎゃくふんしゃ",
-			id: "Dorongan Balik",
-			th: "พ่นน้ำสวนทาง",
+			'ja-jp': "ぎゃくふんしゃ",
+			'id-id': "Dorongan Balik",
+			'th-th': "พ่นน้ำสวนทาง",
 			'zh-tw': "逆向噴射",
 			'zh-cn': "逆向噴射"
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。",
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan.",
-			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan.",
+			'th-th': "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			'zh-cn': "將這隻寶可夢與備戰寶可夢互換。"
 		}

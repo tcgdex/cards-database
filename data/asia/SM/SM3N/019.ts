@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どこまでも 獲物を 追い続ける。 執念深い 性格だが 朝日が 昇ると あきらめる。",
+		'ja-jp': "どこまでも 獲物を 追い続ける。 執念深い 性格だが 朝日が 昇ると あきらめる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やみあんない" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにあるたねポケモンを1枚、ベンチに出す。",
+				'ja-jp': "自分のトラッシュにあるたねポケモンを1枚、ベンチに出す。",
 			},
 		},
 		{

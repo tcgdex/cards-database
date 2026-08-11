@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak G",
-		fr: "Coatox ",
-		de: "Toxiquak G"
+		'en-us': "Toxicroak G",
+		'fr-fr': "Coatox ",
+		'de-de': "Toxiquak G"
 	},
 
 	illustrator: "Ryota Saito",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Anticipation",
-				fr: "Anticipation",
-				de: "Anticipation"
+				'en-us': "Anticipation",
+				'fr-fr': "Anticipation",
+				'de-de': "Anticipation"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, excluding damage, done to Toxicroak G.",
-				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Coatox .",
-				de: "Prevent all effects of attacks, excluding damage, done to Toxicroak G."
+				'en-us': "Prevent all effects of attacks, excluding damage, done to Toxicroak G.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Coatox .",
+				'de-de': "Prevent all effects of attacks, excluding damage, done to Toxicroak G."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Poison",
-				fr: "Poison profond",
-				de: "Deep Poison"
+				'en-us': "Deep Poison",
+				'fr-fr': "Poison profond",
+				'de-de': "Deep Poison"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage."
 			},
 			damage: "20+",
 

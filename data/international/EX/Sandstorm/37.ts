@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Wing Attack",
-				fr: "Double cru-aile",
-				de: "Double Wing Attack"
+				'en-us': "Double Wing Attack",
+				'fr-fr': "Double cru-aile",
+				'de-de': "Double Wing Attack"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
-				de: "Does 20 damage to each Defending Pokémon."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon Défenseur.",
+				'de-de': "Does 20 damage to each Defending Pokémon."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirure",
-				de: "Rend"
+				'en-us': "Rend",
+				'fr-fr': "Déchirure",
+				'de-de': "Rend"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 50 dégâts.",
-				de: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 50 dégâts.",
+				'de-de': "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 20 more damage."
 			},
 			damage: "30+",
 

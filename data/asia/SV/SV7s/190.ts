@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิเทรุกุมะ"
+		'th-th': "คิเทรุกุมะ"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เมื่อยอมรับเป็นพวกพ้อง จะกอดรัดเพื่อแสดงความรัก แต่อันตรายเพราะกระดูกอาจแหลกเป็นผงได้"
+		'th-th': "เมื่อยอมรับเป็นพวกพ้อง จะกอดรัดเพื่อแสดงความรัก แต่อันตรายเพราะกระดูกอาจแหลกเป็นผงได้"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "พาวเวอร์ชาร์จ"
+			'th-th': "พาวเวอร์ชาร์จ"
 		},
 
 		effect: {
-			th: "เลือกการ์ดพลังงานพื้นฐาน 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด"
+			'th-th': "เลือกการ์ดพลังงานพื้นฐาน 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ตบหนัก"
+			'th-th': "ตบหนัก"
 		},
 
 		damage: 130,

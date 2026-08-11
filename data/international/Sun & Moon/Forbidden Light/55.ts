@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Poipole",
-		fr: "Vémini",
-		es: "Poipole",
-		it: "Poipole",
-		pt: "Poipole",
-		de: "Venicro"
+		'en-us': "Poipole",
+		'fr-fr': "Vémini",
+		'es-es': "Poipole",
+		'it-it': "Poipole",
+		'pt-br': "Poipole",
+		'de-de': "Venicro"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-Venin",
-				es: "Escupir Veneno",
-				it: "Sputaveleno",
-				pt: "Cuspe Venenoso",
-				de: "Giftspucke"
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-Venin",
+				'es-es': "Escupir Veneno",
+				'it-it': "Sputaveleno",
+				'pt-br': "Cuspe Venenoso",
+				'de-de': "Giftspucke"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knockout Reviver",
-				fr: "K.O. Futile",
-				es: "Noqueo Neutralizado",
-				it: "KO Disinnescato",
-				pt: "Nocaute Frustrado",
-				de: "Fruchtloser K. o."
+				'en-us': "Knockout Reviver",
+				'fr-fr': "K.O. Futile",
+				'es-es': "Noqueo Neutralizado",
+				'it-it': "KO Disinnescato",
+				'pt-br': "Nocaute Frustrado",
+				'de-de': "Fruchtloser K. o."
 			},
 			effect: {
-				en: "During your opponent’s next turn, if this Pokémon is Knocked Out, your opponent can’t take any Prize cards for it.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon est mis K.O., votre adversaire ne peut pas récupérer de carte Récompense pour ce Pokémon.",
-				es: "Durante el próximo turno de tu rival, si este Pokémon queda Fuera de Combate, tu rival no puede coger ninguna carta de Premio por ello.",
-				it: "Durante il prossimo turno del tuo avversario, se questo Pokémon viene messo KO, il tuo avversario non può prendere carte Premio per effetto di quel KO.",
-				pt: "Durante a próxima vez de jogar do seu oponente, se este Pokémon for Nocauteado, seu oponente não poderá pegar cartas de Prêmio por isto.",
-				de: "Wenn dieses Pokémon während des nächsten Zuges deines Gegners kampfunfähig wird, kann dein Gegner dafür keine Preiskarten nehmen."
+				'en-us': "During your opponent’s next turn, if this Pokémon is Knocked Out, your opponent can’t take any Prize cards for it.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon est mis K.O., votre adversaire ne peut pas récupérer de carte Récompense pour ce Pokémon.",
+				'es-es': "Durante el próximo turno de tu rival, si este Pokémon queda Fuera de Combate, tu rival no puede coger ninguna carta de Premio por ello.",
+				'it-it': "Durante il prossimo turno del tuo avversario, se questo Pokémon viene messo KO, il tuo avversario non può prendere carte Premio per effetto di quel KO.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, se este Pokémon for Nocauteado, seu oponente não poderá pegar cartas de Prêmio por isto.",
+				'de-de': "Wenn dieses Pokémon während des nächsten Zuges deines Gegners kampfunfähig wird, kann dein Gegner dafür keine Preiskarten nehmen."
 			},
 
 		},
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+		'en-us': "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
 	},
 
 	thirdParty: {

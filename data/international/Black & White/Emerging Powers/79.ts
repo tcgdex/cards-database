@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Watchog",
-		fr: "Miradar",
-		es: "Watchog",
-		it: "Watchog",
-		pt: "Watchog",
-		de: "Kukmarda"
+		'en-us': "Watchog",
+		'fr-fr': "Miradar",
+		'es-es': "Watchog",
+		'it-it': "Watchog",
+		'pt-br': "Watchog",
+		'de-de': "Kukmarda"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Patrat",
-		fr: "Ratentif",
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Watcheck",
-				fr: "Contrôle Radar",
+				'en-us': "Watcheck",
+				'fr-fr': "Contrôle Radar",
 			},
 			effect: {
-				en: "Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix.",
+				'en-us': "Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Tail Smash",
-				fr: "Rapid'Claqueue",
+				'en-us': "Quick Tail Smash",
+				'fr-fr': "Rapid'Claqueue",
 			},
 			effect: {
-				en: "Before doing damage, you may flip a coin. If heads, this attack does 60 more damage. If tails, this attack does nothing.",
-				fr: "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Before doing damage, you may flip a coin. If heads, this attack does 60 more damage. If tails, this attack does nothing.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+		'en-us': "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
 	},
 
 	thirdParty: {

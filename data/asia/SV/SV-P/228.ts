@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ちからのハチマキ",
+		'ja-jp': "ちからのハチマキ",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+		'ja-jp': "このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 	},
 
 	variants: [

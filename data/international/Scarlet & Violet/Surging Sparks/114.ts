@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glimmet",
-		fr: "Germéclat",
-		es: "Glimmet",
-		it: "Glimmet",
-		pt: "Glimmet",
-		de: "Lumispross"
+		'en-us': "Glimmet",
+		'fr-fr': "Germéclat",
+		'es-es': "Glimmet",
+		'it-it': "Glimmet",
+		'pt-br': "Glimmet",
+		'de-de': "Lumispross"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rock Hurl",
-			fr: "Lance-Pierre",
-			es: "Lanzamiento de Rocas",
-			it: "Scaglia Pietre",
-			pt: "Lançamento de Pedras",
-			de: "Steinschleuderer"
+			'en-us': "Rock Hurl",
+			'fr-fr': "Lance-Pierre",
+			'es-es': "Lanzamiento de Rocas",
+			'it-it': "Scaglia Pietre",
+			'pt-br': "Lançamento de Pedras",
+			'de-de': "Steinschleuderer"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 10

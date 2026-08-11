@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Windstorm",
-		fr: "Tempête",
-		de: "Sturmwind"
+		'en-us': "Windstorm",
+		'fr-fr': "Tempête",
+		'de-de': "Sturmwind"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards in play (both yours and your opponent's) and discard them.",
-		fr: "Choisissez jusqu'à 2 cartes parmi les cartes Outil Pokémon et les cartes Stade en jeu (les vôtres et celles de votre adversaire) et défaussez-les.",
-		de: "Wähle 2 Karten in beliebiger Kombination aus sich im Spiel befindlichen Pokémon-Ausrüstungs-Karten und Stadion-Karten (deine oder deines Gegners). Lege diese Karten auf den Ablagestapel."
+		'en-us': "Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards in play (both yours and your opponent's) and discard them.",
+		'fr-fr': "Choisissez jusqu'à 2 cartes parmi les cartes Outil Pokémon et les cartes Stade en jeu (les vôtres et celles de votre adversaire) et défaussez-les.",
+		'de-de': "Wähle 2 Karten in beliebiger Kombination aus sich im Spiel befindlichen Pokémon-Ausrüstungs-Karten und Stadion-Karten (deine oder deines Gegners). Lege diese Karten auf den Ablagestapel."
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーピッグ",
+		'ja-jp': "ブーピッグ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "黒真珠で サイコパワーを 増幅させる。 不思議な ステップで 相手の 心を 操る。",
+		'ja-jp': "黒真珠で サイコパワーを 増幅させる。 不思議な ステップで 相手の 心を 操る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の場に、自分の場のポケモンと同じ名前のポケモンがいるなら、70ダメージ追加。",
+				'ja-jp': "相手の場に、自分の場のポケモンと同じ名前のポケモンがいるなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 	},
 
 	retreat: 2,

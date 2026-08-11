@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "sowsow",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Continuous Headbutt",
-				fr: "Coup d’Boule Sans Fin",
-				es: "Golpe Cabeza Continuo",
-				it: "Bottintesta Continue",
-				pt: "Cabeçada Contínua",
-				de: "Anhaltender Kopfstoß"
+				'en-us': "Continuous Headbutt",
+				'fr-fr': "Coup d’Boule Sans Fin",
+				'es-es': "Golpe Cabeza Continuo",
+				'it-it': "Bottintesta Continue",
+				'pt-br': "Cabeçada Contínua",
+				'de-de': "Anhaltender Kopfstoß"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: "20×",
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
+		'en-us': "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
 	},
 
 	thirdParty: {

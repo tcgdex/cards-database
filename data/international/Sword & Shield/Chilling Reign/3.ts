@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		es: "Beedrill",
-		it: "Beedrill",
-		pt: "Beedrill",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'es-es': "Beedrill",
+		'it-it': "Beedrill",
+		'pt-br': "Beedrill",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -21,51 +21,51 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		es: "Kakuna",
-		it: "Kakuna",
-		pt: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'es-es': "Kakuna",
+		'it-it': "Kakuna",
+		'pt-br': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	attacks: [{
 		name: {
-			en: "Persist Sting",
-			fr: "Dard Durable",
-			es: "Aguijonazo Persistente",
-			it: "Pungiglione Ostinato",
-			pt: "Ferroada Persistente",
-			de: "Beharrlicher Stich"
+			'en-us': "Persist Sting",
+			'fr-fr': "Dard Durable",
+			'es-es': "Aguijonazo Persistente",
+			'it-it': "Pungiglione Ostinato",
+			'pt-br': "Ferroada Persistente",
+			'de-de': "Beharrlicher Stich"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon has any Special Energy attached, it is Knocked Out.",
-			fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, il est mis K.O.",
-			es: "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, queda Fuera de Combate.",
-			it: "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, viene messo KO.",
-			pt: "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, ele será Nocauteado.",
-			de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Spezial-Energie angelegt ist, ist es kampfunfähig."
+			'en-us': "If your opponent's Active Pokémon has any Special Energy attached, it is Knocked Out.",
+			'fr-fr': "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, il est mis K.O.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, queda Fuera de Combate.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, viene messo KO.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, ele será Nocauteado.",
+			'de-de': "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Spezial-Energie angelegt ist, ist es kampfunfähig."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			en: "Jet Spear",
-			fr: "Lance Projetée",
-			es: "Lanza Propulsión",
-			it: "Lancia Jet",
-			pt: "Lança a Jato",
-			de: "Jet-Speer"
+			'en-us': "Jet Spear",
+			'fr-fr': "Lance Projetée",
+			'es-es': "Lanza Propulsión",
+			'it-it': "Lancia Jet",
+			'pt-br': "Lança a Jato",
+			'de-de': "Jet-Speer"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 110,
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+		'en-us': "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Naoki Saito",
@@ -21,32 +21,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "First Step",
-			fr: "Premier Pas",
-			es: "Primer Paso",
-			it: "Primo Passo",
-			pt: "Primeiro Passo",
-			de: "Erster Schritt"
+			'en-us': "First Step",
+			'fr-fr': "Premier Pas",
+			'es-es': "Primer Paso",
+			'it-it': "Primo Passo",
+			'pt-br': "Primeiro Passo",
+			'de-de': "Erster Schritt"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			it: "Codabotta",
-			pt: "Surra de Cauda",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'it-it': "Codabotta",
+			'pt-br': "Surra de Cauda",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 30,
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+		'en-us': "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
 
 	stage: "Basic",

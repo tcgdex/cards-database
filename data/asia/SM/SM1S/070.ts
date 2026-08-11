@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デカグースGX",
+		'ja-jp': "デカグースGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ガサいれ" },
 			effect: {
-				ja: "自分の番に1回使える。相手の手札を見る。",
+				'ja-jp': "自分の番に1回使える。相手の手札を見る。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 	},
 
 	retreat: 2,

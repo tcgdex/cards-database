@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy9: Set = {
 	id: "xy9",
 
 	name: {
-		en: "BREAKpoint",
-		fr: "Rupture Turbo",
-		es: "TURBOLímite",
-		it: "Turbo Crash",
-		de: "TURBOfieber",
-		pt: "Turbo Colisão"
+		'en-us': "BREAKpoint",
+		'fr-fr': "Rupture Turbo",
+		'es-es': "TURBOLímite",
+		'it-it': "Turbo Crash",
+		'de-de': "TURBOfieber",
+		'pt-br': "Turbo Colisão"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const xy9: Set = {
 
 	abbreviations: {
 		official: "BKP",
-		fr: "RUP"
+		'fr-fr': "RUP"
 	},
 
 	thirdParty: {

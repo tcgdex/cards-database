@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Ferrothorn",
-		fr: "Noacier",
-		es: "Ferrothorn",
-		it: "Ferrothorn",
-		pt: "Ferrothorn",
-		de: "Tentantel"
+		'en-us': "Ferrothorn",
+		'fr-fr': "Noacier",
+		'es-es': "Ferrothorn",
+		'it-it': "Ferrothorn",
+		'pt-br': "Ferrothorn",
+		'de-de': "Tentantel"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ferroseed",
-		fr: "Grindur",
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Steel Feelers",
-				fr: "Tentacules d'Acier",
+				'en-us': "Steel Feelers",
+				'fr-fr': "Tentacules d'Acier",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gyro Ball",
-				fr: "Gyroballe",
+				'en-us': "Gyro Ball",
+				'fr-fr': "Gyroballe",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+		'en-us': "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
 	},
 
 	thirdParty: {

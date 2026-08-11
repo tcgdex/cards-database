@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
+		'en-us': "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
 	},
 
 	thirdParty: {

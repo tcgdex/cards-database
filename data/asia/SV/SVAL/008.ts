@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAL"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洛托姆",
-		th: "โรตอม",
-		id: "Rotom"
+		'th-th': "โรตอม",
+		'id-id': "Rotom"
 	},
 
 	illustrator: "Nisota Niso",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "被當作驅動特殊馬達的動力源， 而被長期研究的寶可夢。",
-		th: "เป็นโปเกมอนที่ถูกวิจัยมายาวนานในฐานะแหล่งพลังงานขับเคลื่อนมอเตอร์พิเศษ",
-		id: "Rotom adalah Pokémon yang telah diteliti dalam jangka waktu panjang sebagai sumber tenaga penggerak motor khusus."
+		'th-th': "เป็นโปเกมอนที่ถูกวิจัยมายาวนานในฐานะแหล่งพลังงานขับเคลื่อนมอเตอร์พิเศษ",
+		'id-id': "Rotom adalah Pokémon yang telah diteliti dalam jangka waktu panjang sebagai sumber tenaga penggerak motor khusus."
 	},
 
 	stage: "Basic",
@@ -26,14 +26,14 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "直擊彈",
-			th: "ยิงตรง",
-			id: "Serangan Linear"
+			'th-th': "ยิงตรง",
+			'id-id': "Serangan Linear"
 		},
 
 		effect: {
 			'zh-tw': "對手的1隻寶可夢受到20點傷害。[在備戰區不計算弱點・抵抗力。]",
-			th: "ทำแดเมจ 20 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini memberikan kerusakan sejumlah 20 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "ทำแดเมจ 20 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Colorless"]

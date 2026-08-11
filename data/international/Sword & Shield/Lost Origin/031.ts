@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Scav",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		es: "Poliwag",
-		it: "Poliwag",
-		pt: "Poliwag",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'es-es': "Poliwag",
+		'it-it': "Poliwag",
+		'pt-br': "Poliwag",
+		'de-de': "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
-			it: "Pugnetto",
-			pt: "Soco de Luz",
-			de: "Leichter Hieb"
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
+			'it-it': "Pugnetto",
+			'pt-br': "Soco de Luz",
+			'de-de': "Leichter Hieb"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double Smash",
-			fr: "Double Broiement",
-			es: "Golpe Doble",
-			it: "Colpo Duplice",
-			pt: "Bordoada Dupla",
-			de: "Doppelstoß"
+			'en-us': "Double Smash",
+			'fr-fr': "Double Broiement",
+			'es-es': "Golpe Doble",
+			'it-it': "Colpo Duplice",
+			'pt-br': "Bordoada Dupla",
+			'de-de': "Doppelstoß"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 50 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 50 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "50×"

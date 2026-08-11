@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Flail"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Flail"
 			},
 			effect: {
-				en: "Does 10 damage for each damage counter on Totodile.",
-				fr: "Inflige 10 dégâts pour chaque marqueur de dégât sur Kaiminus.",
-				de: "Does 10 damage for each damage counter on Totodile."
+				'en-us': "Does 10 damage for each damage counter on Totodile.",
+				'fr-fr': "Inflige 10 dégâts pour chaque marqueur de dégât sur Kaiminus.",
+				'de-de': "Does 10 damage for each damage counter on Totodile."
 			},
 			damage: "10×",
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 20,

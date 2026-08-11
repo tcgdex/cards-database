@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SM'
 
 const set: Set = {
 	id: 'AS2a',
 	name: {
-		id: 'Booster Pack Kebangkitan Legenda Set A'
+		'id-id': 'Booster Pack Kebangkitan Legenda Set A'
 	},
 
 	serie: serie,

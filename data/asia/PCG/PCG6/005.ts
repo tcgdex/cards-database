@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Koffing",
+		'ja-jp': "Koffing",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "混乱ガス",
+				'ja-jp': "混乱ガス",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。",
+				'ja-jp': "防御ポケモンは今混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ラム",
+				'ja-jp': "ラム",
 			},
 			damage: 20,
 		},

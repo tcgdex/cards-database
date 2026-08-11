@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud’Poing",
-				es: "Puño",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud’Poing",
+				'es-es': "Puño",
+				'it-it': "Pugno",
+				'pt-br': "Soco",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can discern the physical and emotional states of people, Pokémon, and other natural things from the shape of their aura waves.",
+		'en-us': "It can discern the physical and emotional states of people, Pokémon, and other natural things from the shape of their aura waves.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
-		it: "Pikipek",
-		pt: "Pikipek",
-		de: "Peppeck"
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek",
+		'de-de': "Peppeck"
 	},
 
 	illustrator: "match",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosedive",
-				fr: "Descente en Piqué",
-				es: "Ataque en Picado",
-				it: "Rapidiscesa",
-				pt: "Mergulhar de Bico",
-				de: "Sturzflugangriff"
+				'en-us': "Nosedive",
+				'fr-fr': "Descente en Piqué",
+				'es-es': "Ataque en Picado",
+				'it-it': "Rapidiscesa",
+				'pt-br': "Mergulhar de Bico",
+				'de-de': "Sturzflugangriff"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
+		'en-us': "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
 	},
 }
 

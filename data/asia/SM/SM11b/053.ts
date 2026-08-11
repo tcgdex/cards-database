@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨワシ",
+		'ja-jp': "ヨワシ",
 	},
 
 	illustrator: "Misaki Hashimoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ヨワシたちが 敵に 立ち向かうため 陣形を 組んだ。 海の魔物と 呼ばれるほどの 力を 誇る。",
+		'ja-jp': "ヨワシたちが 敵に 立ち向かうため 陣形を 組んだ。 海の魔物と 呼ばれるほどの 力を 誇る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちりぢり" },
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、相手の番の終わりに、コインを1回投げる。ウラなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、相手の番の終わりに、コインを1回投げる。ウラなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],

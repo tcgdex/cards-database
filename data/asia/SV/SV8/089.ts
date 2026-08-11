@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレザード",
+		'ja-jp': "エレザード",
 		'zh-tw': "光電傘蜥",
 		'zh-cn': "光電傘蜥",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "襟巻を 広げて 太陽光を 浴びると 大都会で 使われる 電気を １匹で 発電する。",
+		'ja-jp': "襟巻を 広げて 太陽光を 浴びると 大都会で 使われる 電気を １匹で 発電する。",
 		'zh-tw': "如果展開頸傘沐浴陽光， 單憑１隻光電傘蜥就能 製造出大城市所需的電力。",
 		'zh-cn': "如果展開頸傘沐浴陽光， 單憑１隻光電傘蜥就能 製造出大城市所需的電力。",
 	},
@@ -25,20 +25,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "パラボラチャージ",
+				'ja-jp': "パラボラチャージ",
 				'zh-tw': "拋物面充電",
 				'zh-cn': "拋物面充電",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からエネルギーを4枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からエネルギーを4枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多4張能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 				'zh-cn': "從自己的牌庫選擇最多4張能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "エレキスラッグ",
+				'ja-jp': "エレキスラッグ",
 				'zh-tw': "電氣猛擊",
 				'zh-cn': "電氣猛擊",
 			},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	retreat: 1,

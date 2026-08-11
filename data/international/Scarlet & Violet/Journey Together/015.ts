@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		es: "Virizion",
-		de: "Viridium",
-		it: "Virizion",
-		pt: "Virizion",
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'es-es': "Virizion",
+		'de-de': "Viridium",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
 		'es-mx': "Virizion"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leaf Drain",
-			fr: "Feuille Sangsue",
-			es: "Hoja Drenante",
-			de: "Blattsauger",
-			it: "Assorbifoglia",
-			pt: "Dreno Folha",
+			'en-us': "Leaf Drain",
+			'fr-fr': "Feuille Sangsue",
+			'es-es': "Hoja Drenante",
+			'de-de': "Blattsauger",
+			'it-it': "Assorbifoglia",
+			'pt-br': "Dreno Folha",
 			'es-mx': "Hojadrenado"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
 			'es-mx': "Cura 30 puntos de daño a este Pokémon."
 		},
 
@@ -49,12 +49,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slicing Blade",
-			fr: "Lame Tranchante",
-			es: "Cuchilla Cortante",
-			de: "Schwertschneide",
-			it: "Affettalama",
-			pt: "Lâmina Fatiante",
+			'en-us': "Slicing Blade",
+			'fr-fr': "Lame Tranchante",
+			'es-es': "Cuchilla Cortante",
+			'de-de': "Schwertschneide",
+			'it-it': "Affettalama",
+			'pt-br': "Lâmina Fatiante",
 			'es-mx': "Cuchilla Cortante"
 		},
 

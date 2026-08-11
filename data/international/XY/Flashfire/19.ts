@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Mane",
-				fr: "Crinière de Feu",
-				es: "Crin de Fuego",
-				it: "Criniera di Fuoco",
-				pt: "Crina de Fogo",
-				de: "Flammenmähne"
+				'en-us': "Fire Mane",
+				'fr-fr': "Crinière de Feu",
+				'es-es': "Crin de Fuego",
+				'it-it': "Criniera di Fuoco",
+				'pt-br': "Crina de Fogo",
+				'de-de': "Flammenmähne"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+		'en-us': "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
 	},
 
 	thirdParty: {

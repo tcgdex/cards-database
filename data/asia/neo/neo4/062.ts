@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "g",
+		'ja-jp': "g",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "give [giv]",
+				'ja-jp': "give [giv]",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、[g]、own own [i]、own [v]、および[e]がベンチにある場合、コインをひっくり返すことができます。頭の場合は、デッキを検索して基本的なエネルギーカードを探して、1枚のポクモンに取り付けます。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、[g]、own own [i]、own [v]、および[e]がベンチにある場合、コインをひっくり返すことができます。頭の場合は、デッキを検索して基本的なエネルギーカードを探して、1枚のポクモンに取り付けます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

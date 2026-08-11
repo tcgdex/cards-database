@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キューボン",
+		'ja-jp': "キューボン",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "涙目",
+				'ja-jp': "涙目",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、攻撃によってキューボンに与えられた損害は20倍に減少します。",
+				'ja-jp': "対戦相手の次のターン中に、攻撃によってキューボンに与えられた損害は20倍に減少します。",
 			},
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},

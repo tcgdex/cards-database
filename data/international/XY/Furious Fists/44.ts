@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
-				es: "Puño con Nudillos",
-				it: "Nocca-Pugno",
-				pt: "Soco com Punho",
-				de: "Knöchelhieb"
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'Phalange",
+				'es-es': "Puño con Nudillos",
+				'it-it': "Nocca-Pugno",
+				'pt-br': "Soco com Punho",
+				'de-de': "Knöchelhieb"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		'en-us': "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
 	},
 
 	thirdParty: {

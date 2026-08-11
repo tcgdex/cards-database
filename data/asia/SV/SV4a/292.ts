@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 		'zh-tw': "駒刀小兵",
-		id: "Pawniard"
+		'id-id': "Pawniard"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
+		'ja-jp': "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
 		'zh-tw': "遇上強敵也是不畏挑戰。在緊要關頭時會緊緊抓住對手， 以身上的刀刃將其刺穿。",
-		id: "Pawniard tidak takut menantang musuh kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram dan menusuk musuh tersebut dengan pedang di tubuhnya."
+		'id-id': "Pawniard tidak takut menantang musuh kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram dan menusuk musuh tersebut dengan pedang di tubuhnya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっかく",
+			'ja-jp': "ひっかく",
 			'zh-tw': "抓",
-			id: "Menggaruk"
+			'id-id': "Menggaruk"
 		},
 
 		damage: 10
@@ -38,9 +38,9 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "つきさす",
+			'ja-jp': "つきさす",
 			'zh-tw': "突刺",
-			id: "Melubangi"
+			'id-id': "Melubangi"
 		},
 
 		damage: 20

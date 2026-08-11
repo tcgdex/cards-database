@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラムGX",
+		'ja-jp': "レシラムGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ニトロチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札にある[炎]エネルギーを5枚まで、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "のぞむなら、自分の手札にある[炎]エネルギーを5枚まで、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

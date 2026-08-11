@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Probopass",
-		fr: "Tarinorme",
-		es: "Probopass",
-		it: "Probopass",
-		pt: "Probopass",
-		de: "Voluminas"
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nosepass",
-		fr: "Tarinor",
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Lines",
-				fr: "Lignes Magnétiques",
+				'en-us': "Magnetic Lines",
+				'fr-fr': "Lignes Magnétiques",
 			},
 			effect: {
-				en: "You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Nose",
-				fr: "Pif Paf",
+				'en-us': "Heavy Nose",
+				'fr-fr': "Pif Paf",
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
-				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It freely controls three small units called Mini-Noses using magnetic force.",
+		'en-us': "It freely controls three small units called Mini-Noses using magnetic force.",
 	},
 
 	thirdParty: {

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハバタクカミ",
-		id: "Flutter Mane",
-		th: "เกศากระพือ",
+		'ja-jp': "ハバタクカミ",
+		'id-id': "Flutter Mane",
+		'th-th': "เกศากระพือ",
 		'zh-tw': "振翼髮",
 		'zh-cn': "振翼髮"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "とある 書物に 登場する ハバタクカミという 生物と 似た 特徴を 持つ ポケモン。",
-		id: "Pokémon yang memiliki karakteristik yang mirip dengan makhluk hidup bernama Flutter Mane yang disebutkan dalam suatu buku.",
-		th: "โปเกมอนที่มีลักษณะเด่นเหมือนกับสิ่งมีชีวิตที่เรียกว่าเกศากระพือที่ปรากฏตัวในบันทึกเล่มหนึ่ง",
+		'ja-jp': "とある 書物に 登場する ハバタクカミという 生物と 似た 特徴を 持つ ポケモン。",
+		'id-id': "Pokémon yang memiliki karakteristik yang mirip dengan makhluk hidup bernama Flutter Mane yang disebutkan dalam suatu buku.",
+		'th-th': "โปเกมอนที่มีลักษณะเด่นเหมือนกับสิ่งมีชีวิตที่เรียกว่าเกศากระพือที่ปรากฏตัวในบันทึกเล่มหนึ่ง",
 		'zh-tw': "與某本書裡記載的一種 叫做振翼髮的生物有著 相似特徵的寶可夢。",
 		'zh-cn': "與某本書裡記載的一種 叫做振翼髮的生物有著 相似特徵的寶可夢。"
 	},
@@ -33,17 +33,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "あんやのはばたき",
-			id: "Kepakan Malam Gelap",
-			th: "สยายปีกคืนเดือนมืด",
+			'ja-jp': "あんやのはばたき",
+			'id-id': "Kepakan Malam Gelap",
+			'th-th': "สยายปีกคืนเดือนมืด",
 			'zh-tw': "暗夜羽擊",
 			'zh-cn': "暗夜羽擊"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンの特性（「あんやのはばたき」をのぞく）は、すべてなくなる。",
-			id: "Selama Pokémon ini ada di Arena Bertarung, Pokémon Bertarung lawan menjadi tidak memiliki Ability (selain Kepakan Malam Gelap).",
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่บนตำแหน่งต่อสู้ ความสามารถของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม (ยกเว้น [สยายปีกคืนเดือนมืด]) ทั้งหมดจะหายไป",
+			'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンの特性（「あんやのはばたき」をのぞく）は、すべてなくなる。",
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, Pokémon Bertarung lawan menjadi tidak memiliki Ability (selain Kepakan Malam Gelap).",
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่บนตำแหน่งต่อสู้ ความสามารถของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม (ยกเว้น [สยายปีกคืนเดือนมืด]) ทั้งหมดจะหายไป",
 			'zh-tw': "只要這隻寶可夢在戰鬥場上，對手的戰鬥寶可夢的特性（「暗夜羽擊」除外）全部消除。",
 			'zh-cn': "只要這隻寶可夢在戰鬥場上，對手的戰鬥寶可夢的特性（「暗夜羽擊」除外）全部消除。"
 		}
@@ -53,9 +53,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "たたりとばす",
-			id: "Menerbangkan Kutukan",
-			th: "ปล่อยอาถรรพ์",
+			'ja-jp': "たたりとばす",
+			'id-id': "Menerbangkan Kutukan",
+			'th-th': "ปล่อยอาถรรพ์",
 			'zh-tw': "飛來橫禍",
 			'zh-cn': "飛來橫禍"
 		},
@@ -63,9 +63,9 @@ const card: Card = {
 		damage: 90,
 
 		effect: {
-			ja: "ダメカン2個を、相手のベンチポケモンに好きなようにのせる。",
-			id: "Letakkan sejumlah 2 Token Kerusakan pada Pokémon Cadangan lawan sesukanya.",
-			th: "วางตัวนับแดเมจ 2 ตัว บนโปเกมอนบนเบนช์ฝ่ายตรงข้ามตามชอบ",
+			'ja-jp': "ダメカン2個を、相手のベンチポケモンに好きなようにのせる。",
+			'id-id': "Letakkan sejumlah 2 Token Kerusakan pada Pokémon Cadangan lawan sesukanya.",
+			'th-th': "วางตัวนับแดเมจ 2 ตัว บนโปเกมอนบนเบนช์ฝ่ายตรงข้ามตามชอบ",
 			'zh-tw': "將2個傷害指示物以任意方式放置於對手的備戰寶可夢身上。",
 			'zh-cn': "將2個傷害指示物以任意方式放置於對手的備戰寶可夢身上。"
 		}

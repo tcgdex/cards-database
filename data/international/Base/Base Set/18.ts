@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		de: "Dragonir",
-		it: "Dragonair"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'de-de': "Dragonir",
+		'it-it': "Dragonair"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
-		it: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'it-it': "Dratini"
 	},
 
 	stage: "Stage1",
@@ -40,16 +40,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				de: "Slam",
-				it: "Schianto"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'de-de': "Slam",
+				'it-it': "Schianto"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu.",
-				it: "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu.",
+				'it-it': "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
 			},
 			damage: "30x",
 
@@ -62,16 +62,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl",
-				it: "Iper-raggio"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl",
+				'it-it': "Iper-raggio"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
-				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
-				de: "Sind auf dem verteidigenden Ppkemon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
-				it: "Se il Pokémon Difensore ha delle carte Energie assegnate, scegline una e scartala."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'fr-fr': "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
+				'de-de': "Sind auf dem verteidigenden Ppkemon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
+				'it-it': "Se il Pokémon Difensore ha delle carte Energie assegnate, scegline una e scartala."
 			},
 			damage: 20,
 
@@ -118,9 +118,9 @@ const card: Card = {
 
 
 	description: {
-		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
-		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
-		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
+		'en-us': "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
+		'fr-fr': "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
+		'it-it': "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
 	}
 }
 

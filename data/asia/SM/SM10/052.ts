@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランドロス",
+		'ja-jp': "ランドロス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。",
+		'ja-jp': "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょくげきだん" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Jellicent",
-		fr: "Moyade",
-		es: "Jellicent",
-		it: "Jellicent",
-		pt: "Jellicent",
-		de: "Apoquallyp"
+		'en-us': "Jellicent",
+		'fr-fr': "Moyade",
+		'es-es': "Jellicent",
+		'it-it': "Jellicent",
+		'pt-br': "Jellicent",
+		'de-de': "Apoquallyp"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Frillish",
-		fr: "Viskuse",
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vengeful Wish",
-				fr: "Désir de Vengeance",
+				'en-us': "Vengeful Wish",
+				'fr-fr': "Désir de Vengeance",
 			},
 			effect: {
-				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage to the Defending Pokémon.",
-				fr: "Si ce Pokémon a subi les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige la même quantité de dégâts au Pokémon Défenseur.",
+				'en-us': "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage to the Defending Pokémon.",
+				'fr-fr': "Si ce Pokémon a subi les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige la même quantité de dégâts au Pokémon Défenseur.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb Life",
-				fr: "Absorption",
+				'en-us': "Absorb Life",
+				'fr-fr': "Absorption",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
+		'en-us': "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
 	},
 
 	thirdParty: {

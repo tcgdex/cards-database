@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Bagon δ",
-		fr: "Draby δ",
-		de: "Kindwurm"
+		'en-us': "Bagon δ",
+		'fr-fr': "Draby δ",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Granite Head",
-				fr: "Tête de granit",
-				de: "Granitkopf"
+				'en-us': "Granite Head",
+				'fr-fr': "Tête de granit",
+				'de-de': "Granitkopf"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Bagon by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Draby par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Im nächsten Zug deines Gegners wird Schaden, der Kindwurm durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Bagon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Draby par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Im nächsten Zug deines Gegners wird Schaden, der Kindwurm durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
-				es: "Farfullar",
-				it: "Borbottio",
-				pt: "Resmungo",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focused Wish",
-				fr: "Vœu Fervent",
-				es: "Intenso Deseo",
-				it: "Intensiderio",
-				pt: "Desejo Direcionado",
-				de: "Gezielter Wunsch"
+				'en-us': "Focused Wish",
+				'fr-fr': "Vœu Fervent",
+				'es-es': "Intenso Deseo",
+				'it-it': "Intensiderio",
+				'pt-br': "Desejo Direcionado",
+				'de-de': "Gezielter Wunsch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If you think that you had a good dream but you can't remember it, a Drowzee has probably eaten it.",
+		'en-us': "If you think that you had a good dream but you can't remember it, a Drowzee has probably eaten it.",
 	},
 
 	thirdParty: {

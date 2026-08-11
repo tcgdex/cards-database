@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネオラント",
+		'ja-jp': "ネオラント",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "深い 海の 底で 光る ネオラントは まるで 夜空に 輝く 星のように 見える。",
+		'ja-jp': "深い 海の 底で 光る ネオラントは まるで 夜空に 輝く 星のように 見える。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケイコウオ",
+		'ja-jp': "ケイコウオ",
 	},
 
 	retreat: 1,

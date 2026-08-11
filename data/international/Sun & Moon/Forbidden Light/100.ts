@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		it: "Noibat",
-		pt: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Sound",
-				fr: "Son Destructeur",
-				es: "Sonido Destructivo",
-				it: "Distrusuono",
-				pt: "Som Destruidor",
-				de: "Trümmerton"
+				'en-us': "Destructive Sound",
+				'fr-fr': "Son Destructeur",
+				'es-es': "Sonido Destructivo",
+				'it-it': "Distrusuono",
+				'pt-br': "Som Destruidor",
+				'de-de': "Trümmerton"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. Discard all Item cards you find there.",
-				fr: "Votre adversaire dévoile sa main. Défaussez toutes les cartes Objet que vous y trouvez.",
-				es: "Tu rival enseña las cartas de su mano. Descarta todas las cartas de Objeto que encuentres entre ellas.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Scarta tutte le carte Strumento presenti tra esse.",
-				pt: "Seu oponente revela a própria mão. Descarte todas as cartas de Item que encontrar lá.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Lege alle Itemkarten, die du dort findest, auf seinen Ablagestapel."
+				'en-us': "Your opponent reveals their hand. Discard all Item cards you find there.",
+				'fr-fr': "Votre adversaire dévoile sa main. Défaussez toutes les cartes Objet que vous y trouvez.",
+				'es-es': "Tu rival enseña las cartas de su mano. Descarta todas las cartas de Objeto que encuentres entre ellas.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Scarta tutte le carte Strumento presenti tra esse.",
+				'pt-br': "Seu oponente revela a própria mão. Descarte todas as cartas de Item que encontrar lá.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Lege alle Itemkarten, die du dort findest, auf seinen Ablagestapel."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+		'en-us': "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [195],
 
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		es: "Quagsire",
-		it: "Quagsire",
-		pt: "Quagsire",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'es-es': "Quagsire",
+		'it-it': "Quagsire",
+		'pt-br': "Quagsire",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "otumami",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto",
-		es: "Wooper",
-		it: "Wooper",
-		pt: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 30,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fickle Impact",
-				fr: "Frappe Capricieuse",
-				es: "Impacto Impredecible",
-				it: "Impatto Bislacco",
-				pt: "Impacto Errático",
-				de: "Launischer Einschlag"
+				'en-us': "Fickle Impact",
+				'fr-fr': "Frappe Capricieuse",
+				'es-es': "Impacto Impredecible",
+				'it-it': "Impatto Bislacco",
+				'pt-br': "Impacto Errático",
+				'de-de': "Launischer Einschlag"
 			},
 			effect: {
-				en: "If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.",
-				fr: "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, cette attaque ne fait rien.",
-				es: "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este ataque no hace nada.",
-				it: "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo attacco non ha effetto.",
-				pt: "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este ataque não fará nada.",
-				de: "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, hat diese Attacke keine Auswirkungen."
+				'en-us': "If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.",
+				'fr-fr': "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, cette attaque ne fait rien.",
+				'es-es': "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este ataque no hace nada.",
+				'it-it': "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo attacco non ha effetto.",
+				'pt-br': "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este ataque não fará nada.",
+				'de-de': "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 180,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming."
+		'en-us': "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming."
 	},
 
 	variants: [

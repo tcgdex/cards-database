@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
-		it: "Raichu",
-		pt: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Hasuno",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pain-Full Punch",
-				fr: "Mise au Poing",
-				es: "Puño Doloroso",
-				it: "Dolorpugno",
-				pt: "Soco Doloroso",
-				de: "Schmerzhafter Hieb"
+				'en-us': "Pain-Full Punch",
+				'fr-fr': "Mise au Poing",
+				'es-es': "Puño Doloroso",
+				'it-it': "Dolorpugno",
+				'pt-br': "Soco Doloroso",
+				'de-de': "Schmerzhafter Hieb"
 			},
 
 			damage: 40,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Bolt",
-				fr: "Éclair Fulgurant",
-				es: "Rayo Mach",
-				it: "Fulmine Mach",
-				pt: "Raio Supersônico",
-				de: "Flotter Sprung"
+				'en-us': "Mach Bolt",
+				'fr-fr': "Éclair Fulgurant",
+				'es-es': "Rayo Mach",
+				'it-it': "Fulmine Mach",
+				'pt-br': "Raio Supersônico",
+				'de-de': "Flotter Sprung"
 			},
 
 			damage: 120,
@@ -87,7 +87,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its long tail serves as a ground to protect itself from its own high-voltage power."
+		'en-us': "Its long tail serves as a ground to protect itself from its own high-voltage power."
 	},
 
 	dexId: [26],

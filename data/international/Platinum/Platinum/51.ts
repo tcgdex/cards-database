@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teleportation Burst",
-				fr: "Téléportation explosive",
-				de: "Teleportation Burst"
+				'en-us': "Teleportation Burst",
+				'fr-fr': "Téléportation explosive",
+				'de-de': "Teleportation Burst"
 			},
 			effect: {
-				en: "You may switch Kirlia with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "You may switch Kirlia with 1 of your Benched Pokémon."
+				'en-us': "You may switch Kirlia with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire.",
+				'de-de': "You may switch Kirlia with 1 of your Benched Pokémon."
 			},
 			damage: 30,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super psy",
-				de: "Super Psy Bolt"
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super psy",
+				'de-de': "Super Psy Bolt"
 			},
 
 			damage: 60,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+		'en-us': "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
 	},
 
 	variants: [		{

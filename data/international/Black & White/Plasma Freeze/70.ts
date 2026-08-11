@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Krookodile",
-		fr: "Crocorible",
-		es: "Krookodile",
-		it: "Krookodile",
-		pt: "Krookodile",
-		de: "Rabigator"
+		'en-us': "Krookodile",
+		'fr-fr': "Crocorible",
+		'es-es': "Krookodile",
+		'it-it': "Krookodile",
+		'pt-br': "Krookodile",
+		'de-de': "Rabigator"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krokorok",
-		fr: "Escroco",
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Piston Headbutt",
-				fr: "Coup de Piston",
+				'en-us': "Piston Headbutt",
+				'fr-fr': "Coup de Piston",
 			},
 			effect: {
-				en: "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 30,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 80,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+		'en-us': "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
 	},
 
 	thirdParty: {

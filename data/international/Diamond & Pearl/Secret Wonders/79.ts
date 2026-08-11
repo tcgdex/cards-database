@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Burmy Sandy Cloak",
-		fr: "Cheniti Cape Sable",
-		de: "Burmy Sandumhang"
+		'en-us': "Burmy Sandy Cloak",
+		'fr-fr': "Cheniti Cape Sable",
+		'de-de': "Burmy Sandumhang"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Wear Cloak",
-				fr: "Cape",
-				de: "Umhang tragen"
+				'en-us': "Wear Cloak",
+				'fr-fr': "Cape",
+				'de-de': "Umhang tragen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base Fighting et l'attacher à Cheniti Cape Sable.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Sandumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer -Basis-Energiekarte durchsuchen und an Burmy Sandumhang anlegen."
+				'en-us': "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base Fighting et l'attacher à Cheniti Cape Sable.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Sandumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer -Basis-Energiekarte durchsuchen und an Burmy Sandumhang anlegen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sandy Cloak Tackle",
-				fr: "Charge cape sable",
-				de: "Sandumhang Tackle"
+				'en-us': "Sandy Cloak Tackle",
+				'fr-fr': "Charge cape sable",
+				'de-de': "Sandumhang Tackle"
 			},
 			effect: {
-				en: "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Cheniti Cape Sable possède de l'Énergie Fighting, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an Burmy Sandumhang mindestens 1 -Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Cheniti Cape Sable possède de l'Énergie Fighting, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an Burmy Sandumhang mindestens 1 -Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+		'en-us': "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
 	},
 
 	thirdParty: {

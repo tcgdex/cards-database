@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy3: Set = {
 	id: "xy3",
 
 	name: {
-		en: "Furious Fists",
-		fr: "Poings Furieux",
-		es: "Puños Furiosos",
-		it: "Colpi Furiosi",
-		de: "Fliegende Fäuste",
-		pt: "Punhos Furiosos",
+		'en-us': "Furious Fists",
+		'fr-fr': "Poings Furieux",
+		'es-es': "Puños Furiosos",
+		'it-it': "Colpi Furiosi",
+		'de-de': "Fliegende Fäuste",
+		'pt-br': "Punhos Furiosos",
 		ru: "Яростный Кулак"
 	},
 
@@ -25,7 +25,7 @@ const xy3: Set = {
 
 	abbreviations: {
 		official: "FFI",
-		fr: "PFU"
+		'fr-fr': "PFU"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "凱路迪歐",
-		ja: "ケルディオ"
+		'ja-jp': "ケルディオ"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "透過下定決心來讓全身 充滿力量並變得敏捷。 當跳躍起來的時候能看到殘影。",
-		ja: "覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。"
+		'ja-jp': "覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "踢飛",
-			ja: "けとばす"
+			'ja-jp': "けとばす"
 		},
 
 		damage: 20,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "隊列之力",
-			ja: "ラインフォース"
+			'ja-jp': "ラインフォース"
 		},
 
 		effect: {
 			'zh-tw': "增加自己的備戰寶可夢的數量×20點傷害。",
-			ja: "自分のベンチポケモンの数×20ダメージ追加。"
+			'ja-jp': "自分のベンチポケモンの数×20ダメージ追加。"
 		},
 
 		damage: "10＋",

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwrath ex",
-		fr: "Tartard-ex"
+		'en-us': "Poliwrath ex",
+		'fr-fr': "Tartard-ex"
 	},
 
 	illustrator: "Teeziro",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Poliwhirl"
+		'en-us': "Poliwhirl"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Knuckle",
-			fr: "Hydro-Tarte"
+			'en-us': "Hydro Knuckle",
+			'fr-fr': "Hydro-Tarte"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has any {W} Energy attached, this attack does 40 more damage.",
-			fr: "Si de l'Énergie {W} est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+			'en-us': "If this Pokémon has any {W} Energy attached, this attack does 40 more damage.",
+			'fr-fr': "Si de l'Énergie {W} est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}],
 

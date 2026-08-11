@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランスのカリザード",
+		'ja-jp': "ランスのカリザード",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "火炎放射器",
+				'ja-jp': "火炎放射器",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、ランスのカリザードに取り付けられた1つのファイアエネルギーカードを捨てます。",
+				'ja-jp': "この攻撃を使用するために、ランスのカリザードに取り付けられた1つのファイアエネルギーカードを捨てます。",
 			},
 			damage: 40,
 		},

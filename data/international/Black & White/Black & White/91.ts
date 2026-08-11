@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge",
-				fr: "Vendetta",
+				'en-us': "Revenge",
+				'fr-fr': "Vendetta",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
-				fr: "Si l’un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire lors de son dernier tour, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+				'fr-fr': "Si l’un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire lors de son dernier tour, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Head Charge",
-				fr: "Peignée",
+				'en-us': "Head Charge",
+				'fr-fr': "Peignée",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 20 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: 80,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+		'en-us': "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
 	},
 
 	thirdParty: {

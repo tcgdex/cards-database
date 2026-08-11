@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bulbizarre",
-		en: "Bulbasaur",
-		es: "Bulbasaur",
-		it: "Bulbasaur",
-		pt: "Bulbasaur",
-		de: "Bisasam"
+		'fr-fr': "Bulbizarre",
+		'en-us': "Bulbasaur",
+		'es-es': "Bulbasaur",
+		'it-it': "Bulbasaur",
+		'pt-br': "Bulbasaur",
+		'de-de': "Bisasam"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Vampigraine",
-			en: "Leech Seed",
-			es: "Drenadoras",
-			it: "Parassiseme",
-			pt: "Semente Sanguessuga",
-			de: "Egelsamen"
+			'fr-fr': "Vampigraine",
+			'en-us': "Leech Seed",
+			'es-es': "Drenadoras",
+			'it-it': "Parassiseme",
+			'pt-br': "Semente Sanguessuga",
+			'de-de': "Egelsamen"
 		},
 
 		effect: {
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			en: "Heal 20 damage from this Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+		'en-us': "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
 	},
 
 	variants: [

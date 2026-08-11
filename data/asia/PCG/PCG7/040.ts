@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゆっくり（デルタ種）",
+		'ja-jp': "ゆっくり（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "過酷な液体",
+				'ja-jp': "過酷な液体",
 			},
 			effect: {
-				ja: "対戦相手の次のターンの終わりに、防御ポケモンに5つのダメージカウンターを置きます。",
+				'ja-jp': "対戦相手の次のターンの終わりに、防御ポケモンに5つのダメージカウンターを置きます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "毒の触手",
+				'ja-jp': "毒の触手",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 50,
 		},

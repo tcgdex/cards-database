@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Tangela"
+		'en-us': "Koga's Tangela"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder"
+				'en-us': "Sleep Powder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grasping Vine"
+				'en-us': "Grasping Vine"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw 2 cards."
+				'en-us': "Flip a coin. If heads, draw 2 cards."
 			},
 
 		},

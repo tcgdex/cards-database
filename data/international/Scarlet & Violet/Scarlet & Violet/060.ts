@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetitan",
-		fr: "Balbalèze",
-		es: "Cetitan",
-		it: "Cetitan",
-		pt: "Cetitan",
-		de: "Kolowal"
+		'en-us': "Cetitan",
+		'fr-fr': "Balbalèze",
+		'es-es': "Cetitan",
+		'it-it': "Cetitan",
+		'pt-br': "Cetitan",
+		'de-de': "Kolowal"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Cetoddle",
-		fr: "Piétacé"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 50
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sweeping Tackle",
-			fr: "Charge Balayante",
-			es: "Placaje Barrido",
-			it: "Spazzazione",
-			pt: "Investida Esmagadora",
-			de: "Fege-Tackle"
+			'en-us': "Sweeping Tackle",
+			'fr-fr': "Charge Balayante",
+			'es-es': "Placaje Barrido",
+			'it-it': "Spazzazione",
+			'pt-br': "Investida Esmagadora",
+			'de-de': "Fege-Tackle"
 		},
 
 		effect: {
-			en: "This attack does 20 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano a menos para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
+			'en-us': "This attack does 20 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano a menos para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
 		},
 
 		damage: "200-"
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
+		'en-us': "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
 	},
 
 	thirdParty: {

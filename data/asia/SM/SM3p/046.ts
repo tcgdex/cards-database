@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "Emi Ando",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "影の中に 潜むことが でき 人前に 姿を みせないので その存在は 幻 だった。",
+		'ja-jp': "影の中に 潜むことが でき 人前に 姿を みせないので その存在は 幻 だった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "やぶれかぶれ" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Earthen Awakening",
-				fr: "Réveil Terrestre",
+				'en-us': "Earthen Awakening",
+				'fr-fr': "Réveil Terrestre",
 			},
 			effect: {
-				en: "Whenever you attach an Energy card from your hand to this Pokémon, heal 20 damage from it.",
-				fr: "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Whenever you attach an Energy card from your hand to this Pokémon, heal 20 damage from it.",
+				'fr-fr': "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, soignez 20 dégâts à ce Pokémon.",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gigas Punch",
-				fr: "Coup d'Poing Giga"
+				'en-us': "Gigas Punch",
+				'fr-fr': "Coup d'Poing Giga"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
 			},
 			damage: 100,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
+		'en-us': "Charizard",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
+		'en-us': "Charmeleon",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Burn",
+				'en-us': "Energy Burn",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+				'en-us': "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -48,10 +48,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Spin",
+				'en-us': "Fire Spin",
 			},
 			effect: {
-				en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
+				'en-us': "Discard 2 Energy cards attached to Charizard in order to use this attack.",
 			},
 			damage: 100,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+		'en-us': "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 	},
 
 

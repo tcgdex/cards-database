@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "太古 アローラを 支配 していた 王様は 星の繭と 呼んで 崇めるための 祭壇を 作った。",
+		'ja-jp': "太古 アローラを 支配 していた 王様は 星の繭と 呼んで 崇めるための 祭壇を 作った。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かたまる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモッグ",
+		'ja-jp': "コスモッグ",
 	},
 
 	retreat: 3,

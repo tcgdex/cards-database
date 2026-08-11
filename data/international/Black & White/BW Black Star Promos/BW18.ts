@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+		'en-us': "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
 	},
 }
 

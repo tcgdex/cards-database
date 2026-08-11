@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザングース",
+		'ja-jp': "ザングース",
 	},
 
 	illustrator: "Ligton",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ハブネークに 出会うと 体毛が 逆立ち 攻撃態勢になる。 鋭い ツメが 最大の 武器。",
+		'ja-jp': "ハブネークに 出会うと 体毛が 逆立ち 攻撃態勢になる。 鋭い ツメが 最大の 武器。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、50ダメージ追加。すべてオモテなら、80ダメージ追加。",
+				'ja-jp': "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、50ダメージ追加。すべてオモテなら、80ダメージ追加。",
 			},
 		},
 	],

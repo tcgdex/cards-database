@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Starly",
-		fr: "Étourmi",
-		es: "Starly",
-		it: "Starly",
-		pt: "Starly",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'es-es': "Starly",
+		'it-it': "Starly",
+		'pt-br': "Starly",
+		'de-de': "Staralili"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 20
@@ -62,7 +62,7 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+		'en-us': "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
 	},
 
 	thirdParty: {

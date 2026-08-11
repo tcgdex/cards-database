@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	illustrator: "Narumi Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "強い 相手にも 勇敢に 立ち向かうが 不利な 戦いを 避ける 知能の 高い ポケモン。",
+		'ja-jp': "強い 相手にも 勇敢に 立ち向かうが 不利な 戦いを 避ける 知能の 高い ポケモン。",
 	},
 
 	stage: "Basic",

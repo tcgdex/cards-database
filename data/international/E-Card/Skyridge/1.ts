@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Ancient Wind",
-				de: "Ancient Wind"
+				'en-us': "Ancient Wind",
+				'de-de': "Ancient Wind"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition.",
-				de: "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition.",
+				'de-de': "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition."
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				de: "Rising Lunge"
+				'en-us': "Rising Lunge",
+				'de-de': "Rising Lunge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Flaaffy",
-		de: "Dunkles Waaty"
+		'en-us': "Dark Flaaffy",
+		'de-de': "Dunkles Waaty"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
+		'en-us': "Mareep",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Slash",
-				de: "Thunder Slash"
+				'en-us': "Thunder Slash",
+				'de-de': "Thunder Slash"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can't use Thunder Slash during your next turn.",
-				de: "If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can't use Thunder Slash during your next turn."
+				'en-us': "If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can't use Thunder Slash during your next turn.",
+				'de-de': "If the Defending Pokémon is a Basic Pokémon, the Defending Pokémon is now Paralyzed. Dark Flaaffy can't use Thunder Slash during your next turn."
 			},
 			damage: 10,
 
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'de-de': "Headbutt"
 			},
 
 			damage: 20,

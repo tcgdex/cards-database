@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウV",
+		'ja-jp': "ピカチュウV",
 		'zh-tw': "伊布",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ピカボール",
+				'ja-jp': "ピカボール",
 				'zh-tw': "準備",
 			},
 			damage: 30,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "エレキサークル",
+				'ja-jp': "エレキサークル",
 				'zh-tw': "咬住",
 			},
 			damage: "30×",
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "自分のベンチポケモンの数×30ダメージ。",
+				'ja-jp': "自分のベンチポケモンの数×30ダメージ。",
 			},
 		},
 	],

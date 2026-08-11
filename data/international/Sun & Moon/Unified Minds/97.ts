@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Toxapex",
-		fr: "Prédastérie",
-		es: "Toxapex",
-		it: "Toxapex",
-		pt: "Toxapex",
-		de: "Aggrostella"
+		'en-us': "Toxapex",
+		'fr-fr': "Prédastérie",
+		'es-es': "Toxapex",
+		'it-it': "Toxapex",
+		'pt-br': "Toxapex",
+		'de-de': "Aggrostella"
 	},
 
 	illustrator: "chibi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareanie",
-		fr: "Vorastérie",
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Spike Shot",
-				fr: "Tir d’Épines",
-				es: "Disparo Púas",
-				it: "Sparaculeo",
-				pt: "Disparo de Espinhos",
-				de: "Dornensalve"
+				'en-us': "Spike Shot",
+				'fr-fr': "Tir d’Épines",
+				'es-es': "Disparo Púas",
+				'it-it': "Sparaculeo",
+				'pt-br': "Disparo de Espinhos",
+				'de-de': "Dornensalve"
 			},
 
 			damage: 70,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.",
+		'en-us': "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.",
 	},
 
 	thirdParty: {

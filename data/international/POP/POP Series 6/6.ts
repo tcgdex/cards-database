@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Drifloon"
+		'en-us': "Drifloon",
+		'fr-fr': "Drifloon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Blowing Wind",
-				fr: "Vent violent"
+				'en-us': "Blowing Wind",
+				'fr-fr': "Vent violent"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to it on top of your deck. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, placez 1 de vos Pokémon de Banc et toutes les cartes qui lui sont attachées au dessus de votre deck. Ensuite, mélangez votre deck."
+				'en-us': "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to it on top of your deck. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 1 de vos Pokémon de Banc et toutes les cartes qui lui sont attachées au dessus de votre deck. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ominous Wind",
-				fr: "Vent Mauvais"
+				'en-us': "Ominous Wind",
+				'fr-fr': "Vent Mauvais"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et ne peut pas battre en retraite lors du prochain tour de votre adversaire."
 			},
 			damage: 10,
 
@@ -68,7 +68,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons."
+		'en-us': "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons."
 	},
 
 	retreat: 1,

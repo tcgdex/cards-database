@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サワロ",
+		'ja-jp': "サワロ",
 		'zh-tw': "薩瓦羅",
-		th: "ซากัวโร",
-		id: "Saguro"
+		'th-th': "ซากัวโร",
+		'id-id': "Saguro"
 	},
 
 	illustrator: "nagimiso",
@@ -16,10 +16,10 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のポケモンを2匹まで選び、HPをそれぞれ「50」回復する。",
+		'ja-jp': "自分のポケモンを2匹まで選び、HPをそれぞれ「50」回復する。",
 		'zh-tw': "選擇最多2隻自己的寶可夢，各恢復「50」HP。",
-		th: "เลือกโปเกมอนฝ่ายเราได้สูงสุด 2 ตัว ฟื้นฟู HP แต่ละตัวตัวละ [50]",
-		id: "Pilih paling banyak 2 Pokémon sendiri, lalu pulihkan HP masing-masing sejumlah 50."
+		'th-th': "เลือกโปเกมอนฝ่ายเราได้สูงสุด 2 ตัว ฟื้นฟู HP แต่ละตัวตัวละ [50]",
+		'id-id': "Pilih paling banyak 2 Pokémon sendiri, lalu pulihkan HP masing-masing sejumlah 50."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。",
+		'ja-jp': "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: [],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x10ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

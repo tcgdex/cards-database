@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビアル",
+		'ja-jp': "ワルビアル",
 	},
 
 	illustrator: "Gapao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "出会った 獲物は 逃がさない。 自動車の ボディを 食いちぎる 強力な アゴを 持つ。",
+		'ja-jp': "出会った 獲物は 逃がさない。 自動車の ボディを 食いちぎる 強力な アゴを 持つ。",
 	},
 
 	stage: "Stage2",
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	retreat: 3,

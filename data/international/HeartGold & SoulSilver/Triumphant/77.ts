@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sleep Pearl",
-				fr: "Perle dodo",
-				de: "Schlafperle"
+				'en-us': "Sleep Pearl",
+				'fr-fr': "Perle dodo",
+				'de-de': "Schlafperle"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep. Switch Spoink with 1 of your Benched Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi. Échangez Spoink avec l’un de vos Pokémon de Banc.",
-				de: "Das Verteidigende Pokémon schläft jetzt. Tausche Spoink gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "The Defending Pokémon is now Asleep. Switch Spoink with 1 of your Benched Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi. Échangez Spoink avec l’un de vos Pokémon de Banc.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt. Tausche Spoink gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+		'en-us': "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
 	variants: [

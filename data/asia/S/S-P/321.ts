@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジドラゴV",
+		'ja-jp': "レジドラゴV",
 	},
 
 	illustrator: "PLANETA Hiiragi",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "てんのさけび" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から3枚トラッシュし、その中にあるエネルギーをすべて、このポケモンにつける。",
+				'ja-jp': "自分の山札を上から3枚トラッシュし、その中にあるエネルギーをすべて、このポケモンにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Grass", "Fire"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

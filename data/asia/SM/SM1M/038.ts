@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "わずかな 血の 匂いを 嗅ぎつけ 集団で 獲物を 襲う。 １匹では 結構 おくびょう。",
+		'ja-jp': "わずかな 血の 匂いを 嗅ぎつけ 集団で 獲物を 襲う。 １匹では 結構 おくびょう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かじりとる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
 			},
 		},
 		{

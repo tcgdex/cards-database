@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		es: "Rattata",
-		it: "Rattata",
-		pt: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'es-es': "Rattata",
+		'it-it': "Rattata",
+		'pt-br': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup Rapide",
+				'en-us': "Lunge",
+				'fr-fr': "Coup Rapide",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
+		'en-us': "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
 	},
 
 	thirdParty: {

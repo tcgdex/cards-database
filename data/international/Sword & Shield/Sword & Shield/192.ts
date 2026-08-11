@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Indeedee V",
-		fr: "Wimessir V",
-		es: "Indeedee V",
-		it: "Indeedee V",
-		pt: "Indeedee V",
-		de: "Servol V"
+		'en-us': "Indeedee V",
+		'fr-fr': "Wimessir V",
+		'es-es': "Indeedee V",
+		'it-it': "Indeedee V",
+		'pt-br': "Indeedee V",
+		'de-de': "Servol V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,20 +25,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Watch Over",
-				fr: "Veille",
-				es: "Cuidados",
-				it: "Cura Protettiva",
-				pt: "Cuidar",
-				de: "Obhut"
+				'en-us': "Watch Over",
+				'fr-fr': "Veille",
+				'es-es': "Cuidados",
+				'it-it': "Cura Protettiva",
+				'pt-br': "Cuidar",
+				'de-de': "Obhut"
 			},
 			effect: {
-				en: "Once during your turn, you may heal 20 damage from your Active Pokémon.",
-				fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif.",
-				es: "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Activo.",
-				it: "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon attivo da 20 danni.",
-				pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon Ativo.",
-				de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei deinem Aktiven Pokémon heilen."
+				'en-us': "Once during your turn, you may heal 20 damage from your Active Pokémon.",
+				'fr-fr': "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif.",
+				'es-es': "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Activo.",
+				'it-it': "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon attivo da 20 danni.",
+				'pt-br': "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon Ativo.",
+				'de-de': "Einmal während deines Zuges kannst du 20 Schadenspunkte bei deinem Aktiven Pokémon heilen."
 			},
 		},
 	],
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				es: "Psíquico",
-				it: "Psichico",
-				pt: "Psíquico",
-				de: "Psychokinese"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'es-es': "Psíquico",
+				'it-it': "Psichico",
+				'pt-br': "Psíquico",
+				'de-de': "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 60 more damage for each Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 60 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 60 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 60 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 60 Schadenspunkte mehr zu."
+				'en-us': "This attack does 60 more damage for each Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 60 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 60 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 60 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 60 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 60 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 

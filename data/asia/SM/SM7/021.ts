@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミズゴロウ",
+		'ja-jp': "ミズゴロウ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の ヒレで 水の 流れを 感じて まわりの 様子を 知る。 岩を 持ち上げる 力持ち。",
+		'ja-jp': "頭の ヒレで 水の 流れを 感じて まわりの 様子を 知る。 岩を 持ち上げる 力持ち。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みずため" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[水]エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある[水]エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],

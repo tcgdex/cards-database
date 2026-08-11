@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cofagrigus",
-		th: "เดธคาน"
+		'id-id': "Cofagrigus",
+		'th-th': "เดธคาน"
 	},
 
 	illustrator: "Shiburingaru",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Tubuh Cofagrigus berupa emas mengilap. Kabarnya Pokémon ini sudah tidak ingat bahwa awalnya ia adalah manusia.",
-		th: "ร่างกายสีทองวิบวับ ว่ากันว่าลืมไปแล้วว่าเคยเป็นมนุษย์มาก่อน"
+		'id-id': "Tubuh Cofagrigus berupa emas mengilap. Kabarnya Pokémon ini sudah tidak ingat bahwa awalnya ia adalah manusia.",
+		'th-th': "ร่างกายสีทองวิบวับ ว่ากันว่าลืมไปแล้วว่าเคยเป็นมนุษย์มาก่อน"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Aturan Baka",
-			th: "กฎเกณฑ์แห่งยมโลก"
+			'id-id': "Aturan Baka",
+			'th-th': "กฎเกณฑ์แห่งยมโลก"
 		},
 
 		effect: {
-			id: "Letakkan masing-masing sejumlah 6 Token Kerusakan pada semua Pokémon kedua pemain yang memiliki Ability.",
-			th: "วางตัวนับแดเมจบนโปเกมอนที่มีความสามารถของทั้งสองฝ่ายทุกตัว ตัวละ 6 ตัว"
+			'id-id': "Letakkan masing-masing sejumlah 6 Token Kerusakan pada semua Pokémon kedua pemain yang memiliki Ability.",
+			'th-th': "วางตัวนับแดเมจบนโปเกมอนที่มีความสามารถของทั้งสองฝ่ายทุกตัว ตัวละ 6 ตัว"
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Hollow Shot",
-			th: "ฮอลโลว์ช็อต"
+			'id-id': "Hollow Shot",
+			'th-th': "ฮอลโลว์ช็อต"
 		},
 
 		damage: 100,

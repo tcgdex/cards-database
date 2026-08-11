@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キャモメ",
+		'ja-jp': "キャモメ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "キャモメが 飛び交う 海の 下は さかなポケモンが 群れているので 漁師は まずキャモメを 探す。",
+		'ja-jp': "キャモメが 飛び交う 海の 下は さかなポケモンが 群れているので 漁師は まずキャモメを 探す。",
 	},
 
 	stage: "Basic",

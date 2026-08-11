@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミルホッグ",
+		'ja-jp': "ミルホッグ",
 	},
 
 	illustrator: "Ounishi",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ほほ袋に ためた 木の実の タネを 飛ばして 攻撃。 敵を 発見すると 尻尾を 立てる。",
+		'ja-jp': "ほほ袋に ためた 木の実の タネを 飛ばして 攻撃。 敵を 発見すると 尻尾を 立てる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "きあいだめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「ひっさつまえば」のダメージは「240」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「ひっさつまえば」のダメージは「240」になる。",
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミネズミ",
+		'ja-jp': "ミネズミ",
 	},
 
 	retreat: 1,

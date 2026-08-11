@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フライゴンV"
+		'ja-jp': "フライゴンV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Grass", "Fighting"],
 
 		name: {
-			ja: "すなしぶき"
+			'ja-jp': "すなしぶき"
 		},
 
 		damage: 70
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Grass", "Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ドラゴンインパルス"
+			'ja-jp': "ドラゴンインパルス"
 		},
 
 		damage: "160＋",
 
 		effect: {
-			ja: "相手のバトルポケモンが「ポケモンVMAX」なら、160ダメージ追加。その場合、このポケモンについているエネルギーを3個選び、トラッシュする。"
+			'ja-jp': "相手のバトルポケモンが「ポケモンVMAX」なら、160ダメージ追加。その場合、このポケモンについているエネルギーを3個選び、トラッシュする。"
 		}
 	}],
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raticate"
+		'en-us': "Lt. Surge's Raticate"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata"
+		'en-us': "Rattata"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy"
+				'en-us': "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled."
+				'en-us': "During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge"
+				'en-us': "Double-edge"
 			},
 			effect: {
-				en: "Lt. Surge's Raticate does 20 damage to itself."
+				'en-us': "Lt. Surge's Raticate does 20 damage to itself."
 			},
 			damage: 40,
 

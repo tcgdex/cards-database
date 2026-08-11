@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		es: "Cubone",
-		it: "Cubone",
-		pt: "Cubone",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'es-es': "Cubone",
+		'it-it': "Cubone",
+		'pt-br': "Cubone",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+		'en-us': "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
 	},
 
 	thirdParty: {

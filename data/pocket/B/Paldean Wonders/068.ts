@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Dogrino",
-		en: "Mabosstiff",
-		es: "Mabosstiff",
-		it: "Mabosstiff",
-		pt: "Mabosstiff",
-		de: "Mastifioso"
+		'fr-fr': "Dogrino",
+		'en-us': "Mabosstiff",
+		'es-es': "Mabosstiff",
+		'it-it': "Mabosstiff",
+		'pt-br': "Mabosstiff",
+		'de-de': "Mastifioso"
   },
   illustrator: "KIYOTAKA OSHIYAMA",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Darkness"],
   dexId: [943],
   evolveFrom: {
-		fr: "Grondogue",
-		en: "Maschiff",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'fr-fr': "Grondogue",
+		'en-us': "Maschiff",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
   },
   description: {
     en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Goupix d'Alola",
+		'fr-fr': "Goupix d'Alola",
 	},
 
 	rarity: "None",
@@ -28,16 +28,16 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				fr: "Flambeau"
+				'fr-fr': "Flambeau"
 			},
 			effect: {
-				fr: "Cherchez jusqu'à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+				'fr-fr': "Cherchez jusqu'à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Verglas"
+				'fr-fr': "Verglas"
 			},
 			damage: 20,
 		},

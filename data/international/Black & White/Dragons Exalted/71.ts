@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Terrakion-EX",
-		fr: "Terrakium-EX",
-		es: "Terrakion-EX",
-		it: "Terrakion-EX",
-		pt: "Terrakion-EX",
-		de: "Terrakium-EX"
+		'en-us': "Terrakion-EX",
+		'fr-fr': "Terrakium-EX",
+		'es-es': "Terrakion-EX",
+		'it-it': "Terrakion-EX",
+		'pt-br': "Terrakion-EX",
+		'de-de': "Terrakium-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-Pierre",
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-Pierre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 50,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pump-up Smash",
-				fr: "Taurocharge",
+				'en-us': "Pump-up Smash",
+				'fr-fr': "Taurocharge",
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.",
-				fr: "Attachez 2 cartes Énergie de base de votre main à vos Pokémon de Banc, de la manière que vous voulez.",
+				'en-us': "Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre main à vos Pokémon de Banc, de la manière que vous voulez.",
 			},
 			damage: 90,
 

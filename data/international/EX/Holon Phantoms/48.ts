@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Persian δ",
-		fr: "Persian δ",
-		de: "Snobilikat"
+		'en-us': "Persian δ",
+		'fr-fr': "Persian δ",
+		'de-de': "Snobilikat"
 	},
 
 	illustrator: "Midori Harada",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Miaouss"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch and Draw",
-				fr: "Griffer et piocher",
-				de: "Kratzen und Ziehen"
+				'en-us': "Scratch and Draw",
+				'fr-fr': "Griffer et piocher",
+				'de-de': "Kratzen und Ziehen"
 			},
 			effect: {
-				en: "If any Stadium card with Holon in its name is in play, draw 3 cards.",
-				fr: "Si une carte Stade dont le nom comporte Holon est en jeu, piochez 3 cartes.",
-				de: "Wenn sich eine Stadion-Karte mit \"Holon\" im Namen im Spiel befindet, ziehe 3 Karten."
+				'en-us': "If any Stadium card with Holon in its name is in play, draw 3 cards.",
+				'fr-fr': "Si une carte Stade dont le nom comporte Holon est en jeu, piochez 3 cartes.",
+				'de-de': "Wenn sich eine Stadion-Karte mit \"Holon\" im Namen im Spiel befindet, ziehe 3 Karten."
 			},
 			damage: 30,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deceive",
-				fr: "Trahison",
-				de: "Täuschen"
+				'en-us': "Deceive",
+				'fr-fr': "Trahison",
+				'de-de': "Täuschen"
 			},
 			effect: {
-				en: "Your opponent chooses 1 of his or her Pokémon. Put 4 damage counters on that Pokémon.",
-				fr: "Votre adversaire choisit 1 de ses Pokémon. Placez 4 marqueurs de dégât sur ce Pokémon.",
-				de: "Dein Gegner wählt 1 seiner Pokémon aus. Lege 4 Schadensmarken auf dieses Pokémon."
+				'en-us': "Your opponent chooses 1 of his or her Pokémon. Put 4 damage counters on that Pokémon.",
+				'fr-fr': "Votre adversaire choisit 1 de ses Pokémon. Placez 4 marqueurs de dégât sur ce Pokémon.",
+				'de-de': "Dein Gegner wählt 1 seiner Pokémon aus. Lege 4 Schadensmarken auf dieses Pokémon."
 			},
 
 		},

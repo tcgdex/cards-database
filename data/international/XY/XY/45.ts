@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		pt: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Eerie Impulse",
-				fr: "Ondes Étranges",
-				es: "Onda Anómala",
-				it: "Elettromistero",
-				pt: "Impulso Misterioso",
-				de: "Mystowellen"
+				'en-us': "Eerie Impulse",
+				'fr-fr': "Ondes Étranges",
+				'es-es': "Onda Anómala",
+				'it-it': "Elettromistero",
+				'pt-br': "Impulso Misterioso",
+				'de-de': "Mystowellen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida a 1 de los Pokémon de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata a uno dei Pokémon del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada a 1 dos Pokémon do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida a 1 de los Pokémon de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata a uno dei Pokémon del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada a 1 dos Pokémon do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 40,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		'en-us': "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
 	},
 
 	thirdParty: {

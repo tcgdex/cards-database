@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヤップ",
+		'ja-jp': "ヒヤップ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の房に ためこんだ 水は 栄養 たっぷり。 尻尾を使って その 水を 草木に かけている。",
+		'ja-jp': "頭の房に ためこんだ 水は 栄養 たっぷり。 尻尾を使って その 水を 草木に かけている。",
 	},
 
 	stage: "Basic",

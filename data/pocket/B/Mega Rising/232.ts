@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "In the distant past, it was somewhat stronger than\nthe horribly weak descendants that exist today."
+		'en-us': "In the distant past, it was somewhat stronger than\nthe horribly weak descendants that exist today."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Waterfall Evolution"
+			'en-us': "Waterfall Evolution"
 		},
 
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it."
+			'en-us': "Put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it."
 		}
 	}],
 

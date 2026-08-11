@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gothorita"
+		'en-us': "Gothorita"
 	},
 
 	illustrator: "sowsow",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Gothita"
+		'en-us': "Gothita"
 	},
 
 	description: {
-		en: "Using its psychic power, it arranges pebbles to\nform the shapes of constellations. Some people\nbelieve this Pokémon came from outer space."
+		'en-us': "Using its psychic power, it arranges pebbles to\nform the shapes of constellations. Some people\nbelieve this Pokémon came from outer space."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slap"
+			'en-us': "Slap"
 		},
 
 		damage: 30,

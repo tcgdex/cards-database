@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Murkrow",
-		fr: "Cornebre",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornebre",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissade",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissade",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Cutter",
-				fr: "Tranch’Obscur",
-				de: "Dunkler Zerschneider"
+				'en-us': "Dark Cutter",
+				'fr-fr': "Tranch’Obscur",
+				'de-de': "Dunkler Zerschneider"
 			},
 
 			damage: 30,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+		'en-us': "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
 	},
 
 	variants: [

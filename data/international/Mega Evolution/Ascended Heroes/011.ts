@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		es: "Wurmple",
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
 		'es-mx': "Wurmple",
-		de: "Waumpel",
-		it: "Wurmple",
-		pt: "Wurmple"
+		'de-de': "Waumpel",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple"
 	},
 
 	illustrator: "USGMEN",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			es: "Picadura",
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'es-es': "Picadura",
 			'es-mx': "Picadura",
-			de: "Käferbiss",
-			it: "Coleomorso",
-			pt: "Picada"
+			'de-de': "Käferbiss",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
+		'en-us': "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
 	},
 
 	variants: [

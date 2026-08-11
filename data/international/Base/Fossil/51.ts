@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem deck nach einer Basis-Pokémon-Karte mit dme namen Krabby und lege sie auf deine bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+				'en-us': "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Suche in deinem deck nach einer Basis-Pokémon-Karte mit dme namen Krabby und lege sie auf deine bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 20,
@@ -68,8 +68,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
-		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
+		'en-us': "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+		'fr-fr': "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
 	},
 
 

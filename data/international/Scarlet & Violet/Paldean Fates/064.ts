@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Varoom",
-		fr: "Vrombi",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'en-us': "Varoom",
+		'fr-fr': "Vrombi",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rev",
-			fr: "Coup d'Accélération",
-			es: "Acelerón",
-			it: "Su di Giri",
-			pt: "Pisar Fundo",
-			de: "Hochdrehen"
+			'en-us': "Rev",
+			'fr-fr': "Coup d'Accélération",
+			'es-es': "Acelerón",
+			'it-it': "Su di Giri",
+			'pt-br': "Pisar Fundo",
+			'de-de': "Hochdrehen"
 		},
 
 		effect: {
-			en: "Put up to 2 Basic Energy cards from your discard pile into your hand.",
-			fr: "Ajoutez jusqu'à 2 cartes Énergie de base de votre pile de défausse à votre main.",
-			es: "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
-			it: "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put up to 2 Basic Energy cards from your discard pile into your hand.",
+			'fr-fr': "Ajoutez jusqu'à 2 cartes Énergie de base de votre pile de défausse à votre main.",
+			'es-es': "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -92,7 +92,7 @@ const card: Card = {
 	illustrator: "Tetsu Kayama",
 
 	description: {
-		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+		'en-us': "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
 
 }

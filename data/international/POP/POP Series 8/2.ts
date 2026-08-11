@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
+		'en-us': "Lucario",
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
+		'en-us': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blocking Punch",
+				'en-us': "Blocking Punch",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'en-us': "During your opponent’s next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).",
 			},
 			damage: 40,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Striking Kick",
+				'en-us': "Striking Kick",
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'en-us': "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 			},
 			damage: 60,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "By catching the aura emanating from others, it can read their thoughts and movements."
+		'en-us': "By catching the aura emanating from others, it can read their thoughts and movements."
 	},
 
 	retreat: 1,

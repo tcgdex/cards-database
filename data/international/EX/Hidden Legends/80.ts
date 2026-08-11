@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recharge",
-				fr: "Recharger",
-				de: "Recharge"
+				'en-us': "Recharge",
+				'fr-fr': "Recharger",
+				'de-de': "Recharge"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a  Energy card and attach it to Voltorb. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a  Energy card and attach it to Voltorb. Shuffle your deck afterward."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Attack",
-				fr: "Attaque qui roule",
-				de: "Rolling Attack"
+				'en-us': "Rolling Attack",
+				'fr-fr': "Attaque qui roule",
+				'de-de': "Rolling Attack"
 			},
 
 			damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		es: "Crawdaunt",
-		it: "Crawdaunt",
-		pt: "Crawdaunt",
-		de: "Krebutack"
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'es-es': "Crawdaunt",
+		'it-it': "Crawdaunt",
+		'pt-br': "Crawdaunt",
+		'de-de': "Krebutack"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Écrapince",
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
 	},
 
 	stage: "Stage1",
@@ -42,20 +42,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Claws",
-				fr: "Doubles Griffes",
-				es: "Dos Pinzas",
-				it: "Doppie Chele",
-				pt: "Garras Duplas",
-				de: "Doppelschere"
+				'en-us': "Double Claws",
+				'fr-fr': "Doubles Griffes",
+				'es-es': "Dos Pinzas",
+				'it-it': "Doppie Chele",
+				'pt-br': "Garras Duplas",
+				'de-de': "Doppelschere"
 			},
 			effect: {
-				en: "Discard 2 Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
-				es: "Descarta 2 Energías del Pokémon Activo de tu rival.",
-				it: "Scarta due Energie assegnate al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 2 Energias do Pokémon Ativo do seu oponente.",
-				de: "Lege 2 Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard 2 Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 2 Energías del Pokémon Activo de tu rival.",
+				'it-it': "Scarta due Energie assegnate al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 2 Energias do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 2 Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
+		'en-us': "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
 	},
 
 	thirdParty: {

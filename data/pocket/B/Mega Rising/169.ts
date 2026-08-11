@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cobalion"
+		'en-us': "Cobalion"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It has a body and heart of steel. It worked with its\nallies to punish people when they hurt Pokémon."
+		'en-us': "It has a body and heart of steel. It worked with its\nallies to punish people when they hurt Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sacred Sword"
+			'en-us': "Sacred Sword"
 		},
 
 		damage: 110,
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Sacred Sword."
+			'en-us': "During your next turn, this Pokémon can't use Sacred Sword."
 		}
 	}],
 

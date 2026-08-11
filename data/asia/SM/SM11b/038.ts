@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハーデリア",
+		'ja-jp': "ハーデリア",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "黒い 体毛は 育つほど 硬く 丈夫に なって ツメや キバも 簡単には 通さないぞ。",
+		'ja-jp': "黒い 体毛は 育つほど 硬く 丈夫に なって ツメや キバも 簡単には 通さないぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふるいたてる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+60」される。",
+				'ja-jp': "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+60」される。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	retreat: 2,

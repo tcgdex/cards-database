@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Garchomp C",
-		fr: "Carchacrok ",
-		de: "Knakrack C"
+		'en-us': "Garchomp C",
+		'fr-fr': "Carchacrok ",
+		'de-de': "Knakrack C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -28,9 +28,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Swipe",
-				fr: "Combo-serres",
-				de: "Klauenschlag"
+				'en-us': "Claw Swipe",
+				'fr-fr': "Combo-serres",
+				'de-de': "Klauenschlag"
 			},
 
 			damage: 30,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Erdbeben"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Erdbeben"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 

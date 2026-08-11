@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 		'zh-tw': "瓦斯彈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "汚い 空気が ごちそう。 むかしの ガラル地方には いまより たくさんの ドガースが いたという。",
+		'ja-jp': "汚い 空気が ごちそう。 むかしの ガラル地方には いまより たくさんの ドガースが いたという。",
 		'zh-tw': "污濁的空氣是牠的美味大餐。據說在昔日的伽勒爾地區曾經存在著更多的瓦斯彈。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スモッグ",
+				'ja-jp': "スモッグ",
 				'zh-tw': "濁霧",
 			},
 			damage: 20,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},

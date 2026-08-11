@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨワシGX",
+		'ja-jp': "ヨワシGX",
 	},
 
 	illustrator: "sadaji",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "分の場の「ヨワシ（GXをふくむ）」の数×20ダメージ。",
+				'ja-jp': "分の場の「ヨワシ（GXをふくむ）」の数×20ダメージ。",
 			},
 		},
 		{
 			name: { ja: "たいりょうGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "分の山札を上から12枚見て、その中にあるたねポケモンを好きなだけ、ベンチに出す。残りのカードは山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "分の山札を上から12枚見て、その中にあるたねポケモンを好きなだけ、ベンチに出す。残りのカードは山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

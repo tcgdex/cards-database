@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Reshiram-EX",
-		fr: "Reshiram-EX",
-		es: "Reshiram-EX",
-		it: "Reshiram-EX",
-		pt: "Reshiram-EX",
-		de: "Reshiram-EX"
+		'en-us': "Reshiram-EX",
+		'fr-fr': "Reshiram-EX",
+		'es-es': "Reshiram-EX",
+		'it-it': "Reshiram-EX",
+		'pt-br': "Reshiram-EX",
+		'de-de': "Reshiram-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glinting Claw",
-				fr: "Griffe Scintillante",
+				'en-us': "Glinting Claw",
+				'fr-fr': "Griffe Scintillante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Fire",
-				fr: "Flammes de Bravoure",
+				'en-us': "Brave Fire",
+				'fr-fr': "Flammes de Bravoure",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 50 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 50 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 50 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 50 dégâts.",
 			},
 			damage: 150,
 

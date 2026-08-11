@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mythical Island"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stonjourner",
-		fr: "Dolman",
-		es: "Stonjourner",
-		it: "Stonjourner",
-		de: "Humanolith",
+		'en-us': "Stonjourner",
+		'fr-fr': "Dolman",
+		'es-es': "Stonjourner",
+		'it-it': "Stonjourner",
+		'de-de': "Humanolith",
 		'pt-br': "Stonjourner",
-		ko: "돌헨진"
+		'ko-kr': "돌헨진"
 	},
 
 	illustrator: "Teeziro",
@@ -22,26 +22,26 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
-		fr: "Les éléments rocheux qui constituent son corps\ncorrespondent à ceux qu'on trouve dans le sol\nd'une zone très éloignée de son habitat actuel.",
-		es: "Los elementos que componen las rocas de\nsu cuerpo se han encontrado en lechos de\nroca muy alejados de su hábitat.",
-		it: "La composizione delle pietre che formano il suo corpo coincide\ncon quella di basamenti rocciosi molto distanti dal suo habitat.",
-		de: "Sein Körper setzt sich aus Steinen zusammen,\ndie mit dem Grundgestein einer weit von seinem\nLebensraum entfernten Gegend identisch sind.",
+		'en-us': "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
+		'fr-fr': "Les éléments rocheux qui constituent son corps\ncorrespondent à ceux qu'on trouve dans le sol\nd'une zone très éloignée de son habitat actuel.",
+		'es-es': "Los elementos que componen las rocas de\nsu cuerpo se han encontrado en lechos de\nroca muy alejados de su hábitat.",
+		'it-it': "La composizione delle pietre che formano il suo corpo coincide\ncon quella di basamenti rocciosi molto distanti dal suo habitat.",
+		'de-de': "Sein Körper setzt sich aus Steinen zusammen,\ndie mit dem Grundgestein einer weit von seinem\nLebensraum entfernten Gegend identisch sind.",
 		'pt-br': "A composição elementar das pedras que formam seu corpo é a mesma\nencontrada em leitos rochosos em terras distantes do habitat deste Pokémon.",
-		ko: "몸의 암석 성분이\n서식지에서 멀리 떨어진 땅의\n암반과 일치했다."
+		'ko-kr': "몸의 암석 성분이\n서식지에서 멀리 떨어진 땅의\n암반과 일치했다."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mega Kick",
-			fr: "Ultimawashi",
-			es: "Megapatada",
-			it: "Megacalcio",
-			de: "Megakick",
+			'en-us': "Mega Kick",
+			'fr-fr': "Ultimawashi",
+			'es-es': "Megapatada",
+			'it-it': "Megacalcio",
+			'de-de': "Megakick",
 			'pt-br': "Megachute",
-			ko: "메가톤킥"
+			'ko-kr': "메가톤킥"
 		},
 
 		damage: 90,

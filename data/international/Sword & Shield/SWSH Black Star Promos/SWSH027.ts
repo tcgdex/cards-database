@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noctowl",
-		es: "Noctowl",
-		pt: "Noctowl",
-		de: "Noctuh",
-		fr: "Noarfang",
-		it: "Noctowl"
+		'en-us': "Noctowl",
+		'es-es': "Noctowl",
+		'pt-br': "Noctowl",
+		'de-de': "Noctuh",
+		'fr-fr': "Noarfang",
+		'it-it': "Noctowl"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -20,43 +20,43 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		de: "Hoothoot",
-		es: "Hoothoot",
-		pt: "Hoothoot",
-		it: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'de-de': "Hoothoot",
+		'es-es': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'it-it': "Hoothoot"
 	},
 
 	attacks: [{
 		name: {
-			en: "Wing Attack",
-			es: "Ataque Ala",
-			pt: "Ataque de Asa",
-			de: "Flügelschlag",
-			fr: "Cru-Ailes",
-			it: "Attacco d'Ala"
+			'en-us': "Wing Attack",
+			'es-es': "Ataque Ala",
+			'pt-br': "Ataque de Asa",
+			'de-de': "Flügelschlag",
+			'fr-fr': "Cru-Ailes",
+			'it-it': "Attacco d'Ala"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Carry Off",
-			es: "Arrebatar",
-			pt: "Levar Para Longe",
-			de: "Davontragen",
-			fr: "Enlèvement",
-			it: "Portavia"
+			'en-us': "Carry Off",
+			'es-es': "Arrebatar",
+			'pt-br': "Levar Para Longe",
+			'de-de': "Davontragen",
+			'fr-fr': "Enlèvement",
+			'it-it': "Portavia"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Benched Pokémon. They shuffle that Pokémon and all attached cards into their deck. Then, shuffle this Pokémon and all attached cards into your deck.",
-			es: "Elige 1 de los Pokémon en Banca de tu rival. Tu rival pone ese Pokémon y todas las cartas unidas a él en su baraja, y baraja todas las cartas. Después, pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
-			pt: "Escolha 1 dos Pokémon no Banco do seu oponente. Seu oponente embaralha aquele Pokémon e todas as cartas ligadas a ele no próprio baralho. Em seguida, embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
-			de: "Wähle 1 Pokémon auf der Bank deines Gegners. Er mischt jenes Pokémon und alle angelegten Karten in sein Deck. Mische anschließend dieses Pokémon und alle angelegten Karten in dein Deck.",
-			fr: "Choisissez l'un des Pokémon de Banc de votre adversaire. Il mélange avec son deck ce Pokémon-là et toutes les cartes attachées. Ensuite, mélangez dans votre deck ce Pokémon et toutes les cartes attachées.",
-			it: "Scegli uno dei Pokémon in panchina del tuo avversario. Il tuo avversario rimischia quel Pokémon e tutte le carte a esso assegnate nel suo mazzo. Poi rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo."
+			'en-us': "Choose 1 of your opponent's Benched Pokémon. They shuffle that Pokémon and all attached cards into their deck. Then, shuffle this Pokémon and all attached cards into your deck.",
+			'es-es': "Elige 1 de los Pokémon en Banca de tu rival. Tu rival pone ese Pokémon y todas las cartas unidas a él en su baraja, y baraja todas las cartas. Después, pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
+			'pt-br': "Escolha 1 dos Pokémon no Banco do seu oponente. Seu oponente embaralha aquele Pokémon e todas as cartas ligadas a ele no próprio baralho. Em seguida, embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+			'de-de': "Wähle 1 Pokémon auf der Bank deines Gegners. Er mischt jenes Pokémon und alle angelegten Karten in sein Deck. Mische anschließend dieses Pokémon und alle angelegten Karten in dein Deck.",
+			'fr-fr': "Choisissez l'un des Pokémon de Banc de votre adversaire. Il mélange avec son deck ce Pokémon-là et toutes les cartes attachées. Ensuite, mélangez dans votre deck ce Pokémon et toutes les cartes attachées.",
+			'it-it': "Scegli uno dei Pokémon in panchina del tuo avversario. Il tuo avversario rimischia quel Pokémon e tutte le carte a esso assegnate nel suo mazzo. Poi rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+		'en-us': "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
 	},
 
 	stage: "Stage1",

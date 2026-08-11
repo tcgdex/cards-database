@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウVMAX",
+		'ja-jp': "ミュウVMAX",
 		'zh-tw': "夢幻VMAX",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "クロスフュージョン",
+				'ja-jp': "クロスフュージョン",
 				'zh-tw': "交錯匯流",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの「フュージョン」のポケモンが持っているワザを1つ選び、このワザとして使う。",
+				'ja-jp': "自分のベンチの「フュージョン」のポケモンが持っているワザを1つ選び、このワザとして使う。",
 				'zh-tw': "選擇自己的備戰區的「匯流」寶可夢持有的1個招式，作為這個招式使用。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイミラクル",
+				'ja-jp': "ダイミラクル",
 				'zh-tw': "極巨奇跡",
 			},
 			damage: 130,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 				'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミュウV",
+		'ja-jp': "ミュウV",
 	},
 
 	retreat: 0,

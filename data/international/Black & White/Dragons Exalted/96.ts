@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draw In",
-				fr: "Aspiracartes",
+				'en-us': "Draw In",
+				'fr-fr': "Aspiracartes",
 			},
 			effect: {
-				en: "Attach 2 Darkness Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez 2 cartes Énergie Darkness de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach 2 Darkness Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie Darkness de votre pile de défausse à ce Pokémon.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Headbutt",
-				fr: "Dracoud'Boule",
+				'en-us': "Dragon Headbutt",
+				'fr-fr': "Dracoud'Boule",
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+		'en-us': "Since their two heads do not get along and compete with each other for food, they always eat too much.",
 	},
 
 	thirdParty: {

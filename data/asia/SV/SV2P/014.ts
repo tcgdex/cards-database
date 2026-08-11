@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シガロコ",
+		'ja-jp': "シガロコ",
 		'zh-tw': "蟲滾泥",
-		th: "ชิกาโรโค",
-		id: "Rellor"
+		'th-th': "ชิกาโรโค",
+		'id-id': "Rellor"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "エスパーエネルギーを 混ぜこみながら 土と 砂で 泥玉を 作る。 泥玉は 命より 大切。",
+		'ja-jp': "エスパーエネルギーを 混ぜこみながら 土と 砂で 泥玉を 作る。 泥玉は 命より 大切。",
 		'zh-tw': "會將超能力混進泥土和沙子裡製作出泥球。 泥球比自己的命還重要。",
-		th: "สร้างก้อนโคลนจากดินและทรายผสมพลังงานพลังจิต ให้ความสำคัญกับก้อนโคลนยิ่งกว่าชีวิต",
-		id: "Rellor membuat bola lumpur dengan tanah dan pasir sambil mencampurkan energi psikokinesisnya. Bola lumpur tersebut lebih penting daripada nyawanya."
+		'th-th': "สร้างก้อนโคลนจากดินและทรายผสมพลังงานพลังจิต ให้ความสำคัญกับก้อนโคลนยิ่งกว่าชีวิต",
+		'id-id': "Rellor membuat bola lumpur dengan tanah dan pasir sambil mencampurkan energi psikokinesisnya. Bola lumpur tersebut lebih penting daripada nyawanya."
 	},
 
 	stage: "Basic",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たまころがり",
+			'ja-jp': "たまころがり",
 			'zh-tw': "滾球",
-			th: "กลิ้งบอล",
-			id: "Menggelindingkan Bola"
+			'th-th': "กลิ้งบอล",
+			'id-id': "Menggelindingkan Bola"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
+			'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
 			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×30點傷害。",
-			th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x30",
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x30",
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
 		}
 	}],
 

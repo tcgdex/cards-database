@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Platinum'
 
 const pl4: Set = {
 	id: "pl4",
 
 	name: {
-		en: "Arceus",
-		es: "Arceus",
-		it: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'es-es': "Arceus",
+		'it-it': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	serie: serie,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Flame Bash",
-				fr: "Coup de flammes",
-				de: "Flame Bash"
+				'en-us': "Flame Bash",
+				'fr-fr': "Coup de flammes",
+				'de-de': "Flame Bash"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. Search your deck for a number of basic Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cherchez dans votre deck autant de cartes Énergie Fire que vous avez obtenu de faces et attachez-les à n'importe lequel de vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck.",
-				de: "Flip a coin until you get tails. Search your deck for a number of  Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
+				'en-us': "Flip a coin until you get tails. Search your deck for a number of basic Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Cherchez dans votre deck autant de cartes Énergie Fire que vous avez obtenu de faces et attachez-les à n'importe lequel de vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck.",
+				'de-de': "Flip a coin until you get tails. Search your deck for a number of  Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Flames",
-				fr: "Flammes mystérieuses",
-				de: "Mysterious Flames"
+				'en-us': "Mysterious Flames",
+				'fr-fr': "Flammes mystérieuses",
+				'de-de': "Mysterious Flames"
 			},
 			effect: {
-				en: "If you have more Energy in play than your opponent, the Defending Pokémon is now Burned and Confused.",
-				fr: "Si vous possédez plus d'Énergie en jeu que votre adversaire, le Pokémon Défenseur est maintenant Brûlé et Confus.",
-				de: "If you have more Energy in play than your opponent, the Defending Pokémon is now Burned and Confused."
+				'en-us': "If you have more Energy in play than your opponent, the Defending Pokémon is now Burned and Confused.",
+				'fr-fr': "Si vous possédez plus d'Énergie en jeu que votre adversaire, le Pokémon Défenseur est maintenant Brûlé et Confus.",
+				'de-de': "If you have more Energy in play than your opponent, the Defending Pokémon is now Burned and Confused."
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years."
+		'en-us': "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years."
 	},
 
 	variants: [

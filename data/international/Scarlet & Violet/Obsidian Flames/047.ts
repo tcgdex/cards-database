@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Sharpedo",
-		en: "Sharpedo",
-		es: "Sharpedo",
-		it: "Sharpedo",
-		pt: "Sharpedo",
-		de: "Tohaido"
+		'fr-fr': "Sharpedo",
+		'en-us': "Sharpedo",
+		'es-es': "Sharpedo",
+		'it-it': "Sharpedo",
+		'pt-br': "Sharpedo",
+		'de-de': "Tohaido"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Carvanha",
-		en: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'fr-fr': "Carvanha",
+		'en-us': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Impact Aqua",
-			en: "Aqua Impact",
-			es: "Impacto Aqua",
-			it: "Acquimpatto",
-			pt: "Impacto Aqua",
-			de: "Aqua-Einschlag"
+			'fr-fr': "Impact Aqua",
+			'en-us': "Aqua Impact",
+			'es-es': "Impacto Aqua",
+			'it-it': "Acquimpatto",
+			'pt-br': "Impacto Aqua",
+			'de-de': "Aqua-Einschlag"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			en: "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			es: "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			'en-us': "This attack does 30 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			fr: "Bélier Volant",
-			en: "Jet Headbutt",
-			es: "Turbocabezazo",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato",
-			de: "Flinke Kopfnuss"
+			'fr-fr': "Bélier Volant",
+			'en-us': "Jet Headbutt",
+			'es-es': "Turbocabezazo",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato",
+			'de-de': "Flinke Kopfnuss"
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
+		'en-us': "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Malosse",
-		en: "Houndour",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'fr-fr': "Malosse",
+		'en-us': "Houndour",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Morsure",
-			en: "Bite",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'fr-fr': "Morsure",
+			'en-us': "Bite",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			fr: "Croc Obscur",
-			en: "Darkness Fang",
-			es: "Colmillo de Oscuridad",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			de: "Fänge der Dunkelheit"
+			'fr-fr': "Croc Obscur",
+			'en-us': "Darkness Fang",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'de-de': "Fänge der Dunkelheit"
 		},
 
 		damage: 70
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		'en-us': "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
 	},
 
 	variants: [

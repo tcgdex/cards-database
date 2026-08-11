@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オクリリー",
+		'ja-jp': "オクリリー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "吸引カップ",
+				'ja-jp': "吸引カップ",
 			},
 			effect: {
-				ja: "オクティラーがアクティブなポケモンである限り、防御するポケモンが後退するたびに、ベンチに行くときに防御するポクモンに取り付けられたすべてのエネルギーカードを捨てます。",
+				'ja-jp': "オクティラーがアクティブなポケモンである限り、防御するポケモンが後退するたびに、ベンチに行くときに防御するポクモンに取り付けられたすべてのエネルギーカードを捨てます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "煙幕",
+				'ja-jp': "煙幕",
 			},
 			effect: {
-				ja: "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+				'ja-jp': "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
 			},
 			damage: 40,
 		},

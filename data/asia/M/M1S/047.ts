@@ -1,32 +1,32 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボチ"
+		'ja-jp': "ボチ"
 	},
 	illustrator: "Narumi Sato",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
 	description: {
-		ja: "人と関わることなく命を落とした野良の犬ポケモンが生まれ変わったと言われている。"
+		'ja-jp': "人と関わることなく命を落とした野良の犬ポケモンが生まれ変わったと言われている。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ふむ"
+			'ja-jp': "ふむ"
 		},
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			ja: "とっしん"
+			'ja-jp': "とっしん"
 		},
 		damage: 40,
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		},
 		cost: ["Psychic", "Colorless"]
 	}],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Revitalizer",
-		fr: "Revitalisation",
+		'en-us': "Revitalizer",
+		'fr-fr': "Revitalisation",
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Ajoutez 2 Pokémon Grass de votre pile de défausse à votre main.",
-		en: "Put 2 Grass Pokémon from your discard pile into your hand."
+		'fr-fr': "Ajoutez 2 Pokémon Grass de votre pile de défausse à votre main.",
+		'en-us': "Put 2 Grass Pokémon from your discard pile into your hand."
 	},
 
 	trainerType: "Item",

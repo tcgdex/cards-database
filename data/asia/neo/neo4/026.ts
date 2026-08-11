@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Psyduck",
+		'ja-jp': "Psyduck",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "フリッパースプラッシュ",
+				'ja-jp': "フリッパースプラッシュ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "片頭痛",
+				'ja-jp': "片頭痛",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、Psyduckは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、Psyduckは混乱しています。",
 			},
 			damage: 20,
 		},

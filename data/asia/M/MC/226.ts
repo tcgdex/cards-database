@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウ",
+		'ja-jp': "ライチュウ",
 	},
 
 	illustrator: "Iori Suzuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気が 溜まってくると 筋肉が 刺激され いつもより 攻撃的に なってしまう。",
+		'ja-jp': "電気が 溜まってくると 筋肉が 刺激され いつもより 攻撃的に なってしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Lightning"],
 			effect: {
-				ja: "コインを1回投げオモテなら、50ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、50ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[L]エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについている[L]エネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 1,

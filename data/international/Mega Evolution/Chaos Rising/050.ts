@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+		'en-us': "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
 	},
 
 
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
 		'es-mx': "Golbat",
-		de: "Golbat",
-		it: "Golbat",
-		pt: "Golbat"
+		'de-de': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat"
 	},
 
 	illustrator: "Mousho",
@@ -27,33 +27,33 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zubat"
+		'en-us': "Zubat"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Covert Flight",
-			fr: "Vol à Couvert",
-			es: "Vuelo Encubierto",
+			'en-us': "Covert Flight",
+			'fr-fr': "Vol à Couvert",
+			'es-es': "Vuelo Encubierto",
 			'es-mx': "Vuelo Encubierto",
-			de: "Tarnflug",
-			it: "Volo Segreto",
-			pt: "Voo Discreto"
+			'de-de': "Tarnflug",
+			'it-it': "Volo Segreto",
+			'pt-br': "Voo Discreto"
 		},
 
 		cost: ["Darkness"],
 		damage: 30,
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
-			es: "Durante el próximo turno de tu rival, se evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+			'es-es': "Durante el próximo turno de tu rival, se evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
 			'es-mx': "Durante el próximo turno de tu rival, se evita todo el daño infligido por ataques de Pokémon Básicos a este Pokémon.",
-			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird.",
-			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
-			pt: "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos."
+			'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird.",
+			'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
+			'pt-br': "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos."
 		}
 	}],
 

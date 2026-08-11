@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Garbodor",
+		'en-us': "Garbodor",
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trubbish",
+		'en-us': "Trubbish",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Garbotoxin",
+				'en-us': "Garbotoxin",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Toss",
+				'en-us': "Sludge Toss",
 			},
 
 			damage: 60,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+		'en-us': "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
 	},
 
 	thirdParty: {

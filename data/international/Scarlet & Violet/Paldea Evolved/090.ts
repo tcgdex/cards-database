@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Scrutella",
-		en: "Gothita",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'fr-fr': "Scrutella",
+		'en-us': "Gothita",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Écras'Face",
-			en: "Pound",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'fr-fr': "Écras'Face",
+			'en-us': "Pound",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Vague Étrange",
-			en: "Eerie Wave",
-			es: "Onda Sobrecogedora",
-			it: "Ondamistero",
-			pt: "Onda Misteriosa",
-			de: "Gespenstische Woge"
+			'fr-fr': "Vague Étrange",
+			'en-us': "Eerie Wave",
+			'es-es': "Onda Sobrecogedora",
+			'it-it': "Ondamistero",
+			'pt-br': "Onda Misteriosa",
+			'de-de': "Gespenstische Woge"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20
@@ -94,7 +94,7 @@ const card: Card = {
 	illustrator: "0313",
 
 	description: {
-		en: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
+		'en-us': "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
 	},
 }
 

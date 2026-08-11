@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		es: "Nidorino",
-		it: "Nidorino",
-		pt: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'es-es': "Nidorino",
+		'it-it': "Nidorino",
+		'pt-br': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				fr: "Double Pied",
+				'en-us': "Double Kick",
+				'fr-fr': "Double Pied",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+		'en-us': "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
 	},
 
 	thirdParty: {

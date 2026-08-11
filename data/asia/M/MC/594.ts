@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミロップ",
+		'ja-jp': "ミミロップ",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "暑い 季節が 終わると 空気を たくさん 含んだ 体毛に 生え変わり 寒さに 備える。",
+		'ja-jp': "暑い 季節が 終わると 空気を たくさん 含んだ 体毛に 生え変わり 寒さに 備える。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "とびだしキック" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミミロル",
+		'ja-jp': "ミミロル",
 	},
 
 	retreat: 1,

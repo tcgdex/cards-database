@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Seedot.",
-				fr: "Retirez à Grainipiot 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Samurzel."
+				'en-us': "Remove 2 damage counters from Seedot.",
+				'fr-fr': "Retirez à Grainipiot 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Samurzel."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double tour",
-				de: "Doppeldreher"
+				'en-us': "Double Spin",
+				'fr-fr': "Double tour",
+				'de-de': "Doppeldreher"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Dazzle Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Wave",
-				fr: "Vague guérisseuse",
-				de: "Healing Wave"
+				'en-us': "Healing Wave",
+				'fr-fr': "Vague guérisseuse",
+				'de-de': "Healing Wave"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Active Pokémon.",
-				fr: "Retirez un marqueur de dégât à chacun de vos Pokémon Actifs.",
-				de: "Remove 1 damage counter from each of your Active Pokémon."
+				'en-us': "Remove 1 damage counter from each of your Active Pokémon.",
+				'fr-fr': "Retirez un marqueur de dégât à chacun de vos Pokémon Actifs.",
+				'de-de': "Remove 1 damage counter from each of your Active Pokémon."
 			},
 			damage: 30,
 

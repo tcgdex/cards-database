@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テールナー",
+		'ja-jp': "テールナー",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "木の枝を 尻尾に 挿している。 尻尾の 毛の 摩擦熱で 枝に 火をつけて 戦う。",
+		'ja-jp': "木の枝を 尻尾に 挿している。 尻尾の 毛の 摩擦熱で 枝に 火をつけて 戦う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フォッコ",
+		'ja-jp': "フォッコ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 		'zh-tw': "小獅獅",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "血気盛んで 好奇心旺盛。 怒ったり 戦いが 始まると 短い たてがみは 熱くなる。",
+		'ja-jp': "血気盛んで 好奇心旺盛。 怒ったり 戦いが 始まると 短い たてがみは 熱くなる。",
 		'zh-tw': "血氣方剛且好奇心旺盛。當牠生氣或是開始戰鬥時，短短的鬃毛就會變熱。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひだね",
+				'ja-jp': "ひだね",
 				'zh-tw': "蕩蕩波",
 			},
 			damage: 10,

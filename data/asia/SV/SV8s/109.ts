@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Clobbopus",
-		th: "ทาทักโกะ"
+		'id-id': "Clobbopus",
+		'th-th': "ทาทักโกะ"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Clobbopus naik ke darat untuk mencari makanan. Penuh rasa ingin tahu sehingga saat melihat sesuatu, Pokémon ini memukulnya terlebih dahulu dengan tentakelnya.",
-		th: "ออกมาบนพื้นดินเพื่อหาอาหาร เต็มไปด้วยความอยากรู้อยากเห็น สิ่งที่ เห็นจะถูกตีด้วยหนวดก่อนเป็นอันดับแรก"
+		'id-id': "Clobbopus naik ke darat untuk mencari makanan. Penuh rasa ingin tahu sehingga saat melihat sesuatu, Pokémon ini memukulnya terlebih dahulu dengan tentakelnya.",
+		'th-th': "ออกมาบนพื้นดินเพื่อหาอาหาร เต็มไปด้วยความอยากรู้อยากเห็น สิ่งที่ เห็นจะถูกตีด้วยหนวดก่อนเป็นอันดับแรก"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gasak Sedikit",
-			th: "จุ้นจ้านหน่อย"
+			'id-id': "Gasak Sedikit",
+			'th-th': "จุ้นจ้านหน่อย"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10.",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย"
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10.",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย"
 		},
 
 		damage: 30,

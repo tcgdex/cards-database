@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "寶可夢交替",
-		th: "สับเปลี่ยนโปเกมอน",
-		id: "Tukar Pokémon"
+		'th-th': "สับเปลี่ยนโปเกมอน",
+		'id-id': "Tukar Pokémon"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -15,8 +15,8 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "將自己的戰鬥寶可夢與備戰寶可夢互換。",
-		th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์",
-		id: "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
+		'th-th': "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์",
+		'id-id': "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
 	},
 
 	trainerType: "Item",

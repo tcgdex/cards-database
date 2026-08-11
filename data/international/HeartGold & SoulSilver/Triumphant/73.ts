@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Schärfer"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Schärfer"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Genesung"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Genesung"
 			},
 			effect: {
-				en: "Discard an Energy attached to Porygon and remove 4 damage counters from Porygon.",
-				fr: "Défaussez une carte Énergie attachée à Porygon et retirez-lui 4 marqueurs de dégât.",
-				de: "Lege 1 an Porygon angelegten Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Porygon."
+				'en-us': "Discard an Energy attached to Porygon and remove 4 damage counters from Porygon.",
+				'fr-fr': "Défaussez une carte Énergie attachée à Porygon et retirez-lui 4 marqueurs de dégât.",
+				'de-de': "Lege 1 an Porygon angelegten Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Porygon."
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions."
+		'en-us': "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions."
 	},
 
 	variants: [

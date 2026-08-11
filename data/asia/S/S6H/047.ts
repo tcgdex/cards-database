@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レパルダスV",
+		'ja-jp': "レパルダスV",
 		'zh-tw': "酷豹V",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かくしヅメ" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいの場のポケモンについている「ポケモンのどうぐ」を1枚選び、トラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいの場のポケモンについている「ポケモンのどうぐ」を1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -28,13 +28,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "シャドーリッパー",
+				'ja-jp': "シャドーリッパー",
 				'zh-tw': "暗影拆裂",
 			},
 			damage: 110,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。",
 				'zh-tw': "若希望，將這隻寶可夢與附加的卡，全部放回手牌。",
 			},
 		},

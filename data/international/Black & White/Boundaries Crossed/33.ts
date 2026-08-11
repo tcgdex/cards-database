@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Firefighting",
-				fr: "Anti-Flammes",
+				'en-us': "Firefighting",
+				'fr-fr': "Anti-Flammes",
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Fire Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée au Pokémon Défenseur.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When headaches stimulate its brain cells, which are usually inactive, it can use a mysterious power.",
+		'en-us': "When headaches stimulate its brain cells, which are usually inactive, it can use a mysterious power.",
 	},
 
 	thirdParty: {

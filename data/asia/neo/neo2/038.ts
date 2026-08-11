@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモントップ",
+		'ja-jp': "ヒットモントップ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "検出する",
+				'ja-jp': "検出する",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ヒットモントップに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ヒットモントップに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "トリプルキック",
+				'ja-jp': "トリプルキック",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

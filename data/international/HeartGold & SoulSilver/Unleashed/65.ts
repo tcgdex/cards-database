@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Teddiursa does 10 damage to itself.",
-				fr: "Teddiursa s’inflige 10 dégâts.",
-				de: "Teddiursa fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Teddiursa does 10 damage to itself.",
+				'fr-fr': "Teddiursa s’inflige 10 dégâts.",
+				'de-de': "Teddiursa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+		'en-us': "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
 	},
 
 	variants: [

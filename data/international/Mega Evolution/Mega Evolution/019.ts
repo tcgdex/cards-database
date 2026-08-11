@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix",
-		it: "Vulpix",
-		es: "Vulpix",
-		pt: "Vulpix",
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix",
+		'it-it': "Vulpix",
+		'es-es': "Vulpix",
+		'pt-br': "Vulpix",
 		'es-mx': "Vulpix"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			es: "Estampida",
-			pt: "Estouro",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'es-es': "Estampida",
+			'pt-br': "Estouro",
 			'es-mx': "Estampida"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			de: "Glühen",
-			it: "Fuoco Continuo",
-			es: "Combustión",
-			pt: "Combustão",
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'de-de': "Glühen",
+			'it-it': "Fuoco Continuo",
+			'es-es': "Combustión",
+			'pt-br': "Combustão",
 			'es-mx': "Combustión"
 		},
 

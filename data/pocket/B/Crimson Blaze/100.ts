@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [799],
 
 	name: {
-		en: "Guzzlord ex"
+		'en-us': "Guzzlord ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -20,18 +20,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Grindcore"
+			'en-us': "Grindcore"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+			'en-us': "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
 		}
 	}, {
 		name: {
-			en: "Tyrannical Hole"
+			'en-us': "Tyrannical Hole"
 		},
 
 		damage: 120,

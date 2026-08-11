@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイオウドウ",
+		'ja-jp': "ダイオウドウ",
 		'zh-tw': "大王銅象",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "群れを つくって 暮らしている。 鼻の 握力は 大岩も 粉々に 砕くほど 強い。",
+		'ja-jp': "群れを つくって 暮らしている。 鼻の 握力は 大岩も 粉々に 砕くほど 強い。",
 		'zh-tw': "群居的寶可夢。鼻子的握力十分強勁，甚至能把大石頭弄得粉碎。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいりき",
+				'ja-jp': "かいりき",
 				'zh-tw': "怪力",
 			},
 			damage: 90,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "10まんばりき",
+				'ja-jp': "10まんばりき",
 				'zh-tw': "十萬馬力",
 			},
 			damage: 160,
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 	},
 
 	retreat: 4,

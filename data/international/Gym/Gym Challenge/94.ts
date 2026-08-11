@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Abra"
+		'en-us': "Sabrina's Abra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyscan"
+				'en-us': "Psyscan"
 			},
 			effect: {
-				en: "Look at your opponent's hand."
+				'en-us': "Look at your opponent's hand."
 			},
 
 		},
@@ -39,10 +39,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 

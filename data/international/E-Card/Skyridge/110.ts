@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
+		'en-us': "Teddiursa",
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bear Hug",
-				de: "Umklammerung"
+				'en-us': "Bear Hug",
+				'de-de': "Umklammerung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				de: "Das verteidigende Pokémon kann sich im nächsten Zug deines gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'de-de': "Das verteidigende Pokémon kann sich im nächsten Zug deines gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				de: "Zerreißen"
+				'en-us': "Rend",
+				'de-de': "Zerreißen"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage. If not, this attack does 40 damage.",
-				de: "Liegen auf dem verteidigenden Pokémon bereits Schadensmarken, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Sonnst fügt dieser Angriff 40 Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage. If not, this attack does 40 damage.",
+				'de-de': "Liegen auf dem verteidigenden Pokémon bereits Schadensmarken, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Sonnst fügt dieser Angriff 40 Schadenspunkte zu."
 			},
 			damage: "40+",
 

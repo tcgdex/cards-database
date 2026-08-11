@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Deadlock",
-				fr: "Impasse",
-				de: "Stillstand"
+				'en-us': "Deadlock",
+				'fr-fr': "Impasse",
+				'de-de': "Stillstand"
 			},
 			effect: {
-				en: "As long as Dunsparce is your Active Pokémon, your opponent's Dunsparce can't attack.",
-				fr: "Tant qu'Insolourdo est votre Pokémon Actif, l'Insolourdo de votre adversaire ne peut pas attaquer.",
-				de: "Solange Dummisel dein Aktives Pokémon ist, können Dummisel deines Gegners nicht angreifen."
+				'en-us': "As long as Dunsparce is your Active Pokémon, your opponent's Dunsparce can't attack.",
+				'fr-fr': "Tant qu'Insolourdo est votre Pokémon Actif, l'Insolourdo de votre adversaire ne peut pas attaquer.",
+				'de-de': "Solange Dummisel dein Aktives Pokémon ist, können Dummisel deines Gegners nicht angreifen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Down Draw",
-				fr: "Pioche du dessous",
-				de: "Tiefer Zug"
+				'en-us': "Down Draw",
+				'fr-fr': "Pioche du dessous",
+				'de-de': "Tiefer Zug"
 			},
 			effect: {
-				en: "Draw 2 cards from the bottom of your deck.",
-				fr: "Piochez 2 cartes du dessous de votre deck.",
-				de: "Ziehe die untersten 2 Karten denes Decks."
+				'en-us': "Draw 2 cards from the bottom of your deck.",
+				'fr-fr': "Piochez 2 cartes du dessous de votre deck.",
+				'de-de': "Ziehe die untersten 2 Karten denes Decks."
 			},
 
 		},
@@ -63,14 +63,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tripping Turn",
-				fr: "Tour trébuchant",
-				de: "Stolpernder Wechsel"
+				'en-us': "Tripping Turn",
+				'fr-fr': "Tour trébuchant",
+				'de-de': "Stolpernder Wechsel"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused. You may switch Dunsparce with 1 of your Benched Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Confus. Vous pouvez échanger Insolourdo avec 1 des Pokémon de votre Banc.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt. Du kannst Dummisel gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "The Defending Pokémon is now Confused. You may switch Dunsparce with 1 of your Benched Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus. Vous pouvez échanger Insolourdo avec 1 des Pokémon de votre Banc.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt. Du kannst Dummisel gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "救助隊DXのピカチュウ",
+		'ja-jp': "救助隊DXのピカチュウ",
 	},
 
 	illustrator: "Spike Chunsoft.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ある日 目が 覚めたら ピカチュウに なっちゃった！ 困った ポケモンを 助けるため 救助隊を 結成したぞ。",
+		'ja-jp': "ある日 目が 覚めたら ピカチュウに なっちゃった！ 困った ポケモンを 助けるため 救助隊を 結成したぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ともだちきゅうじょ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュからポケモンを1枚選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュからポケモンを1枚選び、相手に見せて、手札に加える。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
-				de: "Traumfresser"
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
+				'de-de': "Traumfresser"
 			},
 			effect: {
-				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet.",
-				de: "Du kannst diesen Angriff nur dann einsetzen, wenn das Verteidigende Pokémon schläft."
+				'en-us': "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet.",
+				'de-de': "Du kannst diesen Angriff nur dann einsetzen, wenn das Verteidigende Pokémon schläft."
 			},
 			damage: 50,
 

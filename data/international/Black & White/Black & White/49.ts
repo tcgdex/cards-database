@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Musharna",
-		fr: "Mushana",
-		es: "Musharna",
-		it: "Musharna",
-		pt: "Musharna",
-		de: "Somnivora"
+		'en-us': "Musharna",
+		'fr-fr': "Mushana",
+		'es-es': "Musharna",
+		'it-it': "Musharna",
+		'pt-br': "Musharna",
+		'de-de': "Somnivora"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munna",
-		fr: "Munna",
+		'en-us': "Munna",
+		'fr-fr': "Munna",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnotic Ray",
-				fr: "Onde Hypnotique",
+				'en-us': "Hypnotic Ray",
+				'fr-fr': "Onde Hypnotique",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
 			},
 			effect: {
-				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
 			},
 			damage: 90,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+		'en-us': "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
 	},
 
 	thirdParty: {

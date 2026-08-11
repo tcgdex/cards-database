@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルチャブル",
+		'ja-jp': "ルチャブル",
 		'zh-tw': "摔角鷹人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "身軽さを 活かした 戦法で 相手の 体力を 奪ってから 華麗な 大技を 決める。",
+		'ja-jp': "身軽さを 活かした 戦法で 相手の 体力を 奪ってから 華麗な 大技を 決める。",
 		'zh-tw': "利用發揮輕盈體型優勢的戰法，在消耗了對手的體力之後 使用華麗的絕招分出勝負。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひきつける",
+				'ja-jp': "ひきつける",
 				'zh-tw': "吸引",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 				'zh-tw': "從自己的牌庫抽出2張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "アクロバット",
+				'ja-jp': "アクロバット",
 				'zh-tw': "雜技",
 			},
 			damage: "30+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×20ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数×20ダメージ追加。",
 				'zh-tw': "擲2次硬幣，增加正面出現的次數×20點傷害。",
 			},
 		},

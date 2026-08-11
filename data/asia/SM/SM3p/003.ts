@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギバナ",
+		'ja-jp': "フシギバナ",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "大きな 花びらを 広げ 太陽の 光を 浴びていると 体に 元気が みなぎっていく。",
+		'ja-jp': "大きな 花びらを 広げ 太陽の 光を 浴びていると 体に 元気が みなぎっていく。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みつりんのぬし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場のポケモンについているすべての基本[草]エネルギーは、それぞれ[草]エネルギー2個ぶんとしてはたらく。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の場のポケモンについているすべての基本[草]エネルギーは、それぞれ[草]エネルギー2個ぶんとしてはたらく。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フシギソウ",
+		'ja-jp': "フシギソウ",
 	},
 
 	retreat: 4,

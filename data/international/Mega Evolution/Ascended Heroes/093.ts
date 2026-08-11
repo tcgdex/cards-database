@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
 		'es-mx': "Swirlix",
-		de: "Flauschling",
-		it: "Swirlix",
-		pt: "Swirlix"
+		'de-de': "Flauschling",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
 			'es-mx': "Colisión",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete"
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete"
 		},
 
 		damage: 20

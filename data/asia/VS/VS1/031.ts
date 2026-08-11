@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャスミンのアンファロス",
+		'ja-jp': "ジャスミンのアンファロス",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "サンダーパンチ",
+				'ja-jp': "サンダーパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。尾の場合、ジャスミンのアンファロスはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。尾の場合、ジャスミンのアンファロスはそれ自体に20のダメージを与えます。",
 			},
 		},
 	],

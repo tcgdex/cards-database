@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "kirisAki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud’Pied",
-				es: "Patada",
-				it: "Calcio",
-				pt: "Chute",
-				de: "Tritt"
+				'en-us': "Kick",
+				'fr-fr': "Koud’Pied",
+				'es-es': "Patada",
+				'it-it': "Calcio",
+				'pt-br': "Chute",
+				'de-de': "Tritt"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It knows how people and Pokémon feel by looking at their auras. It doesn't approach dangerous opponents.",
+		'en-us': "It knows how people and Pokémon feel by looking at their auras. It doesn't approach dangerous opponents.",
 	},
 
 	thirdParty: {

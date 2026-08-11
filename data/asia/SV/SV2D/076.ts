@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カヌチャン"
+		'ja-jp': "カヌチャン"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。"
+		'ja-jp': "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "てつクズひろい"
+			'ja-jp': "てつクズひろい"
 		},
 
 		effect: {
-			ja: "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。"
+			'ja-jp': "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ようせいのかぜ"
+			'ja-jp': "ようせいのかぜ"
 		},
 
 		damage: 30

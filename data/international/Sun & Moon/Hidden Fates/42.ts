@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff GX",
-		fr: "Grodoudou-GX",
+		'en-us': "Wigglytuff GX",
+		'fr-fr': "Grodoudou-GX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
 	},
 
 	suffix: "GX",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Rush",
-				fr: "Ruée-Boulée",
+				'en-us': "Rolling Rush",
+				'fr-fr': "Ruée-Boulée",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "100+",
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lovely Star GX",
-				fr: "Belle Étoile-GX",
+				'en-us': "Lovely Star GX",
+				'fr-fr': "Belle Étoile-GX",
 			},
 			effect: {
-				en: "Heal all damage from this Pokémon. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Heal all damage from this Pokémon. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 130,
 

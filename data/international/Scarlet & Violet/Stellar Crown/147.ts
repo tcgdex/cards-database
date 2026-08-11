@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raboot",
-		fr: "Lapyro",
-		es: "Raboot",
-		it: "Raboot",
-		pt: "Raboot",
-		de: "Kickerlo"
+		'en-us': "Raboot",
+		'fr-fr': "Lapyro",
+		'es-es': "Raboot",
+		'it-it': "Raboot",
+		'pt-br': "Raboot",
+		'de-de': "Kickerlo"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
-		it: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo"
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Low Sweep",
-			fr: "Balayette",
-			es: "Puntapié",
-			it: "Calciobasso",
-			pt: "Movimento Baixo",
-			de: "Fußtritt"
+			'en-us': "Low Sweep",
+			'fr-fr': "Balayette",
+			'es-es': "Puntapié",
+			'it-it': "Calciobasso",
+			'pt-br': "Movimento Baixo",
+			'de-de': "Fußtritt"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 60

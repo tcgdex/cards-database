@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリジュラスex",
+		'ja-jp': "ブリジュラスex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ごうきんビルド" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「基本[M]エネルギー」を2枚まで選び、自分の[M]ポケモンに好きなようにつける。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「基本[M]エネルギー」を2枚まで選び、自分の[M]ポケモンに好きなようにつける。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "次の相手の番、このポケモンの弱点は、すべてなくなる。",
+				'ja-jp': "次の相手の番、このポケモンの弱点は、すべてなくなる。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	retreat: 2,

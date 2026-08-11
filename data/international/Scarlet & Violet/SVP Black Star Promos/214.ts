@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 	rarity: "Promo",
 	category: "Pokemon",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Unwind",
+				'en-us': "Unwind",
 			},
 			effect: {
-				en:	"Heal 20 damage from this Pokémon."
+				'en-us': 	"Heal 20 damage from this Pokémon."
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Snivy",
+		'en-us': "Snivy",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth",
+				'en-us': "Growth",
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to this Pokémon.",
+				'en-us': "Attach a Grass Energy card from your hand to this Pokémon.",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
+				'en-us': "Razor Leaf",
 			},
 
 			damage: 30,
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+		'en-us': "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
 	},
 
 	thirdParty: {

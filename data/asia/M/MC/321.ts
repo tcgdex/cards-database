@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスカーン",
+		'ja-jp': "デスカーン",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ピカピカの 黄金の 体。 もはや 人間だった ことは 思い出すことは ないと いう。",
+		'ja-jp': "ピカピカの 黄金の 体。 もはや 人間だった ことは 思い出すことは ないと いう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "めいふのおきて" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "おたがいの特性を持つポケモン全員に、それぞれダメカンを6個のせる。",
+				'ja-jp': "おたがいの特性を持つポケモン全員に、それぞれダメカンを6個のせる。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	retreat: 2,

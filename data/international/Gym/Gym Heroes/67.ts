@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Mankey"
+		'en-us': "Brock's Mankey"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Taunt"
+				'en-us': "Taunt"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
 			},
 
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Light Kick"
+				'en-us': "Light Kick"
 			},
 
 			damage: 10,

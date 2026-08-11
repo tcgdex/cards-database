@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mewtwo",
-		fr: "Mewtwo",
-		es: "Mewtwo",
-		it: "Mewtwo",
-		pt: "Mewtwo",
-		de: "Mewtu"
+		'en-us': "Mewtwo",
+		'fr-fr': "Mewtwo",
+		'es-es': "Mewtwo",
+		'it-it': "Mewtwo",
+		'pt-br': "Mewtwo",
+		'de-de': "Mewtu"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 100

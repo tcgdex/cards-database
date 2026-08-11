@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "悪い 夢に うなされている ポケモンや 人の 前に 現われ その夢を 食べてしまう ポケモン。",
+		'ja-jp': "悪い 夢に うなされている ポケモンや 人の 前に 現われ その夢を 食べてしまう ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みらいよち" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 	],

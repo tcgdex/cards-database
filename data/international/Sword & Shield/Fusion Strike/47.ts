@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	rarity: "Common",
@@ -30,28 +30,28 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+		'en-us': "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Singe",
-			fr: "Roussi",
-			de: "Versengung",
-			es: "Quemadura",
-			pt: "Chamuscada",
-			it: "Scottata"
+			'en-us': "Singe",
+			'fr-fr': "Roussi",
+			'de-de': "Versengung",
+			'es-es': "Quemadura",
+			'pt-br': "Chamuscada",
+			'it-it': "Scottata"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sniffle",
-				fr: "Reniflement",
+				'en-us': "Sniffle",
+				'fr-fr': "Reniflement",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Belt attack's base damage is 40.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l'attaque Taloche de ce Pokémon sont de 40.",
+				'en-us': "During your next turn, this Pokémon's Belt attack's base damage is 40.",
+				'fr-fr': "Pendant votre prochain tour, les dégâts de base de l'attaque Taloche de ce Pokémon sont de 40.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Belt",
-				fr: "Taloche",
+				'en-us': "Belt",
+				'fr-fr': "Taloche",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+		'en-us': "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
 	},
 
 	thirdParty: {

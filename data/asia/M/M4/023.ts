@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カチコール",
+		'ja-jp': "カチコール",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体を 覆う 氷が 敵の 攻撃を 防ぐ。 割られても 冷気で すぐに 氷を 張る。",
+		'ja-jp': "体を 覆う 氷が 敵の 攻撃を 防ぐ。 割られても 冷気で すぐに 氷を 張る。",
 	},
 
 	stage: "Basic",

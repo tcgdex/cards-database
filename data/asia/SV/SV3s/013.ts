@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Charmander"
+		'id-id': "Charmander"
 	},
 
 	illustrator: "DOM",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Sejak lahir, api menyala di ekor Charmander. Hidupnya berakhir saat api tersebut padam."
+		'id-id': "Sejak lahir, api menyala di ekor Charmander. Hidupnya berakhir saat api tersebut padam."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Heat Tackle"
+			'id-id': "Heat Tackle"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

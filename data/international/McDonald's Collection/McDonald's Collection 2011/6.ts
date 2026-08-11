@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,28 +9,28 @@ const card: Card = {
 	dexId: [522],
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
+		'en-us': "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron"
 	},
 
 	rarity: "None",

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bergmite"
+		'en-us': "Bergmite"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "They live in mountainous regions of frigid cold.\nOn rare occasions, they ride on the back of an\nAvalugg to cross seas and move to new habitats."
+		'en-us': "They live in mountainous regions of frigid cold.\nOn rare occasions, they ride on the back of an\nAvalugg to cross seas and move to new habitats."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Icicle"
+			'en-us': "Icicle"
 		},
 
 		damage: 30,

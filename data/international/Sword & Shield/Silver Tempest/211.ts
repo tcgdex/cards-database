@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lugia VSTAR",
-		fr: "Lugia VSTAR",
-		es: "Lugia V-ASTRO",
-		it: "Lugia V ASTRO",
-		pt: "Lugia V-ASTRO",
-		de: "Lugia VSTAR"
+		'en-us': "Lugia VSTAR",
+		'fr-fr': "Lugia VSTAR",
+		'es-es': "Lugia V-ASTRO",
+		'it-it': "Lugia V ASTRO",
+		'pt-br': "Lugia V-ASTRO",
+		'de-de': "Lugia VSTAR"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lugia V",
-		fr: "Lugia-V",
-		es: "Lugia V",
-		it: "Lugia-V",
-		pt: "Lugia V",
-		de: "Lugia-V"
+		'en-us': "Lugia V",
+		'fr-fr': "Lugia-V",
+		'es-es': "Lugia V",
+		'it-it': "Lugia-V",
+		'pt-br': "Lugia V",
+		'de-de': "Lugia-V"
 	},
 
 	stage: "VSTAR",
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tempest Dive",
-			fr: "Plongée Tempétueuse",
-			es: "Zambullida Tempestad",
-			it: "Immersione Tempestosa",
-			pt: "Mergulho Tempestuoso",
-			de: "Sturmwindflug"
+			'en-us': "Tempest Dive",
+			'fr-fr': "Plongée Tempétueuse",
+			'es-es': "Zambullida Tempestad",
+			'it-it': "Immersione Tempestosa",
+			'pt-br': "Mergulho Tempestuoso",
+			'de-de': "Sturmwindflug"
 		},
 
 		effect: {
-			en: "You may discard a Stadium in play.",
-			fr: "Vous pouvez défausser un Stade en jeu.",
-			es: "Puedes descartar un Estadio en juego.",
-			it: "Puoi scartare una carta Stadio in gioco.",
-			pt: "Você pode descartar 1 Estádio em jogo.",
-			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+			'en-us': "You may discard a Stadium in play.",
+			'fr-fr': "Vous pouvez défausser un Stade en jeu.",
+			'es-es': "Puedes descartar un Estadio en juego.",
+			'it-it': "Puoi scartare una carta Stadio in gioco.",
+			'pt-br': "Você pode descartar 1 Estádio em jogo.",
+			'de-de': "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
 		},
 
 		damage: 220

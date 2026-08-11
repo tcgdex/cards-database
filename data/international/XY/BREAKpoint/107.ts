@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Professor Sycamore",
-		fr: "Professeur Platane",
-		es: "Profesor Ciprés",
-		it: "Professor Platan",
-		pt: "Professor Sycamore",
-		de: "Prof. Platan"
+		'en-us': "Professor Sycamore",
+		'fr-fr': "Professeur Platane",
+		'es-es': "Profesor Ciprés",
+		'it-it': "Professor Platan",
+		'pt-br': "Professor Sycamore",
+		'de-de': "Prof. Platan"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Défaussez votre main et piochez 7 cartes.",
-		en: "Discard your hand and draw 7 cards.",
-		es: "Descarta las cartas de tu mano y roba 7 cartas.",
-		it: "Scarta la tua mano e pesca sette carte.",
-		pt: "Descarte sua mão e compre 7 cards.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
+		'fr-fr': "Défaussez votre main et piochez 7 cartes.",
+		'en-us': "Discard your hand and draw 7 cards.",
+		'es-es': "Descarta las cartas de tu mano y roba 7 cartas.",
+		'it-it': "Scarta la tua mano e pesca sette carte.",
+		'pt-br': "Descarte sua mão e compre 7 cards.",
+		'de-de': "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
 	},
 
 	trainerType: "Supporter",

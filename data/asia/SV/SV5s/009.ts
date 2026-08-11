@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Roserade"
+		'id-id': "Roserade"
 	},
 
 	illustrator: "Gapao",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Roserade membuat lawan bingung dengan aroma bunganya yang harum dan memukul lawan secara bertubi-tubi dengan pecut durinya."
+		'id-id': "Roserade membuat lawan bingung dengan aroma bunganya yang harum dan memukul lawan secara bertubi-tubi dengan pecut durinya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Jarum Racun"
+			'id-id': "Jarum Racun"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Racun."
+			'id-id': "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Racun."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Menjerat"
+			'id-id': "Menjerat"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 70,

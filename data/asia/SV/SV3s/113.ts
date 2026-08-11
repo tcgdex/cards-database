@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Inkay"
+		'id-id': "Inkay"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Inkay mengedipkan tubuh bercahayanya ke arah lawan agar lawan kehilangan semangat bertarung dan memanfaatkan kesempatan itu untuk kabur."
+		'id-id': "Inkay mengedipkan tubuh bercahayanya ke arah lawan agar lawan kehilangan semangat bertarung dan memanfaatkan kesempatan itu untuk kabur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memeluk"
+			'id-id': "Memeluk"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 30,

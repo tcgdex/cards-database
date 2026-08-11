@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Girafarig",
-		fr: "Girafarig",
-		es: "Girafarig",
-		it: "Girafarig",
-		pt: "Girafarig",
-		de: "Girafarig"
+		'en-us': "Girafarig",
+		'fr-fr': "Girafarig",
+		'es-es': "Girafarig",
+		'it-it': "Girafarig",
+		'pt-br': "Girafarig",
+		'de-de': "Girafarig"
 	},
 
 	illustrator: "Mina Nakai",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Psybeam",
-			fr: "Rafale Psy",
-			es: "Psicorrayo",
-			it: "Psicoraggio",
-			pt: "Feixe Psíquico",
-			de: "Psystrahl"
+			'en-us': "Psybeam",
+			'fr-fr': "Rafale Psy",
+			'es-es': "Psicorrayo",
+			'it-it': "Psicoraggio",
+			'pt-br': "Feixe Psíquico",
+			'de-de': "Psystrahl"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30
@@ -82,7 +82,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting.",
+		'en-us': "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting.",
 	},
 
 	

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hot Lick",
-				fr: "Léchouille Ardente"
+				'en-us': "Hot Lick",
+				'fr-fr': "Léchouille Ardente"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Durant, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur est Fermite, cette attaque inflige 50 dégâts supplémentaires."
+				'en-us': "If the Defending Pokémon is Durant, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Fermite, cette attaque inflige 50 dégâts supplémentaires."
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-Feu"
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-Feu"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+		'en-us': "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
 	},
 
 	thirdParty: {

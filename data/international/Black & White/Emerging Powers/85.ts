@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla",
-		es: "Cinccino",
-		it: "Cinccino",
-		pt: "Cinccino",
-		de: "Chillabell"
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla",
+		'es-es': "Cinccino",
+		'it-it': "Cinccino",
+		'pt-br': "Cinccino",
+		'de-de': "Chillabell"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Minccino",
-		fr: "Chinchidou",
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Captivate",
-				fr: "Séduction",
+				'en-us': "Captivate",
+				'fr-fr': "Séduction",
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fluffy Tail",
-				fr: "Queue Touffue",
+				'en-us': "Fluffy Tail",
+				'fr-fr': "Queue Touffue",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
+		'en-us': "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
 	},
 
 	thirdParty: {

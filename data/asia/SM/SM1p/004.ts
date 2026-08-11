@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "とりポケモンに 襲われないよう でんきポケモンが 棲む 場所に 集まっていることが 多い。",
+		'ja-jp': "とりポケモンに 襲われないよう でんきポケモンが 棲む 場所に 集まっていることが 多い。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Magby",
-		fr: "Magby",
-		de: "Magby"
+		'en-us': "Magby",
+		'fr-fr': "Magby",
+		'de-de': "Magby"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sputter",
-				fr: "Crachouilles",
-				de: "Stottern"
+				'en-us': "Sputter",
+				'fr-fr': "Crachouilles",
+				'de-de': "Stottern"
 			},
 			effect: {
-				en: "All Pokémon Powers stop working until the end of your next turn.",
-				fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour.",
-				de: "Alle Pokémon-Power funktionieren bis zum Ende deines nächsten Zuges nicht mehr."
+				'en-us': "All Pokémon Powers stop working until the end of your next turn.",
+				'fr-fr': "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour.",
+				'de-de': "Alle Pokémon-Power funktionieren bis zum Ende deines nächsten Zuges nicht mehr."
 			},
 			damage: 10,
 
@@ -46,8 +46,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
-		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
+		'en-us': "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
+		'fr-fr': "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
 	},
 
 

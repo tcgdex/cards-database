@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "リーチライフ",
+				'ja-jp': "リーチライフ",
 			},
 			effect: {
-				ja: "防御ポケモンに与えられた損傷に等しいGolbatから多くのダメージカウンターを削除します（脱力感と抵抗を適用した後）。 Golbatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
+				'ja-jp': "防御ポケモンに与えられた損傷に等しいGolbatから多くのダメージカウンターを削除します（脱力感と抵抗を適用した後）。 Golbatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
 			},
 			damage: 20,
 		},

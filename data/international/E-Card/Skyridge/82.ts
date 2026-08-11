@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♀",
-		de: "Nidoran W"
+		'en-us': "Nidoran ♀",
+		'de-de': "Nidoran W"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 

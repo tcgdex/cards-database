@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Togekiss"
+		'id-id': "Togekiss"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Togekiss dikenal sebagai makhluk yang memberikan berkah dan digambarkan sebagai pembawa keberuntungan sejak zaman dahulu."
+		'id-id': "Togekiss dikenal sebagai makhluk yang memberikan berkah dan digambarkan sebagai pembawa keberuntungan sejak zaman dahulu."
 	},
 
 	stage: "Stage2",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Precious Gift"
+			'id-id': "Precious Gift"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada akhir giliran sendiri. Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 8 lembar."
+			'id-id': "Dapat digunakan 1 kali pada akhir giliran sendiri. Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 8 lembar."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Power Cyclone"
+			'id-id': "Power Cyclone"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
 		},
 
 		damage: 110,

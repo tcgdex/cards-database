@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Helioptile"
+		'id-id': "Helioptile"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Helioptile membuat listrik tenaga surya dengan melebarkan jumbai di kepalanya dan menggunakannya untuk mengeluarkan jurus listrik yang kuat."
+		'id-id': "Helioptile membuat listrik tenaga surya dengan melebarkan jumbai di kepalanya dan menggunakannya untuk mengeluarkan jurus listrik yang kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengumpulkan"
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Berpijar-pijar"
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 10,

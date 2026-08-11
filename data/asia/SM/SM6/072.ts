@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルード",
+		'ja-jp': "ホルード",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ショベルカー並みの パワーの 耳で 硬い 岩盤も コナゴナ。 穴を 掘り終えると ダラダラと 過ごす。",
+		'ja-jp': "ショベルカー並みの パワーの 耳で 硬い 岩盤も コナゴナ。 穴を 掘り終えると ダラダラと 過ごす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、40ダメージ追加。その場合、自分の山札を上から2枚トラッシュする。",
+				'ja-jp': "のぞむなら、40ダメージ追加。その場合、自分の山札を上から2枚トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x80ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x80ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	retreat: 3,

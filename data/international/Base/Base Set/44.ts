@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam",
-		it: "Bulbasaur"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam",
+		'it-it': "Bulbasaur"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				de: "Schmarotzer",
-				it: "Parassiseme"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'de-de': "Schmarotzer",
+				'it-it': "Parassiseme"
 			},
 			effect: {
-				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
-				fr: "À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre.",
-				de: "Falls das verteidigende Pokémon den Schaden dieses Angriffs nicht abwehren kann, kannst du eine Schadensmarke von Bisasam entfernen.",
-				it: "Tranne nei casi in cui tutti i danni di questo attacco vengano prevenuti, puoi rimuovere un segnalino danno da Bulbasaur."
+				'en-us': "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+				'fr-fr': "À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre.",
+				'de-de': "Falls das verteidigende Pokémon den Schaden dieses Angriffs nicht abwehren kann, kannst du eine Schadensmarke von Bisasam entfernen.",
+				'it-it': "Tranne nei casi in cui tutti i danni di questo attacco vengano prevenuti, puoi rimuovere un segnalino danno da Bulbasaur."
 			},
 			damage: 20,
 
@@ -59,9 +59,9 @@ const card: Card = {
 
 
 	description: {
-		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
-		fr: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.",
-		it: "Lo strano seme piantato sul suo dorso dalla nascita è germogliato in una pianta che continua a crescere insieme a questo Pokémon. LIV 13 N.1"
+		'en-us': "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
+		'fr-fr': "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.",
+		'it-it': "Lo strano seme piantato sul suo dorso dalla nascita è germogliato in una pianta che continua a crescere insieme a questo Pokémon. LIV 13 N.1"
 	},
 
 	variants: [

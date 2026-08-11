@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "染色",
+		'ja-jp': "染色",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "燃えているオーラ",
+				'ja-jp': "燃えているオーラ",
 			},
 			effect: {
-				ja: "Typhlosionがアクティブなポカモンである限り、ターンの合間にアクティブなPokã©Mon（あなたと相手の両方）に1つのダメージカウンターを置きます。",
+				'ja-jp': "Typhlosionがアクティブなポカモンである限り、ターンの合間にアクティブなPokã©Mon（あなたと相手の両方）に1つのダメージカウンターを置きます。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "フリッカリングフレーム",
+				'ja-jp': "フリッカリングフレーム",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "50のダメージに加えて、Typhlosionの各ダメージカウンターでさらに10ダメージを与えます。",
+				'ja-jp': "50のダメージに加えて、Typhlosionの各ダメージカウンターでさらに10ダメージを与えます。",
 			},
 		},
 	],

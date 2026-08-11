@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		es: "Grimer",
-		it: "Grimer",
-		pt: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'es-es': "Grimer",
+		'it-it': "Grimer",
+		'pt-br': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Super Poison Breath",
-			fr: "Super Haleine Empoisonnée",
-			es: "Aliento Supervenenoso",
-			it: "Super Velenospiro",
-			pt: "Super-hálito Venenoso",
-			de: "Super-Gifthauch"
+			'en-us': "Super Poison Breath",
+			'fr-fr': "Super Haleine Empoisonnée",
+			'es-es': "Aliento Supervenenoso",
+			'it-it': "Super Velenospiro",
+			'pt-br': "Super-hálito Venenoso",
+			'de-de': "Super-Gifthauch"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 50
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		'en-us': "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
 	},
 
 	thirdParty: {

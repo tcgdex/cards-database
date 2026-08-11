@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Onix"
+		'en-us': "Brock's Onix"
 	},
 
 	illustrator: "Benimaru Itoh",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bind"
+				'en-us': "Bind"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tunneling"
+				'en-us': "Tunneling"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn."
+				'en-us': "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn."
 			},
 			damage: 20,
 

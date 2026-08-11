@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It eats iron ore—and sometimes railroad tracks—\nto build up the steel armor that protects its body.",
-		fr: "Il se nourrit de minerai de fer et parfois même de rails pour se fabriquer une armure d'acier qui protège son corps."
+		'en-us': "It eats iron ore—and sometimes railroad tracks—\nto build up the steel armor that protects its body.",
+		'fr-fr': "Il se nourrit de minerai de fer et parfois même de rails pour se fabriquer une armure d'acier qui protège son corps."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule"
 		},
 
 		damage: 40,

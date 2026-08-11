@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Electhor",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Electhor",
+		'de-de': "Zapdos"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Sheet Lightning",
-				fr: "Feuille éclair",
-				de: "Flächenblitz"
+				'en-us': "Sheet Lightning",
+				'fr-fr': "Feuille éclair",
+				'de-de': "Flächenblitz"
 			},
 			effect: {
-				en: "Once during your turn, when you put Zapdos from your hand onto your Bench, you may flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Electhor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c'est face, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
-				de: "Einmal während deines Zuges kannst du, wenn du Zapdos von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
+				'en-us': "Once during your turn, when you put Zapdos from your hand onto your Bench, you may flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Electhor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c'est face, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Zapdos von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Thunder",
-				fr: "Tonnerre déchaîné",
-				de: "Tosender Donner"
+				'en-us': "Raging Thunder",
+				'fr-fr': "Tonnerre déchaîné",
+				'de-de': "Tosender Donner"
 			},
 			effect: {
-				en: "Does 40 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
-				fr: "Inflige 40 dégâts à 1 de vos Pokémon. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
-				de: "Dieser Angriff fügt 1 deiner Pokémon 40 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+				'en-us': "Does 40 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Inflige 40 dégâts à 1 de vos Pokémon. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Dieser Angriff fügt 1 deiner Pokémon 40 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		'en-us': "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
 	},
 
 	thirdParty: {

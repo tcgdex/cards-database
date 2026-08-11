@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトデマン",
+		'ja-jp': "ヒトデマン",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海辺に 多く 生息。 夜に なると 身体の 中心が 怪しく 赤く 輝きだす。",
+		'ja-jp': "海辺に 多く 生息。 夜に なると 身体の 中心が 怪しく 赤く 輝きだす。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーロット",
+		'ja-jp': "オーロット",
 	},
 
 	illustrator: "Uninori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "根っこを 神経の かわりにして 森の 木を 操る。 体に 棲みついた ポケモンには 親切。",
+		'ja-jp': "根っこを 神経の かわりにして 森の 木を 操る。 体に 棲みついた ポケモンには 親切。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、手札から出すエネルギーをつけられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、手札から出すエネルギーをつけられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボクレー",
+		'ja-jp': "ボクレー",
 	},
 
 	retreat: 3,

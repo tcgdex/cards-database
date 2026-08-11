@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [578],
 
 	name: {
-		en: "Duosion"
+		'en-us': "Duosion"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Solosis"
+		'en-us': "Solosis"
 	},
 
 	description: {
-		en: "Its brain has split into two, and the two\nhalves rarely think alike. Its actions are\nutterly unpredictable."
+		'en-us': "Its brain has split into two, and the two\nhalves rarely think alike. Its actions are\nutterly unpredictable."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			'en-us': "Psyshot"
 		},
 
 		damage: 50,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 		'zh-tw': "禿鷹丫頭",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "すぐに 大きく 育つので お尻の 骸骨は 巣の 中で お下がりとして 使いまわされる。",
+		'ja-jp': "すぐに 大きく 育つので お尻の 骸骨は 巣の 中で お下がりとして 使いまわされる。",
 		'zh-tw': "由於很快就會長大，屁股上的骸骨會接著傳給巢裡更小的禿鷹丫頭用。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいはね",
+				'ja-jp': "するどいはね",
 				'zh-tw': "銳利羽",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "エアスラッシュ",
+				'ja-jp': "エアスラッシュ",
 				'zh-tw': "空氣斬",
 			},
 			damage: 30,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

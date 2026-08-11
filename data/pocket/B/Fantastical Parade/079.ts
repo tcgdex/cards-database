@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [66],
 
 	name: {
-		en: "Machop"
+		'en-us': "Machop"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Always brimming with power, it passes time by\nlifting boulders. Doing so makes it even stronger."
+		'en-us': "Always brimming with power, it passes time by\nlifting boulders. Doing so makes it even stronger."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Shatter"
+			'en-us': "Shatter"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Discard a Stadium in play."
+			'en-us': "Discard a Stadium in play."
 		}
 	}],
 

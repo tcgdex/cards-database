@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Chien-Pao",
-		fr: "Baojian",
-		es: "Chien-Pao",
-		it: "Chien-Pao",
-		pt: "Chien-Pao",
-		de: "Baojian"
+		'en-us': "Chien-Pao",
+		'fr-fr': "Baojian",
+		'es-es': "Chien-Pao",
+		'it-it': "Chien-Pao",
+		'pt-br': "Chien-Pao",
+		'de-de': "Baojian"
   },
   suffix: "EX",
   illustrator: "aky CG Works",

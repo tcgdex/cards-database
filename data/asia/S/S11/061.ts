@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガメノデス",
+		'ja-jp': "ガメノデス",
 		'zh-tw': "龜足巨鎧",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "７匹の カメテテが １匹分の 体を つくっている。 頭が 手足に 命令する 仕組み。",
+		'ja-jp': "７匹の カメテテが １匹分の 体を つくっている。 頭が 手足に 命令する 仕組み。",
 		'zh-tw': "７隻龜腳腳組成了１隻龜足巨鎧的身體。 由頭部對手腳發號施令。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ロストブロック",
+				'ja-jp': "ロストブロック",
 				'zh-tw': "放逐區障礙",
 			},
 			effect: {
-				ja: "このポケモンがいるかぎり、相手がとるサイドは、手札には加えず、ロストゾーンに置く。",
+				'ja-jp': "このポケモンがいるかぎり、相手がとるサイドは、手札には加えず、ロストゾーンに置く。",
 				'zh-tw': "只要這隻寶可夢在場上，對手獲得的獎賞卡不加入手牌，而是放置於放逐區。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ばくれつチョップ",
+				'ja-jp': "ばくれつチョップ",
 				'zh-tw': "爆裂劈",
 			},
 			damage: 100,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	retreat: 3,

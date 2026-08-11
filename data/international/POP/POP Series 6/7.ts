@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Gible"
+		'en-us': "Gible",
+		'fr-fr': "Gible"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,13 +30,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque surprise"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque surprise"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 
 			damage: 30,

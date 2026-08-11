@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Pikachu Star",
-		fr: "Pikachu ☆",
-		de: "Pikachu *"
+		'en-us': "Pikachu Star",
+		'fr-fr': "Pikachu ☆",
+		'de-de': "Pikachu *"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spring Back",
-				fr: "Rebondir",
-				de: "Zurückspringen"
+				'en-us': "Spring Back",
+				'fr-fr': "Rebondir",
+				'de-de': "Zurückspringen"
 			},
 			effect: {
-				en: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage.",
-				fr: "S'il ne reste à votre adversaire qu'1 carte Récompense, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wenn dein Gegner nur noch 1 Preis übrig hat, fügt dieser Angriff 20 Schadenspunkte plus weitere 50 Schadenspunkte zu."
+				'en-us': "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage.",
+				'fr-fr': "S'il ne reste à votre adversaire qu'1 carte Récompense, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Wenn dein Gegner nur noch 1 Preis übrig hat, fügt dieser Angriff 20 Schadenspunkte plus weitere 50 Schadenspunkte zu."
 			},
 			damage: "20+",
 

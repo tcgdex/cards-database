@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [530],
 
 	name: {
-		en: "Excadrill"
+		'en-us': "Excadrill"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Drilbur"
+		'en-us': "Drilbur"
 	},
 
 	description: {
-		en: "Its drill, which has evolved into steel, is strong\nenough to bore through iron plates. This\nPokémon is a great help in tunnel construction."
+		'en-us': "Its drill, which has evolved into steel, is strong\nenough to bore through iron plates. This\nPokémon is a great help in tunnel construction."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slashing Claw"
+			'en-us': "Slashing Claw"
 		},
 
 		damage: 80,

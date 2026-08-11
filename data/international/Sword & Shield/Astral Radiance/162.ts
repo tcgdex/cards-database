@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Lilligant V",
-		fr: "Fragilady de Hisui V",
-		es: "Lilligant de Hisui V",
-		it: "Lilligant di Hisui V",
-		pt: "Lilligant de Hisui V",
-		de: "Hisui-Dressella V"
+		'en-us': "Hisuian Lilligant V",
+		'fr-fr': "Fragilady de Hisui V",
+		'es-es': "Lilligant de Hisui V",
+		'it-it': "Lilligant di Hisui V",
+		'pt-br': "Lilligant de Hisui V",
+		'de-de': "Hisui-Dressella V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -24,32 +24,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dance Gracefully",
-			fr: "Danse Gracieuse",
-			es: "Baila con Gracia",
-			it: "Danza Elegante",
-			pt: "Dança Graciosa",
-			de: "Graziöser Tanz"
+			'en-us': "Dance Gracefully",
+			'fr-fr': "Danse Gracieuse",
+			'es-es': "Baila con Gracia",
+			'it-it': "Danza Elegante",
+			'pt-br': "Dança Graciosa",
+			'de-de': "Graziöser Tanz"
 		},
 
 		effect: {
-			en: "Draw cards until you have 6 cards in your hand.",
-			fr: "Piochez des cartes jusqu'à en avoir 6 en main.",
-			es: "Roba cartas hasta que tengas 6 cartas en tu mano.",
-			it: "Pesca fino ad avere sei carte in mano.",
-			pt: "Compre cartas até ter 6 cartas na sua mão.",
-			de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
+			'en-us': "Draw cards until you have 6 cards in your hand.",
+			'fr-fr': "Piochez des cartes jusqu'à en avoir 6 en main.",
+			'es-es': "Roba cartas hasta que tengas 6 cartas en tu mano.",
+			'it-it': "Pesca fino ad avere sei carte in mano.",
+			'pt-br': "Compre cartas até ter 6 cartas na sua mão.",
+			'de-de': "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
-			it: "Passofoglia",
-			pt: "Passo de Folha",
-			de: "Blattschritt"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha",
+			'de-de': "Blattschritt"
 		},
 
 		damage: 130

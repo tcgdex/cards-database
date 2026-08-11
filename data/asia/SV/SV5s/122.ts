@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Drum Kebangkitan"
+		'id-id': "Drum Kebangkitan"
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		id: "Ambil kartu dari atas Deck untuk tiap Pokémon Purba di Arena sendiri."
+		'id-id': "Ambil kartu dari atas Deck untuk tiap Pokémon Purba di Arena sendiri."
 	},
 
 	trainerType: "Item",

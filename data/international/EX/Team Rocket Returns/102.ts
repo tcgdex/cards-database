@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Scyther ex",
-		de: "Rockets Sichlor ex"
+		'en-us': "Rocket's Scyther ex",
+		'de-de': "Rockets Sichlor ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Armor",
-				de: "Dual Armor"
+				'en-us': "Dual Armor",
+				'de-de': "Dual Armor"
 			},
 			effect: {
-				en: "As long as Rocket's Scyther ex has any Grass Energy attached to it, Rocket's Scyther ex is both Grass and Darkness type.\"",
-				de: "As long as Rocket's Scyther ex has any  Energy attached to it, Rocket's Scyther ex is both  and  type."
+				'en-us': "As long as Rocket's Scyther ex has any Grass Energy attached to it, Rocket's Scyther ex is both Grass and Darkness type.\"",
+				'de-de': "As long as Rocket's Scyther ex has any  Energy attached to it, Rocket's Scyther ex is both  and  type."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bounce",
-				de: "Bounce"
+				'en-us': "Bounce",
+				'de-de': "Bounce"
 			},
 			effect: {
-				en: "After your attack, you may switch Rocket's Scyther ex with 1 of your Benched Pokémon.",
-				de: "After your attack, you may switch Rocket's Scyther ex with 1 of your Benched Pokémon."
+				'en-us': "After your attack, you may switch Rocket's Scyther ex with 1 of your Benched Pokémon.",
+				'de-de': "After your attack, you may switch Rocket's Scyther ex with 1 of your Benched Pokémon."
 			},
 			damage: 10,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				de: "Slashing Strike"
+				'en-us': "Slashing Strike",
+				'de-de': "Slashing Strike"
 			},
 			effect: {
-				en: "Rocket's Scyther ex can't use Slashing Strike during your next turn.",
-				de: "Rocket's Scyther ex can't use Slashing Strike during your next turn."
+				'en-us': "Rocket's Scyther ex can't use Slashing Strike during your next turn.",
+				'de-de': "Rocket's Scyther ex can't use Slashing Strike during your next turn."
 			},
 			damage: 40,
 

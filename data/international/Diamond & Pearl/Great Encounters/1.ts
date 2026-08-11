@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu",
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Dance",
-				fr: "Danse du feu",
-				de: "Feuertanz"
+				'en-us': "Fire Dance",
+				'fr-fr': "Danse du feu",
+				'de-de': "Feuertanz"
 			},
 			effect: {
-				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie Fire et attachez-la à 1 de vos Pokémon.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
+				'en-us': "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie Fire et attachez-la à 1 de vos Pokémon.",
+				'de-de': "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Kick",
-				fr: "Coup enflammé",
-				de: "Flammenkick"
+				'en-us': "Flame Kick",
+				'fr-fr': "Coup enflammé",
+				'de-de': "Flammenkick"
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies Fire attachées à Brasegali. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Entferne 2 -Energien von Lohgock und lege sie auf deinen Ablagestapel. Dieser Angriff fügt 1 Pokémon deines Gegners 80 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Discard 2 Fire Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 2 Énergies Fire attachées à Brasegali. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
+				'de-de': "Entferne 2 -Energien von Lohgock und lege sie auf deinen Ablagestapel. Dieser Angriff fügt 1 Pokémon deines Gegners 80 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+		'en-us': "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Torterra",
-		fr: "Torterra",
-		de: "Chelterrar"
+		'en-us': "Torterra",
+		'fr-fr': "Torterra",
+		'de-de': "Chelterrar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grotle",
-		fr: "Boskara"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Green Blast",
-				fr: "Explosion verte",
-				de: "Green Blast"
+				'en-us': "Green Blast",
+				'fr-fr': "Explosion verte",
+				'de-de': "Green Blast"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Grass attachée à tous vos Pokémon.",
-				de: "Does 40 damage plus 10 more damage for each  Energy attached to all of your Pokémon."
+				'en-us': "Does 40 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Grass attachée à tous vos Pokémon.",
+				'de-de': "Does 40 damage plus 10 more damage for each  Energy attached to all of your Pokémon."
 			},
 			damage: "40+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Soothing Scent",
-				fr: "Senteur apaisante",
-				de: "Soothing Scent"
+				'en-us': "Soothing Scent",
+				'fr-fr': "Senteur apaisante",
+				'de-de': "Soothing Scent"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there."
+		'en-us': "Some Pokémon are born on a TORTERRA's back and spend their entire life there."
 	},
 
 	variants: [

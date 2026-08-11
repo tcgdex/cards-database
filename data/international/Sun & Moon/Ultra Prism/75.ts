@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
-		it: "Stunky",
-		pt: "Stunky",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Gas Bond",
-				fr: "Liaison de Gaz",
-				es: "Mismo Gas",
-				it: "Vincolo di Gas",
-				pt: "Vínculo Gasoso",
-				de: "Gasbund"
+				'en-us': "Gas Bond",
+				'fr-fr': "Liaison de Gaz",
+				'es-es': "Mismo Gas",
+				'it-it': "Vincolo di Gas",
+				'pt-br': "Vínculo Gasoso",
+				'de-de': "Gasbund"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Confused.",
-				fr: "Les deux Pokémon Actifs sont maintenant Confus.",
-				es: "Ambos Pokémon Activos pasan a estar Confundidos.",
-				it: "Entrambi i Pokémon attivi vengono confusi.",
-				pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+				'en-us': "Both Active Pokémon are now Confused.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Confundidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono confusi.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Confusos.",
+				'de-de': "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
+		'en-us': "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
 	},
 
 	thirdParty: {

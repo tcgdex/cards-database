@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
 		'es-mx': "Sandile",
-		de: "Ganovil",
-		it: "Sandile",
-		pt: "Sandile"
+		'de-de': "Ganovil",
+		'it-it': "Sandile",
+		'pt-br': "Sandile"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
 			'es-mx': "Colisión",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete"
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete"
 		},
 
 		damage: 10
@@ -40,13 +40,13 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
 			'es-mx': "Patada Trasera",
-			de: "Rückwärtskick",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro"
+			'de-de': "Rückwärtskick",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro"
 		},
 
 		damage: 20
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+		'en-us': "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
 	},
 
 	illustrator: "Taiga Kasai",

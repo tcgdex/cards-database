@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Roaring Moon",
-		fr: "Rugit-Lune",
-		es: "Bramaluna",
-		it: "Lunaruggente",
-		pt: "Lua Estrondo",
-		de: "Donnersichel"
+		'en-us': "Roaring Moon",
+		'fr-fr': "Rugit-Lune",
+		'es-es': "Bramaluna",
+		'it-it': "Lunaruggente",
+		'pt-br': "Lua Estrondo",
+		'de-de': "Donnersichel"
 	},
 
 	illustrator: "hncl",
@@ -28,17 +28,17 @@ const card: Card = {
 		{
 			cost: ["Darkness"],
 			name: {
-				en: "Vengeance Fletching",
+				'en-us': "Vengeance Fletching",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Ancient card in your discard pile."
+				'en-us': "This attack does 10 more damage for each Ancient card in your discard pile."
 			},
 			damage: "70+",
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Speed Wing",
+				'en-us': "Speed Wing",
 			},
 			damage: 120,
 		},

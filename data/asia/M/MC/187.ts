@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニゴーリ",
+		'ja-jp': "オニゴーリ",
 	},
 
 	illustrator: "Oku",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "空気中の 水分を 一瞬で 凍らせることで 獲物が 逃げられないように する。",
+		'ja-jp': "空気中の 水分を 一瞬で 凍らせることで 獲物が 逃げられないように する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×20ダメージ。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 2,

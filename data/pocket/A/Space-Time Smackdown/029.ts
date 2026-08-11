@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Space-Time Smackdown"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Infernape ex",
-		fr: "Simiabraz-ex",
-		es: "Infernape ex",
-		it: "Infernape-ex",
-		de: "Panferno-ex",
+		'en-us': "Infernape ex",
+		'fr-fr': "Simiabraz-ex",
+		'es-es': "Infernape ex",
+		'it-it': "Infernape-ex",
+		'de-de': "Panferno-ex",
 		'pt-br': "Infernape ex",
-		ko: "초염몽 ex"
+		'ko-kr': "초염몽 ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Monferno"
+		'en-us': "Monferno"
 	},
 
 	stage: "Stage2",
@@ -31,26 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flare Blitz",
-			fr: "Boutefeu",
-			es: "Envite Ígneo",
-			it: "Fuococarica",
-			de: "Flammenblitz",
+			'en-us': "Flare Blitz",
+			'fr-fr': "Boutefeu",
+			'es-es': "Envite Ígneo",
+			'it-it': "Fuococarica",
+			'de-de': "Flammenblitz",
 			'pt-br': "Blitz de Labaredas",
-			ko: "플레어드라이브"
+			'ko-kr': "플레어드라이브"
 		},
 
 		damage: 140,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard all {R} Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies {R} de ce Pokémon.",
-			es: "Descarta todas las Energías {R} de este Pokémon.",
-			it: "Rimuovi tutte le Energie {R} da questo Pokémon.",
-			de: "Lege alle {R}-Energien von diesem Pokémon ab.",
+			'en-us': "Discard all {R} Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies {R} de ce Pokémon.",
+			'es-es': "Descarta todas las Energías {R} de este Pokémon.",
+			'it-it': "Rimuovi tutte le Energie {R} da questo Pokémon.",
+			'de-de': "Lege alle {R}-Energien von diesem Pokémon ab.",
 			'pt-br': "Descarte todas as Energias {R} deste Pokémon.",
-			ko: "이 포켓몬에서 {R}에너지를 모두 트래쉬한다."
+			'ko-kr': "이 포켓몬에서 {R}에너지를 모두 트래쉬한다."
 		}
 	}],
 

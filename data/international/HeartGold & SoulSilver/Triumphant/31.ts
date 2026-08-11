@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Underwater Dive",
-				fr: "Plongée sous-marine",
-				de: "Unterwasserausflug"
+				'en-us': "Underwater Dive",
+				'fr-fr': "Plongée sous-marine",
+				'de-de': "Unterwasserausflug"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, remove 3 damage counters from Wailord.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, retirez 3 marqueurs de dégât à Wailord.",
-				de: "Wirf 2 Münzen. Entferne pro \"Kopf\" 3 Schadensmarken von Wailord."
+				'en-us': "Flip 2 coins. For each heads, remove 3 damage counters from Wailord.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, retirez 3 marqueurs de dégât à Wailord.",
+				'de-de': "Wirf 2 Münzen. Entferne pro \"Kopf\" 3 Schadensmarken von Wailord."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
-				fr: "Engloutir",
-				de: "Runterschlucken"
+				'en-us': "Swallow Up",
+				'fr-fr': "Engloutir",
+				'de-de': "Runterschlucken"
 			},
 			effect: {
-				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage.",
-				fr: "Avant d’infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S’il reste moins de PV au Pokémon Défenseur qu’à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
-				de: "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP des Verteidigenden Pokémon und Wailord. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Wailord, fügt dieser Angriff 50 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage.",
+				'fr-fr': "Avant d’infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S’il reste moins de PV au Pokémon Défenseur qu’à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP des Verteidigenden Pokémon und Wailord. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Wailord, fügt dieser Angriff 50 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
+		'en-us': "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
 	},
 
 	variants: [

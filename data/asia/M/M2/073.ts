@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャンボアイス",
+		'ja-jp': "ジャンボアイス",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "エネルギーが3個以上ついている自分のバトルポケモンのHPを「80」回復する。",
+		'ja-jp': "エネルギーが3個以上ついている自分のバトルポケモンのHPを「80」回復する。",
 	},
 
 	variants: [{"type": "normal"}],

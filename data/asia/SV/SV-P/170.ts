@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリオとネア",
+		'ja-jp': "ビリオとネア",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。その後、自分の手札が10枚以上あるなら、さらに2枚引く。",
+		'ja-jp': "自分の山札を2枚引く。その後、自分の手札が10枚以上あるなら、さらに2枚引く。",
 	},
 
 	variants: [

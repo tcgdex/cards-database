@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイヤー&サンダー&フリーザーGX",
+		'ja-jp': "ファイヤー&サンダー&フリーザーGX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "スカイレジェンドGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。追加で[炎][水][雷]エネルギーが1個ずつついているなら、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。追加で[炎][水][雷]エネルギーが1個ずつついているなら、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

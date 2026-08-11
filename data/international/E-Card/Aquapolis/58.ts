@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Seadra",
-		fr: "Hypocéan",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Bullet",
-				fr: "Cartouche d'O",
-				de: "Wassergeschoss"
+				'en-us': "Water Bullet",
+				'fr-fr': "Cartouche d'O",
+				'de-de': "Wassergeschoss"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Water Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf so viele Münzen, wie -Energie an Seemon angelegt ist. Dieser Angriff fügt 30 Schadenpunkte plus 10 weitere Schadenspunkte pro geworfenem 'Kopf' zu."
+				'en-us': "Flip a number of coins equal to the number of Water Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf so viele Münzen, wie -Energie an Seemon angelegt ist. Dieser Angriff fügt 30 Schadenpunkte plus 10 weitere Schadenspunkte pro geworfenem 'Kopf' zu."
 			},
 			damage: "30+",
 

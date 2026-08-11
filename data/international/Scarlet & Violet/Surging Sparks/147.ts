@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slaking ex",
-		fr: "Monaflèmit-ex",
-		es: "Slaking ex",
-		it: "Slaking-ex",
-		pt: "Slaking ex",
-		de: "Letarking-ex"
+		'en-us': "Slaking ex",
+		'fr-fr': "Monaflèmit-ex",
+		'es-es': "Slaking ex",
+		'it-it': "Slaking-ex",
+		'pt-br': "Slaking ex",
+		'de-de': "Letarking-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 340,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Born to Slack",
-			fr: "Procrastinateur-Né",
-			es: "Holgazán Nato",
-			it: "Pigrizia Innata",
-			pt: "Preguiça de Nascença",
-			de: "Meister der Lethargie"
+			'en-us': "Born to Slack",
+			'fr-fr': "Procrastinateur-Né",
+			'es-es': "Holgazán Nato",
+			'it-it': "Pigrizia Innata",
+			'pt-br': "Preguiça de Nascença",
+			'de-de': "Meister der Lethargie"
 		},
 
 		effect: {
-			en: "If your opponent has no Pokémon ex or Pokémon V in play, this Pokémon can't attack.",
-			fr: "Si votre adversaire n'a aucun Pokémon-ex ni Pokémon-V en jeu, ce Pokémon ne peut pas attaquer.",
-			es: "Si tu rival no tiene ningún Pokémon ex o Pokémon V en juego, este Pokémon no puede atacar.",
-			it: "Se il tuo avversario non ha Pokémon-ex o Pokémon-V in gioco, questo Pokémon non può attaccare.",
-			pt: "Se o seu oponente não tiver Pokémon ex ou Pokémon V em jogo, este Pokémon não poderá atacar.",
-			de: "Wenn dein Gegner kein Pokémon-ex oder Pokémon-V im Spiel hat, kann dieses Pokémon nicht angreifen."
+			'en-us': "If your opponent has no Pokémon ex or Pokémon V in play, this Pokémon can't attack.",
+			'fr-fr': "Si votre adversaire n'a aucun Pokémon-ex ni Pokémon-V en jeu, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Si tu rival no tiene ningún Pokémon ex o Pokémon V en juego, este Pokémon no puede atacar.",
+			'it-it': "Se il tuo avversario non ha Pokémon-ex o Pokémon-V in gioco, questo Pokémon non può attaccare.",
+			'pt-br': "Se o seu oponente não tiver Pokémon ex ou Pokémon V em jogo, este Pokémon não poderá atacar.",
+			'de-de': "Wenn dein Gegner kein Pokémon-ex oder Pokémon-V im Spiel hat, kann dieses Pokémon nicht angreifen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Great Swing",
-			fr: "Grande Frappe",
-			es: "Golpe Excelente",
-			it: "Colpo Immane",
-			pt: "Murrão",
-			de: "Riesiger Rundschlag"
+			'en-us': "Great Swing",
+			'fr-fr': "Grande Frappe",
+			'es-es': "Golpe Excelente",
+			'it-it': "Colpo Immane",
+			'pt-br': "Murrão",
+			'de-de': "Riesiger Rundschlag"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 280

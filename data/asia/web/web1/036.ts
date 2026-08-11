@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュ",
+		'ja-jp': "ライチュ",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドが、相手の次のターン中に、ライチーに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドが、相手の次のターン中に、ライチーに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "雷",
+				'ja-jp': "雷",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、ライチュはそれ自体に30のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、ライチュはそれ自体に30のダメージを与えます。",
 			},
 			damage: 60,
 		},

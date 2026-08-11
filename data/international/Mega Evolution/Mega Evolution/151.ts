@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		de: "Habitak",
-		it: "Spearow",
-		es: "Spearow",
-		pt: "Spearow",
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'de-de': "Habitak",
+		'it-it': "Spearow",
+		'es-es': "Spearow",
+		'pt-br': "Spearow",
 		'es-mx': "Spearow"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pluck",
-			fr: "Picore",
-			de: "Pflücker",
-			it: "Spennata",
-			es: "Picoteo",
-			pt: "Colher",
+			'en-us': "Pluck",
+			'fr-fr': "Picore",
+			'de-de': "Pflücker",
+			'it-it': "Spennata",
+			'es-es': "Picoteo",
+			'pt-br': "Colher",
 			'es-mx': "Picoteo"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
 			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival."
 		},
 

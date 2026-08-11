@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Blissey",
-		fr: "Leuphorie",
-		de: "Heiteira"
+		'en-us': "Blissey",
+		'fr-fr': "Leuphorie",
+		'de-de': "Heiteira"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chansey",
-		fr: "Leveinard"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Nurse Call",
-				fr: "Appel à l'infirmière",
-				de: "Nurse Call"
+				'en-us': "Nurse Call",
+				'fr-fr': "Appel à l'infirmière",
+				'de-de': "Nurse Call"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a card from your hand. If you do, remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Nurse Call Poké-Power each turn. This power can't be used if Blissey is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Retirez alors à 1 de vos Pokémon 2 marqueurs de dégât. Vous ne pouvez pas utiliser plus d'1 Poké-Power Appel à l'infirmière par tour. Ce pouvoir ne peut pas être utilisé si Leuphorie est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may discard a card from your hand. If you do, remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Nurse Call Poké-Power each turn. This power can't be used if Blissey is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may discard a card from your hand. If you do, remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Nurse Call Poké-Power each turn. This power can't be used if Blissey is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Retirez alors à 1 de vos Pokémon 2 marqueurs de dégât. Vous ne pouvez pas utiliser plus d'1 Poké-Power Appel à l'infirmière par tour. Ce pouvoir ne peut pas être utilisé si Leuphorie est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may discard a card from your hand. If you do, remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Nurse Call Poké-Power each turn. This power can't be used if Blissey is affected by a Special Condition."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				de: "Return"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'de-de': "Return"
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
-				de: "Draw cards until you have 6 cards in your hand."
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				'de-de': "Draw cards until you have 6 cards in your hand."
 			},
 			damage: 20,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-edge"
 			},
 			effect: {
-				en: "Blissey does 60 damage to itself.",
-				fr: "Leuphorie s'inflige 60 dégâts.",
-				de: "Blissey does 60 damage to itself."
+				'en-us': "Blissey does 60 damage to itself.",
+				'fr-fr': "Leuphorie s'inflige 60 dégâts.",
+				'de-de': "Blissey does 60 damage to itself."
 			},
 			damage: 100,
 

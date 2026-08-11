@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		de: "Jungglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'de-de': "Jungglut"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Natural Cure",
-				fr: "Remède naturel",
-				de: "Innere Kraft"
+				'en-us': "Natural Cure",
+				'fr-fr': "Remède naturel",
+				'de-de': "Innere Kraft"
 			},
 			effect: {
-				en: "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
-				fr: "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
+				'en-us': "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
+				'de-de': "Wenn du eine -Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Ausfall"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 

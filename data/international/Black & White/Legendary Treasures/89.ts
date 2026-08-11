@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
+		'en-us': "Zorua",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Ascension",
+				'en-us': "Ascension",
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
+				'en-us': "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				'en-us': "Scratch",
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		'en-us': "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
 	},
 
 	thirdParty: {

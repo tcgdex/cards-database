@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [854],
 
 	name: {
-		en: "Sinistea"
+		'en-us': "Sinistea"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Sinistea gets into your body when you drink it,\nand then it steals your vitality from within. It also\ntastes awful."
+		'en-us': "Sinistea gets into your body when you drink it,\nand then it steals your vitality from within. It also\ntastes awful."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hide"
+			'en-us': "Hide"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
 		}
 	}],
 

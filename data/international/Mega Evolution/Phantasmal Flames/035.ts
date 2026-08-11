@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		es: "Misdreavus",
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'es-es': "Misdreavus",
 		'es-mx': "Misdreavus",
-		de: "Traunfugil",
-		it: "Misdreavus",
-		pt: "Misdreavus"
+		'de-de': "Traunfugil",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
 			'es-mx': "Rencor Ruin",
-			de: "Mini-Groll",
-			it: "Rancormeschino",
-			pt: "Rancinho"
+			'de-de': "Mini-Groll",
+			'it-it': "Rancormeschino",
+			'pt-br': "Rancinho"
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+		'en-us': "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
 	},
 
 	illustrator: "Mousho",

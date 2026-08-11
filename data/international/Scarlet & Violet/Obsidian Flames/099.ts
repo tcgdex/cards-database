@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Toutombe",
-		en: "Greavard",
-		es: "Greavard",
-		it: "Greavard",
-		pt: "Greavard",
-		de: "Gruff"
+		'fr-fr': "Toutombe",
+		'en-us': "Greavard",
+		'es-es': "Greavard",
+		'it-it': "Greavard",
+		'pt-br': "Greavard",
+		'de-de': "Gruff"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Ronge",
-			en: "Gnaw",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'fr-fr': "Ronge",
+			'en-us': "Gnaw",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Tir Effrayant",
-			en: "Spooky Shot",
-			es: "Disparo Embrujado",
-			it: "Colpomistero",
-			pt: "Tiro Assustador",
-			de: "Spukschuss"
+			'fr-fr': "Tir Effrayant",
+			'en-us': "Spooky Shot",
+			'es-es': "Disparo Embrujado",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador",
+			'de-de': "Spukschuss"
 		},
 
 		damage: 20
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
+		'en-us': "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
 	},
 
 	variants: [

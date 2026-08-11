@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		de: "Plinfa",
-		it: "Piplup",
-		es: "Piplup",
-		pt: "Piplup",
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'de-de': "Plinfa",
+		'it-it': "Piplup",
+		'es-es': "Piplup",
+		'pt-br': "Piplup",
 		'es-mx': "Piplup"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			de: "Pikser",
-			it: "Beccata",
-			es: "Picotazo",
-			pt: "Bicada",
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'de-de': "Pikser",
+			'it-it': "Beccata",
+			'es-es': "Picotazo",
+			'pt-br': "Bicada",
 			'es-mx': "Picotazo"
 		},
 

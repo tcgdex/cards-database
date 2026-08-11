@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		es: "Flareon",
-		it: "Flareon",
-		pt: "Flareon",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'es-es': "Flareon",
+		'it-it': "Flareon",
+		'pt-br': "Flareon",
+		'de-de': "Flamara"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand-Attack",
-				fr: "Jet de Sable"
+				'en-us': "Sand-Attack",
+				'fr-fr': "Jet de Sable"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien."
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Slash",
-				fr: "Flamme Tranchante"
+				'en-us': "Fire Slash",
+				'fr-fr': "Flamme Tranchante"
 			},
 			effect: {
-				en: "You may discard a Fire Energy attached to this Pokémon. If you do, this attack does 30 more damage.",
-				fr: "Vous pouvez défausser une Énergie  attachée à ce Pokémon. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires."
+				'en-us': "You may discard a Fire Energy attached to this Pokémon. If you do, this attack does 30 more damage.",
+				'fr-fr': "Vous pouvez défausser une Énergie  attachée à ce Pokémon. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
+		'en-us': "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

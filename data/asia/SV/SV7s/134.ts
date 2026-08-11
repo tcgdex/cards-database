@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮิโนยาโคมะ",
-		id: "Fletchinder"
+		'th-th': "ฮิโนยาโคมะ",
+		'id-id': "Fletchinder"
 	},
 
 	illustrator: "Julie Hang",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ครอบครองอาณาเขตที่มีรัศมีราว 2-3 กิโลเมตร จะไม่ยกโทษให้กับโปเกมอนนกที่รุกล้ำเข้ามาในอาณาเขตของตน",
-		id: "Fletchinder memiliki wilayah teritorial berjarak radius 2–3 km. Pokémon ini tanpa ampun menyerbu Pokémon burung yang memasuki wilayah teritorialnya."
+		'th-th': "ครอบครองอาณาเขตที่มีรัศมีราว 2-3 กิโลเมตร จะไม่ยกโทษให้กับโปเกมอนนกที่รุกล้ำเข้ามาในอาณาเขตของตน",
+		'id-id': "Fletchinder memiliki wilayah teritorial berjarak radius 2–3 km. Pokémon ini tanpa ampun menyerbu Pokémon burung yang memasuki wilayah teritorialnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "บินเร็วจี๋",
-			id: "Terbang Cepat"
+			'th-th': "บินเร็วจี๋",
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 50,

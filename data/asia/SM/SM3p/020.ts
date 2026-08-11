@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "キバは 抜けても 次から 次に 生えてくる。 いつも 口の中には ４８本の キバが そろっている。",
+		'ja-jp': "キバは 抜けても 次から 次に 生えてくる。 いつも 口の中には ４８本の キバが そろっている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "とびこむ" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。自分のバトルポケモンについているエネルギーをすべて、このポケモンにつけ替える。つけ替えた場合、このポケモンをバトルポケモンと入れ替える。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。自分のバトルポケモンについているエネルギーをすべて、このポケモンにつけ替える。つけ替えた場合、このポケモンをバトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワニノコ",
+		'ja-jp': "ワニノコ",
 	},
 
 	retreat: 3,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [5],
 
 	name: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	illustrator: "DOM",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmander"
+		'en-us': "Charmander"
 	},
 
 	description: {
-		en: "If it becomes agitated during battle, it spouts\nintense flames, incinerating its surroundings."
+		'en-us': "If it becomes agitated during battle, it spouts\nintense flames, incinerating its surroundings."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Ignition"
+			'en-us': "Ignition"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may take a {R} Energy from your Energy Zone and attach it to your Active {R} Pokémon."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may take a {R} Energy from your Energy Zone and attach it to your Active {R} Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Steady Firebreathing"
+			'en-us': "Steady Firebreathing"
 		},
 
 		damage: 50,

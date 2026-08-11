@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Scyther.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Insécateur.",
-				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Sichlor zugefügt werden."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Scyther.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Insécateur.",
+				'de-de': "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Sichlor zugefügt werden."
 			},
 			damage: 10,
 
@@ -51,9 +51,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sharp Sickle",
-				fr: "Lame-aiguisée",
-				de: "Scharfe Sichel"
+				'en-us': "Sharp Sickle",
+				'fr-fr': "Lame-aiguisée",
+				'de-de': "Scharfe Sichel"
 			},
 
 			damage: 40,
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen.",
-		fr: "Il se déplace si vite qu'il est invisible à l'oeil nu. Même quand il est immobile, son camouflage lui permet de ne pas être vu."
+		'en-us': "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen.",
+		'fr-fr': "Il se déplace si vite qu'il est invisible à l'oeil nu. Même quand il est immobile, son camouflage lui permet de ne pas être vu."
 	},
 
 

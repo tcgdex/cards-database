@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンジャスク",
+		'ja-jp': "ニンジャスク",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "迅速な保護",
+				'ja-jp': "迅速な保護",
 			},
 			effect: {
-				ja: "彼または彼女の基本的なポカンからの相手の攻撃によってニンジャスクに与えられた損傷を含むすべての効果を防​​ぎます。",
+				'ja-jp': "彼または彼女の基本的なポカンからの相手の攻撃によってニンジャスクに与えられた損傷を含むすべての効果を防​​ぎます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "剣の踊り",
+				'ja-jp': "剣の踊り",
 			},
 			effect: {
-				ja: "次のターン中、ニンジャスクのスラッシュ攻撃のベースダメージは80です。",
+				'ja-jp': "次のターン中、ニンジャスクのスラッシュ攻撃のベースダメージは80です。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 30,
 		},

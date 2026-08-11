@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		es: "Crawdaunt",
-		it: "Crawdaunt",
-		pt: "Crawdaunt",
-		de: "Krebutack"
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'es-es': "Crawdaunt",
+		'it-it': "Crawdaunt",
+		'pt-br': "Crawdaunt",
+		'de-de': "Krebutack"
 	},
 
 	illustrator: "Hasegawa Saki",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	attacks: [{
 		name: {
-			en: "Knock Off",
-			fr: "Sabotage",
-			es: "Desarme",
-			it: "Privazione",
-			pt: "Derrubar",
-			de: "Abschlag"
+			'en-us': "Knock Off",
+			'fr-fr': "Sabotage",
+			'es-es': "Desarme",
+			'it-it': "Privazione",
+			'pt-br': "Derrubar",
+			'de-de': "Abschlag"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 60,
 		cost: ["Water", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Crabhammer",
-			fr: "Pince-Masse",
-			es: "Martillazo",
-			it: "Martellata",
-			pt: "Martelo Caranguejo",
-			de: "Krabbhammer"
+			'en-us': "Crabhammer",
+			'fr-fr': "Pince-Masse",
+			'es-es': "Martillazo",
+			'it-it': "Martellata",
+			'pt-br': "Martelo Caranguejo",
+			'de-de': "Krabbhammer"
 		},
 
 		damage: 140,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
+		'en-us': "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoking"
+		'en-us': "Giovanni's Nidoking"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino"
+		'en-us': "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Intimidate"
+				'en-us': "Intimidate"
 			},
 			effect: {
-				en: "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+				'en-us': "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tumbling Attack"
+				'en-us': "Tumbling Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage."
 			},
 			damage: "40+",
 

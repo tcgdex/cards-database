@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Brute Bonnet"
+		'id-id': "Brute Bonnet"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Terdapat kemungkinan bahwa Pokémon ini merupakan makhluk hidup yang tertera sebagai Brute Bonnet dalam suatu buku."
+		'id-id': "Terdapat kemungkinan bahwa Pokémon ini merupakan makhluk hidup yang tertera sebagai Brute Bonnet dalam suatu buku."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Bubuk Debu Racun Ekstrem"
+			'id-id': "Bubuk Debu Racun Ekstrem"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini mengenakan Pemacu Energi Purba. Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Racun."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini mengenakan Pemacu Energi Purba. Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Racun."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Palu Mengamuk"
+			'id-id': "Palu Mengamuk"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 120,

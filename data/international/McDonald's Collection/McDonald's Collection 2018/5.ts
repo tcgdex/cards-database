@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke"
+		'en-us': "Slowpoke"
 	},
 
 	rarity: "None",
@@ -20,7 +20,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				'en-us': "Headbutt",
 			},
 			damage: 10,
 		},
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic", "Colorless", "Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
+				'en-us': "Whimsy Tackle",
 			},
 			effect: {
-				en: "Flip a coin. If tails this attack does nothing."
+				'en-us': "Flip a coin. If tails this attack does nothing."
 			},
 			damage: 60
 		},

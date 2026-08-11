@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		es: "Skwovet",
-		it: "Skwovet",
-		pt: "Skwovet",
-		de: "Raffel"
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
 	},
 
 	illustrator: "OKACHEKE",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scrounge",
-			fr: "Fouissage",
-			es: "Rebuscar",
-			it: "Sbafo",
-			pt: "Vasculhada",
-			de: "Abstauben"
+			'en-us': "Scrounge",
+			'fr-fr': "Fouissage",
+			'es-es': "Rebuscar",
+			'it-it': "Sbafo",
+			'pt-br': "Vasculhada",
+			'de-de': "Abstauben"
 		},
 
 		effect: {
-			en: "Put a Pokémon Tool card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Outil Pokémon de votre pile de défausse à votre main.",
-			es: "Pon 1 carta de Herramienta Pokémon de tu pila de descartes en tu mano.",
-			it: "Prendi una carta Oggetto Pokémon dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Pokémon-Ausrüstung aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put a Pokémon Tool card from your discard pile into your hand.",
+			'fr-fr': "Ajoutez une carte Outil Pokémon de votre pile de défausse à votre main.",
+			'es-es': "Pon 1 carta de Herramienta Pokémon de tu pila de descartes en tu mano.",
+			'it-it': "Prendi una carta Oggetto Pokémon dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma carta de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm 1 Pokémon-Ausrüstung aus deinem Ablagestapel auf deine Hand."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10,
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
+		'en-us': "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
 	},
 
 	variants: [

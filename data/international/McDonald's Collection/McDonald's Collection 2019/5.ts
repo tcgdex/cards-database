@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,35 +9,35 @@ const card: Card = {
 	dexId: [131],
 
 	description: {
-		en: "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them."
+		'en-us': "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Aqua Bullet"
+			'en-us': "Aqua Bullet"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			'en-us': "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
 		}
 	}, {
 		name: {
-			en: "Hydro Pump"
+			'en-us': "Hydro Pump"
 		},
 
 		damage: "70+",
 
 		effect: {
-			en: "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon."
+			'en-us': "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Lapras"
+		'en-us': "Lapras"
 	},
 
 	rarity: "None",

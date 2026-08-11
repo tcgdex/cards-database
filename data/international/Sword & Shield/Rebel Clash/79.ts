@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Galarian Cursola",
-		fr: "Corayôme de Galar",
-		es: "Cursola de Galar",
-		it: "Cursola di Galar",
-		pt: "Cursola de Galar",
-		de: "Galar-Gorgasonn"
+		'en-us': "Galarian Cursola",
+		'fr-fr': "Corayôme de Galar",
+		'es-es': "Cursola de Galar",
+		'it-it': "Cursola di Galar",
+		'pt-br': "Cursola de Galar",
+		'de-de': "Galar-Gorgasonn"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,32 +18,32 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Galarian Corsola",
-		fr: "Corayon de Galar",
-		es: "Corsola de Galar",
-		it: "Corsola di Galar",
-		pt: "Corsola de Galar",
-		de: "Galar-Corasonn"
+		'en-us': "Galarian Corsola",
+		'fr-fr': "Corayon de Galar",
+		'es-es': "Corsola de Galar",
+		'it-it': "Corsola di Galar",
+		'pt-br': "Corsola de Galar",
+		'de-de': "Galar-Corasonn"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Perish Body",
-				fr: "Corps Condamné",
-				es: "Cuerpo Mortal",
-				it: "Ultimotocco",
-				pt: "Corpo Perecido",
-				de: "Unheilskörper"
+				'en-us': "Perish Body",
+				'fr-fr': "Corps Condamné",
+				'es-es': "Cuerpo Mortal",
+				'it-it': "Ultimotocco",
+				'pt-br': "Corpo Perecido",
+				'de-de': "Unheilskörper"
 			},
 			effect: {
-				en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
-				fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, le Pokémon Attaquant est mis K.O.",
-				es: "Si este Pokémon está en el Puesto Activo y queda Fuera de Combate por el daño de un ataque de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate.",
-				it: "Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco dell'avversario, lancia una moneta. Se esce testa, il Pokémon attaccante viene messo KO.",
-				pt: "Se este Pokémon estiver no Campo Ativo e for Nocauteado pelo dano de um ataque do seu oponente, jogue 1 moeda. Se sair cara, o Pokémon Atacante será Nocauteado.",
-				de: "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke deines Gegners kampfunfähig wird, wirf 1 Münze. Bei Kopf ist das Angreifende Pokémon kampfunfähig."
+				'en-us': "If this Pokémon is in the Active Spot and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
+				'fr-fr': "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, le Pokémon Attaquant est mis K.O.",
+				'es-es': "Si este Pokémon está en el Puesto Activo y queda Fuera de Combate por el daño de un ataque de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate.",
+				'it-it': "Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco dell'avversario, lancia una moneta. Se esce testa, il Pokémon attaccante viene messo KO.",
+				'pt-br': "Se este Pokémon estiver no Campo Ativo e for Nocauteado pelo dano de um ataque do seu oponente, jogue 1 moeda. Se sair cara, o Pokémon Atacante será Nocauteado.",
+				'de-de': "Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke deines Gegners kampfunfähig wird, wirf 1 Münze. Bei Kopf ist das Angreifende Pokémon kampfunfähig."
 			},
 		},
 	],
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corner",
-				fr: "Coinçage",
-				es: "Arrinconar",
-				it: "Trappola",
-				pt: "Quina",
-				de: "Bedrängen"
+				'en-us': "Corner",
+				'fr-fr': "Coinçage",
+				'es-es': "Arrinconar",
+				'it-it': "Trappola",
+				'pt-br': "Quina",
+				'de-de': "Bedrängen"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-				de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+				'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+				'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+				'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 			},
 			damage: 60,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+		'en-us': "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
 	},
 
 	variants: [

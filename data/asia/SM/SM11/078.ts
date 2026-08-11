@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デカグース",
+		'ja-jp': "デカグース",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "もともと アローラには いなかったが 昔 コラッタが 大量に 発生したときに 連れて来られた。",
+		'ja-jp': "もともと アローラには いなかったが 昔 コラッタが 大量に 発生したときに 連れて来られた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンGX・EX」なら、このワザのダメージは「30」になる。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンGX・EX」なら、このワザのダメージは「30」になる。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 	},
 
 	retreat: 1,

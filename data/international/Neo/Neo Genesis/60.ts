@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnosis"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnosis"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Koud'bec",
-				de: "Peck"
+				'en-us': "Peck",
+				'fr-fr': "Koud'bec",
+				'de-de': "Peck"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It always stands on one foot. It changes feet so fast that the movement can rarely be seen.",
-		fr: "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement."
+		'en-us': "It always stands on one foot. It changes feet so fast that the movement can rarely be seen.",
+		'fr-fr': "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement."
 	},
 
 

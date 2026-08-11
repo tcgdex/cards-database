@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Snubbull",
+		'ja-jp': "Snubbull",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "荒れ狂うヘッドバット",
+				'ja-jp': "荒れ狂うヘッドバット",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、この攻撃は10ダメージを加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、この攻撃は10ダメージを加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

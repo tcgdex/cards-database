@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィアV",
+		'ja-jp': "ニンフィアV",
 		'zh-tw': "仙子伊布V",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ドリームギフト",
+				'ja-jp': "ドリームギフト",
 				'zh-tw': "夢境之禮",
 			},
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "在自己的回合時可使用1次，若使用，則自己的回合結束。從自己的牌庫選擇1張物品卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
@@ -32,7 +32,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "マジカルショット",
+				'ja-jp': "マジカルショット",
 				'zh-tw': "魔法射擊",
 			},
 			damage: 60,

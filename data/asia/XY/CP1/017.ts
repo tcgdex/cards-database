@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のポチエナ",
+		'ja-jp': "マグマ団のポチエナ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ポチエナの 鼻は どんな 匂いも 嗅ぎ分けられるから 偵察のときに とても 役立つんだ。",
+		'ja-jp': "ポチエナの 鼻は どんな 匂いも 嗅ぎ分けられるから 偵察のときに とても 役立つんだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "せんにゅう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arbok",
-		fr: "Arbok"
+		'en-us': "Arbok",
+		'fr-fr': "Arbok"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Ekans"
+		'en-us': "Ekans"
 	},
 
 	description: {
-		en: "The latest research has determined that there\nare over 20 possible arrangements of the\npatterns on its stomach.",
-		fr: "Une étude récente aurait recensé plus de vingt motifs différents pouvant orner le devant du capuchon des Arbok."
+		'en-us': "The latest research has determined that there\nare over 20 possible arrangements of the\npatterns on its stomach.",
+		'fr-fr': "Une étude récente aurait recensé plus de vingt motifs différents pouvant orner le devant du capuchon des Arbok."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Corner",
-			fr: "Coinçage"
+			'en-us': "Corner",
+			'fr-fr': "Coinçage"
 		},
 
 		damage: 60,
 		cost: ["Darkness", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
 

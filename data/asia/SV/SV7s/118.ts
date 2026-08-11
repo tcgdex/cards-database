@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิบาโกะ",
-		id: "Axew"
+		'th-th': "คิบาโกะ",
+		'id-id': "Axew"
 	},
 
 	illustrator: "Orca",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		th: "ถ้าเจอรอยกัดที่เป็นเอกลักษณ์ตามหินหรือต้นไม้ แสดงว่าคงมีคิบาโกะอาศัยอยู่แถว ๆ นั้น",
-		id: "Jika menemukan bekas gigitan yang khas pada batu dan pohon, itu berarti Axew tinggal di dekat sana."
+		'th-th': "ถ้าเจอรอยกัดที่เป็นเอกลักษณ์ตามหินหรือต้นไม้ แสดงว่าคงมีคิบาโกะอาศัยอยู่แถว ๆ นั้น",
+		'id-id': "Jika menemukan bekas gigitan yang khas pada batu dan pohon, itu berarti Axew tinggal di dekat sana."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ข่วน",
-			id: "Mencakar"
+			'th-th': "ข่วน",
+			'id-id': "Mencakar"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			th: "เขี้ยวคม",
-			id: "Taring Tajam"
+			'th-th': "เขี้ยวคม",
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 30,

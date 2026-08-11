@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのレアコイル",
+		'ja-jp': "マチスのレアコイル",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "エネルギー電荷",
+				'ja-jp': "エネルギー電荷",
 			},
 			effect: {
-				ja: "ターン中に好きなように（攻撃の前）</em> </em>、SurgeのMagneton中tがあなたのアクティブなPokmonである場合、Pokmonの1つに1つのLightning Energyカードを取り付けて、Surgeのマグネトン中Lに取り付けることができます。 Surgeのマグネトン中tが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に好きなように（攻撃の前）</em> </em>、SurgeのMagneton中tがあなたのアクティブなPokmonである場合、Pokmonの1つに1つのLightning Energyカードを取り付けて、Surgeのマグネトン中Lに取り付けることができます。 Surgeのマグネトン中tが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "メガショック",
+				'ja-jp': "メガショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。 Tailsの場合、SurgeのMagneton中tはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。 Tailsの場合、SurgeのMagneton中tはそれ自体に20のダメージを与えます。",
 			},
 			damage: 50,
 		},

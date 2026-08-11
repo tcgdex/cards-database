@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンマ",
+		'ja-jp': "ヤンマ",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ヤンマに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ヤンマに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "トリプルスマッシュ",
+				'ja-jp': "トリプルスマッシュ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対してさらに10ダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対してさらに10ダメージを与えます。",
 			},
 		},
 	],

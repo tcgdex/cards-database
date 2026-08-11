@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		es: "Bewear",
-		it: "Bewear",
-		pt: "Bewear",
-		de: "Kosturso"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'es-es': "Bewear",
+		'it-it': "Bewear",
+		'pt-br': "Bewear",
+		'de-de': "Kosturso"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	stage: "Stage1",
@@ -40,41 +40,41 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest."
+		'en-us': "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest."
 	},
 
 	attacks: [{
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Split Spiral Punch",
-			fr: "Coup d'Poing en Demi Spirale",
-			de: "Spiralhieb",
-			es: "Puño en Espiral Cortante",
-			pt: "Soco Espiral Dividido",
-			it: "Spiralpugno Squarciante"
+			'en-us': "Split Spiral Punch",
+			'fr-fr': "Coup d'Poing en Demi Spirale",
+			'de-de': "Spiralhieb",
+			'es-es': "Puño en Espiral Cortante",
+			'pt-br': "Soco Espiral Dividido",
+			'it-it': "Spiralpugno Squarciante"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			de: "Stärke",
-			es: "Fuerza",
-			pt: "Força",
-			it: "Forza"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'de-de': "Stärke",
+			'es-es': "Fuerza",
+			'pt-br': "Força",
+			'it-it': "Forza"
 		},
 
 		damage: 130

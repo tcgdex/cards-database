@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤナッキー",
+		'ja-jp': "ヤナッキー",
 	},
 
 	illustrator: "kurumitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "気性が 激しく トゲの ついた 尻尾を 振り回して 戦う。 頭の 葉っぱは とても 苦い。",
+		'ja-jp': "気性が 激しく トゲの ついた 尻尾を 振り回して 戦う。 頭の 葉っぱは とても 苦い。",
 	},
 
 	stage: "Stage1",
@@ -36,7 +36,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤナップ",
+		'ja-jp': "ヤナップ",
 	},
 
 	retreat: 1,

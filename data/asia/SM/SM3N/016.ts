@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シビビール",
+		'ja-jp': "シビビール",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "相手に 巻きつき まるい はん点から 電気を 流して しびれたところを まるかじりする。",
+		'ja-jp': "相手に 巻きつき まるい はん点から 電気を 流して しびれたところを まるかじりする。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンの最大HPが「100」以上なら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンの最大HPが「100」以上なら、このワザは失敗。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シビシラス",
+		'ja-jp': "シビシラス",
 	},
 
 	retreat: 2,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Darkrai-EX",
+		'en-us': "Darkrai-EX",
 	},
 
 	illustrator: "Shizurow",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dark Cloak",
+				'en-us': "Dark Cloak",
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Darkness Energy attached to it has no Retreat Cost.",
+				'en-us': "Each of your Pokémon that has any Darkness Energy attached to it has no Retreat Cost.",
 			},
 		},
 	],
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Spear",
+				'en-us': "Night Spear",
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 90,
 

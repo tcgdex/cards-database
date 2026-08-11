@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fomantis",
-		fr: "Mimantis",
-		es: "Fomantis",
-		it: "Fomantis",
-		pt: "Fomantis",
-		de: "Imantis"
+		'en-us': "Fomantis",
+		'fr-fr': "Mimantis",
+		'es-es': "Fomantis",
+		'it-it': "Fomantis",
+		'pt-br': "Fomantis",
+		'de-de': "Imantis"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Continuous Slash",
-			fr: "Tranche Sans Fin",
-			es: "Cuchillada Continua",
-			it: "Lameterna",
-			pt: "Corte Contínuo",
-			de: "Stetiger Schlitzer"
+			'en-us': "Continuous Slash",
+			'fr-fr': "Tranche Sans Fin",
+			'es-es': "Cuchillada Continua",
+			'it-it': "Lameterna",
+			'pt-br': "Corte Contínuo",
+			'de-de': "Stetiger Schlitzer"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			pt: "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "20×",
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
+		'en-us': "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
 	},
 
 	variants: [

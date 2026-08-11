@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Chimpenfeu",
+		'en-us': "Chimchar",
+		'fr-fr': "Chimpenfeu",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
 	},
 
 	stage: "Basic",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Super Roussi",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Super Roussi",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage for each heads.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			},
 			damage: "10×",
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
+		'en-us': "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
 	},
 
 	variants: [

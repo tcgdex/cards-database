@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Hau",
-		fr: "Tili",
-		es: "Tilo",
-		it: "Hau",
-		pt: "Hibi",
-		de: "Tali"
+		'en-us': "Hau",
+		'fr-fr': "Tili",
+		'es-es': "Tilo",
+		'it-it': "Hau",
+		'pt-br': "Hibi",
+		'de-de': "Tali"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Piochez 3 cartes.",
-		en: "Draw 3 cards.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		'fr-fr': "Piochez 3 cartes.",
+		'en-us': "Draw 3 cards.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cartas.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippowdon"
+		'en-us': "Hippowdon"
 	},
 
 	illustrator: "Teeziro",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Hippopotas"
+		'en-us': "Hippopotas"
 	},
 
 	description: {
-		en: "It brandishes its gaping mouth in a display of\nfearsome strength. It raises vast quantities of\nsand while attacking."
+		'en-us': "It brandishes its gaping mouth in a display of\nfearsome strength. It raises vast quantities of\nsand while attacking."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Crashing Fangs"
+			'en-us': "Crashing Fangs"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack."
+			'en-us': "Flip a coin. If tails, during your next turn, this Pokémon can't attack."
 		}
 	}],
 

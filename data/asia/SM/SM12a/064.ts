@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手の 影に 潜って 動きや 力を 真似る。 真似ているうちに 本物 よりも 強くなるぞ。",
+		'ja-jp': "相手の 影に 潜って 動きや 力を 真似る。 真似ているうちに 本物 よりも 強くなるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "リセットホール" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、このポケモンと、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、このポケモンと、ついているすべてのカードを、トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ウルトラビースト」なら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ウルトラビースト」なら、60ダメージ追加。",
 			},
 		},
 	],

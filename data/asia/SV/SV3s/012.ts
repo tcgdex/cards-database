@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scovillain"
+		'id-id': "Scovillain"
 	},
 
 	illustrator: "kodama",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Kepala merah Scovillain mengubah komponen pedas menjadi energi api dan menyebarkan semburan api yang sangat pedas."
+		'id-id': "Kepala merah Scovillain mengubah komponen pedas menjadi energi api dan menyebarkan semburan api yang sangat pedas."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tipe Ganda"
+			'id-id': "Tipe Ganda"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
+			'id-id': "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Spicy Head"
+			'id-id': "Spicy Head"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
 		},
 
 		damage: 110,

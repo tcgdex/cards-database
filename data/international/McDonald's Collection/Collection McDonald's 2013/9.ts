@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Noctali",
+		'fr-fr': "Noctali",
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "None",
@@ -20,20 +20,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Onde Folie",
+				'fr-fr': "Onde Folie",
 			},
 			effect: {
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				fr: "Dépouillage des Ombres",
+				'fr-fr': "Dépouillage des Ombres",
 			},
 			effect: {
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
 			},
 			damage: 60,
 		},

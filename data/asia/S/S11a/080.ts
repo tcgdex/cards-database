@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホウオウV",
+		'ja-jp': "ホウオウV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふっかつのほのお" },
 			effect: {
-				ja: "このカードがトラッシュにあるなら、自分の番に1回使えて、使ったなら、自分の番は終わる。このカードをベンチに出す。その後、自分のトラッシュから基本エネルギーを4枚まで選び、このポケモンにつける。",
+				'ja-jp': "このカードがトラッシュにあるなら、自分の番に1回使えて、使ったなら、自分の番は終わる。このカードをベンチに出す。その後、自分のトラッシュから基本エネルギーを4枚まで選び、このポケモンにつける。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーのタイプの数×30ダメージ追加。",
+				'ja-jp': "このポケモンについている基本エネルギーのタイプの数×30ダメージ追加。",
 			},
 		},
 	],

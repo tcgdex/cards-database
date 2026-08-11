@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのニョロゾ",
+		'ja-jp': "カスミのニョロゾ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "急流",
+				'ja-jp': "急流",
 			},
 			effect: {
-				ja: "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
+				'ja-jp': "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ウォーターパンチ",
+				'ja-jp': "ウォーターパンチ",
 			},
 			effect: {
-				ja: "MistyのPoliWhirlに取り付けられた水エネルギーの数に等しい多数のコインをひっくり返します。この攻撃は、30のダメージとヘッドごとに10ダメージを与えます。",
+				'ja-jp': "MistyのPoliWhirlに取り付けられた水エネルギーの数に等しい多数のコインをひっくり返します。この攻撃は、30のダメージとヘッドごとに10ダメージを与えます。",
 			},
 		},
 	],

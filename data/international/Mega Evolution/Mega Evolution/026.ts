@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		de: "Hopplo",
-		it: "Scorbunny",
-		es: "Scorbunny",
-		pt: "Scorbunny",
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'de-de': "Hopplo",
+		'it-it': "Scorbunny",
+		'es-es': "Scorbunny",
+		'pt-br': "Scorbunny",
 		'es-mx': "Scorbunny"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Wild Kick",
-			fr: "Coup Déchaîné",
-			de: "Stürmischer Kick",
-			it: "Calcio Selvaggio",
-			es: "Patada Salvaje",
-			pt: "Chute sem Pontaria",
+			'en-us': "Wild Kick",
+			'fr-fr': "Coup Déchaîné",
+			'de-de': "Stürmischer Kick",
+			'it-it': "Calcio Selvaggio",
+			'es-es': "Patada Salvaje",
+			'pt-br': "Chute sem Pontaria",
 			'es-mx': "Patada Salvaje"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
 			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
 		},
 

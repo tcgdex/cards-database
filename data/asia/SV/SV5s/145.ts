@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Deerling"
+		'id-id': "Deerling"
 	},
 
 	illustrator: "Susumu Maeya",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Aroma Deerling berubah-ubah setiap musim. Deerling wujud ini mengeluarkan aroma manis dan lembut yang melekat di hidung."
+		'id-id': "Aroma Deerling berubah-ubah setiap musim. Deerling wujud ini mengeluarkan aroma manis dan lembut yang melekat di hidung."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Melompat Berkeliling"
+			'id-id': "Melompat Berkeliling"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Serudukan Daun Gugur"
+			'id-id': "Serudukan Daun Gugur"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi {Daun} yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi {Daun} yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 40,

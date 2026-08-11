@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Incineroar",
-		fr: "Félinferno"
+		'en-us': "Incineroar",
+		'fr-fr': "Félinferno"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torracat"
+		'en-us': "Torracat"
 	},
 
 	description: {
-		en: "Although it's rough mannered and egotistical, it\nfinds beating down unworthy opponents boring.\nIt gets motivated for stronger opponents.",
-		fr: "Un Pokémon brutal qui n'en fait qu'à sa tête. Selon son humeur du moment, il lui arrive parfois d'ignorer sciemment les ordres de son Dresseur."
+		'en-us': "Although it's rough mannered and egotistical, it\nfinds beating down unworthy opponents boring.\nIt gets motivated for stronger opponents.",
+		'fr-fr': "Un Pokémon brutal qui n'en fait qu'à sa tête. Selon son humeur du moment, il lui arrive parfois d'ignorer sciemment les ordres de son Dresseur."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Darkest Lariat",
-			fr: "Dark Lariat"
+			'en-us': "Darkest Lariat",
+			'fr-fr': "Dark Lariat"
 		},
 
 		damage: 100,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 100 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face."
+			'en-us': "Flip 2 coins. This attack does 100 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face."
 		}
 	}],
 

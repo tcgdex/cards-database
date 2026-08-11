@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		de: "Kapuno",
-		it: "Deino",
-		pt: "Deino",
-		es: "Deino",
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'de-de': "Kapuno",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'es-es': "Deino",
 		'es-mx': "Deino"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Body Slam",
-			fr: "Plaquage",
-			de: "Bodyslam",
-			it: "Corposcontro",
-			pt: "Pancada Corporal",
-			es: "Golpe Cuerpo",
+			'en-us': "Body Slam",
+			'fr-fr': "Plaquage",
+			'de-de': "Bodyslam",
+			'it-it': "Corposcontro",
+			'pt-br': "Pancada Corporal",
+			'es-es': "Golpe Cuerpo",
 			'es-mx': "Golpe de Cuerpo"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			de: "Fänge der Dunkelheit",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			es: "Colmillo de Oscuridad",
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'de-de': "Fänge der Dunkelheit",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'es-es': "Colmillo de Oscuridad",
 			'es-mx': "Colmillo de Oscuridad"
 		},
 

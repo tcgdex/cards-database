@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Boldore",
-		fr: "Géolithe",
-		es: "Boldore",
-		it: "Boldore",
-		pt: "Boldore",
-		de: "Sedimantur"
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
+		'es-es': "Boldore",
+		'it-it': "Boldore",
+		'pt-br': "Boldore",
+		'de-de': "Sedimantur"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Crash",
-				fr: "Grosse Gamelle",
+				'en-us': "Hard Crash",
+				'fr-fr': "Grosse Gamelle",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+		'en-us': "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
 	},
 
 	thirdParty: {

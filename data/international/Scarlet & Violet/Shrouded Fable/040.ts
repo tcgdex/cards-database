@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Genesect",
-		fr: "Genesect",
-		es: "Genesect",
-		it: "Genesect",
-		pt: "Genesect",
-		de: "Genesect"
+		'en-us': "Genesect",
+		'fr-fr': "Genesect",
+		'es-es': "Genesect",
+		'it-it': "Genesect",
+		'pt-br': "Genesect",
+		'de-de': "Genesect"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "ACE Nullifier",
-			fr: "Annihilateur HIGH",
-			es: "Inhibidor AS",
-			it: "Annulla ASSO",
-			pt: "Anulador ACE",
-			de: "ASS-Annullierer"
+			'en-us': "ACE Nullifier",
+			'fr-fr': "Annihilateur HIGH",
+			'es-es': "Inhibidor AS",
+			'it-it': "Annulla ASSO",
+			'pt-br': "Anulador ACE",
+			'de-de': "ASS-Annullierer"
 		},
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, your opponent can't play any ACE SPEC cards from their hand.",
-			fr: "Si un Outil Pokémon est attaché à ce Pokémon, votre adversaire ne peut pas jouer de cartes HIGH-TECH de sa main.",
-			es: "Si este Pokémon tiene una Herramienta Pokémon unida, tu rival no puede jugar ninguna carta de AS TÁCTICO de su mano.",
-			it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, il tuo avversario non può giocare le carte ASSO TATTICO che ha in mano.",
-			pt: "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, seu oponente não poderá jogar nenhuma carta ACE SPEC da mão dele.",
-			de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, kann dein Gegner keine ASS-KLASSE-Karten aus seiner Hand spielen."
+			'en-us': "If this Pokémon has a Pokémon Tool attached, your opponent can't play any ACE SPEC cards from their hand.",
+			'fr-fr': "Si un Outil Pokémon est attaché à ce Pokémon, votre adversaire ne peut pas jouer de cartes HIGH-TECH de sa main.",
+			'es-es': "Si este Pokémon tiene una Herramienta Pokémon unida, tu rival no puede jugar ninguna carta de AS TÁCTICO de su mano.",
+			'it-it': "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, il tuo avversario non può giocare le carte ASSO TATTICO che ha in mano.",
+			'pt-br': "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, seu oponente não poderá jogar nenhuma carta ACE SPEC da mão dele.",
+			'de-de': "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, kann dein Gegner keine ASS-KLASSE-Karten aus seiner Hand spielen."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magnetic Blast",
-			fr: "Explosion Magnétique",
-			es: "Explosión Magnética",
-			it: "Magnetebomba",
-			pt: "Explosão Magnética",
-			de: "Magnetstoß"
+			'en-us': "Magnetic Blast",
+			'fr-fr': "Explosion Magnétique",
+			'es-es': "Explosión Magnética",
+			'it-it': "Magnetebomba",
+			'pt-br': "Explosão Magnética",
+			'de-de': "Magnetstoß"
 		},
 
 		damage: 100

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Seel does 10 damage to itself.",
-				fr: "Otaria s'inflige 10 dégâts.",
-				de: "Seel does 10 damage to itself."
+				'en-us': "Seel does 10 damage to itself.",
+				'fr-fr': "Otaria s'inflige 10 dégâts.",
+				'de-de': "Seel does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although clumsy on land, it moves easily through the arctic waters it calls home.",
-		fr: "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique."
+		'en-us': "Although clumsy on land, it moves easily through the arctic waters it calls home.",
+		'fr-fr': "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique."
 	},
 
 

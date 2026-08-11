@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	],
 	illustrator: "5ban Graphics",
 	description: {
-		en: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements."
+		'en-us': "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements."
 	},
 	set: Set,
 	name: {
-		en: "Furfrou",
-		fr: "Couafarel",
+		'en-us': "Furfrou",
+		'fr-fr': "Couafarel",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -28,13 +28,13 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire Serrée",
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire Serrée",
 			},
 			damage: "20",
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},
 		{
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc Aiguisé",
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc Aiguisé",
 			},
 			damage: "50",
 		},

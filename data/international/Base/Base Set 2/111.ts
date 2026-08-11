@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
+		'en-us': "Full Heal",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
+		'en-us': "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 	},
 
 

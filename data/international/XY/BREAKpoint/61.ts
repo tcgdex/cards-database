@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stab Deeply",
-				fr: "Blessure Profonde",
-				es: "Puñalada Profunda",
-				it: "Pugnalata Affondo",
-				pt: "Facada Profunda",
-				de: "Tiefer Stich"
+				'en-us': "Stab Deeply",
+				'fr-fr': "Blessure Profonde",
+				'es-es': "Puñalada Profunda",
+				'it-it': "Pugnalata Affondo",
+				'pt-br': "Facada Profunda",
+				'de-de': "Tiefer Stich"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Active Pokémon.",
-				fr: "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
-				it: "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 3 contadores de danos no Pokémon Ativo do seu oponente.",
-				de: "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 3 damage counters on your opponent's Active Pokémon.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 3 contadores de danos no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
+		'en-us': "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
 	},
 
 	thirdParty: {

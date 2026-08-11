@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink",
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Magical Step",
-				fr: "Pas magique",
-				de: "Zauberschnitt"
+				'en-us': "Magical Step",
+				'fr-fr': "Pas magique",
+				'de-de': "Zauberschnitt"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused. Put 6 damage counters instead of 3 on the Confused Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Confus. Placez sur le Pokémon Confus 6 marqueurs de dégât au lieu de 3.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt. Wenn wegen des Speziellen Zustands \"verwirrt\" 3 Schadensmarken auf das Verteidigende Pokémon gelegt werden sollen, lege stattdessen 6 Schadensmarken darauf."
+				'en-us': "The Defending Pokémon is now Confused. Put 6 damage counters instead of 3 on the Confused Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus. Placez sur le Pokémon Confus 6 marqueurs de dégât au lieu de 3.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt. Wenn wegen des Speziellen Zustands \"verwirrt\" 3 Schadensmarken auf das Verteidigende Pokémon gelegt werden sollen, lege stattdessen 6 Schadensmarken darauf."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grind",
-				fr: "Écrase",
-				de: "Zermahlen"
+				'en-us': "Grind",
+				'fr-fr': "Écrase",
+				'de-de': "Zermahlen"
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to Grumpig.",
-				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Groret.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Groink angelegten Energien zu,"
+				'en-us': "Does 20 damage times the amount of Energy attached to Grumpig.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Groret.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Groink angelegten Energien zu,"
 			},
 			damage: "20x",
 
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses black pearls to amplify its psycho-power. It does an odd dance to gain control over foes.",
-		fr: "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis."
+		'en-us': "It uses black pearls to amplify its psycho-power. It does an odd dance to gain control over foes.",
+		'fr-fr': "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis."
 	},
 
 	thirdParty: {

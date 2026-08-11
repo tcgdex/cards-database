@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Leavanny",
+		'en-us': "Leavanny",
 	},
 
 	illustrator: "match",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swadloon",
+		'en-us': "Swadloon",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Leaf Tailor",
+				'en-us': "Leaf Tailor",
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Energy attached to it has no Weakness.",
+				'en-us': "Each of your Pokémon that has any Energy attached to it has no Weakness.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cutting Arm",
+				'en-us': "Cutting Arm",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
 			},
 			damage: 40,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+		'en-us': "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
 	},
 
 	thirdParty: {

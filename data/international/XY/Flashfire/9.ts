@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Roserade",
-		fr: "Roserade",
-		es: "Roserade",
-		it: "Roserade",
-		pt: "Roserade",
-		de: "Roserade"
+		'en-us': "Roserade",
+		'fr-fr': "Roserade",
+		'es-es': "Roserade",
+		'it-it': "Roserade",
+		'pt-br': "Roserade",
+		'de-de': "Roserade"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roselia",
-		fr: "Rosélia",
-		es: "Roselia",
-		it: "Roselia",
-		pt: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Rosélia",
+		'es-es': "Roselia",
+		'it-it': "Roselia",
+		'pt-br': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Whiplash",
-				fr: "Fouet Furieux",
-				es: "Correazo",
-				it: "Scudisciata",
-				pt: "Chicote",
-				de: "Peitschenhieb"
+				'en-us': "Whiplash",
+				'fr-fr': "Fouet Furieux",
+				'es-es': "Correazo",
+				'it-it': "Scudisciata",
+				'pt-br': "Chicote",
+				'de-de': "Peitschenhieb"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda até sair coroa. Para cada cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin until you get tails. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda até sair coroa. Para cada cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -67,20 +67,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
-				es: "Megaagotar",
-				it: "Megassorbimento",
-				pt: "Megadreno",
-				de: "Megasauger"
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
+				'es-es': "Megaagotar",
+				'it-it': "Megassorbimento",
+				'pt-br': "Megadreno",
+				'de-de': "Megasauger"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 de danos deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 70,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+		'en-us': "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
 	},
 
 	thirdParty: {

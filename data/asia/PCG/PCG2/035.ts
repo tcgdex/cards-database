@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミンン",
+		'ja-jp': "ミンン",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スニッフアウト",
+				'ja-jp': "スニッフアウト",
 			},
 			effect: {
-				ja: "廃棄の山から1枚のカードを手に入れます。",
+				'ja-jp': "廃棄の山から1枚のカードを手に入れます。",
 			},
 		},
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "ネガティブスパーク",
+				'ja-jp': "ネガティブスパーク",
 			},
 			effect: {
-				ja: "ポケボディを持つ相手の各ポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "ポケボディを持つ相手の各ポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

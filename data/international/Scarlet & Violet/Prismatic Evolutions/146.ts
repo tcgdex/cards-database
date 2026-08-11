@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flareon ex",
-		fr: "Pyroli-ex",
-		es: "Flareon ex",
-		pt: "Flareon ex",
-		it: "Flareon-ex",
-		de: "Flamara-ex"
+		'en-us': "Flareon ex",
+		'fr-fr': "Pyroli-ex",
+		'es-es': "Flareon ex",
+		'pt-br': "Flareon ex",
+		'it-it': "Flareon-ex",
+		'de-de': "Flamara-ex"
 	},
 
 	rarity: "Special illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 270,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee",
+		'de-de': "Evoli"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Burning Charge",
-			fr: "Charge Brûlante",
-			es: "Carga Abrasadora",
-			pt: "Carga Ardente",
-			it: "Bruciacarica",
-			de: "Brennende Ladung"
+			'en-us': "Burning Charge",
+			'fr-fr': "Charge Brûlante",
+			'es-es': "Carga Abrasadora",
+			'pt-br': "Carga Ardente",
+			'it-it': "Bruciacarica",
+			'de-de': "Brennende Ladung"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Básica y únelas a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 cartas de Energia Básica no seu baralho e ligue-as a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base e assegnale a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía Básica y únelas a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por até 2 cartas de Energia Básica no seu baralho e ligue-as a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia base e assegnale a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 130
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Water", "Lightning"],
 
 		name: {
-			en: "Carnelian",
-			fr: "Cornaline",
-			es: "Cornalina",
-			pt: "Cornalina",
-			it: "Corniola",
-			de: "Karneol"
+			'en-us': "Carnelian",
+			'fr-fr': "Cornaline",
+			'es-es': "Cornalina",
+			'pt-br': "Cornalina",
+			'it-it': "Corniola",
+			'de-de': "Karneol"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 280

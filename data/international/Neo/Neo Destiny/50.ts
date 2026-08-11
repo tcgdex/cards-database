@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Ninetales",
-		fr: "Feunard lumineux",
-		de: "Helles Vulnona"
+		'en-us': "Light Ninetales",
+		'fr-fr': "Feunard lumineux",
+		'de-de': "Helles Vulnona"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	stage: "Stage1",
@@ -35,15 +35,15 @@ const card: Card = {
 			cost: ["Fire", "Fire", "Fire"],
 
 			name: {
-				en: "Guiding Flame",
-				fr: "Flambeau",
-				de: "Fire Blast"
+				'en-us': "Guiding Flame",
+				'fr-fr': "Flambeau",
+				'de-de': "Fire Blast"
 			},
 
 			effect: {
-				en: "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)",
-				fr: "Placez une carte Bébé Pokémon ou Pokémon de base de votre pile de défausse sur votre Banc. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
+				'en-us': "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Placez une carte Bébé Pokémon ou Pokémon de base de votre pile de défausse sur votre Banc. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Discard a  Energy card attached to Light Ninetales in order to use this attack."
 			},
 
 			damage: 50
@@ -55,14 +55,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
-				de: "Fire Blast"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
+				'de-de': "Fire Blast"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Light Ninetales in order to use this attack.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque.",
-				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
+				'en-us': "Discard a Energy card attached to Light Ninetales in order to use this attack.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque.",
+				'de-de': "Discard a  Energy card attached to Light Ninetales in order to use this attack."
 			},
 			damage: 50,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that each of its nine tails contains a different magical power.",
-		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
+		'en-us': "It is said that each of its nine tails contains a different magical power.",
+		'fr-fr': "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
 	},
 
 

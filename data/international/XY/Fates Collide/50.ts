@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Carbink",
-		fr: "Strassie",
-		es: "Carbink",
-		it: "Carbink",
-		pt: "Carbink",
-		de: "Rocara"
+		'en-us': "Carbink",
+		'fr-fr': "Strassie",
+		'es-es': "Carbink",
+		'it-it': "Carbink",
+		'pt-br': "Carbink",
+		'de-de': "Rocara"
 	},
 
 	illustrator: "kawayoo",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Safeguard",
-				fr: "Rune Protect",
-				es: "Velo Sagrado",
-				it: "Salvaguardia",
-				pt: "Salvaguarda",
-				de: "Bodyguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune Protect",
+				'es-es': "Velo Sagrado",
+				'it-it': "Salvaguardia",
+				'pt-br': "Salvaguarda",
+				'de-de': "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-EX.",
-				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-EX de votre adversaire.",
-				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon-EX de tu rival.",
-				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon-EX del tuo avversario.",
-				pt: "Previne todos os efeitos de ataques, inclusive danos, causados neste Pokémon pelo Pokémon-EX do seu oponente.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch gegnerische Pokémon-EX zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-EX.",
+				'fr-fr': "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-EX de votre adversaire.",
+				'es-es': "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon-EX de tu rival.",
+				'it-it': "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon-EX del tuo avversario.",
+				'pt-br': "Previne todos os efeitos de ataques, inclusive danos, causados neste Pokémon pelo Pokémon-EX do seu oponente.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch gegnerische Pokémon-EX zugefügt werden."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Gem",
-				fr: "Rayon Gemme",
-				es: "Joya de Luz",
-				it: "Gemmoforza",
-				pt: "Gema Poderosa",
-				de: "Juwelenkraft"
+				'en-us': "Power Gem",
+				'fr-fr': "Rayon Gemme",
+				'es-es': "Joya de Luz",
+				'it-it': "Gemmoforza",
+				'pt-br': "Gema Poderosa",
+				'de-de': "Juwelenkraft"
 			},
 
 			damage: 40,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has slept underground for hundreds of millions of years since its birth. It's occasionally found during the excavation of caves.",
+		'en-us': "It has slept underground for hundreds of millions of years since its birth. It's occasionally found during the excavation of caves.",
 	},
 
 	thirdParty: {

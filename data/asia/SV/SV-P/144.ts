@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スナッチアーム",
+		'ja-jp': "スナッチアーム",
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中からポケモンを1枚選び、相手の山札の下にもどす。",
+		'ja-jp': "相手の手札を見て、その中からポケモンを1枚選び、相手の山札の下にもどす。",
 	},
 
 	variants: [

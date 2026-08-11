@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Shieldon",
-		fr: "Dinoclier",
-		de: "Schilterus"
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier",
+		'de-de': "Schilterus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Armor Fossil",
-		fr: "Fossile armure"
+		'en-us': "Armor Fossil",
+		'fr-fr': "Fossile armure"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Face",
-				fr: "Visage dur",
-				de: "Harte Oberfläche"
+				'en-us': "Hard Face",
+				'fr-fr': "Visage dur",
+				'de-de': "Harte Oberfläche"
 			},
 			effect: {
-				en: "During your opponents next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Dinoclier par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Schilterus durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponents next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Dinoclier par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Schilterus durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shield Attack",
-				fr: "Attaque de bouclier",
-				de: "Schildattacke"
+				'en-us': "Shield Attack",
+				'fr-fr': "Attaque de bouclier",
+				'de-de': "Schildattacke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -87,8 +87,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
-		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
+		'en-us': "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
+		'fr-fr': "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
 	},
 
 	variants: [

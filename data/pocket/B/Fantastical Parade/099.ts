@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [264],
 
 	name: {
-		en: "Galarian Linoone"
+		'en-us': "Galarian Linoone"
 	},
 
 	illustrator: "nagimiso",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Galarian Zigzagoon"
+		'en-us': "Galarian Zigzagoon"
 	},
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly\nchallenge opponents stronger than itself."
+		'en-us': "This very aggressive Pokémon will recklessly\nchallenge opponents stronger than itself."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Rear Kick"
+			'en-us': "Rear Kick"
 		},
 
 		damage: 40,

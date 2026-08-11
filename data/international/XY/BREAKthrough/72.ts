@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Swoobat",
-		fr: "Rhinolove",
-		es: "Swoobat",
-		it: "Swoobat",
-		pt: "Swoobat",
-		de: "Fletiamo"
+		'en-us': "Swoobat",
+		'fr-fr': "Rhinolove",
+		'es-es': "Swoobat",
+		'it-it': "Swoobat",
+		'pt-br': "Swoobat",
+		'de-de': "Fletiamo"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Amplification",
-				fr: "Amplification d'Onde",
-				es: "Amplificación de Ondas",
-				it: "Amplificazione Onde",
-				pt: "Ampliação de Onda",
-				de: "Wellenamplifikation"
+				'en-us': "Wave Amplification",
+				'fr-fr': "Amplification d'Onde",
+				'es-es': "Amplificación de Ondas",
+				'it-it': "Amplificazione Onde",
+				'pt-br': "Ampliação de Onda",
+				'de-de': "Wellenamplifikation"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Returning Echo attack does 60 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Écho de Retour de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante tu próximo turno, el ataque Eco Retorno de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, l'attacco Eco di Ritorno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a sua próxima vez de jogar, o ataque Retorno do Eco deste Pokémon causará 60 de danos adicionais (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während deines nächsten Zuges fügt die Attacke Widerhallendes Echo dieses Pokémon 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, this Pokémon's Returning Echo attack does 60 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Écho de Retour de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante tu próximo turno, el ataque Eco Retorno de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il tuo prossimo turno, l'attacco Eco di Ritorno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a sua próxima vez de jogar, o ataque Retorno do Eco deste Pokémon causará 60 de danos adicionais (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während deines nächsten Zuges fügt die Attacke Widerhallendes Echo dieses Pokémon 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -65,20 +65,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Returning Echo",
-				fr: "Écho de Retour",
-				es: "Eco Retorno",
-				it: "Eco di Ritorno",
-				pt: "Retorno do Eco",
-				de: "Widerhallendes Echo"
+				'en-us': "Returning Echo",
+				'fr-fr': "Écho de Retour",
+				'es-es': "Eco Retorno",
+				'it-it': "Eco di Ritorno",
+				'pt-br': "Retorno do Eco",
+				'de-de': "Widerhallendes Echo"
 			},
 			effect: {
-				en: "Flip a coin. If tails, return this Pokémon and all cards attached to it to your hand.",
-				fr: "Lancez une pièce. Si c'est pile, reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
-				es: "Lanza 1 moneda. Si sale cruz, devuelve este Pokémon y todas las cartas unidas a él a tu mano.",
-				it: "Lancia una moneta. Se esce croce, riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
-				pt: "Jogue uma moeda. Se sair coroa, devolva este Pokémon e todos os cards ligados a ele para a sua mão.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
+				'en-us': "Flip a coin. If tails, return this Pokémon and all cards attached to it to your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, devuelve este Pokémon y todas las cartas unidas a él a tu mano.",
+				'it-it': "Lancia una moneta. Se esce croce, riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, devolva este Pokémon e todos os cards ligados a ele para a sua mão.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 			},
 			damage: 60,
 
@@ -102,7 +102,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+		'en-us': "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
 	},
 
 	thirdParty: {

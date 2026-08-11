@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4M"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノカイナex",
-		th: "แขนเหล็กex",
-		ko: "무쇠손 ex"
+		'ja-jp': "テツノカイナex",
+		'th-th': "แขนเหล็กex",
+		'ko-kr': "무쇠손 ex"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -21,9 +21,9 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "アームプレス",
-			th: "อาร์มเพรส",
-			ko: "암프레스"
+			'ja-jp': "アームプレス",
+			'th-th': "อาร์มเพรส",
+			'ko-kr': "암프레스"
 		},
 
 		damage: 160
@@ -31,16 +31,16 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ごっつあんプリファイ",
-			th: "เครื่องขยายขอบใจหลาย",
-			ko: "감사 앰플리파이"
+			'ja-jp': "ごっつあんプリファイ",
+			'th-th': "เครื่องขยายขอบใจหลาย",
+			'ko-kr': "감사 앰플리파이"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
-			th: "ถ้าโปเกมอนฝ่ายตรงข้าม[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้นี้แล้ว หยิบการ์ดรางวัลเพิ่ม 1 ใบ"
+			'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
+			'th-th': "ถ้าโปเกมอนฝ่ายตรงข้าม[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้นี้แล้ว หยิบการ์ดรางวัลเพิ่ม 1 ใบ"
 		}
 	}],
 

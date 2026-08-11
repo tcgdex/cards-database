@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primarina ex",
-		fr: "Oratoria-ex"
+		'en-us': "Primarina ex",
+		'fr-fr': "Oratoria-ex"
 	},
 
 	illustrator: "DOM",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Brionne"
+		'en-us': "Brionne"
 	},
 
 	stage: "Stage2",
@@ -26,29 +26,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Pump",
-			fr: "Hydrocanon"
+			'en-us': "Hydro Pump",
+			'fr-fr': "Hydrocanon"
 		},
 
 		damage: 40,
 		cost: ["Water"],
 
 		effect: {
-			en: "If this Pokémon has at least 1 extra {W} Energy attached, this attack does 40 more damage.",
-			fr: "Si ce Pokémon a au moins une Énergie {W} de plus, cette attaque inflige 40 dégâts supplémentaires."
+			'en-us': "If this Pokémon has at least 1 extra {W} Energy attached, this attack does 40 more damage.",
+			'fr-fr': "Si ce Pokémon a au moins une Énergie {W} de plus, cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}, {
 		name: {
-			en: "Sparkling Aria",
-			fr: "Aria de l'Écume"
+			'en-us': "Sparkling Aria",
+			'fr-fr': "Aria de l'Écume"
 		},
 
 		damage: 100,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts à ce Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts à ce Pokémon."
 		}
 	}],
 

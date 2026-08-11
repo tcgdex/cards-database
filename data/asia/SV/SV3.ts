@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV3',
 
 	name: {
-		ja: '黒炎の支配者',
-		ko: '흑염의 지배자',
+		'ja-jp': '黒炎の支配者',
+		'ko-kr': '흑염의 지배자',
 		'zh-tw': '黯焰支配者',
-		th: 'ราชาแห่งเพลิงกาฬ'
+		'th-th': 'ราชาแห่งเพลิงกาฬ'
 	},
 
 	serie: serie,
@@ -18,9 +18,9 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-07-28',
+		'ja-jp': '2023-07-28',
 		'zh-tw': '2023-08-11',
-		th: '2023-09-29'
+		'th-th': '2023-09-29'
 	},
 
 	thirdParty: {

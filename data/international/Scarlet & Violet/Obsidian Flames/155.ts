@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Vrombi",
-		en: "Varoom",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'fr-fr': "Vrombi",
+		'en-us': "Varoom",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			fr: "Gaz Suffocant",
-			en: "Suffocating Gas",
-			es: "Gas Sofocante",
-			it: "Gas Soffocante",
-			pt: "Gás Asfixiante",
-			de: "Würgegas"
+			'fr-fr': "Gaz Suffocant",
+			'en-us': "Suffocating Gas",
+			'es-es': "Gas Sofocante",
+			'it-it': "Gas Soffocante",
+			'pt-br': "Gás Asfixiante",
+			'de-de': "Würgegas"
 		},
 
 		damage: 30
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+		'en-us': "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
 
 	variants: [

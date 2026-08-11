@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Galarian Sirfetch'd",
-		fr: "Palarticho de Galar",
-		es: "Sirfetch'd de Galar",
-		it: "Sirfetch'd di Galar",
-		pt: "Sirfetch'd de Galar",
-		de: "Galar-Lauchzelot"
+		'en-us': "Galarian Sirfetch'd",
+		'fr-fr': "Palarticho de Galar",
+		'es-es': "Sirfetch'd de Galar",
+		'it-it': "Sirfetch'd di Galar",
+		'pt-br': "Sirfetch'd de Galar",
+		'de-de': "Galar-Lauchzelot"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Farfetch'd",
-		fr: "Canarticho de Galar",
-		es: "Farfetch'd de Galar",
-		it: "Farfetch'd di Galar",
-		pt: "Farfetch'd de Galar",
-		de: "Galar-Porenta"
+		'en-us': "Galarian Farfetch'd",
+		'fr-fr': "Canarticho de Galar",
+		'es-es': "Farfetch'd de Galar",
+		'it-it': "Farfetch'd di Galar",
+		'pt-br': "Farfetch'd de Galar",
+		'de-de': "Galar-Porenta"
 	},
 
 	attacks: [
@@ -37,12 +37,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 40,
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meteor Assault",
-				fr: "Joute Astrale",
-				es: "Asalto Estelar",
-				it: "Sfolgorassalto",
-				pt: "Ofensiva Meteórica",
-				de: "Sternensturm"
+				'en-us': "Meteor Assault",
+				'fr-fr': "Joute Astrale",
+				'es-es': "Asalto Estelar",
+				'it-it': "Sfolgorassalto",
+				'pt-br': "Ofensiva Meteórica",
+				'de-de': "Sternensturm"
 			},
 			effect: {
-				en: "This Pokémon can't use Meteor Assault again until it leaves the Active Spot.",
-				fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu'il ne quitte pas le Poste Actif.",
-				es: "Este Pokémon no puede usar Asalto Estelar de nuevo hasta que deje el Puesto Activo.",
-				it: "Questo Pokémon non può più usare Sfolgorassalto finché non lascia la posizione attiva.",
-				pt: "Este Pokémon não poderá usar Ofensiva Meteórica novamente até sair do Campo Ativo.",
-				de: "Dieses Pokémon kann Sternensturm nicht wieder einsetzen, bis es die Aktive Position verlässt."
+				'en-us': "This Pokémon can't use Meteor Assault again until it leaves the Active Spot.",
+				'fr-fr': "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu'il ne quitte pas le Poste Actif.",
+				'es-es': "Este Pokémon no puede usar Asalto Estelar de nuevo hasta que deje el Puesto Activo.",
+				'it-it': "Questo Pokémon non può più usare Sfolgorassalto finché non lascia la posizione attiva.",
+				'pt-br': "Este Pokémon não poderá usar Ofensiva Meteórica novamente até sair do Campo Ativo.",
+				'de-de': "Dieses Pokémon kann Sternensturm nicht wieder einsetzen, bis es die Aktive Position verlässt."
 			},
 			damage: 180,
 
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
+		'en-us': "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
 	},
 
 	variants: [

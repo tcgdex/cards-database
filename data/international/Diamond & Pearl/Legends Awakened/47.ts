@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Camaub",
+		'en-us': "Numel",
+		'fr-fr': "Camaub",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eruption",
-				fr: "Éruption",
-				de: "Eruption"
+				'en-us': "Eruption",
+				'fr-fr': "Éruption",
+				'de-de': "Eruption"
 			},
 			effect: {
-				en: "Each player discards the top card of his or her deck. This attack does 30 damage plus 30 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
-				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 30 weitere Schadenspunkte für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, zu."
+				'en-us': "Each player discards the top card of his or her deck. This attack does 30 damage plus 30 more damage for each Energy card discarded in this way.",
+				'fr-fr': "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				'de-de': "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 30 weitere Schadenspunkte für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, zu."
 			},
 			damage: "30+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Camerupt does 20 damage to itself.",
-				fr: "Camerupt s'inflige 20 dégâts.",
-				de: "Camerupt fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Camerupt does 20 damage to itself.",
+				'fr-fr': "Camerupt s'inflige 20 dégâts.",
+				'de-de': "Camerupt fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -80,8 +80,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
-		fr: "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
+		'en-us': "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+		'fr-fr': "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
 	},
 
 	thirdParty: {

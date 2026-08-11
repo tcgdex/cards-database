@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dusclops",
+		'ja-jp': "Dusclops",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "サイキック除去",
+				'ja-jp': "サイキック除去",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。両方がヘッドである場合、防御ポケモンに取り付けられたすべてのエネルギーを捨ててください。",
+				'ja-jp': "2つのコインをフリップします。両方がヘッドである場合、防御ポケモンに取り付けられたすべてのエネルギーを捨ててください。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "強力な手",
+				'ja-jp': "強力な手",
 			},
 			effect: {
-				ja: "あなたの手にカードの数を数えます。その多くのダメージカウンターを防御ポケモンに置きます。この方法で7つ以上のダメージカウンターを配置することはできません。",
+				'ja-jp': "あなたの手にカードの数を数えます。その多くのダメージカウンターを防御ポケモンに置きます。この方法で7つ以上のダメージカウンターを配置することはできません。",
 			},
 		},
 	],

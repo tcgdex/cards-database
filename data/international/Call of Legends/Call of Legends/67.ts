@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Pidgey",
-		fr: "Roucool",
-		de: "Taubsi"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool",
+		'de-de': "Taubsi"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Messenger",
-				fr: "Messager",
-				de: "Bote"
+				'en-us': "Messenger",
+				'fr-fr': "Messager",
+				'de-de': "Bote"
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle Pidgey and all cards attached to it back into your deck.",
-				fr: "Cherchez un Pokémon dans votre deck, montrez-le à votre adversaire et ajoutez-le à votre main. Mélangez Roucool et toutes les cartes qui lui sont attachées avec votre deck.",
-				de: "Durchsuche dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische Taubsi und alle daran angelegten Karten zurück in dein Deck."
+				'en-us': "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle Pidgey and all cards attached to it back into your deck.",
+				'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le à votre adversaire et ajoutez-le à votre main. Mélangez Roucool et toutes les cartes qui lui sont attachées avec votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische Taubsi und alle daran angelegten Karten zurück in dein Deck."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissade",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissade",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+		'en-us': "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
 	},
 
 	variants: [

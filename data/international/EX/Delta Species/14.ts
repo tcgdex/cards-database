@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Salamence δ",
-		fr: "Drattak δ",
-		de: "Brutalanda"
+		'en-us': "Salamence δ",
+		'fr-fr': "Drattak δ",
+		'de-de': "Brutalanda"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus"
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Dance",
-				fr: "Danse du feu",
-				de: "Feuertanz"
+				'en-us': "Fire Dance",
+				'fr-fr': "Danse du feu",
+				'de-de': "Feuertanz"
 			},
 			effect: {
-				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
+				'en-us': "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
+				'fr-fr': "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon.",
+				'de-de': "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Delta Blast",
-				fr: "Explosion Delta",
-				de: "Delta-Schuss"
+				'en-us': "Delta Blast",
+				'fr-fr': "Explosion Delta",
+				'de-de': "Delta-Schuss"
 			},
 			effect: {
-				en: "Discard a Metal Energy card attached to Salamence.",
-				fr: "Défaussez une carte Énergie  attachée à Drattak.",
-				de: "Lege 1 an Brutalanda angelegte -Energiekarte auf deinen Ablagestapel."
+				'en-us': "Discard a Metal Energy card attached to Salamence.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Drattak.",
+				'de-de': "Lege 1 an Brutalanda angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 100,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonair"
+		'en-us': "Dark Dragonair"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini"
+		'en-us': "Dratini"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Evolutionary Light"
+				'en-us': "Evolutionary Light"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Strike"
+				'en-us': "Tail Strike"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
 			},
 			damage: "20+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall."
+		'en-us': "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall."
 	},
 
 	variants: [

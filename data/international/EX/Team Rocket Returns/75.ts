@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
-		de: "Wiesor"
+		'en-us': "Sentret",
+		'de-de': "Wiesor"
 	},
 
 	illustrator: "Yuka Morii",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Friend Search",
-				de: "Friend Search"
+				'en-us': "Friend Search",
+				'de-de': "Friend Search"
 			},
 			effect: {
-				en: "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on top of your deck. Shuffle your deck afterward.",
-				de: "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on the top of your deck. Shuffle your deck afterward."
+				'en-us': "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on top of your deck. Shuffle your deck afterward.",
+				'de-de': "Look at the top 5 cards of your deck. Choose a Basic Pokémon or Evolution card you find there, show it to your opponent, and put it into your hand. Put the 4 other cards back on the top of your deck. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				de: "Surprise Attack"
+				'en-us': "Surprise Attack",
+				'de-de': "Surprise Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

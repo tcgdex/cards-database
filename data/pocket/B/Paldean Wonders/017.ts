@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Crocogril",
-		en: "Crocalor",
-		es: "Crocalor",
-		it: "Crocalor",
-		pt: "Crocalor",
-		de: "Lokroko"
+		'fr-fr': "Crocogril",
+		'en-us': "Crocalor",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
   },
   illustrator: "kantaro",
   rarity: "One Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Fire"],
   dexId: [910],
   evolveFrom: {
-		fr: "Chochodile",
-		en: "Fuecoco",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'fr-fr': "Chochodile",
+		'en-us': "Fuecoco",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
   },
   description: {
     en: "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",

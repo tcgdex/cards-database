@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "朝北鼻",
-		ja: "ノズパス"
+		'ja-jp': "ノズパス"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "牠會動也不動地用強大的磁力把獵物吸過來獵捕， 但有時也會把天敵吸來。",
-		ja: "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。"
+		'ja-jp': "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝撞",
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 
 		damage: 20,

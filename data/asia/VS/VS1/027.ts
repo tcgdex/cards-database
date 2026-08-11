@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャスミンのライチュ",
+		'ja-jp': "ジャスミンのライチュ",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "テールスラップ",
+				'ja-jp': "テールスラップ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "落雷",
+				'ja-jp': "落雷",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、ジャスミンのライチュに取り付けられたすべてのエネルギーカードを捨ててください。",
+				'ja-jp': "この攻撃を使用するために、ジャスミンのライチュに取り付けられたすべてのエネルギーカードを捨ててください。",
 			},
 			damage: 40,
 		},

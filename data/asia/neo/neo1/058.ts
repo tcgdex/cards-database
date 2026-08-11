@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカルモリー",
+		'ja-jp': "スカルモリー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "爪",
+				'ja-jp': "爪",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "スチール翼",
+				'ja-jp': "スチール翼",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、相手の次のターン中にスカルモリーへの攻撃によって与えられたすべての損傷は20増加します（脱力と抵抗を適用した後）。",
+				'ja-jp': "コインをひっくり返します。頭の場合、相手の次のターン中にスカルモリーへの攻撃によって与えられたすべての損傷は20増加します（脱力と抵抗を適用した後）。",
 			},
 			damage: 30,
 		},

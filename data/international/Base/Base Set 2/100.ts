@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
+		'en-us': "Weedle",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
+				'en-us': "Poison Sting",
 			},
 			effect: {
-				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
+		'en-us': "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
 	},
 
 

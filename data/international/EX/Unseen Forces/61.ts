@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Retaliate",
-				fr: "Représailles",
-				de: "Retaliate"
+				'en-us': "Retaliate",
+				'fr-fr': "Représailles",
+				'de-de': "Retaliate"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Larvitar.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Embrylex.",
-				de: "Does 10 damage times the number of damage counters on Larvitar."
+				'en-us': "Does 10 damage times the number of damage counters on Larvitar.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Embrylex.",
+				'de-de': "Does 10 damage times the number of damage counters on Larvitar."
 			},
 			damage: "10x",
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

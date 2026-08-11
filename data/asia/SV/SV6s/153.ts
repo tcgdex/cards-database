@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Penyokong Bertahan Hidup"
+		'id-id': "Penyokong Bertahan Hidup"
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		id: "Saat Pokémon yang mengenakan kartu ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan ketika HP masih penuh, Pokémon tersebut tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10. Setelah itu, buang kartu ini ke Trash."
+		'id-id': "Saat Pokémon yang mengenakan kartu ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan ketika HP masih penuh, Pokémon tersebut tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10. Setelah itu, buang kartu ini ke Trash."
 	},
 
 	trainerType: "Tool",

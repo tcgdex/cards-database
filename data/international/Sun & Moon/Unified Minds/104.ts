@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		fr: "Steelix",
-		es: "Steelix",
-		it: "Steelix",
-		pt: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix",
+		'es-es': "Steelix",
+		'it-it': "Steelix",
+		'pt-br': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix",
+		'en-us': "Onix",
+		'fr-fr': "Onix",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ground Stream",
-				fr: "Ruisseau Terrestre",
-				es: "Flujo Tierra",
-				it: "Geoflusso",
-				pt: "Fluxo Terrestre",
-				de: "Landstrom"
+				'en-us': "Ground Stream",
+				'fr-fr': "Ruisseau Terrestre",
+				'es-es': "Flujo Tierra",
+				'it-it': "Geoflusso",
+				'pt-br': "Fluxo Terrestre",
+				'de-de': "Landstrom"
 			},
 			effect: {
-				en: "Attach 2 Fighting Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez 2 cartes Énergie Fighting de votre pile de défausse à ce Pokémon.",
-				es: "Une 2 cartas de Energía Fighting de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon due carte Energia Fighting dalla tua pila degli scarti.",
-				pt: "Ligue 2 cartas de Energia Fighting da sua pilha de descarte a este Pokémon.",
-				de: "Lege 2 Fighting-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach 2 Fighting Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie Fighting de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 2 cartas de Energía Fighting de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon due carte Energia Fighting dalla tua pila degli scarti.",
+				'pt-br': "Ligue 2 cartas de Energia Fighting da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 2 Fighting-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 20,
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gigaton Shake",
-				fr: "Secousse Gigatonne",
-				es: "Sacudida Gigatón",
-				it: "Scossone Gigatonico",
-				pt: "Agito Gigatônico",
-				de: "Gigatonnen-Erschütterung"
+				'en-us': "Gigaton Shake",
+				'fr-fr': "Secousse Gigatonne",
+				'es-es': "Sacudida Gigatón",
+				'it-it': "Scossone Gigatonico",
+				'pt-br': "Agito Gigatônico",
+				'de-de': "Gigatonnen-Erschütterung"
 			},
 			effect: {
-				en: "During your next turn, your Pokémon can’t attack. (This includes Pokémon that come into play on that turn.)",
-				fr: "Pendant votre prochain tour, vos Pokémon ne peuvent pas attaquer. (Cela comprend les Pokémon qui sont mis en jeu pendant ce tour.)",
-				es: "Durante tu próximo turno, tus Pokémon no pueden atacar. (Esto incluye Pokémon que entran en juego en ese turno).",
-				it: "Durante il tuo prossimo turno, i tuoi Pokémon non possono attaccare, inclusi i Pokémon entrati in gioco in quel turno.",
-				pt: "Durante a sua próxima vez de jogar, seus Pokémon não podem atacar (isto inclui Pokémon que entrarem em jogo naquela rodada).",
-				de: "Während deines nächsten Zuges können deine Pokémon nicht angreifen. (Dies schließt Pokémon, die während jenes Zuges ins Spiel gebracht werden, ein.)"
+				'en-us': "During your next turn, your Pokémon can’t attack. (This includes Pokémon that come into play on that turn.)",
+				'fr-fr': "Pendant votre prochain tour, vos Pokémon ne peuvent pas attaquer. (Cela comprend les Pokémon qui sont mis en jeu pendant ce tour.)",
+				'es-es': "Durante tu próximo turno, tus Pokémon no pueden atacar. (Esto incluye Pokémon que entran en juego en ese turno).",
+				'it-it': "Durante il tuo prossimo turno, i tuoi Pokémon non possono attaccare, inclusi i Pokémon entrati in gioco in quel turno.",
+				'pt-br': "Durante a sua próxima vez de jogar, seus Pokémon não podem atacar (isto inclui Pokémon que entrarem em jogo naquela rodada).",
+				'de-de': "Während deines nächsten Zuges können deine Pokémon nicht angreifen. (Dies schließt Pokémon, die während jenes Zuges ins Spiel gebracht werden, ein.)"
 			},
 			damage: 220,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
+		'en-us': "Tempered underground under high pressure and heat, its body is harder than any metal.",
 	},
 
 	thirdParty: {

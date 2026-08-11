@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lapras"
+		'id-id': "Lapras"
 	},
 
 	illustrator: "Gemi",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Lapras tahan dingin dan laut es pun tidak menjadi masalah baginya. Kulitnya mulus dan agak dingin."
+		'id-id': "Lapras tahan dingin dan laut es pun tidak menjadi masalah baginya. Kulitnya mulus dan agak dingin."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Berbenam Dalam-dalam"
+			'id-id': "Berbenam Dalam-dalam"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 3 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih paling banyak 3 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Freeze-Dry"
+			'id-id': "Freeze-Dry"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 50,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジオドード",
+		'ja-jp': "ジオドード",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "セルフデストラクト",
+				'ja-jp': "セルフデストラクト",
 			},
 			effect: {
-				ja: "各ベンチポケモン（あなたと対戦相手の両方）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）Geodudeはそれ自体に50のダメージを与えます。",
+				'ja-jp': "各ベンチポケモン（あなたと対戦相手の両方）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）Geodudeはそれ自体に50のダメージを与えます。",
 			},
 			damage: 50,
 		},

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
+		'en-us': "Raichu",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
+				'en-us': "Agility",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu.",
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu.",
 			},
 			damage: 20,
 
@@ -51,10 +51,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
+				'en-us': "Thunder",
 			},
 			effect: {
-				en: "Flip a coin. If tails, Raichu does 30 damage to itself.",
+				'en-us': "Flip a coin. If tails, Raichu does 30 damage to itself.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+		'en-us': "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 	},
 
 

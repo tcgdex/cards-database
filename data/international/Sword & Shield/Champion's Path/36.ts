@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [264],
 
 	name: {
-		en: "Galarian Linoone",
-		fr: "Linéon de Galar",
-		es: "Linoone de Galar",
-		it: "Linoone di Galar",
-		pt: "Linoone de Galar",
-		de: "Galar-Geradaks"
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar",
+		'es-es': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar",
+		'de-de': "Galar-Geradaks"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar"
+		'en-us': "Galarian Zigzagoon",
+		'fr-fr': "Zigzaton de Galar"
 	},
 
 	attacks: [
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
-				es: "Doble Filo",
-				it: "Sdoppiatore",
-				pt: "Faca de Dois Gumes",
-				de: "Risikotackle"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
+				'es-es': "Doble Filo",
+				'it-it': "Sdoppiatore",
+				'pt-br': "Faca de Dois Gumes",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "This Pokémon also does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-				es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-				pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+				'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
+		'en-us': "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
 	},
 
 	thirdParty: {

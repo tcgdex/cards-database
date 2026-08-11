@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Illumise",
-		fr: "Lumivole",
-		de: "Illumise"
+		'en-us': "Illumise",
+		'fr-fr': "Lumivole",
+		'de-de': "Illumise"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Scent Conduct",
-				fr: "Conducteur de parfum",
-				de: "Duftruf"
+				'en-us': "Scent Conduct",
+				'fr-fr': "Conducteur de parfum",
+				'de-de': "Duftruf"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Illumise is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck un Pokémon de base Grass et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Lumivole est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei \"Kopf\" durchsuche dein Deck nach 1 -Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Illumise von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Illumise is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck un Pokémon de base Grass et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Lumivole est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei \"Kopf\" durchsuche dein Deck nach 1 -Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Illumise von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firefly Scent",
-				fr: "Parfum de luciole",
-				de: "Leuchtkäferduft"
+				'en-us': "Firefly Scent",
+				'fr-fr': "Parfum de luciole",
+				'de-de': "Leuchtkäferduft"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Poké-Bodies, that Pokémon is now Asleep.",
-				fr: "Si le Pokémon Défenseur possède des Poké-Bodies, il est maintenant Endormi.",
-				de: "Wenn das Verteidigende Pokémon mindestens 1 Poké-Body hat, schläft es jetzt."
+				'en-us': "If the Defending Pokémon has any Poké-Bodies, that Pokémon is now Asleep.",
+				'fr-fr': "Si le Pokémon Défenseur possède des Poké-Bodies, il est maintenant Endormi.",
+				'de-de': "Wenn das Verteidigende Pokémon mindestens 1 Poké-Body hat, schläft es jetzt."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sweet aroma, it guides VOLBEAT to draw signs with light in the night sky.",
+		'en-us': "With its sweet aroma, it guides VOLBEAT to draw signs with light in the night sky.",
 	},
 
 	thirdParty: {

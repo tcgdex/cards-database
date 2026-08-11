@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zeraora",
-		fr: "Zeraora",
-		es: "Zeraora",
-		it: "Zeraora",
-		pt: "Zeraora",
-		de: "Zeraora"
+		'en-us': "Zeraora",
+		'fr-fr': "Zeraora",
+		'es-es': "Zeraora",
+		'it-it': "Zeraora",
+		'pt-br': "Zeraora",
+		'de-de': "Zeraora"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Wild Charge",
-			fr: "Éclair Fou",
-			es: "Voltio Cruel",
-			it: "Sprizzalampo",
-			pt: "Ataque Selvagem",
-			de: "Stromstoß"
+			'en-us': "Wild Charge",
+			'fr-fr': "Éclair Fou",
+			'es-es': "Voltio Cruel",
+			'it-it': "Sprizzalampo",
+			'pt-br': "Ataque Selvagem",
+			'de-de': "Stromstoß"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 70
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+		'en-us': "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
 	},
 
 	

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エモンガ",
+		'ja-jp': "エモンガ",
 		'zh-tw': "電飛鼠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を ほとばしらせながら 空を 舞うように 飛ぶ。 可愛いが やっかいなのだ。",
+		'ja-jp': "電気を ほとばしらせながら 空を 舞うように 飛ぶ。 可愛いが やっかいなのだ。",
 		'zh-tw': "會一邊放電一邊像是在空中跳舞般地飛行。 雖然可愛，但很難纏。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほりだしもの",
+				'ja-jp': "ほりだしもの",
 				'zh-tw': "挖到寶",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張物品卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "バチバチ",
+				'ja-jp': "バチバチ",
 				'zh-tw': "劈哩啪啦",
 			},
 			damage: 40,

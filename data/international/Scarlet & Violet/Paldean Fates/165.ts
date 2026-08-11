@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		es: "Tinkatink",
-		it: "Tinkatink",
-		pt: "Tinkatink",
-		de: "Forgita"
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'es-es': "Tinkatink",
+		'it-it': "Tinkatink",
+		'pt-br': "Tinkatink",
+		'de-de': "Forgita"
 	},
 
 	rarity: "Shiny rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scrap Pickup",
-			fr: "Récup Rebut",
-			es: "Recogida de Chatarra",
-			it: "Raccogliscarti",
-			pt: "Catar Sucata",
-			de: "Schrottverwertung"
+			'en-us': "Scrap Pickup",
+			'fr-fr': "Récup Rebut",
+			'es-es': "Recogida de Chatarra",
+			'it-it': "Raccogliscarti",
+			'pt-br': "Catar Sucata",
+			'de-de': "Schrottverwertung"
 		},
 
 		effect: {
-			en: "Put an Item card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Objet de votre pile de défausse à votre main.",
-			es: "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
-			it: "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Item da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put an Item card from your discard pile into your hand.",
+			'fr-fr': "Ajoutez une carte Objet de votre pile de défausse à votre main.",
+			'es-es': "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
+			'it-it': "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma carta de Item da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique",
-			es: "Viento Feérico",
-			it: "Vento di Fata",
-			pt: "Vento de Fada",
-			de: "Feenbrise"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique",
+			'es-es': "Viento Feérico",
+			'it-it': "Vento di Fata",
+			'pt-br': "Vento de Fada",
+			'de-de': "Feenbrise"
 		},
 
 		damage: 30
@@ -78,7 +78,7 @@ const card: Card = {
 	illustrator: "yuu",
 
 	description: {
-		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+		'en-us': "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
 	},
 
 }

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "土地雲",
 		'zh-cn': "土地雲",
-		ja: "ランドロス"
+		'ja-jp': "ランドロス"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "土地雲造訪的土地上， 作物會結實纍纍， 因此被稱為農田之神。",
 		'zh-cn': "土地雲造訪的土地上， 作物會結實纍纍， 因此被稱為農田之神。",
-		ja: "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。"
+		'ja-jp': "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "真氣之拳",
 			'zh-cn': "真氣之拳",
-			ja: "きあいのこぶし"
+			'ja-jp': "きあいのこぶし"
 		},
 
 		effect: {
 			'zh-tw': "從自己的棄牌區選擇1張能量卡，附於這隻寶可夢身上。",
 			'zh-cn': "從自己的棄牌區選擇1張能量卡，附於這隻寶可夢身上。",
-			ja: "自分のトラッシュからエネルギーを1枚選び、このポケモンにつける。"
+			'ja-jp': "自分のトラッシュからエネルギーを1枚選び、このポケモンにつける。"
 		},
 
 		damage: 30,
@@ -42,13 +42,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "粗暴橫掃",
 			'zh-cn': "粗暴橫掃",
-			ja: "バスタースイング"
+			'ja-jp': "バスタースイング"
 		},
 
 		effect: {
 			'zh-tw': "這個招式的傷害不計算抵抗力。",
 			'zh-cn': "這個招式的傷害不計算抵抗力。",
-			ja: "このワザのダメージは抵抗力を計算しない。"
+			'ja-jp': "このワザのダメージは抵抗力を計算しない。"
 		},
 
 		damage: 130,

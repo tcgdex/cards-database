@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロス",
+		'ja-jp': "メタグロス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スーパー接続",
+				'ja-jp': "スーパー接続",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、廃棄物の山を検索して、サイキックまたはメタルのエネルギーカードを検索し、アクティブなPokã©Monに添付することができます。次に、そのpokã©Monに1つのダメージカウンターを置きます。 Metagrossが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）、廃棄物の山を検索して、サイキックまたはメタルのエネルギーカードを検索し、アクティブなPokã©Monに添付することができます。次に、そのpokã©Monに1つのダメージカウンターを置きます。 Metagrossが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "リンクブラスト",
+				'ja-jp': "リンクブラスト",
 			},
 			effect: {
-				ja: "Metagrossと防御ポケモンのエネルギーが異なるエネルギーを持っている場合、この攻撃のベースダメージは70ではなく40です。",
+				'ja-jp': "Metagrossと防御ポケモンのエネルギーが異なるエネルギーを持っている場合、この攻撃のベースダメージは70ではなく40です。",
 			},
 			damage: 70,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
-		it: "Weavile",
-		pt: "Weavile",
-		de: "Snibunna"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Penalty",
-				fr: "Punition Obscure",
+				'en-us': "Dark Penalty",
+				'fr-fr': "Punition Obscure",
 			},
 			effect: {
-				en: "If the Defending Pokémon has no Pokémon Tool card attached to it, this attack does nothing.",
-				fr: "S'il n'y a pas de carte Outil Pokémon attachée au Pokémon Défenseur, cette attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon has no Pokémon Tool card attached to it, this attack does nothing.",
+				'fr-fr': "S'il n'y a pas de carte Outil Pokémon attachée au Pokémon Défenseur, cette attaque ne fait rien.",
 			},
 			damage: 90,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+		'en-us': "Evolution made it even more devious. It communicates by clawing signs in boulders.",
 	},
 
 	thirdParty: {

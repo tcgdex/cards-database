@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロトム",
+		'ja-jp': "ロトム",
 	},
 
 	illustrator: "mingo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
+		'ja-jp': "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ロトコール" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から、名前に「ロトム」とつくポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札から、名前に「ロトム」とつくポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員についている「ポケモンのどうぐ」の数×30ダメージ。",
+				'ja-jp': "自分のポケモン全員についている「ポケモンのどうぐ」の数×30ダメージ。",
 			},
 		},
 	],

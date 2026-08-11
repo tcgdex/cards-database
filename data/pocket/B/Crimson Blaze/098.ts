@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [794],
 
 	name: {
-		en: "Buzzwole ex"
+		'en-us': "Buzzwole ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,21 +20,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Punch"
+			'en-us': "Punch"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Big Beat"
+			'en-us': "Big Beat"
 		},
 
 		damage: 120,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Big Beat."
+			'en-us': "During your next turn, this Pokémon can't use Big Beat."
 		}
 	}],
 

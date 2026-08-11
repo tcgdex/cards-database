@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バスラオ",
+		'ja-jp': "バスラオ",
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "赤と 青の バスラオは すぐに ケンカするほど 仲が 悪い。 とても 乱暴な ポケモン。",
+		'ja-jp': "赤と 青の バスラオは すぐに ケンカするほど 仲が 悪い。 とても 乱暴な ポケモン。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aerodactyl V",
-		fr: "Ptéra V",
-		es: "Aerodactyl V",
-		it: "Aerodactyl V",
-		pt: "Aerodactyl V",
-		de: "Aerodactyl V"
+		'en-us': "Aerodactyl V",
+		'fr-fr': "Ptéra V",
+		'es-es': "Aerodactyl V",
+		'it-it': "Aerodactyl V",
+		'pt-br': "Aerodactyl V",
+		'de-de': "Aerodactyl V"
 	},
 
 	illustrator: "Nurikabe",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 40
@@ -39,21 +39,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Rock Crush",
-			fr: "Écrasement Rocheux",
-			es: "Aplastamiento Rocoso",
-			it: "Tritaroccia",
-			pt: "Pedra Esmagadora",
-			de: "Felsenmalmer"
+			'en-us': "Rock Crush",
+			'fr-fr': "Écrasement Rocheux",
+			'es-es': "Aplastamiento Rocoso",
+			'it-it': "Tritaroccia",
+			'pt-br': "Pedra Esmagadora",
+			'de-de': "Felsenmalmer"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 120

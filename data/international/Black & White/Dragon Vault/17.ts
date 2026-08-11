@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Druddigon",
-		fr: "Drakkarmin",
+		'en-us': "Druddigon",
+		'fr-fr': "Drakkarmin",
 	},
 
 	illustrator: "kawayoo",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire Serrée",
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire Serrée",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Tail",
-				fr: "Draco-Queue",
+				'en-us': "Dragon Tail",
+				'fr-fr': "Draco-Queue",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 80 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 80,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+		'en-us': "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
 	},
 
 	thirdParty: {

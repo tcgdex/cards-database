@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のキバニア",
+		'ja-jp': "アクア団のキバニア",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "水の中なら こいつの 動きに ついて これないだろ？ この渦に 巻き込まれたら 脱出できないぜ。",
+		'ja-jp': "水の中なら こいつの 動きに ついて これないだろ？ この渦に 巻き込まれたら 脱出できないぜ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Darkness"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

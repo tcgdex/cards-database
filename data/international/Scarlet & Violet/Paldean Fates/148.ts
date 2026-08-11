@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Abra",
-		fr: "Abra",
-		es: "Abra",
-		it: "Abra",
-		pt: "Abra",
-		de: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'es-es': "Abra",
+		'it-it': "Abra",
+		'pt-br': "Abra",
+		'de-de': "Abra"
 	},
 
 	rarity: "Shiny rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 20
@@ -64,7 +64,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+		'en-us': "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
 	},
 
 }

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Starly",
-		fr: "Etourmi",
-		de: "Staralilli"
+		'en-us': "Starly",
+		'fr-fr': "Etourmi",
+		'de-de': "Staralilli"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big."
+		'en-us': "Because they are weak individually, they form groups. However, they bicker if the group grows too big."
 	},
 
 	variants: [

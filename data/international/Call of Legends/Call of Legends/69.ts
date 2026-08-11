@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Prehistoric Wisdom",
-				fr: "Sagesse préhistorique",
-				de: "Prähistorische Weisheit"
+				'en-us': "Prehistoric Wisdom",
+				'fr-fr': "Sagesse préhistorique",
+				'de-de': "Prähistorische Weisheit"
 			},
 			effect: {
-				en: "Choose a card from your hand and put it in the Lost Zone. Then, draw 3 cards.",
-				fr: "Choisissez une carte de votre main et placez-la dans la Zone Perdue. Ensuite, piochez 3 cartes.",
-				de: "Wähle 1 Karte von deiner Hand und lege sie ins Nirgendwo. Ziehe anschließend 3 Karten."
+				'en-us': "Choose a card from your hand and put it in the Lost Zone. Then, draw 3 cards.",
+				'fr-fr': "Choisissez une carte de votre main et placez-la dans la Zone Perdue. Ensuite, piochez 3 cartes.",
+				'de-de': "Wähle 1 Karte von deiner Hand und lege sie ins Nirgendwo. Ziehe anschließend 3 Karten."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Granite Head",
-				fr: "Tête de granit",
-				de: "Granitkopf"
+				'en-us': "Granite Head",
+				'fr-fr': "Tête de granit",
+				'de-de': "Granitkopf"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Pendant le tour suivant de votre adversaire, les dégâts infligés par des attaques à Relicanth sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners, wird Schaden, der Relicanth durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le tour suivant de votre adversaire, les dégâts infligés par des attaques à Relicanth sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners, wird Schaden, der Relicanth durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
+		'en-us': "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
 	},
 
 	variants: [

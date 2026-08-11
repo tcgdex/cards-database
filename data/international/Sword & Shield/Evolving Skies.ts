@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh7: Set = {
 	id: "swsh7",
 
 	name: {
-		en: "Evolving Skies",
-		fr: "Évolution Céleste",
-		es: "Cielos Evolutivos",
-		de: "Drachenwandel",
-		it: "Evoluzioni Eteree",
-		pt: "Céus em Evolução",
+		'en-us': "Evolving Skies",
+		'fr-fr': "Évolution Céleste",
+		'es-es': "Cielos Evolutivos",
+		'de-de': "Drachenwandel",
+		'it-it': "Evoluzioni Eteree",
+		'pt-br': "Céus em Evolução",
 	},
 
 	tcgOnline: 'EVS',
@@ -24,7 +24,7 @@ const swsh7: Set = {
 
 	abbreviations: {
 		official: "EVS",
-		fr: "EVC"
+		'fr-fr': "EVC"
 	},
 
 	thirdParty: {

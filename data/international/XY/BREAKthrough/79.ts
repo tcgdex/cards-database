@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Marowak BREAK",
-		fr: "Ossatueur TURBO",
-		es: "Marowak TURBO",
-		it: "Marowak TURBO",
-		pt: "Marowak TURBO",
-		de: "Knogga-TURBO"
+		'en-us': "Marowak BREAK",
+		'fr-fr': "Ossatueur TURBO",
+		'es-es': "Marowak TURBO",
+		'it-it': "Marowak TURBO",
+		'pt-br': "Marowak TURBO",
+		'de-de': "Knogga-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marowak",
-		fr: "Ossatueur",
-		es: "Marowak",
-		it: "Marowak",
-		pt: "Marowak",
-		de: "Knogga"
+		'en-us': "Marowak",
+		'fr-fr': "Ossatueur",
+		'es-es': "Marowak",
+		'it-it': "Marowak",
+		'pt-br': "Marowak",
+		'de-de': "Knogga"
 	},
 
 	stage: "BREAK",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bone Revenge",
-				fr: "Os Vengeance",
-				es: "Desquite Óseo",
-				it: "Vendetta Ossea",
-				pt: "Vingança de Ossos",
-				de: "Knochenrache"
+				'en-us': "Bone Revenge",
+				'fr-fr': "Os Vengeance",
+				'es-es': "Desquite Óseo",
+				'it-it': "Vendetta Ossea",
+				'pt-br': "Vingança de Ossos",
+				'de-de': "Knochenrache"
 			},
 			effect: {
-				en: "This attack does 40 more damage for each Prize card your opponent has taken.",
-				fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
-				es: "Este ataque hace 40 puntos de daño más por cada carta de Premio que haya tomado tu rival.",
-				it: "Questo attacco infligge 40 danni in più per ogni carta Premio presa dal tuo avversario.",
-				pt: "Este ataque causa 40 de danos adicionais para cada card de Prêmio conquistado por seu oponente.",
-				de: "Dieser Angriff fügt 40 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
+				'en-us': "This attack does 40 more damage for each Prize card your opponent has taken.",
+				'fr-fr': "Cette attaque inflige 40 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+				'es-es': "Este ataque hace 40 puntos de daño más por cada carta de Premio que haya tomado tu rival.",
+				'it-it': "Questo attacco infligge 40 danni in più per ogni carta Premio presa dal tuo avversario.",
+				'pt-br': "Este ataque causa 40 de danos adicionais para cada card de Prêmio conquistado por seu oponente.",
+				'de-de': "Dieser Angriff fügt 40 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
 			},
 			damage: "20+",
 

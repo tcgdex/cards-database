@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		es: "Ursaring",
-		it: "Ursaring",
-		pt: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'es-es': "Ursaring",
+		'it-it': "Ursaring",
+		'pt-br': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	rarity: "Uncommon",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Slash",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Slash",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 40,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Whap Down",
-			fr: "Assommer",
-			es: "Zurrar",
-			it: "Bastonata",
-			pt: "Whap Down",
-			de: "Verdreschen"
+			'en-us': "Whap Down",
+			'fr-fr': "Assommer",
+			'es-es': "Zurrar",
+			'it-it': "Bastonata",
+			'pt-br': "Whap Down",
+			'de-de': "Verdreschen"
 		},
 
 		damage: 110,
@@ -56,16 +56,16 @@ const card: Card = {
 	dexId: [217],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		es: "Teddiursa",
-		it: "Teddiursa",
-		pt: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'es-es': "Teddiursa",
+		'it-it': "Teddiursa",
+		'pt-br': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	description: {
-		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+		'en-us': "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
 	},
 
 	regulationMark: "E",

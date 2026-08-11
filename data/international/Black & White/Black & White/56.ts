@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
+				'en-us': "Recover",
+				'fr-fr': "Soin",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon et soignez tous les dégâts de ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon et soignez tous les dégâts de ce Pokémon.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When their brains, now divided in two, are thinking the same thought, these Pokémon exhibit their maximum power.",
+		'en-us': "When their brains, now divided in two, are thinking the same thought, these Pokémon exhibit their maximum power.",
 	},
 
 	thirdParty: {

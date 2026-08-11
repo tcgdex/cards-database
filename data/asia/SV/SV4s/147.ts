@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Slither Wing"
+		'id-id': "Slither Wing"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Pokémon misterius yang memiliki kemiripan dengan makhluk hidup bernama Slither Wing yang diperkenalkan dalam sebuah buku kuno."
+		'id-id': "Pokémon misterius yang memiliki kemiripan dengan makhluk hidup bernama Slither Wing yang diperkenalkan dalam sebuah buku kuno."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Meratakan Tanah"
+			'id-id': "Meratakan Tanah"
 		},
 
 		effect: {
-			id: "Buang 1 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 1 kartu dari atas Deck lawan ke Trash."
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Luka Bakar Ganas"
+			'id-id': "Luka Bakar Ganas"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 90. Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 90. Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		damage: 120,

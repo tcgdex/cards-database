@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "麒麟奇",
-		ja: "キリンリキ"
+		'ja-jp': "キリンリキ"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "尾巴上也有著小小的大腦。如果有誰靠近就會對氣味 產生反應並咬過來，要特別注意。",
-		ja: "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。"
+		'ja-jp': "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。"
 	},
 
 	stage: "Basic",
@@ -24,24 +24,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "雙重抽出",
-			ja: "ダブルドロー"
+			'ja-jp': "ダブルドロー"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出2張卡。",
-			ja: "自分の山札を2枚引く。"
+			'ja-jp': "自分の山札を2枚引く。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "幻象光線",
-			ja: "サイケこうせん"
+			'ja-jp': "サイケこうせん"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サメハダー",
+		'ja-jp': "サメハダー",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "獲物の 匂いを 嗅ぎとると お尻から 海水を 噴射して 時速１２０キロで 襲撃する。",
+		'ja-jp': "獲物の 匂いを 嗅ぎとると お尻から 海水を 噴射して 時速１２０キロで 襲撃する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、トラッシュする。",
+				'ja-jp': "コインを3回投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、トラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 	},
 
 	retreat: 1,

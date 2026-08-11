@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンギラス",
+		'ja-jp': "バンギラス",
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。",
+		'ja-jp': "バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x60ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x60ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモン全員に、コインを1回ずつ投げ、オモテが出たポケモンに、それぞれ60ダメージ。このワザのダメージは、弱点・抵抗力を計算しない。",
+				'ja-jp': "おたがいのベンチポケモン全員に、コインを1回ずつ投げ、オモテが出たポケモンに、それぞれ60ダメージ。このワザのダメージは、弱点・抵抗力を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 	},
 
 	retreat: 3,

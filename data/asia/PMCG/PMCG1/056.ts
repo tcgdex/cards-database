@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダグトリオ",
+		'ja-jp': "ダグトリオ",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "地震",
+				'ja-jp': "地震",
 			},
 			effect: {
-				ja: "あなた自身のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "あなた自身のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 70,
 		},

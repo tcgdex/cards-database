@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トロピウス"
+		'ja-jp': "トロピウス"
 	},
 
 	illustrator: "Jerky",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "熱帯の ジャングルに 生息。 首の フサは 甘くて 美味しい。 １年に ２回 実を つける。"
+		'ja-jp': "熱帯の ジャングルに 生息。 首の フサは 甘くて 美味しい。 １年に ２回 実を つける。"
 	},
 
 	stage: "Basic",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "リーフドレイン"
+			'ja-jp': "リーフドレイン"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "このポケモンのHPを「20」回復する。"
+			'ja-jp': "このポケモンのHPを「20」回復する。"
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			ja: "なんごくのかぜ"
+			'ja-jp': "なんごくのかぜ"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "このポケモンについているエネルギーをすべて、ベンチポケモン1匹につけ替える。"
+			'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモン1匹につけ替える。"
 		}
 	}],
 

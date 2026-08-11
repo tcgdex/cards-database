@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "hatachu",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Roast Reveal",
-				fr: "Rôtir",
-				es: "Revelación",
-				it: "Svelafuoco",
-				pt: "Revelação Assada",
-				de: "Bratblick"
+				'en-us': "Roast Reveal",
+				'fr-fr': "Rôtir",
+				'es-es': "Revelación",
+				'it-it': "Svelafuoco",
+				'pt-br': "Revelação Assada",
+				'de-de': "Bratblick"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie Fire de votre main. Dans ce cas, piochez 3 cartes.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, roba 3 cartas.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire che hai in mano. Se lo fai, pesca tre carte.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Fire da sua mão. Se fizer isto, compre 3 cartas.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
+				'en-us': "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie Fire de votre main. Dans ce cas, piochez 3 cartes.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, roba 3 cartas.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire che hai in mano. Se lo fai, pesca tre carte.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Fire da sua mão. Se fizer isto, compre 3 cartas.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 60,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+		'en-us': "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
 	},
 
 	thirdParty: {

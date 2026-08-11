@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
-				es: "Agarre",
-				it: "Presa",
-				pt: "Agarramento Viciado",
-				de: "Klammer"
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
+				'es-es': "Agarre",
+				'it-it': "Presa",
+				'pt-br': "Agarramento Viciado",
+				'de-de': "Klammer"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+		'en-us': "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
 	},
 
 	thirdParty: {

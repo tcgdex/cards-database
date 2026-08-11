@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Kecleon",
-		fr: "Kecleon Niv. 34",
-		de: "Kecleon"
+		'en-us': "Kecleon",
+		'fr-fr': "Kecleon Niv. 34",
+		'de-de': "Kecleon"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Colorful Body",
-				fr: "Corps coloré",
-				de: "Farbenfroher Körper"
+				'en-us': "Colorful Body",
+				'fr-fr': "Corps coloré",
+				'de-de': "Farbenfroher Körper"
 			},
 			effect: {
-				en: "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
-				fr: "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
-				de: "Kecleons Typ ist		 ."
+				'en-us': "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
+				'fr-fr': "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
+				'de-de': "Kecleons Typ ist		 ."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Smash",
-				fr: "Triple éclate",
-				de: "Dreifachschmetterer"
+				'en-us': "Triple Smash",
+				'fr-fr': "Triple éclate",
+				'de-de': "Dreifachschmetterer"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10+",
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however."
+		'en-us': "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however."
 	},
 
 	variants: [

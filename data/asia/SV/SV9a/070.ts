@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒビキのバクフーン",
+		'ja-jp': "ヒビキのバクフーン",
 		'zh-tw': "<阿響的>火爆獸",
 		'zh-cn': "<阿響的>火爆獸"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する 大技を 隠し持っている。",
+		'ja-jp': "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する 大技を 隠し持っている。",
 		'zh-tw': "會摩擦熊熊燃燒著的體毛， 掀起爆炸氣浪進行攻擊。 擁有深藏不露的大絕招。",
 		'zh-cn': "會摩擦熊熊燃燒著的體毛， 掀起爆炸氣浪進行攻擊。 擁有深藏不露的大絕招。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "バディブラスト",
+			'ja-jp': "バディブラスト",
 			'zh-tw': "拍檔爆破",
 			'zh-cn': "拍檔爆破"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: "40+",
 
 		effect: {
-			ja: "自分のトラッシュにある「ヒビキの冒険」の枚数×60ダメージ追加。",
+			'ja-jp': "自分のトラッシュにある「ヒビキの冒険」の枚数×60ダメージ追加。",
 			'zh-tw': "增加自己的棄牌區的「阿響的冒險」的張數×60點傷害。",
 			'zh-cn': "增加自己的棄牌區的「阿響的冒險」的張數×60點傷害。"
 		}
@@ -45,7 +45,7 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "ばくねつほう",
+			'ja-jp': "ばくねつほう",
 			'zh-tw': "爆熱炮",
 			'zh-cn': "爆熱炮"
 		},

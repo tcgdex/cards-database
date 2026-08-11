@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Crustle",
-		fr: "Crabaraque",
-		es: "Crustle",
-		it: "Crustle",
-		pt: "Crustle",
-		de: "Castellith"
+		'en-us': "Crustle",
+		'fr-fr': "Crabaraque",
+		'es-es': "Crustle",
+		'it-it': "Crustle",
+		'pt-br': "Crustle",
+		'de-de': "Castellith"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dwebble",
-		fr: "Crabicoque",
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shell Armor",
-				fr: "Feuillage Enveloppant",
-				es: "Hojas Envolventes",
-				it: "Fogliefascia",
-				pt: "Enfaixar com Folhas",
-				de: "Blätterwickel"
+				'en-us': "Shell Armor",
+				'fr-fr': "Feuillage Enveloppant",
+				'es-es': "Hojas Envolventes",
+				'it-it': "Fogliefascia",
+				'pt-br': "Enfaixar com Folhas",
+				'de-de': "Blätterwickel"
 			},
 			effect: {
-				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Cutter",
-				fr: "Taillade",
-				es: "Corte Furia",
-				it: "Tagliofuria",
-				pt: "Cortador de Fúria",
-				de: "Zornklinge"
+				'en-us': "Fury Cutter",
+				'fr-fr': "Taillade",
+				'es-es': "Corte Furia",
+				'it-it': "Tagliofuria",
+				'pt-br': "Cortador de Fúria",
+				'de-de': "Zornklinge"
 			},
 			effect: {
-				en: "Flip 3 coins. If 1 of them is heads, this attack does 40 more damage. If 2 of them are heads, this attack does 80 more damage. If all of them are heads, this attack does 150 more damage.",
-				fr: "Lancez 3 pièces. S’il n’y a qu’un côté face, cette attaque inflige 40 dégâts supplémentaires. S’il y a 2 côtés face, cette attaque inflige 80 dégâts supplémentaires. S’il y a 3 côtés face, cette attaque inflige 150 dégâts supplémentaires.",
-				es: "Lanza 3 monedas. Si sale cara en 1 de ellas, este ataque hace 40 puntos de daño más. Si sale cara en 2, hace 80 puntos de daño más. Si sale cara en las 3, hace 150 puntos de daño más.",
-				it: "Lancia tre volte una moneta. Se esce testa una sola volta, questo attacco infligge 40 danni in più. Se esce testa due volte, ne infligge 80 in più e, se esce testa tutte e tre le volte, ben 150 in più.",
-				pt: "Jogue 3 moedas. Se 1 delas sair cara, este ataque causará 40 pontos de dano a mais. Se 2 delas saírem cara, este ataque causará 80 pontos de dano a mais. Se todas saírem cara, este ataque causará 150 pontos de dano a mais.",
-				de: "Wirf 3 Münzen. Zeigt 1 davon Kopf, fügt diese Attacke 40 Schadenspunkte mehr zu. Zeigen 2 davon Kopf, fügt diese Attacke 80 Schadenspunkte mehr zu. Zeigen alle Münzen Kopf, fügt diese Attacke 150 Schadenspunkte mehr zu."
+				'en-us': "Flip 3 coins. If 1 of them is heads, this attack does 40 more damage. If 2 of them are heads, this attack does 80 more damage. If all of them are heads, this attack does 150 more damage.",
+				'fr-fr': "Lancez 3 pièces. S’il n’y a qu’un côté face, cette attaque inflige 40 dégâts supplémentaires. S’il y a 2 côtés face, cette attaque inflige 80 dégâts supplémentaires. S’il y a 3 côtés face, cette attaque inflige 150 dégâts supplémentaires.",
+				'es-es': "Lanza 3 monedas. Si sale cara en 1 de ellas, este ataque hace 40 puntos de daño más. Si sale cara en 2, hace 80 puntos de daño más. Si sale cara en las 3, hace 150 puntos de daño más.",
+				'it-it': "Lancia tre volte una moneta. Se esce testa una sola volta, questo attacco infligge 40 danni in più. Se esce testa due volte, ne infligge 80 in più e, se esce testa tutte e tre le volte, ben 150 in più.",
+				'pt-br': "Jogue 3 moedas. Se 1 delas sair cara, este ataque causará 40 pontos de dano a mais. Se 2 delas saírem cara, este ataque causará 80 pontos de dano a mais. Se todas saírem cara, este ataque causará 150 pontos de dano a mais.",
+				'de-de': "Wirf 3 Münzen. Zeigt 1 davon Kopf, fügt diese Attacke 40 Schadenspunkte mehr zu. Zeigen 2 davon Kopf, fügt diese Attacke 80 Schadenspunkte mehr zu. Zeigen alle Münzen Kopf, fügt diese Attacke 150 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+		'en-us': "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
 	},
 
 	thirdParty: {

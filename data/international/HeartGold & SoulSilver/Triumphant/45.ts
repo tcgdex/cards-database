@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "sui",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
-		fr: "Nidoran♀"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d’poing éclair",
-				de: "Schnellschlag"
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d’poing éclair",
+				'de-de': "Schnellschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud’keu",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud’keu",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 50,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
+		'en-us': "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
 	},
 
 	variants: [

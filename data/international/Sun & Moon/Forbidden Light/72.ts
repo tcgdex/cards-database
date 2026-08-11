@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Zygarde",
-		fr: "Zygarde",
-		es: "Zygarde",
-		it: "Zygarde",
-		pt: "Zygarde",
-		de: "Zygarde"
+		'en-us': "Zygarde",
+		'fr-fr': "Zygarde",
+		'es-es': "Zygarde",
+		'it-it': "Zygarde",
+		'pt-br': "Zygarde",
+		'de-de': "Zygarde"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glare",
-				fr: "Regard Médusant",
-				es: "Deslumbrar",
-				it: "Sguardo Feroce",
-				pt: "Olhar Penetrante",
-				de: "Giftblick"
+				'en-us': "Glare",
+				'fr-fr': "Regard Médusant",
+				'es-es': "Deslumbrar",
+				'it-it': "Sguardo Feroce",
+				'pt-br': "Olhar Penetrante",
+				'de-de': "Giftblick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calm Strike",
-				fr: "Frappe Placide",
-				es: "Golpe Calmado",
-				it: "Colpo Impassibile",
-				pt: "Golpe Calmo",
-				de: "Gelassener Schlag"
+				'en-us': "Calm Strike",
+				'fr-fr': "Frappe Placide",
+				'es-es': "Golpe Calmado",
+				'it-it': "Colpo Impassibile",
+				'pt-br': "Golpe Calmo",
+				'de-de': "Gelassener Schlag"
 			},
 			effect: {
-				en: "If you have used your GX attack, this attack does 60 more damage.",
-				fr: "Si vous avez utilisé votre attaque GX, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si has usado tu ataque GX, este ataque hace 60 puntos de daño más.",
-				it: "Se hai già usato il tuo attacco GX, questo attacco infligge 60 danni in più.",
-				pt: "Se você usou seu ataque GX, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn du deine GX-Attacke eingesetzt hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If you have used your GX attack, this attack does 60 more damage.",
+				'fr-fr': "Si vous avez utilisé votre attaque GX, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si has usado tu ataque GX, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se hai già usato il tuo attacco GX, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se você usou seu ataque GX, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn du deine GX-Attacke eingesetzt hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+		'en-us': "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
 	},
 
 	thirdParty: {

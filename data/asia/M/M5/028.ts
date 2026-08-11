@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	illustrator: "Nelnal",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "水辺で ボーッとしている。 なにかが 尻尾に 噛みついても まる１日 気づかない。",
+		'ja-jp': "水辺で ボーッとしている。 なにかが 尻尾に 噛みついても まる１日 気づかない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すてほうだい" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の手札を好きなだけ選び、トラッシュする。",
+				'ja-jp': "自分の手札を好きなだけ選び、トラッシュする。",
 			},
 		},
 		{

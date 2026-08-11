@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーノ",
+		'ja-jp': "ニドリーノ",
 		'zh-tw': "尼多力諾",
-		th: "นิโดริโน",
-		id: "Nidorino",
+		'th-th': "นิโดริโน",
+		'id-id': "Nidorino",
 	},
 
 	illustrator: "Shiburingaru",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
+		'ja-jp': "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
 		'zh-tw': "神經質且容易發脾氣打架。當體內的腎上腺素增加時， 毒素的濃度也會提升。",
-		th: "หงุดหงิดขี้กังวล แค่เรื่องนิดหน่อยก็ชวนทะเลาะ หากอะดรีนาลีนในร่างกายเพิ่มสูงขึ้น ความเข้มข้นของพิษก็จะสูงขึ้นไปด้วย",
-		id: "Nidorino mudah tersinggung dan suka berkelahi. Ketika adrenalin di dalam tubuhnya bertambah, kepekatan unsur racunnya pun meningkat.",
+		'th-th': "หงุดหงิดขี้กังวล แค่เรื่องนิดหน่อยก็ชวนทะเลาะ หากอะดรีนาลีนในร่างกายเพิ่มสูงขึ้น ความเข้มข้นของพิษก็จะสูงขึ้นไปด้วย",
+		'id-id': "Nidorino mudah tersinggung dan suka berkelahi. Ketika adrenalin di dalam tubuhnya bertambah, kepekatan unsur racunnya pun meningkat.",
 	},
 
 	stage: "Stage1",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "銳利之牙",
-				th: "เขี้ยวคม",
-				id: "Taring Tajam",
+				'th-th': "เขี้ยวคม",
+				'id-id': "Taring Tajam",
 			},
 			damage: 30,
 			cost: ["Darkness"],
 		},
 		{
 			name: {
-				ja: "かいりきホーン",
+				'ja-jp': "かいりきホーン",
 				'zh-tw': "怪力角擊",
-				th: "เขามหากาฬ",
-				id: "Tanduk Tenaga Super",
+				'th-th': "เขามหากาฬ",
+				'id-id': "Tanduk Tenaga Super",
 			},
 			damage: 100,
 			cost: ["Darkness", "Darkness", "Colorless"],
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニドラン♂",
+		'ja-jp': "ニドラン♂",
 	},
 
 	retreat: 2,

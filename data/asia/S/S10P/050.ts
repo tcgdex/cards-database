@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マギアナ",
+		'ja-jp': "マギアナ",
 		'zh-tw': "瑪機雅娜",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "およそ ５００年前 科学者に よって 作られた。 ソウルハートと 呼ばれる パーツが 本体なのだ。",
+		'ja-jp': "およそ ５００年前 科学者に よって 作られた。 ソウルハートと 呼ばれる パーツが 本体なのだ。",
 		'zh-tw': "由大約５００年前的 科學家所製造。 本體是被稱為魂心的零件。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ギアカッター",
+				'ja-jp': "ギアカッター",
 				'zh-tw': "齒輪刀",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "からくりビーム",
+				'ja-jp': "からくりビーム",
 				'zh-tw': "機關光束",
 			},
 			damage: "60+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加し、相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加し、相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

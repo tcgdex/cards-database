@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [172],
 
 	name: {
-		en: "Pichu"
+		'en-us': "Pichu"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It is unskilled at storing electric power.\nAny kind of shock causes it to discharge\nenergy spontaneously."
+		'en-us': "It is unskilled at storing electric power.\nAny kind of shock causes it to discharge\nenergy spontaneously."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Crackly Toss"
+			'en-us': "Crackly Toss"
 		},
 
 		effect: {
-			en: "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+			'en-us': "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
 		}
 	}],
 

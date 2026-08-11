@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "廃墟に なった 建物に 怪しい光が 灯っていたら そこに ゴースが 潜んでいる。",
+		'ja-jp': "廃墟に なった 建物に 怪しい光が 灯っていたら そこに ゴースが 潜んでいる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふきつなめ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のポケモン1匹に、ダメカンを1個のせる。",
+				'ja-jp': "相手のポケモン1匹に、ダメカンを1個のせる。",
 			},
 		},
 	],

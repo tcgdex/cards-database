@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Passimian ex"
+		'en-us': "Passimian ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,17 +22,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Offload Pass"
+			'en-us': "Offload Pass"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all {F} Energy from this Pokémon to 1 of your Benched Pokémon."
+			'en-us': "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all {F} Energy from this Pokémon to 1 of your Benched Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Seismic Toss"
+			'en-us': "Seismic Toss"
 		},
 
 		damage: 60,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイアロー",
+		'ja-jp': "ファイアロー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "好物は キャモメや ツツケラ。 強烈な キックを お見舞いし 鋭いツメで がっちり キャッチ。",
+		'ja-jp': "好物は キャモメや ツツケラ。 強烈な キックを お見舞いし 鋭いツメで がっちり キャッチ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべて手札にもどす。",
+				'ja-jp': "このポケモンについているエネルギーを、すべて手札にもどす。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 	},
 
 	retreat: 0,

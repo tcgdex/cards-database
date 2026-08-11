@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Tirtouga",
-		fr: "Carapagos",
-		es: "Tirtouga",
-		it: "Tirtouga",
-		pt: "Tirtouga",
-		de: "Galapaflos"
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
+		'es-es': "Tirtouga",
+		'it-it': "Tirtouga",
+		'pt-br': "Tirtouga",
+		'de-de': "Galapaflos"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Coquill-Attaque",
-				es: "Ataque Caparazón",
-				it: "Gusciattacco",
-				pt: "Ataque Carapaça",
-				de: "Muschelangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Coquill-Attaque",
+				'es-es': "Ataque Caparazón",
+				'it-it': "Gusciattacco",
+				'pt-br': "Ataque Carapaça",
+				'de-de': "Muschelangriff"
 			},
 
 			damage: 20,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
-				es: "Alud de Rocas",
-				it: "Macignata",
-				pt: "Rocha Esmagadora",
-				de: "Felsenquetscher"
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
+				'es-es': "Alud de Rocas",
+				'it-it': "Macignata",
+				'pt-br': "Rocha Esmagadora",
+				'de-de': "Felsenquetscher"
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It was restored from an ancient fossil. Tirtouga lived in the sea but came up onto the land to search for prey.",
+		'en-us': "It was restored from an ancient fossil. Tirtouga lived in the sea but came up onto the land to search for prey.",
 	},
 
 	thirdParty: {

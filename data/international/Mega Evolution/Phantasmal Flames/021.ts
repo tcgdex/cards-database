@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
 		'es-mx': "Seel",
-		de: "Jurob",
-		it: "Seel",
-		pt: "Seel"
+		'de-de': "Jurob",
+		'it-it': "Seel",
+		'pt-br': "Seel"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Bubble Drain",
-			fr: "Vide Bulle",
-			es: "Drenaje Burbujas",
+			'en-us': "Bubble Drain",
+			'fr-fr': "Vide Bulle",
+			'es-es': "Drenaje Burbujas",
 			'es-mx': "Drenado Burbujeante",
-			de: "Blasengully",
-			it: "Assorbibolla",
-			pt: "Dreno de Bolha"
+			'de-de': "Blasengully",
+			'it-it': "Assorbibolla",
+			'pt-br': "Dreno de Bolha"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 20 puntos de daño a este Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon."
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon."
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+		'en-us': "The protrusion on its head is very hard. It is used for bashing through thick ice.",
 	},
 
 	illustrator: "svlt",

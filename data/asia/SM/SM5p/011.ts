@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シズクモ",
+		'ja-jp': "シズクモ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "獲物や 敵を 見つけると 頭に 被った 水泡を 弾いて 水を ぶつけるぞ。",
+		'ja-jp': "獲物や 敵を 見つけると 頭に 被った 水泡を 弾いて 水を ぶつけるぞ。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "クモのす" },
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาอีกะ",
-		id: "Inkay"
+		'th-th': "มาอีกะ",
+		'id-id': "Inkay"
 	},
 
 	illustrator: "Mori Yuu",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "หมุนไปมาพร้อมกับกะพริบร่างเรืองแสง สื่อสารกับพวกพ้องด้วยรูปแบบของแสง",
-		id: "Inkay berputar sambil mengedipkan tubuh bercahayanya. Pokémon ini menggunakan pola cahaya untuk berkomunikasi dengan temannya."
+		'th-th': "หมุนไปมาพร้อมกับกะพริบร่างเรืองแสง สื่อสารกับพวกพ้องด้วยรูปแบบของแสง",
+		'id-id': "Inkay berputar sambil mengedipkan tubuh bercahayanya. Pokémon ini menggunakan pola cahaya untuk berkomunikasi dengan temannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หนวดซุกซน",
-			id: "Tentakel Jahil"
+			'th-th': "หนวดซุกซน",
+			'id-id': "Tentakel Jahil"
 		},
 
 		effect: {
-			th: "ดูการ์ด 1 ใบจากด้านบนของสำรับการ์ดฝ่ายตรงข้าม คืนที่เดิม หากต้องการ สับสำรับการ์ดนั้น",
-			id: "Lihat 1 kartu dari atas Deck lawan, lalu kembalikan ke posisi semula. Pemain dapat mengocok Deck tersebut."
+			'th-th': "ดูการ์ด 1 ใบจากด้านบนของสำรับการ์ดฝ่ายตรงข้าม คืนที่เดิม หากต้องการ สับสำรับการ์ดนั้น",
+			'id-id': "Lihat 1 kartu dari atas Deck lawan, lalu kembalikan ke posisi semula. Pemain dapat mengocok Deck tersebut."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "จิก",
-			id: "Mematuk"
+			'th-th': "จิก",
+			'id-id': "Mematuk"
 		},
 
 		damage: 10,

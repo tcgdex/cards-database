@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gengar ex"
+		'id-id': "Gengar ex"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Kutukan Merasuk"
+			'id-id': "Kutukan Merasuk"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, tiap kali lawan mengenakan Energi dari Kartu Pegangan pada Pokémon, letakkan 2 Token Kerusakan pada Pokémon tersebut untuk tiap lembar Energi."
+			'id-id': "Selama Pokémon ini ada di Arena, tiap kali lawan mengenakan Energi dari Kartu Pegangan pada Pokémon, letakkan 2 Token Kerusakan pada Pokémon tersebut untuk tiap lembar Energi."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Trick Step"
+			'id-id': "Trick Step"
 		},
 
 		effect: {
-			id: "Pemain dapat memilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu memindahkannya ke Pokémon Cadangan lawan."
+			'id-id': "Pemain dapat memilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu memindahkannya ke Pokémon Cadangan lawan."
 		},
 
 		damage: 160,

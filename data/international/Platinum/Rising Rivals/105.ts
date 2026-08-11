@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Flygon LV.X",
-		fr: "Libegon Niv. X",
-		de: "Libelldra"
+		'en-us': "Flygon LV.X",
+		'fr-fr': "Libegon Niv. X",
+		'de-de': "Libelldra"
 	},
 
 	illustrator: "Shizurow",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Wind Erosion",
-				fr: "Érosion venteuse",
-				de: "Winderosion"
+				'en-us': "Wind Erosion",
+				'fr-fr': "Érosion venteuse",
+				'de-de': "Winderosion"
 			},
 			effect: {
-				en: "As long as Flygon is your Active Pokémon, discard the top card from your opponent's deck between turns.",
-				fr: "Tant que Libegon est votre Pokémon Actif, défaussez la carte du dessus du deck de votre adversaire entre deux tours.",
-				de: "Solange Libelldra dein Aktives Pokémon ist, lege zwischen den Zügen die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "As long as Flygon is your Active Pokémon, discard the top card from your opponent's deck between turns.",
+				'fr-fr': "Tant que Libegon est votre Pokémon Actif, défaussez la carte du dessus du deck de votre adversaire entre deux tours.",
+				'de-de': "Solange Libelldra dein Aktives Pokémon ist, lege zwischen den Zügen die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extreme Attack",
-				fr: "Attaque extrême",
-				de: "Radikalangriff"
+				'en-us': "Extreme Attack",
+				'fr-fr': "Attaque extrême",
+				'de-de': "Radikalangriff"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon LV.X. This attack does 150 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon).",
-				fr: "Choisissez 1 des Pokémon LV.X de votre adversaire. Cette attaque lui inflige 150 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wähle 1 Pokémon LV.X deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon LV.X. This attack does 150 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon).",
+				'fr-fr': "Choisissez 1 des Pokémon LV.X de votre adversaire. Cette attaque lui inflige 150 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Wähle 1 Pokémon LV.X deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

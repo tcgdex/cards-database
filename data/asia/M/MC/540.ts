@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボーマンダex",
+		'ja-jp': "ボーマンダex",
 	},
 
 	illustrator: "toriyufu",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ワイドブラスト" },
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 300,
 			cost: ["Fire", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コモルー",
+		'ja-jp': "コモルー",
 	},
 
 	retreat: 2,

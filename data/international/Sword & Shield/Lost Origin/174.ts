@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kyurem V",
-		fr: "Kyurem V",
-		es: "Kyurem V",
-		it: "Kyurem V",
-		pt: "Kyurem V",
-		de: "Kyurem V"
+		'en-us': "Kyurem V",
+		'fr-fr': "Kyurem V",
+		'es-es': "Kyurem V",
+		'it-it': "Kyurem V",
+		'pt-br': "Kyurem V",
+		'de-de': "Kyurem V"
 	},
 
 	illustrator: "takuyoa",
@@ -26,32 +26,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rapid Freeze",
-			fr: "Gel Immédiat",
-			es: "Congelación Veloz",
-			it: "Gelo Rapido",
-			pt: "Congelamento Rápido",
-			de: "Schockfrosten"
+			'en-us': "Rapid Freeze",
+			'fr-fr': "Gel Immédiat",
+			'es-es': "Congelación Veloz",
+			'it-it': "Gelo Rapido",
+			'pt-br': "Congelamento Rápido",
+			'de-de': "Schockfrosten"
 		},
 
 		effect: {
-			en: "Attach any number of Water Energy cards from your hand to your Pokémon in any way you like.",
-			fr: "Attachez le nombre voulu de cartes Énergie Water de votre main à vos Pokémon comme il vous plaît.",
-			es: "Une cualquier cantidad de cartas de Energía Water de tu mano a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Water dalla tua mano nel modo che preferisci.",
-			pt: "Ligue qualquer número de cartas de Energia Water da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Water-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			'en-us': "Attach any number of Water Energy cards from your hand to your Pokémon in any way you like.",
+			'fr-fr': "Attachez le nombre voulu de cartes Énergie Water de votre main à vos Pokémon comme il vous plaît.",
+			'es-es': "Une cualquier cantidad de cartas de Energía Water de tu mano a tus Pokémon de la manera que desees.",
+			'it-it': "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Water dalla tua mano nel modo che preferisci.",
+			'pt-br': "Ligue qualquer número de cartas de Energia Water da sua mão aos seus Pokémon como desejar.",
+			'de-de': "Lege beliebig viele Water-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			en: "Frost Smash",
-			fr: "Impact Glacial",
-			es: "Golpe Gélido",
-			it: "Gelocolpo",
-			pt: "Pancada Congelada",
-			de: "Frostschlag"
+			'en-us': "Frost Smash",
+			'fr-fr': "Impact Glacial",
+			'es-es': "Golpe Gélido",
+			'it-it': "Gelocolpo",
+			'pt-br': "Pancada Congelada",
+			'de-de': "Frostschlag"
 		},
 
 		damage: 140

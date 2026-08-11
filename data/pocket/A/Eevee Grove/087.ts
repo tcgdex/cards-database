@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flareon ex",
-		fr: "Pyroli-ex"
+		'en-us': "Flareon ex",
+		'fr-fr': "Pyroli-ex"
 	},
 
 	illustrator: "Kuroimori",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -28,28 +28,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Combust",
-			fr: "Ignition"
+			'en-us': "Combust",
+			'fr-fr': "Ignition"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a {R} Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une Énergie {R} de votre pile de défausse à ce Pokémon. Dans ce cas, ce Pokémon subit 20 dégâts."
+			'en-us': "Once during your turn, you may attach a {R} Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une Énergie {R} de votre pile de défausse à ce Pokémon. Dans ce cas, ce Pokémon subit 20 dégâts."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Fire Spin",
-			fr: "Danse Flammes"
+			'en-us': "Fire Spin",
+			'fr-fr': "Danse Flammes"
 		},
 
 		damage: 130,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies {R} de ce Pokémon."
+			'en-us': "Discard 2 {R} Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies {R} de ce Pokémon."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のコラッタ",
+		'ja-jp': "ロケット団のコラッタ",
 		'zh-tw': "<火箭隊的>小拉達",
 		'zh-cn': "<火箭隊的>小拉達",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ありふれた ポケモンだが 注意。 鋭い 前歯は 堅い 材木さえ 簡単に へしおる。",
+		'ja-jp': "ありふれた ポケモンだが 注意。 鋭い 前歯は 堅い 材木さえ 簡単に へしおる。",
 		'zh-tw': "雖然是常見的寶可夢，但還是要小心。 銳利的門牙十分堅硬， 就連木材也能輕易咬斷。",
 		'zh-cn': "雖然是常見的寶可夢，但還是要小心。 銳利的門牙十分堅硬， 就連木材也能輕易咬斷。",
 	},
@@ -25,14 +25,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あぶないまえば",
+				'ja-jp': "あぶないまえば",
 				'zh-tw': "險惡門牙",
 				'zh-cn': "險惡門牙",
 			},
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 				'zh-cn': "將對手的戰鬥寶可夢【中毒】。",
 			},

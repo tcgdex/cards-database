@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gastly"
+		'id-id': "Gastly"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Gastly melekat pada mangsanya dengan tubuh gasnya, lalu melemahkan mereka dengan mengirimkan racun sedikit demi sedikit melalui kulit mereka."
+		'id-id': "Gastly melekat pada mangsanya dengan tubuh gasnya, lalu melemahkan mereka dengan mengirimkan racun sedikit demi sedikit melalui kulit mereka."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengambil"
+			'id-id': "Mengambil"
 		},
 
 		effect: {
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Api Hantu"
+			'id-id': "Api Hantu"
 		},
 
 		damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カモネギ",
+		'ja-jp': "カモネギ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ネギの平手打ち",
+				'ja-jp': "ネギの平手打ち",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。いずれにせよ、Farfetch'dがプレイにとどまる限り、この攻撃を再び使用することはできません（BenchにFarfetch'dを置くことでさえ、再び使用することはできません）。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。いずれにせよ、Farfetch'dがプレイにとどまる限り、この攻撃を再び使用することはできません（BenchにFarfetch'dを置くことでさえ、再び使用することはできません）。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ポットスマッシュ",
+				'ja-jp': "ポットスマッシュ",
 			},
 			damage: 30,
 		},

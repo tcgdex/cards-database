@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Cell Spear",
-			fr: "Lance Cellulaire",
-			es: "Lanza Celular",
-			it: "Lancia Cellulare",
-			pt: "Lança de Células",
-			de: "Zellenspeer"
+			'en-us': "Cell Spear",
+			'fr-fr': "Lance Cellulaire",
+			'es-es': "Lanza Celular",
+			'it-it': "Lancia Cellulare",
+			'pt-br': "Lança de Células",
+			'de-de': "Zellenspeer"
 		},
 
 		effect: {
-			en: "Put 2 damage counters on 1 of your opponent's Benched Pokémon.",
-			fr: "Placez 2 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
-			es: "Pon 2 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
-			it: "Metti due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-			pt: "Coloque 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-			de: "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
+			'en-us': "Put 2 damage counters on 1 of your opponent's Benched Pokémon.",
+			'fr-fr': "Placez 2 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
+			'es-es': "Pon 2 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
+			'it-it': "Metti due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Coloque 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
+			'de-de': "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
 		},
 
 		damage: 20
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+		'en-us': "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Mandibuzz",
-		fr: "Vaututrice",
-		es: "Mandibuzz",
-		it: "Mandibuzz",
-		pt: "Mandibuzz",
-		de: "Grypheldis"
+		'en-us': "Mandibuzz",
+		'fr-fr': "Vaututrice",
+		'es-es': "Mandibuzz",
+		'it-it': "Mandibuzz",
+		'pt-br': "Mandibuzz",
+		'de-de': "Grypheldis"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vullaby",
-		fr: "Vostourno",
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 30,
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Cut",
-				fr: "Coupe Double",
+				'en-us': "Dual Cut",
+				'fr-fr': "Coupe Double",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 80 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 80,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes a nest out of the bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+		'en-us': "It makes a nest out of the bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
 	},
 
 	thirdParty: {

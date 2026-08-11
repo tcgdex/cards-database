@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Latias ex（デルタ種）",
+		'ja-jp': "Latias ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "仲間のブースト",
+				'ja-jp': "仲間のブースト",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に、手からラティアス、ラティオス、ラティオス、またはラティオスexに基本的なエネルギーカードを添付することができます。もしそうなら、あなたの順番は終わります。 Latias Exが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前）に、手からラティアス、ラティオス、ラティオス、またはラティオスexに基本的なエネルギーカードを添付することができます。もしそうなら、あなたの順番は終わります。 Latias Exが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "パワークラッシュ",
+				'ja-jp': "パワークラッシュ",
 			},
 			effect: {
-				ja: "防御ポケモンがこの攻撃によってノックアウトされた場合、Latias Exに取り付けられた2つの火エネルギーを捨ててください。",
+				'ja-jp': "防御ポケモンがこの攻撃によってノックアウトされた場合、Latias Exに取り付けられた2つの火エネルギーを捨ててください。",
 			},
 			damage: 90,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		de: "Lichtel",
-		it: "Litwick",
-		pt: "Litwick",
-		es: "Litwick",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'de-de': "Lichtel",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'es-es': "Litwick",
 		'es-mx': "Litwick"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Brighten and Burn",
-			fr: "Brille et Brûle",
-			de: "Erleuchten und Verbrennen",
-			it: "Illumina e Brucia",
-			pt: "Clarear e Queimar",
-			es: "Iluminar y Quemar",
+			'en-us': "Brighten and Burn",
+			'fr-fr': "Brille et Brûle",
+			'de-de': "Erleuchten und Verbrennen",
+			'it-it': "Illumina e Brucia",
+			'pt-br': "Clarear e Queimar",
+			'es-es': "Iluminar y Quemar",
 			'es-mx': "Iluminar y Quemar"
 		},
 
 		effect: {
-			en: "Look at the top card of your deck. You may discard that card.",
-			fr: "Regardez la carte du dessus de votre deck. Vous pouvez défausser cette carte-là.",
-			de: "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte auf deinen Ablagestapel legen.",
-			it: "Guarda la prima carta del tuo mazzo. Puoi scartare quella carta.",
-			pt: "Olhe a carta de cima do seu baralho. Você pode descartar aquela carta.",
-			es: "Mira la primera carta de tu baraja. Puedes descartar esa carta.",
+			'en-us': "Look at the top card of your deck. You may discard that card.",
+			'fr-fr': "Regardez la carte du dessus de votre deck. Vous pouvez défausser cette carte-là.",
+			'de-de': "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte auf deinen Ablagestapel legen.",
+			'it-it': "Guarda la prima carta del tuo mazzo. Puoi scartare quella carta.",
+			'pt-br': "Olhe a carta de cima do seu baralho. Você pode descartar aquela carta.",
+			'es-es': "Mira la primera carta de tu baraja. Puedes descartar esa carta.",
 			'es-mx': "Mira la primera carta de tu mazo. Puedes descartar esa carta."
 		}
 	}],

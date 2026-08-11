@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [53],
 
 	name: {
-		en: "Persian"
+		'en-us': "Persian"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Meowth"
+		'en-us': "Meowth"
 	},
 
 	description: {
-		en: "It has a vicious temperament. Beware if it raises\nits tail straight up. This is a signal that it is about\nto pounce and bite."
+		'en-us': "It has a vicious temperament. Beware if it raises\nits tail straight up. This is a signal that it is about\nto pounce and bite."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 60,

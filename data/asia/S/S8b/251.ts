@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザマゼンタV",
+		'ja-jp': "ザマゼンタV",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふくつのたて" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンVMAX」からワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンVMAX」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Serperior",
-		fr: "Majaspic",
-		es: "Serperior",
-		it: "Serperior",
-		pt: "Serperior",
-		de: "Serpiroyal"
+		'en-us': "Serperior",
+		'fr-fr': "Majaspic",
+		'es-es': "Serperior",
+		'it-it': "Serperior",
+		'pt-br': "Serperior",
+		'de-de': "Serpiroyal"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Servine",
-		fr: "Lianaja",
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slash",
-				fr: "Double Lame",
+				'en-us': "Double Slash",
+				'fr-fr': "Double Lame",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
+		'en-us': "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
-				fr: "N'appliquez pas la Résistance.",
-				de: "Wende Resistenz nicht an."
+				'en-us': "Don't apply Resistance.",
+				'fr-fr': "N'appliquez pas la Résistance.",
+				'de-de': "Wende Resistenz nicht an."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide",
-				fr: "Éboulement",
-				de: "Steinhagel"
+				'en-us': "Rock Slide",
+				'fr-fr': "Éboulement",
+				'de-de': "Steinhagel"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Benched Pokémon (1 if he or she has only 1). This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon du Banc de votre adversaire (1 seul s'il n'en a qu'un). Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Bestimme 2 der Pokémon auf der Bank deines Gegners (1, wenn er nur 1 hat). Dieser Angriff fügt jedem dieser Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 2 of your opponent's Benched Pokémon (1 if he or she has only 1). This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon du Banc de votre adversaire (1 seul s'il n'en a qu'un). Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Bestimme 2 der Pokémon auf der Bank deines Gegners (1, wenn er nur 1 hat). Dieser Angriff fügt jedem dieser Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 

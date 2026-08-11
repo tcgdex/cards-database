@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chatot"
+		'en-us': "Chatot"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It can learn and speak human words. If they gather,\nthey all learn the same saying."
+		'en-us': "It can learn and speak human words. If they gather,\nthey all learn the same saying."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sleepy Song"
+			'en-us': "Sleepy Song"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

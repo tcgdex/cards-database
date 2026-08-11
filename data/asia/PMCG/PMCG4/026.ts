@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "磁気",
+				'ja-jp': "磁気",
 			},
 			effect: {
-				ja: "ベンチにある各マグネミテ、マグネトン、ダークマグネトンに10ダメージを加えて10ダメージを与えます。",
+				'ja-jp': "ベンチにある各マグネミテ、マグネトン、ダークマグネトンに10ダメージを加えて10ダメージを与えます。",
 			},
 		},
 	],

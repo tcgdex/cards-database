@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mankey",
-		th: "แมนคี"
+		'id-id': "Mankey",
+		'th-th': "แมนคี"
 	},
 
 	illustrator: "Apios",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Meskipun kondisi hatinya biasanya baik, Mankey menakutkan karena ia akan tiba-tiba mengamuk hanya karena hal kecil.",
-		th: "ปกติจะอารมณ์ดี แต่น่ากลัวตรงที่ถ้ามีอะไรไปสะกิดนิดหน่อยก็จะ อาละวาดขึ้นมาทันที"
+		'id-id': "Meskipun kondisi hatinya biasanya baik, Mankey menakutkan karena ia akan tiba-tiba mengamuk hanya karena hal kecil.",
+		'th-th': "ปกติจะอารมณ์ดี แต่น่ากลัวตรงที่ถ้ามีอะไรไปสะกิดนิดหน่อยก็จะ อาละวาดขึ้นมาทันที"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tebasan Ganda",
-			th: "ดับเบิลช็อป"
+			'id-id': "Tebasan Ganda",
+			'th-th': "ดับเบิลช็อป"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
-			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10"
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10"
 		},
 
 		damage: "10×",

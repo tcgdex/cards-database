@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズガイドス",
+		'ja-jp': "ズガイドス",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ズガイドスの 化石が 見つかる 地層では へし折れた 樹木の 化石も 一緒に 出てくるぞ。",
+		'ja-jp': "ズガイドスの 化石が 見つかる 地層では へし折れた 樹木の 化石も 一緒に 出てくるぞ。",
 	},
 
 	stage: "Stage1",

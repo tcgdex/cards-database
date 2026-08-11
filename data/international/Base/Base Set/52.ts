@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo",
-		it: "Machop"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo",
+		'it-it': "Machop"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Kick",
-				it: "Colpo basso"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Kick",
+				'it-it': "Colpo basso"
 			},
 
 			damage: 20,
@@ -53,9 +53,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
-		fr: "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort.",
-		it: "Si allena continuamente per sviluppare al massimo i suoi muscoli d'acciaio. Pratica tutte le arti marziali per diventare sempre più invincibile. LIV 20 N.66",
+		'en-us': "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+		'fr-fr': "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort.",
+		'it-it': "Si allena continuamente per sviluppare al massimo i suoi muscoli d'acciaio. Pratica tutte le arti marziali per diventare sempre più invincibile. LIV 20 N.66",
 	},
 
 	variants: [

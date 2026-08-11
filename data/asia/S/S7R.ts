@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S7R',
 
 	name: {
-		ja: '蒼空ストリーム',
-		ko: '창공의스트림',
+		'ja-jp': '蒼空ストリーム',
+		'ko-kr': '창공의스트림',
 		'zh-tw': '蒼空烈流',
-		id: 'Arus Langit Biru',
-		th: 'สายน้ำแห่งนภา'
+		'id-id': 'Arus Langit Biru',
+		'th-th': 'สายน้ำแห่งนภา'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2021-07-09',
+		'ja-jp': '2021-07-09',
 		'zh-tw': '2021-07-23',
-		th: '2021-08-27',
-		id: '2021-11-05'
+		'th-th': '2021-08-27',
+		'id-id': '2021-11-05'
 	},
 
 	thirdParty: {

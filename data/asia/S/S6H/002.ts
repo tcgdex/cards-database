@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキノオー",
+		'ja-jp': "ユキノオー",
 		'zh-tw': "暴雪王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ブリザードを 巻き起こす ポケモン。 大きな 体を 揺すれば あたり一面 すぐに 真っ白だ。",
+		'ja-jp': "ブリザードを 巻き起こす ポケモン。 大きな 体を 揺すれば あたり一面 すぐに 真っ白だ。",
 		'zh-tw': "會引發暴風雪的寶可夢。只要牠搖動巨大的身體，周圍立刻會變得一片雪白。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "タフネスアップ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場の「いちげき」のポケモン（「ユキノオー」をのぞく）全員の最大HPは、それぞれ「50」大きくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の場の「いちげき」のポケモン（「ユキノオー」をのぞく）全員の最大HPは、それぞれ「50」大きくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "メガトンパンチ",
+				'ja-jp': "メガトンパンチ",
 				'zh-tw': "新月生長",
 			},
 			damage: 90,
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 	},
 
 	retreat: 3,

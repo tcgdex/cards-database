@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオス",
+		'ja-jp': "ラティオス",
 	},
 
 	illustrator: "Naoki Saito",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Water", "Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「ラティアス」がいるなら、50ダメージを追加。",
+				'ja-jp': "自分のベンチに「ラティアス」がいるなら、50ダメージを追加。",
 			},
 		},
 	],

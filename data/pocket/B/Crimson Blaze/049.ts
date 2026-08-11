@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [568],
 
 	name: {
-		en: "Trubbish"
+		'en-us': "Trubbish"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Its favorite places are unsanitary ones. If you\nleave trash lying around, you could even find\none of these Pokémon living in your room."
+		'en-us': "Its favorite places are unsanitary ones. If you\nleave trash lying around, you could even find\none of these Pokémon living in your room."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Drool"
+			'en-us': "Drool"
 		},
 
 		damage: 30,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
-		fr: "Nidoking",
-		de: "Nidoking"
+		'en-us': "Nidoking",
+		'fr-fr': "Nidoking",
+		'de-de': "Nidoking"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
-		fr: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Pheromone Stamina",
-				fr: "Endurance aux phéromones",
-				de: "Pheromon-Ausdauer"
+				'en-us': "Pheromone Stamina",
+				'fr-fr': "Endurance aux phéromones",
+				'de-de': "Pheromon-Ausdauer"
 			},
 			effect: {
-				en: "Nidoking gets +20 HP for each Nidoqueen you have in play.",
-				fr: "Nidoking reçoit +20 PV pour chacun de vos Nidoqueen en jeu.",
-				de: "Nidoking erhält +20 KP für jedes deiner Nidoqueen im Spiel."
+				'en-us': "Nidoking gets +20 HP for each Nidoqueen you have in play.",
+				'fr-fr': "Nidoking reçoit +20 PV pour chacun de vos Nidoqueen en jeu.",
+				'de-de': "Nidoking erhält +20 KP für jedes deiner Nidoqueen im Spiel."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Venomous Horn",
-				fr: "Corne venimeuse",
-				de: "Giftiges Horn"
+				'en-us': "Venomous Horn",
+				'fr-fr': "Corne venimeuse",
+				'de-de': "Giftiges Horn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 80,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
+		'en-us': "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
 	},
 
 	variants: [

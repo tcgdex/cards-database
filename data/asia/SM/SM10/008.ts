@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "慣れれば 人懐っこいのだが 野生では イワンコと 縄張りを 巡って 激しく 争っている。",
+		'ja-jp': "慣れれば 人懐っこいのだが 野生では イワンコと 縄張りを 巡って 激しく 争っている。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Dusknoir FB",
-		fr: "Noctunoir ",
-		de: "Zwirrfinst FB"
+		'en-us': "Dusknoir FB",
+		'fr-fr': "Noctunoir ",
+		'de-de': "Zwirrfinst FB"
 	},
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Rare",
@@ -28,14 +28,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ghost Hand",
-				fr: "Main fantôme",
-				de: "Geisterhand"
+				'en-us': "Ghost Hand",
+				'fr-fr': "Main fantôme",
+				'de-de': "Geisterhand"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your Benched Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur 1 de vos Pokémon de Banc.",
-				de: "Lege 1 Schadensmarke auf 1 Pokémon auf deiner Bank."
+				'en-us': "Put 1 damage counter on 1 of your Benched Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégât sur 1 de vos Pokémon de Banc.",
+				'de-de': "Lege 1 Schadensmarke auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cursed Wrath",
-				fr: "Colère ensorcelée",
-				de: "Zornesfluch"
+				'en-us': "Cursed Wrath",
+				'fr-fr': "Colère ensorcelée",
+				'de-de': "Zornesfluch"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon SP in your discard pile.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon SP dans votre pile de défausse.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon SP in deinem Ablagestapel zu."
+				'en-us': "Does 10 damage times the number of Pokémon SP in your discard pile.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon SP dans votre pile de défausse.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon SP in deinem Ablagestapel zu."
 			},
 			damage: "10x",
 

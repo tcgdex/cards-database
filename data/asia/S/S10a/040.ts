@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルレイドV",
+		'ja-jp': "エルレイドV",
 		'zh-tw': "艾路雷朵V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ライジングソード",
+				'ja-jp': "ライジングソード",
 				'zh-tw': "璀璨之劍",
 			},
 			damage: "20+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分がすでにとったサイドの枚数×50ダメージ追加。",
+				'ja-jp': "自分がすでにとったサイドの枚数×50ダメージ追加。",
 				'zh-tw': "增加自己已經獲得的獎賞卡的張數×50點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "バスタースイング",
+				'ja-jp': "バスタースイング",
 				'zh-tw': "粗暴橫掃",
 			},
 			damage: 130,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 				'zh-tw': "這個招式的傷害不計算抵抗力。",
 			},
 		},

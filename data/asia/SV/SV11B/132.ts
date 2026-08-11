@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドテッコツ",
+		'ja-jp': "ドテッコツ",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鍛え上げられた 筋肉の 体は プロレスラーが 束に なって 攻撃しても びくとも しない。",
+		'ja-jp': "鍛え上げられた 筋肉の 体は プロレスラーが 束に なって 攻撃しても びくとも しない。",
 	},
 
 	stage: "Stage1",
@@ -34,7 +34,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "ドッコラー",
+		'ja-jp': "ドッコラー",
 	},
 
 	retreat: 3,

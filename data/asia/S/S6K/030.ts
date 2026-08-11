@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 		'zh-tw': "泥偶小人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "粘土から つくられた ポケモン。 何千年も 前の 主の 命令を 今も 守っている。",
+		'ja-jp': "粘土から つくられた ポケモン。 何千年も 前の 主の 命令を 今も 守っている。",
 		'zh-tw': "用黏土製成的寶可夢。即使現在也一直遵循著數千年前主人的命令。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたく",
+				'ja-jp': "はたく",
 				'zh-tw': "拍擊",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "パンチ",
+				'ja-jp': "パンチ",
 				'zh-tw': "出拳",
 			},
 			damage: 30,

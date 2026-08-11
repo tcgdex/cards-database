@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		es: "Heracross",
-		it: "Heracross",
-		pt: "Heracross",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'es-es': "Heracross",
+		'it-it': "Heracross",
+		'pt-br': "Heracross",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
 			},
 
 			damage: 20,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Horn",
-				fr: "Giga Corne",
+				'en-us': "Giga Horn",
+				'fr-fr': "Giga Corne",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien.",
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien.",
 			},
 			damage: 80,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "No matter how heavy its opponents, it flings them far away with its prized horn.",
+		'en-us': "No matter how heavy its opponents, it flings them far away with its prized horn.",
 	},
 
 	thirdParty: {

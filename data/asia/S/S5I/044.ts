@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 		'zh-tw': "戴魯比",
-		th: "เดลวิล",
+		'th-th': "เดลวิล",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜明け前に 不気味な 遠吠えを 繰り返し 自分たちの 群れの 存在を アピール している。",
+		'ja-jp': "夜明け前に 不気味な 遠吠えを 繰り返し 自分たちの 群れの 存在を アピール している。",
 		'zh-tw': "會在天亮前反覆發出令人不寒而慄的長嚎，藉此強調自己群體的存在。",
-		th: "จะส่งเสียงหอนอันชวนขนลุกในช่วงเช้ามืด เพื่อบ่งบอกตัวตนของฝูง",
+		'th-th': "จะส่งเสียงหอนอันชวนขนลุกในช่วงเช้ามืด เพื่อบ่งบอกตัวตนของฝูง",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
-				th: "กัดติด",
+				'th-th': "กัดติด",
 			},
 			damage: 20,
 			cost: ["Colorless"],

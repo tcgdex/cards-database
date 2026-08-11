@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Angoliath V",
-		en: "Grimmsnarl V",
-		es: "Grimmsnarl V",
-		it: "Grimmsnarl V",
-		pt: "Grimmsnarl V",
-		de: "Olangaar V"
+		'fr-fr': "Angoliath V",
+		'en-us': "Grimmsnarl V",
+		'es-es': "Grimmsnarl V",
+		'it-it': "Grimmsnarl V",
+		'pt-br': "Grimmsnarl V",
+		'de-de': "Olangaar V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Morsure",
-			en: "Bite",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'fr-fr': "Morsure",
+			'en-us': "Bite",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 40,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Poing Piquant",
-			en: "Spiky Knuckle",
-			es: "Nudillo Puntiagudo",
-			it: "Noccaspina",
-			pt: "Punho Espinhoso",
-			de: "Stachelfaust"
+			'fr-fr': "Poing Piquant",
+			'en-us': "Spiky Knuckle",
+			'es-es': "Nudillo Puntiagudo",
+			'it-it': "Noccaspina",
+			'pt-br': "Punho Espinhoso",
+			'de-de': "Stachelfaust"
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
-			en: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
-			es: "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
-			it: "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
-			pt: "Coloque 2 Energias Darkness ligadas a este Pokémon na sua mão.",
-			de: "Nimm 2 an dieses Pokémon angelegte Darkness-Energien auf deine Hand."
+			'fr-fr': "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
+			'en-us': "Put 2 Darkness Energy attached to this Pokémon into your hand.",
+			'es-es': "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
+			'it-it': "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque 2 Energias Darkness ligadas a este Pokémon na sua mão.",
+			'de-de': "Nimm 2 an dieses Pokémon angelegte Darkness-Energien auf deine Hand."
 		},
 
 		damage: 200,

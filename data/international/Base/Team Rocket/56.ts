@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -46,15 +46,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Poison Sting"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Poison Sting"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 20
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",
-		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
+		'en-us': "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",
+		'fr-fr': "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオー",
+		'ja-jp': "ホエルオー",
 		'zh-tw': "吼鯨王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。",
+		'ja-jp': "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。",
 		'zh-tw': "有時會讓大大的身體在波浪上跳躍，藉此製造出衝擊讓對手昏迷。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バブルドレイン",
+				'ja-jp': "バブルドレイン",
 				'zh-tw': "泡沫吸取",
 			},
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "ヘビーインパクト",
+				'ja-jp': "ヘビーインパクト",
 				'zh-tw': "重磅衝擊",
 			},
 			damage: 180,
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

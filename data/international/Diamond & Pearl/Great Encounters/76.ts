@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Lunatone",
-		fr: "Seleroc",
-		de: "Lunastein"
+		'en-us': "Lunatone",
+		'fr-fr': "Seleroc",
+		'de-de': "Lunastein"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Gravity Change",
-				fr: "Changement de gravité",
-				de: "Schwerkraftwechsel"
+				'en-us': "Gravity Change",
+				'fr-fr': "Changement de gravité",
+				'de-de': "Schwerkraftwechsel"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Ensuite, si vous avez Solaroc en jeu, piochez une carte. Ce pouvoir ne peut pas être utilisé si Seleroc est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach, wenn du Sonnfel im Spiel hast, ziehe 1 Karte. Diese Poké-Power kann nicht benutzt werden, wenn Lunastein von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Ensuite, si vous avez Solaroc en jeu, piochez une carte. Ce pouvoir ne peut pas être utilisé si Seleroc est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach, wenn du Sonnfel im Spiel hast, ziehe 1 Karte. Diese Poké-Power kann nicht benutzt werden, wenn Lunastein von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Over",
-				fr: "Culbute",
-				de: "Umwerfen"
+				'en-us': "Knock Over",
+				'fr-fr': "Culbute",
+				'de-de': "Umwerfen"
 			},
 			effect: {
-				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
+				'en-us': "You may discard any Stadium card in play.",
+				'fr-fr': "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				'de-de': "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		'en-us': "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペロリーム",
+		'ja-jp': "ペロリーム",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "わずかな においでも かぎわける 敏感な きゅうかくを 活かして パティシエの 手伝いを している。",
+		'ja-jp': "わずかな においでも かぎわける 敏感な きゅうかくを 活かして パティシエの 手伝いを している。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "とろけるにおい" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ペロッパフ",
+		'ja-jp': "ペロッパフ",
 	},
 
 	retreat: 2,

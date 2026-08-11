@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "螺釘地鼠",
 		'zh-cn': "螺釘地鼠",
-		ja: "モグリュー"
+		'ja-jp': "モグリュー"
 	},
 
 	illustrator: "Ounishi",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "只要將兩手的爪子疊在一起， 並高速旋轉身體， 便能以驚人的速度在地底前進。",
 		'zh-cn': "只要將兩手的爪子疊在一起， 並高速旋轉身體， 便能以驚人的速度在地底前進。",
-		ja: "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。"
+		'ja-jp': "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "掘掘",
 			'zh-cn': "掘掘",
-			ja: "ほるほる"
+			'ja-jp': "ほるほる"
 		},
 
 		effect: {
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
 			'zh-cn': "將對手的牌庫上方1張卡丟棄。",
-			ja: "相手の山札を上から1枚トラッシュする。"
+			'ja-jp': "相手の山札を上から1枚トラッシュする。"
 		},
 
 		cost: ["Colorless"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "擲泥",
 			'zh-cn': "擲泥",
-			ja: "どろかけ"
+			'ja-jp': "どろかけ"
 		},
 
 		damage: 10,

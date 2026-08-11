@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
-		it: "Wimpod",
-		pt: "Wimpod",
-		de: "Reißlaus"
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod",
+		'de-de': "Reißlaus"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sneaky Snacking",
-			fr: "Pique-Assiette",
-			es: "Bocadito Furtivo",
-			it: "Merenda Furtiva",
-			pt: "Lanchar de Fininho",
-			de: "Heimtückischer Happen"
+			'en-us': "Sneaky Snacking",
+			'fr-fr': "Pique-Assiette",
+			'es-es': "Bocadito Furtivo",
+			'it-it': "Merenda Furtiva",
+			'pt-br': "Lanchar de Fininho",
+			'de-de': "Heimtückischer Happen"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard a random card from your opponent's hand.",
-			fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma carta aleatória da mão do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard a random card from your opponent's hand.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma carta aleatória da mão do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
+		'en-us': "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
 	},
 
 	variants: [

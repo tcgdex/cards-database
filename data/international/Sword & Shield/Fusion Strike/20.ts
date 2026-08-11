@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Araquanid",
-		fr: "Tarenbulle",
-		es: "Araquanid",
-		it: "Araquanid",
-		pt: "Araquanid",
-		de: "Aranestro"
+		'en-us': "Araquanid",
+		'fr-fr': "Tarenbulle",
+		'es-es': "Araquanid",
+		'it-it': "Araquanid",
+		'pt-br': "Araquanid",
+		'de-de': "Aranestro"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "It acts as a caretaker for Dewpider, putting them inside its bubble and letting them eat any leftover food."
+		'en-us': "It acts as a caretaker for Dewpider, putting them inside its bubble and letting them eat any leftover food."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			de: "Käferbiss",
-			es: "Picadura",
-			pt: "Picada",
-			it: "Coleomorso"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'de-de': "Käferbiss",
+			'es-es': "Picadura",
+			'pt-br': "Picada",
+			'it-it': "Coleomorso"
 		},
 
 		damage: 30
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bubble Launch",
-			fr: "Bulles Lancées",
-			de: "Blasenwurf",
-			es: "Lanzamiento Burbuja",
-			pt: "Lança-bolhas",
-			it: "Lanciabolle"
+			'en-us': "Bubble Launch",
+			'fr-fr': "Bulles Lancées",
+			'de-de': "Blasenwurf",
+			'es-es': "Lanzamiento Burbuja",
+			'pt-br': "Lança-bolhas",
+			'it-it': "Lanciabolle"
 		},
 
 		damage: 110,
 
 		effect: {
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
-			es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-			pt: "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina."
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+			'pt-br': "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina."
 		}
 	}],
 

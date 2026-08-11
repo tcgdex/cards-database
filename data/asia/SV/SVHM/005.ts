@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "拉帝亞斯",
-		th: "ลาทิอาส",
-		id: "Latias"
+		'th-th': "ลาทิอาส",
+		'id-id': "Latias"
 	},
 
 	illustrator: "Takumi Wada",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "能透過心靈感應交流情感。用能令光線折射的羽毛 包裹身體來隱藏自己的樣子。",
-		th: "สื่อความรู้สึกด้วยพลังจิต ใช้ขนปีกที่ทำให้แสงหักเหได้ห่อหุ้มร่างเพื่อเร้นกายหายตัว",
-		id: "Ia saling mengomunikasikan perasaannya dengan telepati. Pokémon ini menghilangkan wujudnya dengan membungkus tubuhnya menggunakan bulu yang membiaskan cahaya."
+		'th-th': "สื่อความรู้สึกด้วยพลังจิต ใช้ขนปีกที่ทำให้แสงหักเหได้ห่อหุ้มร่างเพื่อเร้นกายหายตัว",
+		'id-id': "Ia saling mengomunikasikan perasaannya dengan telepati. Pokémon ini menghilangkan wujudnya dengan membungkus tubuhnya menggunakan bulu yang membiaskan cahaya."
 	},
 
 	stage: "Basic",
@@ -26,22 +26,22 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "吸引",
-			th: "ยั่วยวน",
-			id: "Mengambil"
+			'th-th': "ยั่วยวน",
+			'id-id': "Mengambil"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出2張卡。",
-			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "潟湖飛行",
-			th: "ลากูนไฟลต์",
-			id: "Lagoon Flight"
+			'th-th': "ลากูนไฟลต์",
+			'id-id': "Lagoon Flight"
 		},
 
 		damage: 60,

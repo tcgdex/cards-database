@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [698],
 
 	name: {
-		en: "Amaura",
-		fr: "Amagara",
-		es: "Amaura",
+		'en-us': "Amaura",
+		'fr-fr': "Amagara",
+		'es-es': "Amaura",
 		'es-mx': "Amaura",
-		de: "Amarino",
-		it: "Amaura",
-		pt: "Amaura"
+		'de-de': "Amarino",
+		'it-it': "Amaura",
+		'pt-br': "Amaura"
 	},
 
 	evolveFrom: {
-		en: "Antique Sail Fossil",
-		fr: "Fossile Nageoire Ancien",
-		es: "Fósil Aleta Antiguo",
+		'en-us': "Antique Sail Fossil",
+		'fr-fr': "Fossile Nageoire Ancien",
+		'es-es': "Fósil Aleta Antiguo",
 		'es-mx': "Fósil Aleta Antiguo",
-		de: "Antikes Flossenfossil",
-		it: "Vecchio Fossilpinna",
-		pt: "Fóssil de Vela Arcaico",
+		'de-de': "Antikes Flossenfossil",
+		'it-it': "Vecchio Fossilpinna",
+		'pt-br': "Fóssil de Vela Arcaico",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Icy Wind",
-			fr: "Vent Glace",
-			es: "Viento Hielo",
+			'en-us': "Icy Wind",
+			'fr-fr': "Vent Glace",
+			'es-es': "Viento Hielo",
 			'es-mx': "Viento Helado",
-			de: "Eissturm",
-			it: "Ventogelato",
-			pt: "Vento Congelante"
+			'de-de': "Eissturm",
+			'it-it': "Ventogelato",
+			'pt-br': "Vento Congelante"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido."
 		},
 
 		damage: 50

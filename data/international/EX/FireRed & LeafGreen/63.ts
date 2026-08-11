@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slow Trip Gas",
-				fr: "Gaz ralentisseur",
-				de: "Slow Trip Gas"
+				'en-us': "Slow Trip Gas",
+				'fr-fr': "Gaz ralentisseur",
+				'de-de': "Slow Trip Gas"
 			},
 			effect: {
-				en: "At the end of your opponent's next turn, the Defending Pokémon is now Confused.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Confus.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Confused."
+				'en-us': "At the end of your opponent's next turn, the Defending Pokémon is now Confused.",
+				'fr-fr': "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Confus.",
+				'de-de': "At the end of your opponent's next turn, the Defending Pokémon is now Confused."
 			},
 
 		},

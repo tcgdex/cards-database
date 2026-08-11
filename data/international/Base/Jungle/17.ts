@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
-		de: "Pixi"
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
+		'de-de': "Pixi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metronome",
-				fr: "Métronome",
-				de: "Metronom"
+				'en-us': "Metronome",
+				'fr-fr': "Métronome",
+				'de-de': "Metronom"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélodelfe demeure de type Incolore.)",
-				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des verteidigenden Pokémon bleibt Pixi immer noch ein farbloses Pokémon.)"
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélodelfe demeure de type Incolore.)",
+				'de-de': "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des verteidigenden Pokémon bleibt Pixi immer noch ein farbloses Pokémon.)"
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minimize",
-				fr: "Lilliput",
-				de: "Komprimator"
+				'en-us': "Minimize",
+				'fr-fr': "Lilliput",
+				'de-de': "Komprimator"
 			},
 			effect: {
-				en: "All damage done by attacks to Clefable during your opponent's next turn is reduce by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à Mélodelfe par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Aller Schaden, der Pixi während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden)."
+				'en-us': "All damage done by attacks to Clefable during your opponent's next turn is reduce by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à Mélodelfe par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Aller Schaden, der Pixi während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden)."
 			},
 
 		},
@@ -83,8 +83,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
-		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
+		'en-us': "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+		'fr-fr': "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
 	},
 
 

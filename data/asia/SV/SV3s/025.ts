@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Carvanha"
+		'id-id': "Carvanha"
 	},
 
 	illustrator: "Jerky",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon ini memiliki taring yang tajam dan rahang yang gagah. Pelaut tidak akan mendekati sarang Carvanha."
+		'id-id': "Pokémon ini memiliki taring yang tajam dan rahang yang gagah. Pelaut tidak akan mendekati sarang Carvanha."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Taring Tajam"
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 20,

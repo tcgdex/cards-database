@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Hitmonchan ex",
+		'ja-jp': "Rocket's Hitmonchan ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ストライクバック",
+				'ja-jp': "ストライクバック",
 			},
 			effect: {
-				ja: "RocketのHitmonchan Exがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（RocketのHitmonchan Exがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
+				'ja-jp': "RocketのHitmonchan Exがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（RocketのHitmonchan Exがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "マッハパンチ",
+				'ja-jp': "マッハパンチ",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンの1つに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "マグナムパンチ",
+				'ja-jp': "マグナムパンチ",
 			},
 			damage: 60,
 		},

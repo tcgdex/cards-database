@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "蘑蘑菇",
-		ja: "キノココ"
+		'ja-jp': "キノココ"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會從頭頂上噴出毒孢子。如果不小心吸入了孢子， 身上的每處關節都會開始疼痛。",
-		ja: "頭の てっぺんから 毒胞子を 噴き出す。 胞子を 吸いこむと 体の 節々が 痛くなる。"
+		'ja-jp': "頭の てっぺんから 毒胞子を 噴き出す。 胞子を 吸いこむと 体の 節々が 痛くなる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "頭錘",
-			ja: "ずつき"
+			'ja-jp': "ずつき"
 		},
 
 		damage: 20,

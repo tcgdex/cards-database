@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith Galarian Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hatterene VMAX",
-		fr: "Sorcilence VMAX",
-		es: "Hatterene VMAX",
-		it: "Hatterene VMAX",
-		pt: "Hatterene VMAX",
-		de: "Silembrim VMAX"
+		'en-us': "Hatterene VMAX",
+		'fr-fr': "Sorcilence VMAX",
+		'es-es': "Hatterene VMAX",
+		'it-it': "Hatterene VMAX",
+		'pt-br': "Hatterene VMAX",
+		'de-de': "Silembrim VMAX"
 	},
 
 	illustrator: "sui",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Hatterene V",
-		fr: "Sorcilence-V",
-		es: "Hatterene V",
-		it: "Hatterene-V",
-		pt: "Hatterene V",
-		de: "Silembrim-V"
+		'en-us': "Hatterene V",
+		'fr-fr': "Sorcilence-V",
+		'es-es': "Hatterene V",
+		'it-it': "Hatterene-V",
+		'pt-br': "Hatterene V",
+		'de-de': "Silembrim-V"
 	},
 
 	stage: "VMAX",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Witch's Domain",
-			fr: "Domaine de la Sorcière",
-			es: "Dominio de la Hechicera",
-			it: "Dominio della Strega",
-			pt: "Domínio da Bruxa",
-			de: "Hexenreich"
+			'en-us': "Witch's Domain",
+			'fr-fr': "Domaine de la Sorcière",
+			'es-es': "Dominio de la Hechicera",
+			'it-it': "Dominio della Strega",
+			'pt-br': "Domínio da Bruxa",
+			'de-de': "Hexenreich"
 		},
 
 		effect: {
-			en: "Once during your turn, you may move up to 2 damage counters from your Pokémon to your opponent's Active Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez déplacer jusqu'à 2 marqueurs de dégâts de vos Pokémon vers le Pokémon Actif de votre adversaire.",
-			es: "Una vez durante tu turno, puedes mover hasta 2 contadores de daño de tus Pokémon al Pokémon Activo de tu rival.",
-			it: "Una sola volta durante il tuo turno, puoi spostare fino a due segnalini danno dai tuoi Pokémon al Pokémon attivo del tuo avversario.",
-			pt: "Uma vez durante o seu turno, você poderá mover até 2 contadores de dano dos seus Pokémon para o Pokémon Ativo do seu oponente.",
-			de: "Einmal während deines Zuges kannst du bis zu 2 Schadensmarken von deinen Pokémon auf das Aktive Pokémon deines Gegners verschieben."
+			'en-us': "Once during your turn, you may move up to 2 damage counters from your Pokémon to your opponent's Active Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez déplacer jusqu'à 2 marqueurs de dégâts de vos Pokémon vers le Pokémon Actif de votre adversaire.",
+			'es-es': "Una vez durante tu turno, puedes mover hasta 2 contadores de daño de tus Pokémon al Pokémon Activo de tu rival.",
+			'it-it': "Una sola volta durante il tuo turno, puoi spostare fino a due segnalini danno dai tuoi Pokémon al Pokémon attivo del tuo avversario.",
+			'pt-br': "Uma vez durante o seu turno, você poderá mover até 2 contadores de dano dos seus Pokémon para o Pokémon Ativo do seu oponente.",
+			'de-de': "Einmal während deines Zuges kannst du bis zu 2 Schadensmarken von deinen Pokémon auf das Aktive Pokémon deines Gegners verschieben."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "G-Max Smite",
-			fr: "Sentence G-Max",
-			es: "Gigacastigo",
-			it: "Gigacastigo",
-			pt: "Castigo G-Max",
-			de: "Giga-Sanktion"
+			'en-us': "G-Max Smite",
+			'fr-fr': "Sentence G-Max",
+			'es-es': "Gigacastigo",
+			'it-it': "Gigacastigo",
+			'pt-br': "Castigo G-Max",
+			'de-de': "Giga-Sanktion"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 150

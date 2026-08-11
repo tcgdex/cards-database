@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hang Down",
-			fr: "Suspension",
-			es: "Prender",
-			it: "Tirar Giù",
-			pt: "Dependurar",
-			de: "Herunterhängen"
+			'en-us': "Hang Down",
+			'fr-fr': "Suspension",
+			'es-es': "Prender",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar",
+			'de-de': "Herunterhängen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Playful Kick",
-			fr: "Coup de Pied de Garnement",
-			es: "Patada Juguetona",
-			it: "Calcio Briccone",
-			pt: "Chute Brincalhão",
-			de: "Verspielter Kick"
+			'en-us': "Playful Kick",
+			'fr-fr': "Coup de Pied de Garnement",
+			'es-es': "Patada Juguetona",
+			'it-it': "Calcio Briccone",
+			'pt-br': "Chute Brincalhão",
+			'de-de': "Verspielter Kick"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its tail moves with greater dexterity than its hands. Making deft use of this tail, Aipom lives high among the treetops.",
+		'en-us': "Its tail moves with greater dexterity than its hands. Making deft use of this tail, Aipom lives high among the treetops.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカンプー",
+		'ja-jp': "スカンプー",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "お尻から 強烈に くさい 液体を 飛ばして 身を 守る。 においは ２４時間 消えない。",
+		'ja-jp': "お尻から 強烈に くさい 液体を 飛ばして 身を 守る。 においは ２４時間 消えない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Darkness"],
 			effect: {
-				ja: "おたがいのバトルポケモンを、それぞれこんらんにする。",
+				'ja-jp': "おたがいのバトルポケモンを、それぞれこんらんにする。",
 			},
 		},
 	],

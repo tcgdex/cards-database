@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラセクト",
+		'ja-jp': "パラセクト",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "森にて 背の茸が 外れ 動かぬ 個体あり。 大きな茸こそ本体 との 学説を 証明する サンプルなり。",
+		'ja-jp': "森にて 背の茸が 外れ 動かぬ 個体あり。 大きな茸こそ本体 との 学説を 証明する サンプルなり。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぐったりほうし" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。おたがいのバトルポケモンを、それぞれどくとねむりにする。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。おたがいのバトルポケモンを、それぞれどくとねむりにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、50ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、50ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	retreat: 2,

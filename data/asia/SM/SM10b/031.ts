@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグノム",
+		'ja-jp': "アグノム",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
+		'ja-jp': "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "サイコパワー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン3個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 	],

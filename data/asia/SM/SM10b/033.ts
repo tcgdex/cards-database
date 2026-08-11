@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クリムガン",
+		'ja-jp': "クリムガン",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "赤い 顔の 皮膚は 岩よりも 硬い。 狭い 洞窟の 中で 敵に 向かって 顔から 突撃。",
+		'ja-jp': "赤い 顔の 皮膚は 岩よりも 硬い。 狭い 洞窟の 中で 敵に 向かって 顔から 突撃。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきずりだす" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "100×",
 			cost: ["Fire", "Water", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×100ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×100ダメージ。",
 			},
 		},
 	],

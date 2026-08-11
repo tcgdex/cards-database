@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ไบวูลู <ของฮ็อป>",
-		id: "Dubwool <Hop>"
+		'th-th': "ไบวูลู <ของฮ็อป>",
+		'id-id': "Dubwool <Hop>"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เขาที่ยืดยาวดูสง่างามนั้นงอกขึ้นมาเพื่อดึงดูดเพศตรงข้าม ไม่เคยใช้ เป็นอาวุธต่อสู้",
-		id: "Tanduk Dubwool yang gagah tumbuh hanya untuk menarik perhatian lawan jenis dan tidak pernah digunakan sebagai senjata."
+		'th-th': "เขาที่ยืดยาวดูสง่างามนั้นงอกขึ้นมาเพื่อดึงดูดเพศตรงข้าม ไม่เคยใช้ เป็นอาวุธต่อสู้",
+		'id-id': "Tanduk Dubwool yang gagah tumbuh hanya untuk menarik perhatian lawan jenis dan tidak pernah digunakan sebagai senjata."
 	},
 
 	stage: "Stage1",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "ชาเลนจ์ฮอร์น",
-			id: "Challenge Horn"
+			'th-th': "ชาเลนจ์ฮอร์น",
+			'id-id': "Challenge Horn"
 		},
 
 		effect: {
-			th: "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่ง ต่อสู้",
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung."
+			'th-th': "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่ง ต่อสู้",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "พุ่งหัวชน",
-			id: "Tandukan Kepala"
+			'th-th': "พุ่งหัวชน",
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 80,

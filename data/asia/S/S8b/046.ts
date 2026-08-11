@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウVMAX",
+		'ja-jp': "ピカチュウVMAX",
 		'zh-tw': "皮卡丘VMAX",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイボルテッカー",
+				'ja-jp': "キョダイボルテッカー",
 				'zh-tw': "超極巨伏特攻擊",
 			},
 			damage: "120+",
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、150ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、150ダメージ追加。",
 				'zh-tw': "若希望，將這隻寶可夢身上附加的能量全部丟棄。這個情況下，增加150點傷害。",
 			},
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウV",
+		'ja-jp': "ピカチュウV",
 	},
 
 	retreat: 2,

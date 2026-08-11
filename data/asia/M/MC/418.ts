@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョジオーン",
+		'ja-jp': "キョジオーン",
 	},
 
 	illustrator: "danciao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
+		'ja-jp': "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちからのしお" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[F]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[F]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジオヅム",
+		'ja-jp': "ジオヅム",
 	},
 
 	retreat: 4,

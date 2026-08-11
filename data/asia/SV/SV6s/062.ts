@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Bundle"
+		'id-id': "Iron Bundle"
 	},
 
 	illustrator: "nagimiso",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon yang mirip dengan objek misterius yang terdaftar dalam sebuah buku kuno. Hanya terdapat 2 laporan kesaksian atas Pokémon ini."
+		'id-id': "Pokémon yang mirip dengan objek misterius yang terdaftar dalam sebuah buku kuno. Hanya terdapat 2 laporan kesaksian atas Pokémon ini."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Interjet"
+			'id-id': "Interjet"
 		},
 
 		effect: {
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, lawan menukar Pokémon Bertarungnya dengan Pokémon Cadangan."
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, lawan menukar Pokémon Bertarungnya dengan Pokémon Cadangan."
 		},
 
 		damage: 60,

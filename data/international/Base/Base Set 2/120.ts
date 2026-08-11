@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Gust of Wind",
+		'en-us': "Gust of Wind",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
+		'en-us': "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 	},
 
 

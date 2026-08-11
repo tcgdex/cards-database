@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari Niv. 18",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari Niv. 18",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cosmic Draw",
-				fr: "Pioche cosmik",
-				de: "Kosmische Anziehungskraft"
+				'en-us': "Cosmic Draw",
+				'fr-fr': "Pioche cosmik",
+				'de-de': "Kosmische Anziehungskraft"
 			},
 			effect: {
-				en: "If your opponent has any Evolved Pokémon in play, draw 3 cards.",
-				fr: "Si votre adversaire possède des Pokémon Évolués en jeu, piochez 3 cartes.",
-				de: "Wenn dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, ziehe 3 Karten."
+				'en-us': "If your opponent has any Evolved Pokémon in play, draw 3 cards.",
+				'fr-fr': "Si votre adversaire possède des Pokémon Évolués en jeu, piochez 3 cartes.",
+				'de-de': "Wenn dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, ziehe 3 Karten."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 10,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
+		'en-us': "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
 	},
 
 	variants: [

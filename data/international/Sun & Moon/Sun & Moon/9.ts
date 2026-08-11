@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Rowlet",
-		fr: "Brindibou",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leafage",
-				fr: "Feuillage",
-				es: "Follaje",
-				it: "Fogliame",
-				pt: "Folhagem",
-				de: "Blattwerk"
+				'en-us': "Leafage",
+				'fr-fr': "Feuillage",
+				'es-es': "Follaje",
+				'it-it': "Fogliame",
+				'pt-br': "Folhagem",
+				'de-de': "Blattwerk"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+		'en-us': "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
 	},
 
 	thirdParty: {

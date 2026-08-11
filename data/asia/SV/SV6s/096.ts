@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Fezandipiti"
+		'id-id': "Fezandipiti"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Ia merebut hati dan memikat manusia serta Pokémon dengan mengepakkan sayapnya yang ayu dan menebarkan feromon."
+		'id-id': "Ia merebut hati dan memikat manusia serta Pokémon dengan mengepakkan sayapnya yang ayu dan menebarkan feromon."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Adrenaline Pheromone"
+			'id-id': "Adrenaline Pheromone"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Energi {Kegelapan}, saat Pokémon ini menerima kerusakan akibat serangan, pemain melempar koin 1 kali. Jika hasilnya sisi depan, Pokémon ini tidak menerima kerusakan tersebut."
+			'id-id': "Jika Pokémon ini mengenakan Energi {Kegelapan}, saat Pokémon ini menerima kerusakan akibat serangan, pemain melempar koin 1 kali. Jika hasilnya sisi depan, Pokémon ini tidak menerima kerusakan tersebut."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Energy Feather"
+			'id-id': "Energy Feather"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon ini."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "30×",

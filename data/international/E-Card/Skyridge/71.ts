@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Assist",
-				de: "Assistent"
+				'en-us': "Assist",
+				'de-de': "Assistent"
 			},
 			effect: {
-				en: "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach einer Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach einer Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 

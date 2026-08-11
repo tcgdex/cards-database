@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ふうせん",
+		'ja-jp': "ふうせん",
 		'zh-tw': "氣球",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。",
+		'ja-jp': "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。",
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
 	},
 

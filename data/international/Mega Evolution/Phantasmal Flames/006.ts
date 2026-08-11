@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		es: "Lombre",
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'es-es': "Lombre",
 		'es-mx': "Lombre",
-		de: "Lombrero",
-		it: "Lombre",
-		pt: "Lombre"
+		'de-de': "Lombrero",
+		'it-it': "Lombre",
+		'pt-br': "Lombre"
 	},
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
 		'es-mx': "Lotad",
-		de: "Loturzel",
-		it: "Lotad",
-		pt: "Lotad",
+		'de-de': "Loturzel",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
 	},
 
 	rarity: "Common",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue",
-			es: "Megaagotar",
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
 			'es-mx': "Megadrenado",
-			de: "Megasauger",
-			it: "Megassorbimento",
-			pt: "Megadreno"
+			'de-de': "Megasauger",
+			'it-it': "Megassorbimento",
+			'pt-br': "Megadreno"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon."
 		},
 
 		damage: 30
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It prefers waterfronts with plentiful food. It became nocturnal so it wouldn't have to compete for food with bird Pokémon.",
+		'en-us': "It prefers waterfronts with plentiful food. It became nocturnal so it wouldn't have to compete for food with bird Pokémon.",
 	},
 
 	illustrator: "Shigenori Negishi",

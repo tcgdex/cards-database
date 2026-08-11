@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Talonflame BREAK",
-		fr: "Flambusard TURBO",
-		es: "Talonflame TURBO",
-		it: "Talonflame TURBO",
-		pt: "Talonflame TURBO",
-		de: "Fiaro-TURBO"
+		'en-us': "Talonflame BREAK",
+		'fr-fr': "Flambusard TURBO",
+		'es-es': "Talonflame TURBO",
+		'it-it': "Talonflame TURBO",
+		'pt-br': "Talonflame TURBO",
+		'de-de': "Fiaro-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Talonflame",
-		fr: "Flambusard",
-		es: "Talonflame",
-		it: "Talonflame",
-		pt: "Talonflame",
-		de: "Fiaro"
+		'en-us': "Talonflame",
+		'fr-fr': "Flambusard",
+		'es-es': "Talonflame",
+		'it-it': "Talonflame",
+		'pt-br': "Talonflame",
+		'de-de': "Fiaro"
 	},
 
 	stage: "BREAK",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu",
-				es: "Envite Ígneo",
-				it: "Fuococarica",
-				pt: "Blitz de Labaredas",
-				de: "Flammenblitz"
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu",
+				'es-es': "Envite Ígneo",
+				'it-it': "Fuococarica",
+				'pt-br': "Blitz de Labaredas",
+				'de-de': "Flammenblitz"
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
-				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
-				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
-				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
+				'en-us': "Discard all Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
+				'es-es': "Descarta todas las Energías Fire unidas a este Pokémon.",
+				'it-it': "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
+				'pt-br': "Descarte toda a Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

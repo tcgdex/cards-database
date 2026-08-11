@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
-		fr: "Fouinette",
-		de: "Wiesor"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
+		'de-de': "Wiesor"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espion",
-				de: "Späher"
+				'en-us': "Scout",
+				'fr-fr': "Espion",
+				'de-de': "Späher"
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire.",
-				de: "Schau dir die Karten auf der Hand deines gegners an."
+				'en-us': "Look at your opponent's hand.",
+				'fr-fr': "Regardez la main de votre adversaire.",
+				'de-de': "Schau dir die Karten auf der Hand deines gegners an."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
-		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
+		'en-us': "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+		'fr-fr': "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
 	},
 
 

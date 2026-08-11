@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
-		fr: "Mesmérella",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
-		fr: "Scrutella",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fortunate Eye",
-				fr: "Regard Chanceux",
-				es: "Ojo Fortuito",
-				it: "Fortunocchio",
-				pt: "Olho da Sorte",
-				de: "Flüchtiger Glücksblick"
+				'en-us': "Fortunate Eye",
+				'fr-fr': "Regard Chanceux",
+				'es-es': "Ojo Fortuito",
+				'it-it': "Fortunocchio",
+				'pt-br': "Olho da Sorte",
+				'de-de': "Flüchtiger Glücksblick"
 			},
 			effect: {
-				en: "Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix.",
-				es: "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
-				it: "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile in cima al suo mazzo nell'ordine che preferisci.",
-				pt: "Olhe os 5 cards de cima do baralho do seu oponente e coloque-os de volta em cima do baralho do seu oponente em qualquer ordem.",
-				de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
+				'en-us': "Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix.",
+				'es-es': "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
+				'it-it': "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile in cima al suo mazzo nell'ordine che preferisci.",
+				'pt-br': "Olhe os 5 cards de cima do baralho do seu oponente e coloque-os de volta em cima do baralho do seu oponente em qualquer ordem.",
+				'de-de': "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
 			},
 
 		},
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Estalo",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Estalo",
+				'de-de': "Klatscher"
 			},
 
 			damage: 30,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		'en-us': "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wooloo",
-		fr: "Moumouton",
-		es: "Wooloo",
-		it: "Wooloo",
-		pt: "Wooloo",
-		de: "Wolly"
+		'en-us': "Wooloo",
+		'fr-fr': "Moumouton",
+		'es-es': "Wooloo",
+		'it-it': "Wooloo",
+		'pt-br': "Wooloo",
+		'de-de': "Wolly"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Knock Over",
-			fr: "Culbute",
-			es: "Tumbar",
-			it: "Sconvolgimento",
-			pt: "Arrebatar",
-			de: "Umwerfen"
+			'en-us': "Knock Over",
+			'fr-fr': "Culbute",
+			'es-es': "Tumbar",
+			'it-it': "Sconvolgimento",
+			'pt-br': "Arrebatar",
+			'de-de': "Umwerfen"
 		},
 
 		effect: {
-			en: "You may discard a Stadium in play.",
-			fr: "Vous pouvez défausser un Stade en jeu.",
-			es: "Puedes descartar 1 Estadio en juego.",
-			it: "Puoi scartare una carta Stadio in gioco.",
-			pt: "Você pode descartar um Estádio em jogo.",
-			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+			'en-us': "You may discard a Stadium in play.",
+			'fr-fr': "Vous pouvez défausser un Stade en jeu.",
+			'es-es': "Puedes descartar 1 Estadio en juego.",
+			'it-it': "Puoi scartare una carta Stadio in gioco.",
+			'pt-br': "Você pode descartar um Estádio em jogo.",
+			'de-de': "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
 		},
 
 		damage: 30

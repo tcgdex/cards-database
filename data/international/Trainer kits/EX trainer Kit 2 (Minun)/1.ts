@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	attacks: [{
@@ -31,8 +31,8 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Flare",
-			fr: "Intimidation"
+			'en-us': "Flare",
+			'fr-fr': "Intimidation"
 		},
 		damage: 20
 	}, {
@@ -43,12 +43,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Heat Tackle",
-			fr: "Charge énergétique"
+			'en-us': "Heat Tackle",
+			'fr-fr': "Charge énergétique"
 		},
 		effect: {
-			en: "Arcanine does 10 damage to itself.",
-			fr: "Arcanin s'inflige 10 dégâts."
+			'en-us': "Arcanine does 10 damage to itself.",
+			'fr-fr': "Arcanin s'inflige 10 dégâts."
 		},
 		damage: 70
 	}],

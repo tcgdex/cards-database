@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イキリンコex"
+		'ja-jp': "イキリンコex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "イキリテイク"
+			'ja-jp': "イキリテイク"
 		},
 
 		effect: {
-			ja: "最初の自分の番にだけ1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「イキリテイク」を使っていたなら、この特性は使えない。"
+			'ja-jp': "最初の自分の番にだけ1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「イキリテイク」を使っていたなら、この特性は使えない。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "きあいをいれる"
+			'ja-jp': "きあいをいれる"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
+			'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
 		}
 	}],
 

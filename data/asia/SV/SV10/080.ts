@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 		'zh-tw': "袋獸",
 		'zh-cn': "袋獸",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "子どもの いない ガルーラが 遭難した 人間の 子を 育てていたという 記録がある。",
+		'ja-jp': "子どもの いない ガルーラが 遭難した 人間の 子を 育てていたという 記録がある。",
 		'zh-tw': "紀錄中記載著， 曾經有沒孩子的袋獸 養育了遇難的人類孩子。",
 		'zh-cn': "紀錄中記載著， 曾經有沒孩子的袋獸 養育了遇難的人類孩子。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっぱたく",
+				'ja-jp': "ひっぱたく",
 				'zh-tw': "重摑",
 				'zh-cn': "重摑",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ピヨピヨパンチ",
+				'ja-jp': "ピヨピヨパンチ",
 				'zh-tw': "迷昏拳",
 				'zh-cn': "迷昏拳",
 			},
 			damage: "90×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×90ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×90ダメージ。",
 				'zh-tw': "擲2次硬幣，造成正面出現的次數×90點傷害。",
 				'zh-cn': "擲2次硬幣，造成正面出現的次數×90點傷害。",
 			},

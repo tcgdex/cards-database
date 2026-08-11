@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slugma",
-		fr: "Limagma"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma"
 	},
 
 	illustrator: "Mékayu",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers\naround in a constant search for warm places.",
-		fr: "Commun dans les régions volcaniques, il se déplace sans cesse pour trouver des endroits chauds."
+		'en-us': "A common sight in volcanic areas, it slowly slithers\naround in a constant search for warm places.",
+		'fr-fr': "Commun dans les régions volcaniques, il se déplace sans cesse pour trouver des endroits chauds."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stampede",
-			fr: "Ruée"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée"
 		},
 
 		damage: 30,

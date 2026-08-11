@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 		'zh-tw': "蟲電寶",
-		th: "เด็นจิมูชิ",
+		'th-th': "เด็นจิมูชิ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "頑丈な 殻で 身を 守る。 顎の 先端から 電気を 流して 反撃する。",
+		'ja-jp': "頑丈な 殻で 身を 守る。 顎の 先端から 電気を 流して 反撃する。",
 		'zh-tw': "用結實的外殼保護自己。會從顎部的尖端 放出電流反擊對手。",
-		th: "ปกป้องร่างกายด้วยกระดองทนทาน ปล่อยกระแสไฟจากปลายกรามเพื่อตอบโต้",
+		'th-th': "ปกป้องร่างกายด้วยกระดองทนทาน ปล่อยกระแสไฟจากปลายกรามเพื่อตอบโต้",
 	},
 
 	stage: "Stage1",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バチバチ",
+				'ja-jp': "バチバチ",
 				'zh-tw': "劈哩啪啦",
-				th: "ประกายไฟ",
+				'th-th': "ประกายไฟ",
 			},
 			damage: 60,
 			cost: ["Lightning", "Lightning"],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	retreat: 2,

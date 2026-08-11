@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double Impact",
-			fr: "Double Impact",
-			es: "Impacto Doble",
-			it: "Doppio Impatto",
-			pt: "Impacto Duplo",
-			de: "Doppelter Einschlag"
+			'en-us': "Double Impact",
+			'fr-fr': "Double Impact",
+			'es-es': "Impacto Doble",
+			'it-it': "Doppio Impatto",
+			'pt-br': "Impacto Duplo",
+			'de-de': "Doppelter Einschlag"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 100 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 100 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "100×"

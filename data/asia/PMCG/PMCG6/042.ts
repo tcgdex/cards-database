@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "R団のサンダー",
+		'ja-jp': "R団のサンダー",
 	},
 	illustrator: "Shin-ichi Yoshida",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "プラズマ",
+				'ja-jp': "プラズマ",
 			},
 			effect: {
-				ja: "廃棄パイルに稲妻エネルギーカードがある場合は、それらの1つをロケットのザプドに取り付けます。",
+				'ja-jp': "廃棄パイルに稲妻エネルギーカードがある場合は、それらの1つをロケットのザプドに取り付けます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "エレクトロブルン",
+				'ja-jp': "エレクトロブルン",
 			},
 			effect: {
-				ja: "RocketのZapdosは、それに取り付けられたLightning Energyカードの数の10倍に相当するそれ自体にダメージを与えます。",
+				'ja-jp': "RocketのZapdosは、それに取り付けられたLightning Energyカードの数の10倍に相当するそれ自体にダメージを与えます。",
 			},
 			damage: 70,
 		},

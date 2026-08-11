@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi",
-		de: "Plusle"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi",
+		'de-de': "Plusle"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plus Energy",
-				fr: "Énergie plus",
-				de: "Plus Energy"
+				'en-us': "Plus Energy",
+				'fr-fr': "Énergie plus",
+				'de-de': "Plus Energy"
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre main à un de vos Pokémon.",
-				de: "Flip a coin. If heads, attach a  Energy card from your hand to any of your Pokémon."
+				'en-us': "Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre main à un de vos Pokémon.",
+				'de-de': "Flip a coin. If heads, attach a  Energy card from your hand to any of your Pokémon."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Dazzle Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

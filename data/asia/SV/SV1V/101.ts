@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワナイダーex"
+		'ja-jp': "ワナイダーex"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "トラップテリトリー"
+			'ja-jp': "トラップテリトリー"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手のバトルポケモンのにげるためのエネルギーは、1個ぶん多くなる。"
+			'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンのにげるためのエネルギーは、1個ぶん多くなる。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "ワイヤーハング"
+			'ja-jp': "ワイヤーハング"
 		},
 
 		damage: "90＋",
 
 		effect: {
-			ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。"
 		}
 	}],
 

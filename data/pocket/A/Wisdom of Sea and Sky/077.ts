@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa",
-		fr: "Mélo"
+		'en-us': "Cleffa",
+		'fr-fr': "Mélo"
 	},
 
 	illustrator: "Orca",
@@ -18,21 +18,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen.",
-		fr: "On dit qu'il apparaît souvent là où se sont écrasées des météorites."
+		'en-us': "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen.",
+		'fr-fr': "On dit qu'il apparaît souvent là où se sont écrasées des météorites."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Twinkly Call",
-			fr: "Appel qui Brille"
+			'en-us': "Twinkly Call",
+			'fr-fr': "Appel qui Brille"
 		},
 
 		effect: {
-			en: "Put a random Pokémon from your deck into your hand.",
-			fr: "Ajoutez au hasard un Pokémon de votre deck à votre main."
+			'en-us': "Put a random Pokémon from your deck into your hand.",
+			'fr-fr': "Ajoutez au hasard un Pokémon de votre deck à votre main."
 		}
 	}],
 

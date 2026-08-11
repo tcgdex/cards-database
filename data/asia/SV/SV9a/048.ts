@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ペパーのリククラゲ",
+		'ja-jp': "ペパーのリククラゲ",
 		'zh-tw': "<派帕的>陸地水母",
 		'zh-cn': "<派帕的>陸地水母"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "森の奥に 集団で 暮らす コロニーを 作る。 よそ者が 近寄ることを ひどく 嫌う。",
+		'ja-jp': "森の奥に 集団で 暮らす コロニーを 作る。 よそ者が 近寄ることを ひどく 嫌う。",
 		'zh-tw': "會在森林深處建造 集體生活用的聚落。 極為厭惡有外來者靠近。",
 		'zh-cn': "會在森林深處建造 集體生活用的聚落。 極為厭惡有外來者靠近。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっぱる",
+			'ja-jp': "ひっぱる",
 			'zh-tw': "拉扯",
 			'zh-cn': "拉扯"
 		},
 
 		effect: {
-			ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+			'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
 			'zh-cn': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "とつげき",
+			'ja-jp': "とつげき",
 			'zh-tw': "突擊",
 			'zh-cn': "突擊"
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 		damage: 120,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。",
+			'ja-jp': "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			'zh-cn': "這隻寶可夢也受到30點傷害。"
 		}

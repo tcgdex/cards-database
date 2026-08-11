@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua Admin",
-		fr: "Admin Team Aqua",
-		pt: "Admin. da Equipe Aqua",
+		'en-us': "Team Aqua Admin",
+		'fr-fr': "Admin Team Aqua",
+		'pt-br': "Admin. da Equipe Aqua",
 	},
 
 	illustrator: "GAME FREAK inc.",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Attachez une carte Énergie de base de votre pile de défausse à votre Pokémon Actif de la Team Aqua.",
-		en: "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon.",
-		pt: "Ligue um card de Energia básica da sua pilha de descarte ao seu Pokémon da Equipe Aqua Ativo.",
+		'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à votre Pokémon Actif de la Team Aqua.",
+		'en-us': "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon.",
+		'pt-br': "Ligue um card de Energia básica da sua pilha de descarte ao seu Pokémon da Equipe Aqua Ativo.",
 	},
 
 	trainerType: "Supporter",

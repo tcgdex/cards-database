@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chandelure VMAX",
-		fr: "Lugulabre VMAX",
-		es: "Chandelure VMAX",
-		it: "Chandelure VMAX",
-		pt: "Chandelure VMAX",
-		de: "Skelabra VMAX"
+		'en-us': "Chandelure VMAX",
+		'fr-fr': "Lugulabre VMAX",
+		'es-es': "Chandelure VMAX",
+		'it-it': "Chandelure VMAX",
+		'pt-br': "Chandelure VMAX",
+		'de-de': "Skelabra VMAX"
 	},
 
 	rarity: "Holo Rare VMAX",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Chandelure V",
-		fr: "Lugulabre-V",
-		es: "Chandelure V",
-		it: "Chandelure-V",
-		pt: "Chandelure V",
-		de: "Skelabra-V"
+		'en-us': "Chandelure V",
+		'fr-fr': "Lugulabre-V",
+		'es-es': "Chandelure V",
+		'it-it': "Chandelure-V",
+		'pt-br': "Chandelure V",
+		'de-de': "Skelabra-V"
 	},
 
 	stage: "VMAX",
@@ -37,21 +37,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Cursed Shimmer",
-			fr: "Scintillement Maudit",
-			es: "Destello Maldito",
-			it: "Luccichio Maledetto",
-			de: "Flimmernder Fluch",
-			pt: "Brilho Amaldiçoado"
+			'en-us': "Cursed Shimmer",
+			'fr-fr': "Scintillement Maudit",
+			'es-es': "Destello Maldito",
+			'it-it': "Luccichio Maledetto",
+			'de-de': "Flimmernder Fluch",
+			'pt-br': "Brilho Amaldiçoado"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon Tool cards from their hand.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Outil Pokémon de sa main.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Herramienta Pokémon de su mano.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Oggetto Pokémon che ha in mano.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Pokémon-Ausrüstungen aus seiner Hand spielen.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhuma carta de Ferramenta Pokémon da própria mão."
+			'en-us': "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon Tool cards from their hand.",
+			'fr-fr': "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Outil Pokémon de sa main.",
+			'es-es': "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Herramienta Pokémon de su mano.",
+			'it-it': "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Oggetto Pokémon che ha in mano.",
+			'de-de': "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Pokémon-Ausrüstungen aus seiner Hand spielen.",
+			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhuma carta de Ferramenta Pokémon da própria mão."
 		}
 	}],
 
@@ -59,23 +59,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Max Poltergeist",
-			fr: "Esprit Frappeuromax",
-			es: "Maxipoltergeist",
-			it: "Dynapoltergeist",
-			de: "Dyna-Poltergeist",
-			pt: "Poltergeist Max"
+			'en-us': "Max Poltergeist",
+			'fr-fr': "Esprit Frappeuromax",
+			'es-es': "Maxipoltergeist",
+			'it-it': "Dynapoltergeist",
+			'de-de': "Dyna-Poltergeist",
+			'pt-br': "Poltergeist Max"
 		},
 
 		damage: "70×",
 
 		effect: {
-			en: "Your opponent reveals their hand. This attack does 70 damage for each Trainer card you find there.",
-			fr: "Votre adversaire dévoile sa main. Cette attaque inflige 70 dégâts pour chaque carte Dresseur que vous y trouvez.",
-			es: "Tu rival enseña las cartas de su mano. Este ataque hace 70 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 70 danni per ogni carta Allenatore presente tra quelle carte.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 70 Schadenspunkte zu.",
-			pt: "Seu oponente revela a própria mão. Este ataque causa 70 pontos de dano para cada carta de Treinador que encontrar lá."
+			'en-us': "Your opponent reveals their hand. This attack does 70 damage for each Trainer card you find there.",
+			'fr-fr': "Votre adversaire dévoile sa main. Cette attaque inflige 70 dégâts pour chaque carte Dresseur que vous y trouvez.",
+			'es-es': "Tu rival enseña las cartas de su mano. Este ataque hace 70 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 70 danni per ogni carta Allenatore presente tra quelle carte.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 70 Schadenspunkte zu.",
+			'pt-br': "Seu oponente revela a própria mão. Este ataque causa 70 pontos de dano para cada carta de Treinador que encontrar lá."
 		}
 	}],
 

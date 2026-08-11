@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンテイ",
+		'ja-jp': "エンテイ",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "新しい 火山が できるたび 生まれてくると 伝えられる 大地を 駆け巡る ポケモン。",
+		'ja-jp': "新しい 火山が できるたび 生まれてくると 伝えられる 大地を 駆け巡る ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分の場に[R]エネルギーが4個以上あるなら、90ダメージ追加。",
+				'ja-jp': "自分の場に[R]エネルギーが4個以上あるなら、90ダメージ追加。",
 			},
 		},
 	],

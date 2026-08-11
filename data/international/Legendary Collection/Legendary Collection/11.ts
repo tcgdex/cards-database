@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Gengar"
+		'en-us': "Gengar"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter"
+		'en-us': "Haunter"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Curse"
+				'en-us': "Curse"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Mind"
+				'en-us': "Dark Mind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright."
+		'en-us': "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright."
 	},
 
 	variants: [

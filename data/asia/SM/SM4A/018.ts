@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマージ",
+		'ja-jp': "ムウマージ",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どこからともなく 現れ 呪文を つぶやき 呪いを かけたり 恐ろしい 幻を みせる。",
+		'ja-jp': "どこからともなく 現れ 呪文を つぶやき 呪いを かけたり 恐ろしい 幻を みせる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、相手は手札から、「ポケモンのどうぐ」「特殊エネルギー」を出してつけられず「スタジアム」も出せない。",
+				'ja-jp': "次の相手の番、相手は手札から、「ポケモンのどうぐ」「特殊エネルギー」を出してつけられず「スタジアム」も出せない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札の枚数x20ダメージ。",
+				'ja-jp': "相手の手札の枚数x20ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Alolan Raichu",
-		fr: "Raichu d’Alola",
-		es: "Raichu de Alola",
-		it: "Raichu di Alola",
-		pt: "Raichu de Alola",
-		de: "Alola-Raichu"
+		'en-us': "Alolan Raichu",
+		'fr-fr': "Raichu d’Alola",
+		'es-es': "Raichu de Alola",
+		'it-it': "Raichu di Alola",
+		'pt-br': "Raichu de Alola",
+		'de-de': "Alola-Raichu"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -23,8 +23,8 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 	stage: "Stage1",
 
@@ -35,20 +35,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Ataque Rápido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Rápido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Surfer",
-				fr: "Surfeur Électrique",
-				es: "Surfeo Eléctrico",
-				it: "Surfista Elettrico",
-				pt: "Surfista Elétrico",
-				de: "Elektrosurfer"
+				'en-us': "Electric Surfer",
+				'fr-fr': "Surfeur Électrique",
+				'es-es': "Surfeo Eléctrico",
+				'it-it': "Surfista Elettrico",
+				'pt-br': "Surfista Elétrico",
+				'de-de': "Elektrosurfer"
 			},
 
 			damage: 70,
@@ -90,7 +90,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
+		'en-us': "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
 	},
 }
 

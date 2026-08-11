@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プライスのデリビード",
+		'ja-jp': "プライスのデリビード",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "アイススロー",
+				'ja-jp': "アイススロー",
 			},
 			effect: {
-				ja: "対戦相手のポケモンごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "対戦相手のポケモンごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

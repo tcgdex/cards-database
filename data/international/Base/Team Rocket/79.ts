@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Sleep!",
-		fr: "Bonne nuit, les petits !",
-		de: "Schlaf!"
+		'en-us': "Sleep!",
+		'fr-fr': "Bonne nuit, les petits !",
+		'de-de': "Schlaf!"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-		de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+		'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+		'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+		'de-de': "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 	},
 
 

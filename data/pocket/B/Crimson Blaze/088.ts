@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [43],
 
 	name: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "If exposed to moonlight, it starts to move.\nIt roams far and wide at night to scatter its seeds."
+		'en-us': "If exposed to moonlight, it starts to move.\nIt roams far and wide at night to scatter its seeds."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Powder"
+			'en-us': "Poison Powder"
 		},
 
 		damage: 10,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "頂への雪道",
+		'ja-jp': "頂への雪道",
 		'zh-tw': "通頂雪道",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の「ルールを持つポケモン」の特性は、すべてなくなる。",
+		'ja-jp': "おたがいの場の「ルールを持つポケモン」の特性は、すべてなくなる。",
 		'zh-tw': "雙方場上的「擁有規則的寶可夢」的特性全部消除。",
 	},
 

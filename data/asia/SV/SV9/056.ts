@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 		'zh-tw': "瓦斯彈",
 		'zh-cn': "瓦斯彈"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "薄い バルーン状の 体に 猛毒の ガスが 詰まっているので ときどき 大爆発を 起こす。",
+		'ja-jp': "薄い バルーン状の 体に 猛毒の ガスが 詰まっているので ときどき 大爆発を 起こす。",
 		'zh-tw': "薄薄的氣球狀身體裡 儲滿了劇毒的瓦斯， 所以有時會發生大爆炸。",
 		'zh-cn': "薄薄的氣球狀身體裡 儲滿了劇毒的瓦斯， 所以有時會發生大爆炸。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
 			'zh-cn': "撞擊"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "ガスでつつむ",
+			'ja-jp': "ガスでつつむ",
 			'zh-tw': "瓦斯包圍",
 			'zh-cn': "瓦斯包圍"
 		},

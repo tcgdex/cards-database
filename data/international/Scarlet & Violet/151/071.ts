@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Empiflor",
-		en: "Victreebel",
-		es: "Victreebel",
-		it: "Victreebel",
-		pt: "Victreebel",
-		de: "Sarzenia"
+		'fr-fr': "Empiflor",
+		'en-us': "Victreebel",
+		'es-es': "Victreebel",
+		'it-it': "Victreebel",
+		'pt-br': "Victreebel",
+		'de-de': "Sarzenia"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Boustiflor",
-		en: "Weepinbell",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'fr-fr': "Boustiflor",
+		'en-us': "Weepinbell",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 	stage: "Stage2",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Relâche",
-			en: "Spit Up",
-			es: "Escupir",
-			it: "Sfoghenergia",
-			pt: "Cuspir",
-			de: "Entfessler"
+			'fr-fr': "Relâche",
+			'en-us': "Spit Up",
+			'es-es': "Escupir",
+			'it-it': "Sfoghenergia",
+			'pt-br': "Cuspir",
+			'de-de': "Entfessler"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Acide Lent",
-			en: "Slow-Acting Acid",
-			es: "Ácido de Acción Lenta",
-			it: "Acido a Rilento",
-			pt: "Ácido de Efeito Lento",
-			de: "Träge Säure"
+			'fr-fr': "Acide Lent",
+			'en-us': "Slow-Acting Acid",
+			'es-es': "Ácido de Acción Lenta",
+			'it-it': "Acido a Rilento",
+			'pt-br': "Ácido de Efeito Lento",
+			'de-de': "Träge Säure"
 		},
 
 		effect: {
-			fr: "À la fin du prochain tour de votre adversaire, placez 12 marqueurs de dégâts sur le Pokémon Défenseur.",
-			en: "At the end of your opponent's next turn, put 12 damage counters on the Defending Pokémon.",
-			es: "Al final del próximo turno de tu rival, pon 12 contadores de daño en el Pokémon Defensor.",
-			it: "Alla fine del prossimo turno del tuo avversario, metti 12 segnalini danno sul Pokémon difensore.",
-			pt: "Coloque 12 contadores de dano no Pokémon Defensor no final do próximo turno do seu oponente.",
-			de: "Lege am Ende des nächsten Zuges deines Gegners 12 Schadensmarken auf das Verteidigende Pokémon."
+			'fr-fr': "À la fin du prochain tour de votre adversaire, placez 12 marqueurs de dégâts sur le Pokémon Défenseur.",
+			'en-us': "At the end of your opponent's next turn, put 12 damage counters on the Defending Pokémon.",
+			'es-es': "Al final del próximo turno de tu rival, pon 12 contadores de daño en el Pokémon Defensor.",
+			'it-it': "Alla fine del prossimo turno del tuo avversario, metti 12 segnalini danno sul Pokémon difensore.",
+			'pt-br': "Coloque 12 contadores de dano no Pokémon Defensor no final do próximo turno do seu oponente.",
+			'de-de': "Lege am Ende des nächsten Zuges deines Gegners 12 Schadensmarken auf das Verteidigende Pokémon."
 		},
 
 		damage: 120
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
+		'en-us': "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
 	},
 
 	variants: [

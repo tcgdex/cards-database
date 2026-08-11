@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tool Breaker",
-				fr: "Bris’Outil",
+				'en-us': "Tool Breaker",
+				'fr-fr': "Bris’Outil",
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Pokémon Tool card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 70,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They are known to charge so wildly that if a train were to enter their territory, they would send it flying.",
+		'en-us': "They are known to charge so wildly that if a train were to enter their territory, they would send it flying.",
 	},
 
 	thirdParty: {

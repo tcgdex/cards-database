@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'pattes",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'pattes",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d'artifices",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d'artifices",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Growlithe.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Caninos.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Fukano angelegt ist, und lege sie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Growlithe.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Caninos.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Fukano angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer."
+		'en-us': "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer."
 	},
 
 	variants: [

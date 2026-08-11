@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../HeartGold & SoulSilver'
 
 const hgss4: Set = {
 	id: "hgss4",
 
 	name: {
-		en: "Triumphant",
-		fr: "Triomphant",
-		it: "Battaglie Trionfali",
-		de: "Triumph",
-		pt: "Triunfante"
+		'en-us': "Triumphant",
+		'fr-fr': "Triomphant",
+		'it-it': "Battaglie Trionfali",
+		'de-de': "Triumph",
+		'pt-br': "Triunfante"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const hgss4: Set = {
 
 	abbreviations: {
 		official: "TRI",
-		fr: "TRI"
+		'fr-fr': "TRI"
 	},
 
 	thirdParty: {

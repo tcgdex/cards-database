@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Vaporeon",
-		fr: "Aquali obscur",
-		de: "Dunkles Aquana"
+		'en-us': "Dark Vaporeon",
+		'fr-fr': "Aquali obscur",
+		'de-de': "Dunkles Aquana"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -38,9 +38,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Tourbillon",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Tourbillon",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
-				fr: "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la.",
-				de: "If the Defending Pokémon has any Energy attached to it, choose 1 of them and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'fr-fr': "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la.",
+				'de-de': "If the Defending Pokémon has any Energy attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
-		fr: "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants."
+		'en-us': "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
+		'fr-fr': "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self-control",
-				fr: "Sang-froid",
-				de: "Self-control"
+				'en-us': "Self-control",
+				'fr-fr': "Sang-froid",
+				'de-de': "Self-control"
 			},
 			effect: {
-				en: "Golbat can't be Paralyzed.",
-				fr: "Nosferalto ne peut pas être Paralysé.",
-				de: "Golbat can't be Paralyzed."
+				'en-us': "Golbat can't be Paralyzed.",
+				'fr-fr': "Nosferalto ne peut pas être Paralysé.",
+				'de-de': "Golbat can't be Paralyzed."
 			},
 		},
 	],
@@ -54,15 +54,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale équisante",
-				de: "Spiral Drain"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale équisante",
+				'de-de': "Spiral Drain"
 			},
 
 			effect: {
-				en: "Remove 1 damage counter from Golbat.",
-				fr: "Retirez à Nosferalto 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from Golbat."
+				'en-us': "Remove 1 damage counter from Golbat.",
+				'fr-fr': "Retirez à Nosferalto 1 marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from Golbat."
 			},
 
 			damage: 20

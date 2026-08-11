@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカタンク",
+		'ja-jp': "スカタンク",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "尻尾の 先から くさい 臭いの 液体を 飛ばして 攻撃。 連射すると 臭いは 弱まる。",
+		'ja-jp': "尻尾の 先から くさい 臭いの 液体を 飛ばして 攻撃。 連射すると 臭いは 弱まる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スカンプー",
+		'ja-jp': "スカンプー",
 	},
 
 	retreat: 2,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スクランブルスイッチ",
+		'ja-jp': "スクランブルスイッチ",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。その後、入れ替えたポケモンについているエネルギーを好きなだけ選び、新しくバトル場に出したポケモンにつけ替える。",
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。その後、入れ替えたポケモンについているエネルギーを好きなだけ選び、新しくバトル場に出したポケモンにつけ替える。",
 	},
 
 	variants: [

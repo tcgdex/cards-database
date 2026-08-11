@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのファイヤー",
+		'ja-jp': "カツラのファイヤー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Fire", "Fire", "Fire"],
 			name: {
-				ja: "フェニックスの炎",
+				'ja-jp': "フェニックスの炎",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、シャッフルブレインのモルト、およびすべてのカードがデッキに取り付けられています（ダメージを与えた後）。",
+				'ja-jp': "コインをひっくり返します。尾の場合、シャッフルブレインのモルト、およびすべてのカードがデッキに取り付けられています（ダメージを与えた後）。",
 			},
 			damage: 90,
 		},

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak",
+		'en-us': "Professor Oak",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard your hand, then draw 7 cards.",
+		'en-us': "Discard your hand, then draw 7 cards.",
 	},
 
 

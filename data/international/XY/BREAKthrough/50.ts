@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Raichu BREAK",
-		fr: "Raichu TURBO",
-		es: "Raichu TURBO",
-		it: "Raichu TURBO",
-		pt: "Raichu TURBO",
-		de: "Raichu-TURBO"
+		'en-us': "Raichu BREAK",
+		'fr-fr': "Raichu TURBO",
+		'es-es': "Raichu TURBO",
+		'it-it': "Raichu TURBO",
+		'pt-br': "Raichu TURBO",
+		'de-de': "Raichu-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
-		it: "Raichu",
-		pt: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	stage: "BREAK",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grand Bolt",
-				fr: "Foudre Grandiose",
-				es: "Rayo Colosal",
-				it: "Granbolide",
-				pt: "Raio Grandioso",
-				de: "Gewaltiger Blitz"
+				'en-us': "Grand Bolt",
+				'fr-fr': "Foudre Grandiose",
+				'es-es': "Rayo Colosal",
+				'it-it': "Granbolide",
+				'pt-br': "Raio Grandioso",
+				'de-de': "Gewaltiger Blitz"
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
-				es: "Descarta todas las Energías unidas a este Pokémon.",
-				it: "Scarta tutte le Energie assegnate a questo Pokémon.",
-				pt: "Descarte toda a Energia ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				'es-es': "Descarta todas las Energías unidas a este Pokémon.",
+				'it-it': "Scarta tutte le Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte toda a Energia ligada a este Pokémon.",
+				'de-de': "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
 			},
 			damage: 170,
 

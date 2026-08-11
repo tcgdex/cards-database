@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "毛辮羊",
-		ja: "ウールー"
+		'ja-jp': "ウールー"
 	},
 
 	illustrator: "OKACHEKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "捲捲的體毛彈性十足。就算從懸崖上掉下去， 也不會受傷。",
-		ja: "パーマの かかった 体毛は 高い クッション性が ある。 崖から 落ちても へっちゃら。"
+		'ja-jp': "パーマの かかった 体毛は 高い クッション性が ある。 崖から 落ちても へっちゃら。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "滾滾滾動",
-			ja: "コロコロころがる"
+			'ja-jp': "コロコロころがる"
 		},
 
 		effect: {
 			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×30點傷害。",
-			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。"
+			'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ。"
 		},
 
 		damage: "30×",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		es: "Treecko",
-		it: "Treecko",
-		pt: "Treecko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'es-es': "Treecko",
+		'it-it': "Treecko",
+		'pt-br': "Treecko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Sekio",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison Dodo",
-				es: "Veneno Somnífero",
-				it: "Sonnoveleno",
-				pt: "Veneno Sonífero",
-				de: "Schlafgift"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison Dodo",
+				'es-es': "Veneno Somnífero",
+				'it-it': "Sonnoveleno",
+				'pt-br': "Veneno Sonífero",
+				'de-de': "Schlafgift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné et Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné et Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		'en-us': "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
 	},
 
 	thirdParty: {

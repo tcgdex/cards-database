@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Venusaur"
+		'en-us': "Venusaur"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur"
+		'en-us': "Ivysaur"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Energy Trans"
+				'en-us': "Energy Trans"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is affected by a Special Condition."
 			}
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Solarbeam"
+				'en-us': "Solarbeam"
 			},
 
 			damage: 60,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+		'en-us': "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
 	},
 
 	variants: [

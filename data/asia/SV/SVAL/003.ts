@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAL"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "炙燙鱷",
-		th: "อาจิเกเตอร์",
-		id: "Crocalor"
+		'th-th': "อาจิเกเตอร์",
+		'id-id': "Crocalor"
 	},
 
 	illustrator: "kantaro",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "聲帶和火囊的閥緊鄰在一起。會一邊發出嘶啞的聲音， 一邊噴灑火焰。",
-		th: "เส้นเสียงและวาล์วของถุงไฟมีความสัมพันธ์กันอย่างใกล้ชิด พ่นไฟออกมาพร้อมกับส่งเสียงแหบ",
-		id: "Katup pita suara dan kantong api Crocalor saling terhubung. Pokémon ini menyemburkan api sambil mengeluarkan suara serak."
+		'th-th': "เส้นเสียงและวาล์วของถุงไฟมีความสัมพันธ์กันอย่างใกล้ชิด พ่นไฟออกมาพร้อมกับส่งเสียงแหบ",
+		'id-id': "Katup pita suara dan kantong api Crocalor saling terhubung. Pokémon ini menyemburkan api sambil mengeluarkan suara serak."
 	},
 
 	stage: "Stage1",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬住",
-			th: "กัดติด",
-			id: "Menggigit"
+			'th-th': "กัดติด",
+			'id-id': "Menggigit"
 		},
 
 		damage: 50,
@@ -35,8 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "滾動衝撞",
-			th: "กลิ้งโจมตี",
-			id: "Tubrukan Menggelinding"
+			'th-th': "กลิ้งโจมตี",
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 100,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードンV",
+		'ja-jp': "リザードンV",
 		'zh-tw': "冰伊布",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "冰雹",
 			},
 			damage: 80,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ほのおのうず",
+				'ja-jp': "ほのおのうず",
 				'zh-tw': "冰霜颱風",
 			},
 			damage: 220,
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「冰霜颱風」。",
 			},
 		},

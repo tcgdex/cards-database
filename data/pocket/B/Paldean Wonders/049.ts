@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Bérasca",
-		en: "Rabsca",
-		es: "Rabsca",
-		it: "Rabsca",
-		pt: "Rabsca",
-		de: "Skarabaks"
+		'fr-fr': "Bérasca",
+		'en-us': "Rabsca",
+		'es-es': "Rabsca",
+		'it-it': "Rabsca",
+		'pt-br': "Rabsca",
+		'de-de': "Skarabaks"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Psychic"],
   dexId: [954],
   evolveFrom: {
-		en: "Rellor",
-		fr: "Léboulérou",
-		de: "Relluk",
-		it: "Rellor",
-		es: "Rellor",
-		pt: "Rellor",
+		'en-us': "Rellor",
+		'fr-fr': "Léboulérou",
+		'de-de': "Relluk",
+		'it-it': "Rellor",
+		'es-es': "Rellor",
+		'pt-br': "Rellor",
 		'es-mx': "Rellor"
   },
   description: {

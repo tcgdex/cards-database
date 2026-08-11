@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギリギリポーション",
+		'ja-jp': "ギリギリポーション",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {
-		ja: "残りHPが「30」以下の自分のポケモン1匹のHPを「120」回復する。",
+		'ja-jp': "残りHPが「30」以下の自分のポケモン1匹のHPを「120」回復する。",
 	},
 
 	variants: [

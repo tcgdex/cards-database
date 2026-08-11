@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Embrochet",
-		en: "Arrokuda",
-		es: "Arrokuda",
-		it: "Arrokuda",
-		pt: "Arrokuda",
-		de: "Pikuda"
+		'fr-fr': "Embrochet",
+		'en-us': "Arrokuda",
+		'es-es': "Arrokuda",
+		'it-it': "Arrokuda",
+		'pt-br': "Arrokuda",
+		'de-de': "Pikuda"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pluie Éclaboussante",
-			en: "Rain Splash",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'fr-fr': "Pluie Éclaboussante",
+			'en-us': "Rain Splash",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20,
@@ -44,7 +44,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
+		'en-us': "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
 	},
 
 	variants: [

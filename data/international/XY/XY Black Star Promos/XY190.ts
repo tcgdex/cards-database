@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Marine Guidance",
-				fr: "Guide Maritime"
+				'en-us': "Marine Guidance",
+				'fr-fr': "Guide Maritime"
 			},
 			effect: {
-				en: "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon  dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+				'en-us': "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon  dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Ring",
-				fr: "Anneau Hydro"
+				'en-us': "Aqua Ring",
+				'fr-fr': "Anneau Hydro"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc."
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		'en-us': "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
 	},
 
 	thirdParty: {

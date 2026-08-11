@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラガラガラ",
+		'ja-jp': "アローラガラガラ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "緑 豊かな アローラ地方は ガラガラに とって 過酷な 土地。 生きのびるため 炎を 操る。",
+		'ja-jp': "緑 豊かな アローラ地方は ガラガラに とって 過酷な 土地。 生きのびるため 炎を 操る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みたまくずし" },
 			cost: [],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。トラッシュしたカードがポケモンなら、相手のバトルポケモンに、そのポケモンのHPぶんのダメージを与える。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。トラッシュしたカードがポケモンなら、相手のバトルポケモンに、そのポケモンのHPぶんのダメージを与える。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	retreat: 2,

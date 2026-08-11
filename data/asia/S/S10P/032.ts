@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 		'zh-tw': "好啦魷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "回転しながら 発光体を 点滅。 光の パターンで 仲間と コミュニケーションする。",
+		'ja-jp': "回転しながら 発光体を 点滅。 光の パターンで 仲間と コミュニケーションする。",
 		'zh-tw': "旋轉著閃爍自己的發光體。透過改變閃爍的方式 來和其他夥伴交流。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きまぐれこうげき",
+				'ja-jp': "きまぐれこうげき",
 				'zh-tw': "浮躁攻擊",
 			},
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			},
 		},

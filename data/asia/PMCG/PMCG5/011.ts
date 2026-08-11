@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのウツドン",
+		'ja-jp': "エリカのウツドン",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "よだれ",
+				'ja-jp': "よだれ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "FlyTrap",
+				'ja-jp': "FlyTrap",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、アクティブなポケモンで切り替えます。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、アクティブなポケモンで切り替えます。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
 			},
 			damage: 20,
 		},

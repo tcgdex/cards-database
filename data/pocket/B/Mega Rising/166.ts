@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed"
+		'en-us': "Ferroseed"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "Mossy caves are their preferred dwellings.\nEnzymes contained in mosses help Ferroseed's\nspikes grow big and strong."
+		'en-us': "Mossy caves are their preferred dwellings.\nEnzymes contained in mosses help Ferroseed's\nspikes grow big and strong."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rolling Tackle"
+			'en-us': "Rolling Tackle"
 		},
 
 		damage: 20,

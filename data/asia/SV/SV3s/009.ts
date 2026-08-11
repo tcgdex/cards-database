@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Trevenant"
+		'id-id': "Trevenant"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Trevenant memiliki kemampuan untuk memanjangkan akar tipis dari ujung kakinya untuk dikaitkan ke pepohonan di hutan dan mengendalikan pepohonan tersebut semaunya."
+		'id-id': "Trevenant memiliki kemampuan untuk memanjangkan akar tipis dari ujung kakinya untuk dikaitkan ke pepohonan di hutan dan mengendalikan pepohonan tersebut semaunya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Miasma Hutan"
+			'id-id': "Miasma Hutan"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena Bertarung, tiap kali Pokémon Check, letakkan 1 Token Kerusakan pada Pokémon Bertarung lawan."
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, tiap kali Pokémon Check, letakkan 1 Token Kerusakan pada Pokémon Bertarung lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Mengurung"
+			'id-id': "Mengurung"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 100,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ซานากิราส",
-		id: "Pupitar"
+		'th-th': "ซานากิราส",
+		'id-id': "Pupitar"
 	},
 
 	illustrator: "Scav",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "เป็นดักแด้ที่บินและอาละวาดไปมาโดยการพ่นแก๊สที่อัดแน่นอยู่ภายใน ร่างกายออกมาอย่างรุนแรง",
-		id: "Pupitar adalah pupa yang mengamuk dan terbang dengan menyemburkan gas yang terkompres di dalam tubuhnya."
+		'th-th': "เป็นดักแด้ที่บินและอาละวาดไปมาโดยการพ่นแก๊สที่อัดแน่นอยู่ภายใน ร่างกายออกมาอย่างรุนแรง",
+		'id-id': "Pupitar adalah pupa yang mengamuk dan terbang dengan menyemburkan gas yang terkompres di dalam tubuhnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าใส่",
-			id: "Menerjang"
+			'th-th': "พุ่งเข้าใส่",
+			'id-id': "Menerjang"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 60,

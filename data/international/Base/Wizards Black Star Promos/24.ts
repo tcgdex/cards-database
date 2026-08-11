@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "___________'s Pikachu",
-		fr: "Pikachu de ________"
+		'en-us': "___________'s Pikachu",
+		'fr-fr': "Pikachu de ________"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Birthday Surprise",
-				fr: "Surprise d'anniversaire"
+				'en-us': "Birthday Surprise",
+				'fr-fr': "Surprise d'anniversaire"
 			},
 			effect: {
-				en: "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.",
-				fr: "Si ce n'est pas votre anniversaire, cette attaque inflige 30 dégâts. Si c'est votre anniversaire, lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts."
+				'en-us': "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.",
+				'fr-fr': "Si ce n'est pas votre anniversaire, cette attaque inflige 30 dégâts. Si c'est votre anniversaire, lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts."
 			},
 			damage: "30+",
 
@@ -52,8 +52,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Your Birthdate: ______________________________",
-		fr: "Votre anniversaire : _________________________________________"
+		'en-us': "Your Birthdate: ______________________________",
+		'fr-fr': "Votre anniversaire : _________________________________________"
 	},
 
 	variants: [

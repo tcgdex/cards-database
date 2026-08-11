@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carbink"
+		'en-us': "Carbink"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It's said that somewhere in the world, there's\na mineral vein housing a large pack of slumbering\nCarbink. It's also said that this pack has a queen."
+		'en-us': "It's said that somewhere in the world, there's\na mineral vein housing a large pack of slumbering\nCarbink. It's also said that this pack has a queen."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			'en-us': "Guard Press"
 		},
 
 		damage: 30,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −30 damage from attacks."
 		}
 	}],
 

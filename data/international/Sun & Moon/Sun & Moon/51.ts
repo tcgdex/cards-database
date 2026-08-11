@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grubbin",
-		fr: "Larvibule",
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shocking Jaws",
-				fr: "Mâchoires Choquantes",
-				es: "Mandíbula Electrizante",
-				it: "Mascellashock",
-				pt: "Eletrochoque de Mandíbulas",
-				de: "Elektrisierende Beißer"
+				'en-us': "Shocking Jaws",
+				'fr-fr': "Mâchoires Choquantes",
+				'es-es': "Mandíbula Electrizante",
+				'it-it': "Mascellashock",
+				'pt-br': "Eletrochoque de Mandíbulas",
+				'de-de': "Elektrisierende Beißer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ball",
-				fr: "Boule de Foudre",
-				es: "Bola Eléctrica",
-				it: "Lamposfera",
-				pt: "Bola Elétrica",
-				de: "Stromball"
+				'en-us': "Electric Ball",
+				'fr-fr': "Boule de Foudre",
+				'es-es': "Bola Eléctrica",
+				'it-it': "Lamposfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Stromball"
 			},
 
 			damage: 50,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "From the food it digests, it generates electricity, and it stores this energy in its electric sac.",
+		'en-us': "From the food it digests, it generates electricity, and it stores this energy in its electric sac.",
 	},
 
 	thirdParty: {

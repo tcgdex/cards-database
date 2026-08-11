@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Azelf",
-		fr: "Créfadet",
-		es: "Azelf",
-		it: "Azelf",
-		pt: "Azelf",
-		de: "Tobutz"
+		'en-us': "Azelf",
+		'fr-fr': "Créfadet",
+		'es-es': "Azelf",
+		'it-it': "Azelf",
+		'pt-br': "Azelf",
+		'de-de': "Tobutz"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trading Places",
-				fr: "Permutation",
+				'en-us': "Trading Places",
+				'fr-fr': "Permutation",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyjamming",
-				fr: "Distribution Psy",
+				'en-us': "Psyjamming",
+				'fr-fr': "Distribution Psy",
 			},
 			effect: {
-				en: "Move as many Special Energy attached to your opponent's Pokémon to your opponent's other Pokémon in any way you like.",
-				fr: "Déplacez autant d'Énergies spéciales attachées aux Pokémon de votre adversaire vers d'autres Pokémon de votre adversaire, de la manière que vous voulez.",
+				'en-us': "Move as many Special Energy attached to your opponent's Pokémon to your opponent's other Pokémon in any way you like.",
+				'fr-fr': "Déplacez autant d'Énergies spéciales attachées aux Pokémon de votre adversaire vers d'autres Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Azelf flew, people gained the determination to do things. It was the birth of willpower.",
+		'en-us': "When Azelf flew, people gained the determination to do things. It was the birth of willpower.",
 	},
 
 	thirdParty: {

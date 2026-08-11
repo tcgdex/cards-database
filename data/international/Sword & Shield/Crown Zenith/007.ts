@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sunkern",
-		fr: "Tournegrin",
-		es: "Sunkern",
-		it: "Sunkern",
-		pt: "Sunkern",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin",
+		'es-es': "Sunkern",
+		'it-it': "Sunkern",
+		'pt-br': "Sunkern",
+		'de-de': "Sonnkern"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+		'en-us': "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
 	},
 
 	

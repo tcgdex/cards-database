@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "beedrill（デルタ種）",
+		'ja-jp': "beedrill（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "最終的な刺し傷",
+				'ja-jp': "最終的な刺し傷",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Beedrillをノックアウトすることができます。もしそうなら、対戦相手の防御Pokã©Monの1つを選択してください。そのポカンは今や麻痺し、毒されています。ターンの間にそのpokã©Monに1つではなく2つのダメージカウンターを置きます。 Beedrillが特別な状態の影響を受けている場合、この力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Beedrillをノックアウトすることができます。もしそうなら、対戦相手の防御Pokã©Monの1つを選択してください。そのポカンは今や麻痺し、毒されています。ターンの間にそのpokã©Monに1つではなく2つのダメージカウンターを置きます。 Beedrillが特別な状態の影響を受けている場合、この力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Metal", "Colorless"],
 			name: {
-				ja: "スーパースラッシュ",
+				'ja-jp': "スーパースラッシュ",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである場合、この攻撃は50のダメージと30のダメージを与えます。",
+				'ja-jp': "防御ポケモンが進化したポケモンである場合、この攻撃は50のダメージと30のダメージを与えます。",
 			},
 		},
 	],

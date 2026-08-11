@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Venusaur EX",
-		fr: "Florizarre EX",
+		'en-us': "Venusaur EX",
+		'fr-fr': "Florizarre EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Powder",
-				fr: "Poudre Toxik",
+				'en-us': "Poison Powder",
+				'fr-fr': "Poudre Toxik",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 60,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jungle Hammer",
-				fr: "Marteau Végétal",
+				'en-us': "Jungle Hammer",
+				'fr-fr': "Marteau Végétal",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 90,
 

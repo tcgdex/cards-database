@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sigilyph",
-		fr: "Cryptéro",
-		es: "Sigilyph",
-		it: "Sigilyph",
-		pt: "Sigilyph",
-		de: "Symvolara"
+		'en-us': "Sigilyph",
+		'fr-fr': "Cryptéro",
+		'es-es': "Sigilyph",
+		'it-it': "Sigilyph",
+		'pt-br': "Sigilyph",
+		'de-de': "Symvolara"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif Retournement",
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif Retournement",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Assault",
-				fr: "Assaut Psychique",
+				'en-us': "Psychic Assault",
+				'fr-fr': "Assaut Psychique",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
+				'en-us': "Does 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+		'en-us': "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
 	},
 
 	thirdParty: {

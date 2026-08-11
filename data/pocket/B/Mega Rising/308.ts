@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Graveler"
+		'en-us': "Graveler"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	description: {
-		en: "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came."
+		'en-us': "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Lunge Out"
+			'en-us': "Lunge Out"
 		},
 
 		damage: 40,

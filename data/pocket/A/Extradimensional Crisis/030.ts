@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto"
 	},
 
 	illustrator: "Uta",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It moves while spinning around on its single foot.\nSome Baltoy have been seen spinning on\ntheir heads.",
-		fr: "Il se déplace en tournoyant sur son pied. On le voit parfois faire de même sur la tête."
+		'en-us': "It moves while spinning around on its single foot.\nSome Baltoy have been seen spinning on\ntheir heads.",
+		'fr-fr': "Il se déplace en tournoyant sur son pied. On le voit parfois faire de même sur la tête."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante"
 		},
 
 		damage: 30,

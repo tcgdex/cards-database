@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [407],
 
 	name: {
-		en: "Roserade"
+		'en-us': "Roserade"
 	},
 
 	illustrator: "tono",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Roselia"
+		'en-us': "Roselia"
 	},
 
 	description: {
-		en: "The poison in its right hand is quick acting.\nThe poison in its left hand is slow acting.\nBoth are life threatening."
+		'en-us': "The poison in its right hand is quick acting.\nThe poison in its left hand is slow acting.\nBoth are life threatening."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Poison Ring"
+			'en-us': "Poison Ring"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Yamask"
+		'id-id': "Yamask"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Arwah orang purba menjadi Pokémon ini. Yamask gentayangan di peninggalan kuno untuk mencari orang yang mengenali wajahnya."
+		'id-id': "Arwah orang purba menjadi Pokémon ini. Yamask gentayangan di peninggalan kuno untuk mencari orang yang mengenali wajahnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mata Pembawa Sial"
+			'id-id': "Mata Pembawa Sial"
 		},
 
 		effect: {
-			id: "Letakkan 3 Token Kerusakan pada 1 Pokémon lawan."
+			'id-id': "Letakkan 3 Token Kerusakan pada 1 Pokémon lawan."
 		},
 
 		cost: ["Psychic", "Psychic"]

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のファイヤーex",
+		'ja-jp': "ロケット団のファイヤーex",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
 			},
 		},
 		{
 			name: { ja: "イビルバーン" },
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている「ロケット団エネルギー」を1枚選び、トラッシュする。その場合、相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "このポケモンについている「ロケット団エネルギー」を1枚選び、トラッシュする。その場合、相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。",
 			},
 		},
 	],

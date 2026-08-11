@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バトルコンプレッサー",
+		'ja-jp': "バトルコンプレッサー",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から好きなカードを3枚まで選び、トラッシュする。そして山札を切る。",
+		'ja-jp': "自分の山札から好きなカードを3枚まで選び、トラッシュする。そして山札を切る。",
 	},
 
 	variants: [{ type: "normal" }],

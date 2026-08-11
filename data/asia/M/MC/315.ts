@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エムリット",
+		'ja-jp': "エムリット",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "悲しみの 苦しさと 喜びの 尊さを 人々に 教えた。 感情の神と 呼ばれている。",
+		'ja-jp': "悲しみの 苦しさと 喜びの 尊さを 人々に 教えた。 感情の神と 呼ばれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こころをみたす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札から「基本[P]エネルギー」を2枚まで選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の手札から「基本[P]エネルギー」を2枚まで選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "自分のベンチに「ユクシー」「アグノム」がいないなら、このワザは失敗。",
+				'ja-jp': "自分のベンチに「ユクシー」「アグノム」がいないなら、このワザは失敗。",
 			},
 		},
 	],

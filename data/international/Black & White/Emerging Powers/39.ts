@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		es: "Whirlipede",
-		it: "Whirlipede",
-		pt: "Whirlipede",
-		de: "Rollum"
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'es-es': "Whirlipede",
+		'it-it': "Whirlipede",
+		'pt-br': "Whirlipede",
+		'de-de': "Rollum"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venipede",
-		fr: "Venipatte",
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Venoshock",
-				fr: "Choc Venin",
+				'en-us': "Venoshock",
+				'fr-fr': "Choc Venin",
 			},
 			effect: {
-				en: "If the Defending Pokémon is Poisoned, this attack does 60 more damage.",
-				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon is Poisoned, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steamroller",
-				fr: "Bulldoboule",
+				'en-us': "Steamroller",
+				'fr-fr': "Bulldoboule",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+		'en-us': "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
 	},
 
 	thirdParty: {

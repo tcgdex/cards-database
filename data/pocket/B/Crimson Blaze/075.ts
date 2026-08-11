@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [427],
 
 	name: {
-		en: "Buneary"
+		'en-us': "Buneary"
 	},
 
 	illustrator: "Terada Tera",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Buneary can attack by rolling up their ears and\nthen striking with the force created by unrolling\nthem. This attack becomes stronger with training."
+		'en-us': "Buneary can attack by rolling up their ears and\nthen striking with the force created by unrolling\nthem. This attack becomes stronger with training."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Double Kick"
+			'en-us': "Double Kick"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 20 damage for each heads."
 		}
 	}],
 

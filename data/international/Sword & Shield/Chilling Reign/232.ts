@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psychic Energy",
-		fr: "Énergie Psy",
-		es: "Energía Psíquica",
-		it: "Energia Psiche",
-		pt: "Energia Psíquica",
-		de: "Psycho-Energie"
+		'en-us': "Psychic Energy",
+		'fr-fr': "Énergie Psy",
+		'es-es': "Energía Psíquica",
+		'it-it': "Energia Psiche",
+		'pt-br': "Energia Psíquica",
+		'de-de': "Psycho-Energie"
 	},
 
 	rarity: "Secret Rare",

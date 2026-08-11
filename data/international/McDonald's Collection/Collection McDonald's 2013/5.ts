@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "None",
@@ -20,17 +20,17 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				fr: "Éclair",
+				'fr-fr': "Éclair",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Queue Battoir",
+				'fr-fr': "Queue Battoir",
 			},
 			damage: 20,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [584],
 
 	name: {
-		en: "Vanilluxe"
+		'en-us': "Vanilluxe"
 	},
 
 	illustrator: "kodama",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Vanillish"
+		'en-us': "Vanillish"
 	},
 
 	description: {
-		en: "People believe this Pokémon formed when two\nVanillish stuck together. Its body temperature is\nroughly 21 degrees Fahrenheit."
+		'en-us': "People believe this Pokémon formed when two\nVanillish stuck together. Its body temperature is\nroughly 21 degrees Fahrenheit."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Sweets Relay"
+			'en-us': "Sweets Relay"
 		},
 
 		damage: 60,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 60 more damage."
+			'en-us': "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 60 more damage."
 		}
 	}],
 

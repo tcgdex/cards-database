@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォークナーはトイッチです",
+		'ja-jp': "フォークナーはトイッチです",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "癒しのタッチ",
+				'ja-jp': "癒しのタッチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ベンチ付きポケモンを1つ選択し、そこから3つのダメージカウンターを削除します。次に、そのポケモンでフォークナーをトジックに切り替えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ベンチ付きポケモンを1つ選択し、そこから3つのダメージカウンターを削除します。次に、そのポケモンでフォークナーをトジックに切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にフォークナーのTogeticに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にフォークナーのTogeticに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 20,
 		},

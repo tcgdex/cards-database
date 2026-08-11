@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		es: "Durant",
-		it: "Durant",
-		pt: "Durant",
-		de: "Fermicula"
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'es-es': "Durant",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'de-de': "Fermicula"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Devour",
-				fr: "Voracité",
+				'en-us': "Devour",
+				'fr-fr': "Voracité",
 			},
 			effect: {
-				en: "For each of your Durant in play, discard the top card of your opponent's deck.",
-				fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "For each of your Durant in play, discard the top card of your opponent's deck.",
+				'fr-fr': "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
 			},
 
 			damage: 30,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They attack in groups, covering themselves in steel armor to protect themselves against Heatmor.",
+		'en-us': "They attack in groups, covering themselves in steel armor to protect themselves against Heatmor.",
 	},
 
 	thirdParty: {

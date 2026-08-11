@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [878],
 
 	name: {
-		en: "Cufant",
-		fr: "Charibari",
-		es: "Cufant",
-		it: "Cufant",
-		pt: "Cufant",
-		de: "Kupfanti"
+		'en-us': "Cufant",
+		'fr-fr': "Charibari",
+		'es-es': "Cufant",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
+		'de-de': "Kupfanti"
 	},
 
 	illustrator: "Akira Komayama",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				es: "Fuerza",
-				it: "Forza",
-				pt: "Força",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'es-es': "Fuerza",
+				'it-it': "Forza",
+				'pt-br': "Força",
+				'de-de': "Stärke"
 			},
 
 			damage: 60,
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
+		'en-us': "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
 	},
 
 	variants: [

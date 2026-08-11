@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "連擊武道熊師V",
-		th: "วูลาโอส จู่โจมต่อเนื่องV"
+		'th-th': "วูลาโอส จู่โจมต่อเนื่องV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "狡兔三窟",
-			th: "พริ้ว"
+			'th-th': "พริ้ว"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
-			th: "หากต้องการ สลับโปเกมอนนี้กับโปเกมอนบนเบนช์"
+			'th-th': "หากต้องการ สลับโปเกมอนนี้กับโปเกมอนบนเบนช์"
 		},
 
 		damage: 30,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "百裂猛攻",
-			th: "กระหน่ำตีร้อยพิฆาต"
+			'th-th': "กระหน่ำตีร้อยพิฆาต"
 		},
 
 		damage: 150,

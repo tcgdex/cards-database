@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
+		'en-us': "Wartortle",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
+		'en-us': "Squirtle",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw",
+				'en-us': "Withdraw",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				'en-us': "Bite",
 			},
 
 			damage: 40,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
+		'en-us': "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 	},
 
 

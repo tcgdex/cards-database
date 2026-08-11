@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラベトベター",
+		'ja-jp': "アローラベトベター",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ゴミ問題を 解決 するため よそから 持ちこんだ ベトベターが いつのまにか この姿に なった。",
+		'ja-jp': "ゴミ問題を 解決 するため よそから 持ちこんだ ベトベターが いつのまにか この姿に なった。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ぶんれつ" },
 			cost: [],
 			effect: {
-				ja: "自分の山札にある「アローラベトベター」を1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「アローラベトベター」を1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
 			name: { ja: "トリップヘドロ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

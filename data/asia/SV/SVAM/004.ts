@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "新葉喵",
-		th: "เนียวฮะ",
-		id: "Sprigatito"
+		'th-th': "เนียวฮะ",
+		'id-id': "Sprigatito"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "毛茸茸的體毛有著近似於植物的成分。 會勤快地洗臉以防止乾燥。",
-		th: "ขนตามร่างกายที่นุ่มฟูมีส่วนประกอบที่คล้ายกับพืช ล้างหน้าบ่อยครั้งเพื่อป้องกันไม่ให้หน้าแห้ง",
-		id: "Bulu Sprigatito yang halus mengandung komponen yang dekat dengan tumbuhan. Pokémon ini rajin mencuci mukanya agar tidak kering."
+		'th-th': "ขนตามร่างกายที่นุ่มฟูมีส่วนประกอบที่คล้ายกับพืช ล้างหน้าบ่อยครั้งเพื่อป้องกันไม่ให้หน้าแห้ง",
+		'id-id': "Bulu Sprigatito yang halus mengandung komponen yang dekat dengan tumbuhan. Pokémon ini rajin mencuci mukanya agar tidak kering."
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "抓",
-			th: "ข่วน",
-			id: "Menggaruk"
+			'th-th': "ข่วน",
+			'id-id': "Menggaruk"
 		},
 
 		damage: 10,
@@ -35,8 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "樹葉",
-			th: "ใบไม้",
-			id: "Dedaunan"
+			'th-th': "ใบไม้",
+			'id-id': "Dedaunan"
 		},
 
 		damage: 20,

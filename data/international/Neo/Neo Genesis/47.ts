@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Char",
-				fr: "Charbon",
-				de: "Char"
+				'en-us': "Char",
+				'fr-fr': "Charbon",
+				'de-de': "Char"
 			},
 			effect: {
-				en: "If the Defending Pokémon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it's in play.)",
-				fr: "Si le Pokémon Défenseur n'a pas de marqueur Charbon sur lui, lancez une pièce. Si c'est face, placez un marqueur Charbon sur lui. Un marqueur Charbon nécessite que votre adversaire lance une pièce à la fin de chaque tour. Si c'est pile, placez 2 marqueurs de dégâts sur le Pokémon qui possède ce marqueur Charbon. (Les marqueurs Charbon restent sur le Pokémon aussi longtemps qu'il est en jeu.)",
-				de: "If the Defending Pokémon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it's in play.)"
+				'en-us': "If the Defending Pokémon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it's in play.)",
+				'fr-fr': "Si le Pokémon Défenseur n'a pas de marqueur Charbon sur lui, lancez une pièce. Si c'est face, placez un marqueur Charbon sur lui. Un marqueur Charbon nécessite que votre adversaire lance une pièce à la fin de chaque tour. Si c'est pile, placez 2 marqueurs de dégâts sur le Pokémon qui possède ce marqueur Charbon. (Les marqueurs Charbon restent sur le Pokémon aussi longtemps qu'il est en jeu.)",
+				'de-de': "If the Defending Pokémon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it's in play.)"
 			},
 			damage: 30,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
-		fr: "Prenez garde s'il vous tourne le dos pendant un combat : cela signifie qu'il va attaquer avec le feu de son dos."
+		'en-us': "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+		'fr-fr': "Prenez garde s'il vous tourne le dos pendant un combat : cela signifie qu'il va attaquer avec le feu de son dos."
 	},
 
 

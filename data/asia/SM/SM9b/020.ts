@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリーパー",
+		'ja-jp': "スリーパー",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "アローラに 暮らす スリーパーの ターゲットは 主に ネッコアラ。 人は あまり 被害に あわない。",
+		'ja-jp': "アローラに 暮らす スリーパーの ターゲットは 主に ネッコアラ。 人は あまり 被害に あわない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さそうふりこ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンがきぜつしたとき、自分はコインを1回投げる。オモテなら、次にバトル場に出す相手のベンチポケモンは、このポケモンの持ち主が選ぶ。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンがきぜつしたとき、自分はコインを1回投げる。オモテなら、次にバトル場に出す相手のベンチポケモンは、このポケモンの持ち主が選ぶ。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札の枚数x10ダメージ追加。",
+				'ja-jp': "相手の手札の枚数x10ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	retreat: 2,

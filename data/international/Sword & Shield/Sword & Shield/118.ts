@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Galarian Linoone",
-		fr: "Linéon de Galar",
-		es: "Linoone de Galar",
-		it: "Linoone di Galar",
-		pt: "Linoone de Galar",
-		de: "Galar-Geradaks"
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar",
+		'es-es': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar",
+		'de-de': "Galar-Geradaks"
 	},
 
 	illustrator: "nagimiso",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar",
-		es: "Zigzagoon de Galar",
-		it: "Zigzagoon di Galar",
-		pt: "Zigzagoon de Galar",
-		de: "Galar-Zigzachs"
+		'en-us': "Galarian Zigzagoon",
+		'fr-fr': "Zigzaton de Galar",
+		'es-es': "Zigzagoon de Galar",
+		'it-it': "Zigzagoon di Galar",
+		'pt-br': "Zigzagoon de Galar",
+		'de-de': "Galar-Zigzachs"
 	},
 
 	stage: "Stage1",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Night Slash",
-				fr: "Tranche-Nuit",
-				es: "Tajo Umbrío",
-				it: "Nottesferza",
-				pt: "Talho Noturno",
-				de: "Nachthieb"
+				'en-us': "Night Slash",
+				'fr-fr': "Tranche-Nuit",
+				'es-es': "Tajo Umbrío",
+				'it-it': "Nottesferza",
+				'pt-br': "Talho Noturno",
+				'de-de': "Nachthieb"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 70,
@@ -94,7 +94,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		'en-us': "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
 	},
 
 	dexId: [264],

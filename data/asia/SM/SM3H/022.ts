@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "頭と 尻尾の 触角で まわりの 様子を 探る。 非常に 凶暴な 性格。",
+		'ja-jp': "頭と 尻尾の 触角で まわりの 様子を 探る。 非常に 凶暴な 性格。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがどくなら、40ダメージ追加。",
 			},
 		},
 	],

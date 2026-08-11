@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Asako Ito",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			es: "Impacto Pesado",
-			it: "Impatto Pesante",
-			pt: "Impacto Pesado",
-			de: "Schwerer Einschlag"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'es-es': "Impacto Pesado",
+			'it-it': "Impatto Pesante",
+			'pt-br': "Impacto Pesado",
+			'de-de': "Schwerer Einschlag"
 		},
 
 		damage: 80
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
+		'en-us': "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
 	},
 
 	

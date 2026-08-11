@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Seviper",
-		fr: "Séviper de la Team Aqua",
-		pt: "Seviper da Equipe Aqua",
+		'en-us': "Team Aqua's Seviper",
+		'fr-fr': "Séviper de la Team Aqua",
+		'pt-br': "Seviper da Equipe Aqua",
 	},
 
 	illustrator: "Naoki Saito",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Venomous Fang",
-				fr: "Croc-Poison",
-				pt: "Dente Venenoso",
+				'en-us': "Venomous Fang",
+				'fr-fr': "Croc-Poison",
+				'pt-br': "Dente Venenoso",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Venom Tail",
-				fr: "Queue Venimeuse",
-				pt: "Cauda Envenenada",
+				'en-us': "Venom Tail",
+				'fr-fr': "Queue Venimeuse",
+				'pt-br': "Cauda Envenenada",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon.",
-				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, défaussez une Énergie lui étant attachée.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver sendo afetado por uma Condição Especial, descarte uma Energia ligada a esse Pokémon.",
+				'en-us': "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, défaussez une Énergie lui étant attachée.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver sendo afetado por uma Condição Especial, descarte uma Energia ligada a esse Pokémon.",
 			},
 			damage: 30,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Seviper's tail is a sharp blade. It can even poison you!",
+		'en-us': "Seviper's tail is a sharp blade. It can even poison you!",
 	},
 
 	thirdParty: {

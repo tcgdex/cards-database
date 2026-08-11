@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme"
 			},
 			effect: {
-				en: "Discard 2 basic Energy cards attached to Flareon or this attack does nothing.",
-				fr: "Défaussez 2 cartes Énergie de base attachées à Pyroli ou cette attaque est sans effet."
+				'en-us': "Discard 2 basic Energy cards attached to Flareon or this attack does nothing.",
+				'fr-fr': "Défaussez 2 cartes Énergie de base attachées à Pyroli ou cette attaque est sans effet."
 			},
 			damage: 70,
 

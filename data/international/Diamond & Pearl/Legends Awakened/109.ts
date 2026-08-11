@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Schärfer"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Schärfer"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nose Poke",
-				fr: "Coup d'nez",
-				de: "Nasenstüber"
+				'en-us': "Nose Poke",
+				'fr-fr': "Coup d'nez",
+				'de-de': "Nasenstüber"
 			},
 			effect: {
-				en: "If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.",
-				fr: "Si Tarinorme se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn sich Voluminas auf deiner Bank befindet, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si Tarinorme se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn sich Voluminas auf deiner Bank befindet, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -69,8 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
-		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
+		'en-us': "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
+		'fr-fr': "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
 	},
 
 	thirdParty: {

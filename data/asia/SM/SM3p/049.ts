@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョロネコ",
+		'ja-jp': "チョロネコ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
+		'ja-jp': "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

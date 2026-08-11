@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				de: "Dein Gegner tauscht das verteidigende Pokémon mit 1 der Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'de-de': "Dein Gegner tauscht das verteidigende Pokémon mit 1 der Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leek Rush",
-				de: "Lauchhieb"
+				'en-us': "Leek Rush",
+				'de-de': "Lauchhieb"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				de: "Wirf eine Münze, bis du \"Zahl\" wirfst. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf eine Münze, bis du \"Zahl\" wirfst. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 

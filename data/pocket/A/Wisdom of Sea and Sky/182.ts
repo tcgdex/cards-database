@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 
 	illustrator: "Uninori",
@@ -18,8 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen.",
-		fr: "Il se tient toujours sur un pied. Il en change si vite qu'on peut à peine distinguer ce mouvement."
+		'en-us': "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen.",
+		'fr-fr': "Il se tient toujours sur un pied. Il en change si vite qu'on peut à peine distinguer ce mouvement."
 	},
 
 	stage: "Basic",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Insomnia",
-			fr: "Insomnia"
+			'en-us': "Insomnia",
+			'fr-fr': "Insomnia"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Asleep.",
-			fr: "Ce Pokémon ne peut pas être Endormi."
+			'en-us': "This Pokémon can't be Asleep.",
+			'fr-fr': "Ce Pokémon ne peut pas être Endormi."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes"
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes"
 		},
 
 		damage: 30,

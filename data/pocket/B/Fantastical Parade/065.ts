@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [282],
 
 	name: {
-		en: "Gardevoir"
+		'en-us': "Gardevoir"
 	},
 
 	illustrator: "mingo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		'en-us': "Kirlia"
 	},
 
 	description: {
-		en: "It unleashes psychokinetic energy at full power\nwhen protecting a Trainer it has bonded closely\nwith."
+		'en-us': "It unleashes psychokinetic energy at full power\nwhen protecting a Trainer it has bonded closely\nwith."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Psy Turbo"
+			'en-us': "Psy Turbo"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Take 2 {P} Energy from your Energy Zone and attach it to 1 of your Benched {P} Pokémon."
+			'en-us': "Take 2 {P} Energy from your Energy Zone and attach it to 1 of your Benched {P} Pokémon."
 		}
 	}],
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Celestial Guardians"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		de: "Stalobor",
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'de-de': "Stalobor",
 		'pt-br': "Excadrill",
-		ko: "몰드류"
+		'ko-kr': "몰드류"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -23,30 +23,30 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Drilbur"
+		'en-us': "Drilbur"
 	},
 
 	description: {
-		en: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
-		fr: "On confond souvent les cavernes creusées\npar les Minotaupe avec des grottes naturelles.",
-		es: "Se dice que muchas grutas que parecen naturales\nhan sido en realidad horadadas por los Excadrill.",
-		it: "Si dice che le grotte all'apparenza naturali siano in realtà\nspesso il risultato degli scavi forsennati effettuati da Excadrill.",
-		de: "Viele Tunnel, die aussehen, als wären sie natürlich\nentstanden, gehen wohl eigentlich auf Stalobor zurück,\ndie sich durch die Erde gegraben haben.",
+		'en-us': "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
+		'fr-fr': "On confond souvent les cavernes creusées\npar les Minotaupe avec des grottes naturelles.",
+		'es-es': "Se dice que muchas grutas que parecen naturales\nhan sido en realidad horadadas por los Excadrill.",
+		'it-it': "Si dice che le grotte all'apparenza naturali siano in realtà\nspesso il risultato degli scavi forsennati effettuati da Excadrill.",
+		'de-de': "Viele Tunnel, die aussehen, als wären sie natürlich\nentstanden, gehen wohl eigentlich auf Stalobor zurück,\ndie sich durch die Erde gegraben haben.",
 		'pt-br': "Alguns túneis que parecem ter sido formados\nnaturalmente, na verdade, foram criados a partir\ndas escavações de Excadrill.",
-		ko: "자연적으로 생긴 동굴로 보이지만\n사실은 몰드류가 파낸 흔적인\n경우는 흔히 있는 일이다."
+		'ko-kr': "자연적으로 생긴 동굴로 보이지만\n사실은 몰드류가 파낸 흔적인\n경우는 흔히 있는 일이다."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			de: "Schlitzer",
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'de-de': "Schlitzer",
 			'pt-br': "Talho",
-			ko: "베어가르기"
+			'ko-kr': "베어가르기"
 		},
 
 		damage: 50,

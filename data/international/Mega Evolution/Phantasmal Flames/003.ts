@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vileplume",
-		fr: "Rafflesia",
-		es: "Vileplume",
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'es-es': "Vileplume",
 		'es-mx': "Vileplume",
-		de: "Giflor",
-		it: "Vileplume",
-		pt: "Vileplume"
+		'de-de': "Giflor",
+		'it-it': "Vileplume",
+		'pt-br': "Vileplume"
 	},
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
 		'es-mx': "Gloom",
-		de: "Duflor",
-		it: "Gloom",
-		pt: "Gloom",
+		'de-de': "Duflor",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
 	},
 
 	rarity: "Rare",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Pollen Bomb",
-			fr: "Bombe Pollen",
-			es: "Bomba de Polen",
+			'en-us': "Pollen Bomb",
+			'fr-fr': "Bombe Pollen",
+			'es-es': "Bomba de Polen",
 			'es-mx': "Bomba Polen",
-			de: "Pollenbombe",
-			it: "Bomba di Polline",
-			pt: "Bomba de Pólen"
+			'de-de': "Pollenbombe",
+			'it-it': "Bomba di Polline",
+			'pt-br': "Bomba de Pólen"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep and Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido y Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado."
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado."
 		},
 
 		damage: 30
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Lively Flower",
-			fr: "Fleur Animée",
-			es: "Flor Animada",
+			'en-us': "Lively Flower",
+			'fr-fr': "Fleur Animée",
+			'es-es': "Flor Animada",
 			'es-mx': "Flor Vivaracha",
-			de: "Rasante Blume",
-			it: "Fiore Vispo",
-			pt: "Flor Agitada"
+			'de-de': "Rasante Blume",
+			'it-it': "Fiore Vispo",
+			'pt-br': "Flor Agitada"
 		},
 
 		effect: {
-			en: "If this Pokémon was healed during this turn, this attack does 120 more damage.",
-			fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si este Pokémon ha sido curado durante este turno, este ataque hace 120 puntos de daño más.",
+			'en-us': "If this Pokémon was healed during this turn, this attack does 120 more damage.",
+			'fr-fr': "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon ha sido curado durante este turno, este ataque hace 120 puntos de daño más.",
 			'es-mx': "Si este Pokémon fue curado durante este turno, este ataque hace 120 puntos de daño más.",
-			de: "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 120 danni in più.",
-			pt: "Se este Pokémon tiver sido curado durante este turno, este ataque causará 120 pontos de dano a mais."
+			'de-de': "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se este Pokémon tiver sido curado durante este turno, este ataque causará 120 pontos de dano a mais."
 		},
 
 		damage: "60+"
@@ -92,7 +92,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+		'en-us': "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
 	},
 
 	illustrator: "Shibuzoh.",

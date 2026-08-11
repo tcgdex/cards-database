@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [781],
 
 	name: {
-		en: "Dhelmise",
-		fr: "Sinistrail",
-		es: "Dhelmise",
-		it: "Dhelmise",
-		pt: "Dhelmise",
-		de: "Moruda"
+		'en-us': "Dhelmise",
+		'fr-fr': "Sinistrail",
+		'es-es': "Dhelmise",
+		'it-it': "Dhelmise",
+		'pt-br': "Dhelmise",
+		'de-de': "Moruda"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				es: "Garfio",
-				it: "Uncino",
-				pt: "Gancho",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'es-es': "Garfio",
+				'it-it': "Uncino",
+				'pt-br': "Gancho",
+				'de-de': "Haken"
 			},
 
 			damage: 20,
@@ -47,20 +47,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Anchor",
-				fr: "Ancrage Spécial",
-				es: "Ancla Especial",
-				it: "Ancora Speciale",
-				pt: "Âncora Especial",
-				de: "Spezial-Anker"
+				'en-us': "Special Anchor",
+				'fr-fr': "Ancrage Spécial",
+				'es-es': "Ancla Especial",
+				'it-it': "Ancora Speciale",
+				'pt-br': "Âncora Especial",
+				'de-de': "Spezial-Anker"
 			},
 			effect: {
-				en: "If this Pokémon has any Special Energy attached, this attack does 60 more damage.",
-				fr: "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si este Pokémon tiene alguna Energía Especial unida a él, este ataque hace 60 puntos de daño más.",
-				it: "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 60 danni in più.",
-				pt: "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If this Pokémon has any Special Energy attached, this attack does 60 more damage.",
+				'fr-fr': "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon tiene alguna Energía Especial unida a él, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
+		'en-us': "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
 	},
 
 	variants: [

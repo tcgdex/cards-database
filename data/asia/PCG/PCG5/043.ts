@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウォブバフェット",
+		'ja-jp': "ウォブバフェット",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化の段階",
+				'ja-jp': "進化の段階",
 			},
 			effect: {
-				ja: "Wobbuffetが進化したポカモンである限り、あなたの対戦相手は彼または彼女のアクティブなPokã©Monを後退させるために{{e}}をより多く支払います。",
+				'ja-jp': "Wobbuffetが進化したポカモンである限り、あなたの対戦相手は彼または彼女のアクティブなPokã©Monを後退させるために{{e}}をより多く支払います。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "粉砕",
+				'ja-jp': "粉砕",
 			},
 			effect: {
-				ja: "Wobbuffetに取り付けられたエネルギーの量を10回ダメージします。",
+				'ja-jp': "Wobbuffetに取り付けられたエネルギーの量を10回ダメージします。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "シャドウタグ",
+				'ja-jp': "シャドウタグ",
 			},
 			effect: {
-				ja: "対戦相手の次のターンの終わりに、防御ポケモンに7つのダメージカウンターを置きます。",
+				'ja-jp': "対戦相手の次のターンの終わりに、防御ポケモンに7つのダメージカウンターを置きます。",
 			},
 		},
 	],

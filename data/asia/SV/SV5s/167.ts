@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Torterra ex"
+		'id-id': "Torterra ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Barisan Hutan"
+			'id-id': "Barisan Hutan"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Pokémon {Daun} di Arena sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Pokémon {Daun} di Arena sendiri."
 		},
 
 		damage: "30×",
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Jungle Hammer"
+			'id-id': "Jungle Hammer"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 50."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 50."
 		},
 
 		damage: 150,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アルセウスV"
+		'ja-jp': "アルセウスV"
 	},
 
 	illustrator: "kawayoo",
@@ -19,17 +19,17 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "トリニティチャージ"
+			'ja-jp': "トリニティチャージ"
 		},
 
 		effect: {
-			ja: "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。"
+			'ja-jp': "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "パワーエッジ"
+			'ja-jp': "パワーエッジ"
 		},
 
 		damage: 130

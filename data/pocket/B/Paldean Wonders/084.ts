@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		de: "Mopex",
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'de-de': "Mopex",
 		'pt-br': "Cyclizar",
-		ko: "모토마"
+		'ko-kr': "모토마"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "Two Diamond",

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Victreebel",
+		'en-us': "Victreebel",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weepinbell",
+		'en-us': "Weepinbell",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lure",
+				'en-us': "Lure",
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Acid",
+				'en-us': "Acid",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+		'en-us': "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 	},
 
 

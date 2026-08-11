@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zigzagoon"
+		'id-id': "Zigzagoon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Pokémon yang penuh rasa ingin tahu. Karena tertarik dengan apa pun, Zigzagoon selalu berjalan zigzag ke sana kemari."
+		'id-id': "Pokémon yang penuh rasa ingin tahu. Karena tertarik dengan apa pun, Zigzagoon selalu berjalan zigzag ke sana kemari."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sundulan Meloncat"
+			'id-id': "Sundulan Meloncat"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Cakar Penyayat"
+			'id-id': "Cakar Penyayat"
 		},
 
 		damage: 20,

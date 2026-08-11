@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Landorus",
-		th: "แลนโดลอส"
+		'id-id': "Landorus",
+		'th-th': "แลนโดลอส"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Tempat-tempat yang dikunjungi oleh Landorus menghasilkan panen yang melimpah sehingga Pokémon ini disebut sebagai Dewa Ladang.",
-		th: "แผ่นดินที่แลนโดลอสไปเยือนจะเกิดผลผลิตมากมาย จึงถูกเรียกว่าเป็น เทพแห่งไร่สวน"
+		'id-id': "Tempat-tempat yang dikunjungi oleh Landorus menghasilkan panen yang melimpah sehingga Pokémon ini disebut sebagai Dewa Ladang.",
+		'th-th': "แผ่นดินที่แลนโดลอสไปเยือนจะเกิดผลผลิตมากมาย จึงถูกเรียกว่าเป็น เทพแห่งไร่สวน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tinju Tenaga Dalam",
-			th: "กำปั้นฮึดสู้"
+			'id-id': "Tinju Tenaga Dalam",
+			'th-th': "กำปั้นฮึดสู้"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi dari Trash sendiri, lalu kenakan pada Pokémon ini.",
-			th: "เลือกการ์ดพลังงาน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนนี้"
+			'id-id': "Pilih 1 lembar Energi dari Trash sendiri, lalu kenakan pada Pokémon ini.",
+			'th-th': "เลือกการ์ดพลังงาน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนนี้"
 		},
 
 		damage: 30,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Buster Swing",
-			th: "บัสเตอร์สวิง"
+			'id-id': "Buster Swing",
+			'th-th': "บัสเตอร์สวิง"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi.",
-			th: "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด"
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi.",
+			'th-th': "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด"
 		},
 
 		damage: 130,

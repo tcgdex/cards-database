@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングラー",
+		'ja-jp': "キングラー",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "キングラーのダメージ数の数を10回ダメージします。",
+				'ja-jp': "キングラーのダメージ数の数を10回ダメージします。",
 			},
 
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "crabhammer",
+				'ja-jp': "crabhammer",
 			},
 			damage: 40,
 		},

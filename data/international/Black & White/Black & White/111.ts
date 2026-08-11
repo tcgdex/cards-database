@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Darkness Energy",
-		fr: "Énergie Obscurité",
-		es: "Energía Oscura",
-		it: "Energia Oscurità",
-		pt: "Energia Noturna",
-		de: "Finsternis-Energie"
+		'en-us': "Darkness Energy",
+		'fr-fr': "Énergie Obscurité",
+		'es-es': "Energía Oscura",
+		'it-it': "Energia Oscurità",
+		'pt-br': "Energia Noturna",
+		'de-de': "Finsternis-Energie"
 	},
 
 	illustrator: undefined,
@@ -19,12 +19,12 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'en-us': "",
+		'fr-fr': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグV",
+		'ja-jp': "ゴルーグV",
 		'zh-tw': "泥偶巨人V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "メガトンパンチ",
+				'ja-jp': "メガトンパンチ",
 				'zh-tw': "百萬噸重拳",
 			},
 			damage: 80,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "リワインドビーム",
+				'ja-jp': "リワインドビーム",
 				'zh-tw': "倒轉光束",
 			},
 			damage: 180,
 			cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の進化しているバトルポケモンから、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
+				'ja-jp': "相手の進化しているバトルポケモンから、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
 				'zh-tw': "從對手的進化的戰鬥寶可夢身上，移除1張「進化卡」使其退化。將移除的卡放回對手的手牌。",
 			},
 		},

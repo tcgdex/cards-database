@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンペルト",
+		'ja-jp': "エンペルト",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ジェットスキーに 負けない 速度で 泳ぐ。翼の 縁は 鋭く 流氷を 切断する。",
+		'ja-jp': "ジェットスキーに 負けない 速度で 泳ぐ。翼の 縁は 鋭く 流氷を 切断する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おもいだす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンが進化前に持っていたワザを1つ選び、このワザとして使う。",
+				'ja-jp': "このポケモンが進化前に持っていたワザを1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポッタイシ",
+		'ja-jp': "ポッタイシ",
 	},
 
 	retreat: 2,

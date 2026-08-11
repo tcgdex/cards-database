@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Varoom"
+		'id-id': "Varoom"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Tubuh baja Varoom adalah tubuh aslinya. Pokémon ini menempel di batu, mengubah kandungan batu tersebut menjadi energinya, lalu beraktivitas."
+		'id-id': "Tubuh baja Varoom adalah tubuh aslinya. Pokémon ini menempel di batu, mengubah kandungan batu tersebut menjadi energinya, lalu beraktivitas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Metal Coating"
+			'id-id': "Metal Coating"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar {Logam} dari Trash sendiri, lalu kenakan pada Pokémon ini."
+			'id-id': "Pilih 1 lembar Energi Dasar {Logam} dari Trash sendiri, lalu kenakan pada Pokémon ini."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menyeruduk"
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 50,

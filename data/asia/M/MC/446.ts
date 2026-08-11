@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキーex",
+		'ja-jp': "ブラッキーex",
 	},
 
 	illustrator: "takuyoa",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 160,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "オニキス" },
 			cost: ["Lightning", "Psychic", "Darkness"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、自分のサイドを1枚とる。",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、自分のサイドを1枚とる。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

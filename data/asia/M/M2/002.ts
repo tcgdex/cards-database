@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クサイハナ",
+		'ja-jp': "クサイハナ",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "少しずつ 染みだしてくるのは よだれではない。 蜜のような汁で 獲物を おびき寄せているのだ。",
+		'ja-jp': "少しずつ 染みだしてくるのは よだれではない。 蜜のような汁で 獲物を おびき寄せているのだ。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ナゾノクサ",
+		'ja-jp': "ナゾノクサ",
 	},
 
 	retreat: 1,

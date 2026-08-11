@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "suicune",
+		'ja-jp': "suicune",
 	},
 
 	rarity: "Holo Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "クリスタルボディ",
+				'ja-jp': "クリスタルボディ",
 			},
 			effect: {
-				ja: "Suicuneに対して行われた損害以外の相手の攻撃のすべての影響を防ぎます。 Suicuneが眠っている、混乱し、麻痺している間、このパワーは機能しなくなります。",
+				'ja-jp': "Suicuneに対して行われた損害以外の相手の攻撃のすべての影響を防ぎます。 Suicuneが眠っている、混乱し、麻痺している間、このパワーは機能しなくなります。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "オーロラの波",
+				'ja-jp': "オーロラの波",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。両方がヘッドである場合、防御するポケモンは現在麻痺しています。ヘッドが1つだけである場合、防御ポケモンは今眠っています。",
+				'ja-jp': "2つのコインをフリップします。両方がヘッドである場合、防御するポケモンは現在麻痺しています。ヘッドが1つだけである場合、防御ポケモンは今眠っています。",
 			},
 			damage: 30,
 		},

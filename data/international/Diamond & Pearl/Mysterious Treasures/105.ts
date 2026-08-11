@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Ruhe"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 2 damage counters from Teddiursa. Teddiursa is now Asleep.",
-				fr: "Retirez à Teddiursa tous ses États Spéciaux ainsi que 2 marqueurs de dégât. Teddiursa est maintenant Endormi.",
-				de: "Entferne alle Speziellen Zustände und 2 Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
+				'en-us': "Remove all Special Conditions and 2 damage counters from Teddiursa. Teddiursa is now Asleep.",
+				'fr-fr': "Retirez à Teddiursa tous ses États Spéciaux ainsi que 2 marqueurs de dégât. Teddiursa est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 2 Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Palm",
-				fr: "Douce paume",
-				de: "Süße Tatze"
+				'en-us': "Sweet Palm",
+				'fr-fr': "Douce paume",
+				'de-de': "Süße Tatze"
 			},
 			effect: {
-				en: "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, retirez 1 marqueur de dégât au Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
+				'en-us': "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, retirez 1 marqueur de dégât au Pokémon Défenseur.",
+				'de-de': "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
 			},
 			damage: 30,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It lets honey soak into its paws so it can lick them all the time. Every sets of paws tastes unique.",
-		fr: "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
+		'en-us': "It lets honey soak into its paws so it can lick them all the time. Every sets of paws tastes unique.",
+		'fr-fr': "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
 	},
 
 	thirdParty: {

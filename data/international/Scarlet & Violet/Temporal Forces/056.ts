@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vikavolt",
-		fr: "Lucanon",
-		es: "Vikavolt",
-		it: "Vikavolt",
-		pt: "Vikavolt",
-		de: "Donarion"
+		'en-us': "Vikavolt",
+		'fr-fr': "Lucanon",
+		'es-es': "Vikavolt",
+		'it-it': "Vikavolt",
+		'pt-br': "Vikavolt",
+		'de-de': "Donarion"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 	stage: "Stage2",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Mach Bolt",
-			fr: "Éclair Fulgurant",
-			es: "Rayo Mach",
-			it: "Fulmine Mach",
-			pt: "Raio Supersônico",
-			de: "Flotter Sprung"
+			'en-us': "Mach Bolt",
+			'fr-fr': "Éclair Fulgurant",
+			'es-es': "Rayo Mach",
+			'it-it': "Fulmine Mach",
+			'pt-br': "Raio Supersônico",
+			'de-de': "Flotter Sprung"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Circuit Cannon",
-			fr: "Canon Circuit",
-			es: "Cañón Circuito",
-			it: "Circuito Cannone",
-			pt: "Canhão Circuito",
-			de: "Stromkreiskanone"
+			'en-us': "Circuit Cannon",
+			'fr-fr': "Canon Circuit",
+			'es-es': "Cañón Circuito",
+			'it-it': "Circuito Cannone",
+			'pt-br': "Canhão Circuito",
+			'de-de': "Stromkreiskanone"
 		},
 
 		effect: {
-			en: "This attack does 80 more damage for each of your Benched Charjabug.",
-			fr: "Cette attaque inflige 80 dégâts supplémentaires pour chacun de vos Chrysapile de Banc.",
-			es: "Este ataque hace 80 puntos de daño más por cada uno de tus Charjabug en Banca.",
-			it: "Questo attacco infligge 80 danni in più per ogni Charjabug nella tua panchina.",
-			pt: "Este ataque causa 80 pontos de dano a mais para cada um dos seus Charjabug no Banco.",
-			de: "Diese Attacke fügt für jedes Akkup auf deiner Bank 80 Schadenspunkte mehr zu."
+			'en-us': "This attack does 80 more damage for each of your Benched Charjabug.",
+			'fr-fr': "Cette attaque inflige 80 dégâts supplémentaires pour chacun de vos Chrysapile de Banc.",
+			'es-es': "Este ataque hace 80 puntos de daño más por cada uno de tus Charjabug en Banca.",
+			'it-it': "Questo attacco infligge 80 danni in più per ogni Charjabug nella tua panchina.",
+			'pt-br': "Este ataque causa 80 pontos de dano a mais para cada um dos seus Charjabug no Banco.",
+			'de-de': "Diese Attacke fügt für jedes Akkup auf deiner Bank 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+		'en-us': "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
 	},
 
 	variants: [

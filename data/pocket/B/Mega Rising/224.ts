@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fantina"
+		'en-us': "Fantina"
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Take a {P} Energy from your Energy Zone and attach it to each of your Drifblim and Mismagius."
+		'en-us': "Take a {P} Energy from your Energy Zone and attach it to each of your Drifblim and Mismagius."
 	},
 
 	trainerType: "Supporter",

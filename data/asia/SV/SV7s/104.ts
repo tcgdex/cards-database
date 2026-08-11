@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิจิคิกิสึex",
-		id: "Fezandipiti ex"
+		'th-th': "คิจิคิกิสึex",
+		'id-id': "Fezandipiti ex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,25 +20,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "พลิกวิกฤต",
-			id: "Kesempatan dalam Kesempitan"
+			'th-th': "พลิกวิกฤต",
+			'id-id': "Kesempatan dalam Kesempitan"
 		},
 
 		effect: {
-			th: "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอนฝ่ายเรา[หมดสภาพ] ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา เทิร์นนี้ ถ้าใช้ [พลิกวิกฤต] ใบอื่นไปแล้ว จะใช้ความสามารถนี้ไม่ได้",
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO. Ambil 3 kartu dari atas Deck sendiri. Jika pada giliran ini, Kesempatan dalam Kesempitan lainnya telah digunakan, Ability ini tidak dapat digunakan."
+			'th-th': "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอนฝ่ายเรา[หมดสภาพ] ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา เทิร์นนี้ ถ้าใช้ [พลิกวิกฤต] ใบอื่นไปแล้ว จะใช้ความสามารถนี้ไม่ได้",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO. Ambil 3 kartu dari atas Deck sendiri. Jika pada giliran ini, Kesempatan dalam Kesempitan lainnya telah digunakan, Ability ini tidak dapat digunakan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ครูเอลแอร์โรว์",
-			id: "Cruel Arrow"
+			'th-th': "ครูเอลแอร์โรว์",
+			'id-id': "Cruel Arrow"
 		},
 
 		effect: {
-			th: "ทำแดเมจ 100 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini memberikan kerusakan sejumlah 100 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "ทำแดเมจ 100 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 100 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

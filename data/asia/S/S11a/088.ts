@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クチートVSTAR",
+		'ja-jp': "クチートVSTAR",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スターロンド" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に使える。このポケモンを自分のバトルポケモンと入れ替える。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に使える。このポケモンを自分のバトルポケモンと入れ替える。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クチートV",
+		'ja-jp': "クチートV",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'de-de': "Shnebedeck"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Curiosity",
-				fr: "Curiosité",
-				de: "Neugier"
+				'en-us': "Curiosity",
+				'fr-fr': "Curiosité",
+				'de-de': "Neugier"
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire.",
-				de: "Schau dir die Handkarten deines Gegners an."
+				'en-us': "Look at your opponent's hand.",
+				'fr-fr': "Regardez la main de votre adversaire.",
+				'de-de': "Schau dir die Handkarten deines Gegners an."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snowball Fight",
-				fr: "Bataille de boules de neige",
-				de: "Schneeballschlacht"
+				'en-us': "Snowball Fight",
+				'fr-fr': "Bataille de boules de neige",
+				'de-de': "Schneeballschlacht"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Snover does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Blizzi s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei 'Zahl' fügt sich Shnebedeck selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Snover does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Blizzi s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' fügt sich Shnebedeck selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
-		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+		'en-us': "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
+		'fr-fr': "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
 	},
 
 	thirdParty: {

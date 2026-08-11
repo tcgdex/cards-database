@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victreebel",
-		fr: "Empiflor",
-		es: "Victreebel",
-		it: "Victreebel",
-		pt: "Victreebel",
-		de: "Sarzenia"
+		'en-us': "Victreebel",
+		'fr-fr': "Empiflor",
+		'es-es': "Victreebel",
+		'it-it': "Victreebel",
+		'pt-br': "Victreebel",
+		'de-de': "Sarzenia"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 
 	attacks: [{
 		name: {
-			en: "Panic Vine",
-			fr: "Liane en Panique",
-			es: "Liana del Pánico",
-			it: "Lianapanico",
-			pt: "Vinha do Pânico",
-			de: "Panikranke"
+			'en-us': "Panic Vine",
+			'fr-fr': "Liane en Panique",
+			'es-es': "Liana del Pánico",
+			'it-it': "Lianapanico",
+			'pt-br': "Vinha do Pânico",
+			'de-de': "Panikranke"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
+			'en-us': "Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
 		damage: 40,
 		cost: ["Grass"]
 	}, {
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Raio Solar",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing."
+		'en-us': "Once ingested into this Pokémon's body, even the hardest object will melt into nothing."
 	},
 
 	variants: [

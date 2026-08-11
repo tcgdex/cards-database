@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sprint",
-				fr: "Sprint",
-				es: "Esprint",
-				it: "Sprint",
-				pt: "Corrida",
-				de: "Sprint"
+				'en-us': "Sprint",
+				'fr-fr': "Sprint",
+				'es-es': "Esprint",
+				'it-it': "Sprint",
+				'pt-br': "Corrida",
+				'de-de': "Sprint"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard your hand and draw 4 cards.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser votre main et piocher 4 cartes.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar las cartas de tu mano y robar 4 cartas.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare le carte che hai in mano e pescare quattro carte.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar a sua mão e comprar 4 cartas.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du deine Handkarten auf deinen Ablagestapel legen und 4 Karten ziehen."
+				'en-us': "Once during your turn (before your attack), you may discard your hand and draw 4 cards.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser votre main et piocher 4 cartes.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes descartar las cartas de tu mano y robar 4 cartas.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare le carte che hai in mano e pescare quattro carte.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar a sua mão e comprar 4 cartas.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du deine Handkarten auf deinen Ablagestapel legen und 4 Karten ziehen."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Head Bolt",
-				fr: "Éclair Frontal",
-				es: "Rayo de Cabeza",
-				it: "Zuccalampo",
-				pt: "Raio de Cabeça",
-				de: "Kopf-Blitz"
+				'en-us': "Head Bolt",
+				'fr-fr': "Éclair Frontal",
+				'es-es': "Rayo de Cabeza",
+				'it-it': "Zuccalampo",
+				'pt-br': "Raio de Cabeça",
+				'de-de': "Kopf-Blitz"
 			},
 
 			damage: 60,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		'en-us': "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
 	},
 
 	thirdParty: {

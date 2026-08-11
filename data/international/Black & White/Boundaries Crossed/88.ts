@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		es: "Mienshao",
-		it: "Mienshao",
-		pt: "Mienshao",
-		de: "Wie-Shu"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'es-es': "Mienshao",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'de-de': "Wie-Shu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Whip",
-				fr: "Double Fouet",
+				'en-us': "Double Whip",
+				'fr-fr': "Double Fouet",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+		'en-us': "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
 	},
 
 	thirdParty: {

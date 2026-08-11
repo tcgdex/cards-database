@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレセリア",
+		'ja-jp': "クレセリア",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛行するときは ベールのような 羽から 光る 粒子を 出す。 三日月の化身と 呼ばれている。",
+		'ja-jp': "飛行するときは ベールのような 羽から 光る 粒子を 出す。 三日月の化身と 呼ばれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いやしのまい" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「20」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「20」回復する。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "のぞむなら、ウラになっている自分のサイドを1枚選び、オモテにする。その場合、80ダメージ追加。（対戦が終わるまで、そのサイドはオモテのまま。）",
+				'ja-jp': "のぞむなら、ウラになっている自分のサイドを1枚選び、オモテにする。その場合、80ダメージ追加。（対戦が終わるまで、そのサイドはオモテのまま。）",
 			},
 		},
 	],

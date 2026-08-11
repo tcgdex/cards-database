@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		fr: "Fantominus"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison Dodo"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison Dodo"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné."
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+		'en-us': "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
 	},
 
 	thirdParty: {

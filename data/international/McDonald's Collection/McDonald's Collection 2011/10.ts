@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,35 +9,35 @@ const card: Card = {
 	dexId: [599],
 
 	description: {
-		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing."
+		'en-us': "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Charge Beam",
-			fr: "Rayon Chargé"
+			'en-us': "Charge Beam",
+			'fr-fr': "Rayon Chargé"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie dans votre pile de défausse et attachez-la à ce Pokémon."
+			'en-us': "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie dans votre pile de défausse et attachez-la à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Irongrip",
-			fr: "Poigne de Fer"
+			'en-us': "Irongrip",
+			'fr-fr': "Poigne de Fer"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Klink",
-		fr: "Tic"
+		'en-us': "Klink",
+		'fr-fr': "Tic"
 	},
 
 	rarity: "None",

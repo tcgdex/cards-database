@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのオコリザル",
+		'ja-jp': "タケシのオコリザル",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "スクラム",
+				'ja-jp': "スクラム",
 			},
 			effect: {
-				ja: "Brockのプライムエーパーがちょうど10 hpの残りを持っている場合は、それをシャッフルし、すべてのカードがデッキに取り付けられています。  このパワーは、ブロックの入門が眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "Brockのプライムエーパーがちょうど10 hpの残りを持っている場合は、それをシャッフルし、すべてのカードがデッキに取り付けられています。  このパワーは、ブロックの入門が眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "メガ・スラッシュ",
+				'ja-jp': "メガ・スラッシュ",
 			},
 			effect: {
-				ja: "ブロックのプライムエーパーは、それ自体に20のダメージを与えます。スタジアムカードが再生されている場合は、捨ててください。",
+				'ja-jp': "ブロックのプライムエーパーは、それ自体に20のダメージを与えます。スタジアムカードが再生されている場合は、捨ててください。",
 			},
 			damage: 60,
 		},

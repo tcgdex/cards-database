@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Cofagrigus",
-		fr: "Tutankafer",
-		es: "Cofagrigus",
-		it: "Cofagrigus",
-		pt: "Cofagrigus",
-		de: "Echnatoll"
+		'en-us': "Cofagrigus",
+		'fr-fr': "Tutankafer",
+		'es-es': "Cofagrigus",
+		'it-it': "Cofagrigus",
+		'pt-br': "Cofagrigus",
+		'de-de': "Echnatoll"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yamask",
-		fr: "Tutafeh"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh"
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chuck",
-				fr: "Bazardage"
+				'en-us': "Chuck",
+				'fr-fr': "Bazardage"
 			},
 			effect: {
-				en: "Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage times the number of cards you discarded.",
-				fr: "Défaussez autant de cartes Outil Pokémon que vous voulez de votre main. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes que vous avez défaussées."
+				'en-us': "Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage times the number of cards you discarded.",
+				'fr-fr': "Défaussez autant de cartes Outil Pokémon que vous voulez de votre main. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes que vous avez défaussées."
 			},
 			damage: 40,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lock Up",
-				fr: "Cage"
+				'en-us': "Lock Up",
+				'fr-fr': "Cage"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+		'en-us': "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
 	},
 
 	thirdParty: {

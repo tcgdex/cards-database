@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [1],
 
 	name: {
-		en: "Bulbasaur"
+		'en-us': "Bulbasaur"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "While it is young, it uses the nutrients that are\nstored in the seed on its back in order to grow."
+		'en-us': "While it is young, it uses the nutrients that are\nstored in the seed on its back in order to grow."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 20,

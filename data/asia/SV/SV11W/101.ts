@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クイタラン",
+		'ja-jp': "クイタラン",
 	},
 
 	illustrator: "Kariya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "尻尾の 穴から 空気を 吸って 体内で 炎を 燃やす。 アイアントの 天敵。",
+		'ja-jp': "尻尾の 穴から 空気を 吸って 体内で 炎を 燃やす。 アイアントの 天敵。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ベロベロキャッチ" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札からポケモンと「基本エネルギー」を合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンと「基本エネルギー」を合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{ name: { ja: "ほのおのツメ" }, damage: 60, cost: ["Fire", "Fire"] },

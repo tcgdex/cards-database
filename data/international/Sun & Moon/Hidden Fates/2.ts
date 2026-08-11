@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+		'en-us': "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
 	},
 
 	thirdParty: {

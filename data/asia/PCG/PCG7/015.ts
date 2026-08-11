@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レイカザ（デルタ種）",
+		'ja-jp': "レイカザ（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ハイドロバリア",
+				'ja-jp': "ハイドロバリア",
 			},
 			effect: {
-				ja: "RayquazaにHolon Energy Cardsが付いている限り、それぞれのWaterPokã©Monには弱点はありません。",
+				'ja-jp': "RayquazaにHolon Energy Cardsが付いている限り、それぞれのWaterPokã©Monには弱点はありません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "デルタ検索",
+				'ja-jp': "デルタ検索",
 			},
 			effect: {
-				ja: "デッキを検索してホロンエネルギーカードを探して、レイカザに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してホロンエネルギーカードを探して、レイカザに添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Water", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "オゾンフレア",
+				'ja-jp': "オゾンフレア",
 			},
 			damage: 60,
 		},

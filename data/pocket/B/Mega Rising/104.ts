@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusclops"
+		'en-us': "Dusclops"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Duskull"
+		'en-us': "Duskull"
 	},
 
 	description: {
-		en: "It seeks drifting will-o'-the-wisps and sucks them\ninto its empty body. What happens inside is\na mystery."
+		'en-us': "It seeks drifting will-o'-the-wisps and sucks them\ninto its empty body. What happens inside is\na mystery."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			'en-us': "Will-O-Wisp"
 		},
 
 		damage: 30,

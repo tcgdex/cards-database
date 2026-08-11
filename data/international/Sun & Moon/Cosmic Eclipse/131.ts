@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Alolan Muk",
-		fr: "Grotadmorv d’Alola",
-		es: "Muk de Alola",
-		it: "Muk di Alola",
-		pt: "Muk de Alola",
-		de: "Alola-Sleimok"
+		'en-us': "Alolan Muk",
+		'fr-fr': "Grotadmorv d’Alola",
+		'es-es': "Muk de Alola",
+		'it-it': "Muk di Alola",
+		'pt-br': "Muk de Alola",
+		'de-de': "Alola-Sleimok"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Alolan Grimer",
-		fr: "Tadmorv d’Alola",
+		'en-us': "Alolan Grimer",
+		'fr-fr': "Tadmorv d’Alola",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Panic Poison",
-				fr: "Poison Panique",
-				es: "Pánico Venenoso",
-				it: "Velenostress",
-				pt: "Veneno do Pânico",
-				de: "Panikgift"
+				'en-us': "Panic Poison",
+				'fr-fr': "Poison Panique",
+				'es-es': "Pánico Venenoso",
+				'it-it': "Velenostress",
+				'pt-br': "Veneno do Pânico",
+				'de-de': "Panikgift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso, Envenenado e Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso, Envenenado e Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
 			},
 			damage: 20,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
-				es: "Bomba Lodo",
-				it: "Fangobomba",
-				pt: "Bomba de Lodo",
-				de: "Matschbombe"
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
+				'es-es': "Bomba Lodo",
+				'it-it': "Fangobomba",
+				'pt-br': "Bomba de Lodo",
+				'de-de': "Matschbombe"
 			},
 
 			damage: 110,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
+		'en-us': "There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
 	},
 
 	thirdParty: {

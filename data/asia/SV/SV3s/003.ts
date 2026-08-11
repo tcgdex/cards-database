@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bellossom"
+		'id-id': "Bellossom"
 	},
 
 	illustrator: "sui",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Kadang Bellossom berkumpul dan menampilkan gerak bagaikan menari. Disebut sebagai ritual memanggil matahari."
+		'id-id': "Kadang Bellossom berkumpul dan menampilkan gerak bagaikan menari. Disebut sebagai ritual memanggil matahari."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Bubuk Tidur"
+			'id-id': "Bubuk Tidur"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Powerful Dance"
+			'id-id': "Powerful Dance"
 		},
 
 		effect: {
-			id: "Lempar koin untuk tiap Energi yang dikenakan pada Pokémon ini. Serangan ini memberikan kerusakan sejumlah 90 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin untuk tiap Energi yang dikenakan pada Pokémon ini. Serangan ini memberikan kerusakan sejumlah 90 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "90×",

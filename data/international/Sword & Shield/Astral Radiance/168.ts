@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxray V",
-		fr: "Luxray V",
-		es: "Luxray V",
-		it: "Luxray V",
-		pt: "Luxray V",
-		de: "Luxtra V"
+		'en-us': "Luxray V",
+		'fr-fr': "Luxray V",
+		'es-es': "Luxray V",
+		'it-it': "Luxray V",
+		'pt-br': "Luxray V",
+		'de-de': "Luxtra V"
 	},
 
 	illustrator: "MUGENUP",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Fang Snipe",
-			fr: "Croc Ciblé",
-			es: "Disparo Colmillo",
-			it: "Zannamirata",
-			pt: "Emboscada com Presas",
-			de: "Rasanter Reißzahn"
+			'en-us': "Fang Snipe",
+			'fr-fr': "Croc Ciblé",
+			'es-es': "Disparo Colmillo",
+			'it-it': "Zannamirata",
+			'pt-br': "Emboscada com Presas",
+			'de-de': "Rasanter Reißzahn"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand. Discard a Trainer card you find there.",
-			fr: "Votre adversaire dévoile sa main. Défaussez une carte Dresseur que vous y trouvez.",
-			es: "Tu rival enseña las cartas de su mano. Descarta 1 carta de Entrenador que encuentres entre ellas.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Scarta una carta Allenatore presente tra esse.",
-			pt: "Seu oponente revela a própria mão. Descarte 1 carta de Treinador que encontrar lá.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Lege 1 Trainerkarte, die du dort findest, auf seinen Ablagestapel."
+			'en-us': "Your opponent reveals their hand. Discard a Trainer card you find there.",
+			'fr-fr': "Votre adversaire dévoile sa main. Défaussez une carte Dresseur que vous y trouvez.",
+			'es-es': "Tu rival enseña las cartas de su mano. Descarta 1 carta de Entrenador que encuentres entre ellas.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano. Scarta una carta Allenatore presente tra esse.",
+			'pt-br': "Seu oponente revela a própria mão. Descarte 1 carta de Treinador que encontrar lá.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten. Lege 1 Trainerkarte, die du dort findest, auf seinen Ablagestapel."
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Radiating Pulse",
-			fr: "Impulsion Radiante",
-			es: "Pulso Radiante",
-			it: "Pulsazioni Radianti",
-			pt: "Pulso Radiante",
-			de: "Pulsstrahl"
+			'en-us': "Radiating Pulse",
+			'fr-fr': "Impulsion Radiante",
+			'es-es': "Pulso Radiante",
+			'it-it': "Pulsazioni Radianti",
+			'pt-br': "Pulso Radiante",
+			'de-de': "Pulsstrahl"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+			'en-us': "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 		},
 
 		damage: 120

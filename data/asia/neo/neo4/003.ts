@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンカーン",
+		'ja-jp': "サンカーン",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "日光浴",
+				'ja-jp': "日光浴",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、Sunkernからすべてのダメージカウンターを削除します。サンカーンから進化するカードをデッキに検索し、そのカードをサンカーンに添付してください。これは進化するサンカーンとしてカウントされます。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、Sunkernからすべてのダメージカウンターを削除します。サンカーンから進化するカードをデッキに検索し、そのカードをサンカーンに添付してください。これは進化するサンカーンとしてカウントされます。その後、デッキをシャッフルします。",
 			},
 		},
 	],

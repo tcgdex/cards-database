@@ -4,7 +4,7 @@ import serie from "../M";
 const set: Set = {
 	id: "M2",
 	name: {
-		ja: "インフェルノX",
+		'ja-jp': "インフェルノX",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 80,
 	},
 	releaseDate: {
-		ja: "2025-09-26",
+		'ja-jp': "2025-09-26",
 	},
 };
 

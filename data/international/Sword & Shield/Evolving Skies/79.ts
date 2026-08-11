@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Ribombee",
-		fr: "Rubombelle",
-		es: "Ribombee",
-		it: "Ribombee",
-		pt: "Ribombee",
-		de: "Bandelby"
+		'en-us': "Ribombee",
+		'fr-fr': "Rubombelle",
+		'es-es': "Ribombee",
+		'it-it': "Ribombee",
+		'pt-br': "Ribombee",
+		'de-de': "Bandelby"
 	},
 
 	rarity: "Uncommon",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tricky Steps",
-			fr: "Pas Délicats",
-			es: "Pasos Astutos",
-			it: "Passinganno",
-			pt: "Tricky Steps",
-			de: "Listiges Vorgehen"
+			'en-us': "Tricky Steps",
+			'fr-fr': "Pas Délicats",
+			'es-es': "Pasos Astutos",
+			'it-it': "Passinganno",
+			'pt-br': "Tricky Steps",
+			'de-de': "Listiges Vorgehen"
 		},
 
 		effect: {
-			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
-			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
-			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
-			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
-			pt: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
-			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
+			'en-us': "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			'fr-fr': "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+			'es-es': "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
+			'it-it': "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+			'pt-br': "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			'de-de': "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
 		},
 
 		damage: 30,
@@ -52,16 +52,16 @@ const card: Card = {
 	retreat: 0,
 
 	evolveFrom: {
-		en: "Cutiefly",
-		fr: "Bombydou",
-		es: "Cutiefly",
-		it: "Cutiefly",
-		pt: "Cutiefly",
-		de: "Wommel"
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
+		'es-es': "Cutiefly",
+		'it-it': "Cutiefly",
+		'pt-br': "Cutiefly",
+		'de-de': "Wommel"
 	},
 
 	description: {
-		en: "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
+		'en-us': "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
 	},
 
 	dexId: [743],

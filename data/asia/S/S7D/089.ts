@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "結晶の洞窟",
+		'ja-jp': "結晶の洞窟",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の[鋼]ポケモンと[竜]ポケモン全員のHPを、それぞれ「30」回復してよい。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分の[鋼]ポケモンと[竜]ポケモン全員のHPを、それぞれ「30」回復してよい。",
 	},
 
 	variants: [

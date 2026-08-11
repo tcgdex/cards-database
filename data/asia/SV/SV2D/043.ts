@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 		'zh-tw': "好勝毛蟹",
-		th: "เคเค็นคานิ",
-		id: "Crabominable"
+		'th-th': "เคเค็นคานิ",
+		'id-id': "Crabominable"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "もげた ハサミは とても 美味しい。 わざわざ 山に グルトンを 連れて 探しにくる トレーナーも いるぞ。",
+		'ja-jp': "もげた ハサミは とても 美味しい。 わざわざ 山に グルトンを 連れて 探しにくる トレーナーも いるぞ。",
 		'zh-tw': "脫落的鉗子十分美味。還有些訓練家會特地 帶著愛吃豚到山裡找牠。",
-		th: "ก้ามที่หลุดออกมาอร่อยมาก ถึงขนาดมีเทรนเนอร์พากูร์ตงไปตามหาในป่า",
-		id: "Capit Crabominable yang patah sangat lezat. Bahkan sampai ada pelatih yang membawa Lechonk ke gunung untuk mencari Pokémon ini."
+		'th-th': "ก้ามที่หลุดออกมาอร่อยมาก ถึงขนาดมีเทรนเนอร์พากูร์ตงไปตามหาในป่า",
+		'id-id': "Capit Crabominable yang patah sangat lezat. Bahkan sampai ada pelatih yang membawa Lechonk ke gunung untuk mencari Pokémon ini."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "がちんこ",
+			'ja-jp': "がちんこ",
 			'zh-tw': "正面對決",
-			th: "ตั้งใจสู้",
-			id: "Menentang"
+			'th-th': "ตั้งใจสู้",
+			'id-id': "Menentang"
 		},
 
 		damage: 50
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ナックルインパクト",
+			'ja-jp': "ナックルインパクト",
 			'zh-tw': "關節衝擊",
-			th: "นัคเคิลอิมแพ็ค",
-			id: "Knuckle Impact"
+			'th-th': "นัคเคิลอิมแพ็ค",
+			'id-id': "Knuckle Impact"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deadly Poison",
-				fr: "Poison fatal",
-				de: "Tödliches Gift"
+				'en-us': "Deadly Poison",
+				'fr-fr': "Poison fatal",
+				'de-de': "Tödliches Gift"
 			},
 			effect: {
-				en: "You may discard a Grass Energy card attached to Seviper. If you do, the Defending Pokémon is now Poisoned.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Seviper. Dans ce cas, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Du kannst eine -Energiekarte, die an Vipitis angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "You may discard a Grass Energy card attached to Seviper. If you do, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie  attachée à Seviper. Dans ce cas, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Du kannst eine -Energiekarte, die an Vipitis angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Poison",
-				fr: "Poison plus",
-				de: "Extra Gift"
+				'en-us': "Extra Poison",
+				'fr-fr': "Poison plus",
+				'de-de': "Extra Gift"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Endormi et Empoisonné.",
-				de: "Falls das Verteidigende Pokémon ein Pokémon-ex ist, dann ist das Verteidigende Pokémon jetzt vergiftet und schläft."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Endormi et Empoisonné.",
+				'de-de': "Falls das Verteidigende Pokémon ein Pokémon-ex ist, dann ist das Verteidigende Pokémon jetzt vergiftet und schläft."
 			},
 			damage: 20,
 

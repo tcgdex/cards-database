@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マウィール",
+		'ja-jp': "マウィール",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "マイニング",
+				'ja-jp': "マイニング",
 			},
 			effect: {
-				ja: "デッキを検索して、トレーナーカードを検索し、相手に見せて、手に入れてください。そのカードがポケモンツールカードの場合、代わりにポケモンの1つに添付できます。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、トレーナーカードを検索し、相手に見せて、手に入れてください。そのカードがポケモンツールカードの場合、代わりにポケモンの1つに添付できます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモン-Exの場合、この攻撃は20ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモン-Exの場合、この攻撃は20ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

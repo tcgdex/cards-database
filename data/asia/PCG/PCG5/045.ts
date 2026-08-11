@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトン",
+		'ja-jp': "ルナトン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ソルシェード",
+				'ja-jp': "ソルシェード",
 			},
 			effect: {
-				ja: "Solrockがプレイしている限り、各プレイヤーのFirePokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
+				'ja-jp': "Solrockがプレイしている限り、各プレイヤーのFirePokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "月の指導",
+				'ja-jp': "月の指導",
 			},
 			effect: {
-				ja: "デッキを検索して、トレーナーカード（サポーターカードを除く）を検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、トレーナーカード（サポーターカードを除く）を検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

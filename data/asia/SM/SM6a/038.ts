@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人懐っこく 子どもが 大好き。 仲良しの 子どもと 遊ぶために 山奥から 町に 降りてくる。",
+		'ja-jp': "人懐っこく 子どもが 大好き。 仲良しの 子どもと 遊ぶために 山奥から 町に 降りてくる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを1枚、自分の[竜]ポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを1枚、自分の[竜]ポケモンにつける。",
 			},
 		},
 		{

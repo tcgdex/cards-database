@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "小仙奶",
 		'zh-cn': "小仙奶",
-		ja: "マホミル"
+		'ja-jp': "マホミル"
 	},
 
 	illustrator: "Dsuke",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "遭到襲擊時，會全身撞向對手， 趁著對方沾滿鮮奶油而看不見前方， 或因奶油的美味而愣住時迅速逃跑。",
 		'zh-cn': "遭到襲擊時，會全身撞向對手， 趁著對方沾滿鮮奶油而看不見前方， 或因奶油的美味而愣住時迅速逃跑。",
-		ja: "敵に 襲われたら たいあたり。 クリームまみれにして みえなくするか おいしさに 驚かせて 逃げだす。"
+		'ja-jp': "敵に 襲われたら たいあたり。 クリームまみれにして みえなくするか おいしさに 驚かせて 逃げだす。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "囈語",
 			'zh-cn': "囈語",
-			ja: "つぶやく"
+			'ja-jp': "つぶやく"
 		},
 
 		damage: 20,

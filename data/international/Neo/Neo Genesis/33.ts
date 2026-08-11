@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Punch",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Punch",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 20,
@@ -47,14 +47,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Die Schadenspunkte aus diesem Angriff werden von der Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Die Schadenspunkte aus diesem Angriff werden von der Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
 			},
 			damage: 30,
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish-blue.",
-		fr: "De l'électricité parcourt son corps sous sa peau. Dans le noir, il brille d'un éclat bleu."
+		'en-us': "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish-blue.",
+		'fr-fr': "De l'électricité parcourt son corps sous sa peau. Dans le noir, il brille d'un éclat bleu."
 	},
 
 

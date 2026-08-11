@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 		'zh-tw': "小磁怪",
 		'zh-cn': "小磁怪",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
+		'ja-jp': "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
 		'zh-tw': "會浮在空中移動， 從左右兩邊的組件發射 電磁波之類的東西。",
 		'zh-cn': "會浮在空中移動， 從左右兩邊的組件發射 電磁波之類的東西。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ピッカリだま",
+				'ja-jp': "ピッカリだま",
 				'zh-tw': "光彈",
 				'zh-cn': "光彈",
 			},

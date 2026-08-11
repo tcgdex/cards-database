@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Altaria ex",
-		fr: "Altaria ex",
-		de: "Altaria ex"
+		'en-us': "Altaria ex",
+		'fr-fr': "Altaria ex",
+		'de-de': "Altaria ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Mist",
-				fr: "Brume",
-				de: "Mist"
+				'en-us': "Mist",
+				'fr-fr': "Brume",
+				'de-de': "Mist"
 			},
 			effect: {
-				en: "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Altaria ex par des attaques de Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Altaria ex par des attaques de Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				fr: "Plongée",
-				de: "Dive"
+				'en-us': "Dive",
+				'fr-fr': "Plongée",
+				'de-de': "Dive"
 			},
 
 			damage: 20,
@@ -67,14 +67,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Mist",
-				fr: "Brume de dragon",
-				de: "Dragon Mist"
+				'en-us': "Dragon Mist",
+				'fr-fr': "Brume de dragon",
+				'de-de': "Dragon Mist"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 70,
 

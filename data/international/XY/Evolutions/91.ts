@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Grass Energy",
-		fr: "Énergie Plante",
-		es: "Energía Planta",
-		it: "Energia Erba",
-		pt: "Energia de Grama",
-		de: "Pflanze-Energie"
+		'en-us': "Grass Energy",
+		'fr-fr': "Énergie Plante",
+		'es-es': "Energía Planta",
+		'it-it': "Energia Erba",
+		'pt-br': "Energia de Grama",
+		'de-de': "Pflanze-Energie"
 	},
 
 	rarity: "Common",

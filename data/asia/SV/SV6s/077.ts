@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Thorns ex"
+		'id-id': "Iron Thorns ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Initialize"
+			'id-id': "Initialize"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena Bertarung, Pokémon yang memiliki Peraturan (selain Pokémon Futur) di Arena kedua pemain menjadi tidak memiliki Ability."
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, Pokémon yang memiliki Peraturan (selain Pokémon Futur) di Arena kedua pemain menjadi tidak memiliki Ability."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Bolt Cyclone"
+			'id-id': "Bolt Cyclone"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
 		},
 
 		damage: 140,

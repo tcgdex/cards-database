@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Fantominus",
-		en: "Gastly",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'fr-fr': "Fantominus",
+		'en-us': "Gastly",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Gaz Suffocant",
-			en: "Suffocating Gas",
-			es: "Gas Sofocante",
-			it: "Gas Soffocante",
-			pt: "Gás Asfixiante",
-			de: "Würgegas"
+			'fr-fr': "Gaz Suffocant",
+			'en-us': "Suffocating Gas",
+			'es-es': "Gas Sofocante",
+			'it-it': "Gas Soffocante",
+			'pt-br': "Gás Asfixiante",
+			'de-de': "Würgegas"
 		},
 
 		damage: 20
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+		'en-us': "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
 	},
 
 	variants: [

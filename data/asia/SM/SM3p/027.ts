@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケルディオ",
+		'ja-jp': "ケルディオ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海や 川など 水面を 走り 世界中を 駆け巡る。 美しい 水辺に 現れる。",
+		'ja-jp': "海や 川など 水面を 走り 世界中を 駆け巡る。 美しい 水辺に 現れる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すくいだす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[水]ポケモンを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある[水]ポケモンを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "相手のベンチポケモンの数x20ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数x20ダメージ追加。",
 			},
 		},
 	],

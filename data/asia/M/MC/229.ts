@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラ ゴローン",
+		'ja-jp': "アローラ ゴローン",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "好物の 石の 影響で 全身が 電気を 帯びている。 とても 喧嘩っ早い 性格。",
+		'ja-jp': "好物の 石の 影響で 全身が 電気を 帯びている。 とても 喧嘩っ早い 性格。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	retreat: 3,

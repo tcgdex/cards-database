@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const pccp: Set = {
 	id: "ex5.5",
 
 	name: {
-		en: "Poké Card Creator Pack"
+		'en-us': "Poké Card Creator Pack"
 	},
 
 	serie: serie,

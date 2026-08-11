@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグカルゴ",
+		'ja-jp': "マグカルゴ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "滑らかに",
+				'ja-jp': "滑らかに",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、デッキをカードで検索することができます。デッキをシャッフルしてから、そのカードをデッキの上に置きます。 Magcargoが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、デッキをカードで検索することができます。デッキをシャッフルしてから、そのカードをデッキの上に置きます。 Magcargoが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ノックオーバー",
+				'ja-jp': "ノックオーバー",
 			},
 			effect: {
-				ja: "プレイ中のスタジアムカードを捨てることができます。",
+				'ja-jp': "プレイ中のスタジアムカードを捨てることができます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "燃焼",
+				'ja-jp': "燃焼",
 			},
 			damage: 50,
 		},

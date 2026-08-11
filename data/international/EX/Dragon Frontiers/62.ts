@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Seel δ",
-		fr: "Otaria δ",
-		de: "Jurob"
+		'en-us': "Seel δ",
+		'fr-fr': "Otaria δ",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurorastrahl"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurorastrahl"
 			},
 
 			damage: 20,

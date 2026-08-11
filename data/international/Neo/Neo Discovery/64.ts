@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		de: "Weberak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'de-de': "Weberak"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -33,15 +33,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Giftstachel"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -58,8 +58,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped.",
-		fr: "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie."
+		'en-us': "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped.",
+		'fr-fr': "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie."
 	},
 
 

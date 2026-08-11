@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Noivern)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gourgeist",
-		fr: "Banshitrouye",
-		es: "Gourgeist",
-		it: "Gourgeist",
-		pt: "Gourgeist",
-		de: "Pumpdjinn"
+		'en-us': "Gourgeist",
+		'fr-fr': "Banshitrouye",
+		'es-es': "Gourgeist",
+		'it-it': "Gourgeist",
+		'pt-br': "Gourgeist",
+		'de-de': "Pumpdjinn"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Pumpkaboo",
-		fr: "Pitrouille",
-		es: "Pumpkaboo",
-		it: "Pumpkaboo",
-		pt: "Pumpkaboo",
-		de: "Irrbis"
+		'en-us': "Pumpkaboo",
+		'fr-fr': "Pitrouille",
+		'es-es': "Pumpkaboo",
+		'it-it': "Pumpkaboo",
+		'pt-br': "Pumpkaboo",
+		'de-de': "Irrbis"
 	},
 
 	stage: "Stage1",

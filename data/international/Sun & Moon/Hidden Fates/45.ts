@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Farfetch’d",
-		fr: "Canarticho",
+		'en-us': "Farfetch’d",
+		'fr-fr': "Canarticho",
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Uncommon",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leek Slap",
-				fr: "Coup d’Oignon",
+				'en-us': "Leek Slap",
+				'fr-fr': "Coup d’Oignon",
 			},
 
 			damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+		'en-us': "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
 	},
 }
 

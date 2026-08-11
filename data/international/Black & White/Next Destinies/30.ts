@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Basculin",
-		fr: "Bargantua",
-		es: "Basculin",
-		it: "Basculin",
-		pt: "Basculin",
-		de: "Barschuft"
+		'en-us': "Basculin",
+		'fr-fr': "Bargantua",
+		'es-es': "Basculin",
+		'it-it': "Basculin",
+		'pt-br': "Basculin",
+		'de-de': "Barschuft"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bared Fangs",
-				fr: "Crocs à Vif",
+				'en-us': "Bared Fangs",
+				'fr-fr': "Crocs à Vif",
 			},
 			effect: {
-				en: "If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing.",
-				fr: "Si, avant que ce Pokémon inflige des dégâts, le Pokémon Défenseur n'a aucun marqueur de dégâts, cette attaque ne fait rien.",
+				'en-us': "If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing.",
+				'fr-fr': "Si, avant que ce Pokémon inflige des dégâts, le Pokémon Défenseur n'a aucun marqueur de dégâts, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
+		'en-us': "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
 	},
 
 	thirdParty: {

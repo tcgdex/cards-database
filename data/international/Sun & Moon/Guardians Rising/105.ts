@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Castform",
-		fr: "Morphéo",
-		es: "Castform",
-		it: "Castform",
-		pt: "Castform",
-		de: "Formeo"
+		'en-us': "Castform",
+		'fr-fr': "Morphéo",
+		'es-es': "Castform",
+		'it-it': "Castform",
+		'pt-br': "Castform",
+		'de-de': "Formeo"
 	},
 
 	illustrator: "sui",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Weather Teller",
-				fr: "Cartomancien",
-				es: "Predicción del Clima",
-				it: "Meteomante",
-				pt: "Adivinho do Clima",
-				de: "Wettervorhersage"
+				'en-us': "Weather Teller",
+				'fr-fr': "Cartomancien",
+				'es-es': "Predicción del Clima",
+				'it-it': "Meteomante",
+				'pt-br': "Adivinho do Clima",
+				'de-de': "Wettervorhersage"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 cartes Stade dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 cartas de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due carte Stadio, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 cartas de Estádio no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Stadionkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 cartes Stade dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 cartas de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due carte Stadio, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 cartas de Estádio no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Stadionkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				es: "Hidropulso",
-				it: "Idropulsar",
-				pt: "Pulso d’Água",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'es-es': "Hidropulso",
+				'it-it': "Idropulsar",
+				'pt-br': "Pulso d’Água",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes its form depending on the weather. Changes in the temperature or humidity appear to affect its cellular structure.",
+		'en-us': "It changes its form depending on the weather. Changes in the temperature or humidity appear to affect its cellular structure.",
 	},
 
 	thirdParty: {

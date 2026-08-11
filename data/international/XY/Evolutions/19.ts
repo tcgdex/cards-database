@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'Pattes",
-				es: "Patada Destrucción",
-				it: "Calcio Esplosivo",
-				pt: "Chute Poderoso",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'Pattes",
+				'es-es': "Patada Destrucción",
+				'it-it': "Calcio Esplosivo",
+				'pt-br': "Chute Poderoso",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de Flammes",
-				es: "Cola de Fuego",
-				it: "Coda-Fiamma",
-				pt: "Cauda de Chamas",
-				de: "Flammenschweif"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de Flammes",
+				'es-es': "Cola de Fuego",
+				'it-it': "Coda-Fiamma",
+				'pt-br': "Cauda de Chamas",
+				'de-de': "Flammenschweif"
 			},
 
 			damage: 30,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap.",
+		'en-us': "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap.",
 	},
 
 	thirdParty: {

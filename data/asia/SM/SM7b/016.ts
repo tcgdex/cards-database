@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤミラミ",
+		'ja-jp': "ヤミラミ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
+		'ja-jp': "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ファストハント" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札にある好きなカードを１枚、手札に加える。そして山札を切る。",
+				'ja-jp': "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札にある好きなカードを１枚、手札に加える。そして山札を切る。",
 			},
 		},
 		{
 			name: { ja: "のろいのしずく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン3個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チリーン",
+		'ja-jp': "チリーン",
 		'zh-tw': "風鈴鈴",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "超音波の 鳴き声を 持つ。 ふわふわと 浮かび 風に 乗って 長い 距離を 旅する。",
+		'ja-jp': "超音波の 鳴き声を 持つ。 ふわふわと 浮かび 風に 乗って 長い 距離を 旅する。",
 		'zh-tw': "擁有超音波的叫聲。輕飄飄地浮起來， 乘著風旅行到遠方。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ゆめみのねいろ",
+				'ja-jp': "ゆめみのねいろ",
 				'zh-tw': "美夢音色",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、そのポケモンをねむりにする。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、そのポケモンをねむりにする。",
 				'zh-tw': "在下個對手的回合，若對手從手牌將能量卡附於受到這個招式的寶可夢身上，則將那隻寶可夢【睡眠】。",
 			},
 		},
 		{
 			name: {
-				ja: "ぶらさがる",
+				'ja-jp': "ぶらさがる",
 				'zh-tw': "垂吊",
 			},
 			damage: 30,

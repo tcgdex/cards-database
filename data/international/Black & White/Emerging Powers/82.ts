@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Unfezant",
-		fr: "Déflaisan",
-		es: "Unfezant",
-		it: "Unfezant",
-		pt: "Unfezant",
-		de: "Fasasnob"
+		'en-us': "Unfezant",
+		'fr-fr': "Déflaisan",
+		'es-es': "Unfezant",
+		'it-it': "Unfezant",
+		'pt-br': "Unfezant",
+		'de-de': "Fasasnob"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tranquill",
-		fr: "Colombeau",
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tailwind",
-				fr: "Vent Arrière",
+				'en-us': "Tailwind",
+				'fr-fr': "Vent Arrière",
 			},
 			effect: {
-				en: "Attach an Energy card from your hand to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie de votre main à 1 de vos Pokémon.",
+				'en-us': "Attach an Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre main à 1 de vos Pokémon.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feather Strike",
-				fr: "Tir de Plumes",
+				'en-us': "Feather Strike",
+				'fr-fr': "Tir de Plumes",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires. Si c'est pile, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires. Si c'est pile, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
+		'en-us': "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Métang",
-		es: "Metang",
-		it: "Metang",
-		pt: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Métang",
+		'es-es': "Metang",
+		'it-it': "Metang",
+		'pt-br': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
-				es: "Garra Metal",
-				it: "Ferrartigli",
-				pt: "Garra de Metal",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
+				'es-es': "Garra Metal",
+				'it-it': "Ferrartigli",
+				'pt-br': "Garra de Metal",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 30,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Punch",
-				fr: "Pisto-Poing",
-				es: "Puño Bala",
-				it: "Pugnoscarica",
-				pt: "Soco Projétil",
-				de: "Patronenhieb"
+				'en-us': "Bullet Punch",
+				'fr-fr': "Pisto-Poing",
+				'es-es': "Puño Bala",
+				'it-it': "Pugnoscarica",
+				'pt-br': "Soco Projétil",
+				'de-de': "Patronenhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50+",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
+		'en-us': "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Metal",
 	],
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
 	},
 	stage: "Stage1",
 
@@ -31,8 +31,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 20,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Élecanon",
+				'en-us': "Zap Cannon",
+				'fr-fr': "Élecanon",
 			},
 			effect: {
-				en: "This Pokémon can't use Zap Cannon during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Zap Cannon during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
+		'en-us': "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
 	},
 }
 

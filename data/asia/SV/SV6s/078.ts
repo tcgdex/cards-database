@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Clefairy"
+		'id-id': "Clefairy"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Clefairy berkumpul dan menari bersama kawanannya saat malam bulan purnama. Daerah sekitarnya diselimuti medan magnet yang aneh."
+		'id-id': "Clefairy berkumpul dan menari bersama kawanannya saat malam bulan purnama. Daerah sekitarnya diselimuti medan magnet yang aneh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Moon Kick"
+			'id-id': "Moon Kick"
 		},
 
 		damage: 40,

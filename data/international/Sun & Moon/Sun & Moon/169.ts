@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
+		'en-us': "Fighting Energy",
 	},
 
 	illustrator: undefined,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
-		it: "Golbat",
-		pt: "Golbat",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti",
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Poison Breath",
-				fr: "Super Haleine Empoisonnée",
-				es: "Aliento Supervenenoso",
-				it: "Super Velenospiro",
-				pt: "Super-hálito Venenoso",
-				de: "Super-Gifthauch"
+				'en-us': "Super Poison Breath",
+				'fr-fr': "Super Haleine Empoisonnée",
+				'es-es': "Aliento Supervenenoso",
+				'it-it': "Super Velenospiro",
+				'pt-br': "Super-hálito Venenoso",
+				'de-de': "Super-Gifthauch"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
-				es: "Acróbata",
-				it: "Acrobazia",
-				pt: "Acrobático",
-				de: "Akrobatik"
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
+				'es-es': "Acróbata",
+				'it-it': "Acrobazia",
+				'pt-br': "Acrobático",
+				'de-de': "Akrobatik"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 pontos de dano a mais para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 pontos de dano a mais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "10+",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.",
+		'en-us': "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		es: "Xatu",
-		it: "Xatu",
-		pt: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'es-es': "Xatu",
+		'it-it': "Xatu",
+		'pt-br': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu",
-		es: "Natu",
-		it: "Natu",
-		pt: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'es-es': "Natu",
+		'it-it': "Natu",
+		'pt-br': "Natu",
+		'de-de': "Natu"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Clairvoyant Sense",
-			fr: "Don de Clairvoyance",
-			es: "Sentido Clarividente",
-			it: "Senso Chiaroveggente",
-			pt: "Sentido Clarividente",
-			de: "Hellsichtiger Sinn"
+			'en-us': "Clairvoyant Sense",
+			'fr-fr': "Don de Clairvoyance",
+			'es-es': "Sentido Clarividente",
+			'it-it': "Senso Chiaroveggente",
+			'pt-br': "Sentido Clarividente",
+			'de-de': "Hellsichtiger Sinn"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic {P} Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie {P} de base de votre main à l'un de vos Pokémon de Banc. Si vous avez attaché de l'Énergie à un Pokémon de cette façon, piochez 2 cartes.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía {P} Básica de tu mano a uno de tus Pokémon en Banca. Si has unido Energía a un Pokémon de esta manera, roba 2 cartas.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia base {P} dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca due carte.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {P} Básica da sua mão a 1 dos seus Pokémon no Banco. Se você ligou Energia a um Pokémon desta forma, compre 2 cartas.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-{P}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 2 Karten."
+			'en-us': "Once during your turn, you may attach a Basic {P} Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie {P} de base de votre main à l'un de vos Pokémon de Banc. Si vous avez attaché de l'Énergie à un Pokémon de cette façon, piochez 2 cartes.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía {P} Básica de tu mano a uno de tus Pokémon en Banca. Si has unido Energía a un Pokémon de esta manera, roba 2 cartas.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia base {P} dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca due carte.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {P} Básica da sua mão a 1 dos seus Pokémon no Banco. Se você ligou Energia a um Pokémon desta forma, compre 2 cartas.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Basis-{P}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 2 Karten."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 80
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "GOSSAN",
 	description: {
-		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+		'en-us': "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
 	},
 	variants: [
 		{

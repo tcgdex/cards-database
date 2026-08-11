@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Cloyster"
+		'en-us': "Misty's Cloyster"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shellder"
+		'en-us': "Shellder"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Shell Armor"
+				'en-us': "Shell Armor"
 			},
 			effect: {
-				en: "You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen). This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed."
+				'en-us': "You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen). This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Cannon"
+				'en-us': "Triple Cannon"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

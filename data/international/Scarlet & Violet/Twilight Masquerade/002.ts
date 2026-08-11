@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu",
-		es: "Tangrowth",
-		it: "Tangrowth",
-		pt: "Tangrowth",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu",
+		'es-es': "Tangrowth",
+		'it-it': "Tangrowth",
+		'pt-br': "Tangrowth",
+		'de-de': "Tangoloss"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Thicket Body",
-			fr: "Corps Buissons",
-			es: "Cuerpo Maleza",
-			it: "Corposelva",
-			pt: "Corpo de Mato",
-			de: "Dickichtkörper"
+			'en-us': "Thicket Body",
+			'fr-fr': "Corps Buissons",
+			'es-es': "Cuerpo Maleza",
+			'it-it': "Corposelva",
+			'pt-br': "Corpo de Mato",
+			'de-de': "Dickichtkörper"
 		},
 
 		effect: {
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Loom Over",
-			fr: "Menacer",
-			es: "Cernirse",
-			it: "Presenza Minacciosa",
-			pt: "Pairar Sobre",
-			de: "Schattenseite"
+			'en-us': "Loom Over",
+			'fr-fr': "Menacer",
+			'es-es': "Cernirse",
+			'it-it': "Presenza Minacciosa",
+			'pt-br': "Pairar Sobre",
+			'de-de': "Schattenseite"
 		},
 
 		effect: {
-			en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
+			'en-us': "This attack does 10 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
 		},
 
 		damage: "150-"
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
+		'en-us': "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
 	},
 
 	variants: [

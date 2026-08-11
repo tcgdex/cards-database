@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのサンダース",
+		'ja-jp': "マチスのサンダース",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "高電圧",
+				'ja-jp': "高電圧",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手は次のターン中にトレーナーカードをプレイできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手は次のターン中にトレーナーカードをプレイできません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "サンダーフレア",
+				'ja-jp': "サンダーフレア",
 			},
 			effect: {
-				ja: "30のダメージと10ダメージの数のダメージ数は、SurgeのJolteon中tのカウンターを行い、コインをひっくり返します。テールの場合、SurgeのJolteon中tはそれ自体に30のダメージを与えます。",
+				'ja-jp': "30のダメージと10ダメージの数のダメージ数は、SurgeのJolteon中tのカウンターを行い、コインをひっくり返します。テールの場合、SurgeのJolteon中tはそれ自体に30のダメージを与えます。",
 			},
 		},
 	],

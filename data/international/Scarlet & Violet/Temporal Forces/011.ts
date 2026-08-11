@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		es: "Grotle",
-		it: "Grotle",
-		pt: "Grotle",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'es-es': "Grotle",
+		'it-it': "Grotle",
+		'pt-br': "Grotle",
+		'de-de': "Chelcarain"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		es: "Turtwig",
-		it: "Turtwig",
-		pt: "Turtwig",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'es-es': "Turtwig",
+		'it-it': "Turtwig",
+		'pt-br': "Turtwig",
+		'de-de': "Chelast"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Cut",
-			fr: "Coupe",
-			es: "Corte",
-			it: "Taglio",
-			pt: "Cortar",
-			de: "Zerschneider"
+			'en-us': "Cut",
+			'fr-fr': "Coupe",
+			'es-es': "Corte",
+			'it-it': "Taglio",
+			'pt-br': "Cortar",
+			'de-de': "Zerschneider"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Ramming Shell",
-			fr: "Impact Carapace",
-			es: "Embestida Caparazón",
-			it: "Guscio Paraurti",
-			pt: "Colisão de Carapaça",
-			de: "Rammende Schale"
+			'en-us': "Ramming Shell",
+			'fr-fr': "Impact Carapace",
+			'es-es': "Embestida Caparazón",
+			'it-it': "Guscio Paraurti",
+			'pt-br': "Colisão de Carapaça",
+			'de-de': "Rammende Schale"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		},
 
 		damage: 50
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+		'en-us': "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
 	},
 
 	variants: [

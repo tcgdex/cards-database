@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira",
-		it: "Chansey"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira",
+		'it-it': "Chansey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scrunch",
-				fr: "Compresse",
-				de: "Zähneknirschen",
-				it: "Schiacciamento"
+				'en-us': "Scrunch",
+				'fr-fr': "Compresse",
+				'de-de': "Zähneknirschen",
+				'it-it': "Schiacciamento"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Leveinard pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" kannst Du den Schaden, der Chaneira während des nächsten Zuges zugefügt wird, verhindern. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
-				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Chansey durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.) "
+				'en-us': "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Leveinard pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" kannst Du den Schaden, der Chaneira während des nächsten Zuges zugefügt wird, verhindern. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Chansey durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.) "
 			},
 
 		},
@@ -54,16 +54,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Austeiler",
-				it: "Sdoppiatore"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Austeiler",
+				'it-it': "Sdoppiatore"
 			},
 			effect: {
-				en: "Chansey does 80 damage to itself.",
-				fr: "Leveinard s'inflige 80 points de dégâts.",
-				de: "Chaneira fügt sich selbst 80 Schadenspunkte zu.",
-				it: "Chansey si infligge 80 danni a se stesso."
+				'en-us': "Chansey does 80 damage to itself.",
+				'fr-fr': "Leveinard s'inflige 80 points de dégâts.",
+				'de-de': "Chaneira fügt sich selbst 80 Schadenspunkte zu.",
+				'it-it': "Chansey si infligge 80 danni a se stesso."
 			},
 			damage: 80,
 
@@ -118,9 +118,9 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
-		fr: "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur.",
-		it: "Pokémon raro ed elusivo; di lui si dice che porti felicità a coloro che riescono ad acchiapparlo. LIV 55 N.113"
+		'en-us': "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
+		'fr-fr': "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur.",
+		'it-it': "Pokémon raro ed elusivo; di lui si dice che porti felicità a coloro che riescono ad acchiapparlo. LIV 55 N.113"
 	},
 }
 

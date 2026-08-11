@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヨーギラス",
+		'ja-jp': "ヨーギラス",
 		'zh-tw': "幼基拉斯",
 		'zh-cn': "幼基拉斯"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地面 深くで 生まれ 山ほどの 土を 食べ終わると 体を つくるため サナギになる。",
+		'ja-jp': "地面 深くで 生まれ 山ほどの 土を 食べ終わると 体を つくるため サナギになる。",
 		'zh-tw': "誕生在地底深處。 當牠吃完滿山的土壤後， 就會為了成長而變成蛹。",
 		'zh-cn': "誕生在地底深處。 當牠吃完滿山的土壤後， 就會為了成長而變成蛹。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かみくだく",
+			'ja-jp': "かみくだく",
 			'zh-tw': "咬碎",
 			'zh-cn': "咬碎"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			'zh-cn': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
 		}

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swablu"
+		'en-us': "Swablu"
 	},
 
 	illustrator: "Kanako Eo",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It can't relax if it or its surroundings are not clean.\nIt wipes off dirt with its wings."
+		'en-us': "It can't relax if it or its surroundings are not clean.\nIt wipes off dirt with its wings."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sing"
+			'en-us': "Sing"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

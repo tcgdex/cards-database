@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Trapinch",
-		th: "นัคครา"
+		'id-id': "Trapinch",
+		'th-th': "นัคครา"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Ia menggali pasir sambil menghancurkan bebatuan yang menghalangi dengan rahang besarnya. Sarangnya berbentuk ulekan.",
-		th: "ขุดทรายพร้อมกับบดขยี้หินที่ขวางทางด้วยกรามอันใหญ่โตไปด้วย รูรัง ของมันเป็นรูปครกบด"
+		'id-id': "Ia menggali pasir sambil menghancurkan bebatuan yang menghalangi dengan rahang besarnya. Sarangnya berbentuk ulekan.",
+		'th-th': "ขุดทรายพร้อมกับบดขยี้หินที่ขวางทางด้วยกรามอันใหญ่โตไปด้วย รูรัง ของมันเป็นรูปครกบด"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Teman",
-			th: "เรียกเพื่อน"
+			'id-id': "Memanggil Teman",
+			'th-th': "เรียกเพื่อน"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck.",
-			th: "เลือกการ์ดโปเกมอน[พื้นฐาน]ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด"
+			'id-id': "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck.",
+			'th-th': "เลือกการ์ดโปเกมอน[พื้นฐาน]ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menggigit",
-			th: "กัดติด"
+			'id-id': "Menggigit",
+			'th-th': "กัดติด"
 		},
 
 		damage: 20,

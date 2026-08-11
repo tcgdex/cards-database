@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
+		'en-us': "Lickitung",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Wrap",
+				'en-us': "Tongue Wrap",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
+				'en-us': "Supersonic",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 
 		},
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
+		'en-us': "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
 	},
 
 

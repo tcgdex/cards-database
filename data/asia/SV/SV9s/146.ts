@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฟรีเซอร์",
-		id: "Articuno"
+		'th-th': "ฟรีเซอร์",
+		'id-id': "Articuno"
 	},
 
 	illustrator: "Kuroimori",
@@ -15,27 +15,27 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "มีพลังในการควบคุมน้ำแข็งได้ดั่งใจนึก ว่ากันว่ามันอาศัยอยู่บนภูเขา หิมะที่เยือกแข็งตลอดปี"
+		'th-th': "มีพลังในการควบคุมน้ำแข็งได้ดั่งใจนึก ว่ากันว่ามันอาศัยอยู่บนภูเขา หิมะที่เยือกแข็งตลอดปี"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "สยายปีกเย็น",
-			id: "Kepakan Dingin"
+			'th-th': "สยายปีกเย็น",
+			'id-id': "Kepakan Dingin"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [พลังงานพื้นฐาน[น้ำ]] ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ติดที่ โปเกมอนนี้ แล้วสับสำรับการ์ด",
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Air} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[น้ำ]] ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ติดที่ โปเกมอนนี้ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Air} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ไอซ์บลาสต์",
-			id: "Ice Blast"
+			'th-th': "ไอซ์บลาสต์",
+			'id-id': "Ice Blast"
 		},
 
 		damage: 110,

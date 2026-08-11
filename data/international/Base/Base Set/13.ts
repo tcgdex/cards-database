@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
-		fr: "Tartard",
-		de: "Quappo",
-		it: "Poliwrath"
+		'en-us': "Poliwrath",
+		'fr-fr': "Tartard",
+		'de-de': "Quappo",
+		'it-it': "Poliwrath"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		it: "Poliwhirl"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'it-it': "Poliwhirl"
 	},
 
 	stage: "Stage2",
@@ -40,16 +40,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Aquaknarre",
-				it: "Pistolacqua"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Aquaknarre",
+				'it-it': "Pistolacqua"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
-				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quappo abgelegte  Energiekarte zu, die nicht zum Zahlen der Energiekosten füür diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen.",
-				it: "Infligge 30 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Poliwrath che non viene usata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
+				'en-us': "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
+				'de-de': "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quappo abgelegte  Energiekarte zu, die nicht zum Zahlen der Energiekosten füür diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen.",
+				'it-it': "Infligge 30 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Poliwrath che non viene usata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
 			},
 			damage: "30+",
 
@@ -62,16 +62,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Lessiveuse",
-				de: "Strudel",
-				it: "Mulinello"
+				'en-us': "Whirlpool",
+				'fr-fr': "Lessiveuse",
+				'de-de': "Strudel",
+				'it-it': "Mulinello"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
-				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
-				de: "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
-				it: "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
+				'fr-fr': "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
+				'de-de': "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
+				'it-it': "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."
 			},
 			damage: 40,
 
@@ -88,9 +88,9 @@ const card: Card = {
 
 
 	description: {
-		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
-		fr: "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",
-		it: "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62"
+		'en-us': "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+		'fr-fr': "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",
+		'it-it': "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62"
 	},
 
 	variants: [

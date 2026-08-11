@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Nickit",
-		fr: "Goupilou",
-		es: "Nickit",
-		it: "Nickit",
-		pt: "Nickit",
-		de: "Kleptifux"
+		'en-us': "Nickit",
+		'fr-fr': "Goupilou",
+		'es-es': "Nickit",
+		'it-it': "Nickit",
+		'pt-br': "Nickit",
+		'de-de': "Kleptifux"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			it: "Codabotta",
-			pt: "Tail Whap",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'it-it': "Codabotta",
+			'pt-br': "Tail Whap",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 30,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
+		'en-us': "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
 	},
 
 	dexId: [827],

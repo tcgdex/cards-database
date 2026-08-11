@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabominable"
+		'en-us': "Crabominable"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Crabrawler"
+		'en-us': "Crabrawler"
 	},
 
 	description: {
-		en: "Though its punches are powerful, this Pokémon's\nmovements are sluggish. It blows icy bubbles\nfrom its mouth to immobilize its opponents."
+		'en-us': "Though its punches are powerful, this Pokémon's\nmovements are sluggish. It blows icy bubbles\nfrom its mouth to immobilize its opponents."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Last-Chance Punch"
+			'en-us': "Last-Chance Punch"
 		},
 
 		damage: 30,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "If this Pokémon's remaining HP is 30 or less, this attack does 60 more damage."
+			'en-us': "If this Pokémon's remaining HP is 30 or less, this attack does 60 more damage."
 		}
 	}],
 

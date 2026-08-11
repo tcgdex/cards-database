@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リキキリン"
+		'ja-jp': "リキキリン"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭と 尻尾の ２つの 脳波が 同期したことで エスパーパワーは キリンリキの １０倍 アップした。"
+		'ja-jp': "頭と 尻尾の ２つの 脳波が 同期したことで エスパーパワーは キリンリキの １０倍 アップした。"
 	},
 
 	stage: "Stage1",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どっちかフェイス"
+			'ja-jp': "どっちかフェイス"
 		},
 
 		effect: {
-			ja: "自分または相手のどちらかを選び、選ばれたプレイヤーは、手札をすべて山札にもどして切る。その後、選ばれたプレイヤーは山札を4枚引く。"
+			'ja-jp': "自分または相手のどちらかを選び、選ばれたプレイヤーは、手札をすべて山札にもどして切る。その後、選ばれたプレイヤーは山札を4枚引く。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "パワービーム"
+			'ja-jp': "パワービーム"
 		},
 
 		damage: 130

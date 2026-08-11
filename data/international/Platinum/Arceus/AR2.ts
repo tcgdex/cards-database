@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Refresh",
-				fr: "Feuille revigorante",
-				de: "Blätterheilung"
+				'en-us': "Leaf Refresh",
+				'fr-fr': "Feuille revigorante",
+				'de-de': "Blätterheilung"
 			},
 			effect: {
-				en: "Remove 3 damage counters from each of your Benched Pokémon.",
-				fr: "Retirez 3 marqueurs de dégât à chacun des Pokémon de votre Banc.",
-				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank."
+				'en-us': "Remove 3 damage counters from each of your Benched Pokémon.",
+				'fr-fr': "Retirez 3 marqueurs de dégât à chacun des Pokémon de votre Banc.",
+				'de-de': "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world."
+		'en-us': "It is said to have emerged from an egg in a place where there was nothing, then shaped the world."
 	},
 
 	variants: [

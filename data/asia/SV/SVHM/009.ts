@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "密勒頓ex",
-		th: "มิไรดอนex",
-		id: "Miraidon ex"
+		'th-th': "มิไรดอนex",
+		'id-id': "Miraidon ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,14 +20,14 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "抵制伏特",
-			th: "รีเจกต์โวลต์",
-			id: "Reject Bolt"
+			'th-th': "รีเจกต์โวลต์",
+			'id-id': "Reject Bolt"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加100點傷害。",
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100",
-			id: "Jika Pokémon Bertarung lawan memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100."
+			'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100",
+			'id-id': "Jika Pokémon Bertarung lawan memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100."
 		},
 
 		damage: "60+",
@@ -35,14 +35,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "異度猛衝",
-			th: "ไซเบอร์ไดรฟ์",
-			id: "Cyberdrive"
+			'th-th': "ไซเบอร์ไดรฟ์",
+			'id-id': "Cyberdrive"
 		},
 
 		effect: {
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「異度猛衝」。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [ไซเบอร์ไดรฟ์] ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Cyberdrive."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [ไซเบอร์ไดรฟ์] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Cyberdrive."
 		},
 
 		damage: 220,

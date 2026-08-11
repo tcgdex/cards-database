@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Item Finder",
-		fr: "Récupérateur",
-		de: "Detektor",
-		it: "Oggetti Smarriti"
+		'en-us': "Item Finder",
+		'fr-fr': "Récupérateur",
+		'de-de': "Detektor",
+		'it-it': "Oggetti Smarriti"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
-		fr: "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main.",
-		de: "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen.",
-		it: "Scarta 2 delle altre carte che hai in mano e sostituiscile con una carta Addestramento presa dalla tua pila degli scarti."
+		'en-us': "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
+		'fr-fr': "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main.",
+		'de-de': "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen.",
+		'it-it': "Scarta 2 delle altre carte che hai in mano e sostituiscile con una carta Addestramento presa dalla tua pila degli scarti."
 	},
 
 	variants: [

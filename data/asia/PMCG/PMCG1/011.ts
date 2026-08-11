@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギバナ",
+		'ja-jp': "フシギバナ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "エネルギートランス",
+				'ja-jp': "エネルギートランス",
 			},
 			effect: {
-				ja: "ターン中に好きなように、ポケモンの1匹からポケモンの1つに草のエネルギーを移動することができます。このポクモンが眠っている、混乱し、麻痺している場合、このポケモンの力は使用できません。",
+				'ja-jp': "ターン中に好きなように、ポケモンの1匹からポケモンの1つに草のエネルギーを移動することができます。このポクモンが眠っている、混乱し、麻痺している場合、このポケモンの力は使用できません。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass", "Grass"],
 			name: {
-				ja: "ソーラービーム",
+				'ja-jp': "ソーラービーム",
 			},
 			damage: 60,
 		},

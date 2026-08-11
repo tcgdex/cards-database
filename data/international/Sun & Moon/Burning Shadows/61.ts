@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Sandygast",
-		fr: "Bacabouh",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Absorb Life",
-				fr: "Absorption",
-				es: "Absorber Vida",
-				it: "Spolpavita",
-				pt: "Drenagem de Vida",
-				de: "Lebensverkoster"
+				'en-us': "Absorb Life",
+				'fr-fr': "Absorption",
+				'es-es': "Absorber Vida",
+				'it-it': "Spolpavita",
+				'pt-br': "Drenagem de Vida",
+				'de-de': "Lebensverkoster"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
+		'en-us': "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
 	},
 
 	thirdParty: {

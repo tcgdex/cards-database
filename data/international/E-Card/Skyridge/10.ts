@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
-		de: "Gengar"
+		'en-us': "Gengar",
+		'de-de': "Gengar"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter",
+		'en-us': "Haunter",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Manipulate",
-				de: "Manipulieren"
+				'en-us': "Manipulate",
+				'de-de': "Manipulieren"
 			},
 			effect: {
-				en: "When you play Gengar from your hand to evolve your Active Pokémon, you may put a Basic Pokémon (excluding Baby Pokémon) from your discard pile onto your Bench. Then, flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to that Pokémon.",
-				de: "Wenn du Gengar aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du ein Basis-Pokémon (aber kein Baby-Pokémon) aus deinem Ablagestapel nehmen und auf deine Bank legen. Wirf dann 3 Münzen. Wähle für jeden geworfenen 'Kopf' eine Basis-Energiekarte aus deinem Ablagestapel und lege sie an dieses Pokémon an."
+				'en-us': "When you play Gengar from your hand to evolve your Active Pokémon, you may put a Basic Pokémon (excluding Baby Pokémon) from your discard pile onto your Bench. Then, flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to that Pokémon.",
+				'de-de': "Wenn du Gengar aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du ein Basis-Pokémon (aber kein Baby-Pokémon) aus deinem Ablagestapel nehmen und auf deine Bank legen. Wirf dann 3 Münzen. Wähle für jeden geworfenen 'Kopf' eine Basis-Energiekarte aus deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydrokinesis",
-				de: "Hydrokinese"
+				'en-us': "Hydrokinesis",
+				'de-de': "Hydrokinese"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned. If tails, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verbrannt. Bei 'Zahl' ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned. If tails, the Defending Pokémon is now Confused.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verbrannt. Bei 'Zahl' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 40,
 

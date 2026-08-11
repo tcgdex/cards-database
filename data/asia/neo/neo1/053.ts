@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファンピー",
+		'ja-jp': "ファンピー",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "耐える",
+				'ja-jp': "耐える",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ファンピーが攻撃によってノックアウトされた場合、ファンピーはノックアウトされず、代わりに残りのHPが10になります。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ファンピーが攻撃によってノックアウトされた場合、ファンピーはノックアウトされず、代わりに残りのHPが10になります。",
 			},
 		},
 	],

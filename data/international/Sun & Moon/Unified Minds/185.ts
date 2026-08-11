@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Komala",
-		fr: "Dodoala",
-		es: "Komala",
-		it: "Komala",
-		pt: "Komala",
-		de: "Koalelu"
+		'en-us': "Komala",
+		'fr-fr': "Dodoala",
+		'es-es': "Komala",
+		'it-it': "Komala",
+		'pt-br': "Komala",
+		'de-de': "Koalelu"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Drowsing",
-				fr: "Rêveur",
-				es: "Duermevela",
-				it: "Dormiveglia",
-				pt: "Cochilando",
-				de: "Halbschlaf"
+				'en-us': "Drowsing",
+				'fr-fr': "Rêveur",
+				'es-es': "Duermevela",
+				'it-it': "Dormiveglia",
+				'pt-br': "Cochilando",
+				'de-de': "Halbschlaf"
 			},
 			effect: {
-				en: "If this Pokémon remains Asleep between turns, put 6 damage counters on your opponent’s Active Pokémon.",
-				fr: "Si ce Pokémon reste Endormi entre deux tours, placez 6 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Si este Pokémon permanece Dormido entre turnos, pon 6 contadores de daño en el Pokémon Activo de tu rival.",
-				it: "Se questo Pokémon resta addormentato tra un turno e l’altro, metti sei segnalini danno sul Pokémon attivo del tuo avversario.",
-				pt: "Se este Pokémon permanecer Adormecido entre as vezes de jogar, coloque 6 contadores de dano no Pokémon Ativo do seu oponente.",
-				de: "Wenn dieses Pokémon zwischen den Zügen weiterschläft, lege 6 Schadensmarken auf das Aktive Pokémon deines Gegners."
+				'en-us': "If this Pokémon remains Asleep between turns, put 6 damage counters on your opponent’s Active Pokémon.",
+				'fr-fr': "Si ce Pokémon reste Endormi entre deux tours, placez 6 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Si este Pokémon permanece Dormido entre turnos, pon 6 contadores de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Se questo Pokémon resta addormentato tra un turno e l’altro, metti sei segnalini danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Se este Pokémon permanecer Adormecido entre as vezes de jogar, coloque 6 contadores de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Wenn dieses Pokémon zwischen den Zügen weiterschläft, lege 6 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snooze",
-				fr: "Roupillon",
-				es: "Cabezada",
-				it: "Sonnellino",
-				pt: "Cochilo",
-				de: "Schlummern"
+				'en-us': "Snooze",
+				'fr-fr': "Roupillon",
+				'es-es': "Cabezada",
+				'it-it': "Sonnellino",
+				'pt-br': "Cochilo",
+				'de-de': "Schlummern"
 			},
 			effect: {
-				en: "This Pokémon is now Asleep.",
-				fr: "Ce Pokémon est maintenant Endormi.",
-				es: "Este Pokémon pasa a estar Dormido.",
-				it: "Questo Pokémon viene addormentato.",
-				pt: "Este Pokémon agora está Adormecido.",
-				de: "Dieses Pokémon schläft jetzt."
+				'en-us': "This Pokémon is now Asleep.",
+				'fr-fr': "Ce Pokémon est maintenant Endormi.",
+				'es-es': "Este Pokémon pasa a estar Dormido.",
+				'it-it': "Questo Pokémon viene addormentato.",
+				'pt-br': "Este Pokémon agora está Adormecido.",
+				'de-de': "Dieses Pokémon schläft jetzt."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stays asleep from the moment it's born. When it falls into a deep sleep, it stops moving altogether.",
+		'en-us': "It stays asleep from the moment it's born. When it falls into a deep sleep, it stops moving altogether.",
 	},
 
 	thirdParty: {

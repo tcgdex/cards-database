@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		es: "Floatzel",
-		it: "Floatzel",
-		pt: "Floatzel",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'es-es': "Floatzel",
+		'it-it': "Floatzel",
+		'pt-br': "Floatzel",
+		'de-de': "Bojelin"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hydro Pump",
-			fr: "Hydrocanon",
-			es: "Hidrobomba",
-			it: "Idropompa",
-			pt: "Jato d'Água",
-			de: "Hydropumpe"
+			'en-us': "Hydro Pump",
+			'fr-fr': "Hydrocanon",
+			'es-es': "Hidrobomba",
+			'it-it': "Idropompa",
+			'pt-br': "Jato d'Água",
+			'de-de': "Hydropumpe"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each {W} Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each {W} Energy attached to this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -71,7 +71,7 @@ const card: Card = {
 	illustrator: "Gemi",
 
 	description: {
-		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+		'en-us': "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
 	},
 
 	thirdParty: {

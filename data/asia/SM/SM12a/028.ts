@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズガドーンGX",
+		'ja-jp': "ズガドーンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "さくれつバーナー" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをやけどとこんらんにする。",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分の場のポケモンについている[炎]エネルギーを好きなだけロストゾーンに置き、その枚数x50ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[炎]エネルギーを好きなだけロストゾーンに置き、その枚数x50ダメージ。",
 			},
 		},
 		{
 			name: { ja: "バーストGX" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のサイドを1枚トラッシュし、そのカードがエネルギーなら、自分のポケモンにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のサイドを1枚トラッシュし、そのカードがエネルギーなら、自分のポケモンにつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [414],
 
 	name: {
-		en: "Mothim"
+		'en-us': "Mothim"
 	},
 
 	illustrator: "saino misaki",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Burmy"
+		'en-us': "Burmy"
 	},
 
 	description: {
-		en: "It flutters around at night and steals honey from\nthe Combee hive."
+		'en-us': "It flutters around at night and steals honey from\nthe Combee hive."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Cutting Wind"
+			'en-us': "Cutting Wind"
 		},
 
 		damage: 70,

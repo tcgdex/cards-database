@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const det1: Set = {
 	id: "det1",
 
 	name: {
-		en: "Detective Pikachu",
-		fr: "Détective Pikachu",
-		es: "Detective Pikachu",
-		it: "Detective Pikachu",
-		de: "Meisterdetektiv Pikachu",
-		pt: "Detetive Pikachu"
+		'en-us': "Detective Pikachu",
+		'fr-fr': "Détective Pikachu",
+		'es-es': "Detective Pikachu",
+		'it-it': "Detective Pikachu",
+		'de-de': "Meisterdetektiv Pikachu",
+		'pt-br': "Detetive Pikachu"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const det1: Set = {
 
 	abbreviations: {
 		official: "DET",
-		fr: "DPI"
+		'fr-fr': "DPI"
 	},
 
 	thirdParty: {

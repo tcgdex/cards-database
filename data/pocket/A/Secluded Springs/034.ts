@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Corsola",
-		fr: "Corayon de Galar"
+		'en-us': "Galarian Corsola",
+		'fr-fr': "Corayon de Galar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Watch your step when wandering areas oceans\nonce covered. What looks like a stone could be\nthis Pokémon, and it will curse you if you kick it.",
-		fr: "Ce Pokémon est commun dans les lieux qui étaient jadis submergés. Il maudit quiconque le prend pour un caillou et le pousse du pied."
+		'en-us': "Watch your step when wandering areas oceans\nonce covered. What looks like a stone could be\nthis Pokémon, and it will curse you if you kick it.",
+		'fr-fr': "Ce Pokémon est commun dans les lieux qui étaient jadis submergés. Il maudit quiconque le prend pour un caillou et le pousse du pied."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 
 		damage: 20,

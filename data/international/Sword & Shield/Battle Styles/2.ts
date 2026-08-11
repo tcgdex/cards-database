@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -21,44 +21,44 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		es: "Bellsprout",
-		it: "Bellsprout",
-		pt: "Bellsprout",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'es-es': "Bellsprout",
+		'it-it': "Bellsprout",
+		'pt-br': "Bellsprout",
+		'de-de': "Knofensa"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Dangerous Mucus",
-			fr: "Mucus Dangereux",
-			es: "Mucosidad Peligrosa",
-			it: "Mucosa Pericolosa",
-			pt: "Mucosa Perigosa",
-			de: "Gefährlicher Schleim"
+			'en-us': "Dangerous Mucus",
+			'fr-fr': "Mucus Dangereux",
+			'es-es': "Mucosidad Peligrosa",
+			'it-it': "Mucosa Pericolosa",
+			'pt-br': "Mucosa Perigosa",
+			'de-de': "Gefährlicher Schleim"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned and Poisoned.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Brûlé et Empoisonné.",
-			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Envenenado y Quemado.",
-			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario bruciato e avvelenato.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Envenenado e Queimado.",
-			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du das Aktive Pokémon deines Gegners verbrennen und vergiften."
+			'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned and Poisoned.",
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Brûlé et Empoisonné.",
+			'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Envenenado y Quemado.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario bruciato e avvelenato.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Envenenado e Queimado.",
+			'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du das Aktive Pokémon deines Gegners verbrennen und vergiften."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 40,
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid."
+		'en-us': "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Jellicent",
-		fr: "Moyade",
-		es: "Jellicent",
-		it: "Jellicent",
-		pt: "Jellicent",
-		de: "Apoquallyp"
+		'en-us': "Jellicent",
+		'fr-fr': "Moyade",
+		'es-es': "Jellicent",
+		'it-it': "Jellicent",
+		'pt-br': "Jellicent",
+		'de-de': "Apoquallyp"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Frillish",
-		fr: "Viskuse",
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Stickiness",
-				fr: "Viscosité",
-				es: "Pegajosidad",
-				it: "Colla",
-				pt: "Colante",
-				de: "Superkleber"
+				'en-us': "Stickiness",
+				'fr-fr': "Viscosité",
+				'es-es': "Pegajosidad",
+				'it-it': "Colla",
+				'pt-br': "Colante",
+				'de-de': "Superkleber"
 			},
 			effect: {
-				en: "The Retreat Cost of each of your opponent’s Pokémon in play is Colorless more.",
-				fr: "Le coût de Retraite de chacun des Pokémon de votre adversaire est augmenté de Colorless.",
-				es: "El Coste de Retirada de cada uno de los Pokémon en juego de tu rival es de Colorless más.",
-				it: "Il costo di ritirata di ciascun Pokémon in gioco del tuo avversario aumenta di Colorless.",
-				pt: "O Custo para Recuar de cada um dos Pokémon do seu oponente em jogo será de Colorless a mais.",
-				de: "Die Rückzugskosten aller Pokémon deines Gegners im Spiel erhöhen sich um Colorless."
+				'en-us': "The Retreat Cost of each of your opponent’s Pokémon in play is Colorless more.",
+				'fr-fr': "Le coût de Retraite de chacun des Pokémon de votre adversaire est augmenté de Colorless.",
+				'es-es': "El Coste de Retirada de cada uno de los Pokémon en juego de tu rival es de Colorless más.",
+				'it-it': "Il costo di ritirata di ciascun Pokémon in gioco del tuo avversario aumenta di Colorless.",
+				'pt-br': "O Custo para Recuar de cada um dos Pokémon do seu oponente em jogo será de Colorless a mais.",
+				'de-de': "Die Rückzugskosten aller Pokémon deines Gegners im Spiel erhöhen sich um Colorless."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eerie Light",
-				fr: "Lumière Étrange",
+				'en-us': "Eerie Light",
+				'fr-fr': "Lumière Étrange",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 40,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is mostly seawater. It's said there's a castle of ships Jellicent have sunk on the seafloor.",
+		'en-us': "Its body is mostly seawater. It's said there's a castle of ships Jellicent have sunk on the seafloor.",
 	},
 
 	thirdParty: {

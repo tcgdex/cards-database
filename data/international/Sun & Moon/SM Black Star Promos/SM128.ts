@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Alolan Ninetales",
-		fr: "Feunard d’Alola",
-		es: "Ninetales de Alola",
-		it: "Ninetales di Alola",
-		pt: "Ninetales de Alola",
-		de: "Alola Vulnona"
+		'en-us': "Alolan Ninetales",
+		'fr-fr': "Feunard d’Alola",
+		'es-es': "Ninetales de Alola",
+		'it-it': "Ninetales di Alola",
+		'pt-br': "Ninetales de Alola",
+		'de-de': "Alola Vulnona"
 	},
 	illustrator: "kirisAki",
 	rarity: "Promo",
@@ -23,8 +23,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola",
+		'en-us': "Alolan Vulpix",
+		'fr-fr': "Goupix d’Alola",
 	},
 	stage: "Stage1",
 
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud’Pattes",
-				es: "Patada Destrucción",
-				it: "Calcio Esplosivo",
-				pt: "Chute Poderoso",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud’Pattes",
+				'es-es': "Patada Destrucción",
+				'it-it': "Calcio Esplosivo",
+				'pt-br': "Chute Poderoso",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 30,
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
-				es: "Drenaje Espiral",
-				it: "Assorbimento Spirale",
-				pt: "Dreno Espiral",
-				de: "Spiralsauger"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
+				'es-es': "Drenaje Espiral",
+				'it-it': "Assorbimento Spirale",
+				'pt-br': "Dreno Espiral",
+				'de-de': "Spiralsauger"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 80,
 
@@ -91,7 +91,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales.",
+		'en-us': "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales.",
 	},
 }
 

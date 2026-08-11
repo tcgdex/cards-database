@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディアルガGX",
+		'ja-jp': "ディアルガGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "クロックアップ" },
 			cost: ["Metal"],
 			effect: {
-				ja: "自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Metal", "Metal", "Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ponyta"
+		'en-us': "Ponyta"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "If you've been accepted by Ponyta, its burning\nmane is mysteriously no longer hot to the touch."
+		'en-us': "If you've been accepted by Ponyta, its burning\nmane is mysteriously no longer hot to the touch."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Combustion"
+			'en-us': "Combustion"
 		},
 
 		damage: 40,

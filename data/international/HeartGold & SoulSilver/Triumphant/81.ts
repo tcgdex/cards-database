@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Life",
-				fr: "Vampirisme",
-				de: "Blutsauger"
+				'en-us': "Leech Life",
+				'fr-fr': "Vampirisme",
+				'de-de': "Blutsauger"
 			},
 			effect: {
-				en: "Remove from Venonat the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
-				de: "Entferne Schadensmarken von Bluzuk entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "Remove from Venonat the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
+				'de-de': "Entferne Schadensmarken von Bluzuk entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 10,
 
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
+		'en-us': "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
 	},
 
 	variants: [

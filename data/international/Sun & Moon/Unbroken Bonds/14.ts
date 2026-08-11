@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "otumami",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Burning Venom",
-				fr: "Venin Brûlant",
-				es: "Veneno Abrasador",
-				it: "Tossina Ardente",
-				pt: "Veneno Abrasador",
-				de: "Brennendes Gift"
+				'en-us': "Burning Venom",
+				'fr-fr': "Venin Brûlant",
+				'es-es': "Veneno Abrasador",
+				'it-it': "Tossina Ardente",
+				'pt-br': "Veneno Abrasador",
+				'de-de': "Brennendes Gift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado y Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado e Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Burned and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado y Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado e Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und vergiftet."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+		'en-us': "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
 	},
 
 	thirdParty: {

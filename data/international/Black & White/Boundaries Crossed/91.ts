@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Tail Trickery",
-				fr: "Queue Étourdissante",
+				'en-us': "Tail Trickery",
+				'fr-fr': "Queue Étourdissante",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Assist",
-				fr: "Assistance",
+				'en-us': "Assist",
+				'fr-fr': "Assistance",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your Benched Pokémon's attacks and use it as this attack.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une attaque de l'un de vos Pokémon de Banc et utilisez-la en tant que cette attaque.",
+				'en-us': "Flip a coin. If heads, choose 1 of your Benched Pokémon's attacks and use it as this attack.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une attaque de l'un de vos Pokémon de Banc et utilisez-la en tant que cette attaque.",
 			},
 
 		},
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		'en-us': "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
 	},
 
 	thirdParty: {

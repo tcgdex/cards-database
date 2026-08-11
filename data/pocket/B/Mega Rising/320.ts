@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primarina ex"
+		'en-us': "Primarina ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Brionne"
+		'en-us': "Brionne"
 	},
 
 	stage: "Stage2",
@@ -25,25 +25,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Pump"
+			'en-us': "Hydro Pump"
 		},
 
 		damage: 40,
 		cost: ["Water"],
 
 		effect: {
-			en: "If this Pokémon has at least 1 extra {W} Energy attached, this attack does 40 more damage."
+			'en-us': "If this Pokémon has at least 1 extra {W} Energy attached, this attack does 40 more damage."
 		}
 	}, {
 		name: {
-			en: "Sparkling Aria"
+			'en-us': "Sparkling Aria"
 		},
 
 		damage: 100,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon."
 		}
 	}],
 

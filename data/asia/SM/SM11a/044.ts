@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "獲物を 切り裂いたあとは 河原の 石で 刃を 研ぐ。 それぞれの コマタナに お気に入りの 石がある。",
+		'ja-jp': "獲物を 切り裂いたあとは 河原の 石で 刃を 研ぐ。 それぞれの コマタナに お気に入りの 石がある。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふくろぎり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるグッズを、1枚トラッシュする。",
+				'ja-jp': "相手の手札を見て、その中にあるグッズを、1枚トラッシュする。",
 			},
 		},
 		{

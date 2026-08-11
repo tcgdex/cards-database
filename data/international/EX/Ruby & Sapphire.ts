@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex1: Set = {
 	id: "ex1",
 
 	name: {
-		en: "Ruby & Sapphire",
-		fr: "EX Rubis & Saphir",
-		es: "Rubí & Zafiro",
-		it: "EX Rubino & Zaffiro",
-		de: "EX Rubin & Saphir",
-		pt: "EX Rubi e Safira" // pt_PT and not pt_BR ?
+		'en-us': "Ruby & Sapphire",
+		'fr-fr': "EX Rubis & Saphir",
+		'es-es': "Rubí & Zafiro",
+		'it-it': "EX Rubino & Zaffiro",
+		'de-de': "EX Rubin & Saphir",
+		'pt-br': "EX Rubi e Safira" // pt_PT and not pt_BR ?
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const ex1: Set = {
 
 	abbreviations: {
 		official: "RS",
-		fr: "R&S"
+		'fr-fr': "R&S"
 	},
 
 	thirdParty: {

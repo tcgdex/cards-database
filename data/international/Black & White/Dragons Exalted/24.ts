@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
-		fr: "Léviator",
-		es: "Gyarados",
-		it: "Gyarados",
-		pt: "Gyarados",
-		de: "Garados"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'es-es': "Gyarados",
+		'it-it': "Gyarados",
+		'pt-br': "Gyarados",
+		'de-de': "Garados"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe",
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
 	},
 
 	stage: "Stage1",
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc Aiguisé",
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc Aiguisé",
 			},
 
 			damage: 60,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swing Around",
-				fr: "Balançoire",
+				'en-us': "Swing Around",
+				'fr-fr': "Balançoire",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+		'en-us': "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
 	},
 
 	thirdParty: {

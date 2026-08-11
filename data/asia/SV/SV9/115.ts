@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リーリエのピッピex"
+		'ja-jp': "リーリエのピッピex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,11 +20,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "フェアリーゾーン"
+			'ja-jp': "フェアリーゾーン"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、相手の場のポケモン全員の弱点は、すべてタイプになる。［弱点は「×2」で計算する。］"
+			'ja-jp': "このポケモンがいるかぎり、相手の場のポケモン全員の弱点は、すべてタイプになる。［弱点は「×2」で計算する。］"
 		}
 	}],
 
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "フルムーンロンド"
+			'ja-jp': "フルムーンロンド"
 		},
 
 		damage: "20＋",
 
 		effect: {
-			ja: "おたがいのベンチポケモンの数×20ダメージ追加。"
+			'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。"
 		}
 	}],
 

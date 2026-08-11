@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				de: "Light Punch"
+				'en-us': "Light Punch",
+				'de-de': "Light Punch"
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Drain",
-				de: "Dig Drain"
+				'en-us': "Dig Drain",
+				'de-de': "Dig Drain"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Larvitar.",
-				de: "Remove 1 damage counter from Larvitar."
+				'en-us': "Remove 1 damage counter from Larvitar.",
+				'de-de': "Remove 1 damage counter from Larvitar."
 			},
 			damage: 20,
 

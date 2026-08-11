@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グロビル",
+		'ja-jp': "グロビル",
 	},
 
 	rarity: "Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "検出する",
+				'ja-jp': "検出する",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手の次のターン中にグロビルに行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手の次のターン中にグロビルに行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "スマッシュキック",
+				'ja-jp': "スマッシュキック",
 			},
 			damage: 30,
 		},

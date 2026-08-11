@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Narumi Sato",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Wild Charge",
-			fr: "Éclair Fou",
-			es: "Voltio Cruel",
-			it: "Sprizzalampo",
-			pt: "Ataque Selvagem",
-			de: "Stromstoß"
+			'en-us': "Wild Charge",
+			'fr-fr': "Éclair Fou",
+			'es-es': "Voltio Cruel",
+			'it-it': "Sprizzalampo",
+			'pt-br': "Ataque Selvagem",
+			'de-de': "Stromstoß"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 90
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+		'en-us': "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
 	},
 
 	

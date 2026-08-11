@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のマタドガス",
+		'ja-jp': "ロケット団のマタドガス",
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "体内に 含まれる 毒ガスを ぎりぎりまで 薄めると 最高級の 香水ができる。",
+		'ja-jp': "体内に 含まれる 毒ガスを ぎりぎりまで 薄めると 最高級の 香水ができる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "おたがいの場の、名前に「ドガース」または「マタドガス」とつくポケモンの数×40ダメージ。",
+				'ja-jp': "おたがいの場の、名前に「ドガース」または「マタドガス」とつくポケモンの数×40ダメージ。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のドガース",
+		'ja-jp': "ロケット団のドガース",
 	},
 
 	retreat: 2,

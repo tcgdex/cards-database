@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Sumiyoshi Kizuki",
 
 	description: {
-		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+		'en-us': "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Smack",
-			fr: "Claque",
-			de: "Klatscher",
-			es: "Palmetazo",
-			pt: "Estalo",
-			it: "Schiaffo"
+			'en-us': "Smack",
+			'fr-fr': "Claque",
+			'de-de': "Klatscher",
+			'es-es': "Palmetazo",
+			'pt-br': "Estalo",
+			'it-it': "Schiaffo"
 		},
 
 		damage: 20

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Primeape"
+		'en-us': "Brock's Primeape"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Scram"
+				'en-us': "Scram"
 			},
 			effect: {
-				en: "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed."
+				'en-us': "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mega Thrash"
+				'en-us': "Mega Thrash"
 			},
 			effect: {
-				en: "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
+				'en-us': "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
 			},
 			damage: 60,
 

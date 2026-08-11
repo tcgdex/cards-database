@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Arboliva",
-		en: "Arboliva",
-		es: "Arboliva",
-		it: "Arboliva",
-		pt: "Arboliva",
-		de: "Olithena"
+		'fr-fr': "Arboliva",
+		'en-us': "Arboliva",
+		'es-es': "Arboliva",
+		'it-it': "Arboliva",
+		'pt-br': "Arboliva",
+		'de-de': "Olithena"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Grass"],
   dexId: [930],
   evolveFrom: {
-		en: "Dolliv",
-		fr: "Olivado",
-		de: "Olivinio",
-		it: "Dolliv",
-		es: "Dolliv",
-		pt: "Dolliv",
+		'en-us': "Dolliv",
+		'fr-fr': "Olivado",
+		'de-de': "Olivinio",
+		'it-it': "Dolliv",
+		'es-es': "Dolliv",
+		'pt-br': "Dolliv",
 		'es-mx': "Dolliv"
   },
   description: {

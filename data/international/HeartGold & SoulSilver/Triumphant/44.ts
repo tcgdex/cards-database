@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Marowak",
-		fr: "Ossatueur",
-		de: "Knogga"
+		'en-us': "Marowak",
+		'fr-fr': "Ossatueur",
+		'de-de': "Knogga"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
-		fr: "Osselait"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bonemerang",
-				fr: "Osmerang",
-				de: "Knochmerang"
+				'en-us': "Bonemerang",
+				'fr-fr': "Osmerang",
+				'de-de': "Knochmerang"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "60×",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bone Impact",
-				fr: "Impact osseux",
-				de: "Knocheneinschlag"
+				'en-us': "Bone Impact",
+				'fr-fr': "Impact osseux",
+				'de-de': "Knocheneinschlag"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 20 damage plus 60 more damage. Discard that Stadium card.",
-				fr: "Si une carte Stade est en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Défaussez cette carte Stade.",
-				de: "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu. Lege die Stadion-Karte auf den jeweiligen Ablagestapel."
+				'en-us': "If there is any Stadium card in play, this attack does 20 damage plus 60 more damage. Discard that Stadium card.",
+				'fr-fr': "Si une carte Stade est en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Défaussez cette carte Stade.",
+				'de-de': "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu. Lege die Stadion-Karte auf den jeweiligen Ablagestapel."
 			},
 			damage: "20+",
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
+		'en-us': "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
 	},
 
 	variants: [

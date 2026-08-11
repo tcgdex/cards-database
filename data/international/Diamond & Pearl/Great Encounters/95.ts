@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		fr: "Goelise",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goelise",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Drip",
-				fr: "Goutte à goutte",
-				de: "Spritzwasser"
+				'en-us': "Water Drip",
+				'fr-fr': "Goutte à goutte",
+				'de-de': "Spritzwasser"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 20,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+		'en-us': "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
 	},
 
 	thirdParty: {

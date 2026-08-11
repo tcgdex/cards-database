@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲキ",
+		'ja-jp': "ナゲキ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "帯を 締めると パワーアップする。 野生の ナゲキは つる草を 編んで 自分の 帯を 作る。",
+		'ja-jp': "帯を 締めると パワーアップする。 野生の ナゲキは つる草を 編んで 自分の 帯を 作る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
 			},
 		},
 	],

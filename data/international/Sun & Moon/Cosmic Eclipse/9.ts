@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		es: "Heracross",
-		it: "Heracross",
-		pt: "Heracross",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'es-es': "Heracross",
+		'it-it': "Heracross",
+		'pt-br': "Heracross",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				es: "Arremeter",
-				it: "Affondo Lungo",
-				pt: "Bote",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'es-es': "Arremeter",
+				'it-it': "Affondo Lungo",
+				'pt-br': "Bote",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 20,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Riled Horn",
-				fr: "Corne Irritée",
-				es: "Cuerno Enfurecido",
-				it: "Corna Rabbiose",
-				pt: "Chifre Raivoso",
-				de: "Wuthorn"
+				'en-us': "Riled Horn",
+				'fr-fr': "Corne Irritée",
+				'es-es': "Cuerno Enfurecido",
+				'it-it': "Corna Rabbiose",
+				'pt-br': "Chifre Raivoso",
+				'de-de': "Wuthorn"
 			},
 			effect: {
-				en: "If your opponent has any TAG TEAM Pokémon in play, this attack does 70 more damage.",
-				fr: "Si votre adversaire a au moins un Pokémon ESCOUADE en jeu, cette attaque inflige 70 dégâts supplémentaires.",
-				es: "Si tu rival tiene algún Pokémon de equipo de RELEVOS en juego, este ataque hace 70 puntos de daño más.",
-				it: "Se il tuo avversario ha dei Pokémon ALLEATI in gioco, questo attacco infligge 70 danni in più.",
-				pt: "Se o seu oponente tiver algum Pokémon ALIADOS em jogo, este ataque causará 70 pontos de dano a mais.",
-				de: "Wenn dein Gegner mindestens 1 TAG TEAM Pokémon im Spiel hat, fügt diese Attacke 70 Schadenspunkte mehr zu."
+				'en-us': "If your opponent has any TAG TEAM Pokémon in play, this attack does 70 more damage.",
+				'fr-fr': "Si votre adversaire a au moins un Pokémon ESCOUADE en jeu, cette attaque inflige 70 dégâts supplémentaires.",
+				'es-es': "Si tu rival tiene algún Pokémon de equipo de RELEVOS en juego, este ataque hace 70 puntos de daño más.",
+				'it-it': "Se il tuo avversario ha dei Pokémon ALLEATI in gioco, questo attacco infligge 70 danni in più.",
+				'pt-br': "Se o seu oponente tiver algum Pokémon ALIADOS em jogo, este ataque causará 70 pontos de dano a mais.",
+				'de-de': "Wenn dein Gegner mindestens 1 TAG TEAM Pokémon im Spiel hat, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It's proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it's always fighting with.",
+		'en-us': "It's proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it's always fighting with.",
 	},
 
 	thirdParty: {

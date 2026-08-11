@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アローラ ナッシーex"
+		'ja-jp': "アローラ ナッシーex"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Grass", "Water"],
 
 		name: {
-			ja: "トロピカルフィーバー"
+			'ja-jp': "トロピカルフィーバー"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。"
+			'ja-jp': "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。"
 		}
 	}, {
 		cost: ["Grass", "Water", "Fighting"],
 
 		name: {
-			ja: "ブンブンスフェーン"
+			'ja-jp': "ブンブンスフェーン"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトル場のたねポケモンをきぜつさせる。ウラなら、相手のベンチのたねポケモンを1匹選び、きぜつさせる。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトル場のたねポケモンをきぜつさせる。ウラなら、相手のベンチのたねポケモンを1匹選び、きぜつさせる。"
 		}
 	}],
 

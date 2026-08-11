@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "GIDORA",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Blinding Scythe",
-			fr: "Pulvérisation Aveuglante",
-			es: "Guadaña Cegadora",
-			it: "Falceaccecante",
-			pt: "Foice Ofuscante",
-			de: "Blendende Sense"
+			'en-us': "Blinding Scythe",
+			'fr-fr': "Pulvérisation Aveuglante",
+			'es-es': "Guadaña Cegadora",
+			'it-it': "Falceaccecante",
+			'pt-br': "Foice Ofuscante",
+			'de-de': "Blendende Sense"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
+		'en-us': "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Garbage Collection",
-				fr: "Fouille Poubelle",
+				'en-us': "Garbage Collection",
+				'fr-fr': "Fouille Poubelle",
 			},
 			effect: {
-				en: "Put a card from your discard pile on top of your deck.",
-				fr: "Mettez n'importe quelle carte de votre pile de défausse sur le dessus de votre deck.",
+				'en-us': "Put a card from your discard pile on top of your deck.",
+				'fr-fr': "Mettez n'importe quelle carte de votre pile de défausse sur le dessus de votre deck.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+		'en-us': "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
 	},
 
 	thirdParty: {

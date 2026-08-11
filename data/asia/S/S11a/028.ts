@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミロカロス",
+		'ja-jp': "ミロカロス",
 		'zh-tw': "美納斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
+		'ja-jp': "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
 		'zh-tw': "也被稱為是最美的寶可夢。一直以來為無數的藝術家提供了靈感。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ウォーターアロー",
+				'ja-jp': "ウォーターアロー",
 				'zh-tw': "水箭",
 			},
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "對手的1隻寶可夢受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
 		{
 			name: {
-				ja: "メロウウェーブ",
+				'ja-jp': "メロウウェーブ",
 				'zh-tw': "柔和波",
 			},
 			damage: 60,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
 			},
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Revavroom",
-		fr: "Vrombotor",
-		es: "Revavroom",
-		it: "Revavroom",
-		pt: "Revavroom",
-		de: "Knattatox"
+		'en-us': "Revavroom",
+		'fr-fr': "Vrombotor",
+		'es-es': "Revavroom",
+		'it-it': "Revavroom",
+		'pt-br': "Revavroom",
+		'de-de': "Knattatox"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Varoom",
-		fr: "Vrombi",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'en-us': "Varoom",
+		'fr-fr': "Vrombi",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Outta-Control Dash",
-			fr: "Ruée Incontrôlable",
-			es: "A Todo Gas",
-			it: "Corsa Senza Freni",
-			pt: "Investida Desgovernada",
-			de: "Furioses Flitzen"
+			'en-us': "Outta-Control Dash",
+			'fr-fr': "Ruée Incontrôlable",
+			'es-es': "A Todo Gas",
+			'it-it': "Corsa Senza Freni",
+			'pt-br': "Investida Desgovernada",
+			'de-de': "Furioses Flitzen"
 		},
 
 		damage: 100

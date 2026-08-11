@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	dexId: [810],
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Branch Poke",
-				fr: "Tapotige",
+				'en-us': "Branch Poke",
+				'fr-fr': "Tapotige",
 			},
 
 			damage: 30,
@@ -46,7 +46,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	variants: [

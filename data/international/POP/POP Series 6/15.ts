@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Piplup"
+		'en-us': "Piplup",
+		'fr-fr': "Piplup"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -26,8 +26,8 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Peck",
-				fr: "Picpic"
+				'en-us': "Peck",
+				'fr-fr': "Picpic"
 			},
 
 			damage: 10,
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Spash",
-				fr: "Éclaboussure"
+				'en-us': "Water Spash",
+				'fr-fr': "Éclaboussure"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -58,7 +58,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+		'en-us': "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
 
 	retreat: 1,

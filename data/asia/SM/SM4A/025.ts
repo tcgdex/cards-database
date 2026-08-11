@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジロック",
+		'ja-jp': "レジロック",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身が 岩で できている。 戦いで 体が 欠けても 岩を くっつけて 治してしまう。",
+		'ja-jp': "全身が 岩で できている。 戦いで 体が 欠けても 岩を くっつけて 治してしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いわやまのうなり" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の「レジスチル」が使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の「レジスチル」が使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゾロア",
-		id: "Zorua",
-		th: "โซรัว",
+		'ja-jp': "ゾロア",
+		'id-id': "Zorua",
+		'th-th': "โซรัว",
 		'zh-tw': "索羅亞",
 		'zh-cn': "索羅亞"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
-		id: "Zorua menjelma menjadi manusia atau Pokémon lain. Dengan menyembunyikan identitasnya, Pokémon ini melindungi dirinya dari bahaya.",
-		th: "แปลงกายเป็นคนหรือโปเกมอนตัวอื่น ซ่อนตัวตนที่แท้จริงเพื่อปกป้องตัวเองจากอันตราย",
+		'ja-jp': "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
+		'id-id': "Zorua menjelma menjadi manusia atau Pokémon lain. Dengan menyembunyikan identitasnya, Pokémon ini melindungi dirinya dari bahaya.",
+		'th-th': "แปลงกายเป็นคนหรือโปเกมอนตัวอื่น ซ่อนตัวตนที่แท้จริงเพื่อปกป้องตัวเองจากอันตราย",
 		'zh-tw': "會化為人類或其他的寶可夢。 透過隱藏自己原本的面貌， 保護自己不遇危險。",
 		'zh-cn': "會化為人類或其他的寶可夢。 透過隱藏自己原本的面貌， 保護自己不遇危險。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふむ",
-			id: "Menginjak",
-			th: "เหยียบ",
+			'ja-jp': "ふむ",
+			'id-id': "Menginjak",
+			'th-th': "เหยียบ",
 			'zh-tw': "踩",
 			'zh-cn': "踩"
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "ダブルひっかき",
-			id: "Cakaran Ganda",
-			th: "ข่วนทวีคูณ",
+			'ja-jp': "ダブルひっかき",
+			'id-id': "Cakaran Ganda",
+			'th-th': "ข่วนทวีคูณ",
 			'zh-tw': "雙重抓",
 			'zh-cn': "雙重抓"
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 		damage: "20×",
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数×20ダメージ。",
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan.",
-			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20",
+			'ja-jp': "コインを2回投げ、オモテの数×20ダメージ。",
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan.",
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20",
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。",
 			'zh-cn': "擲2次硬幣，造成正面出現的次數×20點傷害。"
 		}

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				de: "Hieb"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'de-de': "Hieb"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teleportation Burst",
-				fr: "Téléportation explosive",
-				de: "Blitz-Teleportation"
+				'en-us': "Teleportation Burst",
+				'fr-fr': "Téléportation explosive",
+				'de-de': "Blitz-Teleportation"
 			},
 			effect: {
-				en: "Switch Ralts with 1 of your Benched Pokémon.",
-				fr: "Échangez Tarsal avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Trasla gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Ralts with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Tarsal avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Trasla gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

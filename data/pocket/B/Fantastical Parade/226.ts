@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [250],
 
 	name: {
-		en: "Ho-Oh ex"
+		'en-us': "Ho-Oh ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,14 +20,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Phoenix Turbo"
+			'en-us': "Phoenix Turbo"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Take a {R}, {W}, and {L} Energy from your Energy Zone and attach them to your Benched Basic Pokémon in any way you like."
+			'en-us': "Take a {R}, {W}, and {L} Energy from your Energy Zone and attach them to your Benched Basic Pokémon in any way you like."
 		}
 	}],
 

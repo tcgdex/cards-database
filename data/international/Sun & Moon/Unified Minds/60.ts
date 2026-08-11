@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
-		es: "Magnezone",
-		it: "Magnezone",
-		pt: "Magnezone",
-		de: "Magnezone"
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
+		'es-es': "Magnezone",
+		'it-it': "Magnezone",
+		'pt-br': "Magnezone",
+		'de-de': "Magnezone"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magnéton",
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Double Type",
-				fr: "Type Double",
-				es: "Doble Tipo",
-				it: "Doppio Tipo",
-				pt: "Tipo Duplo",
-				de: "Doppeltyp"
+				'en-us': "Double Type",
+				'fr-fr': "Type Double",
+				'es-es': "Doble Tipo",
+				'it-it': "Doppio Tipo",
+				'pt-br': "Tipo Duplo",
+				'de-de': "Doppeltyp"
 			},
 			effect: {
-				en: "As long as this Pokémon is in play, it is Lightning and Metal type.",
-				fr: "Tant que ce Pokémon est en jeu, il est de type Lightning et Metal.",
-				es: "Mientras este Pokémon esté en juego, es de tipo Lightning y Metal.",
-				it: "Fintanto che questo Pokémon è in gioco, è di tipo Lightning e Metal.",
-				pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Lightning e Metal.",
-				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ Lightning und Metal."
+				'en-us': "As long as this Pokémon is in play, it is Lightning and Metal type.",
+				'fr-fr': "Tant que ce Pokémon est en jeu, il est de type Lightning et Metal.",
+				'es-es': "Mientras este Pokémon esté en juego, es de tipo Lightning y Metal.",
+				'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo Lightning e Metal.",
+				'pt-br': "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Lightning e Metal.",
+				'de-de': "Solang dieses Pokémon im Spiel ist, ist es vom Typ Lightning und Metal."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Bolt",
-				fr: "Foudre Aimantée",
-				es: "Relámpago Magnético",
-				it: "Saetta Magnetica",
-				pt: "Relâmpago Magnético",
-				de: "Magnetschlag"
+				'en-us': "Magnetic Bolt",
+				'fr-fr': "Foudre Aimantée",
+				'es-es': "Relámpago Magnético",
+				'it-it': "Saetta Magnetica",
+				'pt-br': "Relâmpago Magnético",
+				'de-de': "Magnetschlag"
 			},
 			effect: {
-				en: "Put a Trainer card from your discard pile into your hand.",
-				fr: "Ajoutez une carte Dresseur de votre pile de défausse à votre main.",
-				es: "Pon 1 carta de Entrenador de tu pila de descartes en tu mano.",
-				it: "Prendi una carta Allenatore dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
-				pt: "Coloque uma carta de Treinador da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Trainerkarte aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put a Trainer card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez une carte Dresseur de votre pile de défausse à votre main.",
+				'es-es': "Pon 1 carta de Entrenador de tu pila de descartes en tu mano.",
+				'it-it': "Prendi una carta Allenatore dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+				'pt-br': "Coloque uma carta de Treinador da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 1 Trainerkarte aus deinem Ablagestapel auf deine Hand."
 			},
 			damage: 120,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It uses radar to monitor its territory. Intruders are quickly disposed of with a hyper beam.",
+		'en-us': "It uses radar to monitor its territory. Intruders are quickly disposed of with a hyper beam.",
 	},
 
 	thirdParty: {

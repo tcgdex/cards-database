@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクケイル",
+		'ja-jp': "ドクケイル",
 	},
 
 	illustrator: "IKEDA Saki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "夜行性の ポケモン。 明かりに 誘われた ドクケイルが 街路樹の 葉を 食い散らかす。",
+		'ja-jp': "夜行性の ポケモン。 明かりに 誘われた ドクケイルが 街路樹の 葉を 食い散らかす。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さざめくかぜ" },
 			effect: {
-				ja: "自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+				'ja-jp': "自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとねむりにする。",
+				'ja-jp': "相手のバトルポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マユルド",
+		'ja-jp': "マユルド",
 	},
 
 	retreat: 1,

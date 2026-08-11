@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "瞑想",
+		'ja-jp': "瞑想",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "キック",
+				'ja-jp': "キック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "純粋な力",
+				'ja-jp': "純粋な力",
 			},
 			effect: {
-				ja: "相手のポケモンに2つのダメージカウンターを、好きなように配置します。",
+				'ja-jp': "相手のポケモンに2つのダメージカウンターを、好きなように配置します。",
 			},
 		},
 	],

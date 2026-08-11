@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
-		it: "Buneary",
-		pt: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
+		'it-it': "Buneary",
+		'pt-br': "Buneary",
+		'de-de': "Haspiror"
 	},
 
 	illustrator: "saino misaki",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Try Bouncing",
-			fr: "Bond d'Essai",
-			es: "Prueba Rebote",
-			it: "Balzoprova",
-			pt: "Tentativa Saltitante",
-			de: "Hüpfversuch"
+			'en-us': "Try Bouncing",
+			'fr-fr': "Bond d'Essai",
+			'es-es': "Prueba Rebote",
+			'it-it': "Balzoprova",
+			'pt-br': "Tentativa Saltitante",
+			'de-de': "Hüpfversuch"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
+		'en-us': "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
 	},
 
 	variants: [

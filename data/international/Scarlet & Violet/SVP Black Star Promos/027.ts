@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			en: "Adventuring Together",
-			fr: "Aventure en Groupe",
-			es: "Juntos de Aventura",
-			it: "Avventure in Compagnia",
-			pt: "Aventura em Grupo",
-			de: "Gemeinsames Abenteuer"
+			'en-us': "Adventuring Together",
+			'fr-fr': "Aventure en Groupe",
+			'es-es': "Juntos de Aventura",
+			'it-it': "Avventure in Compagnia",
+			'pt-br': "Aventura em Grupo",
+			'de-de': "Gemeinsames Abenteuer"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
-			es: "Este ataque hace 10 puntos de daño más por cada uno de tus Pokémon en Banca.",
-			it: "Questo attacco infligge 10 danni in più per ogni Pokémon nella tua panchina.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada um dos seus Pokémon no Banco.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada uno de tus Pokémon en Banca.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni Pokémon nella tua panchina.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada um dos seus Pokémon no Banco.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Atsushi Furusawa",
 	description: {
-		en: "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
+		'en-us': "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
 	},
 	variants: [
 		{

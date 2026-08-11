@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcracrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcracrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sniff Out",
-				fr: "Flairer",
-				de: "Rumschnüffeln"
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer",
+				'de-de': "Rumschnüffeln"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c'est face, placez n'importe quelle carte de votre pile de défausse dans votre main.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
+				'en-us': "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 30,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+		'en-us': "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
 	},
 
 	thirdParty: {

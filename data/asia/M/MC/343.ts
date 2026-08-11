@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベロバー",
+		'ja-jp': "ベロバー",
 	},
 
 	illustrator: "Haru Akasaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "群れを 作って 暮らし おたがいに 悪戯や 嫌がらせを 仕掛けて その腕を 磨いているぞ。",
+		'ja-jp': "群れを 作って 暮らし おたがいに 悪戯や 嫌がらせを 仕掛けて その腕を 磨いているぞ。",
 	},
 
 	stage: "Basic",

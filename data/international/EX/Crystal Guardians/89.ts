@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Aggron ex",
-		fr: "Galeking ex",
-		de: "Stolloss ex"
+		'en-us': "Aggron ex",
+		'fr-fr': "Galeking ex",
+		'de-de': "Stolloss ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Armor",
-				fr: "Armure intimidante",
-				de: "Einschüchternde Rüstung"
+				'en-us': "Intimidating Armor",
+				'fr-fr': "Armure intimidante",
+				'de-de': "Einschüchternde Rüstung"
 			},
 			effect: {
-				en: "As long as Aggron ex is your Active Pokémon, your opponent's Basic Pokémon can't attack or use any Poké-Powers or Poké-Bodies.",
-				fr: "Tant que Galeking ex est votre Pokémon Actif, les Pokémon de base de votre adversaire ne peuvent pas attaquer ni utiliser de Poké-Powers ou de Poké-Bodies.",
-				de: "Solange Stolloss ex dein Aktives Pokémon ist, können die Basis-Pokémon deines Gegners nicht angreifen oder ihre Poké-Power oder Poké-Body benutzen."
+				'en-us': "As long as Aggron ex is your Active Pokémon, your opponent's Basic Pokémon can't attack or use any Poké-Powers or Poké-Bodies.",
+				'fr-fr': "Tant que Galeking ex est votre Pokémon Actif, les Pokémon de base de votre adversaire ne peuvent pas attaquer ni utiliser de Poké-Powers ou de Poké-Bodies.",
+				'de-de': "Solange Stolloss ex dein Aktives Pokémon ist, können die Basis-Pokémon deines Gegners nicht angreifen oder ihre Poké-Power oder Poké-Body benutzen."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Bomb",
-				fr: "Bombe fendante",
-				de: "Splitterbombe"
+				'en-us': "Split Bomb",
+				'fr-fr': "Bombe fendante",
+				'de-de': "Splitterbombe"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -73,14 +73,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Burn",
-				fr: "Méga brûlure",
-				de: "Megaverbrennung"
+				'en-us': "Mega Burn",
+				'fr-fr': "Méga brûlure",
+				'de-de': "Megaverbrennung"
 			},
 			effect: {
-				en: "During your next turn, Aggron ex can't use Mega Burn.",
-				fr: "Lors de votre prochain tour, Galeking ex ne pourra pas utiliser Méga brûlure.",
-				de: "Während deines nächsten Zuges kann Stolloss ex Megaverbrennung nicht einsetzen."
+				'en-us': "During your next turn, Aggron ex can't use Mega Burn.",
+				'fr-fr': "Lors de votre prochain tour, Galeking ex ne pourra pas utiliser Méga brûlure.",
+				'de-de': "Während deines nächsten Zuges kann Stolloss ex Megaverbrennung nicht einsetzen."
 			},
 			damage: 100,
 

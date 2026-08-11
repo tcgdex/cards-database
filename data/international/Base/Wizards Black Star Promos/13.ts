@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
+		'en-us': "Venusaur",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Ivysaur",
+		'en-us': "Ivysaur",
 	},
 	stage: "Stage2",
 
@@ -26,10 +26,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Solar Power",
+				'en-us': "Solar Power",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Your Active Pokémon and the Defending Pokémon are no longer Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed.",
+				'en-us': "Once during your turn (before your attack), you may use this power. Your Active Pokémon and the Defending Pokémon are no longer Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -42,10 +42,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
+				'en-us': "Mega Drain",
 			},
 			effect: {
-				en: "Remove a number of damage counters from Venusaur equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Venusaur has fewer damage counters than that, remove all of them.",
+				'en-us': "Remove a number of damage counters from Venusaur equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Venusaur has fewer damage counters than that, remove all of them.",
 			},
 			damage: 40,
 
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+		'en-us': "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
 
 	variants: [

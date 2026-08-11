@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイラニター",
+		'ja-jp': "タイラニター",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "暗いオーラ",
+				'ja-jp': "暗いオーラ",
 			},
 			effect: {
-				ja: "Tyranitarに取り付けられたすべてのエネルギーは、通常のタイプではなくDarkness Energyです。",
+				'ja-jp': "Tyranitarに取り付けられたすべてのエネルギーは、通常のタイプではなくDarkness Energyです。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness"],
 			name: {
-				ja: "スタンプ",
+				'ja-jp': "スタンプ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は50ダメージに加えて10ダメージを与え、相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は50ダメージに加えて10ダメージを与え、相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

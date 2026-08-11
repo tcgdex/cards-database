@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラ",
+		'ja-jp': "マニューラ",
 		'zh-tw': "瑪狃拉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "４～５匹の グループで 行動。 岩や 樹木に サインを 残し 連係して 獲物を 仕留める。",
+		'ja-jp': "４～５匹の グループで 行動。 岩や 樹木に サインを 残し 連係して 獲物を 仕留める。",
 		'zh-tw': "４～５隻一組行動。 在岩石和樹木上留下記號， 以團隊合作捕殺獵物。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
 			},
 			damage: 40,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ヘイルクロー",
+				'ja-jp': "ヘイルクロー",
 				'zh-tw': "冰雹爪",
 			},
 			damage: 70,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄，將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 1,

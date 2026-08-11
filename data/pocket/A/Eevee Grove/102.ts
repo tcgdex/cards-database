@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho"
 	},
 
 	illustrator: "MAHOU",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "The stalk this Pokémon carries in its wings serves\nas a sword to cut down opponents. In a dire\nsituation, the stalk can also serve as food.",
-		fr: "Il tranche ses adversaires avec sa tige, qu'il manie comme une épée. Quand la situation l'exige, il s'en nourrit."
+		'en-us': "The stalk this Pokémon carries in its wings serves\nas a sword to cut down opponents. In a dire\nsituation, the stalk can also serve as food.",
+		'fr-fr': "Il tranche ses adversaires avec sa tige, qu'il manie comme une épée. Quand la situation l'exige, il s'en nourrit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Leek Slap",
-			fr: "Coup d'Oignon"
+			'en-us': "Leek Slap",
+			'fr-fr': "Coup d'Oignon"
 		},
 
 		damage: 40,

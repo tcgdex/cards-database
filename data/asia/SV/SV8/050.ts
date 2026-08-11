@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグノム",
+		'ja-jp': "アグノム",
 		'zh-tw': "亞克諾姆",
 		'zh-cn': "亞克諾姆",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
+		'ja-jp': "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
 		'zh-tw': "被稱為意志之神。 在湖底沉睡著， 維持世界的平衡。",
 		'zh-cn': "被稱為意志之神。 在湖底沉睡著， 維持世界的平衡。",
 	},
@@ -25,14 +25,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "マインドキネシス",
+				'ja-jp': "マインドキネシス",
 				'zh-tw': "意志強念",
 				'zh-cn': "意志強念",
 			},
 			damage: "10+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
 				'zh-tw': "增加對手的所有寶可夢身上放置的傷害指示物的數量×10點傷害。",
 				'zh-cn': "增加對手的所有寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			},

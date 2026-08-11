@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Togetic"
+		'id-id': "Togetic"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Togetic akan menjadi tidak sehat jika tidak berada di samping orang yang lemah lembut hatinya. Pokémon ini dapat mengambang di udara tanpa menggerakkan sayap."
+		'id-id': "Togetic akan menjadi tidak sehat jika tidak berada di samping orang yang lemah lembut hatinya. Pokémon ini dapat mengambang di udara tanpa menggerakkan sayap."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Share Peace"
+			'id-id': "Share Peace"
 		},
 
 		effect: {
-			id: "Kedua pemain masing-masing mengambil 3 kartu dari atas Deck."
+			'id-id': "Kedua pemain masing-masing mengambil 3 kartu dari atas Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Terbang Cepat"
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 40,

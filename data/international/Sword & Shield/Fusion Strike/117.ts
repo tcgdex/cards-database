@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Corsola",
-		fr: "Corayon de Galar",
-		es: "Corsola de Galar",
-		it: "Corsola di Galar",
-		pt: "Corsola de Galar",
-		de: "Galar-Corasonn"
+		'en-us': "Galarian Corsola",
+		'fr-fr': "Corayon de Galar",
+		'es-es': "Corsola de Galar",
+		'it-it': "Corsola di Galar",
+		'pt-br': "Corsola de Galar",
+		'de-de': "Galar-Corasonn"
 	},
 
 	rarity: "Common",
@@ -36,19 +36,19 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches."
+		'en-us': "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			es: "Placaje",
-			pt: "Investida",
-			it: "Azione"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
+			'it-it': "Azione"
 		},
 
 		damage: 30

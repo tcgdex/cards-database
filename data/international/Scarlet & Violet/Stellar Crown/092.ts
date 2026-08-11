@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swalot",
-		fr: "Avaltout",
-		es: "Swalot",
-		it: "Swalot",
-		pt: "Swalot",
-		de: "Schlukwech"
+		'en-us': "Swalot",
+		'fr-fr': "Avaltout",
+		'es-es': "Swalot",
+		'it-it': "Swalot",
+		'pt-br': "Swalot",
+		'de-de': "Schlukwech"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		es: "Gulpin",
-		it: "Gulpin",
-		pt: "Gulpin",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'es-es': "Gulpin",
+		'it-it': "Gulpin",
+		'pt-br': "Gulpin",
+		'de-de': "Schluppuck"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Devouring Mouth",
-			fr: "Bouche Dévoreuse",
-			es: "Boca Devoradora",
-			it: "Bocca Divoratrice",
-			pt: "Bocona Devoradora",
-			de: "Verschlingermaul"
+			'en-us': "Devouring Mouth",
+			'fr-fr': "Bouche Dévoreuse",
+			'es-es': "Boca Devoradora",
+			'it-it': "Bocca Divoratrice",
+			'pt-br': "Bocona Devoradora",
+			'de-de': "Verschlingermaul"
 		},
 
 		effect: {
-			en: "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 160 more damage.",
-			fr: "Si ce Pokémon a plus d'Énergies attachées que le Pokémon Actif de votre adversaire, cette attaque inflige 160 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene más Energía unida que el Pokémon Activo de tu rival, este ataque hace 160 puntos de daño más.",
-			it: "Se questo Pokémon ha più Energie assegnate del Pokémon attivo del tuo avversario, questo attacco infligge 160 danni in più.",
-			pt: "Se este Pokémon tiver mais Energia ligada a ele do que o Pokémon Ativo do seu oponente, este ataque causará 160 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mehr Energie angelegt ist als an das Aktive Pokémon deines Gegners, fügt diese Attacke 160 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 160 more damage.",
+			'fr-fr': "Si ce Pokémon a plus d'Énergies attachées que le Pokémon Actif de votre adversaire, cette attaque inflige 160 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene más Energía unida que el Pokémon Activo de tu rival, este ataque hace 160 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha più Energie assegnate del Pokémon attivo del tuo avversario, questo attacco infligge 160 danni in più.",
+			'pt-br': "Se este Pokémon tiver mais Energia ligada a ele do que o Pokémon Ativo do seu oponente, este ataque causará 160 pontos de dano a mais.",
+			'de-de': "Wenn an dieses Pokémon mehr Energie angelegt ist als an das Aktive Pokémon deines Gegners, fügt diese Attacke 160 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Venomous Hit",
-			fr: "Frappe Venimeuse",
-			es: "Golpe Venenoso",
-			it: "Colpo Velenoso",
-			pt: "Golpe Venenoso",
-			de: "Giftiger Schlag"
+			'en-us': "Venomous Hit",
+			'fr-fr': "Frappe Venimeuse",
+			'es-es': "Golpe Venenoso",
+			'it-it': "Colpo Velenoso",
+			'pt-br': "Golpe Venenoso",
+			'de-de': "Giftiger Schlag"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 100

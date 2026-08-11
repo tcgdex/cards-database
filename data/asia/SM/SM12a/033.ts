@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャワーズ",
+		'ja-jp': "シャワーズ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "綺麗な 水辺が 主な 棲み処。 外敵に 襲われそうに なると 水に 飛び込み 姿を 隠す。",
+		'ja-jp': "綺麗な 水辺が 主な 棲み処。 外敵に 襲われそうに なると 水に 飛び込み 姿を 隠す。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バイタルエール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」全員の最大HPは、それぞれ「60」大きくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない",
+				'ja-jp': "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」全員の最大HPは、それぞれ「60」大きくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "分のポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "分のポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

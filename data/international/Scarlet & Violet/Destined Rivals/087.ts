@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Mimikyu",
-		fr: "Mimiqui de la Team Rocket",
-		de: "Team Rockets Mimigma",
-		it: "Mimikyu del Team Rocket",
-		es: "Mimikyu del Team Rocket",
-		pt: "Mimikyu da Equipe Rocket",
+		'en-us': "Team Rocket's Mimikyu",
+		'fr-fr': "Mimiqui de la Team Rocket",
+		'de-de': "Team Rockets Mimigma",
+		'it-it': "Mimikyu del Team Rocket",
+		'es-es': "Mimikyu del Team Rocket",
+		'pt-br': "Mimikyu da Equipe Rocket",
 		'es-mx': "Mimikyu del Equipo Rocket"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Gemstone Mimicry",
-			fr: "Gemme Mimique",
-			de: "Edelstein-Imitation",
-			it: "Imitagemma",
-			es: "Mimetismo Gema",
-			pt: "Mimetismo de Joias",
+			'en-us': "Gemstone Mimicry",
+			'fr-fr': "Gemme Mimique",
+			'de-de': "Edelstein-Imitation",
+			'it-it': "Imitagemma",
+			'es-es': "Mimetismo Gema",
+			'pt-br': "Mimetismo de Joias",
 			'es-mx': "Gema de Imitación"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Tera Pokémon's attacks and use it as this attack.",
-			fr: "Choisissez l'une des attaques du Pokémon Téracristal Actif de votre adversaire et utilisez-la en tant que cette attaque.",
-			de: "Wähle 1 Attacke des Aktiven Terakristall-Pokémon deines Gegners und setze sie als diese Attacke ein.",
-			it: "Scegli un attacco del Pokémon Teracristal attivo del tuo avversario e usalo al posto di questo attacco.",
-			es: "Elige uno de los ataques del Pokémon Teracristal Activo de tu rival y úsalo para este ataque.",
-			pt: "Escolha 1 dos ataques do Pokémon Tera Ativo do seu oponente e use-o como este ataque.",
+			'en-us': "Choose 1 of your opponent's Active Tera Pokémon's attacks and use it as this attack.",
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Téracristal Actif de votre adversaire et utilisez-la en tant que cette attaque.",
+			'de-de': "Wähle 1 Attacke des Aktiven Terakristall-Pokémon deines Gegners und setze sie als diese Attacke ein.",
+			'it-it': "Scegli un attacco del Pokémon Teracristal attivo del tuo avversario e usalo al posto di questo attacco.",
+			'es-es': "Elige uno de los ataques del Pokémon Teracristal Activo de tu rival y úsalo para este ataque.",
+			'pt-br': "Escolha 1 dos ataques do Pokémon Tera Ativo do seu oponente e use-o como este ataque.",
 			'es-mx': "Elige 1 de los ataques del Pokémon Teracristal Activo de tu rival y úsalo como este ataque."
 		}
 	}],

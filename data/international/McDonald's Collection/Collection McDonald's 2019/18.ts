@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Lokhlass",
+		'fr-fr': "Lokhlass",
 	},
 
 	rarity: "None",
@@ -29,21 +29,21 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Aquaballe"
+				'fr-fr': "Aquaballe"
 			},
 			damage: 20,
 			effect: {
-				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				fr: "Hydrocanon"
+				'fr-fr': "Hydrocanon"
 			},
 			damage: "70+",
 			effect: {
-				fr: "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d'Énergies Water attachées à ce Pokémon."
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d'Énergies Water attachées à ce Pokémon."
 			}
 		},
 	],

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "むしよけスプレー",
+		'ja-jp': "むしよけスプレー",
 	},
 
 	illustrator: "Yoshinobu Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+		'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 	},
 
 	variants: [

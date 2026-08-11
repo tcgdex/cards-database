@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	rarity: "Common",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Energize",
-			fr: "Énergisant",
-			es: "Vigorizar",
-			it: "Energizza",
-			pt: "Energize",
-			de: "Energiezufuhr"
+			'en-us': "Energize",
+			'fr-fr': "Énergisant",
+			'es-es': "Vigorizar",
+			'it-it': "Energizza",
+			'pt-br': "Energize",
+			'de-de': "Energiezufuhr"
 		},
 
 		effect: {
-			en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
-			pt: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'en-us': "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+			'es-es': "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
+			'pt-br': "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+			'de-de': "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Electro Ball",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Electro Ball",
+			'de-de': "Elektroball"
 		},
 
 		damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting."
+		'en-us': "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting."
 	},
 
 	dexId: [25],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Haunt",
-				fr: "Hanter",
-				es: "Espanto",
-				it: "Infestare",
-				pt: "Assombrar",
-				de: "Spuk"
+				'en-us': "Haunt",
+				'fr-fr': "Hanter",
+				'es-es': "Espanto",
+				'it-it': "Infestare",
+				'pt-br': "Assombrar",
+				'de-de': "Spuk"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent’s Active Pokémon.",
-				fr: "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
-				it: "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 3 contadores de dano no Pokémon Ativo do seu oponente.",
-				de: "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 3 damage counters on your opponent’s Active Pokémon.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 3 contadores de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It arrives near the moment of death and steals spirit from the body.",
+		'en-us': "It arrives near the moment of death and steals spirit from the body.",
 	},
 
 	thirdParty: {

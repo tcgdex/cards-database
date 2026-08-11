@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
+		'en-us': "Jigglypuff",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
+				'en-us': "Lullaby",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		'en-us': "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
 

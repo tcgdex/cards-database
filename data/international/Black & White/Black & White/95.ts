@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
-		fr: "Total Soin",
-		es: "Curación Total",
-		it: "Recupero Totale",
-		pt: "Água Fresca",
-		de: "Hyperheiler"
+		'en-us': "Full Heal",
+		'fr-fr': "Total Soin",
+		'es-es': "Curación Total",
+		'it-it': "Recupero Totale",
+		'pt-br': "Água Fresca",
+		'de-de': "Hyperheiler"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez tous les États Spéciaux de votre Pokémon Actif.",
-		en: "Remove all Special Conditions from your Active Pokémon.",
-		es: "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
-		it: "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
-		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
-		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
+		'fr-fr': "Retirez tous les États Spéciaux de votre Pokémon Actif.",
+		'en-us': "Remove all Special Conditions from your Active Pokémon.",
+		'es-es': "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
+		'it-it': "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
+		'pt-br': "Remova todas as Condições Especiais do seu Pokémon Ativo.",
+		'de-de': "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
 	trainerType: "Item",

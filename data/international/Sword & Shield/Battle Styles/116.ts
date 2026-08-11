@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Purugly",
-		fr: "Chaffreux",
-		es: "Purugly",
-		it: "Purugly",
-		pt: "Purugly",
-		de: "Shnurgarst"
+		'en-us': "Purugly",
+		'fr-fr': "Chaffreux",
+		'es-es': "Purugly",
+		'it-it': "Purugly",
+		'pt-br': "Purugly",
+		'de-de': "Shnurgarst"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,42 +21,42 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Glameow",
-		fr: "Chaglam",
-		es: "Glameow",
-		it: "Glameow",
-		pt: "Glameow",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'es-es': "Glameow",
+		'it-it': "Glameow",
+		'pt-br': "Glameow",
+		'de-de': "Charmian"
 	},
 
 	attacks: [{
 		name: {
-			en: "Caturday",
-			fr: "Chamedi",
-			es: "Sábado Gatuno",
-			it: "Giornogatto",
-			pt: "Dia de Gato",
-			de: "Schnurrtag"
+			'en-us': "Caturday",
+			'fr-fr': "Chamedi",
+			'es-es': "Sábado Gatuno",
+			'it-it': "Giornogatto",
+			'pt-br': "Dia de Gato",
+			'de-de': "Schnurrtag"
 		},
 
 		effect: {
-			en: "Draw 3 cards. If you do, this Pokémon is now Asleep.",
-			fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
-			es: "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
-			it: "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
-			pt: "Compre 3 cartas. Se fizer isto, este Pokémon ficará Adormecido.",
-			de: "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
+			'en-us': "Draw 3 cards. If you do, this Pokémon is now Asleep.",
+			'fr-fr': "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+			'es-es': "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
+			'it-it': "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
+			'pt-br': "Compre 3 cartas. Se fizer isto, este Pokémon ficará Adormecido.",
+			'de-de': "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 120,
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
+		'en-us': "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
 	},
 
 	variants: [

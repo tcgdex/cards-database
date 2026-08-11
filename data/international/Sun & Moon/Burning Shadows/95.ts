@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Cutiefly",
-		fr: "Bombydou",
-		es: "Cutiefly",
-		it: "Cutiefly",
-		pt: "Cutiefly",
-		de: "Wommel"
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
+		'es-es': "Cutiefly",
+		'it-it': "Cutiefly",
+		'pt-br': "Cutiefly",
+		'de-de': "Wommel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
-				es: "Viento Feérico",
-				it: "Vento di Fata",
-				pt: "Vento de Fada",
-				de: "Feenbrise"
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
+				'es-es': "Viento Feérico",
+				'it-it': "Vento di Fata",
+				'pt-br': "Vento de Fada",
+				'de-de': "Feenbrise"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+		'en-us': "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
 	},
 
 	thirdParty: {

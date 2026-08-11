@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		es: "Pignite",
-		it: "Pignite",
-		pt: "Pignite",
-		de: "Ferkokel"
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'es-es': "Pignite",
+		'it-it': "Pignite",
+		'pt-br': "Pignite",
+		'de-de': "Ferkokel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Charge",
-				fr: "Nitrocharge",
+				'en-us': "Flame Charge",
+				'fr-fr': "Nitrocharge",
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
-				fr: "Tacle Feu",
+				'en-us': "Heat Crash",
+				'fr-fr': "Tacle Feu",
 			},
 
 			damage: 50,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azelf",
-		fr: "Créfadet",
-		es: "Azelf",
-		it: "Azelf",
-		pt: "Azelf",
-		de: "Tobutz"
+		'en-us': "Azelf",
+		'fr-fr': "Créfadet",
+		'es-es': "Azelf",
+		'it-it': "Azelf",
+		'pt-br': "Azelf",
+		'de-de': "Tobutz"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Neurokinesis",
-			fr: "Neurokinésie",
-			es: "Neuroquinesis",
-			it: "Neurocinèsi",
-			pt: "Neurocinese",
-			de: "Neurokinese"
+			'en-us': "Neurokinesis",
+			'fr-fr': "Neurokinésie",
+			'es-es': "Neuroquinesis",
+			'it-it': "Neurocinèsi",
+			'pt-br': "Neurocinese",
+			'de-de': "Neurokinese"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en cada uno de los Pokémon de tu rival.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sui Pokémon del tuo avversario.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano em todos os Pokémon do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf allen Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each damage counter on all of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur tous les Pokémon de votre adversaire.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en cada uno de los Pokémon de tu rival.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sui Pokémon del tuo avversario.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano em todos os Pokémon do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf allen Pokémon deines Gegners 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

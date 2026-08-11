@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
-				es: "Agarre",
-				it: "Presa",
-				pt: "Agarramento Viciado",
-				de: "Klammer"
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
+				'es-es': "Agarre",
+				'it-it': "Presa",
+				'pt-br': "Agarramento Viciado",
+				'de-de': "Klammer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
-				es: "Desarme",
-				it: "Privazione",
-				pt: "Derrubar",
-				de: "Abschlag"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
+				'es-es': "Desarme",
+				'it-it': "Privazione",
+				'pt-br': "Derrubar",
+				'de-de': "Abschlag"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte um card aleatório da mão de seu oponente.",
-				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte um card aleatório da mão de seu oponente.",
+				'de-de': "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+		'en-us': "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Claydol"
+		'id-id': "Claydol"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Kabarnya Claydol terlahir dari boneka lumpur buatan manusia purba. Pokémon ini menggunakan kekuatan psikokinesis untuk mengambang dan bergerak."
+		'id-id': "Kabarnya Claydol terlahir dari boneka lumpur buatan manusia purba. Pokémon ini menggunakan kekuatan psikokinesis untuk mengambang dan bergerak."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Boneka Gelegar"
+			'id-id': "Boneka Gelegar"
 		},
 
 		effect: {
-			id: "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 10. Setelah itu, berikan kerusakan sejumlah 120 kepada Pokémon ini."
+			'id-id': "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 10. Setelah itu, berikan kerusakan sejumlah 120 kepada Pokémon ini."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Psychotrip"
+			'id-id': "Psychotrip"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャローダV",
+		'ja-jp': "ジャローダV",
 		'zh-tw': "君主蛇V",
 	},
 
@@ -18,18 +18,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けだかいひかり",
+				'ja-jp': "けだかいひかり",
 				'zh-tw': "高貴之光",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
 				'zh-tw': "將雙方的所有寶可夢各恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "ソーラービーム",
+				'ja-jp': "ソーラービーム",
 				'zh-tw': "日光束",
 			},
 			damage: 120,

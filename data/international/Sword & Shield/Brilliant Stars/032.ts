@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Sekio",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Crabhammer",
-			fr: "Pince-Masse",
-			es: "Martillazo",
-			it: "Martellata",
-			pt: "Martelo Caranguejo",
-			de: "Krabbhammer"
+			'en-us': "Crabhammer",
+			'fr-fr': "Pince-Masse",
+			'es-es': "Martillazo",
+			'it-it': "Martellata",
+			'pt-br': "Martelo Caranguejo",
+			'de-de': "Krabbhammer"
 		},
 
 		damage: 50
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+		'en-us': "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
 	},
 
 	variants: [

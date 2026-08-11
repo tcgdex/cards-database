@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		es: "Farfetch'd",
-		it: "Farfetch'd",
-		pt: "Farfetch'd",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'es-es': "Farfetch'd",
+		'it-it': "Farfetch'd",
+		'pt-br': "Farfetch'd",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leek Slap",
-				fr: "Coup d'oignon",
-				es: "Bofetada de Puerro",
-				it: "Porrosberla",
-				pt: "Golpe Alho Poró",
-				de: "Lauchschlag"
+				'en-us': "Leek Slap",
+				'fr-fr': "Coup d'oignon",
+				'es-es': "Bofetada de Puerro",
+				'it-it': "Porrosberla",
+				'pt-br': "Golpe Alho Poró",
+				'de-de': "Lauchschlag"
 			},
 			effect: {
-				en: "This Pokémon can't use Leek Slap during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup d'Oignon pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Bofetada de Puerro durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Porrosberla.",
-				pt: "Este Pokémon não poderá usar Golpe Alho Poró na sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Lauchschlag während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can't use Leek Slap during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup d'Oignon pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Bofetada de Puerro durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Porrosberla.",
+				'pt-br': "Este Pokémon não poderá usar Golpe Alho Poró na sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Lauchschlag während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 50,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pot Smash",
-				fr: "Coup de Casserole",
-				es: "Aplaste de Olla",
-				it: "Spaccavasi",
-				pt: "Esmagador de Panela",
-				de: "Topfschmetterer"
+				'en-us': "Pot Smash",
+				'fr-fr': "Coup de Casserole",
+				'es-es': "Aplaste de Olla",
+				'it-it': "Spaccavasi",
+				'pt-br': "Esmagador de Panela",
+				'de-de': "Topfschmetterer"
 			},
 
 			damage: 50,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
+		'en-us': "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
 	},
 
 	thirdParty: {

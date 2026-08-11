@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golisopod",
-		fr: "Sarmuraï",
-		es: "Golisopod",
-		it: "Golisopod",
-		pt: "Golisopod",
-		de: "Tectass"
+		'en-us': "Golisopod",
+		'fr-fr': "Sarmuraï",
+		'es-es': "Golisopod",
+		'it-it': "Golisopod",
+		'pt-br': "Golisopod",
+		'de-de': "Tectass"
 	},
 
 	illustrator: "otumami",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
-		it: "Wimpod",
-		pt: "Wimpod",
-		de: "Reißlaus"
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod",
+		'de-de': "Reißlaus"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "First Impression",
-			fr: "Escarmouche",
-			es: "Escaramuza",
-			it: "Schermaglia",
-			pt: "Primeira Impressão",
-			de: "Überrumpler"
+			'en-us': "First Impression",
+			'fr-fr': "Escarmouche",
+			'es-es': "Escaramuza",
+			'it-it': "Schermaglia",
+			'pt-br': "Primeira Impressão",
+			'de-de': "Überrumpler"
 		},
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",
-			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 90 puntos de daño más.",
-			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 90 danni in più.",
-			pt: "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",
+			'fr-fr': "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 100
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
+		'en-us': "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
 	},
 
 	

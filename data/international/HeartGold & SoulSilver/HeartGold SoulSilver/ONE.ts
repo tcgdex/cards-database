@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Alph Lithograph",
-		fr: "Lithographie d’Alph",
-		de: "Alph Lithograph"
+		'en-us': "Alph Lithograph",
+		'fr-fr': "Lithographie d’Alph",
+		'de-de': "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Regardez la main de votre adversaire !",
-		en: "Look at your opponent's hand!",
-		de: "Schau dir die Handkarten deines Gegners an!"
+		'fr-fr': "Regardez la main de votre adversaire !",
+		'en-us': "Look at your opponent's hand!",
+		'de-de': "Schau dir die Handkarten deines Gegners an!"
 	},
 
 	trainerType: "Item",

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	illustrator: "Saboteri",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			fr: "Tapotige",
-			en: "Branch Poke",
-			es: "Punzada Rama",
-			it: "Ramostoccata",
-			pt: "Cutucada com Galho",
-			de: "Zweigstoß"
+			'fr-fr': "Tapotige",
+			'en-us': "Branch Poke",
+			'es-es': "Punzada Rama",
+			'it-it': "Ramostoccata",
+			'pt-br': "Cutucada com Galho",
+			'de-de': "Zweigstoß"
 		},
 
 		damage: 40

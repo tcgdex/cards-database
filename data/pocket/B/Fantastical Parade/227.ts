@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [230],
 
 	name: {
-		en: "Kingdra ex"
+		'en-us': "Kingdra ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Seadra"
+		'en-us': "Seadra"
 	},
 
 	stage: "Stage2",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stormy Prison"
+			'en-us': "Stormy Prison"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat."
 		}
 	}],
 

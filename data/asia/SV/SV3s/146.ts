@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lechonk"
+		'id-id': "Lechonk"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Lechonk mencari makanan seharian penuh. Meskipun memiliki indra penciuman yang sangat baik, Pokémon ini tidak menggunakannya selain untuk mencari makan."
+		'id-id': "Lechonk mencari makanan seharian penuh. Meskipun memiliki indra penciuman yang sangat baik, Pokémon ini tidak menggunakannya selain untuk mencari makan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan"
+			'id-id': "Serudukan"
 		},
 
 		damage: 20,

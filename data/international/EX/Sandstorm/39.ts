@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
-		fr: "Kabuto",
-		de: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		'en-us': "Mysterious Fossil",
+		'fr-fr': "Mystérieux fossile"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to Kabuto by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Kabuto par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Jeder Schaden, der Kabuto durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to Kabuto by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous dégâts infligés à Kabuto par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Jeder Schaden, der Kabuto durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Team Assembly",
-				fr: "Rassemblement d'équipe",
-				de: "Teamversammlung"
+				'en-us': "Team Assembly",
+				'fr-fr': "Rassemblement d'équipe",
+				'de-de': "Teamversammlung"
 			},
 			effect: {
-				en: "Search your deck for Omanyte, Kabuto, or any Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.",
-				fr: "Cherchez dans votre deck Amonita, Kabuto ou d'autres Pokémon de base et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck. Traitez les nouveaux Pokémon du Banc comme des Pokémon de base.",
-				de: "Durchsuche dein Deck nach Amonitas, Kabuto oder beliebigen Basis-Pokémon und lege so viele wie du möchtest von ihnen auf deine Bank. Mische dein Deck danach. Behandle die neuen Pokémon wie Basis-Pokémon."
+				'en-us': "Search your deck for Omanyte, Kabuto, or any Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.",
+				'fr-fr': "Cherchez dans votre deck Amonita, Kabuto ou d'autres Pokémon de base et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck. Traitez les nouveaux Pokémon du Banc comme des Pokémon de base.",
+				'de-de': "Durchsuche dein Deck nach Amonitas, Kabuto oder beliebigen Basis-Pokémon und lege so viele wie du möchtest von ihnen auf deine Bank. Mische dein Deck danach. Behandle die neuen Pokémon wie Basis-Pokémon."
 			},
 
 		},
@@ -67,9 +67,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercer",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercer",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 20,

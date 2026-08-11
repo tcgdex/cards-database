@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Duosion",
+		'en-us': "Duosion",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Solosis",
+		'en-us': "Solosis",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				'en-us': "Rollout",
 			},
 
 			damage: 20,
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+		'en-us': "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
 	},
 
 	thirdParty: {

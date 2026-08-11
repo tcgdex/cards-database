@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Ludicolo",
-		fr: "Ludicolo",
-		es: "Ludicolo",
-		it: "Ludicolo",
-		pt: "Ludicolo",
-		de: "Kappalores"
+		'en-us': "Ludicolo",
+		'fr-fr': "Ludicolo",
+		'es-es': "Ludicolo",
+		'it-it': "Ludicolo",
+		'pt-br': "Ludicolo",
+		'de-de': "Kappalores"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lombre",
-		fr: "Lombre",
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Rain Dish",
-				fr: "Cuvette",
-				es: "Cura Lluvia",
-				it: "Copripioggia",
-				pt: "Prato de Chuva",
-				de: "Regengenuss"
+				'en-us': "Rain Dish",
+				'fr-fr': "Cuvette",
+				'es-es': "Cura Lluvia",
+				'it-it': "Copripioggia",
+				'pt-br': "Prato de Chuva",
+				'de-de': "Regengenuss"
 			},
 			effect: {
-				en: "At any time between turns, heal 20 damage from this Pokémon.",
-				fr: "N’importe quand entre chaque tour, soignez 20 dégâts à ce Pokémon.",
-				es: "En cualquier momento entre turnos, cura 20 puntos de daño a este Pokémon.",
-				it: "Tra un turno e l’altro, in qualsiasi momento, cura questo Pokémon da 20 danni.",
-				pt: "A qualquer momento entre as vezes de jogar, cure 20 de danos deste Pokémon.",
-				de: "Heile zu einem beliebigen Zeitpunkt zwischen den Zügen 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "At any time between turns, heal 20 damage from this Pokémon.",
+				'fr-fr': "N’importe quand entre chaque tour, soignez 20 dégâts à ce Pokémon.",
+				'es-es': "En cualquier momento entre turnos, cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Tra un turno e l’altro, in qualsiasi momento, cura questo Pokémon da 20 danni.",
+				'pt-br': "A qualquer momento entre as vezes de jogar, cure 20 de danos deste Pokémon.",
+				'de-de': "Heile zu einem beliebigen Zeitpunkt zwischen den Zügen 20 Schadenspunkte bei diesem Pokémon."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Groovy Dance",
-				fr: "Danse Enivrée",
+				'en-us': "Groovy Dance",
+				'fr-fr': "Danse Enivrée",
 			},
 			effect: {
-				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Confused.",
-				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Confused.",
+				'fr-fr': "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+		'en-us': "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
 	},
 
 	thirdParty: {

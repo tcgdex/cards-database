@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "彷徨夜靈",
-		ja: "サマヨール"
+		'ja-jp': "サマヨール"
 	},
 
 	illustrator: "miki kudo",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "身體內部是空的。只要一張開嘴就會像 黑洞一樣吸入所有東西。",
-		ja: "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。"
+		'ja-jp': "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "漆黑",
-			ja: "あんこく"
+			'ja-jp': "あんこく"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		fr: "Celebi"
+		'en-us': "Celebi",
+		'fr-fr': "Celebi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Time Call",
-				fr: "Appel du Temps"
+				'en-us': "Time Call",
+				'fr-fr': "Appel du Temps"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Évolution de l'un de vos Pokémon et placez-la sur ce dernier. (Cela équivaut à faire évoluer le Pokémon.) Mélangez ensuite votre deck."
+				'en-us': "Flip a coin. If heads, search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Évolution de l'un de vos Pokémon et placez-la sur ce dernier. (Cela équivaut à faire évoluer le Pokémon.) Mélangez ensuite votre deck."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon."
 			},
 			damage: 10,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+		'en-us': "It has the power to travel across time, but it is said to appear only in peaceful times.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピジョットex"
+		'ja-jp': "ピジョットex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マッハサーチ"
+			'ja-jp': "マッハサーチ"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。この番、すでに別の「マッハサーチ」を使っていたなら、この特性は使えない。"
+			'ja-jp': "自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。この番、すでに別の「マッハサーチ」を使っていたなら、この特性は使えない。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ふきすさぶ"
+			'ja-jp': "ふきすさぶ"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		}
 	}],
 

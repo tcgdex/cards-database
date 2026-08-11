@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Fantyrm",
-		en: "Dreepy",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'fr-fr': "Fantyrm",
+		'en-us': "Dreepy",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Vive-Attaque",
-			en: "Quick Attack",
-			es: "Ataque Rápido",
-			it: "Attacco Rapido",
-			pt: "Ataque Rápido",
-			de: "Ruckzuckhieb"
+			'fr-fr': "Vive-Attaque",
+			'en-us': "Quick Attack",
+			'es-es': "Ataque Rápido",
+			'it-it': "Attacco Rapido",
+			'pt-br': "Ataque Rápido",
+			'de-de': "Ruckzuckhieb"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
+		'en-us': "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
 	},
 
 	variants: [

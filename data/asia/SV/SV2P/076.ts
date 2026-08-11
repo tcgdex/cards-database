@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "セゴール"
+		'ja-jp': "セゴール"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。"
+		'ja-jp': "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "するどいひれ"
+			'ja-jp': "するどいひれ"
 		},
 
 		damage: 40
@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "フロストスマッシュ"
+			'ja-jp': "フロストスマッシュ"
 		},
 
 		damage: 80

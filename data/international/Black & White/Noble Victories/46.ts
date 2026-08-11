@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Cofagrigus",
-		fr: "Tutankafer",
-		es: "Cofagrigus",
-		it: "Cofagrigus",
-		pt: "Cofagrigus",
-		de: "Echnatoll"
+		'en-us': "Cofagrigus",
+		'fr-fr': "Tutankafer",
+		'es-es': "Cofagrigus",
+		'it-it': "Cofagrigus",
+		'pt-br': "Cofagrigus",
+		'de-de': "Echnatoll"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yamask",
-		fr: "Tutafeh",
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damagriiigus",
-				fr: "Tutankarnage",
+				'en-us': "Damagriiigus",
+				'fr-fr': "Tutankarnage",
 			},
 			effect: {
-				en: "Move all damage counters from 1 of your Benched Pokémon to the Defending Pokémon.",
-				fr: "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Défenseur.",
+				'en-us': "Move all damage counters from 1 of your Benched Pokémon to the Defending Pokémon.",
+				'fr-fr': "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Défenseur.",
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Perplex",
-				fr: "Affolement",
+				'en-us': "Perplex",
+				'fr-fr': "Affolement",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+		'en-us': "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
 	},
 
 	thirdParty: {

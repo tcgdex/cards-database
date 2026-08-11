@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サンダー"
+		'ja-jp': "サンダー"
 	},
 
 	illustrator: "Nisota Niso",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を 自在に 操る。 真っ黒な 雷雲の 中に 巣があると 言い伝えられている。"
+		'ja-jp': "電気を 自在に 操る。 真っ黒な 雷雲の 中に 巣があると 言い伝えられている。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "ついげきボルト"
+			'ja-jp': "ついげきボルト"
 		},
 
 		damage: "20＋",
 
 		effect: {
-			ja: "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。"
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ドリルくちばし"
+			'ja-jp': "ドリルくちばし"
 		},
 
 		damage: 80

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gallade ex",
-		fr: "Gallame-ex"
+		'en-us': "Gallade ex",
+		'fr-fr': "Gallame-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		'en-us': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Energized Blade",
-			fr: "Lame Énergisée"
+			'en-us': "Energized Blade",
+			'fr-fr': "Lame Énergisée"
 		},
 
 		damage: 70,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+			'en-us': "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 

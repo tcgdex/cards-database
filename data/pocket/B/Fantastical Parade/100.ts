@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [862],
 
 	name: {
-		en: "Galarian Obstagoon"
+		'en-us': "Galarian Obstagoon"
 	},
 
 	illustrator: "kodama",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Galarian Linoone"
+		'en-us': "Galarian Linoone"
 	},
 
 	description: {
-		en: "It evolved after experiencing numerous fights.\nWhile crossing its arms, it lets out a shout that\nwould make any opponent flinch."
+		'en-us': "It evolved after experiencing numerous fights.\nWhile crossing its arms, it lets out a shout that\nwould make any opponent flinch."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Merciless Strike"
+			'en-us': "Merciless Strike"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon has damage on it, this attack does 50 more damage."
+			'en-us': "If your opponent's Active Pokémon has damage on it, this attack does 50 more damage."
 		}
 	}],
 

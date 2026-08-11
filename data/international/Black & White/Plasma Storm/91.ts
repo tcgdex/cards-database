@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		es: "Durant",
-		it: "Durant",
-		pt: "Durant",
-		de: "Fermicula"
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'es-es': "Durant",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'de-de': "Fermicula"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 20,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Crunch",
-				fr: "Mâchouil'Dur",
+				'en-us': "Hard Crunch",
+				'fr-fr': "Mâchouil'Dur",
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
-				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
+		'en-us': "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
 	},
 
 	thirdParty: {

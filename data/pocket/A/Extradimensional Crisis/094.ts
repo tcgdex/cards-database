@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou"
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou"
 	},
 
 	illustrator: "MAHOU",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Its strange cries sound like human language.\nThere are some musicians who compose songs\nfor Jynx to sing.",
-		fr: "Ses étranges cris s'apparentent à des mots. Certains musiciens lui composent des chansons pour qu'il les interprète."
+		'en-us': "Its strange cries sound like human language.\nThere are some musicians who compose songs\nfor Jynx to sing.",
+		'fr-fr': "Ses étranges cris s'apparentent à des mots. Certains musiciens lui composent des chansons pour qu'il les interprète."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Psychic",
-			fr: "Psyko"
+			'en-us': "Psychic",
+			'fr-fr': "Psyko"
 		},
 
 		damage: 30,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+			'en-us': "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
-		fr: "Smogogo",
-		de: "Smogmog"
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
+		'de-de': "Smogmog"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Poison Breath",
-				fr: "Super haleine empoisonnée",
-				de: "Super-Gifthauch"
+				'en-us': "Super Poison Breath",
+				'fr-fr': "Super haleine empoisonnée",
+				'de-de': "Super-Gifthauch"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Explosion",
-				fr: "Super explosion",
-				de: "Super-Explosion"
+				'en-us': "Super Explosion",
+				'fr-fr': "Super explosion",
+				'de-de': "Super-Explosion"
 			},
 			effect: {
-				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
-				fr: "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
-				de: "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
+				'en-us': "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
+				'fr-fr': "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
+				'de-de': "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
 			},
 			damage: 90,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
+		'en-us': "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
 	},
 
 	variants: [

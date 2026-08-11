@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dialga ex",
-		fr: "Dialga-ex",
-		de: "Dialga-ex",
-		es: "Dialga ex",
-		it: "Dialga-ex",
-		pt: "Dialga ex"
+		'en-us': "Dialga ex",
+		'fr-fr': "Dialga-ex",
+		'de-de': "Dialga-ex",
+		'es-es': "Dialga ex",
+		'it-it': "Dialga-ex",
+		'pt-br': "Dialga ex"
 	},
 
 	suffix: "ex",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Time Bellow",
-			fr: "Appel Temporel",
-			de: "Zeitschrei",
-			es: "Bramido Tiempo",
-			it: "Ruggito Temporale",
-			pt: "Bramido Temporal"
+			'en-us': "Time Bellow",
+			'fr-fr': "Appel Temporel",
+			'de-de': "Zeitschrei",
+			'es-es': "Bramido Tiempo",
+			'it-it': "Ruggito Temporale",
+			'pt-br': "Bramido Temporal"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta."
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Metal Blast",
-			fr: "Explosion Métallique",
-			de: "Metallexplosion",
-			es: "Explosión Metálica",
-			it: "Metalbomba",
-			pt: "Explosão de Metal"
+			'en-us': "Metal Blast",
+			'fr-fr': "Explosion Métallique",
+			'de-de': "Metallexplosion",
+			'es-es': "Explosión Metálica",
+			'it-it': "Metalbomba",
+			'pt-br': "Explosão de Metal"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each {M} Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {M} attachée à ce Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {M}-Energie 20 Schadenspunkte mehr zu.",
-			es: "Este ataque hace 20 puntos de daño más por cada Energía {M} unida a este Pokémon.",
-			it: "Questo attacco infligge 20 danni in più per ogni Energia {M} assegnata a questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {M} ligada a este Pokémon."
+			'en-us': "This attack does 20 more damage for each {M} Energy attached to this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {M} attachée à ce Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte {M}-Energie 20 Schadenspunkte mehr zu.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Energía {M} unida a este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Energia {M} assegnata a questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia {M} ligada a este Pokémon."
 		},
 
 		damage: "100+"

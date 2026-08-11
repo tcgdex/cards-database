@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地中を ものすごい 勢いで 掘りすすみ エサを 探す。通った 跡は ディグダの 住処になる。",
+		'ja-jp': "地中を ものすごい 勢いで 掘りすすみ エサを 探す。通った 跡は ディグダの 住処になる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ほりあてる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるエネルギーを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるエネルギーを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

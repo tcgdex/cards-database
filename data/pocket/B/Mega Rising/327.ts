@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bibarel ex"
+		'en-us': "Bibarel ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bidoof"
+		'en-us': "Bidoof"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Carefree Press"
+			'en-us': "Carefree Press"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon."
 		}
 	}],
 

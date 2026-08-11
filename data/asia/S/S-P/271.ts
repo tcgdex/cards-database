@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシアVSTAR",
+		'ja-jp': "グレイシアVSTAR",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グレイシアV",
+		'ja-jp': "グレイシアV",
 	},
 
 	retreat: 2,

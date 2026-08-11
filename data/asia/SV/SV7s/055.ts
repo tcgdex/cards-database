@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "สลีป",
-		id: "Drowzee"
+		'th-th': "สลีป",
+		'id-id': "Drowzee"
 	},
 
 	illustrator: "OKUBO",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ว่ากันว่าพอมันใช้จมูกที่ยื่นออกมาดมฟุดฟิดก็จะรู้หมดว่าใครที่อยู่ตรงไหนกำลังฝันอะไรอยู่",
-		id: "Dikabarkan Drowzee dapat mengetahui segalanya tentang siapa, di mana, dan sedang bermimpi apa dengan mengedutkan hidungnya yang menonjol."
+		'th-th': "ว่ากันว่าพอมันใช้จมูกที่ยื่นออกมาดมฟุดฟิดก็จะรู้หมดว่าใครที่อยู่ตรงไหนกำลังฝันอะไรอยู่",
+		'id-id': "Dikabarkan Drowzee dapat mengetahui segalanya tentang siapa, di mana, dan sedang bermimpi apa dengan mengedutkan hidungnya yang menonjol."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "สายตาชวนขนลุก",
-			id: "Pandangan Menyeramkan"
+			'th-th': "สายตาชวนขนลุก",
+			'id-id': "Pandangan Menyeramkan"
 		},
 
 		effect: {
-			th: "ดูการ์ดบนมือฝ่ายตรงข้าม",
-			id: "Lihat Kartu Pegangan lawan."
+			'th-th': "ดูการ์ดบนมือฝ่ายตรงข้าม",
+			'id-id': "Lihat Kartu Pegangan lawan."
 		},
 
 		damage: 10,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Dustox",
-		fr: "Papinox",
-		es: "Dustox",
-		it: "Dustox",
-		pt: "Dustox",
-		de: "Pudox"
+		'en-us': "Dustox",
+		'fr-fr': "Papinox",
+		'es-es': "Dustox",
+		'it-it': "Dustox",
+		'pt-br': "Dustox",
+		'de-de': "Pudox"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cascoon",
-		fr: "Blindalys",
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hazardous Scales",
-				fr: "Écailles Fatales",
+				'en-us': "Hazardous Scales",
+				'fr-fr': "Écailles Fatales",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep, Burned, and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi, Brûlé et Empoisonné.",
+				'en-us': "The Defending Pokémon is now Asleep, Burned, and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi, Brûlé et Empoisonné.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aerial Ace",
-				fr: "Aéropique",
+				'en-us': "Aerial Ace",
+				'fr-fr': "Aéropique",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
+		'en-us': "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
 	},
 
 	thirdParty: {

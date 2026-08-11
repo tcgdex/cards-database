@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタモン",
+		'ja-jp': "メタモン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "驚きの 変身能力で どんな者とも 仲間に なれる。 メタモン同士は 仲が 悪い。",
+		'ja-jp': "驚きの 変身能力で どんな者とも 仲間に なれる。 メタモン同士は 仲が 悪い。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "なんでもしんか" },
 			effect: {
-				ja: "このポケモンは、自分の番に、1進化ポケモンを手札から出して、このポケモンに重ねて進化できる。（最初の自分の番と、このポケモンを場に出した番はのぞく。）",
+				'ja-jp': "このポケモンは、自分の番に、1進化ポケモンを手札から出して、このポケモンに重ねて進化できる。（最初の自分の番と、このポケモンを場に出した番はのぞく。）",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デューゴン（デルタ種）",
+		'ja-jp': "デューゴン（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタ保護",
+				'ja-jp': "デルタ保護",
 			},
 			effect: {
-				ja: "カードにある相手のPokã©Monからの攻撃によってDewgongに与えられた損害は、40倍に削減されます（脱力感と抵抗を適用した後）。",
+				'ja-jp': "カードにある相手のPokã©Monからの攻撃によってDewgongに与えられた損害は、40倍に削減されます（脱力感と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "アイスビーム",
+				'ja-jp': "アイスビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "うねり",
+				'ja-jp': "うねり",
 			},
 			effect: {
-				ja: "Dewgongに少なくとも2つの水エネルギーが付着している場合、この攻撃は40のダメージと20のダメージを与えます。",
+				'ja-jp': "Dewgongに少なくとも2つの水エネルギーが付着している場合、この攻撃は40のダメージと20のダメージを与えます。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran?",
-		fr: "Nidoran♂",
+		'en-us': "Nidoran?",
+		'fr-fr': "Nidoran♂",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spirited Drill",
-				fr: "Perceuse vigoureuse",
-				de: "Energischer Bohrer"
+				'en-us': "Spirited Drill",
+				'fr-fr': "Perceuse vigoureuse",
+				'de-de': "Energischer Bohrer"
 			},
 			effect: {
-				en: "During your next turn, each of Nidorino's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, les attaques de Nidorino infligent 20 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
-				de: "In deinem nächsten Zug fügen Nidorinos Angriffe dem Verteidigenden Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, each of Nidorino's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, les attaques de Nidorino infligent 20 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "In deinem nächsten Zug fügen Nidorinos Angriffe dem Verteidigenden Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Horn",
-				fr: "Corne empoisonnée",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne empoisonnée",
+				'de-de': "Gifthorn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+		'en-us': "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
 	},
 
 	thirdParty: {

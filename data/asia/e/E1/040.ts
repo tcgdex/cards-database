@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カダブラ",
+		'ja-jp': "カダブラ",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーリコール",
+				'ja-jp': "エネルギーリコール",
 			},
 			effect: {
-				ja: "廃棄パイルからカダブラに2つの基本エネルギーカードを取り付けます（1つしかない場合は1）。",
+				'ja-jp': "廃棄パイルからカダブラに2つの基本エネルギーカードを取り付けます（1つしかない場合は1）。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Barrage",
-				fr: "Barrage de pierre",
-				de: "Steinhagel"
+				'en-us': "Stone Barrage",
+				'fr-fr': "Barrage de pierre",
+				'de-de': "Steinhagel"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
-		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
+		'en-us': "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+		'fr-fr': "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
 	},
 
 

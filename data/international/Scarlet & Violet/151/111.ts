@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rhinocorne",
-		en: "Rhyhorn",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'fr-fr': "Rhinocorne",
+		'en-us': "Rhyhorn",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Recul",
-			en: "Push Down",
-			es: "Oprimir",
-			it: "Spintonare",
-			pt: "Rebaixar",
-			de: "Runterdrücken"
+			'fr-fr': "Recul",
+			'en-us': "Push Down",
+			'es-es': "Oprimir",
+			'it-it': "Spintonare",
+			'pt-br': "Rebaixar",
+			'de-de': "Runterdrücken"
 		},
 
 		effect: {
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		},
 
 		damage: 20
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			fr: "Rocher Écrasant",
-			en: "Boulder Crush",
-			es: "Alud de Rocas",
-			it: "Macignata",
-			pt: "Rocha Esmagadora",
-			de: "Felsenquetscher"
+			'fr-fr': "Rocher Écrasant",
+			'en-us': "Boulder Crush",
+			'es-es': "Alud de Rocas",
+			'it-it': "Macignata",
+			'pt-br': "Rocha Esmagadora",
+			'de-de': "Felsenquetscher"
 		},
 
 		damage: 70
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
+		'en-us': "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
 	},
 
 	variants: [

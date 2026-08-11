@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy4: Set = {
 	id: "xy4",
 
 	name: {
-		en: "Phantom Forces",
-		fr: "Vigueur Spectrale",
-		es: "Fuerzas Fantasmales",
-		it: "Forze Spettrali",
-		de: "Phantomkräfte",
-		pt: "Força Fantasma",
+		'en-us': "Phantom Forces",
+		'fr-fr': "Vigueur Spectrale",
+		'es-es': "Fuerzas Fantasmales",
+		'it-it': "Forze Spettrali",
+		'de-de': "Phantomkräfte",
+		'pt-br': "Força Fantasma",
 		ru: "Призрачные Силы"
 	},
 
@@ -25,7 +25,7 @@ const xy4: Set = {
 
 	abbreviations: {
 		official: "PHF",
-		fr: "VSP"
+		'fr-fr': "VSP"
 	},
 
 	thirdParty: {

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 		'zh-tw': "獨角蟲",
-		th: "บีเดิล",
-		id: "Weedle",
+		'th-th': "บีเดิล",
+		'id-id': "Weedle",
 	},
 
 	illustrator: "nisimono",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
+		'ja-jp': "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
 		'zh-tw': "毒針非常厲害。 鮮豔的體色是用來 警告對手的。",
-		th: "เข็มพิษมันมีพิษรุนแรงมาก สีสันตามตัวที่ดูเด่นสะดุดตาก็เพื่อทำให้ฝ่ายตรงข้ามคอยระวังตัว",
-		id: "Jarum beracun Weedle sangat kuat. Warna tubuhnya yang mencolok membuat lawan menjadi waspada.",
+		'th-th': "เข็มพิษมันมีพิษรุนแรงมาก สีสันตามตัวที่ดูเด่นสะดุดตาก็เพื่อทำให้ฝ่ายตรงข้ามคอยระวังตัว",
+		'id-id': "Jarum beracun Weedle sangat kuat. Warna tubuhnya yang mencolok membuat lawan menjadi waspada.",
 	},
 
 	stage: "Basic",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
-				th: "กระแทก",
-				id: "Menyeruduk",
+				'th-th': "กระแทก",
+				'id-id': "Menyeruduk",
 			},
 			damage: 10,
 			cost: ["Grass"],
 		},
 		{
 			name: {
-				ja: "むしくい",
+				'ja-jp': "むしくい",
 				'zh-tw': "蟲咬",
-				th: "แมลงกัด",
-				id: "Gigitan Serangga",
+				'th-th': "แมลงกัด",
+				'id-id': "Gigitan Serangga",
 			},
 			damage: 20,
 			cost: ["Colorless", "Colorless"],

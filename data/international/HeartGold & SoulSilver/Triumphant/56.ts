@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Eater",
-				fr: "Mange-montagne",
-				de: "Bergfresser"
+				'en-us': "Mountain Eater",
+				'fr-fr': "Mange-montagne",
+				'de-de': "Bergfresser"
 			},
 			effect: {
-				en: "Discard the top card of your deck. Then, remove 2 damage counters from Aron.",
-				fr: "Défaussez la carte du dessus de votre deck. Ensuite, retirez 2 marqueurs de dégât à Galekid.",
-				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Entferne anschließend 2 Schadensmarken von Stollunior."
+				'en-us': "Discard the top card of your deck. Then, remove 2 damage counters from Aron.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck. Ensuite, retirez 2 marqueurs de dégât à Galekid.",
+				'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Entferne anschließend 2 Schadensmarken von Stollunior."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confront",
-				fr: "Confrontation",
-				de: "Konfrontieren"
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'de-de': "Konfrontieren"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+		'en-us': "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 
 	variants: [

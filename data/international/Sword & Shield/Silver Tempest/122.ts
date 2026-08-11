@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferrothorn",
-		fr: "Noacier",
-		es: "Ferrothorn",
-		it: "Ferrothorn",
-		pt: "Ferrothorn",
-		de: "Tentantel"
+		'en-us': "Ferrothorn",
+		'fr-fr': "Noacier",
+		'es-es': "Ferrothorn",
+		'it-it': "Ferrothorn",
+		'pt-br': "Ferrothorn",
+		'de-de': "Tentantel"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 50
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Whip Smash",
-			fr: "Frappe Fouet",
-			es: "Golpe Látigo",
-			it: "Frustata Devastante",
-			pt: "Chicote Esmagador",
-			de: "Peitschenschlag"
+			'en-us': "Whip Smash",
+			'fr-fr': "Frappe Fouet",
+			'es-es': "Golpe Látigo",
+			'it-it': "Frustata Devastante",
+			'pt-br': "Chicote Esmagador",
+			'de-de': "Peitschenschlag"
 		},
 
 		damage: 130
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+		'en-us': "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
 	},
 
 	variants: [

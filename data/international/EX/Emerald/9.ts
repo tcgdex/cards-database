@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
-		de: "Rayquaza"
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
+		'de-de': "Rayquaza"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Dance",
-				fr: "Danse de dragon",
-				de: "Dragon Dance"
+				'en-us': "Dragon Dance",
+				'fr-fr': "Danse de dragon",
+				'de-de': "Dragon Dance"
 			},
 			effect: {
-				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, si 1 de vos Pokémon Actifs inflige des dégâts à 1 des Pokémon Défenseurs, cette attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance)."
+				'en-us': "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, si 1 de vos Pokémon Actifs inflige des dégâts à 1 des Pokémon Défenseurs, cette attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance)."
 			},
 
 		},
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Griffe de dragon",
-				de: "Dragon Claw"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Griffe de dragon",
+				'de-de': "Dragon Claw"
 			},
 
 			damage: 40,

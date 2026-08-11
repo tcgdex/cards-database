@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm7: Set = {
 	id: "sm7",
 
 	name: {
-		en: "Celestial Storm",
-		fr: "Tempête Céleste",
-		es: "Tormenta Celestial",
-		it: "Tempesta Astrale",
-		de: "Sturm Am Firmament",
-		pt: "Tempestade Celestial"
+		'en-us': "Celestial Storm",
+		'fr-fr': "Tempête Céleste",
+		'es-es': "Tormenta Celestial",
+		'it-it': "Tempesta Astrale",
+		'de-de': "Sturm Am Firmament",
+		'pt-br': "Tempestade Celestial"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm7: Set = {
 
 	abbreviations: {
 		official: "CES",
-		fr: "TCE"
+		'fr-fr': "TCE"
 	},
 
 	thirdParty: {

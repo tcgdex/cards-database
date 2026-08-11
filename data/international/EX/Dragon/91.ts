@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Golem ex",
-		fr: "Grolem ex",
-		de: "Geowaz ex"
+		'en-us': "Golem ex",
+		'fr-fr': "Grolem ex",
+		'de-de': "Geowaz ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
-		fr: "Gravalanch"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Magnitude"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-edge"
 			},
 			effect: {
-				en: "Golem ex does 50 damage to itself.",
-				fr: "Grolem ex s'inflige 50 dégâts.",
-				de: "Golem ex does 50 damage to itself."
+				'en-us': "Golem ex does 50 damage to itself.",
+				'fr-fr': "Grolem ex s'inflige 50 dégâts.",
+				'de-de': "Golem ex does 50 damage to itself."
 			},
 			damage: 120,
 

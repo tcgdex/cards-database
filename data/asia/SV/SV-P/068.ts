@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィア",
+		'ja-jp': "リーフィア",
 	},
 
 	illustrator: "YU NAGABA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "晴れた 日に 寝ている リーフィアは 光合成をして きれいな 空気を 作り出しているのだ。",
+		'ja-jp': "晴れた 日に 寝ている リーフィアは 光合成をして きれいな 空気を 作り出しているのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンの特殊状態を、すべて回復する。",
+				'ja-jp': "このポケモンの特殊状態を、すべて回復する。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

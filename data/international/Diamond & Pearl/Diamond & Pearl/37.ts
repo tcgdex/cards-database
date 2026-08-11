@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Block",
-				fr: "Barrage",
-				de: "Rückentzug"
+				'en-us': "Block",
+				'fr-fr': "Barrage",
+				'de-de': "Rückentzug"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ease Up",
-				fr: "Se détendre",
-				de: "Entspannungsangriff"
+				'en-us': "Ease Up",
+				'fr-fr': "Se détendre",
+				'de-de': "Entspannungsangriff"
 			},
 			effect: {
-				en: "Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage.",
-				fr: "Ronflex est maintenant Endormi. Si Ronflex évolue en Goinfrex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Relaxo schläft jetzt. Wenn Relaxo sich aus Mampfaxo entwickelt hat, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage.",
+				'fr-fr': "Ronflex est maintenant Endormi. Si Ronflex évolue en Goinfrex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Relaxo schläft jetzt. Wenn Relaxo sich aus Mampfaxo entwickelt hat, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -74,8 +74,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its stomach can digest any kind of food, even if it happens to be moldy or rotten.",
-		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
+		'en-us': "Its stomach can digest any kind of food, even if it happens to be moldy or rotten.",
+		'fr-fr': "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		de: "Ganovil",
-		it: "Sandile",
-		pt: "Sandile",
-		es: "Sandile",
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'de-de': "Ganovil",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'es-es': "Sandile",
 		'es-mx': "Sandile"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Tighten Up",
-			fr: "Resserrage",
-			de: "Zudrücken",
-			it: "Torchio",
-			pt: "Espremer",
-			es: "Apretar",
+			'en-us': "Tighten Up",
+			'fr-fr': "Resserrage",
+			'de-de': "Zudrücken",
+			'it-it': "Torchio",
+			'pt-br': "Espremer",
+			'es-es': "Apretar",
 			'es-mx': "Coerción"
 		},
 
 		effect: {
-			en: "Your opponent discards a card from their hand.",
-			fr: "Votre adversaire défausse une carte de sa main.",
-			de: "Dein Gegner legt 1 Karte aus seiner Hand auf seinen Ablagestapel.",
-			it: "Il tuo avversario scarta una carta che ha in mano.",
-			pt: "Seu oponente descarta uma carta da mão dele.",
-			es: "Tu rival descarta 1 carta de su mano.",
+			'en-us': "Your opponent discards a card from their hand.",
+			'fr-fr': "Votre adversaire défausse une carte de sa main.",
+			'de-de': "Dein Gegner legt 1 Karte aus seiner Hand auf seinen Ablagestapel.",
+			'it-it': "Il tuo avversario scarta una carta che ha in mano.",
+			'pt-br': "Seu oponente descarta uma carta da mão dele.",
+			'es-es': "Tu rival descarta 1 carta de su mano.",
 			'es-mx': "Tu rival descarta 1 carta de su mano."
 		},
 

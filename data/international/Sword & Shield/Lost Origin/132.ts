@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
-		it: "Goomy",
-		pt: "Goomy",
-		de: "Viscora"
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Water", "Metal"],
 
 		name: {
-			en: "Melt",
-			fr: "Dissolution",
-			es: "Derretir",
-			it: "Liquefazione",
-			pt: "Derreter",
-			de: "Schmelzen"
+			'en-us': "Melt",
+			'fr-fr': "Dissolution",
+			'es-es': "Derretir",
+			'it-it': "Liquefazione",
+			'pt-br': "Derreter",
+			'de-de': "Schmelzen"
 		},
 
 		damage: 30

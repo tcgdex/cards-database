@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Trevenant"
+		'id-id': "Trevenant"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Ia sangat baik terhadap Pokémon yang tinggal di hutan. Ia tidak peduli meskipun belukar di kepalanya dijadikan tempat tinggal."
+		'id-id': "Ia sangat baik terhadap Pokémon yang tinggal di hutan. Ia tidak peduli meskipun belukar di kepalanya dijadikan tempat tinggal."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Giga Drain"
+			'id-id': "Giga Drain"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah kerusakan yang diberikan kepada Pokémon Bertarung lawan."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah kerusakan yang diberikan kepada Pokémon Bertarung lawan."
 		},
 
 		damage: 50,
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			id: "Forest Dump"
+			'id-id': "Forest Dump"
 		},
 
 		damage: 130,

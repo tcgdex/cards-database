@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [2],
 
 	name: {
-		en: "Ivysaur"
+		'en-us': "Ivysaur"
 	},
 
 	illustrator: "Kanako Eo",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bulbasaur"
+		'en-us': "Bulbasaur"
 	},
 
 	description: {
-		en: "The more sunlight Ivysaur bathes in, the more\nstrength wells up within it, allowing the bud\non its back to grow larger."
+		'en-us': "The more sunlight Ivysaur bathes in, the more\nstrength wells up within it, allowing the bud\non its back to grow larger."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Synthesis"
+			'en-us': "Synthesis"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "Take 2 {G} Energy from your Energy Zone and attach it to this Pokémon."
+			'en-us': "Take 2 {G} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

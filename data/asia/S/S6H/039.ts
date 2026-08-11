@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カバルドン",
+		'ja-jp': "カバルドン",
 		'zh-tw': "河馬獸",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "怒らせると かなり 狂暴。 取りこんだ 砂を 噴き出して 砂嵐を 巻き起こす。",
+		'ja-jp': "怒らせると かなり 狂暴。 取りこんだ 砂を 噴き出して 砂嵐を 巻き起こす。",
 		'zh-tw': "生氣的時候非常凶暴。會噴出儲存在體內的沙子來引發沙塵暴。",
 	},
 
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	retreat: 4,

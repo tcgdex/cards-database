@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Cowardice",
-				fr: "Échappée",
-				de: "Rückmarsch"
+				'en-us': "Cowardice",
+				'fr-fr': "Échappée",
+				'de-de': "Rückmarsch"
 			},
 			effect: {
-				en: "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed.",
-				fr: "À tout moment pendant votre tour (avant votre attaque), vous pouvez reprendre Tentacool dans votre main. (Défaussez toutes les cartes attachées à Tentacool.) Ce pouvoir ne peut être utilisé dans le tour où vous mettez Tentacool en jeu ou si Tentacool est Endormi, Confus ou Paralysé.",
-				de: "Jederzeit während deines Zuges (vor deinen Angriff) kannst Du Tentacha zurück auf diene Hand nehmen. (Lege alle auf Tentacha abgelegten Karten ab.) Diese Fähigkeit kann weder während des Zuges , in dem Tentacha ins spiel kommt, noch wenn Tentacha schläft, verwirrt oder gelähmt ist, eingesetzt werden."
+				'en-us': "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "À tout moment pendant votre tour (avant votre attaque), vous pouvez reprendre Tentacool dans votre main. (Défaussez toutes les cartes attachées à Tentacool.) Ce pouvoir ne peut être utilisé dans le tour où vous mettez Tentacool en jeu ou si Tentacool est Endormi, Confus ou Paralysé.",
+				'de-de': "Jederzeit während deines Zuges (vor deinen Angriff) kannst Du Tentacha zurück auf diene Hand nehmen. (Lege alle auf Tentacha abgelegten Karten ab.) Diese Fähigkeit kann weder während des Zuges , in dem Tentacha ins spiel kommt, noch wenn Tentacha schläft, verwirrt oder gelähmt ist, eingesetzt werden."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Acid",
-				fr: "Urticos",
-				de: "Säure"
+				'en-us': "Acid",
+				'fr-fr': "Urticos",
+				'de-de': "Säure"
 			},
 
 			damage: 10,
@@ -65,8 +65,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
-		fr: "Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un."
+		'en-us': "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+		'fr-fr': "Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un."
 	},
 
 

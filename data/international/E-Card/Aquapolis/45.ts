@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Bellsprout.",
-				fr: "Retirez un marqueur de dégâts sur Chétiflor.",
-				de: "Entferne eine Schadensmarke von Knofensa."
+				'en-us': "Remove 1 damage counter from Bellsprout.",
+				'fr-fr': "Retirez un marqueur de dégâts sur Chétiflor.",
+				'de-de': "Entferne eine Schadensmarke von Knofensa."
 			},
 			damage: 20,
 

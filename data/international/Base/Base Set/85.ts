@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Center",
-		fr: "Centre Pokémon",
-		de: "Pokémon Center",
-		it: "Centro Pokémon"
+		'en-us': "Pokémon Center",
+		'fr-fr': "Centre Pokémon",
+		'de-de': "Pokémon Center",
+		'it-it': "Centro Pokémon"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
-		fr: "Retirez tous les marqueurs de dégâts de tous vos propres Pokémon ayant des marqueurs de dégâts sur eux, puis défaussez toutes les cartes Énergie attachées à ces Pokémon.",
-		de: "Entferne alle auf Deinem Pokémon abgelegten Schadensmarken. Entferne dann alle auf diesem Pokémon abgelegten Energiekarten.",
-		it: "Togli tutti i segnalini danno da tutti i tuoi Pokémon e poi scarta tutte le carte Energia assegnate a quei Pokémon."
+		'en-us': "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
+		'fr-fr': "Retirez tous les marqueurs de dégâts de tous vos propres Pokémon ayant des marqueurs de dégâts sur eux, puis défaussez toutes les cartes Énergie attachées à ces Pokémon.",
+		'de-de': "Entferne alle auf Deinem Pokémon abgelegten Schadensmarken. Entferne dann alle auf diesem Pokémon abgelegten Energiekarten.",
+		'it-it': "Togli tutti i segnalini danno da tutti i tuoi Pokémon e poi scarta tutte le carte Energia assegnate a quei Pokémon."
 	},
 
 	variants: [

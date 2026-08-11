@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブト",
+		'ja-jp': "カブト",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "厚いシェル",
+				'ja-jp': "厚いシェル",
 			},
 			effect: {
-				ja: "進化したポケモンからのカブトへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
+				'ja-jp': "進化したポケモンからのカブトへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 30,
 		},

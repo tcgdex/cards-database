@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロスV",
+		'ja-jp': "メタグロスV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Metal"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×20ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数×20ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、90ダメージ追加。",
+				'ja-jp': "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、90ダメージ追加。",
 			},
 		},
 	],

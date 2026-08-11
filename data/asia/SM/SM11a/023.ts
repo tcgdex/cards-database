@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どこまでも 獲物を 追い続ける。 執念深い 性格だが 朝日が 昇ると あきらめる。",
+		'ja-jp': "どこまでも 獲物を 追い続ける。 執念深い 性格だが 朝日が 昇ると あきらめる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひとだましんか" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札を3枚トラッシュする。その後、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の手札を3枚トラッシュする。その後、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ふきつなめ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のポケモン1匹に、ダメカンを2個のせる。",
+				'ja-jp': "相手のポケモン1匹に、ダメカンを2個のせる。",
 			},
 		},
 	],

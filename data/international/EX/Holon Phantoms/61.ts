@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Carvanha δ",
-		fr: "Carvanha δ",
-		de: "Kanivanha"
+		'en-us': "Carvanha δ",
+		'fr-fr': "Carvanha δ",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,9 +28,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Carvanha does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Carvanha s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Kanivanha selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Carvanha does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Carvanha s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt sich Kanivanha selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

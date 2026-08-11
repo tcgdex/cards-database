@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カチコール",
+		'ja-jp': "カチコール",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "マイナス１００度の 冷気で 敵を 氷漬けにする。 万年雪に 覆われた 山で 群れを 作る。",
+		'ja-jp': "マイナス１００度の 冷気で 敵を 氷漬けにする。 万年雪に 覆われた 山で 群れを 作る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flip Over",
-				fr: "Faire ressort",
-				de: "Flip Over"
+				'en-us': "Flip Over",
+				'fr-fr': "Faire ressort",
+				'de-de': "Flip Over"
 			},
 			effect: {
-				en: "Beldum does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
-				fr: "Terhal s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
-				de: "Beldrum does 10 damage to itself, and don't apply Weakness and resistance to this damage."
+				'en-us': "Beldum does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Terhal s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Beldrum does 10 damage to itself, and don't apply Weakness and resistance to this damage."
 			},
 			damage: 30,
 

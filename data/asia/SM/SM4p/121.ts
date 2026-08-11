@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フェローチェGX",
+		'ja-jp': "フェローチェGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "このワザは、先攻プレイヤーの最初の番でも使える。",
+				'ja-jp': "このワザは、先攻プレイヤーの最初の番でも使える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "相手がすでにとったサイドの枚数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手がすでにとったサイドの枚数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

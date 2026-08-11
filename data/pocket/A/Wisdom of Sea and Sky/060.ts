@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish",
-		fr: "Écrapince"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince"
 	},
 
 	illustrator: "chibi",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "No matter how dirty the water in the river, it will\nadapt and thrive. It has a strong will to survive.",
-		fr: "Sa nature robuste lui permet de prospérer dans n'importe quelles eaux, aussi polluées soient-elles."
+		'en-us': "No matter how dirty the water in the river, it will\nadapt and thrive. It has a strong will to survive.",
+		'fr-fr': "Sa nature robuste lui permet de prospérer dans n'importe quelles eaux, aussi polluées soient-elles."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポカブ",
+		'ja-jp': "ポカブ",
 		'zh-tw': "葉伊布VSTAR",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "焼いた 木の実を 食べるのが 大好きだが 興奮しすぎて ときどき 真っ黒焦げに しちゃう。",
+		'ja-jp': "焼いた 木の実を 食べるのが 大好きだが 興奮しすぎて ときどき 真っ黒焦げに しちゃう。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "葉子防守",
 			},
 			damage: 20,

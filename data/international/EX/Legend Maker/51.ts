@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'de-de': "Perlu"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mur de fer",
-				de: "Eisenabwehr"
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de fer",
+				'de-de': "Eisenabwehr"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Clamperl during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Coquiperl lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Perlu zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Clamperl during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Coquiperl lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Perlu zugefügt werden."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Clamp Splash",
-				fr: "Jet de pince",
-				de: "Perlenplatscher"
+				'en-us': "Clamp Splash",
+				'fr-fr': "Jet de pince",
+				'de-de': "Perlenplatscher"
 			},
 
 			damage: 10,

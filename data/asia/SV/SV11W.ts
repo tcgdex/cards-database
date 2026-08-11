@@ -5,7 +5,7 @@ const set: Set = {
 	id: "SV11W",
 
 	name: {
-		ja: "ホワイトフレア",
+		'ja-jp': "ホワイトフレア",
 	},
 
 	serie: serie,
@@ -15,7 +15,7 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: "2025-06-06",
+		'ja-jp': "2025-06-06",
 	},
 
 	thirdParty: {

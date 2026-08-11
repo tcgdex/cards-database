@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Popplio"
+		'en-us': "Popplio"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day."
+		'en-us': "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sing"
+			'en-us': "Sing"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

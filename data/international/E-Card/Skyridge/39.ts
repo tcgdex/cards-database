@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf eine Münze. bei \"Kopf\" schläft das verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf eine Münze. bei \"Kopf\" schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gift of Spite",
-				de: "Boshaftes Geschenk"
+				'en-us': "Gift of Spite",
+				'de-de': "Boshaftes Geschenk"
 			},
 			effect: {
-				en: "Count the number of your Pokémon in play with damage counters on them. Put that many damage counters on the Defending Pokémon.",
-				de: "Bestimme die Anzahl an Pokémon im Spiel, auf denen Schadensmarken liegen. Lege ebenso viele Schadensmarken auf das verteidigende Pokémon."
+				'en-us': "Count the number of your Pokémon in play with damage counters on them. Put that many damage counters on the Defending Pokémon.",
+				'de-de': "Bestimme die Anzahl an Pokémon im Spiel, auf denen Schadensmarken liegen. Lege ebenso viele Schadensmarken auf das verteidigende Pokémon."
 			},
 
 		},

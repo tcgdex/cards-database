@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cetitan"
+		'id-id': "Cetitan"
 	},
 
 	illustrator: "Jerky",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Tanduk rahang atas Cetitan yang memusatkan energi es menjadi bersuhu sangat rendah dan membekukan sekitarnya."
+		'id-id': "Tanduk rahang atas Cetitan yang memusatkan energi es menjadi bersuhu sangat rendah dan membekukan sekitarnya."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tubuh Tegap"
+			'id-id': "Tubuh Tegap"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Danger Mouth"
+			'id-id': "Danger Mouth"
 		},
 
 		damage: 150,

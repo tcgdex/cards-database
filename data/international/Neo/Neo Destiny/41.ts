@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: undefined,
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Charging Horn",
-				fr: "Défonc'korne",
-				de: "Charging Horn"
+				'en-us': "Charging Horn",
+				'fr-fr': "Défonc'korne",
+				'de-de': "Charging Horn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, this attack does 30 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, this attack does 30 damage."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, this attack does 30 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, this attack does 30 damage."
 			},
 			damage: "30+",
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is normally peaceful, but will attack any who get between it and honey, its favorite food.",
-		fr: "Généralement, il est pacifique, mais il attaquera tous ceux qui s'interposeront entre lui et son miel, sa nourriture préférée."
+		'en-us': "It is normally peaceful, but will attack any who get between it and honey, its favorite food.",
+		'fr-fr': "Généralement, il est pacifique, mais il attaquera tous ceux qui s'interposeront entre lui et son miel, sa nourriture préférée."
 	},
 
 

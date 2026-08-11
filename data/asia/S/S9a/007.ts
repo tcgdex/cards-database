@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "羅絲雷朵",
-		ja: "ロズレイド"
+		'ja-jp': "ロズレイド"
 	},
 
 	illustrator: "0313",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用馥郁芬芳的花香迷惑敵人，並用荊棘上 的鞭子猛力抽打對方。",
-		ja: "かぐわしい 花の 香りで 相手を 惑わせ いばらの ムチで 激しく 打ちつける。"
+		'ja-jp': "かぐわしい 花の 香りで 相手を 惑わせ いばらの ムチで 激しく 打ちつける。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "毒之鞭",
-			ja: "どくのムチ"
+			'ja-jp': "どくのムチ"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
-			ja: "相手のバトルポケモンをどくにする。"
+			'ja-jp': "相手のバトルポケモンをどくにする。"
 		},
 
 		damage: 30,
@@ -37,12 +37,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "刺殺薔薇",
-			ja: "アサシンローズ"
+			'ja-jp': "アサシンローズ"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢處於特殊狀態，則對手的1隻備戰寶可夢也受到60點傷害。[在備戰區不計算弱點・抵抗力。]",
-			ja: "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		damage: 60,

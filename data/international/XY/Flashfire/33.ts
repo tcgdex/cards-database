@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electricounter",
-				fr: "Contre-Élek",
-				es: "Contraataque Eléctrico",
-				it: "Contrelettro",
-				pt: "Contador de Eletricidade",
-				de: "Elektrokonter"
+				'en-us': "Electricounter",
+				'fr-fr': "Contre-Élek",
+				'es-es': "Contraataque Eléctrico",
+				'it-it': "Contrelettro",
+				'pt-br': "Contador de Eletricidade",
+				'de-de': "Elektrokonter"
 			},
 			effect: {
-				en: "This attack does 40 damage times the number of Prize cards your opponent has taken.",
-				fr: "Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Récompense que votre adversaire a récupérées.",
-				es: "Este ataque hace 40 puntos de daño por cada carta de Premio que tu rival haya cogido.",
-				it: "Questo attacco infligge 40 danni per ogni carta Premio presa dal tuo avversario.",
-				pt: "Esse ataque causa 40 de danos vezes o número de cards de Prêmio recebidos por seu oponente.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
+				'en-us': "This attack does 40 damage times the number of Prize cards your opponent has taken.",
+				'fr-fr': "Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Récompense que votre adversaire a récupérées.",
+				'es-es': "Este ataque hace 40 puntos de daño por cada carta de Premio que tu rival haya cogido.",
+				'it-it': "Questo attacco infligge 40 danni per ogni carta Premio presa dal tuo avversario.",
+				'pt-br': "Esse ataque causa 40 de danos vezes o número de cards de Prêmio recebidos por seu oponente.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
 			},
 			damage: "40×",
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+		'en-us': "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
 	},
 
 	thirdParty: {

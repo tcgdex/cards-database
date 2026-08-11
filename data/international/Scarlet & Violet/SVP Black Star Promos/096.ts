@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		pt: "Cyclizar",
-		de: "Mopex"
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'pt-br': "Cyclizar",
+		'de-de': "Mopex"
 	},
 
 	rarity: "Promo",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flat-Out Dash",
-			fr: "Ruée Directe",
-			es: "A Todo Trapo",
-			it: "Corsa Tuttabirra",
-			pt: "Arremetida Desesperada",
-			de: "Vollgas-Spurt"
+			'en-us': "Flat-Out Dash",
+			'fr-fr': "Ruée Directe",
+			'es-es': "A Todo Trapo",
+			'it-it': "Corsa Tuttabirra",
+			'pt-br': "Arremetida Desesperada",
+			'de-de': "Vollgas-Spurt"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. For each heads, draw a card.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, piochez une carte.",
-			es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, roba 1 carta.",
-			it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, pesca una carta.",
-			pt: "Jogue uma moeda até sair coroa. Para cada cara, compre uma carta.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Ziehe pro Kopf 1 Karte."
+			'en-us': "Flip a coin until you get tails. For each heads, draw a card.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, piochez une carte.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Por cada cara, roba 1 carta.",
+			'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, pesca una carta.",
+			'pt-br': "Jogue uma moeda até sair coroa. Para cada cara, compre uma carta.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Ziehe pro Kopf 1 Karte."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Tackle",
-			fr: "Tacle Puissant",
-			es: "Placaje Poderoso",
-			it: "Forzazione",
-			pt: "Investida Poderosa",
-			de: "Kraft-Tackle"
+			'en-us': "Power Tackle",
+			'fr-fr': "Tacle Puissant",
+			'es-es': "Placaje Poderoso",
+			'it-it': "Forzazione",
+			'pt-br': "Investida Poderosa",
+			'de-de': "Kraft-Tackle"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120
@@ -74,7 +74,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Hasuno",
 	description: {
-		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+		'en-us': "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
 	},
 	variants: [
 		{

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "阿馴",
-		ja: "ジュン"
+		'ja-jp': "ジュン"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "從自己的牌庫抽出3張卡。",
-		ja: "自分の山札を3枚引く。"
+		'ja-jp': "自分の山札を3枚引く。"
 	},
 
 	trainerType: "Supporter",

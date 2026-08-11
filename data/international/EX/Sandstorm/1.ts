@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Armaldo",
-		fr: "Armaldo",
-		de: "Armaldo"
+		'en-us': "Armaldo",
+		'fr-fr': "Armaldo",
+		'de-de': "Armaldo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Anorith",
-		fr: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Veil",
-				fr: "Voile primordial",
-				de: "Primal Veil"
+				'en-us': "Primal Veil",
+				'fr-fr': "Voile primordial",
+				'de-de': "Primal Veil"
 			},
 			effect: {
-				en: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter Cards.",
-				fr: "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter.",
-				de: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards."
+				'en-us': "As long as Armaldo is your Active Pokémon, each player can't play any Supporter Cards.",
+				'fr-fr': "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter.",
+				'de-de': "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards."
 			}
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blade Arms",
-				fr: "Bras tranchants",
-				de: "Blade Arms"
+				'en-us': "Blade Arms",
+				'fr-fr': "Bras tranchants",
+				'de-de': "Blade Arms"
 			},
 
 			damage: 60,

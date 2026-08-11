@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cubone"
+		'en-us': "Cubone"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
+				'en-us': "Leer",
 			},
 			effect: {
-				en: "Flip a coin, If heas, your opponent's Active Pokémon is now Paralyzed"
+				'en-us': "Flip a coin, If heas, your opponent's Active Pokémon is now Paralyzed"
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless", "Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				'en-us': "Headbutt",
 			},
 			damage: 20,
 		}

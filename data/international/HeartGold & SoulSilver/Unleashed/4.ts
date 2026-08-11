@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Metalosse",
-		de: "Metagross"
+		'en-us': "Metagross",
+		'fr-fr': "Metalosse",
+		'de-de': "Metagross"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Psychic Float",
-				fr: "Psy-flotteur",
-				de: "Psychoschweber"
+				'en-us': "Psychic Float",
+				'fr-fr': "Psy-flotteur",
+				'de-de': "Psychoschweber"
 			},
 			effect: {
-				en: "If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
-				fr: "Si une ou plusieurs cartes Énergie Psychic sont attachées à votre Pokémon Actif, le Coût de retraite de ce dernier est de 0.",
-				de: "Wenn an dein Aktives Pokémon mindestens 1 -Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
+				'en-us': "If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
+				'fr-fr': "Si une ou plusieurs cartes Énergie Psychic sont attachées à votre Pokémon Actif, le Coût de retraite de ce dernier est de 0.",
+				'de-de': "Wenn an dein Aktives Pokémon mindestens 1 -Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulse Blast",
-				fr: "Explosion vibrante",
-				de: "Pulsierender Schuss"
+				'en-us': "Pulse Blast",
+				'fr-fr': "Explosion vibrante",
+				'de-de': "Pulsierender Schuss"
 			},
 
 			damage: 60,
@@ -66,14 +66,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Double Leg Hammer",
-				fr: "Marteau têtu",
-				de: "Doppelter Beinhammer"
+				'en-us': "Double Leg Hammer",
+				'fr-fr': "Marteau têtu",
+				'de-de': "Doppelter Beinhammer"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

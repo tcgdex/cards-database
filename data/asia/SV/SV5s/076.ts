@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Golurk"
+		'id-id': "Golurk"
 	},
 
 	illustrator: "Oku",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Pada dinding di kastel manusia purba, terdapat tumpuan bagi Golurk untuk menembakkan sinar laser bagaikan meriam."
+		'id-id': "Pada dinding di kastel manusia purba, terdapat tumpuan bagi Golurk untuk menembakkan sinar laser bagaikan meriam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pertahanan Besi"
+			'id-id': "Pertahanan Besi"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan."
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Tinju Semangat Petarung"
+			'id-id': "Tinju Semangat Petarung"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {ex}/{V}, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {ex}/{V}, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "120+",

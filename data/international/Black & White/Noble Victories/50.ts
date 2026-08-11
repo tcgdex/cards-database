@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+		'en-us': "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
 	},
 
 	thirdParty: {

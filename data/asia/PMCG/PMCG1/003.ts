@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トランセル",
+		'ja-jp': "トランセル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "硬直",
+				'ja-jp': "硬直",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中にメタポッドに与えられたすべての損傷を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中にメタポッドに与えられたすべての損傷を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "スタン胞子",
+				'ja-jp': "スタン胞子",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Baudrive",
+		'fr-fr': "Baudrive",
 	},
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Unburden",
-				fr: "Délestage",
-				de: "Entlastung"
+				'en-us': "Unburden",
+				'fr-fr': "Délestage",
+				'de-de': "Entlastung"
 			},
 			effect: {
-				en: "If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is colorless colorless more.",
-				fr: "Si Baudrive possède une carte Outil Pokémon, son Coût de Retraite est de ColorlessColorless de plus.",
-				de: "Wenn an Driftlon 1 Pokémon-Ausrüstung angelegt ist, sind Driftlons Rückzugskosten um  erhöht."
+				'en-us': "If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is colorless colorless more.",
+				'fr-fr': "Si Baudrive possède une carte Outil Pokémon, son Coût de Retraite est de ColorlessColorless de plus.",
+				'de-de': "Wenn an Driftlon 1 Pokémon-Ausrüstung angelegt ist, sind Driftlons Rückzugskosten um  erhöht."
 			},
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -65,14 +65,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Explosion",
-				fr: "Grosse explosion",
-				de: "Große Explosion"
+				'en-us': "Big Explosion",
+				'fr-fr': "Grosse explosion",
+				'de-de': "Große Explosion"
 			},
 			effect: {
-				en: "Drifloon does 50 damage to itself.",
-				fr: "Baudrive s'inflige 50 dégâts.",
-				de: "Driftlon fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "Drifloon does 50 damage to itself.",
+				'fr-fr': "Baudrive s'inflige 50 dégâts.",
+				'de-de': "Driftlon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 50,
 

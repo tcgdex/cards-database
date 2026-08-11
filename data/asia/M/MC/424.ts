@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スナノケガワ",
+		'ja-jp': "スナノケガワ",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "捕獲例は ゼロ。 データ不足。 ある 探検記に 記された 生物と 特徴が 一致する。",
+		'ja-jp': "捕獲例は ゼロ。 データ不足。 ある 探検記に 記された 生物と 特徴が 一致する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分の場にエネルギーが3個以上あるなら、70ダメージ追加。このワザのダメージは弱点を計算しない。",
+				'ja-jp': "自分の場にエネルギーが3個以上あるなら、70ダメージ追加。このワザのダメージは弱点を計算しない。",
 			},
 		},
 		{

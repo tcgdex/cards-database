@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Stantler",
-		fr: "Cerfrousse",
-		de: "Damhirplex"
+		'en-us': "Stantler",
+		'fr-fr': "Cerfrousse",
+		'de-de': "Damhirplex"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Screechy Voice",
-				fr: "Voix stridente",
-				de: "Screechy Voice"
+				'en-us': "Screechy Voice",
+				'fr-fr': "Voix stridente",
+				'de-de': "Screechy Voice"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, le Pokémon Défenseur est maintenant Confus.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Away",
-				fr: "Mettre à l'écart",
-				de: "Push Away"
+				'en-us': "Push Away",
+				'fr-fr': "Mettre à l'écart",
+				'de-de': "Push Away"
 			},
 			effect: {
-				en: "Look at your opponent's hand, choose a Trainer card you find there, and discard it.",
-				fr: "Regardez la main de votre adversaire, choisissez une carte Dresseur et défaussez-la.",
-				de: "Look at your opponent's hand, choose a Trainer card you find there, and discard it."
+				'en-us': "Look at your opponent's hand, choose a Trainer card you find there, and discard it.",
+				'fr-fr': "Regardez la main de votre adversaire, choisissez une carte Dresseur et défaussez-la.",
+				'de-de': "Look at your opponent's hand, choose a Trainer card you find there, and discard it."
 			},
 			damage: 20,
 

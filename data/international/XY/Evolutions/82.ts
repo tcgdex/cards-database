@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Pokédex",
-		fr: "Pokédex",
-		es: "Pokédex",
-		it: "Pokédex",
-		pt: "Pokédex",
-		de: "Pokédex"
+		'en-us': "Pokédex",
+		'fr-fr': "Pokédex",
+		'es-es': "Pokédex",
+		'it-it': "Pokédex",
+		'pt-br': "Pokédex",
+		'de-de': "Pokédex"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
-		en: "Look at the top 5 cards of your deck and put them back in any order.",
-		es: "Mira las 5 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
-		it: "Guarda le prime cinque carte del tuo mazzo e rimettile a posto nell'ordine che preferisci.",
-		pt: "Olhe os 5 primeiros cards do seu baralho e coloque-os de volta em qualquer ordem.",
-		de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück in dein Deck."
+		'fr-fr': "Regardez les 5 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
+		'en-us': "Look at the top 5 cards of your deck and put them back in any order.",
+		'es-es': "Mira las 5 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
+		'it-it': "Guarda le prime cinque carte del tuo mazzo e rimettile a posto nell'ordine che preferisci.",
+		'pt-br': "Olhe os 5 primeiros cards do seu baralho e coloque-os de volta em qualquer ordem.",
+		'de-de': "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück in dein Deck."
 	},
 
 	trainerType: "Item",

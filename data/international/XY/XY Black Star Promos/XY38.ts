@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		'en-us': "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
 	},
 
 	thirdParty: {

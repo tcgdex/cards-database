@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'de-de': "Tangoloss"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela"
+		'en-us': "Tangela"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Guard",
-				de: "Floraschild"
+				'en-us': "Leaf Guard",
+				'de-de': "Floraschild"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Tangrowth by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Tangoloss durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Tangrowth by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Tangoloss durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
-				de: "Runterschlucken"
+				'en-us': "Swallow Up",
+				'de-de': "Runterschlucken"
 			},
 			effect: {
-				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Tangrowth. If the Defending Pokémon has fewer remaining HP than Tangrowth's, this attack does 120 damage instead.",
-				de: "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP des Verteidigenden Pokémon und Tangoloss. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Tangoloss, fügt dieser Angriff 120 Schadenspunkte zu."
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Tangrowth. If the Defending Pokémon has fewer remaining HP than Tangrowth's, this attack does 120 damage instead.",
+				'de-de': "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP des Verteidigenden Pokémon und Tangoloss. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Tangoloss, fügt dieser Angriff 120 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut."
+		'en-us': "Its arms are made of plants that bind themselves to things. They grow back right away if cut."
 	},
 
 	variants: [		{

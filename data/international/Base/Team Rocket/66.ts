@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Trickery",
-				fr: "Ruse",
-				de: "Trickery"
+				'en-us': "Trickery",
+				'fr-fr': "Ruse",
+				'de-de': "Trickery"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour, (avant votre attaque), vous pouvez échanger 1 de vos récompenses avec la carte du sommet de votre deck. Ce pouvoir ne pant ête utilisé si Rattata est Endosmi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed."
+				'en-us': "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une fois pendant votre tour, (avant votre attaque), vous pouvez échanger 1 de vos récompenses avec la carte du sommet de votre deck. Ce pouvoir ne pant ête utilisé si Rattata est Endosmi, Confus ou Paralysé.",
+				'de-de': "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, certe attaque inflige 1o dégâts.",
-				de: "Flip a coin. If heads, this attack doese plus 10 more damage; if tails, this attack does 10 damage"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, certe attaque inflige 1o dégâts.",
+				'de-de': "Flip a coin. If heads, this attack doese plus 10 more damage; if tails, this attack does 10 damage"
 			},
 			damage: "10+",
 
@@ -76,8 +76,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Loves to eat walnuts, chestnuts, cheese, and milk.",
-		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
+		'en-us': "Loves to eat walnuts, chestnuts, cheese, and milk.",
+		'fr-fr': "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
 	},
 
 

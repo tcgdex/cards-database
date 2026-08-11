@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [598],
 
 	name: {
-		en: "Ferrothorn",
-		fr: "Noacier",
-		es: "Ferrothorn",
-		it: "Ferrothorn",
-		pt: "Ferrothorn",
-		de: "Tentantel"
+		'en-us': "Ferrothorn",
+		'fr-fr': "Noacier",
+		'es-es': "Ferrothorn",
+		'it-it': "Ferrothorn",
+		'pt-br': "Ferrothorn",
+		'de-de': "Tentantel"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Swift Swing",
-				fr: "Vacillement Véloce",
-				es: "Cambio Súbito",
-				it: "Giracolpo",
-				pt: "Balanço Veloz",
-				de: "Temposchwung"
+				'en-us': "Swift Swing",
+				'fr-fr': "Vacillement Véloce",
+				'es-es': "Cambio Súbito",
+				'it-it': "Giracolpo",
+				'pt-br': "Balanço Veloz",
+				'de-de': "Temposchwung"
 			},
 			effect: {
-				en: "This attack does 30 damage for each Metal Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie Metal attachée à ce Pokémon. Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-				es: "Este ataque hace 30 puntos de daño por cada Energía Metal unida a este Pokémon. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Questo attacco infligge 30 danni per ogni Energia Metal assegnata a questo Pokémon. Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Este ataque causa 30 pontos de dano para cada Energia Metal ligada a este Pokémon. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Metal-Energie 30 Schadenspunkte zu. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "This attack does 30 damage for each Metal Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Énergie Metal attachée à ce Pokémon. Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada Energía Metal unida a este Pokémon. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Questo attacco infligge 30 danni per ogni Energia Metal assegnata a questo Pokémon. Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Este ataque causa 30 pontos de dano para cada Energia Metal ligada a este Pokémon. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Metal-Energie 30 Schadenspunkte zu. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: "30×",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
+		'en-us': "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
 	},
 
 	variants: [

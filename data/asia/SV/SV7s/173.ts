@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ทัททู"
+		'th-th': "ทัททู"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "อาศัยอยู่ในทะเลที่มีกระแสน้ำสงบ เมื่อถูกโจมตีจะพ่นหมึกดำใส่แล้วใช้โอกาสนั้นหนี"
+		'th-th': "อาศัยอยู่ในทะเลที่มีกระแสน้ำสงบ เมื่อถูกโจมตีจะพ่นหมึกดำใส่แล้วใช้โอกาสนั้นหนี"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "อยู่นิ่ง ๆ"
+			'th-th': "อยู่นิ่ง ๆ"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			th: "ครีบใบมีด"
+			'th-th': "ครีบใบมีด"
 		},
 
 		damage: 20,

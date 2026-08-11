@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rillaboom",
-		fr: "Gorythmic",
-		es: "Rillaboom",
-		it: "Rillaboom",
-		pt: "Rillaboom",
-		de: "Gortrom"
+		'en-us': "Rillaboom",
+		'fr-fr': "Gorythmic",
+		'es-es': "Rillaboom",
+		'it-it': "Rillaboom",
+		'pt-br': "Rillaboom",
+		'de-de': "Gortrom"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -21,52 +21,52 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Thwackey",
-		fr: "Badabouin",
-		es: "Thwackey",
-		it: "Thwackey",
-		pt: "Thwackey",
-		de: "Chimstix"
+		'en-us': "Thwackey",
+		'fr-fr': "Badabouin",
+		'es-es': "Thwackey",
+		'it-it': "Thwackey",
+		'pt-br': "Thwackey",
+		'de-de': "Chimstix"
 	},
 
 	attacks: [{
 		name: {
-			en: "Wood Drain",
-			fr: "Regain Sylvestre",
-			es: "Drenaje del Bosque",
-			it: "Assorbilegno",
-			pt: "Dreno de Madeira",
-			de: "Holzsauger"
+			'en-us': "Wood Drain",
+			'fr-fr': "Regain Sylvestre",
+			'es-es': "Drenaje del Bosque",
+			'it-it': "Assorbilegno",
+			'pt-br': "Dreno de Madeira",
+			'de-de': "Holzsauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 60,
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			en: "Raging Repeated Strike",
-			fr: "Frappes Effrénées",
-			es: "Golpe Furioso Incesante",
-			it: "Colpo Raffica Furente",
-			pt: "Golpes Ferozes Múltiplos",
-			de: "Tobender Wiederholungsschlag"
+			'en-us': "Raging Repeated Strike",
+			'fr-fr': "Frappes Effrénées",
+			'es-es': "Golpe Furioso Incesante",
+			'it-it': "Colpo Raffica Furente",
+			'pt-br': "Golpes Ferozes Múltiplos",
+			'de-de': "Tobender Wiederholungsschlag"
 		},
 
 		effect: {
-			en: "Discard any amount of Energy from your Pokémon. This attack does 30 more damage for each card you discarded in this way.",
-			fr: "Défaussez autant d'Énergies que vous le voulez de vos Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
-			es: "Descarta cualquier cantidad de Energías de tus Pokémon. Este ataque hace 30 puntos de daño más por cada carta que hayas descartado de esta manera.",
-			it: "Scarta tutte le Energie che vuoi dai tuoi Pokémon. Questo attacco infligge 30 danni in più per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte qualquer quantidade de Energia dos seus Pokémon. Este ataque causa 30 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Lege beliebig viele Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 30 Schadenspunkte mehr zu."
+			'en-us': "Discard any amount of Energy from your Pokémon. This attack does 30 more damage for each card you discarded in this way.",
+			'fr-fr': "Défaussez autant d'Énergies que vous le voulez de vos Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			'es-es': "Descarta cualquier cantidad de Energías de tus Pokémon. Este ataque hace 30 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			'it-it': "Scarta tutte le Energie che vuoi dai tuoi Pokémon. Questo attacco infligge 30 danni in più per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Descarte qualquer quantidade de Energia dos seus Pokémon. Este ataque causa 30 pontos de dano a mais para cada carta descartada desta forma.",
+			'de-de': "Lege beliebig viele Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+",
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
+		'en-us': "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
 	},
 
 	variants: [

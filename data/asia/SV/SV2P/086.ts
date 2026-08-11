@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤドキングex"
+		'ja-jp': "ヤドキングex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "うんちく"
+			'ja-jp': "うんちく"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "ウィズダムヘッド"
+			'ja-jp': "ウィズダムヘッド"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "のぞむなら、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
+			'ja-jp': "のぞむなら、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
 		}
 	}],
 

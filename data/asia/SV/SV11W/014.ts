@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バオップ",
+		'ja-jp': "バオップ",
 	},
 
 	illustrator: "Julie Hang",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "頭の ふさは 怒ると 温度が 上がり ３００度 以上になる。 木の実を ふさで 焼いて 食べる。",
+		'ja-jp': "頭の ふさは 怒ると 温度が 上がり ３００度 以上になる。 木の実を ふさで 焼いて 食べる。",
 	},
 
 	stage: "Basic",

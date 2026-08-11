@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イノムー",
+		'ja-jp': "イノムー",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "４本の 脚は 短いが ひづめは 広く ギザギザ なので 雪の上でも 滑らず 歩ける。",
+		'ja-jp': "４本の 脚は 短いが ひづめは 広く ギザギザ なので 雪の上でも 滑らず 歩ける。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "ねむる" },
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。このポケモンのHPを「90」回復する。",
+				'ja-jp': "このポケモンをねむりにする。このポケモンのHPを「90」回復する。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウリムー",
+		'ja-jp': "ウリムー",
 	},
 
 	retreat: 4,

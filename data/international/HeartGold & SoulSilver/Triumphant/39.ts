@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Luvdisc",
-		fr: "Lovdisc",
-		de: "Liebiskus"
+		'en-us': "Luvdisc",
+		'fr-fr': "Lovdisc",
+		'de-de': "Liebiskus"
 	},
 
 	illustrator: "sui",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rendezvous Draw",
-				fr: "Pioche commune",
-				de: "Verabredungszieher"
+				'en-us': "Rendezvous Draw",
+				'fr-fr': "Pioche commune",
+				'de-de': "Verabredungszieher"
 			},
 			effect: {
-				en: "Each player draws and reveals the top card of his or her deck.",
-				fr: "Chaque joueur pioche et dévoile la carte du dessus de son deck.",
-				de: "Jeder Spieler zieht die oberste Karte seines Decks, zeigt sie seinem Gegner und nimmt sie auf die Hand."
+				'en-us': "Each player draws and reveals the top card of his or her deck.",
+				'fr-fr': "Chaque joueur pioche et dévoile la carte du dessus de son deck.",
+				'de-de': "Jeder Spieler zieht die oberste Karte seines Decks, zeigt sie seinem Gegner und nimmt sie auf die Hand."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Distorted Wave",
-				fr: "Vague tordue",
-				de: "Verzerrte Welle"
+				'en-us': "Distorted Wave",
+				'fr-fr': "Vague tordue",
+				'de-de': "Verzerrte Welle"
 			},
 			effect: {
-				en: "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
-				fr: "Avant d’infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
+				'en-us': "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
+				'fr-fr': "Avant d’infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur.",
+				'de-de': "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+		'en-us': "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
 	},
 
 	variants: [

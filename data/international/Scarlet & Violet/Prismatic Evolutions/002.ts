@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		es: "Exeggutor",
-		pt: "Exeggutor",
-		it: "Exeggutor",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'es-es': "Exeggutor",
+		'pt-br': "Exeggutor",
+		'it-it': "Exeggutor",
+		'de-de': "Kokowei"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		es: "Exeggcute",
-		pt: "Exeggcute",
-		it: "Exeggcute",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'es-es': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'it-it': "Exeggcute",
+		'de-de': "Owei"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue",
-			es: "Megaagotar",
-			pt: "Megadreno",
-			it: "Megassorbimento",
-			de: "Megasauger"
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
+			'pt-br': "Megadreno",
+			'it-it': "Megassorbimento",
+			'de-de': "Megasauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			pt: "Raio Solar",
-			it: "Solarraggio",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'pt-br': "Raio Solar",
+			'it-it': "Solarraggio",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 130

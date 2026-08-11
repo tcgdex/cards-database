@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Mesprit",
-		fr: "Créfollet",
-		es: "Mesprit",
-		it: "Mesprit",
-		pt: "Mesprit",
-		de: "Vesprit"
+		'en-us': "Mesprit",
+		'fr-fr': "Créfollet",
+		'es-es': "Mesprit",
+		'it-it': "Mesprit",
+		'pt-br': "Mesprit",
+		'de-de': "Vesprit"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Mental Shroud",
-				fr: "Écran Mental",
-				es: "Velo MentalBarrera Mental",
-				it: "Manto Psichico",
-				pt: "Cortina Mental",
-				de: "Gedankengardine"
+				'en-us': "Mental Shroud",
+				'fr-fr': "Écran Mental",
+				'es-es': "Velo MentalBarrera Mental",
+				'it-it': "Manto Psichico",
+				'pt-br': "Cortina Mental",
+				'de-de': "Gedankengardine"
 			},
 			effect: {
-				en: "If you have Uxie and Azelf in play, each of your Pokémon has no Weakness.",
-				fr: "Si vous avez Créhelf et Créfadet en jeu, chacun de vos Pokémon n’a pas de Faiblesse.",
-				es: "Si tienes a Uxie y a Azelf en juego, cada uno de tus Pokémon no tiene ninguna Debilidad.",
-				it: "Se hai Uxie e Azelf in gioco, nessuno dei tuoi Pokémon ha debolezza.",
-				pt: "Caso você possua Uxie e Azelf em jogo, seus Pokémon não terão Fraqueza.",
-				de: "Wenn du Selfe und Tobutz im Spiel hast, hat jedes deiner Pokémon keine Schwäche."
+				'en-us': "If you have Uxie and Azelf in play, each of your Pokémon has no Weakness.",
+				'fr-fr': "Si vous avez Créhelf et Créfadet en jeu, chacun de vos Pokémon n’a pas de Faiblesse.",
+				'es-es': "Si tienes a Uxie y a Azelf en juego, cada uno de tus Pokémon no tiene ninguna Debilidad.",
+				'it-it': "Se hai Uxie e Azelf in gioco, nessuno dei tuoi Pokémon ha debolezza.",
+				'pt-br': "Caso você possua Uxie e Azelf em jogo, seus Pokémon não terão Fraqueza.",
+				'de-de': "Wenn du Selfe und Tobutz im Spiel hast, hat jedes deiner Pokémon keine Schwäche."
 			},
 		},
 	],
@@ -58,8 +58,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 30,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Mesprit flew, people learned the joy and sadness of living. It was the birth of emotions.",
+		'en-us': "When Mesprit flew, people learned the joy and sadness of living. It was the birth of emotions.",
 	},
 
 	thirdParty: {

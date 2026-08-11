@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チラチーノ",
+		'ja-jp': "チラチーノ",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "白い 体毛は 肌触りが 抜群。 ほこりや 静電気を まったく 寄せつけないのだ。",
+		'ja-jp': "白い 体毛は 肌触りが 抜群。 ほこりや 静電気を まったく 寄せつけないのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すごいおねだり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを2枚選び、相手に見せてから、手札に加えて良いかを相手にたずねる。相手が良いなら、選んだカードを手札に加える。良くないなら、選んだカードをトラッシュにもどし、相手のバトルポケモンに80ダメージ。",
+				'ja-jp': "自分のトラッシュにある好きなカードを2枚選び、相手に見せてから、手札に加えて良いかを相手にたずねる。相手が良いなら、選んだカードを手札に加える。良くないなら、選んだカードをトラッシュにもどし、相手のバトルポケモンに80ダメージ。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チラーミィ",
+		'ja-jp': "チラーミィ",
 	},
 
 	retreat: 1,

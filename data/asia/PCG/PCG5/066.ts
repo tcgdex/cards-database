@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Flygon Ex",
+		'ja-jp': "Flygon Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "充電充電",
+				'ja-jp': "充電充電",
 			},
 			effect: {
-				ja: "ターン中に、手からフライゴンEXをプレイしてPokã©Monの1つを進化させると、Discard Pileを最大2枚のエネルギーカードで検索し、Flygon Exに取り付けることができます。",
+				'ja-jp': "ターン中に、手からフライゴンEXをプレイしてPokã©Monの1つを進化させると、Discard Pileを最大2枚のエネルギーカードで検索し、Flygon Exに取り付けることができます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "反応性の爆発",
+				'ja-jp': "反応性の爆発",
 			},
 			effect: {
-				ja: "Flygon Exに接続された任意の数のReact Energyカードを廃棄することができます。もしそうなら、この攻撃は40ダメージに加えて、廃棄したReactエネルギーカードごとに30ダメージを与えます。",
+				'ja-jp': "Flygon Exに接続された任意の数のReact Energyカードを廃棄することができます。もしそうなら、この攻撃は40ダメージに加えて、廃棄したReactエネルギーカードごとに30ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Grass", "Lightning", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ドラゴンクロー",
+				'ja-jp': "ドラゴンクロー",
 			},
 			damage: 100,
 		},

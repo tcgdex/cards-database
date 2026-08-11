@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Sawsbuck",
-		fr: "Haydaim",
-		es: "Sawsbuck",
-		it: "Sawsbuck",
-		pt: "Sawsbuck",
-		de: "Kronjuwild"
+		'en-us': "Sawsbuck",
+		'fr-fr': "Haydaim",
+		'es-es': "Sawsbuck",
+		'it-it': "Sawsbuck",
+		'pt-br': "Sawsbuck",
+		'de-de': "Kronjuwild"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deerling",
-		fr: "Vivaldaim",
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature Power",
-				fr: "Force-Nature",
+				'en-us': "Nature Power",
+				'fr-fr': "Force-Nature",
 			},
 			effect: {
-				en: "Does 10 more damage for each Grass Energy attached to both your and your opponent's Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Grass attachée à vos Pokémon et à ceux de votre adversaire.",
+				'en-us': "Does 10 more damage for each Grass Energy attached to both your and your opponent's Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Grass attachée à vos Pokémon et à ceux de votre adversaire.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Leech",
-				fr: "Encornebois",
+				'en-us': "Horn Leech",
+				'fr-fr': "Encornebois",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+		'en-us': "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
 	},
 
 	thirdParty: {

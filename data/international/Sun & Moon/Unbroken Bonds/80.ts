@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Meowstic",
-		fr: "Mistigrix",
-		es: "Meowstic",
-		it: "Meowstic",
-		pt: "Meowstic",
-		de: "Psiaugon"
+		'en-us': "Meowstic",
+		'fr-fr': "Mistigrix",
+		'es-es': "Meowstic",
+		'it-it': "Meowstic",
+		'pt-br': "Meowstic",
+		'de-de': "Psiaugon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Espurr",
-		fr: "Psystigri",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Caturday",
-				fr: "Chamedi",
-				es: "Sábado Gatuno",
-				it: "Giornogatto",
-				pt: "Dia de Gato",
-				de: "Schnurrtag"
+				'en-us': "Caturday",
+				'fr-fr': "Chamedi",
+				'es-es': "Sábado Gatuno",
+				'it-it': "Giornogatto",
+				'pt-br': "Dia de Gato",
+				'de-de': "Schnurrtag"
 			},
 			effect: {
-				en: "Draw 3 cards. If you do, this Pokémon is now Asleep.",
-				fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
-				es: "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
-				it: "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
-				pt: "Compre 3 cartas. Se fizer isto, este Pokémon será Adormecido.",
-				de: "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
+				'en-us': "Draw 3 cards. If you do, this Pokémon is now Asleep.",
+				'fr-fr': "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+				'es-es': "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
+				'it-it': "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
+				'pt-br': "Compre 3 cartas. Se fizer isto, este Pokémon será Adormecido.",
+				'de-de': "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Perplexing Eyes",
-				fr: "Regard Déroutant",
-				es: "Ojos Desconcertantes",
-				it: "Sguardo Sconcertante",
-				pt: "Olhos Perplexos",
-				de: "Verblüffende Augen"
+				'en-us': "Perplexing Eyes",
+				'fr-fr': "Regard Déroutant",
+				'es-es': "Ojos Desconcertantes",
+				'it-it': "Sguardo Sconcertante",
+				'pt-br': "Olhos Perplexos",
+				'de-de': "Verblüffende Augen"
 			},
 			effect: {
-				en: "The Defending Pokémon’s Weakness is now Psychic until the end of your next turn. (The amount of Weakness doesn’t change.)",
-				fr: "La Faiblesse du Pokémon Défenseur est maintenant de type Psychic jusqu’à la fin de votre prochain tour. (La valeur de la Faiblesse ne change pas.)",
-				es: "La Debilidad del Pokémon Defensor pasa a ser Psychic hasta el final de tu próximo turno. (La cantidad de Debilidad no cambia).",
-				it: "La debolezza del Pokémon difensore diventa Psychic fino alla fine del tuo prossimo turno. Quanto è debole non cambia.",
-				pt: "A Fraqueza do Pokémon Defensor será Psychic até o final da sua próxima vez de jogar (a quantidade de Fraqueza não muda).",
-				de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Psychic. (Die Höhe der Schwäche ändert sich nicht.)"
+				'en-us': "The Defending Pokémon’s Weakness is now Psychic until the end of your next turn. (The amount of Weakness doesn’t change.)",
+				'fr-fr': "La Faiblesse du Pokémon Défenseur est maintenant de type Psychic jusqu’à la fin de votre prochain tour. (La valeur de la Faiblesse ne change pas.)",
+				'es-es': "La Debilidad del Pokémon Defensor pasa a ser Psychic hasta el final de tu próximo turno. (La cantidad de Debilidad no cambia).",
+				'it-it': "La debolezza del Pokémon difensore diventa Psychic fino alla fine del tuo prossimo turno. Quanto è debole non cambia.",
+				'pt-br': "A Fraqueza do Pokémon Defensor será Psychic até o final da sua próxima vez de jogar (a quantidade de Fraqueza não muda).",
+				'de-de': "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Psychic. (Die Höhe der Schwäche ändert sich nicht.)"
 			},
 			damage: 70,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+		'en-us': "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
 	},
 
 	thirdParty: {

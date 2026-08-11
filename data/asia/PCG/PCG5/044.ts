@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Girafarig",
+		'ja-jp': "Girafarig",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "リアセンサー",
+				'ja-jp': "リアセンサー",
 			},
 			effect: {
-				ja: "各プレイヤーのアクティブな基本的なPokã©Mon（Pokã©Mon-Exを除く）は、Pokã©Powersを使用できません。",
+				'ja-jp': "各プレイヤーのアクティブな基本的なPokã©Mon（Pokã©Mon-Exを除く）は、Pokã©Powersを使用できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "先見性",
+				'ja-jp': "先見性",
 			},
 			effect: {
-				ja: "どちらのプレイヤーのデッキの上位5枚のカードを見て、好きな順序でそのプレイヤーのデッキの上に戻します。",
+				'ja-jp': "どちらのプレイヤーのデッキの上位5枚のカードを見て、好きな順序でそのプレイヤーのデッキの上に戻します。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "障害",
+				'ja-jp': "障害",
 			},
 			effect: {
-				ja: "防衛ポケモンに特別なエネルギーカードが付いている場合、防御ポケモンは混乱しています。",
+				'ja-jp': "防衛ポケモンに特別なエネルギーカードが付いている場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

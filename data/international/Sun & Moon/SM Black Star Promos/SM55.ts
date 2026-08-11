@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Decidueye",
-		fr: "Archéduc",
-		es: "Decidueye",
-		it: "Decidueye",
-		pt: "Decidueye",
-		de: "Silvarro"
+		'en-us': "Decidueye",
+		'fr-fr': "Archéduc",
+		'es-es': "Decidueye",
+		'it-it': "Decidueye",
+		'pt-br': "Decidueye",
+		'de-de': "Silvarro"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Promo",
@@ -23,8 +23,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Dartrix",
-		fr: "Efflèche",
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
 	},
 	stage: "Stage2",
 
@@ -35,20 +35,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-Feuille",
-				es: "Hoja Aguda",
-				it: "Fendifoglia",
-				pt: "Lâmina de Folha",
-				de: "Laubklinge"
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
+				'es-es': "Hoja Aguda",
+				'it-it': "Fendifoglia",
+				'pt-br': "Lâmina de Folha",
+				'de-de': "Laubklinge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Bird",
-				fr: "Rapace",
-				es: "Pájaro Osado",
-				it: "Baldeali",
-				pt: "Pássaro Bravo",
-				de: "Sturzflug"
+				'en-us': "Brave Bird",
+				'fr-fr': "Rapace",
+				'es-es': "Pájaro Osado",
+				'it-it': "Baldeali",
+				'pt-br': "Pássaro Bravo",
+				'de-de': "Sturzflug"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -92,7 +92,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It fires arrow quills from its wings with such precision they can pierce a pebble at distances over a hundred yards.",
+		'en-us': "It fires arrow quills from its wings with such precision they can pierce a pebble at distances over a hundred yards.",
 	},
 }
 

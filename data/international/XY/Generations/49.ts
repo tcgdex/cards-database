@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
 	},
 
 	illustrator: "Midori Harada",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 40,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+		'en-us': "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
 	},
 
 	thirdParty: {

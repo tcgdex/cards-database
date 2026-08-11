@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Ivysaur",
-		fr: "Herbizarre",
-		es: "Ivysaur",
-		it: "Ivysaur",
-		pt: "Ivysaur",
-		de: "Bisaknosp"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre",
+		'es-es': "Ivysaur",
+		'it-it': "Ivysaur",
+		'pt-br': "Ivysaur",
+		'de-de': "Bisaknosp"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre"
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre Dodo"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre Dodo"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Powder",
-				fr: "Poudre Toxik"
+				'en-us': "Poison Powder",
+				'fr-fr': "Poudre Toxik"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 50,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
+		'en-us': "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
 	},
 
 	thirdParty: {

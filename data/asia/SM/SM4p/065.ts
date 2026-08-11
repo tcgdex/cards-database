@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクジキングGX",
+		'ja-jp': "アクジキングGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "くいちらかす" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、このポケモンにつける。",
+				'ja-jp': "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、このポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを2枚多くとる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを2枚多くとる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

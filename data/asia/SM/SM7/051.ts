@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メテノ",
+		'ja-jp': "メテノ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強い 衝撃を うけると 殻は はがれ 落ちる。 ナノ粒子が 突然変異し 生まれたポケモン。",
+		'ja-jp': "強い 衝撃を うけると 殻は はがれ 落ちる。 ナノ粒子が 突然変異し 生まれたポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ほしふり" },
 			effect: {
-				ja: "自分の番に、このカードが手札にあり、自分のベンチに空きがあるなら、1回使える。このカードを手札から直接バトル場に出す。その場合、バトルポケモンはベンチへもどす。",
+				'ja-jp': "自分の番に、このカードが手札にあり、自分のベンチに空きがあるなら、1回使える。このカードを手札から直接バトル場に出す。その場合、バトルポケモンはベンチへもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

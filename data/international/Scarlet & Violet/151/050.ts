@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Taupiqueur",
-		en: "Diglett",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'fr-fr': "Taupiqueur",
+		'en-us': "Diglett",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Culbute Surprise",
-			en: "Headbutt Bounce",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'fr-fr': "Culbute Surprise",
+			'en-us': "Headbutt Bounce",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Coud'Boue",
-			en: "Mud-Slap",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'fr-fr': "Coud'Boue",
+			'en-us': "Mud-Slap",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+		'en-us': "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
 	},
 
 	variants: [

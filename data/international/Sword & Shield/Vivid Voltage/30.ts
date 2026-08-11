@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [134],
 
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		es: "Vaporeon",
-		it: "Vaporeon",
-		pt: "Vaporeon",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'es-es': "Vaporeon",
+		'it-it': "Vaporeon",
+		'pt-br': "Vaporeon",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "kodama",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Torrential Awakening",
-				fr: "Éveil Torrentiel",
-				es: "Despertar Torrencial",
-				it: "Risveglio Torrenziale",
-				pt: "Despertar Torrencial",
-				de: "Reißendes Erwachen"
+				'en-us': "Torrential Awakening",
+				'fr-fr': "Éveil Torrentiel",
+				'es-es': "Despertar Torrencial",
+				'it-it': "Risveglio Torrenziale",
+				'pt-br': "Despertar Torrencial",
+				'de-de': "Reißendes Erwachen"
 			},
 			effect: {
-				en: "If this Pokémon has a Memory Capsule attached, Fire Pokémon in play (both yours and your opponent's) have no Abilities.",
-				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Fire en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
-				es: "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Fire en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
-				it: "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Fire in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
-				pt: "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Fire em jogo (seus e do seu oponente) não terão Habilidades.",
-				de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Fire-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
+				'en-us': "If this Pokémon has a Memory Capsule attached, Fire Pokémon in play (both yours and your opponent's) have no Abilities.",
+				'fr-fr': "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Fire en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
+				'es-es': "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Fire en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
+				'it-it': "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Fire in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
+				'pt-br': "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Fire em jogo (seus e do seu oponente) não terão Habilidades.",
+				'de-de': "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Fire-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde Boréale",
-				es: "Rayo Aurora",
-				it: "Raggiaurora",
-				pt: "Raio Aurora",
-				de: "Aurorastrahl"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde Boréale",
+				'es-es': "Rayo Aurora",
+				'it-it': "Raggiaurora",
+				'pt-br': "Raio Aurora",
+				'de-de': "Aurorastrahl"
 			},
 
 			damage: 70,
@@ -88,7 +88,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours."
+		'en-us': "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours."
 	},
 
 	variants: [

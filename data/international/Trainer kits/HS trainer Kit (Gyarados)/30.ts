@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
+		'en-us': "Gyarados",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -16,7 +16,7 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
+				'en-us': "Hydro Splash",
 			},
 			damage: 50,
 		},
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
+				'en-us': "Hyper Beam",
 			},
 			effect: {
-				en: "Discard an Energy card attached to the Defending Pokémon.",
+				'en-us': "Discard an Energy card attached to the Defending Pokémon.",
 			},
 			damage: 80,
 		},

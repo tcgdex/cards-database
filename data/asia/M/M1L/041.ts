@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クスネ",
+		'ja-jp': "クスネ",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "用心深く ずる賢い。  エサを 盗むと しっぽで  足跡を 消しながら 逃げるのだ。",
+		'ja-jp': "用心深く ずる賢い。  エサを 盗むと しっぽで  足跡を 消しながら 逃げるのだ。",
 	},
 
 	stage: "Basic",

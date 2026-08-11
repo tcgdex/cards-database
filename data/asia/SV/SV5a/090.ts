@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゲッコウガex"
+		'ja-jp': "ゲッコウガex"
 	},
 
 	illustrator: "akagi",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "しのびのやいば"
+			'ja-jp': "しのびのやいば"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。"
+			'ja-jp': "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶんしんれんだ"
+			'ja-jp': "ぶんしんれんだ"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン2匹に、それぞれ120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン2匹に、それぞれ120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

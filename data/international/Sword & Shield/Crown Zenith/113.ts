@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Regigigas V",
-		fr: "Regigigas V",
-		es: "Regigigas V",
-		it: "Regigigas V",
-		pt: "Regigigas V",
-		de: "Regigigas V"
+		'en-us': "Regigigas V",
+		'fr-fr': "Regigigas V",
+		'es-es': "Regigigas V",
+		'it-it': "Regigigas V",
+		'pt-br': "Regigigas V",
+		'de-de': "Regigigas V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 50
@@ -39,21 +39,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Angry Whack",
-			fr: "Coup Furieux",
-			es: "Golpe Iracundo",
-			it: "Randellata Furiosa",
-			pt: "Pancadão Nervoso",
-			de: "Wütender Klaps"
+			'en-us': "Angry Whack",
+			'fr-fr': "Coup Furieux",
+			'es-es': "Golpe Iracundo",
+			'it-it': "Randellata Furiosa",
+			'pt-br': "Pancadão Nervoso",
+			'de-de': "Wütender Klaps"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon. This Pokémon is now Confused.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon. Ce Pokémon est maintenant Confus.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon. Este Pokémon pasa a estar Confundido.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon. Questo Pokémon viene confuso.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon. Este Pokémon agora está Confuso.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu. Dieses Pokémon ist jetzt verwirrt."
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon. This Pokémon is now Confused.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon. Ce Pokémon est maintenant Confus.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon. Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon. Questo Pokémon viene confuso.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon. Este Pokémon agora está Confuso.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu. Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: "100+"

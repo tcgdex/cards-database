@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poltchageist"
+		'id-id': "Poltchageist"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Poltchageist terlihat seperti varian daerah dari Sinistea, tetapi belakangan ini ditemukan bahwa mereka merupakan Pokémon yang tidak ada keterkaitannya sama sekali."
+		'id-id': "Poltchageist terlihat seperti varian daerah dari Sinistea, tetapi belakangan ini ditemukan bahwa mereka merupakan Pokémon yang tidak ada keterkaitannya sama sekali."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyediakan Teh"
+			'id-id': "Menyediakan Teh"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar {Daun} dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih 1 lembar Energi Dasar {Daun} dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Serangan Kejutan"
+			'id-id': "Serangan Kejutan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

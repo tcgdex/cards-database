@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Mizue",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Free Flight",
-				fr: "Vol Gratuit",
-				es: "Vuelo Libre",
-				it: "Volo Libero",
-				pt: "Vôo Livre",
-				de: "Freiflug"
+				'en-us': "Free Flight",
+				'fr-fr': "Vol Gratuit",
+				'es-es': "Vuelo Libre",
+				'it-it': "Volo Libero",
+				'pt-br': "Vôo Livre",
+				'de-de': "Freiflug"
 			},
 			effect: {
-				en: "If this Pokémon has no Energy attached to it, this Pokémon has no Retreat Cost.",
-				fr: "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
-				es: "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
-				de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "If this Pokémon has no Energy attached to it, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
+				'es-es': "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
+				'de-de': "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 20,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
+		'en-us': "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
 	},
 
 	thirdParty: {

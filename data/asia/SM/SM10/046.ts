@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラガラ",
+		'ja-jp': "ガラガラ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ホネを 投げつけ バルジーナを 撃ち落す。 親の かたきを 討っていると 考えられている。",
+		'ja-jp': "ホネを 投げつけ バルジーナを 撃ち落す。 親の かたきを 討っていると 考えられている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x50ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	retreat: 2,

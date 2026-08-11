@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Shining Kabutops",
-		fr: "Kabutops brillant",
-		de: "Schimmerndes Kabutops"
+		'en-us': "Shining Kabutops",
+		'fr-fr': "Kabutops brillant",
+		'de-de': "Schimmerndes Kabutops"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Cut",
-				fr: "Coupe éclair",
-				de: "Blitzschnitt"
+				'en-us': "Lightning Cut",
+				'fr-fr': "Coupe éclair",
+				'de-de': "Blitzschnitt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage and Shining Kabutops does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez ni la Faiblesse, ni la Résistance aux Pokémon du Banc.) Si c'est pile, cette attaque inflige 30 dégâts et Kabutops brillant s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenpunkte zu und außerdem jedem Pokémon auf der Bank deines gegners 10 Schadenspunkte. (Wende Schwäche und resistenz bei Pokémon auf der Bank nicht an.) Bei 'Zahl' fügt dieser Angriff 30 Schadenpunkte zu, und Schimmerndes Kabutops fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage and Shining Kabutops does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez ni la Faiblesse, ni la Résistance aux Pokémon du Banc.) Si c'est pile, cette attaque inflige 30 dégâts et Kabutops brillant s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenpunkte zu und außerdem jedem Pokémon auf der Bank deines gegners 10 Schadenspunkte. (Wende Schwäche und resistenz bei Pokémon auf der Bank nicht an.) Bei 'Zahl' fügt dieser Angriff 30 Schadenpunkte zu, und Schimmerndes Kabutops fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Slash",
-				fr: "Tranche O",
-				de: "Wasserschlitzer"
+				'en-us': "Water Slash",
+				'fr-fr': "Tranche O",
+				'de-de': "Wasserschlitzer"
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops brillant mais non utilisée pour payer le coût d'Énergie de cette attaque. N'appliquez pas la Résistance.",
-				de: "Fügt 40 Schadenspunkte plus 10 weitere Schadenpunkte für jede an Schimmerndes Kabutops angelegte -Energie, die nicht zum Zahlen der Angriffskosten verwendet wird, zu. Wende Resistenz nicht an."
+				'en-us': "Does 50 damage plus 10 more damage for each Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops brillant mais non utilisée pour payer le coût d'Énergie de cette attaque. N'appliquez pas la Résistance.",
+				'de-de': "Fügt 40 Schadenspunkte plus 10 weitere Schadenpunkte für jede an Schimmerndes Kabutops angelegte -Energie, die nicht zum Zahlen der Angriffskosten verwendet wird, zu. Wende Resistenz nicht an."
 			},
 			damage: "50+",
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",
-		fr: "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
+		'en-us': "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",
+		'fr-fr': "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
 	},
 
 

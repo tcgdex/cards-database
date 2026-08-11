@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン2",
+		'ja-jp': "ポリゴン2",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "惑星 開発を 視野に 入れ 当時の 最新技術で ポリゴンを アップデートしたのだ。",
+		'ja-jp': "惑星 開発を 視野に 入れ 当時の 最新技術で ポリゴンを アップデートしたのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "けいさん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から6枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分の山札を上から6枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	retreat: 1,

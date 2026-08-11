@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raboot",
-		fr: "Lapyro",
-		es: "Raboot",
+		'en-us': "Raboot",
+		'fr-fr': "Lapyro",
+		'es-es': "Raboot",
 		'es-mx': "Raboot",
-		de: "Kickerlo",
-		it: "Raboot",
-		pt: "Raboot"
+		'de-de': "Kickerlo",
+		'it-it': "Raboot",
+		'pt-br': "Raboot"
 	},
 
 	evolveFrom: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
 		'es-mx': "Scorbunny",
-		de: "Hopplo",
-		it: "Scorbunny",
-		pt: "Scorbunny",
+		'de-de': "Hopplo",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
 	},
 
 	illustrator: "aspara",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Low Sweep",
-			fr: "Balayette",
-			es: "Puntapié",
+			'en-us': "Low Sweep",
+			'fr-fr': "Balayette",
+			'es-es': "Puntapié",
 			'es-mx': "Barredora",
-			de: "Fußtritt",
-			it: "Calciobasso",
-			pt: "Movimento Baixo"
+			'de-de': "Fußtritt",
+			'it-it': "Calciobasso",
+			'pt-br': "Movimento Baixo"
 		},
 
 		damage: 30
@@ -50,13 +50,13 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
 			'es-mx': "Combustión",
-			de: "Glühen",
-			it: "Fuoco Continuo",
-			pt: "Combustão"
+			'de-de': "Glühen",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão"
 		},
 
 		damage: 60
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "While it prides itself on its varied kicking moves, it can also deliver powerful headbutts once its flames have heated up its forehead.",
+		'en-us': "While it prides itself on its varied kicking moves, it can also deliver powerful headbutts once its flames have heated up its forehead.",
 	},
 
 	variants: [

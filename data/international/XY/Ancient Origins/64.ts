@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Data Check",
-				fr: "Vérification de Données",
-				es: "Comprobación de Datos",
-				it: "Controllo Dati",
-				pt: "Verificação de Dados",
-				de: "Datenprüfung"
+				'en-us': "Data Check",
+				'fr-fr': "Vérification de Données",
+				'es-es': "Comprobación de Datos",
+				'it-it': "Controllo Dati",
+				'pt-br': "Verificação de Dados",
+				'de-de': "Datenprüfung"
 			},
 			effect: {
-				en: "Look through your deck. Shuffle your deck afterward.",
-				fr: "Parcourez votre deck. Mélangez ensuite votre deck.",
-				es: "Examina las cartas de tu baraja. Baraja las cartas de tu baraja después.",
-				it: "Guarda e poi rimischia le carte del tuo mazzo.",
-				pt: "Consulte o seu baralho. Em seguida, embaralhe seus cards.",
-				de: "Sieh dir die Karten deines Decks an. Mische anschließend dein Deck."
+				'en-us': "Look through your deck. Shuffle your deck afterward.",
+				'fr-fr': "Parcourez votre deck. Mélangez ensuite votre deck.",
+				'es-es': "Examina las cartas de tu baraja. Baraja las cartas de tu baraja después.",
+				'it-it': "Guarda e poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Consulte o seu baralho. Em seguida, embaralhe seus cards.",
+				'de-de': "Sieh dir die Karten deines Decks an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				es: "Afilar",
-				it: "Affilatore",
-				pt: "Afiar",
-				de: "Schärfer"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'es-es': "Afilar",
+				'it-it': "Affilatore",
+				'pt-br': "Afiar",
+				'de-de': "Schärfer"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that consists entirely of programming code. It is capable of moving freely in cyberspace.",
+		'en-us': "A Pokémon that consists entirely of programming code. It is capable of moving freely in cyberspace.",
 	},
 
 	thirdParty: {

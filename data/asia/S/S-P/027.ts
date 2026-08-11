@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビート",
+		'ja-jp': "ビート",
 	},
 
 	illustrator: "Naoki Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札から基本エネルギーを1枚選び、ベンチポケモンにつける。",
+		'ja-jp': "自分の手札から基本エネルギーを1枚選び、ベンチポケモンにつける。",
 	},
 
 	variants: [

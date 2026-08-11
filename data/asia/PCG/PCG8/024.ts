@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "lotad",
+		'ja-jp': "lotad",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "アクアリフト",
+				'ja-jp': "アクアリフト",
 			},
 			effect: {
-				ja: "Lotadに水エネルギーが付着している場合、Lotadのリトリートコストは0です。",
+				'ja-jp': "Lotadに水エネルギーが付着している場合、Lotadのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ローリングタックル",
+				'ja-jp': "ローリングタックル",
 			},
 			damage: 20,
 		},

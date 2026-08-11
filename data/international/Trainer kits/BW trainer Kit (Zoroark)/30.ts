@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Zoroark).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark",
-		es: "Zoroark",
-		it: "Zoroark",
-		pt: "Zoroark",
-		de: "Zoroark"
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark",
+		'es-es': "Zoroark",
+		'it-it': "Zoroark",
+		'pt-br': "Zoroark",
+		'de-de': "Zoroark"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -26,12 +26,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	attacks: [{
@@ -39,12 +39,12 @@ const card: Card = {
 			"Darkness"
 		],
 		name: {
-			en: "Fury Swipes",
-			fr: "Combo-Griffe"
+			'en-us': "Fury Swipes",
+			'fr-fr': "Combo-Griffe"
 		},
 		effect: {
-			en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 		},
 		damage: "20×"
 	}, {
@@ -54,8 +54,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Night Daze",
-			fr: "Explonuit"
+			'en-us': "Night Daze",
+			'fr-fr': "Explonuit"
 		},
 		damage: 80
 	}],
@@ -71,7 +71,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents."
+		'en-us': "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents."
 	},
 
 	retreat: 2,

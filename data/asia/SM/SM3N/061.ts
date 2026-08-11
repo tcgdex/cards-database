@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイトGX",
+		'ja-jp': "サーナイトGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひみつのいずみ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある[妖]エネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある[妖]エネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fairy"],
 			effect: {
-				ja: "おたがいのバトルポケモンについているエネルギーの数x30ダメージ。",
+				'ja-jp': "おたがいのバトルポケモンについているエネルギーの数x30ダメージ。",
 			},
 		},
 		{
 			name: { ja: "トワイライトGX" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを10枚、相手に見せてから、山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある好きなカードを10枚、相手に見せてから、山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine ex",
-		fr: "Arcanin-ex",
-		es: "Arcanine ex",
-		it: "Arcanine-ex",
-		de: "Arkani-ex",
+		'en-us': "Arcanine ex",
+		'fr-fr': "Arcanin-ex",
+		'es-es': "Arcanine ex",
+		'it-it': "Arcanine-ex",
+		'de-de': "Arkani-ex",
 		'pt-br': "Arcanine ex",
-		ko: "윈디 ex"
+		'ko-kr': "윈디 ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -23,7 +23,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	suffix: "EX",
@@ -32,23 +32,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Inferno Onrush",
-			fr: "Torrent d'Enfer",
-			es: "Infierno Desatado",
-			it: "Assalto Infernale",
-			de: "Inferno-Ansturm",
+			'en-us': "Inferno Onrush",
+			'fr-fr': "Torrent d'Enfer",
+			'es-es': "Infierno Desatado",
+			'it-it': "Assalto Infernale",
+			'de-de': "Inferno-Ansturm",
 			'pt-br': "Investida Infernal",
-			ko: "맹화의돌진"
+			'ko-kr': "맹화의돌진"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
 			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			ko: "이 포켓몬에게도 20데미지를 준다."
+			'ko-kr': "이 포켓몬에게도 20데미지를 준다."
 		},
 
 		damage: "120"

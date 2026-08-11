@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Paldean Wooper"
+		'id-id': "Paldean Wooper"
 	},
 
 	illustrator: "kirisAki",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
+		'id-id': "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Racun Berceceran"
+			'id-id': "Racun Berceceran"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Racun."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Tumbukan Ekor"
+			'id-id': "Tumbukan Ekor"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウォーグル",
+		'ja-jp': "ウォーグル",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "仲間のため 危険を かえりみず 戦う。 自動車を つかんだまま 大空を 舞う ことが できる。",
+		'ja-jp': "仲間のため 危険を かえりみず 戦う。 自動車を つかんだまま 大空を 舞う ことが できる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x80ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x80ダメージ。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワシボン",
+		'ja-jp': "ワシボン",
 	},
 
 	retreat: 2,

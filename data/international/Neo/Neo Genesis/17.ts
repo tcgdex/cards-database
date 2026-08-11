@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Typhlosion",
-		fr: "Typhlosion",
-		de: "Tornupto"
+		'en-us': "Typhlosion",
+		'fr-fr': "Typhlosion",
+		'de-de': "Tornupto"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Quilava",
-		fr: "Feurisson"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Fire Recharge",
-				fr: "Recharge de feu",
-				de: "Fire Recharge"
+				'en-us': "Fire Recharge",
+				'fr-fr': "Recharge de feu",
+				'de-de': "Fire Recharge"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Fire Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse sur un de vos Pokémon . Ce pouvoir ne peut être utilisé si Typhlosion est Endormi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, attach a  Energy card from your discard pile to 1 of your  Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Fire Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse sur un de vos Pokémon . Ce pouvoir ne peut être utilisé si Typhlosion est Endormi, Confus ou Paralysé.",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, attach a  Energy card from your discard pile to 1 of your  Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Burst",
-				fr: "Éruption de flammes",
-				de: "Flame Burst"
+				'en-us': "Flame Burst",
+				'fr-fr': "Éruption de flammes",
+				'de-de': "Flame Burst"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires et inflige 20 dégâts à Typhlosion. Si c'est pile, cette attaque inflige 60 dégâts.",
-				de: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage."
+				'en-us': "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires et inflige 20 dégâts à Typhlosion. Si c'est pile, cette attaque inflige 60 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage."
 			},
 			damage: "60+",
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
-		fr: "Dans ses moments de rage, il devient tellement chaud que tout ce qu'il touche prend feu."
+		'en-us': "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+		'fr-fr': "Dans ses moments de rage, il devient tellement chaud que tout ce qu'il touche prend feu."
 	},
 
 

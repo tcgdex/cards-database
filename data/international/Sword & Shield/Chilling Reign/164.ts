@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Sylveroy Cavalier du Froid V",
-		en: "Ice Rider Calyrex V",
-		es: "Calyrex Jinete Glacial V",
-		it: "Calyrex Cavaliere Glaciale V",
-		pt: "Calyrex Cavaleiro Glacial V",
-		de: "Schimmelreiter-Coronospa V"
+		'fr-fr': "Sylveroy Cavalier du Froid V",
+		'en-us': "Ice Rider Calyrex V",
+		'es-es': "Calyrex Jinete Glacial V",
+		'it-it': "Calyrex Cavaliere Glaciale V",
+		'pt-br': "Calyrex Cavaleiro Glacial V",
+		'de-de': "Schimmelreiter-Coronospa V"
 	},
 
 	illustrator: "OKACHEKE",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Transpercement",
-			en: "Pierce",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'fr-fr': "Transpercement",
+			'en-us': "Pierce",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 40,
 		cost: ["Water"]
 	}, {
 		name: {
-			fr: "Lance de Glace",
-			en: "Glacial Lance",
-			es: "Lanza Glacial",
-			it: "Lancia Glaciale",
-			pt: "Lança Glacial",
-			de: "Blizzardlanze"
+			'fr-fr': "Lance de Glace",
+			'en-us': "Glacial Lance",
+			'es-es': "Lanza Glacial",
+			'it-it': "Lancia Glaciale",
+			'pt-br': "Lança Glacial",
+			'de-de': "Blizzardlanze"
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			en: "Discard 2 Energy from this Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200,

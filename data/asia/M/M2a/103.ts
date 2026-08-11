@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のドンカラス",
+		'ja-jp': "ロケット団のドンカラス",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜行性。 一声 鳴けば １００匹を 超える 子分の ヤミカラスが 集結する。",
+		'ja-jp': "夜行性。 一声 鳴けば １００匹を 超える 子分の ヤミカラスが 集結する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札から、名前に「ロケット団」とつくサポートを好きなだけトラッシュし、その枚数×60ダメージ。",
+				'ja-jp': "自分の手札から、名前に「ロケット団」とつくサポートを好きなだけトラッシュし、その枚数×60ダメージ。",
 			},
 		},
 		{
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のヤミカラス",
+		'ja-jp': "ロケット団のヤミカラス",
 	},
 
 	retreat: 1,

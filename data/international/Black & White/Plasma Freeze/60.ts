@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge",
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
 			},
 			effect: {
-				en: "Does 80 damage minus 10 damage for each damage counter on this Pokémon.",
-				fr: "Inflige 80 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "Does 80 damage minus 10 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 80 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: 80,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+		'en-us': "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
 	},
 
 	thirdParty: {

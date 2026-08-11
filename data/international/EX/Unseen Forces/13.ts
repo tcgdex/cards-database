@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		de: "Lahmus"
+		'en-us': "Slowbro",
+		'fr-fr': "Flagadoss",
+		'de-de': "Lahmus"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Armor",
-				fr: "Double armure",
-				de: "Dual Armor"
+				'en-us': "Dual Armor",
+				'fr-fr': "Double armure",
+				'de-de': "Dual Armor"
 			},
 			effect: {
-				en: "As long as Slowbro has any Psychic Energy attached to it, Slowbro is both Water and Psychic type.",
-				fr: "Tant que Flagadoss possède des Énergies , il est à la fois de type  et .",
-				de: "As long as Slowbro has any  Energy attached to it, Slowbro is both  and  type."
+				'en-us': "As long as Slowbro has any Psychic Energy attached to it, Slowbro is both Water and Psychic type.",
+				'fr-fr': "Tant que Flagadoss possède des Énergies , il est à la fois de type  et .",
+				'de-de': "As long as Slowbro has any  Energy attached to it, Slowbro is both  and  type."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Parallel Gain",
-				fr: "Gain parallèle",
-				de: "Parallel Gain"
+				'en-us': "Parallel Gain",
+				'fr-fr': "Gain parallèle",
+				'de-de': "Parallel Gain"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon (including Slowbro).",
-				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Flagadoss inclus).",
-				de: "Remove 1 damage counter from each of your Active Pokémon (including Slowbro)."
+				'en-us': "Remove 1 damage counter from each of your Pokémon (including Slowbro).",
+				'fr-fr': "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Flagadoss inclus).",
+				'de-de': "Remove 1 damage counter from each of your Active Pokémon (including Slowbro)."
 			},
 			damage: 20,
 
@@ -71,9 +71,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-boulé",
-				de: "Rolling Tackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-boulé",
+				'de-de': "Rolling Tackle"
 			},
 
 			damage: 50,

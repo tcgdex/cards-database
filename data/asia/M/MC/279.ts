@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナンジャモのタイカイデン",
+		'ja-jp': "ナンジャモのタイカイデン",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。",
+		'ja-jp': "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フラッシュドロー" },
 			effect: {
-				ja: "自分の番に、このポケモンについている「基本[L]エネルギー」を1個トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "自分の番に、このポケモンについている「基本[L]エネルギー」を1個トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナンジャモのカイデン",
+		'ja-jp': "ナンジャモのカイデン",
 	},
 
 	retreat: 1,

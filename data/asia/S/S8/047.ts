@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムシャーナ",
+		'ja-jp': "ムシャーナ",
 		'zh-tw': "夢夢蝕",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いつも まどろみ 夢を 見ている。 寝起きは とっても 不機嫌に なるので そっとして おこう。",
+		'ja-jp': "いつも まどろみ 夢を 見ている。 寝起きは とっても 不機嫌に なるので そっとして おこう。",
 		'zh-tw': "總是在打瞌睡作夢。剛睡醒的時候會鬧脾氣，所以最好別去招惹牠。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ねむりにさそう",
+				'ja-jp': "ねむりにさそう",
 				'zh-tw': "誘導睡眠",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをねむりにする。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをねむりにする。",
 				'zh-tw': "選擇對手的1隻備戰寶可夢，與戰鬥寶可夢互換。然後，將新上場的寶可夢【睡眠】。",
 			},
 		},
 		{
 			name: {
-				ja: "サイコキネシス",
+				'ja-jp': "サイコキネシス",
 				'zh-tw': "精神強念",
 			},
 			damage: "30+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
 				'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 	},
 
 	retreat: 2,

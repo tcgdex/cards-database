@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Koraidon"
+		'id-id': "Koraidon"
 	},
 
 	illustrator: "Teeziro",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Kabarnya, identitas asli Winged King yang membelah tanah dengan tinjunya seperti yang tertulis dalam jurnal ekspedisi kuno adalah Koraidon."
+		'id-id': "Kabarnya, identitas asli Winged King yang membelah tanah dengan tinjunya seperti yang tertulis dalam jurnal ekspedisi kuno adalah Koraidon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pukulan Kacau Primitif"
+			'id-id': "Pukulan Kacau Primitif"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Pokémon Purba di Arena sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Pokémon Purba di Arena sendiri."
 		},
 
 		damage: "30×",
 		cost: ["Fighting", "Colorless"]
 	}, {
 		name: {
-			id: "Merobek"
+			'id-id': "Merobek"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		},
 
 		damage: 130,

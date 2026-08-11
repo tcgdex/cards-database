@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Alolan Geodude",
-		fr: "Racaillou d’Alola",
-		es: "Geodude de Alola",
-		it: "Geodude di Alola",
-		pt: "Geodude de Alola",
-		de: "Alola-Kleinstein"
+		'en-us': "Alolan Geodude",
+		'fr-fr': "Racaillou d’Alola",
+		'es-es': "Geodude de Alola",
+		'it-it': "Geodude di Alola",
+		'pt-br': "Geodude de Alola",
+		'de-de': "Alola-Kleinstein"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Rock Polish",
-				fr: "Poliroche",
-				es: "Pulimento",
-				it: "Lucidatura",
-				pt: "Polidor de Rocha",
-				de: "Steinpolitur"
+				'en-us': "Rock Polish",
+				'fr-fr': "Poliroche",
+				'es-es': "Pulimento",
+				'it-it': "Lucidatura",
+				'pt-br': "Polidor de Rocha",
+				'de-de': "Steinpolitur"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon has no Retreat Cost.",
-				fr: "Pendant votre prochain tour, ce Pokémon n’a pas de Coût de Retraite.",
-				es: "Durante tu próximo turno, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non ha costo di ritirata.",
-				pt: "Durante a sua próxima vez de jogar, este Pokémon não terá custo de Recuo.",
-				de: "Während deines nächsten Zuges hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "During your next turn, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon n’a pas de Coût de Retraite.",
+				'es-es': "Durante tu próximo turno, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non ha costo di ritirata.",
+				'pt-br': "Durante a sua próxima vez de jogar, este Pokémon não terá custo de Recuo.",
+				'de-de': "Während deines nächsten Zuges hat dieses Pokémon keine Rückzugskosten."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 40,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
+		'en-us': "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
 	},
 
 	thirdParty: {

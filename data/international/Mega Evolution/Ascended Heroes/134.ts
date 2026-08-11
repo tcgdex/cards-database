@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
 		'es-mx': "Scraggy",
-		de: "Zurrokex",
-		it: "Scraggy",
-		pt: "Scraggy"
+		'de-de': "Zurrokex",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Knock Off",
-			fr: "Sabotage",
-			es: "Desarme",
+			'en-us': "Knock Off",
+			'fr-fr': "Sabotage",
+			'es-es': "Desarme",
 			'es-mx': "Desarme",
-			de: "Abschlag",
-			it: "Privazione",
-			pt: "Derrubar"
+			'de-de': "Abschlag",
+			'it-it': "Privazione",
+			'pt-br': "Derrubar"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
 			'es-mx': "Descarta 1 carta aleatoria de la mano de tu rival.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Descarte uma carta aleatória da mão do seu oponente."
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Descarte uma carta aleatória da mão do seu oponente."
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		'en-us': "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
 	},
 
 	variants: [

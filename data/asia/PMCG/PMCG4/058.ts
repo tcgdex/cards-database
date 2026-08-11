@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "たたきつけろ!挑戦状",
+		'ja-jp': "たたきつけろ!挑戦状",
 	},
 
 	illustrator: "Kagemaru Himeno",

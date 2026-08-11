@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Sauve qui peut",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Sauve qui peut",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trembler",
-				fr: "Tremblement de terre",
-				de: "Beben"
+				'en-us': "Trembler",
+				'fr-fr': "Tremblement de terre",
+				'de-de': "Beben"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon, and each Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur et les Paralysent.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff allen Verteidigenden Pokémon 10 Schadenspunkte zu und alle Verteidigenden Pokémon sind jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon, and each Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur et les Paralysent.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff allen Verteidigenden Pokémon 10 Schadenspunkte zu und alle Verteidigenden Pokémon sind jetzt gelähmt."
 			},
 
 		},

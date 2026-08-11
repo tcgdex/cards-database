@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドンカラスV"
+		'ja-jp': "ドンカラスV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ドンのふところ"
+			'ja-jp': "ドンのふところ"
 		},
 
 		effect: {
-			ja: "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）"
+			'ja-jp': "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "シャドーフィアー"
+			'ja-jp': "シャドーフィアー"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "相手の手札を見る。"
+			'ja-jp': "相手の手札を見る。"
 		}
 	}],
 

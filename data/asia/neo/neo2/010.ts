@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "beedrill",
+		'ja-jp': "beedrill",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "トリプルポイズン",
+				'ja-jp': "トリプルポイズン",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。対戦相手は、各プレイヤーのターン後に1つではなく、3つのダメージカウンターを置くようになりました（すでに毒されていたとしても）。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。対戦相手は、各プレイヤーのターン後に1つではなく、3つのダメージカウンターを置くようになりました（すでに毒されていたとしても）。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "ピンミサイル",
+				'ja-jp': "ピンミサイル",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

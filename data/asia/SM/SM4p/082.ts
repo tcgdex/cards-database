@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ガルーラの 母親の 愛情は 深い。 我が子を 守るためならば 死さえ 恐れないと いわれている。",
+		'ja-jp': "ガルーラの 母親の 愛情は 深い。 我が子を 守るためならば 死さえ 恐れないと いわれている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x50ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x50ダメージ。",
 			},
 		},
 	],

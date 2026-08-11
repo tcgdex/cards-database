@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Élector",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Élector",
+		'de-de': "Zapdos"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderstorm",
-				fr: "Orage",
-				de: "Thunderstorm"
+				'en-us': "Thunderstorm",
+				'fr-fr': "Orage",
+				'de-de': "Thunderstorm"
 			},
 			effect: {
-				en: "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself.",
-				fr: "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile.",
-				de: "For each of your opponent's Benched Pokémon, flip a coin. IF heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+				'en-us': "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself.",
+				'fr-fr': "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile.",
+				'de-de': "For each of your opponent's Benched Pokémon, flip a coin. IF heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
 			},
 			damage: 40,
 
@@ -58,8 +58,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary thunderbird Pokémon whose anger is said to cause storms. Some say it has lived above the clouds for thousands of years.",
-		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
+		'en-us': "A legendary thunderbird Pokémon whose anger is said to cause storms. Some say it has lived above the clouds for thousands of years.",
+		'fr-fr': "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
 	},
 
 

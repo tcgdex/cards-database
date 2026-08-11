@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのカブトップ",
+		'ja-jp': "ブロックのカブトップ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "真空カット",
+				'ja-jp': "真空カット",
 			},
 			effect: {
-				ja: "衰弱や抵抗を適用しないでください。防御するポケモンが戦闘抵抗を持っている場合、この攻撃は20ではなく40のダメージを与えます。",
+				'ja-jp': "衰弱や抵抗を適用しないでください。防御するポケモンが戦闘抵抗を持っている場合、この攻撃は20ではなく40のダメージを与えます。",
 			},
 			damage: 20,
 		},

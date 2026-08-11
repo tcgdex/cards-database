@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		es: "Cherubi",
-		it: "Cherubi",
-		pt: "Cherubi",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'es-es': "Cherubi",
+		'it-it': "Cherubi",
+		'pt-br': "Cherubi",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
+		'en-us': "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
 	},
 
 	thirdParty: {

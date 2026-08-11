@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		es: "Metapod",
-		it: "Metapod",
-		pt: "Metapod",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'es-es': "Metapod",
+		'it-it': "Metapod",
+		'pt-br': "Metapod",
+		'de-de': "Safcon"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		es: "Caterpie",
-		it: "Caterpie",
-		pt: "Caterpie",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'es-es': "Caterpie",
+		'it-it': "Caterpie",
+		'pt-br': "Caterpie",
+		'de-de': "Raupy"
 	},
 
 	stage: "Stage1",
@@ -40,28 +40,28 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack."
+		'en-us': "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack."
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Exoskeleton",
-			fr: "Exosquelette",
-			de: "Exoskelett",
-			es: "Exosqueleto",
-			pt: "Exo-esqueleto",
-			it: "Esoscheletro"
+			'en-us': "Exoskeleton",
+			'fr-fr': "Exosquelette",
+			'de-de': "Exoskelett",
+			'es-es': "Exosqueleto",
+			'pt-br': "Exo-esqueleto",
+			'it-it': "Esoscheletro"
 		},
 
 		effect: {
-			en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
+			'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+			'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
 		}
 	}],
 
@@ -69,12 +69,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			es: "Apisonar",
-			pt: "Aríete",
-			it: "Carica"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
+			'it-it': "Carica"
 		},
 
 		damage: 10

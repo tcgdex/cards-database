@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "swinub",
+		'ja-jp': "swinub",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "休む",
+				'ja-jp': "休む",
 			},
 			effect: {
-				ja: "Swinubからすべての特別な条件とすべてのダメージカウンターを削除します。 Swinubは今眠っています。",
+				'ja-jp': "Swinubからすべての特別な条件とすべてのダメージカウンターを削除します。 Swinubは今眠っています。",
 			},
 		},
 	],

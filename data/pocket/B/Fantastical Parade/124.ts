@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [52],
 
 	name: {
-		en: "Meowth"
+		'en-us': "Meowth"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It loves things that sparkle. When it sees a shiny\nobject, the gold coin on its head shines, too."
+		'en-us': "It loves things that sparkle. When it sees a shiny\nobject, the gold coin on its head shines, too."
 	},
 
 	stage: "Basic",
@@ -26,23 +26,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Carefree Steps"
+			'en-us': "Carefree Steps"
 		},
 
 		effect: {
-			en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage."
+			'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Feelin' Fine"
+			'en-us': "Feelin' Fine"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			'en-us': "Draw a card."
 		}
 	}],
 

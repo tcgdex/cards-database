@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Charcadet"
+		'id-id': "Charcadet"
 	},
 
 	illustrator: "Mizue",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
+		'id-id': "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Membakar Semangat Petarung"
+			'id-id': "Membakar Semangat Petarung"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Kepalan Tinju"
+			'id-id': "Kepalan Tinju"
 		},
 
 		damage: 50,

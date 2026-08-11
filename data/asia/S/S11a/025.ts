@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 		'zh-tw': "吼吼鯨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "飲みこんだ 海水を 目の 上の 鼻の 穴から 噴き出し アピール。 毎日 １トンの ヨワシを 食う。",
+		'ja-jp': "飲みこんだ 海水を 目の 上の 鼻の 穴から 噴き出し アピール。 毎日 １トンの ヨワシを 食う。",
 		'zh-tw': "把喝入的海水從眼睛上方的鼻孔中噴出來吸引他人。每天要吃１噸弱丁魚。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひとやすみ",
+				'ja-jp': "ひとやすみ",
 				'zh-tw': "小憩",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "みずでっぽう",
+				'ja-jp': "みずでっぽう",
 				'zh-tw': "水槍",
 			},
 			damage: 70,

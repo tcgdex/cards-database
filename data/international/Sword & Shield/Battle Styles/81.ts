@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Silicobra",
-		fr: "Dunaja",
-		es: "Silicobra",
-		it: "Silicobra",
-		pt: "Silicobra",
-		de: "Salanga"
+		'en-us': "Silicobra",
+		'fr-fr': "Dunaja",
+		'es-es': "Silicobra",
+		'it-it': "Silicobra",
+		'pt-br': "Silicobra",
+		'de-de': "Salanga"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			it: "Codabotta",
-			pt: "Surra de Cauda",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'it-it': "Codabotta",
+			'pt-br': "Surra de Cauda",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Mud Shot",
-			fr: "Tir de Boue",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'en-us': "Mud Shot",
+			'fr-fr': "Tir de Boue",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 60,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
+		'en-us': "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	},
 
 	variants: [

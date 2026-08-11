@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲデマルex",
+		'ja-jp': "トゲデマルex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Metal"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "前の自分の番に、このポケモンが「トゲトゲローリング」を使っていたなら、80ダメージ追加。",
+				'ja-jp': "前の自分の番に、このポケモンが「トゲトゲローリング」を使っていたなら、80ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マークロウ",
+		'ja-jp': "マークロウ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Darkness"],
 			name: {
-				ja: "邪悪な目",
+				'ja-jp': "邪悪な目",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。そのポケモンにダメージカウンターを置きます。",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。そのポケモンにダメージカウンターを置きます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ブラインドサイド",
+				'ja-jp': "ブラインドサイド",
 			},
 			effect: {
-				ja: "ダメージカウンターがある対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "ダメージカウンターがある対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

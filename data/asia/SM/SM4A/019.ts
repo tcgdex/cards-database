@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "尻尾を バネのかわりに いつも 飛び跳ねている。 跳ねる 振動で 心臓を 鼓動 させているのだ。",
+		'ja-jp': "尻尾を バネのかわりに いつも 飛び跳ねている。 跳ねる 振動で 心臓を 鼓動 させているのだ。",
 	},
 
 	stage: "Basic",

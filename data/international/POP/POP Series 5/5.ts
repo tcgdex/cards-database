@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon δ",
-		fr: "Charmeleon δ"
+		'en-us': "Charmeleon δ",
+		'fr-fr': "Charmeleon δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
 	},
 
 	stage: "Stage1",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche"
+				'en-us': "Slash",
+				'fr-fr': "Tranche"
 			},
 
 			damage: 20,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts."
+				'en-us': "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts."
 			},
 			damage: 50,
 

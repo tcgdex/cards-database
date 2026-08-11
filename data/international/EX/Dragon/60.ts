@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for Magikarp and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez des cartes Magicarpe dans votre deck et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach beliebig vielen Kopien von Karpador und lege sie auf die Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for Magikarp and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez des cartes Magicarpe dans votre deck et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach beliebig vielen Kopien von Karpador und lege sie auf die Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

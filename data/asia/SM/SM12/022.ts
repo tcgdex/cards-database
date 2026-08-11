@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドゼルガ",
+		'ja-jp': "トドゼルガ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きな 氷を キバで 砕く。 厚い 脂肪は 寒さだけでなく 敵の 攻撃も はね返す。",
+		'ja-jp': "大きな 氷を キバで 砕く。 厚い 脂肪は 寒さだけでなく 敵の 攻撃も はね返す。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、相手は手札からトレーナーズを出して使えない。前の自分の番に、自分のポケモンが「コールドウェーブ」を使っていたなら、このワザは使えない。",
+				'ja-jp': "次の相手の番、相手は手札からトレーナーズを出して使えない。前の自分の番に、自分のポケモンが「コールドウェーブ」を使っていたなら、このワザは使えない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トドグラー",
+		'ja-jp': "トドグラー",
 	},
 
 	retreat: 4,

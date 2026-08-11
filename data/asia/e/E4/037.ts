@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョルテオン",
+		'ja-jp': "ジョルテオン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "自己癒し",
+				'ja-jp': "自己癒し",
 			},
 			effect: {
-				ja: "手からジョルテオンに稲妻エネルギーカードを取り付けるときはいつでも、ジョルテオンに影響を与えるすべての特別な条件を削除します。",
+				'ja-jp': "手からジョルテオンに稲妻エネルギーカードを取り付けるときはいつでも、ジョルテオンに影響を与えるすべての特別な条件を削除します。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "サンダーショック",
+				'ja-jp': "サンダーショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "サンダーパーク",
+				'ja-jp': "サンダーパーク",
 			},
 			effect: {
-				ja: "この攻撃は、少なくとも1つのエネルギーカード（あなたと相手）に1つのエネルギーカードが取り付けられた各ベンチポケモンに10ダメージを与えます。",
+				'ja-jp': "この攻撃は、少なくとも1つのエネルギーカード（あなたと相手）に1つのエネルギーカードが取り付けられた各ベンチポケモンに10ダメージを与えます。",
 			},
 			damage: 40,
 		},

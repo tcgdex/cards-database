@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	illustrator: "Amelicart",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "全身から つねに 電気が 放たれているため 近づくと 髪の毛が 逆立ってしまう。",
+		'ja-jp': "全身から つねに 電気が 放たれているため 近づくと 髪の毛が 逆立ってしまう。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				es: "Retribución",
-				it: "Ritorno",
-				pt: "Retorno",
-				de: "Rückkehr"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'es-es': "Retribución",
+				'it-it': "Ritorno",
+				'pt-br': "Retorno",
+				'de-de': "Rückkehr"
 			},
 			effect: {
-				en: "You may draw cards until you have 5 cards in your hand.",
-				fr: "Vous pouvez piocher des cartes jusqu’à ce que vous ayez 5 cartes en main.",
-				es: "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
-				it: "Puoi pescare fino ad avere cinque carte in mano.",
-				pt: "Você pode comprar cartas até ter 5 cartas na sua mão.",
-				de: "Du kannst so lang Karten ziehen, bis du 5 Karten auf deiner Hand hast."
+				'en-us': "You may draw cards until you have 5 cards in your hand.",
+				'fr-fr': "Vous pouvez piocher des cartes jusqu’à ce que vous ayez 5 cartes en main.",
+				'es-es': "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
+				'it-it': "Puoi pescare fino ad avere cinque carte in mano.",
+				'pt-br': "Você pode comprar cartas até ter 5 cartas na sua mão.",
+				'de-de': "Du kannst so lang Karten ziehen, bis du 5 Karten auf deiner Hand hast."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its movements are powered by a mysterious energy. It has continued to move since ancient times, so its power may soon run out.",
+		'en-us': "Its movements are powered by a mysterious energy. It has continued to move since ancient times, so its power may soon run out.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Cobalion",
-		fr: "Cobaltium",
-		es: "Cobalion",
-		it: "Cobalion",
-		pt: "Cobalion",
-		de: "Kobalium"
+		'en-us': "Cobalion",
+		'fr-fr': "Cobaltium",
+		'es-es': "Cobalion",
+		'it-it': "Cobalion",
+		'pt-br': "Cobalion",
+		'de-de': "Kobalium"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Horns",
-				fr: "Cornes de Métal",
+				'en-us': "Metal Horns",
+				'fr-fr': "Cornes de Métal",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sacred Sword",
-				fr: "Lame Sainte",
+				'en-us': "Sacred Sword",
+				'fr-fr': "Lame Sainte",
 			},
 			effect: {
-				en: "This Pokémon can't use Sacred Sword during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Sacred Sword during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
 			},
 			damage: 100,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+		'en-us': "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
 	},
 
 	thirdParty: {

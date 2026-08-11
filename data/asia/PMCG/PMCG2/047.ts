@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カビゴン",
+		'ja-jp': "カビゴン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "厚い皮",
+				'ja-jp': "厚い皮",
 			},
 			effect: {
-				ja: "Snorlaxは眠り、混乱し、麻痺し、毒され、燃やされることはできません。このパワーは機能しなくなり、Snorlaxは特別な状態の影響を受けます。",
+				'ja-jp': "Snorlaxは眠り、混乱し、麻痺し、毒され、燃やされることはできません。このパワーは機能しなくなり、Snorlaxは特別な状態の影響を受けます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 30,
 		},

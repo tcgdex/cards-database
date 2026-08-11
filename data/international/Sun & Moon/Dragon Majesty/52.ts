@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
-		es: "Jangmo-o",
-		it: "Jangmo-o",
-		pt: "Jangmo-o",
-		de: "Miniras"
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
+		'es-es': "Jangmo-o",
+		'it-it': "Jangmo-o",
+		'pt-br': "Jangmo-o",
+		'de-de': "Miniras"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Rigidify",
-				fr: "Solidification",
-				es: "Rigidez",
-				it: "Irrigidimento",
-				pt: "Enrijecer",
-				de: "Verfestiger"
+				'en-us': "Rigidify",
+				'fr-fr': "Solidification",
+				'es-es': "Rigidez",
+				'it-it': "Irrigidimento",
+				'pt-br': "Enrijecer",
+				'de-de': "Verfestiger"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.",
+		'en-us': "They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.",
 	},
 
 	thirdParty: {

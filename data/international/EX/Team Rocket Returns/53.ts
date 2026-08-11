@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Song",
-				de: "Dragon Song"
+				'en-us': "Dragon Song",
+				'de-de': "Dragon Song"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tail Strike",
-				de: "Tail Strike"
+				'en-us': "Tail Strike",
+				'de-de': "Tail Strike"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

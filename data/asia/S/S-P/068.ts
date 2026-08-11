@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコ",
+		'ja-jp': "モルペコ",
 		'zh-tw': "暖暖豬",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
+		'ja-jp': "いつも お腹を すかせている。 ポケットの ような 袋に 入れた タネを 食べて 電気を つくる。",
 		'zh-tw': "最喜歡吃烤過的樹果，但有時候會因為興奮過頭，把樹果烤得焦黑。",
 	},
 
@@ -23,23 +23,23 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ペコペコ",
+				'ja-jp': "ペコペコ",
 				'zh-tw': "衝撞",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{
 			name: {
-				ja: "でんきショック",
+				'ja-jp': "でんきショック",
 				'zh-tw': "烈焰",
 			},
 			damage: 40,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

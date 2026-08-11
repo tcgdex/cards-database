@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガタブンネex",
+		'ja-jp': "メガタブンネex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "カレイドワルツ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×2枚ぶんまで、自分の山札から基本エネルギーを選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "コインを3回投げ、オモテの数×2枚ぶんまで、自分の山札から基本エネルギーを選び、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×80ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×80ダメージ追加。",
 			},
 		},
 	],

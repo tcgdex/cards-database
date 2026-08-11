@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "輝くマジカルプ",
+		'ja-jp': "輝くマジカルプ",
 	},
 
 	rarity: "Secret Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ゴールドスケール",
+				'ja-jp': "ゴールドスケール",
 			},
 			effect: {
-				ja: "対戦相手は2枚のカードを描くことができます。いずれにせよ、2枚のカードを描くことができます。",
+				'ja-jp': "対戦相手は2枚のカードを描くことができます。いずれにせよ、2枚のカードを描くことができます。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "ドラゴンボンド",
+				'ja-jp': "ドラゴンボンド",
 			},
 			effect: {
-				ja: "Gyarados、Dark Gyarados、またはShining Gyaradosという名前のカードを検索してください。それを相手に見せて、あなたの手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "Gyarados、Dark Gyarados、またはShining Gyaradosという名前のカードを検索してください。それを相手に見せて、あなたの手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 	],

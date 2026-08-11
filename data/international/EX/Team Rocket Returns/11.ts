@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Jumpluff",
-		de: "Papungha"
+		'en-us': "Jumpluff",
+		'de-de': "Papungha"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiploom",
+		'en-us': "Skiploom",
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Buffer",
-				de: "Buffer"
+				'en-us': "Buffer",
+				'de-de': "Buffer"
 			},
 			effect: {
-				en: "If Jumpluff would be Knocked Out by an opponent's attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead.",
-				de: "If Jumpluff would be Knocked Out by an opponent's attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead."
+				'en-us': "If Jumpluff would be Knocked Out by an opponent's attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead.",
+				'de-de': "If Jumpluff would be Knocked Out by an opponent's attack, flip a coin. If heads, Jumpluff is not Knocked Out and its remaining HP becomes 10 instead."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Crush",
-				de: "Energy Crush"
+				'en-us': "Energy Crush",
+				'de-de': "Energy Crush"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
-				de: "Does 10 damge plus 10 more damage for each Energy attached to all of your opponent's Pokémon."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
+				'de-de': "Does 10 damge plus 10 more damage for each Energy attached to all of your opponent's Pokémon."
 			},
 			damage: "10+",
 

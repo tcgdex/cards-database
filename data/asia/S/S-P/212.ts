@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 		'zh-tw': "路卡利歐V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人懐っこく 心優しいが ひとたび 怒ると 強風を 巻き起こし すべてを なぎ倒す。",
+		'ja-jp': "人懐っこく 心優しいが ひとたび 怒ると 強風を 巻き起こし すべてを なぎ倒す。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どつく",
+				'ja-jp': "どつく",
 				'zh-tw': "粉碎拳",
 			},
 			damage: 30,
@@ -30,13 +30,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ぎゃくじょう",
+				'ja-jp': "ぎゃくじょう",
 				'zh-tw': "旋風踢",
 			},
 			damage: "70+",
 			cost: ["Water", "Fighting"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
 			},
 		},
 	],

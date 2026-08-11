@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ชาเรมex"
+		'th-th': "ชาเรมex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "กดจุดลมปราณ"
+			'th-th': "กดจุดลมปราณ"
 		},
 
 		effect: {
-			th: "วางตัวนับแดเมจให้ HP ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเหลือเท่ากับ [50]"
+			'th-th': "วางตัวนับแดเมจให้ HP ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเหลือเท่ากับ [50]"
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "ลูกเตะโยคะ"
+			'th-th': "ลูกเตะโยคะ"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้นี้จะไม่นำจุดอ่อนและความต้านทานมาคิด"
+			'th-th': "แดเมจของท่าต่อสู้นี้จะไม่นำจุดอ่อนและความต้านทานมาคิด"
 		},
 
 		damage: 190,

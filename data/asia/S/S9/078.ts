@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "姆克兒",
-		ja: "ムックル"
+		'ja-jp': "ムックル"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。 叫聲非常吵鬧。",
-		ja: "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。"
+		'ja-jp': "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "鉤爪",
-			ja: "かぎづめ"
+			'ja-jp': "かぎづめ"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			'ja-jp': "コインを1回投げウラなら、このワザは失敗。"
 		},
 
 		damage: 30,

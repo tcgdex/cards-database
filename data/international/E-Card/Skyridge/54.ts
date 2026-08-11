@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Eevee does 10 damage to itself.",
-				de: "Evoli fügt sich selber 10 Schadenspunkte zu."
+				'en-us': "Eevee does 10 damage to itself.",
+				'de-de': "Evoli fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

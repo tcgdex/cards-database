@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		es: "Shuckle",
-		it: "Shuckle",
-		pt: "Shuckle",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'es-es': "Shuckle",
+		'it-it': "Shuckle",
+		'pt-br': "Shuckle",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fresh Squeezed",
-				fr: "Fraîchement Pressé",
-				es: "Recién Exprimido",
-				it: "Spremuta Fresca",
-				pt: "Feito na Hora",
-				de: "Frisch gepresst"
+				'en-us': "Fresh Squeezed",
+				'fr-fr': "Fraîchement Pressé",
+				'es-es': "Recién Exprimido",
+				'it-it': "Spremuta Fresca",
+				'pt-br': "Feito na Hora",
+				'de-de': "Frisch gepresst"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 basic Energy cards and discard them. Then, shuffle your deck.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez chercher jusqu’à 3 cartes Énergie de base dans votre deck et les défausser. Mélangez ensuite votre deck.",
-				es: "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes buscar en tu baraja hasta 3 cartas de Energía Básica y descartarlas. Después, baraja las cartas de tu baraja.",
-				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi cercare nel tuo mazzo fino a tre carte Energia base e scartarle. Poi rimischia le carte del tuo mazzo.",
-				pt: "Quando você joga este Pokémon da sua mão para o seu Banco durante a sua vez de jogar, você pode procurar por até 3 cartas de Energia básica no seu baralho e descartá-las. Em seguida, embaralhe o seu baralho.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du dein Deck nach bis zu 3 Basis-Energiekarten durchsuchen und sie auf deinen Ablagestapel legen. Mische anschließend dein Deck."
+				'en-us': "When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 basic Energy cards and discard them. Then, shuffle your deck.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez chercher jusqu’à 3 cartes Énergie de base dans votre deck et les défausser. Mélangez ensuite votre deck.",
+				'es-es': "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes buscar en tu baraja hasta 3 cartas de Energía Básica y descartarlas. Después, baraja las cartas de tu baraja.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi cercare nel tuo mazzo fino a tre carte Energia base e scartarle. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Quando você joga este Pokémon da sua mão para o seu Banco durante a sua vez de jogar, você pode procurar por até 3 cartas de Energia básica no seu baralho e descartá-las. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du dein Deck nach bis zu 3 Basis-Energiekarten durchsuchen und sie auf deinen Ablagestapel legen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Energy Drink",
-				fr: "Boisson Énergisante",
-				es: "Bebida Energética",
-				it: "Bevanda Energetica",
-				pt: "Bebida Energética",
-				de: "Energiegetränk"
+				'en-us': "Energy Drink",
+				'fr-fr': "Boisson Énergisante",
+				'es-es': "Bebida Energética",
+				'it-it': "Bevanda Energetica",
+				'pt-br': "Bebida Energética",
+				'de-de': "Energiegetränk"
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your discard pile to your Pokémon in any way you like.",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
-				es: "Une 2 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
-				it: "Assegna a piacimento ai tuoi Pokémon due carte Energia base dalla tua pila degli scarti.",
-				pt: "Ligue 2 cartas de Energia básica da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Lege 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+				'en-us': "Attach 2 basic Energy cards from your discard pile to your Pokémon in any way you like.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
+				'es-es': "Une 2 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
+				'it-it': "Assegna a piacimento ai tuoi Pokémon due carte Energia base dalla tua pila degli scarti.",
+				'pt-br': "Ligue 2 cartas de Energia básica da sua pilha de descarte aos seus Pokémon como desejar.",
+				'de-de': "Lege 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+		'en-us': "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
 	},
 
 	thirdParty: {

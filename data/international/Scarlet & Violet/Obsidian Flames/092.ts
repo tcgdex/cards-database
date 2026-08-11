@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Séléroc",
-		en: "Lunatone",
-		es: "Lunatone",
-		it: "Lunatone",
-		pt: "Lunatone",
-		de: "Lunastein"
+		'fr-fr': "Séléroc",
+		'en-us': "Lunatone",
+		'es-es': "Lunatone",
+		'it-it': "Lunatone",
+		'pt-br': "Lunatone",
+		'de-de': "Lunastein"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Nouvelle Lune",
-			en: "New Moon",
-			es: "Luna Nueva",
-			it: "Novilunio",
-			pt: "Lua Nova",
-			de: "Neumond"
+			'fr-fr': "Nouvelle Lune",
+			'en-us': "New Moon",
+			'es-es': "Luna Nueva",
+			'it-it': "Novilunio",
+			'pt-br': "Lua Nova",
+			'de-de': "Neumond"
 		},
 
 		effect: {
-			fr: "Si vous avez Solaroc en jeu, évitez tous les effets infligés par n'importe quel Stade à vos Pokémon en jeu.",
-			en: "If you have Solrock in play, prevent all effects of any Stadium done to your Pokémon in play.",
-			es: "Si tienes a Solrock en juego, se evitan todos los efectos de cualquier Estadio que afecten a tus Pokémon en juego.",
-			it: "Se hai in gioco Solrock, previeni tutti gli effetti di qualsiasi carta Stadio inflitti ai tuoi Pokémon in gioco.",
-			pt: "Se você tiver Solrock em jogo, previna todos os efeitos de qualquer Estádio causados aos seus Pokémon em jogo.",
-			de: "Wenn du Sonnfel im Spiel hast, verhindere alle Effekte von Stadionkarten, die deinen Pokémon im Spiel zugefügt werden."
+			'fr-fr': "Si vous avez Solaroc en jeu, évitez tous les effets infligés par n'importe quel Stade à vos Pokémon en jeu.",
+			'en-us': "If you have Solrock in play, prevent all effects of any Stadium done to your Pokémon in play.",
+			'es-es': "Si tienes a Solrock en juego, se evitan todos los efectos de cualquier Estadio que afecten a tus Pokémon en juego.",
+			'it-it': "Se hai in gioco Solrock, previeni tutti gli effetti di qualsiasi carta Stadio inflitti ai tuoi Pokémon in gioco.",
+			'pt-br': "Se você tiver Solrock em jogo, previna todos os efeitos de qualquer Estádio causados aos seus Pokémon em jogo.",
+			'de-de': "Wenn du Sonnfel im Spiel hast, verhindere alle Effekte von Stadionkarten, die deinen Pokémon im Spiel zugefügt werden."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Pression Lunaire",
-			en: "Moon Press",
-			es: "Presión Lunar",
-			it: "Pressa Lunare",
-			pt: "Pressão Lunar",
-			de: "Mondkraft"
+			'fr-fr': "Pression Lunaire",
+			'en-us': "Moon Press",
+			'es-es': "Presión Lunar",
+			'it-it': "Pressa Lunare",
+			'pt-br': "Pressão Lunar",
+			'de-de': "Mondkraft"
 		},
 
 		damage: 100
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+		'en-us': "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
 	},
 
 	variants: [

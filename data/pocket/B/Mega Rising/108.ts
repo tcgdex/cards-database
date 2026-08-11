@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifblim"
+		'en-us': "Drifblim"
 	},
 
 	illustrator: "Yumi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon"
+		'en-us': "Drifloon"
 	},
 
 	description: {
-		en: "They carry people and Pokémon, but the\nwind can catch them, so there can't be a\nfixed destination."
+		'en-us': "They carry people and Pokémon, but the\nwind can catch them, so there can't be a\nfixed destination."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Balloon Barrage"
+			'en-us': "Balloon Barrage"
 		},
 
 		damage: 20,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to this Pokémon."
+			'en-us': "This attack does 20 more damage for each Energy attached to this Pokémon."
 		}
 	}],
 

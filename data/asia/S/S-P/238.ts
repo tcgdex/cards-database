@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
+		'ja-jp': "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
 	},
 
 	stage: "Stage1",
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 	},
 
 	retreat: 4,

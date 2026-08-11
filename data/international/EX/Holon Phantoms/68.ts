@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Lileep δ",
-		fr: "Lilia δ",
-		de: "Liliep"
+		'en-us': "Lileep δ",
+		'fr-fr': "Lilia δ",
+		'de-de': "Liliep"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Root Fossil",
-		fr: "Fossile racine"
+		'en-us': "Root Fossil",
+		'fr-fr': "Fossile racine"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Poison Tentacles",
-				fr: "Tentacules empoisonnées",
-				de: "Giftige Tentakel"
+				'en-us': "Poison Tentacles",
+				'fr-fr': "Tentacules empoisonnées",
+				'de-de': "Giftige Tentakel"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de boue",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 20,

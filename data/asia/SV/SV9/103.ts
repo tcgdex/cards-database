@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホエルオー"
+		'ja-jp': "ホエルオー"
 	},
 
 	illustrator: "Katsunori Sato",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "とにかく どでかいので 人気。 ホエルオーウォッチングは 各地で 人気の 観光プラン なのだ。"
+		'ja-jp': "とにかく どでかいので 人気。 ホエルオーウォッチングは 各地で 人気の 観光プラン なのだ。"
 	},
 
 	stage: "Stage1",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ハイドロポンプ"
+			'ja-jp': "ハイドロポンプ"
 		},
 
 		damage: "10＋",
 
 		effect: {
-			ja: "このポケモンについているエネルギーの数×50ダメージ追加。"
+			'ja-jp': "このポケモンについているエネルギーの数×50ダメージ追加。"
 		}
 	}],
 

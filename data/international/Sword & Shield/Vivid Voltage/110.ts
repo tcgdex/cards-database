@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [568],
 
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lucky Find",
-				fr: "Trouvaille Inespérée",
-				es: "Hallazgo Afortunado",
-				it: "Ritrovamento Fortunato",
-				pt: "Descoberta Sortuda",
-				de: "Glücksfund"
+				'en-us': "Lucky Find",
+				'fr-fr': "Trouvaille Inespérée",
+				'es-es': "Hallazgo Afortunado",
+				'it-it': "Ritrovamento Fortunato",
+				'pt-br': "Descoberta Sortuda",
+				'de-de': "Glücksfund"
 			},
 			effect: {
-				en: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck une carte Objet, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Objeto, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta Strumento, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck une carte Objet, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Objeto, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta Strumento, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Toss",
-				fr: "Giclée Vaseuse",
-				es: "Lanzamiento de Residuos",
-				it: "Lanciamelma",
-				pt: "Arremesso de Lodo",
-				de: "Schleimwurf"
+				'en-us': "Sludge Toss",
+				'fr-fr': "Giclée Vaseuse",
+				'es-es': "Lanzamiento de Residuos",
+				'it-it': "Lanciamelma",
+				'pt-br': "Arremesso de Lodo",
+				'de-de': "Schleimwurf"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
+		'en-us': "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
 	},
 
 	variants: [

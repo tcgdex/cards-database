@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Mr. Mime"
+		'en-us': "Sabrina's Mr. Mime"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mime Jr."
+		'en-us': "Mime Jr."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleight of Hand"
+				'en-us': "Sleight of Hand"
 			},
 			effect: {
-				en: "Choose up to 3 cards from your hand and put them on top of your deck. Then search your deck for that many basic Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
+				'en-us': "Choose up to 3 cards from your hand and put them on top of your deck. Then search your deck for that many basic Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap"
+				'en-us': "Slap"
 			},
 
 			damage: 20,

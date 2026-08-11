@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Natu δ",
-		fr: "Natu δ",
-		de: "Natu"
+		'en-us': "Natu δ",
+		'fr-fr': "Natu δ",
+		'de-de': "Natu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'de-de': "Plumps"
 			},
 
 			damage: 10,

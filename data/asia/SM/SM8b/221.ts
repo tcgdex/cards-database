@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュペッタGX",
+		'ja-jp': "ジュペッタGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シャドームーブ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。おたがいの場のポケモンにのっているダメカンを1個、おたがいの場の別のポケモンにのせ替える。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。おたがいの場のポケモンにのっているダメカンを1個、おたがいの場の別のポケモンにのせ替える。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュのサポートの枚数x10ダメージ追加。追加できるダメージはサポート10枚ぶんまで。",
+				'ja-jp': "自分のトラッシュのサポートの枚数x10ダメージ追加。追加できるダメージはサポート10枚ぶんまで。",
 			},
 		},
 		{
 			name: { ja: "トゥームハントGX" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 	},
 
 	retreat: 1,

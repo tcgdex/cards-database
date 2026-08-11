@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Farfuret",
-		en: "Sneasel",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'fr-fr': "Farfuret",
+		'en-us': "Sneasel",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Creusogriffes",
-			en: "Dig Claws",
-			es: "Hundir Garras",
-			it: "Scavazanne",
-			pt: "Fincar Garras",
-			de: "Schaufelkrallen"
+			'fr-fr': "Creusogriffes",
+			'en-us': "Dig Claws",
+			'es-es': "Hundir Garras",
+			'it-it': "Scavazanne",
+			'pt-br': "Fincar Garras",
+			'de-de': "Schaufelkrallen"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+		'en-us': "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
 	},
 }
 

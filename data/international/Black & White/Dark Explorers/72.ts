@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion"
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche"
+				'en-us': "Slash",
+				'fr-fr': "Tranche"
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Cutter",
-				fr: "Taillade"
+				'en-us': "Fury Cutter",
+				'fr-fr': "Taillade"
 			},
 			effect: {
-				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If 2 of them are heads, this attack does 30 more damage. If all of them are heads, this attack does 60 more damage.",
-				fr: "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts supplémentaires. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts supplémentaires."
+				'en-us': "Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If 2 of them are heads, this attack does 30 more damage. If all of them are heads, this attack does 60 more damage.",
+				'fr-fr': "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts supplémentaires. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts supplémentaires."
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		'en-us': "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
 	},
 
 	thirdParty: {

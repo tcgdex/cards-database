@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Naclstack",
-		fr: "Amassel",
-		de: "Sedisal",
-		it: "Naclstack",
-		es: "Naclstack",
-		pt: "Naclstack",
+		'en-us': "Naclstack",
+		'fr-fr': "Amassel",
+		'de-de': "Sedisal",
+		'it-it': "Naclstack",
+		'es-es': "Naclstack",
+		'pt-br': "Naclstack",
 		'es-mx': "Naclstack"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Nacli",
-		fr: "Selutin",
-		de: "Geosali",
-		it: "Nacli",
-		es: "Nacli",
-		pt: "Nacli",
+		'en-us': "Nacli",
+		'fr-fr': "Selutin",
+		'de-de': "Geosali",
+		'it-it': "Nacli",
+		'es-es': "Nacli",
+		'pt-br': "Nacli",
 		'es-mx': "Nacli"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Rock Hurl",
-			fr: "Lance-Pierre",
-			de: "Steinschleuderer",
-			it: "Scaglia Pietre",
-			es: "Lanzamiento de Rocas",
-			pt: "Lançamento de Pedras",
+			'en-us': "Rock Hurl",
+			'fr-fr': "Lance-Pierre",
+			'de-de': "Steinschleuderer",
+			'it-it': "Scaglia Pietre",
+			'es-es': "Lanzamiento de Rocas",
+			'pt-br': "Lançamento de Pedras",
 			'es-mx': "Lanzamiento de Rocas"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
 			'es-mx': "El daño de este ataque no se ve afectado por Resistencia."
 		},
 

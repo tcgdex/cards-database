@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブソル",
+		'ja-jp': "アブソル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "迷信が はびこる 昔 災いを もたらすと 忌み嫌われ 山の 奥へと 追いやられた。",
+		'ja-jp': "迷信が はびこる 昔 災いを もたらすと 忌み嫌われ 山の 奥へと 追いやられた。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "みらいよち" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 		{
 			name: { ja: "はめつのしらせ" },
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべて手札にもどす。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべて手札にもどす。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。",
 			},
 		},
 	],

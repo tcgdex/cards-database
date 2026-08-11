@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A4",
 
 	name: {
 		// de: "Mysteriöse Insel",
-		en: "Wisdom of Sea and Sky",
+		'en-us': "Wisdom of Sea and Sky",
 		// es: "La Isla Singular",
-		fr: "Sagesse Entre Ciel et Mer",
+		'fr-fr': "Sagesse Entre Ciel et Mer",
 		// it: "L'Isola Misteriosa",
 		// 'pt-br': "Ilha Mítica",
 		// ko: '환상이 있는 섬'
@@ -25,14 +25,14 @@ const set: Set = {
 	boosters: {
 		lugia: {
 			name: {
-				en: 'Lugia',
-				fr: 'Lugia'
+				'en-us': 'Lugia',
+				'fr-fr': 'Lugia'
 			}
 		},
 		'ho-oh': {
 			name: {
-				en: 'Ho-Oh',
-				fr: 'Ho-Oh'
+				'en-us': 'Ho-Oh',
+				'fr-fr': 'Ho-Oh'
 			}
 		}
 	}

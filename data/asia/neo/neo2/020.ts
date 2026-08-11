@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Mareep",
+		'ja-jp': "Mareep",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "サンダージョルト",
+				'ja-jp': "サンダージョルト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Mareepはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Mareepはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

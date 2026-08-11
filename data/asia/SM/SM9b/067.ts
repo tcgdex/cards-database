@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビーストブリンガー",
+		'ja-jp': "ビーストブリンガー",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のサイドの残り枚数が6枚のとき、このカードをつけている「ウルトラビースト」のワザのダメージで、相手のバトル場の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
+		'ja-jp': "自分のサイドの残り枚数が6枚のとき、このカードをつけている「ウルトラビースト」のワザのダメージで、相手のバトル場の「ポケモンGX・EX」がきぜつしたなら、サイドを1枚多くとる。",
 	},
 
 	variants: [

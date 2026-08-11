@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Granbull V",
-		fr: "Granbull V",
-		es: "Granbull V",
-		it: "Granbull V",
-		pt: "Granbull V",
-		de: "Granbull V"
+		'en-us': "Granbull V",
+		'fr-fr': "Granbull V",
+		'es-es': "Granbull V",
+		'it-it': "Granbull V",
+		'pt-br': "Granbull V",
+		'de-de': "Granbull V"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Chomp",
-			fr: "Mâche",
-			es: "Masticar",
-			it: "Biascicamento",
-			pt: "Nhoc",
-			de: "Mampf"
+			'en-us': "Chomp",
+			'fr-fr': "Mâche",
+			'es-es': "Masticar",
+			'it-it': "Biascicamento",
+			'pt-br': "Nhoc",
+			'de-de': "Mampf"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Bull Dash",
-			fr: "Ruée Frontale",
-			es: "Choque Bravo",
-			it: "Corsa Bull",
-			pt: "Arremetida Violenta",
-			de: "Bullspurt"
+			'en-us': "Bull Dash",
+			'fr-fr': "Ruée Frontale",
+			'es-es': "Choque Bravo",
+			'it-it': "Corsa Bull",
+			'pt-br': "Arremetida Violenta",
+			'de-de': "Bullspurt"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 190

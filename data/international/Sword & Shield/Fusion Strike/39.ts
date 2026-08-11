@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chandelure V",
-		fr: "Lugulabre V",
-		es: "Chandelure V",
-		it: "Chandelure V",
-		pt: "Chandelure V",
-		de: "Skelabra V"
+		'en-us': "Chandelure V",
+		'fr-fr': "Lugulabre V",
+		'es-es': "Chandelure V",
+		'it-it': "Chandelure V",
+		'pt-br': "Chandelure V",
+		'de-de': "Skelabra V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,43 +34,43 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Confuse Ray",
-			fr: "Onde Folie",
-			de: "Konfusstrahl",
-			es: "Rayo Confuso",
-			pt: "Raio da Confusão",
-			it: "Stordiraggio"
+			'en-us': "Confuse Ray",
+			'fr-fr': "Onde Folie",
+			'de-de': "Konfusstrahl",
+			'es-es': "Rayo Confuso",
+			'pt-br': "Raio da Confusão",
+			'it-it': "Stordiraggio"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Poltergeist",
-			fr: "Esprit Frappeur",
-			de: "Poltergeist",
-			es: "Poltergeist",
-			pt: "Poltergeist",
-			it: "Poltergeist"
+			'en-us': "Poltergeist",
+			'fr-fr': "Esprit Frappeur",
+			'de-de': "Poltergeist",
+			'es-es': "Poltergeist",
+			'pt-br': "Poltergeist",
+			'it-it': "Poltergeist"
 		},
 
 		damage: "40×",
 
 		effect: {
-			en: "Your opponent reveals their hand. This attack does 40 damage for each Trainer card you find there.",
-			fr: "Votre adversaire dévoile sa main. Cette attaque inflige 40 dégâts pour chaque carte Dresseur que vous y trouvez.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 40 Schadenspunkte zu.",
-			es: "Tu rival enseña las cartas de su mano. Este ataque hace 40 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
-			pt: "Seu oponente revela a própria mão. Este ataque causa 40 pontos de dano para cada carta de Treinador que encontrar lá.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 40 danni per ogni carta Allenatore presente tra quelle carte."
+			'en-us': "Your opponent reveals their hand. This attack does 40 damage for each Trainer card you find there.",
+			'fr-fr': "Votre adversaire dévoile sa main. Cette attaque inflige 40 dégâts pour chaque carte Dresseur que vous y trouvez.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 40 Schadenspunkte zu.",
+			'es-es': "Tu rival enseña las cartas de su mano. Este ataque hace 40 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
+			'pt-br': "Seu oponente revela a própria mão. Este ataque causa 40 pontos de dano para cada carta de Treinador que encontrar lá.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 40 danni per ogni carta Allenatore presente tra quelle carte."
 		}
 	}],
 

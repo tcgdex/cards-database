@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Chesnaught EX",
-		fr: "Blindépique EX",
+		'en-us': "Chesnaught EX",
+		'fr-fr': "Blindépique EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "40×",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Tackle",
-				fr: "Tacle Brutal",
+				'en-us': "Wild Tackle",
+				'fr-fr': "Tacle Brutal",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 120,
 

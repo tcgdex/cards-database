@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カエンジシ"
+		'ja-jp': "カエンジシ"
 	},
 	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
 	description: {
-		ja: "オスの たてがみは 戦いになると 摂氏２０００度の 高温になる。 近寄るだけで 大火傷だ。"
+		'ja-jp': "オスの たてがみは 戦いになると 摂氏２０００度の 高温になる。 近寄るだけで 大火傷だ。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,24 +25,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シシコ"
+		'ja-jp': "シシコ"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "いかくのキバ"
+			'ja-jp': "いかくのキバ"
 		},
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは「-30」される。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "やきこがす"
+			'ja-jp': "やきこがす"
 		},
 		damage: 70,
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		},
 		cost: ["Fire", "Colorless", "Colorless"]
 	}],

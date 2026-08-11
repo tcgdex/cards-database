@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Gigalith",
-		fr: "Gigalithe",
-		es: "Gigalith",
-		it: "Gigalith",
-		pt: "Gigalith",
-		de: "Brockoloss"
+		'en-us': "Gigalith",
+		'fr-fr': "Gigalithe",
+		'es-es': "Gigalith",
+		'it-it': "Gigalith",
+		'pt-br': "Gigalith",
+		'de-de': "Brockoloss"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Boldore",
-		fr: "Géolithe",
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Core Cannon",
-				fr: "Super Canon",
+				'en-us': "Core Cannon",
+				'fr-fr': "Super Canon",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Pokémon for each Fighting Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire pour chaque Énergie Fighting attachée à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon for each Fighting Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire pour chaque Énergie Fighting attachée à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Gem",
-				fr: "Rayon Gemme",
+				'en-us': "Power Gem",
+				'fr-fr': "Rayon Gemme",
 			},
 
 			damage: 90,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+		'en-us': "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
 	},
 
 	thirdParty: {

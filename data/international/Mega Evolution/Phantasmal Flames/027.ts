@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
 		'es-mx': "Piplup",
-		de: "Plinfa",
-		it: "Piplup",
-		pt: "Piplup"
+		'de-de': "Plinfa",
+		'it-it': "Piplup",
+		'pt-br': "Piplup"
 	},
 
 	rarity: "Common",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Call for Support",
-			fr: "Appel au Renfort",
-			es: "Buscar Apoyo",
+			'en-us': "Call for Support",
+			'fr-fr': "Appel au Renfort",
+			'es-es': "Buscar Apoyo",
 			'es-mx': "Pedir Apoyo",
-			de: "Ruf nach Unterstützung",
-			it: "Cerca Aiuto",
-			pt: "Chamar Apoio"
+			'de-de': "Ruf nach Unterstützung",
+			'it-it': "Cerca Aiuto",
+			'pt-br': "Chamar Apoio"
 		},
 
 		effect: {
-			en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'en-us': "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Busca en tu mazo 1 carta de Partidario, muéstrala y ponla en tu mano. Después, baraja tu mazo.",
-			de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			pt: "Procure por uma carta de Apoiador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
+			'de-de': "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+			'pt-br': "Procure por uma carta de Apoiador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida"
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
 		},
 
 		damage: 20
@@ -70,7 +70,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		'en-us': "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
 	illustrator: "Hideki Ishikawa",

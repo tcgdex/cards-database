@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Night Stretcher",
-		fr: "Civière Nocturne",
-		es: "Camilla Nocturna",
+		'en-us': "Night Stretcher",
+		'fr-fr': "Civière Nocturne",
+		'es-es': "Camilla Nocturna",
 		'es-mx': "Camilla Nocturna",
-		de: "Nachttrage",
-		it: "Barella Notturna",
-		pt: "Maca Noturna"
+		'de-de': "Nachttrage",
+		'it-it': "Barella Notturna",
+		'pt-br': "Maca Noturna"
 	},
 
 	illustrator: "Toyste Beach",
@@ -19,13 +19,13 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
-		fr: "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
-		es: "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
+		'en-us': "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
+		'fr-fr': "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
+		'es-es': "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
 		'es-mx': "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
-		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.",
-		it: "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
-		pt: "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão."
+		'de-de': "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.",
+		'it-it': "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
+		'pt-br': "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão."
 	},
 
 	trainerType: "Item",

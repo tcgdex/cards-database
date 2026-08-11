@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スター団のしたっぱ"
+		'ja-jp': "スター団のしたっぱ"
 	},
 
 	illustrator: "nagimiso",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のバトルポケモンについているエネルギーを1個選び、相手の山札の上にもどす。"
+		'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、相手の山札の上にもどす。"
 	},
 
 	variants: [

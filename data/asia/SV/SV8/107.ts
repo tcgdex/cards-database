@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビビヨン",
+		'ja-jp': "ビビヨン",
 	},
 
 	illustrator: "REND",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "不思議な 土地で 生まれた。 色鮮やかな 毒の りんぷんを 翅から 散らして 戦う。",
+		'ja-jp': "不思議な 土地で 生まれた。 色鮮やかな 毒の りんぷんを 翅から 散らして 戦う。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エボルパウダー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分のベンチポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コフーライ",
+		'ja-jp': "コフーライ",
 	},
 
 	retreat: 1,

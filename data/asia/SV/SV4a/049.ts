@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘイラッシャ",
+		'ja-jp': "ヘイラッシャ",
 		'zh-tw': "吃吼霸",
-		th: "เฮรัชเชอร์",
-		id: "Dondozo"
+		'th-th': "เฮรัชเชอร์",
+		'id-id': "Dondozo"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
+		'ja-jp': "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
 		'zh-tw': "雖然是個大胃王，但不擅長捕食。 會和米立龍聯手捕捉獵物。",
-		th: "เป็นโปเกมอนที่ตะกละแต่กลับหาอาหารไม่เก่ง มักจับคู่กับชาริทัตสึเพื่อจับเหยื่อ",
-		id: "Meskipun rakus, Dondozo tidak pandai menangkap makanannya. Pokémon ini membentuk tim dengan Tatsugiri untuk berburu dan menangkap mangsa."
+		'th-th': "เป็นโปเกมอนที่ตะกละแต่กลับหาอาหารไม่เก่ง มักจับคู่กับชาริทัตสึเพื่อจับเหยื่อ",
+		'id-id': "Meskipun rakus, Dondozo tidak pandai menangkap makanannya. Pokémon ini membentuk tim dengan Tatsugiri untuk berburu dan menangkap mangsa."
 	},
 
 	stage: "Basic",
@@ -30,28 +30,28 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "いかりちらす",
+			'ja-jp': "いかりちらす",
 			'zh-tw': "洩怒",
-			th: "กระจายความโกรธ",
-			id: "Kemarahan Menghambur"
+			'th-th': "กระจายความโกรธ",
+			'id-id': "Kemarahan Menghambur"
 		},
 
 		damage: "50×",
 
 		effect: {
-			ja: "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。",
+			'ja-jp': "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。",
 			'zh-tw': "造成自己的棄牌區的「米立龍」的張數×50點傷害。",
-			th: "แดเมจจะเท่ากับจำนวนการ์ด [ชาริทัตสึ] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x50",
-			id: "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembar Tatsugiri yang ada di Trash sendiri."
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ด [ชาริทัตสึ] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x50",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembar Tatsugiri yang ada di Trash sendiri."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘビースプラッシュ",
+			'ja-jp': "ヘビースプラッシュ",
 			'zh-tw': "重磅飛濺",
-			th: "เฮฟวีสแปลช",
-			id: "Heavy Splash"
+			'th-th': "เฮฟวีสแปลช",
+			'id-id': "Heavy Splash"
 		},
 
 		damage: 120

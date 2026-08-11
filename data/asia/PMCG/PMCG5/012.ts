@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのタマタマ",
+		'ja-jp': "エリカのタマタマ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "デフレクター",
+				'ja-jp': "デフレクター",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、エリカのexeggcuteがダメージを受けるたびに、そのダメージを半分に分割します（最も近い10に丸められます）。 （他の効果はまだ発生します。）",
+				'ja-jp': "対戦相手の次のターン中、エリカのexeggcuteがダメージを受けるたびに、そのダメージを半分に分割します（最も近い10に丸められます）。 （他の効果はまだ発生します。）",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "卵爆弾",
+				'ja-jp': "卵爆弾",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は防御するポケモンとエリカのexeggcuteには何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は防御するポケモンとエリカのexeggcuteには何もしません。",
 			},
 			damage: 40,
 		},

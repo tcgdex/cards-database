@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロッゴン",
+		'ja-jp': "トロッゴン",
 	},
 
 	illustrator: "Apios",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "背中の 石炭の 山は 中で コールタールが 作られているため 高速で 走っても 崩れない。",
+		'ja-jp': "背中の 石炭の 山は 中で コールタールが 作られているため 高速で 走っても 崩れない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 		{
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タンドン",
+		'ja-jp': "タンドン",
 	},
 
 	retreat: 3,

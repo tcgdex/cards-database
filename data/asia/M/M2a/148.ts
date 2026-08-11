@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "改造ハンマー",
+		'ja-jp': "改造ハンマー",
 	},
 
 	illustrator: "Eske Yoshinob",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+		'ja-jp': "相手のポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,33 +9,33 @@ const card: Card = {
 	dexId: [519],
 
 	description: {
-		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+		'en-us': "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Growl",
-			fr: "Rugissement"
+			'en-us': "Growl",
+			'fr-fr': "Rugissement"
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-			fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+			'en-us': "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+			'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
 		}
 	}, {
 		name: {
-			en: "Gust",
-			fr: "Tornade"
+			'en-us': "Gust",
+			'fr-fr': "Tornade"
 		},
 
 		damage: 10
 	}],
 
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon"
 	},
 
 	rarity: "None",

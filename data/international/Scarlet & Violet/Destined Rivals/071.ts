@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Pichu",
-		fr: "Pichu de Luth",
-		de: "Klarins Pichu",
-		it: "Pichu di Armonio",
-		es: "Pichu de Eco",
-		pt: "Pichu do Ethan",
+		'en-us': "Ethan's Pichu",
+		'fr-fr': "Pichu de Luth",
+		'de-de': "Klarins Pichu",
+		'it-it': "Pichu di Armonio",
+		'es-es': "Pichu de Eco",
+		'pt-br': "Pichu do Ethan",
 		'es-mx': "Pichu de Ethan"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Zapping Draw",
-			fr: "Pioche Électrocutante",
-			de: "Kurzschlusszug",
-			it: "Pesca Fulminante",
-			es: "Robo Aturdidor",
-			pt: "Compra Eletrizante",
+			'en-us': "Zapping Draw",
+			'fr-fr': "Pioche Électrocutante",
+			'de-de': "Kurzschlusszug",
+			'it-it': "Pesca Fulminante",
+			'es-es': "Robo Aturdidor",
+			'pt-br': "Compra Eletrizante",
 			'es-mx': "Robochispazo"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		},
 

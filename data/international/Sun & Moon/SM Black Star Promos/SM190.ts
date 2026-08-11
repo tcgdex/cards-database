@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Detective Pikachu",
-		fr: "Détective Pikachu",
-		es: "Detective Pikachu",
-		it: "Detective Pikachu",
-		pt: "Detective Pikachu",
-		de: "Meisterdetektiv Pikachu"
+		'en-us': "Detective Pikachu",
+		'fr-fr': "Détective Pikachu",
+		'es-es': "Detective Pikachu",
+		'it-it': "Detective Pikachu",
+		'pt-br': "Detective Pikachu",
+		'de-de': "Meisterdetektiv Pikachu"
 	},
 
 	illustrator: "Framestore",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Coffee Break",
-			fr: "Pause Café",
-			es: "Hora del Café",
-			it: "Pausa Caffè",
-			pt: "Hora do Cafezinho",
-			de: "Kaffeepause"
+			'en-us': "Coffee Break",
+			'fr-fr': "Pause Café",
+			'es-es': "Hora del Café",
+			'it-it': "Pausa Caffè",
+			'pt-br': "Hora do Cafezinho",
+			'de-de': "Kaffeepause"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts à ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "He was the partner of Tim's father, Harry, who has gone missing. This Pikachu loves the dark coffee at the Hi-Hat Cafe.",
+		'en-us': "He was the partner of Tim's father, Harry, who has gone missing. This Pikachu loves the dark coffee at the Hi-Hat Cafe.",
 	},
 }
 

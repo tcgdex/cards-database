@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Regirock ex",
-		fr: "Regirock ex",
-		de: "Regirock ex"
+		'en-us': "Regirock ex",
+		'fr-fr': "Regirock ex",
+		'de-de': "Regirock ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mend",
-				fr: "Réparation",
-				de: "Mend"
+				'en-us': "Mend",
+				'fr-fr': "Réparation",
+				'de-de': "Mend"
 			},
 			effect: {
-				en: "Search your discard pile for a Fighting Energy card and attach it to Regirock ex. If you do, remove 1 damage counter from Regirock ex.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Regirock ex. Retirez alors à Regirock ex 1 marqueur de dégât.",
-				de: "Search your discard pile for a  Energy card and attach it to Regirock ex. If you do, remove 1 damage counter from Regirock ex."
+				'en-us': "Search your discard pile for a Fighting Energy card and attach it to Regirock ex. If you do, remove 1 damage counter from Regirock ex.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Regirock ex. Retirez alors à Regirock ex 1 marqueur de dégât.",
+				'de-de': "Search your discard pile for a  Energy card and attach it to Regirock ex. If you do, remove 1 damage counter from Regirock ex."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Metal Crush",
-				fr: "Broyage métallique",
-				de: "Metal Crush"
+				'en-us': "Metal Crush",
+				'fr-fr': "Broyage métallique",
+				'de-de': "Metal Crush"
 			},
 			effect: {
-				en: "If Registeel ex is in play, this attack does 40 damage plus 20 more damage.",
-				fr: "Si Registeel ex est en jeu, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If Registeel ex is in play, this attack does 40 damage plus 20 more damage."
+				'en-us': "If Registeel ex is in play, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Si Registeel ex est en jeu, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If Registeel ex is in play, this attack does 40 damage plus 20 more damage."
 			},
 			damage: 40,
 

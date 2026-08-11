@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palossand"
+		'id-id': "Palossand"
 	},
 
 	illustrator: "Uta",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Palossand melontarkan tulang makhluk hidup yang telah diisap habis energi kehidupannya dari ceruk di lengannya."
+		'id-id': "Palossand melontarkan tulang makhluk hidup yang telah diisap habis energi kehidupannya dari ceruk di lengannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Semprotan Pasir"
+			'id-id': "Semprotan Pasir"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
+			'id-id': "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Sand Hollow"
+			'id-id': "Sand Hollow"
 		},
 
 		damage: 150,

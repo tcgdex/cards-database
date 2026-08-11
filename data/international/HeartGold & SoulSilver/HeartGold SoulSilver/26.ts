@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium",
-		de: "Meganie"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Bloom",
-				fr: "Pousse géante",
-				de: "Riesenblüte"
+				'en-us': "Giant Bloom",
+				'fr-fr': "Pousse géante",
+				'de-de': "Riesenblüte"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Meganium.",
-				fr: "Retirez 2 marqueurs de dégâts de Meganium.",
-				de: "Entferne 2 Schadensmarken von Meganie."
+				'en-us': "Remove 2 damage counters from Meganium.",
+				'fr-fr': "Retirez 2 marqueurs de dégâts de Meganium.",
+				'de-de': "Entferne 2 Schadensmarken von Meganie."
 			},
 			damage: 60,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again."
+		'en-us': "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again."
 	},
 
 	variants: [

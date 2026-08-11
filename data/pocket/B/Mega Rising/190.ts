@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whismur"
+		'en-us': "Whismur"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "When Whismur cries, the sound of its own voice\nstartles it, making the Pokémon cry even louder.\nIt cries until it's exhausted, then it falls asleep."
+		'en-us': "When Whismur cries, the sound of its own voice\nstartles it, making the Pokémon cry even louder.\nIt cries until it's exhausted, then it falls asleep."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			'en-us': "Pound"
 		},
 
 		damage: 20,

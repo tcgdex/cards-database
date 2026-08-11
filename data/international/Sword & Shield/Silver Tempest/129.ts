@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "kurumitsu",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slam",
-			fr: "Souplesse",
-			es: "Atizar",
-			it: "Schianto",
-			pt: "Pancada Brusca",
-			de: "Slam"
+			'en-us': "Slam",
+			'fr-fr': "Souplesse",
+			'es-es': "Atizar",
+			'it-it': "Schianto",
+			'pt-br': "Pancada Brusca",
+			'de-de': "Slam"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -50,7 +50,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
+		'en-us': "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
 	},
 
 	variants: [

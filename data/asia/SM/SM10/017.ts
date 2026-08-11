@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "オスは メスの ほぼ いいなり。 獲った エサも ほとんど 貢ぐので 栄養不足で 進化 できない。",
+		'ja-jp': "オスは メスの ほぼ いいなり。 獲った エサも ほとんど 貢ぐので 栄養不足で 進化 できない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンについている[草]エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている[草]エネルギーを、1個トラッシュする。",
 			},
 		},
 	],

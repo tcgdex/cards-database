@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "恰雷姆ex",
 		'zh-cn': "恰雷姆ex",
-		ja: "チャーレムex"
+		'ja-jp': "チャーレムex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -21,13 +21,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "氣功指壓",
 			'zh-cn': "氣功指壓",
-			ja: "きこうあつ"
+			'ja-jp': "きこうあつ"
 		},
 
 		effect: {
 			'zh-tw': "在對手的戰鬥寶可夢身上放置傷害指示物直到剩餘HP變為「50」為止。",
 			'zh-cn': "在對手的戰鬥寶可夢身上放置傷害指示物直到剩餘HP變為「50」為止。",
-			ja: "相手のバトルポケモンの残りHPが「50」になるように、ダメカンをのせる。"
+			'ja-jp': "相手のバトルポケモンの残りHPが「50」になるように、ダメカンをのせる。"
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -35,13 +35,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "瑜伽踢",
 			'zh-cn': "瑜伽踢",
-			ja: "ヨガキック"
+			'ja-jp': "ヨガキック"
 		},
 
 		effect: {
 			'zh-tw': "這個招式的傷害不計算弱點・抵抗力。",
 			'zh-cn': "這個招式的傷害不計算弱點・抵抗力。",
-			ja: "このワザのダメージは弱点・抵抗力を計算しない。"
+			'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。"
 		},
 
 		damage: 190,

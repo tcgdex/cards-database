@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニスズメ",
+		'ja-jp': "オニスズメ",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "食欲旺盛で よく 食べる。 むしポケモンに 悩む 農家は オニスズメを 大切に する。",
+		'ja-jp': "食欲旺盛で よく 食べる。 むしポケモンに 悩む 農家は オニスズメを 大切に する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[草]ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[草]ポケモンなら、30ダメージ追加。",
 			},
 		},
 	],

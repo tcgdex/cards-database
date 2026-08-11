@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベラカスex",
+		'ja-jp': "ベラカスex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "さかさまドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を下から3枚引く。",
+				'ja-jp': "自分の山札を下から3枚引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×90ダメージ追加。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シガロコ",
+		'ja-jp': "シガロコ",
 	},
 
 	retreat: 1,

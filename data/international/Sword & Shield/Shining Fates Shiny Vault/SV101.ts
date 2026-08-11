@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minisange",
-		en: "Rookidee",
-		es: "Rookidee",
-		it: "Rookidee",
-		pt: "Rookidee",
-		de: "Meikro"
+		'fr-fr': "Minisange",
+		'en-us': "Rookidee",
+		'es-es': "Rookidee",
+		'it-it': "Rookidee",
+		'pt-br': "Rookidee",
+		'de-de': "Meikro"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Battement",
-			en: "Flap",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'fr-fr': "Battement",
+			'en-us': "Flap",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Glissement",
-			en: "Glide",
-			es: "Planeo",
-			it: "Aliante",
-			pt: "Planeio",
-			de: "Gleiten"
+			'fr-fr': "Glissement",
+			'en-us': "Glide",
+			'es-es': "Planeo",
+			'it-it': "Aliante",
+			'pt-br': "Planeio",
+			'de-de': "Gleiten"
 		},
 
 		damage: 30,
@@ -61,7 +61,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
+		'en-us': "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
 	},
 
 	variants: [

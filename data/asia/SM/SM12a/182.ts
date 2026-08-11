@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキー&ダークライGX",
+		'ja-jp': "ブラッキー&ダークライGX",
 	},
 
 	illustrator: "so-taro",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 150,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のベンチにいる「ポケモンGX・EX」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチにいる「ポケモンGX・EX」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
 			name: { ja: "デッドムーンGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からトレーナーズを出して使えない。追加で[悪]エネルギーが5個ついているなら、相手のバトルポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "次の相手の番、相手は手札からトレーナーズを出して使えない。追加で[悪]エネルギーが5個ついているなら、相手のバトルポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

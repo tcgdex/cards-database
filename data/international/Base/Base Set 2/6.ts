@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
+		'en-us': "Clefairy",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
+				'en-us': "Sing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metronome",
+				'en-us': "Metronome",
 			},
 			effect: {
-				en: "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
+				'en-us': "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
 			},
 
 		},
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+		'en-us': "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 	},
 
 

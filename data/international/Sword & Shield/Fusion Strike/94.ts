@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		es: "Rotom",
-		it: "Rotom",
-		pt: "Rotom",
-		de: "Rotom"
+		'en-us': "Rotom",
+		'fr-fr': "Motisma",
+		'es-es': "Rotom",
+		'it-it': "Rotom",
+		'pt-br': "Rotom",
+		'de-de': "Rotom"
 	},
 
 	rarity: "Common",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
+		'en-us': "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Surprise Short",
-			fr: "Court-Circuit Surprise",
-			de: "Überraschender Kurzschluss",
-			es: "Cortocircuito Sorpresa",
-			pt: "Curto-circuito Surpresa",
-			it: "Cortocircuito a Sorpresa"
+			'en-us': "Surprise Short",
+			'fr-fr': "Court-Circuit Surprise",
+			'de-de': "Überraschender Kurzschluss",
+			'es-es': "Cortocircuito Sorpresa",
+			'pt-br': "Curto-circuito Surpresa",
+			'it-it': "Cortocircuito a Sorpresa"
 		},
 
 		effect: {
-			en: "Discard all Pokémon Tools from all of your opponent's Pokémon.",
-			fr: "Défaussez tous les Outils Pokémon de tous les Pokémon de votre adversaire.",
-			de: "Lege alle Pokémon-Ausrüstungen von allen Pokémon deines Gegners auf den Ablagestapel.",
-			es: "Descarta todas las Herramientas Pokémon de todos los Pokémon de tu rival.",
-			pt: "Descarte todas as Ferramentas Pokémon de todos os Pokémon do seu oponente.",
-			it: "Scarta tutte le carte Oggetto Pokémon da tutti i Pokémon del tuo avversario."
+			'en-us': "Discard all Pokémon Tools from all of your opponent's Pokémon.",
+			'fr-fr': "Défaussez tous les Outils Pokémon de tous les Pokémon de votre adversaire.",
+			'de-de': "Lege alle Pokémon-Ausrüstungen von allen Pokémon deines Gegners auf den Ablagestapel.",
+			'es-es': "Descarta todas las Herramientas Pokémon de todos los Pokémon de tu rival.",
+			'pt-br': "Descarte todas as Ferramentas Pokémon de todos os Pokémon do seu oponente.",
+			'it-it': "Scarta tutte le carte Oggetto Pokémon da tutti i Pokémon del tuo avversario."
 		}
 	}, {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			de: "Statischer Schock",
-			es: "Impacto Estático",
-			pt: "Choque de Estática",
-			it: "Shock Statico"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'de-de': "Statischer Schock",
+			'es-es': "Impacto Estático",
+			'pt-br': "Choque de Estática",
+			'it-it': "Shock Statico"
 		},
 
 		damage: 30

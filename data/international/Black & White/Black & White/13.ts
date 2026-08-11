@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Deerling",
-		fr: "Vivaldaim",
-		es: "Deerling",
-		it: "Deerling",
-		pt: "Deerling",
-		de: "Sesokitz"
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
+		'es-es': "Deerling",
+		'it-it': "Deerling",
+		'pt-br': "Deerling",
+		'de-de': "Sesokitz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				fr: "Double Pied",
+				'en-us': "Double Kick",
+				'fr-fr': "Double Pied",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+		'en-us': "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
 	},
 
 	thirdParty: {

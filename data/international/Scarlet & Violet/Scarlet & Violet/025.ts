@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		it: "Toedscool",
-		pt: "Toedscool",
-		de: "Tentagra"
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
+		'de-de': "Tentagra"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spore",
-			fr: "Spore",
-			es: "Espora",
-			it: "Spora",
-			pt: "Esporos",
-			de: "Pilzspore"
+			'en-us': "Spore",
+			'fr-fr': "Spore",
+			'es-es': "Espora",
+			'it-it': "Spora",
+			'pt-br': "Esporos",
+			'de-de': "Pilzspore"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -76,7 +76,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+		'en-us': "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
 	},
 
 	thirdParty: {

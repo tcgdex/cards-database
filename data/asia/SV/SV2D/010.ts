@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 		'zh-tw': "呆火駝",
-		th: "ดอนเมล",
-		id: "Numel"
+		'th-th': "ดอนเมล",
+		'id-id': "Numel"
 	},
 
 	illustrator: "Mizue",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "１２００度の マグマが 体内で 燃えている。 寒くなると マグマが 固まるので 動きが 鈍くなる。",
+		'ja-jp': "１２００度の マグマが 体内で 燃えている。 寒くなると マグマが 固まるので 動きが 鈍くなる。",
 		'zh-tw': "體內燃燒著１２００度的熔岩。一旦氣溫變低，熔岩就會凝固， 動作也會因此變得遲緩。",
-		th: "มีแม็กมา 1200 องศาเซลเซียสไหลอยู่ในร่างกาย พออากาศเย็นลงแม็กมาจะแข็งตัว ทำให้เคลื่อนไหวได้ช้าลง",
-		id: "Magma bersuhu 1200 ℃ membara di dalam tubuh Numel. Pergerakan Pokémon ini menjadi lamban karena magma tersebut mengeras ketika suhu udara menjadi dingin."
+		'th-th': "มีแม็กมา 1200 องศาเซลเซียสไหลอยู่ในร่างกาย พออากาศเย็นลงแม็กมาจะแข็งตัว ทำให้เคลื่อนไหวได้ช้าลง",
+		'id-id': "Magma bersuhu 1200 ℃ membara di dalam tubuh Numel. Pergerakan Pokémon ini menjadi lamban karena magma tersebut mengeras ketika suhu udara menjadi dingin."
 	},
 
 	stage: "Basic",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "あついマグマ",
+			'ja-jp': "あついマグマ",
 			'zh-tw': "熾熱熔岩",
-			th: "แม็กมาร้อน",
-			id: "Magma Panas"
+			'th-th': "แม็กมาร้อน",
+			'id-id': "Magma Panas"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。",
+			'ja-jp': "相手のバトルポケモンをやけどにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		}
 	}],
 

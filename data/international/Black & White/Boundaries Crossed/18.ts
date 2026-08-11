@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Draw In",
-				fr: "Aspiracartes",
+				'en-us': "Draw In",
+				'fr-fr': "Aspiracartes",
 			},
 			effect: {
-				en: "Attach 2 Fire Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez 2 cartes Énergie Fire de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach 2 Fire Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie Fire de votre pile de défausse à ce Pokémon.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+		'en-us': "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
 	},
 
 	thirdParty: {

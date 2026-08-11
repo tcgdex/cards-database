@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Mischievous Tail",
-			fr: "Queue Malicieuse",
-			es: "Cola Traviesa",
-			it: "Coda Birichina",
-			pt: "Cauda Maliciosa",
-			de: "Frecher Schweif"
+			'en-us': "Mischievous Tail",
+			'fr-fr': "Queue Malicieuse",
+			'es-es': "Cola Traviesa",
+			'it-it': "Coda Birichina",
+			'pt-br': "Cauda Maliciosa",
+			'de-de': "Frecher Schweif"
 		},
 
 		effect: {
-			en: "Look at the top card of your opponent's deck. You may have your opponent shuffle their deck.",
-			fr: "Regardez la carte du dessus du deck de votre adversaire. Vous pouvez demander à votre adversaire de mélanger son deck.",
-			es: "Mira la primera carta de la baraja de tu rival. Puedes hacer que tu rival baraje las cartas de su baraja.",
-			it: "Guarda la prima carta del mazzo del tuo avversario. Puoi far rimischiare il suo mazzo al tuo avversario.",
-			pt: "Olhe a carta de cima do baralho do seu oponente. Você pode fazer com que o seu oponente embaralhe o próprio baralho.",
-			de: "Schau dir die oberste Karte des Decks deines Gegners an. Du kannst deinen Gegner dazu veranlassen, sein Deck zu mischen."
+			'en-us': "Look at the top card of your opponent's deck. You may have your opponent shuffle their deck.",
+			'fr-fr': "Regardez la carte du dessus du deck de votre adversaire. Vous pouvez demander à votre adversaire de mélanger son deck.",
+			'es-es': "Mira la primera carta de la baraja de tu rival. Puedes hacer que tu rival baraje las cartas de su baraja.",
+			'it-it': "Guarda la prima carta del mazzo del tuo avversario. Puoi far rimischiare il suo mazzo al tuo avversario.",
+			'pt-br': "Olhe a carta de cima do baralho do seu oponente. Você pode fazer com que o seu oponente embaralhe o próprio baralho.",
+			'de-de': "Schau dir die oberste Karte des Decks deines Gegners an. Du kannst deinen Gegner dazu veranlassen, sein Deck zu mischen."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 10

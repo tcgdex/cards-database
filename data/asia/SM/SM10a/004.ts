@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードランGX",
+		'ja-jp': "ヒードランGX",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バーニングロード" },
 			effect: {
-				ja: "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについている[炎]エネルギーを好きなだけ、このポケモンにつけ替える。",
+				'ja-jp': "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについている[炎]エネルギーを好きなだけ、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンについている[炎]エネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

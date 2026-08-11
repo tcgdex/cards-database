@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Oricorio"
+		'id-id': "Oricorio"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Meskipun tarian penuh semangat dan ceria Oricorio populer di kalangan anak-anak, Pokémon ini jarang dijumpai di Daerah Paldea."
+		'id-id': "Meskipun tarian penuh semangat dan ceria Oricorio populer di kalangan anak-anak, Pokémon ini jarang dijumpai di Daerah Paldea."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Cheer Up"
+			'id-id': "Cheer Up"
 		},
 
 		effect: {
-			id: "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil kartu dari atas Deck untuk tiap Pokémon Cadangan kedua pemain."
+			'id-id': "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil kartu dari atas Deck untuk tiap Pokémon Cadangan kedua pemain."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Shock Wave"
+			'id-id': "Shock Wave"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 50,

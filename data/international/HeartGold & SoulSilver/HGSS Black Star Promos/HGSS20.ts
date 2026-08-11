@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Entei",
-		fr: "Entei"
+		'en-us': "Entei",
+		'fr-fr': "Entei"
 	},
 	illustrator: "Yuri Umemura",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu"
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu"
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to Entei.",
-				fr: "Défaussez toutes les Énergies  attachées à Entei."
+				'en-us': "Discard all Fire Energy attached to Entei.",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à Entei."
 			},
 			damage: 80,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land."
+		'en-us': "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land."
 	},
 
 	variants: [

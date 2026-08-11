@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear",
-		fr: "Chelours"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,27 +18,27 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Stufful"
+		'en-us': "Stufful"
 	},
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show\nits affection with a hug. Letting it do that is\ndangerous—it could easily shatter your bones.",
-		fr: "Il serre fort contre lui ceux qu'il considère comme ses compagnons, mais ses câlins sont assez puissants pour broyer les os."
+		'en-us': "Once it accepts you as a friend, it tries to show\nits affection with a hug. Letting it do that is\ndangerous—it could easily shatter your bones.",
+		'fr-fr': "Il serre fort contre lui ceux qu'il considère comme ses compagnons, mais ses câlins sont assez puissants pour broyer les os."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Superpowered Hug",
-			fr: "Câlin Surpuissant"
+			'en-us': "Superpowered Hug",
+			'fr-fr': "Câlin Surpuissant"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out.",
-			fr: "Lancez 2 pièces. Si les deux tombent sur face, le Pokémon Actif de votre adversaire est mis K.O."
+			'en-us': "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out.",
+			'fr-fr': "Lancez 2 pièces. Si les deux tombent sur face, le Pokémon Actif de votre adversaire est mis K.O."
 		}
 	}],
 

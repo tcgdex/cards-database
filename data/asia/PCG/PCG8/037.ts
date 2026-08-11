@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュペット",
+		'ja-jp': "シュペット",
 	},
 
 	rarity: "Uncommon",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "上昇",
+				'ja-jp': "上昇",
 			},
 			effect: {
-				ja: "シュペットから進化するカードをデッキに検索し、シュペットに置きます。 （これは進化するシュペットとしてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "シュペットから進化するカードをデッキに検索し、シュペットに置きます。 （これは進化するシュペットとしてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},

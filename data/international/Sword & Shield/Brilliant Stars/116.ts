@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Castform",
-		fr: "Morphéo",
-		es: "Castform",
-		it: "Castform",
-		pt: "Castform",
-		de: "Formeo"
+		'en-us': "Castform",
+		'fr-fr': "Morphéo",
+		'es-es': "Castform",
+		'it-it': "Castform",
+		'pt-br': "Castform",
+		'de-de': "Formeo"
 	},
 
 	illustrator: "kawayoo",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hurricane",
-			fr: "Vent Violent",
-			es: "Vendaval",
-			it: "Tifone",
-			pt: "Furacão",
-			de: "Orkan"
+			'en-us': "Hurricane",
+			'fr-fr': "Vent Violent",
+			'es-es': "Vendaval",
+			'it-it': "Tifone",
+			'pt-br': "Furacão",
+			'de-de': "Orkan"
 		},
 
 		effect: {
-			en: "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 1 Energía Básica de este Pokémon a 1 de tus Pokémon en Banca.",
-			it: "Sposta un'Energia base da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova 1 Energia básica deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 1 Basis-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'en-us': "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'es-es': "Mueve 1 Energía Básica de este Pokémon a 1 de tus Pokémon en Banca.",
+			'it-it': "Sposta un'Energia base da questo Pokémon a uno di quelli nella tua panchina.",
+			'pt-br': "Mova 1 Energia básica deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'de-de': "Verschiebe 1 Basis-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 30
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
+		'en-us': "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
 	},
 
 	variants: [

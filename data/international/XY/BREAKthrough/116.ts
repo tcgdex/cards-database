@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		es: "Doduo",
-		it: "Doduo",
-		pt: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'es-es': "Doduo",
+		'it-it': "Doduo",
+		'pt-br': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Entaille Double",
-				es: "Doble Puñalada",
-				it: "Doppia Pugnalata",
-				pt: "Estocada Dupla",
-				de: "Doppelstich"
+				'en-us': "Double Stab",
+				'fr-fr': "Entaille Double",
+				'es-es': "Doble Puñalada",
+				'it-it': "Doppia Pugnalata",
+				'pt-br': "Estocada Dupla",
+				'de-de': "Doppelstich"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doduo Delivery",
-				fr: "Livraison Doduo",
-				es: "Reparto Doduo",
-				it: "Consegna Doduo",
-				pt: "Entrega de Doduo",
-				de: "Dodu-Lieferung"
+				'en-us': "Doduo Delivery",
+				'fr-fr': "Livraison Doduo",
+				'es-es': "Reparto Doduo",
+				'it-it': "Consegna Doduo",
+				'pt-br': "Entrega de Doduo",
+				'de-de': "Dodu-Lieferung"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cards.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cards.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
 	},
 
 	thirdParty: {

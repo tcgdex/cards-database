@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 
 	illustrator: "match",
@@ -22,7 +22,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
+				'en-us': "Tail Slap",
 			},
 			damage: 10,
 		},
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				'en-us': "Quick Attack",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 			},
 			damage: "20+",
 		},

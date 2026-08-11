@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルリリ",
+		'ja-jp': "ルリリ",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "大きな 尻尾に 乗って 弾むと 地上では 速く 移動できる。 水辺で 暮らす ポケモン。",
+		'ja-jp': "大きな 尻尾に 乗って 弾むと 地上では 速く 移動できる。 水辺で 暮らす ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぐんぐんチャージ" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、自分のトラッシュにある基本エネルギーを1枚、バトルポケモンにつける。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、自分のトラッシュにある基本エネルギーを1枚、バトルポケモンにつける。",
 			},
 		},
 	],

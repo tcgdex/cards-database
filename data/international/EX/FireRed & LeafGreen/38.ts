@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mischief",
-				fr: "Espièglerie",
-				de: "Mischief"
+				'en-us': "Mischief",
+				'fr-fr': "Espièglerie",
+				'de-de': "Mischief"
 			},
 			effect: {
-				en: "Shuffle your opponent's deck.",
-				fr: "Mélangez le deck de votre adversaire.",
-				de: "Shuffle your opponent's deck."
+				'en-us': "Shuffle your opponent's deck.",
+				'fr-fr': "Mélangez le deck de votre adversaire.",
+				'de-de': "Shuffle your opponent's deck."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Light Punch"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Light Punch"
 			},
 
 			damage: 30,

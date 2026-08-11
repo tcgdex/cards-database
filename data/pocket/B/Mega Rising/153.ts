@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drapion"
+		'en-us': "Drapion"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Skorupi"
+		'en-us': "Skorupi"
 	},
 
 	description: {
-		en: "It's so vicious that it's called the Sand Demon.\nYet when confronted by Hippowdon, Drapion\nkeeps a low profile and will never pick a fight."
+		'en-us': "It's so vicious that it's called the Sand Demon.\nYet when confronted by Hippowdon, Drapion\nkeeps a low profile and will never pick a fight."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Stun Poison"
+			'en-us': "Stun Poison"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned and Paralyzed."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned and Paralyzed."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロロロームex",
+		'ja-jp': "ブロロロームex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Metal"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、120ダメージ追加。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、120ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、トラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 	},
 
 	retreat: 1,

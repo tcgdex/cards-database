@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		de: "Schnuthelm",
-		it: "Shelmet",
-		pt: "Shelmet",
-		es: "Shelmet",
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'de-de': "Schnuthelm",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'es-es': "Shelmet",
 		'es-mx': "Shelmet"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Stimulated Evolution",
-			fr: "Évolution Stimulée",
-			de: "Stimulierte Entwicklung",
-			it: "Evoluzione Stimolata",
-			pt: "Evolução Estimulada",
-			es: "Estímulo Evolución",
+			'en-us': "Stimulated Evolution",
+			'fr-fr': "Évolution Stimulée",
+			'de-de': "Stimulierte Entwicklung",
+			'it-it': "Evoluzione Stimolata",
+			'pt-br': "Evolução Estimulada",
+			'es-es': "Estímulo Evolución",
 			'es-mx': "Evolución Inducida"
 		},
 
 		effect: {
-			en: "If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it.",
-			fr: "Si vous avez Carabing en jeu, ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
-			de: "Wenn du Laukaps im Spiel hast, kann sich dieses Pokémon während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
-			it: "Se hai Karrablast in gioco, questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
-			pt: "Se você tiver Karrablast em jogo, este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo.",
-			es: "Si tienes a Karrablast en juego, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
+			'en-us': "If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it.",
+			'fr-fr': "Si vous avez Carabing en jeu, ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+			'de-de': "Wenn du Laukaps im Spiel hast, kann sich dieses Pokémon während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
+			'it-it': "Se hai Karrablast in gioco, questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
+			'pt-br': "Se você tiver Karrablast em jogo, este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo.",
+			'es-es': "Si tienes a Karrablast en juego, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
 			'es-mx': "Si tienes a Karrablast en juego, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego."
 		}
 	}],
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			de: "Abrupter Kopfstoß",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			es: "Bote Cabezazo",
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'de-de': "Abrupter Kopfstoß",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'es-es': "Bote Cabezazo",
 			'es-mx': "Cabezazo Rebotante"
 		},
 

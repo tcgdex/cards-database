@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラGX",
+		'ja-jp': "マニューラGX",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シャドーコネクション" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の場のポケモンについている基本[悪]エネルギーを1個、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分の場のポケモンについている基本[悪]エネルギーを1個、自分の別のポケモンにつけ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			name: { ja: "よるのごうれいGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを好きなだけ、ベンチに出す。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の山札にあるたねポケモンを好きなだけ、ベンチに出す。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 1,

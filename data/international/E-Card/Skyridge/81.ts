@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♀",
-		de: "Nidoran W"
+		'en-us': "Nidoran ♀",
+		'de-de': "Nidoran W"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				de: "Familie holen"
+				'en-us': "Call for Family",
+				'de-de': "Familie holen"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon card named Nidoran ♀ or Nidoran ♂ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				de: "Durchsuche dein Deck nach einer Basis-Pokémonkarte mit dem Namen Nidoran W oder Nidoran M und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist.)"
+				'en-us': "Search your deck for a Basic Pokémon card named Nidoran ♀ or Nidoran ♂ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'de-de': "Durchsuche dein Deck nach einer Basis-Pokémonkarte mit dem Namen Nidoran W oder Nidoran M und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist.)"
 			},
 
 		},
@@ -40,8 +40,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Scratch",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Cheren",
-		fr: "Tcheren",
-		es: "Cheren",
-		it: "Komor",
-		pt: "Cheren",
-		de: "Cheren"
+		'en-us': "Cheren",
+		'fr-fr': "Tcheren",
+		'es-es': "Cheren",
+		'it-it': "Komor",
+		'pt-br': "Cheren",
+		'de-de': "Cheren"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Piochez 3 cartes.",
-		en: "Draw 3 cards.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cards.",
-		de: "Ziehe 3 Karten."
+		'fr-fr': "Piochez 3 cartes.",
+		'en-us': "Draw 3 cards.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cards.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

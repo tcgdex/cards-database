@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		es: "Togetic",
-		it: "Togetic",
-		pt: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'es-es': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Go Fetch",
-				fr: "Récup'",
-				es: "Ir a Buscar",
-				it: "Riporto",
-				pt: "Vá Buscar",
-				de: "Herbeischaffen"
+				'en-us': "Go Fetch",
+				'fr-fr': "Récup'",
+				'es-es': "Ir a Buscar",
+				'it-it': "Riporto",
+				'pt-br': "Vá Buscar",
+				'de-de': "Herbeischaffen"
 			},
 			effect: {
-				en: "Shuffle 3 basic Energy cards from your discard pile into your deck.",
-				fr: "Mélangez 3 cartes Énergie de base de votre pile de défausse avec votre deck.",
-				es: "Pon 3 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
-				it: "Rimischia tre carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 3 cards de Energia básica da sua pilha de descarte no seu baralho.",
-				de: "Mische 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle 3 basic Energy cards from your discard pile into your deck.",
+				'fr-fr': "Mélangez 3 cartes Énergie de base de votre pile de défausse avec votre deck.",
+				'es-es': "Pon 3 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
+				'it-it': "Rimischia tre carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 3 cards de Energia básica da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
-				es: "Viento Feérico",
-				it: "Vento di Fata",
-				pt: "Vento de Fada",
-				de: "Feenbrise"
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
+				'es-es': "Viento Feérico",
+				'it-it': "Vento di Fata",
+				'pt-br': "Vento de Fada",
+				'de-de': "Feenbrise"
 			},
 
 			damage: 40,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+		'en-us': "They say that it will appear before kindhearted, caring people and shower them with happiness.",
 	},
 
 	thirdParty: {

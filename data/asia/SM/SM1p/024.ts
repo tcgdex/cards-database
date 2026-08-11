@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "むらさきのミツを 吸った オドリドリ。 雅で あでやかな 舞は 敵の 身も 心も 異界へ 誘う。",
+		'ja-jp': "むらさきのミツを 吸った オドリドリ。 雅で あでやかな 舞は 敵の 身も 心も 異界へ 誘う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あやかしのまい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "相手のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ていないなら、このワザは失敗。",
+				'ja-jp': "場にスタジアムが出ていないなら、このワザは失敗。",
 			},
 		},
 	],

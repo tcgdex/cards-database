@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Eggsplosion",
-				fr: "Grosse éclate",
-				de: "Big Eggsplosion"
+				'en-us': "Big Eggsplosion",
+				'fr-fr': "Grosse éclate",
+				'de-de': "Big Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+				'en-us': "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lateral Eggsplosion",
-				fr: "Éclate latérale",
-				de: "Lateral Eggsplosion"
+				'en-us': "Lateral Eggsplosion",
+				'fr-fr': "Éclate latérale",
+				'de-de': "Lateral Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Flip a number of coins equal to the amount of Energy attached to all of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
+				'en-us': "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Flip a number of coins equal to the amount of Energy attached to all of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
 			},
 			damage: "30+",
 

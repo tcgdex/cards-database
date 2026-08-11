@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Aegislash",
-		fr: "Exagide",
-		es: "Aegislash",
-		it: "Aegislash",
-		pt: "Aegislash",
-		de: "Durengard"
+		'en-us': "Aegislash",
+		'fr-fr': "Exagide",
+		'es-es': "Aegislash",
+		'it-it': "Aegislash",
+		'pt-br': "Aegislash",
+		'de-de': "Durengard"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Miracle Guard",
-				fr: "Garde Miracle",
-				es: "Defensa Milagrosa",
-				it: "Guardia Miracolosa",
-				pt: "Guarda Milagroso",
-				de: "Wunderschutz"
+				'en-us': "Miracle Guard",
+				'fr-fr': "Garde Miracle",
+				'es-es': "Defensa Milagrosa",
+				'it-it': "Guardia Miracolosa",
+				'pt-br': "Guarda Milagroso",
+				'de-de': "Wunderschutz"
 			},
 			effect: {
-				en: "Each of your Pokémon has no Weakness.",
-				fr: "Aucun de vos Pokémon n'a de Faiblesse.",
-				es: "Ninguno de tus Pokémon tiene Debilidad.",
-				it: "Nessuno dei tuoi Pokémon ha debolezza.",
-				pt: "Seus Pokémon não têm Fraqueza.",
-				de: "Keins deiner Pokémon hat eine Schwäche."
+				'en-us': "Each of your Pokémon has no Weakness.",
+				'fr-fr': "Aucun de vos Pokémon n'a de Faiblesse.",
+				'es-es': "Ninguno de tus Pokémon tiene Debilidad.",
+				'it-it': "Nessuno dei tuoi Pokémon ha debolezza.",
+				'pt-br': "Seus Pokémon não têm Fraqueza.",
+				'de-de': "Keins deiner Pokémon hat eine Schwäche."
 			},
 		},
 	],
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Protect Charge",
-				fr: "Recharge Protectrice",
-				es: "Carga Protectora",
-				it: "Carica Protettiva",
-				pt: "Carga Protetora",
-				de: "Schützender Sturmangriff"
+				'en-us': "Protect Charge",
+				'fr-fr': "Recharge Protectrice",
+				'es-es': "Carga Protectora",
+				'it-it': "Carica Protettiva",
+				'pt-br': "Carga Protetora",
+				'de-de': "Schützender Sturmangriff"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 80,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+		'en-us': "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
 	},
 
 	thirdParty: {

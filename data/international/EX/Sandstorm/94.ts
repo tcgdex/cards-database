@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl ex",
-		fr: "Ptera ex",
-		de: "Aerodactyl ex"
+		'en-us': "Aerodactyl ex",
+		'fr-fr': "Ptera ex",
+		'de-de': "Aerodactyl ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		'en-us': "Mysterious Fossil",
+		'fr-fr': "Mystérieux fossile"
 	},
 
 	suffix: "ex",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Lock",
-				fr: "Serrure primordiale",
-				de: "Urzeitschloss"
+				'en-us': "Primal Lock",
+				'fr-fr': "Serrure primordiale",
+				'de-de': "Urzeitschloss"
 			},
 			effect: {
-				en: "As long as Aerodactyl ex is in play, your opponent can't play Pokémon Tool cards. Remove any Pokémon Tool cards attached to your opponent's Pokémon and put them into his or her discard pile.",
-				fr: "Tant que Ptera ex est en jeu, votre adversaire ne peut pas jouer de cartes Outil Pokémon. Retirez toutes les cartes Outil Pokémon aux Pokémon de votre adversaire et défaussez-les.",
-				de: "Solange sich Aerodactyl ex im Spiel befindet, kann dein Gegner keine Pokémon-Ausrüstungs-Karten spielen. Entferne alle Pokémon-Ausrüstungs-Karten, die an den gegnerischen Pokémon angelegt sind und lege sie auf seinen Ablagestapel."
+				'en-us': "As long as Aerodactyl ex is in play, your opponent can't play Pokémon Tool cards. Remove any Pokémon Tool cards attached to your opponent's Pokémon and put them into his or her discard pile.",
+				'fr-fr': "Tant que Ptera ex est en jeu, votre adversaire ne peut pas jouer de cartes Outil Pokémon. Retirez toutes les cartes Outil Pokémon aux Pokémon de votre adversaire et défaussez-les.",
+				'de-de': "Solange sich Aerodactyl ex im Spiel befindet, kann dein Gegner keine Pokémon-Ausrüstungs-Karten spielen. Entferne alle Pokémon-Ausrüstungs-Karten, die an den gegnerischen Pokémon angelegt sind und lege sie auf seinen Ablagestapel."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -70,9 +70,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 60,

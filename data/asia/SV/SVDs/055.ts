@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พาโม",
-		id: "Pawmi"
+		'th-th': "พาโม",
+		'id-id': "Pawmi"
 	},
 
 	illustrator: "sowsow",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "อุ้งมือคืออวัยวะปล่อยกระแสไฟฟ้า หลังจากที่ลุกขึ้นยืนด้วยขาหลังอย่างทุลักทุเลก็จะปล่อยไฟฟ้าออกมาจากอุ้งมือ",
-		id: "Bantalan tangannya adalah organ pelepasan listrik. Setelah berhasil berdiri dengan kaki belakangnya, Pawmi melepaskan serangan listrik dari telapak tangannya."
+		'th-th': "อุ้งมือคืออวัยวะปล่อยกระแสไฟฟ้า หลังจากที่ลุกขึ้นยืนด้วยขาหลังอย่างทุลักทุเลก็จะปล่อยไฟฟ้าออกมาจากอุ้งมือ",
+		'id-id': "Bantalan tangannya adalah organ pelepasan listrik. Setelah berhasil berdiri dengan kaki belakangnya, Pawmi melepaskan serangan listrik dari telapak tangannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ประกายไฟ",
-			id: "Berpijar-pijar"
+			'th-th': "ประกายไฟ",
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 20,

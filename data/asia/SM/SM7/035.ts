@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プラスル",
+		'ja-jp': "プラスル",
 	},
 
 	illustrator: "Kanako Eo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電柱から 電気を 吸い取る。 体に ためた 電気を ショートさせて 音を 出す。",
+		'ja-jp': "電柱から 電気を 吸い取る。 体に ためた 電気を ショートさせて 音を 出す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みんなでドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、おたがいのベンチポケモンの数ぶん、山札を引く。",
+				'ja-jp': "自分の手札をすべて山札にもどして切る。その後、おたがいのベンチポケモンの数ぶん、山札を引く。",
 			},
 		},
 		{

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tapu Koko ex",
-		es: "Tapu Koko ex"
+		'en-us': "Tapu Koko ex",
+		'es-es': "Tapu Koko ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -21,22 +21,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Plasma Hurricane",
-			es: "Huracán Plasma"
+			'en-us': "Plasma Hurricane",
+			'es-es': "Huracán Plasma"
 		},
 
 		damage: 20,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
-			es: "Une 1 Energía {L} de tu área de Energía a este Pokémon."
+			'en-us': "Take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
+			'es-es': "Une 1 Energía {L} de tu área de Energía a este Pokémon."
 		}
 	},
 	{
 		name: {
-			en: "Mach Bolt",
-			es: "Rayo Mach"
+			'en-us': "Mach Bolt",
+			'es-es': "Rayo Mach"
 		},
 
 		damage: 90,

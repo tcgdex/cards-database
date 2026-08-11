@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blissey",
-		fr: "Leuphorie",
-		es: "Blissey",
-		it: "Blissey",
-		pt: "Blissey",
-		de: "Heiteira"
+		'en-us': "Blissey",
+		'fr-fr': "Leuphorie",
+		'es-es': "Blissey",
+		'it-it': "Blissey",
+		'pt-br': "Blissey",
+		'de-de': "Heiteira"
 	},
 
 	illustrator: "Teeziro",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Chansey",
-		fr: "Leveinard",
-		es: "Chansey",
-		it: "Chansey",
-		pt: "Chansey",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'es-es': "Chansey",
+		'it-it': "Chansey",
+		'pt-br': "Chansey",
+		'de-de': "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -35,32 +35,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Enriching Egg",
-			fr: "Œuf Fortifiant",
-			es: "Huevo Nutritivo",
-			it: "Uovo Nutriente",
-			pt: "Ovo Terapêutico",
-			de: "Anreicherndes Ei"
+			'en-us': "Enriching Egg",
+			'fr-fr': "Œuf Fortifiant",
+			'es-es': "Huevo Nutritivo",
+			'it-it': "Uovo Nutriente",
+			'pt-br': "Ovo Terapêutico",
+			'de-de': "Anreicherndes Ei"
 		},
 
 		effect: {
-			en: "Heal all damage from 1 of your Benched Pokémon.",
-			fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
-			es: "Cura todos los puntos de daño a 1 de tus Pokémon en Banca.",
-			it: "Cura uno dei tuoi Pokémon in panchina da tutti i danni.",
-			pt: "Cure todo o dano de 1 dos seus Pokémon no Banco.",
-			de: "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
+			'en-us': "Heal all damage from 1 of your Benched Pokémon.",
+			'fr-fr': "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
+			'es-es': "Cura todos los puntos de daño a 1 de tus Pokémon en Banca.",
+			'it-it': "Cura uno dei tuoi Pokémon in panchina da tutti i danni.",
+			'pt-br': "Cure todo o dano de 1 dos seus Pokémon no Banco.",
+			'de-de': "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
-			de: "Zen-Kopfstoß"
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
 		},
 
 		damage: 100
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
+		'en-us': "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
 	},
 
 

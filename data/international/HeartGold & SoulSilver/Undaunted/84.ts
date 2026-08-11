@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox",
-		de: "Scherox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox",
+		'de-de': "Scherox"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insecateur"
+		'en-us': "Scyther",
+		'fr-fr': "Insecateur"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Red Armor",
-				fr: "Armure rouge",
-				de: "Rote Rüstung"
+				'en-us': "Red Armor",
+				'fr-fr': "Armure rouge",
+				'de-de': "Rote Rüstung"
 			},
 			effect: {
-				en: "Prevent all damage done to Scizor by attacks from your opponent's Pokémon that have any Special Energy cards attached to them.",
-				fr: "Évitez tous les dégâts d’attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
-				de: "Verhindere allen Schaden, der Scherox durch Angriffe von Pokémon deines Gegners, an denen Spezialenergiekarten angelegt sind, zugefügt würde."
+				'en-us': "Prevent all damage done to Scizor by attacks from your opponent's Pokémon that have any Special Energy cards attached to them.",
+				'fr-fr': "Évitez tous les dégâts d’attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
+				'de-de': "Verhindere allen Schaden, der Scherox durch Angriffe von Pokémon deines Gegners, an denen Spezialenergiekarten angelegt sind, zugefügt würde."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Scissors",
-				fr: "Ciseaux d’acier",
-				de: "Metallscheren"
+				'en-us': "Metal Scissors",
+				'fr-fr': "Ciseaux d’acier",
+				'de-de': "Metallscheren"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Metal attachée à Cizayox.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Scherox angelegte -Energie zu."
+				'en-us': "Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.",
+				'fr-fr': "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Metal attachée à Cizayox.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Scherox angelegte -Energie zu."
 			},
 			damage: "30+",
 

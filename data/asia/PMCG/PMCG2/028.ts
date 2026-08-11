@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ピーク",
+				'ja-jp': "ピーク",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前）</em>の間に、次のいずれかを見ることができます。どちらかのプレイヤーのデッキのトップカード、対戦相手の手からのランダムカード、またはプレイヤーの賞品の1つです。マンキーが眠ったり、混乱したり、麻痺している場合、この力は使用できません。",
+				'ja-jp': "順番<em>（攻撃の前）</em>の間に、次のいずれかを見ることができます。どちらかのプレイヤーのデッキのトップカード、対戦相手の手からのランダムカード、またはプレイヤーの賞品の1つです。マンキーが眠ったり、混乱したり、麻痺している場合、この力は使用できません。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},

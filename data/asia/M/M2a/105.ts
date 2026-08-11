@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ジグザグマ",
+		'ja-jp': "ガラル ジグザグマ",
 	},
 
 	illustrator: "osare",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "落ち着きなく 走りまわっている。 ほかの ポケモンを 見つけると わざと ぶつかって ケンカを 売る。",
+		'ja-jp': "落ち着きなく 走りまわっている。 ほかの ポケモンを 見つけると わざと ぶつかって ケンカを 売る。",
 	},
 
 	stage: "Basic",

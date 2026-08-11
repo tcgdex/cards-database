@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [397],
 
 	name: {
-		en: "Staravia"
+		'en-us': "Staravia"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Starly"
+		'en-us': "Starly"
 	},
 
 	description: {
-		en: "They maintain huge flocks, although fierce\nscuffles break out between various flocks."
+		'en-us': "They maintain huge flocks, although fierce\nscuffles break out between various flocks."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Quick Attack"
+			'en-us': "Quick Attack"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

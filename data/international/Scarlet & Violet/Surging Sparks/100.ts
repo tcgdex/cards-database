@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Annihilape",
-		fr: "Courrousinge",
-		es: "Annihilape",
-		it: "Annihilape",
-		pt: "Annihilape",
-		de: "Epitaff"
+		'en-us': "Annihilape",
+		'fr-fr': "Courrousinge",
+		'es-es': "Annihilape",
+		'it-it': "Annihilape",
+		'pt-br': "Annihilape",
+		'de-de': "Epitaff"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Tantrum",
-			fr: "Mauvaise Humeur",
-			es: "Rabieta",
-			it: "Collera",
-			pt: "Petulância",
-			de: "Rappel"
+			'en-us': "Tantrum",
+			'fr-fr': "Mauvaise Humeur",
+			'es-es': "Rabieta",
+			'it-it': "Collera",
+			'pt-br': "Petulância",
+			'de-de': "Rappel"
 		},
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso.",
-			de: "Dieses Pokémon ist jetzt verwirrt."
+			'en-us': "This Pokémon is now Confused.",
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso.",
+			'de-de': "Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: 130
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Destined Fight",
-			fr: "Combat du Destin",
-			es: "Lucha Predestinada",
-			it: "Lotta Predestinata",
-			pt: "Luta Predestinada",
-			de: "Abgangsgefecht"
+			'en-us': "Destined Fight",
+			'fr-fr': "Combat du Destin",
+			'es-es': "Lucha Predestinada",
+			'it-it': "Lotta Predestinata",
+			'pt-br': "Luta Predestinada",
+			'de-de': "Abgangsgefecht"
 		},
 
 		effect: {
-			en: "Both Active Pokémon are Knocked Out.",
-			fr: "Les deux Pokémon Actifs sont mis K.O.",
-			es: "Ambos Pokémon Activos quedan Fuera de Combate.",
-			it: "Entrambi i Pokémon attivi vengono messi KO.",
-			pt: "Ambos os Pokémon Ativos são Nocauteados.",
-			de: "Beide Aktiven Pokémon werden kampfunfähig."
+			'en-us': "Both Active Pokémon are Knocked Out.",
+			'fr-fr': "Les deux Pokémon Actifs sont mis K.O.",
+			'es-es': "Ambos Pokémon Activos quedan Fuera de Combate.",
+			'it-it': "Entrambi i Pokémon attivi vengono messi KO.",
+			'pt-br': "Ambos os Pokémon Ativos são Nocauteados.",
+			'de-de': "Beide Aktiven Pokémon werden kampfunfähig."
 		}
 	}],
 

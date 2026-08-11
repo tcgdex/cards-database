@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーロット",
+		'ja-jp': "オーロット",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "森の 化け物と 恐れられる。 木こりたちは オーロットが 嫌う ほのおタイプを連れ 森に 入る。",
+		'ja-jp': "森の 化け物と 恐れられる。 木こりたちは オーロットが 嫌う ほのおタイプを連れ 森に 入る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹に、ダメカンを4個のせる。",
+				'ja-jp': "自分のポケモン1匹に、ダメカンを4個のせる。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボクレー",
+		'ja-jp': "ボクレー",
 	},
 
 	retreat: 2,

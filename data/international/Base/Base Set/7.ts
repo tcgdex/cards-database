@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan",
-		it: "Hitmonchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan",
+		'it-it': "Hitmonchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
-				de: "Boxschlag",
-				it: "Stoccata"
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
+				'de-de': "Boxschlag",
+				'it-it': "Stoccata"
 			},
 
 			damage: 20,
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Punch",
-				fr: "Punch Spécial",
-				de: "Spezialschlag",
-				it: "Pugno speciale"
+				'en-us': "Special Punch",
+				'fr-fr': "Punch Spécial",
+				'de-de': "Spezialschlag",
+				'it-it': "Pugno speciale"
 			},
 
 			damage: 40,
@@ -69,9 +69,9 @@ const card: Card = {
 
 
 	description: {
-		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
-		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu.",
-		it: "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107"
+		'en-us': "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
+		'fr-fr': "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu.",
+		'it-it': "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107"
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Germéclat",
-		en: "Glimmet",
-		es: "Glimmet",
-		it: "Glimmet",
-		pt: "Glimmet",
-		de: "Lumispross"
+		'fr-fr': "Germéclat",
+		'en-us': "Glimmet",
+		'es-es': "Glimmet",
+		'it-it': "Glimmet",
+		'pt-br': "Glimmet",
+		'de-de': "Lumispross"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Éclat Empoisonné",
-			en: "Poison Shard",
-			es: "Esquirla Veneno",
-			it: "Velenoscheggia",
-			pt: "Estilhaço Venenoso",
-			de: "Giftsplitter"
+			'fr-fr': "Éclat Empoisonné",
+			'en-us': "Poison Shard",
+			'es-es': "Esquirla Veneno",
+			'it-it': "Velenoscheggia",
+			'pt-br': "Estilhaço Venenoso",
+			'de-de': "Giftsplitter"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+		'en-us': "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
 	},
 
 	variants: [

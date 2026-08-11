@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		es: "Wooper",
-		it: "Wooper",
-		pt: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Bomb",
-				fr: "Boue-Bombe",
-				es: "Bomba Fango",
-				it: "Pantanobomba",
-				pt: "Bomba de Lama",
-				de: "Schlammbombe"
+				'en-us': "Mud Bomb",
+				'fr-fr': "Boue-Bombe",
+				'es-es': "Bomba Fango",
+				'it-it': "Pantanobomba",
+				'pt-br': "Bomba de Lama",
+				'de-de': "Schlammbombe"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
+		'en-us': "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
 	},
 
 	thirdParty: {

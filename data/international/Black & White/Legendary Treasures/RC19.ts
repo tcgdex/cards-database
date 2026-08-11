@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Cinccino",
+		'en-us': "Cinccino",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Minccino",
+		'en-us': "Minccino",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Smooth Coat",
+				'en-us': "Smooth Coat",
 			},
 			effect: {
-				en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+				'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice",
+				'en-us': "Echoed Voice",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
+				'en-us': "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
 			},
 			damage: 50,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
+		'en-us': "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
 	},
 
 	thirdParty: {

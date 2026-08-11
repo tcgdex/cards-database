@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "芭瓢蟲",
 		'zh-cn': "芭瓢蟲",
-		ja: "レディバ"
+		'ja-jp': "レディバ"
 	},
 
 	illustrator: "Whisker",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "天氣變冷時，大量的芭瓢蟲 會從各處聚集起來， 互相靠在一起取暖。",
 		'zh-cn': "天氣變冷時，大量的芭瓢蟲 會從各處聚集起來， 互相靠在一起取暖。",
-		ja: "寒くなると あちこちから レディバが たくさん 集まって 寄り添いあい 温め合う。"
+		'ja-jp': "寒くなると あちこちから レディバが たくさん 集まって 寄り添いあい 温め合う。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "魯莽頭擊",
 			'zh-cn': "魯莽頭擊",
-			ja: "とびだしヘッド"
+			'ja-jp': "とびだしヘッド"
 		},
 
 		damage: 30,

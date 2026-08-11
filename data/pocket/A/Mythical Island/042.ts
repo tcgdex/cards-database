@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mythical Island"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		de: "Rasaff",
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'de-de': "Rasaff",
 		'pt-br': "Primeape",
-		ko: "성원숭"
+		'ko-kr': "성원숭"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -22,30 +22,30 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	description: {
-		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
-		fr: "Il devient fou furieux s'il se sent observé\net pourchasse tout être qui croise son regard.",
-		es: "Se pone furioso si nota que alguien lo\nestá mirando. Persigue a cualquiera\nque establezca contacto visual con él.",
-		it: "Diventa furioso se si sente osservato.\nInsegue chiunque incontri il suo sguardo.",
-		de: "Spürt Rasaff, dass jemand es anblickt, wird es\nrasend vor Wut. Es verfolgt jeden, der es wagt,\nseinen Blick zu erwidern.",
+		'en-us': "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+		'fr-fr': "Il devient fou furieux s'il se sent observé\net pourchasse tout être qui croise son regard.",
+		'es-es': "Se pone furioso si nota que alguien lo\nestá mirando. Persigue a cualquiera\nque establezca contacto visual con él.",
+		'it-it': "Diventa furioso se si sente osservato.\nInsegue chiunque incontri il suo sguardo.",
+		'de-de': "Spürt Rasaff, dass jemand es anblickt, wird es\nrasend vor Wut. Es verfolgt jeden, der es wagt,\nseinen Blick zu erwidern.",
 		'pt-br': "Fica incrivelmente furioso se perceber que\nestá sendo observado. Persegue qualquer\num que o encarar.",
-		ko: "누군가의 시선을 느끼기만 해도\n대단히 화를 낸다. 그리고\n눈이 마주친 상대를 쫓아다닌다."
+		'ko-kr': "누군가의 시선을 느끼기만 해도\n대단히 화를 낸다. 그리고\n눈이 마주친 상대를 쫓아다닌다."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			de: "Boxhieb",
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'de-de': "Boxhieb",
 			'pt-br': "Soco",
-			ko: "펀치"
+			'ko-kr': "펀치"
 		},
 
 		damage: 50,

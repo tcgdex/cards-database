@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリキーGX",
+		'ja-jp': "カイリキーGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、60ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "場に出ているスタジアムをトラッシュする。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴーリキー",
+		'ja-jp': "ゴーリキー",
 	},
 
 	retreat: 3,

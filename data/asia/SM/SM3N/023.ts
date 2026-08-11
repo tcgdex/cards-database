@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクロッグ",
+		'ja-jp': "ドクロッグ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "のど元に 毒袋を 持つ。 のどを 鳴らすと たまった 毒は 練りこまれ 強力になる。",
+		'ja-jp': "のど元に 毒袋を 持つ。 のどを 鳴らすと たまった 毒は 練りこまれ 強力になる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンがどくなら、80ダメージ追加。その後、このポケモンのどくを回復する。",
+				'ja-jp': "このポケモンがどくなら、80ダメージ追加。その後、このポケモンのどくを回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 	},
 
 	retreat: 2,

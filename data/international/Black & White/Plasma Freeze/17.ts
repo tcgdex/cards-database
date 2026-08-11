@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Reshiram",
-		fr: "Reshiram",
-		es: "Reshiram",
-		it: "Reshiram",
-		pt: "Reshiram",
-		de: "Reshiram"
+		'en-us': "Reshiram",
+		'fr-fr': "Reshiram",
+		'es-es': "Reshiram",
+		'it-it': "Reshiram",
+		'pt-br': "Reshiram",
+		'de-de': "Reshiram"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Purifying Flame",
-				fr: "Flamme Purifiante",
+				'en-us': "Purifying Flame",
+				'fr-fr': "Flamme Purifiante",
 			},
 			effect: {
-				en: "Remove all Special Conditions from this Pokémon.",
-				fr: "Retirez tous les États Spéciaux de ce Pokémon.",
+				'en-us': "Remove all Special Conditions from this Pokémon.",
+				'fr-fr': "Retirez tous les États Spéciaux de ce Pokémon.",
 			},
 			damage: 50,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fusion Flare",
-				fr: "Flamme Croix",
+				'en-us': "Fusion Flare",
+				'fr-fr': "Flamme Croix",
 			},
 			effect: {
-				en: "If Zekrom is on your Bench, this attack does 40 more damage.",
-				fr: "Si Zekrom est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If Zekrom is on your Bench, this attack does 40 more damage.",
+				'fr-fr': "Si Zekrom est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
+		'en-us': "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Reuniclus",
-		fr: "Symbios",
-		es: "Reuniclus",
-		it: "Reuniclus",
-		pt: "Reuniclus",
-		de: "Zytomega"
+		'en-us': "Reuniclus",
+		'fr-fr': "Symbios",
+		'es-es': "Reuniclus",
+		'it-it': "Reuniclus",
+		'pt-br': "Reuniclus",
+		'de-de': "Zytomega"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duosion",
-		fr: "Méios",
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dizzy Punch",
-				fr: "Uppercut",
+				'en-us': "Dizzy Punch",
+				'fr-fr': "Uppercut",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'Esprit",
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'Esprit",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
+		'en-us': "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
 	},
 
 	thirdParty: {

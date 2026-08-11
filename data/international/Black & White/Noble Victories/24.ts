@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
-				fr: "Chant Canon",
+				'en-us': "Round",
+				'fr-fr': "Chant Canon",
 			},
 			effect: {
-				en: "Does 30 damage times the number of your Pokémon that have the Round attack.",
-				fr: "Inflige 30 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
+				'en-us': "Does 30 damage times the number of your Pokémon that have the Round attack.",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
 			},
 			damage: 30,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
 			},
 
 			damage: 70,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
+		'en-us': "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort",
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Band Attack",
-				fr: "Attaque de groupe",
-				de: "Gemeinschaftsangriff"
+				'en-us': "Band Attack",
+				'fr-fr': "Attaque de groupe",
+				'de-de': "Gemeinschaftsangriff"
 			},
 			effect: {
-				en: "Does 30 damage times the number of Beedrill you have in play.",
-				fr: "Inflige 30 dégâts multipliés par le nombre de Dardargnan que vous avez en jeu.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte für jedes Bibor, das du im Spiel hast, zu."
+				'en-us': "Does 30 damage times the number of Beedrill you have in play.",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre de Dardargnan que vous avez en jeu.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte für jedes Bibor, das du im Spiel hast, zu."
 			},
 			damage: "30x",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twineedle",
-				fr: "Double-dard",
-				de: "Duonadel"
+				'en-us': "Twineedle",
+				'fr-fr': "Double-dard",
+				'de-de': "Duonadel"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+		'en-us': "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
 	},
 
 	thirdParty: {

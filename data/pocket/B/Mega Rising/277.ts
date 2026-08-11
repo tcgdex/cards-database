@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Ampharos ex"
+		'en-us': "Mega Ampharos ex"
 	},
 
 	illustrator: "Amelicart",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Flaaffy"
+		'en-us': "Flaaffy"
 	},
 
 	description: {
-		en: "The tail's tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people."
+		'en-us': "The tail's tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lightning Lancer"
+			'en-us': "Lightning Lancer"
 		},
 
 		damage: 100,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "1 of your opponent's Benched Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, also do 20 damage to it."
+			'en-us': "1 of your opponent's Benched Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, also do 20 damage to it."
 		}
 	}],
 

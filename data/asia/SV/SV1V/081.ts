@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スコヴィラン"
+		'ja-jp': "スコヴィラン"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "グリーンヘッドは 辛み成分に 脳が 刺激されて 凶暴化。 暴れだすと 手がつけられない。"
+		'ja-jp': "グリーンヘッドは 辛み成分に 脳が 刺激されて 凶暴化。 暴れだすと 手がつけられない。"
 	},
 
 	stage: "Stage1",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ホットバイト"
+			'ja-jp': "ホットバイト"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "げきからヒーハー"
+			'ja-jp': "げきからヒーハー"
 		},
 
 		damage: "90＋",
 
 		effect: {
-			ja: "このポケモンにエネルギーがついているなら、90ダメージ追加。"
+			'ja-jp': "このポケモンにエネルギーがついているなら、90ダメージ追加。"
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	rarity: "Common",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Smack 'n' Slack",
-			fr: "Raclée Dodo",
-			es: "Manotazo y Relajo",
-			it: "Schiaffopisolo",
-			pt: "Smack 'n' Slack",
-			de: "Raufen und Ratzen"
+			'en-us': "Smack 'n' Slack",
+			'fr-fr': "Raclée Dodo",
+			'es-es': "Manotazo y Relajo",
+			'it-it': "Schiaffopisolo",
+			'pt-br': "Smack 'n' Slack",
+			'de-de': "Raufen und Ratzen"
 		},
 
 		effect: {
-			en: "This Pokémon is now Asleep.",
-			fr: "Ce Pokémon est maintenant Endormi.",
-			es: "Este Pokémon pasa a estar Dormido.",
-			it: "Questo Pokémon viene addormentato.",
-			pt: "This Pokémon is now Asleep.",
-			de: "Dieses Pokémon schläft jetzt."
+			'en-us': "This Pokémon is now Asleep.",
+			'fr-fr': "Ce Pokémon est maintenant Endormi.",
+			'es-es': "Este Pokémon pasa a estar Dormido.",
+			'it-it': "Questo Pokémon viene addormentato.",
+			'pt-br': "This Pokémon is now Asleep.",
+			'de-de': "Dieses Pokémon schläft jetzt."
 		},
 
 		damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 	dexId: [287],
 
 	description: {
-		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
+		'en-us': "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
 	},
 
 	regulationMark: "E",

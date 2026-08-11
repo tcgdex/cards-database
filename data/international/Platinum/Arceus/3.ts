@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Heatran",
-		de: "Heatran"
+		'en-us': "Heatran",
+		'de-de': "Heatran"
 	},
 
 	illustrator: "Keiko Moritsugu",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				de: "Feuerzahn"
+				'en-us': "Fire Fang",
+				'de-de': "Feuerzahn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Mantle",
-				de: "Magmahülle"
+				'en-us': "Magma Mantle",
+				'de-de': "Magmahülle"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each Fire or Metal Energy card you discarded.",
-				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte - oder -Energiekarte zu."
+				'en-us': "Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each Fire or Metal Energy card you discarded.",
+				'de-de': "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte - oder -Energiekarte zu."
 			},
 			damage: "60+",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat."
+		'en-us': "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat."
 	},
 
 	variants: [

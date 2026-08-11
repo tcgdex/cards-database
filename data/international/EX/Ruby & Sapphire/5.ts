@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		de: "Enekoro"
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'de-de': "Enekoro"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Draw",
-				fr: "Pioche d'énergie",
-				de: "Energy Draw"
+				'en-us': "Energy Draw",
+				'fr-fr': "Pioche d'énergie",
+				'de-de': "Energy Draw"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie de votre main. Ensuite, vous pouvez piocher jusqu'à trois cartes dans votre deck. Ce pouvoir ne peut être utilisé si Delcatty est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), your may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie de votre main. Ensuite, vous pouvez piocher jusqu'à trois cartes dans votre deck. Ce pouvoir ne peut être utilisé si Delcatty est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), your may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Energy Source",
-				fr: "Source d'énergie maximale",
-				de: "Max Energy Source"
+				'en-us': "Max Energy Source",
+				'fr-fr': "Source d'énergie maximale",
+				'de-de': "Max Energy Source"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to all of your Active Pokémon.",
-				fr: "Inflige 10 dégâts pour chaque Énergie attachée à vos Pokémon Actifs.",
-				de: "Does 10 damage times the amount of Energy attached to all of your Active Pokémon."
+				'en-us': "Does 10 damage times the amount of Energy attached to all of your Active Pokémon.",
+				'fr-fr': "Inflige 10 dégâts pour chaque Énergie attachée à vos Pokémon Actifs.",
+				'de-de': "Does 10 damage times the amount of Energy attached to all of your Active Pokémon."
 			},
 			damage: "10×",
 

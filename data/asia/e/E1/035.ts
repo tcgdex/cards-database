@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマー",
+		'ja-jp': "マグマー",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "燃えるようなパンチ",
+				'ja-jp': "燃えるようなパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンが燃やされます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンが燃やされます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。尾の場合、マグマーはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。尾の場合、マグマーはそれ自体に10ダメージを与えます。",
 			},
 		},
 	],

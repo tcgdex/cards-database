@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Crobat ex",
-		fr: "Nostenfer ex",
-		de: "Iksbat ex"
+		'en-us': "Crobat ex",
+		'fr-fr': "Nostenfer ex",
+		'de-de': "Iksbat ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golbat",
-		fr: "Nosferalto"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Distortion",
-				fr: "Déformation",
-				de: "Distortion"
+				'en-us': "Distortion",
+				'fr-fr': "Déformation",
+				'de-de': "Distortion"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Nostenfer ex est votre Pokémon Actif, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nostenfer ex est affecté par un État Spécial.",
-				de: "Once during yout turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Nostenfer ex est votre Pokémon Actif, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nostenfer ex est affecté par un État Spécial.",
+				'de-de': "Once during yout turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Attack",
-				fr: "Attaque croisée",
-				de: "Cross Attack"
+				'en-us': "Cross Attack",
+				'fr-fr': "Attaque croisée",
+				'de-de': "Cross Attack"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
 			},
 			damage: "20x",
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pester",
-				fr: "Abattre",
-				de: "Pester"
+				'en-us': "Pester",
+				'fr-fr': "Abattre",
+				'de-de': "Pester"
 			},
 			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage."
 			},
 			damage: "60+",
 

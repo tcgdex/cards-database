@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bellibolt"
+		'id-id': "Bellibolt"
 	},
 
 	illustrator: "Mina Nakai",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Meskipun terlihat seperti bola mata, sebenarnya itu adalah organ pelepasan listrik Bellibolt yang digunakan untuk menembakkan listrik yang dihasilkan dari pusar dinamo di perutnya."
+		'id-id': "Meskipun terlihat seperti bola mata, sebenarnya itu adalah organ pelepasan listrik Bellibolt yang digunakan untuk menembakkan listrik yang dihasilkan dari pusar dinamo di perutnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Sengatan Listrik"
+			'id-id': "Sengatan Listrik"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 50,
 		cost: ["Lightning", "Colorless"]
 	}, {
 		name: {
-			id: "Lightning Ball"
+			'id-id': "Lightning Ball"
 		},
 
 		damage: 130,

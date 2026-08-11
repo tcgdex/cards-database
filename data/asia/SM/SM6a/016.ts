@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドス",
+		'ja-jp': "ギャラドス",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ギャラドスが 現れる 場所は 破壊される 定めに あると 信じている 人も いる。",
+		'ja-jp': "ギャラドスが 現れる 場所は 破壊される 定めに あると 信じている 人も いる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おおあれ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、自分のベンチポケモン全員に、それぞれダメカンを2個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、自分のベンチポケモン全員に、それぞれダメカンを2個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	retreat: 4,

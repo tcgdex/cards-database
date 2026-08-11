@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 		'zh-tw': "蓮葉童子",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "葉っぱが 大きく なりすぎて 重くなって しまったため 水に 浮かんで 暮らすように なった。",
+		'ja-jp': "葉っぱが 大きく なりすぎて 重くなって しまったため 水に 浮かんで 暮らすように なった。",
 		'zh-tw': "因為葉子長得太大太重，所以才會改變習性，漂浮在水面上生活。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なかまをよぶ",
+				'ja-jp': "なかまをよぶ",
 				'zh-tw': "呼朋引伴",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "みずかけ",
+				'ja-jp': "みずかけ",
 				'zh-tw': "潑水",
 			},
 			damage: 20,

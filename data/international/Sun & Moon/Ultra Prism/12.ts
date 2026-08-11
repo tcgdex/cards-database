@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		es: "Carnivine",
-		it: "Carnivine",
-		pt: "Carnivine",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'es-es': "Carnivine",
+		'it-it': "Carnivine",
+		'pt-br': "Carnivine",
+		'de-de': "Venuflibis"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chomp Chomp",
-				fr: "Mangeouille",
-				es: "Ñam Ñam",
-				it: "Mastica Bene",
-				pt: "Nhoc Nhoc",
-				de: "Mampfen"
+				'en-us': "Chomp Chomp",
+				'fr-fr': "Mangeouille",
+				'es-es': "Ñam Ñam",
+				'it-it': "Mastica Bene",
+				'pt-br': "Nhoc Nhoc",
+				'de-de': "Mampfen"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 pontos de dano deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -59,20 +59,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Loom Over",
-				fr: "Menacer",
-				es: "Cernirse",
-				it: "Presenza Minacciosa",
-				pt: "Pairar Sobre",
-				de: "Schattenseite"
+				'en-us': "Loom Over",
+				'fr-fr': "Menacer",
+				'es-es': "Cernirse",
+				'it-it': "Presenza Minacciosa",
+				'pt-br': "Pairar Sobre",
+				'de-de': "Schattenseite"
 			},
 			effect: {
-				en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts placé sur ce Pokémon.",
-				es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte weniger mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+				'en-us': "This attack does 10 less damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'es-es': "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte weniger mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 			},
 			damage: "90-",
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		'en-us': "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
 	},
 
 	thirdParty: {

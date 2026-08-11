@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨノワール",
+		'ja-jp': "ヨノワール",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "弾力のある 体の 中に 行き場のない 魂を 取りこんで あの世に 連れていくと 言われる。",
+		'ja-jp': "弾力のある 体の 中に 行き場のない 魂を 取りこんで あの世に 連れていくと 言われる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "やみのしょうたいじょう" },
 			effect: {
-				ja: "自分の番に1回使える。相手の手札を見て、その中にあるたねポケモンを1枚、相手のベンチに出す。その後、そのポケモンにダメカンを3個のせる。",
+				'ja-jp': "自分の番に1回使える。相手の手札を見て、その中にあるたねポケモンを1枚、相手のベンチに出す。その後、そのポケモンにダメカンを3個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数x30ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数x30ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 	},
 
 	retreat: 3,

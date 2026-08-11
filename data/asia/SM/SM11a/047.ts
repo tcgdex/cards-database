@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザングース",
+		'ja-jp': "ザングース",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "何世代にも 渡って ハブネークと 戦ってきた。 鋭い ツメが 最大の 武器。",
+		'ja-jp': "何世代にも 渡って ハブネークと 戦ってきた。 鋭い ツメが 最大の 武器。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slurpuff"
+		'en-us': "Slurpuff"
 	},
 
 	illustrator: "Mizue",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Swirlix"
+		'en-us': "Swirlix"
 	},
 
 	description: {
-		en: "Slurpuff's fur contains a lot of air, making it soft\nto the touch and lighter than it looks."
+		'en-us': "Slurpuff's fur contains a lot of air, making it soft\nto the touch and lighter than it looks."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Draining Kiss"
+			'en-us': "Draining Kiss"
 		},
 
 		damage: 50,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon."
 		}
 	}],
 

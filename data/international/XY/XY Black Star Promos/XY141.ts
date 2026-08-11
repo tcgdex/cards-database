@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Claw",
-				fr: "Paire de Griffes",
+				'en-us': "Dual Claw",
+				'fr-fr': "Paire de Griffes",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "20×",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Blast",
-				fr: "Explo-Draco",
+				'en-us': "Dragon Blast",
+				'fr-fr': "Explo-Draco",
 			},
 			effect: {
-				en: "Discard 1 Fire Energy and 1 Lightning Energy attached to this Pokémon.",
-				fr: "Défaussez 1 Énergie Fire et 1 Énergie Lightning attachées à ce Pokémon.",
+				'en-us': "Discard 1 Fire Energy and 1 Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 1 Énergie Fire et 1 Énergie Lightning attachées à ce Pokémon.",
 			},
 			damage: 120,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
+		'en-us': "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
 	},
 
 	thirdParty: {

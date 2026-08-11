@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Roselia"
+		'id-id': "Roselia"
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Menghirup aroma bunga Roselia membuat perasaan jadi tenang. Roselia dengan aroma yang kuat adalah pertanda ia sehat."
+		'id-id': "Menghirup aroma bunga Roselia membuat perasaan jadi tenang. Roselia dengan aroma yang kuat adalah pertanda ia sehat."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Jarum Racun"
+			'id-id': "Jarum Racun"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Racun."
+			'id-id': "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Racun."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Leaf Step"
+			'id-id': "Leaf Step"
 		},
 
 		damage: 10,

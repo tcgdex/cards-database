@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ビーダル"
+		'ja-jp': "ビーダル"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "川を 木の幹や 泥の ダムで せき止めて 住処を 作る。 働き者として 知られている。"
+		'ja-jp': "川を 木の幹や 泥の ダムで せき止めて 住処を 作る。 働き者として 知られている。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "はたらくまえば"
+			'ja-jp': "はたらくまえば"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の手札が5枚になるように、山札を引く。"
+			'ja-jp': "自分の番に1回使える。自分の手札が5枚になるように、山札を引く。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "テールスマッシュ"
+			'ja-jp': "テールスマッシュ"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			'ja-jp': "コインを1回投げウラなら、このワザは失敗。"
 		}
 	}],
 

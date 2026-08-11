@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カビゴン"
+		'ja-jp': "カビゴン"
 	},
 
 	illustrator: "Ounishi",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。"
+		'ja-jp': "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "スパイクドロー"
+			'ja-jp': "スパイクドロー"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			'ja-jp': "自分の山札を1枚引く。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "メガトンパンチ"
+			'ja-jp': "メガトンパンチ"
 		},
 
 		damage: 100

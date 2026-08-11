@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garchomp C LV.X",
-		fr: "Carchacrok C NIV.X"
+		'en-us': "Garchomp C LV.X",
+		'fr-fr': "Carchacrok C NIV.X"
 	},
 
 	illustrator: "Shizurow",
@@ -21,25 +21,25 @@ const card: Card = {
 		type: "Poke-POWER",
 
 		name: {
-			en: "Healing Breath",
-			fr: "Haleine guérisseuse"
+			'en-us': "Healing Breath",
+			'fr-fr': "Haleine guérisseuse"
 		},
 
 		effect: {
-			en: "Once during your turn (before your attack), when you put Garchomp C LV.X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pokémon SP.",
-			fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Carchacrok  NIV.X de votre main sur votre Carchacrok  Actif, vous pouvez retirer tous ses marqueurs de dégât à chacun de vos Pokémon SP."
+			'en-us': "Once during your turn (before your attack), when you put Garchomp C LV.X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pokémon SP.",
+			'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Carchacrok  NIV.X de votre main sur votre Carchacrok  Actif, vous pouvez retirer tous ses marqueurs de dégât à chacun de vos Pokémon SP."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Dragon Rush",
-			fr: "Dracocharge"
+			'en-us': "Dragon Rush",
+			'fr-fr': "Dracocharge"
 		},
 
 		effect: {
-			en: "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Garchomp C can't use Dragon Rush during your next turn.",
-			fr: "Défaussez 2 Énergies attachées à Carchacrok . Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Carchacrok  ne peut pas utiliser Dracocharge lors de votre prochain tour."
+			'en-us': "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Garchomp C can't use Dragon Rush during your next turn.",
+			'fr-fr': "Défaussez 2 Énergies attachées à Carchacrok . Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Carchacrok  ne peut pas utiliser Dracocharge lors de votre prochain tour."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

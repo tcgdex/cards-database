@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastrodon",
-		fr: "Tritosor",
-		es: "Gastrodon",
-		it: "Gastrodon",
-		pt: "Gastrodon",
-		de: "Gastrodon"
+		'en-us': "Gastrodon",
+		'fr-fr': "Tritosor",
+		'es-es': "Gastrodon",
+		'it-it': "Gastrodon",
+		'pt-br': "Gastrodon",
+		'de-de': "Gastrodon"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Shellos",
-		fr: "Sancoki",
-		es: "Shellos",
-		it: "Shellos",
-		pt: "Shellos",
-		de: "Schalellos"
+		'en-us': "Shellos",
+		'fr-fr': "Sancoki",
+		'es-es': "Shellos",
+		'it-it': "Shellos",
+		'pt-br': "Shellos",
+		'de-de': "Schalellos"
 	},
 
 	stage: "Stage1",
@@ -35,41 +35,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Recover",
-			fr: "Soin",
-			es: "Recuperación",
-			it: "Ripresa",
-			pt: "Recuperação",
-			de: "Genesung"
+			'en-us': "Recover",
+			'fr-fr': "Soin",
+			'es-es': "Recuperación",
+			'it-it': "Ripresa",
+			'pt-br': "Recuperação",
+			'de-de': "Genesung"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon and heal all damage from it.",
-			fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
-			it: "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
-			pt: "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
+			'en-us': "Discard an Energy from this Pokémon and heal all damage from it.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
+			'it-it': "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
+			'pt-br': "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Earthquake",
-			fr: "Séisme",
-			es: "Terremoto",
-			it: "Terremoto",
-			pt: "Terremoto",
-			de: "Erdbeben"
+			'en-us': "Earthquake",
+			'fr-fr': "Séisme",
+			'es-es': "Terremoto",
+			'it-it': "Terremoto",
+			'pt-br': "Terremoto",
+			'de-de': "Erdbeben"
 		},
 
 		effect: {
-			en: "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 20 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque también hace 20 puntos de daño a cada uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 20 danni a ciascuno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 20 pontos de dano a cada um dos seus Pokémon no Banco (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 20 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 20 puntos de daño a cada uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 20 danni a ciascuno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 20 pontos de dano a cada um dos seus Pokémon no Banco (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 170

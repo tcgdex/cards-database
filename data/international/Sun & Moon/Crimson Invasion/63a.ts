@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Guzzlord-GX",
-		fr: "Engloutyran-GX"
+		'en-us': "Guzzlord-GX",
+		'fr-fr': "Engloutyran-GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Eat Sloppily",
-				fr: "Repas Baveux"
+				'en-us': "Eat Sloppily",
+				'fr-fr': "Repas Baveux"
 			},
 			effect: {
-				en: "Discard the top 5 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie, attachez-les à ce Pokémon."
+				'en-us': "Discard the top 5 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.",
+				'fr-fr': "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie, attachez-les à ce Pokémon."
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tyrannical Hole",
-				fr: "Trou Tyrannique"
+				'en-us': "Tyrannical Hole",
+				'fr-fr': "Trou Tyrannique"
 			},
 
 			damage: 180,
@@ -62,12 +62,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Glutton-GX",
-				fr: "Gourmandise GX"
+				'en-us': "Glutton-GX",
+				'fr-fr': "Gourmandise GX"
 			},
 			effect: {
-				en: "If your opponent's Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards. (You can't use more than 1 GX attack in a game.)",
-				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez 2 cartes Récompense supplémentaires. (Vous ne pouvez utiliser qu'une attaque GX par partie.)"
+				'en-us': "If your opponent's Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez 2 cartes Récompense supplémentaires. (Vous ne pouvez utiliser qu'une attaque GX par partie.)"
 			},
 			damage: 100,
 

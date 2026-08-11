@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Illumise",
-		fr: "Lumivole",
-		de: "Illumise"
+		'en-us': "Illumise",
+		'fr-fr': "Lumivole",
+		'de-de': "Illumise"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Beacon Protection",
-				fr: "Lumière protectrice",
-				de: "Beacon Protection"
+				'en-us': "Beacon Protection",
+				'fr-fr': "Lumière protectrice",
+				'de-de': "Beacon Protection"
 			},
 			effect: {
-				en: "As long as you have Volbeat in play, prevent all effects, including damage, done to Illumise by attacks from your opponent's Pokémon that has Dark in its name.",
-				fr: "Tant que votre Muciole est en jeu, prévenez tous les effets, dégâts inclus, infligés à Lumivole par des attaques de Pokémon de votre adversaire dont le nom comporte Obscur.",
-				de: "As long as you have Volbeat in play, prevent all effects, including damage, done to Illumise by attacks from your opponent's Pokémon that has Dark in its name."
+				'en-us': "As long as you have Volbeat in play, prevent all effects, including damage, done to Illumise by attacks from your opponent's Pokémon that has Dark in its name.",
+				'fr-fr': "Tant que votre Muciole est en jeu, prévenez tous les effets, dégâts inclus, infligés à Lumivole par des attaques de Pokémon de votre adversaire dont le nom comporte Obscur.",
+				'de-de': "As long as you have Volbeat in play, prevent all effects, including damage, done to Illumise by attacks from your opponent's Pokémon that has Dark in its name."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Call for Family"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Strange Rasping",
-				fr: "Grincement étrange",
-				de: "Strange Rasping"
+				'en-us': "Strange Rasping",
+				'fr-fr': "Grincement étrange",
+				'de-de': "Strange Rasping"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus.",
+				'de-de': "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

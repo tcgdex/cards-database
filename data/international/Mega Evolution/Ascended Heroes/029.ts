@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
 		'es-mx': "Tepig",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig"
+		'de-de': "Floink",
+		'it-it': "Tepig",
+		'pt-br': "Tepig"
 	},
 
 	illustrator: "Uninori",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'es-es': "Lanzallamas Continuo",
 			'es-mx': "Escupefuego",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante"
+			'de-de': "Stetiger Feuerhauch",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		'en-us': "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Trick",
-			fr: "Double Ruse",
-			es: "Doble Truco",
-			it: "Doppio Trucco",
-			pt: "Travessura Dupla",
-			de: "Doppeltrick"
+			'en-us': "Double Trick",
+			'fr-fr': "Double Ruse",
+			'es-es': "Doble Truco",
+			'it-it': "Doppio Trucco",
+			'pt-br': "Travessura Dupla",
+			'de-de': "Doppeltrick"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+		'en-us': "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
 	},
 
 	variants: [

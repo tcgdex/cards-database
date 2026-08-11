@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		de: "Forgita",
-		it: "Tinkatink",
-		es: "Tinkatink",
-		pt: "Tinkatink",
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'de-de': "Forgita",
+		'it-it': "Tinkatink",
+		'es-es': "Tinkatink",
+		'pt-br': "Tinkatink",
 		'es-mx': "Tinkatink"
   },
   illustrator: "Pani Kobayashi",

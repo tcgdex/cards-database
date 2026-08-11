@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキハミ",
+		'ja-jp': "ユキハミ",
 	},
 
 	illustrator: "Izucch",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "食べた 雪から 得た 冷気を 体内の 器官で 増幅して 氷柱のような トゲを 作る。",
+		'ja-jp': "食べた 雪から 得た 冷気を 体内の 器官で 増幅して 氷柱のような トゲを 作る。",
 	},
 
 	stage: "Basic",

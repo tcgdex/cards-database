@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
 		'es-mx': "Electrike",
-		de: "Frizelbliz",
-		it: "Electrike",
-		pt: "Electrike"
+		'de-de': "Frizelbliz",
+		'it-it': "Electrike",
+		'pt-br': "Electrike"
 	},
 
 	illustrator: "Dsuke",
@@ -24,35 +24,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
 			'es-mx': "Recolectar",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta"
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'pt-br': "Coleta"
 		},
 
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
 			'es-mx': "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta."
 		}
 	}, {
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida"
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
 		},
 
 		cost: ["Lightning", "Lightning"],

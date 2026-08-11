@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
+		'en-us': "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			de: "Schmetterkick",
-			es: "Patada Destrucción",
-			pt: "Chute Poderoso",
-			it: "Calcio Esplosivo"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'de-de': "Schmetterkick",
+			'es-es': "Patada Destrucción",
+			'pt-br': "Chute Poderoso",
+			'it-it': "Calcio Esplosivo"
 		},
 
 		damage: 10

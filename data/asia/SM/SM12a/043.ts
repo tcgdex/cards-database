@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダー",
+		'ja-jp': "サンダー",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "雷雲の 中に いると 言われる 伝説の ポケモン。 雷を 自在に 操る。",
+		'ja-jp': "雷雲の 中に いると 言われる 伝説の ポケモン。 雷を 自在に 操る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Lightning"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、70ダメージ追加。このワザのダメージは弱点を計算しない。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、70ダメージ追加。このワザのダメージは弱点を計算しない。",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Grafaiai",
-		fr: "Tag-Tag",
-		es: "Grafaiai",
-		it: "Grafaiai",
-		de: "Affiti",
+		'en-us': "Grafaiai",
+		'fr-fr': "Tag-Tag",
+		'es-es': "Grafaiai",
+		'it-it': "Grafaiai",
+		'de-de': "Affiti",
 		'pt-br': "Grafaiai",
-		ko: "태깅구르"
+		'ko-kr': "태깅구르"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Darkness"],
   dexId: [945],
   evolveFrom: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		de: "Sproxi",
-		it: "Shroodle",
-		es: "Shroodle",
-		pt: "Shroodle",
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'de-de': "Sproxi",
+		'it-it': "Shroodle",
+		'es-es': "Shroodle",
+		'pt-br': "Shroodle",
 		'es-mx': "Shroodle"
   },
   description: {

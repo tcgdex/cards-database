@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Finneon",
-		fr: "Écayon",
-		es: "Finneon",
-		it: "Finneon",
-		pt: "Finneon",
-		de: "Finneon"
+		'en-us': "Finneon",
+		'fr-fr': "Écayon",
+		'es-es': "Finneon",
+		'it-it': "Finneon",
+		'pt-br': "Finneon",
+		'de-de': "Finneon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Sprinkle Water",
-			fr: "Eau Aspergeante",
-			es: "Esparcir Agua",
-			it: "Goccioline",
-			pt: "Aspergir Água",
-			de: "Wassersprüher"
+			'en-us': "Sprinkle Water",
+			'fr-fr': "Eau Aspergeante",
+			'es-es': "Esparcir Agua",
+			'it-it': "Goccioline",
+			'pt-br': "Aspergir Água",
+			'de-de': "Wassersprüher"
 		},
 
 		damage: 20

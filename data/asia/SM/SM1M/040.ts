@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "唸り声は 相手を 不安に させる。 普段は のんびり屋で １日の 半分は 寝ているよ。",
+		'ja-jp': "唸り声は 相手を 不安に させる。 普段は のんびり屋で １日の 半分は 寝ているよ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fairy"],
 			effect: {
-				ja: "コインを1回投げウラなら、このポケモンにも10ダメージ。",
+				'ja-jp': "コインを1回投げウラなら、このポケモンにも10ダメージ。",
 			},
 		},
 	],

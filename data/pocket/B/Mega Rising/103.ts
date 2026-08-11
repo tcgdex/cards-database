@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duskull"
+		'en-us': "Duskull"
 	},
 
 	illustrator: "Naoki Saito",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Making itself invisible, it silently sneaks up to\nprey. It has the ability to slip through thick walls."
+		'en-us': "Making itself invisible, it silently sneaks up to\nprey. It has the ability to slip through thick walls."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ambush"
+			'en-us': "Ambush"
 		},
 
 		damage: 10,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

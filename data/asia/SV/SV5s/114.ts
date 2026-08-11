@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chatot"
+		'id-id': "Chatot"
 	},
 
 	illustrator: "GOTO minori",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Chatot mengeluarkan suara yang sama dengan lawan agar disangka sebagai teman dan tidak diserang."
+		'id-id': "Chatot mengeluarkan suara yang sama dengan lawan agar disangka sebagai teman dan tidak diserang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Acapella"
+			'id-id': "Acapella"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 3 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 3 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Embusan Angin"
+			'id-id': "Embusan Angin"
 		},
 
 		damage: 20,

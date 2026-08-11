@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Cleaning Up",
-			fr: "Ménage",
-			es: "Purgar",
-			it: "Pulitura",
-			pt: "Limpar",
-			de: "Putzen"
+			'en-us': "Cleaning Up",
+			'fr-fr': "Ménage",
+			'es-es': "Purgar",
+			'it-it': "Pulitura",
+			'pt-br': "Limpar",
+			'de-de': "Putzen"
 		},
 
 		effect: {
-			en: "Discard up to 2 Pokémon Tools from your opponent's Pokémon.",
-			fr: "Défaussez jusqu'à 2 Outils Pokémon des Pokémon de votre adversaire.",
-			es: "Descarta hasta 2 Herramientas Pokémon de los Pokémon de tu rival.",
-			it: "Scarta fino a due carte Oggetto Pokémon dai Pokémon del tuo avversario.",
-			pt: "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente.",
-			de: "Lege bis zu 2 Pokémon-Ausrüstungen von Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard up to 2 Pokémon Tools from your opponent's Pokémon.",
+			'fr-fr': "Défaussez jusqu'à 2 Outils Pokémon des Pokémon de votre adversaire.",
+			'es-es': "Descarta hasta 2 Herramientas Pokémon de los Pokémon de tu rival.",
+			'it-it': "Scarta fino a due carte Oggetto Pokémon dai Pokémon del tuo avversario.",
+			'pt-br': "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente.",
+			'de-de': "Lege bis zu 2 Pokémon-Ausrüstungen von Pokémon deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+		'en-us': "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
 	},
 
 	variants: [

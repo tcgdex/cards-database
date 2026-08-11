@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [448],
 
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "kodama",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Spike Draw",
-				fr: "Pique-Pioche",
-				es: "Robo Pico",
-				it: "Battipesca",
-				pt: "Comprada Espinhosa",
-				de: "Stachelzug"
+				'en-us': "Spike Draw",
+				'fr-fr': "Pique-Pioche",
+				'es-es': "Robo Pico",
+				'it-it': "Battipesca",
+				'pt-br': "Comprada Espinhosa",
+				'de-de': "Stachelzug"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 40,
 
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Impact",
-				fr: "Coup d'Articulations",
-				es: "Impacto Nudillo",
-				it: "Impatto Nocche",
-				pt: "Impacto Ossudo",
-				de: "Knöchelprall"
+				'en-us': "Knuckle Impact",
+				'fr-fr': "Coup d'Articulations",
+				'es-es': "Impacto Nudillo",
+				'it-it': "Impatto Nocche",
+				'pt-br': "Impacto Ossudo",
+				'de-de': "Knöchelprall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+				'en-us': "During your next turn, this Pokémon can't attack.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 160,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
+		'en-us': "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
 	},
 
 	variants: [

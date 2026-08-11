@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	rarity: "Rare",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shaky Wave",
-			fr: "Onde Tremblante",
-			es: "Onda Tambaleante",
-			it: "Onda Tremula",
-			pt: "Shaky Wave",
-			de: "Wankender Boden"
+			'en-us': "Shaky Wave",
+			'fr-fr': "Onde Tremblante",
+			'es-es': "Onda Tambaleante",
+			'it-it': "Onda Tremula",
+			'pt-br': "Shaky Wave",
+			'de-de': "Wankender Boden"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
-			fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent Colorless de plus et son Coût de Retraite augmente de Colorless.",
-			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
-			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di Colorless e il suo costo di ritirata aumenta di Colorless.",
-			pt: "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
-			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um Colorless, und seine Rückzugskosten erhöhen sich um Colorless."
+			'en-us': "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent Colorless de plus et son Coût de Retraite augmente de Colorless.",
+			'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di Colorless e il suo costo di ritirata aumenta di Colorless.",
+			'pt-br': "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
+			'de-de': "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um Colorless, und seine Rückzugskosten erhöhen sich um Colorless."
 		},
 
 		damage: 60,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			es: "Vozarrón",
-			it: "Granvoce",
-			pt: "Hyper Voice",
-			de: "Schallwelle"
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'es-es': "Vozarrón",
+			'it-it': "Granvoce",
+			'pt-br': "Hyper Voice",
+			'de-de': "Schallwelle"
 		},
 
 		damage: 160,
@@ -64,16 +64,16 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	description: {
-		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages."
+		'en-us': "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages."
 	},
 
 	dexId: [537],

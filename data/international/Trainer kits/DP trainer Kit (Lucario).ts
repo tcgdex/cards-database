@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-dp-l",
 
 	name: {
-		en: "DP trainer Kit (Lucario)",
-		it: "Diamond & Pearl trainer Kit (Lucario)",
-		fr: "DP Kit dresseur (Lucario)",
-		es: "Kit de Entrenador Diamante & Perla (Lucario)",
+		'en-us': "DP trainer Kit (Lucario)",
+		'it-it': "Diamond & Pearl trainer Kit (Lucario)",
+		'fr-fr': "DP Kit dresseur (Lucario)",
+		'es-es': "Kit de Entrenador Diamante & Perla (Lucario)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK3L",
-		fr: "LUC"
+		'fr-fr': "LUC"
 	},
 	thirdParty: {
 		tcgplayer: 610

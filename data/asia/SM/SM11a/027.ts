@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボクレー",
+		'ja-jp': "ボクレー",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "子どもの声を 真似 人を 森の 奥深くへ 迷いこませる。 自分の仲間に する つもりなのだ。",
+		'ja-jp': "子どもの声を 真似 人を 森の 奥深くへ 迷いこませる。 自分の仲間に する つもりなのだ。",
 	},
 
 	stage: "Basic",

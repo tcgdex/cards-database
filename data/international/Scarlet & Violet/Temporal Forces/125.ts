@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickilicky",
-		fr: "Coudlangue",
-		es: "Lickilicky",
-		it: "Lickilicky",
-		pt: "Lickilicky",
-		de: "Schlurplek"
+		'en-us': "Lickilicky",
+		'fr-fr': "Coudlangue",
+		'es-es': "Lickilicky",
+		'it-it': "Lickilicky",
+		'pt-br': "Lickilicky",
+		'de-de': "Schlurplek"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Body Slam",
-			fr: "Plaquage",
-			es: "Golpe Cuerpo",
-			it: "Corposcontro",
-			pt: "Pancada Corporal",
-			de: "Bodyslam"
+			'en-us': "Body Slam",
+			'fr-fr': "Plaquage",
+			'es-es': "Golpe Cuerpo",
+			'it-it': "Corposcontro",
+			'pt-br': "Pancada Corporal",
+			'de-de': "Bodyslam"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 50
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tonguenado",
-			fr: "Déferlante de Langues",
-			es: "Tornado de Lametones",
-			it: "Leccaciclone",
-			pt: "Turbilíngua",
-			de: "Schlecksturm"
+			'en-us': "Tonguenado",
+			'fr-fr': "Déferlante de Langues",
+			'es-es': "Tornado de Lametones",
+			'it-it': "Leccaciclone",
+			'pt-br': "Turbilíngua",
+			'de-de': "Schlecksturm"
 		},
 
 		effect: {
-			en: "Flip 4 coins. This attack does 70 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
-			es: "Lanza 4 monedas. Este ataque hace 70 puntos de daño por cada cara.",
-			it: "Lancia quattro volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
-			pt: "Jogue 4 moedas. Este ataque causa 70 pontos de dano para cada cara.",
-			de: "Wirf 4 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 4 coins. This attack does 70 damage for each heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
+			'es-es': "Lanza 4 monedas. Este ataque hace 70 puntos de daño por cada cara.",
+			'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 4 moedas. Este ataque causa 70 pontos de dano para cada cara.",
+			'de-de': "Wirf 4 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "70×"
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
+		'en-us': "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		de: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'de-de': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma"
 	},
 
 	illustrator: "Dsuke",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Silent Wing",
-			fr: "Aile Silencieuse",
-			de: "Lautlose Flügel",
-			es: "Ala Silenciosa",
-			it: "Ala Silenziosa",
-			pt: "Asa Silenciosa"
+			'en-us': "Silent Wing",
+			'fr-fr': "Aile Silencieuse",
+			'de-de': "Lautlose Flügel",
+			'es-es': "Ala Silenciosa",
+			'it-it': "Ala Silenziosa",
+			'pt-br': "Asa Silenciosa"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire montre sa main.",
-			de: "Dein Gegner zeigt dir seine Handkarten.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire montre sa main.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a mão dele."
 		},
 
 		damage: 20

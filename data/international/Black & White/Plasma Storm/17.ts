@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Infernape",
-		fr: "Simiabraz",
-		es: "Infernape",
-		it: "Infernape",
-		pt: "Infernape",
-		de: "Panferno"
+		'en-us': "Infernape",
+		'fr-fr': "Simiabraz",
+		'es-es': "Infernape",
+		'it-it': "Infernape",
+		'pt-br': "Infernape",
+		'de-de': "Panferno"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Torment",
-				fr: "Tourmente",
+				'en-us': "Torment",
+				'fr-fr': "Tourmente",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon ciblé ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon ciblé ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Malevolent Fire",
-				fr: "Feu Malveillant",
+				'en-us': "Malevolent Fire",
+				'fr-fr': "Feu Malveillant",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 120,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It uses unique fighting moves with fire on its hand and feet. It will take on any opponent.",
+		'en-us': "It uses unique fighting moves with fire on its hand and feet. It will take on any opponent.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gabite",
-		fr: "Carmache"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Gible"
+		'en-us': "Gible"
 	},
 
 	description: {
-		en: "In rare cases, it molts and sheds its scales.\nMedicine containing its scales as an ingredient\nwill make a weary body feel invigorated.",
-		fr: "Lorsqu'il mue, il perd parfois ses écailles. Les remèdes concoctés à partir de celles-ci sont de puissants toniques."
+		'en-us': "In rare cases, it molts and sheds its scales.\nMedicine containing its scales as an ingredient\nwill make a weary body feel invigorated.",
+		'fr-fr': "Lorsqu'il mue, il perd parfois ses écailles. Les remèdes concoctés à partir de celles-ci sont de puissants toniques."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sharp Scythe",
-			fr: "Faucille Acérée"
+			'en-us': "Sharp Scythe",
+			'fr-fr': "Faucille Acérée"
 		},
 
 		damage: 30,

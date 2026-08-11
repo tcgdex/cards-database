@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Azumarill",
-		en: "Azumarill",
-		es: "Azumarill",
-		it: "Azumarill",
-		pt: "Azumarill",
-		de: "Azumarill"
+		'fr-fr': "Azumarill",
+		'en-us': "Azumarill",
+		'es-es': "Azumarill",
+		'it-it': "Azumarill",
+		'pt-br': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Marill",
-		en: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'fr-fr': "Marill",
+		'en-us': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Vide Bulle",
-			en: "Bubble Drain",
-			es: "Drenaje Burbujas",
-			it: "Assorbibolla",
-			pt: "Dreno de Bolha",
-			de: "Blasengully"
+			'fr-fr': "Vide Bulle",
+			'en-us': "Bubble Drain",
+			'es-es': "Drenaje Burbujas",
+			'it-it': "Assorbibolla",
+			'pt-br': "Dreno de Bolha",
+			'de-de': "Blasengully"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Souplesse",
-			en: "Slam",
-			es: "Atizar",
-			it: "Schianto",
-			pt: "Pancada Brusca",
-			de: "Slam"
+			'fr-fr': "Souplesse",
+			'en-us': "Slam",
+			'es-es': "Atizar",
+			'it-it': "Schianto",
+			'pt-br': "Pancada Brusca",
+			'de-de': "Slam"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 100 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 100 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "100×"
@@ -105,7 +105,7 @@ const card: Card = {
 	illustrator: "En Morikura",
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+		'en-us': "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
 	},
 }
 

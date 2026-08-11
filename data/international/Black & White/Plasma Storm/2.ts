@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		es: "Grotle",
-		it: "Grotle",
-		pt: "Grotle",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'es-es': "Grotle",
+		'it-it': "Grotle",
+		'pt-br': "Grotle",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss",
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+		'en-us': "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
 	},
 
 	thirdParty: {

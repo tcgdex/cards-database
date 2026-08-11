@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Skuntank",
-		fr: "Moufflair",
-		de: "Skuntank"
+		'en-us': "Skuntank",
+		'fr-fr': "Moufflair",
+		'de-de': "Skuntank"
 	},
 
 	illustrator: "Hiroaki Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stunky",
-		fr: "Moufouette",
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Frustration",
-				fr: "Frustration",
-				de: "Frustration"
+				'en-us': "Frustration",
+				'fr-fr': "Frustration",
+				'de-de': "Frustration"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that doesn't have any damage counters on it. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire ne possédant pas de marqueurs de dégât. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners, auf dem keine Schadensmarken liegen. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon that doesn't have any damage counters on it. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire ne possédant pas de marqueurs de dégât. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners, auf dem keine Schadensmarken liegen. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Cloud",
-				fr: "Nuage Toxik",
-				de: "Giftschwaden"
+				'en-us': "Toxic Cloud",
+				'fr-fr': "Nuage Toxik",
+				'de-de': "Giftschwaden"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 			damage: 30,
 
@@ -86,8 +86,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
-		fr: "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres."
+		'en-us': "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+		'fr-fr': "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres."
 	},
 
 	thirdParty: {

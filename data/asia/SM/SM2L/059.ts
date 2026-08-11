@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロスGX",
+		'ja-jp': "メタグロスGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ジオテックシステム" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュにある[超]または[鋼]エネルギーを1枚、バトルポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュにある[超]または[鋼]エネルギーを1枚、バトルポケモンにつける。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 150,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「ギガハンマー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「ギガハンマー」が使えない。",
 			},
 		},
 		{
 			name: { ja: "アルゴリズムGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある好きなカードを5枚まで、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の山札にある好きなカードを5枚まで、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	retreat: 3,

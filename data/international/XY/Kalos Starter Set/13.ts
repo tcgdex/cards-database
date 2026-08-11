@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Frogadier",
-		fr: "Croâporal",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Drip",
-				fr: "Goutte à Goutte",
-				es: "Goteo de Agua",
-				it: "Gocciolacqua",
-				pt: "Gotejo",
-				de: "Spritzwasser"
+				'en-us': "Water Drip",
+				'fr-fr': "Goutte à Goutte",
+				'es-es': "Goteo de Agua",
+				'it-it': "Gocciolacqua",
+				'pt-br': "Gotejo",
+				'de-de': "Spritzwasser"
 			},
 
 			damage: 20,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Wave",
-				fr: "Aqua-Vague",
-				es: "Ola de Agua",
-				it: "Ondacquatica",
-				pt: "Aqua Onda",
-				de: "Aquawoge"
+				'en-us': "Aqua Wave",
+				'fr-fr': "Aqua-Vague",
+				'es-es': "Ola de Agua",
+				'it-it': "Ondacquatica",
+				'pt-br': "Aqua Onda",
+				'de-de': "Aquawoge"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: '40+',
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+		'en-us': "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
 	},
 
 	thirdParty: {

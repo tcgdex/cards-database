@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サボネア",
+		'ja-jp': "サボネア",
 		'zh-tw': "刺球仙人掌",
-		th: "ซาโบเนีย",
+		'th-th': "ซาโบเนีย",
 	},
 
 	illustrator: "Kazuma Koda",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "砂漠などの 過酷な 環境を 好む。 体の 中に たくわえた 水で ３０日間 生きられる。",
+		'ja-jp': "砂漠などの 過酷な 環境を 好む。 体の 中に たくわえた 水で ３０日間 生きられる。",
 		'zh-tw': "喜歡沙漠等嚴酷環境。能靠體內儲存的水分存活３０天。",
-		th: "ชอบอยู่ในสภาพแวดล้อมที่โหดร้าย เช่น ทะเลทราย น้ำที่สะสมในร่างกายสามารถหล่อเลี้ยงชีวิตให้อยู่ได้ 30 วัน",
+		'th-th': "ชอบอยู่ในสภาพแวดล้อมที่โหดร้าย เช่น ทะเลทราย น้ำที่สะสมในร่างกายสามารถหล่อเลี้ยงชีวิตให้อยู่ได้ 30 วัน",
 	},
 
 	stage: "Basic",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "チクッ",
+				'ja-jp': "チクッ",
 				'zh-tw': "刺痛",
-				th: "ต่อย",
+				'th-th': "ต่อย",
 			},
 			damage: 10,
 			cost: ["Colorless"],
 		},
 		{
 			name: {
-				ja: "たたく",
+				'ja-jp': "たたく",
 				'zh-tw': "敲擊",
-				th: "ตี",
+				'th-th': "ตี",
 			},
 			damage: 20,
 			cost: ["Grass", "Colorless"],

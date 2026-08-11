@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガントル",
+		'ja-jp': "ガントル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "パワーが みなぎると オレンジ色の 結晶が 光り 輝く。 洞穴で 地下水を 探す。",
+		'ja-jp': "パワーが みなぎると オレンジ色の 結晶が 光り 輝く。 洞穴で 地下水を 探す。",
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンの抵抗力がタイプなら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンの抵抗力がタイプなら、50ダメージ追加。",
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダンゴロ",
+		'ja-jp': "ダンゴロ",
 	},
 
 	retreat: 3,

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		de: "Makuhita",
-		it: "Makuhita",
-		es: "Makuhita",
-		pt: "Makuhita",
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'de-de': "Makuhita",
+		'it-it': "Makuhita",
+		'es-es': "Makuhita",
+		'pt-br': "Makuhita",
 		'es-mx': "Makuhita"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'es-es': "Puño Tirabuzón",
+			'pt-br': "Soco Saca-rolha",
 			'es-mx': "Puño Sacacorchos"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Confront",
-			fr: "Confrontation",
-			de: "Konfrontieren",
-			it: "Confronto",
-			es: "Confrontar",
-			pt: "Confrontar",
+			'en-us': "Confront",
+			'fr-fr': "Confrontation",
+			'de-de': "Konfrontieren",
+			'it-it': "Confronto",
+			'es-es': "Confrontar",
+			'pt-br': "Confrontar",
 			'es-mx': "Confrontar"
 		},
 

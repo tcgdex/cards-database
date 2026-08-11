@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Luxray GL LV.X",
-		fr: "Luxray  Niv. X",
-		de: "Luxtra GL"
+		'en-us': "Luxray GL LV.X",
+		'fr-fr': "Luxray  Niv. X",
+		'de-de': "Luxtra GL"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Bright Look",
-				fr: "Regard alerte",
-				de: "Blendender Blick"
+				'en-us': "Bright Look",
+				'fr-fr': "Regard alerte",
+				'de-de': "Blendender Blick"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Luxray  LV.X de votre main sur votre Luxray  Actif, vous pouvez échanger le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Luxtra GL LV.X von deiner Hand auf dein Aktives Luxtra GL legst, das Verteidigende Pokémon gegen ein Pokémon auf der Bank deines Gegners austauschen."
+				'en-us': "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Luxray  LV.X de votre main sur votre Luxray  Actif, vous pouvez échanger le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Luxtra GL LV.X von deiner Hand auf dein Aktives Luxtra GL legst, das Verteidigende Pokémon gegen ein Pokémon auf der Bank deines Gegners austauschen."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flash Impact",
-				fr: "Impact-flash",
-				de: "Blitzeinschlag"
+				'en-us': "Flash Impact",
+				'fr-fr': "Impact-flash",
+				'de-de': "Blitzeinschlag"
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
-				fr: "Inflige 30 dégâts à 1 de vos Pokémon. N'appliquez pas la Faiblesse et la Résistance à ces dégâts.",
-				de: "Dieser Angriff fügt 1 deiner Pokémon 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+				'en-us': "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Inflige 30 dégâts à 1 de vos Pokémon. N'appliquez pas la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Dieser Angriff fügt 1 deiner Pokémon 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 60,
 

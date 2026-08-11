@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーノ",
+		'ja-jp': "ニドリーノ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "発達した 耳を 立てて まわりの 気配を 探る。 なにかあると すぐに 飛びかかる。",
+		'ja-jp': "発達した 耳を 立てて まわりの 気配を 探る。 なにかあると すぐに 飛びかかる。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニドラン♂",
+		'ja-jp': "ニドラン♂",
 	},
 
 	retreat: 2,

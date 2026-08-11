@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [476],
 
 	name: {
-		en: "Probopass"
+		'en-us': "Probopass"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Nosepass"
+		'en-us': "Nosepass"
 	},
 
 	description: {
-		en: "It exudes strong magnetism from all over.\nIt controls three small units called Mini-Noses."
+		'en-us': "It exudes strong magnetism from all over.\nIt controls three small units called Mini-Noses."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Metallic Turbo"
+			'en-us': "Metallic Turbo"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "Take 2 {M} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			'en-us': "Take 2 {M} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}],
 

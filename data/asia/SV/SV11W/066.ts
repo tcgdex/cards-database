@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギギアル",
+		'ja-jp': "ギギアル",
 	},
 
 	illustrator: "Amelicart",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "回転方向を 変える ことで 仲間に 気持ちを 伝えている。 怒るほど 回転が 速くなる。",
+		'ja-jp': "回転方向を 変える ことで 仲間に 気持ちを 伝えている。 怒るほど 回転が 速くなる。",
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ギアル",
+		'ja-jp': "ギアル",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Exploud"
+		'id-id': "Exploud"
 	},
 
 	illustrator: "LINNE",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Bukan hanya suara keras. Exploud juga mengeluarkan berbagai jenis warna suara dari lubang di tubuhnya untuk melakukan komunikasi dengan sesamanya."
+		'id-id': "Bukan hanya suara keras. Exploud juga mengeluarkan berbagai jenis warna suara dari lubang di tubuhnya untuk melakukan komunikasi dengan sesamanya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Sudden Shout"
+			'id-id': "Sudden Shout"
 		},
 
 		effect: {
-			id: "Buang Pokémon Bertarung lawan dan semua kartu yang dikenakannya ke Trash. Jika pada giliran ini, Pokémon ini tidak berevolusi dari Loudred, serangan ini gagal."
+			'id-id': "Buang Pokémon Bertarung lawan dan semua kartu yang dikenakannya ke Trash. Jika pada giliran ini, Pokémon ini tidak berevolusi dari Loudred, serangan ini gagal."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Hantaman Kepala"
+			'id-id': "Hantaman Kepala"
 		},
 
 		damage: 140,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [287],
 
 	name: {
-		en: "Slakoth"
+		'en-us': "Slakoth"
 	},
 
 	illustrator: "okayamatakatoshi",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "The way Slakoth lolls around makes anyone who\nwatches it feel like doing the same."
+		'en-us': "The way Slakoth lolls around makes anyone who\nwatches it feel like doing the same."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Yawn"
+			'en-us': "Yawn"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

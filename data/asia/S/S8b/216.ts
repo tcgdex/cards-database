@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バシャーモV",
+		'ja-jp': "バシャーモV",
 	},
 
 	illustrator: "nagimiso",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],

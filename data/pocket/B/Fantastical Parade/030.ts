@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [122],
 
 	name: {
-		en: "Galarian Mr. Mime"
+		'en-us': "Galarian Mr. Mime"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It can radiate chilliness from the bottoms of its\nfeet. It'll spend the whole day tap-dancing on a\nfrozen floor."
+		'en-us': "It can radiate chilliness from the bottoms of its\nfeet. It'll spend the whole day tap-dancing on a\nfrozen floor."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Icy Snow"
+			'en-us': "Icy Snow"
 		},
 
 		damage: 20,

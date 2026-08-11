@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
-		fr: "Lamantine",
-		de: "Jugong"
+		'en-us': "Dewgong",
+		'fr-fr': "Lamantine",
+		'de-de': "Jugong"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel",
-		fr: "Otaria"
+		'en-us': "Seel",
+		'fr-fr': "Otaria"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Safeguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Safeguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Dewgong by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Lamantine par le Pokémon-ex de votre adversaire.",
-				de: "Prevent all effects of attacks, including damage, done to Dewgong by your opponen´s Pokémon-ex."
+				'en-us': "Prevent all effects of attacks, including damage, done to Dewgong by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Lamantine par le Pokémon-ex de votre adversaire.",
+				'de-de': "Prevent all effects of attacks, including damage, done to Dewgong by your opponen´s Pokémon-ex."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Cold Breath",
-				fr: "Souffle Froid",
-				de: "Cold Breath"
+				'en-us': "Cold Breath",
+				'fr-fr': "Souffle Froid",
+				'de-de': "Cold Breath"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -71,9 +71,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurora Beam"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurora Beam"
 			},
 
 			damage: 40,

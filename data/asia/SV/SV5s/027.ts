@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Victini"
+		'id-id': "Victini"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Pokémon pembawa kemenangan. Dikatakan bahwa pelatih yang membawa Victini selalu menang dalam pertarungan apa pun."
+		'id-id': "Pokémon pembawa kemenangan. Dikatakan bahwa pelatih yang membawa Victini selalu menang dalam pertarungan apa pun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengibas-ngibas"
+			'id-id': "Mengibas-ngibas"
 		},
 
 		effect: {
-			id: "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil 6 kartu dari atas Deck."
+			'id-id': "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil 6 kartu dari atas Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Bakar Jatuh"
+			'id-id': "Bakar Jatuh"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi Spesial yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi Spesial yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 30,

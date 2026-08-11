@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tsareena",
-		fr: "Sucreine",
-		es: "Tsareena",
-		it: "Tsareena",
-		pt: "Tsareena",
-		de: "Fruyal"
+		'en-us': "Tsareena",
+		'fr-fr': "Sucreine",
+		'es-es': "Tsareena",
+		'it-it': "Tsareena",
+		'pt-br': "Tsareena",
+		'de-de': "Fruyal"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Steenee",
-		fr: "Candine",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'en-us': "Steenee",
+		'fr-fr': "Candine",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	attacks: [{
 		name: {
-			en: "Tread On",
-			fr: "Piétinement",
-			es: "Patear",
-			it: "Calpestare",
-			pt: "Pisão",
-			de: "Zertreten"
+			'en-us': "Tread On",
+			'fr-fr': "Piétinement",
+			'es-es': "Patear",
+			'it-it': "Calpestare",
+			'pt-br': "Pisão",
+			'de-de': "Zertreten"
 		},
 
 		effect: {
-			en: "This attack does 50 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte mehr zu."
+			'en-us': "This attack does 50 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Raio Solar",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "A kick from the hardened tips of this Pokémon's legs leaves a wound in the opponent's body and soul that will never heal."
+		'en-us': "A kick from the hardened tips of this Pokémon's legs leaves a wound in the opponent's body and soul that will never heal."
 	},
 
 	variants: [

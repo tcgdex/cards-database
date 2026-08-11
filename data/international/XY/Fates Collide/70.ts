@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
-				es: "Viento Feérico",
-				it: "Vento di Fata",
-				pt: "Vento de Fada",
-				de: "Feenbrise"
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
+				'es-es': "Viento Feérico",
+				'it-it': "Vento di Fata",
+				'pt-br': "Vento de Fada",
+				'de-de': "Feenbrise"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+		'en-us': "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
 	},
 
 	thirdParty: {

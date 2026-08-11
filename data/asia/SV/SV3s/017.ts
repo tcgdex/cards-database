@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Entei"
+		'id-id': "Entei"
 	},
 
 	illustrator: "toriyufu",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Ada yang mengatakan bahwa saat Entei mengaum, maka gunung berapi entah pada belahan dunia yang mana akan meletus."
+		'id-id': "Ada yang mengatakan bahwa saat Entei mengaum, maka gunung berapi entah pada belahan dunia yang mana akan meletus."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tekanan"
+			'id-id': "Tekanan"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena Bertarung, kerusakan akibat serangan yang digunakan oleh Pokémon Bertarung lawan berkurang sejumlah 20."
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, kerusakan akibat serangan yang digunakan oleh Pokémon Bertarung lawan berkurang sejumlah 20."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Blaze Ball"
+			'id-id': "Blaze Ball"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "60+",

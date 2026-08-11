@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フェアリーチャーム草",
+		'ja-jp': "フェアリーチャーム草",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードがついているポケモンは、相手のタイプの「ポケモンGX・EX」からワザのダメージを受けない。",
+		'ja-jp': "このカードがついているポケモンは、相手のタイプの「ポケモンGX・EX」からワザのダメージを受けない。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いフラフィ",
+		'ja-jp': "暗いフラフィ",
 	},
 
 	rarity: "Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "サンダースラッシュ",
+				'ja-jp': "サンダースラッシュ",
 			},
 			effect: {
-				ja: "防御ポケモンが基本的なポケモンである場合、防御するポケモンは現在麻痺しています。 Dark Flaaffyは、次のターン中にThunder Slashを使用できません。",
+				'ja-jp': "防御ポケモンが基本的なポケモンである場合、防御するポケモンは現在麻痺しています。 Dark Flaaffyは、次のターン中にThunder Slashを使用できません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 20,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola",
-		es: "Vulpix de Alola",
-		it: "Vulpix di Alola",
-		pt: "Vulpix de Alola",
-		de: "Alola Vulpix"
+		'en-us': "Alolan Vulpix",
+		'fr-fr': "Goupix d’Alola",
+		'es-es': "Vulpix de Alola",
+		'it-it': "Vulpix di Alola",
+		'pt-br': "Vulpix de Alola",
+		'de-de': "Alola Vulpix"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Secret Alleyway",
-				fr: "Allée Secrète",
-				es: "Callejón Secreto",
-				it: "Passaggio Segreto",
-				pt: "Beco Secreto",
-				de: "Geheime Gasse"
+				'en-us': "Secret Alleyway",
+				'fr-fr': "Allée Secrète",
+				'es-es': "Callejón Secreto",
+				'it-it': "Passaggio Segreto",
+				'pt-br': "Beco Secreto",
+				'de-de': "Geheime Gasse"
 			},
 			effect: {
-				en: "If you have any Fairy Pokémon in play, this Pokémon has no Retreat Cost.",
-				fr: "Si vous avez au moins un Pokémon Fairy en jeu, ce Pokémon n’a pas de Coût de Retraite.",
-				es: "Si tienes algún Pokémon Fairy en juego, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Se hai dei Pokémon Fairy in gioco, questo Pokémon non ha costo di ritirata.",
-				pt: "Se você tiver algum Pokémon Fairy em jogo, este Pokémon não terá custo de Recuo.",
-				de: "Wenn du mindestens 1 Fairy-Pokémon im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "If you have any Fairy Pokémon in play, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Si vous avez au moins un Pokémon Fairy en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+				'es-es': "Si tienes algún Pokémon Fairy en juego, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Se hai dei Pokémon Fairy in gioco, questo Pokémon non ha costo di ritirata.",
+				'pt-br': "Se você tiver algum Pokémon Fairy em jogo, este Pokémon não terá custo de Recuo.",
+				'de-de': "Wenn du mindestens 1 Fairy-Pokémon im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
+		'en-us': "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
 	},
 
 	thirdParty: {

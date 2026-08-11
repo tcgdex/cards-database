@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [141],
 
 	name: {
-		en: "Kabutops"
+		'en-us': "Kabutops"
 	},
 
 	illustrator: "Krgc",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Kabuto"
+		'en-us': "Kabuto"
 	},
 
 	description: {
-		en: "Kabutops slices its prey apart and sucks out\nthe fluids. The discarded body parts become\nfood for other Pokémon."
+		'en-us': "Kabutops slices its prey apart and sucks out\nthe fluids. The discarded body parts become\nfood for other Pokémon."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Leech Life"
+			'en-us': "Leech Life"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
+			'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
 		}
 	}],
 

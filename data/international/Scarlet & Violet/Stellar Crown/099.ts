@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Allure",
-			fr: "Allure",
-			es: "Atractivo",
-			it: "Affascinante",
-			pt: "Fascinar",
-			de: "Verlockung"
+			'en-us': "Allure",
+			'fr-fr': "Allure",
+			'es-es': "Atractivo",
+			'it-it': "Affascinante",
+			'pt-br': "Fascinar",
+			'de-de': "Verlockung"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			es: "Transmisión",
-			it: "Raggio",
-			pt: "Feixe",
-			de: "Strahl"
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'es-es': "Transmisión",
+			'it-it': "Raggio",
+			'pt-br': "Feixe",
+			'de-de': "Strahl"
 		},
 
 		damage: 20

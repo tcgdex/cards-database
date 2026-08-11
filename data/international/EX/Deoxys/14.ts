@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Shedinja",
-		fr: "Munja",
-		de: "Ninjatom"
+		'en-us': "Shedinja",
+		'fr-fr': "Munja",
+		'de-de': "Ninjatom"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nincada",
-		fr: "Ningale"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Empty Shell",
-				fr: "Coquille vide",
-				de: "Empty Shell"
+				'en-us': "Empty Shell",
+				'fr-fr': "Coquille vide",
+				'de-de': "Empty Shell"
 			},
 			effect: {
-				en: "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards.",
-				fr: "Lorsque Munja est mis K.O, votre adversaire ne récolte pas de Récompense.",
-				de: "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards."
+				'en-us': "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards.",
+				'fr-fr': "Lorsque Munja est mis K.O, votre adversaire ne récolte pas de Récompense.",
+				'de-de': "When Shedinja is Knocked Out, your opponent doesn't take any Prize cards."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Curse",
-				fr: "Malédiction supplémentaire",
-				de: "Extra Curse"
+				'en-us': "Extra Curse",
+				'fr-fr': "Malédiction supplémentaire",
+				'de-de': "Extra Curse"
 			},
 			effect: {
-				en: "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead.",
-				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur. Si le Pokémon Défenseur est un Pokémon-ex, placez 4 marqueurs de dégât sur ce Pokémon.",
-				de: "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead."
+				'en-us': "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead.",
+				'fr-fr': "Placez 2 marqueurs de dégât sur le Pokémon Défenseur. Si le Pokémon Défenseur est un Pokémon-ex, placez 4 marqueurs de dégât sur ce Pokémon.",
+				'de-de': "Put 2 damage counters on the Defending Pokémon. If the Defending Pokémon is Pokémon-ex, put 4 damage counters instead."
 			},
 
 		},

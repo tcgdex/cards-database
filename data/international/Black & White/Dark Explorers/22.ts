@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille"
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Scorching Scales",
-				fr: "Écailles Brûlantes",
-				es: "Escamas Abrasadoras",
-				it: "Ustiospora",
-				pt: "Escamas Ardentes",
-				de: "Versengende Schuppen"
+				'en-us': "Scorching Scales",
+				'fr-fr': "Écailles Brûlantes",
+				'es-es': "Escamas Abrasadoras",
+				'it-it': "Ustiospora",
+				'pt-br': "Escamas Ardentes",
+				'de-de': "Versengende Schuppen"
 			},
 			effect: {
-				en: "Put 4 damage counters instead of 2 on your opponent’s Burned Pokémon between turns.",
-				fr: "Placez 4 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
-				es: "Pon 4 contadores de daño en vez de 2 en el Pokémon Quemado de tu rival entre turnos.",
-				it: "Tra un turno e l’altro, metti quattro segnalini danno invece di due sul Pokémon bruciato del tuo avversario.",
-				pt: "Coloque 4 marcadores de danos em vez de 2 no Pokémon Queimado do seu oponente entre as vezes de jogar.",
-				de: "Lege zwischen den Zügen 4 Schadensmarken anstelle von 2 Schadensmarken auf die verbrannten Pokémon deines Gegners."
+				'en-us': "Put 4 damage counters instead of 2 on your opponent’s Burned Pokémon between turns.",
+				'fr-fr': "Placez 4 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
+				'es-es': "Pon 4 contadores de daño en vez de 2 en el Pokémon Quemado de tu rival entre turnos.",
+				'it-it': "Tra un turno e l’altro, metti quattro segnalini danno invece di due sul Pokémon bruciato del tuo avversario.",
+				'pt-br': "Coloque 4 marcadores de danos em vez de 2 no Pokémon Queimado do seu oponente entre as vezes de jogar.",
+				'de-de': "Lege zwischen den Zügen 4 Schadensmarken anstelle von 2 Schadensmarken auf die verbrannten Pokémon deines Gegners."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Wind",
-				fr: "Vent Torride"
+				'en-us': "Burning Wind",
+				'fr-fr': "Vent Torride"
 			},
 			effect: {
-				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé."
+				'en-us': "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
+				'fr-fr': "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+		'en-us': "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Flagadoss",
-		en: "Slowbro",
-		es: "Slowbro",
-		it: "Slowbro",
-		pt: "Slowbro",
-		de: "Lahmus"
+		'fr-fr': "Flagadoss",
+		'en-us': "Slowbro",
+		'es-es': "Slowbro",
+		'it-it': "Slowbro",
+		'pt-br': "Slowbro",
+		'de-de': "Lahmus"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Ramoloss",
-		en: "Slowpoke",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
+		'fr-fr': "Ramoloss",
+		'en-us': "Slowpoke",
+		'es-es': "Slowpoke",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Gros Bâillement",
-			en: "Big Yawn",
-			es: "Gran Bostezo",
-			it: "Gransbadiglio",
-			pt: "Grande Bocejo",
-			de: "Großer Gähner"
+			'fr-fr': "Gros Bâillement",
+			'en-us': "Big Yawn",
+			'es-es': "Gran Bostezo",
+			'it-it': "Gransbadiglio",
+			'pt-br': "Grande Bocejo",
+			'de-de': "Großer Gähner"
 		},
 
 		effect: {
-			fr: "Les deux Pokémon Actifs sont maintenant Endormis.",
-			en: "Both Active Pokémon are now Asleep.",
-			es: "Ambos Pokémon Activos pasan a estar Dormidos.",
-			it: "Entrambi i Pokémon attivi vengono addormentati.",
-			pt: "Ambos os Pokémon Ativos agora estão Adormecidos.",
-			de: "Beide Aktiven Pokémon schlafen jetzt."
+			'fr-fr': "Les deux Pokémon Actifs sont maintenant Endormis.",
+			'en-us': "Both Active Pokémon are now Asleep.",
+			'es-es': "Ambos Pokémon Activos pasan a estar Dormidos.",
+			'it-it': "Entrambi i Pokémon attivi vengono addormentati.",
+			'pt-br': "Ambos os Pokémon Ativos agora estão Adormecidos.",
+			'de-de': "Beide Aktiven Pokémon schlafen jetzt."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Charge Relaxe",
-			en: "Laid-Back Tackle",
-			es: "Placaje Relajado",
-			it: "Azione Rilassata",
-			pt: "Investida Relaxada",
-			de: "Träger Tackle"
+			'fr-fr': "Charge Relaxe",
+			'en-us': "Laid-Back Tackle",
+			'es-es': "Placaje Relajado",
+			'it-it': "Azione Rilassata",
+			'pt-br': "Investida Relaxada",
+			'de-de': "Träger Tackle"
 		},
 
 		effect: {
-			fr: "Si ce Pokémon a évolué pendant ce tour, cette attaque ne fait rien.",
-			en: "If this Pokémon evolved during this turn, this attack does nothing.",
-			es: "Si este Pokémon ha evolucionado durante este turno, este ataque no hace nada.",
-			it: "Se questo Pokémon si è evoluto durante questo turno, questo attacco non ha effetto.",
-			pt: "Se este Pokémon evoluiu durante este turno, este ataque não fará nada.",
-			de: "Wenn sich dieses Pokémon während dieses Zuges entwickelt hat, hat diese Attacke keine Auswirkungen."
+			'fr-fr': "Si ce Pokémon a évolué pendant ce tour, cette attaque ne fait rien.",
+			'en-us': "If this Pokémon evolved during this turn, this attack does nothing.",
+			'es-es': "Si este Pokémon ha evolucionado durante este turno, este ataque no hace nada.",
+			'it-it': "Se questo Pokémon si è evoluto durante questo turno, questo attacco non ha effetto.",
+			'pt-br': "Se este Pokémon evoluiu durante este turno, este ataque não fará nada.",
+			'de-de': "Wenn sich dieses Pokémon während dieses Zuges entwickelt hat, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 160
@@ -88,7 +88,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+		'en-us': "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
 	},
 
 	variants: [

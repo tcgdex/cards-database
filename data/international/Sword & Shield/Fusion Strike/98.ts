@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
+		'en-us': "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			es: "Roer",
-			pt: "Roída",
-			it: "Rosicchiamento"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'de-de': "Nagen",
+			'es-es': "Roer",
+			'pt-br': "Roída",
+			'it-it': "Rosicchiamento"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			de: "Elektroball",
-			es: "Bola Voltio",
-			pt: "Bola Elétrica",
-			it: "Energisfera"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'de-de': "Elektroball",
+			'es-es': "Bola Voltio",
+			'pt-br': "Bola Elétrica",
+			'it-it': "Energisfera"
 		},
 
 		damage: 20

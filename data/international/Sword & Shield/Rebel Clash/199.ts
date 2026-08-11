@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Copperajah VMAX",
-		fr: "Pachyradjah VMAX",
-		es: "Copperajah VMAX",
-		it: "Copperajah VMAX",
-		pt: "Copperajah VMAX",
-		de: "Patinaraja VMAX"
+		'en-us': "Copperajah VMAX",
+		'fr-fr': "Pachyradjah VMAX",
+		'es-es': "Copperajah VMAX",
+		'it-it': "Copperajah VMAX",
+		'pt-br': "Copperajah VMAX",
+		'de-de': "Patinaraja VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Copperajah V",
-		fr: "Pachyradjah-V",
-		es: "Copperajah V",
-		it: "Copperajah-V",
-		pt: "Copperajah V",
-		de: "Patinaraja-V"
+		'en-us': "Copperajah V",
+		'fr-fr': "Pachyradjah-V",
+		'es-es': "Copperajah V",
+		'it-it': "Copperajah-V",
+		'pt-br': "Copperajah V",
+		'de-de': "Patinaraja-V"
 	},
 
 	attacks: [{
 		name: {
-			en: "Dangerous Nose",
-			fr: "Nez Dangereux",
-			es: "Trompa Peligrosa",
-			it: "Naso Pericoloso",
-			pt: "Tromba Perigosa",
-			de: "Gefährliche Nase"
+			'en-us': "Dangerous Nose",
+			'fr-fr': "Nez Dangereux",
+			'es-es': "Trompa Peligrosa",
+			'it-it': "Naso Pericoloso",
+			'pt-br': "Tromba Perigosa",
+			'de-de': "Gefährliche Nase"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 100 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 100 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 100 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 100 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 100 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 100 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+",
 		cost: ["Metal", "Metal", "Colorless"]
 	}, {
 		name: {
-			en: "G-Max Hammer",
-			fr: "Marteau G-Max",
-			es: "Gigamazazo",
-			it: "Gigamaglio",
-			pt: "Martelo G-Max",
-			de: "Giga-Schlaghammer"
+			'en-us': "G-Max Hammer",
+			'fr-fr': "Marteau G-Max",
+			'es-es': "Gigamazazo",
+			'it-it': "Gigamaglio",
+			'pt-br': "Martelo G-Max",
+			'de-de': "Giga-Schlaghammer"
 		},
 
 		damage: 240,

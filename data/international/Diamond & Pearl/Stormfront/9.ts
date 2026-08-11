@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
-		de: "Regigigas"
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'de-de': "Regigigas"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Regigigas",
+		'fr-fr': "Regigigas",
 	},
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Regi Form",
-				fr: "Regi forme",
-				de: "Regi-Form"
+				'en-us': "Regi Form",
+				'fr-fr': "Regi forme",
+				'de-de': "Regi-Form"
 			},
 			effect: {
-				en: "If you have Regirock, Regice, and Registeel in play, the attack cost of Regigigas's attacks is Colorless less.",
-				fr: "Si vous avez Regirock, Regice et Registeel en jeu, le Coût d'attaque des attaques de Regigigas est Colorless de moins.",
-				de: "Wenn du Regirock, Regice und Registeel im Spiel hast, kosten Regigigas' Angriffe 1  weniger."
+				'en-us': "If you have Regirock, Regice, and Registeel in play, the attack cost of Regigigas's attacks is Colorless less.",
+				'fr-fr': "Si vous avez Regirock, Regice et Registeel en jeu, le Coût d'attaque des attaques de Regigigas est Colorless de moins.",
+				'de-de': "Wenn du Regirock, Regice und Registeel im Spiel hast, kosten Regigigas' Angriffe 1  weniger."
 			},
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'de-de': "Megahieb"
 			},
 
 			damage: 30,
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Power",
-				fr: "Giga pouvoir",
-				de: "Gigakraft"
+				'en-us': "Giga Power",
+				'fr-fr': "Giga pouvoir",
+				'de-de': "Gigakraft"
 			},
 			effect: {
-				en: "You may do 60 damage plus 40 more damage. If you do, Regigigas does 40 damage to itself.",
-				fr: "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Regigigas s'inflige alors 40 dégâts.",
-				de: "Du kannst mit diesem Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zufügen. Wenn du das machst, fügt Regigigas sich selbst 40 Schadenspunkte zu."
+				'en-us': "You may do 60 damage plus 40 more damage. If you do, Regigigas does 40 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Regigigas s'inflige alors 40 dégâts.",
+				'de-de': "Du kannst mit diesem Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zufügen. Wenn du das machst, fügt Regigigas sich selbst 40 Schadenspunkte zu."
 			},
 			damage: "60+",
 

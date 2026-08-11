@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドードリオ",
+		'ja-jp': "ドードリオ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "リトリートエイド",
+				'ja-jp': "リトリートエイド",
 			},
 			effect: {
-				ja: "Dodrioがベンチにある限り、アクティブなポケモンを後退させるために{{e}}を支払います。",
+				'ja-jp': "Dodrioがベンチにある限り、アクティブなポケモンを後退させるために{{e}}を支払います。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "Dodrioの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
+				'ja-jp': "Dodrioの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
 			},
 
 		},

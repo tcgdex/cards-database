@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Wachstum"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Wachstum"
 			},
 			effect: {
-				en: "Attach a Grass Energy from your hand to Cherubi.",
-				fr: "Attachez une carte Énergie Grass de votre main à Ceribou.",
-				de: "Lege 1 -Energiekarte von deiner Hand an Kikugi an."
+				'en-us': "Attach a Grass Energy from your hand to Cherubi.",
+				'fr-fr': "Attachez une carte Énergie Grass de votre main à Ceribou.",
+				'de-de': "Lege 1 -Energiekarte von deiner Hand an Kikugi an."
 			},
 
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 10,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
+		'en-us': "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
-		fr: "Énergie Feu",
-		es: "Energía Fuego",
-		it: "Energia Fuoco",
-		pt: "Energia de Fogo",
-		de: "Feuer-Energie"
+		'en-us': "Fire Energy",
+		'fr-fr': "Énergie Feu",
+		'es-es': "Energía Fuego",
+		'it-it': "Energia Fuoco",
+		'pt-br': "Energia de Fogo",
+		'de-de': "Feuer-Energie"
 	},
 
 	rarity: "Common",

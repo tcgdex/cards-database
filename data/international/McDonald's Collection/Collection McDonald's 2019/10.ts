@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Magmar",
+		'fr-fr': "Magmar",
 	},
 
 	rarity: "None",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				fr: "Feu Contrôlé"
+				'fr-fr': "Feu Contrôlé"
 			},
 			effect: {
-				fr: "Défaussez la carte du dessus du deck de votre adversaire."
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire."
 			}
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				fr: "Lance-Flammes"
+				'fr-fr': "Lance-Flammes"
 			},
 			damage: 80,
 			effect: {
-				fr: "Défaussez une Énergie de ce Pokémon."
+				'fr-fr': "Défaussez une Énergie de ce Pokémon."
 			}
 		},
 	],

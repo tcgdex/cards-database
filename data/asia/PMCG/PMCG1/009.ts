@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "硬直",
+				'ja-jp': "硬直",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中にカクナにすべての損害を与えないようにします。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中にカクナにすべての損害を与えないようにします。 （攻撃の他の影響はまだ発生しています。）",
 			},
 
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "毒パウダー",
+				'ja-jp': "毒パウダー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 20,
 		},

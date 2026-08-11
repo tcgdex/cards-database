@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dull Light",
-				fr: "Lumière tamisée",
-				de: "Gedämpftes Licht"
+				'en-us': "Dull Light",
+				'fr-fr': "Lumière tamisée",
+				'de-de': "Gedämpftes Licht"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
-		fr: "Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait qu'ils sont liés."
+		'en-us': "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+		'fr-fr': "Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait qu'ils sont liés."
 	},
 
 	thirdParty: {

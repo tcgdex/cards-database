@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Shellos East Sea",
-		fr: "Sancoki Mer Orient",
-		de: "Schalellos Östliches Meer"
+		'en-us': "Shellos East Sea",
+		'fr-fr': "Sancoki Mer Orient",
+		'de-de': "Schalellos Östliches Meer"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Hunting",
-				fr: "Chasse au coquillage",
-				de: "Panzersuche"
+				'en-us': "Shell Hunting",
+				'fr-fr': "Chasse au coquillage",
+				'de-de': "Panzersuche"
 			},
 			effect: {
-				en: "Search your deck for up to 2 in any combination of Shellos West Sea and Shellos East Sea and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une combinaison de jusqu'à 2 Sancoki Mer Occident\net Sancoki Mer Orient et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Karten in beliebiger Kombination aus Schalellos Westliches Meer- und Schalellos Östliches Meer-Karten und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 in any combination of Shellos West Sea and Shellos East Sea and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une combinaison de jusqu'à 2 Sancoki Mer Occident\net Sancoki Mer Orient et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Karten in beliebiger Kombination aus Schalellos Westliches Meer- und Schalellos Östliches Meer-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sprinkle Water",
-				fr: "Eau aspergeante",
-				de: "Wassersprüher"
+				'en-us': "Sprinkle Water",
+				'fr-fr': "Eau aspergeante",
+				'de-de': "Wassersprüher"
 			},
 
 			damage: 10,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
+		'en-us': "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
 	},
 
 	thirdParty: {

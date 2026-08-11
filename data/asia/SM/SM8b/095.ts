@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュ",
+		'ja-jp': "ミミッキュ",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "正体不明。 ボロ布の 中身を みた とある 学者は 恐怖の あまり ショック死した。",
+		'ja-jp': "正体不明。 ボロ布の 中身を みた とある 学者は 恐怖の あまり ショック死した。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "くすねる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
 			name: { ja: "まねっこ" },
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、相手のポケモンがワザ（GXワザをのぞく）を使っていたなら、そのワザをこのワザとして使う。",
+				'ja-jp': "前の相手の番に、相手のポケモンがワザ（GXワザをのぞく）を使っていたなら、そのワザをこのワザとして使う。",
 			},
 		},
 	],

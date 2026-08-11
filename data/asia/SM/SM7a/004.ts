@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マユルド",
+		'ja-jp': "マユルド",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "マユに こもっている あいだに 受けた 攻撃は 進化しても 忘れずに かならず 仕返しする。",
+		'ja-jp': "マユに こもっている あいだに 受けた 攻撃は 進化しても 忘れずに かならず 仕返しする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まゆがあつまる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「カラサリス」または「マユルド」を合計4枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「カラサリス」または「マユルド」を合計4枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケムッソ",
+		'ja-jp': "ケムッソ",
 	},
 
 	retreat: 2,

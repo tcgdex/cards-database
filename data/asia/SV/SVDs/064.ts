@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มิไรดอนex",
-		id: "Miraidon ex"
+		'th-th': "มิไรดอนex",
+		'id-id': "Miraidon ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,26 +18,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "ควิกดรอว์",
-			id: "Quick Draw"
+			'th-th': "ควิกดรอว์",
+			'id-id': "Quick Draw"
 		},
 
 		effect: {
-			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			th: "เทคโนเทอร์โบ",
-			id: "Techno Turbo"
+			'th-th': "เทคโนเทอร์โบ",
+			'id-id': "Techno Turbo"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [พลังงานพื้นฐาน[สายฟ้า]] 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนบนเบนช์",
-			id: "Pilih 1 lembar Energi Dasar {Listrik} dari Trash sendiri, lalu kenakan pada Pokémon Cadangan."
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[สายฟ้า]] 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนบนเบนช์",
+			'id-id': "Pilih 1 lembar Energi Dasar {Listrik} dari Trash sendiri, lalu kenakan pada Pokémon Cadangan."
 		},
 
 		damage: 150,

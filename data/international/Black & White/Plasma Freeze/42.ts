@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
-		fr: "Nidoqueen",
-		es: "Nidoqueen",
-		it: "Nidoqueen",
-		pt: "Nidoqueen",
-		de: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'fr-fr': "Nidoqueen",
+		'es-es': "Nidoqueen",
+		'it-it': "Nidoqueen",
+		'pt-br': "Nidoqueen",
+		'de-de': "Nidoqueen"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
-		fr: "Nidorina",
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Horn",
-				fr: "Corne Empoisonnée",
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne Empoisonnée",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 50,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stomp",
-				fr: "Double Écrasement",
+				'en-us': "Double Stomp",
+				'fr-fr': "Double Écrasement",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
+		'en-us': "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
 	},
 
 	thirdParty: {

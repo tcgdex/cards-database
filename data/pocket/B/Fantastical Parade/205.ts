@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [114],
 
 	name: {
-		en: "Tangela"
+		'en-us': "Tangela"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows\nnonstop even if the vines are torn off, this\nPokémon's true appearance remains a mystery."
+		'en-us': "Hidden beneath a tangle of vines that grows\nnonstop even if the vines are torn off, this\nPokémon's true appearance remains a mystery."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sleep Powder"
+			'en-us': "Sleep Powder"
 		},
 
 		damage: 20,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Diancie EX",
-		fr: "Diancie EX",
+		'en-us': "Diancie EX",
+		'fr-fr': "Diancie EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moonblast",
-				fr: "Pouvoir Lunaire",
+				'en-us': "Moonblast",
+				'fr-fr': "Pouvoir Lunaire",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Luminous Swirl",
-				fr: "Tourbillon Lumineux",
+				'en-us': "Luminous Swirl",
+				'fr-fr': "Tourbillon Lumineux",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 40 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "80＋",
 

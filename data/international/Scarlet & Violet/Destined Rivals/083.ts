@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steven's Baltoy",
-		fr: "Balbuto de Pierre",
-		de: "Troys Puppance",
-		it: "Baltoy di Rocco",
-		es: "Baltoy de Máximo",
-		pt: "Baltoy do Steven",
+		'en-us': "Steven's Baltoy",
+		'fr-fr': "Balbuto de Pierre",
+		'de-de': "Troys Puppance",
+		'it-it': "Baltoy di Rocco",
+		'es-es': "Baltoy de Máximo",
+		'pt-br': "Baltoy do Steven",
 		'es-mx': "Baltoy de Steven"
 	},
 
@@ -28,34 +28,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Summoning Sign",
-			fr: "Signe Invocatoire",
-			de: "Beschwörendes Zeichen",
-			it: "Segno Evocativo",
-			es: "Señal de Invocación",
-			pt: "Sinal Invocador",
+			'en-us': "Summoning Sign",
+			'fr-fr': "Signe Invocatoire",
+			'de-de': "Beschwörendes Zeichen",
+			'it-it': "Segno Evocativo",
+			'es-es': "Señal de Invocación",
+			'pt-br': "Sinal Invocador",
 			'es-mx': "Señal de Invocación"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Steven's Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de Pierre de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Troys-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon di Rocco Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			es: "Busca en tu baraja hasta 2 Pokémon de Máximo Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 Pokémon do Steven Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'en-us': "Search your deck for up to 2 Basic Steven's Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de Pierre de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Troys-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo fino a due Pokémon di Rocco Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'es-es': "Busca en tu baraja hasta 2 Pokémon de Máximo Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por até 2 Pokémon do Steven Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
 			'es-mx': "Busca en tu mazo hasta 2 Pokémon de Steven Básicos y ponlos en tu Banca. Después, baraja las cartas de tu mazo."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psychic Sphere",
-			fr: "Sphère Psy",
-			de: "Psychosphäre",
-			it: "Psicosfera",
-			es: "Esfera Psíquica",
-			pt: "Esfera Psíquica",
+			'en-us': "Psychic Sphere",
+			'fr-fr': "Sphère Psy",
+			'de-de': "Psychosphäre",
+			'it-it': "Psicosfera",
+			'es-es': "Esfera Psíquica",
+			'pt-br': "Esfera Psíquica",
 			'es-mx': "Esfera Psíquica"
 		},
 

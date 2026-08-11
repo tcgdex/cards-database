@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラ ロコンV",
+		'ja-jp': "アローラ ロコンV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Pain Split",
-				fr: "Balance"
+				'en-us': "Pain Split",
+				'fr-fr': "Balance"
 			},
 			effect: {
-				en: "Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Défenseur pour chaque marqueur de dégâts sur Feuforêve."
+				'en-us': "Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus.",
+				'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Défenseur pour chaque marqueur de dégâts sur Feuforêve."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
-		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
+		'en-us': "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
+		'fr-fr': "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
 	},
 
 	variants: [

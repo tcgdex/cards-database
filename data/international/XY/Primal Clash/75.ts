@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Rhydon",
-		fr: "Rhinoféros",
-		es: "Rhydon",
-		it: "Rhydon",
-		pt: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+		'es-es': "Rhydon",
+		'it-it': "Rhydon",
+		'pt-br': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Esse Pokémon causa 10 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Esse Pokémon causa 10 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -71,12 +71,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'Korne",
-				es: "Perforador",
-				it: "Perforcorno",
-				pt: "Chifre Broca",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'Korne",
+				'es-es': "Perforador",
+				'it-it': "Perforcorno",
+				'pt-br': "Chifre Broca",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 70,
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+		'en-us': "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
 	},
 
 	thirdParty: {

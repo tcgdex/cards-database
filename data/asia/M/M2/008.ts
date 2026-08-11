@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲノセクト",
+		'ja-jp': "ゲノセクト",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "３億年前に いた ポケモン。  プラズマ団に 改造 され  背中に 砲台を つけられた。",
+		'ja-jp': "３億年前に いた ポケモン。  プラズマ団に 改造 され  背中に 砲台を つけられた。",
 	},
 
 	stage: "Basic",

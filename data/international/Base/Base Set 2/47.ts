@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
+		'en-us': "Kakuna",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
+		'en-us': "Weedle",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stiffen",
+				'en-us': "Stiffen",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				'en-us': "Poisonpowder",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
+		'en-us': "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
 	},
 
 

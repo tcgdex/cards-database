@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Elektek",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Elektek",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Electabuzz.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Elektek.",
-				de: "Wirf 1 Münze. Bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Elektek an."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Electabuzz.",
+				'fr-fr': "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Elektek.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Elektek an."
 			},
 			damage: 10,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Spear",
-				fr: "Lance-éclair",
-				de: "Donnerspeer"
+				'en-us': "Thunder Spear",
+				'fr-fr': "Lance-éclair",
+				'de-de': "Donnerspeer"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

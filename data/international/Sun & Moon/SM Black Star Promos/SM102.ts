@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dusk Mane Necrozma GX",
-		fr: "Necrozma Crinière du Couchant GX",
-		es: "Necrozma Melena Crepuscular GX",
-		it: "Necrozma Criniera del Vespro GX",
-		pt: "Necrozma Juba Crepúsculo GX",
-		de: "Abendmähne-Necrozma GX"
+		'en-us': "Dusk Mane Necrozma GX",
+		'fr-fr': "Necrozma Crinière du Couchant GX",
+		'es-es': "Necrozma Melena Crepuscular GX",
+		'it-it': "Necrozma Criniera del Vespro GX",
+		'pt-br': "Necrozma Juba Crepúsculo GX",
+		'de-de': "Abendmähne-Necrozma GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch’Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch’Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 60,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meteor Tempest",
-				fr: "Tempête Météorique",
-				es: "Tempestad Meteórica",
-				it: "Tempesta Meteoritica",
-				pt: "Tempestade Meteórica",
-				de: "Meteorsturm"
+				'en-us': "Meteor Tempest",
+				'fr-fr': "Tempête Météorique",
+				'es-es': "Tempestad Meteórica",
+				'it-it': "Tempesta Meteoritica",
+				'pt-br': "Tempestade Meteórica",
+				'de-de': "Meteorsturm"
 			},
 			effect: {
-				en: "Discard 3 Energy from this Pokémon.",
-				fr: "Défaussez 3 Énergies de ce Pokémon.",
-				es: "Descarta 3 Energías de este Pokémon.",
-				it: "Scarta tre Energie assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias deste Pokémon.",
-				de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+				'es-es': "Descarta 3 Energías de este Pokémon.",
+				'it-it': "Scarta tre Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias deste Pokémon.",
+				'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 220,
 
@@ -78,20 +78,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Sun’s Eclipse GX",
-				fr: "Éclipse Solaire GX",
-				es: "Eclipse de Sol GX",
-				it: "Eclissi di Sole GX",
-				pt: "Eclipse do Sol GX",
-				de: "Solarfinsternis GX"
+				'en-us': "Sun’s Eclipse GX",
+				'fr-fr': "Éclipse Solaire GX",
+				'es-es': "Eclipse de Sol GX",
+				'it-it': "Eclissi di Sole GX",
+				'pt-br': "Eclipse do Sol GX",
+				'de-de': "Solarfinsternis GX"
 			},
 			effect: {
-				en: "You can use this attack only if you have more Prize cards remaining than your opponent. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Vous pouvez utiliser cette attaque seulement s’il vous reste plus de cartes Récompense que votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "Puedes usar este ataque solo si te quedan más cartas de Premio que a tu rival. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "Puoi usare questo attacco solo se hai più carte Premio rimanenti del tuo avversario. Non puoi usare più di un attacco GX a partita.",
-				pt: "Você só pode usar este ataque se tiver mais cartas de Prêmio restantes do que seu oponente (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Du kannst diese Attacke nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "You can use this attack only if you have more Prize cards remaining than your opponent. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Vous pouvez utiliser cette attaque seulement s’il vous reste plus de cartes Récompense que votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Puedes usar este ataque solo si te quedan más cartas de Premio que a tu rival. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Puoi usare questo attacco solo se hai più carte Premio rimanenti del tuo avversario. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Você só pode usar este ataque se tiver mais cartas de Prêmio restantes do que seu oponente (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Du kannst diese Attacke nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 250,
 

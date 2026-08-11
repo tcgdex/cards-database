@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Crushing Step",
-				fr: "Trépignement",
-				de: "Crushing Step"
+				'en-us': "Crushing Step",
+				'fr-fr': "Trépignement",
+				'de-de': "Crushing Step"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet.",
-		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
+		'en-us': "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet.",
+		'fr-fr': "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Loudred"
+		'en-us': "Loudred"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Whismur"
+		'en-us': "Whismur"
 	},
 
 	description: {
-		en: "The force of this Pokémon's loud voice isn't just\nthe sound—it's also the wave of air pressure that\nblows opponents away and damages them."
+		'en-us': "The force of this Pokémon's loud voice isn't just\nthe sound—it's also the wave of air pressure that\nblows opponents away and damages them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			'en-us': "Hyper Voice"
 		},
 
 		damage: 40,

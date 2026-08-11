@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Endure",
-				fr: "Ténacité",
-				de: "Endure"
+				'en-us': "Endure",
+				'fr-fr': "Ténacité",
+				'de-de': "Endure"
 			},
 			effect: {
-				en: "Flip a coin. If heads, then if, during your opponent's next turn, Phanpy would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining HP become 10 instead.",
-				fr: "Lancez une pièce. Si c'est face, alors, si pendant le prochain tour de votre adversaire, une attaque est supposée mettre Phanpy K.O., Phanpy n'est pas mis K.O. mais ses PV deviennent 10.",
-				de: "Flip a coin. If heads, then if, during your opponent's next turn, Phanpy would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining HP become 10 instead."
+				'en-us': "Flip a coin. If heads, then if, during your opponent's next turn, Phanpy would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining HP become 10 instead.",
+				'fr-fr': "Lancez une pièce. Si c'est face, alors, si pendant le prochain tour de votre adversaire, une attaque est supposée mettre Phanpy K.O., Phanpy n'est pas mis K.O. mais ses PV deviennent 10.",
+				'de-de': "Flip a coin. If heads, then if, during your opponent's next turn, Phanpy would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining HP become 10 instead."
 			},
 
 		},
@@ -74,8 +74,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It swings its long snout around playfully, but, because it is so strong, that can be dangerous.",
-		fr: "Il balance sa longue trompe pour s'amuser, mais il est si fort que cela peut être dangereux."
+		'en-us': "It swings its long snout around playfully, but, because it is so strong, that can be dangerous.",
+		'fr-fr': "Il balance sa longue trompe pour s'amuser, mais il est si fort que cela peut être dangereux."
 	},
 
 

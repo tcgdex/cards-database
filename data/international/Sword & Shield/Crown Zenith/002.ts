@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
-		it: "Gloom",
-		pt: "Gloom",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Offensive Scent",
-			fr: "Parfum Offensif",
-			es: "Aroma Ofensivo",
-			it: "Aroma Offensivo",
-			pt: "Aroma Ofensivo",
-			de: "Widerlicher Duft"
+			'en-us': "Offensive Scent",
+			'fr-fr': "Parfum Offensif",
+			'es-es': "Aroma Ofensivo",
+			'it-it': "Aroma Offensivo",
+			'pt-br': "Aroma Ofensivo",
+			'de-de': "Widerlicher Duft"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+		'en-us': "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
 	},
 
 	

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		es: "Virizion",
-		it: "Virizion",
-		pt: "Virizion",
-		de: "Viridium"
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'es-es': "Virizion",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
+		'de-de': "Viridium"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
-				fr: "Double Pioche",
+				'en-us': "Double Draw",
+				'fr-fr': "Double Pioche",
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Wallop",
-				fr: "Rafale de Feuilles",
+				'en-us': "Leaf Wallop",
+				'fr-fr': "Rafale de Feuilles",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Rafale de Feuilles de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Rafale de Feuilles de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
+		'en-us': "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
 	},
 
 	thirdParty: {

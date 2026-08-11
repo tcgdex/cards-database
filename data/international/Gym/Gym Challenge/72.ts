@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Machop"
+		'en-us': "Giovanni's Machop"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chop"
+				'en-us': "Chop"
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Punch"
+				'en-us': "Fury Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni's Machop."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni's Machop."
 			},
 			damage: "20x",
 

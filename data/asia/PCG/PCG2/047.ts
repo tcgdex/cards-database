@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレルーム",
+		'ja-jp': "ブレルーム",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "葉の毒",
+				'ja-jp': "葉の毒",
 			},
 			effect: {
-				ja: "Breloomに草のエネルギーが付着している場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "Breloomに草のエネルギーが付着している場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ハッスルパンチ",
+				'ja-jp': "ハッスルパンチ",
 			},
 			effect: {
-				ja: "次のターン中、ハッスルパンチ攻撃のベースダメージは70ではなく50です。",
+				'ja-jp': "次のターン中、ハッスルパンチ攻撃のベースダメージは70ではなく50です。",
 			},
 		},
 	],

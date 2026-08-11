@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バイバニラ",
+		'ja-jp': "バイバニラ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "２つの頭 それぞれに 脳があり 両者の 意見が 一致すると 猛吹雪を 吐いて 敵を 襲う。",
+		'ja-jp': "２つの頭 それぞれに 脳があり 両者の 意見が 一致すると 猛吹雪を 吐いて 敵を 襲う。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あられ" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[水]エネルギーを、2個トラッシュする。その場合、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "のぞむなら、このポケモンについている[水]エネルギーを、2個トラッシュする。その場合、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バニリッチ",
+		'ja-jp': "バニリッチ",
 	},
 
 	retreat: 2,

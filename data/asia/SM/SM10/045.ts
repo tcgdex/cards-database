@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "亡くした 母親を 思い 夜に 泣き叫ぶが そのせいで 天敵の バルジーナに 見つかってしまう。",
+		'ja-jp': "亡くした 母親を 思い 夜に 泣き叫ぶが そのせいで 天敵の バルジーナに 見つかってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きあいだめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「たたく」のダメージは「80」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「たたく」のダメージは「80」になる。",
 			},
 		},
 		{

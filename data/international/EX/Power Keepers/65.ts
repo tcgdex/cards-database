@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl",
-				fr: "Boul'armure",
-				de: "Einigler"
+				'en-us': "Defense Curl",
+				'fr-fr': "Boul'armure",
+				'de-de': "Einigler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Spheal during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Seemops während des nächsten Zuges deines Gegners zugefügt wird."
+				'en-us': "Flip a coin. If heads, prevent all damage done to Spheal during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Seemops während des nächsten Zuges deines Gegners zugefügt wird."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurorastrahl"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurorastrahl"
 			},
 
 			damage: 20,

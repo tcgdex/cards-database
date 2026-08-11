@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "額の 赤い 部分を 持つと 神通力を 授かると いわれ 乱獲 された 過去も ある。",
+		'ja-jp': "額の 赤い 部分を 持つと 神通力を 授かると いわれ 乱獲 された 過去も ある。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Water"],
 			effect: {
-				ja: "自分の手札から[水]エネルギーを2枚までトラッシュし、その枚数x60ダメージ。",
+				'ja-jp': "自分の手札から[水]エネルギーを2枚までトラッシュし、その枚数x60ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 0,

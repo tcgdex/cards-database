@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Snorlax（デルタ種）",
+		'ja-jp': "Snorlax（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ベッドヘッド",
+				'ja-jp': "ベッドヘッド",
 			},
 			effect: {
-				ja: "Snorlaxがターンの合間に眠っている限り、防御するPokã©Monの1つに2つのダメージカウンターを入れます。ターン中（攻撃の前に）、SnorlaxがアクティブなPokã©Monである場合、Snorlaxから2つのダメージカウンターを削除し、Snorlaxが眠っています。 Snorlaxが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "Snorlaxがターンの合間に眠っている限り、防御するPokã©Monの1つに2つのダメージカウンターを入れます。ターン中（攻撃の前に）、SnorlaxがアクティブなPokã©Monである場合、Snorlaxから2つのダメージカウンターを削除し、Snorlaxが眠っています。 Snorlaxが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 

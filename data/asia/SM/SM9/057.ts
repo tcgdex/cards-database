@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オムスター",
+		'ja-jp': "オムスター",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "重いカラが 原因で 滅んだと 考えられている 古代ポケモン。 オクタンの 遠い 祖先 らしい。",
+		'ja-jp': "重いカラが 原因で 滅んだと 考えられている 古代ポケモン。 オクタンの 遠い 祖先 らしい。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かせきのしがらみ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場のポケモンの数が、相手より少ないなら、相手は手札からグッズを出して使えない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の場のポケモンの数が、相手より少ないなら、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オムナイト",
+		'ja-jp': "オムナイト",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルタンク",
+		'ja-jp': "ミルタンク",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "そのミルクは 栄養満点で 高カロリー。 ゆえに 飲みすぎると ミルタンクみたいな 体型に なる。",
+		'ja-jp': "そのミルクは 栄養満点で 高カロリー。 ゆえに 飲みすぎると ミルタンクみたいな 体型に なる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "モーモーエール" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、手札から自分のポケモンにエネルギーをつけるたび、そのポケモンのHPを「90」回復する。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、手札から自分のポケモンにエネルギーをつけるたび、そのポケモンのHPを「90」回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

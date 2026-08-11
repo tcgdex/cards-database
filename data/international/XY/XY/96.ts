@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Xerneas",
-		fr: "Xerneas",
-		es: "Xerneas",
-		it: "Xerneas",
-		pt: "Xerneas",
-		de: "Xerneas"
+		'en-us': "Xerneas",
+		'fr-fr': "Xerneas",
+		'es-es': "Xerneas",
+		'it-it': "Xerneas",
+		'pt-br': "Xerneas",
+		'de-de': "Xerneas"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Geomancy",
-				fr: "Géo-Contrôle",
-				es: "Geocontrol",
-				it: "Geocontrollo",
-				pt: "Geomancia",
-				de: "Geokontrolle"
+				'en-us': "Geomancy",
+				'fr-fr': "Géo-Contrôle",
+				'es-es': "Geocontrol",
+				'it-it': "Geocontrollo",
+				'pt-br': "Geomancia",
+				'de-de': "Geokontrolle"
 			},
 			effect: {
-				en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
-				fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
-				es: "Elige 2 de tus Pokémon en Banca. Para cada uno de esos Pokémon, busca en tu baraja 1 carta de Energía Fairy y únela a ese Pokémon. Baraja las cartas de tu baraja después.",
-				it: "Scegli due dei tuoi Pokémon in panchina. Per ognuno di essi, cerca nel tuo mazzo una carta Energia Fairy e assegnagliela. Poi rimischia le carte del tuo mazzo.",
-				pt: "Escolha 2 dos seus Pokémon no Banco. Para cada um desses Pokémon, procure em seu baralho um card de Energia Fairy e ligue-o a esse Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Wähle 2 Pokémon auf deiner Bank aus. Durchsuche dein Deck nach jeweils 1 Fairy-Energiekarte für jedes dieser Pokémon und lege sie an das jeweilige Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
+				'es-es': "Elige 2 de tus Pokémon en Banca. Para cada uno de esos Pokémon, busca en tu baraja 1 carta de Energía Fairy y únela a ese Pokémon. Baraja las cartas de tu baraja después.",
+				'it-it': "Scegli due dei tuoi Pokémon in panchina. Per ognuno di essi, cerca nel tuo mazzo una carta Energia Fairy e assegnagliela. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Escolha 2 dos seus Pokémon no Banco. Para cada um desses Pokémon, procure em seu baralho um card de Energia Fairy e ligue-o a esse Pokémon. Em seguida, embaralhe seus cards.",
+				'de-de': "Wähle 2 Pokémon auf deiner Bank aus. Durchsuche dein Deck nach jeweils 1 Fairy-Energiekarte für jedes dieser Pokémon und lege sie an das jeweilige Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Spear",
-				fr: "Javelot Arc-En-Ciel",
-				es: "Lanza Arcoíris",
-				it: "Lanciarcobaleno",
-				pt: "Lança Arco-Íris",
-				de: "Regenbogenlanze"
+				'en-us': "Rainbow Spear",
+				'fr-fr': "Javelot Arc-En-Ciel",
+				'es-es': "Lanza Arcoíris",
+				'it-it': "Lanciarcobaleno",
+				'pt-br': "Lança Arco-Íris",
+				'de-de': "Regenbogenlanze"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+		'en-us': "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
 	},
 
 	thirdParty: {

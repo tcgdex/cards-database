@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "軽いサンフロラ",
+		'ja-jp': "軽いサンフロラ",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "反射した日光",
+				'ja-jp': "反射した日光",
 			},
 			effect: {
-				ja: "あなたの手から最大2匹の草のエネルギーカードをあなたの草のポケモンの1つに取り付けます。",
+				'ja-jp': "あなたの手から最大2匹の草のエネルギーカードをあなたの草のポケモンの1つに取り付けます。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "SolarBeam",
+				'ja-jp': "SolarBeam",
 			},
 			damage: 40,
 		},

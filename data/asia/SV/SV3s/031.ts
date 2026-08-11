@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tympole"
+		'id-id': "Tympole"
 	},
 
 	illustrator: "OKUBO",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Tympole berkomunikasi dengan temannya menggunakan gelombang suara. Suara peringatan yang dikeluarkan Pokémon ini tidak terdengar oleh orang dan Pokémon lainnya."
+		'id-id': "Tympole berkomunikasi dengan temannya menggunakan gelombang suara. Suara peringatan yang dikeluarkan Pokémon ini tidak terdengar oleh orang dan Pokémon lainnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Screw Tail"
+			'id-id': "Screw Tail"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 10,

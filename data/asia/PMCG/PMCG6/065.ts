@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのケンタロス",
+		'ja-jp': "カツラのケンタロス",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "3張りの尾",
+				'ja-jp': "3張りの尾",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "全速度充電",
+				'ja-jp': "全速度充電",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ディフェンディングポケモンへのヘッド数が20倍になり、ブレインのタウロスの数が20回ダメージします。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ディフェンディングポケモンへのヘッド数が20倍になり、ブレインのタウロスの数が20回ダメージします。",
 			},
 		},
 	],

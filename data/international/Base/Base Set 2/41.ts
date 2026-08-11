@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
+		'en-us': "Fearow",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
+		'en-us': "Spearow",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
+				'en-us': "Agility",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
 			},
 			damage: 20,
 
@@ -51,7 +51,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
+				'en-us': "Drill Peck",
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+		'en-us': "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
 	},
 
 

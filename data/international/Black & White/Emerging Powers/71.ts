@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	illustrator: "MAHOU",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
 			},
 
 			damage: 20,
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+		'en-us': "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チュリネ",
+		'ja-jp': "チュリネ",
 	},
 
 	illustrator: "mele",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 葉っぱを かじると とても 苦いが 疲れた 体を 元気にする 効果が あるのだ。",
+		'ja-jp': "頭の 葉っぱを かじると とても 苦いが 疲れた 体を 元気にする 効果が あるのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かくれる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{ name: { ja: "このは" }, damage: 10, cost: ["Grass"] },

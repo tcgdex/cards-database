@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		it: "Toedscool",
-		pt: "Toedscool",
-		de: "Tentagra"
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
+		'de-de': "Tentagra"
 	},
 
 	rarity: "Shiny rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Furious Kicks",
-			fr: "Coups de Pied Rageurs",
-			es: "Patadas Furiosas",
-			it: "Calci Furiosi",
-			pt: "Chutes de Fúria",
-			de: "Zorntritte"
+			'en-us': "Furious Kicks",
+			'fr-fr': "Coups de Pied Rageurs",
+			'es-es': "Patadas Furiosas",
+			'it-it': "Calci Furiosi",
+			'pt-br': "Chutes de Fúria",
+			'de-de': "Zorntritte"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+		'en-us': "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
 	},
 
 }

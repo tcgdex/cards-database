@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Morelull",
-		fr: "Spododo",
-		es: "Morelull",
-		it: "Morelull",
-		pt: "Morelull",
-		de: "Bubungus"
+		'en-us': "Morelull",
+		'fr-fr': "Spododo",
+		'es-es': "Morelull",
+		'it-it': "Morelull",
+		'pt-br': "Morelull",
+		'de-de': "Bubungus"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+		'en-us': "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
 	},
 
 	thirdParty: {

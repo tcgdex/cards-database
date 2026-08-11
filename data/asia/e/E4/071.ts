@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Umbreon",
+		'ja-jp': "Umbreon",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "暗い視線",
+				'ja-jp': "暗い視線",
 			},
 			effect: {
-				ja: "UmbreonがあなたのアクティブなPokmonである限り、ベンチ付きPokmon（あなたとあなたの対戦相手）はPok-Powersを使用できません。",
+				'ja-jp': "UmbreonがあなたのアクティブなPokmonである限り、ベンチ付きPokmon（あなたとあなたの対戦相手）はPok-Powersを使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "鋭い爪",
+				'ja-jp': "鋭い爪",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [598],
 
 	name: {
-		en: "Ferrothorn"
+		'en-us': "Ferrothorn"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Ferroseed"
+		'en-us': "Ferroseed"
 	},
 
 	description: {
-		en: "Its spikes are harder than steel. This Pokémon\ncrawls across rock walls by stabbing the spikes\non its feelers into the stone."
+		'en-us': "Its spikes are harder than steel. This Pokémon\ncrawls across rock walls by stabbing the spikes\non its feelers into the stone."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Pummel"
+			'en-us': "Pummel"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 60 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 60 more damage."
 		}
 	}],
 

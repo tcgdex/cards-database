@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "羽を 打ち合わせて 発火。 華麗な ステップを 踏みながら 激しい 炎を 浴びせかけるぞ。",
+		'ja-jp': "羽を 打ち合わせて 発火。 華麗な ステップを 踏みながら 激しい 炎を 浴びせかけるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "じょうねつのダンス" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札にある[炎]タイプのたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]タイプのたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。その後、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。その後、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

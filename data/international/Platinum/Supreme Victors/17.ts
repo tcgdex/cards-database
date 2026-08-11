@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Butterfree FB",
-		fr: "Papilusion ",
-		de: "Smettbo FB"
+		'en-us': "Butterfree FB",
+		'fr-fr': "Papilusion ",
+		'de-de': "Smettbo FB"
 	},
 	illustrator: "Lee HyunJung",
 	rarity: "Rare",
@@ -24,14 +24,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Compound Eyes",
-				fr: "Oeil composé",
-				de: "Facettenauge"
+				'en-us': "Compound Eyes",
+				'fr-fr': "Oeil composé",
+				'de-de': "Facettenauge"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has any Poké-Bodies, each of Butterfree FB's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Si le Pokémon Actif de votre adversaire possède des Poké-Bodies, chacune des attaques de Papilusion  inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
-				de: "Wenn das Aktive Pokémon deines Gegners mindestens 1 Poké-Body hat, fügen alle Angriffe von Smettbo FB den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "If your opponent's Active Pokémon has any Poké-Bodies, each of Butterfree FB's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire possède des Poké-Bodies, chacune des attaques de Papilusion  inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners mindestens 1 Poké-Body hat, fügen alle Angriffe von Smettbo FB den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Select Powder",
-				fr: "Poudre select",
-				de: "Auswahlpuder"
+				'en-us': "Select Powder",
+				'fr-fr': "Poudre select",
+				'de-de': "Auswahlpuder"
 			},
 			effect: {
-				en: "Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition.",
-				fr: "Choisissez Brûlé ou Empoisonné. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
-				de: "Wähle \"verbrannt\" oder \"vergiftet\". Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
+				'en-us': "Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition.",
+				'fr-fr': "Choisissez Brûlé ou Empoisonné. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				'de-de': "Wähle \"verbrannt\" oder \"vergiftet\". Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
 			},
 			damage: 30,
 

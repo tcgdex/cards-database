@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'de-de': "Hippoterus"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Vacuum Sand",
-				fr: "Sable aspirant",
-				de: "Sandsauger"
+				'en-us': "Vacuum Sand",
+				'fr-fr': "Sable aspirant",
+				'de-de': "Sandsauger"
 			},
 			effect: {
-				en: "Search your discard pile for a Fighting Energy card and attach it to Hippowdon.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie Fighting et attachez-la à Hippodocus.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Hippoterus an."
+				'en-us': "Search your discard pile for a Fighting Energy card and attach it to Hippowdon.",
+				'fr-fr': "Cherchez dans votre pile de défausse une carte Énergie Fighting et attachez-la à Hippodocus.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Hippoterus an."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Impact",
-				fr: "Impact sablonneux",
-				de: "Sandiger Einschlag"
+				'en-us': "Sand Impact",
+				'fr-fr': "Impact sablonneux",
+				'de-de': "Sandiger Einschlag"
 			},
 			effect: {
-				en: "Flip a coin for each Fighting Energy attached to Hippowdon. This attack does 50 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à Hippodocus. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 1 Münze für jede an Hippoterus angelegte -Energie. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Fighting Energy attached to Hippowdon. This attack does 50 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Fighting attachée à Hippodocus. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 1 Münze für jede an Hippoterus angelegte -Energie. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
+		'en-us': "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
 	},
 
 	thirdParty: {

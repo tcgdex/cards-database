@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation",
-				de: "Levitate"
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation",
+				'de-de': "Levitate"
 			},
 			effect: {
-				en: "If Metang has any Energy attached to it, Metang's Retreat Cost is 0.",
-				fr: "Si Metang possède des Énergies, son Coût de Retraite est de 0.",
-				de: "If Metang has any Energy attached to it, Metang's Retreat Cost is 0."
+				'en-us': "If Metang has any Energy attached to it, Metang's Retreat Cost is 0.",
+				'fr-fr': "Si Metang possède des Énergies, son Coût de Retraite est de 0.",
+				'de-de': "If Metang has any Energy attached to it, Metang's Retreat Cost is 0."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

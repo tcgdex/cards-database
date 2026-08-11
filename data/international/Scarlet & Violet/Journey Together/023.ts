@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		es: "Combusken",
-		de: "Jungglut",
-		it: "Combusken",
-		pt: "Combusken",
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'es-es': "Combusken",
+		'de-de': "Jungglut",
+		'it-it': "Combusken",
+		'pt-br': "Combusken",
 		'es-mx': "Combusken"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		es: "Torchic",
-		de: "Flemmli",
-		it: "Torchic",
-		pt: "Torchic",
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'es-es': "Torchic",
+		'de-de': "Flemmli",
+		'it-it': "Torchic",
+		'pt-br': "Torchic",
 		'es-mx': "Torchic"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			de: "Schlitzer",
-			it: "Lacerazione",
-			pt: "Talho",
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'de-de': "Schlitzer",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
 			'es-mx': "Cuchillada"
 		},
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Magicarpe",
+		'fr-fr': "Magicarpe",
 	},
 
 	rarity: "None",
@@ -29,11 +29,11 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Éclaboussure"
+				'fr-fr': "Éclaboussure"
 			},
 			damage: "10+",
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
 			}
 		},
 	],

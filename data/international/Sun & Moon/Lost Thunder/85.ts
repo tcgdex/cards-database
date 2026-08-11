@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Tapu Koko",
-		fr: "Tokorico",
-		es: "Tapu Koko",
-		it: "Tapu Koko",
-		pt: "Tapu Koko",
-		de: "Kapu-Riki"
+		'en-us': "Tapu Koko",
+		'fr-fr': "Tokorico",
+		'es-es': "Tapu Koko",
+		'it-it': "Tapu Koko",
+		'pt-br': "Tapu Koko",
+		'de-de': "Kapu-Riki"
 	},
 
 	illustrator: "kawayoo",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strafe",
-				fr: "Bombarder",
-				es: "Pasada de Ataque",
-				it: "Mitragliare",
-				pt: "Bombardear",
-				de: "Beharken"
+				'en-us': "Strafe",
+				'fr-fr': "Bombarder",
+				'es-es': "Pasada de Ataque",
+				'it-it': "Mitragliare",
+				'pt-br': "Bombardear",
+				'de-de': "Beharken"
 			},
 			effect: {
-				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon avec l’un de vos Pokémon de Banc.",
-				es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-				pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon avec l’un de vos Pokémon de Banc.",
+				'es-es': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina.",
+				'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 30,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flashing Bolt",
-				fr: "Éclair Aveuglant",
-				es: "Rayo Destellante",
-				it: "Bolide Abbagliante",
-				pt: "Raio Piscante",
-				de: "Leuchtblitz"
+				'en-us': "Flashing Bolt",
+				'fr-fr': "Éclair Aveuglant",
+				'es-es': "Rayo Destellante",
+				'it-it': "Bolide Abbagliante",
+				'pt-br': "Raio Piscante",
+				'de-de': "Leuchtblitz"
 			},
 			effect: {
-				en: "This Pokémon can’t use Flashing Bolt during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Éclair Aveuglant pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Rayo Destellante durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Bolide Abbagliante.",
-				pt: "Este Pokémon não poderá usar Raio Piscante durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Leuchtblitz während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Flashing Bolt during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Éclair Aveuglant pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Rayo Destellante durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Bolide Abbagliante.",
+				'pt-br': "Este Pokémon não poderá usar Raio Piscante durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Leuchtblitz während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 120,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
+		'en-us': "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
 	},
 
 	thirdParty: {

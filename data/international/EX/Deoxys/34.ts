@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Natural Cure",
-				fr: "Guérison naturelle",
-				de: "Natural Cure"
+				'en-us': "Natural Cure",
+				'fr-fr': "Guérison naturelle",
+				'de-de': "Natural Cure"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux.",
-				de: "When you attach a  Energy card from your hand to Lombre, remove all Special Condition from Lombre."
+				'en-us': "When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux.",
+				'de-de': "When you attach a  Energy card from your hand to Lombre, remove all Special Condition from Lombre."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Blot"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Blot"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Lombre.",
-				fr: "Retirez à Lombre 2 marqueurs de dégât.",
-				de: "Remove 2 damage counters from Lombre"
+				'en-us': "Remove 2 damage counters from Lombre.",
+				'fr-fr': "Retirez à Lombre 2 marqueurs de dégât.",
+				'de-de': "Remove 2 damage counters from Lombre"
 			},
 			damage: 20,
 

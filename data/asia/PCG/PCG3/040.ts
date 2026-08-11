@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "slowpoke",
+		'ja-jp': "slowpoke",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "密集",
+				'ja-jp': "密集",
 			},
 			effect: {
-				ja: "相手の進化したポカモンからの攻撃によってスローポークに与えられた損害は、10（脱力感と抵抗を適用した後）10削減されます。",
+				'ja-jp': "相手の進化したポカモンからの攻撃によってスローポークに与えられた損害は、10（脱力感と抵抗を適用した後）10削減されます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 10,
 		},

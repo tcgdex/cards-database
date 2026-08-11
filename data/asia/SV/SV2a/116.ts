@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タッツー",
+		'ja-jp': "タッツー",
 		'zh-tw': "墨海馬",
-		th: "ทัททู",
-		id: "Horsea",
+		'th-th': "ทัททู",
+		'id-id': "Horsea",
 	},
 
 	illustrator: "aspara",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水中を 踊るように 泳いで 渦を つくる。 仲間と 渦の 大きさを 競って 遊ぶ。",
+		'ja-jp': "水中を 踊るように 泳いで 渦を つくる。 仲間と 渦の 大きさを 競って 遊ぶ。",
 		'zh-tw': "會在水中跳舞似地游動來製造漩渦。玩耍時會和夥伴 比賽誰做出的漩渦比較大。",
-		th: "ว่ายน้ำราวกับเต้นระบำอยู่ในน้ำทำให้เกิดน้ำวน จะแข่งกับพวกพ้องสร้างน้ำวนขนาดใหญ่เล่นกัน",
-		id: "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar.",
+		'th-th': "ว่ายน้ำราวกับเต้นระบำอยู่ในน้ำทำให้เกิดน้ำวน จะแข่งกับพวกพ้องสร้างน้ำวนขนาดใหญ่เล่นกัน",
+		'id-id': "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar.",
 	},
 
 	stage: "Basic",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みずかけ",
+				'ja-jp': "みずかけ",
 				'zh-tw': "潑水",
-				th: "สาดน้ำ",
-				id: "Guyuran Air",
+				'th-th': "สาดน้ำ",
+				'id-id': "Guyuran Air",
 			},
 			damage: 10,
 			cost: ["Water"],
 		},
 		{
 			name: {
-				ja: "するどいひれ",
+				'ja-jp': "するどいひれ",
 				'zh-tw': "銳利鰭",
-				th: "ครีบแหลมคม",
-				id: "Sirip Tajam",
+				'th-th': "ครีบแหลมคม",
+				'id-id': "Sirip Tajam",
 			},
 			damage: 40,
 			cost: ["Water", "Colorless", "Colorless"],

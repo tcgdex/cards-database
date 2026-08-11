@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	rarity: "Shiny rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Blazing Destruction",
-			fr: "Destruction Ardente",
-			es: "Destrucción Abrasadora",
-			it: "Raso al Fuoco",
-			pt: "Destruição Flamejante",
-			de: "Feurige Verwüstung"
+			'en-us': "Blazing Destruction",
+			'fr-fr': "Destruction Ardente",
+			'es-es': "Destrucción Abrasadora",
+			'it-it': "Raso al Fuoco",
+			'pt-br': "Destruição Flamejante",
+			'de-de': "Feurige Verwüstung"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			es: "Descarta 1 Estadio en juego.",
-			it: "Scarta una carta Stadio in gioco.",
-			pt: "Descarte um Estádio em jogo.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+			'en-us': "Discard a Stadium in play.",
+			'fr-fr': "Défaussez un Stade en jeu.",
+			'es-es': "Descarta 1 Estadio en juego.",
+			'it-it': "Scarta una carta Stadio in gioco.",
+			'pt-br': "Descarte um Estádio em jogo.",
+			'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante",
-			de: "Stetiger Feuerhauch"
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'es-es': "Lanzallamas Continuo",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante",
+			'de-de': "Stetiger Feuerhauch"
 		},
 
 		damage: 30
@@ -78,7 +78,7 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 
 }

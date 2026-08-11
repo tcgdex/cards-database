@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのナゾノクサ",
+		'ja-jp': "エリカのナゾノクサ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "奇妙な粉",
+				'ja-jp': "奇妙な粉",
 			},
 			effect: {
-				ja: "コインをひっくり返します。  頭の場合、防御ポケモンは混乱しています。尾の場合、防御ポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。  頭の場合、防御ポケモンは混乱しています。尾の場合、防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},

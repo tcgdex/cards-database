@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Dawn Stadium",
-		fr: "Stade crépuscule",
-		de: "Morgen-Stadion"
+		'en-us': "Dawn Stadium",
+		'fr-fr': "Stade crépuscule",
+		'de-de': "Morgen-Stadion"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Whenever any player attaches an Energy card from his or her hand to Grass Pokémon or Water Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon.",
-		fr: "Lorsqu'un joueur attache une carte Énergie de sa main à un Pokémon Plante ou Eau, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux.",
-		de: "Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein - oder -Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon.",
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Whenever any player attaches an Energy card from his or her hand to Grass Pokémon or Water Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon.",
+		'fr-fr': "Lorsqu'un joueur attache une carte Énergie de sa main à un Pokémon Plante ou Eau, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux.",
+		'de-de': "Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein - oder -Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon.",
 	},
 
 	trainerType: "Stadium",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シトロンの機転",
+		'ja-jp': "シトロンの機転",
 	},
 
 	illustrator: "Naoki Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の[L]ポケモン全員のHPを、それぞれ「60」回復する。",
+		'ja-jp': "自分の[L]ポケモン全員のHPを、それぞれ「60」回復する。",
 	},
 
 	variants: [

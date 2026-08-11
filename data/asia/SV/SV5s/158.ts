@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Arbok"
+		'id-id': "Arbok"
 	},
 
 	illustrator: "OKUBO",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Pola di perutnya terlihat seperti wajah menakutkan. Musuh yang lemah akan melarikan diri hanya dengan melihat pola tersebut."
+		'id-id': "Pola di perutnya terlihat seperti wajah menakutkan. Musuh yang lemah akan melarikan diri hanya dengan melihat pola tersebut."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Racun Panik"
+			'id-id': "Racun Panik"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun, Luka Bakar, dan Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun, Luka Bakar, dan Pusing."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Taring Kegelapan"
+			'id-id': "Taring Kegelapan"
 		},
 
 		damage: 70,

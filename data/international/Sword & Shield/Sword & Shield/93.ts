@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		es: "Dugtrio",
-		it: "Dugtrio",
-		pt: "Dugtrio",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'es-es': "Dugtrio",
+		'it-it': "Dugtrio",
+		'pt-br': "Dugtrio",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 
 	stage: "Stage1",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Bomb",
-				fr: "Boue-Bombe",
-				es: "Bomba Fango",
-				it: "Pantanobomba",
-				pt: "Bomba de Lama",
-				de: "Schlammbombe"
+				'en-us': "Mud Bomb",
+				'fr-fr': "Boue-Bombe",
+				'es-es': "Bomba Fango",
+				'it-it': "Pantanobomba",
+				'pt-br': "Bomba de Lama",
+				'de-de': "Schlammbombe"
 			},
 
 			damage: 60,
@@ -69,7 +69,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+		'en-us': "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
 	},
 
 	dexId: [51],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growl",
-				fr: "Rugissement",
-				de: "Heuler"
+				'en-us': "Growl",
+				'fr-fr': "Rugissement",
+				'de-de': "Heuler"
 			},
 			effect: {
-				en: "If the Defending Pokémon attacks Chikorita during your opponent's next turn, any damage done to Chikorita is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)",
-				fr: "Si le Pokémon Défenseur attaque Germignon pendant le prochain tour de votre adversaire, les dégâts infligés à Germignon sont réduits de 10 (avant application de la Faiblesse et de la Résistance). (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "Falls das Verteidigende Pokémon Endivie während des nächsten Zuges deines Gegners angreift, werden alle Endivie zugefügten Schadenspunkte um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden.(Kommt eines der beiden Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
+				'en-us': "If the Defending Pokémon attacks Chikorita during your opponent's next turn, any damage done to Chikorita is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)",
+				'fr-fr': "Si le Pokémon Défenseur attaque Germignon pendant le prochain tour de votre adversaire, les dégâts infligés à Germignon sont réduits de 10 (avant application de la Faiblesse et de la Résistance). (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
+				'de-de': "Falls das Verteidigende Pokémon Endivie während des nächsten Zuges deines Gegners angreift, werden alle Endivie zugefügten Schadenspunkte um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden.(Kommt eines der beiden Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 20,
@@ -68,8 +68,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
-		fr: "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
+		'en-us': "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
+		'fr-fr': "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
 	},
 
 

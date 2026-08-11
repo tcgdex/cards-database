@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buzzwole ex",
-		fr: "Mouscoto-ex"
+		'en-us': "Buzzwole ex",
+		'fr-fr': "Mouscoto-ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -21,24 +21,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Big Beat",
-			fr: "Breakbeat"
+			'en-us': "Big Beat",
+			'fr-fr': "Breakbeat"
 		},
 
 		damage: 120,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Big Beat.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Breakbeat."
+			'en-us': "During your next turn, this Pokémon can't use Big Beat.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Breakbeat."
 		}
 	}],
 

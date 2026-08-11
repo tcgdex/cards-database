@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラエッテ",
+		'ja-jp': "フラエッテ",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "花を 育て 自分の 武器として 利用。 美しく咲いた 花ほど 強力なパワーを 秘めている。",
+		'ja-jp': "花を 育て 自分の 武器として 利用。 美しく咲いた 花ほど 強力なパワーを 秘めている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はなつみ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 	},
 
 	retreat: 1,

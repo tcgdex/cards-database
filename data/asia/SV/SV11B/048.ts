@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地中を 掘り進む スピードは 時速５０キロ以上。 地上を 走る 自動車と いい勝負。",
+		'ja-jp': "地中を 掘り進む スピードは 時速５０キロ以上。 地上を 走る 自動車と いい勝負。",
 	},
 
 	stage: "Basic",

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โกลแบท",
-		id: "Golbat"
+		'th-th': "โกลแบท",
+		'id-id': "Golbat"
 	},
 
 	illustrator: "Teeziro",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "เลือดของสิ่งมีชีวิตคือของโปรด กล่าวกันว่ามีการแบ่งเลือดที่สูบมาได้ให้กับเพื่อนพ้องที่หิวโหยด้วย",
-		id: "Cairan darah makhluk hidup adalah makanan favoritnya. Kabarnya Golbat kadang juga membagikan darah yang telah diisap kepada sesamanya yang kelaparan."
+		'th-th': "เลือดของสิ่งมีชีวิตคือของโปรด กล่าวกันว่ามีการแบ่งเลือดที่สูบมาได้ให้กับเพื่อนพ้องที่หิวโหยด้วย",
+		'id-id': "Cairan darah makhluk hidup adalah makanan favoritnya. Kabarnya Golbat kadang juga membagikan darah yang telah diisap kepada sesamanya yang kelaparan."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "บินเร็วจี๋",
-			id: "Terbang Cepat"
+			'th-th': "บินเร็วจี๋",
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 30,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			th: "ดาบทมิฬ",
-			id: "Pisau Hitam Kelam"
+			'th-th': "ดาบทมิฬ",
+			'id-id': "Pisau Hitam Kelam"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 80,

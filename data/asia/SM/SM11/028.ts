@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコ",
+		'ja-jp': "カプ・コケコ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "守り神と 呼ばれるが 気分を 害する 人間や ポケモンには 襲い掛かる 荒ぶる神 でもある。",
+		'ja-jp': "守り神と 呼ばれるが 気分を 害する 人間や ポケモンには 襲い掛かる 荒ぶる神 でもある。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ウルトラビースト」なら、100ダメージ追加。その場合、このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンが「ウルトラビースト」なら、100ダメージ追加。その場合、このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],

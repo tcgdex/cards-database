@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "暑いときには ６本の 尻尾で 氷の礫を 作り あたりに ばらまいて 身体を 冷やす。",
+		'ja-jp': "暑いときには ６本の 尻尾で 氷の礫を 作り あたりに ばらまいて 身体を 冷やす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひみつのうらみち" },
 			effect: {
-				ja: "自分の場に[妖]ポケモンがいるなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "自分の場に[妖]ポケモンがいるなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],

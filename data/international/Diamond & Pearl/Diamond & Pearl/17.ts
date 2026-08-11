@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Torterra",
-		fr: "Torterra",
-		de: "Chelterrar"
+		'en-us': "Torterra",
+		'fr-fr': "Torterra",
+		'de-de': "Chelterrar"
 	},
 
 	illustrator: "Masahiko Ishii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grotle",
-		fr: "Boskara",
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Storm",
-				fr: "Tempêteverte",
-				de: "Blättersturm"
+				'en-us': "Leaf Storm",
+				'fr-fr': "Tempêteverte",
+				'de-de': "Blättersturm"
 			},
 			effect: {
-				en: "Remove 2 damage counters from each of your Grass Pokémon.",
-				fr: "Retirez 2 marqueurs de dégât à chacun de vos Pokémon Grass.",
-				de: "Entferne 2 Schadensmarken von jedem deiner -Pokémon."
+				'en-us': "Remove 2 damage counters from each of your Grass Pokémon.",
+				'fr-fr': "Retirez 2 marqueurs de dégât à chacun de vos Pokémon Grass.",
+				'de-de': "Entferne 2 Schadensmarken von jedem deiner -Pokémon."
 			},
 			damage: 60,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+		'en-us': "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
 	},
 
 	thirdParty: {

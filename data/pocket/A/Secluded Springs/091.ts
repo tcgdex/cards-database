@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly.\nEven rain can't extinguish the fire.",
-		fr: "La flamme de sa queue est alimentée par un gaz de son estomac. Même la pluie ne saurait l'éteindre."
+		'en-us': "Its fiery rear end is fueled by gas made in its belly.\nEven rain can't extinguish the fire.",
+		'fr-fr': "La flamme de sa queue est alimentée par un gaz de son estomac. Même la pluie ne saurait l'éteindre."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Scratch",
-			fr: "Griffe"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe"
 		},
 
 		damage: 20,

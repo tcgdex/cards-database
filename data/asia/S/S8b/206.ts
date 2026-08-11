@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘルガー",
+		'ja-jp': "ヘルガー",
 	},
 
 	illustrator: "NC Empire",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "不気味な 遠吠えが 特徴。 昔の 人は 地獄 からの 使いと 考え 恐れていた。",
+		'ja-jp': "不気味な 遠吠えが 特徴。 昔の 人は 地獄 からの 使いと 考え 恐れていた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いちげきのほうこう" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「いちげきエネルギー」を1枚選び、自分の「いちげき」のポケモンにつける。そして山札を切る。その後、つけたポケモンにダメカンを2個のせる。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「いちげきエネルギー」を1枚選び、自分の「いちげき」のポケモンにつける。そして山札を切る。その後、つけたポケモンにダメカンを2個のせる。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 	},
 
 	retreat: 2,

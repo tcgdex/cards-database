@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		de: "Grillchita",
-		it: "Simisear",
-		pt: "Simisear",
-		es: "Simisear",
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'de-de': "Grillchita",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'es-es': "Simisear",
 		'es-mx': "Simisear"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
-		de: "Grillmak",
-		it: "Pansear",
-		pt: "Pansear",
-		es: "Pansear",
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'de-de': "Grillmak",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'es-es': "Pansear",
 		'es-mx': "Pansear"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			es: "Bofetada Gentil",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'es-es': "Bofetada Gentil",
 			'es-mx': "Cachetadita"
 		},
 

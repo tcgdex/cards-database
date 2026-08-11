@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Goldeen.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissirène.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Goldini zu."
+				'en-us': "Does 10 damage times the number of damage counters on Goldeen.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissirène.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Goldini zu."
 			},
 			damage: "10x",
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Furienschlag"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Furienschlag"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn."
+		'en-us': "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn."
 	},
 
 	variants: [

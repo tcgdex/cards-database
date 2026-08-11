@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジロック",
+		'ja-jp': "レジロック",
 		'zh-tw': "雷吉洛克",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体の あらゆる 部分が 岩で できている。 体が 削れても 自分で 岩を つけて 治す。",
+		'ja-jp': "体の あらゆる 部分が 岩で できている。 体が 削れても 自分で 岩を つけて 治す。",
 		'zh-tw': "全身所有部分都是由岩石構成。即使身體有磨損， 也能自己補上岩石修復。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "レジゲート",
+				'ja-jp': "レジゲート",
 				'zh-tw': "雷吉之門",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ギガインパクト",
+				'ja-jp': "ギガインパクト",
 				'zh-tw': "終極衝擊",
 			},
 			damage: 140,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},

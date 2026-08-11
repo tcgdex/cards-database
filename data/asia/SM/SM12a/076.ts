@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "１０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。",
+		'ja-jp': "１０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うらみだめ" },
 			effect: {
-				ja: "自分の番に1回使える。このポケモンにダメカンを1個のせる。",
+				'ja-jp': "自分の番に1回使える。このポケモンにダメカンを1個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x30ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数x30ダメージ追加。",
 			},
 		},
 	],

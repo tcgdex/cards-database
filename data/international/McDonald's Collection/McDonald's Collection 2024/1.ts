@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		es: "Charizard",
-		it: "Charizard",
-		pt: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'es-es': "Charizard",
+		'it-it': "Charizard",
+		'pt-br': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -25,22 +25,22 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Battle Sense"
+				'en-us': "Battle Sense"
 			},
 			effect: {
-				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
+				'en-us': "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
 			}
 		}
 	],
@@ -49,11 +49,11 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				en: "Royal Blaze",
+				'en-us': "Royal Blaze",
 			},
 			damage: "100+",
 			effect: {
-				en: "This attack does 50 more damage for each Leon card in your discard pile.",
+				'en-us': "This attack does 50 more damage for each Leon card in your discard pile.",
 			},
 		},
 	],

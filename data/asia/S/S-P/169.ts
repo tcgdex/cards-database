@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーンVMAX",
+		'ja-jp': "エースバーンVMAX",
 		'zh-tw': "頭蓋龍",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイカキュウ",
+				'ja-jp': "キョダイカキュウ",
 				'zh-tw': "衝撞",
 			},
 			damage: 230,
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エースバーンV",
+		'ja-jp': "エースバーンV",
 	},
 
 	retreat: 2,

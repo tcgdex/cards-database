@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "１００メートル以内の ものを 吹き飛ばす ほどの サイコパワーを うまく コントロール できないのだ。",
+		'ja-jp': "１００メートル以内の ものを 吹き飛ばす ほどの サイコパワーを うまく コントロール できないのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エネじゃらし" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のベンチポケモンについているエネルギーを1個、相手の別のポケモンにつけ替える。",
+				'ja-jp': "相手のベンチポケモンについているエネルギーを1個、相手の別のポケモンにつけ替える。",
 			},
 		},
 	],

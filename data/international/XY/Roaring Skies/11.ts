@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Shedinja",
-		fr: "Munja",
-		es: "Shedinja",
-		it: "Shedinja",
-		pt: "Shedinja",
-		de: "Ninjatom"
+		'en-us': "Shedinja",
+		'fr-fr': "Munja",
+		'es-es': "Shedinja",
+		'it-it': "Shedinja",
+		'pt-br': "Shedinja",
+		'de-de': "Ninjatom"
 	},
 
 	illustrator: "Aya Kusube",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nincada",
-		fr: "Ningale",
-		es: "Nincada",
-		it: "Nincada",
-		pt: "Nincada",
-		de: "Nincada"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'es-es': "Nincada",
+		'it-it': "Nincada",
+		'pt-br': "Nincada",
+		'de-de': "Nincada"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Cursed Rain",
-				fr: "Pluie Ensorcelée",
-				es: "Lluvia Maldita",
-				it: "Pioggia Maledetta",
-				pt: "Chuva Amaldiçoada",
-				de: "Verfluchter Regen"
+				'en-us': "Cursed Rain",
+				'fr-fr': "Pluie Ensorcelée",
+				'es-es': "Lluvia Maldita",
+				'it-it': "Pioggia Maledetta",
+				'pt-br': "Chuva Amaldiçoada",
+				'de-de': "Verfluchter Regen"
 			},
 			effect: {
-				en: "Put 1 damage counter on each of your opponent's Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Pon 1 contador de daño en cada uno de los Pokémon de tu rival. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Metti un segnalino danno su ciascuno dei Pokémon del tuo avversario. Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Coloque 1 contador de danos em cada um dos Pokémon do seu oponente. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Schadensmarke auf jedes Pokémon deines Gegners. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Put 1 damage counter on each of your opponent's Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Pon 1 contador de daño en cada uno de los Pokémon de tu rival. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Metti un segnalino danno su ciascuno dei Pokémon del tuo avversario. Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Coloque 1 contador de danos em cada um dos Pokémon do seu oponente. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Lege 1 Schadensmarke auf jedes Pokémon deines Gegners. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hopeless Scream",
-				fr: "Cri de Désespoir",
-				es: "Grito Desesperado",
-				it: "Urla Disperate",
-				pt: "Grito do Desespero",
-				de: "Schrei der Verzweiflung"
+				'en-us': "Hopeless Scream",
+				'fr-fr': "Cri de Désespoir",
+				'es-es': "Grito Desesperado",
+				'it-it': "Urla Disperate",
+				'pt-br': "Grito do Desespero",
+				'de-de': "Schrei der Verzweiflung"
 			},
 			effect: {
-				en: "This attack does 50 damage times the number of damage counters on this Pokémon.",
-				fr: "Cette attaque inflige 50 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
-				es: "Este ataque hace 50 puntos de daño por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 50 danni per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 50 de danos vezes o número de contadores de danos neste Pokémon.",
-				de: "Dieser Angriff fügt 50 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+				'en-us': "This attack does 50 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 50 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'es-es': "Este ataque hace 50 puntos de daño por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 50 danni per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 50 de danos vezes o número de contadores de danos neste Pokémon.",
+				'de-de': "Dieser Angriff fügt 50 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: "50×",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.",
+		'en-us': "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.",
 	},
 
 	thirdParty: {

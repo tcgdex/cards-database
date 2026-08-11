@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Rhyhorn does 10 damage to itself.",
-				fr: "Rhinocorne s'inflige 10 dégâts.",
-				de: "Rihorn fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Rhyhorn does 10 damage to itself.",
+				'fr-fr': "Rhinocorne s'inflige 10 dégâts.",
+				'de-de': "Rihorn fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -76,8 +76,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
-		fr: "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
+		'en-us': "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
+		'fr-fr': "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
 	},
 
 	thirdParty: {

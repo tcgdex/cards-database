@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "Ω（オメガ）連打" },
 			effect: {
-				ja: "このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）",
+				'ja-jp': "このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）",
 			},
 		},
 	],
@@ -29,14 +29,14 @@ const card: Card = {
 			name: { ja: "ほるほる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "たがやす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから好きなカードを1枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
+				'ja-jp': "自分のトラッシュから好きなカードを1枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
 			},
 		},
 	],

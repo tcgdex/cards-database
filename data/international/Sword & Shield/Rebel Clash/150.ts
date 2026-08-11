@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [760],
 
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		es: "Bewear",
-		it: "Bewear",
-		pt: "Bewear",
-		de: "Kosturso"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'es-es': "Bewear",
+		'it-it': "Bewear",
+		'pt-br': "Bewear",
+		'de-de': "Kosturso"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	attacks: [
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
-				es: "Machada",
-				it: "Martelpugno",
-				pt: "Braço de Martelo",
-				de: "Hammerarm"
+				'en-us': "Hammer Arm",
+				'fr-fr': "Marto-Poing",
+				'es-es': "Machada",
+				'it-it': "Martelpugno",
+				'pt-br': "Braço de Martelo",
+				'de-de': "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Throw",
-				fr: "Grand Lancer",
-				es: "Gran Lanzamiento",
-				it: "Gran Lancio",
-				pt: "Arremessão",
-				de: "Großer Wurf"
+				'en-us': "Big Throw",
+				'fr-fr': "Grand Lancer",
+				'es-es': "Gran Lanzamiento",
+				'it-it': "Gran Lancio",
+				'pt-br': "Arremessão",
+				'de-de': "Großer Wurf"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard your opponent's Active Pokémon and all attached cards.",
-				fr: "Lancez une pièce. Si c'est face, défaussez le Pokémon Actif de votre adversaire et toutes les cartes attachées.",
-				es: "Lanza 1 moneda. Si sale cara, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
-				it: "Lancia una moneta. Se esce testa, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
-				pt: "Jogue 1 moeda. Se sair cara, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele.",
-				de: "Wirf 1 Münze. Lege bei Kopf das Aktive Pokémon deines Gegners und alle angelegten Karten auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard your opponent's Active Pokémon and all attached cards.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez le Pokémon Actif de votre adversaire et toutes les cartes attachées.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf das Aktive Pokémon deines Gegners und alle angelegten Karten auf seinen Ablagestapel."
 			},
 
 		},
@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
+		'en-us': "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S4a',
 	name: {
-		ja: 'シャイニースターV',
-		ko: '샤이니스타V',
+		'ja-jp': 'シャイニースターV',
+		'ko-kr': '샤이니스타V',
 		'zh-tw': '閃色明星V',
 	},
 
@@ -15,7 +15,7 @@ const set: Set = {
 		official: 190
 	},
 	releaseDate: {
-		ja: '2020-11-20',
+		'ja-jp': '2020-11-20',
 		'zh-tw': '2020-11-27'
 	},
 

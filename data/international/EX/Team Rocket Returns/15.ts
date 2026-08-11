@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonite",
-		de: "Dunkles Dragoran"
+		'en-us': "Dark Dragonite",
+		'de-de': "Dunkles Dragoran"
 	},
 
 	illustrator: "Nakaoka",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dark Dragonair",
+		'en-us': "Dark Dragonair",
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Dark Trance",
-				de: "Dark Trance"
+				'en-us': "Dark Trance",
+				'de-de': "Dark Trance"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Darkness Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition.\"",
-				de: "As often as you like during your turn (before your attack), you may move a  Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Darkness Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition.\"",
+				'de-de': "As often as you like during your turn (before your attack), you may move a  Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Dark Dragonite is affected by a Special Condition."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Double Wing Attack",
-				de: "Double Wing Attack"
+				'en-us': "Double Wing Attack",
+				'de-de': "Double Wing Attack"
 			},
 			effect: {
-				en: "Does 30 damage to each Defending Pokémon.",
-				de: "Does 30 damage to each Defending Pokémon."
+				'en-us': "Does 30 damage to each Defending Pokémon.",
+				'de-de': "Does 30 damage to each Defending Pokémon."
 			},
 
 		},
@@ -65,8 +65,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Swipe",
-				de: "Claw Swipe"
+				'en-us': "Claw Swipe",
+				'de-de': "Claw Swipe"
 			},
 
 			damage: 50,

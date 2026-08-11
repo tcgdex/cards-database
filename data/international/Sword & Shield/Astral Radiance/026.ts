@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatran VMAX",
-		fr: "Heatran VMAX",
-		es: "Heatran VMAX",
-		it: "Heatran VMAX",
-		pt: "Heatran VMAX",
-		de: "Heatran VMAX"
+		'en-us': "Heatran VMAX",
+		'fr-fr': "Heatran VMAX",
+		'es-es': "Heatran VMAX",
+		'it-it': "Heatran VMAX",
+		'pt-br': "Heatran VMAX",
+		'de-de': "Heatran VMAX"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Heatran V",
-		fr: "Heatran-V",
-		es: "Heatran V",
-		it: "Heatran-V",
-		pt: "Heatran V",
-		de: "Heatran-V"
+		'en-us': "Heatran V",
+		'fr-fr': "Heatran-V",
+		'es-es': "Heatran V",
+		'it-it': "Heatran-V",
+		'pt-br': "Heatran V",
+		'de-de': "Heatran-V"
 	},
 
 	stage: "VMAX",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Magma Gain",
-			fr: "Gain Magma",
-			es: "Ganancia Magma",
-			it: "Magmacura",
-			pt: "Ganho de Magma",
-			de: "Magmagewinn"
+			'en-us': "Magma Gain",
+			'fr-fr': "Gain Magma",
+			'es-es': "Ganancia Magma",
+			'it-it': "Magmacura",
+			'pt-br': "Ganho de Magma",
+			'de-de': "Magmagewinn"
 		},
 
 		effect: {
-			en: "Once during your turn, if you have a Stadium in play, you may heal 50 damage from this Pokémon.",
-			fr: "Une fois pendant votre tour, si vous avez un Stade en jeu, vous pouvez soigner 50 dégâts de ce Pokémon.",
-			es: "Una vez durante tu turno, si tienes un Estadio en juego, puedes curar 50 puntos de daño a este Pokémon.",
-			it: "Una sola volta durante il tuo turno, se hai in gioco una carta Stadio, puoi curare questo Pokémon da 50 danni.",
-			pt: "Uma vez durante o seu turno, se você tiver um Estádio em jogo, você poderá curar 50 pontos de dano deste Pokémon.",
-			de: "Einmal während deines Zuges, wenn du eine Stadionkarte im Spiel hast, kannst du 50 Schadenspunkte bei diesem Pokémon heilen."
+			'en-us': "Once during your turn, if you have a Stadium in play, you may heal 50 damage from this Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, si vous avez un Stade en jeu, vous pouvez soigner 50 dégâts de ce Pokémon.",
+			'es-es': "Una vez durante tu turno, si tienes un Estadio en juego, puedes curar 50 puntos de daño a este Pokémon.",
+			'it-it': "Una sola volta durante il tuo turno, se hai in gioco una carta Stadio, puoi curare questo Pokémon da 50 danni.",
+			'pt-br': "Uma vez durante o seu turno, se você tiver um Estádio em jogo, você poderá curar 50 pontos de dano deste Pokémon.",
+			'de-de': "Einmal während deines Zuges, wenn du eine Stadionkarte im Spiel hast, kannst du 50 Schadenspunkte bei diesem Pokémon heilen."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Max Heat Burst",
-			fr: "Éruptiomax",
-			es: "Maxiestallido Ígneo",
-			it: "Dynascoppio Rovente",
-			pt: "Explosão de Calor Max",
-			de: "Dyna-Hitze-Detonation"
+			'en-us': "Max Heat Burst",
+			'fr-fr': "Éruptiomax",
+			'es-es': "Maxiestallido Ígneo",
+			'it-it': "Dynascoppio Rovente",
+			'pt-br': "Explosão de Calor Max",
+			'de-de': "Dyna-Hitze-Detonation"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 180

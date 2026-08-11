@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../McDonald\'s Collection'
 
 const s2021swsh: Set = {
 	id: "2021swsh",
 
 	name: {
-		en: "McDonald's Collection 2021",
-		fr: "Collection McDonald's 2021",
-		es: "Colección de McDonald's 2021",
-		it: "McDonald's Collection 2021",
-		de: "McDonald’s Kollektion 2021",
+		'en-us': "McDonald's Collection 2021",
+		'fr-fr': "Collection McDonald's 2021",
+		'es-es': "Colección de McDonald's 2021",
+		'it-it': "McDonald's Collection 2021",
+		'de-de': "McDonald’s Kollektion 2021",
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const s2021swsh: Set = {
 
 	abbreviations: {
 		official: "MCD21",
-		fr: "M21"
+		'fr-fr': "M21"
 	}
 }
 

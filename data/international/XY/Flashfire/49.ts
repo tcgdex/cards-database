@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Barbaracle",
-		fr: "Golgopathe",
-		es: "Barbaracle",
-		it: "Barbaracle",
-		pt: "Barbaracle",
-		de: "Thanathora"
+		'en-us': "Barbaracle",
+		'fr-fr': "Golgopathe",
+		'es-es': "Barbaracle",
+		'it-it': "Barbaracle",
+		'pt-br': "Barbaracle",
+		'de-de': "Thanathora"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
-		it: "Binacle",
-		pt: "Binacle",
-		de: "Bithora"
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
+		'it-it': "Binacle",
+		'pt-br': "Binacle",
+		'de-de': "Bithora"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Rush",
-				fr: "Déferlante Rocheuse",
-				es: "Embestida de Rocas",
-				it: "Rocciafuria",
-				pt: "Arremetida de Pedras",
-				de: "Steinrutsche"
+				'en-us': "Rock Rush",
+				'fr-fr': "Déferlante Rocheuse",
+				'es-es': "Embestida de Rocas",
+				'it-it': "Rocciafuria",
+				'pt-br': "Arremetida de Pedras",
+				'de-de': "Steinrutsche"
 			},
 			effect: {
-				en: "Discard as many Fighting Energy cards as you like from your hand. This attack does 30 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez autant de cartes Énergie Fighting que vous voulez de votre main. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
-				es: "Descarta tantas cartas de Energía Fighting como quieras de tu mano. Este ataque hace 30 puntos de daño por cada carta de Energía que hayas descartado.",
-				it: "Scarta tutte le carte Energia Fighting che vuoi dalla tua mano. Questo attacco infligge 30 danni per ogni carta Energia che hai scartato.",
-				pt: "Descarte tantos cards de Energia Fighting quanto desejar da sua mão. Esse ataque causa 30 de danos vezes o número de cards de Energia descartados.",
-				de: "Lege beliebig viele Fighting-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte für jede der von dir abgelegten Energiekarten zu."
+				'en-us': "Discard as many Fighting Energy cards as you like from your hand. This attack does 30 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez autant de cartes Énergie Fighting que vous voulez de votre main. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				'es-es': "Descarta tantas cartas de Energía Fighting como quieras de tu mano. Este ataque hace 30 puntos de daño por cada carta de Energía que hayas descartado.",
+				'it-it': "Scarta tutte le carte Energia Fighting che vuoi dalla tua mano. Questo attacco infligge 30 danni per ogni carta Energia che hai scartato.",
+				'pt-br': "Descarte tantos cards de Energia Fighting quanto desejar da sua mão. Esse ataque causa 30 de danos vezes o número de cards de Energia descartados.",
+				'de-de': "Lege beliebig viele Fighting-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte für jede der von dir abgelegten Energiekarten zu."
 			},
 			damage: "30×",
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
-				es: "Alud de Rocas",
-				it: "Macignata",
-				pt: "Rocha Esmagadora",
-				de: "Felsenquetscher"
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
+				'es-es': "Alud de Rocas",
+				'it-it': "Macignata",
+				'pt-br': "Rocha Esmagadora",
+				'de-de': "Felsenquetscher"
 			},
 
 			damage: 80,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+		'en-us': "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
 	},
 
 	thirdParty: {

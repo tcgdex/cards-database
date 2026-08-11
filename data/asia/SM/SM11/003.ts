@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィ",
+		'ja-jp': "セレビィ",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。",
+		'ja-jp': "時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "タイムスパイラル" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手の進化しているポケモン1匹から、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の山札にもどして切る。",
+				'ja-jp': "相手の進化しているポケモン1匹から、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

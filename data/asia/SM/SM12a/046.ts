@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼブライカ",
+		'ja-jp': "ゼブライカ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。",
+		'ja-jp': "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はやがけ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札をすべてトラッシュし、山札を4枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札をすべてトラッシュし、山札を4枚引く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シママ",
+		'ja-jp': "シママ",
 	},
 
 	retreat: 1,

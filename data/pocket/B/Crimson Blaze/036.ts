@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [683],
 
 	name: {
-		en: "Aromatisse"
+		'en-us': "Aromatisse"
 	},
 
 	illustrator: "Mizue",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Spritzee"
+		'en-us': "Spritzee"
 	},
 
 	description: {
-		en: "The scents Aromatisse can produce range from\nsweet smells that bolster allies to foul smells\nthat sap an opponent's will to fight."
+		'en-us': "The scents Aromatisse can produce range from\nsweet smells that bolster allies to foul smells\nthat sap an opponent's will to fight."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Perfume Blast"
+			'en-us': "Perfume Blast"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, attacks used by the Defending Pokémon cost 1 {C} more."
+			'en-us': "During your opponent's next turn, attacks used by the Defending Pokémon cost 1 {C} more."
 		}
 	}],
 

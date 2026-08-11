@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "match",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The magma in its body reaches 2,200 degrees F. Its hump gets smaller when it uses Fire-type moves.",
+		'en-us': "The magma in its body reaches 2,200 degrees F. Its hump gets smaller when it uses Fire-type moves.",
 	},
 
 	thirdParty: {

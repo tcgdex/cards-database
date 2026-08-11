@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルージュラ"
+		'ja-jp': "ルージュラ"
 	},
 	illustrator: "Minahamu",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
 	description: {
-		ja: "人間の言葉のような不思議な鳴き声。ルージュラに歌わせる曲を作る音楽家もいる。"
+		'ja-jp': "人間の言葉のような不思議な鳴き声。ルージュラに歌わせる曲を作る音楽家もいる。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "サイコキネシス"
+			'ja-jp': "サイコキネシス"
 		},
 		damage: "30+",
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
 		},
 		cost: ["Psychic", "Psychic"]
 	}],

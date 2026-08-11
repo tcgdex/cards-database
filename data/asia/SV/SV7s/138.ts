@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิเทรุกุมะ",
-		id: "Bewear"
+		'th-th': "คิเทรุกุมะ",
+		'id-id': "Bewear"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เมื่อยอมรับเป็นพวกพ้อง จะกอดรัดเพื่อแสดงความรัก แต่อันตรายเพราะกระดูกอาจแหลกเป็นผงได้",
-		id: "Jika Bewear mengakui seseorang sebagai teman, ia akan memeluknya sebagai ungkapan kasih sayang. Akan tetapi, pelukannya sangat berbahaya karena dapat menghancurkan tulangmu."
+		'th-th': "เมื่อยอมรับเป็นพวกพ้อง จะกอดรัดเพื่อแสดงความรัก แต่อันตรายเพราะกระดูกอาจแหลกเป็นผงได้",
+		'id-id': "Jika Bewear mengakui seseorang sebagai teman, ia akan memeluknya sebagai ungkapan kasih sayang. Akan tetapi, pelukannya sangat berbahaya karena dapat menghancurkan tulangmu."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "พาวเวอร์ชาร์จ",
-			id: "Power Charge"
+			'th-th': "พาวเวอร์ชาร์จ",
+			'id-id': "Power Charge"
 		},
 
 		effect: {
-			th: "เลือกการ์ดพลังงานพื้นฐาน 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
-			id: "Pilih 1 lembar Energi Dasar dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดพลังงานพื้นฐาน 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih 1 lembar Energi Dasar dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ตบหนัก",
-			id: "Hantaman Penuh Tenaga"
+			'th-th': "ตบหนัก",
+			'id-id': "Hantaman Penuh Tenaga"
 		},
 
 		damage: 130,

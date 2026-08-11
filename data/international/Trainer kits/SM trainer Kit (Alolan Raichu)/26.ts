@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togedemaru",
-		fr: "Togedemaru",
-		es: "Togedemaru",
-		it: "Togedemaru",
-		pt: "Togedemaru",
-		de: "Togedemaru"
+		'en-us': "Togedemaru",
+		'fr-fr': "Togedemaru",
+		'es-es': "Togedemaru",
+		'it-it': "Togedemaru",
+		'pt-br': "Togedemaru",
+		'de-de': "Togedemaru"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl"
+				'en-us': "Defense Curl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
 			}
 		},
 		{
@@ -38,10 +38,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Discharge"
+				'en-us': "Discharge"
 			},
 			effect: {
-				en: "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way."
+				'en-us': "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way."
 			},
 			damage: "30×"
 		},

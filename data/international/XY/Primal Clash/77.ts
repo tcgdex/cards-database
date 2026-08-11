@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Rhyperior",
-		fr: "Rhinastoc",
-		es: "Rhyperior",
-		it: "Rhyperior",
-		pt: "Rhyperior",
-		de: "Rihornior"
+		'en-us': "Rhyperior",
+		'fr-fr': "Rhinastoc",
+		'es-es': "Rhyperior",
+		'it-it': "Rhyperior",
+		'pt-br': "Rhyperior",
+		'de-de': "Rihornior"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rhydon",
-		fr: "Rhinoféros",
-		es: "Rhydon",
-		it: "Rhydon",
-		pt: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+		'es-es': "Rhydon",
+		'it-it': "Rhydon",
+		'pt-br': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	stage: "Stage2",
@@ -41,21 +41,21 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				en: "Ω Barrier",
-				fr: "Barrière Ω",
+				'en-us': "Ω Barrier",
+				'fr-fr': "Barrière Ω",
 			},
 			effect: {
-				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon.",
-				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+				'en-us': "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon.",
+				'fr-fr': "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
 			},
 		},
 		{
 			type: "Ability",
 			name: {
-				en: "Rock Wall",
+				'en-us': "Rock Wall",
 			},
 			effect: {
-				en: "Any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
+				'en-us': "Any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
 			},
 		},
 	],
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
-				es: "Machada",
-				it: "Martelpugno",
-				pt: "Braço de Martelo",
-				de: "Hammerarm"
+				'en-us': "Hammer Arm",
+				'fr-fr': "Marto-Poing",
+				'es-es': "Machada",
+				'it-it': "Martelpugno",
+				'pt-br': "Braço de Martelo",
+				'de-de': "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la carta in cima al mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la carta in cima al mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
+		'en-us': "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
 	},
 
 	thirdParty: {

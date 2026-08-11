@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latias",
-		fr: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias"
 	},
 
 	illustrator: "Nakaoka",
@@ -25,12 +25,12 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Dragon Dew",
-			fr: "Goutte de dragon"
+			'en-us': "Dragon Dew",
+			'fr-fr': "Goutte de dragon"
 		},
 		effect: {
-			en: "Remove 1 damage counter from 1 of your Pokémon.",
-			fr: "Retirez 1 marqueur de dégât à 1 de vos Pokémon."
+			'en-us': "Remove 1 damage counter from 1 of your Pokémon.",
+			'fr-fr': "Retirez 1 marqueur de dégât à 1 de vos Pokémon."
 		},
 		damage: 10
 	}, {
@@ -40,8 +40,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de chaleur"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de chaleur"
 		},
 		damage: 40
 	}],

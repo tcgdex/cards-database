@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アサナン",
+		'ja-jp': "アサナン",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "いつもは 山奥で 修行。 めいそうをして 精神力を 高めると 体が 浮かび上がる。",
+		'ja-jp': "いつもは 山奥で 修行。 めいそうをして 精神力を 高めると 体が 浮かび上がる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「きあいずつき」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「きあいずつき」が使えない。",
 			},
 		},
 	],

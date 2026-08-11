@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィア",
+		'ja-jp': "ニンフィア",
 	},
 
 	illustrator: "YU NAGABA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "敵意を 消す 癒しの 波動を リボンのような 触角から 相手の 体に 送り込む。",
+		'ja-jp': "敵意を 消す 癒しの 波動を リボンのような 触角から 相手の 体に 送り込む。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「10」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「10」回復する。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

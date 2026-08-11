@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 		'zh-tw': "彷徨夜靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の中で 燃えている 真っ赤な ひとつ目が サマヨールの 本体と いわれるが 誰も 見ていない。",
+		'ja-jp': "体の中で 燃えている 真っ赤な ひとつ目が サマヨールの 本体と いわれるが 誰も 見ていない。",
 		'zh-tw': "據說在體內燃燒著的鮮紅獨眼 是彷徨夜靈的本體， 但沒有人親眼見過。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "カースドボム" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを5個のせる。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを5個のせる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おにび",
+				'ja-jp': "おにび",
 				'zh-tw': "‌[特性]咒詛炸彈",
 			},
 			damage: 50,
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	retreat: 2,

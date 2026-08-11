@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		es: "Breloom",
-		it: "Breloom",
-		pt: "Breloom",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'es-es': "Breloom",
+		'it-it': "Breloom",
+		'pt-br': "Breloom",
+		'de-de': "Kapilz"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Mach Cross",
-			fr: "Passage Éclair",
-			es: "Puñetazo Mach",
-			it: "Incromach",
-			pt: "Cruzado Veloz",
-			de: "Tempo-Cross"
+			'en-us': "Mach Cross",
+			'fr-fr': "Passage Éclair",
+			'es-es': "Puñetazo Mach",
+			'it-it': "Incromach",
+			'pt-br': "Cruzado Veloz",
+			'de-de': "Tempo-Cross"
 		},
 
 		damage: 60
@@ -62,7 +62,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+		'en-us': "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
 	},
 
 	thirdParty: {

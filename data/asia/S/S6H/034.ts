@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 		'zh-tw': "奇魯莉安",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げる ことで 未来を 見通す ことが できる。",
+		'ja-jp': "サイコパワーを 操り まわりの 空間を ねじ曲げる ことで 未来を 見通す ことが できる。",
 		'zh-tw': "能夠操縱精神力量來扭曲周圍的空間，讓自己看見未來。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			name: { ja: "ミラージュステップ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札から「キルリア」を3枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札から「キルリア」を3枚まで選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	retreat: 1,

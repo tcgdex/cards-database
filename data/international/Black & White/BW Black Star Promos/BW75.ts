@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Métalosse",
+		'en-us': "Metagross",
+		'fr-fr': "Métalosse",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Psychic",
 	],
 	evolveFrom: {
-		en: "Metang",
-		fr: "Métang",
+		'en-us': "Metang",
+		'fr-fr': "Métang",
 	},
 	stage: "Stage2",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Plasma Search",
-				fr: "Recherche Plasma",
+				'en-us': "Plasma Search",
+				'fr-fr': "Recherche Plasma",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it into your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte de la Team Plasma dans votre deck, la montrer et l'ajouter à votre main. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser une capacité spéciale du même nom pendant votre tour.",
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it into your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte de la Team Plasma dans votre deck, la montrer et l'ajouter à votre main. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser une capacité spéciale du même nom pendant votre tour.",
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'Esprit",
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'Esprit",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 60,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+		'en-us': "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
 	},
 }
 

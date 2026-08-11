@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "親の あとを 追いかけるうちに 強靭な 足腰になる。 １日中 野山を 駆け回る。",
+		'ja-jp': "親の あとを 追いかけるうちに 強靭な 足腰になる。 １日中 野山を 駆け回る。",
 	},
 
 	stage: "Basic",

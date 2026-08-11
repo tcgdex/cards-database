@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Unfezant",
-		fr: "Déflaisan",
-		es: "Unfezant",
-		it: "Unfezant",
-		pt: "Unfezant",
-		de: "Fasasnob"
+		'en-us': "Unfezant",
+		'fr-fr': "Déflaisan",
+		'es-es': "Unfezant",
+		'it-it': "Unfezant",
+		'pt-br': "Unfezant",
+		'de-de': "Fasasnob"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Ataque Rápido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Rápido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Winds",
-				fr: "Vents Tourbillonnants",
-				es: "Fuertes Vientos",
-				it: "Turbovento",
-				pt: "Ventos Fortes",
-				de: "Turbulenter Wind"
+				'en-us': "Strong Winds",
+				'fr-fr': "Vents Tourbillonnants",
+				'es-es': "Fuertes Vientos",
+				'it-it': "Turbovento",
+				'pt-br': "Ventos Fortes",
+				'de-de': "Turbulenter Wind"
 			},
 			effect: {
-				en: "Shuffle all cards attached to each player's Pokémon into that player's deck.",
-				fr: "Mélangez toutes les cartes attachées aux Pokémon de chaque joueur au deck de ce joueur.",
-				es: "Poned todas las cartas unidas a los Pokémon de cada jugador en su respectiva baraja, y barajadlas todas.",
-				it: "Rimischia tutte le carte assegnate ai Pokémon di ciascun giocatore nel mazzo di quel giocatore.",
-				pt: "Embaralhe todos os cards ligados aos Pokémon de cada jogador no baralho daquele jogador.",
-				de: "Mische alle Karten, die an den Pokémon beider Spieler angelegt sind, zurück in die Decks der Spieler."
+				'en-us': "Shuffle all cards attached to each player's Pokémon into that player's deck.",
+				'fr-fr': "Mélangez toutes les cartes attachées aux Pokémon de chaque joueur au deck de ce joueur.",
+				'es-es': "Poned todas las cartas unidas a los Pokémon de cada jugador en su respectiva baraja, y barajadlas todas.",
+				'it-it': "Rimischia tutte le carte assegnate ai Pokémon di ciascun giocatore nel mazzo di quel giocatore.",
+				'pt-br': "Embaralhe todos os cards ligados aos Pokémon de cada jogador no baralho daquele jogador.",
+				'de-de': "Mische alle Karten, die an den Pokémon beider Spieler angelegt sind, zurück in die Decks der Spieler."
 			},
 
 		},
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
+		'en-us': "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボ",
+		'ja-jp': "アーボ",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "育つほどに どんどん 長くなる。 そして 夜中は 木の枝に グルグルと 絡まって 休む。",
+		'ja-jp': "育つほどに どんどん 長くなる。 そして 夜中は 木の枝に グルグルと 絡まって 休む。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まぜこみどく" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくとこんらんにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをどくとこんらんにする。",
 			},
 		},
 		{

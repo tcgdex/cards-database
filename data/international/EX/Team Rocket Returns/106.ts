@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Zapdos ex",
-		de: "Rockets Zapdos ex"
+		'en-us': "Rocket's Zapdos ex",
+		'de-de': "Rockets Zapdos ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Darkness Guard",
-				de: "Darkness Guard"
+				'en-us': "Darkness Guard",
+				'de-de': "Darkness Guard"
 			},
 			effect: {
-				en: "As long as Rocket's Zapdos ex has any Darkness Energy attached to it, damage done to Rocket's Zapdos ex by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).\"",
-				de: "As long as Rocket's Zapdos ex has any  Energy attached to it, damage done to Rocket's Zapdos ex by an opponent's attack is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "As long as Rocket's Zapdos ex has any Darkness Energy attached to it, damage done to Rocket's Zapdos ex by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).\"",
+				'de-de': "As long as Rocket's Zapdos ex has any  Energy attached to it, damage done to Rocket's Zapdos ex by an opponent's attack is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Search your discard pile for a Lightning Energy card and attach it to Rocket's Zapdos ex.\"",
-				de: "Search your discard pile for a  Energy card and attach it to Rocket's Zapdos ex."
+				'en-us': "Search your discard pile for a Lightning Energy card and attach it to Rocket's Zapdos ex.\"",
+				'de-de': "Search your discard pile for a  Energy card and attach it to Rocket's Zapdos ex."
 			},
 			damage: 10,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Thunder",
-				de: "Raging Thunder"
+				'en-us': "Raging Thunder",
+				'de-de': "Raging Thunder"
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your Pokémon.",
-				de: "This attack does 30 damage to 1 of your Pokémon."
+				'en-us': "This attack does 30 damage to 1 of your Pokémon.",
+				'de-de': "This attack does 30 damage to 1 of your Pokémon."
 			},
 			damage: 60,
 

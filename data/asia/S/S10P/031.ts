@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグノム",
+		'ja-jp': "アグノム",
 		'zh-tw': "亞克諾姆",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ユクシー エムリット アグノムは 同じ タマゴから 生まれた ポケモンと 考えられている。",
+		'ja-jp': "ユクシー エムリット アグノムは 同じ タマゴから 生まれた ポケモンと 考えられている。",
 		'zh-tw': "由克希、艾姆利多和亞克諾姆 被認為是從同一個蛋裡 誕生出的寶可夢。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイコトリップ",
+				'ja-jp': "サイコトリップ",
 				'zh-tw': "精神歪曲",
 			},
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},

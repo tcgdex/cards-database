@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	rarity: "Common",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lead",
-			fr: "Mentor",
-			es: "Liderazgo",
-			it: "Guidare",
-			pt: "Lead",
-			de: "Führen"
+			'en-us': "Lead",
+			'fr-fr': "Mentor",
+			'es-es': "Liderazgo",
+			'it-it': "Guidare",
+			'pt-br': "Lead",
+			'de-de': "Führen"
 		},
 
 		effect: {
-			en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'de-de': "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Tackle",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Tackle",
+			'de-de': "Tackle"
 		},
 
 		damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	dexId: [506],
 
 	description: {
-		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
+		'en-us': "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
 	},
 
 	regulationMark: "E",

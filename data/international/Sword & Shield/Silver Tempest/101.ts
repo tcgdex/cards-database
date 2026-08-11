@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stonjourner",
-		fr: "Dolman",
-		es: "Stonjourner",
-		it: "Stonjourner",
-		pt: "Stonjourner",
-		de: "Humanolith"
+		'en-us': "Stonjourner",
+		'fr-fr': "Dolman",
+		'es-es': "Stonjourner",
+		'it-it': "Stonjourner",
+		'pt-br': "Stonjourner",
+		'de-de': "Humanolith"
 	},
 
 	illustrator: "Hataya",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rock Throw",
-			fr: "Jet-Pierres",
-			es: "Lanzarrocas",
-			it: "Sassata",
-			pt: "Lançamento de Rocha",
-			de: "Steinwurf"
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres",
+			'es-es': "Lanzarrocas",
+			'it-it': "Sassata",
+			'pt-br': "Lançamento de Rocha",
+			'de-de': "Steinwurf"
 		},
 
 		damage: 20
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mystery Press",
-			fr: "Pression Mystère",
-			es: "Presión Misteriosa",
-			it: "Pressa Mistero",
-			pt: "Compressão Misteriosa",
-			de: "Geheimnisvoller Druck"
+			'en-us': "Mystery Press",
+			'fr-fr': "Pression Mystère",
+			'es-es': "Presión Misteriosa",
+			'it-it': "Pressa Mistero",
+			'pt-br': "Compressão Misteriosa",
+			'de-de': "Geheimnisvoller Druck"
 		},
 
 		effect: {
-			en: "If you have no Supporter cards in your discard pile, this attack does 130 more damage.",
-			fr: "Si vous n'avez aucune carte Supporter dans votre pile de défausse, cette attaque inflige 130 dégâts supplémentaires.",
-			es: "Si no tienes ninguna carta de Partidario en tu pila de descartes, este ataque hace 130 puntos de daño más.",
-			it: "Se non hai carte Aiuto nella tua pila degli scarti, questo attacco infligge 130 danni in più.",
-			pt: "Se você não tiver cartas de Apoiador na sua pilha de descarte, este ataque causará 130 pontos de dano a mais.",
-			de: "Wenn du keine Unterstützerkarten in deinem Ablagestapel hast, fügt diese Attacke 130 Schadenspunkte mehr zu."
+			'en-us': "If you have no Supporter cards in your discard pile, this attack does 130 more damage.",
+			'fr-fr': "Si vous n'avez aucune carte Supporter dans votre pile de défausse, cette attaque inflige 130 dégâts supplémentaires.",
+			'es-es': "Si no tienes ninguna carta de Partidario en tu pila de descartes, este ataque hace 130 puntos de daño más.",
+			'it-it': "Se non hai carte Aiuto nella tua pila degli scarti, questo attacco infligge 130 danni in più.",
+			'pt-br': "Se você não tiver cartas de Apoiador na sua pilha de descarte, este ataque causará 130 pontos de dano a mais.",
+			'de-de': "Wenn du keine Unterstützerkarten in deinem Ablagestapel hast, fügt diese Attacke 130 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
+		'en-us': "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "災いの箱",
+		'ja-jp': "災いの箱",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ポケモンV」のHPがまんたんの状態で、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを8個のせる。",
+		'ja-jp': "このカードをつけている「ポケモンV」のHPがまんたんの状態で、相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを8個のせる。",
 	},
 
 	variants: [

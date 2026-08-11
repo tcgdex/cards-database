@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาราคัจจิ",
-		id: "Maractus"
+		'th-th': "มาราคัจจิ",
+		'id-id': "Maractus"
 	},
 
 	illustrator: "Dsuke",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "โปรยเมล็ดปีละครั้ง เมล็ดดอกไม้มีสารอาหารเต็มเปี่ยมและเป็นแหล่ง อาหารอันมีค่าในทะเลทราย",
-		id: "Maractus menebar benih setahun sekali. Biji bunga ini mengandung banyak nutrisi dan menjadi sumber makanan yang berharga di padang pasir."
+		'th-th': "โปรยเมล็ดปีละครั้ง เมล็ดดอกไม้มีสารอาหารเต็มเปี่ยมและเป็นแหล่ง อาหารอันมีค่าในทะเลทราย",
+		'id-id': "Maractus menebar benih setahun sekali. Biji bunga ini mengandung banyak nutrisi dan menjadi sumber makanan yang berharga di padang pasir."
 	},
 
 	stage: "Basic",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "หนามระเบิดกระจาย",
-			id: "Jarum Eksplosi"
+			'th-th': "หนามระเบิดกระจาย",
+			'id-id': "Jarum Eksplosi"
 		},
 
 		effect: {
-			th: "เมื่อโปเกมอนนี้ อยู่บนตำแหน่งต่อสู้และได้รับแดเมจของท่าต่อสู้จากโปเกมอน ฝ่ายตรงข้ามและ[หมดสภาพ]แล้ว วางตัวนับแดเมจ 6 ตัวบนโปเกมอนที่ใช้ท่า ต่อสู้",
-			id: "Saat Pokémon ini ada di Arena Bertarung dan KO karena menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 6 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
+			'th-th': "เมื่อโปเกมอนนี้ อยู่บนตำแหน่งต่อสู้และได้รับแดเมจของท่าต่อสู้จากโปเกมอน ฝ่ายตรงข้ามและ[หมดสภาพ]แล้ว วางตัวนับแดเมจ 6 ตัวบนโปเกมอนที่ใช้ท่า ต่อสู้",
+			'id-id': "Saat Pokémon ini ada di Arena Bertarung dan KO karena menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 6 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ไล่ต้อน",
-			id: "Memojokkan"
+			'th-th': "ไล่ต้อน",
+			'id-id': "Memojokkan"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้",
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้",
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 20,

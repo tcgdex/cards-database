@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wiglett",
-		fr: "Taupikeau",
-		es: "Wiglett",
-		it: "Wiglett",
-		pt: "Wiglett",
-		de: "Schligda"
+		'en-us': "Wiglett",
+		'fr-fr': "Taupikeau",
+		'es-es': "Wiglett",
+		'it-it': "Wiglett",
+		'pt-br': "Wiglett",
+		'de-de': "Schligda"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Vibration",
-			fr: "Vibration",
-			es: "Vibración",
-			it: "Vibrazione",
-			pt: "Vibração",
-			de: "Schwingung"
+			'en-us': "Vibration",
+			'fr-fr': "Vibration",
+			'es-es': "Vibración",
+			'it-it': "Vibrazione",
+			'pt-br': "Vibração",
+			'de-de': "Schwingung"
 		},
 
 		damage: 30
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+		'en-us': "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
 	},
 
 	variants: [

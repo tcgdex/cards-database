@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SK"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "櫻花兒",
-		ja: "チェリム"
+		'ja-jp': "チェリム"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "盛開的花瓣中散發出的微微香氣會吸引蟲寶可夢聚集而來。",
-		ja: "満開の 花びら から ただよう かすかな 香りが 虫ポケモンを 集める。"
+		'ja-jp': "満開の 花びら から ただよう かすかな 香りが 虫ポケモンを 集める。"
 	},
 
 	stage: "Stage1",
@@ -26,19 +26,19 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "春爛漫",
-			ja: "はるらんまん"
+			'ja-jp': "はるらんまん"
 		},
 
 		effect: {
 			'zh-tw': "在自己的回合時，可不限次數使用。從自己的手牌選擇1張【草】能量卡，附於自己的寶可夢（「擁有規則的寶可夢」除外）身上。",
-			ja: "自分の番に何回でも使える。自分の手札からエネルギーを1枚選び、自分のポケモン（「ルールを持つポケモン」をのぞく）につける。"
+			'ja-jp': "自分の番に何回でも使える。自分の手札からエネルギーを1枚選び、自分のポケモン（「ルールを持つポケモン」をのぞく）につける。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "種子炸彈",
-			ja: "タネばくだん"
+			'ja-jp': "タネばくだん"
 		},
 
 		damage: 70,

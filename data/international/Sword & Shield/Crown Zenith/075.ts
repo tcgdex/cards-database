@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		es: "Koffing",
-		it: "Koffing",
-		pt: "Koffing",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'es-es': "Koffing",
+		'it-it': "Koffing",
+		'pt-br': "Koffing",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "miki kudo",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Smog",
-			fr: "Purédpois",
-			es: "Polución",
-			it: "Smog",
-			pt: "Nevoeiro de Fumaça",
-			de: "Smog"
+			'en-us': "Smog",
+			'fr-fr': "Purédpois",
+			'es-es': "Polución",
+			'it-it': "Smog",
+			'pt-br': "Nevoeiro de Fumaça",
+			'de-de': "Smog"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
+		'en-us': "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
 	},
 
 	

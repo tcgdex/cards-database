@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu",
-		it: "Riolu",
-		es: "Riolu",
-		pt: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu",
+		'it-it': "Riolu",
+		'es-es': "Riolu",
+		'pt-br': "Riolu"
 	},
 
 	illustrator: "GOSSAN",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Accelerating Stab",
-			fr: "Coup de Poing Accéléré",
-			de: "Beschleunigter Stich",
-			it: "Pugnalata Rapida",
-			es: "Puñalada Acelerada",
-			pt: "Facada Acelerada"
+			'en-us': "Accelerating Stab",
+			'fr-fr': "Coup de Poing Accéléré",
+			'de-de': "Beschleunigter Stich",
+			'it-it': "Pugnalata Rapida",
+			'es-es': "Puñalada Acelerada",
+			'pt-br': "Facada Acelerada"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Accelerating Stab.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Accéléré.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Acelerada.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Facada Acelerada."
+			'en-us': "During your next turn, this Pokémon can't use Accelerating Stab.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Accéléré.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Puñalada Acelerada.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Facada Acelerada."
 		}
 	}],
 

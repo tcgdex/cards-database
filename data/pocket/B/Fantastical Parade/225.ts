@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [136],
 
 	name: {
-		en: "Flareon ex"
+		'en-us': "Flareon ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -27,24 +27,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Combust"
+			'en-us': "Combust"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a {R} Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon."
+			'en-us': "Once during your turn, you may attach a {R} Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Fire Spin"
+			'en-us': "Fire Spin"
 		},
 
 		damage: 130,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon."
+			'en-us': "Discard 2 {R} Energy from this Pokémon."
 		}
 	}],
 

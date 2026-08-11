@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Finizen"
+		'id-id': "Finizen"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Finizen suka bermain-main dengan ring air pada sirip ekornya bersama sesamanya. Pokémon ini mendeteksi emosi makhluk hidup dengan gelombang ultrasonik."
+		'id-id': "Finizen suka bermain-main dengan ring air pada sirip ekornya bersama sesamanya. Pokémon ini mendeteksi emosi makhluk hidup dengan gelombang ultrasonik."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Guyuran Air"
+			'id-id': "Guyuran Air"
 		},
 
 		damage: 10,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Sirip Tajam"
+			'id-id': "Sirip Tajam"
 		},
 
 		damage: 50,

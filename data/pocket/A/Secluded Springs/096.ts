@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingler",
-		fr: "Krabboss"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Krabby"
+		'en-us': "Krabby"
 	},
 
 	description: {
-		en: "Its large and hard pincer has 10,000-horsepower\nstrength. However, being so big, it is unwieldy\nto move.",
-		fr: "Sa grosse pince est dotée d'une puissance incommensurable. Sa taille imposante la rend toutefois difficile à utiliser."
+		'en-us': "Its large and hard pincer has 10,000-horsepower\nstrength. However, being so big, it is unwieldy\nto move.",
+		'fr-fr': "Sa grosse pince est dotée d'une puissance incommensurable. Sa taille imposante la rend toutefois difficile à utiliser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "KO Crab",
-			fr: "Crabe Fatal"
+			'en-us': "KO Crab",
+			'fr-fr': "Crabe Fatal"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, this attack does 80 more damage.",
-			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 80 dégâts de plus."
+			'en-us': "Flip 2 coins. If both of them are heads, this attack does 80 more damage.",
+			'fr-fr': "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 80 dégâts de plus."
 		}
 	}],
 

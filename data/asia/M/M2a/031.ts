@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソウブレイズex",
+		'ja-jp': "ソウブレイズex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュにあるエネルギーの枚数×20ダメージ追加。",
+				'ja-jp': "自分のトラッシュにあるエネルギーの枚数×20ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 280,
 			cost: ["Fire", "Psychic", "Metal"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カルボウ",
+		'ja-jp': "カルボウ",
 	},
 
 	retreat: 2,

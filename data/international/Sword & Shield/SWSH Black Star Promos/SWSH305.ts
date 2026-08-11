@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greninja",
+		'en-us': "Greninja",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -20,18 +20,18 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Coordinated Shuriken",
+			'en-us': "Coordinated Shuriken",
 		},
 
 		effect: {
-			en: "This attack also does 10 damage to 3 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon",
+			'en-us': "This attack also does 10 damage to 3 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon",
 		},
 
 		damage: 120
 	}],
 
 	evolveFrom: {
-		en: "Frogadier",
+		'en-us': "Frogadier",
 	},
 
 	weaknesses: [{
@@ -42,7 +42,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal into two.",
+		'en-us': "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal into two.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Toxtricity ex"
+		'id-id': "Toxtricity ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Knock Hammer"
+			'id-id': "Knock Hammer"
 		},
 
 		effect: {
-			id: "Buang 1 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 1 kartu dari atas Deck lawan ke Trash."
 		},
 
 		damage: 70,
 		cost: ["Lightning", "Lightning"]
 	}, {
 		name: {
-			id: "Gaia Punk"
+			'id-id': "Gaia Punk"
 		},
 
 		effect: {
-			id: "Pilih 3 Energi {Listrik} yang dikenakan pada Pokémon di Arena sendiri, lalu buang ke Trash."
+			'id-id': "Pilih 3 Energi {Listrik} yang dikenakan pada Pokémon di Arena sendiri, lalu buang ke Trash."
 		},
 
 		damage: 270,

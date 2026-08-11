@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chi-Yu"
+		'id-id': "Chi-Yu"
 	},
 
 	illustrator: "Oku",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Chi-Yu adalah perasaan iri dan dengki yang berkumpul ke magatama yang menjadi api pemicu banyaknya permusuhan. Ia menyelimuti dirinya dengan api, lalu berubah menjadi Pokémon."
+		'id-id': "Chi-Yu adalah perasaan iri dan dengki yang berkumpul ke magatama yang menjadi api pemicu banyaknya permusuhan. Ia menyelimuti dirinya dengan api, lalu berubah menjadi Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengambil"
+			'id-id': "Mengambil"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Ground Melt"
+			'id-id': "Ground Melt"
 		},
 
 		effect: {
-			id: "Jika ada Stadium di Arena, kerusakan yang diberikan bertambah sejumlah 60. Setelah itu, buang Stadium tersebut ke Trash."
+			'id-id': "Jika ada Stadium di Arena, kerusakan yang diberikan bertambah sejumlah 60. Setelah itu, buang Stadium tersebut ke Trash."
 		},
 
 		damage: "60+",

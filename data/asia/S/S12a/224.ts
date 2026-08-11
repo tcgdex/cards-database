@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリムオンVMAX",
+		'ja-jp': "ブリムオンVMAX",
 		'zh-tw': "布莉姆溫VMAX",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "まじょのりょういき",
+				'ja-jp': "まじょのりょういき",
 				'zh-tw': "魔女的領域",
 			},
 			effect: {
-				ja: "自分の番に1回使える。自分の場のポケモンにのっているダメカンを2個まで選び、相手のバトルポケモンにのせ替える。",
+				'ja-jp': "自分の番に1回使える。自分の場のポケモンにのっているダメカンを2個まで選び、相手のバトルポケモンにのせ替える。",
 				'zh-tw': "在自己的回合時，可使用1次。選擇最多2個放置於自己的場上寶可夢身上的傷害指示物，改放於對手的戰鬥寶可夢身上。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイテンバツ",
+				'ja-jp': "キョダイテンバツ",
 				'zh-tw': "超極巨天譴雷誅",
 			},
 			damage: 150,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブリムオンV",
+		'ja-jp': "ブリムオンV",
 	},
 
 	retreat: 2,

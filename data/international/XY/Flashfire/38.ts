@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		it: "Duskull",
-		pt: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revival",
-				fr: "Réapparition",
-				es: "Reaparición",
-				it: "Vitalizzante",
-				pt: "Renovação",
-				de: "Wiederbeleben"
+				'en-us': "Revival",
+				'fr-fr': "Réapparition",
+				'es-es': "Reaparición",
+				'it-it': "Vitalizzante",
+				'pt-br': "Renovação",
+				'de-de': "Wiederbeleben"
 			},
 			effect: {
-				en: "Put a Basic Pokémon from your opponent's discard pile onto his or her Bench.",
-				fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc.",
-				es: "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
-				it: "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
-				pt: "Coloque um Pokémon Básico da pilha de descarte do seu oponente no Banco desse oponente.",
-				de: "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank."
+				'en-us': "Put a Basic Pokémon from your opponent's discard pile onto his or her Bench.",
+				'fr-fr': "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc.",
+				'es-es': "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
+				'it-it': "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
+				'pt-br': "Coloque um Pokémon Básico da pilha de descarte do seu oponente no Banco desse oponente.",
+				'de-de': "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sneaky Placement",
-				fr: "Placement Vicieux",
-				es: "Colocación Furtiva",
-				it: "Furtivappoggio",
-				pt: "Posição Sorrateira",
-				de: "Heimlichtuerei"
+				'en-us': "Sneaky Placement",
+				'fr-fr': "Placement Vicieux",
+				'es-es': "Colocación Furtiva",
+				'it-it': "Furtivappoggio",
+				'pt-br': "Posição Sorrateira",
+				'de-de': "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
-				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 1 contador de danos no Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on your opponent's Active Pokémon.",
+				'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 1 contador de danos no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+		'en-us': "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
 	},
 
 	thirdParty: {

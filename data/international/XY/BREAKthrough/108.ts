@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Axew",
-		fr: "Coupenotte",
-		es: "Axew",
-		it: "Axew",
-		pt: "Axew",
-		de: "Milza"
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'es-es': "Axew",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'de-de': "Milza"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brat Snack",
-				fr: "Goûter Galopin",
-				es: "Bocado Consentido",
-				it: "Spuntino Moccioso",
-				pt: "Lanche de Pirralho",
-				de: "Schlingelschmaus"
+				'en-us': "Brat Snack",
+				'fr-fr': "Goûter Galopin",
+				'es-es': "Bocado Consentido",
+				'it-it': "Spuntino Moccioso",
+				'pt-br': "Lanche de Pirralho",
+				'de-de': "Schlingelschmaus"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+		'en-us': "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
 	},
 
 	thirdParty: {

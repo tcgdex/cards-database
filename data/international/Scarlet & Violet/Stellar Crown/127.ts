@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		pt: "Cyclizar",
-		de: "Mopex"
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'pt-br': "Cyclizar",
+		'de-de': "Mopex"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Snap",
-			fr: "Coud'Queue Sec",
-			es: "Pinza Cola",
-			it: "Schioccacoda",
-			pt: "Surpresa de Cauda",
-			de: "Schweifhieb"
+			'en-us': "Tail Snap",
+			'fr-fr': "Coud'Queue Sec",
+			'es-es': "Pinza Cola",
+			'it-it': "Schioccacoda",
+			'pt-br': "Surpresa de Cauda",
+			'de-de': "Schweifhieb"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Speed Attack",
-			fr: "Attaque Rapide",
-			es: "Ataque Fugaz",
-			it: "Attacco Veloce",
-			pt: "Ataque em Velocidade",
-			de: "Tempoangriff"
+			'en-us': "Speed Attack",
+			'fr-fr': "Attaque Rapide",
+			'es-es': "Ataque Fugaz",
+			'it-it': "Attacco Veloce",
+			'pt-br': "Ataque em Velocidade",
+			'de-de': "Tempoangriff"
 		},
 
 		damage: 50

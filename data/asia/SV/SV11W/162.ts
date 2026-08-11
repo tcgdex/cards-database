@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルンゲルex",
+		'ja-jp': "ブルンゲルex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うみののろい" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手は手札から「グッズ」を出して使えず、「ポケモンのどうぐ」も出してつけられない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手は手札から「グッズ」を出して使えず、「ポケモンのどうぐ」も出してつけられない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プルリル",
+		'ja-jp': "プルリル",
 	},
 
 	retreat: 3,

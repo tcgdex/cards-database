@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lapras ex",
-		fr: "Lokhlass-ex",
-		es: "Lapras ex",
-		it: "Lapras-ex",
-		de: "Lapras-ex",
+		'en-us': "Lapras ex",
+		'fr-fr': "Lokhlass-ex",
+		'es-es': "Lapras ex",
+		'it-it': "Lapras-ex",
+		'de-de': "Lapras-ex",
 		'pt-br': "Lapras ex",
-		ko: "라프라스 ex"
+		'ko-kr': "라프라스 ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -24,26 +24,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bubble Drain",
-			fr: "Vide Bulle",
-			es: "Drenaje Burbujas",
-			it: "Assorbibolla",
-			de: "Blasengully",
+			'en-us': "Bubble Drain",
+			'fr-fr': "Vide Bulle",
+			'es-es': "Drenaje Burbujas",
+			'it-it': "Assorbibolla",
+			'de-de': "Blasengully",
 			'pt-br': "Dreno de Bolha",
-			ko: "버블드레인"
+			'ko-kr': "버블드레인"
 		},
 
 		cost: ["Water", "Water", "Colorless"],
 		damage: 80,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon.",
 			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
-			ko: "이 포켓몬의 HP를 20회복."
+			'ko-kr': "이 포켓몬의 HP를 20회복."
 		}
 	}],
 

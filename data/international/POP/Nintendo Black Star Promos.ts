@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../POP'
 
 const np: Set = {
 	id: "np",
 
 	name: {
-		en: "Nintendo Black Star Promos",
-		fr: "Promo Nintendo",
-		es: "Nintendo Black Star Promos",
-		it: "Nintendo Black Star Promos",
-		de: "Nintendo Black Star Promos",
+		'en-us': "Nintendo Black Star Promos",
+		'fr-fr': "Promo Nintendo",
+		'es-es': "Nintendo Black Star Promos",
+		'it-it': "Nintendo Black Star Promos",
+		'de-de': "Nintendo Black Star Promos",
 	},
 
 	serie: serie,

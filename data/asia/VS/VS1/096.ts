@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Suicune",
+		'ja-jp': "Rocket's Suicune",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "クイックストリーム",
+				'ja-jp': "クイックストリーム",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンがない限り、コインをひっくり返します。テールの場合、シャッフルロケットのSuicune、およびすべてのエネルギーカードがデッキに取り付けられています。 （Rocket's Suicuneに添付された他のすべてのカードを破棄します。）",
+				'ja-jp': "ベンチ付きポケモンがない限り、コインをひっくり返します。テールの場合、シャッフルロケットのSuicune、およびすべてのエネルギーカードがデッキに取り付けられています。 （Rocket's Suicuneに添付された他のすべてのカードを破棄します。）",
 			},
 			damage: 40,
 		},

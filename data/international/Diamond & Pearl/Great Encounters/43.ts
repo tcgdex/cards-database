@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Linoone",
-		fr: "Lineon",
-		de: "Geradaks"
+		'en-us': "Linoone",
+		'fr-fr': "Lineon",
+		'de-de': "Geradaks"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zigzagoon",
-		fr: "Zigzaton",
+		'en-us': "Zigzagoon",
+		'fr-fr': "Zigzaton",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Switcheroo",
-				fr: "Passe-Passe",
-				de: "Wechseldich"
+				'en-us': "Switcheroo",
+				'fr-fr': "Passe-Passe",
+				'de-de': "Wechseldich"
 			},
 			effect: {
-				en: "Move a Pokémon Tool card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon (excluding Pokémon that already has a Pokémon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)",
-				fr: "Déplacez une carte Outil Pokémon attachée à 1 des Pokémon de votre adversaire vers un autre de ses Pokémon (Pokémon possédant déjà une carte Outil Pokémon exclus). (Si un effet de cette attaque est annulé, cette attaque est sans effet).",
-				de: "Entferne 1 Pokémon-Ausrüstung, die an 1 Pokémon deines Gegners angelegt ist, und lege sie an ein anderes Pokémon deines Gegners (aber nicht an Pokémon, an denen bereits 1 Pokémon-Ausrüstung angelegt ist) an. (Wenn ein Effekt dieses Angriffs verhindert wird, hat dieser Angriff keine Auswirkungen.)"
+				'en-us': "Move a Pokémon Tool card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon (excluding Pokémon that already has a Pokémon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)",
+				'fr-fr': "Déplacez une carte Outil Pokémon attachée à 1 des Pokémon de votre adversaire vers un autre de ses Pokémon (Pokémon possédant déjà une carte Outil Pokémon exclus). (Si un effet de cette attaque est annulé, cette attaque est sans effet).",
+				'de-de': "Entferne 1 Pokémon-Ausrüstung, die an 1 Pokémon deines Gegners angelegt ist, und lege sie an ein anderes Pokémon deines Gegners (aber nicht an Pokémon, an denen bereits 1 Pokémon-Ausrüstung angelegt ist) an. (Wenn ein Effekt dieses Angriffs verhindert wird, hat dieser Angriff keine Auswirkungen.)"
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overrun",
-				fr: "Dépassement",
-				de: "Überrennen"
+				'en-us': "Overrun",
+				'fr-fr': "Dépassement",
+				'de-de': "Überrennen"
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+		'en-us': "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
 	},
 
 	thirdParty: {

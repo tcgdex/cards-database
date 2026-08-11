@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Crabominable",
-		fr: "Crabominable",
-		es: "Crabominable",
-		it: "Crabominable",
-		pt: "Crabominable",
-		de: "Krawell"
+		'en-us': "Crabominable",
+		'fr-fr': "Crabominable",
+		'es-es': "Crabominable",
+		'it-it': "Crabominable",
+		'pt-br': "Crabominable",
+		'de-de': "Krawell"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Avalanche",
-				fr: "Avalanche",
-				es: "Alud",
-				it: "Slavina",
-				pt: "Avalanche",
-				de: "Lawine"
+				'en-us': "Avalanche",
+				'fr-fr': "Avalanche",
+				'es-es': "Alud",
+				'it-it': "Slavina",
+				'pt-br': "Avalanche",
+				'de-de': "Lawine"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 10 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 10 pontos de dano a cada um dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 10 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 10 pontos de dano a cada um dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Hammer",
-				fr: "Marteau de Glace",
-				es: "Martillo Hielo",
-				it: "Martelgelo",
-				pt: "Martelo de Gelo",
-				de: "Eishammer"
+				'en-us': "Ice Hammer",
+				'fr-fr': "Marteau de Glace",
+				'es-es': "Martillo Hielo",
+				'it-it': "Martelgelo",
+				'pt-br': "Martelo de Gelo",
+				'de-de': "Eishammer"
 			},
 
 			damage: 140,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
+		'en-us': "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
 	},
 
 	thirdParty: {

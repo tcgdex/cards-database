@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Cleffa",
-		fr: "Mélo"
+		'en-us': "Cleffa",
+		'fr-fr': "Mélo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eek",
-				fr: "Hi !"
+				'en-us': "Eek",
+				'fr-fr': "Hi !"
 			},
 			effect: {
-				en: "Draw 2 cards",
-				fr: "Piochez 2 cartes."
+				'en-us': "Draw 2 cards",
+				'fr-fr': "Piochez 2 cartes."
 			},
 
 		},
 	],
 
 	description: {
-		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
-		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+		'en-us': "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+		'fr-fr': "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
 	variants: [

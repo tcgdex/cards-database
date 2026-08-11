@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		es: "Accelgor",
-		it: "Accelgor",
-		pt: "Accelgor",
-		de: "Hydragil"
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'es-es': "Accelgor",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
+		'de-de': "Hydragil"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume",
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retribution",
-				fr: "Rétribution",
+				'en-us': "Retribution",
+				'fr-fr': "Rétribution",
 			},
 			effect: {
-				en: "If an Escavalier you had in play was Knocked Out by damage from an opponent's attack during his or her last turn, put all Energy attached to the Defending Pokémon into your opponent's hand.",
-				fr: "Si un Lançargot que vous aviez en jeu a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, mettez toutes les Énergies attachées au Pokémon Défenseur dans la main de votre adversaire.",
+				'en-us': "If an Escavalier you had in play was Knocked Out by damage from an opponent's attack during his or her last turn, put all Energy attached to the Defending Pokémon into your opponent's hand.",
+				'fr-fr': "Si un Lançargot que vous aviez en jeu a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, mettez toutes les Énergies attachées au Pokémon Défenseur dans la main de votre adversaire.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Signal Beam",
-				fr: "Rayon signal",
+				'en-us': "Signal Beam",
+				'fr-fr': "Rayon signal",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
+		'en-us': "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	illustrator: "kirisAki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
-				es: "Disparo Lodo",
-				it: "Colpodifango",
-				pt: "Tiro de Lama",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
+				'es-es': "Disparo Lodo",
+				'it-it': "Colpodifango",
+				'pt-br': "Tiro de Lama",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They use their large ears to dig burrows. They will dig the whole night through.",
+		'en-us': "They use their large ears to dig burrows. They will dig the whole night through.",
 	},
 
 	thirdParty: {

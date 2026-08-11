@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベベノム",
+		'ja-jp': "ベベノム",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+		'ja-jp': "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "おたがいのサイドの残り枚数が、それぞれ1枚なら、130ダメージ追加。",
+				'ja-jp': "おたがいのサイドの残り枚数が、それぞれ1枚なら、130ダメージ追加。",
 			},
 		},
 	],

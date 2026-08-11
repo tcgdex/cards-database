@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Raikou-EX",
-		fr: "Raikou-EX",
-		es: "Raikou-EX",
-		it: "Raikou-EX",
-		pt: "Raikou-EX",
-		de: "Raikou-EX"
+		'en-us': "Raikou-EX",
+		'fr-fr': "Raikou-EX",
+		'es-es': "Raikou-EX",
+		'it-it': "Raikou-EX",
+		'pt-br': "Raikou-EX",
+		'de-de': "Raikou-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Fang",
-				fr: "Crocs Éclair"
+				'en-us': "Thunder Fang",
+				'fr-fr': "Crocs Éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volt Bolt",
-				fr: "Flèche Survoltée"
+				'en-us': "Volt Bolt",
+				'fr-fr': "Flèche Survoltée"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon. Cette attaque inflige 100 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à ce Pokémon. Cette attaque inflige 100 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

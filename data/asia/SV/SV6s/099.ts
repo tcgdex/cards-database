@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hisuian Growlithe"
+		'id-id': "Hisuian Growlithe"
 	},
 
 	illustrator: "Whisker",
@@ -14,26 +14,26 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Growlithe berpatroli secara berpasangan di wilayah teritorialnya. Diduga bahwa bercampurnya unsur batuan beku vulkanis di bulunya terjadi karena aktivitas gunung berapi."
+		'id-id': "Growlithe berpatroli secara berpasangan di wilayah teritorialnya. Diduga bahwa bercampurnya unsur batuan beku vulkanis di bulunya terjadi karena aktivitas gunung berapi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bakar Bulat-bulat"
+			'id-id': "Bakar Bulat-bulat"
 		},
 
 		effect: {
-			id: "Buang Stadium yang ada di Arena ke Trash."
+			'id-id': "Buang Stadium yang ada di Arena ke Trash."
 		}
 	}, {
 		name: {
-			id: "Menerjang"
+			'id-id': "Menerjang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 40,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Salamence ex（デルタ種）",
+		'ja-jp': "Salamence ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "タイプシフト",
+				'ja-jp': "タイプシフト",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に、このパワーを使用できます。 Salamence Exのタイプは、あなたのターンの終わりまで火災です。",
+				'ja-jp': "ターン中（攻撃前）に、このパワーを使用できます。 Salamence Exのタイプは、あなたのターンの終わりまで火災です。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "爪のスワイプ",
+				'ja-jp': "爪のスワイプ",
 			},
 			damage: 60,
 		},
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "デュアルストリーム",
+				'ja-jp': "デュアルストリーム",
 			},
 			effect: {
-				ja: "防御ポケモンに対して80ではなく40ダメージを与えることができます。もしそうなら、この攻撃は、相手のベンチ付きポケモンの1つに40ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "防御ポケモンに対して80ではなく40ダメージを与えることができます。もしそうなら、この攻撃は、相手のベンチ付きポケモンの1つに40ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 80,
 		},

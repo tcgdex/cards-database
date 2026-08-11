@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "プクリンex",
+		'ja-jp': "プクリンex",
 		'zh-tw': "胖可丁ex",
-		id: "Wigglytuff ex"
+		'id-id': "Wigglytuff ex"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -21,15 +21,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ふくらむボディ",
+			'ja-jp': "ふくらむボディ",
 			'zh-tw': "膨脹之軀",
-			id: "Tubuh Menggelembung"
+			'id-id': "Tubuh Menggelembung"
 		},
 
 		effect: {
-			ja: "このポケモンに特殊エネルギーがついているなら、このポケモンの最大HPは「＋100」される。",
+			'ja-jp': "このポケモンに特殊エネルギーがついているなら、このポケモンの最大HPは「＋100」される。",
 			'zh-tw': "若這隻寶可夢身上附有特殊能量卡，則這隻寶可夢的最大HP「+100」。",
-			id: "Jika Pokémon ini mengenakan Energi Spesial, HP maksimal Pokémon ini bertambah sejumlah 100."
+			'id-id': "Jika Pokémon ini mengenakan Energi Spesial, HP maksimal Pokémon ini bertambah sejumlah 100."
 		}
 	}],
 
@@ -37,17 +37,17 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "フレンドタックル",
+			'ja-jp': "フレンドタックル",
 			'zh-tw': "朋友衝撞",
-			id: "Friend Tackle"
+			'id-id': "Friend Tackle"
 		},
 
 		damage: "90+",
 
 		effect: {
-			ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
+			'ja-jp': "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
 			'zh-tw': "在這個回合，若從手牌使出了支援者卡，則增加90點傷害。",
-			id: "Jika pada giliran ini, Supporter telah dimainkan dari Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika pada giliran ini, Supporter telah dimainkan dari Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 90."
 		}
 	}],
 

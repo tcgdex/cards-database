@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trumbeak",
-		fr: "Piclairon",
-		es: "Trumbeak",
-		it: "Trumbeak",
-		pt: "Trumbeak",
-		de: "Trompeck"
+		'en-us': "Trumbeak",
+		'fr-fr': "Piclairon",
+		'es-es': "Trumbeak",
+		'it-it': "Trumbeak",
+		'pt-br': "Trumbeak",
+		'de-de': "Trompeck"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
-		it: "Pikipek",
-		pt: "Pikipek",
-		de: "Peppeck"
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek",
+		'de-de': "Peppeck"
 	},
 
 	attacks: [
@@ -37,10 +37,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Seed"
+				'en-us': "Bullet Seed"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage for each heads."
+				'en-us': "Flip 4 coins. This attack does 20 damage for each heads."
 			},
 			damage: "20×"
 		},

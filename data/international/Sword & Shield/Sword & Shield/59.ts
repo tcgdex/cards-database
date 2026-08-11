@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Inteleon",
-		fr: "Lézargus",
-		es: "Inteleon",
-		it: "Inteleon",
-		pt: "Inteleon",
-		de: "Intelleon"
+		'en-us': "Inteleon",
+		'fr-fr': "Lézargus",
+		'es-es': "Inteleon",
+		'it-it': "Inteleon",
+		'pt-br': "Inteleon",
+		'de-de': "Intelleon"
 	},
 
 	illustrator: "Akira Komayama",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drizzile",
-		fr: "Arrozard",
-		es: "Drizzile",
-		it: "Drizzile",
-		pt: "Drizzile",
-		de: "Phlegleon"
+		'en-us': "Drizzile",
+		'fr-fr': "Arrozard",
+		'es-es': "Drizzile",
+		'it-it': "Drizzile",
+		'pt-br': "Drizzile",
+		'de-de': "Phlegleon"
 	},
 
 	stage: "Stage2",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Silent Shot",
-				fr: "Coup Feutré",
-				es: "Disparo Silencioso",
-				it: "Colpo Silente",
-				pt: "Disparo Silencioso",
-				de: "Stiller Schuss"
+				'en-us': "Silent Shot",
+				'fr-fr': "Coup Feutré",
+				'es-es': "Disparo Silencioso",
+				'it-it': "Colpo Silente",
+				'pt-br': "Disparo Silencioso",
+				'de-de': "Stiller Schuss"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+				'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Snipe",
-				fr: "Hydro-Frappe",
-				es: "Disparo Acuático",
-				it: "Idromira",
-				pt: "Hidroatirador",
-				de: "Hydroschütze"
+				'en-us': "Hydro Snipe",
+				'fr-fr': "Hydro-Frappe",
+				'es-es': "Disparo Acuático",
+				'it-it': "Idromira",
+				'pt-br': "Hidroatirador",
+				'de-de': "Hydroschütze"
 			},
 			effect: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-				fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
-				es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-				it: "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
-				pt: "Você pode colocar 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
-				de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
+				'en-us': "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+				'fr-fr': "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
+				'es-es': "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
+				'it-it': "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
+				'pt-br': "Você pode colocar 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
+				'de-de': "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
 			},
 			damage: 100,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
+		'en-us': "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
 	},
 
 	dexId: [818],

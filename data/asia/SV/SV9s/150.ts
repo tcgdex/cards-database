@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อบูริบง <ของลิเลีย>",
-		id: "Ribombee <Lillie>"
+		'th-th': "อบูริบง <ของลิเลีย>",
+		'id-id': "Ribombee <Lillie>"
 	},
 
 	illustrator: "saino misaki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "เมื่อจับความรู้สึกท้อแท้หดหู่ของคนหรือโปเกมอนได้ จะให้กำลังใจ อีกฝ่ายด้วยก้อนละอองเกสรที่มันปั้นขึ้นมาเอง"
+		'th-th': "เมื่อจับความรู้สึกท้อแท้หดหู่ของคนหรือโปเกมอนได้ จะให้กำลังใจ อีกฝ่ายด้วยก้อนละอองเกสรที่มันปั้นขึ้นมาเอง"
 	},
 
 	stage: "Stage1",
@@ -24,20 +24,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "กะพริบตาชักชวน",
-			id: "Kedipan Mengundang"
+			'th-th': "กะพริบตาชักชวน",
+			'id-id': "Kedipan Mengundang"
 		},
 
 		effect: {
-			th: "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง ดูการ์ดบนมือฝ่ายตรงข้าม เลือกการ์ดโปเกมอน[พื้นฐาน]จากในนั้นตามจำนวน ที่ชอบ วางบนเบนช์ฝ่ายตรงข้าม",
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lihat Kartu Pegangan lawan, pilih sesukanya Pokémon Basic di antaranya, lalu masukkan ke Cadangan lawan."
+			'th-th': "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง ดูการ์ดบนมือฝ่ายตรงข้าม เลือกการ์ดโปเกมอน[พื้นฐาน]จากในนั้นตามจำนวน ที่ชอบ วางบนเบนช์ฝ่ายตรงข้าม",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lihat Kartu Pegangan lawan, pilih sesukanya Pokémon Basic di antaranya, lalu masukkan ke Cadangan lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "เมจิคัลช็อต",
-			id: "Magical Shot"
+			'th-th': "เมจิคัลช็อต",
+			'id-id': "Magical Shot"
 		},
 
 		damage: 50,

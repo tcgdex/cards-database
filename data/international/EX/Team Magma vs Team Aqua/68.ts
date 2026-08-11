@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Rhyhorn",
-		fr: "Rhinocorne de Team Magma",
-		de: "Team Magmas Rihorn"
+		'en-us': "Team Magma's Rhyhorn",
+		'fr-fr': "Rhinocorne de Team Magma",
+		'de-de': "Team Magmas Rihorn"
 	},
 
 	illustrator: "Yosuke Da Silva",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Over",
-				fr: "Culbute",
-				de: "Knock Over"
+				'en-us': "Knock Over",
+				'fr-fr': "Culbute",
+				'de-de': "Knock Over"
 			},
 			effect: {
-				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				'en-us': "You may discard any Stadium card in play.",
+				'fr-fr': "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				'de-de': "You may discard any Stadium card in play."
 			},
 			damage: 10,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Servine",
+		'en-us': "Servine",
 	},
 
 	illustrator: "kirisAki",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snivy",
+		'en-us': "Snivy",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
+				'en-us': "Leaf Blade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
 			},
 			damage: 10,
 
@@ -48,7 +48,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
+				'en-us': "Vine Whip",
 			},
 
 			damage: 40,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
+		'en-us': "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
 	},
 
 	thirdParty: {

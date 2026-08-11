@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジグザグマ",
+		'ja-jp': "ジグザグマ",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "好奇心 旺盛な ポケモン。  なににでも 興味を 持つので  いつも ジグザグに 歩いている。",
+		'ja-jp': "好奇心 旺盛な ポケモン。  なににでも 興味を 持つので  いつも ジグザグに 歩いている。",
 	},
 
 	stage: "Basic",

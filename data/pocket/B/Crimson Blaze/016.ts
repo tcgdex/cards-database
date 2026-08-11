@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [229],
 
 	name: {
-		en: "Houndoom"
+		'en-us': "Houndoom"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Houndour"
+		'en-us': "Houndour"
 	},
 
 	description: {
-		en: "Upon hearing its eerie howls, other Pokémon get\nthe shivers and head straight back to their nests."
+		'en-us': "Upon hearing its eerie howls, other Pokémon get\nthe shivers and head straight back to their nests."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sharp Fang"
+			'en-us': "Sharp Fang"
 		},
 
 		damage: 50,

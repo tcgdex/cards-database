@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Rising Lunge"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Rising Lunge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Swipe",
-				fr: "Koud'korne",
-				de: "Horn Swipe"
+				'en-us': "Horn Swipe",
+				'fr-fr': "Koud'korne",
+				'de-de': "Horn Swipe"
 			},
 			effect: {
-				en: "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both are tails, this attack does 20 damage.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 faces, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Si vous obtenez au moins 1 pile, cette attaque inflige 20 dégâts.",
-				de: "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage."
+				'en-us': "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both are tails, this attack does 20 damage.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 faces, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Si vous obtenez au moins 1 pile, cette attaque inflige 20 dégâts.",
+				'de-de': "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage."
 			},
 			damage: "20+",
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
-		fr: "À l'aide de sa corne, il perce des trous dans les rochers situés au fond des rivières, afin d'y faire un nid pour éviter que ses œufs soient emportés par le courant."
+		'en-us': "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+		'fr-fr': "À l'aide de sa corne, il perce des trous dans les rochers situés au fond des rivières, afin d'y faire un nid pour éviter que ses œufs soient emportés par le courant."
 	},
 
 

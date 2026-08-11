@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クサイハナ",
+		'ja-jp': "クサイハナ",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "毒パウダー",
+				'ja-jp': "毒パウダー",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "ファウル臭",
+				'ja-jp': "ファウル臭",
 			},
 			effect: {
-				ja: "防御するポケモンと暗闇の両方が混乱しています（ダメージを与えた後）。",
+				'ja-jp': "防御するポケモンと暗闇の両方が混乱しています（ダメージを与えた後）。",
 			},
 			damage: 20,
 		},

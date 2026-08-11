@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Reactive Healing",
-				fr: "Guérison réactive",
-				de: "Reaktive Heilung"
+				'en-us': "Reactive Healing",
+				'fr-fr': "Guérison réactive",
+				'de-de': "Reaktive Heilung"
 			},
 			effect: {
-				en: "Whenever you attach a React Energy card from your hand to Tangela, remove all damage counters from Tangela.",
-				fr: "Lorsque vous attachez une carte Énergie réaction de votre main à Saquedeneu, retirez à Saquedeneu tous ses marqueurs de dégât.",
-				de: "Immer wenn du eine Reaktions-Energiekarte von deiner Hand an Tangela anlegst, entferne alle Schadensmarken von Tangela."
+				'en-us': "Whenever you attach a React Energy card from your hand to Tangela, remove all damage counters from Tangela.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie réaction de votre main à Saquedeneu, retirez à Saquedeneu tous ses marqueurs de dégât.",
+				'de-de': "Immer wenn du eine Reaktions-Energiekarte von deiner Hand an Tangela anlegst, entferne alle Schadensmarken von Tangela."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Entangling Vines",
-				fr: "Plantes emmêlantes",
-				de: "Einschnürende Ranken"
+				'en-us': "Entangling Vines",
+				'fr-fr': "Plantes emmêlantes",
+				'de-de': "Einschnürende Ranken"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Basic Pokémon, that Pokémon can't attack during your opponent's next turn.",
-				fr: "Si le Pokémon Défenseur est une Pokémon de base, il ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+				'en-us': "If the Defending Pokémon is a Basic Pokémon, that Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Si le Pokémon Défenseur est une Pokémon de base, il ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 			damage: 10,
 
@@ -66,14 +66,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Wrap",
-				fr: "Enveloppe douce",
-				de: "Sanfte Umarmung"
+				'en-us': "Gentle Wrap",
+				'fr-fr': "Enveloppe douce",
+				'de-de': "Sanfte Umarmung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 

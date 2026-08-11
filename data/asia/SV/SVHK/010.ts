@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHK"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "故勒頓ex",
-		th: "โคไรดอนex",
-		id: "Koraidon ex"
+		'th-th': "โคไรดอนex",
+		'id-id': "Koraidon ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -20,14 +20,14 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "復仇懲處",
-			th: "ชำระโทษแค้น",
-			id: "Palu Godam Ganjaran"
+			'th-th': "ชำระโทษแค้น",
+			'id-id': "Palu Godam Ganjaran"
 		},
 
 		effect: {
 			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
-			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
-			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: "20+",
@@ -35,14 +35,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "凱撒衝撞",
-			th: "ไคเซอร์แท็กเกิล",
-			id: "Kaiser Tackle"
+			'th-th': "ไคเซอร์แท็กเกิล",
+			'id-id': "Kaiser Tackle"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到60點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 60 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 60."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 60 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 60."
 		},
 
 		damage: 280,

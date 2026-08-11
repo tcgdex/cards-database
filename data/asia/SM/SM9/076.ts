@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プテラ",
+		'ja-jp': "プテラ",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "琥珀に 残された 遺伝子から 復元させた。 予想以上に 凶暴で 犠牲者も でた。",
+		'ja-jp': "琥珀に 残された 遺伝子から 復元させた。 予想以上に 凶暴で 犠牲者も でた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょうおんぱ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「ポケモンGX・EX」がいないなら、90ダメージ追加。",
+				'ja-jp': "自分のベンチに「ポケモンGX・EX」がいないなら、90ダメージ追加。",
 			},
 		},
 	],

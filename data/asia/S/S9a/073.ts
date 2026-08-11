@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホーホー"
+		'ja-jp': "ホーホー"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "いつも 一本足で 立っている。 脚を 入れ替える 瞬間は 素早くて なかなか 見られない。"
+		'ja-jp': "いつも 一本足で 立っている。 脚を 入れ替える 瞬間は 素早くて なかなか 見られない。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "みはりばん"
+			'ja-jp': "みはりばん"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のベンチポケモンについている基本エネルギーは、相手のグッズまたはサポートによる、トラッシュする効果を受けない。"
+			'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモンについている基本エネルギーは、相手のグッズまたはサポートによる、トラッシュする効果を受けない。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 20

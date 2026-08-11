@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barbaracle",
-		fr: "Golgopathe",
-		es: "Barbaracle",
+		'en-us': "Barbaracle",
+		'fr-fr': "Golgopathe",
+		'es-es': "Barbaracle",
 		'es-mx': "Barbaracle",
-		de: "Thanathora",
-		it: "Barbaracle",
-		pt: "Barbaracle"
+		'de-de': "Thanathora",
+		'it-it': "Barbaracle",
+		'pt-br': "Barbaracle"
 	},
 
 	illustrator: "Hasuno",
@@ -23,36 +23,36 @@ const card: Card = {
 	dexId: [689],
 
 	evolveFrom: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
 		'es-mx': "Binacle",
-		de: "Bithora",
-		it: "Binacle",
-		pt: "Binacle"
+		'de-de': "Bithora",
+		'it-it': "Binacle",
+		'pt-br': "Binacle"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Stone Arms",
-			fr: "Bras de Pierre",
-			es: "Brazos de Piedra",
+			'en-us': "Stone Arms",
+			'fr-fr': "Bras de Pierre",
+			'es-es': "Brazos de Piedra",
 			'es-mx': "Extremidades Pétreas",
-			de: "Arme aus Stein",
-			it: "Braccia di Pietra",
-			pt: "Braços de Pedra"
+			'de-de': "Arme aus Stein",
+			'it-it': "Braccia di Pietra",
+			'pt-br': "Braços de Pedra"
 		},
 
 		effect: {
-			en: "Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez utiliser ce talent. Attachez une carte Énergie {F} de base de votre main à l'un de vos Pokémon {F}.",
-			es: "Una vez durante tu turno, puedes usar esta habilidad. Une 1 carta de Energía {F} Básica de tu mano a uno de tus Pokémon {F}.",
+			'en-us': "Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez utiliser ce talent. Attachez une carte Énergie {F} de base de votre main à l'un de vos Pokémon {F}.",
+			'es-es': "Una vez durante tu turno, puedes usar esta habilidad. Une 1 carta de Energía {F} Básica de tu mano a uno de tus Pokémon {F}.",
 			'es-mx': "Una vez durante tu turno, puedes usar esta Habilidad. Une 1 carta de Energía {F} Básica de tu mano a 1 de tus Pokémon {F}.",
-			de: "Einmal während deines Zuges kannst du diese Fähigkeit einsetzen. Lege 1 Basis-{F}-Energiekarte aus deiner Hand an 1 deiner {F}-Pokémon an.",
-			it: "Una sola volta durante il tuo turno, puoi usare questa abilità. Assegna a uno dei tuoi Pokémon {F} una carta Energia base {F} dalla tua mano.",
-			pt: "Uma vez durante o seu turno, você poderá usar esta Habilidade. Ligue uma carta de Energia {F} Básica da sua mão a 1 dos seus Pokémon {F}."
+			'de-de': "Einmal während deines Zuges kannst du diese Fähigkeit einsetzen. Lege 1 Basis-{F}-Energiekarte aus deiner Hand an 1 deiner {F}-Pokémon an.",
+			'it-it': "Una sola volta durante il tuo turno, puoi usare questa abilità. Assegna a uno dei tuoi Pokémon {F} una carta Energia base {F} dalla tua mano.",
+			'pt-br': "Uma vez durante o seu turno, você poderá usar esta Habilidade. Ligue uma carta de Energia {F} Básica da sua mão a 1 dos seus Pokémon {F}."
 		}
 	}],
 
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
 			'es-mx': "Martillar",
-			de: "Einhämmern",
-			it: "Martello",
-			pt: "Martelada"
+			'de-de': "Einhämmern",
+			'it-it': "Martello",
+			'pt-br': "Martelada"
 		},
 
 		damage: 80

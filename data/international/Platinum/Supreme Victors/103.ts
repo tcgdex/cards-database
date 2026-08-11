@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "Drifloon does 10 damage to itself.",
-				fr: "Baudrive s'inflige 10 dégâts.",
-				de: "Driftlon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Drifloon does 10 damage to itself.",
+				'fr-fr': "Baudrive s'inflige 10 dégâts.",
+				'de-de': "Driftlon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\""
+		'en-us': "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\""
 	},
 
 	variants: [

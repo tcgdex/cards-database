@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carracosta",
-		fr: "Mégapagos",
-		es: "Carracosta",
-		it: "Carracosta",
-		pt: "Carracosta",
-		de: "Karippas"
+		'en-us': "Carracosta",
+		'fr-fr': "Mégapagos",
+		'es-es': "Carracosta",
+		'it-it': "Carracosta",
+		'pt-br': "Carracosta",
+		'de-de': "Karippas"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Tirtouga",
-		fr: "Carapagos",
-		es: "Tirtouga",
-		it: "Tirtouga",
-		pt: "Tirtouga",
-		de: "Galapaflos"
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
+		'es-es': "Tirtouga",
+		'it-it': "Tirtouga",
+		'pt-br': "Tirtouga",
+		'de-de': "Galapaflos"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Primal Knowledge",
-			fr: "Primo-Savoir",
-			es: "Conocimiento Primigenio",
-			it: "Sapienza Primordiale",
-			pt: "Sabedoria Primitiva",
-			de: "Urzeitwissen"
+			'en-us': "Primal Knowledge",
+			'fr-fr': "Primo-Savoir",
+			'es-es': "Conocimiento Primigenio",
+			'it-it': "Sapienza Primordiale",
+			'pt-br': "Sabedoria Primitiva",
+			'de-de': "Urzeitwissen"
 		},
 
 		effect: {
-			en: "Attacks used by your Pokémon do 30 more damage to your opponent's Active Evolution Pokémon (before applying Weakness and Resistance).",
-			fr: "Les attaques utilisées par vos Pokémon infligent 30 dégâts supplémentaires au Pokémon Évolutif Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-			es: "Los ataques usados por tus Pokémon hacen 30 puntos de daño más al Pokémon Evolución Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			it: "Gli attacchi usati dai tuoi Pokémon infliggono 30 danni in più al Pokémon Evoluzione attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			pt: "Os ataques usados pelos seus Pokémon causam 30 pontos de dano a mais ao Pokémon de Evolução Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die von deinen Pokémon eingesetzten Attacken fügen dem Aktiven Entwicklungs-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			'en-us': "Attacks used by your Pokémon do 30 more damage to your opponent's Active Evolution Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Les attaques utilisées par vos Pokémon infligent 30 dégâts supplémentaires au Pokémon Évolutif Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques usados por tus Pokémon hacen 30 puntos de daño más al Pokémon Evolución Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Gli attacchi usati dai tuoi Pokémon infliggono 30 danni in più al Pokémon Evoluzione attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Os ataques usados pelos seus Pokémon causam 30 pontos de dano a mais ao Pokémon de Evolução Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Die von deinen Pokémon eingesetzten Attacken fügen dem Aktiven Entwicklungs-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Tidal Wave",
-			fr: "Raz-de-Marée",
-			es: "Maremoto",
-			it: "Mareggiata",
-			pt: "Maremoto",
-			de: "Flutwelle"
+			'en-us': "Tidal Wave",
+			'fr-fr': "Raz-de-Marée",
+			'es-es': "Maremoto",
+			'it-it': "Mareggiata",
+			'pt-br': "Maremoto",
+			'de-de': "Flutwelle"
 		},
 
 		damage: 150

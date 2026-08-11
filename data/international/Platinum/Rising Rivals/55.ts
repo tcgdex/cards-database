@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl GL",
-		fr: "Ptera  Niv. 62",
-		de: "Aerodactyl GL"
+		'en-us': "Aerodactyl GL",
+		'fr-fr': "Ptera  Niv. 62",
+		'de-de': "Aerodactyl GL"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Primal Breath",
-				fr: "Haleine primale",
-				de: "Urzeithauch"
+				'en-us': "Primal Breath",
+				'fr-fr': "Haleine primale",
+				'de-de': "Urzeithauch"
 			},
 			effect: {
-				en: "Your opponent can't play any Pokémon from his or her hand to Evolve or to Level-Up the Defending Pokémon during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ou faire passer au Niveau Supérieur le Pokémon Défenseur lors de son prochain tour.",
-				de: "Dein Gegner kann in seinem nächsten Zug keine Pokémon-Karten von seiner Hand spielen, um das Verteidigende Pokémon zu entwickeln oder damit ein Level-Up durchzuführen."
+				'en-us': "Your opponent can't play any Pokémon from his or her hand to Evolve or to Level-Up the Defending Pokémon during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ou faire passer au Niveau Supérieur le Pokémon Défenseur lors de son prochain tour.",
+				'de-de': "Dein Gegner kann in seinem nächsten Zug keine Pokémon-Karten von seiner Hand spielen, um das Verteidigende Pokémon zu entwickeln oder damit ein Level-Up durchzuführen."
 			},
 			damage: 30,
 

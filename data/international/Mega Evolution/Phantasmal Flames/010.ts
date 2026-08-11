@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lokix",
-		fr: "Gambex",
-		es: "Lokix",
+		'en-us': "Lokix",
+		'fr-fr': "Gambex",
+		'es-es': "Lokix",
 		'es-mx': "Lokix",
-		de: "Lextremo",
-		it: "Lokix",
-		pt: "Lokix"
+		'de-de': "Lextremo",
+		'it-it': "Lokix",
+		'pt-br': "Lokix"
 	},
 
 	evolveFrom: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
 		'es-mx': "Nymble",
-		de: "Micrick",
-		it: "Nymble",
-		pt: "Nymble",
+		'de-de': "Micrick",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
 	},
 
 	rarity: "Uncommon",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
 			'es-mx': "Patada Baja",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			pt: "Rasteira"
+			'de-de': "Fußkick",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira"
 		},
 
 		damage: 30
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Jumping Shot",
-			fr: "Tir Bondissant",
-			es: "Disparo Saltarín",
+			'en-us': "Jumping Shot",
+			'fr-fr': "Tir Bondissant",
+			'es-es': "Disparo Saltarín",
 			'es-mx': "Disparo con Salto",
-			de: "Springender Schuss",
-			it: "Saltocolpo",
-			pt: "Salto com Disparo"
+			'de-de': "Springender Schuss",
+			'it-it': "Saltocolpo",
+			'pt-br': "Salto com Disparo"
 		},
 
 		effect: {
-			en: "Shuffle this Pokémon and all attached cards into your deck.",
-			fr: "Mélangez avec votre deck ce Pokémon et toutes les cartes qui lui sont attachées.",
-			es: "Pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
+			'en-us': "Shuffle this Pokémon and all attached cards into your deck.",
+			'fr-fr': "Mélangez avec votre deck ce Pokémon et toutes les cartes qui lui sont attachées.",
+			'es-es': "Pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
 			'es-mx': "Baraja este Pokémon y todas las cartas unidas a él en tu mazo.",
-			de: "Mische dieses Pokémon und alle angelegten Karten in dein Deck.",
-			it: "Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
-			pt: "Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho."
+			'de-de': "Mische dieses Pokémon und alle angelegten Karten in dein Deck.",
+			'it-it': "Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+			'pt-br': "Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho."
 		},
 
 		damage: 150
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+		'en-us': "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
 	},
 
 	illustrator: "Taiga Kasai",

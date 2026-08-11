@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナンジャモのビリリダマ",
+		'ja-jp': "ナンジャモのビリリダマ",
 		'zh-tw': "奇樹的霹靂電球",
 		'zh-cn': "奇樹的霹靂電球"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "転がって 移動するので 地面が デコボコだと ショックで 爆発してしまう。",
+		'ja-jp': "転がって 移動するので 地面が デコボコだと ショックで 爆発してしまう。",
 		'zh-tw': "靠著翻滾身體來移動， 如果地面凹凸不平， 就會受到衝擊而爆炸。",
 		'zh-cn': "靠著翻滾身體來移動， 如果地面凹凸不平， 就會受到衝擊而爆炸。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "チェインボルト",
+			'ja-jp': "チェインボルト",
 			'zh-tw': "連鎖伏特",
 			'zh-cn': "連鎖伏特"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: "20+",
 
 		effect: {
-			ja: "自分の「ナンジャモのポケモン」全員についているエネルギーの数×20ダメージ追加。",
+			'ja-jp': "自分の「ナンジャモのポケモン」全員についているエネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加自己的所有「奇樹的寶可夢」身上附加的【雷】能量的數量×20點傷害。",
 			'zh-cn': "增加自己的所有「奇樹的寶可夢」身上附加的【雷】能量的數量×20點傷害。"
 		}

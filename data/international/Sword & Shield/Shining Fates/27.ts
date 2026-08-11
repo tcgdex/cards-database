@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Torgamord",
-		en: "Drednaw",
-		es: "Drednaw",
-		it: "Drednaw",
-		pt: "Drednaw",
-		de: "Kamalm"
+		'fr-fr': "Torgamord",
+		'en-us': "Drednaw",
+		'es-es': "Drednaw",
+		'it-it': "Drednaw",
+		'pt-br': "Drednaw",
+		'de-de': "Kamalm"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,40 +21,40 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Khélocrok",
-		en: "Chewtle"
+		'fr-fr': "Khélocrok",
+		'en-us': "Chewtle"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Exosquelette",
-			en: "Exoskeleton",
-			es: "Exosqueleto",
-			it: "Esoscheletro",
-			pt: "Exo-esqueleto",
-			de: "Exoskelett"
+			'fr-fr': "Exosquelette",
+			'en-us': "Exoskeleton",
+			'es-es': "Exosqueleto",
+			'it-it': "Esoscheletro",
+			'pt-br': "Exo-esqueleto",
+			'de-de': "Exoskelett"
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Coud'Krâne",
-			en: "Skull Bash",
-			es: "Cabezazo",
-			it: "Capocciata",
-			pt: "Quebra-crânio",
-			de: "Schädelwumme"
+			'fr-fr': "Coud'Krâne",
+			'en-us': "Skull Bash",
+			'es-es': "Cabezazo",
+			'it-it': "Capocciata",
+			'pt-br': "Quebra-crânio",
+			'de-de': "Schädelwumme"
 		},
 
 		damage: 130,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+		'en-us': "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	},
 
 	variants: [

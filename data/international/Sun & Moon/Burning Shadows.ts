@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm3: Set = {
 	id: "sm3",
 
 	name: {
-		en: "Burning Shadows",
-		fr: "Ombres Ardentes",
-		es: "Sombras Ardientes",
-		it: "Ombre Infuocate",
-		de: "Nacht in Flammen",
-		pt: "Sombras Ardentes"
+		'en-us': "Burning Shadows",
+		'fr-fr': "Ombres Ardentes",
+		'es-es': "Sombras Ardientes",
+		'it-it': "Ombre Infuocate",
+		'de-de': "Nacht in Flammen",
+		'pt-br': "Sombras Ardentes"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm3: Set = {
 
 	abbreviations: {
 		official: "BUS",
-		fr: "OAR"
+		'fr-fr': "OAR"
 	},
 
 	thirdParty: {

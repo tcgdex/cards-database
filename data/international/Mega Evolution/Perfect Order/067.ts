@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [676],
 
 	name: {
-		en: "Furfrou",
-		fr: "Couafarel",
-		es: "Furfrou",
+		'en-us': "Furfrou",
+		'fr-fr': "Couafarel",
+		'es-es': "Furfrou",
 		'es-mx': "Furfrou",
-		de: "Coiffwaff",
-		it: "Furfrou",
-		pt: "Furfrou"
+		'de-de': "Coiffwaff",
+		'it-it': "Furfrou",
+		'pt-br': "Furfrou"
 	},
 
 	illustrator: "Teeziro",
@@ -27,35 +27,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hand Trim",
-			fr: "Réduction de Main",
-			es: "Recorte de Mano",
+			'en-us': "Hand Trim",
+			'fr-fr': "Réduction de Main",
+			'es-es': "Recorte de Mano",
 			'es-mx': "Corte a Mano",
-			de: "Handschnitt",
-			it: "Sfoltimano",
-			pt: "Tosa Manual"
+			'de-de': "Handschnitt",
+			'it-it': "Sfoltimano",
+			'pt-br': "Tosa Manual"
 		},
 
 		effect: {
-			en: "Discard random cards from your opponent's hand until they have 5 cards in their hand.",
-			fr: "Défaussez au hasard des cartes de la main de votre adversaire jusqu'à ce qu'il reste 5 cartes dans sa main.",
-			es: "Descarta cartas aleatorias de la mano de tu rival hasta que tenga 5 cartas en su mano.",
+			'en-us': "Discard random cards from your opponent's hand until they have 5 cards in their hand.",
+			'fr-fr': "Défaussez au hasard des cartes de la main de votre adversaire jusqu'à ce qu'il reste 5 cartes dans sa main.",
+			'es-es': "Descarta cartas aleatorias de la mano de tu rival hasta que tenga 5 cartas en su mano.",
 			'es-mx': "Descarta cartas aleatorias de la mano de tu rival hasta que tenga 5 cartas en su mano.",
-			de: "Lege so lange zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf seiner Hand hat.",
-			it: "Scarta delle carte a caso dalla mano del tuo avversario fino a lasciarlo con cinque carte in mano.",
-			pt: "Descarte cartas aleatórias da mão do seu oponente até que ele tenha 5 cartas na mão dele."
+			'de-de': "Lege so lange zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf seiner Hand hat.",
+			'it-it': "Scarta delle carte a caso dalla mano del tuo avversario fino a lasciarlo con cinque carte in mano.",
+			'pt-br': "Descarte cartas aleatórias da mão do seu oponente até que ele tenha 5 cartas na mão dele."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		damage: 30

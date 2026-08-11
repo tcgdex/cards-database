@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニスズメ",
+		'ja-jp': "オニスズメ",
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "羽が 短く 長い 距離を  飛べない。 せわしなく 動き  まわって むしポケモンを ついばむ。",
+		'ja-jp': "羽が 短く 長い 距離を  飛べない。 せわしなく 動き  まわって むしポケモンを ついばむ。",
 	},
 
 	stage: "Basic",

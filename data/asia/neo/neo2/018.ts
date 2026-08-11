@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトップス",
+		'ja-jp': "カブトップス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "ハイドカッター",
+				'ja-jp': "ハイドカッター",
 			},
 			effect: {
-				ja: "Kabutopsに取り付けられたエネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の40回のダメージ倍になります。この方法で3つ以上のコインをひっくり返すことはできません。",
+				'ja-jp': "Kabutopsに取り付けられたエネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の40回のダメージ倍になります。この方法で3つ以上のコインをひっくり返すことはできません。",
 			},
 		},
 	],

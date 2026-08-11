@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Holon Fossil",
-		fr: "Fossile Holon",
-		de: "Holon-Fossil"
+		'en-us': "Holon Fossil",
+		'fr-fr': "Fossile Holon",
+		'de-de': "Holon-Fossil"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Flip a coin. If heads, search your deck for an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith and put it onto your Bench. Shuffle your deck afterward. If tails, put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith from your hand onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon.",
-		fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith et placez-le sur votre Banc. Ensuite, mélangez votre deck. Si c'est pile, placez un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith de votre main sur votre Banc. Traitez le nouveau Pokémon comme un Pokémon de base.",
-		de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einem Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith und lege es auf deine Bank. Mische dein Deck danach. Bei \"Zahl\" lege ein Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith von deiner Hand auf deine Bank. Behandle das neue Pokémon auf der Bank als Basis-Pokémon."
+		'en-us': "Flip a coin. If heads, search your deck for an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith and put it onto your Bench. Shuffle your deck afterward. If tails, put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith from your hand onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon.",
+		'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre deck un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith et placez-le sur votre Banc. Ensuite, mélangez votre deck. Si c'est pile, placez un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith de votre main sur votre Banc. Traitez le nouveau Pokémon comme un Pokémon de base.",
+		'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einem Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith und lege es auf deine Bank. Mische dein Deck danach. Bei \"Zahl\" lege ein Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith von deiner Hand auf deine Bank. Behandle das neue Pokémon auf der Bank als Basis-Pokémon."
 	},
 
 	thirdParty: {

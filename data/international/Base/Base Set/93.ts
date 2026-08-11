@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Gust of Wind",
-		fr: "Rafale de vent",
-		de: "Windhauch",
-		it: "Ventata"
+		'en-us': "Gust of Wind",
+		'fr-fr': "Rafale de vent",
+		'de-de': "Windhauch",
+		'it-it': "Ventata"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
-		fr: "Choisissez 1 Pokémon du Banc votre adversaire et échangez-le avec son Pokémon actif.",
-		de: "Wähle ein Pokémon auf der Bank Deines Gegners und tausche es mit seinem aktiven Pokémon aus.",
-		it: "Scegli un Pokémon nella Panchina del tuo avversario e scambialo con il suo Pokémon Attivo."
+		'en-us': "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
+		'fr-fr': "Choisissez 1 Pokémon du Banc votre adversaire et échangez-le avec son Pokémon actif.",
+		'de-de': "Wähle ein Pokémon auf der Bank Deines Gegners und tausche es mit seinem aktiven Pokémon aus.",
+		'it-it': "Scegli un Pokémon nella Panchina del tuo avversario e scambialo con il suo Pokémon Attivo."
 	},
 
 	variants: [

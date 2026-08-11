@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [14],
 
 	name: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		es: "Kakuna",
-		it: "Kakuna",
-		pt: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'es-es': "Kakuna",
+		'it-it': "Kakuna",
+		'pt-br': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shed Skin",
-				fr: "Mue",
-				es: "Mudar",
-				it: "Muta",
-				pt: "Pele Vertente",
-				de: "Expidermis"
+				'en-us': "Shed Skin",
+				'fr-fr': "Mue",
+				'es-es': "Mudar",
+				'it-it': "Muta",
+				'pt-br': "Pele Vertente",
+				'de-de': "Expidermis"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -60,12 +60,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+		'en-us': "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
 	},
 
 	variants: [

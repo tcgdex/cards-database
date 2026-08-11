@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Super Singe",
-			fr: "Super Roussi",
-			es: "Superquemadura",
-			it: "Super Scottata",
-			pt: "Superchamuscada",
-			de: "Super-Versengung"
+			'en-us': "Super Singe",
+			'fr-fr': "Super Roussi",
+			'es-es': "Superquemadura",
+			'it-it': "Super Scottata",
+			'pt-br': "Superchamuscada",
+			'de-de': "Super-Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Cinder Cannon",
-			fr: "Canon à Braises",
-			es: "Cañón de Ceniza",
-			it: "Cannonbrace",
-			pt: "Canhão de Cinzas",
-			de: "Zunderkanone"
+			'en-us': "Cinder Cannon",
+			'fr-fr': "Canon à Braises",
+			'es-es': "Cañón de Ceniza",
+			'it-it': "Cannonbrace",
+			'pt-br': "Canhão de Cinzas",
+			'de-de': "Zunderkanone"
 		},
 
 		effect: {
-			en: "You may discard a {F} Energy from this Pokémon. If you do, this attack does 120 more damage.",
-			fr: "Vous pouvez défausser une Énergie {F} de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Puedes descartar 1 Energía {F} de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
-			it: "Puoi scartare un'Energia {F} da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
-			pt: "Você pode descartar uma Energia {F} deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
-			de: "Du kannst 1 {F}-Energie von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "You may discard a {F} Energy from this Pokémon. If you do, this attack does 120 more damage.",
+			'fr-fr': "Vous pouvez défausser une Énergie {F} de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Puedes descartar 1 Energía {F} de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
+			'it-it': "Puoi scartare un'Energia {F} da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
+			'pt-br': "Você pode descartar uma Energia {F} deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Du kannst 1 {F}-Energie von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -103,7 +103,7 @@ const card: Card = {
 	illustrator: "satoma",
 
 	description: {
-		en: "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
+		'en-us': "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
 	},
 
 }

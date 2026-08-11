@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌオーV",
+		'ja-jp': "ヌオーV",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "てんねん" },
 			effect: {
-				ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンに[F]エネルギーがついているなら、120ダメージ追加。",
+				'ja-jp': "このポケモンに[F]エネルギーがついているなら、120ダメージ追加。",
 			},
 		},
 	],

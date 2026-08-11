@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toucannon",
-		fr: "Bazoucan",
-		es: "Toucannon",
-		it: "Toucannon",
-		pt: "Toucannon",
-		de: "Tukanon"
+		'en-us': "Toucannon",
+		'fr-fr': "Bazoucan",
+		'es-es': "Toucannon",
+		'it-it': "Toucannon",
+		'pt-br': "Toucannon",
+		'de-de': "Tukanon"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trumbeak",
-		fr: "Piclairon",
-		es: "Trumbeak",
-		it: "Trumbeak",
-		pt: "Trumbeak",
-		de: "Trompeck"
+		'en-us': "Trumbeak",
+		'fr-fr': "Piclairon",
+		'es-es': "Trumbeak",
+		'it-it': "Trumbeak",
+		'pt-br': "Trumbeak",
+		'de-de': "Trompeck"
 	},
 
 	attacks: [
@@ -38,10 +38,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice"
+				'en-us': "Echoed Voice"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance)."
+				'en-us': "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance)."
 			},
 			damage: 60
 		},
@@ -52,10 +52,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beak Blast"
+				'en-us': "Beak Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
 			},
 			damage: 100
 		},

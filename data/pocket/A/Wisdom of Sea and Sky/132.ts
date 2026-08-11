@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blissey",
-		fr: "Leuphorie"
+		'en-us': "Blissey",
+		'fr-fr': "Leuphorie"
 	},
 
 	illustrator: "Mizue",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Chansey"
+		'en-us': "Chansey"
 	},
 
 	description: {
-		en: "Anyone who takes even one taste of Blissey's\negg becomes unfailingly caring and pleasant\nto everyone.",
-		fr: "Il suffit de manger une bouchée de l'œuf de Leuphorie pour devenir aimable avec tout le monde."
+		'en-us': "Anyone who takes even one taste of Blissey's\negg becomes unfailingly caring and pleasant\nto everyone.",
+		'fr-fr': "Il suffit de manger une bouchée de l'œuf de Leuphorie pour devenir aimable avec tout le monde."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Energy Blow",
-			fr: "Coup d'Énergie"
+			'en-us': "Energy Blow",
+			'fr-fr': "Coup d'Énergie"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée à ce Pokémon."
+			'en-us': "This attack does 20 more damage for each Energy attached to this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée à ce Pokémon."
 		}
 	}],
 

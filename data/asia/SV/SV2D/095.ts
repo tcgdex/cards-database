@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サワロ"
+		'ja-jp': "サワロ"
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のポケモンを2匹まで選び、HPをそれぞれ「50」回復する。"
+		'ja-jp': "自分のポケモンを2匹まで選び、HPをそれぞれ「50」回復する。"
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cizayox",
-		en: "Scizor",
-		es: "Scizor",
-		it: "Scizor",
-		pt: "Scizor",
-		de: "Scherox"
+		'fr-fr': "Cizayox",
+		'en-us': "Scizor",
+		'es-es': "Scizor",
+		'it-it': "Scizor",
+		'pt-br': "Scizor",
+		'de-de': "Scherox"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Metal"],
 	evolveFrom: {
-		fr: "Insécateur",
-		en: "Scyther",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'fr-fr': "Insécateur",
+		'en-us': "Scyther",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			fr: "Cisailles Punitives",
-			en: "Punishing Scissors",
-			es: "Tijeras Castigadoras",
-			it: "Forbici Punitive",
-			pt: "Tesouras da Punição",
-			de: "Strafende Scheren"
+			'fr-fr': "Cisailles Punitives",
+			'en-us': "Punishing Scissors",
+			'es-es': "Tijeras Castigadoras",
+			'it-it': "Forbici Punitive",
+			'pt-br': "Tesouras da Punição",
+			'de-de': "Strafende Scheren"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
-			en: "This attack does 50 more damage for each of your opponent's Pokémon in play that has an Ability.",
-			es: "Este ataque hace 50 puntos de daño más por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
-			it: "Questo attacco infligge 50 danni in più per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada Pokémon do seu oponente em jogo que tem uma Habilidade.",
-			de: "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
+			'en-us': "This attack does 50 more damage for each of your opponent's Pokémon in play that has an Ability.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada Pokémon do seu oponente em jogo que tem uma Habilidade.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Metal", "Metal"],
 
 		name: {
-			fr: "Coupe",
-			en: "Cut",
-			es: "Corte",
-			it: "Taglio",
-			pt: "Cortar",
-			de: "Zerschneider"
+			'fr-fr': "Coupe",
+			'en-us': "Cut",
+			'es-es': "Corte",
+			'it-it': "Taglio",
+			'pt-br': "Cortar",
+			'de-de': "Zerschneider"
 		},
 
 		damage: 70
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+		'en-us': "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
 	},
 
 	variants: [

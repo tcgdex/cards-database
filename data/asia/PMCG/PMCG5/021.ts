@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのコダック",
+		'ja-jp': "カスミのコダック",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "特に",
+				'ja-jp': "特に",
 			},
 			effect: {
-				ja: "3コインをフリップします。正確に1がヘッドの場合は、カードを描きます。正確に2がヘッドの場合、この攻撃は20のダメージを与えます。 3つすべてがヘッドの場合は、防御ポケモンの攻撃の1つを選択します。 MistyのPsyduckは、そのエネルギーコストを除いて攻撃するコピーをコピーします。 （ディフェンディングポケモンがどんなタイプであっても、MistyのPsyduckのタイプはまだ水です。）",
+				'ja-jp': "3コインをフリップします。正確に1がヘッドの場合は、カードを描きます。正確に2がヘッドの場合、この攻撃は20のダメージを与えます。 3つすべてがヘッドの場合は、防御ポケモンの攻撃の1つを選択します。 MistyのPsyduckは、そのエネルギーコストを除いて攻撃するコピーをコピーします。 （ディフェンディングポケモンがどんなタイプであっても、MistyのPsyduckのタイプはまだ水です。）",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		es: "Masquerain",
-		it: "Masquerain",
-		pt: "Masquerain",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'es-es': "Masquerain",
+		'it-it': "Masquerain",
+		'pt-br': "Masquerain",
+		'de-de': "Maskeregen"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo",
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Surprising Pattern",
-				fr: "Motif Surprise",
-				es: "Diseño Sorprendente",
-				it: "Disegno Inaspettato",
-				pt: "Desenho Surpreendente",
-				de: "Überraschendes Muster"
+				'en-us': "Surprising Pattern",
+				'fr-fr': "Motif Surprise",
+				'es-es': "Diseño Sorprendente",
+				'it-it': "Disegno Inaspettato",
+				'pt-br': "Desenho Surpreendente",
+				'de-de': "Überraschendes Muster"
 			},
 			effect: {
-				en: "Discard all Special Energy from each of your opponent’s Pokémon.",
-				fr: "Défaussez toute l’Énergie spéciale attachée à chacun des Pokémon de votre adversaire.",
-				es: "Descarta todas las Energías Especiales de cada uno de los Pokémon de tu rival.",
-				it: "Scarta tutte le Energie speciali assegnate a ciascuno dei Pokémon del tuo avversario.",
-				pt: "Descarte todas as Energias Especiais de cada um dos Pokémon do seu oponente.",
-				de: "Lege alle Spezial-Energien von jedem Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard all Special Energy from each of your opponent’s Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie spéciale attachée à chacun des Pokémon de votre adversaire.",
+				'es-es': "Descarta todas las Energías Especiales de cada uno de los Pokémon de tu rival.",
+				'it-it': "Scarta tutte le Energie speciali assegnate a ciascuno dei Pokémon del tuo avversario.",
+				'pt-br': "Descarte todas as Energias Especiais de cada um dos Pokémon do seu oponente.",
+				'de-de': "Lege alle Spezial-Energien von jedem Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Wing",
-				fr: "Tornad’Aile",
-				es: "Ala Huracán",
-				it: "Ala Uragano",
-				pt: "Asa do Furacão",
-				de: "Hurrikanschwinge"
+				'en-us': "Hurricane Wing",
+				'fr-fr': "Tornad’Aile",
+				'es-es': "Ala Huracán",
+				'it-it': "Ala Uragano",
+				'pt-br': "Asa do Furacão",
+				'de-de': "Hurrikanschwinge"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 40 damage for each heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-				it: "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-				pt: "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-				de: "Wirf 4 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 4 coins. This attack does 40 damage for each heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+				'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 4 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+				'de-de': "Wirf 4 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 			},
 			damage: "40×",
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
+		'en-us': "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
 	},
 
 	thirdParty: {

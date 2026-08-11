@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Clamiral de Hisui V",
-		de: "Hisui-Admurai V",
-		es: "Samurott de Hisui V",
-		pt: "Samurott de Hisui V",
-		it: "Samurott di Hisui V",
-		en: "Hisuian Samurott V"
+		'fr-fr': "Clamiral de Hisui V",
+		'de-de': "Hisui-Admurai V",
+		'es-es': "Samurott de Hisui V",
+		'pt-br': "Samurott de Hisui V",
+		'it-it': "Samurott di Hisui V",
+		'en-us': "Hisuian Samurott V"
 	},
 
 	rarity: "Promo",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Panier Percé",
-			de: "Kippender Korb",
-			es: "Cesta al Suelo",
-			pt: "Virar o Cesto",
-			it: "Cestoschianto",
-			en: "Basket Crash"
+			'fr-fr': "Panier Percé",
+			'de-de': "Kippender Korb",
+			'es-es': "Cesta al Suelo",
+			'pt-br': "Virar o Cesto",
+			'it-it': "Cestoschianto",
+			'en-us': "Basket Crash"
 		},
 
 		effect: {
-			fr: "Défaussez jusqu'à 2 Outils Pokémon des Pokémon de votre adversaire.",
-			de: "Lege bis zu 2 Pokémon-Ausrüstungen von Pokémon deines Gegners auf seinen Ablagestapel.",
-			es: "Descarta hasta 2 Herramientas Pokémon de los Pokémon de tu rival.",
-			pt: "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente.",
-			it: "Scarta fino a due carte Oggetto Pokémon dai Pokémon del tuo avversario.",
-			en: "Discard up to 2 Pokémon Tools from your opponent's Pokémon."
+			'fr-fr': "Défaussez jusqu'à 2 Outils Pokémon des Pokémon de votre adversaire.",
+			'de-de': "Lege bis zu 2 Pokémon-Ausrüstungen von Pokémon deines Gegners auf seinen Ablagestapel.",
+			'es-es': "Descarta hasta 2 Herramientas Pokémon de los Pokémon de tu rival.",
+			'pt-br': "Descarte até 2 Ferramentas Pokémon dos Pokémon do seu oponente.",
+			'it-it': "Scarta fino a due carte Oggetto Pokémon dai Pokémon del tuo avversario.",
+			'en-us': "Discard up to 2 Pokémon Tools from your opponent's Pokémon."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			fr: "Tranche Ombre",
-			de: "Schattenschlitzer",
-			es: "Tajo Sombrío",
-			pt: "Talho das Sombras",
-			it: "Lacerombra",
-			en: "Shadow Slash"
+			'fr-fr': "Tranche Ombre",
+			'de-de': "Schattenschlitzer",
+			'es-es': "Tajo Sombrío",
+			'pt-br': "Talho das Sombras",
+			'it-it': "Lacerombra",
+			'en-us': "Shadow Slash"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			en: "Discard an Energy from this Pokémon."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon."
 		},
 
 		damage: 180

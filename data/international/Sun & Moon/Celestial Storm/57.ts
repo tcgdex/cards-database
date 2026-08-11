@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		es: "Gulpin",
-		it: "Gulpin",
-		pt: "Gulpin",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'es-es': "Gulpin",
+		'it-it': "Gulpin",
+		'pt-br': "Gulpin",
+		'de-de': "Schluppuck"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Bâillement",
-				es: "Bostezo",
-				it: "Sbadiglio",
-				pt: "Bocejo",
-				de: "Gähner"
+				'en-us': "Yawn",
+				'fr-fr': "Bâillement",
+				'es-es': "Bostezo",
+				'it-it': "Sbadiglio",
+				'pt-br': "Bocejo",
+				'de-de': "Gähner"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-Venin",
-				es: "Escupir Veneno",
-				it: "Sputaveleno",
-				pt: "Cuspe Venenoso",
-				de: "Giftspucke"
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-Venin",
+				'es-es': "Escupir Veneno",
+				'it-it': "Sputaveleno",
+				'pt-br': "Cuspe Venenoso",
+				'de-de': "Giftspucke"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled.",
+		'en-us': "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled.",
 	},
 
 	thirdParty: {

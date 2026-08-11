@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジアイス",
+		'ja-jp': "レジアイス",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷河期に できた 氷で 体が 作られている。 マイナス２００度の 冷気を 操る。",
+		'ja-jp': "氷河期に できた 氷で 体が 作られている。 マイナス２００度の 冷気を 操る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こおりのけっかい" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手は手札からスタジアムを出せない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手は手札からスタジアムを出せない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

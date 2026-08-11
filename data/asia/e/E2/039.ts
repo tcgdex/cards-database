@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Elekid",
+		'ja-jp': "Elekid",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "エネルギーキック",
+				'ja-jp': "エネルギーキック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを選択してください。相手はそのカードを他のポケモンの1つに移動します。 （相手がベンチポケモンを持っていない場合、この攻撃は何もしません。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを選択してください。相手はそのカードを他のポケモンの1つに移動します。 （相手がベンチポケモンを持っていない場合、この攻撃は何もしません。）",
 			},
 		},
 	],

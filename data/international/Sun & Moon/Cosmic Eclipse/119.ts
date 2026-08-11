@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud’Poing",
-				es: "Puño",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud’Poing",
+				'es-es': "Puño",
+				'it-it': "Pugno",
+				'pt-br': "Soco",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It follows Pangoro around like a henchman. When Pancham makes a big mistake, its leaf gets taken away.",
+		'en-us': "It follows Pangoro around like a henchman. When Pancham makes a big mistake, its leaf gets taken away.",
 	},
 
 	thirdParty: {

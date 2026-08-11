@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Special Delivery Pikachu",
-		pt: "Special Delivery Pikachu"
+		'en-us': "Special Delivery Pikachu",
+		'pt-br': "Special Delivery Pikachu"
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
@@ -17,20 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Happy Delivery",
-			pt: "Happy Delivery"
+			'en-us': "Happy Delivery",
+			'pt-br': "Happy Delivery"
 		},
 
 		effect: {
-			en: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			pt: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
+			'en-us': "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'pt-br': "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Electro Ball",
-			pt: "Electro Ball"
+			'en-us': "Electro Ball",
+			'pt-br': "Electro Ball"
 		},
 
 		damage: 30,
@@ -45,7 +45,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+		'en-us': "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
 
 	stage: "Basic",

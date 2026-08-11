@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searching Light",
-				fr: "Sonde Lumineuse",
-				es: "Buscaluz",
-				it: "Proiettore",
-				pt: "Procurar Luz",
-				de: "Suchscheinwerfer"
+				'en-us': "Searching Light",
+				'fr-fr': "Sonde Lumineuse",
+				'es-es': "Buscaluz",
+				'it-it': "Proiettore",
+				'pt-br': "Procurar Luz",
+				'de-de': "Suchscheinwerfer"
 			},
 			effect: {
-				en: "Look at 1 of your face-down Prize cards.",
-				fr: "Regardez l’une de vos cartes Récompense (actuellement face cachée).",
-				es: "Mira 1 de tus cartas de Premio que están boca abajo.",
-				it: "Guarda una delle tue carte Premio coperte.",
-				pt: "Olhe 1 das suas cartas de Prêmio viradas para baixo.",
-				de: "Sieh dir 1 deiner verdeckten Preiskarten an."
+				'en-us': "Look at 1 of your face-down Prize cards.",
+				'fr-fr': "Regardez l’une de vos cartes Récompense (actuellement face cachée).",
+				'es-es': "Mira 1 de tus cartas de Premio que están boca abajo.",
+				'it-it': "Guarda una delle tue carte Premio coperte.",
+				'pt-br': "Olhe 1 das suas cartas de Prêmio viradas para baixo.",
+				'de-de': "Sieh dir 1 deiner verdeckten Preiskarten an."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
+				'es-es': "Bola Voltio",
+				'it-it': "Energisfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Elektroball"
 			},
 
 			damage: 30,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in the depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
+		'en-us': "It lives in the depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
 	},
 
 	thirdParty: {

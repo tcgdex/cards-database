@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sinistcha ex"
+		'id-id': "Sinistcha ex"
 	},
 
 	illustrator: "aky CG Works",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Menyeduh Balik"
+			'id-id': "Menyeduh Balik"
 		},
 
 		effect: {
-			id: "Perlihatkan semua Energi Dasar {Daun} yang ada di Trash sendiri ke lawan, letakkan 2 Token Kerusakan untuk tiap lembarnya pada 1 Pokémon lawan. Setelah itu, kocok kembali Energi yang telah diperlihatkan ke Deck."
+			'id-id': "Perlihatkan semua Energi Dasar {Daun} yang ada di Trash sendiri ke lawan, letakkan 2 Token Kerusakan untuk tiap lembarnya pada 1 Pokémon lawan. Setelah itu, kocok kembali Energi yang telah diperlihatkan ke Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Matcha Splash"
+			'id-id': "Matcha Splash"
 		},
 
 		effect: {
-			id: "Pulihkan HP semua Pokémon sendiri masing-masing sejumlah 30."
+			'id-id': "Pulihkan HP semua Pokémon sendiri masing-masing sejumlah 30."
 		},
 
 		damage: 120,

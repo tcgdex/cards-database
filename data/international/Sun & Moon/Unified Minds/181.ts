@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Gumshoos",
-		fr: "Argouste",
-		es: "Gumshoos",
-		it: "Gumshoos",
-		pt: "Gumshoos",
-		de: "Manguspektor"
+		'en-us': "Gumshoos",
+		'fr-fr': "Argouste",
+		'es-es': "Gumshoos",
+		'it-it': "Gumshoos",
+		'pt-br': "Gumshoos",
+		'de-de': "Manguspektor"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yungoos",
-		fr: "Manglouton",
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Alert Headbutt",
-				fr: "Réveil Coup d’Boule",
-				es: "Cabezazo de Alerta",
-				it: "Testata Prudente",
-				pt: "Cabeçada Alerta",
-				de: "Warnende Kopfnuss"
+				'en-us': "Alert Headbutt",
+				'fr-fr': "Réveil Coup d’Boule",
+				'es-es': "Cabezazo de Alerta",
+				'it-it': "Testata Prudente",
+				'pt-br': "Cabeçada Alerta",
+				'de-de': "Warnende Kopfnuss"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon-GX or Pokémon-EX, this attack’s base damage is 30.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-GX ou un Pokémon-EX, les dégâts de base de cette attaque sont de 30.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon-GX o un Pokémon-EX, el daño básico de este ataque es de 30.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-GX o un Pokémon-EX, i danni base di questo attacco sono 30.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon-GX ou um Pokémon-EX, o dano base deste ataque será 30.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-GX oder Pokémon-EX ist, beträgt der Grundschaden dieser Attacke 30 Schadenspunkte."
+				'en-us': "If your opponent’s Active Pokémon is a Pokémon-GX or Pokémon-EX, this attack’s base damage is 30.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-GX ou un Pokémon-EX, les dégâts de base de cette attaque sont de 30.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon-GX o un Pokémon-EX, el daño básico de este ataque es de 30.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-GX o un Pokémon-EX, i danni base di questo attacco sono 30.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon-GX ou um Pokémon-EX, o dano base deste ataque será 30.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-GX oder Pokémon-EX ist, beträgt der Grundschaden dieser Attacke 30 Schadenspunkte."
 			},
 			damage: 90,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Although it wasn't originally found in Alola, this Pokémon was brought over a long time ago when there was a huge Rattata outbreak.",
+		'en-us': "Although it wasn't originally found in Alola, this Pokémon was brought over a long time ago when there was a huge Rattata outbreak.",
 	},
 
 	thirdParty: {

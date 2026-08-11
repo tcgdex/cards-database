@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		es: "Snivy",
-		it: "Snivy",
-		pt: "Snivy",
-		de: "Serpifeu"
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'es-es': "Snivy",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
+		'de-de': "Serpifeu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		'en-us': "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox",
-		de: "Scherox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox",
+		'de-de': "Scherox"
 	},
 
 	illustrator: "Kent Kanetsuna/Direc. Shinji Higuchi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insecateur"
+		'en-us': "Scyther",
+		'fr-fr': "Insecateur"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 50,
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 80,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+		'en-us': "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
 	},
 
 	variants: [

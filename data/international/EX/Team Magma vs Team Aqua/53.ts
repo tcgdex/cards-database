@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Electrike",
-		fr: "Dynavolt de Team Aqua",
-		de: "Team Aquas Frizelbliz"
+		'en-us': "Team Aqua's Electrike",
+		'fr-fr': "Dynavolt de Team Aqua",
+		'de-de': "Team Aquas Frizelbliz"
 	},
 
 	illustrator: "M. Akiyama",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self Charge",
-				fr: "Auto-chargement",
-				de: "Self Charge"
+				'en-us': "Self Charge",
+				'fr-fr': "Auto-chargement",
+				'de-de': "Self Charge"
 			},
 			effect: {
-				en: "Attach an Energy card from your hand to Team Aqua's Electrike.",
-				fr: "Attachez une carte Énergie de votre main à Dynavolt de Team Aqua.",
-				de: "Attach an Energy card from your hand to Team Aqua's Electrike."
+				'en-us': "Attach an Energy card from your hand to Team Aqua's Electrike.",
+				'fr-fr': "Attachez une carte Énergie de votre main à Dynavolt de Team Aqua.",
+				'de-de': "Attach an Energy card from your hand to Team Aqua's Electrike."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

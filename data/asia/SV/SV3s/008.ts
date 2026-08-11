@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phantump"
+		'id-id': "Phantump"
 	},
 
 	illustrator: "Narumi Sato",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Phantump bersuara dengan suara mirip anak manusia untuk memancing orang dewasa masuk ke dalam hutan dan menyesatkan mereka."
+		'id-id': "Phantump bersuara dengan suara mirip anak manusia untuk memancing orang dewasa masuk ke dalam hutan dan menyesatkan mereka."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tusukan Ranting"
+			'id-id': "Tusukan Ranting"
 		},
 
 		damage: 20,

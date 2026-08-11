@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Wag"
+				'en-us': "Tail Wag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn. (Benching either Pokémon ends this effect.)"
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones."
+		'en-us': "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones."
 	},
 
 	variants: [

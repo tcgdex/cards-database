@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cranidos",
-		fr: "Kranidos",
-		es: "Cranidos",
-		it: "Cranidos",
-		pt: "Cranidos",
-		de: "Koknodon"
+		'en-us': "Cranidos",
+		'fr-fr': "Kranidos",
+		'es-es': "Cranidos",
+		'it-it': "Cranidos",
+		'pt-br': "Cranidos",
+		'de-de': "Koknodon"
 	},
 
 	illustrator: "Hataya",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
-		es: "Fósil Desconocido",
-		it: "Fossile Sconosciuto",
-		pt: "Fóssil Não Identificado",
-		de: "Unbekanntes Fossil"
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
+		'es-es': "Fósil Desconocido",
+		'it-it': "Fossile Sconosciuto",
+		'pt-br': "Fóssil Não Identificado",
+		'de-de': "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Stone Edge",
-			fr: "Lame de Roc",
-			es: "Roca Afilada",
-			it: "Pietrataglio",
-			pt: "Gume de Pedra",
-			de: "Steinkante"
+			'en-us': "Stone Edge",
+			'fr-fr': "Lame de Roc",
+			'es-es': "Roca Afilada",
+			'it-it': "Pietrataglio",
+			'pt-br': "Gume de Pedra",
+			'de-de': "Steinkante"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.",
+		'en-us': "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.",
 	},
 
 	variants: [

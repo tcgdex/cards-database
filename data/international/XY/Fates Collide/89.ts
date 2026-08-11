@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla",
-		es: "Cinccino",
-		it: "Cinccino",
-		pt: "Cinccino",
-		de: "Chillabell"
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla",
+		'es-es': "Cinccino",
+		'it-it': "Cinccino",
+		'pt-br': "Cinccino",
+		'de-de': "Chillabell"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweeping Cure",
-				fr: "Guérison Extensive",
-				es: "Barrido Curación",
-				it: "Curarapida",
-				pt: "Varrida da Cura",
-				de: "Fegende Heilung"
+				'en-us': "Sweeping Cure",
+				'fr-fr': "Guérison Extensive",
+				'es-es': "Barrido Curación",
+				'it-it': "Curarapida",
+				'pt-br': "Varrida da Cura",
+				'de-de': "Fegende Heilung"
 			},
 			effect: {
-				en: "Heal 90 damage from 1 of your Benched Pokémon.",
-				fr: "Soignez 90 dégâts à l'un de vos Pokémon de Banc.",
-				es: "Cura 90 puntos de daño a 1 de tus Pokémon en Banca.",
-				it: "Cura uno dei tuoi Pokémon in panchina da 90 danni.",
-				pt: "Cure 90 de danos de 1 dos seus Pokémon no Banco.",
-				de: "Heile 90 Schadenspunkte bei 1 Pokémon auf deiner Bank."
+				'en-us': "Heal 90 damage from 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez 90 dégâts à l'un de vos Pokémon de Banc.",
+				'es-es': "Cura 90 puntos de daño a 1 de tus Pokémon en Banca.",
+				'it-it': "Cura uno dei tuoi Pokémon in panchina da 90 danni.",
+				'pt-br': "Cure 90 de danos de 1 dos seus Pokémon no Banco.",
+				'de-de': "Heile 90 Schadenspunkte bei 1 Pokémon auf deiner Bank."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
-				es: "Derribar",
-				it: "Scaraventa",
-				pt: "Jogar Longe",
-				de: "Zurückschlagen"
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
+				'es-es': "Derribar",
+				'it-it': "Scaraventa",
+				'pt-br': "Jogar Longe",
+				'de-de': "Zurückschlagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
+		'en-us': "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
 	},
 
 	thirdParty: {

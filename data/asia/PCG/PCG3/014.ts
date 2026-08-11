@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いMuk",
+		'ja-jp': "暗いMuk",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "粘着性のグー",
+				'ja-jp': "粘着性のグー",
 			},
 			effect: {
-				ja: "暗いMukがあなたのアクティブなポケモンである限り、あなたの対戦相手は{{e}} {{e}} {{e}}} {{e}}}をより多く退却させます。",
+				'ja-jp': "暗いMukがあなたのアクティブなポケモンである限り、あなたの対戦相手は{{e}} {{e}} {{e}}} {{e}}}をより多く退却させます。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ぬるぬるした水",
+				'ja-jp': "ぬるぬるした水",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンリトリートコストの{{e}}エネルギーの数が10ダメージを与えます（リトリートコストに効果を適用した後）。",
+				'ja-jp': "ディフェンディングポケモンリトリートコストの{{e}}エネルギーの数が10ダメージを与えます（リトリートコストに効果を適用した後）。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "酸性毒",
+				'ja-jp': "酸性毒",
 			},
 			effect: {
-				ja: "防御ポケモンは現在燃やされ、毒されています。",
+				'ja-jp': "防御ポケモンは現在燃やされ、毒されています。",
 			},
 			damage: 10,
 		},

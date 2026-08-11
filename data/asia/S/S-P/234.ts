@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "大きな 顎で 森の 地面を 掘って 巣穴を つくる。 甘い 樹液が 大好物。",
+		'ja-jp': "大きな 顎で 森の 地面を 掘って 巣穴を つくる。 甘い 樹液が 大好物。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "たいでん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

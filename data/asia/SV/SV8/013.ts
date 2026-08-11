@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 		'zh-tw': "燃燒蟲",
 		'zh-cn': "燃燒蟲",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "大昔は 太陽の遣い と 崇められたが しばしば 山火事を 起こすこともあり 煙たがられた。",
+		'ja-jp': "大昔は 太陽の遣い と 崇められたが しばしば 山火事を 起こすこともあり 煙たがられた。",
 		'zh-tw': "在遙遠的過去曾被信奉成 太陽的使者，但卻因為常常 引發森林大火而遭人們疏遠。",
 		'zh-cn': "在遙遠的過去曾被信奉成 太陽的使者，但卻因為常常 引發森林大火而遭人們疏遠。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 				'zh-cn': "衝撞",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ひをはく",
+				'ja-jp': "ひをはく",
 				'zh-tw': "吐火",
 				'zh-cn': "吐火",
 			},

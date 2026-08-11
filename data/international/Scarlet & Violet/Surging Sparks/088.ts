@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xerneas",
-		fr: "Xerneas",
-		es: "Xerneas",
-		it: "Xerneas",
-		pt: "Xerneas",
-		de: "Xerneas"
+		'en-us': "Xerneas",
+		'fr-fr': "Xerneas",
+		'es-es': "Xerneas",
+		'it-it': "Xerneas",
+		'pt-br': "Xerneas",
+		'de-de': "Xerneas"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Aurora Gain",
-			fr: "Puissance Boréale",
-			es: "Ganar Aurora",
-			it: "Prendiaurora",
-			pt: "Aurora",
-			de: "Aurora-Verstärkung"
+			'en-us': "Aurora Gain",
+			'fr-fr': "Puissance Boréale",
+			'es-es': "Ganar Aurora",
+			'it-it': "Prendiaurora",
+			'pt-br': "Aurora",
+			'de-de': "Aurora-Verstärkung"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact",
-			es: "Gigaimpacto",
-			it: "Gigaimpatto",
-			pt: "Gigaimpacto",
-			de: "Gigastoß"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact",
+			'es-es': "Gigaimpacto",
+			'it-it': "Gigaimpatto",
+			'pt-br': "Gigaimpacto",
+			'de-de': "Gigastoß"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 130

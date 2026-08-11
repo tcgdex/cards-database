@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "溶食獸",
 		'zh-cn': "溶食獸",
-		ja: "ゴクリン"
+		'ja-jp': "ゴクリン"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "心臟和大腦都很小， 身體的大部分是胃。 會分泌出什麼都能溶解的胃液。",
 		'zh-cn': "心臟和大腦都很小， 身體的大部分是胃。 會分泌出什麼都能溶解的胃液。",
-		ja: "心臓や 脳みそは 小さく 体の 大部分が 胃袋。 なんでも 溶かす 胃液を 出す。"
+		'ja-jp': "心臓や 脳みそは 小さく 体の 大部分が 胃袋。 なんでも 溶かす 胃液を 出す。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "口水",
 			'zh-cn': "口水",
-			ja: "よだれ"
+			'ja-jp': "よだれ"
 		},
 
 		damage: 10,
@@ -36,13 +36,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "毒之氣息",
 			'zh-cn': "毒之氣息",
-			ja: "どくのいき"
+			'ja-jp': "どくのいき"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			'zh-cn': "將對手的戰鬥寶可夢【中毒】。",
-			ja: "相手のバトルポケモンをどくにする。"
+			'ja-jp': "相手のバトルポケモンをどくにする。"
 		},
 
 		damage: 30,

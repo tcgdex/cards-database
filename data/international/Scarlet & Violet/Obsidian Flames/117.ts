@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lougaroc",
-		en: "Lycanroc",
-		es: "Lycanroc",
-		it: "Lycanroc",
-		pt: "Lycanroc",
-		de: "Wolwerock"
+		'fr-fr': "Lougaroc",
+		'en-us': "Lycanroc",
+		'es-es': "Lycanroc",
+		'it-it': "Lycanroc",
+		'pt-br': "Lycanroc",
+		'de-de': "Wolwerock"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Rocabot",
-		en: "Rockruff",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'fr-fr': "Rocabot",
+		'en-us': "Rockruff",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Croc Finisseur",
-			en: "Finishing Fang",
-			es: "Colmillo Definitivo",
-			it: "Zannata di Grazia",
-			pt: "Presa Arrematadora",
-			de: "Finale Fänge"
+			'fr-fr': "Croc Finisseur",
+			'en-us': "Finishing Fang",
+			'es-es': "Colmillo Definitivo",
+			'it-it': "Zannata di Grazia",
+			'pt-br': "Presa Arrematadora",
+			'de-de': "Finale Fänge"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire n'a aucun marqueur de dégâts avant que cette attaque n'inflige des dégâts, cette attaque ne fait rien.",
-			en: "If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
-			es: "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
-			it: "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
-			pt: "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen."
+			'fr-fr': "Si le Pokémon Actif de votre adversaire n'a aucun marqueur de dégâts avant que cette attaque n'inflige des dégâts, cette attaque ne fait rien.",
+			'en-us': "If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
+			'es-es': "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
+			'it-it': "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 90
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Griffe Taillante",
-			en: "Slashing Claw",
-			es: "Garra Cuchillazo",
-			it: "Artigli Laceranti",
-			pt: "Garra Cortadora",
-			de: "Schlitzende Klaue"
+			'fr-fr': "Griffe Taillante",
+			'en-us': "Slashing Claw",
+			'es-es': "Garra Cuchillazo",
+			'it-it': "Artigli Laceranti",
+			'pt-br': "Garra Cortadora",
+			'de-de': "Schlitzende Klaue"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon uses its rocky mane to slash any who approach. It will even disobey its Trainer if it dislikes the orders it was given.",
+		'en-us': "This Pokémon uses its rocky mane to slash any who approach. It will even disobey its Trainer if it dislikes the orders it was given.",
 	},
 
 	variants: [

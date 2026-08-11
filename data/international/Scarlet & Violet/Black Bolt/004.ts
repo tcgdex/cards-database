@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		de: "Vegimak",
-		it: "Pansage",
-		pt: "Pansage",
-		es: "Pansage",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'de-de': "Vegimak",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'es-es': "Pansage",
 		'es-mx': "Pansage"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta",
-			es: "Coleccionar",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'es-es': "Coleccionar",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			es: "Roba 1 carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'es-es': "Roba 1 carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			pt: "Arranhão",
-			es: "Arañazo",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'es-es': "Arañazo",
 			'es-mx': "Arañazo"
 		},
 

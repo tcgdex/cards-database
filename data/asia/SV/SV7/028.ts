@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "電擊獸",
 		'zh-cn': "電擊獸",
-		ja: "エレブー"
+		'ja-jp': "エレブー"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "人們正在研究如何把雷電 儲存到電擊獸的體內， 以便隨時使用。",
 		'zh-cn': "人們正在研究如何把雷電 儲存到電擊獸的體內， 以便隨時使用。",
-		ja: "エレブーに 雷を 溜めこませ いつでも 使えるようにする 研究が 進められている。"
+		'ja-jp': "エレブーに 雷を 溜めこませ いつでも 使えるようにする 研究が 進められている。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "呼喚",
 			'zh-cn': "呼喚",
-			ja: "もってくる"
+			'ja-jp': "もってくる"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出1張卡。",
 			'zh-cn': "從自己的牌庫抽出1張卡。",
-			ja: "自分の山札を1枚引く。"
+			'ja-jp': "自分の山札を1枚引く。"
 		},
 
 		cost: ["Lightning"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "增量拳",
 			'zh-cn': "增量拳",
-			ja: "マグナムパンチ"
+			'ja-jp': "マグナムパンチ"
 		},
 
 		damage: 40,

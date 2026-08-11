@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローニャex",
+		'ja-jp': "ゴローニャex",
 		'zh-tw': "隆隆岩ex",
-		th: "โกโลเนียex",
-		id: "Golem ex",
+		'th-th': "โกโลเนียex",
+		'id-id': "Golem ex",
 	},
 
 	illustrator: "Uta",
@@ -20,34 +20,34 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイナミックロール",
+				'ja-jp': "ダイナミックロール",
 				'zh-tw': "極限轉動",
-				th: "ไดนามิกโรล",
-				id: "Dynamic Roll",
+				'th-th': "ไดนามิกโรล",
+				'id-id': "Dynamic Roll",
 			},
 			damage: 50,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
+				'ja-jp': "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+120」點。",
-				th: "เทิร์นถัดไปของฝ่ายเรา แดเมจของท่าต่อสู้ที่โปเกมอนนี้ ใช้ทำกับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามจะถูก [+120]",
-				id: "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 120.",
+				'th-th': "เทิร์นถัดไปของฝ่ายเรา แดเมจของท่าต่อสู้ที่โปเกมอนนี้ ใช้ทำกับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามจะถูก [+120]",
+				'id-id': "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 120.",
 			},
 		},
 		{
 			name: {
-				ja: "がんせきボンバー",
+				'ja-jp': "がんせきボンバー",
 				'zh-tw': "岩石衝撞",
-				th: "ระเบิดหิน",
-				id: "Bom Batu",
+				'th-th': "ระเบิดหิน",
+				'id-id': "Bom Batu",
 			},
 			damage: 180,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 				'zh-tw': "這個招式的傷害不計算抵抗力。",
-				th: "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด",
-				id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi.",
+				'th-th': "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด",
+				'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi.",
 			},
 		},
 	],
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 	},
 
 	retreat: 4,

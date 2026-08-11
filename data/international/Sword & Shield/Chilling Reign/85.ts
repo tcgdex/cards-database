@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabominable",
-		fr: "Crabominable",
-		es: "Crabominable",
-		it: "Crabominable",
-		pt: "Crabominable",
-		de: "Krawell"
+		'en-us': "Crabominable",
+		'fr-fr': "Crabominable",
+		'es-es': "Crabominable",
+		'it-it': "Crabominable",
+		'pt-br': "Crabominable",
+		'de-de': "Krawell"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	attacks: [{
 		name: {
-			en: "Double Lariat",
-			fr: "Double Lasso",
-			es: "Doble Lazo",
-			it: "Doppio Lazzo",
-			pt: "Laço Duplo",
-			de: "Doppel-Lasso"
+			'en-us': "Double Lariat",
+			'fr-fr': "Double Lasso",
+			'es-es': "Doble Lazo",
+			'it-it': "Doppio Lazzo",
+			'pt-br': "Laço Duplo",
+			'de-de': "Doppel-Lasso"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 90 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 90 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "90×",
 		cost: ["Fighting", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Crabhammer",
-			fr: "Pince-Masse",
-			es: "Martillazo",
-			it: "Martellata",
-			pt: "Martelo Caranguejo",
-			de: "Krabbhammer"
+			'en-us': "Crabhammer",
+			'fr-fr': "Pince-Masse",
+			'es-es': "Martillazo",
+			'it-it': "Martellata",
+			'pt-br': "Martelo Caranguejo",
+			'de-de': "Krabbhammer"
 		},
 
 		damage: 130,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
+		'en-us': "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
 	},
 
 	variants: [

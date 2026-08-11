@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				de: "Gentle Slap"
+				'en-us': "Gentle Slap",
+				'de-de': "Gentle Slap"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Headache",
-				de: "Headache"
+				'en-us': "Headache",
+				'de-de': "Headache"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn.",
-				de: "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn.",
+				'de-de': "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn."
 			},
 
 		},

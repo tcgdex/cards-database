@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Orthworm",
-		fr: "Ferdeter",
-		es: "Orthworm",
-		it: "Orthworm",
-		pt: "Orthworm",
-		de: "Schlurm"
+		'en-us': "Orthworm",
+		'fr-fr': "Ferdeter",
+		'es-es': "Orthworm",
+		'it-it': "Orthworm",
+		'pt-br': "Orthworm",
+		'de-de': "Schlurm"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Punch and Draw",
-			fr: "Poing et Pioche",
-			es: "Puñetazo y Robo",
-			it: "Pugnopesca",
-			pt: "Socar e Comprar",
-			de: "Schlagen und ziehen"
+			'en-us': "Punch and Draw",
+			'fr-fr': "Poing et Pioche",
+			'es-es': "Puñetazo y Robo",
+			'it-it': "Pugnopesca",
+			'pt-br': "Socar e Comprar",
+			'de-de': "Schlagen und ziehen"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 20
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Crunch-Time Rush",
-			fr: "Ruée Pressée",
-			es: "Golpe de la Verdad",
-			it: "Assalto in Extremis",
-			pt: "Pressa Apressada",
-			de: "Stürmischer Endspurt"
+			'en-us': "Crunch-Time Rush",
+			'fr-fr': "Ruée Pressée",
+			'es-es': "Golpe de la Verdad",
+			'it-it': "Assalto in Extremis",
+			'pt-br': "Pressa Apressada",
+			'de-de': "Stürmischer Endspurt"
 		},
 
 		effect: {
-			en: "If there are 3 or fewer cards in your deck, this attack does 150 more damage.",
-			fr: "S'il y a 3 cartes ou moins dans votre deck, cette attaque inflige 150 dégâts supplémentaires.",
-			es: "Si hay 3 cartas o menos en tu baraja, este ataque hace 150 puntos de daño más.",
-			it: "Se ci sono tre o meno carte nel tuo mazzo, questo attacco infligge 150 danni in più.",
-			pt: "Se houver 3 ou menos cartas no seu baralho, este ataque causará 150 pontos de dano a mais.",
-			de: "Wenn 3 oder weniger Karten in deinem Deck sind, fügt diese Attacke 150 Schadenspunkte mehr zu."
+			'en-us': "If there are 3 or fewer cards in your deck, this attack does 150 more damage.",
+			'fr-fr': "S'il y a 3 cartes ou moins dans votre deck, cette attaque inflige 150 dégâts supplémentaires.",
+			'es-es': "Si hay 3 cartas o menos en tu baraja, este ataque hace 150 puntos de daño más.",
+			'it-it': "Se ci sono tre o meno carte nel tuo mazzo, questo attacco infligge 150 danni in più.",
+			'pt-br': "Se houver 3 ou menos cartas no seu baralho, este ataque causará 150 pontos de dano a mais.",
+			'de-de': "Wenn 3 oder weniger Karten in deinem Deck sind, fügt diese Attacke 150 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+		'en-us': "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
 	},
 
 	variants: [

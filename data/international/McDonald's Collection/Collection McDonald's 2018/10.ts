@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Psykokwak",
+		'fr-fr': "Psykokwak",
 	},
 
 	rarity: "None",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Vague de Confusion"
+				'fr-fr': "Vague de Confusion"
 			},
 			effect: {
-				fr: "Les deux Pokémon Actifs sont maintenant Confus."
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus."
 			}
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マンムーex"
+		'ja-jp': "マンムーex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,11 +20,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マンモスキャリー"
+			'ja-jp': "マンモスキャリー"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の番に1回使える。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}],
 
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "とどろくこうしん"
+			'ja-jp': "とどろくこうしん"
 		},
 
 		damage: "180＋",
 
 		effect: {
-			ja: "自分のベンチの2進化ポケモンの数×40ダメージ追加。"
+			'ja-jp': "自分のベンチの2進化ポケモンの数×40ダメージ追加。"
 		}
 	}],
 

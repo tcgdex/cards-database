@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minidraco",
-		en: "Dratini",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'fr-fr': "Minidraco",
+		'en-us': "Dratini",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Bataille",
-			en: "Beat",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'fr-fr': "Bataille",
+			'en-us': "Beat",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			fr: "Fouet Draconien",
-			en: "Draconic Whip",
-			es: "Látigo Dracónico",
-			it: "Frustata del Drago",
-			pt: "Chicote Dracônico",
-			de: "Drachenpeitsche"
+			'fr-fr': "Fouet Draconien",
+			'en-us': "Draconic Whip",
+			'es-es': "Látigo Dracónico",
+			'it-it': "Frustata del Drago",
+			'pt-br': "Chicote Dracônico",
+			'de-de': "Drachenpeitsche"
 		},
 
 		damage: 40
@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+		'en-us': "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
 	},
 
 	variants: [

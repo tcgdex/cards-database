@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		es: "Mienshao",
-		it: "Mienshao",
-		pt: "Mienshao",
-		de: "Wie-Shu"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'es-es': "Mienshao",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'de-de': "Wie-Shu"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Double Smash",
-			fr: "Double Broiement",
-			es: "Golpe Doble",
-			it: "Colpo Duplice",
-			pt: "Bordoada Dupla",
-			de: "Doppelstoß"
+			'en-us': "Double Smash",
+			'fr-fr': "Double Broiement",
+			'es-es': "Golpe Doble",
+			'it-it': "Colpo Duplice",
+			'pt-br': "Bordoada Dupla",
+			'de-de': "Doppelstoß"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 70 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 70 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "70×"

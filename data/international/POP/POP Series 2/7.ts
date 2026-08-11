@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 2'
 
 const card: Card = {
 	name: {
-		en: "Ivysaur",
-		fr: "Herbizarre"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Seed",
-				fr: "Graine poison"
+				'en-us': "Poison Seed",
+				'fr-fr': "Graine poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe"
 			},
 
 			damage: 50,

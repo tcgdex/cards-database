@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルスワンVMAX",
+		'ja-jp': "パルスワンVMAX",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[雷]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[雷]エネルギーの数×30ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「ダイボルト」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「ダイボルト」が使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "パルスワンV",
+		'ja-jp': "パルスワンV",
 	},
 
 	retreat: 2,

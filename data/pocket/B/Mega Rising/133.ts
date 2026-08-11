@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archen"
+		'en-us': "Archen"
 	},
 
 	illustrator: "0313",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Plume Fossil"
+		'en-us': "Plume Fossil"
 	},
 
 	description: {
-		en: "Archen is said to be the ancestor of bird\nPokémon. It lived in treetops, eating berries\nand bug Pokémon."
+		'en-us': "Archen is said to be the ancestor of bird\nPokémon. It lived in treetops, eating berries\nand bug Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Rock Throw"
+			'en-us': "Rock Throw"
 		},
 
 		damage: 40,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "波皇子",
-		ja: "ポッタイシ"
+		'ja-jp': "ポッタイシ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "從不結交夥伴，獨自生活。用翅膀發出的強烈一擊 能把大樹劈成兩半。",
-		ja: "仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。"
+		'ja-jp': "仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "啄",
-			ja: "つつく"
+			'ja-jp': "つつく"
 		},
 
 		damage: 30,

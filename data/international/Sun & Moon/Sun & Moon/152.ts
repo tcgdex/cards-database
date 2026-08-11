@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Espeon GX",
-		fr: "Mentali GX",
-		es: "Espeon GX",
-		it: "Espeon GX",
-		pt: "Espeon GX",
-		de: "Psiana GX"
+		'en-us': "Espeon GX",
+		'fr-fr': "Mentali GX",
+		'es-es': "Espeon GX",
+		'it-it': "Espeon GX",
+		'pt-br': "Espeon GX",
+		'de-de': "Psiana GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	suffix: "GX",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
-				es: "Psicorrayo",
-				it: "Psicoraggio",
-				pt: "Feixe Psíquico",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
+				'es-es': "Psicorrayo",
+				'it-it': "Psicoraggio",
+				'pt-br': "Feixe Psíquico",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				es: "Psíquico",
-				it: "Psichico",
-				pt: "Psíquico",
-				de: "Psychokinese"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'es-es': "Psíquico",
+				'it-it': "Psichico",
+				'pt-br': "Psíquico",
+				'de-de': "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 30 more damage times the amount of Energy attached to your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+				'en-us': "This attack does 30 more damage times the amount of Energy attached to your opponent’s Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
 			},
 			damage: "60+",
 
@@ -89,20 +89,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Divide GX",
-				fr: "Scission GX",
-				es: "Dividir GX",
-				it: "Distribuzione-GX",
-				pt: "Partilha GX",
-				de: "Division GX"
+				'en-us': "Divide GX",
+				'fr-fr': "Scission GX",
+				'es-es': "Dividir GX",
+				'it-it': "Distribuzione-GX",
+				'pt-br': "Partilha GX",
+				'de-de': "Division GX"
 			},
 			effect: {
-				en: "Put 10 damage counters on your opponent’s Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "Pon 10 contadores de daño en los Pokémon de tu rival de la manera que desees. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "Distribuisci a piacimento dieci segnalini danno sui Pokémon del tuo avversario. Non puoi usare più di un attacco GX a partita.",
-				pt: "Coloque 10 contadores de dano nos Pokémon do seu oponente como desejar (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Verteile 10 Schadensmarken beliebig auf die Pokémon deines Gegners. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "Put 10 damage counters on your opponent’s Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Pon 10 contadores de daño en los Pokémon de tu rival de la manera que desees. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Distribuisci a piacimento dieci segnalini danno sui Pokémon del tuo avversario. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Coloque 10 contadores de dano nos Pokémon do seu oponente como desejar (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Verteile 10 Schadensmarken beliebig auf die Pokémon deines Gegners. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

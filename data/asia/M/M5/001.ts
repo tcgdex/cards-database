@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロピウス",
+		'ja-jp': "トロピウス",
 	},
 
 	illustrator: "Akino Fukuji",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "いつも 同じ 果物ばかり 食べていたら のど元に とても 美味しい 果物が 生えてきた。",
+		'ja-jp': "いつも 同じ 果物ばかり 食べていたら のど元に とても 美味しい 果物が 生えてきた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かじつのかおり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から6枚見て、その中からポケモンを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の山札を上から6枚見て、その中からポケモンを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
 			},
 		},
 		{

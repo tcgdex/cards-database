@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バオッキー",
+		'ja-jp': "バオッキー",
 	},
 
 	illustrator: "Julie Hang",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "甘いものが 大好物。 体内の 炎を 燃やす エネルギーに なるのだ。",
+		'ja-jp': "甘いものが 大好物。 体内の 炎を 燃やす エネルギーに なるのだ。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バオップ",
+		'ja-jp': "バオップ",
 	},
 
 	retreat: 1,

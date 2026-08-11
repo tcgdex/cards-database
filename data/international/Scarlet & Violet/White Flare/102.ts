@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		de: "Laternecto",
-		it: "Lampent",
-		pt: "Lampent",
-		es: "Lampent",
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'de-de': "Laternecto",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'es-es': "Lampent",
 		'es-mx': "Lampent"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
-		de: "Lichtel",
-		it: "Litwick",
-		pt: "Litwick",
-		es: "Litwick",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'de-de': "Lichtel",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'es-es': "Litwick",
 		'es-mx': "Litwick"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fire Blast",
-			fr: "Déflagration",
-			de: "Feuersturm",
-			it: "Fuocobomba",
-			pt: "Rajada de Fogo",
-			es: "Llamarada",
+			'en-us': "Fire Blast",
+			'fr-fr': "Déflagration",
+			'de-de': "Feuersturm",
+			'it-it': "Fuocobomba",
+			'pt-br': "Rajada de Fogo",
+			'es-es': "Llamarada",
 			'es-mx': "Llamarada"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon."
 		},
 

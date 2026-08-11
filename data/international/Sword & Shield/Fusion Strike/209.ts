@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Smeargle",
-		fr: "Queulorior",
-		es: "Smeargle",
-		it: "Smeargle",
-		pt: "Smeargle",
-		de: "Farbeagle"
+		'en-us': "Smeargle",
+		'fr-fr': "Queulorior",
+		'es-es': "Smeargle",
+		'it-it': "Smeargle",
+		'pt-br': "Smeargle",
+		'de-de': "Farbeagle"
 	},
 
 	rarity: "Common",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 
 	description: {
-		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
+		'en-us': "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sketching Trash",
-			fr: "Corbeille Esquissée",
-			de: "Müllskizze",
-			es: "Basura Boceto",
-			pt: "Desenhando Lixo",
-			it: "Bozza di Scarti"
+			'en-us': "Sketching Trash",
+			'fr-fr': "Corbeille Esquissée",
+			'de-de': "Müllskizze",
+			'es-es': "Basura Boceto",
+			'pt-br': "Desenhando Lixo",
+			'it-it': "Bozza di Scarti"
 		},
 
 		effect: {
-			en: "Put up to 2 Fusion Strike Trainer cards from your discard pile into your hand.",
-			fr: "Ajoutez jusqu'à 2 cartes Dresseur Poing de Fusion de votre pile de défausse à votre main.",
-			de: "Nimm bis zu 2 Fusionsangriff-Trainerkarten aus deinem Ablagestapel auf deine Hand.",
-			es: "Pon hasta 2 cartas de Entrenador de Golpe Fusión de tu pila de descartes en tu mano.",
-			pt: "Coloque até 2 cartas de Treinador Golpe Fusão da sua pilha de descarte na sua mão.",
-			it: "Prendi fino a due carte Allenatore Colpo Fusione dalla tua pila degli scarti e aggiungile alle carte che hai in mano."
+			'en-us': "Put up to 2 Fusion Strike Trainer cards from your discard pile into your hand.",
+			'fr-fr': "Ajoutez jusqu'à 2 cartes Dresseur Poing de Fusion de votre pile de défausse à votre main.",
+			'de-de': "Nimm bis zu 2 Fusionsangriff-Trainerkarten aus deinem Ablagestapel auf deine Hand.",
+			'es-es': "Pon hasta 2 cartas de Entrenador de Golpe Fusión de tu pila de descartes en tu mano.",
+			'pt-br': "Coloque até 2 cartas de Treinador Golpe Fusão da sua pilha de descarte na sua mão.",
+			'it-it': "Prendi fino a due carte Allenatore Colpo Fusione dalla tua pila degli scarti e aggiungile alle carte che hai in mano."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			de: "Schweifvertrimmer",
-			es: "Coletón",
-			pt: "Surra de Cauda",
-			it: "Codabotta"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'de-de': "Schweifvertrimmer",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
+			'it-it': "Codabotta"
 		},
 
 		damage: 80

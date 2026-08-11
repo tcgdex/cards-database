@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litleo"
+		'en-us': "Litleo"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "The more a Litleo trains its body and spirit by\nbattling mighty enemies, the hotter its mane\nwill grow."
+		'en-us': "The more a Litleo trains its body and spirit by\nbattling mighty enemies, the hotter its mane\nwill grow."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Live Coal"
+			'en-us': "Live Coal"
 		},
 
 		damage: 20,

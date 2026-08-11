@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
 	},
 
 	illustrator: "match",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Metal Links",
-				fr: "Liens Métalliques",
+				'en-us': "Metal Links",
+				'fr-fr': "Liens Métalliques",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Metal Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'en-us': "Once during your turn (before your attack), you may attach a Metal Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			},
 		},
 	],
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
 			},
 
 			damage: 60,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		'en-us': "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
 	},
 
 	thirdParty: {

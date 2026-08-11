@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Miraidon",
-		fr: "Miraidon",
-		es: "Miraidon",
-		it: "Miraidon",
-		pt: "Miraidon",
-		de: "Miraidon"
+		'en-us': "Miraidon",
+		'fr-fr': "Miraidon",
+		'es-es': "Miraidon",
+		'it-it': "Miraidon",
+		'pt-br': "Miraidon",
+		'de-de': "Miraidon"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",

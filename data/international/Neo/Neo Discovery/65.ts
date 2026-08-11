@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap Time",
-				fr: "Sieste",
-				de: "Mittagsschlaf"
+				'en-us': "Nap Time",
+				'fr-fr': "Sieste",
+				'de-de': "Mittagsschlaf"
 			},
 			effect: {
-				en: "Remove all damage counters from Teddiursa. Teddiursa is now Asleep.",
-				fr: "Retirez tous les marqueurs de dégâts de Teddiursa. Teddiursa est maintenant Endormi.",
-				de: "Entferne alle Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
+				'en-us': "Remove all damage counters from Teddiursa. Teddiursa is now Asleep.",
+				'fr-fr': "Retirez tous les marqueurs de dégâts de Teddiursa. Teddiursa est maintenant Endormi.",
+				'de-de': "Entferne alle Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
 			},
 
 		},
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
-		fr: "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel."
+		'en-us': "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		'fr-fr': "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel."
 	},
 
 

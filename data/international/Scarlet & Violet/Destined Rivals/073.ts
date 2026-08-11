@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Flaaffy",
-		fr: "Lainergie de la Team Rocket",
-		de: "Team Rockets Waaty",
-		it: "Flaaffy del Team Rocket",
-		es: "Flaaffy del Team Rocket",
-		pt: "Flaaffy da Equipe Rocket",
+		'en-us': "Team Rocket's Flaaffy",
+		'fr-fr': "Lainergie de la Team Rocket",
+		'de-de': "Team Rockets Waaty",
+		'it-it': "Flaaffy del Team Rocket",
+		'es-es': "Flaaffy del Team Rocket",
+		'pt-br': "Flaaffy da Equipe Rocket",
 		'es-mx': "Flaaffy del Equipo Rocket"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Team Rocket's Mareep",
-		fr: "Wattouat de la Team Rocket",
-		de: "Team Rockets Voltilamm",
-		it: "Mareep del Team Rocket",
-		es: "Mareep del Team Rocket",
-		pt: "Mareep da Equipe Rocket",
+		'en-us': "Team Rocket's Mareep",
+		'fr-fr': "Wattouat de la Team Rocket",
+		'de-de': "Team Rockets Voltilamm",
+		'it-it': "Mareep del Team Rocket",
+		'es-es': "Mareep del Team Rocket",
+		'pt-br': "Mareep da Equipe Rocket",
 		'es-mx': "Mareep del Equipo Rocket"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Thunder Shock",
-			fr: "Éclair",
-			de: "Donnerschock",
-			it: "Tuonoshock",
-			es: "Impactrueno",
-			pt: "Trovoada de Choques",
+			'en-us': "Thunder Shock",
+			'fr-fr': "Éclair",
+			'de-de': "Donnerschock",
+			'it-it': "Tuonoshock",
+			'es-es': "Impactrueno",
+			'pt-br': "Trovoada de Choques",
 			'es-mx': "Impactrueno"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 

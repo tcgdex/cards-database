@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 		'zh-tw': "電擊獸",
-		th: "เอเลบู",
+		'th-th': "เอเลบู",
 	},
 
 	illustrator: "Uta",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を 狙う エレブーの 対策に じめんポケモンを 置く 発電所は 多い。",
+		'ja-jp': "電気を 狙う エレブーの 対策に じめんポケモンを 置く 発電所は 多い。",
 		'zh-tw': "很多發電廠會用地面屬性的寶可夢當守衛，藉以對抗 想伺機偷吃電力的電擊獸。",
-		th: "มีโรงผลิตไฟฟ้าจำนวนมากที่วางโปเกมอนดินไว้เพื่อรับมือกับเอเลบูที่หมายตาพลังงานไฟฟ้า",
+		'th-th': "มีโรงผลิตไฟฟ้าจำนวนมากที่วางโปเกมอนดินไว้เพื่อรับมือกับเอเลบูที่หมายตาพลังงานไฟฟ้า",
 	},
 
 	stage: "Basic",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "チョップ",
+				'ja-jp': "チョップ",
 				'zh-tw': "劈打",
-				th: "สับ",
+				'th-th': "สับ",
 			},
 			damage: 20,
 			cost: ["Lightning"],
 		},
 		{
 			name: {
-				ja: "ビリリパンチ",
+				'ja-jp': "ビリリパンチ",
 				'zh-tw': "麻麻拳",
-				th: "หมัดช็อตแปล๊บ ๆ",
+				'th-th': "หมัดช็อตแปล๊บ ๆ",
 			},
 			damage: 50,
 			cost: ["Lightning", "Colorless", "Colorless"],

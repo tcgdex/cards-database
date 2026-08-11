@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "食べ盛りの 育ち盛り。 体の 成長に あわせて ガイコツを 何度も 履き替えるよ。",
+		'ja-jp': "食べ盛りの 育ち盛り。 体の 成長に あわせて ガイコツを 何度も 履き替えるよ。",
 	},
 
 	stage: "Basic",

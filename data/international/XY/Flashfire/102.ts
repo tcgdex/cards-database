@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak EX",
-		fr: "Coatox EX",
-		es: "Toxicroak EX",
-		it: "Toxicroak EX",
-		pt: "Toxicroak EX",
-		de: "Toxiquak EX"
+		'en-us': "Toxicroak EX",
+		'fr-fr': "Coatox EX",
+		'es-es': "Toxicroak EX",
+		'it-it': "Toxicroak EX",
+		'pt-br': "Toxicroak EX",
+		'de-de': "Toxiquak EX"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Poison",
-				fr: "Triple Poison",
-				es: "Veneno Triple",
-				it: "Triplo Veleno",
-				pt: "Veneno Triplo",
-				de: "Dreifachgift"
+				'en-us': "Triple Poison",
+				'fr-fr': "Triple Poison",
+				'es-es': "Veneno Triple",
+				'it-it': "Triplo Veleno",
+				'pt-br': "Veneno Triplo",
+				'de-de': "Dreifachgift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 3 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 3 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l'altro, metti tre segnalini danno invece di uno su quel Pokémon.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 3 contadores de danos em vez de 1 nesse Pokémon entre as vezes de jogar.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 3 Schadensmarken anstelle von 1 Schadensmarke auf das Pokémon."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 3 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 3 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l'altro, metti tre segnalini danno invece di uno su quel Pokémon.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 3 contadores de danos em vez de 1 nesse Pokémon entre as vezes de jogar.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 3 Schadensmarken anstelle von 1 Schadensmarke auf das Pokémon."
 			},
 
 		},
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Uppercut",
-				fr: "Poing Fracassant",
-				es: "Gancho Destructor",
-				it: "Spaccamontante",
-				pt: "Pancada para Cima",
-				de: "Geballter Kinnhaken"
+				'en-us': "Smash Uppercut",
+				'fr-fr': "Poing Fracassant",
+				'es-es': "Gancho Destructor",
+				'it-it': "Spaccamontante",
+				'pt-br': "Pancada para Cima",
+				'de-de': "Geballter Kinnhaken"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 

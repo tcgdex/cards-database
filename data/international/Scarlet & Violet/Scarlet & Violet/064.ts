@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair",
-			es: "Bola Relámpago",
-			it: "Fulminpalla",
-			pt: "Bola de Raios",
-			de: "Kugelblitz"
+			'en-us': "Lightning Ball",
+			'fr-fr': "Boule Éclair",
+			'es-es': "Bola Relámpago",
+			'it-it': "Fulminpalla",
+			'pt-br': "Bola de Raios",
+			'de-de': "Kugelblitz"
 		},
 
 		damage: 20
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Explosion",
-			fr: "Explosion",
-			es: "Explosión",
-			it: "Esplosione",
-			pt: "Explosão",
-			de: "Explosion"
+			'en-us': "Explosion",
+			'fr-fr': "Explosion",
+			'es-es': "Explosión",
+			'it-it': "Esplosione",
+			'pt-br': "Explosão",
+			'de-de': "Explosion"
 		},
 
 		effect: {
-			en: "This Pokémon also does 90 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 90 dégâts.",
-			es: "Este Pokémon también se hace 90 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 90 danni a se stesso.",
-			pt: "Este Pokémon também causa 90 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 90 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 90 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 90 dégâts.",
+			'es-es': "Este Pokémon también se hace 90 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 90 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 90 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 90 Schadenspunkte zu."
 		},
 
 		damage: 90
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 
 	description: {
-		en: "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
+		'en-us': "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラ",
+		'ja-jp': "シャンデラ",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "怪しげな 炎で 燃やされた 魂は 行き場を なくし この 世を 永遠に さまよう。",
+		'ja-jp': "怪しげな 炎で 燃やされた 魂は 行き場を なくし この 世を 永遠に さまよう。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のろいのしずく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "ダメカン4個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手の場のポケモンにのっているダメカンの数x20ダメージ。",
+				'ja-jp': "相手の場のポケモンにのっているダメカンの数x20ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ランプラー",
+		'ja-jp': "ランプラー",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Crobat"
+		'id-id': "Crobat"
 	},
 
 	illustrator: "Uta",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Crobat mengepak dan mengendalikan 4 sayapnya dengan sesukanya. Di gua yang sempit pun, Pokémon ini terbang berkeliling tanpa menurunkan kecepatannya."
+		'id-id': "Crobat mengepak dan mengendalikan 4 sayapnya dengan sesukanya. Di gua yang sempit pun, Pokémon ini terbang berkeliling tanpa menurunkan kecepatannya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Mad Echo"
+			'id-id': "Mad Echo"
 		},
 
 		effect: {
-			id: "Pemain memilih salah satu antara Item atau Supporter. Pada giliran lawan berikutnya, lawan tidak dapat memainkan Trainer yang telah dipilih dari Kartu Pegangan."
+			'id-id': "Pemain memilih salah satu antara Item atau Supporter. Pada giliran lawan berikutnya, lawan tidak dapat memainkan Trainer yang telah dipilih dari Kartu Pegangan."
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Cutter Wind"
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 130,

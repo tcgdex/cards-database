@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシアex",
+		'ja-jp': "グレイシアex",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 110,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
 			name: { ja: "ユークレース" },
 			cost: ["Grass", "Water", "Darkness"],
 			effect: {
-				ja: "ダメカンが6個のっている相手のポケモンを1匹選び、きぜつさせる。",
+				'ja-jp': "ダメカンが6個のっている相手のポケモンを1匹選び、きぜつさせる。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

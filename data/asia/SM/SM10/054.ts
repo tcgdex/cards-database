@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ハサミの 中に 冷気を 溜めて ぶん殴る。 分厚い 氷の 壁も 粉々に してしまうぞ。",
+		'ja-jp': "ハサミの 中に 冷気を 溜めて ぶん殴る。 分厚い 氷の 壁も 粉々に してしまうぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンの数が、相手より少ないなら、その少ない数x50ダメージ追加。",
+				'ja-jp': "自分の場のポケモンの数が、相手より少ないなら、その少ない数x50ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	retreat: 4,

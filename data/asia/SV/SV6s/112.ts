@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ogerpon Topeng Fondasi ex"
+		'id-id': "Ogerpon Topeng Fondasi ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Kuda-kuda Fondasi"
+			'id-id': "Kuda-kuda Fondasi"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon lawan yang memiliki Ability."
+			'id-id': "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon lawan yang memiliki Ability."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Memecah Penuh Tenaga"
+			'id-id': "Memecah Penuh Tenaga"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon Bertarung lawan."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon Bertarung lawan."
 		},
 
 		damage: 140,

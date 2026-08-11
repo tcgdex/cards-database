@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "meowth",
+		'ja-jp': "meowth",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "突然スワイプ",
+				'ja-jp': "突然スワイプ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の手を見てください。彼または彼女がそこにエネルギーカードを持っている場合は、それらの1つを選択してください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の手を見てください。彼または彼女がそこにエネルギーカードを持っている場合は、それらの1つを選択してください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
 			},
 			damage: 10,
 		},

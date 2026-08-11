@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
-		fr: "Fouinette",
-		de: "Wiesor"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
+		'de-de': "Wiesor"
 	},
 
 	illustrator: "MAHOU",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espion",
-				de: "Späher"
+				'en-us': "Scout",
+				'fr-fr': "Espion",
+				'de-de': "Späher"
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire.",
-				de: "Schau dir die Handkarten deines Gegners an."
+				'en-us': "Look at your opponent's hand.",
+				'fr-fr': "Regardez la main de votre adversaire.",
+				'de-de': "Schau dir die Handkarten deines Gegners an."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+		'en-us': "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
 	},
 
 	variants: [

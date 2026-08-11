@@ -1,34 +1,34 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼルネアス"
+		'ja-jp': "ゼルネアス"
 	},
 	illustrator: "Kazumasa Yasukuni",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
 	description: {
-		ja: "頭のツノが七色に輝くとき永遠の命を分け与えると言われている。"
+		'ja-jp': "頭のツノが七色に輝くとき永遠の命を分け与えると言われている。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ジオゲート"
+			'ja-jp': "ジオゲート"
 		},
 		effect: {
-			ja: "自分の山札から超タイプのたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。"
+			'ja-jp': "自分の山札から超タイプのたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。"
 		},
 		cost: ["Psychic"]
 	}, {
 		name: {
-			ja: "ブライトホーン"
+			'ja-jp': "ブライトホーン"
 		},
 		damage: 120,
 		effect: {
-			ja: "次の自分の番、このポケモンは「ブライトホーン」が使えない。"
+			'ja-jp': "次の自分の番、このポケモンは「ブライトホーン」が使えない。"
 		},
 		cost: ["Psychic", "Psychic", "Colorless"]
 	}],

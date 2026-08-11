@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shed",
-				fr: "Mue",
-				de: "Shed"
+				'en-us': "Shed",
+				'fr-fr': "Mue",
+				'de-de': "Shed"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Dratini.",
-				fr: "Retirez un marqueur de dégâts sur Minidraco.",
-				de: "Remove 1 damage counter from Dratini."
+				'en-us': "Remove 1 damage counter from Dratini.",
+				'fr-fr': "Retirez un marqueur de dégâts sur Minidraco.",
+				'de-de': "Remove 1 damage counter from Dratini."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Fury Attack"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Fury Attack"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Large from birth, this Pokémon increases in size throughout its life by regularly shedding its skin.",
-		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
+		'en-us': "Large from birth, this Pokémon increases in size throughout its life by regularly shedding its skin.",
+		'fr-fr': "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
 	},
 
 

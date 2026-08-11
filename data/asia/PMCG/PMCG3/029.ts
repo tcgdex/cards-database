@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "なめる",
+				'ja-jp': "なめる",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "エネルギー変換",
+				'ja-jp': "エネルギー変換",
 			},
 			effect: {
-				ja: "捨てられた山から最大2枚のエネルギーカードを手に入れます。 Gastlyはそれ自体に10ダメージを与えます。",
+				'ja-jp': "捨てられた山から最大2枚のエネルギーカードを手に入れます。 Gastlyはそれ自体に10ダメージを与えます。",
 			},
 
 		},

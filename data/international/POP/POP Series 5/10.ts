@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Charmander δ",
-		fr: "Charmander δ"
+		'en-us': "Charmander δ",
+		'fr-fr': "Charmander δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure"
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
 			},
 
 			damage: 20,

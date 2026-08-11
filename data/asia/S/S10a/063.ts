@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルセウスフォン",
+		'ja-jp': "アルセウスフォン",
 		'zh-tw': "阿爾宙斯手機",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から1枚見て、もとにもどす。のぞむなら、ウラになっている自分のサイドを1枚選び、自分の山札の上のカードと、ウラのまま入れ替える。",
+		'ja-jp': "自分の山札を上から1枚見て、もとにもどす。のぞむなら、ウラになっている自分のサイドを1枚選び、自分の山札の上のカードと、ウラのまま入れ替える。",
 		'zh-tw': "查看自己的牌庫上方1張卡，回復原樣。若希望，選擇1張自己的反面朝上的獎賞卡，與自己的牌庫上方的卡維持反面朝上互換。",
 	},
 

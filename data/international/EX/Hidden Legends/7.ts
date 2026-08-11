@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Draw",
-				fr: "Pioche supplémentaire",
-				de: "Extra Draw"
+				'en-us': "Extra Draw",
+				'fr-fr': "Pioche supplémentaire",
+				'de-de': "Extra Draw"
 			},
 			effect: {
-				en: "If your opponent has any Pokémon-ex in play, search your deck for up to 2 Grass Energy cards and attach them to Heracross. Shuffle your deck afterward.",
-				fr: "Si votre adversaire a des Pokémon-ex en jeu, cherchez dans votre deck jusqu'à 2 cartes Énergie  et attachez-les à Scarhino. Ensuite, mélangez votre deck.",
-				de: "If your opponent has any Pokémon-ex in play, search your deck for up to 2  Energy cards and attach them to Heracross. Shuffle your deck afterward."
+				'en-us': "If your opponent has any Pokémon-ex in play, search your deck for up to 2 Grass Energy cards and attach them to Heracross. Shuffle your deck afterward.",
+				'fr-fr': "Si votre adversaire a des Pokémon-ex en jeu, cherchez dans votre deck jusqu'à 2 cartes Énergie  et attachez-les à Scarhino. Ensuite, mélangez votre deck.",
+				'de-de': "If your opponent has any Pokémon-ex in play, search your deck for up to 2  Energy cards and attach them to Heracross. Shuffle your deck afterward."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom",
-				fr: "Sonicboom",
-				de: "Sonicboom"
+				'en-us': "Sonicboom",
+				'fr-fr': "Sonicboom",
+				'de-de': "Sonicboom"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 50,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレッフィ",
+		'ja-jp': "クレッフィ",
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "気に入った カギは 絶対に 手放さないので 防犯のために 金庫の カギを 持たせるのだ。",
+		'ja-jp': "気に入った カギは 絶対に 手放さないので 防犯のために 金庫の カギを 持たせるのだ。",
 	},
 
 	stage: "Basic",

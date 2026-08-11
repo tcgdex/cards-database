@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴンベ",
+		'ja-jp': "ゴンベ",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "長い 毛の 下に 食べ物を 隠すが 隠したことを 忘れて 異臭 騒ぎに なることも。",
+		'ja-jp': "長い 毛の 下に 食べ物を 隠すが 隠したことを 忘れて 異臭 騒ぎに なることも。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ごちそうサーチ" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、自分のトラッシュにある好きなカードを1枚、相手に見せてから、山札の上にもどす。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、自分のトラッシュにある好きなカードを1枚、相手に見せてから、山札の上にもどす。",
 			},
 		},
 	],

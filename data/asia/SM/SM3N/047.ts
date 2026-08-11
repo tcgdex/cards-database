@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちゃもんスプレー",
+		'ja-jp': "いちゃもんスプレー",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札からオモテを見ないで1枚選び、オモテを見る。そのカードがサポートなら、トラッシュする。サポートでないなら、もとの手札にもどす。",
+		'ja-jp': "相手の手札からオモテを見ないで1枚選び、オモテを見る。そのカードがサポートなら、トラッシュする。サポートでないなら、もとの手札にもどす。",
 	},
 
 	variants: [

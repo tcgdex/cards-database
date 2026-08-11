@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "蒂蕾喵",
-		th: "เนียโรเต",
-		id: "Floragato"
+		'th-th': "เนียโรเต",
+		'id-id': "Floragato"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會靈巧操控長長的體毛下隱藏的藤蔓，將堅硬的 花苞甩向敵人猛打。",
-		th: "ใช้เถาวัลย์ที่ซ่อนอยู่ภายใต้ขนตามร่างกายที่มีขนาดยาวได้อย่างคล่องแคล่ว และใช้ดอกตูมแข็ง ๆ ฟาดฟันศัตรู",
-		id: "Floragato mengendalikan sulur ranting yang tersembunyi di bawah bulu panjangnya dengan mahir, lalu membanting kuncup keras ke lawan."
+		'th-th': "ใช้เถาวัลย์ที่ซ่อนอยู่ภายใต้ขนตามร่างกายที่มีขนาดยาวได้อย่างคล่องแคล่ว และใช้ดอกตูมแข็ง ๆ ฟาดฟันศัตรู",
+		'id-id': "Floragato mengendalikan sulur ranting yang tersembunyi di bawah bulu panjangnya dengan mahir, lalu membanting kuncup keras ke lawan."
 	},
 
 	stage: "Stage1",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "劈開",
-			th: "ฟันแหลก",
-			id: "Menyayat"
+			'th-th': "ฟันแหลก",
+			'id-id': "Menyayat"
 		},
 
 		damage: 20,
@@ -35,8 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "綠葉舞步",
-			th: "ลีฟสเต็ป",
-			id: "Leaf Step"
+			'th-th': "ลีฟสเต็ป",
+			'id-id': "Leaf Step"
 		},
 
 		damage: 60,

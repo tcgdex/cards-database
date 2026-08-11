@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チリーン",
+		'ja-jp': "チリーン",
 	},
 
 	illustrator: "Kanako Eo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "頭の 吸盤で 木の 枝や 家の 軒下に ぶら下がる。 ７種類 音色を 使い分ける。",
+		'ja-jp': "頭の 吸盤で 木の 枝や 家の 軒下に ぶら下がる。 ７種類 音色を 使い分ける。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、相手は手札から特性を持つポケモンを場に出せない。",
+				'ja-jp': "次の相手の番、相手は手札から特性を持つポケモンを場に出せない。",
 			},
 		},
 	],

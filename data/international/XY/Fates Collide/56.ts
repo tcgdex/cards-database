@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar",
-		fr: "Tyranocif",
-		es: "Tyranitar",
-		it: "Tyranitar",
-		pt: "Tyranitar",
-		de: "Despotar"
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif",
+		'es-es': "Tyranitar",
+		'it-it': "Tyranitar",
+		'pt-br': "Tyranitar",
+		'de-de': "Despotar"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
+		'de-de': "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Raging Roar",
-				fr: "Rugissement Enragé",
-				es: "Rugido Furioso",
-				it: "Ruggito Furioso",
-				pt: "Rugido Furioso",
-				de: "Wütendes Gebrüll"
+				'en-us': "Raging Roar",
+				'fr-fr': "Rugissement Enragé",
+				'es-es': "Rugido Furioso",
+				'it-it': "Ruggito Furioso",
+				'pt-br': "Rugido Furioso",
+				'de-de': "Wütendes Gebrüll"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie Darkness de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée.",
-				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes unir 1 Energía Darkness de tu pila de descartes a este Pokémon por cada carta de Premio que haya tomado tu rival.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi assegnare a questo Pokémon un'Energia Darkness dalla tua pila degli scarti per ogni carta Premio presa dal tuo avversario.",
-				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá ligar 1 Energia Darkness da sua pilha de descarte a este Pokémon para cada card de Prêmio recebido por seu oponente.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du für jede Preiskarte, die dein Gegner bereits genommen hat, 1 Darkness-Energie aus deinem Ablagestapel an dieses Pokémon anlegen."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie Darkness de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée.",
+				'es-es': "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes unir 1 Energía Darkness de tu pila de descartes a este Pokémon por cada carta de Premio que haya tomado tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi assegnare a questo Pokémon un'Energia Darkness dalla tua pila degli scarti per ogni carta Premio presa dal tuo avversario.",
+				'pt-br': "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá ligar 1 Energia Darkness da sua pilha de descarte a este Pokémon para cada card de Prêmio recebido por seu oponente.",
+				'de-de': "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du für jede Preiskarte, die dein Gegner bereits genommen hat, 1 Darkness-Energie aus deinem Ablagestapel an dieses Pokémon anlegen."
 			},
 		},
 	],
@@ -69,20 +69,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Mountain",
-				fr: "Montagne Obscure",
-				es: "Montaña Oscura",
-				it: "Monte Buio",
-				pt: "Montanha Sombria",
-				de: "Dunkler Berg"
+				'en-us': "Dark Mountain",
+				'fr-fr': "Montagne Obscure",
+				'es-es': "Montaña Oscura",
+				'it-it': "Monte Buio",
+				'pt-br': "Montanha Sombria",
+				'de-de': "Dunkler Berg"
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Supporter défaussée de cette façon.",
-				es: "Descarta las 2 primeras cartas de tu baraja. Este ataque hace 50 puntos de daño más por cada carta de Partidario descartada de esta manera.",
-				it: "Scarta le prime due carte del tuo mazzo. Questo attacco infligge 50 danni in più per ogni carta Aiuto scartata in questo modo.",
-				pt: "Descarte 2 cards de cima do seu baralho. Este ataque causa 50 de danos adicionais para cada card de Apoiador descartado desta forma.",
-				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 weitere Schadenspunkte für jede Unterstützerkarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
+				'en-us': "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Supporter défaussée de cette façon.",
+				'es-es': "Descarta las 2 primeras cartas de tu baraja. Este ataque hace 50 puntos de daño más por cada carta de Partidario descartada de esta manera.",
+				'it-it': "Scarta le prime due carte del tuo mazzo. Questo attacco infligge 50 danni in più per ogni carta Aiuto scartata in questo modo.",
+				'pt-br': "Descarte 2 cards de cima do seu baralho. Este ataque causa 50 de danos adicionais para cada card de Apoiador descartado desta forma.",
+				'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 weitere Schadenspunkte für jede Unterstützerkarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
 			},
 			damage: "150+",
 
@@ -106,7 +106,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+		'en-us': "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
 	},
 
 	thirdParty: {

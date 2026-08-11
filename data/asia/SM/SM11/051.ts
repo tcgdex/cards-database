@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーケン",
+		'ja-jp': "アーケン",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "あらゆる とりポケモンの 祖先と 考えられてきたが 最近の 研究では 違うという 説も。",
+		'ja-jp': "あらゆる とりポケモンの 祖先と 考えられてきたが 最近の 研究では 違うという 説も。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×20ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数×20ダメージ追加。",
 			},
 		},
 	],

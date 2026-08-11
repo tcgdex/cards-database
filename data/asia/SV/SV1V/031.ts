@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エレズン",
+		'ja-jp': "エレズン",
 		'zh-tw': "毒電嬰",
-		th: "เอเลซัน",
-		id: "Toxel"
+		'th-th': "เอเลซัน",
+		'id-id': "Toxel"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "わがままで とても 甘えん坊。 体内の ２つの 袋に 毒と 電気を それぞれ 溜める。",
+		'ja-jp': "わがままで とても 甘えん坊。 体内の ２つの 袋に 毒と 電気を それぞれ 溜める。",
 		'zh-tw': "任性且非常愛撒嬌。體內的兩個囊袋 分別儲存著毒和電。",
-		th: "เอาแต่ใจและขี้อ้อนมาก ภายในร่างกายมีถุง 2 ถุง เป็นถุงสำหรับสะสมพิษและไฟฟ้าอย่างละถุง",
-		id: "Toxel egois dan sangat manja. Pokémon ini menyimpan racun dan listrik secara masing-masing pada 2 kantong yang ada di dalam tubuhnya."
+		'th-th': "เอาแต่ใจและขี้อ้อนมาก ภายในร่างกายมีถุง 2 ถุง เป็นถุงสำหรับสะสมพิษและไฟฟ้าอย่างละถุง",
+		'id-id': "Toxel egois dan sangat manja. Pokémon ini menyimpan racun dan listrik secara masing-masing pada 2 kantong yang ada di dalam tubuhnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かじる",
+			'ja-jp': "かじる",
 			'zh-tw': "咬",
-			th: "แทะ",
-			id: "Menggerogot"
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
 		},
 
 		damage: 20

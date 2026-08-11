@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Darmanitan"
+		'id-id': "Darmanitan"
 	},
 
 	illustrator: "Yuya Oka",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Makin besar nyala api dalam tubuh Darmanitan, makin meningkat pula kekuatannya. Suhunya dapat melampaui 1400 °C."
+		'id-id': "Makin besar nyala api dalam tubuh Darmanitan, makin meningkat pula kekuatannya. Suhunya dapat melampaui 1400 °C."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pukulan Berdentang-dentang"
+			'id-id': "Pukulan Berdentang-dentang"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 60."
+			'id-id': "Jika Pokémon ini memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 60."
 		},
 
 		damage: "60+",
 		cost: ["Fire", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Heat Blast"
+			'id-id': "Heat Blast"
 		},
 
 		damage: 140,

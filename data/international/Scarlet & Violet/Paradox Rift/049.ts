@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golisopod",
-		fr: "Sarmuraï",
-		es: "Golisopod",
-		it: "Golisopod",
-		pt: "Golisopod",
-		de: "Tectass"
+		'en-us': "Golisopod",
+		'fr-fr': "Sarmuraï",
+		'es-es': "Golisopod",
+		'it-it': "Golisopod",
+		'pt-br': "Golisopod",
+		'de-de': "Tectass"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
-		it: "Wimpod",
-		pt: "Wimpod",
-		de: "Reißlaus"
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod",
+		'de-de': "Reißlaus"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Powerful Cross",
-			fr: "Poing Puissant",
-			es: "Cruzado Poderoso",
-			it: "Fendente Potente",
-			pt: "Cruzado Poderoso",
-			de: "Krafthaken"
+			'en-us': "Powerful Cross",
+			'fr-fr': "Poing Puissant",
+			'es-es': "Cruzado Poderoso",
+			'it-it': "Fendente Potente",
+			'pt-br': "Cruzado Poderoso",
+			'de-de': "Krafthaken"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each card in your opponent's hand.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque carte dans la main de votre adversaire.",
-			es: "Este ataque hace 20 puntos de daño por cada carta en la mano de tu rival.",
-			it: "Questo attacco infligge 20 danni per ogni carta nella mano del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta na mão do seu oponente.",
-			de: "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each card in your opponent's hand.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte dans la main de votre adversaire.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta en la mano de tu rival.",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta nella mano del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta na mão do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Waterfall",
-			fr: "Cascade",
-			es: "Cascada",
-			it: "Cascata",
-			pt: "Cachoeira",
-			de: "Kaskade"
+			'en-us': "Waterfall",
+			'fr-fr': "Cascade",
+			'es-es': "Cascada",
+			'it-it': "Cascata",
+			'pt-br': "Cachoeira",
+			'de-de': "Kaskade"
 		},
 
 		damage: 130
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
+		'en-us': "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
 	},
 
 	variants: [

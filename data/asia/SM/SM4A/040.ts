@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラランガ",
+		'ja-jp': "ジャラランガ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "敵を 見ると 尻尾の ウロコを ジャラジャラ 鳴らして いかく。 弱い者は あわてて 逃げ出す。",
+		'ja-jp': "敵を 見ると 尻尾の ウロコを ジャラジャラ 鳴らして いかく。 弱い者は あわてて 逃げ出す。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンの数が、相手の場のポケモンの数より少ないなら、90ダメージ追加。",
+				'ja-jp': "自分の場のポケモンの数が、相手の場のポケモンの数より少ないなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Lightning", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「+30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「+30」される。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャランゴ",
+		'ja-jp': "ジャランゴ",
 	},
 
 	retreat: 2,

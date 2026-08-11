@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		de: "Lithomith",
-		it: "Dwebble",
-		pt: "Dwebble",
-		es: "Dwebble",
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'de-de': "Lithomith",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'es-es': "Dwebble",
 		'es-mx': "Dwebble"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flail",
-			fr: "Gigotage",
-			de: "Dreschflegel",
-			it: "Flagello",
-			pt: "Mangual",
-			es: "Azote",
+			'en-us': "Flail",
+			'fr-fr': "Gigotage",
+			'de-de': "Dreschflegel",
+			'it-it': "Flagello",
+			'pt-br': "Mangual",
+			'es-es': "Azote",
 			'es-mx': "Azote"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu.",
-			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
-			es: "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
+			'en-us': "This attack does 10 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
 			'es-mx': "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Dig Claws",
-			fr: "Creusogriffes",
-			de: "Schaufelkrallen",
-			it: "Scavazanne",
-			pt: "Fincar Garras",
-			es: "Hundir Garras",
+			'en-us': "Dig Claws",
+			'fr-fr': "Creusogriffes",
+			'de-de': "Schaufelkrallen",
+			'it-it': "Scavazanne",
+			'pt-br': "Fincar Garras",
+			'es-es': "Hundir Garras",
 			'es-mx': "Clavar Garras"
 		},
 

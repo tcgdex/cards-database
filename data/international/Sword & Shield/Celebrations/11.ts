@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Mew",
-		fr: "Mew",
-		es: "Mew",
-		it: "Mew",
-		pt: "Mew",
-		de: "Mew"
+		'en-us': "Mew",
+		'fr-fr': "Mew",
+		'es-es': "Mew",
+		'it-it': "Mew",
+		'pt-br': "Mew",
+		'de-de': "Mew"
 	},
 
 	rarity: "Holo Rare",
@@ -25,32 +25,32 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Mysterious Tail",
-			fr: "Queue Mystérieuse",
-			es: "Cola Misteriosa",
-			it: "Coda Misteriosa",
-			pt: "Cauda Misteriosa",
-			de: "Geheimnisvoller Schweif"
+			'en-us': "Mysterious Tail",
+			'fr-fr': "Queue Mystérieuse",
+			'es-es': "Cola Misteriosa",
+			'it-it': "Coda Misteriosa",
+			'pt-br': "Cauda Misteriosa",
+			'de-de': "Geheimnisvoller Schweif"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck.",
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez regarder les 6 cartes du dessus de votre deck, montrer une carte Objet que vous y trouvez, puis l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
-			es: "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes mirar las 6 primeras cartas de tu baraja, enseñar 1 carta de Objeto que encuentres entre ellas y ponerla en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi guardare le prime sei carte del tuo mazzo, mostrare una carta Strumento presente tra esse e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
-			pt: "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá olhar as 6 cartas de cima do seu baralho, revelar 1 carta de Item que encontrar lá e colocá-la na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du dir die obersten 6 Karten deines Decks anschauen, 1 Itemkarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez regarder les 6 cartes du dessus de votre deck, montrer une carte Objet que vous y trouvez, puis l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes mirar las 6 primeras cartas de tu baraja, enseñar 1 carta de Objeto que encuentres entre ellas y ponerla en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi guardare le prime sei carte del tuo mazzo, mostrare una carta Strumento presente tra esse e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá olhar as 6 cartas de cima do seu baralho, revelar 1 carta de Item que encontrar lá e colocá-la na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du dir die obersten 6 Karten deines Decks anschauen, 1 Itemkarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 30,
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
+		'en-us': "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
 	},
 
 	dexId: [151],

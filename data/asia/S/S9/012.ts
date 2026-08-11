@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "謝米V",
-		ja: "シェイミV"
+		'ja-jp': "シェイミV"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "羽擊",
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 30,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "復仇暴擊",
-			ja: "リベンジバースト"
+			'ja-jp': "リベンジバースト"
 		},
 
 		effect: {
 			'zh-tw': "增加對手已經獲得的獎賞卡的張數×40點傷害。",
-			ja: "相手がすでにとったサイドの枚数×40ダメージ追加。"
+			'ja-jp': "相手がすでにとったサイドの枚数×40ダメージ追加。"
 		},
 
 		damage: "60＋",

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Swellow",
-		fr: "Heledelle"
+		'en-us': "Swellow",
+		'fr-fr': "Heledelle"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tailow",
-		fr: "Nirondelle"
+		'en-us': "Tailow",
+		'fr-fr': "Nirondelle"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance"
 			},
 			effect: {
-				en: "During your next turn, base damage of Swellow's Agility is 70 instead of 30.",
-				fr: "Lors de votre prochain tour, la base des dégâts d'Hâte d'Heledelle est de 70 au lieu de 30."
+				'en-us': "During your next turn, base damage of Swellow's Agility is 70 instead of 30.",
+				'fr-fr': "Lors de votre prochain tour, la base des dégâts d'Hâte d'Heledelle est de 70 au lieu de 30."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte"
+				'en-us': "Agility",
+				'fr-fr': "Hâte"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire."
 			},
 			damage: 30,
 

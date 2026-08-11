@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Armaldo",
-		fr: "Armaldo",
-		de: "Armaldo"
+		'en-us': "Armaldo",
+		'fr-fr': "Armaldo",
+		'de-de': "Armaldo"
 	},
 
 	illustrator: "Kazuaki Aihara",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Anorith",
-		fr: "Anorith",
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fossil Armor",
-				fr: "Armure fossile",
-				de: "Fossilpanzer"
+				'en-us': "Fossil Armor",
+				'fr-fr': "Armure fossile",
+				'de-de': "Fossilpanzer"
 			},
 			effect: {
-				en: "If Armaldo would be damaged by an attack, prevent that attack's damage done to Armaldo if that damage is 60 or less.",
-				fr: "Si une attaque inflige des dégâts à Armaldo, prévenez les dégâts de cette attaque si ces dégâts sont de 60 ou moins.",
-				de: "Wenn Armaldo durch einen Angriff 60 oder weniger Schadenspunkte zugefügt würden, verhindere diesen Schaden."
+				'en-us': "If Armaldo would be damaged by an attack, prevent that attack's damage done to Armaldo if that damage is 60 or less.",
+				'fr-fr': "Si une attaque inflige des dégâts à Armaldo, prévenez les dégâts de cette attaque si ces dégâts sont de 60 ou moins.",
+				'de-de': "Wenn Armaldo durch einen Angriff 60 oder weniger Schadenspunkte zugefügt würden, verhindere diesen Schaden."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crush Claw",
-				fr: "Éclategriffe",
-				de: "Zermalmklaue"
+				'en-us': "Crush Claw",
+				'fr-fr': "Éclategriffe",
+				'de-de': "Zermalmklaue"
 			},
 			effect: {
-				en: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
-				fr: "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
-				de: "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
+				'fr-fr': "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
+				'de-de': "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It went ashore after evolving. Its entire body is clad in a sturdy armor.",
-		fr: "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
+		'en-us': "It went ashore after evolving. Its entire body is clad in a sturdy armor.",
+		'fr-fr': "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
 	},
 
 	thirdParty: {

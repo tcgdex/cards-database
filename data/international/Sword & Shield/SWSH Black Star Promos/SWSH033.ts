@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zacian",
-		fr: "Zacian",
-		es: "Zacian",
-		it: "Zacian",
-		pt: "Zacian",
-		de: "Zacian"
+		'en-us': "Zacian",
+		'fr-fr': "Zacian",
+		'es-es': "Zacian",
+		'it-it': "Zacian",
+		'pt-br': "Zacian",
+		'de-de': "Zacian"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,42 +21,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Crunch",
-			fr: "Mâchouille",
-			es: "Triturar",
-			it: "Sgranocchio",
-			pt: "Mastigada",
-			de: "Knirscher"
+			'en-us': "Crunch",
+			'fr-fr': "Mâchouille",
+			'es-es': "Triturar",
+			'it-it': "Sgranocchio",
+			'pt-br': "Mastigada",
+			'de-de': "Knirscher"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Metal Blade",
-			fr: "Lame de Métal",
-			es: "Cuchilla Metal",
-			it: "Lama Metallica",
-			pt: "Lâmina Metálica",
-			de: "Metallklinge"
+			'en-us': "Metal Blade",
+			'fr-fr': "Lame de Métal",
+			'es-es': "Cuchilla Metal",
+			'it-it': "Lama Metallica",
+			'pt-br': "Lâmina Metálica",
+			'de-de': "Metallklinge"
 		},
 
 		effect: {
-			en: "Discard 3 Energy from this Pokémon.",
-			fr: "Défaussez 3 Énergies de ce Pokémon.",
-			es: "Descarta 3 Energías de este Pokémon.",
-			it: "Scarta tre Energie da questo Pokémon.",
-			pt: "Descarte 3 Energias deste Pokémon.",
-			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 3 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+			'es-es': "Descarta 3 Energías de este Pokémon.",
+			'it-it': "Scarta tre Energie da questo Pokémon.",
+			'pt-br': "Descarte 3 Energias deste Pokémon.",
+			'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 190,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
+		'en-us': "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
 	},
 
 	stage: "Basic",

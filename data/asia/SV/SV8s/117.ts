@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shroodle",
-		th: "ชิรุชูลู"
+		'id-id': "Shroodle",
+		'th-th': "ชิรุชูลู"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Agar musuh tidak mendekati wilayah teritorialnya, Shroodle melukis tanda menggunakan cairan beracun yang mengeluarkan bau ekstrem di sekitar sarangnya.",
-		th: "วาดรูปรอบ ๆ รังด้วยของเหลวพิษที่มีกลิ่นฉุนเพื่อไม่ให้ศัตรูเข้าใกล้ อาณาเขต"
+		'id-id': "Agar musuh tidak mendekati wilayah teritorialnya, Shroodle melukis tanda menggunakan cairan beracun yang mengeluarkan bau ekstrem di sekitar sarangnya.",
+		'th-th': "วาดรูปรอบ ๆ รังด้วยของเหลวพิษที่มีกลิ่นฉุนเพื่อไม่ให้ศัตรูเข้าใกล้ อาณาเขต"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyemprotkan Getah",
-			th: "ฉีดพ่นน้ำ"
+			'id-id': "Menyemprotkan Getah",
+			'th-th': "ฉีดพ่นน้ำ"
 		},
 
 		damage: 20,

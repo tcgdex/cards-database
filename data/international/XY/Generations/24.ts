@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon EX",
-		fr: "Aquali-EX",
+		'en-us': "Vaporeon EX",
+		'fr-fr': "Aquali-EX",
 	},
 
 	illustrator: "Naoki Saito",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble Drain",
-				fr: "Vide Bulle",
+				'en-us': "Bubble Drain",
+				'fr-fr': "Vide Bulle",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Squall",
-				fr: "Rafale Profonde",
+				'en-us': "Deep Squall",
+				'fr-fr': "Rafale Profonde",
 			},
 			effect: {
-				en: "This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 130 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 130 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: "130−",
 

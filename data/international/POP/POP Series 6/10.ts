@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Staravia",
-		fr: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Staravia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi"
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
 			},
 			damage: 20,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre"
+				'en-us': "Clutch",
+				'fr-fr': "Serre"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			},
 			damage: 20,
 
@@ -75,7 +75,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock."
+		'en-us': "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock."
 	},
 
 	retreat: 0,

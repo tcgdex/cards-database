@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Omanyte",
-		fr: "Amonita",
-		es: "Omanyte",
-		it: "Omanyte",
-		pt: "Omanyte",
-		de: "Amonitas"
+		'en-us': "Omanyte",
+		'fr-fr': "Amonita",
+		'es-es': "Omanyte",
+		'it-it': "Omanyte",
+		'pt-br': "Omanyte",
+		'de-de': "Amonitas"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revolver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revolver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 30,
@@ -57,16 +57,16 @@ const card: Card = {
 	retreat: 2,
 
 	evolveFrom: {
-		en: "Helix Fossil Omanyte",
-		fr: "Fossile Nautile Amonita",
-		es: "Fósil Hélix Omanyte",
-		it: "Helixfossile di Omanyte",
-		pt: "Fóssil Espiral de Omanyte",
-		de: "Helixfossil Amonitas"
+		'en-us': "Helix Fossil Omanyte",
+		'fr-fr': "Fossile Nautile Amonita",
+		'es-es': "Fósil Hélix Omanyte",
+		'it-it': "Helixfossile di Omanyte",
+		'pt-br': "Fóssil Espiral de Omanyte",
+		'de-de': "Helixfossil Amonitas"
 	},
 
 	description: {
-		en: "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+		'en-us': "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
 	},
 
 	thirdParty: {

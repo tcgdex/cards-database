@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [510],
 
 	name: {
-		en: "Liepard"
+		'en-us': "Liepard"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Purrloin"
+		'en-us': "Purrloin"
 	},
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant\nfigure. This is a moody and vicious Pokémon."
+		'en-us': "Don't be fooled by its gorgeous fur and elegant\nfigure. This is a moody and vicious Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Snatch and Flee"
+			'en-us': "Snatch and Flee"
 		},
 
 		damage: 60,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent reveals a random card from their hand and shuffles it into their deck. Shuffle this Pokémon into your deck."
+			'en-us': "Your opponent reveals a random card from their hand and shuffles it into their deck. Shuffle this Pokémon into your deck."
 		}
 	}],
 

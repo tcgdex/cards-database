@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [1017],
 
 	name: {
-		en: "Hearthflame Mask Ogerpon"
+		'en-us': "Hearthflame Mask Ogerpon"
 	},
 
 	illustrator: "Nurikabe",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "In this form, it draws on the power of fire.\nIt spears its enemies with thorn-covered ivy."
+		'en-us': "In this form, it draws on the power of fire.\nIt spears its enemies with thorn-covered ivy."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hearthflame Dance"
+			'en-us': "Hearthflame Dance"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, take 2 {R} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			'en-us': "Flip a coin. If heads, take 2 {R} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}],
 

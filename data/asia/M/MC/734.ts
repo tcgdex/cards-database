@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のラムダ",
+		'ja-jp': "ロケット団のラムダ",
 	},
 
 	illustrator: "GOSSAN",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札からトレーナーズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札からトレーナーズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

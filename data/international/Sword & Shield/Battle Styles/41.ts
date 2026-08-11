@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	illustrator: "miki kudo",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Recover",
-			fr: "Soin",
-			es: "Recuperación",
-			it: "Ripresa",
-			pt: "Recuperação",
-			de: "Genesung"
+			'en-us': "Recover",
+			'fr-fr': "Soin",
+			'es-es': "Recuperación",
+			'it-it': "Ripresa",
+			'pt-br': "Recuperação",
+			'de-de': "Genesung"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon and heal all damage from it.",
-			fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
-			it: "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
-			pt: "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
+			'en-us': "Discard an Energy from this Pokémon and heal all damage from it.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
+			'it-it': "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
+			'pt-br': "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10,
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
+		'en-us': "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
 	},
 
 	variants: [

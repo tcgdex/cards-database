@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [371],
 
 	name: {
-		en: "Bagon"
+		'en-us': "Bagon"
 	},
 
 	illustrator: "sui",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		en: "Its belief that it will be able to fly one day is\napparently the influence of information carried\nin its genes."
+		'en-us': "Its belief that it will be able to fly one day is\napparently the influence of information carried\nin its genes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 20,

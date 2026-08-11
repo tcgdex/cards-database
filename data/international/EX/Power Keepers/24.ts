@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Bodyguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Qulbutoké par les Pokémon-ex de votre adversaire.",
-				de: "Verhindere alle Effekte von Angriffen inklusive Schaden, die Woingenau von gegnerischen Pokémon-ex zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Qulbutoké par les Pokémon-ex de votre adversaire.",
+				'de-de': "Verhindere alle Effekte von Angriffen inklusive Schaden, die Woingenau von gegnerischen Pokémon-ex zugefügt werden."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flip Over",
-				fr: "Faire ressort",
-				de: "Umstoßen"
+				'en-us': "Flip Over",
+				'fr-fr': "Faire ressort",
+				'de-de': "Umstoßen"
 			},
 			effect: {
-				en: "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
-				fr: "Qulbutoké s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
-				de: "Woingenau fügt sich selbst 10 Schadenspunkte zu. Wende keine Schwäche und Resistenz bei diesem Schaden an."
+				'en-us': "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Qulbutoké s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Woingenau fügt sich selbst 10 Schadenspunkte zu. Wende keine Schwäche und Resistenz bei diesem Schaden an."
 			},
 			damage: 50,
 

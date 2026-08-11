@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Brute Bonnet"
+		'id-id': "Brute Bonnet"
 	},
 
 	illustrator: "danciao",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Terdapat kemungkinan bahwa Pokémon ini merupakan makhluk hidup yang tertera sebagai Brute Bonnet dalam suatu buku."
+		'id-id': "Terdapat kemungkinan bahwa Pokémon ini merupakan makhluk hidup yang tertera sebagai Brute Bonnet dalam suatu buku."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyemprotkan Racun"
+			'id-id': "Menyemprotkan Racun"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Memukul Tanpa Henti"
+			'id-id': "Memukul Tanpa Henti"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
 		},
 
 		damage: "50+",

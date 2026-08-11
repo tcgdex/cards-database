@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dirty Trick",
-				fr: "Coup en douce",
-				de: "Fieser Trick"
+				'en-us': "Dirty Trick",
+				'fr-fr': "Coup en douce",
+				'de-de': "Fieser Trick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to 1 of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à 1 des Pokémon de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte, die an 1 gegnerisches Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to 1 of your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à 1 des Pokémon de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte, die an 1 gegnerisches Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Razor Wind",
-				fr: "Coupe-vent",
-				de: "Klingensturm"
+				'en-us': "Razor Wind",
+				'fr-fr': "Coupe-vent",
+				'de-de': "Klingensturm"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -84,8 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
-		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
+		'en-us': "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+		'fr-fr': "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
 	},
 
 	thirdParty: {

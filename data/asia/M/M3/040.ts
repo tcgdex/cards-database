@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランドロス",
+		'ja-jp': "ランドロス",
 	},
 
 	illustrator: "aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ランドロスが 訪れる 土地は  作物が たくさん 実るため  畑の神様 と 言われている。",
+		'ja-jp': "ランドロスが 訪れる 土地は  作物が たくさん 実るため  畑の神様 と 言われている。",
 	},
 
 	stage: "Basic",

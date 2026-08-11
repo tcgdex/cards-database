@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
-		fr: "Ampharos"
+		'en-us': "Ampharos",
+		'fr-fr': "Ampharos"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -31,12 +31,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Jamming",
-				fr: "Encombrement"
+				'en-us': "Jamming",
+				'fr-fr': "Encombrement"
 			},
 			effect: {
-				en: "After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokémon. You can't use more than 1 Jamming Poké-Body each turn.",
-				fr: "Une fois que votre adversaire a joué une carte Supporter de sa main, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire. Vous ne pouvez pas utiliser plus d'1 Poké-Body Encombrement par tour."
+				'en-us': "After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokémon. You can't use more than 1 Jamming Poké-Body each turn.",
+				'fr-fr': "Une fois que votre adversaire a joué une carte Supporter de sa main, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire. Vous ne pouvez pas utiliser plus d'1 Poké-Body Encombrement par tour."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cluster Bolt",
-				fr: "Groupe d'éclairs"
+				'en-us': "Cluster Bolt",
+				'fr-fr': "Groupe d'éclairs"
 			},
 			effect: {
-				en: "You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Cette attaque inflige alors 20 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des cartes Énergie. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc.)"
+				'en-us': "You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Cette attaque inflige alors 20 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des cartes Énergie. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 70,
 
@@ -74,7 +74,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light."
+		'en-us': "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light."
 	},
 
 	retreat: 3,

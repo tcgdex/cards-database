@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Armaldo Ex",
+		'ja-jp': "Armaldo Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルアーマー",
+				'ja-jp': "デュアルアーマー",
 			},
 			effect: {
-				ja: "Armaldo Exに反応エネルギーカードが付いている限り、Armaldo Exは草と戦闘タイプの両方です。",
+				'ja-jp': "Armaldo Exに反応エネルギーカードが付いている限り、Armaldo Exは草と戦闘タイプの両方です。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "スパイラルドレイン",
+				'ja-jp': "スパイラルドレイン",
 			},
 			effect: {
-				ja: "Armaldo Exから2つのダメージカウンターを削除します。",
+				'ja-jp': "Armaldo Exから2つのダメージカウンターを削除します。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "渦チョップ",
+				'ja-jp': "渦チョップ",
 			},
 			effect: {
-				ja: "防御ポケモンに抵抗がある場合、この攻撃の基本ダメージは70ではなく100です。",
+				'ja-jp': "防御ポケモンに抵抗がある場合、この攻撃の基本ダメージは70ではなく100です。",
 			},
 			damage: 70,
 		},

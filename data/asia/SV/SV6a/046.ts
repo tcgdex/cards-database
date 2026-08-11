@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オノノクス",
+		'ja-jp': "オノノクス",
 		'zh-tw': "雙斧戰龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "自慢の キバで 敵を 圧倒。 鉄塔を 一刀のもとに 切り捨てる 切れ味を 誇る。",
+		'ja-jp': "自慢の キバで 敵を 圧倒。 鉄塔を 一刀のもとに 切り捨てる 切れ味を 誇る。",
 		'zh-tw': "會以自傲的牙齒壓制敵人。 牙齒的鋒利程度無與倫比， 就連鐵塔都能夠一斬而斷。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アックスダウン",
+				'ja-jp': "アックスダウン",
 				'zh-tw': "斧擊在地",
 			},
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
 				'zh-tw': "若對手的戰鬥寶可夢身上附有特殊能量卡，則將那隻寶可夢【昏厥】。",
 			},
 		},
 		{
 			name: {
-				ja: "りゅうのはどう",
+				'ja-jp': "りゅうのはどう",
 				'zh-tw': "龍之波動",
 			},
 			damage: 230,
 			cost: ["Fighting", "Metal"],
 			effect: {
-				ja: "自分の山札を上から3枚トラッシュする。",
+				'ja-jp': "自分の山札を上から3枚トラッシュする。",
 				'zh-tw': "將自己的牌庫上方3張卡丟棄。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オノンド",
+		'ja-jp': "オノンド",
 	},
 
 	retreat: 2,

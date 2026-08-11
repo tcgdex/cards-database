@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledian",
-		fr: "Coxyclaque"
+		'en-us': "Ledian",
+		'fr-fr': "Coxyclaque"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Ledyba"
+		'en-us': "Ledyba"
 	},
 
 	description: {
-		en: "It's said that the patterns on its back are\nrelated to the stars in the night sky, but the\ndetails of that relationship remain unclear.",
-		fr: "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien."
+		'en-us': "It's said that the patterns on its back are\nrelated to the stars in the night sky, but the\ndetails of that relationship remain unclear.",
+		'fr-fr': "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing"
 		},
 
 		damage: 50,

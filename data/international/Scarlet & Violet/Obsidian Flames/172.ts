@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mastouffe",
-		en: "Stoutland",
-		es: "Stoutland",
-		it: "Stoutland",
-		pt: "Stoutland",
-		de: "Bissbark"
+		'fr-fr': "Mastouffe",
+		'en-us': "Stoutland",
+		'es-es': "Stoutland",
+		'it-it': "Stoutland",
+		'pt-br': "Stoutland",
+		'de-de': "Bissbark"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Ponchien",
-		en: "Herdier",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'fr-fr': "Ponchien",
+		'en-us': "Herdier",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Panique Mangeouille",
-			en: "Chomp Chomp Panic",
-			es: "Pánico Ñam Ñam",
-			it: "Masticapanico",
-			pt: "Pânico Nhoc Nhoc",
-			de: "Mampfpanik"
+			'fr-fr': "Panique Mangeouille",
+			'en-us': "Chomp Chomp Panic",
+			'es-es': "Pánico Ñam Ñam",
+			'it-it': "Masticapanico",
+			'pt-br': "Pânico Nhoc Nhoc",
+			'de-de': "Mampfpanik"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 50 dégâts pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			en: "This attack does 50 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			es: "Este ataque hace 50 puntos de daño por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			'en-us': "This attack does 50 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 50 danni per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 140
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
+		'en-us': "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
 	},
 
 	variants: [

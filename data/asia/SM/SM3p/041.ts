@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるミュウ",
+		'ja-jp': "ひかるミュウ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。",
+		'ja-jp': "あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "でんせつのみちびき" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{

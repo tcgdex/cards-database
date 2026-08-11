@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		es: "Nidorino",
-		it: "Nidorino",
-		pt: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'es-es': "Nidorino",
+		'it-it': "Nidorino",
+		'pt-br': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nido Press",
-				fr: "Charge Nido",
-				es: "Presión Nido",
-				it: "Nidopressa",
-				pt: "Aperto do Nido",
-				de: "Nidodruck"
+				'en-us': "Nido Press",
+				'fr-fr': "Charge Nido",
+				'es-es': "Presión Nido",
+				'it-it': "Nidopressa",
+				'pt-br': "Aperto do Nido",
+				'de-de': "Nidodruck"
 			},
 			effect: {
-				en: "If Nidorina is on your Bench, this attack does 40 more damage.",
-				fr: "Si Nidorina est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
-				es: "Si Nidorina está en tu Banca, este ataque hace 40 puntos de daño más.",
-				it: "Se Nidorina è nella tua panchina, questo attacco infligge 40 danni in più.",
-				pt: "Se Nidorina estiver no seu Banco, este ataque causará 40 de danos adicionais.",
-				de: "Wenn sich Nidorina auf deiner Bank befindet, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "If Nidorina is on your Bench, this attack does 40 more damage.",
+				'fr-fr': "Si Nidorina est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
+				'es-es': "Si Nidorina está en tu Banca, este ataque hace 40 puntos de daño más.",
+				'it-it': "Se Nidorina è nella tua panchina, questo attacco infligge 40 danni in più.",
+				'pt-br': "Se Nidorina estiver no seu Banco, este ataque causará 40 de danos adicionais.",
+				'de-de': "Wenn sich Nidorina auf deiner Bank befindet, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+		'en-us': "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
 	},
 
 	thirdParty: {

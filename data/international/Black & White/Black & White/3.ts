@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Servine",
-		fr: "Lianaja",
-		es: "Servine",
-		it: "Servine",
-		pt: "Servine",
-		de: "Efoserp"
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
+		'es-es': "Servine",
+		'it-it': "Servine",
+		'pt-br': "Servine",
+		'de-de': "Efoserp"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snivy",
-		fr: "Vipélierre",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+		'en-us': "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
 	},
 
 	thirdParty: {

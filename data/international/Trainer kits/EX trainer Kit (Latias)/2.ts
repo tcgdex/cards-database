@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	attacks: [{
@@ -30,8 +30,8 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Flare",
-			fr: "Intimidation"
+			'en-us': "Flare",
+			'fr-fr': "Intimidation"
 		},
 		damage: 20
 	}, {
@@ -41,12 +41,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Double Kick",
-			fr: "Double pied"
+			'en-us': "Double Kick",
+			'fr-fr': "Double pied"
 		},
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-			fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
+			'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+			'fr-fr': "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
 		},
 		damage: "40×"
 	}],

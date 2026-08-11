@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Charge",
-				fr: "Charge furieuse",
-				de: "Wutausbruch"
+				'en-us': "Raging Charge",
+				'fr-fr': "Charge furieuse",
+				'de-de': "Wutausbruch"
 			},
 			effect: {
-				en: "This attack does 10 damage plus 10 damage for each damage counter on Granbull. Then, Granbull does 20 damage to itself.",
-				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Granbull. Ensuite, Granbull s'inflige 20 dégâts.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf Granbull zu. Dann fügt sich Granbull selbst 20 Schadenspunkte zu."
+				'en-us': "This attack does 10 damage plus 10 damage for each damage counter on Granbull. Then, Granbull does 20 damage to itself.",
+				'fr-fr': "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Granbull. Ensuite, Granbull s'inflige 20 dégâts.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf Granbull zu. Dann fügt sich Granbull selbst 20 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -83,8 +83,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
-		fr: "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant."
+		'en-us': "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
+		'fr-fr': "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant."
 	},
 
 

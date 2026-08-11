@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Landorus",
-		fr: "Démétéros",
-		es: "Landorus",
-		it: "Landorus",
-		pt: "Landorus",
-		de: "Demeteros"
+		'en-us': "Landorus",
+		'fr-fr': "Démétéros",
+		'es-es': "Landorus",
+		'it-it': "Landorus",
+		'pt-br': "Landorus",
+		'de-de': "Demeteros"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slap Push",
-			fr: "Grande Claque",
-			es: "Empujón con Bofetón",
-			it: "Spintonata",
-			pt: "Tapa Empurrão",
-			de: "Stoß"
+			'en-us': "Slap Push",
+			'fr-fr': "Grande Claque",
+			'es-es': "Empujón con Bofetón",
+			'it-it': "Spintonata",
+			'pt-br': "Tapa Empurrão",
+			'de-de': "Stoß"
 		},
 
 		damage: 20
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Smashing Edge",
-			fr: "Tranchant Fracassant",
-			es: "Filo Devastador",
-			it: "Schiaccialama",
-			pt: "Gume Esmagador",
-			de: "Schmetterklinge"
+			'en-us': "Smashing Edge",
+			'fr-fr': "Tranchant Fracassant",
+			'es-es': "Filo Devastador",
+			'it-it': "Schiaccialama",
+			'pt-br': "Gume Esmagador",
+			'de-de': "Schmetterklinge"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 130

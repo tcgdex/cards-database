@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
+		'en-us': "Tauros",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
+				'en-us': "Stomp",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rampage",
+				'en-us': "Rampage",
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).",
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).",
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+		'en-us': "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
 	},
 
 

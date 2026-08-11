@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cracking Voice",
-				fr: "Super voix",
-				de: "Cracking Voice"
+				'en-us': "Cracking Voice",
+				'fr-fr': "Super voix",
+				'de-de': "Cracking Voice"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, each Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Light Punch"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Light Punch"
 			},
 
 			damage: 40,

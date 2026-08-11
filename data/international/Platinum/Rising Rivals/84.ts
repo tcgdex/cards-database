@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix Niv. 14",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix Niv. 14",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Gather Sand",
-				fr: "Groupement de sable",
-				de: "Sand sammeln"
+				'en-us': "Gather Sand",
+				'fr-fr': "Groupement de sable",
+				'de-de': "Sand sammeln"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting card and attach it to Trapinch.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Kraknoix est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Fighting et l'attacher à Kraknoix.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Knacklion dein Aktives Pokémon ist, deinen Ablagestapel nach 1 -Basis-Energiekarte durchsuchen und sie an Knacklion anlegen."
+				'en-us': "Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting card and attach it to Trapinch.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Kraknoix est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Fighting et l'attacher à Kraknoix.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Knacklion dein Aktives Pokémon ist, deinen Ablagestapel nach 1 -Basis-Energiekarte durchsuchen und sie an Knacklion anlegen."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grind",
-				fr: "Écrase",
-				de: "Zermahlen"
+				'en-us': "Grind",
+				'fr-fr': "Écrase",
+				'de-de': "Zermahlen"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to Trapinch.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Kraknoix.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der an Knacklion angelegten Energien zu."
+				'en-us': "Does 10 damage times the amount of Energy attached to Trapinch.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Kraknoix.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der an Knacklion angelegten Energien zu."
 			},
 			damage: "10x",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down."
+		'en-us': "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down."
 	},
 
 	variants: [

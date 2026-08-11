@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maractus"
+		'en-us': "Maractus"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Arid regions are their habitat. They move\nrhythmically, making a sound similar to maracas."
+		'en-us': "Arid regions are their habitat. They move\nrhythmically, making a sound similar to maracas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dazzle Dance"
+			'en-us': "Dazzle Dance"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			'en-us': "Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

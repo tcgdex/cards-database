@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dark Gyarados",
-		fr: "Pikachu Surfeur-V"
+		'en-us': "Dark Gyarados",
+		'fr-fr': "Pikachu Surfeur-V"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,13 +19,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ice Beam",
-			fr: "Surf"
+			'en-us': "Ice Beam",
+			'fr-fr': "Surf"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		},
 
 		damage: 30,
@@ -45,18 +45,18 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Normally found only in the deep ocean, it has recently been seen in shallow waters as well."
+		'en-us': "Normally found only in the deep ocean, it has recently been seen in shallow waters as well."
 	},
 
 	abilities: [{
 		type: "Pokemon Power",
 
 		name: {
-			en: "Final Beam"
+			'en-us': "Final Beam"
 		},
 
 		effect: {
-			en: "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+			'en-us': "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
 		}
 	}],
 

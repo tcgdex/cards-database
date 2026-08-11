@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Simipour",
-		fr: "Flotoutan",
-		es: "Simipour",
-		it: "Simipour",
-		pt: "Simipour",
-		de: "Sodachita"
+		'en-us': "Simipour",
+		'fr-fr': "Flotoutan",
+		'es-es': "Simipour",
+		'it-it': "Simipour",
+		'pt-br': "Simipour",
+		'de-de': "Sodachita"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Panpour",
-		fr: "Flotajou",
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grass' Power",
-				fr: "Pouvoir Fertilisant",
+				'en-us': "Grass' Power",
+				'fr-fr': "Pouvoir Fertilisant",
 			},
 			effect: {
-				en: "If this Pokémon has any Grass Energy attached to it, heal 20 damage from this Pokémon.",
-				fr: "Si de l'Énergie Grass est attachée à ce Pokémon, soignez 20 dégâts à ce Pokémon.",
+				'en-us': "If this Pokémon has any Grass Energy attached to it, heal 20 damage from this Pokémon.",
+				'fr-fr': "Si de l'Énergie Grass est attachée à ce Pokémon, soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rushing Water",
-				fr: "Courant Fort",
+				'en-us': "Rushing Water",
+				'fr-fr': "Courant Fort",
 			},
 			effect: {
-				en: "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+		'en-us': "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
 	},
 
 	thirdParty: {

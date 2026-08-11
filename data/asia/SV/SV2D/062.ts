@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ワッカネズミ",
+		'ja-jp': "ワッカネズミ",
 		'zh-tw': "一對鼠",
-		th: "วักคาเนซูมิ",
-		id: "Tandemaus"
+		'th-th': "วักคาเนซูมิ",
+		'id-id': "Tandemaus"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "息の合った コンビネーションで 巣の 材料に なりそうなものを 前歯で 切り出して 運び去る。",
+		'ja-jp': "息の合った コンビネーションで 巣の 材料に なりそうなものを 前歯で 切り出して 運び去る。",
 		'zh-tw': "會以絕佳的團隊合作，把能當成巢穴建材的東西 用門牙切斷後搬走。",
-		th: "ใช้ฟันหน้าตัดวัสดุที่น่าจะนำมาทำรังได้แล้วแบกกลับไปอย่างพร้อมเพรียง",
-		id: "Dengan kombinasi yang serasi, pasangan Tandemaus memotong benda yang kelihatannya dapat dijadikan bahan-bahan untuk membuat sarang menggunakan gigi depan dan membawanya."
+		'th-th': "ใช้ฟันหน้าตัดวัสดุที่น่าจะนำมาทำรังได้แล้วแบกกลับไปอย่างพร้อมเพรียง",
+		'id-id': "Dengan kombinasi yang serasi, pasangan Tandemaus memotong benda yang kelihatannya dapat dijadikan bahan-bahan untuk membuat sarang menggunakan gigi depan dan membawanya."
 	},
 
 	stage: "Basic",
@@ -31,26 +31,26 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "もってくる",
+			'ja-jp': "もってくる",
 			'zh-tw': "呼喚",
-			th: "รวบรวม",
-			id: "Mengumpulkan"
+			'th-th': "รวบรวม",
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			ja: "自分の山札を2枚引く。",
+			'ja-jp': "自分の山札を2枚引く。",
 			'zh-tw': "從自己的牌庫抽出2張卡。",
-			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ひっぱたく",
+			'ja-jp': "ひっぱたく",
 			'zh-tw': "重摑",
-			th: "ตบแรง",
-			id: "Menepuk"
+			'th-th': "ตบแรง",
+			'id-id': "Menepuk"
 		},
 
 		damage: 30

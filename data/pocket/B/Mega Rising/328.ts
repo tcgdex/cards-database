@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arceus ex"
+		'en-us': "Arceus ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -22,24 +22,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fabled Luster"
+			'en-us': "Fabled Luster"
 		},
 
 		effect: {
-			en: "This Pokémon can't be affected by any Special Conditions."
+			'en-us': "This Pokémon can't be affected by any Special Conditions."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ultimate Force"
+			'en-us': "Ultimate Force"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon."
+			'en-us': "This attack does 20 more damage for each of your Benched Pokémon."
 		}
 	}],
 

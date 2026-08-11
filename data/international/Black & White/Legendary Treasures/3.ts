@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
+		'en-us': "Shuckle",
 	},
 
 	illustrator: "MAHOU",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Share",
+				'en-us': "Share",
 			},
 			effect: {
-				en: "Heal 40 damage from 1 of your Benched Pokémon.",
+				'en-us': "Heal 40 damage from 1 of your Benched Pokémon.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
+				'en-us': "Double Stab",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
 			},
 			damage: 40,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+		'en-us': "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
 	},
 
 	thirdParty: {

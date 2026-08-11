@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Natu",
+		'en-us': "Natu",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
+				'en-us': "Peck",
 			},
 
 			damage: 20,
@@ -48,7 +48,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.",
+		'en-us': "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.",
 	},
 
 	thirdParty: {

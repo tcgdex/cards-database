@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "Mizue",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lap Up",
-				fr: "Gobeur",
-				es: "A Lengüetazos",
-				it: "Leccatina",
-				pt: "Sobrepor-se",
-				de: "Auflecken"
+				'en-us': "Lap Up",
+				'fr-fr': "Gobeur",
+				'es-es': "A Lengüetazos",
+				'it-it': "Leccatina",
+				'pt-br': "Sobrepor-se",
+				'de-de': "Auflecken"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				es: "Atizar",
-				it: "Schianto",
-				pt: "Pancada Brusca",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'es-es': "Atizar",
+				'it-it': "Schianto",
+				'pt-br': "Pancada Brusca",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
 			},
 			damage: "50×",
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
+		'en-us': "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
 	},
 
 	thirdParty: {

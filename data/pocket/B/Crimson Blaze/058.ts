@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [474],
 
 	name: {
-		en: "Porygon-Z"
+		'en-us': "Porygon-Z"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Porygon2"
+		'en-us': "Porygon2"
 	},
 
 	description: {
-		en: "Porygon-Z had a program installed to allow it to\nmove between dimensions, but the program also\ncaused instability in Porygon-Z's behavior."
+		'en-us': "Porygon-Z had a program installed to allow it to\nmove between dimensions, but the program also\ncaused instability in Porygon-Z's behavior."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Cyberjack"
+			'en-us': "Cyberjack"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Trainer card in your opponent's deck."
+			'en-us': "This attack does 20 more damage for each Trainer card in your opponent's deck."
 		}
 	}],
 

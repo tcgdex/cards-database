@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
-		it: "Mareep",
-		pt: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
+		'it-it': "Mareep",
+		'pt-br': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc’Éclair",
-				es: "Rayo Impacto",
-				it: "Lamposhock",
-				pt: "Raio de Choque",
-				de: "Schock-Blitz"
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc’Éclair",
+				'es-es': "Rayo Impacto",
+				'it-it': "Lamposhock",
+				'pt-br': "Raio de Choque",
+				'de-de': "Schock-Blitz"
 			},
 			effect: {
-				en: "Discard all Lightning Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie Lightning de ce Pokémon.",
-				es: "Descarta todas las Energías Lightning de este Pokémon.",
-				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
-				pt: "Descarte todas as Energias Lightning deste Pokémon.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Lightning Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie Lightning de ce Pokémon.",
+				'es-es': "Descarta todas las Energías Lightning de este Pokémon.",
+				'it-it': "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
+				'pt-br': "Descarte todas as Energias Lightning deste Pokémon.",
+				'de-de': "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+		'en-us': "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
 	},
 
 	thirdParty: {

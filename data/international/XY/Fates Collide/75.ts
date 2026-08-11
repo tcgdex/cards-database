@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		es: "Kangaskhan",
-		it: "Kangaskhan",
-		pt: "Kangaskhan",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'es-es': "Kangaskhan",
+		'it-it': "Kangaskhan",
+		'pt-br': "Kangaskhan",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tiny Punch",
-				fr: "P'tit Coup d'Poing",
-				es: "Minipuño",
-				it: "Micropugno",
-				pt: "Soco Bebê",
-				de: "Mickriger Hieb"
+				'en-us': "Tiny Punch",
+				'fr-fr': "P'tit Coup d'Poing",
+				'es-es': "Minipuño",
+				'it-it': "Micropugno",
+				'pt-br': "Soco Bebê",
+				'de-de': "Mickriger Hieb"
 			},
 
 			damage: 40,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				es: "Megapuño",
-				it: "Megapugno",
-				pt: "Mega Soco",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'es-es': "Megapuño",
+				'it-it': "Megapugno",
+				'pt-br': "Mega Soco",
+				'de-de': "Megahieb"
 			},
 
 			damage: 100,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.",
+		'en-us': "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.",
 	},
 
 	thirdParty: {

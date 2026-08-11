@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		es: "Fearow",
-		it: "Fearow",
-		pt: "Fearow",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'es-es': "Fearow",
+		'it-it': "Fearow",
+		'pt-br': "Fearow",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -21,22 +21,22 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 
 	attacks: [{
 		name: {
-			en: "Drill Peck",
-			fr: "Bec Vrille",
-			es: "Pico Taladro",
-			it: "Perforbecco",
-			pt: "Bico Broca",
-			de: "Bohrschnabel"
+			'en-us': "Drill Peck",
+			'fr-fr': "Bec Vrille",
+			'es-es': "Pico Taladro",
+			'it-it': "Perforbecco",
+			'pt-br': "Bico Broca",
+			'de-de': "Bohrschnabel"
 		},
 
 		damage: 70,
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!"
+		'en-us': "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!"
 	},
 
 	variants: [

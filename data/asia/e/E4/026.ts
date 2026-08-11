@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vaporeon",
+		'ja-jp': "Vaporeon",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "自己癒し",
+				'ja-jp': "自己癒し",
 			},
 			effect: {
-				ja: "手からVaporeonに水エネルギーカードを取り付けるときはいつでも、Vaporeonに影響を与えるすべての特別な条件を削除します。",
+				'ja-jp': "手からVaporeonに水エネルギーカードを取り付けるときはいつでも、Vaporeonに影響を与えるすべての特別な条件を削除します。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "Hypnosplash",
+				'ja-jp': "Hypnosplash",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアトリック",
+				'ja-jp': "アクアトリック",
 			},
 			effect: {
-				ja: "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1枚を選択し、相手のベンチポケモンの1つに移動します。相手がベンチポケモンを持っていない場合は、この効果を無視してください。",
+				'ja-jp': "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1枚を選択し、相手のベンチポケモンの1つに移動します。相手がベンチポケモンを持っていない場合は、この効果を無視してください。",
 			},
 			damage: 40,
 		},

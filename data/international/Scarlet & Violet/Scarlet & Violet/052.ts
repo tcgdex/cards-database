@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaxly",
-		fr: "Coiffeton",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'en-us': "Quaxly",
+		'fr-fr': "Coiffeton",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Kick",
-			fr: "Koud'Pied",
-			es: "Patada",
-			it: "Calcio",
-			pt: "Chute",
-			de: "Tritt"
+			'en-us': "Kick",
+			'fr-fr': "Koud'Pied",
+			'es-es': "Patada",
+			'it-it': "Calcio",
+			'pt-br': "Chute",
+			'de-de': "Tritt"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+		'en-us': "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
 	},
 
 	thirdParty: {

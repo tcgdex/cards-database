@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เรดิบา",
-		id: "Ledyba"
+		'th-th': "เรดิบา",
+		'id-id': "Ledyba"
 	},
 
 	illustrator: "Whisker",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "เมื่ออากาศเย็นลง เรดิบาจำนวนมากจากที่ต่าง ๆ จะมารวมตัวกันเพื่อแอบอิงและมอบความอบอุ่นให้แก่กันและกัน",
-		id: "Jika udara menjadi dingin, Ledyba banyak berkumpul dari sana-sini, saling mendekat dan saling menghangatkan."
+		'th-th': "เมื่ออากาศเย็นลง เรดิบาจำนวนมากจากที่ต่าง ๆ จะมารวมตัวกันเพื่อแอบอิงและมอบความอบอุ่นให้แก่กันและกัน",
+		'id-id': "Jika udara menjadi dingin, Ledyba banyak berkumpul dari sana-sini, saling mendekat dan saling menghangatkan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กระโดดโหม่ง",
-			id: "Sundulan Meloncat"
+			'th-th': "กระโดดโหม่ง",
+			'id-id': "Sundulan Meloncat"
 		},
 
 		damage: 30,

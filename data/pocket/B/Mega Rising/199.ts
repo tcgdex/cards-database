@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Patrat"
+		'en-us': "Patrat"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Extremely cautious, one of them will always be on\nthe lookout, but it won't notice a foe coming\nfrom behind."
+		'en-us': "Extremely cautious, one of them will always be on\nthe lookout, but it won't notice a foe coming\nfrom behind."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 20,

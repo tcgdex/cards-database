@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tumble Over",
-				fr: "Culbuter",
-				de: "Umkippen"
+				'en-us': "Tumble Over",
+				'fr-fr': "Culbuter",
+				'de-de': "Umkippen"
 			},
 			effect: {
-				en: "Riolu can't attack during your next turn.",
-				fr: "Riolu ne peut pas attaquer lors de votre prochain tour.",
-				de: "Riolu kann in deinem nächsten Zug nicht angreifen."
+				'en-us': "Riolu can't attack during your next turn.",
+				'fr-fr': "Riolu ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Riolu kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 20,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		'en-us': "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 	illustrator: "kirisAki",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Energy Evolution",
-				fr: "Évolution de l'Énergie",
+				'en-us': "Energy Evolution",
+				'fr-fr': "Évolution de l'Énergie",
 			},
 			effect: {
-				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
-				fr: "Lorsque vous attachez pendant votre tour une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte qui est l’évolution de ce Pokémon et du même type que cette carte Énergie. Mettez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+				'en-us': "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+				'fr-fr': "Lorsque vous attachez pendant votre tour une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte qui est l’évolution de ce Pokémon et du même type que cette carte Énergie. Mettez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
 			},
 		},
 	],
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Draw",
-				fr: "Pioche Rapide",
+				'en-us': "Quick Draw",
+				'fr-fr': "Pioche Rapide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c’est face, piochez une carte.",
+				'en-us': "Flip a coin. If heads, draw a card.",
+				'fr-fr': "Lancez une pièce. Si c’est face, piochez une carte.",
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		'en-us': "Current studies show it can evolve into an incredible eight different species of Pokémon.",
 	},
 }
 

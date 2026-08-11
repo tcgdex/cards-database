@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Cosmog",
-		fr: "Cosmog",
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dust Gathering",
-				fr: "Ramasse Poussière",
+				'en-us': "Dust Gathering",
+				'fr-fr': "Ramasse Poussière",
 			},
 			effect: {
-				en: "Draw a card",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card",
+				'fr-fr': "Piochez une carte.",
 			},
 		},
 	],

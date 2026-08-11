@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Energy Burn",
-				fr: "Dépense d'énergie",
-				de: "Energie verbrennen"
+				'en-us': "Energy Burn",
+				'fr-fr': "Dépense d'énergie",
+				'de-de': "Energie verbrennen"
 			},
 			effect: {
-				en: "All Energy attached to Charizard are fire Energy instead of their usual type.",
-				fr: "Toutes les Énergies attachées à Dracaufeu sont des Énergies Fire au lieu de leur type habituel.",
-				de: "Alle Energien, die an Glurak angelegt sind, liefern -Energie anstelle ihres normalen Typs."
+				'en-us': "All Energy attached to Charizard are fire Energy instead of their usual type.",
+				'fr-fr': "Toutes les Énergies attachées à Dracaufeu sont des Énergies Fire au lieu de leur type habituel.",
+				'de-de': "Alle Energien, die an Glurak angelegt sind, liefern -Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Charizard.",
-				fr: "Défaussez 2 Énergies attachées à Dracaufeu.",
-				de: "Lege 2 an Glurak angelegte Energien auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy attached to Charizard.",
+				'fr-fr': "Défaussez 2 Énergies attachées à Dracaufeu.",
+				'de-de': "Lege 2 an Glurak angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -86,8 +86,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
-		fr: "Ses ailes peuvent le faire voler à plus de 1 400 mètres d'altitude. Ce Pokémon crache du feu à des températures très élevées."
+		'en-us': "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+		'fr-fr': "Ses ailes peuvent le faire voler à plus de 1 400 mètres d'altitude. Ce Pokémon crache du feu à des températures très élevées."
 	},
 
 	thirdParty: {

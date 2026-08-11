@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サクラビス",
+		'ja-jp': "サクラビス",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳ぐ 姿は とても 優雅。 細い 口で 岩場の すき間に 生えた 海藻を 食べる。",
+		'ja-jp': "泳ぐ 姿は とても 優雅。 細い 口で 岩場の すき間に 生えた 海藻を 食べる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "パールル",
+		'ja-jp': "パールル",
 	},
 
 	retreat: 0,

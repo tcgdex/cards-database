@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		es: "Nidorino",
-		it: "Nidorino",
-		pt: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'es-es': "Nidorino",
+		'it-it': "Nidorino",
+		'pt-br': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal’Korne",
-				es: "Perforador",
-				it: "Perforcorno",
-				pt: "Chifre Broca",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal’Korne",
+				'es-es': "Perforador",
+				'it-it': "Perforcorno",
+				'pt-br': "Chifre Broca",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+		'en-us': "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
 	},
 
 	thirdParty: {

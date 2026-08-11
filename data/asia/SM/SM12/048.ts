@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガン",
+		'ja-jp': "ルガルガン",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "気に入らない 命令は 平気で 無視。 相手を 仕留めるためなら 傷つくことも まるで 気にしない。",
+		'ja-jp': "気に入らない 命令は 平気で 無視。 相手を 仕留めるためなら 傷つくことも まるで 気にしない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちがたぎる" },
 			effect: {
-				ja: "相手の場に「ポケモンGX・EX」がいるなら、このポケモンが使うワザに必要なエネルギーは、【無】エネルギー3個ぶん少なくなる。",
+				'ja-jp': "相手の場に「ポケモンGX・EX」がいるなら、このポケモンが使うワザに必要なエネルギーは、【無】エネルギー3個ぶん少なくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 2,

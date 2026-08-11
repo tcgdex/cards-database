@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Funécire",
-		en: "Litwick",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'fr-fr': "Funécire",
+		'en-us': "Litwick",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Souffle-Feu",
-			en: "Firebreathing",
-			es: "Aliento de Fuego",
-			it: "Fuocospiro",
-			pt: "Hálito de Fogo",
-			de: "Feuerhauch"
+			'fr-fr': "Souffle-Feu",
+			'en-us': "Firebreathing",
+			'es-es': "Aliento de Fuego",
+			'it-it': "Fuocospiro",
+			'pt-br': "Hálito de Fogo",
+			'de-de': "Feuerhauch"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+		'en-us': "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
 	},
 
 	variants: [

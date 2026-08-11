@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "sui",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d’énergie",
-				de: "Energiereflexion"
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d’énergie",
+				'de-de': "Energiereflexion"
 			},
 			effect: {
-				en: "Move an Energy card attached to Lanturn to 1 of your Benched Pokémon.",
-				fr: "Prenez une carte Énergie attachée à Lanturn et attachez-la à l’un des Pokémon de votre Banc.",
-				de: "Lege 1 an Lanturn angelegte Energiekarte an 1 Pokémon auf deiner Bank an."
+				'en-us': "Move an Energy card attached to Lanturn to 1 of your Benched Pokémon.",
+				'fr-fr': "Prenez une carte Énergie attachée à Lanturn et attachez-la à l’un des Pokémon de votre Banc.",
+				'de-de': "Lege 1 an Lanturn angelegte Energiekarte an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The light it emits is so bright that it can illuminate the sea’s surface from a depth of over three miles."
+		'en-us': "The light it emits is so bright that it can illuminate the sea’s surface from a depth of over three miles."
 	},
 
 	variants: [

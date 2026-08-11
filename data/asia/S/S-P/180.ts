@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 		'zh-tw': "千面避役VMAX",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "汚い 空気が ごちそう。 むかしの ガラル地方には いまより たくさんの ドガースが いたという。",
+		'ja-jp': "汚い 空気が ごちそう。 むかしの ガラル地方には いまより たくさんの ドガースが いたという。",
 	},
 
 	stage: "Basic",
@@ -22,13 +22,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スモッグ",
+				'ja-jp': "スモッグ",
 				'zh-tw': "超極巨漩澴盤渦",
 			},
 			damage: 20,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "若希望，選擇1個這隻寶可夢身上附加的能量，放回手牌。這個情況下，增加70點傷害。",
 			},
 		},

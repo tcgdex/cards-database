@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		es: "Nidorina",
-		it: "Nidorina",
-		pt: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'es-es': "Nidorina",
+		'it-it': "Nidorina",
+		'pt-br': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Aya Kusube",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
-		fr: "Nidoran♀",
-		es: "Nidoran♀",
-		it: "Nidoran♀",
-		pt: "Nidoran♀",
-		de: "Nidoran♀"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran♀",
+		'es-es': "Nidoran♀",
+		'it-it': "Nidoran♀",
+		'pt-br': "Nidoran♀",
+		'de-de': "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				es: "Fuerza",
-				it: "Forza",
-				pt: "Força",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'es-es': "Fuerza",
+				'it-it': "Forza",
+				'pt-br': "Força",
+				'de-de': "Stärke"
 			},
 
 			damage: 60,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When feeding its young, it first chews the food into a paste, then spits it out for the offspring.",
+		'en-us': "When feeding its young, it first chews the food into a paste, then spits it out for the offspring.",
 	},
 
 	thirdParty: {

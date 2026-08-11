@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -8,12 +8,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Dragapult V",
-		fr: "Lanssorien V",
-		de: "Katapuldra V",
-		es: "Dragapult V",
-		pt: "Dragapult V",
-		it: "Dragapult V"
+		'en-us': "Dragapult V",
+		'fr-fr': "Lanssorien V",
+		'de-de': "Katapuldra V",
+		'es-es': "Dragapult V",
+		'pt-br': "Dragapult V",
+		'it-it': "Dragapult V"
 	},
 
 	rarity: "Promo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Jet Assault",
-			fr: "Assaut Propulsé",
-			de: "Jet-Angriff",
-			es: "Asalto Propulsión",
-			pt: "Ofensiva a Jato",
-			it: "Assalto Jet"
+			'en-us': "Jet Assault",
+			'fr-fr': "Assaut Propulsé",
+			'de-de': "Jet-Angriff",
+			'es-es': "Asalto Propulsión",
+			'pt-br': "Ofensiva a Jato",
+			'it-it': "Assalto Jet"
 		},
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
-			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
-			de: "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 80 puntos de daño más.",
-			pt: "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 80 pontos de dano a mais.",
-			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 80 danni in più."
+			'en-us': "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
+			'fr-fr': "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
+			'de-de': "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'es-es': "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 80 puntos de daño más.",
+			'pt-br': "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 80 pontos de dano a mais.",
+			'it-it': "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 80 danni in più."
 		},
 
 		damage: "60+"

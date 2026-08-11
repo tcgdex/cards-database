@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオス（デルタ種）",
+		'ja-jp': "ラティオス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタオーラ",
+				'ja-jp': "デルタオーラ",
 			},
 			effect: {
-				ja: "LatiasまたはLatias Exがプレイされている場合、LatiosのPsychic Forceの攻撃コストは今や軽demetalcolorlessになりました。",
+				'ja-jp': "LatiasまたはLatias Exがプレイされている場合、LatiosのPsychic Forceの攻撃コストは今や軽demetalcolorlessになりました。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ドラゴンクロー",
+				'ja-jp': "ドラゴンクロー",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Metal", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "サイキックフォース",
+				'ja-jp': "サイキックフォース",
 			},
 			effect: {
-				ja: "対戦相手にステージ2の進化したポケモンがいない場合、この攻撃は何もしません。",
+				'ja-jp': "対戦相手にステージ2の進化したポケモンがいない場合、この攻撃は何もしません。",
 			},
 			damage: 80,
 		},

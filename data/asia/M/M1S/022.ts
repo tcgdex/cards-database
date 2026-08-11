@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジメレオン"
+		'ja-jp': "ジメレオン"
 	},
 	illustrator: "Souichirou Gunjima",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
 	description: {
-		ja: "粘液まみれの長い舌を目にも留まらない速さで伸ばし獲物を見事に仕留めてみせる。"
+		'ja-jp': "粘液まみれの長い舌を目にも留まらない速さで伸ばし獲物を見事に仕留めてみせる。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,15 +25,15 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メッソン"
+		'ja-jp': "メッソン"
 	},
 	attacks: [{
 		name: {
-			ja: "にどづき"
+			'ja-jp': "にどづき"
 		},
 		damage: "30×",
 		effect: {
-			ja: "コインを2回投げ、オモテの数×30ダメージ。"
+			'ja-jp': "コインを2回投げ、オモテの数×30ダメージ。"
 		},
 		cost: ["Water"]
 	}],

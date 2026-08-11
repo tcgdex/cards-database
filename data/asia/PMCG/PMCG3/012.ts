@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェルダー",
+		'ja-jp': "シェルダー",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "シェルを隠します",
+				'ja-jp': "シェルを隠します",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中にシェルダーに与えられたすべてのダメージを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中にシェルダーに与えられたすべてのダメージを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 
 		},

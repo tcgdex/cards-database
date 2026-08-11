@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノココ",
+		'ja-jp': "キノココ",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "危険を 感じると 頭の てっぺんから 毒の 胞子を ばらまき 身を 守る ポケモン。",
+		'ja-jp': "危険を 感じると 頭の てっぺんから 毒の 胞子を ばらまき 身を 守る ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×10ダメージ。",
 			},
 		},
 		{

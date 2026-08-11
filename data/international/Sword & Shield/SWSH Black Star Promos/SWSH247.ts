@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Regigigas",
-		de: "Regigigas",
-		es: "Regigigas",
-		pt: "Regigigas",
-		it: "Regigigas",
-		en: "Regigigas"
+		'fr-fr': "Regigigas",
+		'de-de': "Regigigas",
+		'es-es': "Regigigas",
+		'pt-br': "Regigigas",
+		'it-it': "Regigigas",
+		'en-us': "Regigigas"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Mise en Forme",
-			de: "Hochfahren",
-			es: "Caldear",
-			pt: "Aquecer os Músculos",
-			it: "Preparazione",
-			en: "Limber Up"
+			'fr-fr': "Mise en Forme",
+			'de-de': "Hochfahren",
+			'es-es': "Caldear",
+			'pt-br': "Aquecer os Músculos",
+			'it-it': "Preparazione",
+			'en-us': "Limber Up"
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
-			de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an dieses Pokémon an.",
-			es: "Une 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
-			pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
-			en: "Attach a basic Energy card from your discard pile to this Pokémon."
+			'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+			'de-de': "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an dieses Pokémon an.",
+			'es-es': "Une 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
+			'pt-br': "Ligue 1 carta de Energia básica da sua pilha de descarte a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
+			'en-us': "Attach a basic Energy card from your discard pile to this Pokémon."
 		},
 
 		damage: 20
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Double Impact",
-			de: "Doppelter Einschlag",
-			es: "Impacto Doble",
-			pt: "Impacto Duplo",
-			it: "Doppio Impatto",
-			en: "Double Impact"
+			'fr-fr': "Double Impact",
+			'de-de': "Doppelter Einschlag",
+			'es-es': "Impacto Doble",
+			'pt-br': "Impacto Duplo",
+			'it-it': "Doppio Impatto",
+			'en-us': "Double Impact"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu.",
-			es: "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
-			en: "Flip 2 coins. This attack does 120 damage for each heads."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+			'en-us': "Flip 2 coins. This attack does 120 damage for each heads."
 		},
 
 		damage: "120×"
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	description: {
-		en: "There is an enduring legend that states this Pokémon towed continents with ropes."
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes."
 	},
 
 	thirdParty: {

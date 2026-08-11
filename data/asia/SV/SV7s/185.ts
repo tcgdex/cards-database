@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โซโด"
+		'th-th': "โซโด"
 	},
 
 	illustrator: "Mina Nakai",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "สามารถยกของที่หนัก 5 ตันได้ ในตอนเช้าจะมุ่งหน้าไปยังถ้ำเป็นฝูงเพื่อหาหินแร่ที่เป็นอาหาร"
+		'th-th': "สามารถยกของที่หนัก 5 ตันได้ ในตอนเช้าจะมุ่งหน้าไปยังถ้ำเป็นฝูงเพื่อหาหินแร่ที่เป็นอาหาร"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าชน"
+			'th-th': "พุ่งเข้าชน"
 		},
 
 		damage: 30,
 		cost: ["Metal", "Colorless"]
 	}, {
 		name: {
-			th: "ตั้งใจสู้"
+			'th-th': "ตั้งใจสู้"
 		},
 
 		damage: 70,

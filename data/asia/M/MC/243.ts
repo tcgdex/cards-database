@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライボルト",
+		'ja-jp': "ライボルト",
 	},
 
 	illustrator: "Izucch",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "人前には めったに 姿を 見せない。 雷の 落ちた 場所に すみかが あると いう。",
+		'ja-jp': "人前には めったに 姿を 見せない。 雷の 落ちた 場所に すみかが あると いう。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン1匹にも、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン1匹にも、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラクライ",
+		'ja-jp': "ラクライ",
 	},
 
 	retreat: 1,

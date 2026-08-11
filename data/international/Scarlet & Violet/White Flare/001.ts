@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		de: "Strawickl",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		es: "Sewaddle",
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'de-de': "Strawickl",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'es-es': "Sewaddle",
 		'es-mx': "Sewaddle"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			de: "Käferbiss",
-			it: "Coleomorso",
-			pt: "Picada",
-			es: "Picadura",
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'de-de': "Käferbiss",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'es-es': "Picadura",
 			'es-mx': "Picadura"
 		},
 

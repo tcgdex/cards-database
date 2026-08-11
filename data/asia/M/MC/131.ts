@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャヒート",
+		'ja-jp': "ニャヒート",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "首の 付け根の 炎袋は 戦いに なると 火力が 上がり 鈴のような 音を 出す。",
+		'ja-jp': "首の 付け根の 炎袋は 戦いに なると 火力が 上がり 鈴のような 音を 出す。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フレアストライク」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フレアストライク」が使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャビー",
+		'ja-jp': "ニャビー",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		fr: "Pomdepic",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepic",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to Pineco by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Pomdepic par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Jeder Schaden, der Tannza durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to Pineco by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous dégâts infligés à Pomdepic par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Jeder Schaden, der Tannza durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

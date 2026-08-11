@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
-		de: "Dodri"
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'de-de': "Dodri"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Dodrio"
+		'en-us': "Doduo",
+		'fr-fr': "Dodrio"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Furienschlag"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Furienschlag"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Pick",
-				fr: "Triplette",
-				de: "Dreifachpick"
+				'en-us': "Triple Pick",
+				'fr-fr': "Triplette",
+				'de-de': "Dreifachpick"
 			},
 			effect: {
-				en: "Choose 3 of your opponent's Evolved Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 3 des Pokémon Évolués de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 3 entwickelte Pokémon deines Gegners. Dieser Angriff fügt jedem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 3 of your opponent's Evolved Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 3 des Pokémon Évolués de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 3 entwickelte Pokémon deines Gegners. Dieser Angriff fügt jedem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -83,8 +83,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
-		fr: "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h."
+		'en-us': "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+		'fr-fr': "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h."
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Alolan Persian",
-		fr: "Persian d’Alola",
-		es: "Persian de Alola",
-		it: "Persian di Alola",
-		pt: "Persian de Alola",
-		de: "Alola-Snobilikat"
+		'en-us': "Alolan Persian",
+		'fr-fr': "Persian d’Alola",
+		'es-es': "Persian de Alola",
+		'it-it': "Persian di Alola",
+		'pt-br': "Persian de Alola",
+		'de-de': "Alola-Snobilikat"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Alolan Meowth",
-		fr: "Miaouss d’Alola",
+		'en-us': "Alolan Meowth",
+		'fr-fr': "Miaouss d’Alola",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Empty Threat",
-				fr: "Menace en l’Air",
-				es: "Falsa Amenaza",
-				it: "Minacce a Vuoto",
-				pt: "Ameaça Vazia",
-				de: "Leere Drohung"
+				'en-us': "Empty Threat",
+				'fr-fr': "Menace en l’Air",
+				'es-es': "Falsa Amenaza",
+				'it-it': "Minacce a Vuoto",
+				'pt-br': "Ameaça Vazia",
+				'de-de': "Leere Drohung"
 			},
 			effect: {
-				en: "This attack does 30 less damage times the amount of Energy attached to your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts de moins multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 30 puntos de daño menos por cada Energía unida al Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 30 danni in meno per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 30 pontos de dano a menos vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 30 Schadenspunkte weniger mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+				'en-us': "This attack does 30 less damage times the amount of Energy attached to your opponent’s Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts de moins multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 30 puntos de daño menos por cada Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 30 danni in meno per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 30 pontos de dano a menos vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt 30 Schadenspunkte weniger mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
 			},
 			damage: "90-",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks down on everyone other than itself. Its preferred tactics are sucker punches and blindside attacks.",
+		'en-us': "It looks down on everyone other than itself. Its preferred tactics are sucker punches and blindside attacks.",
 	},
 
 	thirdParty: {

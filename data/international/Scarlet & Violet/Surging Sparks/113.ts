@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grapploct",
-		fr: "Krakos",
-		es: "Grapploct",
-		it: "Grapploct",
-		pt: "Grapploct",
-		de: "Kaocto"
+		'en-us': "Grapploct",
+		'fr-fr': "Krakos",
+		'es-es': "Grapploct",
+		'it-it': "Grapploct",
+		'pt-br': "Grapploct",
+		'de-de': "Kaocto"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Clobbopus",
-		fr: "Poulpaf",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'en-us': "Clobbopus",
+		'fr-fr': "Poulpaf",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Raging Tentacles",
-			fr: "Tentacules Furieux",
-			es: "Tentáculos Iracundos",
-			it: "Tentacoli Furiosi",
-			pt: "Tentáculos Violentos",
-			de: "Wütende Tentakel"
+			'en-us': "Raging Tentacles",
+			'fr-fr': "Tentacules Furieux",
+			'es-es': "Tentáculos Iracundos",
+			'it-it': "Tentacoli Furiosi",
+			'pt-br': "Tentáculos Violentos",
+			'de-de': "Wütende Tentakel"
 		},
 
 		effect: {
-			en: "If this Pokémon has any damage counters on it, this attack can be used for {F}.",
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque peut être utilisée pour {F}.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {F}.",
-			it: "Se questo Pokémon ha dei segnalini danno, il costo di questo attacco è {F}.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por {F}.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {F} eingesetzt werden."
+			'en-us': "If this Pokémon has any damage counters on it, this attack can be used for {F}.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque peut être utilisée pour {F}.",
+			'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por {F}.",
+			'it-it': "Se questo Pokémon ha dei segnalini danno, il costo di questo attacco è {F}.",
+			'pt-br': "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por {F}.",
+			'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {F} eingesetzt werden."
 		},
 
 		damage: 130

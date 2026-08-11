@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アママイコ",
+		'ja-jp': "アママイコ",
 		'zh-tw': "甜舞妮",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "突いてくる アオガラスには 頭の ヘタで 殴りつけてから 鋭い 蹴り技を おみまいする。",
+		'ja-jp': "突いてくる アオガラスには 頭の ヘタで 殴りつけてから 鋭い 蹴り技を おみまいする。",
 		'zh-tw': "會用頭部的果蒂擊打飛來啄食自己的藍鴉，並且對牠使出猛烈的踢擊。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はねる",
+				'ja-jp': "はねる",
 				'zh-tw': "戲法舞步",
 			},
 			damage: 20,
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 	},
 
 	retreat: 1,

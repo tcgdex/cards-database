@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Crawdaunt G",
-		fr: "Colhomard ",
-		de: "Krebutack G"
+		'en-us': "Crawdaunt G",
+		'fr-fr': "Colhomard ",
+		'de-de': "Krebutack G"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Rare",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour fracassant",
-				de: "Abdrehender Schmetterer"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour fracassant",
+				'de-de': "Abdrehender Schmetterer"
 			},
 			effect: {
-				en: "You may switch Crawdaunt G with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Colhomard  avec 1 de vos Pokémon de Banc.",
-				de: "Du kannst Krebutack G gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "You may switch Crawdaunt G with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Colhomard  avec 1 de vos Pokémon de Banc.",
+				'de-de': "Du kannst Krebutack G gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 

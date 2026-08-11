@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+		'en-us': "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
 	},
 }
 

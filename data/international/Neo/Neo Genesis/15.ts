@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		fr: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Crush",
-				fr: "Ecras'queue",
-				de: "Tail Crush"
+				'en-us': "Tail Crush",
+				'fr-fr': "Ecras'queue",
+				'de-de': "Tail Crush"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
 			},
 			damage: "30+",
 
@@ -83,8 +83,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
-		fr: "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
+		'en-us': "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
+		'fr-fr': "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
 	},
 
 

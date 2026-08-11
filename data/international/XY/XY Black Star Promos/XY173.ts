@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Volcanion EX",
-		fr: "Volcanion-EX"
+		'en-us': "Volcanion EX",
+		'fr-fr': "Volcanion-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,12 +29,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Steam Up",
-				fr: "Jets Vapeur"
+				'en-us': "Steam Up",
+				'fr-fr': "Jets Vapeur"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Dans ce cas, pendant ce tour, les attaques de vos Pokémon  de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
+				'en-us': "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Dans ce cas, pendant ce tour, les attaques de vos Pokémon  de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volcanic Heat",
-				fr: "Chaleur Volcanique"
+				'en-us': "Volcanic Heat",
+				'fr-fr': "Chaleur Volcanique"
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
 			},
 			damage: 130,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "美しい シッポで 大人気。 ただし まめに ブラッシングしないと あっという間に 毛玉だらけになる。",
+		'ja-jp': "美しい シッポで 大人気。 ただし まめに ブラッシングしないと あっという間に 毛玉だらけになる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しっぽをふる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Thick Skin",
-				fr: "Dur à cuir",
-				de: "Dicke Haut"
+				'en-us': "Thick Skin",
+				'fr-fr': "Dur à cuir",
+				'de-de': "Dicke Haut"
 			},
 			effect: {
-				en: "Roselia can't be affected by any Special Conditions.",
-				fr: "Roselia ne peut pas être affectée par un État spécial.",
-				de: "Roselia kann nicht von speziellen Zuständen betroffen werden."
+				'en-us': "Roselia can't be affected by any Special Conditions.",
+				'fr-fr': "Roselia ne peut pas être affectée par un État spécial.",
+				'de-de': "Roselia kann nicht von speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Growth",
-				fr: "Engrais rapide",
-				de: "Schnelles Wachstum"
+				'en-us': "Speed Growth",
+				'fr-fr': "Engrais rapide",
+				'de-de': "Schnelles Wachstum"
 			},
 			effect: {
-				en: "Attach up to 2 Grass Energy cards from your hand to your Pokémon in any way you like.",
-				fr: "Attachez jusqu'à deux cartes Énergie  de votre main à vos Pokémon de la façon que vous voulez.",
-				de: "Lege bis zu 2  Energiekarten von deiner Hand an deine Pokémon an."
+				'en-us': "Attach up to 2 Grass Energy cards from your hand to your Pokémon in any way you like.",
+				'fr-fr': "Attachez jusqu'à deux cartes Énergie  de votre main à vos Pokémon de la façon que vous voulez.",
+				'de-de': "Lege bis zu 2  Energiekarten von deiner Hand an deine Pokémon an."
 			},
 
 		},
@@ -61,14 +61,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

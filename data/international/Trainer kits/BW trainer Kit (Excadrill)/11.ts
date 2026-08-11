@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Excadrill).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	illustrator: "match",
@@ -29,8 +29,8 @@ const card: Card = {
 			"Fighting"
 		],
 		name: {
-			en: "Pound",
-			fr: "Écras'Face"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face"
 		},
 		damage: 30
 	}],
@@ -44,7 +44,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty."
+		'en-us': "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty."
 	},
 
 	retreat: 1,

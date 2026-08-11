@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh BREAK",
-		fr: "Ho-Oh TURBO",
+		'en-us': "Ho-Oh BREAK",
+		'fr-fr': "Ho-Oh TURBO",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ho-Oh",
-		fr: "Ho-Oh",
+		'en-us': "Ho-Oh",
+		'fr-fr': "Ho-Oh",
 	},
 
 	stage: "BREAK",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shining Flame",
-				fr: "Flamme Brillante",
+				'en-us': "Shining Flame",
+				'fr-fr': "Flamme Brillante",
 			},
 			effect: {
-				en: "This Pokémon can't use Shining Flame during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
+				'en-us': "This Pokémon can't use Shining Flame during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
 			},
 			damage: 160,
 
@@ -58,10 +58,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Flamme Brillante",
+				'fr-fr': "Flamme Brillante",
 			},
 			effect: {
-				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour.",
 			},
 			damage: 160,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カビゴン",
+		'ja-jp': "カビゴン",
 	},
 
 	illustrator: "Po-Suzuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "１日に 食べ物を ４００キロ 食べないと 気がすまない。 食べ終わると 眠ってしまう。",
+		'ja-jp': "１日に 食べ物を ４００キロ 食べないと 気がすまない。 食べ終わると 眠ってしまう。",
 	},
 
 	stage: "Basic",

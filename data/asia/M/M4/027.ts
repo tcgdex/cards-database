@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	illustrator: "UKUMO uiti",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ふわふわの 体毛は 静電気が 溜まると ２倍に ふくらむ。 触ると 感電してしまう。",
+		'ja-jp': "ふわふわの 体毛は 静電気が 溜まると ２倍に ふくらむ。 触ると 感電してしまう。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

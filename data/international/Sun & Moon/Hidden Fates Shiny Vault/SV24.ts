@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Buzzwole",
-		fr: "Mouscoto",
+		'en-us': "Buzzwole",
+		'fr-fr': "Mouscoto",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sledgehammer",
-				fr: "Coup de Masse",
+				'en-us': "Sledgehammer",
+				'fr-fr': "Coup de Masse",
 			},
 			effect: {
-				en: "If your opponent has exactly 4 Prize cards remaining, this attack does 90 more damage.",
-				fr: "S’il reste exactement 4 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				'en-us': "If your opponent has exactly 4 Prize cards remaining, this attack does 90 more damage.",
+				'fr-fr': "S’il reste exactement 4 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swing Around",
-				fr: "Balançoire",
+				'en-us': "Swing Around",
+				'fr-fr': "Balançoire",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 80,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
+		'en-us': "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
 	},
 }
 

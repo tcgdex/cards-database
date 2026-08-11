@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Grainy Sand",
-				fr: "Sable graineux",
-				de: "Grober Sand"
+				'en-us': "Grainy Sand",
+				'fr-fr': "Sable graineux",
+				'de-de': "Grober Sand"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Hippopotas does 10 damage to itself.",
-				fr: "Hippopotas s'inflige 10 dégâts.",
-				de: "Hippopotas fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Hippopotas does 10 damage to itself.",
+				'fr-fr': "Hippopotas s'inflige 10 dégâts.",
+				'de-de': "Hippopotas fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+		'en-us': "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
 	},
 
 	thirdParty: {

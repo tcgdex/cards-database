@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プライスのピロスワイン",
+		'ja-jp': "プライスのピロスワイン",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "超氷の風",
+				'ja-jp': "超氷の風",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "PryceのPiloswineは、それ自体に10ダメージを与えます。",
+				'ja-jp': "PryceのPiloswineは、それ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

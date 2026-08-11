@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Hydreigon",
+		'en-us': "Hydreigon",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zweilous",
+		'en-us': "Zweilous",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dark Trance",
+				'en-us': "Dark Trance",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Darkness Energy attached to 1 of your Pokémon to another of your Pokémon.",
+				'en-us': "As often as you like during your turn (before your attack), you may move a Darkness Energy attached to 1 of your Pokémon to another of your Pokémon.",
 			},
 		},
 	],
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragonblast",
+				'en-us': "Dragonblast",
 			},
 			effect: {
-				en: "Discard 2 Darkness Energy attached to this Pokémon.",
+				'en-us': "Discard 2 Darkness Energy attached to this Pokémon.",
 			},
 			damage: 140,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
+		'en-us': "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
 	},
 
 	thirdParty: {

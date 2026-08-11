@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Bastiodon",
-		fr: "Bastiodon",
-		de: "Bollterus"
+		'en-us': "Bastiodon",
+		'fr-fr': "Bastiodon",
+		'de-de': "Bollterus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shieldon",
-		fr: "Dinoclier"
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Metal Trait",
-				fr: "Trait métallique",
-				de: "Metal Trait"
+				'en-us': "Metal Trait",
+				'fr-fr': "Trait métallique",
+				'de-de': "Metal Trait"
 			},
 			effect: {
-				en: "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns.",
-				fr: "Tant que Bastiodon possède un Outil Pokémon, retirez-lui 1 marqueur de dégât entre 2 tours.",
-				de: "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns."
+				'en-us': "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns.",
+				'fr-fr': "Tant que Bastiodon possède un Outil Pokémon, retirez-lui 1 marqueur de dégât entre 2 tours.",
+				'de-de': "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mur de fer",
-				de: "Iron Defense"
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de fer",
+				'de-de': "Iron Defense"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Bastiodon lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Bastiodon lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn."
 			},
 			damage: 30,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tackle",
-				fr: "Charge de fer",
-				de: "Iron Tackle"
+				'en-us': "Iron Tackle",
+				'fr-fr': "Charge de fer",
+				'de-de': "Iron Tackle"
 			},
 			effect: {
-				en: "Bastiodon does 30 damage to itself.",
-				fr: "Bastiodon s'inflige 30 dégâts.",
-				de: "Bastiodon does 30 damage to itself."
+				'en-us': "Bastiodon does 30 damage to itself.",
+				'fr-fr': "Bastiodon s'inflige 30 dégâts.",
+				'de-de': "Bastiodon does 30 damage to itself."
 			},
 			damage: 80,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のトドグラー",
+		'ja-jp': "アクア団のトドグラー",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷の道を 作って サポートして くれるんだ。 氷の上なら どんな バトルでも 勝てるぜ。",
+		'ja-jp': "氷の道を 作って サポートして くれるんだ。 氷の上なら どんな バトルでも 勝てるぜ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みずとばし" },
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のポケモンを1匹選び、20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
+				'ja-jp': "相手のポケモンを1匹選び、20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「マグマ団」のポケモンなら、60ダメージを追加。",
+				'ja-jp': "相手のバトルポケモンが「マグマ団」のポケモンなら、60ダメージを追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アクア団のタマザラシ",
+		'ja-jp': "アクア団のタマザラシ",
 	},
 
 	retreat: 3,

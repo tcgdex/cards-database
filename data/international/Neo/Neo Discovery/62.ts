@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'de-de': "Quapsel"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Because it is inept at walking on its newly grown legs, it always swims around in water.",
-		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
+		'en-us': "Because it is inept at walking on its newly grown legs, it always swims around in water.",
+		'fr-fr': "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
 	},
 
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		es: "Caterpie",
-		de: "Raupy",
-		it: "Caterpie",
-		pt: "Caterpie",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'es-es': "Caterpie",
+		'de-de': "Raupy",
+		'it-it': "Caterpie",
+		'pt-br': "Caterpie",
 		'es-mx': "Caterpie"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			es: "Picadura",
-			de: "Käferbiss",
-			it: "Coleomorso",
-			pt: "Picada",
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'es-es': "Picadura",
+			'de-de': "Käferbiss",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
 			'es-mx': "Picadura"
 		},
 

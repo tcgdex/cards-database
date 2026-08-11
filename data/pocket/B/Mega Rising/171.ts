@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Doublade"
+		'en-us': "Doublade"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Honedge"
+		'en-us': "Honedge"
 	},
 
 	description: {
-		en: "The two swords employ a strategy of rapidly\nalternating between offense and defense to\nbring down their prey."
+		'en-us': "The two swords employ a strategy of rapidly\nalternating between offense and defense to\nbring down their prey."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 40,

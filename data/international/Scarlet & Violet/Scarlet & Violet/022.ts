@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dolliv",
-		fr: "Olivado",
-		es: "Dolliv",
-		it: "Dolliv",
-		pt: "Dolliv",
-		de: "Olivinio"
+		'en-us': "Dolliv",
+		'fr-fr': "Olivado",
+		'es-es': "Dolliv",
+		'it-it': "Dolliv",
+		'pt-br': "Dolliv",
+		'de-de': "Olivinio"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Smoliv",
-		fr: "Olivini"
+		'en-us': "Smoliv",
+		'fr-fr': "Olivini"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'en-us': "Slap",
+			'fr-fr': "Gifle",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 20
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Apply Oil",
-			fr: "Application Huileuse",
-			es: "Aplicar Aceite",
-			it: "Applicolio",
-			pt: "Colocar Azeite",
-			de: "Einölen"
+			'en-us': "Apply Oil",
+			'fr-fr': "Application Huileuse",
+			'es-es': "Aplicar Aceite",
+			'it-it': "Applicolio",
+			'pt-br': "Colocar Azeite",
+			'de-de': "Einölen"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.",
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'attaquer, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta atacar, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
+			'en-us': "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'attaquer, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
+			'es-es': "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta atacar, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
+			'it-it': "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
+			'pt-br': "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar atacar, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá.",
+			'de-de': "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
 		},
 
 		damage: 40
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+		'en-us': "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
 	},
 
 	thirdParty: {

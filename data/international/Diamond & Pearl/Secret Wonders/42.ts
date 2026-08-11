@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Wormadam Sandy Cloak",
-		fr: "Cheniselle Cape Sable",
-		de: "Burmadame Sandumhang"
+		'en-us': "Wormadam Sandy Cloak",
+		'fr-fr': "Cheniselle Cape Sable",
+		'de-de': "Burmadame Sandumhang"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy Sandy Cloak",
-		fr: "Cheniti Cape Sable",
+		'en-us': "Burmy Sandy Cloak",
+		'fr-fr': "Cheniti Cape Sable",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sandy Cloak",
-				fr: "Cape sable",
-				de: "Sandumhang"
+				'en-us': "Sandy Cloak",
+				'fr-fr': "Cape sable",
+				'de-de': "Sandumhang"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
-				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Cheniselle Cape Sable.",
-				de: "Verhindere alle Effekte von Angriffen, außer Schaden, die Wurmadame Sandumhang zugefügt werden."
+				'en-us': "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Cheniselle Cape Sable.",
+				'de-de': "Verhindere alle Effekte von Angriffen, außer Schaden, die Wurmadame Sandumhang zugefügt werden."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Over",
-				fr: "Facilité",
-				de: "Umschubsen"
+				'en-us': "Push Over",
+				'fr-fr': "Facilité",
+				'de-de': "Umschubsen"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
-				fr: "Prévenez tous les effets d’une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Burmadame Sandumhang angelegte -Energie zu."
+				'en-us': "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
+				'fr-fr': "Prévenez tous les effets d’une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Burmadame Sandumhang angelegte -Energie zu."
 			},
 			damage: "40+",
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When BURMY evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+		'en-us': "When BURMY evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
 	},
 
 	thirdParty: {

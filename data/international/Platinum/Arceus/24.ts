@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull"
+		'en-us': "Wingull"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Crush",
-				de: "Dauerzermalmer"
+				'en-us': "Continuous Crush",
+				'de-de': "Dauerzermalmer"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf solange 1 Münze bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegt Energiekarte auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				'de-de': "Wirf solange 1 Münze bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegt Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		'en-us': "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
 	},
 
 	variants: [

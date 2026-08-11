@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingdra ex",
-		fr: "Hyporoi-ex"
+		'en-us': "Kingdra ex",
+		'fr-fr': "Hyporoi-ex"
 	},
 
 	illustrator: "Takumi Wada",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Seadra"
+		'en-us': "Seadra"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stormy Prison",
-			fr: "Prison Tempétueuse"
+			'en-us': "Stormy Prison",
+			'fr-fr': "Prison Tempétueuse"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
 

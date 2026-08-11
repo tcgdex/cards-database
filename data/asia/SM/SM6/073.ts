@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリミアン",
+		'ja-jp': "トリミアン",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大昔の カロス地方では 王様を 護衛する 役目を 与えられた ポケモン。",
+		'ja-jp': "大昔の カロス地方では 王様を 護衛する 役目を 与えられた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札が5枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が5枚になるように、山札を引く。",
 			},
 		},
 	],

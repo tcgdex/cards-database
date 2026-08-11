@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プリズムエネルギー",
+		'ja-jp': "プリズムエネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、[無]エネルギー1個ぶんとしてはたらく。たねポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。",
+		'ja-jp': "このカードは、[無]エネルギー1個ぶんとしてはたらく。たねポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。",
 	},
 
 	variants: [

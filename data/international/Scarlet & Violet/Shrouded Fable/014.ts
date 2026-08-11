@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
-		it: "Weavile",
-		pt: "Weavile",
-		de: "Snibunna"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Hail Claw",
-			fr: "Griffe Grêle",
-			es: "Garra Granizo",
-			it: "Artiglio di Grandine",
-			pt: "Garra de Granizo",
-			de: "Hagelklaue"
+			'en-us': "Hail Claw",
+			'fr-fr': "Griffe Grêle",
+			'es-es': "Garra Granizo",
+			'it-it': "Artiglio di Grandine",
+			'pt-br': "Garra de Granizo",
+			'de-de': "Hagelklaue"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Descarta todas las Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Scarta tutte le Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Descarte todas as Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+			'en-us': "Discard all Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Descarta todas las Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Descarte todas as Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 		},
 
 		damage: 70

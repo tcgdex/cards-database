@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エアームド"
+		'ja-jp': "エアームド"
 	},
 
 	illustrator: "Takumi Wada",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
+		'ja-jp': "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "はがねのつばさ"
+			'ja-jp': "はがねのつばさ"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 

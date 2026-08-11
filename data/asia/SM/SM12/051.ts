@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラサンド",
+		'ja-jp': "アローラサンド",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "火山の 噴火から 逃げるうちに 雪山に 移り棲んだ。 氷の 甲羅は 鋼並みの 硬さ。",
+		'ja-jp': "火山の 噴火から 逃げるうちに 雪山に 移り棲んだ。 氷の 甲羅は 鋼並みの 硬さ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はしゃぐ" },
 			cost: [],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{

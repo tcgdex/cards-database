@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archen",
-		fr: "Arkéapti",
-		de: "Flapteryx",
-		it: "Archen",
-		pt: "Archen",
-		es: "Archen",
+		'en-us': "Archen",
+		'fr-fr': "Arkéapti",
+		'de-de': "Flapteryx",
+		'it-it': "Archen",
+		'pt-br': "Archen",
+		'es-es': "Archen",
 		'es-mx': "Archen"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Antique Plume Fossil",
-		fr: "Fossile Plume Ancien",
-		de: "Antikes Federfossil",
-		it: "Vecchio Fossilpiuma",
-		pt: "Fóssil Pluma Arcaico",
-		es: "Fósil Pluma Antiguo",
+		'en-us': "Antique Plume Fossil",
+		'fr-fr': "Fossile Plume Ancien",
+		'de-de': "Antikes Federfossil",
+		'it-it': "Vecchio Fossilpiuma",
+		'pt-br': "Fóssil Pluma Arcaico",
+		'es-es': "Fósil Pluma Antiguo",
 		'es-mx': "Fósil Pluma Antiguo"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Acrobatics",
-			fr: "Acrobatie",
-			de: "Akrobatik",
-			it: "Acrobazia",
-			pt: "Acrobático",
-			es: "Acróbata",
+			'en-us': "Acrobatics",
+			'fr-fr': "Acrobatie",
+			'de-de': "Akrobatik",
+			'it-it': "Acrobazia",
+			'pt-br': "Acrobático",
+			'es-es': "Acróbata",
 			'es-mx': "Acrobacia"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
+			'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara."
 		},
 

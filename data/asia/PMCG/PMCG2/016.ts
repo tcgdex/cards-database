@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウツボット",
+		'ja-jp': "ウツボット",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ルアー",
+				'ja-jp': "ルアー",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、1つを選択して、アクティブなポケモンで切り替えます。",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、1つを選択して、アクティブなポケモンで切り替えます。",
 			},
 
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "酸",
+				'ja-jp': "酸",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},

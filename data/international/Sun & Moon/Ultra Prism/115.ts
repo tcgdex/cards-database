@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Type: Null",
-		fr: "Type:0",
-		es: "Código Cero",
-		it: "Tipo Zero",
-		pt: "Tipo Nulo",
-		de: "Typ:Null"
+		'en-us': "Type: Null",
+		'fr-fr': "Type:0",
+		'es-es': "Código Cero",
+		'it-it': "Tipo Zero",
+		'pt-br': "Tipo Nulo",
+		'de-de': "Typ:Null"
 	},
 
 	illustrator: "match",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Merciless Strike",
-				fr: "Impact Impitoyable",
-				es: "Golpe Despiadado",
-				it: "Colpo Implacabile",
-				pt: "Golpe Impiedoso",
-				de: "Gnadenloser Schlag"
+				'en-us': "Merciless Strike",
+				'fr-fr': "Impact Impitoyable",
+				'es-es': "Golpe Despiadado",
+				'it-it': "Colpo Implacabile",
+				'pt-br': "Golpe Impiedoso",
+				'de-de': "Gnadenloser Schlag"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 30 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 30 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente já tiver contadores de dano nele, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 30 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 30 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente já tiver contadores de dano nele, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbang",
-				fr: "Frappe de Tête",
-				es: "Cabecear",
-				it: "Scuotitesta",
-				pt: "Baque de Cabeça",
-				de: "Headbangen"
+				'en-us': "Headbang",
+				'fr-fr': "Frappe de Tête",
+				'es-es': "Cabecear",
+				'it-it': "Scuotitesta",
+				'pt-br': "Baque de Cabeça",
+				'de-de': "Headbangen"
 			},
 
 			damage: 70,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+		'en-us': "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
 	},
 
 	thirdParty: {

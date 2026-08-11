@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メノクラゲ",
+		'ja-jp': "メノクラゲ",
 		'zh-tw': "瑪瑙水母",
-		th: "เมโนคุราเกะ",
-		id: "Tentacool",
+		'th-th': "เมโนคุราเกะ",
+		'id-id': "Tentacool",
 	},
 
 	illustrator: "miki kudo",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ほとんどが 水分で できている。 体は 海の中では 水と 同化して とても 見えづらいのだ。",
+		'ja-jp': "ほとんどが 水分で できている。 体は 海の中では 水と 同化して とても 見えづらいのだ。",
 		'zh-tw': "絕大部分都是由水組成的身體在海中會與海水同化， 令其他生物很難看見牠。",
-		th: "ร่างกายส่วนใหญ่เกิดมาจากน้ำ เมื่ออยู่ในทะเลร่างกายจะดูกลมกลืนกับน้ำจนมองแยกไม่ออก",
-		id: "Tubuh Tentacool hampir seluruhnya terbentuk atas air. Di dalam laut, tubuhnya terlihat menyatu dengan air sehingga sulit dilihat.",
+		'th-th': "ร่างกายส่วนใหญ่เกิดมาจากน้ำ เมื่ออยู่ในทะเลร่างกายจะดูกลมกลืนกับน้ำจนมองแยกไม่ออก",
+		'id-id': "Tubuh Tentacool hampir seluruhnya terbentuk atas air. Di dalam laut, tubuhnya terlihat menyatu dengan air sehingga sulit dilihat.",
 	},
 
 	stage: "Basic",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぴりっ",
+				'ja-jp': "ぴりっ",
 				'zh-tw': "麻",
-				th: "เผ็ด",
-				id: "Pedas Menyengat",
+				'th-th': "เผ็ด",
+				'id-id': "Pedas Menyengat",
 			},
 			damage: 10,
 			cost: ["Water"],
 		},
 		{
 			name: {
-				ja: "みずまき",
+				'ja-jp': "みずまき",
 				'zh-tw': "灑水",
-				th: "โปรยน้ำ",
-				id: "Menyiramkan Air",
+				'th-th': "โปรยน้ำ",
+				'id-id': "Menyiramkan Air",
 			},
 			damage: 20,
 			cost: ["Colorless", "Colorless"],

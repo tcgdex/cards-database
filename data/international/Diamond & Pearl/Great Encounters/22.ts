@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias",
-		de: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias",
+		'de-de': "Latias"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miraculous Light",
-				fr: "Lumière miraculeuse",
-				de: "Wundersames Licht"
+				'en-us': "Miraculous Light",
+				'fr-fr': "Lumière miraculeuse",
+				'de-de': "Wundersames Licht"
 			},
 			effect: {
-				en: "Remove 2 damage counters and all Special Conditions from Latias.",
-				fr: "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux.",
-				de: "Entferne 2 Schadensmarken und alle Speziellen Zustände von Latias."
+				'en-us': "Remove 2 damage counters and all Special Conditions from Latias.",
+				'fr-fr': "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux.",
+				'de-de': "Entferne 2 Schadensmarken und alle Speziellen Zustände von Latias."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mist Ball",
-				fr: "Boule de brume",
-				de: "Nebelball"
+				'en-us': "Mist Ball",
+				'fr-fr': "Boule de brume",
+				'de-de': "Nebelball"
 			},
 			effect: {
-				en: "Discard a Fire Energy and a Water Energy attached to Latias.",
-				fr: "Défaussez une Énergie Fire et une Énergie Water attachées à Latias.",
-				de: "Lege 1 -Energie und 1 -Energie, die an Latias angelegt sind, auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy and a Water Energy attached to Latias.",
+				'fr-fr': "Défaussez une Énergie Fire et une Énergie Water attachées à Latias.",
+				'de-de': "Lege 1 -Energie und 1 -Energie, die an Latias angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is covered with a down that can refract light in such a way that it becomes invisible.",
+		'en-us': "Its body is covered with a down that can refract light in such a way that it becomes invisible.",
 	},
 
 	thirdParty: {

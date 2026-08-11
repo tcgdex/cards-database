@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブイゼル",
+		'ja-jp': "ブイゼル",
 		'zh-tw': "泳圈鼬",
 		'zh-cn': "泳圈鼬"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "尻尾を スクリューのように まわし 水中を 泳ぐだけでなく まとわりつく 海草も 切れる。",
+		'ja-jp': "尻尾を スクリューのように まわし 水中を 泳ぐだけでなく まとわりつく 海草も 切れる。",
 		'zh-tw': "像螺旋槳一樣旋轉的尾巴 除了能夠讓牠在水裡游泳， 還能切斷纏住自己的海草。",
 		'zh-cn': "像螺旋槳一樣旋轉的尾巴 除了能夠讓牠在水裡游泳， 還能切斷纏住自己的海草。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "しっぽではたく",
+			'ja-jp': "しっぽではたく",
 			'zh-tw': "擺尾拍擊",
 			'zh-cn': "擺尾拍擊"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スプラッシュ",
+			'ja-jp': "スプラッシュ",
 			'zh-tw': "飛濺",
 			'zh-cn': "飛濺"
 		},

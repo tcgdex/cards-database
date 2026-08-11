@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex12: Set = {
 	id: "ex12",
 
 	name: {
-		en: "Legend Maker",
-		fr: "EX Créateurs de légendes",
-		de: "EX Legend Maker",
-		it: "EX La Leggenda di Mew"
+		'en-us': "Legend Maker",
+		'fr-fr': "EX Créateurs de légendes",
+		'de-de': "EX Legend Maker",
+		'it-it': "EX La Leggenda di Mew"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ex12: Set = {
 
 	abbreviations: {
 		official: "LM",
-		fr: "CDL"
+		'fr-fr': "CDL"
 	},
 
 	thirdParty: {

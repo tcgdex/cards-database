@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vivillon",
-		fr: "Prismillon",
-		es: "Vivillon",
-		it: "Vivillon",
-		pt: "Vivillon",
-		de: "Vivillon"
+		'en-us': "Vivillon",
+		'fr-fr': "Prismillon",
+		'es-es': "Vivillon",
+		'it-it': "Vivillon",
+		'pt-br': "Vivillon",
+		'de-de': "Vivillon"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spewpa",
-		fr: "Pérégrain"
+		'en-us': "Spewpa",
+		'fr-fr': "Pérégrain"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Miracle Powder",
-			fr: "Poudre Miracle",
-			es: "Polvo Milagroso",
-			it: "Miracolpolvere",
-			pt: "Pó Milagroso",
-			de: "Wunderstaub"
+			'en-us': "Miracle Powder",
+			'fr-fr': "Poudre Miracle",
+			'es-es': "Polvo Milagroso",
+			'it-it': "Miracolpolvere",
+			'pt-br': "Pó Milagroso",
+			'de-de': "Wunderstaub"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
-			fr: "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
-			es: "Lanza 1 moneda. Si sale cara, elige una Condición Especial. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
-			it: "Lancia una moneta. Se esce testa, scegli una condizione speciale. Il Pokémon attivo del tuo avversario è influenzato da quella condizione speciale.",
-			pt: "Jogue uma moeda. Se sair cara, escolha uma Condição Especial. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial.",
-			de: "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen."
+			'en-us': "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
+			'fr-fr': "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
+			'es-es': "Lanza 1 moneda. Si sale cara, elige una Condición Especial. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
+			'it-it': "Lancia una moneta. Se esce testa, scegli una condizione speciale. Il Pokémon attivo del tuo avversario è influenzato da quella condizione speciale.",
+			'pt-br': "Jogue uma moeda. Se sair cara, escolha uma Condição Especial. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial.",
+			'de-de': "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen."
 		},
 
 		damage: 50
@@ -52,12 +52,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Bug Buzz",
-			fr: "Bourdon",
-			es: "Zumbido",
-			it: "Ronzio",
-			pt: "Zumbido de Inseto",
-			de: "Käfergebrumm"
+			'en-us': "Bug Buzz",
+			'fr-fr': "Bourdon",
+			'es-es': "Zumbido",
+			'it-it': "Ronzio",
+			'pt-br': "Zumbido de Inseto",
+			'de-de': "Käfergebrumm"
 		},
 
 		damage: 110
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
+		'en-us': "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
 	},
 
 	thirdParty: {

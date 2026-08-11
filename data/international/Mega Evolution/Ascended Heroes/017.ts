@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
 		'es-mx': "Grubbin",
-		de: "Mabula",
-		it: "Grubbin",
-		pt: "Grubbin"
+		'de-de': "Mabula",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin"
 	},
 
 	illustrator: "Jerky",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ambush",
-			fr: "Embuscade",
-			es: "Emboscada",
+			'en-us': "Ambush",
+			'fr-fr': "Embuscade",
+			'es-es': "Emboscada",
 			'es-mx': "Emboscada",
-			de: "Hinterhalt",
-			it: "Imboscata",
-			pt: "Emboscada"
+			'de-de': "Hinterhalt",
+			'it-it': "Imboscata",
+			'pt-br': "Emboscada"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
 		},
 
 		damage: "10+"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It spits sticky threads and winds them around branches, then swings nimbly from tree to tree in a pendulum-like motion.",
+		'en-us': "It spits sticky threads and winds them around branches, then swings nimbly from tree to tree in a pendulum-like motion.",
 	},
 
 	variants: [

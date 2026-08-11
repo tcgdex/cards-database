@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Link",
-				fr: "Double Lien",
-				es: "Doble Conexión",
-				it: "Doppiolegame",
-				pt: "Conexão Dupla",
-				de: "Doppelband"
+				'en-us': "Double Link",
+				'fr-fr': "Double Lien",
+				'es-es': "Doble Conexión",
+				'it-it': "Doppiolegame",
+				'pt-br': "Conexão Dupla",
+				'de-de': "Doppelband"
 			},
 			effect: {
-				en: "If Solosis is on your Bench, this attack does 30 more damage. If Duosion is on your Bench, this attack does 60 more damage.",
-				fr: "Si Nucléos est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires. Si Méios est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si Solosis está en tu Banca, este ataque hace 30 puntos de daño más. Si Duosion está en tu Banca, este ataque hace 60 puntos de daño más.",
-				it: "Se Solosis è nella tua panchina, questo attacco infligge 30 danni in più. Se Duosion è nella tua panchina, questo attacco infligge 60 danni in più.",
-				pt: "Se Solosis estiver no seu Banco, este ataque causará 30 de danos adicionais. Se Duosion estiver no seu Banco, este ataque causará 60 de danos adicionais.",
-				de: "Wenn sich Monozyto auf deiner Bank befindet, fügt dieser Angriff 30 weitere Schadenspunkte zu. Wenn sich Mitodos auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				'en-us': "If Solosis is on your Bench, this attack does 30 more damage. If Duosion is on your Bench, this attack does 60 more damage.",
+				'fr-fr': "Si Nucléos est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires. Si Méios est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si Solosis está en tu Banca, este ataque hace 30 puntos de daño más. Si Duosion está en tu Banca, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se Solosis è nella tua panchina, questo attacco infligge 30 danni in più. Se Duosion è nella tua panchina, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se Solosis estiver no seu Banco, este ataque causará 30 de danos adicionais. Se Duosion estiver no seu Banco, este ataque causará 60 de danos adicionais.",
+				'de-de': "Wenn sich Monozyto auf deiner Bank befindet, fügt dieser Angriff 30 weitere Schadenspunkte zu. Wenn sich Mitodos auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When their two divided brains think the same thoughts, their psychic power is maximized.",
+		'en-us': "When their two divided brains think the same thoughts, their psychic power is maximized.",
 	},
 
 	thirdParty: {
