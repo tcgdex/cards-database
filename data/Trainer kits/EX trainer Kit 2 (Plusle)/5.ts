@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Metang",
+		de: "Metang"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
-		fr: "Terhal"
+		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	attacks: [{
@@ -32,11 +34,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Psychic Boom",
-			fr: "Psycho-boom"
+			fr: "Psycho-boom",
+			de: "Psychoknall"
 		},
 		effect: {
 			en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-			fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+			fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+			de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede am Verteidigenden Pokémon angelegte Energie zu."
 		},
 		damage: "10+"
 	}, {
@@ -47,11 +51,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Quick Blow",
-			fr: "Coup d'poing éclair"
+			fr: "Coup d'poing éclair",
+			de: "Schnellschlag"
 		},
 		effect: {
 			en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 		},
 		damage: "40+"
 	}],
