@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bastiodon",
+		en: "Buneary",
 		fr: "Laporeille",
 		de: "Haspiror"
 	},
