@@ -1,0 +1,29 @@
+meta {
+  name: multi-lang support set
+  type: graphql
+  seq: 4
+}
+
+post {
+  url: {{BASE_URL}}/v3/graphql
+  body: graphql
+  auth: inherit
+}
+
+body:graphql {
+  query {
+    sets(filters: { id: "eq:base1" }) {
+      id
+      locales(langs: ["en", "fr", "de"]) {
+        lang
+        name
+      }
+    }
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
