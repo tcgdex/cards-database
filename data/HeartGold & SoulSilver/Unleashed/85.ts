@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocean"
+		fr: "Hypocean",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "If your opponent has any Fire Pokémon in play, this attack's base damage is 20 instead of 60.",
 				fr: "Si votre adversaire dispose de n’importe quel Pokémon Fire en jeu, cette attaque inflige 20 dégâts de base au lieu de 60.",
-				de: "Wenn dein Gegner mindestens 1 -Pokémon im Spiel hat, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
+				de: "Wenn dein Gegner mindestens 1 {R}-Pokémon im Spiel hat, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
 			},
 			damage: 60,
 

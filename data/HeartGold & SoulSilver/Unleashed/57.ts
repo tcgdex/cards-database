@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -55,7 +55,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way."
+		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",
+		de: "Es gräbt sich durchs Erdreich. Das laute Bohren, wenn es einen Tunnel gräbt, ist von Weitem zu hören."
 	},
 
 	variants: [

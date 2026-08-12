@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil."
+		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+		de: "Im Sonnenlicht betreibt sein ganzer Körper Photosynthese. Sein Panzer besteht aus hartem Lehm."
 	},
 
 	variants: [

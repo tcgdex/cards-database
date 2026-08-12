@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In South America, it is said that its right eye sees the future and its left eye views the past."
+		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",
+		de: "In Südamerika glaubt man, dass sein rechtes Auge die Zukunft und das linke die Vergangenheit sieht."
 	},
 
 	variants: [

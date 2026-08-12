@@ -64,7 +64,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
+		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it.",
+		de: "Sein Panzer ist bei Geburt weich. Er wird bald so elastisch, dass kleinere Stöße von ihm abprallen."
 	},
 
 	variants: [

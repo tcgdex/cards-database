@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 5 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey."
+		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey.",
+		de: "Es fliegt steil empor und stürzt sich anschließend herab, um seine Beute zu erlegen."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zubat",
-		fr: "Nosferapti"
+		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -65,7 +66,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
+		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily.",
+		de: "Es kann bis zu 0,3 Liter Blut auf einmal trinken. Trinkt es zu viel, wird es schwer und fliegt behäbig."
 	},
 
 	variants: [
