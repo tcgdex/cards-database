@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Needling Sting",
 				fr: "Piqûre Piquante",
+				de: "Nadelstiche"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
+		de: "Je gesünder das Roselia, desto angenehmer das Aroma seiner Blume, das Menschen so sehr entspannt."
 	},
 
 	thirdParty: {

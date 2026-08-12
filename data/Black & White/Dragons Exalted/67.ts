@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Boldore",
 		fr: "Géolithe",
+		de: "Sedimantur"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Revenge Cannon",
 				fr: "Canon Talion",
+				de: "Konterkanone"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on each of your Benched Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur chacun de vos Pokémon de Banc.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf den Pokémon auf deiner Bank zu."
 			},
 			damage: 10,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 40 damage to itself.",
 				fr: "Ce Pokémon s'inflige 40 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 40 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The solar energy absorbed by its body's orange crystals is magnified internally are fired from its mouth.",
+		de: "Es absorbiert über seine orangefarbenen Kristalle das Sonnenlicht und schießt die so gewonnene Energie aus seinem Maul."
 	},
 
 	thirdParty: {

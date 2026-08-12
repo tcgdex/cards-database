@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Pulse",
 				fr: "Dracochoc",
+				de: "Drachenpuls"
 			},
 			effect: {
 				en: "Discard the top 2 cards of your deck.",
 				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Shred",
 				fr: "Déchiquetage",
+				de: "Zerfetzer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				de: "Der Schaden dieses Angriffs wird durch Effekte auf dem Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 90,
 
@@ -74,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {

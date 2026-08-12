@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Harden",
 				fr: "Armure",
+				de: "Härtner"
 			},
 			effect: {
 				en: "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
 				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
+				de: "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch einen Angriff 60 oder weniger Schadenspunkte zugefügt würden, verhindere diesen Schaden."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 40,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+		de: "Es bindet sich mit Seide an Äste und trinkt Regenwasser, während es starr auf seine Entwicklung wartet."
 	},
 
 	thirdParty: {

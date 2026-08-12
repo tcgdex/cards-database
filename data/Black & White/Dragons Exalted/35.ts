@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tympole",
 		fr: "Tritonde",
+		de: "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Hyper Voice",
 				fr: "Mégaphone",
+				de: "Schallwelle"
 			},
 
 			damage: 50,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "When they vibrate the bumps on their heads, the can make wave in water or earthquake-like vibrations on land.",
+		de: "Wenn es die Beulen auf seinem Kopf zum Schwingen bringt, tobt je nach Umgebung entweder das Wasser oder die Erde bebt."
 	},
 
 	thirdParty: {

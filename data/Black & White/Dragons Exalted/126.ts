@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duosion",
 		fr: "Méios",
+		de: "Mitodos"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Psywave",
 				fr: "Vague Psy",
+				de: "Psywelle"
 			},
 			effect: {
 				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: 30,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist sehr schwer zu finden."
 	},
 
 	thirdParty: {

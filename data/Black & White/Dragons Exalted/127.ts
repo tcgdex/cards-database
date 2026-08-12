@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Dark Clamp",
 				fr: "Pince des Ténèbres",
+				de: "Dunkler Klammergriff"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Bombast",
 				fr: "Arrogance",
+				de: "Prahlerei"
 			},
 			effect: {
 				en: "Does 40 damage times the number of Prize cards you have taken.",
 				fr: "Inflige 40 dégâts multipliés par le nombre de cartes Récompense que vous avez récupérées.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte für jede Preiskarte zu, die du bereits genommen hast."
 			},
 			damage: 40,
 
@@ -89,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist sehr schwer zu finden."
 	},
 
 	thirdParty: {

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
+				de: "Wiegenlied"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
+		de: "An sonnigen Tagen trifft man diese Pokémon an Stränden, wo sie wie Bälle herumhüpfen."
 	},
 
 	thirdParty: {

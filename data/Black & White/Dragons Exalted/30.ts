@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spheal",
 		fr: "Obalie",
+		de: "Seemops"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Ice Ball",
 				fr: "Ball'Glace",
+				de: "Frostbeule"
 			},
 
 			damage: 30,
@@ -56,6 +58,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde Boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 40,
@@ -74,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+		de: "Es balanciert Dinge auf seiner Nase. Dabei lernt es etwas über die Beschaffenheit und den Geruch."
 	},
 
 	thirdParty: {

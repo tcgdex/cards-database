@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Unstoppable Roll",
 				fr: "Roulade Obstinée",
+				de: "Permawalze"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, this attack does 30 more damage.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 2 Münzen. Zeigen beide „Kopf“, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+		de: "Es rollt über Eisschollen, um Land zu erreichen, da sein Körper zum Schwimmen nicht geeignet ist."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cascoon",
 		fr: "Blindalys",
+		de: "Panekon"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Hazardous Scales",
 				fr: "Écailles Fatales",
+				de: "Gefährliche Schuppen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep, Burned, and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi, Brûlé et Empoisonné.",
+				de: "Das Verteidigende Pokémon schläft jetzt, ist verbrannt und vergiftet."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Aerial Ace",
 				fr: "Aéropique",
+				de: "Aero-Ass"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
+		de: "Es streut mit jedem Flügelschlag giftiges Pulver. Nachts entfernt es die Blätter von Bäumen an Alleen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
+		de: "Duodino"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover una Energía Darkness unida a 1 de tus Pokémon a otro de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare a piacimento una carta Energia Darkness assegnata ai tuoi Pokémon.",
 				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover uma Energia Darkness ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Darkness-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {D}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Dragonblast",
 				fr: "Dracoxplosion",
+				de: "Drachenwucht"
 			},
 			effect: {
 				en: "Discard 2 Darkness Energy attached to this Pokémon.",
 				fr: "Défaussez 2 Énergies Darkness attachées à ce Pokémon.",
+				de: "Lege 2 an dieses Pokémon angelegte {D}-Energien auf deinen Ablagestapel."
 			},
 			damage: 140,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
+		de: "Es fliegt rastlos durch die Lüfte und greift jeden an, der ihm unter die Augen kommt. Ein äußerst kaltblütiges Pokémon."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Flame Screen",
 				fr: "Barrière de Flammes",
+				de: "Flammenschirm"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 40,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
+		de: "Wenn es seine fast 2 000 Grad heißen Feuerbälle abfeuert, nimmt sein Körper eine weißliche Farbe an."
 	},
 
 	thirdParty: {

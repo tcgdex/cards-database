@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Toss",
 				fr: "Giclée Vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 60,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+		de: "Es nimmt mit dem rechten Arm Gegner in die Mangel und gibt ihnen mit dem giftigen Gas aus seinem Maul den Rest."
 	},
 
 	thirdParty: {

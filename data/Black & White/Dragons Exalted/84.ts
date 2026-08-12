@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Dragon hacen 20 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Dragon infliggono 20 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques do seu Pokémon Dragon causam 20 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência).",
-				de: "Die Angriffe deiner Dragon-Pokémon fügen den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Angriffe deiner {N}-Pokémon fügen den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				de: "Gleiten"
 			},
 
 			damage: 40,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+		de: "Freundet es sich mit jemandem an, hüllt es den Freund sanft mit den Flügeln ein und singt dann."
 	},
 
 	thirdParty: {
