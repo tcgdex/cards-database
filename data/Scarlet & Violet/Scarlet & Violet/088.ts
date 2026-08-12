@@ -96,9 +96,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
-	description: {
-		en: "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
-	},
 
 	thirdParty: {
         cardmarket: 702384,
