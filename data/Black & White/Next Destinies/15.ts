@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 30,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+		de: "Ist es wütend, erreicht das Büschel auf seinem Kopf Temperaturen von bis zu 300 Grad. Es röstet sich damit auch Nüsse."
 	},
 
 	thirdParty: {

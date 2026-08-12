@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Elgyem",
 		fr: "Lewsor",
+		de: "Pygraulon"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Brain Control",
 				fr: "Contrôle Cérébral",
+				de: "Gedankenkontrolle"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck.",
 				fr: "Votre adversaire montre sa main. Choisissez-y une carte et mettez-la en dessous du deck de votre adversaire.",
+				de: "Dein Gegner deckt seine Handkarten auf. Wähle 1 dieser Karten und lege sie unter das Deck deines Gegners."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale Psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+		de: "Manipuliert das gegnerische Gedächtnis. Lässt es seine drei bunten Finger aufleuchten, kommuniziert es offenbar."
 	},
 
 	thirdParty: {

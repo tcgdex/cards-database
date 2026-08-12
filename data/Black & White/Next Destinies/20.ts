@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Flame Burst",
 				fr: "Rebondifeu",
+				de: "Funkenflug"
 			},
 			effect: {
 				en: "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners je 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Inferno",
 				fr: "Feu d'Enfer",
+				de: "Inferno"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel. Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 80,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		de: "Es saugt die Seele eines jeden auf, der in seinen Feuerkranz gerät, bis nur noch eine leere Hülle von ihm übrig ist."
 	},
 
 	thirdParty: {

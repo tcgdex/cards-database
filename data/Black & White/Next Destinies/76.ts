@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Oracle Inflict",
 				fr: "Supplice de l'Oracle",
+				de: "Orakelstrafe"
 			},
 			effect: {
 				en: "Does 10 more damage for each card in your opponent's hand.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque carte dans la main de votre adversaire.",
+				de: "Dieser Angriff fügt für jede Karte in der Hand deines Gegners 10 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+		de: "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte."
 	},
 
 	thirdParty: {

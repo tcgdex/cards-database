@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona Energía Colorless. Si el Pokémon al que está unida esta carta es un Pokémon Básico, esta carta proporciona todos los tipos de Energía, pero solo 1 Energía a la vez.",
 		it: "Questa carta fornisce Colorless. Se il Pokémon a cui è assegnata questa carta è un Pokémon Base, questa carta fornisce un’Energia di un tipo qualsiasi, ma solo una alla volta.",
 		pt: "Este card fornece Energia Colorless. Se o Pokémon ao qual este card está ligado for um Pokémon Básico, o card fornecerá todos os tipos de Energia, mas apenas 1 Energia de cada vez.",
-		de: "Diese Karte liefert Colorless-Energie. Wenn diese Karte an ein Basis-Pokémon angelegt ist, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie."
+		de: "Diese Karte liefert {C}-Energie. Wenn diese Karte an ein Basis-Pokémon angelegt ist, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie."
 	},
 
 	energyType: "Special",

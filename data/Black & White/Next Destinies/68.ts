@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mienfoo",
 		fr: "Kungfouine",
+		de: "Lin-Fu"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Haul In",
 				fr: "Mainmise",
+				de: "Einziehen"
 			},
 			effect: {
 				en: "Search your deck for 2 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez 2 cartes Outil Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 2 Pokémon-Ausrüstungen, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Meditate",
 				fr: "Yoga",
+				de: "Meditation"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on the Defending Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: 30,
 
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "They use the long fur on their arms as a whip to strike their opponents.",
+		de: "Es geht seinen Gegnern ans Leder, indem es ihnen mit dem langen Fell seiner Arme wie mit einer Peitsche Hiebe verpasst."
 	},
 
 	thirdParty: {

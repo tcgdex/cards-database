@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Knock Away",
 				fr: "Asticotage",
+				de: "Zurückschlagen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 40,
@@ -79,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
 	},
 
 	thirdParty: {

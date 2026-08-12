@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Frozen Wings",
 				fr: "Ailes Gelées",
+				de: "Starre Schwingen"
 			},
 			effect: {
 				en: "Discard a Special Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Hail Blizzard",
 				fr: "Tempêtegrêle",
+				de: "Hagelblizzard"
 			},
 			effect: {
 				en: "This Pokémon can't use Hail Blizzard during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Tempêtegrêle pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges Hagelblizzard nicht einsetzen."
 			},
 			damage: 120,
 

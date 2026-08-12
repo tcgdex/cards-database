@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede curar 20 puntos de daño a 1 de sus Pokémon en Banca.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può curare 20 danni da uno dei suoi Pokémon in panchina.",
 		pt: "Uma vez, durante a vez de jogar de cada jogador, aquele jogador poderá curar 20 de danos de 1 dos seus Pokémon no Banco.",
-		de: "Einmal während seines Zuges darf jeder Spieler 20 Schadenspunkte bei 1 seiner Pokémon auf der Bank heilen."
+		de: "Einmal während seines Zuges darf jeder Spieler 20 Schadenspunkte bei 1 seiner Pokémon auf der Bank heilen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

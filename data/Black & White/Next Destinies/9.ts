@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Foongus",
 		fr: "Trompignon",
+		de: "Tarnpignon"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Rising Lunge",
 				fr: "Botte Secrète",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -92,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+		de: "Es lockt seine Beute an, indem es die Hüte in Form von Pokébällen an seinen Armen rüttelt und einen Tanz aufführt."
 	},
 
 	thirdParty: {

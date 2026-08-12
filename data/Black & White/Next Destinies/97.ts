@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Glinting Claw",
 				fr: "Griffe Scintillante",
+				de: "Schimmernde Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Strong Volt",
 				fr: "Décharge Foudroyante",
+				de: "Voltkraft"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to this Pokémon.",
 				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
+				de: "Lege 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 
