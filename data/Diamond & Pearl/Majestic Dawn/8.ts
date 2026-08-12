@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Manaphy, remove 2 damage counters from Manaphy.",
 				fr: "Lorsque vous attachez une carte Énergie Water de votre main à Manaphy, retirez-lui 2 marqueurs de dégât.",
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Manaphy anlegst, entferne 2 Schadensmarken von Manaphy."
+				de: "Wenn du 1 {W}-Energiekarte von deiner Hand an Manaphy anlegst, entferne 2 Schadensmarken von Manaphy."
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 			effect: {
 				en: "You may attach up to 2 basic Water Energy cards from your hand to your Benched Pokémon in any way you like.",
 				fr: "Vous pouvez attacher jusqu'à 2 cartes Énergie de base Water de votre main à vos Pokémon de Banc de la façon que vous voulez.",
-				de: "Du kannst bis zu 2 -Basis-Energiekarten von deiner Hand in beliebiger Verteilung an Pokémon auf deiner Bank anlegen."
+				de: "Du kannst bis zu 2 {W}-Basis-Energiekarten von deiner Hand in beliebiger Verteilung an Pokémon auf deiner Bank anlegen."
 			},
 			damage: 30,
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+		de: "Geboren auf dem Meeresboden, legt es große Entfernungen zurück, um dorthin zurückzukehren."
 	},
 
 	thirdParty: {

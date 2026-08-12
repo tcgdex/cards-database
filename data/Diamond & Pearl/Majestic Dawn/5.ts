@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Glaceon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Givrali lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Glaziola zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Glaziola zugefügt würden."
 			},
 			damage: 30,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigendem Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 60,
 
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+		de: "Will es sich schützen, kann es sein Fell gefrieren, so dass jedes Haar wie eine Nadel absteht."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dome Fossil",
 		fr: "Fossile Dôme",
+		de: "Domfossil"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for Helix Fossil, Dome Fossil, or Old Amber and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Kabuto is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez Fossile Nautile, Fossile Dôme ou Vieil Ambre dans votre deck et placez-la sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Kabuto est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei 'Kopf' durchsuche dein Deck nach 1 Helixfossil-, Domfossli- oder Altbernstein-Karte und lege sie auf deine Bank. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Kabuto von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei „Kopf“ durchsuche dein Deck nach 1 Helixfossil-, Domfossil- oder Altbernstein-Karte und lege sie auf deine Bank. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Kabuto von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
+		de: "Man geht davon aus, dass dieses PKMN vor 300 Millionen Jahren die Strände bevölkerte."
 	},
 
 	thirdParty: {

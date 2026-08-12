@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It sprays a nose-curling, stinky fluid from its rear to repel attackers.",
+		de: "Es versprüht eine übel stinkende Flüssigkeit aus seinem Hinterleib, um Angreifer zu verjagen."
 	},
 
 	thirdParty: {

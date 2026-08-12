@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may attach an Energy card from your hand to 1 of your Pokémon. This power can't be used if Leafeon is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie de votre main à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Phyllali est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges(vor deinem Angriff) kannst du 1 Energiekarte von deiner Hand an 1 Pokémon anlegen. Diese POké-Power kann nciht benutzt werden, wenn Folipurba von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Energiekarte von deiner Hand an 1 deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Folipurba von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt und vegiftet."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms.",
+		de: "Das Gift aus seinen Backentaschen wird über zwei Venen in seinen Armen zu den Fingergelenken gepumpt."
 	},
 
 	thirdParty: {

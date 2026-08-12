@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Health Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter from that Pokémon.",
 		fr: "Énergie santé fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui 1 marqueur de dégât.",
-		de: "Heil-Energie liefert -Energie. Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, entferne 1 Schadensmarke von diesem Pokémon."
+		de: "Heil-Energie liefert {C}-Energie. Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, entferne 1 Schadensmarke von diesem Pokémon."
 	},
 
 	energyType: "Special",

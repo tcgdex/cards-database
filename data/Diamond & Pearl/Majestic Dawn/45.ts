@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Raichu during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Raichu lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere wärend des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Raichu zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Raichu zugefügt würden."
 			},
 			damage: 20,
 
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+		de: "Es kann 100.000 Volt mit einem Schlag freisetzen und so viel größere Gegner besiegen."
 	},
 
 	thirdParty: {

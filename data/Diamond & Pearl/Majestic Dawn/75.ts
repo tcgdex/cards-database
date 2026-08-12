@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
+		de: "Normalerweise ist es immer im Schwarm unterwegs. Sein Ruf ist äußerst durchdringend."
 	},
 
 	thirdParty: {

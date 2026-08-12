@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen"
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+		de: "Ein seltenes PKMN, das sich seiner Umgebung anpasst, indem es sich in unterschiedlicher Form entwickelt."
 	},
 
 	thirdParty: {

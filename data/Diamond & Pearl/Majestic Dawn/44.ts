@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	stage: "Stage1",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings deliver wicked blows that snap even the thickest of trees. It searches for prey in icy seas.",
+		de: "Seine Flügel schlagen so kräftig zu, dass es sogar Bäume umknicken kann. Im Eismeer sucht es Beute."
 	},
 
 	thirdParty: {

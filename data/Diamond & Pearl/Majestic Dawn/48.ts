@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Sudowoodo does 30 damage to itself.",
 				fr: "Simularbre s'inflige 30 dégâts.",
-				de: "Mogelbaum fügt sich slebst 30 Schadenspunkte zu."
+				de: "Mogelbaum fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
+		de: "Es steht an Pfaden und tut so, als sei es ein Baum. Im Regen scheint es zu verschwinden."
 	},
 
 	thirdParty: {
