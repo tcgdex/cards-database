@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Yawn",
-				fr: "Gros Bâillement"
+				fr: "Gros Bâillement",
+				de: "Großer Gähner"
 			},
 			effect: {
 				en: "Both this Pokémon and the Defending Pokémon are now Asleep.",
-				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis."
+				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis.",
+				de: "Dieses Pokémon und das Verteidigende Pokémon schlafen jetzt."
 			},
 
 		},
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shot in the Dark",
-				fr: "Au Pif"
+				fr: "Au Pif",
+				de: "Zufallstreffer"
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+		de: "Es ist langsam, hat aber ein Talent, mit seinem Schweif zu fischen. Beißt etwas an, tut es ihm nicht weh."
 	},
 
 	thirdParty: {

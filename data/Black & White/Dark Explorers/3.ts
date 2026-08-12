@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	stage: "Stage2",
@@ -65,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Powder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 70,
 
@@ -94,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+		de: "Nach einem Regentag riecht die Blume auf seinem Rücken intensiver. Das Aroma zieht andere Pokémon an."
 	},
 
 	thirdParty: {

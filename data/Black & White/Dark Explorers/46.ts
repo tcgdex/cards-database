@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tynamo",
-		fr: "Anchwatt"
+		fr: "Anchwatt",
+		de: "Zapplardin"
 	},
 
 	stage: "Stage1",
@@ -40,7 +41,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'Boule"
+				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -54,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shock Bolt",
-				fr: "Choc'Éclair"
+				fr: "Choc'Éclair",
+				de: "Schock-Blitz"
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon."
+				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten {L}-Energien auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		de: "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend."
 	},
 
 	thirdParty: {

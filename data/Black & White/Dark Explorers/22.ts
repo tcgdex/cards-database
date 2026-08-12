@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvesta",
-		fr: "Pyronille"
+		fr: "Pyronille",
+		de: "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -64,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Wind",
-				fr: "Vent Torride"
+				fr: "Vent Torride",
+				de: "Lodernder Wind"
 			},
 			effect: {
 				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Du kannst 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+		de: "Schüttelt sich glühenden Staub aus seinen sechs Flügeln und verwandelt das Umfeld in ein einziges Meer aus Flammen."
 	},
 
 	thirdParty: {

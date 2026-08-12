@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
-				fr: "Ascension"
+				fr: "Ascension",
+				de: "Aufstieg"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon) Mélangez ensuite votre deck."
+				fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon) Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach einer Karte, zu der sich dieses Pokémon entwickelt, und lege sie auf dieses Pokémon (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
 			},
 
 		},
@@ -50,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		de: "Es übertölpelt andere, indem es verschiedene Gestalten annimmt. Angeblich tarnt es sich oft als wortkarges Kind."
 	},
 
 	thirdParty: {

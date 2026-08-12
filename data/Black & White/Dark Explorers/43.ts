@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Joltik",
-		fr: "Statitik"
+		fr: "Statitik",
+		de: "Wattzapf"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Turn",
-				fr: "Vif Retournement"
+				fr: "Vif Retournement",
+				de: "Schnelldrehung"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -56,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Electrisilk",
-				fr: "Électrisoie"
+				fr: "Électrisoie",
+				de: "Elektrofaden"
 			},
 			effect: {
 				en: "If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage.",
-				fr: "Si le Pokémon Défenseur n'a pas de coût de Retraite, cette attaque inflige 40 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur n'a pas de coût de Retraite, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon keine Rückzugskosten hat, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+		de: "Lässt seine Beute in elektrisch geladene Fäden tappen. Solang diese durch den Schock gelähmt ist, labt es sich an ihr."
 	},
 
 	thirdParty: {

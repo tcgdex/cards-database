@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		de: "Es fällt leider oft hin. Allerdings ist es sehr stolz und so rappelt es sich immer wieder ohne Sorge auf."
 	},
 
 	thirdParty: {

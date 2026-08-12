@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Super Roussi"
+				fr: "Super Roussi",
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
+		de: "Es lebt am Fuß von Vulkanen. Mit Gegnern räumt es auf, indem es aus seinen fünf Hörnern Flammen auf sie abfeuert."
 	},
 
 	thirdParty: {

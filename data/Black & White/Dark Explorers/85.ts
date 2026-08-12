@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tone-Deaf",
-				fr: "Dur d'Oreille"
+				fr: "Dur d'Oreille",
+				de: "Unmusikalisch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -51,7 +53,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 30,
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
+		de: "Seine Zunge ähnelt der eines Menschen. Daher kann es die menschliche Sprache gut nachahmen."
 	},
 
 	thirdParty: {

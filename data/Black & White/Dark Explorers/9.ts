@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -49,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reckless Charge",
-				fr: "Attaque Imprudente"
+				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts."
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+		de: "Ein mysteriöses Pokémon, das sich entwickelt, wenn es zusammen mit Schnuthelm einen Stromschlag abbekommt."
 	},
 
 	thirdParty: {

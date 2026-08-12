@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Timburr",
-		fr: "Charpenti"
+		fr: "Charpenti",
+		de: "Praktibalk"
 	},
 
 	stage: "Stage1",
@@ -40,7 +41,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 20,
@@ -54,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Swing",
-				fr: "Frappe d'Acier"
+				fr: "Frappe d'Acier",
+				de: "Stahlschwung"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
+				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 60,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+		de: "Zu Trainingszwecken trägt es immer einen Stahlträger bei sich. Unter Kollegen gibt es nur zu gern mit seinen Muskeln an."
 	},
 
 	thirdParty: {
