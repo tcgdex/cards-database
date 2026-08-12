@@ -82,9 +82,6 @@ const card: Card = {
 		}
 	],
 
-	description: {
-		en: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
-	},
 
 	thirdParty: {
         cardmarket: 702419,

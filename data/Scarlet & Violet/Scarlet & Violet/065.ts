@@ -90,9 +90,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "hncl",
 
-	description: {
-		en: "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
-	},
 
 	thirdParty: {
         cardmarket: 702361,
