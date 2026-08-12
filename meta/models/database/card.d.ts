@@ -251,9 +251,9 @@ export interface Card {
 	}
 
 	/**
-	 * TODO: find a better name
+	 * TODO: find a better name -> Name proposed 
 	 */
-	graphicalDescription?: {
+	visualStyle?: {
 		/**
 		 * artwork style of the card
 		 */
