@@ -45,10 +45,6 @@ const card: Card = {
 		},
 	],
 
-	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
-	},
-
 	attacks: [{
 		cost: ["Colorless"],
 
