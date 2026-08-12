@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Chimecho δ",
-		fr: "Eoko δ"
+		fr: "Eoko δ",
+		de: "Palimpalim δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrap",
-				fr: "Ligotage"
+				fr: "Ligotage",
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonicboom",
-				fr: "Sonicboom"
+				fr: "Sonicboom",
+				de: "Ultraschall"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 30,
 
