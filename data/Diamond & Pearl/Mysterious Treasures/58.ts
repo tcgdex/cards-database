@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "A mushroom grown larger than the host's body controls PARASECT. It scatters poisonous spores.",
-		fr: "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
+		fr: "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées.",
+		de: "PARASEK wird von einem Pilz, der größer als das Pokémon ist, kontrolliert. Er gibt Giftsporen ab."
 	},
 
 	thirdParty: {

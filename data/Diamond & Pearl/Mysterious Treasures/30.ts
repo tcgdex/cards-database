@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Put a coin next to your Active Pokémon without showing your opponent and cover it with your hand. Your opponent guesses if the coin is heads or tails. If he or she is wrong, this attack does 50 damage to the Defending Pokémon. If he or she is right, Mr. Mime does 20 damage to itself, and this attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Placez une pièce à côté de votre Pokémon Actif. Ne la montrez pas à votre adversaire et cachez-la avec votre main. Votre adversaire doit deviner si c'est pile ou face. S'il ou elle a tort, cette attaque inflige 50 dégâts au Pokémon Défenseur. S'il ou elle a raison, M. Mime s'inflige 20 dégâts et les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Lege 1 Münze verdeckt neben dein Aktives Pokémon. Dein Gegner muss erraten, ob die Münze \"Kopf\" oder \"Zahl\" zeigt. Wenn er falsch rät, fügt dieser Angriff dem Verteidigenden Pokémon 50 Schadenspunkte zu. Wenn er richtig rät, fügt sich Pantimos selbst 20 Schadenspunkte, die durch Schwäche und Resistenz nicht verändert werden, zu."
+				de: "Lege 1 Münze verdeckt neben dein Aktives Pokémon. Dein Gegner muss erraten, ob die Münze „Kopf“ oder „Zahl“ zeigt. Wenn er falsch rät, fügt dieser Angriff dem Verteidigenden Pokémon 50 Schadenspunkte zu. Wenn er richtig rät, fügt sich Pantimos selbst 20 Schadenspunkte, die durch Schwäche und Resistenz nicht verändert werden, zu."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It is a pantomime expert that can create invisible but solid walls using miming gestures.",
-		fr: "Un expert de la pantomime dont les gestes façonnent de solides murs invisibles."
+		fr: "Un expert de la pantomime dont les gestes façonnent de solides murs invisibles.",
+		de: "Ein Experte der Pantomime. Es kann unsichtbare, aber solide Wände allein durch Gesten erzeugen."
 	},
 
 	thirdParty: {

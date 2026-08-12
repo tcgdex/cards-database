@@ -55,7 +55,8 @@ const card: Card = {
 
 	description: {
 		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
-		fr: "Il semble patiner sur l'eau. Le parfum diffusé par le sommet de sa tête sert à attirer ses proies."
+		fr: "Il semble patiner sur l'eau. Le parfum diffusé par le sommet de sa tête sert à attirer ses proies.",
+		de: "Scheinbar reitet es auf dem Wasser. Es lockt seine Beute mit einem süßen Duft an."
 	},
 
 	thirdParty: {

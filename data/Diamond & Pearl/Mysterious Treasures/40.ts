@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Barboach",
-		fr: "Barloche"
+		fr: "Barloche",
+		de: "Schmerbe"
 	},
 
 	stage: "Stage1",
@@ -65,7 +66,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenpunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -90,7 +91,8 @@ const card: Card = {
 
 	description: {
 		en: "It is very territorial. It repels foes by setting of tremors that extend over a three-mile radius.",
-		fr: "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km."
+		fr: "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km.",
+		de: "Es verteidigt sein Revier, indem es Erschütterungen auslöst, die noch in 5 km Entfernung zu spüren sind."
 	},
 
 	thirdParty: {

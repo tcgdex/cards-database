@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Pupitar does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Pupitar by attacks during your opponent's next turn.",
 				fr: "Ymphect s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les effets infligés à Ymphect par des attaques lors du prochain tour de votre adversaire.",
-				de: "Pupitar fügt sich selbst 10 Schadenspunkte zu. Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Pupitar im nächsten Zug deines Gegners durch Angriffe zugefügt wird."
+				de: "Pupitar fügt sich selbst 10 Schadenspunkte zu. Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Pupitar im nächsten Zug deines Gegners durch Angriffe zugefügt wird."
 			},
 			damage: 50,
 
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
-		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
+		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz.",
+		de: "Sein Körper ist hart wie Fels. Es lässt mit Hochdruck Gas ab, um wie eine Rakete nach oben zu schießen."
 	},
 
 	thirdParty: {

@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Baby Evolution",
 				fr: "Évolution bébé",
-				de: "Baby-Evolution"
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
-		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité.",
+		de: "Seine Backentaschen sind noch recht klein. Daher kann es nicht allzu viel Elektrizität speichern."
 	},
 
 	thirdParty: {

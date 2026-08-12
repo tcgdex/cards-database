@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cranidos",
-		fr: "Kranidos"
+		fr: "Kranidos",
+		de: "Koknodon"
 	},
 
 	stage: "Stage2",
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
-		fr: "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants"
+		fr: "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants",
+		de: "Sein kräftiger Kopfstoß hat genug Kraft, um selbst die stabilsten Dinge zu zerschmettern."
 	},
 
 	thirdParty: {

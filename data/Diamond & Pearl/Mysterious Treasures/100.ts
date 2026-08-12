@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
-		fr: "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\"."
+		fr: "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\".",
+		de: "Im Land des Schnees sagt eine Legende, dass in ein Haus Wohlstand einzieht, wenn es darin lebt."
 	},
 
 	thirdParty: {

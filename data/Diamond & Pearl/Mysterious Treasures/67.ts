@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Unown T is your Active Pokémon, you may discard a card from your hand. Then, flip a coin. If heads, put 2 damage counters on 1 of your opponent's Benched Pokémon. This power can't be used if Unown T is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi T est votre Pokémon Actif, vous pouvez défausser une carte de votre main. Ensuite, lancez une pièce. Si c'est face, placez 2 marqueurs de dégât sur 1 des Pokémon de Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Zarbi T est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Icognito T dein Aktives Pokémon ist, 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach wirf 1 Münze. Bei 'Kopf' lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners. Diese Poké-Power kann nicht benutzt werden, wenn Icognito T von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Icognito T dein Aktives Pokémon ist, 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach wirf 1 Münze. Bei „Kopf“ lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners. Diese Poké-Power kann nicht benutzt werden, wenn Icognito T von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

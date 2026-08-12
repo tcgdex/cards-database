@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croagunk",
-		fr: "Cradopaud"
+		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent can't remove the Special Condition Poisoned by evolving or devolving his or her Poisoned Pokémon. (This also includes putting a Pokémon Level-Up card onto the Poisoned Pokémon.)",
 				fr: "Votre adversaire ne peut pas retirer l'État Spécial Empoisonné en faisant évoluer ou en désévoluant ses Pokémon Empoisonnés. (Placer une carte Pokémon Niveau Sup sur le Pokémon Empoisonné inclus.)",
-				de: "Dein Gegner kann den Speziellen Zustand \"vergiftet\" von seinen Pokémon nicht durch Entwickeln oder Rückentwickeln entfernen. (Dies gilt auch für das Spielen einer Pokémon Level-Up-Karte auf das vergiftete Pokémon.)"
+				de: "Dein Gegner kann den Speziellen Zustand „vergiftet“ von seinen Pokémon nicht durch Entwickeln oder Rückentwickeln entfernen. (Dies gilt auch für das Spielen einer Pokémon Level-Up-Karte auf das vergiftete Pokémon.)"
 			},
 		},
 	],
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
-		fr: "Les griffes de ses poings sécrètent une toxine si atroce qu'une simple égratignure peut s'avérer fatale."
+		fr: "Les griffes de ses poings sécrètent une toxine si atroce qu'une simple égratignure peut s'avérer fatale.",
+		de: "Die Gelenke an seinen Klauen geben ein so starkes Gift ab, dass selbst ein kleiner Kratzer fatal ist."
 	},
 
 	thirdParty: {

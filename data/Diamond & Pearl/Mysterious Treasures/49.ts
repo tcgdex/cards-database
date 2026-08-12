@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind.",
-		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
+		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos.",
+		de: "Sein Schweif besitzt ebenfalls ein Gehirn. Er beißt jeden Gegner, der sich von hinten heranschleicht."
 	},
 
 	thirdParty: {

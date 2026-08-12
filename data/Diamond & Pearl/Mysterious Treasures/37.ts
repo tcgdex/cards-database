@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Choose an Energy card attached to the Defending Pokémon and put it face down. Treat that card as a Special Energy card that provides Colorless Energy and doesn't have any effect other than providing Energy. Put that card face up at the end of your opponent's next turn.",
 				fr: "Choisissez une carte Énergie attachée au Pokémon Défenseur et placez-la face cachée. Traitez cette carte comme une carte Énergie Spéciale qui fournit de l'Énergie Colorless et qui n'a pas d'autre effet que de fournir de l'Énergie. Retournez cette carte à la fin du prochain tour de votre adversaire.",
-				de: "Wähle eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, und verdecke sie. Behandle diese Karte wie eine Spezialenergiekarte, die -Energie liefert und keinen anderen Effekt hat, als Energie zu liefern. Decke die Karte am Ende des nächsten Zuges deines Gegners wieder auf."
+				de: "Wähle eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, und verdecke sie. Behandle diese Karte wie eine Spezialenergiekarte, die {C}-Energie liefert und keinen anderen Effekt hat, als Energie zu liefern. Decke die Karte am Ende des nächsten Zuges deines Gegners wieder auf."
 			},
 
 		},
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier."
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

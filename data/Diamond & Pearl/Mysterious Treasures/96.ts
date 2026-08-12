@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
-		fr: "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger."
+		fr: "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger.",
+		de: "Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen."
 	},
 
 	thirdParty: {
