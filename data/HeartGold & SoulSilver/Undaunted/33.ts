@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual."
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+		de: "Wenn es sich auflädt, zucken seine Muskeln und es wird aggressiver und kampflustiger."
 	},
 
 	variants: [

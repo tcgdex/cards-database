@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To corner prey, they check each other’s location using barks that only they can understand."
+		en: "To corner prey, they check each other’s location using barks that only they can understand.",
+		de: "Sie treiben ihre Beute in die Enge und orientieren sich dabei anhand ihres Bellens, das nur sie verstehen."
 	},
 
 	variants: [

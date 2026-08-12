@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insecateur"
+		fr: "Insecateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+		de: "Es benutzt seine Flügel nicht zum fliegen, sondern regelt durch emsiges Schlagen die Körpertemperatur."
 	},
 
 	variants: [

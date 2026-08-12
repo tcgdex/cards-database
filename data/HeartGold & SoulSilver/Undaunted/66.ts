@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.",
 				fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez autant de Pokémon de base que vous le voulez et placez-les sur votre Banc. Mélangez les autres cartes avec votre deck.",
-				de: "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Basis-Pokémon-Karten und lege sie auf die Bank. Misch dein Deck anschließend."
+				de: "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Basis-Pokémon-Karten und lege sie auf deine Bank. Mische die anderen Karten anschließend in dein Deck."
 			},
 
 		},
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
+		en: "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on.",
+		de: "Süßer Saft ist auf seiner Rute. Obwohl sie nicht narhaft ist, macht es Spaß, darauf zu kauen."
 	},
 
 	variants: [

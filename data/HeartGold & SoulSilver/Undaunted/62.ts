@@ -49,7 +49,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own.",
+		de: "Es lauert vorbeifliegender Beute auf, die in seine Nähe kommt. Daher bewegt es sich nur selten."
 	},
 
 	variants: [

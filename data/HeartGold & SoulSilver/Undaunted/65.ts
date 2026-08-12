@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+		de: "Es bewegt sich mit seinen Sensen so schnell durch das Gras, dass es kein Mensch sehen kann."
 	},
 
 	variants: [

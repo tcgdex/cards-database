@@ -49,7 +49,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
+		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day.",
+		de: "Es baut sein Nest, wo es Futter findet. Es ist den ganzen Tag auf der Suche nach etwas Essbarem."
 	},
 
 	variants: [

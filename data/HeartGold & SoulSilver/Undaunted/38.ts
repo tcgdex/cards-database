@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Slowbro is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus. Si c’est pile, Flagadoss est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" ist Lahmus jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt. Bei „Zahl“ ist Lahmus jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Naturally dull to begin with, it lost its ability to feel pain due to Shellder’s seeping poison."
+		en: "Naturally dull to begin with, it lost its ability to feel pain due to Shellder’s seeping poison.",
+		de: "Von Natur aus lahm, hat es aufgrund von MUSCHAS betäubendem Gift sein Schmerzempfinden verloren."
 	},
 
 	variants: [

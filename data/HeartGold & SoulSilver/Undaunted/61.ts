@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat."
+		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.",
+		de: "Dieses clevere Pokémon grillt harte Beeren mit Elektrizität, um sie anschließend zu essen."
 	},
 
 	variants: [

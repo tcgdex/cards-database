@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Metang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer."
+		en: "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer.",
+		de: "Klappt es seine vier Beine ein, kann es fliegen. Seine vier Gehirne übertreffen sogar einen Supercomputer."
 	},
 
 	variants: [

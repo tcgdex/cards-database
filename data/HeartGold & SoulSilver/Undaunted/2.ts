@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli"
+		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions."
+		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.",
+		de: "Mit seinen Körperhaaren nimmt es Luftströmungen wahr. Dadurch sagt es gegnerische Attacken voraus."
 	},
 
 	variants: [

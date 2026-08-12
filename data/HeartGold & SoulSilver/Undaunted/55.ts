@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage plus 10 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit."
+		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
+		de: "Indem es wieder und wieder Bäume rammt, erhält es einen zähen Körper und einen stahlharten Willen."
 	},
 
 	variants: [

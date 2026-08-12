@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump."
+		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump.",
+		de: "Des Nachts schmiegen sich bis zu 100 WADRIBIE aneinander und schlafen in einem großen Haufen."
 	},
 
 	variants: [
