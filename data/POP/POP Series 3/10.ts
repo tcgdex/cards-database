@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "High Pressure System",
-		fr: "Système à haute pression"
+		fr: "Système à haute pression",
+		de: "Hochdrucksystem"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player pays Colorless less to retreat his or her Fire and Water Pokémon.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque joueur ne paye pas de  pour faire battre en retraite ses Pokémon  et ."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque joueur ne paye pas de  pour faire battre en retraite ses Pokémon  et .",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Jeder Spieler bezahlt {C} weniger, um seine {R} und {W} Pokémon zurückzuziehen."
 	},
 
 	trainerType: "Stadium",
