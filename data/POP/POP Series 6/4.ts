@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Pachirisu",
-		fr: "Pachirisu"
+		fr: "Pachirisu",
+		de: "Pachirisu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Minor Errand-Running",
-				fr: "Rendez-vous mineur"
+				fr: "Rendez-vous mineur",
+				de: "Kleine Besorgung"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une Carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck une Carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pachirisu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Pachirisu selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -67,7 +72,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes."
+		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
 	},
 
 	retreat: 1,
