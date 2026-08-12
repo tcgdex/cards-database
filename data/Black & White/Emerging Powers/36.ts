@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+		de: "Wohnt in dunklen Wäldern und Höhlen. Es sendet Ultraschallwellen mit seiner Nase aus, um die Gegend abzutasten."
 	},
 
 	thirdParty: {

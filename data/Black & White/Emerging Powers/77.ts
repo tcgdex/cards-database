@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Metal Horns",
 				fr: "Cornes de Métal",
+				de: "Metallhörner"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Sacred Sword",
 				fr: "Lame Sainte",
+				de: "Sanctoklinge"
 			},
 			effect: {
 				en: "This Pokémon can't use Sacred Sword during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges Sanctoklinge nicht einsetzen."
 			},
 			damage: 100,
 
@@ -82,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+		de: "Ein Legendäres Pokémon, das sich zum Schutz der Pokémon mit den Menschen anlegte. Eine kühle, gelassene Natur."
 	},
 
 	thirdParty: {

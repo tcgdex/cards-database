@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Boulder Crush",
 				fr: "Rocher Écrasant",
+				de: "Felsenquetscher"
 			},
 
 			damage: 40,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Sacred Sword",
 				fr: "Lame Sainte",
+				de: "Sanctoklinge"
 			},
 			effect: {
 				en: "This Pokémon can't use Sacred Sword during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges Sanctoklinge nicht einsetzen."
 			},
 			damage: 100,
 
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+		de: "Einst bäumte es sich gegen die Menschen auf, deren Kriege zahllose Pokémon heimatlos gemacht hatten."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou",
+		de: "Vegimak"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Fire's Power",
 				fr: "Pouvoir Incendiaire",
+				de: "Feuermacht"
 			},
 			effect: {
 				en: "If this Pokémon has any Fire Energy attached to it, the Defending Pokémon is now Burned.",
 				fr: "Si de l'Énergie Fire est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wenn an dieses Pokémon bereits {R}-Energie angelegt ist, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				de: "Samenbomben"
 			},
 
 			damage: 60,
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
 	thirdParty: {

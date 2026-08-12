@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+		de: "Es wringt Wasser aus dem Büschel auf seinem Kopf und bespritzt damit Gegner. Kein Pokémon für trockene Gegenden."
 	},
 
 	thirdParty: {

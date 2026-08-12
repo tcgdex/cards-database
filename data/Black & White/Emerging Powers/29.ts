@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Icicle Punch",
 				fr: "Poing Stalactite",
+				de: "Eiswatsche"
 			},
 
 			damage: 30,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+		de: "Der Schleim, der stets aus seiner Nase hängt, treibt seine Attacken an. Zieht es ihn hoch, steht ein Angriff bevor."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Klang",
 		fr: "Clic",
+		de: "Kliklak"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Charge Beam",
 				fr: "Rayon Chargé",
+				de: "Ladestrahl"
 			},
 			effect: {
 				en: "Attach an Energy card from your discard pile to this Pokémon.",
 				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				de: "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Zap Cannon",
 				fr: "Élecanon",
+				de: "Blitzkanone"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon can't use Zap Cannon during your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				de: "Wirf 1 Münze. Bei „Zahl“ kann dieses Pokémon Blitzkanone während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 80,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The gear with the red core is rotated at high speed for a rapid energy charge.",
+		de: "Indem es das Rad mit dem roten Zentrum mit hohem Tempo zum Rotieren bringt, kann es eine Turboladung durchführen."
 	},
 
 	thirdParty: {

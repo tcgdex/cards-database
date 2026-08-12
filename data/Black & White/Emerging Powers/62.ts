@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Thrash",
 				fr: "Mania",
+				de: "Fuchtler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 20 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+		de: "Hat es seine Beute erblickt, gibt es kein Entrinnen mehr. Sein mächtiger Kiefer knackt selbst Karosserien."
 	},
 
 	thirdParty: {

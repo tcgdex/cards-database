@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
+		de: "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 Grad. Es ist in Vulkanhöhlen zu Hause."
 	},
 
 	thirdParty: {

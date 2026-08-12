@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 20,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+		de: "Beobachtet andere Pokémon und Trainer mit durchdringendem Blick, als könne es etwas erkennen, das keiner sonst sieht."
 	},
 
 	thirdParty: {

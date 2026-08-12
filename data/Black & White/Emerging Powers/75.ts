@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Klink",
 		fr: "Tic",
+		de: "Klikk"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Metal Sound",
 				fr: "Strido-Son",
+				de: "Metallsound"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Guard Press",
 				fr: "Pression de Garde",
+				de: "Schutzdruck"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 60,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
+		de: "Lässt seine Einzelteile rapide rotieren und feuert sie auf Gegner ab. Kehren sie nicht zurück, wird es brenzlig."
 	},
 
 	thirdParty: {

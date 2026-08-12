@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Knock Off",
 				fr: "Sabotage",
+				de: "Abschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard a random card from your opponent's hand.",
 				fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
+				de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
+		de: "Es stibitzt den Leuten spaßeshalber ihr Hab und Gut, doch dank seiner reizenden Natur kann ihm niemand lang böse sein."
 	},
 
 	thirdParty: {

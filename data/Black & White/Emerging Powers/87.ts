@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Claw",
 				fr: "Ergots",
+				de: "Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+		de: "Kann mit seinen Füßen Nüsse zermalmen. Es stellt sich jedem noch so starken Gegner tapfer zum Kampf."
 	},
 
 	thirdParty: {

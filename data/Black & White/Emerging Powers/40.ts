@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whirlipede",
 		fr: "Scobolide",
+		de: "Rollum"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Claws",
 				fr: "Griffes Toxiques",
+				de: "Giftige Klauen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Pokémon."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Wild Horn",
 				fr: "Corne Sauvage",
+				de: "Wildhorn"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 50,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+		de: "Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort."
 	},
 
 	thirdParty: {

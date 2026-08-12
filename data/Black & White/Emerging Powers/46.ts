@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gothita",
 		fr: "Scrutella",
+		de: "Mollimorba"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Deleting Glare",
 				fr: "Regard Dépouillant",
+				de: "Destruktorblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à 1 des Pokémon de votre adversaire.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das gegnerische Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy Bolt",
 				fr: "Super Psy",
+				de: "Super-Psischlag"
 			},
 
 			damage: 50,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		de: "Zieht seine Energie aus dem Sternenlicht. Bei Nacht bringt es Steine zum Schweben und bildet damit Sternzeichen nach."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura todos los puntos de daño a 1 de tus Pokémon. Después, descarta todas las Energías unidas a ese Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da tutti i danni. Poi scarta tutta l’Energia assegnata a quel Pokémon.",
 		pt: "Cure todos os danos de 1 dos seus Pokémon. Em seguida, descarte toda a Energia ligada a este Pokémon.",
-		de: "Heile allen Schaden bei 1 deiner Pokémon. Lege alle Energien, die an das Pokémon angelegt sind, auf deinen Ablagestapel."
+		de: "Heile allen Schaden bei 1 deiner Pokémon. Lege alle Energien, die an das Pokémon angelegt sind, auf deinen Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

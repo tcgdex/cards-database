@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 20,
@@ -62,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+		de: "Gewöhnlich hört es zwar auf das, was sein Trainer sagt, doch manchmal kommt es mit komplizierten Befehlen nicht klar."
 	},
 
 	thirdParty: {

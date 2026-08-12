@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubchoo",
 		fr: "Polarhume",
+		de: "Petznief"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Sheer Cold",
 				fr: "Glaciation",
+				de: "Eiseskälte"
 			},
 			effect: {
 				en: "The Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 			damage: 50,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Icicle Crash",
 				fr: "Chute Glace",
+				de: "Eiszapfhagel"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+		de: "Kann seinen eigenen Atem zum Gefrieren bringen. Es schwimmt auf der Suche nach Beute die nördlichen Meere ab."
 	},
 
 	thirdParty: {

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+		de: "Wattzapf, die in der Stadt leben, haben die Fähigkeit, aus den Steckdosen von Wohnhäusern Strom abzuzapfen."
 	},
 
 	thirdParty: {

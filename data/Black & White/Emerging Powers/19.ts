@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansear",
 		fr: "Flamajou",
+		de: "Grillmak"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Water's Power",
 				fr: "Pouvoir Submergeant",
+				de: "Wassermacht"
 			},
 			effect: {
 				en: "If this Pokémon has any Water Energy attached to it, the Defending Pokémon is now Asleep.",
 				fr: "Si de l'Énergie Water est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wenn an dieses Pokémon bereits {W}-Energie angelegt ist, schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+		de: "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif."
 	},
 
 	thirdParty: {
