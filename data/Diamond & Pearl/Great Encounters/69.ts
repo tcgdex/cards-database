@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Houndour.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Malosse.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Hunduster angelegt ist, und lege sie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 1 {R}-Energie, die an Hunduster angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
+		de: "Durch unterschiedliche Schreie drückt es seine Gefühle aus. Diese PKMN jagen im Verbund nach Beute."
 	},
 
 	thirdParty: {

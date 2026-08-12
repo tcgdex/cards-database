@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The world's first artificially created Pokémon. It can travel through electronic space.",
+		de: "Das erste künstlich erzeugte PKMN der Welt. Es kann durch elektronischen Raum reisen."
 	},
 
 	thirdParty: {

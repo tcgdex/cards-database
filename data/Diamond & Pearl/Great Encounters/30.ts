@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
+		de: "Das größte PKMN. Es kann mit nur einem Atemzug in Tiefen bis 3.000 Meter tauchen."
 	},
 
 	thirdParty: {

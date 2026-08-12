@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "With planetary development software installed, it became capable of working in space.",
+		de: "Interstellare Software wurde installiert, so dass dieses PKMN sich auch im All bewegen kann."
 	},
 
 	thirdParty: {

@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+		de: "Es hat eine Art Rettungsring um den Hals. Wenn es schwimmt, gerät sein Kopf niemals unter Wasser."
 	},
 
 	thirdParty: {

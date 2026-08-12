@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Marshtomp",
 		fr: "Flobio",
+		de: "Moorabbel"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move a Water or Fighting Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
 				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water ou Fighting attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 - oder -Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {W}- oder {F}-Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+		de: "Es kann im Schwimmen ein großes Schiff ziehen. Seine Gegner schlägt es mit Schlägen seiner Arme zurück."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40x",
 
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+		de: "Zusätzliche Software wurde installiert, um das PKMN zu verbessern. Seitdem benimmt es sich seltsam."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
+		de: "Wird es von MUSCHAS gebissen, wird es so intelligent, dass es sich mit Nobelpreisträgern messen kann."
 	},
 
 	thirdParty: {
