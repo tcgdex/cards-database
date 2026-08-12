@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Pummel",
 				fr: "Martelage",
+				de: "Trommler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+		de: "Greift Gegner mit einem Holzbalken an. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
 	},
 
 	thirdParty: {

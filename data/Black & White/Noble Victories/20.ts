@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
+		de: "Es lebt am Fuß von Vulkanen. Mit Gegnern räumt es auf, indem es aus seinen fünf Hörnern Flammen auf sie abfeuert."
 	},
 
 	thirdParty: {

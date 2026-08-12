@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Outrage",
 				fr: "Colère",
+				de: "Wutanfall"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Glaciate",
 				fr: "Ère Glaciaire",
+				de: "Eiszeit"
 			},
 			effect: {
 				en: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -74,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It generates powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
 	thirdParty: {

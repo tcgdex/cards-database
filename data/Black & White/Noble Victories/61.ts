@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Boldore",
 		fr: "Géolithe",
+		de: "Sedimantur"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Core Cannon",
 				fr: "Super Canon",
+				de: "Kernkanone"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent's Pokémon for each Fighting Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire pour chaque Énergie Fighting attachée à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon deines Gegners 20 Schadenspunkte für jede an dieses Pokémon angelegte {F}-Energie zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Power Gem",
 				fr: "Rayon Gemme",
+				de: "Juwelenkraft"
 			},
 
 			damage: 90,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+		de: "Es kann ganze Berge einebnen, indem es Energie entlädt, die es in seinem Kern gesammelt und verdichtet hat."
 	},
 
 	thirdParty: {

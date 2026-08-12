@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yamask",
 		fr: "Tutafeh",
+		de: "Makabaja"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Ambush",
 				fr: "Embuscade",
+				de: "Hinterhalt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
+		de: "Es tarnt sich als prächtiger Sarkophag und zieht Grabräubern die Ohren lang. Sein Körper ist mit Gold überzogen."
 	},
 
 	thirdParty: {

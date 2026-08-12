@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eelektrik",
 		fr: "Lampéroie",
+		de: "Zapplalek"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Acid",
 				fr: "Acide",
+				de: "Säure"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Wild Charge",
 				fr: "Éclair Fou",
+				de: "Stromstoß"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+		de: "Es schleppt sich mithilfe seiner Arme an Land, schnappt nach seiner Beute und zerrt sie augenblicklich ins Meer."
 	},
 
 	thirdParty: {

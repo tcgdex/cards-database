@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Energy Stream",
 				fr: "Courant d'Énergie",
+				de: "Energiestrom"
 			},
 			effect: {
 				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
 				fr: "Attachez une carte Énergie Metal de votre pile de défausse à ce Pokémon.",
+				de: "Lege 1 {M}-Energiekarte von deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Metal Scissors",
 				fr: "Ciseaux d'Acier",
+				de: "Metallscheren"
 			},
 			effect: {
 				en: "Does 20 more damage for each Metal Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {M}-Energie zu."
 			},
 			damage: 40,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+		de: "Anführer einer Schar von Gladiantri. Verliert es den Kampf um den Titel des Anführers, wird es ausgestoßen."
 	},
 
 	thirdParty: {

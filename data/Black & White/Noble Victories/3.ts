@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swadloon",
 		fr: "Couverdure",
+		de: "Folikon"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Cutting Arm",
 				fr: "Bras Coupant",
+				de: "Schneidarm"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using cutters on its arms and sticky silk.",
+		de: "Findet es ein junges Pokémon, kann es nicht anders, als ihm mit seinen Scheren und Klebefäden ein Kleidchen zu nähen."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Boomerang",
 				fr: "Feuille-Boomerang",
+				de: "Blätter-Bumerang"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+		de: "Gleich nach dem Schlüpfen näht Matrifol ihm ein Kleidchen. Wenn es schläft, verbirgt es den Kopf unter einer Haube."
 	},
 
 	thirdParty: {

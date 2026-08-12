@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tirtouga",
 		fr: "Carapagos",
+		de: "Galapaflos"
 	},
 
 	stage: "Stage1",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Discard an Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+		de: "Es lebt im Meer und an Land. Es ist so stark, dass es mit einem einzigen Hieb ein Loch in ein Schiff reißen kann."
 	},
 
 	thirdParty: {

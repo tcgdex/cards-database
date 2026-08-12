@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Dynamic Punch",
 				fr: "Dynamopoing",
+				de: "Wuchtschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
+		de: "Man nimmt an, dass es ein Produkt der verblüffenden wissenschaftlichen Künste einer uralten Zivilisation sei."
 	},
 
 	thirdParty: {

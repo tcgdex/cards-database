@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Garbage Collection",
 				fr: "Fouille Poubelle",
+				de: "Müllabfuhr"
 			},
 			effect: {
 				en: "Put a card from your discard pile on top of your deck.",
 				fr: "Mettez n'importe quelle carte de votre pile de défausse sur le dessus de votre deck.",
+				de: "Lege 1 beliebige Karte von deinem Ablagestapel auf dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Bomb",
 				fr: "Bomb-Beurk",
+				de: "Matschbombe"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+		de: "Eine Mülltüte, der Industrieabfälle und chemische Reaktionen neues Leben eingehaucht haben."
 	},
 
 	thirdParty: {

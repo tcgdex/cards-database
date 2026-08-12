@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Finishing Blow",
 				fr: "Coup de Grâce",
+				de: "Finalhieb"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage.",
 				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Night Slash",
 				fr: "Tranche-Nuit",
+				de: "Nachthieb"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		de: "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst."
 	},
 
 	thirdParty: {

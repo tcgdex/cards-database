@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dwebble",
 		fr: "Crabicoque",
+		de: "Lithomith"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "X-Scissor",
 				fr: "Plaie-Croix",
+				de: "Kreuzschere"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+		de: "Revierkonflikte führen oft zu heftigen Kämpfen zwischen ihnen. Gewonnen hat, wer das gegnerische Haus zerstört."
 	},
 
 	thirdParty: {

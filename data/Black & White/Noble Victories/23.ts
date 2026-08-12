@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tympole",
 		fr: "Tritonde",
+		de: "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Round",
 				fr: "Chant Canon",
+				de: "Kanon"
 			},
 			effect: {
 				en: "Does 20 damage times the number of your Pokémon that have the Round attack.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jedes deiner Pokémon zu, das Kanon beherrscht."
 			},
 			damage: 20,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in water and on land. It uses its long, sticky tongue to capture prey.",
+		de: "Es lebt zu Wasser und zu Lande. Mit seiner langen, klebrigen Zunge umklammert und fängt es seine Beute."
 	},
 
 	thirdParty: {

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Icicle Barb",
 				fr: "Barbelé de Glace",
+				de: "Eisdorn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Nachts deckt es sich mit Schnee zu."
 	},
 
 	thirdParty: {

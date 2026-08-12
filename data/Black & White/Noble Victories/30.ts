@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+		de: "Schlingt seine dünnen, schleierartigen Arme um den Gegner und lässt sich mit ihm zum Meeresgrund sinken."
 	},
 
 	thirdParty: {

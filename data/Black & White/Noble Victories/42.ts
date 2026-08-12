@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 20,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Thunder",
 				fr: "Fatal-Foudre",
+				de: "Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+		de: "Dank seiner dicken Haut hält es selbst das Gewicht eines Sumoringers aus. Wenn es Stromschläge verteilt, grinst es."
 	},
 
 	thirdParty: {

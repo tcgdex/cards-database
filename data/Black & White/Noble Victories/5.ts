@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Petilil",
 		fr: "Chlorobule",
+		de: "Lilminip"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Aromax",
 				fr: "Parfum Régénérant",
+				de: "Aromax"
 			},
 			effect: {
 				en: "Heal all damage from 1 of your Benched Pokémon.",
 				fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
+				de: "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Windmill",
 				fr: "Moulin à Vent",
+				de: "Windmühle"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+		de: "Der Duft des Blumenschmucks auf seinem Kopf wirkt beruhigend. Damit der Schmuck nicht verwelkt, muss man es gut pflegen."
 	},
 
 	thirdParty: {

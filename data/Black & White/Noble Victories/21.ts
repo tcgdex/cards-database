@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		de: "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Fiery Dance",
 				fr: "Danse du Feu",
+				de: "Feuerreigen"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to 1 of your Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
+				de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Heat Wave",
 				fr: "Canicule",
+				de: "Hitzewelle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 60,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+		de: "Es heißt, als das Land einst unter einer düsteren Wolke aus Vulkanasche lag, übernahm es die Rolle der Sonne."
 	},
 
 	thirdParty: {

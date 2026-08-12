@@ -59,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Stored Power",
 				fr: "Force Ajoutée",
+				de: "Kraftvorrat"
 			},
 			effect: {
 				en: "Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.",
 				fr: "Déplacez toutes les Énergies attachées à ce Pokémon vers 1 de vos Pokémon de Banc.",
+				de: "Verschiebe alle an dieses Pokémon angelegte Energie auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -80,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		de: "Ein siegverheißendes Pokémon. Man sagt, Trainer, die ein Victini in ihrem Team haben, seien unschlagbar."
 	},
 
 	thirdParty: {

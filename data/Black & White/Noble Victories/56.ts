@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Elgyem",
 		fr: "Lewsor",
+		de: "Pygraulon"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Synchronoise",
 				fr: "Synchropeine",
+				de: "Synchrolärm"
 			},
 			effect: {
 				en: "Does 20 damage to each of your opponent's Benched Pokémon that shares a type with the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant un type en commun avec le Pokémon Défenseur.  (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das denselben Typ wie das Verteidigende Pokémon hat, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 40,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses psychic power to control an opponent's brain and tamper with its memories.",
+		de: "Es manipuliert die Gehirne seiner Gegner mit Psycho-Kräften, indem es die Bilder ihrer Erinnerungen umgestaltet."
 	},
 
 	thirdParty: {

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		de: "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen im Schwarm auf, gleicht seine Kraft der eines Blitzes."
 	},
 
 	thirdParty: {

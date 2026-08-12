@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "V-create",
 				fr: "Coup Victoire",
+				de: "V-Generator"
 			},
 			effect: {
 				en: "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
 				fr: "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien.",
+				de: "Dieser Angriff hat keine Auswirkungen, wenn du 4 oder weniger Pokémon auf deiner Bank hast."
 			},
 			damage: 100,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		de: "Ein siegverheißendes Pokémon. Man sagt, Trainer, die ein Victini in ihrem Team haben, seien unschlagbar."
 	},
 
 	thirdParty: {

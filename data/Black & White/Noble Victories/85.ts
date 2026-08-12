@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Do the Wave",
 				fr: "Faites la Vague",
+				de: "Wellenreiten"
 			},
 			effect: {
 				en: "Does 10 damage times the number of your Benched Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de vos Pokémon de Banc.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon auf deiner Bank zu."
 			},
 			damage: 10,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+		de: "Berührt es jemanden mit den Fühlern an seinen Ohren, erfährt es durch den Herzschlag der Person, wie es ihr geht."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Energy Press",
 				fr: "Pression Énergétique",
+				de: "Energiedruck"
 			},
 			effect: {
 				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Iron Breaker",
 				fr: "Brise-Fer",
+				de: "Eisenbrecher"
 			},
 			effect: {
 				en: "The Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 			damage: 80,
 
@@ -82,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+		de: "Sein Körper und sein Herz sind aus Stahl. Ein böser Blick genügt und selbst die wildesten Pokémon unterwerfen sich ihm."
 	},
 
 	thirdParty: {
