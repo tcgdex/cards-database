@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+		de: "Es lebt in den Kronen großer Bäume. Es hüpft von Ast zu Ast und balanciert mit seinem Schweif."
 	},
 
 	variants: [

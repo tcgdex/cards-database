@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
-		fr: "Tetarte"
+		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: "60+",
 
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land."
+		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+		de: "Obwohl es ein geschickter und ausdauernder Schwimmer ist, der alle Muskeln einsetzt, lebt es an Land."
 	},
 
 	variants: [

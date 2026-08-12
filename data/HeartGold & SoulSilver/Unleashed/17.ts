@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocean"
+		fr: "Hypocean",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes."
+		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+		de: "Tief unten am Meeresboden tankt es Energie im Schlaf. Wacht es auf, kann es Tornados auslösen."
 	},
 
 	variants: [

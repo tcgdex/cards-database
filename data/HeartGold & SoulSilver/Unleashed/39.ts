@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+		de: "Trotz seiner harten Schale kann es sich frei bewegen. Es ist flink und äußerst zerstörerisch."
 	},
 
 	variants: [

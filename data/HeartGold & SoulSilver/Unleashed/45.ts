@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement."
+		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+		de: "Dank des Schwimmreifs bleibt sein Kopf über Wasser und es kann seine Beute an Land beobachten."
 	},
 
 	variants: [

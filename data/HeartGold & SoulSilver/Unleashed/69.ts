@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		de: "Sein Giftstachel ist gefährlich. Sein hellleuchtender Körper soll Feinde abschrecken."
 	},
 
 	variants: [
