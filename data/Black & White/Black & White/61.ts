@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Circle Throw",
 				fr: "Projection",
+				de: "Überkopfwurf"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Storm Throw",
 				fr: "Yama Arashi",
+				de: "Bergsturm"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
+		de: "Hat von Natur aus den Drang, Gegner zu werfen, die größer sind als es selbst. Es bildet stets Fünferrudel."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Panpour",
 		fr: "Flotajou",
+		de: "Sodamak"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Scald",
 				fr: "Ébullition",
+				de: "Siedewasser"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-Griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+		de: "Es schießt mit so hohem Druck Wasser aus seinem Schweif, dass selbst Betonwände den Kürzeren ziehen."
 	},
 
 	thirdParty: {

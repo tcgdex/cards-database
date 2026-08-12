@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Double Kick",
 				fr: "Double Pied",
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Leech Seed",
 				fr: "Vampigraine",
+				de: "Egelsamen"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -80,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+		de: "Sein Fell nimmt Farbe und Duft des Feldes oder des Grases unter ihm an. Bei Gefahr sucht es im hohen Gras Schutz."
 	},
 
 	thirdParty: {

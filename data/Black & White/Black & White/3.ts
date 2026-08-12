@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snivy",
 		fr: "Vipélierre",
+		de: "Serpifeu"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Wrap",
 				fr: "Ligotage",
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 30,
@@ -82,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+		de: "Es verschwindet im wuchernden Dickicht, um Angriffen auszuweichen, und kontert mit einem gekonnten Rutenhieb."
 	},
 
 	thirdParty: {

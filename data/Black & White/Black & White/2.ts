@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Blade",
 				fr: "Lame-Feuille",
+				de: "Laubklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		de: "Fängt mit dem Schweif Sonnenlicht auf, um Fotosynthese zu betreiben. Fehlt ihm die Kraft, hängt sein Schweif schlaff herab."
 	},
 
 	thirdParty: {

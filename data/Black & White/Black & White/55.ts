@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Cell Culture",
 				fr: "Culture Cellulaire",
+				de: "Zellkultur"
 			},
 			effect: {
 				en: "Search your deck for Solosis and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez Nucléos dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach Monozyto und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
+		de: "Da sein Körper von einer speziellen Flüssigkeit umgeben ist, kann es in jedem Umfeld überleben."
 	},
 
 	thirdParty: {

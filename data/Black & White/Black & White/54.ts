@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whirlipede",
 		fr: "Scobolide",
+		de: "Rollum"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Steamroller",
 				fr: "Bulldoboule",
+				de: "Quetschwalze"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Poison Claws",
 				fr: "Griffes Empoisonnées",
+				de: "Giftkrallen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Highly aggressive, it uses the claws near its neck to dig into its opponent and poison them.",
+		de: "Rammt den Gegner mit den Zacken an seinem Hals und verpasst ihm eine Ladung Gift. Von Natur aus sehr angriffslustig."
 	},
 
 	thirdParty: {

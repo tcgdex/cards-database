@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Venipede",
 		fr: "Venipatte",
+		de: "Toxiped"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-Venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 50,
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+		de: "Von einem harten Schutzpanzer umgeben. Es greift seine Gegner an, indem es mit Karacho wie ein Rad in sie hineinrollt."
 	},
 
 	thirdParty: {

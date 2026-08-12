@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vullaby",
 		fr: "Vostourno",
+		de: "Skallyk"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Blindside",
 				fr: "Angle Mort",
+				de: "Aus heiterem Himmel"
 			},
 			effect: {
 				en: "Does 50 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 50 dégâts à 1 des Pokémon de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Punishment",
 				fr: "Punition",
+				de: "Strafattacke"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 60 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein Phase-2-Pokémon ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+		de: "Es baut sein Nest aus Knochen. Ist seine Beute geschwächt, packt es sie mit den Beinen und trägt sie zu seinem Nest."
 	},
 
 	thirdParty: {

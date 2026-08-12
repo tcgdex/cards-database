@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lillipup",
 		fr: "Ponchiot",
+		de: "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
 				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 50,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon.",
+		de: "Folgt treu den Befehlen seines Trainers. Schon seit jeher ist es als rechte Hand der Pokémon-Trainer bekannt."
 	},
 
 	thirdParty: {
