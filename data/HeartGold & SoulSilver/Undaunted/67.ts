@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can't be used if Slugma is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. S’il s’agit d’une carte Énergie Fire, attachez-la à Limagma. Ce pouvoir ne peut pas être utilisé si Limagma est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn es sich um eine -Energiekarte handelt, lege sie an Schneckmag an. Diese Poké-Power kann nicht benutzt werden, wenn Schneckmag von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn es sich um eine {R}-Energiekarte handelt, lege sie an Schneckmag an. Diese Poké-Power kann nicht benutzt werden, wenn Schneckmag von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+		de: "Es hält sich ständig bei Vulkanen auf und ist stets kriechend auf der Suche nach warmen Aufenthaltsorten."
 	},
 
 	variants: [

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
+		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body.",
+		de: "Es gräbt sich mit seinen Hörnern einen Unterschlupf für die Nacht. Am Morgen klebt nasse Erde an ihm."
 	},
 
 	variants: [

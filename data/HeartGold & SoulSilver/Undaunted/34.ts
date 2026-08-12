@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rattata",
-		fr: "Rattata"
+		fr: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
+		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down.",
+		de: "Mit seinen Barthaaren hält es die Balance. Da seine Zähne stetig wachsen, muss es ständig etwas annagen."
 	},
 
 	variants: [

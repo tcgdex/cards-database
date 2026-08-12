@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combee",
-		fr: "Apitrini"
+		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Prevent all damage done to your Benched Grass Pokémon by attacks.",
 				fr: "Prévenez tous les dégâts infligés par des attaques aux Pokémon Grass de votre Banc.",
-				de: "Verhindere allen Schaden, der -Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+				de: "Verhindere allen Schaden, der {G}-Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			}
 		},
 	],
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee.",
+		de: "In dem Loch in seinem Bauch zieht es seine Kinder groß. WADRIBIE kontrolliert es mittels Pheromonen."
 	},
 
 	variants: [

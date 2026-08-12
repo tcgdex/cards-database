@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
-		fr: "Terhal"
+		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union."
+		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union.",
+		de: "Es besteht aus zwei TANHEL, deren Gehirne mit einem magnetischen Nervensystem verbunden sind."
 	},
 
 	variants: [

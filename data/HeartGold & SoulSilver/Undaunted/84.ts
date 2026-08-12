@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insecateur"
+		fr: "Insecateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Metal attachée à Cizayox.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Scherox angelegte -Energie zu."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Scherox angelegte {M}-Energie zu."
 			},
 			damage: "30+",
 
