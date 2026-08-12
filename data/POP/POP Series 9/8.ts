@@ -4,7 +4,8 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Gabite",
-		fr: "Gabite"
+		fr: "Gabite",
+		de: "Knarksel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gible",
-		fr: "Griknot"
+		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -34,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Burrow",
-				fr: "Terrier"
+				fr: "Terrier",
+				de: "Erdhöhle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Knarksel während des nächsten Zuges deines Gegners durch Angriffe zugefügt würde."
 			},
 
 		},
@@ -50,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Distored Wave",
-				fr: "Vague tordue"
+				fr: "Vague tordue",
+				de: "Verzerrte Welle"
 			},
 			effect: {
 				en: "Before doing damage, remove 2 damage counters from the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 2 marqueurs de dégât."
+				fr: "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 2 marqueurs de dégât.",
+				de: "Bevor der Schaden zugefügt wird, entferne 2 Schadensmarken vom Verteidigenden Pokémon."
 			},
 			damage: 60,
 
@@ -70,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves."
+		en: "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves.",
+		de: "Es gräbt Edelsteine aus und hortet sie in seinem Nest. Daher ist dieses ein beliebtes Ziel mancher Diebe."
 	},
 
 	variants: [
