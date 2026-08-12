@@ -22,6 +22,9 @@ export interface Set {
 	 */
 	boosters?: Record<string, {
 		name: LanguageSpecific<string>
+		logo?: string
+		artwork_front?: string 
+		artwork_back?: string
 	}>
 
 	/**
