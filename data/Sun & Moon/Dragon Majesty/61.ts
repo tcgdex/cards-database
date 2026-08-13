@@ -24,6 +24,9 @@ const card: Card = {
 		it: "Puoi giocare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l’ultimo turno del tuo avversario.\n\nCerca nel tuo mazzo fino a due Pokémon Dragon e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nProcure por até 2 Pokémon Dragon no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
 		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nDurchsuche dein Deck nach bis zu 2 Dragon-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+	},
+	thirdParty: {
+		cardmarket: 363532,
 	}
 }
 
