@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Torment",
 				fr: "Tourmente",
+				de: "Folterknecht"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Das Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
 			},
 			damage: 30,
 
@@ -60,10 +63,12 @@ const card: Card = {
 			name: {
 				en: "Krookoroll",
 				fr: "Crocoroulade",
+				de: "Gator-Rolle"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 more damage.",
 				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -88,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
+		de: "Seine Augen können wie ein Fernglas weit entfernte Objekte näher heranholen."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Water Pulse",
 				fr: "Vibraqua",
+				de: "Aquawelle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 40,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		de: "Es treibt durch den Ozean. Findet es ein verletztes Pokémon, nimmt es dieses auf und trägt es zurück an Land."
 	},
 
 	thirdParty: {

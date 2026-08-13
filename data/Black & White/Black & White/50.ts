@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 10,
@@ -61,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+		de: "Wohnt in dunklen Wäldern und Höhlen. Es sendet Ultraschallwellen mit seiner Nase aus, um die Gegend abzutasten."
 	},
 
 	thirdParty: {

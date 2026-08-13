@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Razor Shell",
 				fr: "Coquilame",
+				de: "Kalkklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+		de: "Die Muschel auf seinem Bauch besteht aus demselben Material wie seine Krallen. Nimmt es sie ab, fungiert sie als Klinge."
 	},
 
 	thirdParty: {

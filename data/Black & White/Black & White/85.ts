@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		de: "Dusselgurr"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 20,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -82,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It can return to its Trainer's location regardless of the distance separating them.",
+		de: "Egal wie weit es auch von seinem Trainer entfernt ist, es findet immer wieder zu ihm zurück."
 	},
 
 	thirdParty: {

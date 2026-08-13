@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza una moneda. Si sale cara, pon 1 de tus Pokémon y todas las cartas unidas a él en tu mano.",
 		it: "Lancia una moneta. Se esce testa, riprendi in mano uno dei tuoi Pokémon e tutte le carte a esso assegnate.",
 		pt: "Jogue uma moeda. Se sair cara, coloque 1 dos seus Pokémon e todos os cards ligados a ele em sua mão.",
-		de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand."
+		de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

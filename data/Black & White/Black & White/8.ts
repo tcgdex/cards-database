@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou",
+		de: "Vegimak"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				de: "Samenbomben"
 			},
 
 			damage: 30,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-Griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		de: "Wer sich mit diesem temperamentvollen Pokémon anlegt, bekommt seinen mit Dornen bestückten Schweif zu spüren."
 	},
 
 	thirdParty: {

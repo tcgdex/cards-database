@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deerling",
 		fr: "Vivaldaim",
+		de: "Sesokitz"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Nature Power",
 				fr: "Force-Nature",
+				de: "Natur-Kraft"
 			},
 			effect: {
 				en: "Does 10 more damage for each Grass Energy attached to both your and your opponent's Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Grass attachée à vos Pokémon et à ceux de votre adversaire.",
+				de: "Dieser Angriff fügt für jede an Pokémon (deine und die deines Gegners) angelegte {G}-Energie 10 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Horn Leech",
 				fr: "Encornebois",
+				de: "Holzgeweih"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 60,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+		de: "An seinem Geweih kann man ablesen, wann eine neue Jahreszeit beginnt. Sein Revier wechselt mit jeder neuen Jahreszeit."
 	},
 
 	thirdParty: {

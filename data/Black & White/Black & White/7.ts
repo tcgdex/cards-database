@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,
@@ -75,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		de: "Schwächelnden Pokémon gibt es ein paar der Kräuter auf seinem Kopf ab und hilft ihnen so wieder auf die Beine."
 	},
 
 	thirdParty: {

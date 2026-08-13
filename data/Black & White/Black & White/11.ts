@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Mega Drain",
 				fr: "Méga-Sangsue",
+				de: "Megasauger"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts infligés à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Pin Missile",
 				fr: "Dard-Nuée",
+				de: "Nadelrakete"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -81,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+		de: "Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung."
 	},
 
 	thirdParty: {

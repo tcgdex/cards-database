@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron",
+		de: "Elezeba"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				de: "Rückwärtskick"
 			},
 
 			damage: 30,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Electrispark",
 				fr: "Arc Électrique",
+				de: "Stromfunke"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		de: "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann es man Donnerhall vernehmen."
 	},
 
 	thirdParty: {

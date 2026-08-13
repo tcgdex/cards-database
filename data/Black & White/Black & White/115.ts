@@ -33,10 +33,12 @@ const card: Card = {
 			name: {
 				fr: "Énergisant",
 				en: "Energize",
+				de: "Energiezufuhr"
 			},
 			effect: {
 				fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+				en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				de: "Nimm 1 {L}-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 
 		},
@@ -49,10 +51,12 @@ const card: Card = {
 			name: {
 				fr: "Tonnerre",
 				en: "Thunderbolt",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -70,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This is an extremely rare Pikachu card. You're very lucky to have found it!",
+		de: "Du hast diese sehr seltene Pikachu-Karte gefunden. Du Glückspilz!"
 	},
 
 	thirdParty: {
