@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes unir 1 Energía Darkness de tu pila de descartes a este Pokémon por cada carta de Premio que haya tomado tu rival.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi assegnare a questo Pokémon un'Energia Darkness dalla tua pila degli scarti per ogni carta Premio presa dal tuo avversario.",
 				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá ligar 1 Energia Darkness da sua pilha de descarte a este Pokémon para cada card de Prêmio recebido por seu oponente.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du für jede Preiskarte, die dein Gegner bereits genommen hat, 1 Darkness-Energie aus deinem Ablagestapel an dieses Pokémon anlegen."
+				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du für jede Preiskarte, die dein Gegner bereits genommen hat, 1 {D}-Energie aus deinem Ablagestapel an dieses Pokémon anlegen."
 			},
 		},
 	],
@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+		de: "Bei einem Tobsuchtsanfall zerstört es ganze Gebirge und legt Flüsse trocken."
 	},
 
 	thirdParty: {

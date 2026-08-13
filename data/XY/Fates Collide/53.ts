@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+		de: "Es wird gemutmaßt, dass es von seiner Höhle aus all jene beobachtet, die dem Ökosystem Schaden zufügen."
 	},
 
 	thirdParty: {

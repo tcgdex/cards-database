@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+		de: "Sie bewegen sich fort, indem sie durch Strecken beider Extremitäten ihren Felsen anheben. Sie ernähren sich von Seetang, der an die Küste gespült wurde."
 	},
 
 	thirdParty: {

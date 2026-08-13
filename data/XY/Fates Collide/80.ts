@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine.",
+		de: "Sein Schrei ist so laut wie ein Düsenflugzeug. Bei Gefahr vertreibt es damit seine Feinde."
 	},
 
 	thirdParty: {

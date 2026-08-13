@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía de tu pila de descartes a 1 de tus Pokémon Fighting.",
 				it: "Assegna a uno dei tuoi Pokémon Fighting due carte Energia dalla tua pila degli scarti.",
 				pt: "Ligue 2 cards de Energia da sua pilha de descarte a 1 dos seus Pokémon Fighting.",
-				de: "Lege 2 Energiekarten aus deinem Ablagestapel an 1 deiner Fighting-Pokémon an."
+				de: "Lege 2 Energiekarten aus deinem Ablagestapel an 1 deiner {F}-Pokémon an."
 			},
 			damage: 20,
 

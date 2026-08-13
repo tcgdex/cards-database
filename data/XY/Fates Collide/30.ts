@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+		de: "Seine Hüpfbewegungen bringen sein Herz zum Schlagen. Es trägt eine Perle von Perlu auf dem Kopf."
 	},
 
 	thirdParty: {

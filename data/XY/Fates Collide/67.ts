@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 4 monedas. Este ataque hace 20 puntos de daño por cada cara.",
 				it: "Lancia quattro volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
 				pt: "Jogue 4 moedas. Este ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+		de: "Es ist geschickt darin, Menschen zu beeinflussen. Man sagt, es könne dünne Wände aus Luft nur durch Mimen entstehen lassen."
 	},
 
 	thirdParty: {

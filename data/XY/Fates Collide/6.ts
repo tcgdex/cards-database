@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode jogar uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Münze werfen. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Münze werfen. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 		},
 	],
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
+		de: "Es achtet stets auf Reinlichkeit, da es mit schmutzigen Blättern keine Photosynthese betreiben kann."
 	},
 
 	thirdParty: {

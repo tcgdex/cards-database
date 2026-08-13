@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		de: "Die Aura, die dieses Pokémon umgibt, verstärkt sich, wenn es zeigen will, dass es ängstlich oder traurig ist."
 	},
 
 	thirdParty: {

@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 20 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 20 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Se este Pokémon possuir alguma Energia Fire ligada a ele, este ataque causará 20 de danos a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
-				de: "Wenn an dieses Pokémon bereits Fire-Energie angelegt ist, fügt dieser Angriff 2 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wenn an dieses Pokémon bereits {R}-Energie angelegt ist, fügt dieser Angriff 2 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
 	thirdParty: {
