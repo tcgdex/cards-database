@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Swipe",
 				fr: "Griffe",
-				de: "Swipe"
+				de: "Klauen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire.",
-				de: "Flip a coin. If heads, discard all Trainer cards attached to your opponent´s Pokémon."
+				de: "Wirf eine Münze. Lege bei „Kopf“ alle an alle Pokémon deines Gegners angelegte Trainerkarten auf seinen Ablagestapel."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
-				de: "Quick Attack"
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
-		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi."
+		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi.",
+		de: "Seine Pfoten verbergen scharfe Krallen. Wenn es angegriffen wird, zeigt es plötzlich seine Krallen und erschreckt den Feind damit."
 	},
 
 

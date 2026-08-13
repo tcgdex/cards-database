@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Submerge",
 				fr: "Submersion",
-				de: "Submerge"
+				de: "Abtauchen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may change Lanturn's type to Water until the end of your turn. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes Asleep, Confused, or Paralyzed after you have used this power, its type changes back to Lightning.",
 				fr: "Une fois durant votre tour (avant votre attaque), vous pouvez changer le type de Lanturn en  jusqu'à la fin de votre tour. Ce pouvoir ne fonctionne pas si Lanturn est Endormi, Confus ou Paralysé. Si Lanturn devient Endormi, Confus ou Paralysé après l'utilisation de ce pouvoir, son type redevient .",
-				de: "Once during your turn (before your attack), you may change Lanturn´s type to  until the end of your turn. This power can´t be used if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes Asleep, Confused, or Paralyzed after you have used this power, its type change back to ."
+				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff) Lanturns Typ bis zum Ende deines Zuges in {W} umwandeln. Diese Fähigkeit kann nicht verwendet werden, falls Lanturn schläft, verwirrt oder gelähmt ist. Wenn Lanturn einschläft, verwirrt oder gelähmt wird, nachdem du diese Fähigkeit verwendet hast, wechselt sein Typ wieder zurück zu {L}."
 			},
 		},
 	],
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Blinding Light",
 				fr: "Flash aveuglant",
-				de: "Blinding Light"
+				de: "Blendendes Licht"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It blinds prey with an intense burst of light, then swallows the immobilized prey in a single gulp.",
-		fr: "Il aveugle sa proie avec un flash de lumière intense, puis, une fois immobilisée, il l'avale d'un seul coup."
+		fr: "Il aveugle sa proie avec un flash de lumière intense, puis, une fois immobilisée, il l'avale d'un seul coup.",
+		de: "Es blendet seine Beute mit einem starken Blitz und schluckt sie dann in einem Bissen ganz herunter."
 	},
 
 

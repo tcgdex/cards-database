@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads you get.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Münze, bis du das erste Mal 'Zahl' wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu, die di bis dahin wirfst."
+				de: "Wirf eine Münze, bis du das erste Mal „Zahl“ wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu, die du bis dahin wirfst."
 			},
 			damage: "20x",
 
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
-		fr: "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup."
+		fr: "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup.",
+		de: "Um viele Giftstacheln abschießen zu können, muss es seinen Körper zuschwellen, indem es fast 10 Liter Wasser auf einmal trinkt."
 	},
 
 

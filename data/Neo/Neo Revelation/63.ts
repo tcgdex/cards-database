@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon in play with Dark in its name (even your opponent's) gets +20 HP.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu.\n\nTout Pokémon en jeu ayant Obscur dans son nom (même chez votre adversaire) obtient +20 PV.",
-		de: "Each Pokémon in play with Dark in its name (even your opponent's) gets + 20 HP."
+		de: "Jedes Pokémon, das 'Dunkles' in seinem Namen hat (auch die deines Gegners) erhält +20 KP."
 	},
 
 

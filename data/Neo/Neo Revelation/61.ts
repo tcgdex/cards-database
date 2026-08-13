@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn, he or she may flip a coin. If heads, that player removes 2 damage counters from his or her Active Pokémon (1 if it only has 1).",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur, celui-ci peut lancer une pièce. Si c'est face, ce joueur peut retirer 2 marqueurs de dégâts sur son Pokémon Actif (1 s'il n'en a qu'un seul).",
-		de: "Once during each player's turn, he or she may flip a coin. If heads, that player removes 2 damage counters from his or her Active Pokémon (1 if it only has 1)."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Jeder Spieler kann einmal während seines Zuges eine Münze werfen. Bei Kopf entfernt diese Spieler 2 Schadensmarken von seinem aktiven Pokémon (1, wenn es nur 1 hat)."
 	},
 
 

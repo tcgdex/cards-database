@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hoppip",
-		fr: "Granivol"
+		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	stage: "Stage1",
@@ -56,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
-		fr: "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour."
+		fr: "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour.",
+		de: "Es breitet seine Blütenblätter aus, um das Sonnenlicht aufzusaugen. Es schwebt sogar leicht in der Luft, um näher an die Sonne heranzukommen."
 	},
 
 

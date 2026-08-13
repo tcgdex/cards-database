@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golbat",
-		fr: "Nosferalto"
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -39,13 +40,13 @@ const card: Card = {
 			name: {
 				en: "Triggered Poison",
 				fr: "Poison à retardement",
-				de: "Triggered Poison"
+				de: "Wartendes Gift"
 			},
 
 			effect: {
 				en: "If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned.",
 				fr: "Si votre adversaire attache une carte Énergie au Pokémon Défenseur durant son prochain tour, ce Pokémon devient Empoisonné.",
-				de: "If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned."
+				de: "Wenn dein Gegner in seinem nächsten Zug eine Energiekarte an das verteidigende Pokémon anlegt, wird dieses Pokémon vergiftet."
 			},
 
 			damage: 20
@@ -59,12 +60,12 @@ const card: Card = {
 			name: {
 				en: "Cross Attack",
 				fr: "Attaque croisée",
-				de: "Cross Attack"
+				de: "Überkreuztackle"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins deux faces, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
+				de: "Wirf vier Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Wenn du dabei mindestens zweimal „Kopf“ erzielst, ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: "20x",
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
-		fr: "Le battement de ses quatre ailes est si silencieux dans la nuit que personne ne remarque sa présence, même s'il est tout près."
+		fr: "Le battement de ses quatre ailes est si silencieux dans la nuit que personne ne remarque sa présence, même s'il est tout près.",
+		de: "Es gleitet so geräuschlos auf seinen vier Flügeln durch die Dunkelheit, dass es oft selbst aus der Nähe nicht bemerkt wird."
 	},
 
 

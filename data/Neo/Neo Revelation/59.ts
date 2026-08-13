@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Poison Spray",
 				fr: "Jet-venin",
-				de: "Poison Spray"
+				de: "Giftspray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			}
 
 		},
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "While flying, it constantly emits ultrasonic waves from its mouth to check its surroundings.",
-		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
+		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure.",
+		de: "Beim Fliegen sendet es ständig Ultraschallwellen aus seinem Maul aus, um seine Umgebung zu erkunden."
 	},
 
 
