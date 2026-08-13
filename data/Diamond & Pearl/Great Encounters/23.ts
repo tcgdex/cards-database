@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à Latios. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an Latios an. Mische dein Deck danach."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an Latios an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+		de: "Ein hochintelligentes PKMN. Wenn es im Flug seine Flügel nach hinten legt, ist es schneller als ein Jet."
 	},
 
 	thirdParty: {

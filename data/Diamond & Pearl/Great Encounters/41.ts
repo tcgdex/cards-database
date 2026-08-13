@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -81,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
+		de: "Es liebt das Kräftemessen mit großen PKMN. Mit seinem Armwurf kann es LKW durch die Luft werfen."
 	},
 
 	thirdParty: {

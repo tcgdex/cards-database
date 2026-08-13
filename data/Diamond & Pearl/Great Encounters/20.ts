@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krabby",
 		fr: "Krabby",
+		de: "Krabby"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.",
+		de: "Die großen Scheren haben eine Stärke von 10 000 PS. Aber sie sind schwer und kaum zu handhaben."
 	},
 
 	thirdParty: {

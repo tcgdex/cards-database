@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love.",
+		de: "Es lebt in warmen Meeren. Man sagt, dass Verliebte, die es sehen, mit ewiger Liebe gesegnet sind."
 	},
 
 	thirdParty: {

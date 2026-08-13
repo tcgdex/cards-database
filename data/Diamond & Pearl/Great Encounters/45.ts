@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -79,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.",
+		de: "Seine Körpertemperatur beträgt etwa 10 000 Grad. Aus seiner Schale treten immer wieder Flammen aus."
 	},
 
 	thirdParty: {

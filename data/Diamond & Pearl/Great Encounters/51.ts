@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
+		de: "Tiefseeforscher fanden dieses seltene PKMN, das sich in 100 Mio. Jahren nicht verändert hat."
 	},
 
 	thirdParty: {

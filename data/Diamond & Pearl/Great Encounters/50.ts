@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
+		de: "Charmian"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40x",
 
@@ -81,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
+		de: "Dieses PKMN ist ein Grobian, der sich in die Nester anderer PKMN einnistet und sie sich damit aneignet."
 	},
 
 	thirdParty: {

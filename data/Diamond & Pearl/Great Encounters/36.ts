@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+		de: "Im eingerollten Schweif transportiert es Futter, das es mit denen teilt, die sich verlaufen haben."
 	},
 
 	thirdParty: {

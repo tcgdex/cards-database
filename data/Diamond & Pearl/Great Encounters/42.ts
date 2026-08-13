@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clamperl",
 		fr: "Coquiperl",
+		de: "Perlu"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "If Huntail has any Darkness Energy attached to it, this attack does 30 damage plus 20 more damage and discard a Special Energy card, if any, attached to the Defending Pokémon.",
 				fr: "Si Serpang possède de l'Énergie Darkness, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
-				de: "Wenn an Aalabyss mindestens 1 -Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu und lege, falls am Verteidigenden Pokémon eine Spezialenergiekarte angelegt ist, diese auf den Ablagestapel deines Gegners."
+				de: "Wenn an Aalabyss mindestens 1 {D}-Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu und lege, falls am Verteidigenden Pokémon eine Spezialenergiekarte angelegt ist, diese auf den Ablagestapel deines Gegners."
 			},
 			damage: "30+",
 
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+		de: "Es lebt tief im Meer. Sein Schweif ist wie ein kleiner Fisch geformt. Mit ihm lockt es Beute an."
 	},
 
 	thirdParty: {

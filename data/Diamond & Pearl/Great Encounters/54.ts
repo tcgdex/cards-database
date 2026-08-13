@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+		de: "Ein begriffsstutziges Pokémon. Beißt das MUSCHAS am Schweif zu, scheint es Intelligenz zu gewinnen."
 	},
 
 	thirdParty: {

@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It communicates with others by lighting up its rear at night. It loves ILLUMISE's sweet aroma.",
+		de: "Es kommuniziert mit anderen, indem es sein Hinterteil zum Leuchten bringt. Es liebt ILLUMISEs Duft."
 	},
 
 	thirdParty: {

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.",
+		de: "Es lebt in Höhlen am Strand. Seine Scheren wachsen nach, wenn es sie im Kampf verliert."
 	},
 
 	thirdParty: {

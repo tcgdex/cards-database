@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It can tell what people are dreaming by sniffing with its big nose. It loves fun dreams.",
+		de: "Mit seiner großen Nase kann es die Träume anderer erkennen. Es liebt lustige Träume."
 	},
 
 	thirdParty: {
