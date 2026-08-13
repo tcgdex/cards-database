@@ -4,7 +4,8 @@ import Set from '../EX trainer Kit (Latios)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique"
+		fr: "Énergie Électrique",
+		de: "Elektro-Energie"
 	},
 
 	rarity: "None",

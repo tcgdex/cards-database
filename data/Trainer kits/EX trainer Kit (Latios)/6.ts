@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,7 +27,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Scratch",
-			fr: "Griffe"
+			fr: "Griffe",
+			de: "Kratzer"
 		},
 		damage: 10
 	}, {
@@ -37,7 +39,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Pika Bolt",
-			fr: "Pik'éclair"
+			fr: "Pik'éclair",
+			de: "Pikaschuss"
 		},
 		damage: 40
 	}],
