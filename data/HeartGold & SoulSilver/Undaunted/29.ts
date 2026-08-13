@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
 				fr: "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
-				de: "Wirf eine Münze. Durchsuche bei \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Stollrak an."
+				de: "Wirf eine Münze. Durchsuche bei „Kopf“ deinen Ablagestapel nach einer {M}-Energiekarte und lege sie an Stollrak an."
 			},
 			damage: 20,
 
