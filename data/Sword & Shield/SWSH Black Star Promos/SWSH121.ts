@@ -38,7 +38,7 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 566764
+		cardmarket: 566765
 	}
 }
 
