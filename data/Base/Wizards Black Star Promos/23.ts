@@ -73,7 +73,10 @@ const card: Card = {
 			type: "normal",
 			subtype: "aoki-error"
 		}
-	]
+	],
+	thirdParty: {
+		cardmarket: 275442,
+	}
 }
 
 export default card
