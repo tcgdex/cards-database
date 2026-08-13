@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.",
+		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/sek erreichen können."
 	},
 
 	thirdParty: {

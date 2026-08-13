@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Heat Blast",
 				fr: "Explosion de Chaleur",
+				de: "Hitzestoß"
 			},
 
 			damage: 70,
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
+		de: "Mit seiner stolzen und königlichen Erscheinung gewinnt es die Herzen der Menschen."
 	},
 
 	thirdParty: {

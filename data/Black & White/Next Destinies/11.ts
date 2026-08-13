@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 20,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a loyal nature, it will remain motionless until it is given an order by its Trainer.",
+		de: "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse Tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+		de: "Wenn es Strom entlädt, blitzt seine Mähne auf. Auf diese Weise kann es auch mit Artgenossen kommunizieren."
 	},
 
 	thirdParty: {

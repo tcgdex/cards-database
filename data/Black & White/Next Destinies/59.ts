@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Munna",
 		fr: "Munna",
+		de: "Somniam"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Fluffy Dream",
 				fr: "Rêve Douillet",
+				de: "Schlummertraum"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
 				fr: "Ce Pokémon est maintenant Endormi.",
+				de: "Dieses Pokémon schläft jetzt."
 			},
 			damage: 40,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "With the mist from its forehead, it can create shapes of things from dreams it has eaten.",
+		de: "Kann Träume, die es verspeist hat, wahr werden lassen. Die Trauminhalte nehmen über den Dunst aus seiner Stirn Form an."
 	},
 
 	thirdParty: {

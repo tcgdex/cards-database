@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Glinting Claw",
 				fr: "Griffe Scintillante",
+				de: "Schimmernde Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Brave Fire",
 				fr: "Flammes de Bravoure",
+				de: "Tapferes Feuer"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 50 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 50 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 50 Schadenspunkte zu."
 			},
 			damage: 150,
 

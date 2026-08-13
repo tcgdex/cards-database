@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Recover",
 				fr: "Soin",
+				de: "Genesung"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon et soignez tous les dégâts de ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel und heile allen Schaden bei diesem Pokémon."
 			},
 
 		},
@@ -50,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,
@@ -68,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+		de: "Wird sein Köper verletzt, kann es sich regenerieren, sofern der rote Kern intakt ist."
 	},
 
 	thirdParty: {

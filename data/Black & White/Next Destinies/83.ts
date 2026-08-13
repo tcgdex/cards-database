@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Scout",
 				fr: "Espionnage",
+				de: "Späher"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
 				fr: "Votre adversaire montre sa main.",
+				de: "Dein Gegner deckt seine Handkarten auf."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 20,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+		de: "Ein Pokémon, das in der Stadt zu Hause ist. Es ist sehr zutraulich und bevölkert in Scharen öffentliche Plätze und Parks."
 	},
 
 	thirdParty: {

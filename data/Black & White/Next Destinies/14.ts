@@ -38,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes Calcinantes",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 50,
 
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Fire Blast",
 				fr: "Déflagration",
+				de: "Feuersturm"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		de: "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen."
 	},
 
 	thirdParty: {

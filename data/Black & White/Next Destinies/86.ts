@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 3 cartas de Energía Básica, enséñalas y ponlas en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo tre carte Energia base, mostrale e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho 3 cards de Energia básica, revele-os e coloque-os na sua mão. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach 3 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 3 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

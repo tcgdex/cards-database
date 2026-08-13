@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillish",
 		fr: "Sorboul",
+		de: "Gelatroppo"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Crushing Ice",
 				fr: "Brise-Glace",
+				de: "Berstendes Eis"
 			},
 			effect: {
 				en: "Does 10 more damage for each Colorless in the Defending Pokémon's Retreat Cost.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon zu."
 			},
 			damage: 60,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
+		de: "Schluckt Unmengen an Wasser, die es in sich zu Schneewolken verwandelt, und plagt Gegner mit hartem Schneetreiben."
 	},
 
 	thirdParty: {

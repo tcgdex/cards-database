@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Slam",
 				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 80,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Es entlädt Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen."
 	},
 
 	thirdParty: {
