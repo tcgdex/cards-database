@@ -4,7 +4,8 @@ import Set from '../McDonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-Attaque"
+				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -53,7 +56,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
+		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		de: "Dank seiner mit winzigen Stacheln besetzten Sohlen haftet es sogar kopfüber an Wänden und Decken."
 	},
 
 	variants: [

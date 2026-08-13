@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
+		de: "Robball"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker."
+		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker.",
+		de: "Dieses Pokémon ist für seine Willensstärke bekannt. Bläst es Körperflüssigkeit durch die Nase, entsteht eine Blase, die als Waffe fungiert."
 	},
 	variants: [
 		{

@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		en: "Scorbunny",
 		fr: "Flambino",
+		de: "Hopplo"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Super Roussi",
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -48,7 +51,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power."
+		en: "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power.",
+		de: "Erhöht es durch Rennen seine Körpertemperatur, strömt Feuer-Energie durch seinen Körper. Dann kann es seine wahre Kraft entfesseln."
 	},
 	variants: [
 		{

@@ -4,7 +4,8 @@ import Set from '../McDonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 
 	illustrator: "Mizue",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -50,7 +52,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
 	},
 
 	variants: [

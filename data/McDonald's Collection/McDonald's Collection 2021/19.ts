@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	illustrator: "Aya Kusube",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
+		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		de: "Die Flosse auf seinem Kopf prüft die Strömung des Wassers. Dieses Pokémon kann Felsen heben."
 	},
 
 	variants: [

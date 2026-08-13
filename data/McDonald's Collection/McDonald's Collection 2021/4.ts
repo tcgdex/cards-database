@@ -4,7 +4,8 @@ import Set from '../McDonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Turtwig",
-		fr: "Tortipouss"
+		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	illustrator: "OOYAMA",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,
@@ -64,7 +67,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
+		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+		de: "Sein Körper lebt von der Photosynthese, die Sauerstoff freisetzt. Ist es durstig, welkt sein Blatt."
 	},
 
 	variants: [
