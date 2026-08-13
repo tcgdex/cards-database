@@ -4,7 +4,8 @@ import Set from '../EX trainer Kit 2 (Plusle)'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		fr: "Énergie Psy"
+		fr: "Énergie Psy",
+		de: "Psycho-Energie"
 	},
 
 	rarity: "None",
