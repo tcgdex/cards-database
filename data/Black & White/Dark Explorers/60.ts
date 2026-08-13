@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Drain",
-				fr: "Sangsue de l'Ombre"
+				fr: "Sangsue de l'Ombre",
+				de: "Schattensog"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
 			},
 			damage: 30,
 
@@ -58,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Strike",
-				fr: "Coup Déchirant"
+				fr: "Coup Déchirant",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "This Pokémon can't use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour."
+				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				de: "Dieses Pokémon kann Schlitzender Schlag während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 80,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+		de: "Wird es der Aura des Mondes ausgesetzt, glühen seine Ringe und es erhält eine mysteriöse Kraft."
 	},
 
 	thirdParty: {

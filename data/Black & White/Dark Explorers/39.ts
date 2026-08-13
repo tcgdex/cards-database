@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tag Draw",
-				fr: "Pioche Groupée"
+				fr: "Pioche Groupée",
+				de: "Gefährtenzieher"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 4 cartes. Si Négapi est sur votre Banc, piochez 4 cartes supplémentaires."
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 4 cartes. Si Négapi est sur votre Banc, piochez 4 cartes supplémentaires.",
+				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn sich Minun auf deiner Bank befindet, ziehe 4 weitere Karten."
 			},
 
 		},
@@ -49,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Positive Ion",
-				fr: "Cation"
+				fr: "Cation",
+				de: "Positives Ion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -71,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+		de: "Es feuert Freunde mit Pompons an, die aus Funken bestehen. Es holt sich Energie aus Telegrafenmasten."
 	},
 
 	thirdParty: {

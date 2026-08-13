@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Muddy Water",
-				fr: "Ocroupi"
+				fr: "Ocroupi",
+				de: "Lehmbrühe"
 			},
 			effect: {
 				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Drain",
-				fr: "Spirale Épuisante"
+				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon."
+				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 60,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
+		de: "Seine Zellstruktur ist der von Wassermolekülen ähnlich. Daher kann es mit Wasser eins werden."
 	},
 
 	thirdParty: {

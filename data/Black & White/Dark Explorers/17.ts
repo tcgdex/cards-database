@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	stage: "Stage2",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blaze Kick",
-				fr: "Pied Brûleur"
+				fr: "Pied Brûleur",
+				de: "Feuerfeger"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 40,
 
@@ -58,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-Flamme"
+				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Flames spout from its wrists, enveloping its knuckles. Its punches scorch it foes.",
+		de: "Aus seinen Handgelenken kommt Feuer, das seine Knöchel umhüllt. Schläge verbrennen den Gegner."
 	},
 
 	thirdParty: {

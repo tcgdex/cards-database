@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Descarta una Energía Especial unida a 1 de los Pokémon de tu rival.",
 		it: "Scarta un’Energia speciale assegnata a uno dei Pokémon del tuo avversario.",
 		pt: "Descarte uma Energia Especial ligada a 1 dos Pokémon do seu oponente.",
-		de: "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+		de: "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	thirdParty: {

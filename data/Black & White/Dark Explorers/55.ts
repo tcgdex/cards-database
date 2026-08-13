@@ -36,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 30,
@@ -62,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+		de: "Es führt seine beiden Klauen zusammen, dreht sich rapide um die eigene Achse und gräbt sich ratzfatz durch das Erdreich."
 	},
 
 	thirdParty: {

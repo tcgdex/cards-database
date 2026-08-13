@@ -36,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -50,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Flamboiement"
+				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 40,
@@ -69,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+		de: "Bislang vermutet man, es sei ein Produkt der Sonne. Bei der Entwicklung ist sein ganzer Körper in Flammen gehüllt."
 	},
 
 	thirdParty: {

@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandile",
-		fr: "Mascaïman"
+		fr: "Mascaïman",
+		de: "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud-Slap",
-				fr: "Coud'Boue"
+				fr: "Coud'Boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 30,
@@ -56,7 +58,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon"
+				fr: "Poing Tire-Bouchon",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 70,
@@ -82,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+		de: "Bildet mit mehreren Artgenossen ein Rudel. Eine Membran schützt seine Augen vor Sandstürmen."
 	},
 
 	thirdParty: {

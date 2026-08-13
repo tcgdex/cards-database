@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde Folie"
+				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Shutdown",
-				fr: "Dépouillage des Ombres"
+				fr: "Dépouillage des Ombres",
+				de: "Schatten-Stillstand"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur."
+				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
+				de: "Wirf 2 Münzen. Zeigen beide „Kopf“, lege alle an das Verteidigende Pokémon angelegten Energien auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+		de: "Wird es der Aura des Mondes ausgesetzt, glühen seine Ringe und es erhält eine mysteriöse Kraft."
 	},
 
 	thirdParty: {

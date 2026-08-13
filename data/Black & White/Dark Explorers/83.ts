@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
-				fr: "Attaque Surprise"
+				fr: "Attaque Surprise",
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+		de: "Aufgrund einer genetischen Anomalie kann es sehr schnell seine Form verändern."
 	},
 
 	thirdParty: {

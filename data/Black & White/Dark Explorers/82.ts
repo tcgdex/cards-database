@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -64,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-Edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "This Pokémon does 60 damage to itself.",
-				fr: "Ce Pokémon s'inflige 60 dégâts."
+				fr: "Ce Pokémon s'inflige 60 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		de: "Eier, die es legt, stecken voller Fröhlichkeit. Schon ein Bissen erzeugt ein breites Lächeln."
 	},
 
 	thirdParty: {

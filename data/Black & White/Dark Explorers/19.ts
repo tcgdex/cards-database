@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hot Lick",
-				fr: "Léchouille Ardente"
+				fr: "Léchouille Ardente",
+				de: "Flammenschlecker"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Durant, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur est Fermite, cette attaque inflige 50 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est Fermite, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon Fermicula ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Firebreathing",
-				fr: "Souffle-Feu"
+				fr: "Souffle-Feu",
+				de: "Feuerhauch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -74,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+		de: "Mit seiner brandheißen Zunge bringt es Fermicula zum Schmelzen, um so an sein weiches Inneres zu gelangen."
 	},
 
 	thirdParty: {

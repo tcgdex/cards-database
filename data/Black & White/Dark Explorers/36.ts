@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ducklett",
-		fr: "Couaneton"
+		fr: "Couaneton",
+		de: "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Pirouette",
-				fr: "Pirouette Apaisante"
+				fr: "Pirouette Apaisante",
+				de: "Heilender Reigen"
 			},
 			effect: {
 				en: "Heal 30 damage from each of your Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon."
+				fr: "Soignez 30 dégâts à chacun de vos Pokémon.",
+				de: "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -56,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Incessant Peck",
-				fr: "Rafal'Bec"
+				fr: "Rafal'Bec",
+				de: "Dauerpicker"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 60,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
 	},
 
 	thirdParty: {
