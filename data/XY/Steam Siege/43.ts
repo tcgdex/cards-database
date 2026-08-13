@@ -82,6 +82,9 @@ const card: Card = {
 	description: {
 		en: "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
 	},
+	thirdParty: {
+		cardmarket: 291536,
+	},
 }
 
 export default card
