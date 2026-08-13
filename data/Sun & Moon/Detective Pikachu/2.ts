@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lombre",
 		fr: "Lombre",
+		de: "Lombrero"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+		de: "Hört es fröhliche Musik, füllen sich seine Muskeln mit Energie. Es muss dann einfach tanzen."
 	},
 
 	thirdParty: {

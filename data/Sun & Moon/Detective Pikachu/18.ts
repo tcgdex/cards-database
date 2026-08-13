@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+		de: "Das faulste Pokémon der Welt. Es bewegt sich nur, wenn alles Essbare in Reichweite verputzt ist."
 	},
 
 	thirdParty: {

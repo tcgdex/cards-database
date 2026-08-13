@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+		de: "Er liebt es, sein großes Wissen unter Beweis zu stellen. Dieses gesprächige Pikachu verhält sich wie ein Mann mittleren Alters."
 	},
 
 	thirdParty: {

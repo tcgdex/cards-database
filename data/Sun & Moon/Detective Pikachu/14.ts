@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+		de: "In der Bettenabteilung von Kaufhäusern erhält man auch CDs mit Pummeluffs wundersam einlullendem Gesang."
 	},
 
 	thirdParty: {
