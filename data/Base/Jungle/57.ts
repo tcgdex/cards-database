@@ -86,6 +86,9 @@ const card: Card = {
 			stamp: ["1st-edition"]
 		}
 	],
+	thirdParty: {
+		cardmarket: 273854,
+	},
 }
 
 export default card
