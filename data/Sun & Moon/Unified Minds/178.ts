@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+		de: "Sein Unterkörper ist in eine wolkenartige Energieschicht gehüllt. Es jagt mit bis zu 300 km/h durch die Lüfte."
 	},
 
 	thirdParty: {

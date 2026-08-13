@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Archen",
 		fr: "Arkéapti",
+		de: "Flapteryx"
 	},
 
 	stage: "Stage2",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "This ancient Pokémon's plumage is delicate, so if anyone other than an experienced professional tries to restore it, they will fail.",
+		de: "Aufgrund seines feinen Gefieders glückt die Zurückverwandlung dieses urzeitlichen Pokémon nur Experten mit langjähriger Erfahrung."
 	},
 
 	thirdParty: {

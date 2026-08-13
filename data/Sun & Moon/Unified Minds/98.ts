@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
+		de: "Das Männchen ist dem Weibchen hörig. Da es diesem fast seine gesamte Beute gibt, leidet es an Unterernährung und entwickelt sich nicht."
 	},
 
 	thirdParty: {

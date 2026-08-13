@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "There are still quite a few factories that rely on the flames provided by Magmortar to process metals.",
+		de: "Auch heute gibt es noch einige Fabriken, in denen die Flammen von Magbrant zur Verarbeitung von Metall verwendet werden."
 	},
 
 	thirdParty: {

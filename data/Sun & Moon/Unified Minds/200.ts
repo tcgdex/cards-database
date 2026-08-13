@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 6 primeras cartas de tu baraja y pon 2 de ellas en tu mano. Descarta el resto de las cartas.",
 		it: "Guarda le prime sei carte del tuo mazzo e aggiungi due di esse alle carte che hai in mano. Scarta le altre carte.",
 		pt: "Olhe as 6 primeiras cartas do seu baralho e coloque 2 delas na sua mão. Descarte as outras cartas.",
-		de: "Schau dir die obersten 6 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel."
+		de: "Schau dir die obersten 6 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

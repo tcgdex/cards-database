@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si te quedan más cartas de Premio que a tu rival, los ataques del Pokémon al que esté unida esta carta cuestan Fighting menos.",
 		it: "Se hai più carte Premio rimanenti del tuo avversario, gli attacchi del Pokémon a cui è assegnata questa carta costano Fighting in meno.",
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques do Pokémon ao qual esta carta está ligada custarão Fighting a menos.",
-		de: "Wenn du mehr verbleibende Preiskarten als dein Gegner hast, verringern sich die Kosten der Attacken des Pokémon, an das diese Karte angelegt ist, um Fighting."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn du mehr verbleibende Preiskarten als dein Gegner hast, verringern sich die Kosten der Attacken des Pokémon, an das diese Karte angelegt ist, um {F}. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	thirdParty: {

@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
+		de: "Es verbringt die meiste Zeit in Meditation auf Baumwipfeln. Manchmal wirft es Pokébälle auf Pokémon und erteilt ihnen Befehle."
 	},
 
 	thirdParty: {

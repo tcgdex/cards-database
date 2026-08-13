@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fomantis",
 		fr: "Mimantis",
+		de: "Imantis"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 50 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 50 danni in più.",
 				pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "For self-protection, it pretends to be a bug Pokémon. Both of its arms bear keen-edged petals.",
+		de: "Es tarnt sich zu seinem eigenen Schutz als Käfer-Pokémon. Die Blütenblätter an seinen beiden Armen sind scharfkantig."
 	},
 
 	thirdParty: {

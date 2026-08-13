@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Water unida a él, no tiene ningún Coste de Retirada.",
 				it: "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
 				pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
+				de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
+		de: "Dratini ist noch schwach und lebt daher ruhig und verborgen in tiefen Gewässern. Es ernährt sich von allem, was über ihm versinkt."
 	},
 
 	thirdParty: {

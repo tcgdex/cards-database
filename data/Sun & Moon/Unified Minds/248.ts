@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
-		fr: "Draco"
+		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Reparto Mach GX",
 				it: "Consegna Mach GX",
 				pt: "Entrega Supersônica GX",
-				de: "Überschall-Lieferung GX"
+				de: "Überschall-Lieferung-GX"
 			},
 			effect: {
 				en: "You may discard any number of cards from your hand until you have 9 or fewer. Draw cards until you have 10 cards in your hand. (You can’t use more than 1 GX attack in a game.)",

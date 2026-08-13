@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -81,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It was restored from an ancient fossil. Tirtouga lived in the sea but came up onto the land to search for prey.",
+		de: "Es wurde aus einem urzeitlichen Fossil wieder zum Leben erweckt. Zwar lebte es im Meer, zur Futtersuche ging es jedoch auch an Land."
 	},
 
 	thirdParty: {

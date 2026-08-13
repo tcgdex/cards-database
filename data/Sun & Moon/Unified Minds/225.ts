@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Gigacaída GX",
 				it: "Gigacrollo GX",
 				pt: "Gigaqueda GX",
-				de: "Gigafall GX"
+				de: "Gigafall-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 5 extra Energy attached to it (in addition to this attack’s cost), discard the top 15 cards of your opponent’s deck. (You can’t use more than 1 GX attack in a game.)",

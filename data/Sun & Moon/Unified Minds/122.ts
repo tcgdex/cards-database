@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
+		de: "Seine Angriffskraft genügt, um selbst mächtige Wälle niederzureißen. Ein Held zahlreicher Legenden."
 	},
 
 	thirdParty: {

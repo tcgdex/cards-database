@@ -37,7 +37,7 @@ const card: Card = {
 				es: "Zona Psíquica",
 				it: "Zona Psichica",
 				pt: "Zona Psíquica",
-				de: "Psycho-Zone"
+				de: "Psychozone"
 			},
 			effect: {
 				en: "Don’t apply Psychic Weakness when Pokémon (both yours and your opponent’s) take damage from attacks.",
@@ -45,7 +45,7 @@ const card: Card = {
 				es: "No apliques Debilidad Psychic cuando los Pokémon (tanto tuyos como de tu rival) reciben daño de ataques.",
 				it: "Non applicare la debolezza al tipo Psychic quando i Pokémon, sia tuoi che del tuo avversario, subiscono danni dagli attacchi.",
 				pt: "Não aplique Fraqueza Psychic quando Pokémon (seus e do seu oponente) recebem dano de ataques.",
-				de: "Wende Psychic-Schwäche nicht an, wenn Pokémon (deinen und denen deines Gegners) durch Attacken Schaden zugefügt wird."
+				de: "Wende {P}-Schwäche nicht an, wenn Pokémon (deinen und denen deines Gegners) durch Attacken Schaden zugefügt wird."
 			},
 		},
 	],
@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía y únela a 1 de tus Pokémon Psychic. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia e assegnala a uno dei tuoi Pokémon Psychic. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia no seu baralho e ligue-a a 1 dos seus Pokémon Psychic. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Energiekarte und lege sie an 1 deiner Psychic-Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 Energiekarte und lege sie an 1 deiner {P}-Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Escudo Estelar GX",
 				it: "Difesa Stellare GX",
 				pt: "Escudo de Estrela GX",
-				de: "Sternenschild GX"
+				de: "Sternenschild-GX"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

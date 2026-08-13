@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.",
+		de: "Die Arme von Corasonn sind seine Leibspeise. Handwerker, die natürlich abgefallene Arme von Corasonn verarbeiten, mögen sie deshalb nicht."
 	},
 
 	thirdParty: {

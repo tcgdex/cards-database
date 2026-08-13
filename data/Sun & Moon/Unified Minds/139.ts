@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+		de: "Wenn Schwingen und Schwanzgefieder dieses Legendären Pokémon rot leuchten, entzieht es Lebewesen deren Energie."
 	},
 
 	thirdParty: {

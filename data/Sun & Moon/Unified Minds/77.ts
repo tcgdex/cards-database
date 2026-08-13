@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+		de: "Es zieht normalerweise im Rudel umher. Zum Schlafen drängen sie sich ganz eng in einer Höhle zusammen."
 	},
 
 	thirdParty: {

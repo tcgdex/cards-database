@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
+		de: "Da es liebend gerne beim Schwimmen Menschen auf seinem Rücken trägt, gilt es in Alola als bedeutendes Transportmittel."
 	},
 
 	thirdParty: {

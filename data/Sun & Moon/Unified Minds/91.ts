@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Elgyem",
 		fr: "Lewsor",
+		de: "Pygraulon"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "With its psychic powers, it rewrites its opponents' memories. You, too, may have already had your memories rewritten.",
+		de: "Mithilfe seiner Psycho-Kräfte gestaltet es die Erinnerungen anderer um. Man weiß nie, ob es einen selbst bereits erwischt hat."
 	},
 
 	thirdParty: {

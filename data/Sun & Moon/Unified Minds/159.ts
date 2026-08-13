@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Noibat",
 		fr: "Sonistrelle",
+		de: "eF-eM"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it has a violent disposition, if you give it a nice ripe fruit that it loves, Noivern will suddenly become tame.",
+		de: "Es ist von Natur aus brutal. Gibt man ihm jedoch seine Leibspeise, reifes Obst, ist es plötzlich wie ausgewechselt und wird zahm."
 	},
 
 	thirdParty: {

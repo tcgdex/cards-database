@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
+		de: "Knarksel"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies at the speed of sound while searching for prey, and it has midair battles with Salamence as the two compete for food.",
+		de: "Es geht mit Schallgeschwindigkeit fliegend auf die Jagd und leistet sich mit Brutalanda Luftkämpfe um das Vorrecht auf die Beute."
 	},
 
 	thirdParty: {

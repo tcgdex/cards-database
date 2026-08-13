@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "At night, it weeps loudly for its dead mother, but those cries only attract its natural enemy—Mandibuzz.",
+		de: "Nachts weint es laut, weil es seine verstorbene Mutter vermisst. Dadurch wird jedoch sein natürlicher Feind Grypheldis auf es aufmerksam."
 	},
 
 	thirdParty: {

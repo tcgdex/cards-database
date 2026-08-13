@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fletchling",
 		fr: "Passerouge",
+		de: "Dartiri"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Fire no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 20,
 
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It scatters embers in the tall grass. Then bug Pokémon, frightened by the flames, come flying out, and Fletchinder gobbles them up.",
+		de: "Es versprüht Funken im hohen Gras und fängt die dadurch aufgescheuchten Käfer-Pokémon ab, indem es sie mit dem Schnabel aufpickt."
 	},
 
 	thirdParty: {

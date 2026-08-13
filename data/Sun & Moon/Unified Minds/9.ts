@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swadloon",
 		fr: "Couverdure",
+		de: "Folikon"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de tu rival hacen 40 puntos de daño menos a tus Pokémon Grass (después de aplicar Debilidad y Resistencia). No puedes aplicar más de 1 habilidad Tejemantas a la vez.",
 				it: "I tuoi Pokémon Grass subiscono 40 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza. Può essere applicata solo un’abilità Tessimanto alla volta.",
 				pt: "Seus Pokémon Grass recebem 40 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência). Você não pode usar mais de 1 Habilidade Cobertor de Folhas por vez.",
-				de: "Deinen Grass-Pokémon werden durch Attacken deines Gegners 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Deckenflechter einsetzen."
+				de: "Deinen {G}-Pokémon werden durch Attacken deines Gegners 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Deckenflechter einsetzen."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+		de: "Begegnet es einem jungen Pokémon, näht es ihm mit den klebrigen Fäden aus seinem Mund ein Kleid aus Blättern."
 	},
 
 	thirdParty: {
