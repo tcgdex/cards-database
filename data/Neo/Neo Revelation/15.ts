@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Prehistoric Memory",
 				fr: "Mémoire préhistorique",
-				de: "Prehistoric Memory"
+				de: "Urzeitgedächtnis"
 			},
 			effect: {
 				en: "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
 				fr: "Lorsqu'un Pokémon évolué attaque (même s'il s'agit de celui de votre adversaire), il peut utiliser n'importe quelle attaque de sa carte Pokémon de base ou de la carte Évolution qui lui est attachée. Il doit encore payer le coût en Énergie de l'attaque. Ce pouvoir cesse de fonctionner si Ptera est Endormi, Confus ou Paralysé.",
-				de: "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic Pokémon card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+				de: "Immer wenn ein entwickeltes Pokémon angreift (selbst wenn es eines deines Gegners ist), kann es alle Angriffe von seiner Basis-Pokémonkarte und allen an es angelegten Entwicklungskarten verwenden. Es muss allerdings weiterhin die Energiekosten des verwendeten Angriffs bezahlen. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -52,13 +52,13 @@ const card: Card = {
 			name: {
 				en: "Fly",
 				fr: "Vol",
-				de: "Fly"
+				de: "Fliegen"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage).",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Ptera ; si c'est pile, cette attaque ne fait rien (pas même les dégâts).",
-				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage)."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Aerodactyl (einschließlich der Schadenspunkte). Bei „Zahl“ hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 30
@@ -83,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding.",
-		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
+		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer.",
+		de: "Ein wildes Pokémon aus der Urzeit, vom dem man annimmt, dass es zum Fliegen einfach die Flügel ausgebreitet hat und auf ihnen geschwebt ist."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Energy Converter",
 				fr: "Convertisseur d'énergie",
-				de: "Energy Converter"
+				de: "Energieumwandler"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may choose 1 Basic Energy card attached to 1 of your Pokémon and choose an Energy type. Treat that Energy card as that type until the end is your turn. This power can't be used if Porygon2 is Asleep, Confused, or Paralyzed. If Porygon2 becomes Asleep, Confused, or Paralyzed, the Energy card goes back to its original type.",
 				fr: "Une fois durant votre tour (avant votre attaque), vous pouvez choisir une carte Énergie de base attachée à l'un de vos Pokémon et choisir un type d'Énergie. Considérez cette carte Énergie comme étant de ce type jusqu'à la fin de votre tour. Ce pouvoir ne peut être utilisé si Porygon2 est Endormi, Confus ou Paralysé. Si Porygon2 devient Endormi, Confus ou Paralysé, la carte Énergie reprend son type d'origine.",
-				de: "Once during your turn (before your attack), you may choose 1 basic Energy card attached to 1 of your Pokémon and choose an Energy type. Treat that Energy card as that type until the end of your turn. This Power can't be used if Porygon2 us Asleep, Confused, or Paralyzed. If Porygon2 becomes Asleep, Confused, or Paralyzed, the Energy card goes back to its original type."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Basis-Energiekarte, die an eins deiner Pokémon angelegt ist, wählen und eine Energiesorte bestimmen. Behandle diese Energiekarte bis zum Ende des Zuges als Energiekarte des bestimmten Typs. Diese Fähigkeit kann nicht verwendet werden, falls Porygon2 schläft, verwirrt oder gelähmt ist. Falls Porygon2 einschläft, verwirrt oder gelähmt wird, geht die Energiekarte in ihren ursprünglichen Zustand zurück."
 			},
 		},
 	],
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Delta Beam",
 				fr: "Rayon Delta",
-				de: "Delta Beam"
+				de: "Deltastrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose whether the Defending Pokémon becomes Asleep, Confused, or Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, choisissez si le Pokémon Défenseur devient Endormi, Confus ou Paralysé.",
-				de: "Flip a coin. If heads, choose whether the Defending Pokémon becomes Asleep, Confused, or Paralyzed."
+				de: "Wirf eine Münze. Wähle bei „Kopf“, ob das verteidigende Pokémon einschläft, verwirrt oder gelähmt wird."
 			},
 			damage: 20,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
-		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler."
+		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler.",
+		de: "Diese verbesserte Version von Porygon wurde zur Erforschung des Weltalls entwickelt. Allerdings kann es nicht fliegen."
 	},
 
 

@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Raging Headbutt",
 				fr: "Coup d'boule rageur",
-				de: "Raging Headbutt"
+				de: "Wütender Kopfstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl an Schadensmarken auf Snubbull zu. Bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "It has an active, playful nature. Many people like to frolic with it because of its affectionate ways.",
-		fr: "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux."
+		fr: "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux.",
+		de: "Es ist sehr aktiv und verspielt. Viele Leute tollen gerne mit ihm herum, weil es so herzlich ist."
 	},
 
 

@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Leaf",
 				fr: "Psyko herbe",
-				de: "Psychic Leaf"
+				de: "Psycholaub"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to the Defending Pokémon. This attack does 10 damage plus 10 more damage for each heads. Remove a number of damage counters from Celebi equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Celebi has fewer damage counters than that, remove all of them.",
 				fr: "Lancez une pièce pour chaque carte Énergie attachée au Pokémon Défenseur. Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires par face. Retirez à Celebi un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance). Si Celebi a moins de marqueurs de dégâts, retirez-les tous.",
-				de: "Flip a coin for each Energy card attached to the Defending Pokémon. This attack does 10 damage plus 10 more damage for each heads. Remove a number of damage counters from Celebi equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Celebi has fewer damage counters than that, remove all of them."
+				de: "Wirf für jede Energiekarte, die an das verteidigende Pokémon angelegt ist, eine Münze. Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu. Entferne, nachdem der Schaden zugefügt ist, soviel Schaden von Celebi, wie dem verteidigenden Pokémon Schadenspunkte zugefügt wurden (nachdem Schwäche und Resistenz verrechnet wurden). Falls Celebi weniger Schaden hat, entferne allen."
 			},
 			damage: "10+",
 
@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "When Celebi disappears deep in a forest, it is said to leave behind an egg it brought from the future.",
-		fr: "Lorsque Celebi disparaît dans les profondeurs de la forêt, on raconte qu'il laisse derrière lui un œuf qu'il a rapporté du futur."
+		fr: "Lorsque Celebi disparaît dans les profondeurs de la forêt, on raconte qu'il laisse derrière lui un œuf qu'il a rapporté du futur.",
+		de: "Wenn Celebi tief in einem Wald verschwindet, so wird behauptet, versteckt es dort ein Ei, das es aus der Zukunft mitgebracht hat."
 	},
 
 

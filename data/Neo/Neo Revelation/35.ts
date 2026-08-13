@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Pinchers",
 				fr: "Pince dodo",
-				de: "Sleep Pinchers"
+				de: "Schlafkneifer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 
@@ -62,18 +63,19 @@ const card: Card = {
 
 	description: {
 		en: "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushrooms on its back.",
-		fr: "Il se cache surtout dans les lieux froids et humides. Ce n'est pas l'insecte qui décide, mais les gros champignons qui lui poussent sur le dos et qui le contrôlent."
+		fr: "Il se cache surtout dans les lieux froids et humides. Ce n'est pas l'insecte qui décide, mais les gros champignons qui lui poussent sur le dos et qui le contrôlent.",
+		de: "Es bleibt meist in dunklen, feuchten Gebieten, was zwar nicht dem Käfer, aber den großen Pilzen auf seinem Rücken gefällt."
 	},
 
 	abilities: [{
 		name: {
 			fr: "Pollen allergique",
-			de: "Allergic Pollen"
+			de: "Niesreiz-Pollen"
 		},
 
 		effect: {
 			fr: "Tant que Parasect reste en jeu, les cartes des piles de défausse de tous les joueurs ne sont pas affectées par les attaques ou les Pouvoirs Pokémon. Ce pouvoir ne fonctionne pas si Parasect est Endormi, Confus ou Paralysé.",
-			de: "As long as Parasect is in play, cards in any player's discard piles are not affected by attacks or Pokémon Powers. This power stops working, if Parasect becomes Asleep, Confused, or Paralyzed."
+			de: "Solange Parasek im Spiel ist, haben Angriffe und Pokémon-Powers keine Auswirkungen auf Karten auf den Ablagestapeln aller Spieler. Diese Fähigkeit verliert ihre Wirkung, solange Parasek schläft, verwirrt oder gelähmt ist."
 		},
 
 		type: "Pokemon Power"
