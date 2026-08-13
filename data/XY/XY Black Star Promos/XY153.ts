@@ -73,6 +73,9 @@ const card: Card = {
 	description: {
 		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
 	},
+	thirdParty: {
+		cardmarket: 291589,
+	},
 }
 
 export default card
