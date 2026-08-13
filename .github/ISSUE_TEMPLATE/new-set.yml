@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this set informations
+        Thanks for taking the time to fill out the information for this set
   - type: input
     id: source
     attributes:
