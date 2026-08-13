@@ -26,17 +26,6 @@ const card: Card = {
 		fr: "Smogo"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Poison Resistance",
-			},
-			effect: {
-				en: "Scizor can't be Poisoned.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [

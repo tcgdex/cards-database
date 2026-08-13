@@ -26,17 +26,6 @@ const card: Card = {
 		fr: "Abo"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Gluey Slime",
-			},
-			effect: {
-				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [

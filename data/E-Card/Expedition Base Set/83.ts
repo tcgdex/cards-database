@@ -21,17 +21,6 @@ const card: Card = {
 		"Water"
 	],
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Lightweight",
-			},
-			effect: {
-				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
-			},
-		},
-	],
 	stage: "Basic",
 
 	attacks: [

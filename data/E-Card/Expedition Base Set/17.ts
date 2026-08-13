@@ -21,17 +21,6 @@ const card: Card = {
 		"Fire"
 	],
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Fluff",
-			},
-			effect: {
-				en: "During your opponent's turn, if Jumpluff would be damaged or affected by an opponent's attack and it already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack (including damage).",
-			},
-		},
-	],
 	stage: "Baby",
 
 	resistances: [

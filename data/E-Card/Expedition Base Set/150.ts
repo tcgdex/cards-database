@@ -11,60 +11,6 @@ const card: Card = {
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Crystal Type",
-			},
-			effect: {
-				en: "Attach Strength Charm to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. Whenever an attack from the Pokémon that Strength Charm is attached to does damage (after applying Weakness and Resistance), the attack does 10 more damage. At the end of your turn in which this happens, discard Strength Charm.",
-			},
-		},
-	],
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "x2"
-		},
-	],
-	attacks: [
-		{
-			cost: [
-				"Grass",
-				"Grass",
-				"Colorless",
-			],
-			name: {
-				en: "Poison Horn",
-			},
-			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-			},
-			damage: 20,
-		},
-		{
-			cost: [
-				"Lightning",
-				"Lightning",
-				"Fighting",
-				"Fighting",
-			],
-			name: {
-				en: "Rolling Thunder",
-			},
-			effect: {
-				en: "Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)",
-			},
-			damage: 50,
-		},
-	],
-	stage: "Stage2",
-	types: [
-		"Colorless"
-	],
-	hp: 100,
-	dexId: [34],
 	trainerType: "Tool",
 	set: Set,
 
@@ -90,7 +36,6 @@ const card: Card = {
 			},
 		},
 	],
-	retreat: 3,
 }
 
 export default card

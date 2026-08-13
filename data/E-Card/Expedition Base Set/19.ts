@@ -21,17 +21,6 @@ const card: Card = {
 		"Psychic"
 	],
 
-	abilities: [
-		{
-			type: "Poke-POWER",
-			name: {
-				en: "Water Cyclone",
-			},
-			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Water Energy card from your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Kingdra is affected by a Special Condition.",
-			},
-		},
-	],
 	stage: "Basic",
 
 	attacks: [

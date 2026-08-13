@@ -35,19 +35,6 @@ const card: Card = {
 			},
 		},
 	],
-	attacks: [
-		{
-			cost: [
-				"Water",
-			],
-			name: {
-				en: "Splatter",
-			},
-			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness or Resistance.",
-			},
-		},
-	],
 }
 
 export default card
