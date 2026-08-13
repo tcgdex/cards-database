@@ -59,6 +59,9 @@ const card: Card = {
 	description: {
 		en: "While it does not prefer to fight, even one drop of the poison it secretes from its barbs can be fatal.",
 	},
+	thirdParty: {
+		cardmarket: 280918,
+	},
 }
 
 export default card
