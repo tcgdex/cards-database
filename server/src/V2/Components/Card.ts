@@ -125,7 +125,12 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 				getCardMarketPrice(variant),
 				getTCGPlayerPrice(variant),
 			]);
-			variant.pricing = { cardmarket, tcgplayer };
+			const cmId = variant.thirdParty.cardmarket
+			const tcgId = variant.thirdParty.tcgplayer
+			variant.pricing = {
+				cardmarket: cardmarket ? { id: cmId, ...cardmarket } : null,
+				tcgplayer: tcgplayer ? { id: tcgId, ...tcgplayer } : null,
+			};
 		}
 	}
 
@@ -148,11 +153,13 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 
 	// console.timeEnd('loading providers')
 	// console.time('remapping card')
+	const cmId = card.thirdParty?.cardmarket
+	const tcgId = card.thirdParty?.tcgplayer
 	const res = {
 		...deepOmit(card, 'thirdParty'),
 		pricing: {
-			cardmarket: cardmarket,
-			tcgplayer: tcgplayer
+			cardmarket: cardmarket ? { id: cmId, ...cardmarket } : null,
+			tcgplayer: tcgplayer ? { id: tcgId, ...tcgplayer } : null,
 		}
 	} as SDKCard
 	// console.timeEnd('remapping card')
