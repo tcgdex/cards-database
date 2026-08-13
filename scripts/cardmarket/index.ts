@@ -1,6 +1,8 @@
+import path from 'node:path'
+
 import { globSync } from 'glob'
 
-import { catalogUrl } from './config'
+import { catalogUrl, dataRoot } from './config'
 import { getProducts, readJson } from './catalog'
 import { loadCards, loadSets } from './cards'
 import { makeAudit } from './audit'
@@ -52,9 +54,14 @@ async function main() {
 	progress.message('Cleared previous Cardmarket report output')
 	progress.message('Discovering data files')
 	const files = globSync('data/**/*.ts', { absolute: true, nodir: true })
+	const fileDepth = (filePath: string) => path.relative(dataRoot, filePath).split(path.sep).length
+	const setFiles = files.filter((filePath) => fileDepth(filePath) === 2)
+	const cardFiles = files.filter((filePath) => fileDepth(filePath) > 2)
 	progress.message(`Found ${files.length.toLocaleString('en-US')} TypeScript files`)
-	const sets = loadSets(files, progress.start('Loading set definitions', files.length))
-	const cards = loadCards(files, sets, progress.start('Loading card files', files.length))
+	const sourceCache = new Map<string, string>()
+	const sets = loadSets(setFiles, progress.start('Loading set definitions', setFiles.length), sourceCache)
+	const cards = loadCards(cardFiles, sets, progress.start('Loading card files', cardFiles.length), sourceCache)
+	sourceCache.clear()
 	progress.message('Downloading Cardmarket catalog (no remote progress available)')
 	const rawCatalog = await readJson(catalogUrl)
 	const products = getProducts(rawCatalog)
