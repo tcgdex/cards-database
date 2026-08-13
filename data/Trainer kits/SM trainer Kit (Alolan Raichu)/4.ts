@@ -28,7 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				en: "Tackle",
+				de: "Tackle"
 			},
 			damage: 30
 		},

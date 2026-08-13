@@ -3,7 +3,8 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy"
+		en: "Psychic Energy",
+		de: "Psycho-Energie"
 	},
 
 	rarity: "None",

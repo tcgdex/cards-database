@@ -37,10 +37,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Poison Breath"
+				en: "Super Poison Breath",
+				de: "Super-Gifthauch"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned."
+				en: "Your opponent's Active Pokémon is now Poisoned.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			}
 		},
 		{
@@ -49,10 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics"
+				en: "Acrobatics",
+				de: "Akrobatik"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads."
+				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "10+"
 		},
