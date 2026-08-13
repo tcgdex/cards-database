@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Attack",
 				fr: "Attaque Surprise",
-				de: "Überaschungsangriff"
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkung."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

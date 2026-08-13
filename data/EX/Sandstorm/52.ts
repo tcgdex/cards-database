@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slakoth",
-		fr: "Parecool"
+		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Focus Energy",
 				fr: "Puissance",
-				de: "Focus Energy"
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Vigoroth sont de 90 et non de 40.",
-				de: "Durig your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40."
+				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Schlitzer 90 Schadenspunkte anstelle von 40 Schadenspunkte."
 			},
 
 		},
@@ -54,7 +55,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 40,

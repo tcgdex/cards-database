@@ -32,7 +32,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Super Hypno Wave",
 				fr: "Super hypnovague",
-				de: "Super Hypno Wave"
+				de: "Super Hypno Welle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 

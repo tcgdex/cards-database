@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Poison Needle",
 				fr: "Dard-venin",
-				de: "Poison Needle"
+				de: "Giftnadel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 

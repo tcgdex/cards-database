@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Super Poison Breath",
 				fr: "Super haleine empoisonnée",
-				de: "Super Poison Breath"
+				de: "Super Gifthauch"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Poisoned.",
 				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Each Defending Pokémon is now Poisoned."
+				de: "Alle Verteidigenden Pokémon sind jetzt vergiftet."
 			},
 
 		},
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Sky Uppercut",
 				fr: "Stratopercut",
-				de: "Sky Uppercut"
+				de: "Himmelhieb"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 50,
 

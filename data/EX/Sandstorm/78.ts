@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Shroomish.",
 				fr: "Attachez à Balignon une carte Énergie  de votre main.",
-				de: "Lege eine -Energiekarte von deiner Hand an Knilz an."
+				de: "Lege eine {G}-Energiekarte von deiner Hand an Knilz an."
 			},
 
 		},

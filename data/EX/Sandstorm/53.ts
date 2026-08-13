@@ -28,12 +28,12 @@ const card: Card = {
 			name: {
 				en: "Uplifting Glow",
 				fr: "Lueur indicatrice",
-				de: "Uplifting Glow"
+				de: "Erhebendes Glühen"
 			},
 			effect: {
 				en: "As long as Illumise is in play, Volbeat's Retreat Cost is 0.",
 				fr: "Tant que Lumivole est en jeu, le Coût de retraite de Muciole est de 0.",
-				de: "As long as Illumise is in play, Volbeat's Retreat Cost is 0."
+				de: "Solange Illumise im Spiel ist hat Volbeat Rückzugskosten von 0."
 			}
 		},
 	],
@@ -51,13 +51,13 @@ const card: Card = {
 		name: {
 			en: "Toxic Vibration",
 			fr: "Vibration toxik",
-			de: "Toxic Vibration"
+			de: "Vibrierendes Toxin"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-			de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
+			de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ schläft das Verteidigende Pokémon jetzt."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -65,13 +65,13 @@ const card: Card = {
 		name: {
 			en: "Pester",
 			fr: "Abattre",
-			de: "Pester"
+			de: "Verfolgung"
 		},
 
 		effect: {
 			en: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage.",
 			fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts.",
-			de: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
+			de: "Falls das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 		},
 
 		damage: 20

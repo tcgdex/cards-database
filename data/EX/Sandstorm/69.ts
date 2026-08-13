@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
-				de: "Peck"
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -44,12 +44,12 @@ const card: Card = {
 			name: {
 				en: "Soothing Wave",
 				fr: "Vague relaxante",
-				de: "Soothing Wave"
+				de: "Beruhigende Welle"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
 				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				de: "Alle Verteidigenden Pokémon schlafen jetzt."
 			},
 
 		},

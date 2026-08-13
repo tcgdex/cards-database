@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Elektek de votre main sur Elekid (vous faites ainsi évoluer Elekid). Retirez à Elekid tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid), and remove all damage counters from Elekid."
+				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du Elektek von deiner Hand auf Elekid legen (das zählt als Entwickeln von Elekid). Entferne alle Schadensmarken von Elekid."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Gather Energy",
 				fr: "Rassemblement d'énergie",
-				de: "Gather Energy"
+				de: "Energie sammeln"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie de base et attachez-la à un de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card and attach it to 1 your Pokémon. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Basis-Energiekarte und lege sie an eines deiner Pokémon an. Mische dein Deck danach."
 			},
 
 		},

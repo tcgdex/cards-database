@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Basic Pokémon card or Evolution card for each Energy attached to Wynaut, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck un Pokémon de base ou une carte Évolution pour chaque Énergie attachée à Okeoke. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck für jede Energie, die an Isso angelegt ist, nach einer Basis-Pokémon oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck für jede Energie, die an Isso angelegt ist, nach einer Basis-Pokémon- oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
