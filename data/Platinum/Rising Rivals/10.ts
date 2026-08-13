@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
 				fr: "Lancez 2 pièces. Si ce sont 2 faces, défaussez toute l'Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Kopf\" gezeigt haben, lege alle Energien, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
+				de: "Wirf 2 Münzen. Wenn beide Münzen „Kopf“ gezeigt haben, lege alle Energien, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 

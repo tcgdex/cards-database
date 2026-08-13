@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellos East Sea",
-		fr: "Sancoki Mer Orient"
+		fr: "Sancoki Mer Orient",
+		de: "Schalellos Östliches Meer"
 	},
 
 	stage: "Stage1",

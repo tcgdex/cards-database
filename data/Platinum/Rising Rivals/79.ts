@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
 			},
 
 		},
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out."
+		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
+		de: "Nicht seinen Körper zusammendrücken, sonst sickert eine seltsame lilafarbene Flüssigkeit aus!"
 	},
 
 	variants: [

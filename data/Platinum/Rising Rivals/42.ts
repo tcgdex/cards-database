@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 10 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",
 

@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon."
+		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
+		de: "Indem es das Fliegen erlernte, bezwang Pikachu seine Schwäche gegenüber den Kampf-Pokémon."
 	},
 
 	variants: [
