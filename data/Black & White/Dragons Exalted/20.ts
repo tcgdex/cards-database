@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Magma Punch",
 				fr: "Poing Magma",
+				de: "Magmahieb"
 			},
 
 			damage: 50,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
+		de: "Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
+		de: "Kapuno"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 80,
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+		de: "Wenn es sein Revier leergejagt hat, sucht es sich ein neues. Seine beiden Köpfe liegen ständig im Streit."
 	},
 
 	thirdParty: {

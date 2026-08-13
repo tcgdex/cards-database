@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Darkness Fang",
 				fr: "Croc Obscur",
+				de: "Fänge der Dunkelheit"
 			},
 
 			damage: 30,
@@ -75,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		de: "Es jagt in Rudeln und kommuniziert über eine ganze Reihe von Rufen mit anderen Hunduster."
 	},
 
 	thirdParty: {

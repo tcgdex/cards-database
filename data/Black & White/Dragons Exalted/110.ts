@@ -60,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Gold Breaker",
 				fr: "Goliastruction",
+				de: "Goldbrecher"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Pokémon-EX, this attack does 60 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-EX ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -81,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a trail.",
+		de: "Rammt seine Gegner ohne Rücksicht auf Verluste mit dem Kopf und vermag damit sogar Züge zum Entgleisen zu bringen."
 	},
 
 	thirdParty: {

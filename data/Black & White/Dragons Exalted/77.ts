@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stunky",
 		fr: "Moufouette",
+		de: "Skunkapuh"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Smogscreen",
 				fr: "Brouillard Venimeux",
+				de: "Smogwolke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 80,
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+		de: "Greift mit einer Substanz aus der Spitze seines Schweifs an. Angriffe von oben verblüffen es."
 	},
 
 	thirdParty: {

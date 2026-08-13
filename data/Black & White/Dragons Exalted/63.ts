@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Reverse Spin",
 				fr: "Vrille Renversante",
+				de: "Gegendreher"
 			},
 			effect: {
 				en: "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
 				fr: "Votre adversaire mélange sa main avec son deck et pioche 4 cartes.",
+				de: "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten."
 			},
 
 		},
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It move by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+		de: "Es bewegt sich, indem es sich auf seinem Fuß dreht. Ein seltenes Pokémon, das in alten Ruinen lebte."
 	},
 
 	thirdParty: {

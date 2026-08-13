@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Guard Press",
 				fr: "Pression de Garde",
+				de: "Schutzdruck"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+		de: "Da es nichts sehen kann, sucht es seine Umgebung mit Rempel- und Bissattacken ab und ist immer mit Wunden übersät."
 	},
 
 	thirdParty: {

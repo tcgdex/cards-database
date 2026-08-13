@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'Sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Heal 40 damage from this Pokémon.",
 				fr: "Soignez 40 dégâts à ce Pokémon.",
+				de: "Heile 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 40,
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+		de: "Es wird durch eine Energie angetrieben, die seinem Körper entspringt. Keiner weiß jedoch, woher diese Energie stammt."
 	},
 
 	thirdParty: {

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Sing",
 				fr: "Berceuse",
+				de: "Gesang"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 20,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't relax if it or its surroundings are not clean. It wipes of dirt with its wings.",
+		de: "Es kann nicht entspannen, wenn es oder seine Umgebung dreckig ist. Säubert alles mit den Flügeln"
 	},
 
 	thirdParty: {

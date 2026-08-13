@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Night Slash",
 				fr: "Tranche-Nuit",
+				de: "Nachthieb"
 			},
 			effect: {
 				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 60,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+		de: "Es bewegt sich so schnell, dass es manchmal unsichtbar zu sein scheint. Es liebt Baumsaft."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 60,
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
+		de: "Man findet es oft in der Nähe von Häfen. Rettet dort Menschen, schleppt aber auch Beute hinfort."
 	},
 
 	thirdParty: {

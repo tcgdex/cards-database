@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
+		de: "Kapuno"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Draw In",
 				fr: "Aspiracartes",
+				de: "Ansaugen"
 			},
 			effect: {
 				en: "Attach 2 Darkness Energy cards from your discard pile to this Pokémon.",
 				fr: "Attachez 2 cartes Énergie Darkness de votre pile de défausse à ce Pokémon.",
+				de: "Lege 2 {D}-Energiekarten von deinem Ablagestapel an dieses Pokémon an."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Headbutt",
 				fr: "Dracoud'Boule",
+				de: "Drachen-Kopfnuss"
 			},
 
 			damage: 40,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+		de: "Seine zwei Köpfe liegen stets im Streit. So wird jede Mahlzeit ein Wettstreit für sie, bei dem sich beide überfressen."
 	},
 
 	thirdParty: {
