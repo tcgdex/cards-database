@@ -91,6 +91,9 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
+	thirdParty: {
+		cardmarket: 273750,
+	},
 }
 
 export default card
