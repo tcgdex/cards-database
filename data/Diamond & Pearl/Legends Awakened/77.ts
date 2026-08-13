@@ -83,7 +83,10 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuka-furusawa"]
 		}
-	]
+	],
+	thirdParty: {
+		cardmarket: 278226,
+	}
 }
 
 export default card
