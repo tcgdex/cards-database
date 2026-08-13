@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Attach Cessation Crystal to 1 of your Pokémon (excluding Pokémon-ex) that doesn't already have a Pokémon Tool attached to it. If the Pokémon Cessation Crystal is attached to is a Pokémon-ex, discard this card. As long as Cessation Crystal is attached to an Active Pokémon, each player's Pokémon (both yours and your opponent's) can't use any Poké-Powers or Poké-Bodies.",
 		fr: "Attachez Arrêt de cristal à 1 de vos Pokémon (Pokémon-ex exclus) qui ne possède pas déjà d'Outil Pokémon. Si le Pokémon auquel Arrêt de cristal est attachée est un Pokémon-ex, défaussez cette carte.\n\nTant qu'Arrêt de cristal est attachée à un Pokémon Actif, les Pokémon de chaque joueur (les vôtres et ceux de votre adversaire) ne peuvent pas utiliser de Poké-Powers ou de Poké-Bodies.",
-		de: "Solange Kristall des Stillstandes an einem Aktiven Pokémon anliegt, können Pokémon (deine und die deines Gegners) keine Poké-Power und Poké-Body benutzen."
+		de: "Lege Kristall des Stillstandes an 1 deiner Pokémon an (kein Pokémon-ex), an dem noch keine Pokémon-Ausrüstung anliegt. Wenn Kristall des Stillstands an ein Pokémon-ex angelegt ist, lege diese Karte auf deinen Ablagestapel. Solange Kristall des Stillstandes an einem Aktiven Pokémon anliegt, können Pokémon (deine und die deines Gegners) keine Poké-Power und Poké-Body benutzen."
 	},
 
 	thirdParty: {

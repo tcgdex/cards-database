@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grovyle",
-		fr: "Massko"
+		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Each player's Pokémon-ex can't use any Poké-Powers and pays Colorless more Energy to use its attacks. Each Pokémon can't be affected by more than 1 Extra Liquid Poké-Body.",
 				fr: "Le Pokémon-ex de chaque joueur ne peut pas utiliser de Poké-Powers et paye une Énergie  de plus pour utiliser ses attaques. Chaque Pokémon ne peut pas être affecté par plus d'1 Poké-Body Liquide supplémentaire.",
-				de: "Die Pokémon-ex aller Spieler können keine Poké-Power einsetzen und ihre Angriffe kosten 1  mehr. Jedes Pokémon kann nur von 1 Extraflüssigkeit Poké-Body betroffen sein."
+				de: "Die Pokémon-ex aller Spieler können keine Poké-Power einsetzen und ihre Angriffe kosten 1 {C} mehr. Jedes Pokémon kann nur von 1 Extraflüssigkeit Poké-Body betroffen sein."
 			},
 		},
 	],

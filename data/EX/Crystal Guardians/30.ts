@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Glutexo selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Glutexo selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 

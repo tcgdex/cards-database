@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	suffix: "ex",

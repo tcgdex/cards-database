@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		de: "Tuska"
 	},
 
 	stage: "Stage1",
