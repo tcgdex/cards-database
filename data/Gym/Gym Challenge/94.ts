@@ -70,7 +70,7 @@ const card: Card = {
 			stamp: ["1st-edition"],
 			thirdParty: {
 				tcgplayer: 88865,
-				cardmarket: 274288
+				cardmarket: 274362
 			}
 		},
 	],
