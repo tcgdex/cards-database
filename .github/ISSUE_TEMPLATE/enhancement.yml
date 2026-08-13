@@ -13,7 +13,7 @@ body:
       required: true
     attributes:
       label: Data affected
-      description: Select the types of data that will be affected by you enhancement
+      description: Select the types of data that will be affected by your enhancement
       options:
         - label: Card
         - label: Set
