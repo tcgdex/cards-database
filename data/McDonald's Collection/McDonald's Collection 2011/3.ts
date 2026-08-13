@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [498],
 
 	description: {
-		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
+		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+		de: "Es schießt Flammen aus seinem Rüssel. Ist es erkältet, kommt statt Feuer aber nur pechschwarzer Rauch zum Vorschein."
 	},
 
 	stage: "Basic",
@@ -17,20 +18,23 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ember",
-			fr: "Flammèche"
+			fr: "Flammèche",
+			de: "Glut"
 		},
 
 		damage: 30,
 
 		effect: {
 			en: "Discard an Energy attached to this Pokémon.",
-			fr: "Défaussez une Énergie attachée à ce Pokémon."
+			fr: "Défaussez une Énergie attachée à ce Pokémon.",
+			de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 		}
 	}],
 
 	name: {
 		en: "Tepig",
-		fr: "Gruikui"
+		fr: "Gruikui",
+		de: "Floink"
 	},
 
 	rarity: "None",

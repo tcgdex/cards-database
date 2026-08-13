@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [599],
 
 	description: {
-		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing."
+		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+		de: "Seine zwei Teile greifen ineinander wie ein Uhrwerk. Jedes andere Objekt, das man mit ihm kombinieren will, wird abgestoßen."
 	},
 
 	stage: "Basic",
@@ -17,19 +18,22 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Charge Beam",
-			fr: "Rayon Chargé"
+			fr: "Rayon Chargé",
+			de: "Ladestrahl"
 		},
 
 		damage: 10,
 
 		effect: {
 			en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie dans votre pile de défausse et attachez-la à ce Pokémon."
+			fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie dans votre pile de défausse et attachez-la à ce Pokémon.",
+			de: "Wirf 1 Münze. Lege bei „Kopf“ eine Energiekarte von deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		name: {
 			en: "Irongrip",
-			fr: "Poigne de Fer"
+			fr: "Poigne de Fer",
+			de: "Eiserner Griff"
 		},
 
 		damage: 20
@@ -37,7 +41,8 @@ const card: Card = {
 
 	name: {
 		en: "Klink",
-		fr: "Tic"
+		fr: "Tic",
+		de: "Klikk"
 	},
 
 	rarity: "None",
