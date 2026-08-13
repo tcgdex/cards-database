@@ -76,6 +76,9 @@ const card: Card = {
 	description: {
 		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
 	},
+	thirdParty: {
+		cardmarket: 368987,
+	},
 }
 
 export default card

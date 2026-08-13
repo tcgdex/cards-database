@@ -82,6 +82,9 @@ const card: Card = {
 	description: {
 		en: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
 	},
+	thirdParty: {
+		cardmarket: 368984,
+	},
 }
 
 export default card
