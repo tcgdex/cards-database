@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "React Energy provides Colorless Energy.",
-		de: "Reaktions-Energie liefert  Energie.",
+		de: "Reaktions-Energie liefert {C}-Energie.",
 		fr: "Énergie réaction fournit une Énergie Incolore.",
 	},
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
-		fr: "Boustiflor"
+		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may switch 1 of your opponent's Benched Stage 2 Evolved Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. This power can't be used if Victreebel is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez échanger 1 des Pokémon Évolués de niveau 2 sur le Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Ce pouvoir ne peut pas être utilisé si Empiflor est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 entwickeltes Pokémon der Phase 2 auf der Bank deines Gegners mit 1 der Verteidigenden Pokémon austauschen. Dein Gegner wählt das Pokémon aus, das ausgetauscht wird. Diese Poké-Power kann nicht eingesetzt werden, wenn Sarzenia von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 entwickeltes Pokémon der Phase 2 auf der Bank deines Gegners mit 1 der Verteidigenden Pokémon austauschen. Dein Gegner wählt das Pokémon aus, das ausgetauscht wird. Diese Poké-Power kann nicht benutzt werden, wenn Sarzenia von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

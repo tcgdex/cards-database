@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Poisoned.",
 				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen 1 Verteidigendes Pokémon aus. Dein Gegner entscheidet, welches Pokémon ausgetauscht wird. Das neue Verteidigende Pokémon ist jetzt vergiftet."
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen 1 Verteidigendes Pokémon aus. Dein Gegner entscheidet, welches Verteidigende Pokémon ausgetauscht wird. Das neue Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},

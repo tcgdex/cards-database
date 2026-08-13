@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Misdreavus is your Active Pokémon, each player flips 2 coins for his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.",
 				fr: "Tant que Feuforêve est votre Pokémon Actif, chaque joueur lance 2 pièces pour son Pokémon Endormi entre deux tours. Si une des pièces est pile, ce Pokémon reste Endormi.",
-				de: "Solange Traunfugil dein Aktives Pokémon ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges 2 Münzen. Wenn mindestens eine davon \"Zahl\" zeigt, schläft das betreffende Pokémon weiter."
+				de: "Solange Traunfugil dein Aktives Pokémon ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges 2 Münzen. Wenn mindestens eine davon „Zahl“ zeigt, schläft das betreffende Pokémon weiter."
 			},
 		},
 	],

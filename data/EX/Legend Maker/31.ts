@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Draw 2 cards from the bottom of your deck.",
 				fr: "Piochez 2 cartes du dessous de votre deck.",
-				de: "Ziehe die untersten 2 Karten denes Decks."
+				de: "Ziehe die untersten 2 Karten deines Decks."
 			},
 
 		},

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Does 60 damage plus 20 damage for each React Energy card attached to Machamp.",
 				fr: "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktions-Energiekarte zu."
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktionsenergiekarte zu."
 			},
 			damage: "60+",
 

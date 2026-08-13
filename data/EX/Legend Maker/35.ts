@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "If your opponent has any Evolved Pokémon in play, choose 1 of them and flip a coin. If heads, remove the highest Stage Evolution card on that Pokémon and have your opponent shuffled it into his or her deck.",
 				fr: "Si votre adversaire a des Pokémon Évolués en jeu, choisissez-en 1 et lancez une pièce. Si c'est face, retirez à ce Pokémon sa carte Évolution au niveau le plus élevé et demandez à votre adversaire de la mélanger à son deck.",
-				de: "Falls dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, wähle 1 seiner entwickelten Pokémon und wirf 1 Münze. Bei \"Kopf\" entferne die höchste Evolutionskarte von diesem Pokémon. Dein Gegner mischt diese Karte in sein Deck."
+				de: "Falls dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, wähle 1 seiner entwickelten Pokémon und wirf 1 Münze. Bei „Kopf“ entferne die höchste Evolutionskarte von diesem Pokémon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},
