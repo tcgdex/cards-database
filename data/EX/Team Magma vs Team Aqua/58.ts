@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Mud Slap",
 				fr: "Coud'boue",
-				de: "Mud Slap"
+				de: "Lehmschelle"
 			},
 
 			damage: 10,

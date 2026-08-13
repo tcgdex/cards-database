@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Bone Attack",
 				fr: "Attaque d'os",
-				de: "Bone Attack"
+				de: "Knochenangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

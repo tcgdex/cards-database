@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Crush",
 				fr: "Écrase",
-				de: "Crush"
+				de: "Zermalmer"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Énergie attachée à Galeking de Team Magma. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads."
+				de: "Wirf für jede an Team Magmas Stolloss angelegte Energie 1 Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -52,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Land Stream",
 				fr: "Courant de terre",
-				de: "Land Stream"
+				de: "Erdrutsch"
 			},
 			effect: {
 				en: "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded.",
 				fr: "Vous pouvez défausser autant de cartes Énergie de base attachées à Galeking de Team Magma que vous le voulez. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie de base défaussée.",
-				de: "You may discard any number of basic Energy cards attached to Team Magma's Aggron. If you do, this attack does 50 damage plus 20 more damage for each basic Energy card you discarded."
+				de: "Du kannst beliebig viele an Team Magmas Stolloss angelegte Basis-Energiekarten auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgelegte Basis-Energiekarte zu."
 			},
 			damage: "50+",
 

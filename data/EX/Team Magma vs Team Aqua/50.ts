@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Grip",
 				fr: "Pince empoisonnée",
-				de: "Toxic Grip"
+				de: "Giftiger Griff"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},

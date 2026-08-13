@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Dark Lift",
 				fr: "Sombre élévation",
-				de: "Dark Lift"
+				de: "Dunkles Emporheben"
 			},
 			effect: {
 				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.",
 				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
-				de: "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
+				de: "Solange mindestens 1 {D}-Energie an Team Aquas Kanivanha angelegt ist, betragen die Rückzugskosten von Team Aquas Kanivanha 0."
 			}
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Slow-Acting Poison",
 				fr: "Poison à effet retardé",
-				de: "Slow-Acting Poison"
+				de: "Verzögertes Gift"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.",
 				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned."
+				de: "Nach dem nächsten Zug deines Gegner ist das Verteidigende Pokémon vergiftet."
 			},
 			damage: 20,
 
