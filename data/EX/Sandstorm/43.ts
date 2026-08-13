@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
-		fr: "Fossile racine"
+		fr: "Fossile racine",
+		de: "Wurzelfossil"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht anwenden."
+				de: "Wähle einen der Angriffe des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht anwenden."
 			},
 
 		},

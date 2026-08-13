@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward. You may switch Dunsparce with 1 of your Benched Pokémon.",
 				fr: "Choisissez dans votre deck jusqu'à trois Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck. Vous pouvez échanger Insolourdo contre un des Pokémon de votre Banc.",
-				de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach. Du kannst Dummisel gegen ein Pokémon auf deiner Bank austauschen."
+				de: "Durchsuche deine Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach. Du kannst Dummisel gegen 1 der Pokémon auf deiner Bank austauschen."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

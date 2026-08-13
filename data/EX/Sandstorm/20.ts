@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Pikachu de votre main sur Pichu (vous faites ainsi évoluer Pichu). Retirez à Pichu tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu."
+				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Energy Retrieval",
 				fr: "Énergie retrouvée",
-				de: "Energy Retrieval"
+				de: "Energie Rückgewinnung"
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Put 1 damage counter on that Pokémon for each Energy card attached in this way.",
 				fr: "Choisissez dans votre pile de défausse jusqu'à deux cartes Énergie de base et attachez-les à un de vos Pokémon. Placez un marqueur de dégât sur ce Pokémon pour chaque carte Énergie que vous lui attachez de cette façon.",
-				de: "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Put 1 damage counter on that Pokémon for each Energy card attached in this way."
+				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an. Lege für jede auf diese Weise angelegte Energiekarte 1 Schadensmarke auf das Pokémon."
 			},
 
 		},

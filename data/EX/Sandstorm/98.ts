@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	suffix: "ex",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Blast",
 				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Mega Thunderbolt",
 				fr: "Méga tonnerre",
-				de: "Mega Thunderbolt"
+				de: "Mega Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Raichu ex.",
 				fr: "Défaussez toutes les cartes Énergie attachées à Raichu ex.",
-				de: "Discard all Energy cards attacked to Raichu ex."
+				de: "Lege alle an Raichu ex angelegten Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 120,
 

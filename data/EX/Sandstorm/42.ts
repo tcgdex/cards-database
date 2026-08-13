@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
-		fr: "Fossile racine"
+		fr: "Fossile racine",
+		de: "Wurzelfossil"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Influence",
 				fr: "Influencer",
-				de: "Influence"
+				de: "Einfluss"
 			},
 			effect: {
 				en: "Search your deck for Omanyte, Kabuto, Aerodactyl, Lileep, or Anorith and put up to 2 of them onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.",
 				fr: "Cherchez dans votre deck Amonita, Kabuto, Ptera, Lilia ou Anorith et placez jusqu'à deux de ces Pokémon sur votre Banc. Ensuite, mélangez votre deck. Traitez les nouveaux Pokémon du Banc comme des Pokémon de base.",
-				de: "Search your deck for Omanyte, Kabuto, Aerodactyl, Lileep, or Anorith and put up to 2 of them onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon."
+				de: "Durchsuche dein Deck nach Amonitas, Kabuto, Aerodactyl, Liliep oder Armaldo und lege bis zu 2 von ihnen auf deine Bank. Mische dein Deck danach. Behandle die neuen Pokémon wie Basis-Pokémon."
 			},
 
 		},
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Time Spiral",
 				fr: "Spirale temporelle",
-				de: "Time Spiral"
+				de: "Zeitspirale"
 			},
 			effect: {
 				en: "If your opponent has any Evolved Pokémon in play, choose 1 of them and flip a coin. If heads, remove the highest Stage Evolution card on that Pokémon and have your opponent shuffle it into his or her deck.",
 				fr: "Si votre adversaire a un ou plusieurs Pokémon Évolués en jeu, choisissez-en un et lancez une pièce. Si c'est face, votre adversaire reprend la carte avec le niveau d'Évolution le plus élevé et la mélange à son deck.",
-				de: "If your opponent has any Evolved Pokémon in play, choose 1 of them and flip a coin. If heads, remove the highest Stage Evolution card on that Pokémon and have your opponent shuffle it into his or her deck."
+				de: "Falls dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, wähle 1 seiner entwickelten Pokémon und wirf eine Münze. Bei „Kopf“ entferne die höchste Evolutionskarte von diesem Pokémon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},

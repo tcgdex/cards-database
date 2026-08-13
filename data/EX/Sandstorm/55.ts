@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

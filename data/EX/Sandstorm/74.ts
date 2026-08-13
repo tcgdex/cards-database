@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
-				de: "Hypnosis"
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Boom",
 				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				de: "Psychoknall"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergie attachées au Pokémon Défenseur.",
-				de: "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+				de: "Fügt 10 Schadenspunkte für jede Energie zu, die an dem Verteidigenden Pokémon angelegt ist."
 			},
 			damage: "10×",
 

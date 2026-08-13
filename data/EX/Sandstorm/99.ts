@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
-		fr: "Feurisson"
+		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	suffix: "ex",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Burned, and can't retreat until the end of your opponent's next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon is jetzt verbrannt und kann sich bis zum Ende des nächsten gegenerischen Zuges nicht zurückziehen."
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt und kann sich bis zum Ende des nächsten gegnerischen Zuges nicht zurückziehen."
 			},
 			damage: 40,
 
@@ -65,7 +66,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 1 Energy card attached to Typhlosion ex. If your opponent has more than 1 Defending Pokémon, you may do 50 damage to each of them instead.",
 				fr: "Défaussez une carte Énergie attachée à Typhlosion ex. Si votre adversaire a plus d'un Pokémon Défenseur, vous pouvez infliger 50 dégâts à chacun.",
-				de: "Lege 1 an Tornupto ex angelegte Energiekarte auf deinen Ablagestapel. Falls dein gegner mehr als 1 Verteidigendes Pokémon hat, kannst du allen Verteidigenden Pokémon 50 Schadenspunkte zufühgen (anstelle des normalen Schadens dieses Angriffs)."
+				de: "Lege 1 an Tornupto ex angelegte Energiekarte auf deinen Ablagestapel. Falls dein Gegner mehr als 1 Verteidigendes Pokémon hat, kannst du allen Verteidigenden Pokémon 50 Schadenspunkte zufügen (anstelle des normalen Schadens dieses Angriffs)."
 			},
 			damage: 100,
 
