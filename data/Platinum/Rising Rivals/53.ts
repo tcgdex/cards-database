@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trapinch",
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people."
+		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+		de: "Es schlägt wild mit den Flügeln. So entstehen Ultraschallwellen, die Kopfschmerzen verursachen."
 	},
 
 	variants: [

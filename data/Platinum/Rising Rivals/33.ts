@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, both Snorlax and the Defending Pokémon are now Asleep. If tails, Snorlax is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, Ronflex et le Pokémon Défenseur sont maintenant Endormis. Si c'est pile, Ronflex est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schlafen Relaxo und das Verteidigende Pokémon jetzt. Bei \"Zahl\" schläft Relaxo jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schlafen Relaxo und das Verteidigende Pokémon jetzt. Bei „Zahl“ schläft Relaxo jetzt."
 			},
 			damage: 60,
 
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day."
+		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day.",
+		de: "Nur wenn es schläft, isst es nicht. Es ist erst dann satt, wenn es 400 kg verdrückt hat."
 	},
 
 	variants: [

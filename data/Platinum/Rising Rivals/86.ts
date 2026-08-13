@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head."
+		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+		de: "Es frisst täglich sein Gewicht in Blättern. Die Nadel auf seinem Kopf dient der Verteidigung."
 	},
 
 	variants: [

@@ -32,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. Remove a number of damage counters equal to the number of heads from your Pokémon in any way you like.",
 				fr: "Lancez 3 pièces. Retirez à vos Pokémon autant de marqueurs de dégât que vous otenez de faces de la façon que vous voulez.",
-				de: "Wirf 3 Münzen. Entferne für jedes Mal, wenn die Münze \"Kopf\" gezeigt hat, 1 Schadensmarke von 1 deiner Pokémon."
+				de: "Wirf 3 Münzen. Entferne für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 Schadensmarke von 1 deiner Pokémon."
 			},
 
 		},

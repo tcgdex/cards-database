@@ -31,7 +31,7 @@ const card: Card = {
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Vespiquen E4, remove 1 damage counter from Vespiquen E4.",
 				fr: "Lorsque vous attachez une carte Énergie Grass à Apireine , retirez-lui 1 marqueur de dégât.",
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Honweisel 4 anlegst, entferne 1 Schadensmarke von Honweisel 4."
+				de: "Wenn du 1 {G}-Energiekarte von deiner Hand an Honweisel 4 anlegst, entferne 1 Schadensmarke von Honweisel 4."
 			}
 		},
 	],

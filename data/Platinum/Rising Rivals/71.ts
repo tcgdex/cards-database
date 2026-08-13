@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal."
+		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
+		de: "Es mag keine Kämpfe. Ein einziger Tropfen des Gifts aus seinen Widerhaken hat eine fatale Wirkung."
 	},
 
 	variants: [

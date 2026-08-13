@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
-		fr: "Nidoran♀"
+		fr: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's."
+		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
+		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von NIDORINO."
 	},
 
 	variants: [

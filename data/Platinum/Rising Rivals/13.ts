@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nuzleaf",
-		fr: "Pifeuil"
+		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Shiftry is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.",
 				fr: "Tant que Tengalice est votre Pokémon Actif, lorsque votre adversaire lance une pièce lors de son tour, considérez que c'est pile.",
-				de: "Solange Tengulist dein Aktives Pokémon ist, wird jedes Mal, wenn dein Gegner in seinem Zug eine Münze wirft, das Ergebnis des Münzwurfs als \"Zahl\" gezählt."
+				de: "Solange Tengulist dein Aktives Pokémon ist, wird jedes Mal, wenn dein Gegner in seinem Zug eine Münze wirft, das Ergebnis des Münzwurfs als „Zahl“ gezählt."
 			}
 		},
 	],

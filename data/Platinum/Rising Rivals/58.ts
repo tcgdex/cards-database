@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They swarm any foes that invades their territory. Their sharp fangs can tear out boat hulls."
+		en: "They swarm any foes that invades their territory. Their sharp fangs can tear out boat hulls.",
+		de: "Sie begegnen jedem Gegner, der in ihr Revier eindringt, im Schwarm. Ihre Zähne durchdringen alles."
 	},
 
 	variants: [

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Tropius during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Tropius lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Tropius zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Tropius zugefügt würden."
 			},
 			damage: 30,
 
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Remove all damage counters from 1 of your Benched Grass Pokémon.",
 				fr: "Retirez à 1 de vos Pokémon de Banc Grass tous ses marqueurs de dégât.",
-				de: "Entferne alle Schadensmarken von 1 -Pokémon auf deiner Bank."
+				de: "Entferne alle Schadensmarken von 1 {G}-Pokémon auf deiner Bank."
 			},
 
 		},
