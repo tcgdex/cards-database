@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Fighting Energy card and attach it to Golem. If you do, remove 2 damage counters from Golem.",
 				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Grolem. Retirez-lui alors 2 marqueurs de dégât.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Geowaz an. Wenn du das machst, entferne 2 Schadensmarken von Geowaz."
+				de: "Durchsuche deinen Ablagestapel nach 1 {F}-Energiekarte und lege sie an Geowaz an. Wenn du das machst, entferne 2 Schadensmarken von Geowaz."
 			},
 
 		},
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each damage counter on Golem to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque marqueur de dégât sur Grolem. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Geowaz zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an)."
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Geowaz zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Muk is your Active Pokémon, each player's Pokémon can't use any Poké-Powers.",
 				fr: "Tant que Grotadmorv est votre Pokémon Actif, les Pokémon de chaque joueur ne peuvent pas utiliser de Poké-Powers.",
-				de: "Solange Sleimok dein Aktives Pokémon ist, können Pokémon aller Spieler keine Poké-Power benutzen."
+				de: "Solange Sleimok dein Aktives Pokémon ist, können die Pokémon aller Spieler keine Poké-Power benutzen."
 			},
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurück ziehen."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 

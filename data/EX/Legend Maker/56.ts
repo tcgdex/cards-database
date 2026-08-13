@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
-		fr: "Fossile racine"
+		fr: "Fossile racine",
+		de: "Wurzelfossil"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Tender Tentacles",
 				fr: "Tentacules tendres",
-				de: "Zarte Tentakeln"
+				de: "Zarte Tentakel"
 			},
 			effect: {
 				en: "If Lileep has any React Energy cards attached to it, remove 2 damage counters from Lileep.",

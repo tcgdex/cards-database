@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If Gengar would be Knocked Out by damage from an opponent's attack, you may put 3 damage counters on 1 of your opponent's Pokémon.",
 				fr: "Si Ectoplasma doit être mis K.O par les dégâts d'une attaque de votre adversaire, vous pouvez placer 3 marqueurs de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "Wenn Gengar durch die Schadenspunkte eines gegnerichen Angriffs kampfunfähig gemacht würde, kannst du 3 Schadensmarken auf 1 gegnerisches Pokémon legen."
+				de: "Wenn Gengar durch die Schadenspunkte eines gegnerischen Angriffs kampfunfähig gemacht würde, kannst du 3 Schadensmarken auf 1 gegnerisches Pokémon legen."
 			},
 		},
 	],
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Put 2 damage counters on your opponent's Pokémon in any way you like. If Gengar has any React Energy cards attached to it, put 4 damage counters instead.",
 				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez. Si Ectoplasma possède des cartes Énergie réaction, placez 4 marqueurs de dégât.",
-				de: "Verteile 2 Schadensmarken auf die Pokémon deines Gegners. Wenn an Gengar mindestens eine Reaktions-Energiekarte angelegt ist, verteile stattdessen 4 Schadensmarken."
+				de: "Verteile 2 Schadensmarken auf die Pokémon deines Gegners. Wenn an Gengar mindestens eine Reaktionsenergiekarte angelegt ist, verteile stattdessen 4 Schadensmarken."
 			},
 
 		},
