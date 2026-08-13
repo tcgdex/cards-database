@@ -74,7 +74,10 @@ const card: Card = {
 			type: "normal",
 			stamp: ["set-logo"]
 		}
-	]
+	],
+	thirdParty: {
+		cardmarket: 277261,
+	}
 }
 
 export default card

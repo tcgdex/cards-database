@@ -77,11 +77,14 @@ const card: Card = {
 			type: "holo",
 			stamp: ["dylan-lefavour"]
 		},
-	]
+	],
 
 
 
 
+	thirdParty: {
+		cardmarket: 277306,
+	}
 }
 
 export default card
