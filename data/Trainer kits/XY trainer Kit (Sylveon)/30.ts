@@ -19,7 +19,8 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It sends a soothing aura from its ribbonlike feelers to calm fights."
+		en: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+		de: "Seinen bandförmigen Fühlern lässt es beruhigende Wellen entströmen, die das Ende von Kämpfen herbeiführen."
 	},
 
 	stage: "Stage1",
@@ -27,19 +28,22 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Disarming Voice",
-			fr: "Voix Enjôleuse"
+			fr: "Voix Enjôleuse",
+			de: "Säuselstimme"
 		},
 
 		damage: 20,
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		}
 	}, {
 		name: {
 			en: "Fairy Wind",
-			fr: "Vent Féérique"
+			fr: "Vent Féérique",
+			de: "Feenbrise"
 		},
 
 		damage: 60
