@@ -79,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen.",
-		fr: "Il se déplace si vite qu'il est invisible à l'oeil nu. Même quand il est immobile, son camouflage lui permet de ne pas être vu."
+		fr: "Il se déplace si vite qu'il est invisible à l'oeil nu. Même quand il est immobile, son camouflage lui permet de ne pas être vu.",
+		de: "Es bewegt sich so schnell, dass es für das menschliche Auge fast unsichtbar ist. Selbst wenn es sich nicht bewegt, verhindert seine Tarnung, dass es entdeckt wird."
 	},
 
 

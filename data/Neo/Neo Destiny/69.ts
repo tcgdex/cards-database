@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Dodge",
 				fr: "Esquive",
-				de: "Dodge"
+				de: "Ausweichen"
 			},
 			effect: {
 				en: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)",
 				fr: "Si une attaque doit infliger des dégâts à Tygnon pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, prévenez les dégâts infligés à Tygnon par cette attaque. (Tous les autres effets dus à des attaques subsistent.)",
-				de: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)"
+				de: "Wirf eine Münze, wenn Nockchan durch einen Angriff im nächsten Zug deines Gegners Schaden zugefügt würde. Verhindere bei „Kopf“ den Schaden, den dieser Angriff Nockchan zufügen würde. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 			name: {
 				en: "Supersonic Jab",
 				fr: "Punch ultrason",
-				de: "Supersonic Jab"
+				de: "Superschall-Kinnhaken"
 			},
 
 			damage: 40,
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "Its punches are blindingly fast, but it can only fight for three minutes before tiring and needing to rest.",
-		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
+		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer.",
+		de: "Seine Schläge kommen pfeilschnell, aber es kann nur etwa drei Minuten kämpfen, bevor es ermüdet und eine Pause braucht."
 	},
 
 

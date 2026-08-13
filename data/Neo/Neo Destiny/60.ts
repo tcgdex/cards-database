@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Zoom]",
 				fr: "[Zoom]",
-				de: "Zoom"
+				de: "Zoom [Zoom]"
 			},
 			effect: {
 				en: "As long as Unown Z is Benched, you pay no Energy cost to retreat a Pokémon with Unown in its name.",
 				fr: "Tant que Zarbi [Z] est sur votre Banc, vous ne payez aucun coût d'Énergie pour faire battre en retraite vos Pokémon Zarbi.",
-				de: "As long as Unwon Z is benched, you may pay no Energy cost to retreat Pokémon with Unown in its name."
+				de: "Solange Icognito [Z] auf deiner Bank ist, bezahlst du keine Energiekosten, um ein Pokémon mit Icognito im Namen zurückzuziehen."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten haben."
 	},
 
 

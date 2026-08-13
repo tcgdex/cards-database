@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "High Voltage",
 				fr: "Haut voltage",
-				de: "High Voltage"
+				de: "Starkstrom"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
+				de: "Wirf eine Münze. Bei „Kopf“ kann der Gegner während seines nächsten Zuges keine Trainer-Karten spielen."
 			},
 			damage: 10,
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Stun Wave",
 				fr: "Para-vague",
-				de: "Stun Wave"
+				de: "Betäubungswelle"
 			},
 			effect: {
 				en: "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.",
 				fr: "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour.",
-				de: "If the Defending Pokémon has a Pokémon Power, that Power stops working until the end of your next turn."
+				de: "Wenn das verteidigende Pokémon eine Pokémon-Power hat, funktioniert diese Power bis zum Ende deines nächsten Zuges nicht."
 			},
 			damage: 30,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
-		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
+		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps.",
+		de: "Da es an manchen Stellen seines Körpers riesige Mengen an Elektrizität speichert, kann es dort keine Wolle mehr wachsen lassen."
 	},
 
 

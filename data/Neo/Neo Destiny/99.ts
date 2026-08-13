@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may flip a coin. If heads, that player puts a basic Energy card from his or her discard pile into his or her hand.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur (avant son attaque), ce joueur peut lancer une pièce. Si c'est face, ce joueur peut ajouter une carte Énergie de base de sa pile de défausse à sa main.",
-		de: "Once during each player´s turn (before attacking), that player may flip a coin. If heads, that player puts a basic Energy card from his or her discard pile into his or her hand."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Einmal in jedem eigenen Zug (vor dem Angriff) darf jeder Spieler eine Münze werfen. Bei „Kopf“ nimmt dieser Spieler eine Basis-Energiekarte aus seinem Ablagestapel auf seine Hand."
 	},
 
 

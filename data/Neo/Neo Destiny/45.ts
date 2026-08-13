@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
-		fr: "Otaria"
+		fr: "Otaria",
+		de: "Jurob"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Freezing Breath",
 				fr: "Souffle glacial",
-				de: "Freezing Breath"
+				de: "Eisiger Atem"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -58,12 +59,12 @@ const card: Card = {
 			name: {
 				en: "Ice Pillar",
 				fr: "Colonne de glace",
-				de: "Ice Pillar"
+				de: "Eissäule"
 			},
 			effect: {
 				en: "Until the end of your opponent's next turn, as long as Light Dewgong is your Active Pokémon, prevent all damage done by attacks to your Benched Pokémon. (Any other effects of attacks still happen.)",
 				fr: "Jusqu'à la fin du prochain tour de votre adversaire, tant que Lamantine lumineux est votre Pokémon Actif, prévenez tous les dégâts infligés par des attaques à votre Pokémon du Banc. (Tous les autres effets dus à des attaques subsistent.)",
-				de: "Until the end of your opponent's next turn, as long as Light Dewgong is your Active Pokémon, prevent all damage done by attacks to your Benched Pokémon. (Any other effects of attacks still happen.)"
+				de: "Verhindere bis zum Ende des nächsten Zuges deines Gegners, solange Helles Jugong dein aktives Pokémon ist, allen Schaden, den Angriffe den Pokémon auf deiner Bank zufügen. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 			damage: 40,
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It has an aerodynamic shape that allows it to swim at great speeds. The colder the water gets, the more active it becomes.",
-		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
+		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif.",
+		de: "Es hat eine aerodynamische Form, die ihm erlaubt, mit hoher Geschwindigkeit zu schwimmen. Je kälter das Wasser ist, desto aktiver wird es."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
-		fr: "Rondoudou"
+		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Evolution Song",
 				fr: "Chant évolutionnaire",
-				de: "Evolution Song"
+				de: "Entwicklungslied"
 			},
 			effect: {
 				en: "Your opponent may choose 1 of his or her Pokémon and search his or her deck for a card that evolves from that Pokémon. Your opponent attaches that card to that Pokémon. This counts as evolving that Pokémon. Either way, you may do the same, and then each player who searched shuffles his or her deck.",
 				fr: "Votre adversaire peut choisir un de ses Pokémon et chercher dans son deck une carte Évolution de ce Pokémon. Votre adversaire attache cette carte à ce Pokémon. Quelle que soit sa décision, vous pouvez faire de même. Chaque joueur ayant cherché une carte mélange ensuite son deck.",
-				de: "Your opponent may choose 1 of his or her Pokémon and search his or her deck for a card that evolves from that Pokémon. Your opponent attaches that card to that Pokémon. This counts as evolving that Pokémon. Either way, you may do the same, and then each player who searched shuffles his or her deck."
+				de: "Dein Gegner darf eines seiner Pokémon wählen und sein Deck nach einer Karte durchsuchen, die aus diesem Pokémon entsteht. Dein Gegner legt diese Karte an dieses Pokémon an. Dies zählt als Entwickeln dieses Pokémons. Unabhängig davon darfst du dasselbe tun, und jeder Spieler, der sein Deck durchsucht hat, mischt sein Deck danach."
 			},
 
 		},
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
-				de: "Body Slam"
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "If two of them brush against each other, they will not be able to separate themselves, as they enjoy touching each other's soft fur too much.",
-		fr: "Si deux d'entre eux se frottent l'un contre l'autre, ils ne peuvent plus se séparer. Ils aiment trop sentir la douceur de la fourrure l'un de l'autre."
+		fr: "Si deux d'entre eux se frottent l'un contre l'autre, ils ne peuvent plus se séparer. Ils aiment trop sentir la douceur de la fourrure l'un de l'autre.",
+		de: "Wenn zwei von ihnen sich aneinander reiben, wird man sie nicht mehr voneinander trennen können, dazu lieben sie das Berühren des Fells des anderen viel zu sehr."
 	},
 
 

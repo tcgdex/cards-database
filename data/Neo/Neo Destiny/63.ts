@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Shed",
 				fr: "Mue",
-				de: "Shed"
+				de: "Häuten"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Dratini.",
 				fr: "Retirez un marqueur de dégâts sur Minidraco.",
-				de: "Remove 1 damage counter from Dratini."
+				de: "Entferne eine Schadensmarke von Dratini."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Fury Attack",
 				fr: "Furie",
-				de: "Fury Attack"
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Large from birth, this Pokémon increases in size throughout its life by regularly shedding its skin.",
-		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
+		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau.",
+		de: "Schon von Geburt an ist dieses Pokémon groß, und es wächst jedes Mal weiter, wenn es sich häutet."
 	},
 
 

@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
-				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energiekarte zu."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Energiekarte zu."
 			},
 			damage: "10+",
 
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tail has a brain of its own, which can respond to stimuli such as scents. Many unsuspecting people have been bitten by it.",
-		fr: "Sa queue a sa vie propre. Elle réagit à ce qui l'entoure. Bon nombre de personnes ne se méfiant pas se sont fait mordre."
+		fr: "Sa queue a sa vie propre. Elle réagit à ce qui l'entoure. Bon nombre de personnes ne se méfiant pas se sont fait mordre.",
+		de: "Sein Schwanz hat ein eigenes Gehirn, das auf Anregungen wie zum Beispiel Gerüche reagieren kann. Viele, die das nicht erwartet haben, sind schon unvermutet gebissen worden."
 	},
 
 

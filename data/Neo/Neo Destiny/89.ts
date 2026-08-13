@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Vanish]",
 				fr: "Vanish",
-				de: "Vanish"
+				de: "Vanish [Vanish]"
 			},
 			effect: {
 				en: "When you play Unown V from your hand, you may flip a coin. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)",
 				fr: "Quand vous jouez Zarbi [V] depuis votre main, vous pouvez lancer une pièce. Si c'est face, renvoyez 1 de vos Pokémon Zarbi (autre que Zarbi [V]) dans votre main. (Défaussez-vous de toutes les cartes attachées à ce Pokémon.)",
-				de: "When you play Unown V from your hand, you may flip a coun. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)"
+				de: "Wenn du Icognito [V] aus deiner Hand ausspielst, kannst du eine Münze werfen. Bringe bei „Kopf“ eines deiner Pokémon, das „Icognito“ in seinem Namen hat (außer Icognito [V]) auf deine Hand zurück. (Lege alle an diese Karte angelegten Karten auf deinen Ablagestapel.)"
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten besitzen."
 	},
 
 

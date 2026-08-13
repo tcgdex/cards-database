@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ledyba",
-		fr: "Coxy"
+		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "If you have any Benched Pokémon, switch 1 of them with Light Ledian. As long as that Pokémon is your Active Pokémon, it can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)",
 				fr: "Si vous avez des Pokémon sur votre Banc, échangez l'un d'eux contre Coxyclaque lumineux. Tant que ce Pokémon est votre Pokémon Actif, il ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. (Tous les autres effets d'attaques, Pouvoir Pokémon et cartes Dresseur sont toujours actifs.)",
-				de: "Falls du mindestens ein Pokémon auf deiner Bank hast, tausche eines von diesen mit Helles Ledian. Solange dieses Pokémon dein Aktives Pokémon ist, kann es nicht schlafen, verwirrt, gelähmt oder vergiftet sein. (Alle anderen Effekte von Angriffen, Pokémon-Powers und Trainerkarten finden immer noch statt.)"
+				de: "Falls du mindestens ein Pokémon auf deiner Bank hast, tausche eines von diesen mit Helles Ledian. Solange dieses Pokémon dein aktives Pokémon ist, kann es nicht schlafen, verwirrt, gelähmt oder vergiftet sein. (Alle anderen Effekte von Angriffen, Pokémon-Powers und Trainerkarten finden immer noch statt.)"
 			},
 
 		},
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "The number of spots on its back increase or decrease depending on the number of stars visible in the night sky.",
-		fr: "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne."
+		fr: "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne.",
+		de: "Die Anzahl der Punkte auf seinem Rücken steigt und sinkt mit der Anzahl Sterne, die am Nachthimmel zu sehen sind."
 	},
 
 

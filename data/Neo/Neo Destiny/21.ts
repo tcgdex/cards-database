@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Provoke",
 				fr: "Provocation",
-				de: "Provoke"
+				de: "Provozieren"
 			},
 			effect: {
 				en: "Look at your opponent's hand. If he or she has any Baby Pokémon and/or Basic Pokémon there, you may put any number of them onto your opponent's Bench (as long as there's room). Then, your opponent looks at your hand. If you have any Baby Pokémon and/or Basic Pokémon there, your opponent may put any number of them onto your Bench (as long as there's room).",
 				fr: "Regardez la main de votre adversaire. Si vous y trouvez des Bébés Pokémon et/ou des Pokémon de base, vous pouvez placer n'importe quel nombre d'entre eux sur le Banc de votre adversaire (tant qu'il n'est pas plein). Puis votre adversaire regarde votre main. S'il y trouve des Bébés Pokémon et/ou des Pokémon de base, votre adversaire peut placer n'importe quel nombre d'entre eux sur votre Banc (tant qu'il n'est pas plein).",
-				de: "Look at your opponent's hand. If he or she has any Baby Pokémon and/or Basic Pokémon there, you may put any number of them onto your opponent's Bench (as long as there's room). Then, your opponent looks at your hand. If you have any Baby Pokémon and/or Basic Pokémon there, your opponent may put any number of them onto your Bench (as long as there's room)."
+				de: "Schau dir die Karten auf der Hand deines Gegners an. Wenn er mindestens ein Baby-Pokémon und/oder Basis-Pokémon darunter hat, kannst du eine beliebige Anzahl davon auf die Bank deines Gegners legen (solange dort Platz ist). Dann schaut sich dein Gegner die Karten auf deiner Hand an. Wenn du mindestens ein Baby-Pokémon und/oder Basis-Pokémon auf der Hand hast, kann dein Gegner eine beliebige Anzahl davon auf deine Bank legen (solange dort Platz ist)."
 			},
 
 		},
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Battle Frenzy",
 				fr: "Frénésie du combat",
-				de: "Battle Frenzy"
+				de: "Kampfrausch"
 			},
 			effect: {
 				en: "For each Pokémon in play (yours and your opponent's), flip a coin. For each heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack.",
 				fr: "Pour chaque Pokémon en jeu (ceux de votre adversaire et les vôtres), lancez une pièce. Pour chaque face, cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse ni la Résistance pour cette attaque.",
-				de: "For each Pokémon in play (yours and your opponent's), flip a coin. For each heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack."
+				de: "Wirf für jedes Pokémon im Spiel (deine und die deines Gegners) eine Münze. Für jedes Mal „Kopf“ fügt dieser Angriff dem entsprechenden Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz bei diesem Angriff nicht an."
 			},
 
 		},
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "Its keen nose can pick out any scent, even that of food buried deep underground.",
-		fr: "Son sens aiguisé de l'odorat détecte la moindre odeur, même celle de la nourriture quand elle est enfouie profondément."
+		fr: "Son sens aiguisé de l'odorat détecte la moindre odeur, même celle de la nourriture quand elle est enfouie profondément.",
+		de: "Seine feine Nase kann jeden Geruch erkennen, selbst den von Essen, das tief vergraben ist."
 	},
 
 

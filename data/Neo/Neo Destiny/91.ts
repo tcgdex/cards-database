@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Ember"
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to this Pokémon in order to use this attack.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Goupix pour pouvoir utiliser cette attaque.",
-				de: "Discard 1 Energy card attached to Vulpix in order to use this attack."
+				de: "Lege eine an Vulpix angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
 			},
 			damage: 30,
 
@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "As it grows older, its white tail changes colors and splits into six different tails. Its body radiates a faint warmth.",
-		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur."
+		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur.",
+		de: "Wenn es älter wird, wechselt sein weißer Schwanz seine Farbe und teilt sich in sechs verschiedene Schwänze auf. Sein Körper strahlt eine leichte Wärme aus."
 	},
 
 

@@ -53,7 +53,8 @@ const card: Card = {
 
 	description: {
 		en: "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",
-		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
+		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures.",
+		de: "Es hängt von Zweigen herunter und wartet auf Insekten, die ihm ins Maul fliegen. Dabei bewegt es sich oft stundenlang nicht."
 	},
 
 

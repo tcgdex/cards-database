@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Laugh]",
 				fr: "Laugh",
-				de: "Laugh"
+				de: "Laugh [Laugh]"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, each player shuffles his or her deck. This power can be used even if Unown L is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, chaque joueur mélange son deck. Ce pouvoir fonctionne même si Zarbi [L] est Endormi, Confus ou Paralysé.",
-				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werden. Bei \"Kopf\" mischt jeder Spieler sein Deck. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito J schläft, verwirrt oder gelähmt ist."
+				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Bei „Kopf“ mischt jeder Spieler sein Deck. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito [L] schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten haben."
 	},
 
 

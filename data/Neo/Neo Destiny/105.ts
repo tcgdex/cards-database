@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "You can't play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand.",
 		fr: "Vous ne pouvez pas jouer cette carte si vous avez 5 cartes ou plus dans votre main (y compris celle-ci). Piochez des cartes jusqu'à ce que votre main soit de 4 cartes.",
-		de: "You can´t play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand."
+		de: "Du kannst diese Karte nicht spielen, wenn du fünf oder mehr Karten auf deiner Hand hast (einschließlich dieser hier). Ziehe so viele Karten, bis du genau vier Karten auf deiner Hand hast."
 	},
 
 

@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -52,7 +52,8 @@ const card: Card = {
 
 	description: {
 		en: "Its soft wool coat captures air, allowing it to remain cool during the summer and warm in the winter.",
-		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
+		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver.",
+		de: "Seine weiche Wolle filtert die Luft und hält es so während des Sommers kühl und im Winter warm."
 	},
 
 

@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Chase]",
 				fr: "[Chase]",
-				de: "Chase"
+				de: "Chase [Chase]"
 			},
 			effect: {
 				en: "As long as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance.",
 				fr: "Tant que Zarbi [C] est votre Pokémon Actif, si le Pokémon Actif de votre adversaire essaie de battre en retraite, lancez une pièce. Si c'est face, placez 1 marqueur de dégâts sur ce Pokémon. Appliquez la Faiblesse et la Résistance.",
-				de: "As laong as Unown C is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance"
+				de: "Solange Icognito [C] dein aktives Pokémon ist, wirf immer ,wenn das aktive Pokémon deines Gegners versucht sich zurückzuziehen, eine Münze. Lege bei „Kopf“ 1 Schadensmarke auf dieses Pokémon. Wende Schwäche und Resistenz an."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten besitzen."
 	},
 
 

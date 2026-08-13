@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Threaten",
 				fr: "Menace",
-				de: "Threaten"
+				de: "Bedrohen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire. S'il a des cartes Dresseur, choisissez-en une. Votre adversaire mélange cette carte à son deck.",
-				de: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck."
+				de: "Wirf eine Münze. Schaue dir bei „Kopf“ die Karten auf der Hand deines Gegners an. Wenn er darunter mindestens eine Trainerkarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},
@@ -57,7 +58,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws.",
-		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
+		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau.",
+		de: "Niemand kann dem Druck des Schraubstockgriffs der Stahlklauen dieses Pokémon widerstehen."
 	},
 
 
