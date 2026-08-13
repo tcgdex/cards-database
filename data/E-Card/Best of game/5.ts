@@ -73,7 +73,10 @@ const card: Card = {
 			stamp: ["winner"],
 			size: "jumbo"
 		}
-	]
+	],
+	thirdParty: {
+		cardmarket: 275415,
+	}
 }
 
 export default card
