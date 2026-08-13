@@ -74,6 +74,9 @@ const card: Card = {
 	description: {
 		en: "Dr.オーヤマ考案「日米交流カード」パーティ気分で和洋せっちゅう。",
 	},
+	thirdParty: {
+		cardmarket: 293471,
+	},
 }
 
 export default card
