@@ -69,7 +69,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Water Energy attached to Latios.",
 				fr: "Défaussez une Énergie  attachée à Latios.",
-				de: "Lege eine -Energiekarte, die an Latios angelegt ist, auf deinen Ablagestapel."
+				de: "Lege eine {W}-Energiekarte, die an Latios angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 50,
 

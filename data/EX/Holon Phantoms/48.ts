@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "If any Stadium card with Holon in its name is in play, draw 3 cards.",
 				fr: "Si une carte Stade dont le nom comporte Holon est en jeu, piochez 3 cartes.",
-				de: "Wenn sich eine Stadion-Karte mit \"Holon\" im Namen im Spiel befindet, ziehe 3 Karten."
+				de: "Wenn sich eine Stadion-Karte mit „Holon“ im Namen im Spiel befindet, ziehe 3 Karten."
 			},
 			damage: 30,
 

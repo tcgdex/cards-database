@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Claw Fossil",
-		fr: "Fossile griffe"
+		fr: "Fossile griffe",
+		de: "Klauenfossil"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
