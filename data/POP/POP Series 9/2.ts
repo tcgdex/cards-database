@@ -4,7 +4,8 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Manaphy",
-		fr: "Manaphy"
+		fr: "Manaphy",
+		de: "Manaphy"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
-				fr: "Plongée"
+				fr: "Plongée",
+				de: "Taucher"
 			},
 			effect: {
 				en: "Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.",
-				fr: "Regardez les 7 cartes du dessus de votre deck. Choisissez-en 1 et placez-la dans votre main. Replacez les autres cartes au dessus de votre deck. Ensuite, mélangez votre deck."
+				fr: "Regardez les 7 cartes du dessus de votre deck. Choisissez-en 1 et placez-la dans votre main. Replacez les autres cartes au dessus de votre deck. Ensuite, mélangez votre deck.",
+				de: "Schau dir die obersten 7 Karten deines Decks an, wähle 1 von ihnen und nimm sie auf die Hand. Lege die restlichen Karten zurück auf dein Deck. Mische dein Deck danach."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Glow",
-				fr: "Eau scintillante"
+				fr: "Eau scintillante",
+				de: "Wasserschimmer"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Ensuite, retirez à Manaphy autant de marqueurs de dégât que vous avez infligé de dégâts à ce Pokémon."
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Ensuite, retirez à Manaphy autant de marqueurs de dégât que vous avez infligé de dégâts à ce Pokémon.",
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Danach entferne von Manaphy Schadensmarken entsprechend der Höhe der Schadenspunkte, die dem gewählten Pokémon zugefügt wurden."
 			}
 
 		},
@@ -63,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
-		fr: "Il est né avec le pouvoir incroyable de créer des liens avec n'importe quel Pokémon."
+		fr: "Il est né avec le pouvoir incroyable de créer des liens avec n'importe quel Pokémon.",
+		de: "Es wird mit einer wundersamen Kraft geboren, die eine Bindung zu jedem anderen Pokémon möglich macht."
 	},
 
 	variants: [

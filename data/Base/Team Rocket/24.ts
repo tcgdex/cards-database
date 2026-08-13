@@ -24,8 +24,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weavile",
-		fr: "Nosferapti"
+		en: "Zubat",
+		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pokémon. If you do, Dark Golbat does 10 damage to that Pokémon. Apply Weakness and Resistance.",
 				fr: "Lorsque vous jouez Nosferalto obscur depuis votre main, vous pouvez choisir 1 des Pokémon de votre adversaire. Dans ce cas, Nosferalto obscur inflige 10 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance).",
-				de: "Wenn du Dunkles Golbat von deiner Hand spielst, kannst du ein Pokémon deines Gegners wählen. In diesem Fall fügt Dunkles Golbat diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistnz anwenden.)"
+				de: "Wenn du Dunkles Golbat von deiner Hand spielst, kannst du ein Pokémon deines Gegners wählen. In diesem Fall fügt Dunkles Golbat diesem Pokémon 10 Schadenspunkte zu. (Schwäche und Resistenz anwenden.)"
 			},
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
-				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pok4emon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle Auswirkungennach der Anwendung von Schwäche und Resistenz finden immer noch statt)"
+				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			}
 
 		},
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Sneaks up silently on its prey and attacks it from behind, sometimes killing it with one bite.",
-		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure."
+		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure.",
+		de: "Schleicht sich geräuschlos an seine Beute heran und greift hinterrücks an, wobei es seine Beute oft mit nur einem Biss tötet."
 	},
 
 

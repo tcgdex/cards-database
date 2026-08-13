@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Recharge",
-				fr: "Recharge"
+				fr: "Recharge",
+				de: "Wieder aufladen"
 			},
 			effect: {
 				en: "Search your deck for a Energy card and attach it to Pikachu. Shuffle your deck afterward.",
-				fr: "Dans votre deck, cherchez une carte  Energie et attachez-la à Pikachu. Ensuite, mélangez votre deck."
+				fr: "Dans votre deck, cherchez une carte  Energie et attachez-la à Pikachu. Ensuite, mélangez votre deck.",
+				de: "Suche in Deinem Kartenstapel nach einer {L} Energiekarte und füge sie an Pikachu. Danach mische Deine Spielkarten."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Pikachu in order to use this attack.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu pour utiliser cette attaque."
+				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu pour utiliser cette attaque.",
+				de: "Lege alle Pikachu zugeteilten Energiekarten ab, um diesen Angriff durchzuführen."
 			},
 			damage: 50,
 
@@ -68,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
+		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre.",
+		de: "Wenn sich mehrere dieser Pokémon versammeln, ziehen sie so viel Elektrizität an, dass dadurch ein Blitzeinschlag verursacht wird."
 	},
 
 	variants: [

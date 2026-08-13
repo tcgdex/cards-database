@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Roselia",
-		fr: "Roselia"
+		fr: "Roselia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can't be used if Roserade is affected by a Special Condition.",
 				fr: "Lorsque vous attachez une carte Énergie Grass ou Énergie Psychic de votre main à Roserade, vous pouvez utiliser ce pouvoir. Si vous attachez une carte Énergie Grass, le Pokémon Défenseur est maintenant Confus. Si vous attachez une carte Énergie Psychic, le Pokémon Défenseur est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Roserade est affecté par un État Spécial.",
-				de: "Wenn du in deinem Zug 1 -Energiekarte oder 1 -Energiekarte aus deiner Hand an Roserade anlegst, kannst du diese Poké-Power verwenden. Wenn du 1 -Energiekarte anlegst, ist das Verteidigende Pokémon jetzt verwirrt. Wenn du 1 -Energiekarte anlegst, ist das Verteidigende Pokémon jetzt vergifet. Diese Poké-Power kann nicht benutzt werden, wenn Roserade von einem Speziellen Zustand betroffen ist."
+				de: "Wenn du in deinem Zug 1 {G}-Energiekarte oder 1 {P}-Energiekarte aus deiner Hand an Roserade anlegst, kannst du diese Poké-Power verwenden. Wenn du 1 {G}-Energiekarte anlegst, ist das Verteidigende Pokémon jetzt verwirrt. Wenn du 1 {P}-Energiekarte anlegst, ist das Verteidigende Pokémon jetzt vergiftet. Diese Poké-Power kann nicht benutzt werden, wenn Roserade von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma."
+		en: "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma.",
+		de: "Es lockt seine Beute mit süßem Duft an und vergiftet sie. Je stärker das Gift, desto stärker sein Duft."
 	},
 
 	variants: [

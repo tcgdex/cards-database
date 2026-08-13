@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "All Pokémon Powers stop working until the end of your next turn.",
 				fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour.",
-				de: "Alle Pokémon-Power funktionieren bis zum Ende deines nächsten Zuges nicht mehr."
+				de: "Alle Pokémon-Power funktionieren bis zum Ende deines nächsten Zugs nicht mehr."
 			},
 			damage: 10,
 
@@ -47,7 +47,8 @@ const card: Card = {
 
 	description: {
 		en: "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
-		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
+		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines.",
+		de: "Jedesmal, wenn es ein- und ausatmet, tröpfelt heiße Glut aus Mund und Nasenlöchern."
 	},
 
 

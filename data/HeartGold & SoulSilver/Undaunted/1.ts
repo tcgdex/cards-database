@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Bellossom is now Asleep.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Joliflor est maintenant Endormi.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Blubella schläft jetzt."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu. Blubella schläft jetzt."
 			},
 			damage: "30×",
 
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun."
+		en: "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun.",
+		de: "BLUBELLA kommen zusammen, um zu tanzen. Man sagt, dieser Tanz sei ein Ritual, um der Sonne zu huldigen."
 	},
 
 	variants: [

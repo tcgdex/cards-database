@@ -4,7 +4,8 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,

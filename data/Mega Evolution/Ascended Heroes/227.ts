@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Snorunt"
 	},
 
-	illustrator: "Dsuke",
+	illustrator: "June",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [361],

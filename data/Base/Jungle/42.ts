@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Persian",
 		fr: "Persian",
-		de: "Snobilikat",
-		it: "Persian"
+		it: "Persian",
+		de: "Snobilikat"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
-		it: "Meowth"
+		it: "Meowth",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -41,8 +42,8 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
-				de: "Kratzer",
-				it: "Graffio"
+				it: "Graffio",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -57,14 +58,14 @@ const card: Card = {
 			name: {
 				en: "Pounce",
 				fr: "Bond",
-				de: "Katzensprung",
-				it: "Balzo"
+				it: "Balzo",
+				de: "Katzensprung"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks Persian during your opponent's next turn, any damage done by the attack is reduce by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 				fr: "Si le Pokémon Défenseur attaque Persian pendant le prochain tour de votre adversaire, les dégâts infligés par cette attaque sont réduits de 10 (après application de la Faiblesse et de la Résistance). (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)",
-				de: "Greift das verteidigende Pokémon Snobilikat während des nächsten gegnerischen Zuges an, wird der vom Angriff angerichtete Schaden (nachdem Schwäche und Resistenz abgerechnet wurden) um 10 reduziert. (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nicht weiter gültig.)",
-				it: "Se l'attuale Pokémon Difensore attacca Persian durante il prossimo turno del tuo avversario, qualsiasi danno inflitto dall'attacco viene ridotto di 10 (dopo avere applicato Debolezza e Resistenza) (mettendo in Panchina uno dei due Pokémon l'effetto termina)."
+				it: "Se l'attuale Pokémon Difensore attacca Persian durante il prossimo turno del tuo avversario, qualsiasi danno inflitto dall'attacco viene ridotto di 10 (dopo avere applicato Debolezza e Resistenza) (mettendo in Panchina uno dei due Pokémon l'effetto termina).",
+				de: "Greift das verteidigende Pokémon Snobilikat während des nächsten gegnerischen Zuges an, wird der vom Angriff angerichtete Schaden (nachdem Schwäche und Resistenz abgerechnet wurden) um 10 reduziert. (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nicht weiter gültig.)"
 			},
 			damage: 30,
 
@@ -88,7 +89,8 @@ const card: Card = {
 	description: {
 		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
 		fr: "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif.",
-		it: "Sebbene la sua pelliccia sia molto apprezzata, è difficile addomesticarlo a causa del suo carattere scontroso."
+		it: "Sebbene la sua pelliccia sia molto apprezzata, è difficile addomesticarlo a causa del suo carattere scontroso.",
+		de: "Obwohl sein Fell viele Bewunderer findet, ist es wegen seiner launischen Gemeinheit schwer als Haustier zu halten."
 	},
 
 

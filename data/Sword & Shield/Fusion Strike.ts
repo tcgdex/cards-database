@@ -9,7 +9,7 @@ const swsh8: Set = {
 		fr: "Poing de Fusion",
 		es: "Golpe Fusión",
 		it: "Colpo Fusione",
-		de: "Fusions Angriff",
+		de: "Fusionsangriff",
 		pt: "Golpe Fusão"
 	},
 

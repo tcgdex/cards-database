@@ -46,10 +46,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Space Virus"
+				en: "Space Virus",
+				de: "Weltraumvirus"
 			},
 			effect: {
-				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card."
+				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card.",
+				de: "Wenn ein Pokémon deines Gegners durch Schaden eines Angriffs von Rayquaza & Deoxys-LEGENDE kampfunfähig gemacht wurde, nimm 1 zusätzlichen Preis."
 			}
 		},
 	],

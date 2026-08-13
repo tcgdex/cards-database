@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "During opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Onix (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Immer wenn Onix während des nächsten gegnerischen Zugs 30 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden (nachdem Schwäche und Resistenz abgerechnet wurden), (Alle anderen Auwirkungen von Angriffen finden immer noch statt).",
+				de: "Immer wenn Onix während des nächsten gegnerischen Zugs 30 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden (nachdem Schwäche und Resistenz abgerechnet wurden). (Alle anderen Auswirkungen von Angriffen finden immer noch statt).",
 				it: "Durante il prossimo turno del tuo avversario, ogni volta che a Onix vengono inflitti 30 o meno (dopo aver usato Debolezza e Resistenza), previeni tale danno. (Tutti gli altri effetti degli attacchi restano validi.)",
 			},
 
@@ -74,7 +74,8 @@ const card: Card = {
 	description: {
 		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 		fr: "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire.",
-		it: "Man mano che cresce, la parte di pietra del suo corpo si indurisce fino a diventare simile al diamante, ma di colore nero. LIV 12 N.95"
+		it: "Man mano che cresce, la parte di pietra del suo corpo si indurisce fino a diventare simile al diamante, ma di colore nero. LIV 12 N.95",
+		de: "Während seines Wachstums verhärten sich die Steinteile seines Körpers zu diamantenähnlichen schwarzen Elementen."
 	},
 
 	variants: [

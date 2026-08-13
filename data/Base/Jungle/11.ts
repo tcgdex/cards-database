@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
-		de: "Relaxo",
-		it: "Snorlax"
+		it: "Snorlax",
+		de: "Relaxo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Munchlax",
-		it: "Munchlax"
+		it: "Munchlax",
+		de: "Mampfaxo"
 	},
 
 	stage: "Basic",
@@ -37,14 +38,14 @@ const card: Card = {
 			name: {
 				en: "Thick Skinned",
 				fr: "Dur à cuire",
-				de: "Dickhäuter",
-				it: "Pellaccia"
+				it: "Pellaccia",
+				de: "Dickhäuter"
 			},
 			effect: {
 				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
 				fr: "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé.",
-				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet weden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo scchläft, verwirrt oder gelähmt ist.",
-				it: "Snorlax non può essere Addormentato, Confuso, Paralizzato o Avvelenato. Questo potere non funziona quando Snorlax è già Addormentato, Confuso o Paralizzato."
+				it: "Snorlax non può essere Addormentato, Confuso, Paralizzato o Avvelenato. Questo potere non funziona quando Snorlax è già Addormentato, Confuso o Paralizzato.",
+				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet werden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -60,14 +61,14 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
-				de: "Bodyslam",
-				it: "Body Slam"
+				it: "Body Slam",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jezt gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -93,7 +94,8 @@ const card: Card = {
 	description: {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant.",
-		it: "Molto pigro, mangia e dorme solamente. Più ingrassa più diventa svogliato."
+		it: "Molto pigro, mangia e dorme solamente. Più ingrassa più diventa svogliato.",
+		de: "Totaler Faulenzer. Frisst und schläft nur. Je mehr seine rundliche Masse zunimmt, desto träger wird es."
 	},
 
 

@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Mareep",
-		fr: "Mareep"
+		fr: "Mareep",
+		de: "Voltilamm"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
-				fr: "Choc statique"
+				fr: "Choc statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,
@@ -66,7 +70,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
+		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+		de: "Sein weiches Fell wird doppelt so dick, wenn sich Elektrizität aufbaut."
 	},
 
 	retreat: 1,

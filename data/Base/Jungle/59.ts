@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Paras",
 		fr: "Paras",
-		de: "Paras",
-		it: "Paras"
+		it: "Paras",
+		de: "Paras"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,8 +35,8 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
-				de: "Kratzer",
-				it: "Graffio"
+				it: "Graffio",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 			name: {
 				en: "Spore",
 				fr: "Spore",
-				de: "Pilzspore",
-				it: "Spore"
+				it: "Spore",
+				de: "Pilzspore"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend.",
-				it: "Il Pokémon Difensore è Addormentato."
+				it: "Il Pokémon Difensore è Addormentato.",
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -75,7 +75,8 @@ const card: Card = {
 	description: {
 		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde.",
-		it: "Scava il terreno per succhiare liquidi dalle radici. I funghi sul suo dorso crescono assorbendo nutrimento dal bruco ospite."
+		it: "Scava il terreno per succhiare liquidi dalle radici. I funghi sul suo dorso crescono assorbendo nutrimento dal bruco ospite.",
+		de: "Buddelt sich ein, um an Baumwurzeln zu saugen. Die Pilze auf seinem Rücken wachsen, weil sie dem Käferwirt Nährstoffe entziehen."
 	},
 
 

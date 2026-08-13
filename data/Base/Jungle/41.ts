@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Parasect",
 		fr: "Parasect",
-		de: "Parasek",
-		it: "Parasect"
+		it: "Parasect",
+		de: "Parasek"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Paras",
 		fr: "Paras",
-		it: "Paras"
+		it: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -41,14 +42,14 @@ const card: Card = {
 			name: {
 				en: "Spore",
 				fr: "Spore",
-				de: "Pilzspore",
-				it: "Spore"
+				it: "Spore",
+				de: "Pilzspore"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend.",
-				it: "Il Pokémon Difensore è Addormentato."
+				it: "Il Pokémon Difensore è Addormentato.",
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -61,8 +62,8 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Schlitzer",
-				it: "Lacerazione"
+				it: "Lacerazione",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -82,7 +83,8 @@ const card: Card = {
 	description: {
 		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte.",
-		it: "Un'accoppiata ospite-parassita dove il fungo parassita prevale sul bruco ospite. Predilige i posti umidi."
+		it: "Un'accoppiata ospite-parassita dove il fungo parassita prevale sul bruco ospite. Predilige i posti umidi.",
+		de: "Ein Wirt-Parasitenverhältnis, in dem der Parasitenpilz den Wirtskäfer übernommen hat. Zieht feuchte Orte vor."
 	},
 
 

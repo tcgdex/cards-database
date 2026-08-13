@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Revive Friends",
 				fr: "Réanimation",
-				de: "Revive Friends"
+				de: "Freunde wiederbeleben"
 			},
 			effect: {
 				en: "Once during your turn (before you attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full).",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Kabuto et placez-la sur votre Banc. Mélangez ensuite votre deck. Utilisez le nouveau Kabuto comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Kabuto est Endormi, Confus ou Paralysé (ou si votre Banc est plein).",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) eine Münze werfen. Durchsuche bei „Kopf“ dein Deck nach einer Karte namens Kabuto und lege sie auf deine Bank. Mische danach dein Deck. Behandle das neue Kabuto wie ein Basis-Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Kabuto schläft, verwirrt oder gelähmt ist (oder deine Bank voll ist)."
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Work Together",
 				fr: "Synergie",
-				de: "Work Together"
+				de: "Zusammenarbeit"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 10 dégâts supplémentaires pour chaque Amonita, Amonistar, Kabuto et Kabutops sur votre Banc.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Amonitas, Amoroso, Kabuto und/oder Kabutops, das auf deiner Bank ist, zu."
 			},
 			damage: "10+",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",
-		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
+		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan.",
+		de: "In seltenen Fällen wurden einige als Fossilien gefunden. Sie versteinerten, während sie sich am Meeresboden versteckt hielten."
 	},
 
 

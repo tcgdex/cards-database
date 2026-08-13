@@ -4,7 +4,8 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Celebi ex",
-		fr: "Celebi ex"
+		fr: "Celebi ex",
+		de: "Celebi ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -27,11 +28,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Time Reversal",
-				fr: "Remonter dans le temps"
+				fr: "Remonter dans le temps",
+				de: "Zeit Umkehrung"
 			},
 			effect: {
 				en: "Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Celebi ex de votre main sur votre Banc, vous pouvez chercher une carte dans votre pile de défausse. Montrez-la à votre adversaire et placez-la au dessus de votre deck."
+				fr: "Une seule fois pendant votre tour, lorsque vous placez Celebi ex de votre main sur votre Banc, vous pouvez chercher une carte dans votre pile de défausse. Montrez-la à votre adversaire et placez-la au dessus de votre deck.",
+				de: "Während deines Zuges, wenn du Celebi ex auf die Bank legst, kannst du ein Mal deinen Ablagestapel nach 1 Karte durchsuchen, sie deinem Gegner zeigen und auf dein Deck legen."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Shield",
-				fr: "Bouclier psychique"
+				fr: "Bouclier psychique",
+				de: "Psychoschild"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon-ex during your opponent's next turn.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Celebi ex par le Pokémon-ex de votre adversaire lors du prochain tour de votre adversaire."
+				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Celebi ex par le Pokémon-ex de votre adversaire lors du prochain tour de votre adversaire.",
+				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Celebi ex von gegnerischen Pokémon-ex zugefügt werden."
 			},
 			damage: 30,
 

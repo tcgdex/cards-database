@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Wigglytuff",
 		fr: "Grodoudou",
-		de: "Knuddeluff",
-		it: "Wigglytuff"
+		it: "Wigglytuff",
+		de: "Knuddeluff"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
-		it: "Jigglypuff"
+		it: "Jigglypuff",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -40,14 +41,14 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
-				de: "Wiegenlied",
-				it: "Ninna nanna"
+				it: "Ninna nanna",
+				de: "Wiegenlied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend",
-				it: "Il Pokémon Difensore è Addormentato."
+				it: "Il Pokémon Difensore è Addormentato.",
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -60,14 +61,14 @@ const card: Card = {
 			name: {
 				en: "Do the Wave",
 				fr: "Faites la vague",
-				de: "Wellenreiten",
-				it: "Fare la ola"
+				it: "Fare la ola",
+				de: "Wellenreiten"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
 				fr: "Infligez 10 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon de votre Banc.",
-				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank zu.",
-				it: "Infligge 10 danni più altri 10 danni per ogni Pokémon che hai in Panchina."
+				it: "Infligge 10 danni più altri 10 danni per ogni Pokémon che hai in Panchina.",
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank zu."
 			},
 			damage: "10+",
 
@@ -93,7 +94,8 @@ const card: Card = {
 	description: {
 		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
 		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques.",
-		it: "Il suo corpo è soffice ed elastico. Quando si arrabbia, risucchia aria, si gonfia e diventa enorme."
+		it: "Il suo corpo è soffice ed elastico. Quando si arrabbia, risucchia aria, si gonfia e diventa enorme.",
+		de: "Sein Körper ist weich und gummiartig. Wenn es wütend wird, saugt es Luft ein und bläst sich auf eine enorme Größe auf."
 	},
 
 

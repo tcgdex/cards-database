@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -64,7 +65,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself.",
 				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Magneton s'inflige 100 dégâts.",
-				de: "Fügt jedem Pokémon auf der Bank einees jeden Spielers 20 Scahdenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden)Magneton fügt sich selbst 100 Schadenspunkte zu."
+				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Magneton fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
-		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille."
+		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
+		de: "Entsteht aus mehreren miteinander verbundenen Magnetilos. Sie kommen oft beim Aufflackern von Sonnenflecken zum Vorschein."
 	},
 
 

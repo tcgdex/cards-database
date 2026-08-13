@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magmar",
-		fr: "Magmar"
+		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Fire Energy attached to Magmortar.",
 				fr: "Défaussez 2 cartes Énergie Fire attachées à Maganon.",
-				de: "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
+				de: "Lege 2 an Magbrant angelegte {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -80,7 +81,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
+		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+		de: "Es schießt 2 000 Grad heiße Feuerbälle aus den Enden seiner Arme. Selbst sein Atem steht in Flammen."
 	},
 
 	variants: [

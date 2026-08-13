@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weedle",
-		fr: "Aspicot"
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+		de: "Obwohl es ein Kokon ist, kann es sich bewegen. Wird es angegriffen, fährt es seinen Giftstachel aus."
 	},
 
 	variants: [

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one.",
+		de: "Entwickelt es sich, wirft es seinen alten Stahlpanzer ab und bildet einen neuen aus."
 	},
 
 	variants: [

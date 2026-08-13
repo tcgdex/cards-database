@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis 1 des Pokémon de votre adversaire vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut être utilisé si Ectoplasma est Endormi, Confus ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gegna schläft,verwirrt oder gelähmt ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gengar schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
-		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
+		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi.",
+		de: "Bei Vollmond ahmt dieses Pokémon gerne die Schatten von Passanten nach und freut sich über deren Angst."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
-				de: "Rear Kick"
+				de: "Rückwärtskick"
 			},
 
 			damage: 20,
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Flame Pillar",
 				fr: "Colonne de flammes",
-				de: "Flame Pillar"
+				de: "Flammensäule"
 			},
 			effect: {
 				en: "You may discard 1 Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Vous pouvez défausser 1 carte Énergie  attachée à Galopa obscur lorsque vous utilisez cette attaque. Dans ce cas, et si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance au Pokémon du Banc).",
-				de: "You may discard 1  Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and resistance for benched Pokémon.)"
+				de: "Du darfst eine auf Dunkles Gallopa abgelegte {R}-Energiekarte entfernen, wenn du diesen Angriff einsetzt. In diesem Fall und falls dein Gegner Pokémon auf der Bank hat, wähle eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 
@@ -74,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "A wild, uncontrollable Pokémon. When running, it looks like a comet streaking through the sky.",
-		fr: "C'est un Pokémon sauvage et indomptable. Lorsqu'il galope, on dirait une comète traversant les cieux."
+		fr: "C'est un Pokémon sauvage et indomptable. Lorsqu'il galope, on dirait une comète traversant les cieux.",
+		de: "Ein wildes, unkontrollierbares Pokémon. Wenn es galoppiert, sieht es wie ein Komet aus, der durch den Himmel streift."
 	},
 
 

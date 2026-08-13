@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Deoxys ex",
-		fr: "Deoxys ex"
+		fr: "Deoxys ex",
+		de: "Deoxys ex"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -27,11 +28,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Form Change",
-				fr: "Changement de forme"
+				fr: "Changement de forme",
+				de: "Gestaltwandel"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une autre Deoxys ex et l'échanger avec Deoxys ex. (Toutes les autres cartes qui lui sont attachées, marqueurs de dégât, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Deoxys ex au-dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Changement de forme par tour."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une autre Deoxys ex et l'échanger avec Deoxys ex. (Toutes les autres cartes qui lui sont attachées, marqueurs de dégât, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Deoxys ex au-dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Changement de forme par tour.",
+				de: "Während deines Zuges (vor deinem Angriff) kannst du ein Mal dein Deck nach einer anderen Deoxys ex-Karte durchsuchen und diese gegen Deoxys ex austauschen. (Alle an Deoxys ex angelegten Karten sowie Schadensmarken, Spezielle Zustände und Effekte auf Deoxys ex werden auf das neue Pokémon übertragen.) Wenn du dies machst, lege Deoxys ex auf dein Deck. Mische dein Deck danach. Du kannst nicht mehr als 1 Gestaltwandel Poké-Power pro Zug einsetzen."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fastwave",
-				fr: "Lame de fond"
+				fr: "Lame de fond",
+				de: "Rasende Schallwelle"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "Resistenz, Poké-Powers, Poké-Bodies und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 50,
 

@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Tail Rap",
 				fr: "Frap’keu",
-				de: "Schweifklopfer"
+				de: "Schweifklopfen"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back."
+		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+		de: "Ist es erwachsen, lässt es sich gern von seinen Kameraden Fußabdrücke auf den Rücken setzen."
 	},
 
 	variants: [

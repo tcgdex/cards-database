@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Magnetism",
 				fr: "Magnétisme",
-				de: "Magnetism"
+				de: "Magnetismus"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc.",
-				de: "Does 10 damage plus 10 more damage for each Magnemite, Megneton and Dark Magneton on your Bench."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo, Magneton und Dunkle Magneton auf deiner Bank zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
-		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
+		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique.",
+		de: "Man sagt, dass genügend Magnetilos und Magnetons zusammen an einem Ort eine starke magnetische Barriere errichten können."
 	},
 
 

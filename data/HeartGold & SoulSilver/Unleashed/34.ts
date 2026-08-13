@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn sich Plusle auf deiner Bank befindet fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wenn sich Plusle auf deiner Bank befindet, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -76,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+		de: "Mit elektrischen Schlägen regen PLUSLE und MINUN den Blutkreislauf an und lösen so Verspannungen."
 	},
 
 	variants: [

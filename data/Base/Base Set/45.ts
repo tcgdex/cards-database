@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
@@ -60,7 +60,8 @@ const card: Card = {
 	description: {
 		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 		fr: "Ses petites pattes sont équipées de ventouses, lui permettant de grimper aux murs.",
-		it: "La punta dei suoi piedini è costituita da ventose che gli consentono di arrampicarsi senza fatica su muri e pendenze. LIV 13 N.10"
+		it: "La punta dei suoi piedini è costituita da ventose che gli consentono di arrampicarsi senza fatica su muri e pendenze. LIV 13 N.10",
+		de: "Seine kurzen Füße sind mit Saugnäpfen versehen, mit deren Hilfe es mühelos Abhänge und Mauern ersteigen kann."
 	},
 
 	variants: [

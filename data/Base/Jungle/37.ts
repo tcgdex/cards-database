@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Gloom",
 		fr: "Ortide",
-		de: "Duflor",
-		it: "Gloom"
+		it: "Gloom",
+		de: "Duflor"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Mystherbe",
-		it: "Oddish"
+		it: "Oddish",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -40,14 +41,14 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Giftpuder",
-				it: "Velenpolvere"
+				it: "Velenpolvere",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet.",
-				it: "Il Pokémon Difensore è Avvelenato."
+				it: "Il Pokémon Difensore è Avvelenato.",
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			}
 
 		},
@@ -59,14 +60,14 @@ const card: Card = {
 			name: {
 				en: "Foul Odor",
 				fr: "Odeur fétide",
-				de: "Fäulnisgeruch",
-				it: "Puzza"
+				it: "Puzza",
+				de: "Fäulnisgeruch"
 			},
 			effect: {
 				en: "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
 				fr: "Le Pokémon Défenseur et Ortide sont maintenant tous deux Confus (après le calcul des dégâts).",
-				de: "Sowohl das verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nach der Schadensverteilung).",
-				it: "Sia il Pokémon Difensore sia Gloom sono Confusi (dopo aver inflitto i danni)."
+				it: "Sia il Pokémon Difensore sia Gloom sono Confusi (dopo aver inflitto i danni).",
+				de: "Sowohl das verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: 20,
 
@@ -85,7 +86,8 @@ const card: Card = {
 	description: {
 		en: "The fluid that oozes from its mouth isn't drool; it is a nectar that is used to attract prey.",
 		fr: "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie.",
-		it: "Il fluido che cola dalla sua bocca non è bava: è un nettare che usa per attirare le prede."
+		it: "Il fluido che cola dalla sua bocca non è bava: è un nettare che usa per attirare le prede.",
+		de: "Die von seiner Schnauze herunterlaufende Flüssigket ist nicht Geifer, sondern vielmehr Nektar zum Anlocken der Beute."
 	},
 
 

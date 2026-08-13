@@ -7,6 +7,7 @@ const bw10: Set = {
 	name: {
 		en: "Plasma Blast",
 		fr: "Explosion Plasma",
+		it: "Esplosione Plasma",
 		de: "Plasma-Blaster",
 		pt: "Explosão de Plasma" // also "Explosão Plasma" in the PTCGO
 	},

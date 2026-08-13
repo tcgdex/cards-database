@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Psychic",
 				fr: "Psyko",
-				de: "Psychic"
+				de: "Psychokinese"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
-				de: "Doaes 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Energiekarte zu."
 			},
 			damage: "30+",
 
@@ -75,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
-		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
+		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi.",
+		de: "Es benutzt das feine Haar, mit dem sein Körper bedeckt ist, um Luftströme zu spüren und die Aktionen seines Gegners zu erahnen."
 	},
 
 

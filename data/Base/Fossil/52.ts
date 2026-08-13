@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent plays with his or her hand face up. This power stops working while Omanyte is Asleep, Confused, or Paralyzed.",
 				fr: "Votre adversaire joue avec sa main révélée. Ce pouvoir cesse de fonctionner lorsqu'Amonita est Endormi, Confus ou Paralysé.",
-				de: "Dein gegner spielt mit einer offnene Hand. Diese Fähigkeit verliert ihre Wirkung, solange Amonitas schläft, verwirrt oder gelähmt ist."
+				de: "Dein Gegner spielt mit einer offenen Hand. Diese Fähigkeit verliert ihre Wirkung, solange Amonitas schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Amonita en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amonitas abgelegte -Energiekarte zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenpunkte auf diese Art und Weise hinzufügen."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amonitas abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
 			},
 			damage: "10+",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
-		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles."
+		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles.",
+		de: "Obwohl es schon ewig ausgestorben ist, kann es in seltenen Fällen genetisch aus Fossilien wiederbelebt werden."
 	},
 
 

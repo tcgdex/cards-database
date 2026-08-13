@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage times the amount of Fighting Energy attached to Sudowoodo.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie Fighting attachées à Simularbre.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzhal der an Mogelbaum angelegten -Energien zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Mogelbaum angelegten {F}-Energien zu."
 			},
 			damage: "20×",
 
@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+		de: "Es tarnt sich als Baum, um nicht angegriffen zu werden. Es hasst Wasser, darum läuft es bei Regen weg."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -72,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a well-established symbol of longevity. If its shell has algae on it, that Wartortle is very old."
+		en: "It is a well-established symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+		de: "Es gilt als Symbol von Langlebigkeit. Ist sein Panzer mit Moos übersät, ist SCHILLOK sehr alt."
 	},
 
 	variants: [

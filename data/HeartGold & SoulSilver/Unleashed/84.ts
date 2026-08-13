@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golbat",
-		fr: "Nosferalto"
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",

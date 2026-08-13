@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If an attack would do damage to Wooper during your opponent's next turn, your opponent flips a coin. If tails, prevent all damage done to Wooper from that attack. (Any other effects of that attack happen.)",
 				fr: "Si une attaque va infliger des dégâts à Axoloto pendant le prochain tour de votre adversaire, il doit lancer une pièce. Si c'est pile, retirez tous les dégâts infligés à Axoloto pendant l'attaque. (Tous les autres effets de l'attaque sont appliqués.)",
-				de: "Wenn während des nächsten Zuges deines Gegners ein Angriff Felino Schadenspunkte zufügen wurde, wirft dein Gegner eine Münze. Verhindere bei \"Zahl\" alle Schadenspunkte, die dieser Angriff Felino zufügen würde. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				de: "Wenn während des nächsten Zuges deines Gegners ein Angriff Felino Schadenspunkte zufügen würde, wirft dein Gegner eine Münze. Verhindere bei „Zahl“ alle Schadenspunkte, die dieser Angriff Felino zufügen würde. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
-		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné."
+		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné.",
+		de: "Wenn es auf dem Land umherwandert, überzieht sich sein Körper mit einer schleimigen, giftigen Schicht."
 	},
 
 

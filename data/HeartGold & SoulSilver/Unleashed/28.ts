@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active."
+		en: "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active.",
+		de: "Bei Sonnenschein entfaltet seine Knospe ihre Blütenblätter und es springt lebhaft umher."
 	},
 
 	variants: [

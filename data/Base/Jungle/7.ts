@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Nidoqueen",
 		fr: "Nidoqueen",
-		de: "Nidoqueen",
-		it: "Nidoqueen"
+		it: "Nidoqueen",
+		de: "Nidoqueen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidorina",
 		fr: "Nidorina",
-		it: "Nidorina"
+		it: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -41,14 +42,14 @@ const card: Card = {
 			name: {
 				en: "Boyfriends",
 				fr: "Fiancés",
-				de: "Minnesänger",
-				it: "Amorino"
+				it: "Amorino",
+				de: "Minnesänger"
 			},
 			effect: {
 				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
 				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Nidoking que vous avez en jeu.",
-				de: "Fügt 20 Schadenspunkte plus 20 weitere für jeden Nidoking zu, den du im Spiel hast.",
-				it: "Infligge 20 danni più altri 20 danni per ogni Nidoking che hai in gioco."
+				it: "Infligge 20 danni più altri 20 danni per ogni Nidoking che hai in gioco.",
+				de: "Fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte für jeden Nidoking zu, den du im Spiel hast."
 			},
 			damage: "20+",
 
@@ -63,8 +64,8 @@ const card: Card = {
 			name: {
 				en: "Mega Punch",
 				fr: "Ultimapoing",
-				de: "Megahieb",
-				it: "Mega Pugno"
+				it: "Mega Pugno",
+				de: "Megahieb"
 			},
 
 			damage: 50,
@@ -84,7 +85,8 @@ const card: Card = {
 	description: {
 		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices.",
-		it: "Le dure squame gli assicurano un'eccellente protezione; usa la sua corporatura massiccia per eseguire mosse potenti."
+		it: "Le dure squame gli assicurano un'eccellente protezione; usa la sua corporatura massiccia per eseguire mosse potenti.",
+		de: "Seine harten Schuppen bieten ihm starken Schutz. Es nutzt seine massige Gestalt für kräftige Bewegungen."
 	},
 
 

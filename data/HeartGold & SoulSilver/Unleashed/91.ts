@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy attached to Entei & Raikou LEGEND.",
 				fr: "Défaussez une carte Énergie Fire attachée à Entei & Raikou LÉGENDE.",
-				de: "Lege 1 an Entei & Raikou-LEGENDE angelegte -Energie auf deinen Ablagestapel."
+				de: "Lege 1 an Entei & Raikou-LEGENDE angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 

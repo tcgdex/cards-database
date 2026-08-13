@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+		de: "Wird es entdeckt, flüchtet dieses Pokémon, indem es sich mit seinem Schweif in den Boden gräbt."
 	},
 
 	variants: [

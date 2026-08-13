@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Turtwig",
-		fr: "Tortipouss"
+		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Grotle that lives in the forest is said to have its own secret springwater."
+		en: "A Grotle that lives in the forest is said to have its own secret springwater.",
+		de: "Jedes CHELCARAIN kennt seine ganz eigene Stelle im Wald, wo es stets frisches Quellwasser findet."
 	},
 
 	variants: [

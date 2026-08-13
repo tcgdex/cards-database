@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
-		de: "Mauzi",
-		it: "Meowth"
+		it: "Meowth",
+		de: "Mauzi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,14 +35,14 @@ const card: Card = {
 			name: {
 				en: "Pay Day",
 				fr: "Jackpot",
-				de: "Zahltag",
-				it: "Giorno di Paga"
+				it: "Giorno di Paga",
+				de: "Zahltag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
 				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Wirf eine Münze. Bei 'Kopf' ziehe eine Karte.",
-				it: "Lancia una moneta. Se esce testa, pesca una carta."
+				it: "Lancia una moneta. Se esce testa, pesca una carta.",
+				de: "Wirf eine Münze. Bei „Kopf“ ziehe eine Karte."
 			},
 			damage: 10,
 
@@ -68,7 +68,8 @@ const card: Card = {
 	description: {
 		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
 		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants.",
-		it: "Adora gli oggetti rotondi. Vaga per le strade, tutte le notti, in cerca di spiccioli caduti."
+		it: "Adora gli oggetti rotondi. Vaga per le strade, tutte le notti, in cerca di spiccioli caduti.",
+		de: "Bewundert kreisförmige Objekte. Streift nächtlich auf der Suche nach verlorenen Münzen ziellos durch die Straßen."
 	},
 
 

@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "___________'s Pikachu",
-		fr: "Pikachu de ________"
+		fr: "Pikachu de ________",
+		de: "S Pikachu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Birthday Surprise",
-				fr: "Surprise d'anniversaire"
+				fr: "Surprise d'anniversaire",
+				de: "Geburtstagsüberraschung"
 			},
 			effect: {
 				en: "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage.",
-				fr: "Si ce n'est pas votre anniversaire, cette attaque inflige 30 dégâts. Si c'est votre anniversaire, lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts."
+				fr: "Si ce n'est pas votre anniversaire, cette attaque inflige 30 dégâts. Si c'est votre anniversaire, lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts.",
+				de: "Wenn heute nicht dein Geburtstag ist, fügt dieser Angriff 30 Schadenspunkte zu. Wenn du heute Geburtstag hast, wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -53,7 +56,8 @@ const card: Card = {
 
 	description: {
 		en: "Your Birthdate: ______________________________",
-		fr: "Votre anniversaire : _________________________________________"
+		fr: "Votre anniversaire : _________________________________________",
+		de: "Dein Geburtstag: ______________________________________"
 	},
 
 	variants: [

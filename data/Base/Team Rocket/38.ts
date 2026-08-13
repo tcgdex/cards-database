@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein gegner eine Münze. Bei 'Zahl' richtet dieser Angriff nichts aus."
+				de: "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ richtet dieser Angriff nichts aus."
 			},
 			damage: 20,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Voltali obscur s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' fügt sich Dunkles Blitza selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ fügt sich Dunkles Blitza selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "A dangerous Pokémon when angered. It likes to playfully shock people with the electricity it stores within its body.",
-		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
+		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps.",
+		de: "Ein gefährliches Pokémon, wenn es erzürnt ist. Es spielt gerne mit der Elektrizität, die es in seinem Körper speichert, und schockt Menschen damit."
 	},
 
 

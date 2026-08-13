@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
-		it: "Rattata"
+		it: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -89,7 +90,8 @@ const card: Card = {
 	description: {
 		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
 		fr: "Si ses moustaches sont coupées, il perd le sens de l'équilibre et devient moins rapide.",
-		it: "Usa i suoi baffi per mantenere l'equilibrio. Sembra che rallenti se i baffi gli vengono tagliati. LIV 41 N.20"
+		it: "Usa i suoi baffi per mantenere l'equilibrio. Sembra che rallenti se i baffi gli vengono tagliati. LIV 41 N.20",
+		de: "Es verwendet seine Schnurrhaare zum Halten des Gleichgewichts. Werden sie abgeschnitten, kann es sich nicht mehr orientieren."
 	},
 
 	variants: [

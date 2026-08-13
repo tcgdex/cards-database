@@ -3,6 +3,7 @@ import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
+		en: "Memory Berry",
 		de: "Memory Berry",
 		fr: "Baie de mémoire"
 	},

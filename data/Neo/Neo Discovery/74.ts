@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)",
 		fr: "Cherchez dans votre deck une carte Zarbi et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas jouer cette carte si votre Banc est plein.)",
-		de: "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)"
+		de: "Durchsuche dein Deck nach einer Karte, die Icognito in ihrem Namen hat, und lege sie auf deine Bank. Mische danach dein Deck. (Du kannst diese Karte nicht spielen, wenn deine Bank voll ist.)"
 	},
 
 

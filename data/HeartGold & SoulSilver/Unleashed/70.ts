@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Capable of flying safely in dark places, it emits ultrasonic cries to check for any obstacles."
+		en: "Capable of flying safely in dark places, it emits ultrasonic cries to check for any obstacles.",
+		de: "Es kann sicher im Dunkeln fliegen, da es sich mittels Ultraschallwellen perfekt orientieren kann."
 	},
 
 	variants: [

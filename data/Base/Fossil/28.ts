@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.",
 				fr: "Ignorez tout pouvoir Pokémon autre que Puanteur. L'effet de ce pouvoir cesse lorsque Grotadmorv est Endormi, Confus ou Paralysé.",
-				de: "Ignoriere alle Pokémon-Power außer den Giftgasen. DieseFähigket verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
+				de: "Ignoriere alle Pokémon-Power außer den Giftgasen. Diese Fähigkeit verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 30
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
-		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
+		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée.",
+		de: "Mit schmutzigem, üblem Klärschlamm bedeckt, der so hochgiftig ist, dass selbst seine Fußstapfen Gift enthalten."
 	},
 
 

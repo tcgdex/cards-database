@@ -88,24 +88,41 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86924,
-		cardmarket: 276439
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86924,
+				cardmarket: 276439
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86924,
+				cardmarket: 276439
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477785,
+				cardmarket: 869546
+			},
 		},
-	]
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"],
+			thirdParty: {
+				tcgplayer: 479703,
+				cardmarket: 869381
+			},
+		}, 
+	],
+
 }
 
 export default card

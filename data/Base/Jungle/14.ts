@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Victreebel",
 		fr: "Empiflor",
-		de: "Sarzenia",
-		it: "Victreebel"
+		it: "Victreebel",
+		de: "Sarzenia"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
-		it: "Weepinbell"
+		it: "Weepinbell",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -40,14 +41,14 @@ const card: Card = {
 			name: {
 				en: "Lure",
 				fr: "Attraction",
-				de: "Köder",
-				it: "Attrazione letale"
+				it: "Attrazione letale",
+				de: "Köder"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif.",
-				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausche es mit dem aktiven Pokémon aus.",
-				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegline uno e scambialo con il suo Pokémon Attivo."
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegline uno e scambialo con il suo Pokémon Attivo.",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausche es mit dem aktiven Pokémon aus."
 			},
 
 		},
@@ -59,14 +60,14 @@ const card: Card = {
 			name: {
 				en: "Acid",
 				fr: "Acide",
-				de: "Kleber",
-				it: "Secrezione collosa"
+				it: "Secrezione collosa",
+				de: "Kleber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei Kopf kann sich das verteidigende Pokémon während des nächsten Zuges des Gegnersnicht zurückziehen.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore non potrà ritirarsi durante il prossimo turno del tuo avversario."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore non potrà ritirarsi durante il prossimo turno del tuo avversario.",
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon sich während des nächsten Zuges des Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -85,7 +86,8 @@ const card: Card = {
 	description: {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant.",
-		it: "Si dice che viva in grandi colonie nella giungla profonda, ma nessuno è mai tornato per confermarlo."
+		it: "Si dice che viva in grandi colonie nella giungla profonda, ma nessuno è mai tornato per confermarlo.",
+		de: "Soll in riesigen Kolonien tief im Dschungel leben, obwohl noch niemand jemals von dort zurückgekehrt ist."
 	},
 
 

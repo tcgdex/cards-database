@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornebre"
+		fr: "Cornebre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Darkness Pokémon in your discard pile.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon Darkness de votre pile de défausse.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes -Pokémon in deinem Ablagestapel zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes {D}-Pokémon in deinem Ablagestapel zu."
 			},
 			damage: "10+",
 
@@ -85,7 +86,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		de: "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen."
 	},
 
 	variants: [

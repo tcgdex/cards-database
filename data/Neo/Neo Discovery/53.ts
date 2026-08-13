@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Caterpie does 10 damage to itself.",
 				fr: "Chenipan s'inflige 10 dégâts.",
-				de: "Raupy fügt sich selbst 10 Schadenspunkte zu."
+				de: "Raupy fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -56,7 +56,8 @@ const card: Card = {
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
-		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
+		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis.",
+		de: "Um sich zu schützen, sondert es einen schrecklichen Gestank aus den Fühlern auf seinem Kopf ab und vertreibt so seine Gegner."
 	},
 
 

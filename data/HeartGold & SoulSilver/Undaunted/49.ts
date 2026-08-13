@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 
@@ -61,7 +61,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
+		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison.",
+		de: "Es fliegt direkt auf das Gesicht seiner Feinde zu und injiziert ihnen eine Überdosis Gift."
 	},
 
 	variants: [

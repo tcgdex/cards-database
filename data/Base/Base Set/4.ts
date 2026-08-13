@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
-		it: "Charmeleon"
+		it: "Charmeleon",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
 				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez transformer toutes les Énergies attachées à Dracaufeu en Énergie  jusqu'à la fin du tour. Ce pouvoir ne peut être utilisé si Dracaufeu est Endormi, Confus ou Paralysé.",
-				de: "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in  Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist.",
+				de: "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in {R} Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist.",
 				it: "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi trasformare tutte le carte Energia assegnate a Charizard in carte Energia Fuoco per il resto del turno. Questo potere non può essere usato se Charizard è Addormentato, Confuso o Paralizzato."
 			},
 		},
@@ -94,7 +95,8 @@ const card: Card = {
 	description: {
 		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies.",
-		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6"
+		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6",
+		de: "Speit Feuer, das heiß genug ist, um Felsblöcke zu schmelzen. Dafür bekannt, daß es unbeabsichtigt Waldbrände auslöst."
 	},
 
 	variants: [

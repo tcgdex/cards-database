@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est jouée. Si une autre carte du même nom est en jeu, vous ne pouvez pas l’utiliser.",
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each Pokémon in play has no Resistance.",
-		de: "Alle im Spiel befindlichen Pokémon verfügen über keine Resistenz."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Alle im Spiel befindlichen Pokémon verfügen über keine Resistenz."
 	},
 
 	trainerType: "Stadium",

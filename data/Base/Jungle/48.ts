@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
-		de: "Ultrigaria",
-		it: "Weepinbell"
+		it: "Weepinbell",
+		de: "Ultrigaria"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
-		it: "Bellsprout"
+		it: "Bellsprout",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -41,15 +42,15 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Giftpuder",
-				it: "Polvere Velenosa"
+				it: "Polvere Velenosa",
+				de: "Giftpuder"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -62,8 +63,8 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
-				de: "Rasierblatt",
-				it: "Foglielama"
+				it: "Foglielama",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -83,7 +84,8 @@ const card: Card = {
 	description: {
 		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
 		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide.",
-		it: "Sputa polvere velenosa che immobilizza il nemico per poi finirlo con un getto di acido."
+		it: "Sputa polvere velenosa che immobilizza il nemico per poi finirlo con un getto di acido.",
+		de: "Es spuckt Giftpuder, um den Feind bewegungsunfähig zu machen, und erledigt ihn dann ganz mit einem Sprühnebel an Säure."
 	},
 
 

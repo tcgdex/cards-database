@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Vaporeon",
-		fr: "Aquali"
+		fr: "Aquali",
+		de: "Aquana"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,8 +22,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Evoli"
+		en: "Eevee",
+		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -34,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Aquana angelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
 			},
 			damage: "30+",
 
