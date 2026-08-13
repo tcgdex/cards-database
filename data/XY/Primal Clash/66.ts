@@ -76,6 +76,9 @@ const card: Card = {
 	description: {
 		en: "Small and very docile, it protects itself with its small, poisonous horn when attacked.",
 	},
+	thirdParty: {
+		cardmarket: 273597,
+	},
 }
 
 export default card
