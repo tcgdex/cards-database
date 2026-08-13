@@ -98,7 +98,10 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-pramawat"]
 		}
-	]
+	],
+	thirdParty: {
+		cardmarket: 277959,
+	}
 }
 
 export default card
