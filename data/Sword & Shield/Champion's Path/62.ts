@@ -37,6 +37,9 @@ const card: Card = {
 
 	description: {
 		en: "Professor's Research (Magnolia)"
+	},
+	thirdParty: {
+		cardmarket: 500165,
 	}
 }
 
