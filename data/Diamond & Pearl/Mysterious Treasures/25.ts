@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snorunt",
-		fr: "Stalgamin"
+		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Trainer cards or Supporter cards from his or her hand during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur ou de cartes Supporter de sa main lors de son prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainer- oder Unterstützerkarten von seiner Hand spielen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainer- oder Unterstützerkarten von seiner Hand spielen."
 			},
 			damage: 50,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
-		fr: "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps."
+		fr: "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps.",
+		de: "Um sich zu schützen, umgibt es seinen Körper mit einer Rüstung aus Eis."
 	},
 
 	thirdParty: {

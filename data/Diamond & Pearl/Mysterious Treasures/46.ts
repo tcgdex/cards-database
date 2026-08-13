@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doduo",
-		fr: "Dodrio"
+		fr: "Dodrio",
+		de: "Dodu"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
-		fr: "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h."
+		fr: "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h.",
+		de: "Entwickelt sich DODU, teilt sich einer der Köpfe in zwei. Es kann sich mit 60 km/h fortbewegen."
 	},
 
 	thirdParty: {

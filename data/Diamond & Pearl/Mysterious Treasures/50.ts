@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zubat",
-		fr: "Nosferapti"
+		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -66,7 +67,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves the blood of humans and Pokémon. It flies around at night in search of neck veins.",
-		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
+		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs.",
+		de: "Es liebt das Blut von Menschen und Pokémon. Nachts fliegt es umher auf der Suche nach Halsvenen."
 	},
 
 	thirdParty: {

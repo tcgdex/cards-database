@@ -56,7 +56,8 @@ const card: Card = {
 
 	description: {
 		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
-		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
+		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie.",
+		de: "Es nistet in kleinen Löchern in Höhlenwänden. Es springt Beute, die sich zu nah heranwagt, an."
 	},
 
 	thirdParty: {

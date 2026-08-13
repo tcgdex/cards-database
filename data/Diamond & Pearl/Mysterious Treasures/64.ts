@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.",
 				fr: "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass.",
-				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank, an dem mindestens 1 -Energie angelegt ist."
+				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank, an dem mindestens 1 {G}-Energie angelegt ist."
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Because it continually ate only its favorite fruit, the fruit started growing around its neck.",
-		fr: "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
+		fr: "À force de manger son fruit préféré, il a fini par pousser autour de son cou.",
+		de: "Da es ausschließlich seine Lieblingsfrucht frisst, begann diese, um seinen Hals herumzuwachsen."
 	},
 
 	thirdParty: {

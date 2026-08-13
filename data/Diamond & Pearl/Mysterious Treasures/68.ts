@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slakoth",
-		fr: "Parecool"
+		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack's base damage is 60 instead of 10.",
 				fr: "Si Vigoroth a évolué de Parecool lors de ce tour et que Parecool est Endormi, les dégâts de base de cette attaque sont de 60 au lieu de 10.",
-				de: "Wenn Muntier sich in diesem Zug aus Bummelz entwickelt hat, während Bummelz den Speziellen Zustand \"schlafend\" hatte, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte anstelle von 10 Schadenspunkten."
+				de: "Wenn Muntier sich in diesem Zug aus Bummelz entwickelt hat, während Bummelz den Speziellen Zustand „schlafend“ hatte, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte anstelle von 10 Schadenspunkten."
 			},
 			damage: 10,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
-		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
+		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place.",
+		de: "Sein Herz schlägt schneller als das anderer Lebewesen. Daher kann es nicht für einen Moment still sitzen."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aipom",
-		fr: "Capumain"
+		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent flips a coin until he or she gets heads. For each tails, remove an Energy card attached to the Defending Pokémon and put it on the bottom of your opponent's deck.",
 				fr: "Votre adversaire lance une pièce jusqu'à ce qu'il ou elle obtienne face. Pour chaque pile, retirez une carte Énergie attachée au Pokémon Défenseur et placez-la au dessous du deck de votre adversaire.",
-				de: "Dein Gegner wirft so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Kopf\" kommt. Für jedes Mal, wenn die Münze \"Zahl\" gezeigt hat, lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, unter das Deck deines Gegners."
+				de: "Dein Gegner wirft so lange 1 Münze, bis zum ersten Mal das Ergebnis „Kopf“ kommt. Für jedes Mal, wenn die Münze „Zahl“ gezeigt hat, lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, unter das Deck deines Gegners."
 			},
 			damage: 30,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
-		fr: "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras."
+		fr: "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.",
+		de: "Wenn es hungrig ist, knackt es Nüsse mit seinen beiden Schweifen. Nur selten verwendet es die Arme."
 	},
 
 	thirdParty: {

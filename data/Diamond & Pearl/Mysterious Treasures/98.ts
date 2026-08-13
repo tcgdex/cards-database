@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Plasma",
 				fr: "Plasma",
-				de: "Plasma"
+				de: "Fragiabeere"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy.",
-				de: "Wirf 1 Münze. bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Sheinux an."
+				de: "Wenn Sheinux verbrannt ist, entferne am Ende jedes Zuges den Speziellen Zustand „verbrannt“ von Sheinux."
 			},
 			damage: 10,
 

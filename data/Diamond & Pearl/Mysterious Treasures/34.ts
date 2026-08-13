@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vigoroth",
-		fr: "Vigoroth"
+		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Slaking is your Active Pokémon, you may flip a coin. If heads, Slaking's Lazy Blow attack's base damage is 130 during this turn. If tails, Slaking can't attack or retreat during this turn. (If Slaking is no longer your Active Pokémon, this effect ends.)",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Monaflemit est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, les dégâts de base de l'attaque Coup mou de Monaflemit sont de 130 lors de ce tour. Si c'est pile, Monaflemit ne peut pas attaquer ou battre en retraite lors de ce tour. (Si Monaflemit n'est plus votre Pokémon Actif, cet effet se termine.)",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Letarking dein Aktives Pokémon ist, 1 Münze werfen. Bei \"Kopf\" beträgt der Grundschaden von Letarkings Angriff Lahmer Schlag in diesem Zug 130 Schadenspunkte. Bei \"Zahl\" kann Letarking in diesem Zug weder angreifen noch sich zurückziehen. (Wenn Letarking nicht mehr dein Aktives Pokémon ist, endet dieser Effekt.)"
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Letarking dein Aktives Pokémon ist, 1 Münze werfen. Bei „Kopf“ beträgt der Grundschaden von Letarkings Angriff Lahmer Schlag in diesem Zug 130 Schadenspunkte. Bei „Zahl“ kann Letarking in diesem Zug weder angreifen noch sich zurückziehen. (Wenn Letarking nicht mehr dein Aktives Pokémon ist, endet dieser Effekt.)"
 			},
 		},
 	],
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
-		fr: "Le Pokémon le plus fainéant du monde. Il s'allonge pour économiser ses forces et contre-attaquer."
+		fr: "Le Pokémon le plus fainéant du monde. Il s'allonge pour économiser ses forces et contre-attaquer.",
+		de: "Das faulste PKMN der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
 	},
 
 	thirdParty: {
