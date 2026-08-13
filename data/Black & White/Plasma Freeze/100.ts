@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador una una Energía de su mano a 1 de sus Pokémon (excluidos los Pokémon del Equipo Plasma), pon 2 contadores de daño en ese Pokémon.",
 		it: "Quando uno dei giocatori assegna un’Energia dalla sua mano a uno dei suoi Pokémon, esclusi i Pokémon Team Plasma, metti due segnalini danno su quel Pokémon.",
 		pt: "Sempre que qualquer jogador ligar uma Energia de sua própria mão a 1 dos Pokémon desse mesmo jogador (exceto Pokémon da Equipe Plasma), coloque 2 marcadores de danos nesse Pokémon.",
-		de: "Lege jedes Mal, wenn ein Spieler eine Energie von seiner Hand an 1 seiner Pokémon (ausgenommen Team-Plasma-Pokémon) anlegt, 2 Schadensmarken auf das Pokémon."
+		de: "Lege jedes Mal, wenn ein Spieler 1 Energie von seiner Hand an 1 seiner Pokémon anlegt (ausgenommen Team Plasma-Pokémon), 2 Schadensmarken auf das Pokémon. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yamask",
 		fr: "Tutafeh",
+		de: "Makabaja"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Elongating Arms",
 				fr: "Bras à Rallonges",
+				de: "Lange Arme"
 			},
 			effect: {
 				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Crazy Slap",
 				fr: "Gifle Folle",
+				de: "Irrer Hieb"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+		de: "Grabräuber, die es mit einem echten Sarg verwechseln und ihm zu nahe kommen, hält es im Inneren seines Körpers gefangen."
 	},
 
 	thirdParty: {

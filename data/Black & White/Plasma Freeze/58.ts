@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Lovestrike",
 				fr: "Coup de Foudre",
+				de: "Liebestaumel"
 			},
 			effect: {
 				en: "Does 40 more damage for each Nidoqueen on your Bench.",
 				fr: "Inflige 40 dégâts supplémentaires pour chaque Nidoqueen sur votre Banc.",
+				de: "Dieser Angriff fügt für jedes Nidoqueen auf deiner Bank 40 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -60,6 +63,7 @@ const card: Card = {
 			name: {
 				en: "Horn Drill",
 				fr: "Empal'Korne",
+				de: "Hornbohrer"
 			},
 
 			damage: 90,
@@ -85,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+		de: "Ein Schlag mit seinem gewaltigen Schweif kann einen Telegrafenmasten knicken wie ein Streichholz."
 	},
 
 	thirdParty: {

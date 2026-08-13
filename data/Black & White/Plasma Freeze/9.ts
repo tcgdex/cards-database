@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-Venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -63,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "By storing water in its body, this desert dweller can survive for 30 days without water.",
+		de: "Dieser Wüstenbewohner speichert Wasser in seinem Körper. So kann er 30 Tage ohne Wasser überleben."
 	},
 
 	thirdParty: {

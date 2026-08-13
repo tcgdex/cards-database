@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Cut Down",
 				fr: "Retranchement",
+				de: "Umsägen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Slicing Blade",
 				fr: "Lame Tranchante",
+				de: "Schwertschneide"
 			},
 
 			damage: 70,
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+		de: "Ein kaltblütiges Pokémon, das Gegner zunächst mit einer Schar von Gladiantri lähmt und dann zweiteilt."
 	},
 
 	thirdParty: {

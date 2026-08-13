@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup Rapide",
+				de: "Ausfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
+		de: "Sucht den lieben langen Tag nach Futter. Da seine Nagezähne immer nachwachsen, wetzt es sie an harten Objekten ab."
 	},
 
 	thirdParty: {

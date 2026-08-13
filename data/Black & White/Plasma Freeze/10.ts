@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cacnea",
 		fr: "Cacnea",
+		de: "Tuska"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Rapid-Fire Needles",
 				fr: "Salve d'Aiguilles",
+				de: "Schnellfeuernadeln"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 deiner Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Payback",
 				fr: "Représailles",
+				de: "Gegenstoß"
 			},
 			effect: {
 				en: "If your opponent has only 1 Prize card left, this attack does 60 more damage and discard an Energy attached to the Defending Pokémon.",
 				fr: "S'il ne reste qu'une seule carte Récompense à votre adversaire, cette attaque inflige 60 dégâts supplémentaires et vous défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wenn dein Gegner nur 1 Preiskarte übrig hat, fügt dieser Angriff 60 weitere Schadenspunkte zu. Lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+		de: "Ein nachtaktives Pokémon, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist."
 	},
 
 	thirdParty: {

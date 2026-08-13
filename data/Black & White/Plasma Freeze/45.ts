@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Lure Poison",
 				fr: "Appât Vénéneux",
+				de: "Lockendes Gift"
 			},
 			effect: {
 				en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf 1 Münze. Tausche bei „Kopf“ 1 Pokémon auf der Bank deines Gegners gegen das Verteidigende Pokémon aus. Das neue Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Toss",
 				fr: "Giclée Vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 30,
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		de: "Diese aus Schlamm entstandenen Pokémon scharen sich an dreckigen Orten, um ihre körpereigenen Bakterien zu kultivieren."
 	},
 
 	thirdParty: {

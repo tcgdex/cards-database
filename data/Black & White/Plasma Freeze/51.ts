@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de Poing Psy",
+				de: "Psyhieb"
 			},
 
 			damage: 50,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
+		de: "Es besteht aus zwei Tanhel. Dank der Vereinigung ihrer beiden Hirne verfügen sie über gesteigerte Psycho-Kräfte."
 	},
 
 	thirdParty: {

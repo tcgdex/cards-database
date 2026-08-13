@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Toss",
 				fr: "Giclée Vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 60,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {
