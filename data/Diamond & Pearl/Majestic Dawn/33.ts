@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Each player discards the top card of his or her deck. This attack does 20 damage plus 20 more damage for each Unown discarded in this way.",
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Zarbi défaussée de cette façon.",
-				de: "Jeder Spieler legt die oberste Karte seines Decks auf den Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte für jede Icognito-Karte, die auf diese Weise abgelegt wurde, zu."
+				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte für jede Icognito-Karte, die auf diese Weise auf den Ablagestapel gelegt wurde, zu."
 			},
 			damage: "20+",
 
@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or Unown came first.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

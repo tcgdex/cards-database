@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Each of your Pokémon that evolves from Eevee has no Weakness, and that Pokémon's Retreat Cost is 0.",
 				fr: "Chacun de vos Pokémon évoluant d'Evoli ne possède pas de Faiblesse et a un Coût de retraite de 0.",
-				de: "Jedes deiner Pokémon, das sich aus Evoli entwickelt hat, hat keine Schwäche mehr, und Rückzugskosten 0."
+				de: "Jedes deiner Pokémon, das sich aus Evoli entwickelt, hat keine Schwäche mehr und hat Rückzugskosten 0."
 			},
 		},
 	],
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Konfusstrahl"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The light of the moon changed Eevee's genetic structure. It lurks in darkness for prey.",
+		de: "Mondlicht hat die genetische Struktur von EVOLI verändert. Im Dunkeln wartet es auf Beute."
 	},
 
 	thirdParty: {

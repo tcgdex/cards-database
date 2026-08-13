@@ -47,7 +47,7 @@ const card: Card = {
 			name: {
 				en: "(+) Spark",
 				fr: "Étincelle (+)",
-				de: "(+) Funke"
+				de: "⊕ Funke"
 			},
 			effect: {
 				en: "If Plusle is on your Bench, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
 	},
 
 	thirdParty: {

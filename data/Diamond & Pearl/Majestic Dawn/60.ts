@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
+		de: "Wenn es seine giftigen Backen aufbläst, hört man ein unheimliches Geräusch, welches Gegner ängstigt."
 	},
 
 	thirdParty: {

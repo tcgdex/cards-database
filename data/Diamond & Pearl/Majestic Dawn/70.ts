@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+		de: "Ist es angespannt, setzt es knisternd Elektrizität aus seinen Backentaschen frei."
 	},
 
 	thirdParty: {
