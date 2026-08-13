@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Wadribie"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Grass"],

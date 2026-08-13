@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Schligda"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Water"],

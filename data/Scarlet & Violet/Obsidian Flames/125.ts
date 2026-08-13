@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Glutexo"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	abilities: [{
 		type: "Ability",

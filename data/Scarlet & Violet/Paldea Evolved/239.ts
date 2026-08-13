@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 170,
 	types: ["Psychic"],
 	stage: "Basic",
+	tera: true,
 
 	attacks: [{
 		cost: ["Psychic", "Psychic"],

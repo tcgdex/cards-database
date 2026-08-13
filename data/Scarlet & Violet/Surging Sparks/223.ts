@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Duodino"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	attacks: [{
 		cost: ["Darkness", "Colorless"],

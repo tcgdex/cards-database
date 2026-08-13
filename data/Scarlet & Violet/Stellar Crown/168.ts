@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Wattzapf"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],

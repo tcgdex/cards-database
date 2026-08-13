@@ -260,6 +260,10 @@ export interface Card extends CardResume {
 	 */
 	stage?: string;
 	/**
+	 * Whether this card is explicitly classified as a printed Tera Pokémon.
+	 */
+	tera?: boolean;
+	/**
 	 * Card Suffix
 	 *
 	 * - EX https://www.tcgdex.net/database/ex/ex2/94

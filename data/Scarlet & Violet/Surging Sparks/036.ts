@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Knarbon"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Fire"],

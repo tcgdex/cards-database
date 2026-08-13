@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Knattox"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Metal"],

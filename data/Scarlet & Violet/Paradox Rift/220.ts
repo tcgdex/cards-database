@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Frubaila"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	attacks: [{
 		cost: ["Grass"],

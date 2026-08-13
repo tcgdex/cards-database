@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Flegmon"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Psychic"],

@@ -207,6 +207,9 @@ type Card {
 	"""the Card evolution stage"""
 	stage: String
 
+	"""Whether this card is explicitly classified as a printed Tera Pokémon"""
+	tera: Boolean
+
 	"""the card suffix"""
 	suffix: String
 

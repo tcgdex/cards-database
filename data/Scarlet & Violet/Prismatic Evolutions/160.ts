@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 210,
 	types: ["Fighting"],
 	stage: "Basic",
+	tera: true,
 
 	abilities: [{
 		type: "Ability",

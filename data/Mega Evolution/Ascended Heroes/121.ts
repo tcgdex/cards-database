@@ -22,6 +22,7 @@ const card: Card = {
 	hp: 230,
 	types: ["Fighting"],
 	stage: "Basic",
+	tera: true,
 
 	attacks: [{
 		cost: ["Fighting", "Colorless"],

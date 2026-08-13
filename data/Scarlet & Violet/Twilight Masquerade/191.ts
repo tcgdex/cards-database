@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Schneckmag"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Fire", "Colorless"],

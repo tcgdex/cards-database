@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Owei"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Grass", "Water"],

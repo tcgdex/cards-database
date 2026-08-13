@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],

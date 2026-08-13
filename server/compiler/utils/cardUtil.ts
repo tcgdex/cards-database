@@ -121,6 +121,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		description: card.description ? resolveText(card.description, lang) as string : undefined,
 		level: card.level,
 		stage: translate('stage', card.stage, lang) as any,
+		tera: card.tera,
 		suffix: translate('suffix', card.suffix, lang) as any,
 		item: card.item ? {
 			name: resolveText(card.item.name, lang),

@@ -32,6 +32,7 @@ const card: Card = {
 	hp: 320,
 	types: ["Dragon"],
 	stage: "Stage2",
+	tera: true,
 
 	attacks: [{
 		cost: ["Colorless"],

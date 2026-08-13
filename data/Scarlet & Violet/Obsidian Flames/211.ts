@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Pupitar"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	attacks: [{
 		cost: ["Fighting"],

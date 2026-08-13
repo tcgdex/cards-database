@@ -328,6 +328,14 @@ export interface Card {
 	stage?: 'Basic' | 'BREAK' | 'LEVEL-UP' | 'MEGA' | 'RESTORED' | 'Stage1' | 'Stage2' | 'VMAX' | 'V-UNION' | 'Baby' | 'VSTAR'
 
 	/**
+	 * Printed Tera Pokémon classification.
+	 *
+	 * This assertion is present only when the card is explicitly identified as a
+	 * Tera Pokémon by its printed rule box or an authoritative card listing.
+	 */
+	tera?: true
+
+	/**
 	 * Card Suffix
 	 *
 	 * - EX https://www.tcgdex.net/database/bw/bw4/54

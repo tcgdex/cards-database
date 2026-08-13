@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Lokroko"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	abilities: [{
 		type: "Ability",

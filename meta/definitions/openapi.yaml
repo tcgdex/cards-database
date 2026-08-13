@@ -1554,6 +1554,9 @@ components:
           type: [string, null]
           description: Evolution stage (Basic, Stage 1, Stage 2, etc.)
           example: "Stage 2"
+        tera:
+          type: [boolean, null]
+          description: Whether this card is explicitly classified as a printed Tera Pokémon
         suffix:
           type: [string, null]
           description: Special card suffix (EX, GX, V, etc.)

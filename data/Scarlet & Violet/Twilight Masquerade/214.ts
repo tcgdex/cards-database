@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Amphizel"
 	},
 	stage: "Stage2",
+	tera: true,
 
 	attacks: [{
 		cost: ["Water"],

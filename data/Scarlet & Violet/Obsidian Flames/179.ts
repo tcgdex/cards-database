@@ -27,6 +27,7 @@ const card: Card = {
 		de: "Raffel"
 	},
 	stage: "Stage1",
+	tera: true,
 
 	attacks: [{
 		cost: ["Colorless"],

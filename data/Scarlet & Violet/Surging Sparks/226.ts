@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Dragon"],
 	stage: "Basic",
+	tera: true,
 
 	attacks: [{
 		cost: ["Fire", "Water"],
