@@ -96,7 +96,7 @@ const card: Card = {
 			type: 'holo',
 			foil: 'gold',
 			thirdParty: {
-				cardmarket: 665697,
+				cardmarket: 664727,
 				tcgplayer: 277024
 			}
 		},

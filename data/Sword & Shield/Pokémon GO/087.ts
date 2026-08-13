@@ -37,7 +37,7 @@ const card: Card = {
 			type: 'holo',
 			foil: 'gold',
 			thirdParty: {
-				cardmarket: 665698,
+				cardmarket: 664729,
 				tcgplayer: 277025
 			}
 		},

@@ -87,7 +87,7 @@ const card: Card = {
 			type: 'holo',
 			foil: 'rainbow',
 			thirdParty: {
-				cardmarket: 665692,
+				cardmarket: 664716,
 				tcgplayer: 277014
 			}
 		},
