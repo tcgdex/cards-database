@@ -38,6 +38,7 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Beat",
+				de: "Verprügler"
 			},
 			damage: 30,
 		},
@@ -45,10 +46,12 @@ const card: Card = {
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
 				en: "Fickle Impact",
+				de: "Launischer Einschlag"
 			},
 			damage: 180,
 			effect: {
 				en: "If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.",
+				de: "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, hat diese Attacke keine Auswirkungen."
 			},
 		},
 	],

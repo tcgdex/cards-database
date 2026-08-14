@@ -38,16 +38,19 @@ const card: Card = {
 			damage: 30,
 			effect: {
 				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
 				en: "Power Blast",
+				de: "Powerschuss"
 			},
 			damage: 120,
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 		},
 	],
