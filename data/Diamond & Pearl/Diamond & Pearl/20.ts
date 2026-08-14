@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bidoof",
 		fr: "Keunotor",
+		de: "Bidiza"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
-		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
+		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom.",
+		de: "Es baut sein Nest, indem es in Flüssen Dämme aus Schlamm und Ästen baut. Ein fleißiger Arbeiter."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to 1 of your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à 1 des Pokémon de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte, die an 1 gegnerisches Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die an 1 gegnerisches Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
-		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
+		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts.",
+		de: "Der Ton seiner Grasflöte beunruhigt die, die ihn hören. Es lebt tief in den Wäldern."
 	},
 
 	thirdParty: {

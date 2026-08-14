@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "It gathers in forests to search for tree sap, its favorite food. It's strong enough to hurl foes.",
-		fr: "Il arpente la forêt en quête de sève, son mets favori. Il est assez fort pour projeter l'ennemi."
+		fr: "Il arpente la forêt en quête de sève, son mets favori. Il est assez fort pour projeter l'ennemi.",
+		de: "Auf der Suche nach Baumsaft durchstreift es die Wälder. Es ist stark genug, um Gegner wegzuschleudern."
 	},
 
 	thirdParty: {

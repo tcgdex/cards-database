@@ -56,7 +56,8 @@ const card: Card = {
 
 	description: {
 		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
-		fr: "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre."
+		fr: "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre.",
+		de: "Es hat eine Art Rettungsring um den Hals. Wenn es schwimmt, gerät sein Kopf niemals unter Wasser."
 	},
 
 	thirdParty: {

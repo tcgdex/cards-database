@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn, and any damage done to Bonsly by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur de sa main lors de son prochain tour et tous dégâts infligés à Manzai par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen und aller Schaden, der Mobai durch gegnerische Angriffe zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen und aller Schaden, der Mobai durch gegnerische Angriffe zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
-		fr: "On dirait qu'il pleure constamment. En fait, il régule ses fluides corporels en éliminant le surplus."
+		fr: "On dirait qu'il pleure constamment. En fait, il régule ses fluides corporels en éliminant le surplus.",
+		de: "Es sieht aus, als würde es immer weinen. Dabei reguliert es nur seinen Wasserhaushalt."
 	},
 
 	thirdParty: {

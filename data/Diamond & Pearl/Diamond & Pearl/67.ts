@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Unown C is on your Bench, you may flip a coin. If heads, search your deck for any 1 Unown and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi C est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, choisissez dans votre deck 1 Zarbi et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito C auf deiner Bank liegt, kannst du 1 Münze werfen. Bei \"Kopf\" durchsuche dein Deck nach 1 Icognito-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito C auf deiner Bank liegt, kannst du 1 Münze werfen. Bei „Kopf“ durchsuche dein Deck nach 1 Icognito-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram.",
-				de: "Wirf 1 Münze. Bei 'Zahl' lege eine -Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ lege eine {R}-Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
-		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
+		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort.",
+		de: "Es klettert behände steile Felsen hinauf, um auf Bergen zu leben. Sein Feuer ist aus, wenn es schläft."
 	},
 
 	thirdParty: {

@@ -62,7 +62,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's body is 95% made up of gases, which are blown away by strong gusts of wind.",
-		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser."
+		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser.",
+		de: "Der Körper des Pokémon besteht zu 95 % aus Gasen, die fortgeweht werden, wenn starker Wind geht."
 	},
 
 	thirdParty: {

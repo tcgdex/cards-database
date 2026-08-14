@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times the total amount of Darkness Energy attached to all of your Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies Darkness attachées à tous vos Pokémon.",
-				de: "Dieser Angriff fügt für jede -Energie, die an deine Pokémon angelegt ist, 10 Schadenspunkte zu."
+				de: "Dieser Angriff fügt für jede {D}-Energie, die an deine Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
-		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
+		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée.",
+		de: "Es lebt in kalten Gebieten in Gruppen von 4 oder 5 PKMN, die bei der Jagd großes Geschick zeigen."
 	},
 
 	thirdParty: {

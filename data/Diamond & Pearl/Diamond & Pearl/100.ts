@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
-		fr: "Il se nourrit d'œufs volés dans des nids. Ses griffes crochues percent les défenses de l'ennemi."
+		fr: "Il se nourrit d'œufs volés dans des nids. Ses griffes crochues percent les défenses de l'ennemi.",
+		de: "Es ernährt sich von Eiern, die es aus Nestern stiehlt. Beute greift es mit seinen scharfen Krallen an."
 	},
 
 	thirdParty: {

@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et défaussez alors une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners und das Verteidigende Pokémon ist jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners und das Verteidigende Pokémon ist jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
-		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
+		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler.",
+		de: "Sein süßlich riechender Speichel zieht Beute an, die es frisst. Es braucht einen Tag, sie zu fressen."
 	},
 
 	thirdParty: {

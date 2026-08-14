@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stunky",
 		fr: "Moufouette",
+		de: "Skunkapuh"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 			damage: 30,
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
-		fr: "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres."
+		fr: "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres.",
+		de: "Über seine Schweifspitze versprüht es eine übelriechende Substanz. Die Reichweite liegt bei über 50 Metern."
 	},
 
 	thirdParty: {

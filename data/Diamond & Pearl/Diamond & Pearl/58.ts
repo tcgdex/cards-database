@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+		de: "Es lebt allein, entfernt von anderen. Jedes von ihnen denkt, es sei das bedeutendste unter ihnen."
 	},
 
 	thirdParty: {

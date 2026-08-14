@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhydon",
 		fr: "Rhinoféros",
+		de: "Rizeros"
 	},
 
 	stage: "Stage2",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
-		fr: "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes."
+		fr: "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes.",
+		de: "Es legt Steine in die Löcher seiner Hände und wirft sie mit Muskelkraft. Sogar GEOROK werden verwendet."
 	},
 
 	thirdParty: {

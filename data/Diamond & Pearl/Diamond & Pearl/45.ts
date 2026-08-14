@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cherubi",
 		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et retirez à Ceriflor 3 marqueurs de dégât.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
 			},
 			damage: "20+",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
-		fr: "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon."
+		fr: "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon.",
+		de: "In Zeiten mit viel Sonnenschein blüht es auf. Es holt nach, was ihm als Knospe verwehrt blieb."
 	},
 
 	thirdParty: {

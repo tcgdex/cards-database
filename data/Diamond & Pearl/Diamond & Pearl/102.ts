@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
-		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
+		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures.",
+		de: "Um sich zu schützen, versprüht es eine Substanz aus seinem Hinterleib, die 24 Stunden stinkt."
 	},
 
 	thirdParty: {

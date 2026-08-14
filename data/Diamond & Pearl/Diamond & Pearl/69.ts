@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
-		fr: "Un Pokémon qui vit près de l'eau. Au sol, il se déplace rapidement en rebondissant sur sa grosse queue"
+		fr: "Un Pokémon qui vit près de l'eau. Au sol, il se déplace rapidement en rebondissant sur sa grosse queue",
+		de: "Dieses PKMN lebt am Wasser. An Land bewegt es sich schnell, indem es auf seinem großen Schweif hüpft."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -65,7 +66,7 @@ const card: Card = {
 			effect: {
 				en: "Remove 2 damage counters from each of your Grass Pokémon.",
 				fr: "Retirez 2 marqueurs de dégât à chacun de vos Pokémon Grass.",
-				de: "Entferne 2 Schadensmarken von jedem deiner -Pokémon."
+				de: "Entferne 2 Schadensmarken von jedem deiner {G}-Pokémon."
 			},
 			damage: 60,
 
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+		de: "Kleine PKMN fangen manchmal an, auf dem bewegungslosen Rücken Nester zu bauen."
 	},
 
 	thirdParty: {

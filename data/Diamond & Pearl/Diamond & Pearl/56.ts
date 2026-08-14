@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to Monferno.",
 				fr: "Chercher dans votre pile de défausse une carte Énergie Fire et attachez-la à Chimpenfeu.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Panpyro an."
+				de: "Durchsuche deinen Ablagestapel nach einer {R}-Energiekarte und lege sie an Panpyro an."
 			},
 			damage: 30,
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
-		fr: "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand."
+		fr: "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand.",
+		de: "Um Angreifer abzuschrecken, verstärkt es das Feuer auf seinem Schweif, wodurch es größer wirkt."
 	},
 
 	thirdParty: {
