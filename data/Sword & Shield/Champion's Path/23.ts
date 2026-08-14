@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Alcremie V",
-		fr: "Charmilly-V"
+		fr: "Charmilly-V",
+		de: "Pokusan V"
 	},
 
 	weaknesses: [
@@ -52,7 +53,7 @@ const card: Card = {
 			es: "Por cada uno de tus Pokémon en Banca, busca en tu baraja 1 carta de Energía Psychic y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Psychic per ogni Pokémon nella tua panchina e assegnala a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Para cada um dos seus Pokémon no Banco, procure por 1 carta de Energia Psychic no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche für jedes Pokémon auf deiner Bank dein Deck nach 1 Psychic-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche für jedes Pokémon auf deiner Bank dein Deck nach 1 {P}-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]

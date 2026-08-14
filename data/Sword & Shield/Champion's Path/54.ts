@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 120 puntos de daño a 1 de tus Pokémon que tenga por lo menos 2 Energías unidas a él. Si has curado algún punto de daño de esta manera, descarta 2 Energías de ese Pokémon.",
 		it: "Cura uno dei tuoi Pokémon che ha almeno due Energie assegnate da 120 danni. Se hai curato dei danni in questo modo, scarta due Energie da quel Pokémon.",
 		pt: "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver pelo menos 2 Energias ligadas a ele. Se você curou qualquer dano desta forma, descarte 2 Energias daquele Pokémon.",
-		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 2 Energien angelegt sind. Wenn du auf diese Weise Schaden geheilt hast, lege 2 Energien von jenem Pokémon auf deinen Ablagestapel."
+		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 2 Energien angelegt sind. Wenn du auf diese Weise Schaden geheilt hast, lege 2 Energien von jenem Pokémon auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

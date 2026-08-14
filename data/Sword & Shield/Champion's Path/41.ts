@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon."
+		en: "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon.",
+		de: "Zurrokex deuten Blickkontakt als Einladung, ihr Gegenüber mit Kopfnüssen anzugreifen. Vorsicht ist also geboten."
 	},
 
 	thirdParty: {

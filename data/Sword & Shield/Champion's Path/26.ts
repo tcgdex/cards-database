@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	attacks: [
@@ -48,7 +49,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada Pokémon Fighting en tu pila de descartes.",
 				it: "Questo attacco infligge 20 danni per ogni Pokémon Fighting nella tua pila degli scarti.",
 				pt: "Este ataque causa 20 pontos de dano para cada Pokémon Fighting na sua pilha de descarte.",
-				de: "Diese Attacke fügt für jedes Fighting-Pokémon in deinem Ablagestapel 20 Schadenspunkte zu."
+				de: "Diese Attacke fügt für jedes {F}-Pokémon in deinem Ablagestapel 20 Schadenspunkte zu."
 			},
 			damage: "20×",
 
@@ -100,7 +101,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+		de: "Es verwendet seine vier Arme, um seine Gegner unermüdlich mit schnellen Schlägen aus allen Winkeln einzudecken."
 	},
 
 	thirdParty: {
