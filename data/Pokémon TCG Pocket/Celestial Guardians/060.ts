@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Graveler",
-		fr: "Gravalanchd'Alola",
-		es: "Gravelerde Alola",
-		it: "Gravelerdi Alola",
+		fr: "Gravalanch d’Alola",
+		es: "Graveler de Alola",
+		it: "Graveler di Alola",
 		de: "Alola-Georok",
-		'pt-br': "Gravelerde Alola",
+		'pt-br': "Graveler de Alola",
 		ko: "알로라데구리"
 	},
 

@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Rattata",
-		fr: "Rattatad'Alola",
-		es: "Rattatade Alola",
-		it: "Rattatadi Alola",
+		fr: "Rattata d’Alola",
+		es: "Rattata de Alola",
+		it: "Rattata di Alola",
 		de: "Alola-Rattfratz",
-		'pt-br': "Rattatade Alola",
+		'pt-br': "Rattata de Alola",
 		ko: "알로라꼬렛"
 	},
 

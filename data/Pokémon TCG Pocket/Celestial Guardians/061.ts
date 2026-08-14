@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Golem",
-		fr: "Grolemd'Alola",
-		es: "Golemde Alola",
-		it: "Golemdi Alola",
+		fr: "Grolem d’Alola",
+		es: "Golem de Alola",
+		it: "Golem di Alola",
 		de: "Alola-Geowaz",
-		'pt-br': "Golemde Alola",
+		'pt-br': "Golem de Alola",
 		ko: "알로라딱구리"
 	},
 

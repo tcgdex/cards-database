@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Dugtrio",
-		fr: "Triopikeurd'Alola",
-		es: "Dugtriode Alola",
-		it: "Dugtriodi Alola",
+		fr: "Triopikeur d’Alola",
+		es: "Dugtrio de Alola",
+		it: "Dugtrio di Alola",
 		de: "Alola-Digdri",
-		'pt-br': "Dugtriode Alola",
+		'pt-br': "Dugtrio de Alola",
 		ko: "알로라닥트리오"
 	},
 

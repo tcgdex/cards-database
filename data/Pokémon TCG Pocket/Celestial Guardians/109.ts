@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Persian",
-		fr: "Persiand'Alola",
-		es: "Persiande Alola",
-		it: "Persiandi Alola",
+		fr: "Persian d’Alola",
+		es: "Persian de Alola",
+		it: "Persian di Alola",
 		de: "Alola-Snobilikat",
-		'pt-br': "Persiande Alola",
+		'pt-br': "Persian de Alola",
 		ko: "알로라페르시온"
 	},
 
