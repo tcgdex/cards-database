@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika"
+		en: "Zebstrika",
+		fr: "Zéblitz"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Blitzle"
+		en: "Blitzle",
+		fr: "Zébibron"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Electric Ball"
+			en: "Electric Ball",
+			fr: "Boule de Foudre"
 		},
 
 		damage: 90,

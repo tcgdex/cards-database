@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Boltund"
+		en: "Boltund",
+		fr: "Fulgudog"
 	},
 
 	illustrator: "chibi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Yamper"
+		en: "Yamper",
+		fr: "Voltoutou"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Zap Kick"
+			en: "Zap Kick",
+			fr: "Coup de Pied Ravageur"
 		},
 
 		damage: 60,

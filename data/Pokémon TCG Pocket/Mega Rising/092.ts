@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Joltik"
+		en: "Joltik",
+		fr: "Statitik"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own."
+		en: "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own.",
+		fr: "Il s'accroche au corps des autres Pokémon pour absorber leur électricité statique. Il est incapable d'en produire tout seul."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Attach"
+			en: "Attach",
+			fr: "Accrochage"
 		},
 
 		damage: 20,

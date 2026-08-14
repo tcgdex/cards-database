@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aegislash"
+		en: "Aegislash",
+		fr: "Exagide"
 	},
 
 	illustrator: "miki kudo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Doublade"
+		en: "Doublade",
+		fr: "Dimoclès"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Cursed Metal"
+			en: "Cursed Metal",
+			fr: "Métal Maudit"
 		},
 
 		effect: {
-			en: "Attacks used by your {P} Pokémon and {M} Pokémon do +30 damage to your opponent's Active Pokémon."
+			en: "Attacks used by your {P} Pokémon and {M} Pokémon do +30 damage to your opponent's Active Pokémon.",
+			fr: "Les attaques de vos Pokémon {P} et {M} infligent + 30 dégâts au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Slicing Blade"
+			en: "Slicing Blade",
+			fr: "Lame Tranchante"
 		},
 
 		damage: 70,

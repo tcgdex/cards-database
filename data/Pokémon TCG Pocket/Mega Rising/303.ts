@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oricorio"
+		en: "Oricorio",
+		fr: "Plumeline"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This form of Oricorio has sipped yellow nectar.\nIt uses nimble steps to approach opponents,\nthen knocks them out with electric punches."
+		en: "This form of Oricorio has sipped yellow nectar.\nIt uses nimble steps to approach opponents,\nthen knocks them out with electric punches.",
+		fr: "Ce Plumeline a bu du Nectar Jaune. Il s'approche\\nprestement de ses adversaires en dansant et les\\nmet K.O. en leur assénant des coups électriques."
 	},
 
 	stage: "Basic",
@@ -26,17 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Safeguard"
+			en: "Safeguard",
+			fr: "Rune Protect"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex."
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-ex de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Zzzap"
+			en: "Zzzap",
+			fr: "Zzzap"
 		},
 
 		damage: 50,

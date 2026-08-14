@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Avalugg"
+		en: "Avalugg",
+		fr: "Séracrawl"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Bergmite"
+		en: "Bergmite",
+		fr: "Grelaçon"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Frost Barrier"
+			en: "Frost Barrier",
+			fr: "Barrière de Givre"
 		},
 
 		damage: 70,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shiftry"
+		en: "Shiftry",
+		fr: "Tengalice"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Nuzleaf"
+		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Nipping Cyclone"
+			en: "Nipping Cyclone",
+			fr: "Cyclone Mordant"
 		},
 
 		damage: 70,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Discard a random card from your opponent's hand."
+			en: "Discard a random card from your opponent's hand.",
+			fr: "Défaussez au hasard une carte de la main de votre adversaire."
 		}
 	}],
 

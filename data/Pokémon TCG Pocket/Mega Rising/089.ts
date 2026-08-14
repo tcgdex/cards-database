@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pachirisu"
+		en: "Pachirisu",
+		fr: "Pachirisu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Attack the Wound"
+			en: "Attack the Wound",
+			fr: "Défi de la Plaie"
 		},
 
 		damage: 30,
 		cost: ["Lightning", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon has damage on it, this attack does 30 more damage."
+			en: "If your opponent's Active Pokémon has damage on it, this attack does 30 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a subi des dégâts, cette attaque inflige 30 dégâts de plus."
 		}
 	}],
 
