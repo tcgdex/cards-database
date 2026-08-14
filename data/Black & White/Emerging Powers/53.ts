@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Boldore",
 		fr: "Géolithe",
+		de: "Sedimantur"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Shear",
 				fr: "Prospection",
+				de: "Scherer"
 			},
 			effect: {
 				en: "Discard the top 5 cards of your deck. If any of those cards are Fighting Energy cards, attach them to this Pokémon.",
 				fr: "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie Fighting, attachez-les à ce Pokémon.",
+				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Wenn darunter {F}-Energiekarten sind, lege sie an dieses Pokémon an."
 			},
 
 		},
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Rock Bullet",
 				fr: "Fronde",
+				de: "Steinkugel"
 			},
 			effect: {
 				en: "Does 20 more damage for each Fighting Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Fighting attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {F}-Energie zu."
 			},
 			damage: 40,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
+		de: "Es absorbiert über seine orangefarbenen Kristalle das Sonnenlicht und schießt die so gewonnene Energie aus seinem Maul."
 	},
 
 	thirdParty: {

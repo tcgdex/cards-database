@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		de: "Dusselgurr"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Claw",
 				fr: "Ergots",
+				de: "Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 50,
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
+		de: "Viele Leute glauben, dass es tief in seinem heimatlichen Wald ein Land der Harmonie gibt, wo man keine Kriege kennt."
 	},
 
 	thirdParty: {

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+		de: "Solang das Feuer in ihm brennt, rennt es rastlos durch die Gegend. Geht ihm das Brennmaterial aus, wird es schläfrig."
 	},
 
 	thirdParty: {

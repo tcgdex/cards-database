@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Splatter",
 				fr: "Crépitement",
+				de: "Verspritzer"
 			},
 			effect: {
 				en: "Does 30 damage to one of your oppoent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
+		de: "Rot gestreifte und blau gestreifte Exemplare sind sich feindlich gesonnen. Doch ist jeder Schwarm bunt gemischt."
 	},
 
 	thirdParty: {

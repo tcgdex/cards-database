@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on this Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 10,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Final Gambit",
 				fr: "Tout ou Rien",
+				de: "Wagemut"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this Pokémon does 80 damage to itself.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, ce Pokémon s'inflige 80 dégâts.",
+				de: "Wirf 2 Münzen. Zeigen beide „Zahl“, fügt sich dieses Pokémon selbst 80 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -74,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+		de: "Rot gestreifte und blau gestreifte Exemplare kriegen sich sofort in die Haare. Ein äußerst aggressives Pokémon."
 	},
 
 	thirdParty: {

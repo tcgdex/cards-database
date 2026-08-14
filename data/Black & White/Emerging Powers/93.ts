@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 7 primeras cartas de tu baraja. Puedes enseñar un Pokémon que encuentres entre ellas y ponerlo en tu mano. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Guarda le prime sette carte del tuo mazzo. Puoi mostrare un Pokémon che hai trovato e aggiungerlo alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe os 7 cards de cima do seu baralho. Você poderá revelar um Pokémon que encontrar lá e colocá-lo em sua mão. Embaralhe os demais cards de volta.",
-		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 darunter gefundenes Pokémon zeigen und es auf deine Hand nehmen. Mische die anderen Karten anschließend zurück in dein Deck."
+		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Pokémon, das du dort gefunden hast, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

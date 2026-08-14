@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubchoo",
 		fr: "Polarhume",
+		de: "Petznief"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent Glace",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Superpower",
 				fr: "Surpuissance",
+				de: "Kraftkoloss"
 			},
 			effect: {
 				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				de: "Du kannst mit diesem Angriff 20 weitere Schadenspunkte zufügen. Wenn du das machst, fügt dieses Pokémon sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+		de: "Kämpft mit Reißzähnen aus Eis, die es aus gefrorenem Atem herstellt. Es lebt im Norden, wo es kalt ist."
 	},
 
 	thirdParty: {

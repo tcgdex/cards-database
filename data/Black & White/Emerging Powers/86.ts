@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+		de: "Es zettelt willkürlich Kämpfe an, egal wie stark der Gegner auch ist. Es gewinnt an Stärke, indem es seine Fehler analysiert."
 	},
 
 	thirdParty: {

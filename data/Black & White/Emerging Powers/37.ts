@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Woobat",
 		fr: "Chovsourir",
+		de: "Fleknoil"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 30,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Phat Sound",
 				fr: "Cri Perçant",
+				de: "Fetter Sound"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte mal der Anzahl „Kopf“ zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -81,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+		de: "Wer den Ultraschallwellen eines Männchens in der Balz ausgesetzt wird, verfällt in eine euphorische Stimmung."
 	},
 
 	thirdParty: {
