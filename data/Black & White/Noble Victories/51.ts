@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Solosis",
 		fr: "Nucléos",
+		de: "Monozyto"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -59,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+		de: "Wegen seines gespaltenen Denkapparates kann es vorkommen, dass es sich abrupt einer anderen Tätigkeit zuwendet."
 	},
 
 	thirdParty: {

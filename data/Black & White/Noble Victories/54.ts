@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -48,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Calm Mind",
 				fr: "Plénitude",
+				de: "Gedankengut"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -68,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
+		de: "Bevor es vor 50 Jahren urplötzlich aus den Tiefen der Wüste erschien, hatte es kein Mensch je zuvor gesehen."
 	},
 
 	thirdParty: {

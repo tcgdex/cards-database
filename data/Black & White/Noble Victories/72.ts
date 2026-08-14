@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
+		de: "Golbit"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Hammer Arm",
 				fr: "Marto-Poing",
+				de: "Hammerarm"
 			},
 			effect: {
 				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Hurricane Punch",
 				fr: "Poing Ouragan",
+				de: "Hurrikanhieb"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 50,
 
@@ -89,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+		de: "Man munkelt, sein Schöpfer habe ihm aufgetragen, schützend über Pokémon und Menschen zu wachen."
 	},
 
 	thirdParty: {

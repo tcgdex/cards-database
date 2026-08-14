@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Wave",
 				fr: "Cage-Éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		de: "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen im Schwarm auf, gleicht seine Kraft der eines Blitzes."
 	},
 
 	thirdParty: {

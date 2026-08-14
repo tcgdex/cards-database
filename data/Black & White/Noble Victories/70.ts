@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mienfoo",
 		fr: "Kungfouine",
+		de: "Lin-Fu"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Feint",
 				fr: "Ruse",
+				de: "Offenlegung"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 30,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "High Jump Kick",
 				fr: "Pied Voltige",
+				de: "Turmkick"
 			},
 
 			damage: 50,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It wield the fur on its arms like a whip. Its arms attacks come with such rapidity that they cannot even be seen.",
+		de: "Es benutzt das Fell an seinen Armen als Peitsche. Beide Arme bewegen sich dabei mit atemberaubender Geschwindigkeit."
 	},
 
 	thirdParty: {

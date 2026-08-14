@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duosion",
 		fr: "Méios",
+		de: "Mitodos"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Dizzy Punch",
 				fr: "Uppercut",
+				de: "Irrschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Mind Bend",
 				fr: "Contrôleur d'Esprit",
+				de: "Gedankenverbiegung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
+		de: "Sein Griff ist so stark, dass es damit ganze Felsen zermalmen kann. Es ist sehr intelligent."
 	},
 
 	thirdParty: {
