@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Alolan Vulpix"
+		en: "Alolan Vulpix",
+		fr: "Goupix d’Alola"
 	},
 
 	description: {
