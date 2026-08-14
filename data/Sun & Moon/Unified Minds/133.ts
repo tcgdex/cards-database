@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It digs through the ground with its hard claws and crunches down gems with its thick pointy teeth. Carbink is its favorite food.",
+		de: "Mit seinen scharfen Krallen gräbt es nach Edelsteinen, die es mit seinen dicken Fängen zerbeißt. Besonders gern frisst es Rocara."
 	},
 
 	thirdParty: {

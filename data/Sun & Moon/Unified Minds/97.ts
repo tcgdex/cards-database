@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		de: "Garstella"
 	},
 
 	stage: "Stage1",
@@ -64,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.",
+		de: "Es feuert hochgiftige Dornen auf seine Gegner ab. Kommen sie ihm zu nahe, mäht es sie mit den Krallen an seinen Beinen nieder."
 	},
 
 	thirdParty: {

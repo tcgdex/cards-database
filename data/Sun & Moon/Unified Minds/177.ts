@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
+		de: "Über die Fühler an seinen Ohren kann es ertasten, wie es einer Person geht oder wann ein Pokémon aus seinem Ei schlüpft."
 	},
 
 	thirdParty: {

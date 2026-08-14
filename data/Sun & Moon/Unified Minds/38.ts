@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It freezes hikers who have come to climb snowy mountains and carries them back to its home. It only goes after men it thinks are handsome.",
+		de: "Wanderer, die durch verschneite Berge stapfen, friert es ein und nimmt sie mit in seinen Bau. Allerdings nur jene, die es als schön erachtet."
 	},
 
 	thirdParty: {

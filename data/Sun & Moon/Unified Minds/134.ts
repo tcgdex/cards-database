@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Rapion",
+		de: "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It takes pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+		de: "Es bringt seine Gegner mit starkem Gift zur Strecke, obwohl es weiß, dass es stark genug ist, um sie zu zerfetzen."
 	},
 
 	thirdParty: {

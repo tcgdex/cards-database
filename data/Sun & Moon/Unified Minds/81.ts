@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "There's a rumor that if you catch a Drifblim floating on the wind at dusk, you'll be carried away to the afterlife.",
+		de: "Gerüchten zufolge wird man ins Jenseits mitgenommen, wenn man sich an einem Drifzepeli festhält, das im Abendwind driftet."
 	},
 
 	thirdParty: {

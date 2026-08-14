@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona 1 Energía Colorless.\n\nEl Pokémon al que esté unida esta carta no tiene ninguna Debilidad.",
 		it: "Questa carta fornisce Energia Colorless.\n\nIl Pokémon a cui è assegnata questa carta non ha debolezza.",
 		pt: "Esta carta fornece Energia Colorless.\n\nO Pokémon ao qual esta carta está ligada não possui Fraqueza.",
-		de: "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+		de: "Diese Karte liefert {C}-Energie. Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
 	},
 
 	energyType: "Special",

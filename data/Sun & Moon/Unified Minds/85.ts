@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
+		de: "„Das starke Wesen“. Es schläft auf dem Grund eines Sees und hält so die Welt in Balance."
 	},
 
 	thirdParty: {

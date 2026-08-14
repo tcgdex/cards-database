@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		de: "Mangunior"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it wasn't originally found in Alola, this Pokémon was brought over a long time ago when there was a huge Rattata outbreak.",
+		de: "Dieses Pokémon lebte ursprünglich nicht in Alola und wurde vor langer Zeit eingeführt, als es eine Überpopulation von Rattfratz in der Region gab."
 	},
 
 	thirdParty: {

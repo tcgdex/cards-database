@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It hides food under its long fur, but it sometimes forgets about it and causes a stinky disturbance.",
+		de: "Unter seinem langen Fell versteckt es Nahrung. Aber es vergisst, dass es sie dort versteckt hat und regt sich dann über den Gestank auf."
 	},
 
 	thirdParty: {

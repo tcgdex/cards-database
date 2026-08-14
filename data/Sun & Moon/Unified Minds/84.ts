@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
+		de: "„Das fühlende Wesen“. Es lehrt die Menschen die Ideale von Trauer, Schmerz und Freude."
 	},
 
 	thirdParty: {

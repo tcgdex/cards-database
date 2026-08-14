@@ -62,7 +62,7 @@ const card: Card = {
 				es: "Si tu rival tiene algún Ultraente en juego, este ataque se puede usar por 1 Energía Colorless.",
 				it: "Se il tuo avversario ha delle Ultracreature in gioco, il costo di questo attacco è Colorless.",
 				pt: "Se o seu oponente tiver alguma Ultracriatura em jogo, este ataque poderá ser usado com Colorless.",
-				de: "Wenn dein Gegner mindestens 1 Ultrabestie im Spiel hat, kann diese Attacke für Colorless eingesetzt werden."
+				de: "Wenn dein Gegner mindestens 1 Ultrabestie im Spiel hat, kann diese Attacke für {C} eingesetzt werden."
 			},
 			damage: 100,
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
+		de: "Als Schutzpatron von Poni kontrolliert es das Wasser und lauert im dichten Nebel. Es wird gleichermaßen gefürchtet wie respektiert."
 	},
 
 	thirdParty: {

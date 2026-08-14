@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tirtouga",
 		fr: "Carapagos",
+		de: "Galapaflos"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "80+",
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its jaws are terrifyingly powerful. It could eat Omastar and Omanyte whole and not be bothered in the slightest by their shells.",
+		de: "Sein Kiefer wurde wegen dessen großer Kraft gefürchtet. Sogar Amoroso und Amonitas konnte es trotz ihrer Schalen problemlos verschlingen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bounsweet",
 		fr: "Croquine",
+		de: "Frubberl"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
+		de: "Es kann bedenkenlos mit Vogel-Pokémon spielen, da sein fester Blütenkelch es schützt. Das pausenlose Gepicke ist ihm einerlei."
 	},
 
 	thirdParty: {

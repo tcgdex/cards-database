@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		de: "Reißlaus"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell covering its body is as hard as diamond. This Pokémon will do anything it takes to win.",
+		de: "Der harte Panzer auf seinem Rücken steht Diamanten in Sachen Härte in nichts nach. Um zu gewinnen, sind ihm alle Mittel recht."
 	},
 
 	thirdParty: {

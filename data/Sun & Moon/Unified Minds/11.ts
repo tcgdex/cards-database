@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dwebble",
 		fr: "Crabicoque",
+		de: "Lithomith"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 				es: "Hojas Envolventes",
 				it: "Fogliefascia",
 				pt: "Enfaixar com Folhas",
-				de: "Blätterwickel"
+				de: "Panzerhaut"
 			},
 			effect: {
 				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+		de: "Es ist hart genug im Nehmen, um mitsamt seines schweren Felsens mehrere Tage durch trockene Gebiete zu wandern."
 	},
 
 	thirdParty: {

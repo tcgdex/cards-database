@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Water, 1 carta de Energía Lightning o 1 de cada una de tu mano a tus Pokémon de la manera que desees.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a piacimento ai tuoi Pokémon una carta Energia Water, una carta Energia Lightning o entrambe dalla tua mano.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Water, 1 carta de Energia Lightning, ou 1 de cada da sua mão aos seus Pokémon como desejar.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Water-Energiekarte, 1 Lightning-Energiekarte oder von jeder 1 aus deiner Hand beliebig an deine Pokémon anlegen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {W}-Energiekarte, 1 {L}-Energiekarte oder von jeder 1 aus deiner Hand beliebig an deine Pokémon anlegen."
 			},
 		},
 	],
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies over raging seas as if they were nothing. Observing this, a ship's captain dubbed this Pokémon \"the sea incarnate.\"",
+		de: "Es fliegt ohne Bedenken selbst über tosende Meere. Ein Schiffskapitän nannte es nach diesem Anblick die „Inkarnation des Meeres“."
 	},
 
 	thirdParty: {

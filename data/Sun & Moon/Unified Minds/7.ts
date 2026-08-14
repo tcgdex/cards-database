@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		de: "Schneidert sich ein Kleid, indem es sich Blätter zurechtbeißt und sie mit Klebefäden aus seinem Mund zusammennäht."
 	},
 
 	thirdParty: {

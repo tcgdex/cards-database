@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival pone las cartas de su mano en su baraja y las baraja todas, y roba 1 carta por cada una de las cartas de Premio que le queden.",
 		it: "Il tuo avversario rimischia le carte che ha in mano nel proprio mazzo e pesca una carta per ciascuna delle sue carte Premio rimanenti.",
 		pt: "Seu oponente embaralha a própria mão no baralho dele(a) e compra 1 carta para cada uma das cartas de Prêmio restantes dele(a).",
-		de: "Dein Gegner mischt seine Handkarten in sein Deck und zieht 1 Karte für jede seiner verbleibenden Preiskarten."
+		de: "Dein Gegner mischt seine Handkarten in sein Deck und zieht 1 Karte für jede seiner verbleibenden Preiskarten. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eelektrik",
 		fr: "Lampéroie",
+		de: "Zapplalek"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Pon este Pokémon en tu Banca.",
 				it: "Metti questo Pokémon nella tua panchina.",
 				pt: "Coloque este Pokémon no seu Banco.",
-				de: "Lege dieses Pokémon auf deine Bank."
+				de: "Einmal während deines Zuges (bevor du angreifst), wenn du dieses Pokémon auf deiner Hand und mindestens 4 {L}-Energien im Spiel hast, kannst du dieses Pokémon auf deine Bank spielen. Wenn du das machst, verschiebe beliebig viele {L}-Energien von deinen anderen Pokémon auf dieses Pokémon."
 			},
 		},
 	],
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+		de: "Mit dem Saugnapf an seinem Maul hakt es sich an seiner Beute fest und versetzt ihr über seine Fangzähne Stromschläge."
 	},
 
 	thirdParty: {

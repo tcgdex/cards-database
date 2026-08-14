@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		de: "Dieses Pokémon reist durch Zeit und Raum. Bäume und Wiesen wuchern, wenn es in der Nähe ist."
 	},
 
 	thirdParty: {

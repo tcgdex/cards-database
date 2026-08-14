@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
+		de: "Trotz seiner Rolle als Schutzpatron kommt es vor, dass es wild wird und andere Pokémon oder Menschen angreift, die ihm die Laune verderben."
 	},
 
 	thirdParty: {

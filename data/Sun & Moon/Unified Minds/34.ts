@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
+		de: "Molunk"
 	},
 
 	stage: "Stage1",
@@ -64,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+		de: "Dieses tief in Höhlen lebende Pokémon hält sich männliche Molunk, die es sich mit Pheromonen hörig gemacht hat, als Diener."
 	},
 
 	thirdParty: {

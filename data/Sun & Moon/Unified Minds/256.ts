@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de su mano. Si lo hace, ese jugador busca en su baraja 1 carta de Energía Básica, la enseña y la pone en su mano. Después, ese jugador baraja las cartas de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta che ha in mano. Se lo fa, cerca nel suo mazzo una carta Energia base, la mostra e la aggiunge alle carte che ha in mano. Poi rimischia le carte del suo mazzo.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode descartar 1 carta da própria mão. Se fizer isto, aquele jogador irá procurar por 1 carta de Energia básica no próprio baralho, revelá-la e colocá-la na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
-		de: "Einmal während des Zuges jedes Spielers kann der Spieler 1 Karte aus seiner Hand auf seinen Ablagestapel legen. Wenn er das macht, durchsucht jener Spieler sein Deck nach 1 Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie auf seine Hand. Anschließend mischt jener Spieler sein Deck."
+		de: "Einmal während des Zuges jedes Spielers kann der Spieler 1 Karte aus seiner Hand auf seinen Ablagestapel legen. Wenn er das macht, durchsucht jener Spieler sein Deck nach 1 Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie auf seine Hand. Anschließend mischt jener Spieler sein Deck. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	thirdParty: {

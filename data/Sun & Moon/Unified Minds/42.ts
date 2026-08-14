@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snover",
 		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -54,7 +55,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival tiene alguna Energía Water unida a él, este pasa a estar Paralizado.",
 				it: "Se il Pokémon attivo del tuo avversario ha delle Energie Water assegnate, viene paralizzato.",
 				pt: "Se o Pokémon Ativo do seu oponente tiver alguma Energia Water ligada a ele, ele será Paralisado.",
-				de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Water-Energie angelegt ist, ist es jetzt paralysiert."
+				de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 {W}-Energie angelegt ist, ist es jetzt paralysiert."
 			},
 			damage: 70,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It blankets wide areas in snow by whipping up blizzards. It is also known as \"The Ice Monster.\"",
+		de: "Es bedeckt weite Gebiete mit Schnee, indem es Blizzards auslöst. Man nennt es „Das Eismonster“."
 	},
 
 	thirdParty: {
