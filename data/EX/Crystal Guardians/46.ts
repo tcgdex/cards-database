@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
 				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
-				de: "Lege eine -Energiekarte von deiner Hand an Bisasam an."
+				de: "Lege eine {G}-Energiekarte von deiner Hand an Bisasam an."
 			},
 
 		},

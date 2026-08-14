@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy attached to Charmeleon.",
 				fr: "Défaussez une Énergie  attachée à Reptincel.",
-				de: "Entferne 1 -Energie von Glutexo und lege sie auf deinen Ablagestapel."
+				de: "Entferne 1 {R}-Energie von Glutexo und lege sie auf deinen Ablagestapel."
 			},
 			damage: 60,
 

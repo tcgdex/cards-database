@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spoink",
-		fr: "Spoink"
+		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Any damage done to Grumpig by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Groret par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Jeder Schaden, der Groink durch Angriffe von -Pokémon und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Jeder Schaden, der Groink durch Angriffe von {R}-Pokémon und {W}-Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
