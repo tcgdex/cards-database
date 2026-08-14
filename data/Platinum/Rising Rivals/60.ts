@@ -48,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli .",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 1 {R}-Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

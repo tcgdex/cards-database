@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Mamoswine GL is your Active Pokémon, put 1 damage counter on each Active Pokémon (excluding Water Pokémon) (both yours and your opponent's) between turns.",
 				fr: "Tant que Mammochon  est votre Pokémon Actif, placez 1 marqueur de dégât sur chaque Pokémon Actif (Pokémon Water exclus) (les vôtres et ceux de votre adversaire) entre deux tours.",
-				de: "Solange Mamutel GL dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (außer -Pokémon) (deine und die deines Gegners)."
+				de: "Solange Mamutel GL dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (außer {W}-Pokémon) (deine und die deines Gegners)."
 			}
 		},
 	],
