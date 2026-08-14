@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trapinch",
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Quick Charge",
 				fr: "Attaque rapide",
-				de: "Quick Charge"
+				de: "Schneller Ladevorgang"
 			},
 			effect: {
 				en: "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck jusqu'à trois types de cartes Énergie de base différents, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach bis zu 3 unterschiedlichen Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Spark",
 				fr: "Étincelle de dragon",
-				de: "Dragon Spark"
+				de: "Drachenfunke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance to Benched Pokémon.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff allen gegnerischen Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

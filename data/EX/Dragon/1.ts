@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Bad News",
 				fr: "Mauvaises nouvelles",
-				de: "Bad News"
+				de: "Böse Neuigkeiten"
 			},
 			effect: {
 				en: "If the number of cards in your opponent's hand is at least 6, choose a number of cards there, without looking, until your opponent has 5 cards left. Have your opponent discard the cards you chose.",
 				fr: "Si votre adversaire a au moins six cartes en main, choisissez sans regarder suffisamment de cartes pour qu'il ne lui reste plus que cinq cartes. Votre adversaire défausse les cartes que vous avez choisi.",
-				de: "If the number of cards in your opponent's hand is at least 6, choose a number of cards there, without looking, until your opponent has 5 cards left. Have your opponent discard the cards you chose."
+				de: "Falls dein Gegner mindestens 6 Karten auf der Hand hat, wähle (ohne sie vorher anzusehen) so viele seiner Handkarten, dass dein Gegner nur noch 5 Karten auf der Hand hat. Dein Gegner legt die gewählten Karten auf seinen Ablagestapel."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Prize Count",
 				fr: "Compteur de Récompense",
-				de: "Prize Count"
+				de: "Preiszähler"
 			},
 			effect: {
 				en: "If you have more Prize cards left than your opponent, this attack does 20 damage plus 20 more damage.",
 				fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 40 dégâts.",
-				de: "If you have more Prize cards left than your opponent, this attack does 20 damage plus 20 more damage."
+				de: "Falls du mehr Preise übrig hast als dein Gegner, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

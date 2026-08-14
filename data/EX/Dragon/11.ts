@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nincada",
-		fr: "Ningale"
+		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Wonder Guard",
 				fr: "Garde mystik",
-				de: "Wonder Guard"
+				de: "Wunderwache"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Shedinja by your opponent's Evolved Pokémon and Pokémon-ex.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Munja par les Pokémon-ex et les Pokémon Evolués de votre adversaire.",
-				de: "Prevent all effects of attacks, including damage, done to Shedinja by your opponent's Evolved Pokémon and Pokémon-ex."
+				de: "Verhindere alle Effekte von Angriffen inklusive Schaden, die Ninjatom von gegnerischen entwickelten Pokémon und Pokémon-ex zugefügt werden."
 			},
 		},
 	],
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Damage Curse",
 				fr: "La malédiction des dégâts",
-				de: "Damage Curse"
+				de: "Schadensfluch"
 			},
 			effect: {
 				en: "Put 1 damage counter, plus 1 more damage counter for each damage counter on Shedinja, on the Defending Pokémon.",
 				fr: "Placez un marqueur de dégât sur le Pokémon Défenseur, plus un marqueur supplémentaire pour chaque marqueur de dégât sur Munja.",
-				de: "Put 1 damage counter, plus 1 more damage counter for each damage counter on Shedinja, on the Defending Pokémon."
+				de: "Lege 1 Schadensmarke plus 1 weitere Schadensmarke für jede Schadensmarke auf Ninjatom auf das Verteidigende Pokémon."
 			},
 
 		},

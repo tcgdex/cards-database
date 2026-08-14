@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Grind",
 				fr: "Écrase",
-				de: "Grind"
+				de: "Zermahlen"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Graveler.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Gravalanch.",
-				de: "Does 10 damage times the amount of Energy attached to Graveler."
+				de: "Fügt für jede an Georok angelegte Energie 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 
@@ -57,13 +58,13 @@ const card: Card = {
 			name: {
 				en: "Big Explosion",
 				fr: "Grosse explosion",
-				de: "Big Explosion"
+				de: "Große Explosion"
 			},
 
 			effect: {
 				en: "Does 80 damage to each Active Pokémon (both yours and your opponent's).",
 				fr: "Inflige 80 dégâts à chaque Pokémon Actif (les vôtres et ceux de votre adversaire).",
-				de: "Does 80 damage to each Active Pokémon (both yours and your opponent's)."
+				de: "Fügt allen Aktiven Pokémon (deinen und den gegnerischen) 80 Schadenspunkte zu."
 			},
 
 			damage: "10x"

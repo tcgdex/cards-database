@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck des Pokémon de base  et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach -Basis-Pokémon-Karten und lege beliebig viele von ihnen auf deine Bank. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach {G}-Basis-Pokémon-Karten und lege beliebige viele von ihnen auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
