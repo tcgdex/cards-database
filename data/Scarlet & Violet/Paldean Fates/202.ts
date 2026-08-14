@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
+		de: "Der Magen dieses Pokémon ist so resistent, dass es sogar Verschimmeltes oder Verdorbenes essen kann."
 	},
 
 }

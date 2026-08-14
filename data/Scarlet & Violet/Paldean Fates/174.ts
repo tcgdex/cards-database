@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
+		de: "Man sagt, es könne sogar unsichtbare Gegner ausmachen, weil es dazu fähig ist, Auren wahrzunehmen."
 	},
 
 }

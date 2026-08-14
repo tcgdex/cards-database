@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that's highly prized by many luxury brands.",
+		de: "Luxusmarken verwenden oft feine Stoffe, die aus Mischwolle von Waumboll und Cottomi bestehen, für ihre Produkte."
 	},
 
 }

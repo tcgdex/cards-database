@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+		de: "Dieses Pokémon liebt es, mit Kindern zu spielen. Für gewöhnlich ist es friedfertig, doch wenn es seine Familie beschützt, ändert sich das."
 	},
 
 }

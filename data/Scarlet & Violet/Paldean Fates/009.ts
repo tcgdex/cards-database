@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
+		de: "Sein Körper ist ständig in Flammen gehüllt, wodurch es als eine Ursache von Bränden gefürchtet wird."
 	},
 
 }

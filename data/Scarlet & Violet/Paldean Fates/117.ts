@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
+		de: "Wenn das Muschas an seiner Rute in einem harten Kampf abfällt, wird Lahmus wieder zu Flegmon."
 	},
 
 }

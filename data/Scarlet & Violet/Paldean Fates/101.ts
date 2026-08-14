@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+		de: "Es führt ein ruhiges Leben im Gebirge, wo ewiger Schnee liegt, und löst Blizzards aus, um sich zu verstecken."
 	},
 
 }

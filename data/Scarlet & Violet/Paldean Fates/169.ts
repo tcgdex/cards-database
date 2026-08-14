@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+		de: "Auch wenn es guter Stimmung ist, kann es wegen einer Kleinigkeit plötzlich ausrasten und ist daher gefürchtet."
 	},
 
 }
