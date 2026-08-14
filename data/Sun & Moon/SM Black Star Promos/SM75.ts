@@ -97,10 +97,15 @@ const card: Card = {
 		en: "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
 	},
 
-	thirdParty: {
-		cardmarket: 301987,
-		tcgplayer: 151704
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301987,
+				tcgplayer: 151704
+			}
+		}
+	],
 }
 
 export default card

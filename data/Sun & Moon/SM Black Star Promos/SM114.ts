@@ -77,10 +77,15 @@ const card: Card = {
 		en: "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
 	},
 
-	thirdParty: {
-		cardmarket: 313441,
-		tcgplayer: 153998
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 313441,
+				tcgplayer: 153998
+			}
+		}
+	],
 }
 
 export default card

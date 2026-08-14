@@ -91,10 +91,15 @@ const card: Card = {
 		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
 	},
 
-	thirdParty: {
-		cardmarket: 302135,
-		tcgplayer: 166411
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 302135,
+				tcgplayer: 166411
+			}
+		}
+	],
 }
 
 export default card

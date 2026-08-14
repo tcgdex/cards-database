@@ -66,10 +66,15 @@ const card: Card = {
 		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
 	},
 
-	thirdParty: {
-		cardmarket: 299578,
-		tcgplayer: 139100
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299578,
+				tcgplayer: 139100
+			}
+		}
+	],
 }
 
 export default card

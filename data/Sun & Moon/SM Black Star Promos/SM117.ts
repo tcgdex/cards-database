@@ -85,10 +85,15 @@ const card: Card = {
 		en: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
 	},
 
-	thirdParty: {
-		cardmarket: 319912,
-		tcgplayer: 166292
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 319912,
+				tcgplayer: 166292
+			}
+		}
+	],
 }
 
 export default card

@@ -77,10 +77,15 @@ const card: Card = {
 		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
 	},
 
-	thirdParty: {
-		cardmarket: 296832,
-		tcgplayer: 130684
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 296832,
+				tcgplayer: 130684
+			}
+		}
+	],
 }
 
 export default card

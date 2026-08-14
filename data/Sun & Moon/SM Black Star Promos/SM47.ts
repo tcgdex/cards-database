@@ -95,10 +95,15 @@ const card: Card = {
 		en: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
 	},
 
-	thirdParty: {
-		cardmarket: 299573,
-		tcgplayer: 139095
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299573,
+				tcgplayer: 139095
+			}
+		}
+	],
 }
 
 export default card

@@ -65,10 +65,15 @@ const card: Card = {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 370819,
-		tcgplayer: 609698
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 370819,
+				tcgplayer: 609698
+			}
+		}
+	],
 }
 
 export default card

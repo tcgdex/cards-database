@@ -93,10 +93,15 @@ const card: Card = {
 		en: "It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.",
 	},
 
-	thirdParty: {
-		cardmarket: 377526,
-		tcgplayer: 196716
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 377526,
+				tcgplayer: 196716
+			}
+		}
+	],
 }
 
 export default card

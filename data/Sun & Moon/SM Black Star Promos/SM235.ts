@@ -55,10 +55,15 @@ const card: Card = {
 		en: "The question of why only Eevee has such unstable genes has still not been solved.",
 	},
 
-	thirdParty: {
-		cardmarket: 412939,
-		tcgplayer: 200276
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412939,
+				tcgplayer: 200276
+			}
+		}
+	],
 }
 
 export default card

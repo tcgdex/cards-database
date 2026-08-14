@@ -94,10 +94,15 @@ const card: Card = {
 		en: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
 	},
 
-	thirdParty: {
-		cardmarket: 297619,
-		tcgplayer: 131089
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297619,
+				tcgplayer: 131089
+			}
+		}
+	],
 }
 
 export default card

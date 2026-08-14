@@ -85,10 +85,15 @@ const card: Card = {
 		en: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
 	},
 
-	thirdParty: {
-		cardmarket: 319910,
-		tcgplayer: 166288
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 319910,
+				tcgplayer: 166288
+			}
+		}
+	],
 }
 
 export default card

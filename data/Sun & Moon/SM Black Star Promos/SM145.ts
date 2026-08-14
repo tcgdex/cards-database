@@ -91,10 +91,15 @@ const card: Card = {
 		en: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
 	},
 
-	thirdParty: {
-		cardmarket: 366052,
-		tcgplayer: 180521
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366052,
+				tcgplayer: 180521
+			}
+		}
+	],
 }
 
 export default card

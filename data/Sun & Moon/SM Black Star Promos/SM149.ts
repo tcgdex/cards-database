@@ -89,10 +89,15 @@ const card: Card = {
 		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
 	},
 
-	thirdParty: {
-		cardmarket: 364326,
-		tcgplayer: 158255
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364326,
+				tcgplayer: 158255
+			}
+		}
+	],
 }
 
 export default card

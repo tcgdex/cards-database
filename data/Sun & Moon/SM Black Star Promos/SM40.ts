@@ -83,10 +83,15 @@ const card: Card = {
 		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
 	},
 
-	thirdParty: {
-		cardmarket: 299576,
-		tcgplayer: 139097
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299576,
+				tcgplayer: 139097
+			}
+		}
+	],
 }
 
 export default card

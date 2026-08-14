@@ -55,10 +55,15 @@ const card: Card = {
 		en: "Mewtwo was on a rampage searching for meaning to its existence in this world when Giovanni suppressed and controlled its power.",
 	},
 
-	thirdParty: {
-		cardmarket: 412919,
-		tcgplayer: 205169
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412919,
+				tcgplayer: 205169
+			}
+		}
+	],
 }
 
 export default card

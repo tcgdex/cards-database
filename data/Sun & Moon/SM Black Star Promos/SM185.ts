@@ -92,10 +92,15 @@ const card: Card = {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
 	},
 
-	thirdParty: {
-		cardmarket: 370820,
-		tcgplayer: 189758
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 370820,
+				tcgplayer: 189758
+			}
+		}
+	],
 }
 
 export default card

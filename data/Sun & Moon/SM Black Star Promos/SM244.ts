@@ -75,10 +75,15 @@ const card: Card = {
 		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
 	},
 
-	thirdParty: {
-		cardmarket: 467179,
-		tcgplayer: 214272
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 467179,
+				tcgplayer: 214272
+			}
+		}
+	],
 }
 
 export default card

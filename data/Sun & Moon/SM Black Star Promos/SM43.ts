@@ -87,10 +87,15 @@ const card: Card = {
 		en: "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
 	},
 
-	thirdParty: {
-		cardmarket: 299579,
-		tcgplayer: 139099
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299579,
+				tcgplayer: 139099
+			}
+		}
+	],
 }
 
 export default card

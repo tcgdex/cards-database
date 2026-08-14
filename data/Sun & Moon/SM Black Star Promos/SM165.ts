@@ -70,10 +70,15 @@ const card: Card = {
 		en: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 367367,
-		tcgplayer: 184495
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 367367,
+				tcgplayer: 184495
+			}
+		}
+	],
 }
 
 export default card

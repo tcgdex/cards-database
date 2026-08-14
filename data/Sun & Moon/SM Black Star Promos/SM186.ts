@@ -88,10 +88,15 @@ const card: Card = {
 		en: "If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3,000 degrees Fahrenheit!",
 	},
 
-	thirdParty: {
-		cardmarket: 373094,
-		tcgplayer: 189759
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 373094,
+				tcgplayer: 189759
+			}
+		}
+	],
 }
 
 export default card

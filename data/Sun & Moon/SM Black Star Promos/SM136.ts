@@ -93,10 +93,15 @@ const card: Card = {
 		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
 	},
 
-	thirdParty: {
-		cardmarket: 364064,
-		tcgplayer: 175563
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364064,
+				tcgplayer: 175563
+			}
+		}
+	],
 }
 
 export default card

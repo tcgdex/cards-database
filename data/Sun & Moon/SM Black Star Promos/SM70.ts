@@ -95,10 +95,15 @@ const card: Card = {
 		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
 	},
 
-	thirdParty: {
-		cardmarket: 301164,
-		tcgplayer: 146979
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301164,
+				tcgplayer: 146979
+			}
+		}
+	],
 }
 
 export default card

@@ -90,10 +90,15 @@ const card: Card = {
 		en: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
 	},
 
-	thirdParty: {
-		cardmarket: 364323,
-		tcgplayer: 181560
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364323,
+				tcgplayer: 181560
+			}
+		}
+	],
 }
 
 export default card

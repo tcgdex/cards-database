@@ -98,10 +98,15 @@ const card: Card = {
 		en: "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 302137,
-		tcgplayer: 162607
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 302137,
+				tcgplayer: 162607
+			}
+		}
+	],
 }
 
 export default card

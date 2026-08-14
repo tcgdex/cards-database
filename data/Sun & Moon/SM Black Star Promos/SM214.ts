@@ -91,10 +91,15 @@ const card: Card = {
 		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
 	},
 
-	thirdParty: {
-		cardmarket: 394567,
-		tcgplayer: 197855
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 394567,
+				tcgplayer: 197855
+			}
+		}
+	],
 }
 
 export default card

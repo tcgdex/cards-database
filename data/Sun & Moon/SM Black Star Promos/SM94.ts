@@ -88,10 +88,15 @@ const card: Card = {
 		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
 	},
 
-	thirdParty: {
-		cardmarket: 315515,
-		tcgplayer: 158167
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315515,
+				tcgplayer: 158167
+			}
+		}
+	],
 }
 
 export default card

@@ -89,10 +89,15 @@ const card: Card = {
 		en: "This Pokémon's steel spikes are sheathed in ice. Stabs from these spikes cause deep wounds and severe frostbite as well.",
 	},
 
-	thirdParty: {
-		cardmarket: 358427,
-		tcgplayer: 168211
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 358427,
+				tcgplayer: 168211
+			}
+		}
+	],
 }
 
 export default card

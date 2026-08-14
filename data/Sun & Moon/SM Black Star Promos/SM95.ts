@@ -91,10 +91,15 @@ const card: Card = {
 		en: "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
 	},
 
-	thirdParty: {
-		cardmarket: 315516,
-		tcgplayer: 158165
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315516,
+				tcgplayer: 158165
+			}
+		}
+	],
 }
 
 export default card

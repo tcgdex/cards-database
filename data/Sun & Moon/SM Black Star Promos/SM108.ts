@@ -76,10 +76,15 @@ const card: Card = {
 		en: "This Pikachu is wearing its Trainer's cap. Since the cap's not the right size, the fit is a bit loose.",
 	},
 
-	thirdParty: {
-		cardmarket: 301683,
-		tcgplayer: 151973
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301683,
+				tcgplayer: 151973
+			}
+		}
+	],
 }
 
 export default card

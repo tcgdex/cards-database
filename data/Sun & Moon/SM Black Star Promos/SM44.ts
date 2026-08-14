@@ -91,10 +91,15 @@ const card: Card = {
 		en: "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
 	},
 
-	thirdParty: {
-		cardmarket: 297867,
-		tcgplayer: 139098
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297867,
+				tcgplayer: 139098
+			}
+		}
+	],
 }
 
 export default card

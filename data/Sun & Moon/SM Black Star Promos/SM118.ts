@@ -89,10 +89,15 @@ const card: Card = {
 		en: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
 	},
 
-	thirdParty: {
-		cardmarket: 319913,
-		tcgplayer: 166294
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 319913,
+				tcgplayer: 166294
+			}
+		}
+	],
 }
 
 export default card

@@ -77,10 +77,15 @@ const card: Card = {
 		en: "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
 	},
 
-	thirdParty: {
-		cardmarket: 371773,
-		tcgplayer: 189012
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371773,
+				tcgplayer: 189012
+			}
+		}
+	],
 }
 
 export default card

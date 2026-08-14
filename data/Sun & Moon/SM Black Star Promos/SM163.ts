@@ -85,10 +85,15 @@ const card: Card = {
 		en: "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 367366,
-		tcgplayer: 184487
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 367366,
+				tcgplayer: 184487
+			}
+		}
+	],
 }
 
 export default card

@@ -75,10 +75,15 @@ const card: Card = {
 		en: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
 	},
 
-	thirdParty: {
-		cardmarket: 371772,
-		tcgplayer: 189010
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371772,
+				tcgplayer: 189010
+			}
+		}
+	],
 }
 
 export default card

@@ -68,10 +68,15 @@ const card: Card = {
 		en: "Its six eggs use telepathy to communicate among themselves. It is believed to carry plant genes and the genes of other species.",
 	},
 
-	thirdParty: {
-		cardmarket: 321168,
-		tcgplayer: 168026
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321168,
+				tcgplayer: 168026
+			}
+		}
+	],
 }
 
 export default card

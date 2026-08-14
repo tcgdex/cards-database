@@ -75,10 +75,15 @@ const card: Card = {
 		en: "Although it doesn't like disputes, it will sharpen the leaf on its tail into a blade and fight if it has to protect its friends.",
 	},
 
-	thirdParty: {
-		cardmarket: 449118,
-		tcgplayer: 211627
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449118,
+				tcgplayer: 211627
+			}
+		}
+	],
 }
 
 export default card

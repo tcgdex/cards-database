@@ -87,10 +87,15 @@ const card: Card = {
 		en: "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
 	},
 
-	thirdParty: {
-		cardmarket: 364329,
-		tcgplayer: 178796
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364329,
+				tcgplayer: 178796
+			}
+		}
+	],
 }
 
 export default card

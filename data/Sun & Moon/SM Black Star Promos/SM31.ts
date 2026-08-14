@@ -92,10 +92,15 @@ const card: Card = {
 		en: "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 298284,
-		tcgplayer: 132239
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 298284,
+				tcgplayer: 132239
+			}
+		}
+	],
 }
 
 export default card

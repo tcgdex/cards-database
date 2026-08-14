@@ -82,10 +82,15 @@ const card: Card = {
 		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
 	},
 
-	thirdParty: {
-		cardmarket: 312555,
-		tcgplayer: 149385
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312555,
+				tcgplayer: 149385
+			}
+		}
+	],
 }
 
 export default card

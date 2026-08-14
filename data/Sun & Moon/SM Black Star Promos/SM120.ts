@@ -61,10 +61,15 @@ const card: Card = {
 		en: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
 	},
 
-	thirdParty: {
-		cardmarket: 321169,
-		tcgplayer: 168030
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321169,
+				tcgplayer: 168030
+			}
+		}
+	],
 }
 
 export default card

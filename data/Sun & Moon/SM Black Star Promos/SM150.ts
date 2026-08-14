@@ -73,10 +73,15 @@ const card: Card = {
 		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 364327,
-		tcgplayer: 158256
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364327,
+				tcgplayer: 158256
+			}
+		}
+	],
 }
 
 export default card

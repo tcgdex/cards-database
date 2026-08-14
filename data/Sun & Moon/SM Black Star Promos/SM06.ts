@@ -77,10 +77,15 @@ const card: Card = {
 		en: "It's considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
 	},
 
-	thirdParty: {
-		cardmarket: 295298,
-		tcgplayer: 127511
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295298,
+				tcgplayer: 127511
+			}
+		}
+	],
 }
 
 export default card

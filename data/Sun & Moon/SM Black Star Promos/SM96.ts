@@ -98,10 +98,15 @@ const card: Card = {
 		en: "Boiling blood, like plasma, circulates through its body. It makes its dwelling place in volcanic caves.",
 	},
 
-	thirdParty: {
-		cardmarket: 315517,
-		tcgplayer: 158171
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315517,
+				tcgplayer: 158171
+			}
+		}
+	],
 }
 
 export default card

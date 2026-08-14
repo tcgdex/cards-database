@@ -76,10 +76,15 @@ const card: Card = {
 		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
 	},
 
-	thirdParty: {
-		cardmarket: 360558,
-		tcgplayer: 172935
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 360558,
+				tcgplayer: 172935
+			}
+		}
+	],
 }
 
 export default card

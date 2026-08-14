@@ -67,10 +67,15 @@ const card: Card = {
 		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
 	},
 
-	thirdParty: {
-		cardmarket: 371775,
-		tcgplayer: 189022
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371775,
+				tcgplayer: 189022
+			}
+		}
+	],
 }
 
 export default card

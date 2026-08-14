@@ -91,10 +91,15 @@ const card: Card = {
 		en: "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
 	},
 
-	thirdParty: {
-		cardmarket: 301985,
-		tcgplayer: 151702
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301985,
+				tcgplayer: 151702
+			}
+		}
+	],
 }
 
 export default card

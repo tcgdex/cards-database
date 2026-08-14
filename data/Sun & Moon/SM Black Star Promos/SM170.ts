@@ -79,10 +79,15 @@ const card: Card = {
 		en: "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
 	},
 
-	thirdParty: {
-		cardmarket: 397979,
-		tcgplayer: 190940
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 397979,
+				tcgplayer: 190940
+			}
+		}
+	],
 }
 
 export default card

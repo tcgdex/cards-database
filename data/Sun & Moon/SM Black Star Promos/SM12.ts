@@ -90,10 +90,15 @@ const card: Card = {
 		en: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
 	},
 
-	thirdParty: {
-		cardmarket: 295304,
-		tcgplayer: 127185
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295304,
+				tcgplayer: 127185
+			}
+		}
+	],
 }
 
 export default card

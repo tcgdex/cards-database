@@ -95,10 +95,15 @@ const card: Card = {
 		en: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
 	},
 
-	thirdParty: {
-		cardmarket: 316278,
-		tcgplayer: 155597
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 316278,
+				tcgplayer: 155597
+			}
+		}
+	],
 }
 
 export default card

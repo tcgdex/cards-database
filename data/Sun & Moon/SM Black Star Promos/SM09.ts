@@ -94,10 +94,15 @@ const card: Card = {
 		en: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
 	},
 
-	thirdParty: {
-		cardmarket: 295301,
-		tcgplayer: 127514
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295301,
+				tcgplayer: 127514
+			}
+		}
+	],
 }
 
 export default card

@@ -90,10 +90,15 @@ const card: Card = {
 		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
 	},
 
-	thirdParty: {
-		cardmarket: 372001,
-		tcgplayer: 188322
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 372001,
+				tcgplayer: 188322
+			}
+		}
+	],
 }
 
 export default card

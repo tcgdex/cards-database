@@ -93,10 +93,15 @@ const card: Card = {
 		en: "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 359747,
-		tcgplayer: 173383
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 359747,
+				tcgplayer: 173383
+			}
+		}
+	],
 }
 
 export default card

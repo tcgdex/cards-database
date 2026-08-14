@@ -91,10 +91,15 @@ const card: Card = {
 		en: "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 295302,
-		tcgplayer: 127181
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295302,
+				tcgplayer: 127181
+			}
+		}
+	],
 }
 
 export default card

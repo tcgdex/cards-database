@@ -89,10 +89,15 @@ const card: Card = {
 		en: "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokémon boasts incredible patience.",
 	},
 
-	thirdParty: {
-		cardmarket: 315518,
-		tcgplayer: 158169
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315518,
+				tcgplayer: 158169
+			}
+		}
+	],
 }
 
 export default card

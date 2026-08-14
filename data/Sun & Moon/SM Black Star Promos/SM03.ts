@@ -66,10 +66,15 @@ const card: Card = {
 		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
 	},
 
-	thirdParty: {
-		cardmarket: 295295,
-		tcgplayer: 126029
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295295,
+				tcgplayer: 126029
+			}
+		}
+	],
 }
 
 export default card

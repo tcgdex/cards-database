@@ -98,10 +98,15 @@ const card: Card = {
 		en: "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pokémon with shocking beams of electrical energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 297866,
-		tcgplayer: 131293
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297866,
+				tcgplayer: 131293
+			}
+		}
+	],
 }
 
 export default card

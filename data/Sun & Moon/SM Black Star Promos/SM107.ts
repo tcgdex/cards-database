@@ -96,10 +96,15 @@ const card: Card = {
 		en: "This is its form with it is devouring the light of Solgaleo. It pounces on its foes and then slashes them with the claws on its four limbs and back.",
 	},
 
-	thirdParty: {
-		cardmarket: 321167,
-		tcgplayer: 162603
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321167,
+				tcgplayer: 162603
+			}
+		}
+	],
 }
 
 export default card

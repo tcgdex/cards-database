@@ -93,10 +93,15 @@ const card: Card = {
 		en: "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
 	},
 
-	thirdParty: {
-		cardmarket: 359746,
-		tcgplayer: 173382
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 359746,
+				tcgplayer: 173382
+			}
+		}
+	],
 }
 
 export default card
