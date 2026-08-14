@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Klang",
 		fr: "Clic",
+		de: "Kliklak"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a tus Pokémon Metal por ataques de los Pokémon-EX de tu rival.",
 				it: "Previeni tutti i danni da attacchi inflitti ai tuoi Pokémon Metal dai Pokémon-EX del tuo avversario.",
 				pt: "Previne todos os danos causados a seus Pokémon Metal causados pelos ataques dos Pokémon-EX do seu oponente.",
-				de: "Verhindere allen Schaden, der deinen Metal-Pokémon durch Angriffe von Pokémon-EX deines Gegners zugefügt würde."
+				de: "Verhindere allen Schaden, der deinen {M}-Pokémon durch Angriffe von Pokémon-EX deines Gegners zugefügt würde."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Heavy Bullet",
 				fr: "Projectile Lourd",
+				de: "Schweres Geschoss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "The minigear spins at high speed. Then the energy from the red core charges the minigear to make it ready to fire.",
+		de: "Lässt das kleine Rad schnell rotieren und feuert es ab, indem darauf Energie aus seinem roten Kern übertragen wird."
 	},
 
 	thirdParty: {

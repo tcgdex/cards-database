@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, son attaque ne fait rien.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
+		de: "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt, das riesige Explosionen verursachen kann."
 	},
 
 	thirdParty: {

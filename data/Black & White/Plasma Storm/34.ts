@@ -58,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Seafaring",
 				fr: "Voyage en Mer",
+				de: "Seefahrer"
 			},
 			effect: {
 				en: "Flip 3 coins. For each heads, attach a Water Energy card from your discard pile to your Benched Pokémon in any way you like.",
 				fr: "Lancez 3 pièces. Pour chaque côté face, attachez une carte Énergie Water de votre pile de défausse à vos Pokémon de Banc, de la manière que vous voulez.",
+				de: "Wirf 3 Münzen. Lege pro „Kopf“ 1 {W}-Energiekarte von deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
 			},
 
 		},
@@ -78,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+		de: "Es wird mit einer wundersamen Kraft geboren, die eine Bindung zu jedem anderen Pokémon möglich macht."
 	},
 
 	thirdParty: {

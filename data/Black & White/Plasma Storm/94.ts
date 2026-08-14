@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Guard Press",
 				fr: "Pression de Garde",
+				de: "Schutzdruck"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -55,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 90,
@@ -73,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+		de: "Es jagt in schmalen, von Stalobor und Onix gegrabenen Schächten nach Beute und spießt sie mit spitzen Klauen auf."
 	},
 
 	thirdParty: {

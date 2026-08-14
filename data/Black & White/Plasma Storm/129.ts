@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cambia a tu Pokémon Activo por 1 de tus Pokémon en Banca. Entonces, puedes mover tantas Energías como quieras del anterior Pokémon Activo al nuevo Pokémon Activo.",
 		it: "Scambia il tuo Pokémon attivo con uno dei tuoi Pokémon in panchina. Poi, puoi spostare tutte le Energie che vuoi dal Pokémon attivo precedente a quello nuovo.",
 		pt: "Troque seu Pokémon Ativo por 1 dos Pokémon no seu Banco. Em seguida, você poderá mover tantas Energias ligadas ao antigo Pokémon Ativo para o novo Pokémon Ativo quanto desejar.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst anschließend beliebig viele der an dein altes Aktives Pokémon angelegten Energien auf dein neues Aktives Pokémon verschieben."
+		de: "Dein Deck darf nicht mehr als 1 ASS-KLASSE-Karte enthalten. Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst anschließend beliebig viele der an dein altes Aktives Pokémon angelegten Energien auf dein neues Aktives Pokémon verschieben. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Beam",
 				fr: "Bulles d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
+		de: "Es sieht aus wie eine Wasserpflanze. Es dient den Pokémon, die nicht schwimmen können, als Fähre."
 	},
 
 	thirdParty: {

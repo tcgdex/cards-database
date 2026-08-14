@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Spiral Drain",
 				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -64,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
+		de: "Es benötigt keine Augen, da es seine Umgebung im Flug durch das Aussenden von Schallwellen erschließt."
 	},
 
 	thirdParty: {

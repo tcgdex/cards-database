@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja una carta de Energía Plasma y únela a 1 de tus Pokémon del Equipo Plasma. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo una carta Energia Plasma e assegnala a uno dei tuoi Pokémon del Team Plasma. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho um card de Energia de Plasma e ligue-o a 1 dos seus Pokémon da Equipe Plasma. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach einer Plasma-Energiekarte und lege sie an 1 deiner Team-Plasma-Pokémon an. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach einer Plasma-Energiekarte und lege sie an 1 deiner Team Plasma-Pokémon an. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

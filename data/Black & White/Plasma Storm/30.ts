@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lotad",
 		fr: "Nénupiot",
+		de: "Loturzel"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Jump On",
 				fr: "Saut",
+				de: "Draufspringen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 50,
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+		de: "Es hat ein spitzbübisches Wesen. Sieht es einen Angler, zieht es an der Angelschnur, um ihn zu ärgern."
 	},
 
 	thirdParty: {

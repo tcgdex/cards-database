@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Klink",
 		fr: "Tic",
+		de: "Klikk"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				de: "Klammer"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Gear Smash",
 				fr: "Méca-Fracas",
+				de: "Getriebesalat"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "A minigear and big gear comprises its body. If the minigear it launches at its foe doesn't return, it will die.",
+		de: "Besteht aus kleinen und großen Rädern. Kehrt ein kleines Rad, das es abgefeuert hat, nicht zurück, wird es brenzlig."
 	},
 
 	thirdParty: {

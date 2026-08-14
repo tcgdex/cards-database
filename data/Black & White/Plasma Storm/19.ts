@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Double Fire",
 				fr: "Double Feu",
+				de: "Duplexfeuer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+		de: "Ein kultiviertes Pokémon, das Beeren vor dem Verzehr stets anbrät. Es bietet den Menschen gerne seine Hilfe an."
 	},
 
 	thirdParty: {

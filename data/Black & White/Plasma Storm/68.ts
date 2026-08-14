@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 30,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+		de: "Man sagt, es sei vor 50 Jahren aus den Tiefen einer Wüste erschienen, in der zuvor angeblich ein UFO abgestürzt war."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Phanpy",
 		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Spinning Turn",
 				fr: "Volte-Face",
+				de: "Fliegender Wechsel"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 40,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Wreck",
 				fr: "Anéantissement",
+				de: "Abreißen"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 60 more damage. Discard that Stadium card.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires. Défaussez la carte Stade.",
+				de: "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 60 weitere Schadenspunkte zu. Lege diese Stadionkarte auf den Ablagestapel."
 			},
 			damage: 80,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+		de: "Wenn es angreift, rollt es sich zusammen und auf den Gegner zu. Es kann Häuser zum Einsturz bringen."
 	},
 
 	thirdParty: {

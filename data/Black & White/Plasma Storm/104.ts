@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 
 	stage: "Stage2",
@@ -63,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Return",
 				fr: "Retour",
+				de: "Rückkehr"
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
 				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: 30,
 
@@ -91,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It shares many blessings with people who respect one another's rights and avoid needless strife.",
+		de: "Menschen, die unnötigen Streit vermeiden und sich gegenseitig respektieren, ist es wohlgesonnen."
 	},
 
 	thirdParty: {

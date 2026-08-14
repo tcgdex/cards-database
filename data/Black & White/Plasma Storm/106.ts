@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whismur",
 		fr: "Chuchmur",
+		de: "Flurmel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Hyper Voice",
 				fr: "Mégaphone",
+				de: "Schallwelle"
 			},
 
 			damage: 50,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+		de: "Die Schockwellen, die durch sein Rufen entstehen, können einen LKW umkippen."
 	},
 
 	thirdParty: {

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Sting Missile",
 				fr: "Dard-Missile",
+				de: "Stachelrakete"
 			},
 			effect: {
 				en: "Shuffle this Pokémon and all cards attached to it into your deck.",
 				fr: "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				de: "Mische dieses Pokémon und alle daran angelegten Karten zurück in dein Deck."
 			},
 			damage: 30,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+		de: "Ein Pokémon-Trio. Zur Schlafenszeit scharen sie sich zu Hunderten und bilden einen riesigen Bienenstock."
 	},
 
 	thirdParty: {

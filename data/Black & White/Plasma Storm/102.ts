@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Yawn",
 				fr: "Bâillement",
+				de: "Gähner"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+		de: "Wandelt die Güte und Freude anderer in Glücksgefühle um, die es in seinem Panzer speichert."
 	},
 
 	thirdParty: {

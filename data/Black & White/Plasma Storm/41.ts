@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubchoo",
 		fr: "Polarhume",
+		de: "Petznief"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Powerful Rage",
 				fr: "Rage Massive",
+				de: "Mächtige Wut"
 			},
 			effect: {
 				en: "Does 20 damage times the number of damage counters on this Pokémon.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 20,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Glacier Drop",
 				fr: "Chute de Glacier",
+				de: "Gletschersturz"
 			},
 			effect: {
 				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "They love the cold seas of the north. They create pathways around the ocean waters by freezing their own breath.",
+		de: "Es liebt die kalten Meere im Norden und überquert ihre Flächen auf Stegen, die es mit seinem gefrorenen Atem baut."
 	},
 
 	thirdParty: {

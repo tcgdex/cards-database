@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gurdurr",
 		fr: "Ouvrifier",
+		de: "Strepoli"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Facade",
 				fr: "Façade",
+				de: "Fassade"
 			},
 			effect: {
 				en: "If this Pokémon is Burned or Poisoned, this attack does 60 more damage.",
 				fr: "Si ce Pokémon est Brûlé ou Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn dieses Pokémon verbrannt oder vergiftet ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Drain Punch",
 				fr: "Vampipoing",
+				de: "Ableithieb"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete.",
+		de: "Es setzt Attacken ein, die sich die Zentrifugalkraft zunutze machen, indem es seine Betonpfeiler umherschwingt."
 	},
 
 	thirdParty: {

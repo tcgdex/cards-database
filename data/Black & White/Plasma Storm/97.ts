@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Double Slap",
 				fr: "Torgnoles",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "On nights with a full moon, Clefairy gather from all over and dance. Bathing in moonlight makes them float.",
+		de: "Bei Vollmond kommen die Piepi von überall zusammen, um zu tanzen. Das Mondlicht lässt sie in der Luft schweben."
 	},
 
 	thirdParty: {

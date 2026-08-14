@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Triple Slap",
 				fr: "Triple Gifle",
+				de: "Triplexhieb"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It shows its cute side by chasing its own tail until it gets dizzy.",
+		de: "Es zeigt gerne seine niedliche Seite, indem es seinen eigenen Schweif jagt, bis ihm schwindlig wird."
 	},
 
 	thirdParty: {
