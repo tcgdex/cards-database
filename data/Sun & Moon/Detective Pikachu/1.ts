@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 Pokémon Grass, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo un Pokémon Grass, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 Pokémon Grass no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {G}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
 	},
 
 	thirdParty: {

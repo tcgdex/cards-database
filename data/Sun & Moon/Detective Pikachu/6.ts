@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Legends tell of its fighting alongside a general and conquering a whole country.",
+		de: "Der Legende nach soll es vor langer Zeit an der Seite eines Kriegshelden gekämpft und so an der Eroberung eines Landes mitgewirkt haben."
 	},
 
 	thirdParty: {
