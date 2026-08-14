@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Primeape"
+		en: "Primeape",
+		de: "Rasaff"
 	},
 
 	stage: "Stage2",
