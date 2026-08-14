@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electabuzz ex",
 		fr: "Elektek ex",
-		de: "Elektek ex"
+		de: "Elektek-ex"
 	},
 
 	illustrator: "Hikaru Koike",

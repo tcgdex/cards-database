@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aggron ex",
 		fr: "Galeking ex",
-		de: "Stollos ex"
+		de: "Stollos-ex"
 	},
 
 	illustrator: "Hikaru Koike",

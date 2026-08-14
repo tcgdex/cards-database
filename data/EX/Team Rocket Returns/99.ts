@@ -4,7 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Mewtwo ex",
-		de: "Rockets Mewtu ex"
+		de: "Rockets Mewtu-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",

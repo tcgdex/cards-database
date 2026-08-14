@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard ex",
 		fr: "Dracaufeu ex",
-		de: "Glurak ex"
+		de: "Glurak-ex"
 	},
 
 	illustrator: "Hiromichi Sugiyama",

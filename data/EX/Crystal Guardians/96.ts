@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sceptile ex δ",
 		fr: "Jungko ex δ",
-		de: "Gewaldro ex"
+		de: "Gewaldro-ex"
 	},
 
 	suffix: "ex",

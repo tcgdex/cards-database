@@ -4,7 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Zapdos ex",
-		de: "Rockets Zapdos ex"
+		de: "Rockets Zapdos-ex"
 	},
 
 	illustrator: "Ryo Ueda",

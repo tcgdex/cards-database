@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dragonite ex",
 		fr: "Dracolosse ex",
-		de: "Dragoran ex"
+		de: "Dragoran-ex"
 	},
 
 	illustrator: "Ryo Ueda",
