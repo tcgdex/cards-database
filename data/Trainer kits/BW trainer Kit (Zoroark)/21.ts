@@ -29,11 +29,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			fr: "Vive-Attaque",
+			de: "Ruckzuckhieb"
 		},
 		effect: {
 			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 		},
 		damage: "10+"
 	}],
@@ -49,7 +51,8 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands."
+		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+		de: "Gewöhnlich hört es zwar auf das, was sein Trainer sagt, doch manchmal kommt es mit komplizierten Befehlen nicht klar."
 	},
 
 	retreat: 1,
