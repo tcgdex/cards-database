@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Piston Headbutt",
 				fr: "Coup de Piston",
+				de: "Kolbenschwinger"
 			},
 			effect: {
 				en: "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
 				fr: "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				de: "Verschiebe 1 an das Verteidigende Pokémon angelegte Energie auf 1 Pokémon auf der Bank deines Gegners."
 			},
 			damage: 30,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 80,
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+		de: "Ein äußerst grausames Pokémon. Es greift jeden, der ihm unter die Augen kommt, mit seinen scharfen Reißzähnen an."
 	},
 
 	thirdParty: {

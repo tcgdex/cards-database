@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Swift Sting",
 				fr: "Piqûre Vive",
+				de: "Flinker Stachel"
 			},
 			effect: {
 				en: "If this Pokémon has full HP, this attack does 40 more damage, and the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Si ce Pokémon a tous ses PV, cette attaque inflige 40 dégâts supplémentaires, et le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				de: "Wenn dieses Pokémon volle KP hat, fügt dieser Angriff 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt und vergiftet."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				de: "Durchbohren"
 			},
 
 			damage: 60,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+		de: "Sein bester Angriff: schnell auf den Gegner zufliegen, mit Giftstacheln zustechen und davonfliegen."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Push Down",
 				fr: "Renversement",
+				de: "Runterdrücken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -79,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
+		de: "Da es nichts sehen kann, rammt und frisst es alles, was ihm auf dem Weg in die Quere kommt."
 	},
 
 	thirdParty: {

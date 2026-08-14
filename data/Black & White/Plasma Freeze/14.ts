@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussi",
+				de: "Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.",
+		de: "Seine Flamme entzündet sich erst, wenn es einem Menschen oder einem Pokémon die Lebensenergie absaugt."
 	},
 
 	thirdParty: {

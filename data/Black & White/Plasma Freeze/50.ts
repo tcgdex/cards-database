@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Calculate",
 				fr: "Calcul",
+				de: "Berechnen"
 			},
 			effect: {
 				en: "Look at the top 4 cards of your deck and put them back on top of your deck in any order.",
 				fr: "Regardez les 4 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				de: "Schau dir die obersten 4 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de Poing Psy",
+				de: "Psyhieb"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cells are all magnetic, and it communicates with others by using magnetic pulses.",
+		de: "Ihre Zellen sind magnetisch geladen. Sie sondern über ihre Körper Magnetkräfte ab, um miteinander zu kommunizieren."
 	},
 
 	thirdParty: {

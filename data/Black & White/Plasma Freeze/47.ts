@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a tus Pokémon en Banca por ataques.",
 				it: "Previeni tutto il danno inflitto dagli attacchi ai tuoi Pokémon in panchina.",
 				pt: "Impede todos os danos causados por ataques a seus Pokémon no Banco.",
-				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+				de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank durch Angriffe zugefügt würde."
 			},
 		},
 	],
@@ -59,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -80,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+		de: "Formt eine unsichtbare Wand mitten in der Luft, indem es minutiös mit den Fingerspitzen vibriert."
 	},
 
 	thirdParty: {

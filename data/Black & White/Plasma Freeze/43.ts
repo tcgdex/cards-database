@@ -34,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Hit Back",
 				fr: "Réplique",
+				de: "Rückschlag"
 			},
 			effect: {
 				en: "If this Pokémon has no damage counters on it, this attack does nothing.",
 				fr: "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque ne fait rien.",
+				de: "Wenn auf diesem Pokémon keine Schadensmarken liegen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+		de: "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es."
 	},
 }
 

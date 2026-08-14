@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yamask",
 		fr: "Tutafeh",
+		de: "Makabaja"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 				es: "Tres Metros Bajo Tierra",
 				it: "Sottoterra",
 				pt: "Sete Palmos sob a Terra",
-				de: "Radieschen von unten"
+				de: "Grausame Gruft"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may Knock Out this Pokémon. If you do, put 3 damage counters on your opponent’s Pokémon in any way you like.",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Slap of Misfortune",
 				fr: "Revers de Fortune",
+				de: "Unglückshieb"
 			},
 			effect: {
 				en: "Whenever your opponent flips a coin during his or her next turn, treat it as tails.",
 				fr: "Chaque fois que votre adversaire lance une pièce pendant son prochain tour, considérez que c'est pile.",
+				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, wird das Ergebnis als „Zahl“ gewertet."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+		de: "Grabräuber, die es mit einem echten Sarg verwechseln und ihm zu nahe kommen, hält es im Inneren seines Körpers gefangen."
 	},
 
 	thirdParty: {

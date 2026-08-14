@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tympole",
 		fr: "Tritonde",
+		de: "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Vibration",
 				fr: "Vibration",
+				de: "Schwingung"
 			},
 
 			damage: 20,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Suspicious Soundwave",
 				fr: "Onde Sonore Suspecte",
+				de: "Seltsame Schallwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+		de: "Es lebt zu Wasser und zu Lande. Mit seiner langen, klebrigen Zunge raubt es Gegnern die Bewegungsfreiheit."
 	},
 
 	thirdParty: {

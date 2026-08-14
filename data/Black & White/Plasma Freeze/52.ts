@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metang",
 		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -42,7 +43,7 @@ const card: Card = {
 				es: "Búsqueda de Plasma",
 				it: "Ricerca Plasma",
 				pt: "Busca de Plasma",
-				de: "Plasmasuche"
+				de: "Plasma-Suche"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it into your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja una carta del Equipo Plasma, enseñarla y ponerla en tu mano. Baraja las cartas de tu baraja después. No puedes usar una habilidad con el mismo nombre durante tu turno.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo una carta Team Plasma, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo. Non puoi utilizzare un’abilità con lo stesso nome durante il tuo turno.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um card da Equipe Plasma em seu deck, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards. Você não poderá usar uma Habilidade com o mesmo nome durante sua vez de jogar.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Team-Plasma-Karte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck. Du kannst keine Fähigkeit mit demselben Namen während deines Zuges einsetzen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Team Plasma-Karte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck. Du kannst während deines Zuges keine Fähigkeit mit dem gleichen Namen einsetzen."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Mind Bend",
 				fr: "Contrôleur d'Esprit",
+				de: "Gedankenverbiegung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+		de: "Dank seiner vier vernetzten Hirne kann es Gegner besser als ein Supercomputer mit komplizierten Formeln analysieren."
 	},
 
 	thirdParty: {

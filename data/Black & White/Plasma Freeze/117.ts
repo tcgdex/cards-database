@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -63,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Attack Command",
 				fr: "Ordre d'Assaut",
+				de: "Angriffsbefehl"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und der deines Gegners) zu."
 			},
 			damage: 10,
 
@@ -84,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {

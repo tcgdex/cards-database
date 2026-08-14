@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "El Coste de Retirada de cada uno de tus Pokémon del Equipo Plasma en juego es de ColorlessColorless menos.",
 				it: "Il costo di ritirata di ciascun Pokémon Team Plasma in gioco scende di ColorlessColorless.",
 				pt: "O Custo para Recuar de cada um de seus Pokémon da Equipe Plasma em jogo será de Colorless Colorless a menos.",
-				de: "Die Rückzugskosten aller Team-Plasma-Pokémon im Spiel verringern sich um Colorless Colorless."
+				de: "Die Rückzugskosten all deiner Team Plasma-Pokémon im Spiel verringern sich um {C}{C}."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent Glace",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 60,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+		de: "Wenn es seine Körpertemperatur senkt, erstarren die Haare seines Fells zu Eis und dienen ihm als nadelartige Geschosse."
 	},
 
 	thirdParty: {

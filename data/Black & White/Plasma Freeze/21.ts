@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Slam",
 				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+		de: "An Land bedeckt es die Haut mit einer giftigen Schicht, die es vor dem Austrocknen bewahrt."
 	},
 
 	thirdParty: {
