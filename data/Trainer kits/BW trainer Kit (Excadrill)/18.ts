@@ -30,11 +30,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Doubleslap",
-			fr: "Torgnoles"
+			fr: "Torgnoles",
+			de: "Duplexhieb"
 		},
 		effect: {
 			en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 		},
 		damage: "30x"
 	}],
@@ -48,7 +50,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
+		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+		de: "Berührt es jemanden mit den Fühlern an seinen Ohren, erfährt es durch den Herzschlag der Person, wie es ihr geht."
 	},
 
 	retreat: 2,

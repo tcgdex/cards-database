@@ -39,11 +39,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Bulk Up",
-			fr: "Gonflette"
+			fr: "Gonflette",
+			de: "Protzer"
 		},
 		effect: {
 			en: "During your next turn, each of this Pokémon's attacks does 20 more damage (before applying Weakness and Resistance).",
-			fr: "Lors de votre prochain tour, chaque attaque de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			fr: "Lors de votre prochain tour, chaque attaque de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			de: "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}, {
 		cost: [
@@ -53,7 +55,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Pound",
-			fr: "Écras'Face"
+			fr: "Écras'Face",
+			de: "Pfund"
 		},
 		damage: 60
 	}],
@@ -64,7 +67,8 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends."
+		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+		de: "Zu Trainingszwecken trägt es immer einen Stahlträger bei sich. Unter Kollegen gibt es nur zu gern mit seinen Muskeln an."
 	},
 
 	retreat: 2,
