@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 2 cartas de Fósil Raro y ponlas en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a due carte Fossile Raro e mettile nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 2 cartas Fóssil Raro no seu baralho e coloque-as no seu Banco. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 2 Seltenes Fossil-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 2 Seltenes Fossil-Karten und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

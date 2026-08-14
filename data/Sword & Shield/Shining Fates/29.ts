@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps."
+		en: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+		de: "Es spinnt einen eiskalten Faden, mit dem es sich an einen Ast hängt. Dabei tut es so, als wäre es ein Eiszapfen, um in Ruhe schlafen zu können."
 	},
 
 	variants: [

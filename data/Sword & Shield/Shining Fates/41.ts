@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
+		de: "Sein Körper ist zum Bersten voll mit Giftgas. Angelockt vom fauligen Geruch verrottender Abfälle, lungert es auf Müllhalden herum."
 	},
 
 	variants: [
