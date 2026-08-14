@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin until you get tails. For each heads, draw 2 cards.",
 		fr: "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, piochez 2 cartes.",
-		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Wirf eine Münze, bis du das erste Mal „Zahl“ wirfst. Ziehe für jeden „Kopf“ 2 Karten.",
 	},
 
 	variants: [

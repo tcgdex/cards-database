@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Foul Gas",
 				fr: "Gaz infect",
-				de: "Foul Gas"
+				de: "Fäulnisgas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Misfire",
 				fr: "Raté",
-				de: "Misfire"
+				de: "Fehlschuss"
 			},
 			effect: {
 				en: "Flip a coin. If tails, put 6 damage counters on Weezing.",
 				fr: "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo.",
-				de: "Flip a coin. If tails, put 6 damage counters on Weezing."
+				de: "Wirf eine Münze. Lege bei „Zahl“ 6 Schadensmarken auf Smogmog."
 			},
 			damage: 60,
 
