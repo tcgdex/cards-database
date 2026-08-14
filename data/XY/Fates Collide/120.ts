@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Descarta tantas Energías Metal unidas a este Pokémon como quieras. Este ataque hace 20 puntos de daño más por cada carta de Energía descartada de esta manera.",
 				it: "Scarta a piacimento le Energie Metal assegnate a questo Pokémon. Questo attacco infligge 20 danni in più per ogni carta Energia scartata in questo modo.",
 				pt: "Descarte tantas Energias Metal ligadas a este Pokémon quanto desejar. Este ataque causa 20 de danos adicionais para cada card de Energia descartado desta forma.",
-				de: "Lege beliebig viele an dieses Pokémon angelegte Metal-Energien auf deinen Ablagestapel. Dieser Angriff fügt 20 weitere Schadenspunkte für jede Energiekarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
+				de: "Lege beliebig viele an dieses Pokémon angelegte {M}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 20 weitere Schadenspunkte für jede Energiekarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
 			},
 			damage: "100+",
 

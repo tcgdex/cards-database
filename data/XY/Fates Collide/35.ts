@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+		de: "Schütteln sich zwei von ihnen die Hände, bilden ihre Denkapparate ein Netzwerk und ihre Psycho-Kräfte werden stärker."
 	},
 
 	thirdParty: {

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "When their two divided brains think the same thoughts, their psychic power is maximized.",
+		de: "Wenn beide Hälften seines gespaltenen Denkapparates an dasselbe denken, sind seine Psycho-Kräfte am stärksten."
 	},
 
 	thirdParty: {

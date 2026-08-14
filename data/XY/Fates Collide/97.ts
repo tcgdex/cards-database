@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de tu rival, pon todas las Energías Básicas unidas a ese Pokémon en tu mano.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco del tuo avversario, riprendi in mano tutte le Energie base assegnate a quel Pokémon.",
 		pt: "Se o Pokémon ao qual este card está ligado for Nocauteado por danos causados pelo ataque de um oponente, coloque todas as Energias básicas ligadas a aquele Pokémon em sua mão.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, nimm alle an jenes Pokémon angelegten Basis-Energien auf deine Hand."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, nimm alle an jenes Pokémon angelegten Basis-Energien auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

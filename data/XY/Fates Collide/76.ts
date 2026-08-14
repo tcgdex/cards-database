@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "This vicious Pokémon is said to have flown in ancient skies while shrieking high-pitched cries.",
+		de: "Dieses grausame, antike Pokémon flog durch die Luft und stieß sehr hohe und laute Schreie aus."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Zygarde-EX al que esté unida esta carta también puede usar el ataque de esta carta. (Sigues necesitando la Energía necesaria para usar este ataque).",
 		it: "Lo Zygarde-EX a cui è assegnata questa carta può usare anche l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
 		pt: "O Zygarde-EX ao qual este card está ligado, pode também usar o ataque deste card. (Você ainda precisa da Energia necessária para usar este ataque.)",
-		de: "Das Zygarde-EX, an das diese Karte angelegt ist, kann auch den Angriff auf dieser Karte einsetzen. (Du benötigst jedoch die für diesen Angriff notwendige Energie.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Zygarde-EX, an das diese Karte angelegt ist, kann auch den Angriff auf dieser Karte einsetzen. (Du benötigst jedoch die für diesen Angriff notwendige Energie.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

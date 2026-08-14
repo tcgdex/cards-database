@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de Energía Fire o Fighting de su mano. Si ese jugador lo hace, roba 2 cartas.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta Energia Fire o Fighting presente tra le carte che ha in mano. Se lo fa, può pescare due carte.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, esse jogador pode descartar um card de Energia Fire ou Fighting da própria mão. Se fizer isso, esse jogador deverá comprar 2 cards.",
-		de: "Einmal während seines Zuges darf jeder Spieler 1 Fire- oder 1 Fighting-Energiekarte von seiner Hand auf seinen Ablagestapel legen. Wenn ein Spieler das tut, zieht er 2 Karten."
+		de: "Einmal während seines Zuges darf jeder Spieler 1 {R}- oder 1 {F}-Energiekarte von seiner Hand auf seinen Ablagestapel legen. Wenn ein Spieler das tut, zieht er 2 Karten. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",
