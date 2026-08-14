@@ -55,7 +55,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

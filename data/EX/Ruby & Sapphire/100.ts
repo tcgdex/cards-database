@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
-				de: "Smokescreen"
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 40,
 

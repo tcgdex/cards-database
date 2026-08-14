@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Removal Beam",
 				fr: "Rayon désintégrateur",
-				de: "Removal Beam"
+				de: "Entfernungsstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon."
+				de: "Wirf eine Münze. Bei „Kopf“ muss dein Gegner 1 Energiekarte, die an dem Verteidigenden Pokémon angelegt ist, auf den Ablagestapel legen."
 			},
 			damage: 10,
 
@@ -55,7 +56,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy",
 				fr: "Super psy",
-				de: "Super Psy"
+				de: "Super-Psischlag"
 			},
 
 			damage: 50,

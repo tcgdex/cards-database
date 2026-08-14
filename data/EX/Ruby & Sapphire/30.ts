@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Charge",
 				fr: "Recharge",
-				de: "Charge"
+				de: "Laden"
 			},
 			effect: {
 				en: "Attach a Lightning Energy card from your discard pile to Electrike.",
 				fr: "Attachez une carte Énergie  de votre pile de défausse à Dynavolt.",
-				de: "Attack a  Energy card from your discard pile to Electrike."
+				de: "Nimm eine {L}-Energiekarte von deinem Ablagestapel und lege sie an Frizelbliz an."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse tonnerre",
-				de: "Thunder Jolt"
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Electrike does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Dynavolt s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Electrike does 10 damage to itself."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt sich Frizelbliz selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

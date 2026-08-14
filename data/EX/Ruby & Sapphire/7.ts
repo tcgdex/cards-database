@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Psy Shadow",
 				fr: "Ombre psy",
-				de: "Psy Shadow"
+				de: "Psischatten"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez choisir dans votre deck une carte Énergie  et l'attacher à un de vos Pokémon. Placez deux marqueurs de dégât sur ce Pokémon. Mélangez ensuite votre deck. Ce pouvoir ne peut être utilisé si Gardevoir est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may search your Deck for a  Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your Deck afterward. This power can't be used if Gardevoir is affected by a Special Condition."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach einer {P}-Energiekarte durchsuchen und an 1 deiner Pokémon anlegen. Lege 2 Schadensmarken auf dieses Pokémon. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Guardevoir von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Energy Burst",
 				fr: "Explosion d'énergie",
-				de: "Energy Burst"
+				de: "Energieausbruch"
 			},
 			effect: {
 				en: "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon.",
 				fr: "Inflige 10 dégâts pour chaque carte Énergie attachée à Gardevoir et au Pokémon Défenseur.",
-				de: "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon."
+				de: "Dieser Angriff fügt für jede Energie, die an Guardevoir und dem Verteidigenden Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 
