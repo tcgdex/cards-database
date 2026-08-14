@@ -44,7 +44,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
+		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.",
+		de: "Sein spitz zulaufender Kiefer ist sein ganzer Stolz. Erblickt es etwas, das sich auch nur ein bisschen bewegt, setzt es geradewegs zum Stoßangriff an."
 	},
 
 	variants: [

@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night.",
+		de: "Mit den Ohren schaufelt es Löcher. Es braucht nur eine Nacht, um einen 10 m tiefen Bau zu graben."
 	},
 
 	variants: [

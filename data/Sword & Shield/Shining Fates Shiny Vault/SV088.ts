@@ -80,7 +80,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Living in mud with a high iron content has given it a strong steel body."
+		en: "Living in mud with a high iron content has given it a strong steel body.",
+		de: "Das Leben inmitten von stark eisenhaltigem Schlamm führte dazu, dass es einen robusten Körper aus Stahl entwickelte."
 	},
 
 	variants: [

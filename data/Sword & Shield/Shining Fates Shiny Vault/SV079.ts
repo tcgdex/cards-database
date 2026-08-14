@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Zigzaton de Galar",
-		en: "Galarian Zigzagoon"
+		en: "Galarian Zigzagoon",
+		de: "Galar-Zigzachs"
 	},
 
 	attacks: [{
@@ -70,7 +71,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself.",
+		de: "Es ist sehr angriffslustig und schreckt auch nicht davor zurück, sich mit Gegnern anzulegen, die ihm haushoch überlegen sind."
 	},
 
 	variants: [

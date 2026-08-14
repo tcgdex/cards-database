@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.",
+		de: "Sein Körper besteht aus Sahne. Es entstand aus einer Ansammlung süßer Geruchspartikel in der Luft."
 	},
 
 	variants: [

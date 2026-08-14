@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines."
+		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
+		de: "Aus den Spitzen seiner Stacheln setzt es Elektrizität frei. Mit seinen scharfen Zähnen schabt es Algen von Steinen ab und frisst sie."
 	},
 
 	variants: [

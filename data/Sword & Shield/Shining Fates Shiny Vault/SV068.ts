@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Charbi",
-		en: "Rolycoly"
+		en: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	attacks: [{
@@ -61,7 +62,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
+		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
+		de: "Es produziert Steinkohle in seinem Körper. Die von ihm abfallende Kohle wurde früher in der Galar-Region fürs tägliche Leben genutzt."
 	},
 
 	variants: [

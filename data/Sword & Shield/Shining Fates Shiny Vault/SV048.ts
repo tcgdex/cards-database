@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Ponyta de Galar",
-		en: "Galarian Ponyta"
+		en: "Galarian Ponyta",
+		de: "Galar-Ponita"
 	},
 
 	abilities: [{
@@ -85,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
+		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks.",
+		de: "Dieses kühne, stolze Pokémon speichert im Fell über seinen Hufen Psycho-Kräfte, dank deren es leichtfüßig durch die Wälder galoppiert."
 	},
 
 	variants: [

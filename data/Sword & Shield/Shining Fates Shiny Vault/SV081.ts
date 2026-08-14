@@ -52,7 +52,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
+		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
+		de: "Es stibitzt Futter, das andere Pokémon gefunden haben. Dank der samtweichen Ballen an seinen Pfoten ist sein Gang lautlos."
 	},
 
 	variants: [

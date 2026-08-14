@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
+		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
+		de: "Dieser begabte Stepptänzer erzeugt am Boden mit kalter Luft eine Barriere aus Eis und richtet sie zu seinem Schutz mit den Füßen auf."
 	},
 
 	variants: [
