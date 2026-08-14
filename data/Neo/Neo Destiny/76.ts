@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Crushing Step",
 				fr: "Trépignement",
-				de: "Crushing Step"
+				de: "Zertreten"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -63,7 +63,8 @@ const card: Card = {
 
 	description: {
 		en: "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet.",
-		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
+		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort...",
+		de: "Wenn es mit seinem Rüssel nach Leuten schlägt, ist das eigentlich ein Zeichen der Zuneigung. Leider kennt es seine eigene Stärke nicht gut genug, so dass es ab und zu auch Leute zu kräftig haut."
 	},
 
 

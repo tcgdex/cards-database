@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any, this attack does 20 damage.",
 				fr: "Si le Pokémon défenseur n'a pas de marqueurs de dégâts sur lui, cette attaque inflige 40 dégâts. S'il en a, cette attaque inflige 20 dégâts.",
-				de: "Wenn auf dem verteidigenden Pokémon keine Schadensmarke liegt, fügt dieser Angriff 20 Schadenspunkte zu."
+				de: "Wenn auf dem verteidigenden Pokémon keine Schadensmarke liegt, fügt dieser Angriff 40 Schadenspunkte zu. Hat es welche, fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 
 			damage: 40
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon never gets tired, no matter what it does or how hard it works.",
-		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
+		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur.",
+		de: "Dieses Pokémon wird nie müde, egal was es tut oder wie hart es arbeitet."
 	},
 
 

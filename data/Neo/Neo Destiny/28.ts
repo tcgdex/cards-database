@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Help]",
 				fr: "Help",
-				de: "Help"
+				de: "Help [Help]"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if you have Unown H, Unown E, Unown L, and Unown P on your Bench, you may shuffle your hand into your deck, then draw a new hand of the same number of cards.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [H], Zarbi [E], Zarbi [L] et Zarbi [P] sur votre Banc, vous pouvez mélanger votre main à votre deck et piocher une nouvelle main ayant le même nombre de cartes que la précédente.",
-				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff), wenn du Icognito H, Icognito E, Icognito L und Icognito P auf deiner Bank hast, die Karten auf deiner Hand in dein Deck mischen und danach genauso viele Karten neu ziehen."
+				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff), wenn du Icognito [H], Icognito [E], Icognito [L] und Icognito [P] auf deiner Bank hast, die Karten auf deiner Hand in dein Deck mischen und danach genauso viele Karten neu ziehen."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten besitzen."
 	},
 
 

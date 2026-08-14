@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Search]",
 				fr: "[Search]",
-				de: "Search"
+				de: "Search [Search]"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may look at 1 of your Prize cards. Return that Prize card face down. This power can be used even if Unown S is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder une de vos cartes Récompense. Retournez ensuite cette carte, face contre table. Ce pouvoir fonctionne même si Zarbi [S] est Endormi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may look at 1 of your Prize cards. Return that Prize card face down. This power can be used even if Unown [S] is Asleep, Confused, or Paralyzed."
+				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff) dir eine deiner Preiskarten ansehen. Lege die Preiskarte verdeckt wieder hin. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito [S] schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten haben."
 	},
 
 

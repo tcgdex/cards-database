@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Nightmare",
 				fr: "Cauchemar",
-				de: "Nightmare"
+				de: "Nachtmahr"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -54,7 +54,8 @@ const card: Card = {
 
 	description: {
 		en: "Its gas-like body allows it to enter almost anywhere, but it is vulnerable to high winds.",
-		fr: "Son corps gazeux lui permet de se faufiler là où il veut, mais il le rend aussi vulnérable aux rafales de vent."
+		fr: "Son corps gazeux lui permet de se faufiler là où il veut, mais il le rend aussi vulnérable aux rafales de vent.",
+		de: "Sein gasartiger Körper erlaubt ihm, fast überall hineinzukommen, aber es muss sich vor starken Winden in Acht nehmen."
 	},
 
 

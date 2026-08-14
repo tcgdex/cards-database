@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "One-Two Kick",
 				fr: "Double mawashi geri",
-				de: "One-Two Kick"
+				de: "Tritt-Kombination"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -54,13 +54,13 @@ const card: Card = {
 			name: {
 				en: "Heel Drop",
 				fr: "Koud'talon",
-				de: "Heel Drop"
+				de: "Hackentrick"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 60
@@ -78,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It has a perfect sense of balance and can lash out with powerful kicks from any position.",
-		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position."
+		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position.",
+		de: "Es hat eine perfekte Balance und kann aus jeder Position kräftige Tritte austeilen."
 	},
 
 

@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Charm",
 				fr: "Charme",
-				de: "Charm"
+				de: "Charme"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance).",
 				fr: "Si le Pokémon Défenseur attaque pendant le prochain tour de votre adversaire, tous les dégâts qu'il inflige sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance)."
+				de: "Wenn das verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wird aller Schaden, den es zufügt, um 10 reduziert (vor der Verrechnung von Schwäche und Resistenz)."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Spike Ball Tackle",
 				fr: "Charge balle pic",
-				de: "Spike Ball Tackle"
+				de: "Zackenballtackle"
 			},
 			effect: {
 				en: "Togepi does 10 damage to itself.",
 				fr: "Togepi s'inflige 10 dégâts.",
-				de: "Togepi does 10 damage to itself."
+				de: "Togepi fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is said to contain happiness itself, which it will share with those who are kind to it.",
-		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
+		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui.",
+		de: "Es wird behauptet, dass seine Haut Fröhlichkeit enthält, die es gerne mit allen teilt, die nett zu ihm sind."
 	},
 
 

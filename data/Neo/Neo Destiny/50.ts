@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)",
 				fr: "Placez une carte Bébé Pokémon ou Pokémon de base de votre pile de défausse sur votre Banc. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
+				de: "Lege eine Baby-Pokémon- oder eine Basis-Pokémon-Karte aus deinem Ablagestapel auf deine Bank. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist.)"
 			},
 
 			damage: 50
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Fire Blast",
 				fr: "Déflagration",
-				de: "Fire Blast"
+				de: "Feuersturm"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Light Ninetales in order to use this attack.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque.",
-				de: "Discard a  Energy card attached to Light Ninetales in order to use this attack."
+				de: "Lege eine an Helles Vulnona angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
 			},
 			damage: 50,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It is said that each of its nine tails contains a different magical power.",
-		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
+		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent.",
+		de: "Es wird gesagt, dass jeder seiner neun Schwänze eine unterschiedliche magische Fähigkeit habe."
 	},
 
 

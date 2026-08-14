@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
-		fr: "Spectrum obscur"
+		fr: "Spectrum obscur",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Deep Sleep",
 				fr: "Gros dodo",
-				de: "Deep Sleep"
+				de: "Tiefer Schlaf"
 			},
 			effect: {
 				en: "As long as any Dark Gengar are in play, a player flips 2 coins for each of his or her Pokémon that is Asleep at the end of each turn. If either of them is tails, that Pokémon is still Asleep. This power stops working if Dark Gengar is Asleep, Confused, or Paralyzed.",
 				fr: "Tant qu'il y a un Ectoplasma obscur en jeu, chaque joueur lance 2 pièces à la fin de chaque tour pour chacun de ses Pokémon Endormis. Si vous obtenez au moins 1 pile, ce Pokémon reste Endormi. Ce pouvoir cesse de fonctionner si Ectoplasma obscur est Endormi, Confus ou Paralysé.",
-				de: "As long as any Dark Gengar are in play, a player flips 2 coins for each of his or her Pokémon that is Asleep at the end of each turn. If either of them is tails, that Pokémon is still Asleep. This power stops working while Dark Gengar is Asleep, Confused, or Paralyzed."
+				de: "Solange mindestens ein Dunkles Gengar im Spiel ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges zwei Münzen. Wenn mindestens eine davon „Zahl“ zeigt, schläft das betroffene Pokémon weiter. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Gengar schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Pull In",
 				fr: "Rangement",
-				de: "Pull In"
+				de: "Hereinziehen"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, you may choose 1 of them and switch it with the Defending Pokémon (before doing damage or other effects of this attack). Either way, the Defending Pokémon is now Asleep.",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, vous pouvez choisir l'un d'entre eux et l'échanger contre le Pokémon Défenseur (avant d'infliger les dégâts ou d'autres effets de cette attaque). Dans tous les cas, le Pokémon Défenseur est maintenant Endormi.",
-				de: "If your opponent has any Benched Pokémon, you may choose 1 of them and switch it with the Defending Pokémon (before doing damage or other effects of this attack). Either way, the Defending Pokémon is now Asleep."
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, darfst du eins davon wählen und mit dem verteidigenden Pokémon austauschen (bevor der Schaden und andere Effekte dieses Angriffs zugefügt werden). Auf jeden Fall schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It absorbs the heat in the air around it. If you suddenly feel cold, it's because a Gengar has appeared.",
-		fr: "Il absorbe la chaleur de l'air autour de lui. Si vous avez soudain très froid, c'est qu'un Ectoplasma vient d'apparaître."
+		fr: "Il absorbe la chaleur de l'air autour de lui. Si vous avez soudain très froid, c'est qu'un Ectoplasma vient d'apparaître.",
+		de: "Es entzieht der Luft um sich herum alle Wärme. Wenn dir plötzlich kalt wird, könnte es sein, dass gerade ein Gengar vorbeigekommen ist."
 	},
 
 
