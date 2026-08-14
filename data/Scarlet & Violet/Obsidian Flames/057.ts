@@ -78,7 +78,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 781858
+				cardmarket: 781858,
+				tcgplayer: 562170
 			}
 		},
 		{
@@ -93,7 +94,7 @@ const card: Card = {
 
 	illustrator: "Tonji Matsuno",
 
-	
+
 }
 
 export default card

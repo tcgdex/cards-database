@@ -88,7 +88,7 @@ const card: Card = {
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 781860,
+				cardmarket: 725229,
 				tcgplayer: 509936,
 				cardtrader: 255834
 			}
@@ -97,7 +97,7 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 725229
+				cardmarket: 781860
 			}
 		},
 		{
@@ -112,7 +112,7 @@ const card: Card = {
 
 	illustrator: "GIDORA",
 
-	
+
 }
 
 export default card

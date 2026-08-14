@@ -45,11 +45,26 @@ const card: Card = {
 				cardtrader: 256085
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756397,
+				tcgplayer: 538762,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				cardmarket: 780009,
+			},
+		},
 	],
 
 	illustrator: "Toyste Beach",
 
-	
+
 }
 
 export default card
