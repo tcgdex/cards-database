@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		it: "Weepinbell",
 		de: "Ultrigaria"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
+		it: "Bellsprout",
 		de: "Knofensa"
 	},
 
@@ -40,12 +42,14 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
+				it: "Polvere Velenosa",
 				de: "Giftpuder"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
@@ -59,6 +63,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				it: "Foglielama",
 				de: "Rasierblatt"
 			},
 
@@ -79,6 +84,7 @@ const card: Card = {
 	description: {
 		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
 		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide.",
+		it: "Sputa polvere velenosa che immobilizza il nemico per poi finirlo con un getto di acido.",
 		de: "Es spuckt Giftpuder, um den Feind bewegungsunfähig zu machen, und erledigt ihn dann ganz mit einem Sprühnebel an Säure."
 	},
 

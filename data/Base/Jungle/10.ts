@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scyther",
 		fr: "Insécateur",
+		it: "Scyther",
 		de: "Sichlor"
 	},
 
@@ -33,11 +34,13 @@ const card: Card = {
 			name: {
 				en: "Swords Dance",
 				fr: "Danse-lames",
+				it: "Danza delle Spade",
 				de: "Schwerttanz"
 			},
 			effect: {
 				en: "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
 				fr: "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30.",
+				it: "Durante il tuo prossimo turno il danno base inflitto dall'attacco Lacerazione di Scyther sarà di 60 danni invece che di 30.",
 				de: "Während deines nächsten Zuges betragen die Basis-Schadenspunkte von Sichlors Schlitzer-Angriff 60 anstatt 30."
 			},
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				it: "Lacerazione",
 				de: "Schlitzer"
 			},
 
@@ -76,6 +80,7 @@ const card: Card = {
 	description: {
 		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
 		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe.",
+		it: "Agile e veloce come un ninja, può dare l'illusione di essere molteplice.",
 		de: "Mit Ninja-ähnlicher Beweglichkeit und Geschwindigkeit kann es die Illusion erzeugen, daß es sich um mehr als ein Monster handelt."
 	},
 

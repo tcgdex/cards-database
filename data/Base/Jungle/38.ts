@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lickitung",
 		fr: "Excelangue",
+		it: "Lickitung",
 		de: "Schlurp"
 	},
 
@@ -33,11 +34,13 @@ const card: Card = {
 			name: {
 				en: "Tongue Wrap",
 				fr: "Léchouille",
+				it: "Lingua Avvolgente",
 				de: "Zungenangriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
@@ -51,11 +54,13 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				it: "Supersonico",
 				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
@@ -81,6 +86,7 @@ const card: Card = {
 	description: {
 		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
 		fr: "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation.",
+		it: "La sua lingua può allungarsi come quella di un camaleonte. Quando lecca un nemico, gli provoca una sensazione pungente.",
 		de: "Seine Zunge lässt sich ausziehen wie die eines Chamäleons. Es hinterläßt ein stechendes Gefühl, wenn es Feinde leckt."
 	},
 

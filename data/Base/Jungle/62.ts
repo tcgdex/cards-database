@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spearow",
 		fr: "Piafabec",
+		it: "Spearow",
 		de: "Habitak"
 	},
 
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				it: "Beccata",
 				de: "Schnabel"
 			},
 
@@ -48,11 +50,13 @@ const card: Card = {
 			name: {
 				en: "Mirror Move",
 				fr: "Mimique",
+				it: "Speculmossa",
 				de: "Spiegeltrick"
 			},
 			effect: {
 				en: "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon.",
 				fr: "Si Piafabec a été attaqué durant le tour précédent, infligez le résultat final de cette attaque sur Piafabec au Pokémon Défenseur.",
+				it: "Se Spearow è stato attaccato nel turno precedente infliggi al Pokémon Difensore il danno totale dell'attacco subito da Spearow.",
 				de: "Falls Habitak im letzten Zug angegriffen wurde, füge dem verteidigenden Pokémon Schadenspunkte in Höhe der Endstärke dieses Angriffs und ausserdem alle Auswirkungen, die dieser Angriff auf Habitak hatte, zu."
 			},
 
@@ -76,6 +80,7 @@ const card: Card = {
 	description: {
 		en: "Eats bugs in grassy areas. It has to flap its short wings at high speeds to stay airborne.",
 		fr: "Il chasse les insectes dans les hautes herbes. Ses petites ailes lui permettent de voler très vite.",
+		it: "Mangia insetti nelle zone erbose. Deve sbattere velocemente le sue piccole ali per rimanere in volo.",
 		de: "Frißt in grasbedeckten Gegenden Käfer. Es muß seine kurzen Flügel schnell schlagen, um in der Luft zu bleiben."
 	},
 

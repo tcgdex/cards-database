@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seaking",
 		fr: "Poissoroy",
+		it: "Seaking",
 		de: "Golking"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		it: "Goldeen",
 		de: "Goldini"
 	},
 
@@ -39,6 +41,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
+				it: "Incornata",
 				de: "Hornattacke"
 			},
 
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				it: "Cascata",
 				de: "Kaskade"
 			},
 
@@ -73,6 +77,7 @@ const card: Card = {
 	description: {
 		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs.",
+		it: "Durante il periodo di riproduzione autunnale li si può vedere mentre risalgono vigorosamente la corrente di fiumi e torrenti.",
 		de: "In der Laichsaison im Herbst sind sie beim kräftigen Stromaufwärts-Schwimmen zu sehen."
 	},
 
