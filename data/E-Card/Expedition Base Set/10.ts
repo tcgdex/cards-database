@@ -26,17 +26,6 @@ const card: Card = {
 		fr: "Taupiqueur"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Pure Body",
-			},
-			effect: {
-				en: "To attach a Fire Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the Fire Energy, and then discard an Energy from Entei.)",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [

@@ -26,17 +26,6 @@ const card: Card = {
 		fr: "Héricendre"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Conductive Body",
-			},
-			effect: {
-				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [

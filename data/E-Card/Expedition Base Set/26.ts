@@ -26,17 +26,6 @@ const card: Card = {
 		fr: "Ponyta"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Suction Cups",
-			},
-			effect: {
-				en: "As long as Octillery is your Active Pokémon, whenever the Defending Pokémon retreats, discard all Energy cards attached to the Defending Pokémon when it goes to the Bench.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
