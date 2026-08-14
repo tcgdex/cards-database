@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Grimer"
+		en: "Alolan Grimer",
+		fr: "Tadmorv d’Alola"
 	},
 
 	stage: "Stage1",

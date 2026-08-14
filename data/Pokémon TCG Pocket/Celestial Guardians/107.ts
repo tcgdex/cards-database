@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Rattata"
+		en: "Alolan Rattata",
+		fr: "Rattata d’Alola"
 	},
 
 	description: {

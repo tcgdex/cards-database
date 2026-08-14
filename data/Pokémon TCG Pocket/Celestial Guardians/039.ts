@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Alolan Sandshrew"
+		en: "Alolan Sandshrew",
+		fr: "Sabelette d’Alola"
 	},
 
 	description: {

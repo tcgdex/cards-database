@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Alolan Geodude"
+		en: "Alolan Geodude",
+		fr: "Racaillou d’Alola"
 	},
 
 	description: {

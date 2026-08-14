@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Alolan Graveler"
+		en: "Alolan Graveler",
+		fr: "Gravalanch d’Alola"
 	},
 
 	description: {
