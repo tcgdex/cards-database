@@ -38,10 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bear Hug"
+				en: "Bear Hug",
+				de: "Dicke Umarmung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 40
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpower"
+				en: "Superpower",
+				de: "Kraftkoloss"
 			},
 			effect: {
-				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
+				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
+				de: "Du kannst 40 Schadenspunkte mehr zufügen. Wenn du das machst, fügt dieses Pokémon sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "80+"
 		},

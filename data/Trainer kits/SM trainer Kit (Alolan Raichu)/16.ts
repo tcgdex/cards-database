@@ -28,7 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip"
+				en: "Vice Grip",
+				de: "Klammer"
 			},
 			damage: 20
 		},

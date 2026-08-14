@@ -27,10 +27,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Boom"
+				en: "Psychic Boom",
+				de: "Psychoknall"
 			},
 			effect: {
-				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon."
+				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.",
+				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
 			},
 			damage: "10×"
 		},
@@ -40,7 +42,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt"
+				en: "Headbutt",
+				de: "Kopfnuss"
 			},
 			damage: 20
 		},
