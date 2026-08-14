@@ -23,20 +23,23 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 
 	description: {
-		en: "Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory."
+		en: "Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory.",
+		de: "Sein Zwitschern ist wunderschön, aber wenn Gegner sein Revier betreten, kennt es keine Gnade."
 	},
 
 	attacks: [{
 		name: {
 			en: "Acrobatics",
-			fr: "Acrobatie"
+			fr: "Acrobatie",
+			de: "Akrobatik"
 		},
 
 		damage: "10+",
 
 		effect: {
 			en: "Flip 2 coins. This attack does 10 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
+			de: "Wirf 2 Münzen. Dieser Angriff fügt 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 		}
 	}],
 
