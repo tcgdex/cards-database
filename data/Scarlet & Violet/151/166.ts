@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+		de: "Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf."
 	},
 
 	variants: [

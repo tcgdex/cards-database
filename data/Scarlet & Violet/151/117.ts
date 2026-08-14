@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
+		de: "Selbst Beute, die größer als sein kleiner Mund ist, kann es dank dessen starker Saugkraft im Nu einsaugen und verspeisen."
 	},
 
 	variants: [

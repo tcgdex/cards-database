@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
+		de: "Es beruhigt seine Jungen, indem es diese zwischen den Stacheln auf seinem Rücken reiten lässt. Die Stacheln sondern derweil kein Gift ab."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon evolved, the skull of its mother fused to it. Marowak's temperament also turned vicious at the same time.",
+		de: "Durch die Entwicklung wurde der Schädel seiner Mutter, den es stets trug, zu einem Teil von ihm und es bekam einen aggressiven Charakter."
 	},
 
 	variants: [

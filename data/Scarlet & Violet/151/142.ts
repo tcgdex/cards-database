@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Aerodactyl's sawlike fangs can shred skin to tatters—even the skin of Steel-type Pokémon.",
+		de: "Mit seinen Zähnen, die Sägeblättern gleichen, kann es selbst die Haut von Stahl-Pokémon zerfetzen."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
+		de: "Seine Schale ist härter als Diamant. Im Inneren ist es jedoch überraschend weich."
 	},
 
 	variants: [

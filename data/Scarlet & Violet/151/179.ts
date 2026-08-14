@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It's known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
+		de: "Es ist für die Pantomime geboren. Zur Abwehr unterschiedlichster Angriffe erzeugt es mit einem Kraftfeld aus seinen Fingerspitzen Schutzwände."
 	},
 
 	variants: [

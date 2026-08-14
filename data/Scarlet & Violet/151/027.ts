@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
+		de: "Es gräbt sich seinen Bau im Erdboden. Stößt es dabei auf harte Steine, zerstört es diese mit seinen scharfen Krallen und gräbt unbeirrt weiter."
 	},
 
 	variants: [

@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+		de: "Austos, die in Meeren mit starker Strömung leben, entwickeln große und scharfe Stacheln an ihrer Schale."
 	},
 
 	variants: [

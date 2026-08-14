@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Its 80 tentacles can stretch and shrink freely. Tentacruel ensnares prey in a net of spread-out tentacles, delivering venomous stings to its catch.",
+		de: "Tentoxa kann seine 80 Tentakel beliebig ausfahren und einziehen. Es breitet sie netzartig aus, um Beute zu fangen und dann zu vergiften."
 	},
 
 	variants: [

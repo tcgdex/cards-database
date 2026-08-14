@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Omastar's sharp fangs could crush rock, but the Pokémon can attack only the prey that come within reach of its tentacles.",
+		de: "Mit seinen scharfen Zähnen ist es imstande, selbst Felsen zu zermalmen. Angreifen kann es jedoch nur Beute in Reichweite seiner Tentakel."
 	},
 
 	variants: [

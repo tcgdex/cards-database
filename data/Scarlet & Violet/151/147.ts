@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+		de: "Es häutet sich, um zu wachsen. Dabei wird es von einem tosenden Wasserfall beschützt."
 	},
 
 	variants: [

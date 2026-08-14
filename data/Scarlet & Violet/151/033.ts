@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+		de: "Es ist nervös und wird schnell aggressiv. Steigt sein Adrenalinspiegel, erhöht sich gleichzeitig auch die Konzentration seines Gifts."
 	},
 
 	variants: [

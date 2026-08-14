@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+		de: "Sein Fell wird geschmeidiger, wenn seine sechs Schweife wachsen. Wenn man das Fell berührt, fühlt es sich leicht warm an."
 	},
 
 	variants: [

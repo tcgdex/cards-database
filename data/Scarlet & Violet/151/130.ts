@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+		de: "Taucht es auf, randaliert es. Es beruhigt sich erst, wenn es alles um sich zerstört hat."
 	},
 
 	variants: [

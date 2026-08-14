@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "When they work together, Exeggutor's three heads can put out powerful psychic energy. Cloudy days make this Pokémon sluggish.",
+		de: "Seine drei Köpfe setzen mächtige Psycho-Kräfte frei, wenn sie als Einheit agieren. Zieht sich der Himmel zu, bewegt es sich nur noch schwerfällig."
 	},
 
 	variants: [

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Al final de tu turno, si el Pokémon al que está unida esta carta está en el Puesto Activo, cúrale 20 puntos de daño.",
 		it: "Alla fine del tuo turno, se il Pokémon a cui è assegnata questa carta è in posizione attiva, curalo da 20 danni.",
 		pt: "No final do seu turno, se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, cure 20 pontos de dano dele.",
-		de: "Am Ende deines Zuges, wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, heile 20 Schadenspunkte bei jenem Pokémon."
+		de: "Am Ende deines Zuges, wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, heile 20 Schadenspunkte bei jenem Pokémon. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
+		de: "In seiner harten Schale ist ein weicher Körper. Einem brutalen Angriff hat es nichts entgegenzusetzen."
 	},
 
 	variants: [
