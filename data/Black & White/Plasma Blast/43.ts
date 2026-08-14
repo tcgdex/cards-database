@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Solosis",
 		fr: "Nucléos",
+		de: "Monozyto"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Focused Wish",
 				fr: "Vœu Fervent",
+				de: "Gezielter Wunsch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When their two divided brains think the same thoughts, their psychic power is maximized.",
+		de: "Wenn beide Hälften seines gespaltenen Denkapparates an dasselbe denken, sind seine Psycho-Kräfte am stärksten."
 	},
 
 	thirdParty: {

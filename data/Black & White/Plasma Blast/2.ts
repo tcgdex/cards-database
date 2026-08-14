@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Surskit",
 		fr: "Arakdo",
+		de: "Gehweiher"
 	},
 
 	stage: "Stage1",
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 60,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+		de: "Seine Antenne besitzt ein Augenmuster. Seine vier Flügel erlauben es, in alle Richtungen zu fliegen."
 	},
 
 	thirdParty: {

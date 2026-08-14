@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
+		de: "Golbit"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Iron Fist of Justice",
 				fr: "Poing de Fer Juste",
+				de: "Eiserne Faust der Gerechten"
 			},
 			effect: {
 				en: "If you have any Team Plasma Pokémon in play, this attack does nothing.",
 				fr: "Si vous avez un Pokémon de la Team Plasma en jeu, cette attaque ne fait rien.",
+				de: "Dieser Angriff hat keine Auswirkungen, wenn du mindestens 1 Team Plasma-Pokémon im Spiel hast."
 			},
 			damage: 60,
 
@@ -60,10 +63,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Punch",
 				fr: "Poing Ombre",
+				de: "Finsterfaust"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 
@@ -81,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Golurk were created to protect people and Pokémon. They run on a mysterious energy.",
+		de: "Eine uralte Kultur erschuf es als Hüter der Pokémon und Menschen. Es wird mit einer rätselhaften Energie betrieben."
 	},
 
 	thirdParty: {

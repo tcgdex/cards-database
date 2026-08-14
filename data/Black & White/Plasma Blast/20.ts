@@ -60,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde Boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 70,
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It races around the world to purify fouled water. It dashes away with the north wind.",
+		de: "Es wandert beständig in der Welt herum, um verunreinigtes Wasser zu reinigen. Es zieht mit dem Nordwind."
 	},
 
 	thirdParty: {

@@ -60,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Slam",
 				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -81,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was restored from a fossil. It swam skillfully and dove to depths beyond half a mile.",
+		de: "Es wurde aus einem urzeitlichen Fossil reanimiert. Einst schwamm es geschickt durch Untiefen von bis zu 1 000 Metern."
 	},
 
 	thirdParty: {

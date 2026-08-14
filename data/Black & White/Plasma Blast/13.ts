@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		de: "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Solar Transporter",
 				fr: "Transporteur Solaire",
+				de: "Solartransporter"
 			},
 			effect: {
 				en: "Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards.",
 				fr: "Montrez les 5 cartes du dessus de votre deck et ajoutez toutes les cartes de la Team Plasma que vous y trouvez à votre main. Défaussez les autres cartes.",
+				de: "Decke die obersten 5 Karten deines Decks auf und nimm alle Team Plasma-Karten, die du darunter findest, auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Leech Life",
 				fr: "Vampirisme",
+				de: "Blutsauger"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
 			},
 			damage: 50,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Thought to be an embodiment of the sun, it appeared during a bitterly cold winter and saved Pokémon from freezing.",
+		de: "Es erschien während eines harten Winters und rettete Pokémon vor dem Erfrieren. Angeblich eine Verkörperung der Sonne."
 	},
 
 	thirdParty: {

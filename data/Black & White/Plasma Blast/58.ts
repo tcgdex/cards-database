@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe Acier",
+				de: "Metallklaue"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Iron Head",
 				fr: "Tête de Fer",
+				de: "Eisenschädel"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 50,
 
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+		de: "Prallen bei Revierkämpfen die stählernen Körper von zwei Stollrak aufeinander, sprühen buchstäblich die Funken."
 	},
 
 	thirdParty: {

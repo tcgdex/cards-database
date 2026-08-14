@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Reverse Edge",
 				fr: "Revers-Lame",
+				de: "Umkehrschneide"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put a card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
+				de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 Karte von deinem Ablagestapel auf deine Hand."
 			},
 			damage: 50,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Fast Forward",
 				fr: "Avance Rapide",
+				de: "Vorspulen"
 			},
 			effect: {
 				en: "For each Plasma Energy attached to this Pokémon, discard the top card of your opponent's deck.",
 				fr: "Pour chaque Énergie Plasma attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege für jede an dieses Pokémon angelegte Plasma-Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 90,
 

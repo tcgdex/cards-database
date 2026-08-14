@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Cleanse Away",
 				fr: "Soin Groupé",
+				de: "Wunden lecken"
 			},
 			effect: {
 				en: "Heal 30 damage from each of your Benched Pokémon.",
 				fr: "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
+				de: "Heile 30 Schadenspunkte bei jedem Pokémon auf deiner Bank."
 			},
 
 		},
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 70,
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+		de: "Ein schlaues Pokémon, das die Sprache der Menschen versteht und ihnen liebend gern seine Fährdienste anbietet."
 	},
 
 	thirdParty: {

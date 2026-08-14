@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shelmet",
 		fr: "Escargaume",
+		de: "Schnuthelm"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Retribution",
 				fr: "Rétribution",
+				de: "Revanche"
 			},
 			effect: {
 				en: "If an Escavalier you had in play was Knocked Out by damage from an opponent's attack during his or her last turn, put all Energy attached to the Defending Pokémon into your opponent's hand.",
 				fr: "Si un Lançargot que vous aviez en jeu a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, mettez toutes les Énergies attachées au Pokémon Défenseur dans la main de votre adversaire.",
+				de: "Falls 1 deiner Cavalanzas im Spiel während des letzten Zuges deines Gegners durch Schaden eines gegnerischen Angriffs kampfunfähig wurde, nimmt dein Gegner alle an das Verteidigende Pokémon angelegten Energien auf seine Hand."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Signal Beam",
 				fr: "Rayon signal",
+				de: "Ampelleuchte"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
+		de: "Da es ohne Flüssigkeit an Kraft verliert, umgibt es sich mit einer schleimigen Schutzhaut und speit flüssiges Gift."
 	},
 
 	thirdParty: {

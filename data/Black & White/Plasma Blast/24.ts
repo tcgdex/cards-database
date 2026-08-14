@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Fossil Hunt",
 				fr: "Chasse au Fossile",
+				de: "Fossil-Grabung"
 			},
 			effect: {
 				en: "Put 2 Item cards that have Fossil in their names from your discard pile into your hand.",
 				fr: "Ajoutez 2 cartes Objet qui ont Fossile dans leur nom de votre pile de défausse à votre main.",
+				de: "Nimm 2 Itemkarten, die das Wort „Fossil“ in ihrem Namen enthalten, von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
+		de: "Tiefseeforscher fanden dieses seltene Pokémon, das sich in 100 Mio. Jahren nicht verändert hat."
 	},
 
 	thirdParty: {

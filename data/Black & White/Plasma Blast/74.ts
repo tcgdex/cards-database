@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Tri Attack",
 				fr: "Triplattaque",
+				de: "Triplette"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 50,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+		de: "Es wurde umprogrammiert, um in außerirdischen Dimensionen arbeiten zu können. Leider schlug das fehl."
 	},
 
 	thirdParty: {

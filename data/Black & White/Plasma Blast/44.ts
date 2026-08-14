@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duosion",
 		fr: "Méios",
+		de: "Mitodos"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Barrier Attack",
 				fr: "Attaque d'Obstacle",
+				de: "Angriffsbarriere"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Telekinesis of Nobility",
 				fr: "Noble Télékinésie",
+				de: "Erhabene Telekinese"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 70,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+		de: "Seine Arme bestehen aus einer speziellen Flüssigkeit. Dank seiner Psycho-Kräfte kann es mit ihnen Felsen zerschmettern."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shelgon",
 		fr: "Drackhaus",
+		de: "Draschel"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Gaia Crush",
 				fr: "Anéantissement de Gaïa",
+				de: "Gaia-Zermalmer"
 			},
 			effect: {
 				en: "Discard any Stadium card in play.",
 				fr: "Défaussez toute carte Stade en jeu.",
+				de: "Lege eine beliebige Stadionkarte aus dem Spiel auf den Ablagestapel."
 			},
 			damage: 100,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+		de: "Seine Zellstruktur änderte sich, es wuchsen ihm Flügel, da es immer davon träumte, fliegen zu können."
 	},
 
 	thirdParty: {

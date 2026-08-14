@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Mega Punch",
 				fr: "Ultimapoing",
+				de: "Megahieb"
 			},
 
 			damage: 50,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Ancient science fashioned this Pokémon from clay. It's been active for thousands of years.",
+		de: "Es wurde von einer uralten Kultur aus Lehm erschaffen und kann mehrere Jahrtausende in Bewegung bleiben."
 	},
 
 	thirdParty: {

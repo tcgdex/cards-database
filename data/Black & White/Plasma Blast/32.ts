@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tynamo",
 		fr: "Anchwatt",
+		de: "Zapplardin"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Wave",
 				fr: "Cage-Éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+		de: "Schlingt sich um Gegner, lähmt sie über die rund gemaserten Flächen an seinem Körper mit Strom und beißt beherzt zu."
 	},
 
 	thirdParty: {

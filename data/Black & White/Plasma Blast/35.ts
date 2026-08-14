@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon del Equipo Plasma de tu rival en juego.",
 				it: "Gli attacchi di questo Pokémon costano Colorless in meno per ogni Pokémon del Team Plasma del tuo avversario in gioco.",
 				pt: "O ataque deste Pokémon custa Colorless a menos para cada Pokémon da Equipe Plasma do oponente em jogo.",
-				de: "Die Angriffskosten dieses Pokémon verringern sich um Colorless für jedes Team Plasma-Pokémon, das dein Gegner im Spiel hat."
+				de: "Die Angriffskosten dieses Pokémon verringern sich um {C} für jedes Team Plasma-Pokémon, das dein Gegner im Spiel hat."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Derail",
 				fr: "Déraillement",
+				de: "Entgleisen"
 			},
 			effect: {
 				en: "Discard a Special Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+		de: "Es transportiert Menschen und Pokémon. Wohin sie fliegen, bestimmt jedoch ganz alleine die Windrichtung."
 	},
 
 	thirdParty: {

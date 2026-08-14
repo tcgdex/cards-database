@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Knock Off",
 				fr: "Sabotage",
+				de: "Abschlag"
 			},
 			effect: {
 				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Reinforced Lariat",
 				fr: "Bras Renforcés",
+				de: "Forcierter Fäller"
 			},
 			effect: {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
+		de: "Es erwischt Gegner mit harten Schlägen seiner kräftigen Arme und hackt mit enormer Geschwindigkeit."
 	},
 
 	thirdParty: {

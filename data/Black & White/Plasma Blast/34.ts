@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Creepy Wind",
 				fr: "Vent Perturbant",
+				de: "Schauriger Wind"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Wind Blast",
 				fr: "Vent Explosif",
+				de: "Stürmische Stoßwelle"
 			},
 			effect: {
 				en: "This attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are called the \"Signpost for Wandering Spirits.\" Children holding them sometimes vanish.",
+		de: "Auch bekannt als „Wegweiser für umherstreifende Geister“. Kinder, die sie halten, verschwinden manchmal."
 	},
 
 	thirdParty: {

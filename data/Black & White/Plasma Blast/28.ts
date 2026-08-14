@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tirtouga",
 		fr: "Carapagos",
+		de: "Galapaflos"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Fossil Clutch",
 				fr: "Munition Fossile",
+				de: "Fossil-Zange"
 			},
 			effect: {
 				en: "You may discard an Item card that has Fossil in its name from your hand. If you do, this attack does 50 more damage.",
 				fr: "Vous pouvez défausser une carte Objet qui a Fossile dans son nom de votre main. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Du kannst 1 Itemkarte, die das Wort „Fossil“ in ihrem Namen enthält, auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -61,6 +64,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 80,
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+		de: "Ein Schlag mit seinen ausgeprägten Vorderflossen brachte Gegner zu Fall und brach ihre Knochen oder Schale."
 	},
 
 	thirdParty: {

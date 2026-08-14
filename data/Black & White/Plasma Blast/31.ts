@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-Rasoir",
+				de: "Rasierflosse"
 			},
 
 			damage: 20,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+		de: "Alleine erzeugen sie nur geringe Mengen an Elektrizität, aber im Schwarm können sie mächtige Stromsalven abfeuern."
 	},
 
 	thirdParty: {

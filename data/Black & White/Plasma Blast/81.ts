@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante este turno, los ataques de tus Pokémon hacen 10 puntos de daño más a los Pokémon Activos por cada carta de Premio que haya tomado tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Durante questo turno, gli attacchi dei tuoi Pokémon infliggono 10 danni in più ai Pokémon attivi per ogni carta Premio presa dal tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Durante este turno, os ataques dos seus Pokémon causam 10 de danos adicionais ao Pokémon Ativo para cada card de Prêmio que seu oponente tiver obtido (antes da aplicação de Fraqueza e Resistência).",
-		de: "Während dieses Zuges fügen alle Angriffe deiner Pokémon den Aktiven Pokémon 10 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Während dieses Zuges fügen alle Angriffe deiner Pokémon den Aktiven Pokémon 10 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

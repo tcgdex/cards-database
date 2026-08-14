@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hide",
 				fr: "Cachette",
+				de: "Verstecken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+		de: "Die spezielle Flüssigkeit, die es umgibt, bietet ihm in jeder noch so gefährlichen Situation Schutz."
 	},
 
 	thirdParty: {

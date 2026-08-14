@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon está en tu pila de descartes, puedes ponerlo en tu mano.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è nella tua pila degli scarti, puoi aggiungerlo alle carte che hai in mano.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver em sua pilha de descarte, você poderá colocá-lo em sua mão.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich dieses Pokémon auf deinem Ablagestapel befindet, dieses Pokémon auf deine Hand nehmen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich dieses Pokémon in deinem Ablagestapel befindet, dieses Pokémon auf deine Hand nehmen."
 			},
 		},
 	],
@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				de: "Samenbomben"
 			},
 
 			damage: 20,
@@ -84,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {
