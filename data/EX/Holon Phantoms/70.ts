@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mankey δ",
 		fr: "Férosinge δ",
-		de: "Menki"
+		de: "Menki δ"
 	},
 
 	illustrator: "Atsuko Nishida",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Omastar δ",
 		fr: "Amonistar δ",
-		de: "Amoroso"
+		de: "Amoroso δ"
 	},
 
 	illustrator: "Midori Harada",

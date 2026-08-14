@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golduck δ",
 		fr: "Akwakwak δ",
-		de: "Entoron"
+		de: "Entoron δ"
 	},
 
 	illustrator: "Midori Harada",

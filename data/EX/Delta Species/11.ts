@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metagross δ",
 		fr: "Metalosse δ",
-		de: "Metagross"
+		de: "Metagross δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gyarados δ",
 		fr: "Leviator δ",
-		de: "Garados"
+		de: "Garados δ"
 	},
 
 	illustrator: "Hajime Kusajima",

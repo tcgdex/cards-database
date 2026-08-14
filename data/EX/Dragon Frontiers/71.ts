@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wooper δ",
 		fr: "Axoloto δ",
-		de: "Felino"
+		de: "Felino δ"
 	},
 
 	illustrator: "Tomokazu Komiya",

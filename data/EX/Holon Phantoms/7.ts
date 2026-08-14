@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flygon δ",
 		fr: "Libegon δ",
-		de: "Libelldra"
+		de: "Libelldra δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

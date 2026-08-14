@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gloom δ",
 		fr: "Ortide δ",
-		de: "Duflor"
+		de: "Duflor δ"
 	},
 
 	illustrator: "Midori Harada",

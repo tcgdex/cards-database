@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "δ Rainbow Energy",
 		fr: "Énergie Multicolore δ",
-		de: "Delta Regenbogen-Energie"
+		de: "δ Regenbogen-Energie"
 	},
 
 	illustrator: "Takumi Akabane",

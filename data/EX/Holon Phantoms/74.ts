@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Omanyte δ",
 		fr: "Amonita δ",
-		de: "Amonitas"
+		de: "Amonitas δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

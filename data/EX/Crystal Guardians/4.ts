@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard δ",
 		fr: "Dracaufeu δ",
-		de: "Glurak"
+		de: "Glurak δ"
 	},
 
 	illustrator: "Kouki Saitou",

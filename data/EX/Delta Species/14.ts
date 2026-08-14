@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Salamence δ",
 		fr: "Drattak δ",
-		de: "Brutalanda"
+		de: "Brutalanda δ"
 	},
 
 	illustrator: "Ryo Ueda",

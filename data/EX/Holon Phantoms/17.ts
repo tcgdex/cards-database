@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vileplume δ",
 		fr: "Rafflesia δ",
-		de: "Giflor"
+		de: "Giflor δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

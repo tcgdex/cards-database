@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmeleon δ",
 		fr: "Reptincel δ",
-		de: "Glutexo"
+		de: "Glutexo δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

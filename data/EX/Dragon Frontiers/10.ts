@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Snorlax δ",
 		fr: "Ronflex δ",
-		de: "Relaxo"
+		de: "Relaxo δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
