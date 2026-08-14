@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said.",
+		de: "Man sagt, es suche sich unartige Kinder und verschleppe sie nachts an einen unbekannten Ort."
 	},
 
 	

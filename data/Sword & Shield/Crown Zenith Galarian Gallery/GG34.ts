@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock.",
+		de: "Seine Wolle lädt sich durch Reibung elektrisch auf. Streichelt man dieses süße Pokémon mit bloßer Hand, bekommt man einen Elektroschock."
 	},
 
 	

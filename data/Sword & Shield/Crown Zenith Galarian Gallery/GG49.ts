@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon Golpe Brusco, Golpe Fluido y Golpe Fusión en juego de tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni Pokémon Colpo Singolo, Colpo Rapido e Colpo Fusione in gioco del tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada Pokémon Golpe Decisivo, Golpe Fluido e Golpe Fusão do seu oponente em jogo.",
-			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Fokussierter-Angriff-, Fließender-Angriff- und Fusionsangriff-Pokémon deines Gegners im Spiel um Colorless."
+			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Fokussierter-Angriff-, Fließender-Angriff- und Fusionsangriff-Pokémon deines Gegners im Spiel um {C}."
 		}
 	}],
 

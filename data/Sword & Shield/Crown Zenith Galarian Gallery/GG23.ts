@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Los Pokémon Colorless en juego (tanto tuyos como de tu rival) no tienen Debilidad.",
 			it: "I Pokémon Colorless in gioco, sia tuoi che del tuo avversario, non hanno debolezza.",
 			pt: "Pokémon Colorless em jogo (seus e do seu oponente) não têm Fraqueza.",
-			de: "Colorless-Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche."
+			de: "{C}-Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche."
 		}
 	}],
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
+		de: "Erblickt es einen Menschen, bohrt es mit seinem Schweif ein Loch und ergreift sofort die Flucht. Man braucht viel Glück, um ihm zu begegnen."
 	},
 
 	
