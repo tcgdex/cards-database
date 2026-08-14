@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'Korne",
+				de: "Hornattacke"
 			},
 
 			damage: 20,
@@ -50,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Giga Horn",
 				fr: "Giga Corne",
+				de: "Gigahorn"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien.",
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "No matter how heavy its opponents, it flings them far away with its prized horn.",
+		de: "Mit seinem prämierten Horn schleudert es jeden noch so schweren Gegner bis in weite Ferne."
 	},
 
 	thirdParty: {

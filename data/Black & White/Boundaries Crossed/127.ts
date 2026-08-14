@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada Pokémon Colorless en juego (tanto tuyos como de tu rival) obtiene 20 PV más.",
 		it: "Ciascun Pokémon Colorless in gioco, sia tuo che del tuo avversario, ha 20 PV in più.",
 		pt: "Cada Pokémon Colorless em jogo (tanto seu quanto do seu oponente) recebe +20 PS.",
-		de: "Jedes Colorless-Pokémon im Spiel (deine und die deines Gegners) erhält +20 KP."
+		de: "Jedes {C}-Pokémon im Spiel (deine und die deines Gegners) erhält +20 KP. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

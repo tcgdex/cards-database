@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -51,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -69,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
+		de: "Sein ölgefüllter Schweif dient ihm als Rettungsboje, die es vor der Strömung reißender Flüsse schützt."
 	},
 
 	thirdParty: {

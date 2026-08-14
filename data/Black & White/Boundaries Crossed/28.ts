@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Darumaka",
 		fr: "Darumarond",
+		de: "Flampion"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Continuous Tumble",
 				fr: "Roulade Continue",
+				de: "Dauerrollen"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Damage Counterpunch",
 				fr: "Riposte Enragée",
+				de: "Konterklatsche"
 			},
 			effect: {
 				en: "If this Pokémon has any damage counters on it, this attack does 60 more damage.",
 				fr: "Si ce Pokémon a des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn auf diesem Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+		de: "Nimmt es in einem heißen Kampf Schaden, wird es hart wie Stein und fällt in eine Trance, um seinen Verstand zu schärfen."
 	},
 
 	thirdParty: {

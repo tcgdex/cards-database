@@ -59,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Water Splash",
 				fr: "Éclaboussure",
+				de: "Wasserplatscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -80,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It shelters itself in its shell then strikes back with spouts of water at every opportunity.",
+		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
 	thirdParty: {

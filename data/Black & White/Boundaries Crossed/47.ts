@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Slicing Blade",
 				fr: "Lame Tranchante",
+				de: "Schwertschneide"
 			},
 
 			damage: 30,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 60,
 
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+		de: "Es kann auf dem Wasser laufen und reist auf Flüssen und Meeren um die Welt. Zu sehen in malerischen Küstengebieten."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oshawott",
 		fr: "Moustillon",
+		de: "Ottaro"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -55,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 50,
@@ -73,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Strict training is how it learns its flowing double-scalchop technique.",
+		de: "Es eignet sich durch strenges Training elegant ineinander übergehende Attacken mit seinen zwei Muscheln an."
 	},
 
 	thirdParty: {

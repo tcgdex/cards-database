@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spoink",
 		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale Psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Extrasensory",
 				fr: "Extrasenseur",
+				de: "Sondersensor"
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
+		de: "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner."
 	},
 
 	thirdParty: {

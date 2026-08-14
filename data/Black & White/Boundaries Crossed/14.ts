@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -61,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+		de: "Sind sie mit Freunden unterwegs, hängen sie eng aufeinander wie Wolken, wohl weil sie sich in der Gruppe sicherer fühlen."
 	},
 
 	thirdParty: {

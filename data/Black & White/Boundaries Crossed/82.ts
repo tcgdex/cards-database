@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Slap Push",
 				fr: "Grande Claque",
+				de: "Stoß"
 			},
 
 			damage: 30,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+		de: "Es stärkt seinen Körper, indem es gegen Bäume rennt. In seiner Nähe finden sich viele umgekippte Bäume."
 	},
 
 	thirdParty: {

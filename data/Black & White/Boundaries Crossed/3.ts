@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Pollen Spray",
 				fr: "Crache-Pollen",
+				de: "Pollenspray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				de: "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 			damage: 50,
 
@@ -94,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+		de: "Es besitzt die größten Blätter der Welt. Es verteilt beim Gehen Pollen, die schreckliche Allergien auslösen."
 	},
 
 	thirdParty: {

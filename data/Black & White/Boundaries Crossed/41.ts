@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewott",
 		fr: "Mateloutre",
+		de: "Zwottronin"
 	},
 
 	stage: "Stage2",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 50,
@@ -57,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Destructive Whirlpool",
 				fr: "Siphon Destructeur",
+				de: "Schrecklicher Strudel"
 			},
 			effect: {
 				en: "Discard an Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigenden Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -78,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+		de: "Besiegt Gegner durch einen einzigen Hieb mit der Klinge an seinem Panzer. Ein böser Blick und seine Feinde verstummen."
 	},
 
 	thirdParty: {

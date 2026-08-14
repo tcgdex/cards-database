@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Ice Edge",
 				fr: "Lame de Givre",
+				de: "Eisiger Abgrund"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+		de: "Es fängt seine Beute mit Ketten, die sich aus Eiskristallen zusammensetzen. Entstanden ist es aus einer Schneewolke."
 	},
 
 	thirdParty: {

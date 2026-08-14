@@ -56,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Wind Whisk",
 				fr: "Rafale Tranchante",
+				de: "Windbesen"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 60,
 

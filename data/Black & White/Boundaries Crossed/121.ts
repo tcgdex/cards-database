@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lillipup",
 		fr: "Ponchiot",
+		de: "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This very loyal Pokémon helps trainers, and it also takes care of other Pokémon.",
+		de: "Dieses äußerst treue Pokémon geht nicht nur seinem Trainer zur Hand, sondern hilft auch anderen Pokémon."
 	},
 
 	thirdParty: {

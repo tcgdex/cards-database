@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Gather Energy",
 				fr: "Récolte d'Énergie",
+				de: "Energie sammeln"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à 1 de vos Pokémon. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach einer Basis-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 30,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Double Slap",
 				fr: "Torgnoles",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The reason it does not have a nest is that it simply searches for a clean, comfortable place then sleeps there.",
+		de: "Es hat kein festes Revier, weil es sich einfach immer ein gemütliches, sauberes Fleckchen zum Schlafen sucht."
 	},
 
 	thirdParty: {

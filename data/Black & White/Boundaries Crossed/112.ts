@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -61,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
+		de: "Es ist sehr mutig und stellt sich auch starken Gegnern. Es sucht ständig nach warmen Regionen."
 	},
 
 	thirdParty: {

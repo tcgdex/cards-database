@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Acid",
 				fr: "Acide",
+				de: "Säure"
 			},
 
 			damage: 20,
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+		de: "Tagsüber verankert es sich mit seinen Wurzelfüßen im Boden. Nachts wandert es und verteilt Samen."
 	},
 
 	thirdParty: {

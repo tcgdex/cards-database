@@ -59,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Hip Bump",
 				fr: "Hanche Amortissante",
+				de: "Hüftschubser"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, son attaque ne fait rien.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -80,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
+		de: "Über die Fühler an seinen Ohren kann es ertasten, wie es einer Person geht oder wann ein Pokémon aus seinem Ei schlüpft."
 	},
 
 	thirdParty: {

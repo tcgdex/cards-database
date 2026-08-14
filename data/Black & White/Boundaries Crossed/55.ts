@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Electripult",
 				fr: "Électripulte",
+				de: "Stromwurf"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+		de: "Über seine Antennen entlädt es Elektrizität, mit der es seinen Gegnern einen Schlag versetzt."
 	},
 
 	thirdParty: {

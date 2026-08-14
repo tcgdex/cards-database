@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Hard Swing",
 				fr: "Gnon Vigoureux",
+				de: "Harter Hieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -63,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
+		de: "Ohne seinen Stock kann es nicht leben. Daher beschützt es den Stock mit seinem Leben."
 	},
 }
 

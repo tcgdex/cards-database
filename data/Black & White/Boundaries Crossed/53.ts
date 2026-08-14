@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 20,
@@ -51,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Magnetic Blast",
 				fr: "Explosion Magnétique",
+				de: "Magnetstoß"
 			},
 
 			damage: 50,
@@ -69,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
+		de: "Experimente, Elektek als flexiblen Speicher für frei einsetzbare Blitze zu verwenden, zeigen erste Erfolge."
 	},
 
 	thirdParty: {

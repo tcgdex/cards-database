@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Foul Odor",
 				fr: "Odeur Fétide",
+				de: "Fäulnisgeruch"
 			},
 			effect: {
 				en: "Both this Pokémon and the Defending Pokémon are now Confused.",
 				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
+				de: "Dieses Pokémon und das Verteidigende Pokémon sind jetzt verwirrt."
 			},
 
 		},
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Poison Powder",
 				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+		de: "Der Honig, den es abgibt, riecht so entsetzlich, dass sich sogar Nasen in 2 km Entfernung rümpfen."
 	},
 
 	thirdParty: {

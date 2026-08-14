@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vullaby",
 		fr: "Vostourno",
+		de: "Skallyk"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 30,
@@ -57,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Dual Cut",
 				fr: "Coupe Double",
+				de: "Doppel-Zerschneider"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 80,
 
@@ -85,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes a nest out of the bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+		de: "Es baut sein Nest aus Knochen. Ist seine Beute geschwächt, packt es sie mit den Beinen und trägt sie zu seinem Nest."
 	},
 
 	thirdParty: {

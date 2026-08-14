@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 10,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.",
+		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
 	},
 
 	thirdParty: {

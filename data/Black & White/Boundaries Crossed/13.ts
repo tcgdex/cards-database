@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
+		de: "Efoserp"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Double Slash",
 				fr: "Double Lame",
+				de: "Doppelschlitzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 50,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Mega Drain",
 				fr: "Méga-Sangsue",
+				de: "Megasauger"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 70,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
+		de: "Bringt Gegner mit einem einzigen kühlen Blick zum Erstarren. In seinem Inneren verstärkt es die Energie der Sonne."
 	},
 
 	thirdParty: {

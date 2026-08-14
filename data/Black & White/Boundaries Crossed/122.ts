@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Herdier",
 		fr: "Ponchien",
+		de: "Terribark"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Wild Tackle",
 				fr: "Tacle Brutal",
+				de: "Wilder Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 20 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+		de: "Sein langes Fell ist sehr bequem und kann einen Menschen eine ganze Nacht lang auf einem schneebedeckten Berg warmhalten."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Amnesia",
 				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon ciblé ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Das Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Aquafall",
 				fr: "Aquasplash",
+				de: "Aquafall"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When its forehead shines mysteriously, Golduck can use the full extent of its power.",
+		de: "Beginnt seine Stirn unheilvoll zu leuchten, bedeutet dies, dass es nun seine volle Macht entfesseln kann."
 	},
 
 	thirdParty: {
