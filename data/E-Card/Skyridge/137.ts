@@ -4,7 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Mystery Zone",
-		de: "Geheimnis Zone"
+		de: "Geheimnis-Zone"
 	},
 
 	illustrator: "Ken Ikuji",
