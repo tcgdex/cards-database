@@ -4,7 +4,8 @@ import Set from '../McDonald\'s Collection 2021'
 const card: Card = {
 	name: {
 		en: "Chikorita",
-		fr: "Germignon"
+		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	illustrator: "sowsow",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mini Drain",
-				fr: "Mini-Assèchement"
+				fr: "Mini-Assèchement",
+				de: "Minisauger"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon."
+				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -52,7 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
+		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+		de: "Mit dem Blatt auf seinem Kopf bestimmt es die Temperatur und Feuchtigkeit. Es liebt Sonnenbäder."
 	},
 
 	variants: [

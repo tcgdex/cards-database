@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	illustrator: "kirisAki",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				de: "Einhämmern"
 			},
 
 			damage: 30,
@@ -50,7 +52,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
+		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+		de: "Erschrickt sich dieses scheue Pokémon, lodern die Flammen auf seinem Rücken kräftiger."
 	},
 
 	variants: [

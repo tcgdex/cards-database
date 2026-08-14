@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fennekin",
 		fr: "Feunnec",
+		de: "Fynx"
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+		de: "Wenn es Zweige frisst, fasst es neue Kraft und stößt über seine Ohren über 200 °C heiße Luft aus."
 	},
 
 	variants: [

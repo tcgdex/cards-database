@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Oshawott",
 		fr: "Moustillon",
+		de: "Ottaro"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Water Pulse",
 				fr: "Vibraqua",
+				de: "Aquawelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 20,
 
@@ -53,7 +56,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
+		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+		de: "Kämpft mit der Muschel auf seinem Bauch. Pariert es einen Angriff, schlägt es sofort mit einer Schnitt-Attacke zurück."
 	},
 	
 	variants: [

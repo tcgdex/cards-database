@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Litten",
 		fr: "Flamiaou",
+		de: "Flamiau"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs."
+		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+		de: "Es verbrennt Haare, die es bei der Körperpflege verschluckt hat, indem es Feuer speit. Die Flammen variieren je nach Art des Speiens."
 	},
 
 	variants: [

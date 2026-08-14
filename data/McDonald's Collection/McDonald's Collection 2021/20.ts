@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
 	},
     variants: [
           {
