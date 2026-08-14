@@ -54,7 +54,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+		de: "Es nutzt Aufwinde, um hoch oben in den Lüften zu schweben. Es trägt Futter in seinem Schnabel umher."
 	},
 
 	variants: [
