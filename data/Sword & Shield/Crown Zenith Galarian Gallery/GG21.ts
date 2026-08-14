@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Evita todo el daño infligido por ataques de los Pokémon V de tu rival a cada uno de tus Pokémon Básicos que tenga alguna Energía Metal unida a él.",
 			it: "Previeni tutti i danni inflitti a ciascuno dei tuoi Pokémon Base che ha delle Energie Metal assegnate dagli attacchi dei Pokémon-V del tuo avversario.",
 			pt: "Previna todo o dano causado a cada um dos seus Pokémon Básicos que tiver alguma Energia Metal ligada a ele por ataques dos Pokémon V do seu oponente.",
-			de: "Verhindere allen Schaden durch Attacken von Pokémon-V deines Gegners, der jedem deiner Basis-Pokémon zugefügt wird, an das mindestens 1 Metal-Energie angelegt ist."
+			de: "Verhindere allen Schaden durch Attacken von Pokémon-V deines Gegners, der jedem deiner Basis-Pokémon zugefügt wird, an das mindestens 1 {M}-Energie angelegt ist."
 		}
 	}],
 
@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy— it will fume and run riot if those dearest to it ever leave its side.",
+		de: "Es ist imstande, die Härte seines Metallgehäuses nach Belieben zu regulieren. Alleinsein missfällt ihm und so wird es von wildem Zorn gepackt, wenn jemand ihm Liebes es zu verlassen gedenkt."
 	},
 
 	

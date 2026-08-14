@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won't wither once they're attached to a Comfey.",
+		de: "Mit seiner Ranke pflückt es Blumen und schmückt dann seinen Körper mit ihnen. Aus irgendeinem Grund verwelken diese nie."
 	},
 
 	

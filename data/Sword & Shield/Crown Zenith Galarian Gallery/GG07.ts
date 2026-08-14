@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+		de: "Ist es sich seiner Sache sicher, strotzt es vor Kraft und seine Sprünge werden zu schnell für die menschliche Wahrnehmung."
 	},
 
 	

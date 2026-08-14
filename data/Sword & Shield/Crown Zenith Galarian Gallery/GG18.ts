@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes mirar las 6 primeras cartas de tu baraja y unir cualquier cantidad de cartas de Energía Metal que encuentres entre ellas a tus Pokémon de la manera que desees. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
 			it: "Una sola volta durante il tuo turno, puoi guardare le prime sei carte del tuo mazzo e assegnare un numero qualsiasi di carte Energia Metal presenti tra esse ai tuoi Pokémon nel modo che preferisci. Poi rimischia le altre carte nel tuo mazzo.",
 			pt: "Uma vez durante o seu turno, você pode olhar as 6 cartas de cima do seu baralho e ligar qualquer número de cartas de Energia Metal que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho.",
-			de: "Einmal während deines Zuges kannst du dir die obersten 6 Karten deines Decks anschauen und beliebig viele Metal-Energiekarten, die du dort findest, beliebig an deine Pokémon anlegen. Mische die anderen Karten zurück in dein Deck."
+			de: "Einmal während deines Zuges kannst du dir die obersten 6 Karten deines Decks anschauen und beliebig viele {M}-Energiekarten, die du dort findest, beliebig an deine Pokémon anlegen. Mische die anderen Karten zurück in dein Deck."
 		}
 	}],
 
@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being.",
+		de: "Man sagt, es werde von einem Wesen aus dem All kontrolliert und mit der Antenne auf seinem Kopf empfange es von ihm Signale."
 	},
 
 	
