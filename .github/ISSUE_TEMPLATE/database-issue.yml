@@ -21,7 +21,7 @@ body:
       options:
         - Card
         - Set
-        - Series
+        - Serie
         - Other
   - type: input
     id: fields

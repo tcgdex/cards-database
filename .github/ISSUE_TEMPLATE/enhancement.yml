@@ -17,7 +17,7 @@ body:
       options:
         - label: Card
         - label: Set
-        - label: Series
+        - label: Serie
         - label: Other
         - label: new Data Type
   - type: textarea
