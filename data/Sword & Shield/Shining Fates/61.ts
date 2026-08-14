@@ -23,7 +23,7 @@ const card: Card = {
 		es: "El Zamazenta V al que esté unida esta carta obtiene 70 PS más.",
 		it: "Lo Zamazenta-V a cui è assegnata questa carta ha 70 PS in più.",
 		pt: "O Zamazenta V ao qual esta carta está ligada recebe 70 PS a mais.",
-		de: "Das Zamazenta-V, an das diese Karte angelegt ist, erhält +70 KP."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Zamazenta-V, an das diese Karte angelegt ist, erhält +70 KP. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

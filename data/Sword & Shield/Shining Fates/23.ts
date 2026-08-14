@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Mustébouée",
-		en: "Buizel"
+		en: "Buizel",
+		de: "Bamelin"
 	},
 
 	attacks: [{
@@ -51,7 +52,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
+		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
+		de: "Da es seit jeher Beute im Wasser jagt, entwickelte es einen Rettungsring."
 	},
 
 	variants: [

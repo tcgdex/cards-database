@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
 	variants: [

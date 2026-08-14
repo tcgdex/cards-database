@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+		de: "Man sagt, es habe die Meere vergrößert, indem es es regnen ließ. Es schlief in einem Meeresgraben."
 	},
 
 	variants: [
