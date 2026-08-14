@@ -28,8 +28,8 @@ const smp: Set = {
 	},
 
 	thirdParty: {
-		tcgplayer: 1861,
-		cardmarket: 1757
+		cardmarket: 1757,
+		tcgplayer: 1861
 	}
 }
 
