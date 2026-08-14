@@ -111,7 +111,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 359446,
 				tcgplayer: 170033
