@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+		de: "Alte Mythen warnen, dass es alle Welt in Brand setzen wird, wenn die Menschen die Wirklichkeit missachten und der Gier verfallen."
 	},
 
 	illustrator: "AKIRA EGAWA",

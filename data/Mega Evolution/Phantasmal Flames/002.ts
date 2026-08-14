@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+		de: "Was aus seinem Mund sickert, ist kein Speichel, sondern eine Art Nektar, mit dem es seine Beute anlockt."
 	},
 
 	illustrator: "Yoriyuki Ikegami",

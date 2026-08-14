@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		de: "Es stolpert häufig, weil es nicht gut laufen kann. Allerdings ist es sehr stolz, und so rappelt es sich immer wieder unbeirrt auf."
 	},
 
 	illustrator: "Jiro Sasumo",

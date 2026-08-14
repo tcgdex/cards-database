@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It prefers waterfronts with plentiful food. It became nocturnal so it wouldn't have to compete for food with bird Pokémon.",
+		de: "Es bevorzugt Ufer, an denen es viel Futter findet. Um sich nicht mit Vogel-Pokémon darum streiten zu müssen, wurde es nachtaktiv."
 	},
 
 	illustrator: "Shigenori Negishi",

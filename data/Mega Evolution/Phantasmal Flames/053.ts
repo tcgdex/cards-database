@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+		de: "Dieses auch als „Geist der Wüste“ bekannte Pokémon versteckt sich in Sandstürmen, die es durch das Schlagen seiner Flügel erzeugt."
 	},
 
 	illustrator: "Jerky",

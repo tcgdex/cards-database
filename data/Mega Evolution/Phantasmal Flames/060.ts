@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+		de: "Es verfügt über äußerst spitze Zähne und kräftige Kiefer. Seefahrer meiden die Lebensräume von Kanivanha um jeden Preis."
 	},
 
 	illustrator: "Shin Nagasawa",
