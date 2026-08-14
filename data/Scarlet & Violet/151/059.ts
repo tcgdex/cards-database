@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+		de: "Eine alte Bildrolle zeigt, dass die Menschen von dem Anblick über Wiesen rennender Arkani verzaubert waren."
 	},
 
 	variants: [

@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		de: "Es lauert gern im Dunkeln und tippt Leuten mit seiner gasförmigen Hand auf die Schulter. Seine Berührung erzeugt endloses Schaudern."
 	},
 
 	variants: [

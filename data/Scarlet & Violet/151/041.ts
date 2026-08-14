@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Zubat live in caves, down where the sun's light won't reach. In the morning, they gather together to keep each other warm as they sleep.",
+		de: "Zubat leben tief in Höhlen, wo das Sonnenlicht sie nicht erreicht. Bei Tagesanbruch rücken sie zusammen, um sich im Schlaf zu wärmen."
 	},
 
 	variants: [

@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		de: "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen."
 	},
 
 	variants: [

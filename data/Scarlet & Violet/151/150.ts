@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		de: "Die Gene von Mew wurden neu angeordnet, wodurch dieses Pokémon entstand. Es hat ein wildes Herz."
 	},
 
 	variants: [

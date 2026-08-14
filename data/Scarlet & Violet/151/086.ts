@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
+		de: "Kalte Meere machen ihm dank seiner dicken Fettschicht nichts aus. Wärmere Gewässer setzen ihm hingegen sehr zu."
 	},
 
 	variants: [

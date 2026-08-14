@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Starmie swims by spinning its body at high speed. As this Pokémon cruises through the ocean, it absorbs tiny plankton.",
+		de: "Starmie bewegt sich im Wasser fort, indem es seinen Körper mit hoher Geschwindigkeit rotieren lässt. Unterwegs absorbiert es winziges Plankton."
 	},
 
 	variants: [

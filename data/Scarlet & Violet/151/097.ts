@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+		de: "Es heißt, wenn dieses Pokémon einem Gegner ins Auge blicke, setze es zahlreiche Psycho-Kräfte wie beispielsweise Hypnose ein."
 	},
 
 	variants: [

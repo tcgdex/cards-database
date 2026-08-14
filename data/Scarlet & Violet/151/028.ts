@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
+		de: "Mit seinen scharfen Krallen klettert es auf Bäume und wirft unten wartenden Sandan Beeren zu, die sie sich dann teilen."
 	},
 
 	variants: [

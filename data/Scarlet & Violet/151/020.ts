@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+		de: "Mit seinen Barthaaren hält es die Balance. Berührt man sie, wird es wütend und beißt zu, egal, wie zutraulich es auch sein mag."
 	},
 
 	variants: [

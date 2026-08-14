@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+		de: "Der schmutzige Schleim dieses Pokémon ist extrem toxisch. Selbst die Spuren, die es hinterlässt, enthalten Gift."
 	},
 
 	variants: [

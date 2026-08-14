@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+		de: "Je mehr elektrische Energie es speichert, desto schneller ist es. Allerdings steigt dabei auch das Risiko, dass es explodiert."
 	},
 
 	variants: [

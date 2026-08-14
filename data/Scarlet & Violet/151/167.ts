@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+		de: "Die Sonne macht es stärker. Die Knospe auf seinem Rücken wächst unter dem Einfluss von Sonnenlicht."
 	},
 
 	variants: [

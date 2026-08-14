@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "The cause behind the extinction of this species is unknown. Kabutops were aggressive Pokémon that inhabited warm seas.",
+		de: "Es ist unklar, warum dieses brutale urzeitliche Pokémon, das in warmen Meeren lebte, letztendlich ausstarb."
 	},
 
 	variants: [

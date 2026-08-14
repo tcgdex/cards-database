@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano, y tú pones 1 Pokémon que encuentres entre ellas en la parte inferior de su baraja.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu metti un Pokémon presente tra esse in fondo al suo mazzo.",
 		pt: "Seu oponente revela a mão dele e você coloca um Pokémon que encontrar lá como a carta de baixo do baralho dele.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du legst ein Pokémon, das du dort findest, unter sein Deck."
+		de: "Dein Gegner zeigt dir seine Handkarten und du legst ein Pokémon, das du dort findest, unter sein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

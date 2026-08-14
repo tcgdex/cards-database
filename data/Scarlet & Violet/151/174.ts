@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Nidoking prides itself on its strength. It's forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+		de: "Nidoking ist stolz auf seine Kraft und kämpft sehr geschickt mit seinem dicken Schweif und seinem Horn, das selbst Diamanten zertrümmern kann."
 	},
 
 	variants: [

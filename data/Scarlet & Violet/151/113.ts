@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		de: "Ein freundliches Pokémon, das nahrhafte Eier legt, um diese mit verletzten Pokémon und Menschen zu teilen."
 	},
 
 	variants: [

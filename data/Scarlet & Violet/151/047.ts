@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+		de: "Der Pilz auf seinem Rücken ist sein wichtigstes Körperteil. Der Rest ist quasi leblos und kann sich ohne den Pilz nicht bewegen."
 	},
 
 	variants: [

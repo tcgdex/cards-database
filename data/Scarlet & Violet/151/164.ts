@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon Básico al que esté unida esta carta no tiene ninguna Debilidad.",
 		it: "Il Pokémon Base a cui è assegnata questa carta non ha debolezza.",
 		pt: "O Pokémon Básico ao qual esta carta está ligada não tem Fraqueza.",
-		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, hat keine Schwäche. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

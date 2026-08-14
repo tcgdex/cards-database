@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.",
+		de: "Die Eier von Vogel-Pokémon, sein Leibgericht, verschlingt es am Stück. Bleibt ihm eines in der Kehle stecken, verliert es kurz das Bewusstsein."
 	},
 
 	variants: [

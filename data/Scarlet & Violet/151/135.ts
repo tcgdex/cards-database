@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+		de: "Es sammelt die schwache elektrische Energie, die von seinen Zellen ausgeht, und feuert starke Blitze ab."
 	},
 
 	variants: [

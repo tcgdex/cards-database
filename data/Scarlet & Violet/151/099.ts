@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Its oversized claw is very powerful, but when it's not in battle, the claw just gets in the way.",
+		de: "Seine Riesenschere ist sehr stark, aber wenn es nicht kämpft, kommt sie ihm häufig in die Quere."
 	},
 
 	variants: [
