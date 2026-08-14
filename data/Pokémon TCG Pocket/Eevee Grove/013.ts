@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torracat"
+		en: "Torracat",
+		fr: "Matoufeu"
 	},
 
 	description: {
