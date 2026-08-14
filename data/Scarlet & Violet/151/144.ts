@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
+		de: "Arktos ist imstande, Eis zu manipulieren. Man sagt, es lebe in schneebedeckten Bergen, wo ewiger Winter herrscht."
 	},
 
 	variants: [

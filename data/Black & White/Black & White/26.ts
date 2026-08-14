@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Outrage",
 				fr: "Colère",
+				de: "Wutanfall"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Blue Flare",
 				fr: "Flamme Bleue",
+				de: "Blauflammen"
 			},
 			effect: {
 				en: "Discard 2 Fire Energy attached to this Pokémon.",
 				fr: "Défaussez 2 Énergies Fire attachées à ce Pokémon.",
+				de: "Lege 2 an dieses Pokémon angelegte {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+		de: "Ein aus Mythen bekanntes Pokémon. Es wirbelt mit seinem Schweif Feuer auf, mit dem es alles in Asche legt."
 	},
 
 	thirdParty: {

@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Psymist",
 				fr: "Brume psy",
-				de: "Psymist"
+				de: "Psinebel"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, choose 1 of you opponent's Pokémon and put 1 damage counter on that Pokémon.",
 				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 des Pokémon de votre adversaire et placez 1 marqueur de dégât sur ce Pokémon.",
-				de: "Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon and put 1 damage counter on that Pokémon."
+				de: "Wirf 2 Münzen. Wähle pro „Kopf“ ein gegnerisches Pokémon und lege eine Schadensmarke darauf."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Pain Amplifier",
 				fr: "Amplificateur de douleur",
-				de: "Pain Amplifier"
+				de: "Schmerzverstärker"
 			},
 			effect: {
 				en: "Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it.",
 				fr: "Placez 1 marqueur de dégât sur chaque Pokémon de votre adversaire qui possède déjà des marqueurs de dégât.",
-				de: "Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it."
+				de: "Lege 1 Schadensmarke auf jedes gegnerische Pokémon, auf dem bereits mindestens 1 Schadensmarke liegt."
 			},
 
 		},

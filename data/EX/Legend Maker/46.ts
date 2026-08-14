@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trapinch",
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "If Vibrava has any React Energy cards attached to it, this attack does 20 damage plus 20 more damage.",
 				fr: "Si Vibraninf possède des cartes Énergie réaction, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn an Vibrava mindestens eine reaktions-Energiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere schadenspunkte zu."
+				de: "Wenn an Vibrava mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Auxiliary Light",
 				fr: "Lumière subsidiaire",
-				de: "Auxiliary Light"
+				de: "Notbeleuchtung"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie de base de votre main à Lanturn de Team Aqua. Placez 2 marqueurs de dégât sur Lanturn de Team Aqua. Ce pouvoir ne peut pas être utilisé si Lanturn de Team Aqua est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition."
+				de: "Während deines Zuges (vor deinem Angriff) kannst du ein Mal eine Basis-Energiekarte von deiner Hand an Team Aquas Lanturn anlegen. Lege 2 Schadensmarken auf Team Aquas Lanturn. Diese Poké-Power kann nicht verwendet werden, falls Team Aquas Lanturn von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Lightning Ball",
 				fr: "Boule éclair",
-				de: "Lightning Ball"
+				de: "Kugelblitz"
 			},
 
 			damage: 50,

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach einer {M}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+		de: "Die dornigen Zweige seines Nests bewirken, dass die Flügel seiner Jungen fest und hart werden."
 	},
 
 	variants: [

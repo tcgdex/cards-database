@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		de: "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen."
 	},
 
 	thirdParty: {

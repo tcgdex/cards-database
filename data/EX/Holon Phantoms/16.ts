@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Rayquaza has any Holon Energy cards attached to it, each of your Water Pokémon has no Weakness.",
 				fr: "Tant que Rayquaza possède des cartes Énergie Holon, vos Pokémon  ne possèdent pas de Faiblesse.",
-				de: "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, haben deine -Pokémon keine Schwäche."
+				de: "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, haben deine {W}-Pokémon keine Schwäche."
 			},
 		},
 	],

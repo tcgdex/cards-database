@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places.",
+		de: "Es heißt zwar, dass Kabuto ausgestorben sei, doch in einer bestimmten Gegend trifft man es noch relativ häufig an."
 	},
 
 	variants: [

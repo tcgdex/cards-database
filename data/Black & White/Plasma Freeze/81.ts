@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Shed Skin",
 				fr: "Mue",
+				de: "Expidermis"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Tail Smack",
 				fr: "Coup de Queue",
+				de: "Schweifschlag"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+		de: "Man nennt es „Illusion-Pokémon“, denn nur wenige haben es gesehen. Nur seine Haut wurde oft gefunden."
 	},
 
 	thirdParty: {

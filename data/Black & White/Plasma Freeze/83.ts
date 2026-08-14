@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Deafen",
 				fr: "Rendre Sourd",
+				de: "Ohren betäuben"
 			},
 			effect: {
 				en: "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
+				de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten von seiner Hand spielen."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Healwing",
 				fr: "Aile Soin",
+				de: "Heilschwinge"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 90,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+		de: "Man sagt, es lebe in den Meeren. Es bringt Schiffbrüchige sicher an Land."
 	},
 
 	thirdParty: {

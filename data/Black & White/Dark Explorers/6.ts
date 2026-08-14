@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-Attaque"
+				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -56,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Assist",
-				fr: "Assistance Énergétique"
+				fr: "Assistance Énergétique",
+				de: "Energieförderung"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc."
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc.",
+				de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 40,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+		de: "Mit seiner pflanzenähnlichen Zellstruktur betreibt es Photosynthese. Es kämpft eigentlich nie."
 	},
 
 	thirdParty: {

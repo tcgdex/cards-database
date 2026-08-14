@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Transfer Pain",
 				fr: "Transfert de Douleur",
+				de: "Schmerztranfer"
 			},
 			effect: {
 				en: "Move 1 damage counter from any of your Pokémon to any of your opponent's Pokémon.",
 				fr: "Déplacez 1 marqueur de dégâts de l'un de vos Pokémon vers l'un des Pokémon de votre adversaire.",
+				de: "Verschiebe 1 Schadensmarke von einem deiner Pokémon auf ein Pokémon deines Gegners."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
+		de: "Es entsteht aus den Seelen von längst begrabenen Menschen und kann sich immer noch an deren Vergangenheit erinnern."
 	},
 
 	thirdParty: {

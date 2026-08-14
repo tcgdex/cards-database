@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
+		de: "Mit ihren harten Vorderzähnen zerteilen sie Beeren, bevor sie diese essen. Die Spitze ihres Horns ist etwas abgerundeter als bei Männchen."
 	},
 
 	variants: [

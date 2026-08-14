@@ -19,7 +19,8 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		de: "Es ist hochintelligent und versteht sogar die menschliche Sprache. Es ist friedlich und meidet Konflikte."
 	},
 
 	stage: "Basic",
@@ -27,19 +28,22 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Supersonic Flight",
-			fr: "Voyage Supersonique"
+			fr: "Voyage Supersonique",
+			de: "Überschallflug"
 		},
 
 		damage: 40,
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 		}
 	}, {
 		name: {
 			en: "Psyburn",
-			fr: "Brûlure Psy"
+			fr: "Brûlure Psy",
+			de: "Psychoverbrennung"
 		},
 
 		damage: 70

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 50 puntos de daño a 1 de tus Pokémon que tenga alguna Energía Fairy unida a él.",
 		it: "Cura da 50 danni uno dei tuoi Pokémon che abbia delle Energie Fairy assegnate.",
 		pt: "Cure 50 de danos de 1 dos seus Pokémon que possua qualquer Energia Fairy ligada a ele.",
-		de: "Heile 50 Schadenspunkte bei 1 deiner Pokémon, an das Fairy-Energie angelegt ist."
+		de: "Heile 50 Schadenspunkte bei 1 deiner Pokémon, an das {FAIRY}-Energie angelegt ist. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

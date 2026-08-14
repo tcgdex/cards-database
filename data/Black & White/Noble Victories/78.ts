@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
+		de: "Kapuno"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Double Hit",
 				fr: "Coup Double",
+				de: "Doppelschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				de: "Stärke"
 			},
 
 			damage: 50,
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+		de: "Seine zwei Köpfe liegen stets im Streit. So wird jede Mahlzeit ein Wettstreit für sie, bei dem sich beide überfressen."
 	},
 
 	thirdParty: {

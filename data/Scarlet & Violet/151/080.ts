@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+		de: "Als Flegmon im Meer jagen ging, biss ein Muschas in seine Rute. Dadurch entwickelte es sich zu Lahmus."
 	},
 
 	variants: [

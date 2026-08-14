@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon verwirrt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
 			},
 			damage: 10,
@@ -61,7 +61,8 @@ const card: Card = {
 	description: {
 		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
 		fr: "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans.",
-		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
+		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37",
+		de: "Bei seiner Geburt hat es nur einen Schweif. Dieser teilt sich an der Spitze, wenn es älter wird."
 	},
 
 	variants: [

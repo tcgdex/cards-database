@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it.",
+		de: "Es fügt seiner Schale schichtenweise Baumrinde hinzu. Die zusätzliche Belastung ist ihm gleich."
 	},
 
 	variants: [

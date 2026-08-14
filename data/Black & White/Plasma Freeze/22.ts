@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wooper",
 		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Mud Gun",
 				fr: "Giclée de Boue",
+				de: "Schlammkanone"
 			},
 			effect: {
 				en: "If this Pokémon has any Fighting Energy attached to it, this attack does 30 more damage.",
 				fr: "Si de l'Énergie Fighting est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon bereits {F}-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming.",
+		de: "Es ist sehr unbekümmert und stört sich nicht daran, wenn es während des Schwimmens an etwas stößt."
 	},
 
 	thirdParty: {

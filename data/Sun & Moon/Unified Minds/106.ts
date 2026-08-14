@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon Básicos de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon Base del tuo avversario costano Colorless in più.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, o custo dos ataques dos Pokémon Básicos do seu oponente será Colorless a mais.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Basis-Pokémon deines Gegners um Colorless."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Basis-Pokémon deines Gegners um {C}."
 			},
 		},
 	],
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Picado Salvaje GX",
 				it: "Picchiata Irrefrenabile GX",
 				pt: "Mergulho Selvagem GX",
-				de: "Wilder Sturzflug"
+				de: "Wilder Sturzflug GX"
 			},
 			effect: {
 				en: "This attack does 50 damage times the amount of Energy attached to your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

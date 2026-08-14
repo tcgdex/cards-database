@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Choose an Energy card in your hand, show it to your opponent, and shuffle it into your deck. Then flip a coin. If heads, search your deck for up to 3 basic Energy cards. Show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 		fr: "Choisissez une carte Énergie dans votre main, montrez-la à votre adversaire et mélangez-la à votre deck. Lancez ensuite une pièce. Si c'est face, cherchez dans votre deck jusqu'à 3 cartes Énergie de base. Montrez-les à votre adversaire avant de les ajouter à votre main. Mélangez ensuite votre deck.",
-		de: "Choose an Energy card in your hand, show it to your opponent, and shuffle it into your deck. Then flip a coin. If heads, search your deck for up to 3 basic Energy cards. Show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+		de: "Wähle eine Energiekarte auf deiner Hand, zeige sie deinem Gegner und mische sie in dein Deck. Wirf dann eine Münze. Durchsuche bei „Kopf“ dein Deck nach bis zu drei Basis-Energiekarten. Zeige diese deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
 

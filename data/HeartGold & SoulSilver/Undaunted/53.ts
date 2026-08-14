@@ -57,7 +57,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+		de: "Sein Ruf bei der Beutejagd unterscheidet sich von dem Ruf, wenn es mit Artgenossen kommuziert."
 	},
 
 	variants: [

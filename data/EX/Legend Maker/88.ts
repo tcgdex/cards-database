@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Mew ex can use the attacks of all Pokémon in play as its own. (You still need the necessary Energy to use each attack.)",
 				fr: "Mew ex peut utiliser les attaques de tous les Pokémon en jeu à la place des siennes. (Vous devez toujours utiliser l'Énergie nécessaire pour chaque attaque.)",
-				de: "Mew ex kann die Angriffe von allen Pokémon, die sich im Spiel befinden, als seine eigenen Angriffe durchführen (Du brauchst trotzdem die notwendige Energie um den Angriff durchzuführen)."
+				de: "Mew ex kann die Angriffe von allen Pokémon, die sich im Spiel befinden, als seine eigenen Angriffe durchführen (Du brauchst trotzdem die notwendige Energie, um den Angriff durchzuführen)."
 			},
 		},
 	],

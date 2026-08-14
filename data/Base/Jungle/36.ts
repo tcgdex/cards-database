@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fearow",
 		fr: "Rapasdepic",
+		it: "Fearow",
 		de: "Ibitak"
 	},
 
@@ -25,7 +26,9 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		it: "Spearow",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -40,12 +43,14 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
+				it: "Agilità",
 				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic.",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
+				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario previeni tutti gli effetti degli attacchi inflitti a Fearow, incluso il danno.",
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
 
@@ -60,6 +65,7 @@ const card: Card = {
 			name: {
 				en: "Drill Peck",
 				fr: "Bec vrille",
+				it: "Perforbecco",
 				de: "Bohrschnabel"
 			},
 
@@ -84,7 +90,9 @@ const card: Card = {
 
 	description: {
 		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
-		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
+		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement.",
+		it: "Con le sue grandi e magnifiche ali, può continuare a volare senza bisogno di atterrare per riposarsi.",
+		de: "Mit seinen riesigen und prächtigen Flügeln kann es in der Luft bleiben, ohne jemals zum Ausruhen landen zu müssen."
 	},
 
 

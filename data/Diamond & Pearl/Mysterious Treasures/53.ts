@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon.",
 				fr: "Choisissez dans votre pile de défausse une carte Énergie Metal et attachez-la à Galegon. Retirez-lui alors 2 marqueurs de dégât.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Stollrak an. Wenn du das machst, entferne 2 Schadensmarken von Stollrak."
+				de: "Durchsuche deinen Ablagestapel nach 1 {M}-Energiekarte und lege sie an Stollrak an. Wenn du das machst, entferne 2 Schadensmarken von Stollrak."
 			},
 
 		},
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
-		fr: "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
+		fr: "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier.",
+		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
 	},
 
 	thirdParty: {

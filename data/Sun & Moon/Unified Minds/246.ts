@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Comilón GX",
 				it: "Mangione GX",
 				pt: "Comilão GX",
-				de: "Großer Appetit GX"
+				de: "Großer Appetit-GX"
 			},
 			effect: {
 				en: "Your opponent reveals their hand. Discard all Supporter cards you find there. (You can’t use more than 1 GX attack in a game.)",

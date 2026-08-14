@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, choose 1 of the Defending Pokémon. That Pokémon is now Poisoned. This power can't be used if Vileplume is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, choisissez 1 des Pokémon Défenseurs. Ce Pokémon est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Rafflesia est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) wirf 1 Münze. Bei \"Kopf\" wähle 1 Verteidigendes Pokémon. Dieses Pokémon ist jetzt vergiftet. Diese Poké-Power kann nicht benutzt werden, wenn Giflor von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) wirf 1 Münze. Bei „Kopf“ wähle 1 Verteidigendes Pokémon. Dieses Pokémon ist jetzt vergiftet. Diese Poké-Power kann nicht benutzt werden, wenn Giflor von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

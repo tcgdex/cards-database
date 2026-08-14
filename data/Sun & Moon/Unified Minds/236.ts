@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 Pokémon que tengan un Coste de Retirada de exactamente 4, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon che hanno il costo di ritirata esattamente pari a quattro, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 3 Pokémon que tenham um custo de Recuo de exatamente 4 no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 3 Pokémon, die Rückzugskosten von genau 4 haben, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Pokémon, die Rückzugskosten von genau 4 haben, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

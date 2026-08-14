@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Energy cards attached to Entei or this attack does nothing.",
 				fr: "Défaussez 2 cartes Énergie  attachées à Entei pour utiliser cette attaque.",
-				de: "Lege 2 an Entei angelegte -Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
+				de: "Lege 2 an Entei angelegte {R}-Energiekarten auf deinen Ablagestapel oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
-		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
+		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays.",
+		de: "Wenn es bellt, brechen Vulkane aus. Es rennt ungestüm durch das Land, ohne in der Lage zu sein, seine besondere Fähigkeit zu zügeln."
 	},
 
 

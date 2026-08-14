@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
+		de: "Ihr Gehör erfasst das Geräusch einer fallenden Nadel noch aus 1 km Entfernung. Sie bevorzugen daher ruhige Orte."
 	},
 
 	variants: [

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn't care too much.",
+		de: "Wenn sich etwas in seiner Nähe bewegt, stürzt es sich darauf und beißt fest zu, auch wenn es sich dabei selbst verletzt."
 	},
 
 	thirdParty: {

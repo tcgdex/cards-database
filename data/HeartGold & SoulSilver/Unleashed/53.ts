@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
+		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason.",
+		de: "Es ist extrem jähzornig. Tritt es in Gruppen auf, greif es grundlos alles an, was in Reichweite ist."
 	},
 
 	variants: [

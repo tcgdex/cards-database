@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pignite",
 		fr: "Grotichon",
+		de: "Ferkokel"
 	},
 
 	stage: "Stage2",
@@ -43,6 +44,7 @@ const card: Card = {
 			name: {
 				en: "Heat Crash",
 				fr: "Tacle Feu",
+				de: "Brandstempel"
 			},
 
 			damage: 50,
@@ -58,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Flare Blitz",
 				fr: "Boutefeu",
+				de: "Flammenblitz"
 			},
 			effect: {
 				en: "Discard all Fire Energy attached to this Pokémon.",
 				fr: "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		de: "Steckt mit dem Feuer um sein Kinn seine Fäuste in Brand und holt zu feurigen Fausthieben aus. Zeigt großen Teamgeist."
 	},
 
 	thirdParty: {

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, placez dans votre main n'importe quelle carte de votre pile de défausse.",
-				de: "Wirf 1 Münze. Bei 'Kopf' wähle 1 Karte aus deinem Ablagestapel und nimm sie auf die Hand."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Reaction",
 				fr: "Réagir",
-				de: "Reaction"
+				de: "Reaktion"
 			},
 			effect: {
 				en: "Switch Drifloon with 1 of your Benched Pokémon.",
 				fr: "Échangez Baudrive avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Driftlon gegen 1 Pokémon auf diener Bank aus."
+				de: "Tausche Driftlon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
+		de: "Es zieht Kinder an den Händen, um sie mitzunehmen. Doch stets wird es dabei durch die Gegend gezogen."
 	},
 
 	thirdParty: {

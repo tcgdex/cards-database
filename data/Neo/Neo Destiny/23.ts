@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Searchlight",
 				fr: "Phare",
-				de: "Searchlight"
+				de: "Scheinwerfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand.",
 				fr: "Lancez une pièce. Si c'est face, chaque joueur peut choisir une carte de sa pile de défausse et la placer dans sa main.",
-				de: "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand."
+				de: "Wirf eine Münze. Bei „Kopf“ darf jeder Spieler eine Karte von seinem Ablagestapel auswählen und auf seine Hand nehmen."
 			},
 
 		},
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Spark",
 				fr: "Étincelle",
-				de: "Spark"
+				de: "Funkensprung"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
-				de: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon)"
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von diesen, und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has evolved its dorsal fin to emit light, which attracts the fish it feeds on.",
-		fr: "La nageoire dorsale de ce Pokémon a évolué pour émettre de la lumière, ce qui attire les poissons dont il se nourrit."
+		fr: "La nageoire dorsale de ce Pokémon a évolué pour émettre de la lumière, ce qui attire les poissons dont il se nourrit.",
+		de: "Dieses Pokémon hat sich so entwickelt, dass seine Rückenflosse Licht ausstrahlt, das Fische anlockt, von denen es sich ernährt."
 	},
 
 

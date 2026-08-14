@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gible",
 		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
+		de: "Es liebt funkelnde Dinge. Sieht es ein Zobiris, das ein Rocara jagt, stürzt es sich wütend auf den Verfolger."
 	},
 
 	thirdParty: {

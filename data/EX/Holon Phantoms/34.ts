@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 damage plus 10 more damage. If 2 of them are heads, this attack does 10 damage plus 20 more damage. If all of them are heads, this attack does 10 damage plus 40 more damage.",
 				fr: "Lancez 3 pièces. Si vous obtenez 1 face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si vous obtenez 2 faces, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires. Si vous n'obtenez que des faces, cette attaque inflige 10 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 3 Münzen. Bei 1 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 2 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei 3 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 3 Münzen. Bei 1 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 2 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei 3 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

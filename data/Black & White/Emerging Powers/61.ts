@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandile",
 		fr: "Mascaïman",
+		de: "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel."
 			},
 			damage: 40,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+		de: "Bildet mit mehreren Artgenossen ein Rudel. Eine Membran schützt seine Augen vor Sandstürmen."
 	},
 
 	thirdParty: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		it: "Goldeen",
 		de: "Goldini"
 	},
 
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
-				de: "Kopfnuss"
+				it: "Incornata",
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -50,7 +52,9 @@ const card: Card = {
 
 	description: {
 		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
-		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
+		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\".",
+		it: "La sua pinna caudale si gonfia come un elegante vestito da ballo e per questo è stata soprannominata \"Regina dell'Acqua\".",
+		de: "Seine Schwanzflosse bauscht sich wie ein elegantes Abendkleid, was ihm den Spitznamen „Wasserkönigin“ verleiht."
 	},
 
 

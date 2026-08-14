@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
+		de: "Pinsir nimmt Beute mit seinen Hörnern in die Zange, um sie anschließend entzweizureißen oder mit Wucht fortzuschleudern."
 	},
 
 	variants: [

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+		de: "Nach einer Mahlzeit genießt es ein Sonnenbad am Strand. Durch die erhöhte Körpertemperatur wird seine Verdauung unterstützt."
 	},
 
 	variants: [

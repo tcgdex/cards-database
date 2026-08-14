@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sealeo",
 		fr: "Phogleur",
+		de: "Seejong"
 	},
 
 	stage: "Stage2",
@@ -43,6 +44,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde Boréale",
+				de: "Aurorastrahl"
 			},
 
 			damage: 80,
@@ -58,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Ice Entomb",
 				fr: "Cercueil de Glace",
+				de: "Eisiger Kerker"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Paralyzed. This Pokémon can't use Ice Entomb during your next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Paralysé. Ce Pokémon ne peut pas utiliser Cercueil de Glace pendant votre prochain tour.",
+				de: "Das Verteidigende Pokémon ist jetzt paralysiert. Dieses Pokémon kann während deines nächsten Zuges Eisiger Kerker nicht einsetzen."
 			},
 			damage: 60,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+		de: "Mit seinen Stoßzähnen bricht es durch Eis. Eine Speckschicht schützt es vor Kälte und Angriffen."
 	},
 
 	thirdParty: {

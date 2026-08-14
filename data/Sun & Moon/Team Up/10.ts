@@ -53,20 +53,6 @@ const card: Card = {
 			damage: "30×",
 
 		},
-		{
-			cost: [
-				"Grass",
-				"Grass",
-			],
-			name: {
-				fr: "Tempête de Fleurs",
-			},
-			effect: {
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies de base attachées à tous vos Pokémon.",
-			},
-			damage: "30×",
-
-		},
 	],
 
 	weaknesses: [

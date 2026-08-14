@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Gakuji Nomoto",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre"
+				fr: "Tonnerre",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Pikachu in order to use this attack.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu."
+				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu.",
+				de: "Lege alle Energiekarten, die an Pikachu angelegt sind, ab."
 			},
 			damage: 40,
 
@@ -66,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.",
-		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
+		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue.",
+		de: "Es benutzt seinen empfindlichen Schwanz, um seine Umwelt wahrzunehmen, und reagiert äußerst gereizt, wenn man es am Schwanz packt."
 	},
 
 	variants: [

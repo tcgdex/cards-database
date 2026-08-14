@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "In rivers with fast-flowing water, this Pokémon will cling to a rock by using its thick lips, which act like a suction cup.",
+		de: "In schnell fließenden Flüssen hält es sich mithilfe seiner dicken Lippen, die als Saugnapf fungieren, an Felsen fest."
 	},
 
 	variants: [

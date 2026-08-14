@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle Douce",
+				de: "Sanfter Hieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
+		de: "Es vergräbt sich im heißen Wüstensand, um nicht auszukühlen, und fristet sein Leben im Verborgenen."
 	},
 
 	thirdParty: {

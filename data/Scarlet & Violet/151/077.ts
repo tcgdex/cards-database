@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
+		de: "Hat man erst einmal das Vertrauen eines Ponitas gewonnen, kann man seltsamerweise sogar seine feurige Mähne anfassen, ohne sich zu verbrennen."
 	},
 
 	variants: [

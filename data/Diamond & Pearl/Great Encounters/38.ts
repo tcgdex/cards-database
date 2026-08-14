@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clamperl",
 		fr: "Coquiperl",
+		de: "Perlu"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "If Gorebyss has any Psychic Energy attached to it, this attack does 30 damage plus 20 more damage and the Defending Pokémon is now Confused.",
 				fr: "Si Rosabyss possède de l'Énergie Psychic, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
-				de: "Wenn an Saganabyss mindestens 1 -Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+				de: "Wenn an Saganabyss mindestens 1 {P}-Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: "30+",
 
@@ -74,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+		de: "Es lebt auf dem Grund des Meeres. Im Frühling wirkt die Farbe seines Körpers viel kräftiger."
 	},
 
 	thirdParty: {

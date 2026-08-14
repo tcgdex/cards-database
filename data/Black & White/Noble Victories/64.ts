@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gurdurr",
 		fr: "Ouvrifier",
+		de: "Strepoli"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Este Pokémon obtiene 20 PV más por cada Energía Fighting unida a él.",
 				it: "Questo Pokémon ha 20 PV in più per ogni Energia Fighting assegnatagli.",
 				pt: "Este Pokémon recebe mais 20 PS para cada Energia Fighting ligada a ele.",
-				de: "Dieses Pokémon erhält +20 KP für jede an es angelegte Fighting-Energie."
+				de: "Dieses Pokémon erhält +20 KP für jede an es angelegte {F}-Energie."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Top Down",
 				fr: "Écras'Montagne",
+				de: "Kopfüber"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It it thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+		de: "Man nimmt an, dass es der Menschheit vor ca. 2 000 Jahren das Betonmischen beigebracht hat."
 	},
 
 	thirdParty: {

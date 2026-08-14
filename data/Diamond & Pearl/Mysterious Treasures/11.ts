@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Finneon",
-		fr: "Écayon"
+		fr: "Écayon",
+		de: "Finneon"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Lumineon. Then, return all Water Energy attached to Lumineon to your hand.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Luminéon. Ensuite, reprenez dans votre main toutes les Énergies Water attachées à Luminéon.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lumineon angelegte -Energie zu. Danach nimm alle an Lumineon angelegte -Energie zurück auf deine Hand."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lumineon angelegte {W}-Energie zu. Danach nimm alle an Lumineon angelegte {W}-Energie zurück auf deine Hand."
 			},
 			damage: "30+",
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
-		fr: "Il vit au plus profond de l'océan. Il attire sa proie en illuminant les motifs de ses 4 nageoires."
+		fr: "Il vit au plus profond de l'océan. Il attire sa proie en illuminant les motifs de ses 4 nageoires.",
+		de: "Es lebt tief auf dem Meeresboden. Das blinkende Muster auf seinen vier Rückenflossen zieht Beute an."
 	},
 
 	thirdParty: {

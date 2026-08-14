@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.",
+		de: "Nun, da es erwacht ist und im Verlauf der Entwicklung seine schwere Maske verlor, hat es deutlich an Geschwindigkeit hinzugewonnen."
 	},
 
 	thirdParty: {

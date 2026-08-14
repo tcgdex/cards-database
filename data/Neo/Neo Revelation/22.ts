@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Raikou is your Active Pokémon, Raikou and Energy cards attached to it aren't affected by effects from Trainer cards other than Trainer cards other than Stadium cards. As long as this power is active, discard all Trainer cards attached to Raikou. (This power works even if Raikou is Asleep, Confused, or Paralyzed.)",
 				fr: "Tant que Raikou est votre Pokémon Actif, Raikou et les cartes Énergie qui y sont attachées ne sont pas affectés par les cartes Dresseur autres que les cartes Stade. Tant que ce Pouvoir est actif, défaussez toutes les cartes Dresseurs attachées à Raikou. (Ce pouvoir fonctionne même si Raikou est Endormi, Confus ou Paralysé.)",
-				de: "Solange Raikou dein aktives Pokémon ist, sind Stadion-Karten die einzigen Trainer-Karten, die Auswirkungen auf Raikou und an es angelegte Energiekarten haben. Solange diese Fähigkeit aktiv ist, lege alle Trainerkarten, die an Raikou angelegt sind, auf den Ablagestapel. (Diese Fähigkeit wirkt, selbst dann, wenn Raikou schläft, verwirrt oder gelähmt ist.)"
+				de: "Solange Raikou dein aktives Pokémon ist sind Stadion-Karten die einzigen Trainer-Karten, die Auswirkungen auf Raikou und an es angelegte Energiekarten haben. Solange diese Fähigkeit aktiv ist, lege alle Trainerkarten, die an Raikou angelegt sind, auf den Ablagestapel. (Diese Fähigkeit wirkt selbst dann, wenn Raikou schläft, verwirrt oder gelähmt ist.)"
 			},
 		},
 	],
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that races across the land while barking a cry that sounds like crashing thunder.",
-		fr: "Un Pokémon qui court de par le monde en poussant des aboiements qui ressemblent à des coups de tonnerre."
+		fr: "Un Pokémon qui court de par le monde en poussant des aboiements qui ressemblent à des coups de tonnerre.",
+		de: "Ein Pokémon, das durch das Land rennt und dessen Gebell wie rollender Donner klingt."
 	},
 
 

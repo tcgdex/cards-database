@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rufflet",
 		fr: "Furaiglon",
+		de: "Geronimatz"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 40,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Brave Bird",
 				fr: "Rapace",
+				de: "Sturzflug"
 			},
 			effect: {
 				en: "This Pokémon does 30 damage to itself.",
 				fr: "Ce Pokémon s'inflige 30 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+		de: "Ein tapferer Krieger der Lüfte. Je mehr Narben es vorweisen kann, desto mehr Respekt zollen ihm seine Artgenossen."
 	},
 
 	thirdParty: {

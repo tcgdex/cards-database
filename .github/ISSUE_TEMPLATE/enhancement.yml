@@ -13,7 +13,7 @@ body:
       required: true
     attributes:
       label: Data affected
-      description: Select the types of data that will be affected by you enhancement
+      description: Select the types of data that will be affected by your enhancement
       options:
         - label: Card
         - label: Set
@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: explain
     attributes:
-      label: Please explain in more details what idea you have
+      label: Please explain the idea you have in more detail
       description: If you selected Other or new Data Type please put it as the first line
       placeholder: "Ex: I would love to see the cards have this new awesome field..."
     validations:

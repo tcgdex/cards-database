@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+		de: "Aus seinem ganzen Körper tritt Gift aus. Es fängt und frisst nachts kleine Käfer-Pokémon, die von Licht angelockt wurden."
 	},
 
 	variants: [

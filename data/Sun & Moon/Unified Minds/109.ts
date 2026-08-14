@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+		de: "Trainiert tief in den Bergen. Erhöht es seine spirituelle Kraft durch Meditation, kann es schweben."
 	},
 
 	thirdParty: {

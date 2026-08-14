@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Corner",
 				fr: "Coincé",
-				de: "Corner"
+				de: "Falle"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat during your opponent's next turn."
+				de: "Das verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -51,13 +51,13 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup rapide",
-				de: "Lunge"
+				de: "Ausfall"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30
@@ -75,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "When night falls, the air fills with the eerie cries of this Pokémon as it stakes out its territory.",
-		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
+		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire.",
+		de: "Wenn die Nacht hereinbricht, füllt sich die Luft mit den schaurigen Schreien dieses Pokémon, das sein Revier markiert."
 	},
 
 

@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "Recycle Energy provides Colorless Energy. (Doesn't count as a basic Energy card.) If this card is put into your discard pile from play, return it to your hand.",
-		de: "Recycle-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)Falls diese Karte aus dem Spiel auf deinen Ablagestapel gelegt wird, nimm sie wiede auf deine Hand zurück."
+		de: "Recycle-Energie liefert {C}-Energie. (Zählt nicht als Basis-Energiekarte.) Falls diese Karte aus dem Spiel auf deinen Ablagestapel gelegt wird, nimm sie wieder auf deine Hand zurück."
 	},
 
 

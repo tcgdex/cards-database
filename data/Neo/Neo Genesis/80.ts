@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
-				de: "Rage"
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Totodile.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Kaiminus.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Totodile."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte pro Schadensmarke auf Karnimani zu."
 			},
 			damage: "10+",
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
-		fr: "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
+		fr: "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge.",
+		de: "Es ist klein, aber grob und roh. Es zögert nicht, alles, was sich bewegt, zu beißen."
 	},
 
 

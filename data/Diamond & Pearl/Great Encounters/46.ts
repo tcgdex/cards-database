@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mudkip",
 		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+		de: "Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will."
 	},
 
 	thirdParty: {

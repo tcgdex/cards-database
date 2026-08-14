@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+		de: "Mittels seiner Ringe, die Raumkrümmungen verursachen, verfrachtet dieser Unruhestifter alles und jeden an die entlegensten Orte."
 	},
 
 	thirdParty: {

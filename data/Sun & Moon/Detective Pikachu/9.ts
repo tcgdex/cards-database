@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Frogadier",
 		fr: "Croâporal",
+		de: "Amphizel"
 	},
 
 	stage: "Stage2",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+		de: "Es stellt Wurfsterne aus komprimiertem Wasser her, die durch ihre hohe Drehgeschwindigkeit beim Werfen sogar Metall durchtrennen."
 	},
 
 	thirdParty: {

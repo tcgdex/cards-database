@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Abundant Harvest",
 				fr: "Récolte Abondante",
+				de: "Hülle und Fülle"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to this Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+				de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an dieses Pokémon an."
 			},
 
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Gaia Hammer",
 				fr: "Marteau de Gaïa",
+				de: "Gaia-Hammer"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,
 
@@ -80,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+		de: "Da an Orten, wo es sich blicken lässt, mit reicher Ernte zu rechnen ist, nennt man es auch den „Herrn des Ackerbaus“."
 	},
 
 	thirdParty: {

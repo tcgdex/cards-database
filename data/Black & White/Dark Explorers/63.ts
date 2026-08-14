@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga cualquier Energía Darkness unida a él no tiene ningún Coste de Retirada.",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Darkness assegnate ha costo di ritirata.",
 				pt: "Cada um de seus Pokémon que possui qualquer Energia Darkness ligada não possui Custo para Recuar.",
-				de: "Jedes deiner Pokémon, an dem Darkness-Energie angelegt ist, hat keine Rückzugskosten."
+				de: "Jedes deiner Pokémon, an dem {D}-Energie angelegt ist, hat keine Rückzugskosten."
 			},
 		},
 	],
@@ -59,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Spear",
-				fr: "Javelot Nocturne"
+				fr: "Javelot Nocturne",
+				de: "Nachtspeer"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 90,
 

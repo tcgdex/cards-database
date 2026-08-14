@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Ember"
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Quilava in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Feurisson afin d'utiliser cette attaque.",
-				de: "Discard 1  Energy card attached to Quilava in order to use this attack."
+				de: "Lege eine an Igelavar angelegte {R}-Energiekarte ab, um diesen Angriff zu verwenden."
 			},
 			damage: 30,
 
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Fire Wind",
 				fr: "Vent de feu",
-				de: "Fire Wind"
+				de: "Feuerwind"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)",
 				fr: "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux. Lancez 2 pièces. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance).",
-				de: "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von ihnen. Wirf zwei Münzen. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte mal der Anzahl „Kopf“ zu. (Wende Schwäche und Resistenz nicht an.)"
 			},
 			damage: 20,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
-		fr: "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu."
+		fr: "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu.",
+		de: "Dieses Pokémon ist vollkommen von nicht feuerfestem Fell bedeckt. Es kann jeder Art von Feuerangriff widerstehen."
 	},
 
 

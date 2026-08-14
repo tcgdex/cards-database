@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+		de: "Es speichert Atemluft in einem Flammensack. Dort erhitzt es sie auf 1700 ℃, um sie als Flammen auszuspucken."
 	},
 
 	variants: [

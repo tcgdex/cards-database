@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Remove 1 damage counter from Leafeon.",
 				fr: "Retirez à Phyllali 1 marqueur de dégât.",
-				de: "Entferne 1 Schadenmarke von Folipurba."
+				de: "Entferne 1 Schadensmarke von Folipurba."
 			},
 			damage: 40,
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+		de: "Genau wie ein Pflanze führt es die Photosynthese aus. Deshalb ist es ständig von reiner Luft umgeben."
 	},
 
 	thirdParty: {

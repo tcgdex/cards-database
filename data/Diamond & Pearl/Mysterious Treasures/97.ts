@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
-		fr: "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
+		fr: "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise.",
+		de: "Dieses Pokémon lebt auf Eisbergen. Es schwimmt im Eiswasser und bricht das Eis mithilfe seines Horns."
 	},
 
 	thirdParty: {

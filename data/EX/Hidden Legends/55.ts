@@ -37,10 +37,6 @@ const card: Card = {
 		},
 	],
 
-	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
-	},
-
 	attacks: [
 		{
 			name: {

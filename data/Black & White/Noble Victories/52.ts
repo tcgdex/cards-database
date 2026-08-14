@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duosion",
 		fr: "Méios",
+		de: "Mitodos"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Future Sight",
 				fr: "Prescience",
+				de: "Seher"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
 				fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 			},
 
 		},
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Net Force",
 				fr: "Force Accrue",
+				de: "Netzkraft"
 			},
 			effect: {
 				en: "Does 40 damage times the number of Reuniclus you have in play.",
 				fr: "Inflige 40 dégâts multipliés par le nombre de Symbios que vous avez en jeu.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte für jedes Zytomega, das du im Spiel hast, zu."
 			},
 			damage: 40,
 
@@ -76,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+		de: "Schütteln sich zwei von ihnen die Hände, bilden ihre Denkapparate ein Netzwerk und ihre Psycho-Kräfte werden stärker."
 	},
 
 	thirdParty: {

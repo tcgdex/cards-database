@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Pyrobut-V",
-		en: "Cinderace V"
+		en: "Cinderace V",
+		de: "Liberlo V"
 	},
 
 	attacks: [{

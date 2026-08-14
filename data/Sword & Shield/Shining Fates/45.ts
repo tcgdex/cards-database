@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Nostenfer-V",
-		en: "Crobat V"
+		en: "Crobat V",
+		de: "Iksbat V"
 	},
 
 	attacks: [{

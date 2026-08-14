@@ -34,13 +34,13 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-venin",
-				de: "Poison Sting"
+				de: "Giftstachel"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -53,7 +53,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
-		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
+		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison.",
+		de: "Es fliegt direkt zum Gesicht seiner Ziele, und krallt sich dann am entsetzten Opfer fest, um Gift einzuspritzen."
 	},
 
 

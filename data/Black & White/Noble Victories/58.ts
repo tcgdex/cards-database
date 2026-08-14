@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Teleportation Burst",
 				fr: "Téléportation Explosive",
+				de: "Blitz-Teleportation"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
+		de: "Es entzündet ein Licht und gibt vor, dem Gegner den Weg zu weisen, doch eigtl. saugt es ihm seine Lebensenergie ab."
 	},
 
 	thirdParty: {

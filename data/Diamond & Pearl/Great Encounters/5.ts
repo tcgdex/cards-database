@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
 	},
 
 	thirdParty: {

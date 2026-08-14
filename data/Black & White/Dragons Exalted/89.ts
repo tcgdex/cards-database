@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gible",
 		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja un Pokémon Dragon, enseñarlo y ponerlo en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Dragon, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um Pokémon Dragon no seu deck, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Dragon-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 {N}-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -64,6 +65,7 @@ const card: Card = {
 			name: {
 				en: "Dragonslice",
 				fr: "Draco-Tranche",
+				de: "Drachenschnetzler"
 			},
 
 			damage: 20,
@@ -82,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+		de: "Es liebt funkelnde Dinge und sucht nach Schätzen in Höhlen, die es dann in seinem Nest hortet."
 	},
 
 	thirdParty: {

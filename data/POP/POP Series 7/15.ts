@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Ralts",
-		fr: "Ralts"
+		fr: "Ralts",
+		de: "Trasla"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smack",
-				fr: "Claque"
+				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -58,7 +62,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people."
+		en: "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people.",
+		de: "Mit dem Horn kann es menschliche Gefühle wahrnehmen. Es erscheint fröhlichen Menschen."
 	},
 
 	retreat: 1,

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tynamo",
 		fr: "Anchwatt",
+		de: "Zapplardin"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir una carta de Energía Lightning de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua pila degli scarti.",
 				pt: "Uma vez na sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Lightning da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Lightning-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {L}-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
 			},
 		},
 	],
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Electric Ball",
 				fr: "Boule de Foudre",
+				de: "Stromball"
 			},
 
 			damage: 50,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+		de: "Die rund gemaserten Flächen erzeugen Strom. Es schlingt sich um den Gegner, presst sie gegen ihn und aktiviert sie."
 	},
 
 	thirdParty: {

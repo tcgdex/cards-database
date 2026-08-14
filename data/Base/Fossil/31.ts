@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face et si votre adversaire a un ou plusieurs Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon.)",
-				de: "Wirf eine Münze. Bei 'Kopf' und falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+				de: "Wirf eine Münze. Bei „Kopf“ und falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
 			},
 			damage: 10,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "das verteidigende Pokémon ist jetzt vergiftet."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It is rumored that the ferocious warning markings on its belly differ from area to area.",
-		fr: "Les motifs féroces peints sur son corps changent selon son environnement."
+		fr: "Les motifs féroces peints sur son corps changent selon son environnement.",
+		de: "Es geht das Gerücht um, dass die wilden Warnzeichnungen auf seinem Unterleib sich von Region zu Region unterscheiden."
 	},
 
 

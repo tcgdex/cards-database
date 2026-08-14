@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+		de: "Paras’ Körper kann nicht nach seinem eigenen Willen handeln, da er von Tochukaso, den Pilzen auf seinem Rücken, kontrolliert wird."
 	},
 
 	

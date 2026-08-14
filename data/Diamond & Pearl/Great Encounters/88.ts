@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, choisissez un Pokémon dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einer Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach einer Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
+		de: "Seine Schale ist mit Glücksgefühlen gefüllt, die es mit gutherzigen Lebewesen teilt."
 	},
 
 	thirdParty: {

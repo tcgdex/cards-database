@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Axew",
 		fr: "Coupenotte",
+		de: "Milza"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+		de: "Mit seinen Fängen kriegt es sogar Felsen klein. Gegen Artgenossen, die sein Revier passieren, geht es besonders hart vor."
 	},
 
 	thirdParty: {

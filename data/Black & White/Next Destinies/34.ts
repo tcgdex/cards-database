@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Bubble",
 				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Spit Poison",
 				fr: "Crache-Venin",
+				de: "Giftspucke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -71,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+		de: "Es lähmt seine Beute mit Gift und verschleppt sie in seinen Unterschlupf, acht Kilometer unter dem Meeresspiegel."
 	},
 
 	thirdParty: {

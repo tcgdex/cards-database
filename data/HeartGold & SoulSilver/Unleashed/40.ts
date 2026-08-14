@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistzenz bei Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
+		en: "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine.",
+		de: "An seinen Flossen tritt Gift aus. Seine Knochen und Flossen sind eine beliebte Zutat für Arznei."
 	},
 
 	variants: [

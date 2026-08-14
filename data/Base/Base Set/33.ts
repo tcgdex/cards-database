@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
-		it: "Weedle"
+		it: "Weedle",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -47,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Coconfort pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Kokuna während des nächsten Zugs Deines Gegners zugefüght wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt).",
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Kokuna während des nächsten Zugs Deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt).",
 				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Kakuna durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.)"
 
 			},
@@ -67,7 +68,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon vergiftet.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
@@ -87,7 +88,8 @@ const card: Card = {
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
 		fr: "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace.",
-		it: "Dato che non ha molta libertà di movimento, questo Pokémon può proteggersi contro i predatori solo indurendo la sua corazza. LIV 23 N.14"
+		it: "Dato che non ha molta libertà di movimento, questo Pokémon può proteggersi contro i predatori solo indurendo la sua corazza. LIV 23 N.14",
+		de: "Dieses fast unbewegliche Pokémon kann seine Schale härten, um sich vor Angreifern zu schützen."
 	},
 
 	variants: [

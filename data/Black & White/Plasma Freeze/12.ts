@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Vengeance",
 				fr: "Rétorsion",
+				de: "Rache"
 			},
 			effect: {
 				en: "Does 10 more damage for each Pokémon in your discard pile.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Pokémon dans votre pile de défausse.",
+				de: "Dieser Angriff fügt für jedes Pokémon in deinem Ablagestapel 10 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Heat Tackle",
 				fr: "Charge Énergétique",
+				de: "Hitze Tackle"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F.",
+		de: "Speichert Atemluft in einer Feuerlunge. Dort erhitzt es sie auf 1 700 Grad, um sie als Flammen auszuspucken."
 	},
 
 	thirdParty: {

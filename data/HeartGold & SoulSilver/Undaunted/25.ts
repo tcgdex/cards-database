@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sneasel",
-		fr: "Farfuret"
+		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others."
+		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+		de: "Es lebt in schneereichen Gebieten. SNIBUNNA senden einander Signale, indem sie Zeichen in Rinde ritzen."
 	},
 
 	variants: [

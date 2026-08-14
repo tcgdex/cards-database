@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed.",
 				fr: "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé.",
-				de: "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giftlor schläft, verwirrt oder gelähmt ist."
+				de: "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giflor schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -61,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after dealing damage).",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts).",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter 'Kopf' wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter „Kopf“ wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: "30x",
 
@@ -79,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
-		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
+		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen.",
+		de: "Vielleicht wegen seiner streng riechenden Pollen nähern sich andere Pokémon den Unterschlüpfen von Giflors nicht."
 	},
 
 

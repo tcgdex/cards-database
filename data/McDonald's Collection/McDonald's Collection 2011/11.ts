@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [519],
 
 	description: {
-		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+		de: "Ein Pokémon, das in der Stadt zu Hause ist. Es ist sehr zutraulich und bevölkert in Scharen öffentliche Plätze und Parks."
 	},
 
 	stage: "Basic",
@@ -17,17 +18,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Growl",
-			fr: "Rugissement"
+			fr: "Rugissement",
+			de: "Heuler"
 		},
 
 		effect: {
 			en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-			fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+			fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+			de: "Während des nächsten Zuges deines Gegners Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}, {
 		name: {
 			en: "Gust",
-			fr: "Tornade"
+			fr: "Tornade",
+			de: "Windstoß"
 		},
 
 		damage: 10
@@ -35,7 +39,8 @@ const card: Card = {
 
 	name: {
 		en: "Pidove",
-		fr: "Poichigeon"
+		fr: "Poichigeon",
+		de: "Dusselgurr"
 	},
 
 	rarity: "None",

@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+		de: "Es erscheint vor schlafenden Menschen und Pokémon und frisst ihre Alpträume."
 	},
 
 	thirdParty: {

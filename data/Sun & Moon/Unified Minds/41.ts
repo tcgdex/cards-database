@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+		de: "Im Winter steigt es bis zum Fuß der Berge herab. Im Frühjahr kehrt es auf den Gipfel zurück."
 	},
 
 	thirdParty: {

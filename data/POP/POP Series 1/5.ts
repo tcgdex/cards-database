@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Swampert",
-		fr: "Laggron"
+		fr: "Laggron",
+		de: "Sumpex"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marshtomp",
-		fr: "Flobio"
+		fr: "Flobio",
+		de: "Moorabbel"
 	},
 
 	stage: "Stage2",
@@ -34,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -51,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Splash",
-				fr: "Jet d'boue"
+				fr: "Jet d'boue",
+				de: "Schlammspritzer"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire possède des Pokémon de Banc, choisissez-en un et lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à ce Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Si votre adversaire possède des Pokémon de Banc, choisissez-en un et lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à ce Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Wähle 1 Pokémon auf der Bank hat deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 

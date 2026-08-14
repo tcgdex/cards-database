@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía Fighting de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon due carte Energia Fighting dalla tua pila degli scarti.",
 				pt: "Ligue 2 cartas de Energia Fighting da sua pilha de descarte a este Pokémon.",
-				de: "Lege 2 Fighting-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 2 {F}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 20,
 
@@ -97,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
+		de: "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.",
 				fr: "Vous pouvez déplacer une carte Énergie attachée à Mentali sur 1 des Pokémon de votre Banc.",
-				de: "Du kannst 1 Energiekarte, die an Psiana angelegt ist, entfernen und an ein Pokémon auf deiner Bank anlegen."
+				de: "Du kannst 1 Energiekarte, die an Psiana angelegt ist, entfernen und an 1 Pokémon auf deiner Bank anlegen."
 			},
 			damage: 60,
 
@@ -79,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+		de: "Sein Fell ist wie Samt. Setzt es Psycho-Kräfte ein, leuchtet die Kugel in seiner Stirn."
 	},
 
 	thirdParty: {

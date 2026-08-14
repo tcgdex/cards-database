@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Psychic de tu mano a 1 de tus Latios.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Latios una carta Energia Psychic dalla tua mano.",
 			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Psychic da sua mão a 1 dos seus Latios.",
-			de: "Einmal während deines Zuges kannst du 1 Psychic-Energiekarte aus deiner Hand an 1 deiner Latios anlegen."
+			de: "Einmal während deines Zuges kannst du 1 {P}-Energiekarte aus deiner Hand an 1 deiner Latios anlegen."
 		}
 	}],
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+		de: "Mittels Telepathie kann es mit Menschen kommunizieren. Mit seinen Daunen, die das Licht brechen, kann es sein Aussehen verändern."
 	},
 
 	

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+		de: "Aufgrund seines schönen Fells wollen viele ein Snobilikat im Haus haben. Es ist jedoch schwer erziehbar, da es sehr schnell kratzt."
 	},
 
 	variants: [

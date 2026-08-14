@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Flash Impact",
 				fr: "Impact-Flash",
+				de: "Blitzeinschlag"
 			},
 			effect: {
 				en: "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 deiner Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+		de: "Es kann durch Wände sehen und spürt auf diese Weise Beute und verlorengegangene Junge auf."
 	},
 
 	thirdParty: {

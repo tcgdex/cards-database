@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.",
+		de: "Fühlt es sich sicher, dann verlässt das Junge den Beutel. Die Mutter behält es ständig im Auge."
 	},
 
 	thirdParty: {

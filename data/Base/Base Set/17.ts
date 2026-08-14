@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
-		it: "Kakuna"
+		it: "Kakuna",
+		de: "Kokuna"
 	},
 
 	stage: "Stage2",
@@ -48,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu.",
 				it: "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
 			},
 			damage: "30x",
@@ -69,7 +70,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon vergiftet.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon vergiftet.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
 			},
 			damage: 40,
@@ -124,7 +125,8 @@ const card: Card = {
 	description: {
 		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
 		fr: "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras.",
-		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15"
+		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15",
+		de: "Fliegt mit hoher Geschwindigkeit und greift mit den großen, giftigen Stacheln auf Vorderbeinen und Schwanz an."
 	},
 }
 

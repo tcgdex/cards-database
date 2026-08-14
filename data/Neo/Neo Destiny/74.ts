@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Giant Wave",
 				fr: "Vague géante",
-				de: "Giant Wave"
+				de: "Riesenwelle"
 			},
 			effect: {
 				en: "Mantine can't attack during your next turn.",
 				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
-				de: "Mantine can't attack during your next turn."
+				de: "Mantax kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 40,
 
@@ -64,7 +64,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale.",
-		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
+		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine.",
+		de: "Dieses Pokémon hat sich perfekt an seine Meeresheimat angepasst. Es kann genug Kraft sammeln, um wie ein Wal aus dem Wasser zu springen."
 	},
 
 

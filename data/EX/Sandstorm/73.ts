@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Confusion Wave",
 				fr: "Vague de confusion",
-				de: "Confusion Wave"
+				de: "Verwirrende Welle"
 			},
 			effect: {
 				en: "Both Psyduck and the Defending Pokémon are now Confused.",
 				fr: "Psykokwak et le Pokémon Défenseur sont maintenant Confus.",
-				de: "Both Psyduck and the Defending Pokémon are now Confused."
+				de: "Enton und das Verteidigende Pokémon sind jetzt verwirrt."
 			},
 
 		},

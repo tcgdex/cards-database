@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,
@@ -61,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.",
+		de: "Es schwimmt das Gewässer auf der Suche nach Torfmoos, seiner Leibspeise, ab. Ein talentierter Taucher."
 	},
 
 	thirdParty: {

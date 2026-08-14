@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -49,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Cut",
-				fr: "Coupe"
+				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+		de: "Höhlt sich einen brauchbaren Stein aus, um darin zu wohnen. Geht er zu Bruch, ruht es nicht, bis es einen neuen findet."
 	},
 
 	thirdParty: {

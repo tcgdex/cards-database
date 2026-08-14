@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Rosélia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Squeeze",
 				fr: "Compression",
+				de: "Quetschen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -92,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+		de: "Es kann mit beiden Händen verheerend angreifen. Seine Hände enthalten unterschiedliche Gifte."
 	},
 
 	thirdParty: {

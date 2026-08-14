@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 Pokémon Fire, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo un Pokémon Fire, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 Pokémon Fire no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Fire-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+		de: "Es entzündet ein Licht und gibt vor, dem Gegner den Weg zu weisen, doch eigentlich saugt es ihm seine Lebensenergie ab."
 	},
 
 	thirdParty: {

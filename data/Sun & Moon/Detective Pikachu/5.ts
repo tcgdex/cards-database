@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+		de: "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf."
 	},
 
 	thirdParty: {

@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque fait 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
-		fr: "Il se déguise en arbre pour éviter les attaques. Il déteste l'eau, aussi il disparaît dès qu'il se met à pleuvoir."
+		fr: "Il se déguise en arbre pour éviter les attaques. Il déteste l'eau, aussi il disparaît dès qu'il se met à pleuvoir.",
+		de: "Es tarnt sich selbst als Baum, um nicht angegriffen zu werden. Es mag kein Wasser und wird daher verschwinden, wenn es anfängt zu regnen."
 	},
 
 

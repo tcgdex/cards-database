@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+		de: "Es balanciert geschickt mit seinen buschigen Ohren und dem Schweif, während es im Wasser schwimmt."
 	},
 
 	variants: [

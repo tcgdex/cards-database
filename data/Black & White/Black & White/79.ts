@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Patrat",
 		fr: "Ratentif",
+		de: "Nagelotz"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Fang",
 				fr: "Croc de Mort",
+				de: "Hyperzahn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
+		de: "Schüchtert Gegner ein, indem es die Maserung seines Fells aufblitzen lässt. Auch im Dunkeln entgeht ihm nichts."
 	},
 
 	thirdParty: {

@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Armaldo ex",
-		fr: "Armaldo ex"
+		fr: "Armaldo ex",
+		de: "Armaldo ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Anorith",
-		fr: "Anorith"
+		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	stage: "Stage2",
@@ -35,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Twin-blade",
-				fr: "Double épée"
+				fr: "Double épée",
+				de: "Doppelklinge"
 			},
 			effect: {
 				en: "Does 30 damage to each Defending Pokémon.",
-				fr: "Inflige 30 dégâts à chacun des Pokémon Défenseurs."
+				fr: "Inflige 30 dégâts à chacun des Pokémon Défenseurs.",
+				de: "Dieser Angriff fügt allen Verteidigenden Pokémon 30 Schadenspunkte zu."
 			},
 
 		},
@@ -53,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic Claws",
-				fr: "Griffes supersoniques"
+				fr: "Griffes supersoniques",
+				de: "Überschallklauen"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 80,
 

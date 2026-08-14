@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das vertdigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si des cartes Énergies sont attachées au Pokémon, choisissez l'une d'elle et défaussez-la.",
-				de: "Falls das vertdigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
+				de: "Falls das verteidigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
 			},
 			damage: 20,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
-		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
+		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa.",
+		de: "Man sieht es oft in Küstengewässern schwimmen. Es wird auch oft mit dem japanischen Monster Kappa verwechselt."
 	},
 
 

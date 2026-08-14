@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
+		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body.",
+		de: "Es bevorzugt lebenswidrige Gebiete wie Wüsten. Der Wasserspeicher in seinem Körper reicht für bis zu 30 Tage."
 	},
 
 	variants: [

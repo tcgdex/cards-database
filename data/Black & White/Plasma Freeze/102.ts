@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon una carta del Equipo Plasma de tu pila de descartes en tu mano.",
 		it: "Prendi una carta Team Plasma dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
 		pt: "Coloque um card da Equipe Plasma da sua pilha de descarte em sua mão.",
-		de: "Nimm 1 Team-Plasma-Karte von deinem Ablagestapel auf deine Hand."
+		de: "Nimm 1 Team Plasma-Karte von deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

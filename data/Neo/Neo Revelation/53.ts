@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
-				de: "Das verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
-		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
+		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait.",
+		de: "Es schläft nie. Es muss sich dauernd bewegen, da sonst das Magma in seinem Körper kalt werden und verhärten würde."
 	},
 
 

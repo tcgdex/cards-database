@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Étourvol",
+		de: "Staravia"
 	},
 
 	stage: "Stage2",
@@ -43,6 +44,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 60,
@@ -58,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Strong Breeze",
 				fr: "Forte Brise",
+				de: "Steife Brise"
 			},
 			effect: {
 				en: "Your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck.",
 				fr: "Votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck.",
+				de: "Dein Gegner mischt das Verteidigende Pokémon und alle daran angelegten Karten zurück in sein Deck."
 			},
 
 		},
@@ -85,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+		de: "Selbst mit einer Verletzung greift es immer weiter an. Ziert sich etwas aufgrund der Form seines Kamms."
 	},
 
 	thirdParty: {

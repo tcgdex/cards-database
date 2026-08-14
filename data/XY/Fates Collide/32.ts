@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something only Gothita can see.",
+		de: "Beobachtet andere Pokémon und Trainer mit durchdringendem Blick, als könne es etwas erkennen, das keiner sonst sieht."
 	},
 
 	thirdParty: {

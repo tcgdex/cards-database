@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+		de: "Es wehrt Angreifer ab, indem es Psycho-Kräfte auf sie ansetzt. Es kommuniziert telepathisch mit Artgenossen."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur obscur"
+		fr: "Machopeur obscur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.",
 				fr: "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
-				de: "Dein Gegnermischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf derBank hat."
+				de: "Dein Gegner mischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
 			},
 
 		},
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It is almost impossible to defend against a Machamp's four powerful arms.",
-		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
+		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur.",
+		de: "Es ist fast unmöglich, sich gegen Machomeis vier kraftvolle Arme zu wehren."
 	},
 
 

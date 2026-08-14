@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
-		fr: "Des champignons appelés \"tochukaso\" poussent sur son dos. Ils évoluent avec le Paras hôte."
+		fr: "Des champignons appelés \"tochukaso\" poussent sur son dos. Ils évoluent avec le Paras hôte.",
+		de: "Auf seinem Rücken wachsen Pilze, die Tochukaso. Sie nehmen an Größe zu, wenn PARAS wächst."
 	},
 
 	thirdParty: {

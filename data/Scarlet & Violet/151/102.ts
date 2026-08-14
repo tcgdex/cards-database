@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
+		de: "Es muss immer aus sechs Mitgliedern bestehen, sonst herrscht Unruhe. Fehlt auch nur eines, steigt bei den anderen die Bereitschaft zur Flucht."
 	},
 
 	variants: [

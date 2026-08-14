@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+		de: "Es umwickelt Beute, indem es seine Arme, die aus Ranken bestehen, verlängert."
 	},
 
 	thirdParty: {

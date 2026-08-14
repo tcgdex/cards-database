@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		de: "Wird sein Umhang im Kampf zerstört, macht es sich schnell aus dem, was es findet, einen neuen."
 	},
 
 	thirdParty: {

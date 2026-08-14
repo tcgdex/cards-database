@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
+		de: "Sein Körper ist mit einem speziellen Öl überzogen, an dem gegnerische Hiebe und ähnliche Angriffe einfach abgleiten."
 	},
 
 	thirdParty: {

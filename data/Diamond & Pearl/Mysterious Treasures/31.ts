@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorina",
-		fr: "Nidorina"
+		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "The attack cost of your Nidoran ♀, Nidorina, Nidoran ♂, Nidorino, and Nidoking's attack is Colorless less.",
 				fr: "Le Coût d'attaque de l'attaque de votre Nidoran♀, Nidorina, Nidoran♂, Nidorino, Nidoking est Colorless de moins.",
-				de: "Die Angriffe deiner Nidoran ♀, Nidorina, Nidoran ♂, Nidorino und Nidoking kosten  weniger."
+				de: "Die Angriffe deiner Nidoran ♀, Nidorina, Nidoran ♂, Nidorino und Nidoking kosten {C} weniger."
 			},
 		},
 	],
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
-		fr: "Son corps est recouvert d'écailles solides. Il donnera sa vie pour secourir les petits de son terrier."
+		fr: "Son corps est recouvert d'écailles solides. Il donnera sa vie pour secourir les petits de son terrier.",
+		de: "Sein ganzer Körper ist mit harten Schuppen bedeckt. Es beschützt sein Junges mit seinem Leben."
 	},
 
 	thirdParty: {

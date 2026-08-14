@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Feebas",
 		fr: "Barpau",
+		de: "Barschwa"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez 2 pièces. Si ce sont 2 piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen. Lege pro „Kopf“ eine an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -79,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.",
+		de: "Wenn sich jemand streitet, steigt es aus den Tiefen des Sees empor, um die Streitenden zu beruhigen."
 	},
 
 	thirdParty: {

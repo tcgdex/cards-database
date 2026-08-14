@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "X Ball",
 				fr: "X Ball",
+				de: "X-Ball"
 			},
 			effect: {
 				en: "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.",
 				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon et au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an dieses und an das Verteidigende Pokémon angelegten Energien zu."
 			},
 			damage: 20,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Psydrive",
 				fr: "Psykoforce",
+				de: "Psycho-Antrieb"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 120,
 

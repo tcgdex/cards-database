@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
+		de: "Golbit"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Devolution Punch",
 				fr: "Beigne Dés-évoluante",
+				de: "Rückentwicklungshieb"
 			},
 			effect: {
 				en: "Devolve the Defending Pokémon and put the highest Stage Evolution card on it into your opponent's hand.",
 				fr: "Faites dés-évoluer le Pokémon Défenseur et mettez sa carte Évolution de plus haut Niveau dans la main de votre adversaire.",
+				de: "Rückentwickle das Verteidigende Pokémon. Dein Gegner nimmt die höchste daraufliegende Evolutionskarte auf seine Hand."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Ghost Hammer",
 				fr: "Spectro Maillet",
+				de: "Geisterhammer"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				de: "Während des nächsten Zuges deines Gegners hat dieses Pokémon keine Schwäche."
 			},
 			damage: 90,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies around the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+		de: "Es jagt mit Schallgeschwindigkeit durch die Lüfte. Nimmt man das Siegel auf der Brust ab, gerät es außer Kontrolle."
 	},
 
 	thirdParty: {

@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+		de: "Es verschießt negative und positive Elektronen zwischen seinen Antennen, um seine Feinde zu erlegen."
 	},
 
 	variants: [

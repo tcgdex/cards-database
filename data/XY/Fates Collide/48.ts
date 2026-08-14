@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+		de: "Es nutzt seine Flügel, um sich am Himmel in Position zu halten. Gegen seine Angriffe aus der Luft kann man sich nur schwer zur Wehr setzen."
 	},
 
 	thirdParty: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mankey",
 		fr: "Férosinge",
+		it: "Mankey",
 		de: "Menki"
 	},
 
@@ -31,12 +32,14 @@ const card: Card = {
 			name: {
 				en: "Peek",
 				fr: "Coup d'œil",
-				de: "Blick"
+				it: "Occhiata",
+				de: "Verstohlener Blick"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be used if Mankey is Asleep, Confused, or Paralyzed.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder au choix: la carte du dessus du deck d'un des joueurs, une carte au hasard de la main de votre adversaire, ou une des Récompenses d'un des joueurs. Ce pouvoir ne peut être utilisé si Férosinge est Endormi, Confus ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir eine der folgenden Karten anschauen: die oberste Karte vom Deck eines Spielers, eine Zufällige Karte von der hand deines Gegners oder einen der Preise eines Spielers. Diese Fähigkeit kann nicht eingesetzt werden, falls Menki schlafend, verwirrt oder gelähmt ist."
+				it: "Solo una volta durante il tuo turno (prima di attaccare) puoi guardare una delle seguenti cose: la carta in cima al mazzo di uno dei due giocatori, una carta a caso in mano al tuo avversario o una delle carte Premio di uno dei giocatori. Questo potere non può essere usato se Mankey è Addormentato, Confuso o Paralizzato.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir eine der folgenden Karten anschauen: die oberste Karte vom Deck eines Spielers, eine zufällige Karte von der Hand deines Gegners oder einen der Preise eines Spielers. Diese Fähigkeit kann nicht eingesetzt werden, falls Menki schlafend, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -49,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				it: "Graffio",
 				de: "Kratzer"
 			},
 
@@ -66,7 +70,9 @@ const card: Card = {
 
 	description: {
 		en: "Extremely quick to anger. It could be docile one moment, then thrashing away the next.",
-		fr: "Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre."
+		fr: "Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre.",
+		it: "Estremamente irascibile, un momento può essere tranquillo e un attimo dopo scaraventare via ogni cosa.",
+		de: "Sehr jähzornig. Kann einen Augenblick unterwürfig, dann im nächsten Augenblick aufständig sein."
 	},
 
 

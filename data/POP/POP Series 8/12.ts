@@ -4,6 +4,7 @@ import Set from '../POP Series 8'
 const card: Card = {
 	name: {
 		en: "Chimchar",
+		de: "Panflam"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,6 +29,7 @@ const card: Card = {
 
 			name: {
 				en: "Scratch",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
+				de: "Wirf 1 Münze. Bei „Zahl“ lege eine {R}-Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -57,7 +61,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
+		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+		de: "Es klettert behände steile Felsen hinauf, um auf Bergen zu leben. Sein Feuer ist aus, wenn es schläft."
 	},
 
 	retreat: 1,

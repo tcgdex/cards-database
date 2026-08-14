@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Legendary Body",
 				fr: "Corps légendaire",
-				de: "Legendary Body"
+				de: "Legendärer Körper"
 			},
 			effect: {
 				en: "As long as Suicune is your Active Pokémon, Suicune and Energy cards attached to it aren't affected by effects from Trainer cards other than Trainer cards other than Stadium cards. As long as this power is active, discard all Trainer cards attached to Suicune. (This power works even if Suicune is Asleep, Confused, or Paralyzed.)",
 				fr: "Tant que Suicune est votre Pokémon Actif, Suicune et les cartes Énergie qui y sont attachées ne sont pas affectés par les cartes Dresseur autres que les cartes Stade. Tant que ce Pouvoir est actif, défaussez toutes les cartes Dresseurs attachées à Suicune. (Ce pouvoir fonctionne même si Suicune est Endormi, Confus ou Paralysé.)",
-				de: "As long as Suicune is your Active Pokémon, Suicune and Energy cards attached to it aren't affected by effects from Trainer cards other than Stadium cards. As long as this Power is active, discard any Trainer cards attached to Suicune. (This power works even if Suicune is Asleep, Confused, or Paralyzed.)"
+				de: "Solange Suicune dein aktives Pokémon ist, sind Stadion-Karten die einzigen Trainer-Karten, die Auswirkungen auf Suicune und an es angelegte Energiekarten haben. Solange diese Fähigkeit aktiv ist, lege alle Trainerkarten, die an Suicune angelegt sind, auf den Ablagestapel. (Diese Fähigkeit wirkt selbst dann, wenn Suicune schläft, verwirrt oder gelähmt ist.)"
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Crystal Wave",
 				fr: "Onde cristal",
-				de: "Crystal Wave"
+				de: "Kristallwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, this attack does 30 damage and, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et, si votre adversaire a des Pokémon sur son Banc, il ou elle choisit l'un d'entre eux et l'échange avec le Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon.)",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, this attack does 30 damage and, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu und falls dein Gegner mindestens ein Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
 			},
 			damage: "30+",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.",
-		fr: "Un Pokémon qui court de par le monde. On raconte que les vents du Nord se mettent à souffler quand il apparaît."
+		fr: "Un Pokémon qui court de par le monde. On raconte que les vents du Nord se mettent à souffler quand il apparaît.",
+		de: "Dieses Pokémon rast durch das Land. Es wird behauptet, dass die Nordwinde blasen, wann immer es erscheint."
 	},
 
 

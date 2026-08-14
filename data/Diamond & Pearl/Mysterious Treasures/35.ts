@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If Bonsly is anywhere under Sudowoodo, flip a coin. If heads, prevent all effects of an attack, including damage, done to Sudowoodo during your opponent's next turn.",
 				fr: "Si Manzaï se trouve en dessous de Simularbre, lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Simularbre lors du prochain tour de votre adversaire.",
-				de: "Wenn Mobai sich an beliebiger Stelle unter Mogelbaum befindet, wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Mogelbaum zugefügt werden."
+				de: "Wenn Mobai sich an beliebiger Stelle unter Mogelbaum befindet, wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Mogelbaum zugefügt werden."
 			},
 			damage: 20,
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "Despite appearing to be a tree, its body is closer to rocks and stones. It is very weak to water.",
-		fr: "On pourrait le prendre pour un arbre, mais il est plus proche d'une pierre. L'eau est son point faible."
+		fr: "On pourrait le prendre pour un arbre, mais il est plus proche d'une pierre. L'eau est son point faible.",
+		de: "Auch wenn es wie ein Baum aussieht, ist es eher wie ein Stein o. Fels. Es ist schwach gegenüber Wasser."
 	},
 
 	thirdParty: {

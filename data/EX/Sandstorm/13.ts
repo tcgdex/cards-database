@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Solar Eclipse",
 				fr: "Éclipse de soleil",
-				de: "Solar Eclipse"
+				de: "Sonnenfinsternis"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Lunatone is in play, you may use this power. Until the end of your turn, Solrock's type is Fire. This power can't be used if Solrock is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Seleroc est en jeu, vous pouvez utiliser ce pouvoir. Jusqu'à la fin du tour, Solaroc est . Ce pouvoir ne peut pas être utilisé si Solaroc est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), if Lunatone is in play, you may use this power. Until the end of your turn, Solrock's type is . This power can't be used if Solrock is affected by a Special Condition."
+				de: "Du kannst diese Poké-Power einmal während deines Zuges (vor deinem Angriff) anwenden, falls sich Lunastein im Spiel befindet. Bis zum Ende des Zuges erhält Sonnfel den Typ {R}. Diese Poké-Power kann nicht verwendet werden, falls Sonnfel von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Cosmic Draw",
 				fr: "Pioche cosmik",
-				de: "Cosmic Draw"
+				de: "Kosmische Anziehungskraft"
 			},
 			effect: {
 				en: "If your opponent has any Evolved Pokémon in play, draw 3 cards.",
 				fr: "Si votre adversaire a un Pokémon Évolué en jeu, piochez trois cartes.",
-				de: "If your opponent has any Evolved Pokémon in play, draw 3 cards."
+				de: "Wenn dein Gegner mindestens ein entwickeltes Pokémon im Spiel hat, ziehe 3 Karten."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 			name: {
 				en: "Solar Blast",
 				fr: "Explosion solaire",
-				de: "Solar Blast"
+				de: "Sonnensturm"
 			},
 
 			damage: 40,

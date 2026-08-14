@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Baby Evolution",
 				fr: "Évolution bébé",
-				de: "Baby-Evolution"
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Magmar from your hand onto Magby (this counts as evolving Magby) and remove all damage counters from Magby.",
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body temperature is around 1,100 degrees F. It is healthy if it is breathing yellow flames.",
-		fr: "Sa température corporelle avoisine les 600°C. Son souffle est jaune quand il est en bonne santé."
+		fr: "Sa température corporelle avoisine les 600°C. Son souffle est jaune quand il est en bonne santé.",
+		de: "Seine Körpertemperatur liegt bei etwa 600 Grad. Ist es gesund, atmet es gelbe Flammen aus."
 	},
 
 	thirdParty: {

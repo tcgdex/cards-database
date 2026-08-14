@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Each basic Grass Energy card attached to your Grass Pokémon provides Grass Grass Energy instead. You can't use more than 1 Wild Growth Poké-Body each turn.",
 				fr: "Chaque carte Énergie Grass attachée à vos Pokémon Grass fournit maintenant de l'Énergie Grass Grass. Vous ne pouvez pas utiliser plus d'1 Poké-Body Luxuriance par tour.",
-				de: "Jede -Basis-Energiekarte, die an deine -Pokémon angelegt ist, liefert -Energie. Du kannst nicht mehr als 1 Wildes Wachstum Poké-Body pro Zug einsetzen."
+				de: "Jede {G}-Basis-Energiekarte, die an deine {G}-Pokémon angelegt ist, liefert {G}{G}-Energie. Du kannst nicht mehr als 1 Wildes Wachstum Poké-Body pro Zug einsetzen."
 			},
 		},
 	],
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+		de: "Die Blätter an seinen Armen können dicke Bäume fällen. Im Dschungelkampf gibt es kein stärkeres PKMN."
 	},
 
 	thirdParty: {

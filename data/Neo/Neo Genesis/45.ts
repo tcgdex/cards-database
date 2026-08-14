@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
-				de: "Surf"
+				de: "Surfer"
 			},
 
 			damage: 30,
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
-				de: "Earthquake"
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Fügt jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
-		fr: "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage."
+		fr: "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage.",
+		de: "Aufgrund seiner entspannten und unbesorgten Einstellung stößt es beim Schwimmen mit dem Kopf oft an Felsen und Bootskörper an."
 	},
 
 

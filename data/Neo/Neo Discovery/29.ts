@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -39,13 +40,13 @@ const card: Card = {
 			name: {
 				en: "False Swipe",
 				fr: "Faux-Chage",
-				de: "False Swipe"
+				de: "Trugschlag"
 			},
 
 			effect: {
 				en: "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10).",
 				fr: "Inflige des dégâts équivalents à la moitié des PV restants au Pokémon Défenseur (arrondis à la dizaine la plus proche.)",
-				de: "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+				de: "Fügt Schadenspunkte in Höhe der Hälfte der verbleibenden KP des verteidigenden Pokémon (auf die nächsten 10 abgerundet) zu."
 			},
 
 			damage: "?"
@@ -60,13 +61,13 @@ const card: Card = {
 			name: {
 				en: "Double Claw",
 				fr: "Combo-griffe",
-				de: "Double Claw"
+				de: "Doppelkralle"
 			},
 
 			effect: {
 				en: "Flip 2 coins. This attack does 20 times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 
 			damage: "20+"
@@ -91,7 +92,8 @@ const card: Card = {
 
 	description: {
 		en: "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
-		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
+		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes.",
+		de: "Seine Kneifer haben Augen-Muster, um seine Feinde zu erschrecken. So wirkt es, als ob Scherox drei Köpfe hätte."
 	},
 
 

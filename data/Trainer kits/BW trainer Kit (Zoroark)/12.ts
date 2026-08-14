@@ -31,7 +31,8 @@ const card: Card = {
 				],
 				name: {
 					en: "Tackle",
-					fr: "Charge"
+					fr: "Charge",
+					de: "Tackle"
 				},
 				damage: 10
 			}, {
@@ -41,7 +42,8 @@ const card: Card = {
 				],
 				name: {
 					en: "Bite",
-					fr: "Morsure"
+					fr: "Morsure",
+					de: "Biss"
 				},
 				damage: 20
 			}
@@ -55,7 +57,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others."
+		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+		de: "Hortet in seinen Backentaschen Futter, um tagelang Wache stehen zu können, und gibt Kameraden über seine Rute Signale."
 	},
 
 	retreat: 1,

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Discard all Fire Energy attached to Infernape. This attack does 40 damage times the amount of Fire Energy you discarded.",
 				fr: "Défaussez toutes les Énergies Fire attachées à Simiabraz. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergies Fire défaussées.",
-				de: "Lege alle an Panferno angelegten -Energien auf deinen Ablagestapel. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten -Energien zu."
+				de: "Lege alle an Panferno angelegten {R}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten {R}-Energien zu."
 			},
 			damage: "40x",
 
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+		de: "Seine Krone aus Feuer ist Zeichen seines feurigen Wesens. Niemand ist schneller im Kampf als dieses PKMN."
 	},
 
 	thirdParty: {

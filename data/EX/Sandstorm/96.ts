@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	suffix: "ex",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Feedback",
 				fr: "Réaction",
-				de: "Feedback"
+				de: "Rückkopplung"
 			},
 			effect: {
 				en: "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
 				fr: "Comptez le nombre de cartes dans la main de votre adversaire. Placez sur le Pokémon Défenseur autant de marqueurs de dégât qu'il y a de cartes.",
-				de: "Count the number of cards in your opponents hand. Put that many damage counters on the Defending Pokémon"
+				de: "Zähle die Karten auf der Hand deines Gegners. Lege die entsprechende Anzahl Schadensmarken auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Psystorm",
 				fr: "Tempête Psy",
-				de: "Psystorm"
+				de: "Psisturm"
 			},
 			effect: {
 				en: "Does 10 damage times the total amount of Energy attached to all Pokémon in play.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées à tous les Pokémon en jeu.",
-				de: "Does 10 damage times the total number of Energy attached to all Pokémon in play."
+				de: "Fügt für jede Energie, die an allen Pokémon im Spiel angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 

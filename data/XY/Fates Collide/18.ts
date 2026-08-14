@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Once wrapped around its prey, it never lets go. It eats the prey by tearing at it with sharp fangs.",
+		de: "Hat es die Beute erst eingewickelt, lässt es nicht mehr los. Es verspeist sie, indem es sie zerreißt."
 	},
 
 	thirdParty: {

@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
+		de: "Im Kampf verwendet es eine Lauchstange als Waffe. Es gibt verschiedene Meinungen dazu, wie diese korrekt zu schwingen sei."
 	},
 
 	variants: [

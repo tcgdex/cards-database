@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Morpeko-V",
-		en: "Morpeko V"
+		en: "Morpeko V",
+		de: "Morpeko V"
 	},
 
 	attacks: [{

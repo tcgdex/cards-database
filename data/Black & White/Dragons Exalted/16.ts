@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Stun Needle",
 				fr: "Para-Dard",
+				de: "Betäubungsnadel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Reinforced Needle",
 				fr: "Épine Renforcée",
+				de: "Starknadel"
 			},
 			effect: {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -82,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+		de: "Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten."
 	},
 
 	thirdParty: {

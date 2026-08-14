@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Smeargle",
-		fr: "Queulorior"
+		fr: "Queulorior",
+		de: "Farbeagle"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Paint",
-				fr: "Peinture"
+				fr: "Peinture",
+				de: "Anmalen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose a type (other than colorless) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you choose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, choisissez un type (autre qu'Incolore) et placez un marqueur Colorant sur le Pokémon Défenseur. Ce Pokémon est maintenant du type que vous avez choisi. S'il a déjà un marqueur Colorant, retirez l'ancien. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est face, choisissez un type (autre qu'Incolore) et placez un marqueur Colorant sur le Pokémon Défenseur. Ce Pokémon est maintenant du type que vous avez choisi. S'il a déjà un marqueur Colorant, retirez l'ancien. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Wähle bei „Kopf“ einen Typ (außer Farblos) und lege eine Farbe-marke auf das verteidigende Pokémon. Dieses Pokémon hat nun den Typ, den du gewählt hast. Wenn es schon eine Farbe-marke hat, entferne die alte. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -59,7 +62,8 @@ const card: Card = {
 
 	description: {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
-		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
+		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos.",
+		de: "Wenn es ausgewachsen ist, lässt es sich oft mit Fussabdrücken seiner Kumpel verzieren."
 	},
 
 	variants: [

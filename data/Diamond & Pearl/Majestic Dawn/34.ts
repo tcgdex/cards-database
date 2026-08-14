@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has evolved to be suitable for aquatic life. It can invisibly melt away into water.",
+		de: "Es hat sich so entwickelt, dass es im Wasser leben kann. Im Wasser selbst wird es unsichtbar."
 	},
 
 	thirdParty: {

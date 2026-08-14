@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornebre"
+		fr: "Cornebre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
-				de: "Der Gegner tauscht das Verteidigende Pokémon mit einem Pokémon auf seiner Bank aus."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		de: "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen."
 	},
 
 	variants: [

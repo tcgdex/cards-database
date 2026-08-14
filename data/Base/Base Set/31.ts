@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 10 Schadenspunkte zu.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu.",
 				it: "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
@@ -82,7 +82,8 @@ const card: Card = {
 	description: {
 		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
 		fr: "Il lui suffit de méditer pour lancer une puissante attaque psychique.",
-		it: "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124"
+		it: "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124",
+		de: "Lediglich durch Meditation startet das Pokémon einen gewaltigen Psycho-Energieangriff."
 	},
 
 	variants: [

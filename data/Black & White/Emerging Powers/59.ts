@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Five Fierce Chops",
 				fr: "Volée de Coups",
+				de: "Fünferhacker"
 			},
 			effect: {
 				en: "Flip 5 coins. This attack does 20 damage times the number of heads. This Pokémon can't attack during your next turn.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+		de: "Zieht es den Gürtel fest, werden seine Hiebe stärker. Kann es gar nicht leiden, wenn man es beim Training stört."
 	},
 
 	thirdParty: {

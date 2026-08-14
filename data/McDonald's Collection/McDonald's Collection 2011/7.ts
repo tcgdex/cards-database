@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [517],
 
 	description: {
-		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+		de: "Es verschlingt die Träume der Menschen. Frisst es einen fröhlichen Traum, stößt es danach einen rosafarbenen Dunst aus."
 	},
 
 	stage: "Basic",
@@ -17,18 +18,21 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Yawn",
-			fr: "Bâillement"
+			fr: "Bâillement",
+			de: "Gähner"
 		},
 
 		effect: {
 			en: "The Defending Pokémon is now Asleep.",
-			fr: "Le Pokémon Défenseur est maintenant Endormi."
+			fr: "Le Pokémon Défenseur est maintenant Endormi.",
+			de: "Das Verteidigende Pokémon schläft jetzt."
 		}
 	}],
 
 	name: {
 		en: "Munna",
-		fr: "Munna"
+		fr: "Munna",
+		de: "Somniam"
 	},
 
 	rarity: "None",

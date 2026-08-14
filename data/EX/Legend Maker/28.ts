@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Grind",
 				fr: "Écrase",
-				de: "Zermalmen"
+				de: "Zermahlen"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Wobbuffet.",

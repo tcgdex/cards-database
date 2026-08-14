@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [495],
 
 	description: {
-		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter."
+		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+		de: "Eine kühle Denkernatur. Bekommt es genügend Sonnenlicht ab, erhöht sich die Geschwindigkeit seiner Bewegungen."
 	},
 
 	stage: "Basic",
@@ -17,20 +18,23 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Slam",
-			fr: "Souplesse"
+			fr: "Souplesse",
+			de: "Slam"
 		},
 
 		damage: "20×",
 
 		effect: {
 			en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 		}
 	}],
 
 	name: {
 		en: "Snivy",
-		fr: "Vipélierre"
+		fr: "Vipélierre",
+		de: "Serpifeu"
 	},
 
 	rarity: "None",

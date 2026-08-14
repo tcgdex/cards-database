@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano, pone todas las cartas de Objeto que encuentre entre ellas en su baraja y las baraja todas. Después, tú robas un número de cartas igual al número de cartas de Objeto que tu rival haya puesto en su baraja.",
 		it: "Il tuo avversario mostra la sua mano e rimischia tutte le carte Strumento che ha in mano nel suo mazzo. Poi pesca un numero di carte pari al numero di carte Strumento che il tuo avversario ha rimischiato nel suo mazzo.",
 		pt: "Seu oponente revela a mão e embaralha todos os cards de Item encontrados em sua mão no próprio baralho. Em seguida, compre um número de cards igual ao número de cards de Item que seu oponente embaralhou em seu deck.",
-		de: "Dein Gegner deckt seine Handkarten auf und mischt alle dort gefundenen Itemkarten in sein Deck. Ziehe anschließend genauso viele Karten, wie dein Gegner Itemkarten in sein Deck gemischt hat."
+		de: "Dein Gegner deckt seine Handkarten auf und mischt alle dort gefundenen Itemkarten zurück in sein Deck. Ziehe anschließend genauso viele Karten, wie dein Gegner Itemkarten zurück in sein Deck gemischt hat. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

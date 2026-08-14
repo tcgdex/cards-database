@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Omanyte",
-		fr: "Amonita"
+		fr: "Amonita",
+		de: "Amonitas"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as you have Kabuto, Kabutops, or Kabutops ex in play, Omastar's attacks do 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Tant que votre Kabuto, Kabutops ou Kabutops ex est en jeu, les attaques d'Amonistar infligent au Pokémon Défenseur 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "Solange du Kabuto, Kabutops oder Kabutos ex im Spiel hast, fügen die Angriffe von Amoroso 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
+				de: "Solange du Kabuto, Kabutops oder Kabutops-ex im Spiel hast, fügen die Angriffe von Amoroso 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],

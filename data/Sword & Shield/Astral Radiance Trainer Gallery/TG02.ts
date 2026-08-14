@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
+		de: "Nach dem Verzehr eines sauren Apfels hat es sich entwickelt. In den Backentaschen speichert es eine saure Substanz, die zu Verbrennungen führt."
 	},
 
 	variants: [

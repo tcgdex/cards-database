@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, son attaque ne fait rien.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -62,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Its spines provide protection. Its fins and bones are prized as traditional-medicine ingredients.",
+		de: "Seine Stacheln schützen es. Seine Flossen und Knochen werden bei der Herstellung von Medizin verwendet."
 	},
 
 	thirdParty: {

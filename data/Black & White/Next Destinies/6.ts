@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				de: "Samenbomben"
 			},
 
 			damage: 30,
@@ -62,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+		de: "Es lebt tief im Wald. Beißt man in die Kräuter auf seinem Kopf, fühlt man sich auf wundersame Weise erfrischt."
 	},
 
 	thirdParty: {

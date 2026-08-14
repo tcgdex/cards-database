@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Tyranitar ex",
-		fr: "Tyranocif ex"
+		fr: "Tyranocif ex",
+		de: "Despotar ex"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -34,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Critical Crush",
-				fr: "Écrasement sévère"
+				fr: "Écrasement sévère",
+				de: "Entscheidender Schlag"
 			},
 			effect: {
 				en: "Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.",
-				fr: "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
+				fr: "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet.",
+				de: "Lege 2 an Despotar angelegte Energiekarten auf deinen Ablagestapel oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 80,
 

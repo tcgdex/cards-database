@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Cloak",
-				fr: "Manteau de Feu"
+				fr: "Manteau de Feu",
+				de: "Flammenumhang"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse à ce Pokémon."
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse à ce Pokémon.",
+				de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 {R}-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 			damage: 10,
 
@@ -52,7 +54,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Blast",
-				fr: "Explosion de Chaleur"
+				fr: "Explosion de Chaleur",
+				de: "Hitzestoß"
 			},
 
 			damage: 60,
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		de: "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pineco",
-		fr: "Pomdepik"
+		fr: "Pomdepik",
+		de: "Tannza"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Armor Up",
 				fr: "Blindage",
-				de: "Armor Up"
+				de: "Aufrüsten"
 			},
 			effect: {
 				en: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead.",
 				fr: "Jusqu'à la fin de votre prochain tour, si Foretress obscur doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, Foretress obscur n'est pas mis K.O. et ses points de vie deviennent 10.",
-				de: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead."
+				de: "Falls Dunkles Forstellka bis zum Ende deines nächsten Zuges durch Schaden eines Angriffs kampfunfähig würde, wirf eine Münze. Bei „Kopf“ ist Dunkles Forstellka nicht kampfunfähig, und seine verbleibenden KP sind stattdessen 10."
 			},
 
 		},
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Dark Forretress does 60 damage to itself.",
 				fr: "Foretress obscur s'inflige 60 dégâts.",
-				de: "Dark Forretress does 60 damage to itself."
+				de: "Dunkles Forstellka fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close.",
-		fr: "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés."
+		fr: "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés.",
+		de: "Es sitzt bewegungslos in Bäumen und treibt all die, die ihm zu nahe kommen, mit fliegenden Scherben seines Panzers weg."
 	},
 
 

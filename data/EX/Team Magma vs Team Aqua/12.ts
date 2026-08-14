@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Magma Burn",
 				fr: "Brûlure de Magma",
-				de: "Magma Burn"
+				de: "Magmabrand"
 			},
 			effect: {
 				en: "Discard the top card from your opponent's deck, and flip a coin. If tails, discard a Fire Energy attached to Team Magma's Torkoal.",
 				fr: "Défaussez la première carte du deck de votre adversaire et lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Chartor de Team Magma.",
-				de: "Discard the top card from your opponent's deck, and flip a coin. If tails, discard a  Energy attached to Team Magma's Torkoal."
+				de: "Lege die oberste Karte des Decks deines Gegners auf dessen Ablagestapel und wirf 1 Münze. Lege bei „Zahl“ eine an Team Magmas Qurtel angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Hot Air",
 				fr: "Air chaud",
-				de: "Hot Air"
+				de: "Heiße Luft"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Team Magma's Torkoal and your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Défaussez une Énergie  attachée à Chartor de Team Magma. Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
-				de: "Discard a  Energy attached to Team Magma's Torkoal, and your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				de: "Lege eine an Team Magmas Qurtel angelegte {R}-Energie auf deinen Ablagestapel. Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 

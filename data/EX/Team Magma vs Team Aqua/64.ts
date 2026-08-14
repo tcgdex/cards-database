@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
-				de: "Collect"
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
-				de: "Draw a card."
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
-				de: "Combustion"
+				de: "Glühen"
 			},
 
 			damage: 20,

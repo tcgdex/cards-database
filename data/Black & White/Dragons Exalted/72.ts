@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+		de: "Wird es entdeckt, lockt es seinen Verfolger auf eine Jagd in die Berge, wo es ihn dann abschüttelt."
 	},
 
 	thirdParty: {

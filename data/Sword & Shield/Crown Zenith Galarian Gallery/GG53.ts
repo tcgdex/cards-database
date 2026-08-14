@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Mientras este Pokémon esté en juego, es de tipo Psychic y Darkness.",
 			it: "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Darkness.",
 			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Psychic e Darkness.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Darkness."
+			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {P} und {D}."
 		}
 	}],
 

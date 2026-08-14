@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Descarta las 5 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño más por cada Pokémon que hayas descartado de esta manera. Después, pon cualquier cantidad de Pokémon Fire que hayas descartado de esta manera en tu Banca.",
 				it: "Scarta le prime cinque carte del tuo mazzo. Questo attacco infligge 60 danni in più per ogni Pokémon scartato in questo modo. Poi metti un numero qualsiasi di Pokémon Fire che hai scartato in questo modo nella tua panchina.",
 				pt: "Descarte as 5 primeiras cartas do seu baralho. Este ataque causa 60 pontos de dano a mais para cada Pokémon descartado desta forma. Em seguida, coloque qualquer número de Pokémon Fire descartado desta forma no seu Banco.",
-				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Pokémon zu. Lege anschließend beliebig viele der auf diese Weise auf deinen Ablagestapel gelegten Fire-Pokémon auf deine Bank."
+				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Pokémon zu. Lege anschließend beliebig viele der auf diese Weise auf deinen Ablagestapel gelegten {R}-Pokémon auf deine Bank."
 			},
 			damage: "10+",
 
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		de: "Es saugt die Seele eines jeden auf, der in seinen Feuerkranz gerät, bis nur noch eine leere Hülle von ihm übrig ist."
 	},
 
 	thirdParty: {

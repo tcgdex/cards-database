@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
+		de: "Es kann sich immer nur eine Sache merken. Sobald es losgestürmt ist, vergisst es augenblicklich den Auslöser dafür."
 	},
 
 	variants: [

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Petilil",
 		fr: "Chlorobule",
+		de: "Lilminip"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Bemusing Aroma",
 				fr: "Parfum Troublant",
+				de: "Betörendes Aroma"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert und vergiftet. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 60,
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+		de: "Bei Promis ist es sehr beliebt. Auch gestandene Trainer tun sich schwer damit, seine Blüte schön aufblühen zu lassen."
 	},
 
 	thirdParty: {

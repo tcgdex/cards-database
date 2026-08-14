@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 1 Energy attached to Corsola or this attack does nothing. Remove all damage counters from Corsola.",
 				fr: "Défaussez 1 carte Énergie  attachée à Corayon pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Corayon.",
-				de: "Lege 1 an Corasonn angelegte -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Entferne alle Schadensmarken von Corasonn."
+				de: "Lege 1 an Corasonn angelegte {W}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Entferne alle Schadensmarken von Corasonn."
 			},
 
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 
 			damage: "30x"
@@ -75,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
-		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté."
+		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté.",
+		de: "Es wächst und häutet sich dauernd. Die Spitze auf seinem Kopf wird wegen ihrer Schönheit als Schatz betrachtet."
 	},
 
 

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussi",
+				de: "Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
 	},
 
 	thirdParty: {

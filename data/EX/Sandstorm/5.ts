@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi!",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
-				de: "Flamethrower"
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Flareon.",
 				fr: "Défaussez une carte Énergie  attachée à Pyroli.",
-				de: "Discard a  Energy card attached to Flareon."
+				de: "Entferne eine {R}-Energiekarte von Flamara und lege sie auf den Ablagestapel."
 			},
 			damage: 70,
 

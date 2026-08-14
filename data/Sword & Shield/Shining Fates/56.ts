@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need."
+		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
+		de: "Mit den Hörnern auf seinem Kopf erfasst es die Gefühle seines Gegenübers. Männchen kümmern sich wie Bedienstete um ihren Trainer."
 	},
 
 	variants: [

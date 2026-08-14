@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
+		de: "Das schnellste Exemplar wird zum Anführer bestimmt und gibt als solcher den Zielort und die Geschwindigkeit der Herde vor."
 	},
 
 	variants: [

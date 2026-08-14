@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
-		fr: "Carvanha"
+		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has Fighting Resistance, this attack does 50 damage plus 30 more damage.",
 				fr: "Si le Pokémon Défenseur possède une Résistance , cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon -Resistenz hat, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wenn das Verteidigende Pokémon {F}-Resistenz hat, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

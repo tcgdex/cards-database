@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+		de: "Wird es von einem Gegner verfolgt, lockt es ihn auf dunkle Bergpfade, wo sein Gegner sich verläuft."
 	},
 
 	variants: [

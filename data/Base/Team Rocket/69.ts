@@ -52,7 +52,8 @@ const card: Card = {
 
 	description: {
 		en: "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel.",
-		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
+		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager.",
+		de: "Kommt normalerweise nur in Kraftwerken vor. Manchmal in Städten zu sehen, da es anscheinend Stromleitungen entlang wandert."
 	},
 
 

@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Sc1a"
+import Set from "../SC1a"
 
 const card: Card = {
 	set: Set,
@@ -8,7 +8,8 @@ const card: Card = {
 		'zh-tw': "赫普"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Naoki Saito",
+	rarity: "Character Super Rare",
 	category: "Trainer",
 
 	effect: {

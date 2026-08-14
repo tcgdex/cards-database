@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
+		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+		de: "Wird sein Körper verletzt, kann es sich regenerieren, sofern der rote Kern intakt ist."
 	},
 
 	variants: [

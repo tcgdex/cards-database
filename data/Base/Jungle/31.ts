@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vileplume",
 		fr: "Raflésia",
+		it: "Vileplume",
 		de: "Giflor"
 	},
 
@@ -25,7 +26,9 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		it: "Gloom",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -36,12 +39,14 @@ const card: Card = {
 			name: {
 				en: "Heal",
 				fr: "Soins",
+				it: "Cura",
 				de: "Heiler"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, retirez 1 marqueur de dégâts d'un de vos Pokémon. Ce pouvoir ne peut être utilisé si Raflésia est Endormi, Confus, ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei Kopf entferne eine Schadensmarke von einem deiner Pokémon. Diese Fähigkeit kann nicht eigesetzt werden, falls Giflor schlafend, verwirrt oder gelähmt ist."
+				it: "Una sola volta durante il tuo turno (prima di attaccare), puoi lanciare una moneta. Se esce testa togli un segnalino danno da uno dei tuoi Pokémon. Questo potere non può essere usato se Vileplume è Addormentato, Confuso o Paralizzato.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei „Kopf“ entferne eine Schadensmarke von einem deiner Pokémon. Diese Fähigkeit kann nicht eingesetzt werden, falls Giflor schlafend, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -56,12 +61,14 @@ const card: Card = {
 			name: {
 				en: "Petal Dance",
 				fr: "Danse-fleur",
+				it: "Petalodanza",
 				de: "Blättertanz"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage).",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces. Raflésia est maintenant Confus (après résolution des dégâts).",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 40 Schadenspunkte zu. Giflor ist jetzt verwirrt (nach der Schadensverteilung)."
+				it: "Lancia 3 volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa. Vileplume (dopo avere inflitto il danno) è Confuso.",
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 40 Schadenspunkte zu. Giflor ist jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: "40x",
 
@@ -79,7 +86,9 @@ const card: Card = {
 
 	description: {
 		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
-		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
+		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique.",
+		it: "Più grandi sono i suoi petali e più polline velenoso contengono. La sua grossa testa è pesante e difficile da sostenere.",
+		de: "Je größer die Blütenblätter, desto giftiger ist der Blütenstaub darin. Sein großer Kopf ist schwer und nicht einfach hochzuhalten."
 	},
 
 

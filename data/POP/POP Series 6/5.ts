@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Rampardos",
-		fr: "Rampardos"
+		fr: "Rampardos",
+		de: "Rameidon"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -21,8 +22,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherrim",
-		fr: "Kranidos"
+		en: "Cranidos",
+		fr: "Kranidos",
+		de: "Koknodon"
 	},
 
 	stage: "Stage2",
@@ -35,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Assurance",
-				fr: "Assurance"
+				fr: "Assurance",
+				de: "Gewissheit"
 			},
 			effect: {
 				en: "As long as the Defending Pokémon's remaining HP is 60 or less, this attack's base damage is 60 instead of 30.",
-				fr: "Tant qu'il reste un maximum de 60 PV au Pokémon Défenseur, les dégâts de base de cette attaque sont de 60 au lieu de 30."
+				fr: "Tant qu'il reste un maximum de 60 PV au Pokémon Défenseur, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
+				de: "Solange die verbliebenen KP des Verteidigenden Pokémon 60 oder weniger betragen, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte anstelle von 30 Schadenspunkten."
 			},
 			damage: 30,
 
@@ -52,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hasty Headbutt",
-				fr: "Coup d'boule rapide"
+				fr: "Coup d'boule rapide",
+				de: "Hastige Kopfnuss"
 			},
 			effect: {
 				en: "Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Charkos s'inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Charkos s'inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "Rameidon fügt sich selbst 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 100,
 
@@ -70,7 +76,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Its powerful head butt has enough power to shatter even the most durable things upon impact."
+		en: "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+		de: "Sein kräftiger Kopfstoß hat genug Kraft, um selbst die stabilsten Dinge zu zerschmettern."
 	},
 
 	retreat: 1,

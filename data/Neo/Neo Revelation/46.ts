@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the number of Murkrows on your Bench. This attack does 10 damage plus 10 more damage for each heads.",
 				fr: "Lancez un nombre de pièces égal au nombre de cartes Cornèbre sur votre Banc. Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf so viele Münzen, wie Kramurxe auf deine Bank sind. Dieser Angriff fügt 10 Schadenspunkte pro geworfenem 'Kopf' zu."
+				de: "Wirf so viele Münzen, wie Kramurxe auf deiner Bank sind. Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
-		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
+		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit.",
+		de: "Es wird von vielen gefürchtet und verabscheut, da es heißt, dass jeder Unglück hat, der es bei Nacht sieht."
 	},
 
 

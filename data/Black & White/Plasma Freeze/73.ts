@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 40,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Slayer",
 				fr: "Dragon Slayer",
+				de: "Drachentöter"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Dragon Pokémon, this attack does 40 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon Dragon, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein {N}-Pokémon ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+		de: "Ein kaltblütiges Pokémon, das Gegner zunächst mit einer Schar von Gladiantri lähmt und dann zweiteilt."
 	},
 
 	thirdParty: {

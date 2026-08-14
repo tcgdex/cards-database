@@ -86,9 +86,6 @@ const card: Card = {
 		}
 	],
 
-	description: {
-		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
-	},
 
 	thirdParty: {
         cardmarket: 702426,

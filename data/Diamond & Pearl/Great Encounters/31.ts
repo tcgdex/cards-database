@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Koffing",
 		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet und verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet und verwirrt."
 			},
 			damage: 30,
 
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+		de: "Es wächst, indem es Gase aufnimmt, die aus dem Müll aufsteigen. Selten kann man Drillinge von ihnen finden."
 	},
 
 	thirdParty: {

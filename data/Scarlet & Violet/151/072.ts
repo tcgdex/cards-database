@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea.",
+		de: "Tentacha besteht fast vollständig aus Wasser, wodurch man es im Meer nur sehr schwer erkennen kann."
 	},
 
 	variants: [

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+		de: "Aufgrund seines reizenden Wesens und seines Rufes erfreut sich dieses Pokémon großer Beliebtheit. Leider ist es auch sehr selten."
 	},
 
 	variants: [

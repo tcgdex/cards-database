@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è paralizzato."
 			},
 			damage: 10,
@@ -59,7 +59,8 @@ const card: Card = {
 	description: {
 		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
 		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
-		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
+		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro.",
+		de: "Mit seiner Fähigkeit, Gedanken zu lesen, erkennt es Gefahren und teleportiert sich gegebenenfalls in Sicherheit."
 	},
 
 	variants: [

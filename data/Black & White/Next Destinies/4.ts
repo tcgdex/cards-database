@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "White Noise",
 				fr: "Sommeil Profond",
+				de: "Weißes Rauschen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Draining Cut",
 				fr: "Vampitranche",
+				de: "Zehrender Schnitt"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads. Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu. Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
 			},
 			damage: 40,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+		de: "Es gibt ein Dorf, das basierend auf den imposanten Rufen dieses Pokémon einen Wettbewerb veranstaltet."
 	},
 
 	thirdParty: {

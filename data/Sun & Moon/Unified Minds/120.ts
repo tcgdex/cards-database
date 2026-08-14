@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Once thought to be the ancestor of all bird Pokémon, some of the latest research suggests that may not be the case.",
+		de: "Es wurde lange Zeit für den Urahn aller Vogel-Pokémon gehalten, doch jüngste Forschungen führen zu unterschiedlichen Theorien."
 	},
 
 	thirdParty: {

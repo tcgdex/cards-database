@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
-				de: "Earthquake"
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Fügt jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -58,12 +59,12 @@ const card: Card = {
 			name: {
 				en: "Rock Tumble",
 				fr: "Roule-pierre",
-				de: "Rock Tumble"
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
-				de: "Don't apply Resistance."
+				de: "Wende Resistenz nicht an."
 			},
 			damage: 50,
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
-		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
+		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes.",
+		de: "Da es ein fröhliches Gemüt hat, ist es ihm egal, ob ein paar Teile aus ihm herausbrechen, während es die Berge herunterrollt."
 	},
 
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ducklett",
 		fr: "Couaneton",
+		de: "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Feather Dance",
 				fr: "Danse-Plume",
+				de: "Daunenreigen"
 			},
 			effect: {
 				en: "During your next turn, each of this Pokémon's attacks does 40 more damage(before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Ring",
 				fr: "Anneau Hydro",
+				de: "Wasserring"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 40,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
 	},
 
 	thirdParty: {

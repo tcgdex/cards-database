@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gothorita",
 		fr: "Mesmérella",
+		de: "Hypnomorba"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Madkinesis",
 				fr: "Mentalisme",
+				de: "Irrkinese"
 			},
 			effect: {
 				en: "Does 20 more damage for each Psychic Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {P}-Energie zu."
 			},
 			damage: 30,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+		de: "Durch seine mächtigen Psycho-Kräfte krümmt sich der Raum und Bilder eines Lichtjahre entfernten Ortes erscheinen."
 	},
 
 	thirdParty: {

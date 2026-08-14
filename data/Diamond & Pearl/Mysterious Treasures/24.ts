@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each basic Energy card attached to Exeggutor and to the Defending Pokémon. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Carte Énergie de base attachée à Noadkoko et au Pokémon Défenseur. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 1 Münze für jede an Kokowei und das Verteidigende Pokémon angelegte Basis-Energiekarte. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 1 Münze für jede an Kokowei und das Verteidigende Pokémon angelegte Basis-Energiekarte. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for up to 2 Grass Energy cards and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck jusqu'à 2 cartes Énergie Grass et attachez-les à vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 -Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach bis zu 2 {G}-Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an. Mische dein Deck danach."
 			},
 
 		},
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an EXEGGCUTE.",
-		fr: "On l'appelle \" jungle sur pattes \". Si une tête devient trop grosse, elle tombe et produit un Noeunoeuf"
+		fr: "On l'appelle \" jungle sur pattes \". Si une tête devient trop grosse, elle tombe et produit un Noeunoeuf",
+		de: "Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI."
 	},
 
 	thirdParty: {

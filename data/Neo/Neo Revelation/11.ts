@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Night Eyes",
 				fr: "Mauvais œil",
-				de: "Night Eyes"
+				de: "Nachtaugen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Perish Song",
 				fr: "Requiem",
-				de: "Perish Song"
+				de: "Abgesang"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep, and was attacked with Night Eyes during your last turn, it is Knocked Out.",
 				fr: "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O.",
-				de: "If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out."
+				de: "Wenn das verteidigende Pokémon schläft und in deinem letzten Zug mit Nachtaugen angegriffen wurde, ist es kampfunfähig."
 			},
 
 		},
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
-		fr: "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur."
+		fr: "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur.",
+		de: "Es spielt gerne fiese Streiche, wie nachts zu heulen und laut zu klagen, um andere Leute zu erschrecken."
 	},
 
 

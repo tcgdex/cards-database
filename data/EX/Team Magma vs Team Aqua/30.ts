@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Call",
 				fr: "Demande d'Aqua",
-				de: "Aqua Call"
+				de: "Aquaruf"
 			},
 			effect: {
 				en: "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck jusqu'à 3 Pokémon dont le nom comporte Team Aqua, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach Pokémon mit „Team Aqua“ im Namen, zeige bis zu 3 von ihnen deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
-				de: "Wave Splash"
+				de: "Wellenplatscher"
 			},
 
 			damage: 30,

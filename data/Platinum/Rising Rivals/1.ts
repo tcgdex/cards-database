@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos"
+		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Arcanine has any Fire Energy attached to it, Arcanine has no Weakness.",
 				fr: "Tant qu'Arcanin possède de l'Énergie Fire, il ne possède pas de Faiblesse.",
-				de: "Solange an Arkani mindestens 1 -Energie angelegt ist, hat Arkani keine Schwäche."
+				de: "Solange an Arkani mindestens 1 {R}-Energie angelegt ist, hat Arkani keine Schwäche."
 			}
 		},
 	],
@@ -77,7 +78,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy attached to Arcanine. This attack does 60 damage plus 10 more damage for each damage counter on Arcanine.",
 				fr: "Défaussez une Énergie Fire attachée à Arcanin. Cette attaque inflige alors 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Arcanin.",
-				de: "Lege 1 -Energie, die an Arkani angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Arkani zu."
+				de: "Lege 1 {R}-Energie, die an Arkani angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Arkani zu."
 			},
 			damage: "60+",
 

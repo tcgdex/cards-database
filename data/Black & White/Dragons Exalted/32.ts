@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It spins its two tails like a screw to propel itself through the water. The tails also slice clinging seaweed.",
+		de: "Dreht seine zwei Schweife wie eine Schraube, um schnell zu schwimmen, und zum Zerschneiden von Algen."
 	},
 
 	thirdParty: {

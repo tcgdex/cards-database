@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carapuce pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schiggy während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Schiggy während des nächsten Zugs Deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
 				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Squirtle durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.)"
 			},
 
@@ -79,7 +79,8 @@ const card: Card = {
 	description: {
 		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
 		fr: "Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume.",
-		it: "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7"
+		it: "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7",
+		de: "Nach der Geburt verändert sich sein Rücken zu einer harten Schale. Beim Angriff sprüht Schaum aus seinem Mund."
 	},
 
 	variants: [

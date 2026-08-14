@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		it: "Nidorina",
 		de: "Nidorina"
 	},
 
@@ -25,7 +26,9 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
-		fr: "Nidoran"
+		fr: "Nidoran",
+		it: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -38,12 +41,14 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				it: "Supersonico",
 				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -56,12 +61,14 @@ const card: Card = {
 			name: {
 				en: "Double Kick",
 				fr: "Double pied",
+				it: "Doppiocalcio",
 				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu."
+				it: "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“zeigt, 30 Schadenspunkte zu."
 			},
 			damage: "30x",
 
@@ -79,7 +86,9 @@ const card: Card = {
 
 	description: {
 		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
-		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
+		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule.",
+		it: "Il corno della femmina si sviluppa lentamente. Preferisce attacchi fisici come morsi e unghiate.",
+		de: "Das Horn des Weibchens entwickelt sich nur langsam. Es zieht körperliche Angriffe wie z.B. Kratzen und Beißen vor."
 	},
 
 

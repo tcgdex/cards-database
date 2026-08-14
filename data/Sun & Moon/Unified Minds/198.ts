@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 50 puntos de daño a tu Pokémon-GX Activo.",
 		it: "Cura il tuo Pokémon-GX attivo da 50 danni.",
 		pt: "Cure 50 pontos de dano do seu Pokémon-GX Ativo.",
-		de: "Heile 50 Schadenspunkte bei deinem Aktiven Pokémon-GX."
+		de: "Heile 50 Schadenspunkte bei deinem Aktiven Pokémon-GX. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

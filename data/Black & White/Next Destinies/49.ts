@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Bounce",
 				fr: "Rebond",
+				de: "Sprungfeder"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
+		de: "Im Flug entlädt es Strom, den es mit seinen Backentaschen erzeugt und in seinen Fluglappen gespeichert hat."
 	},
 
 	thirdParty: {

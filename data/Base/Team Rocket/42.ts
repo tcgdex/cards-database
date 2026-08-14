@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Fascinate",
 				fr: "Fascination",
-				de: "Fascinate"
+				de: "Versuchung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon du Banc de votre adversaire et échangez-le avec le Pokémon Défenseur. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
-				de: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if our opponent has no benched Pokémon."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ ein Pokémon auf der Bank deines Gegners und tausche es mit dem verteidigenden Pokémon aus. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
 			},
 
 		},
@@ -56,13 +57,13 @@ const card: Card = {
 			name: {
 				en: "Poison Claws",
 				fr: "Griffes empoisonnées",
-				de: "Poison Claws"
+				de: "Giftkrallen"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémonis now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
-		fr: "Les femmes l'adorent en raison de sa magnifique fourrure. Le chef des Rocket en possède un comme animal de compagnie."
+		fr: "Les femmes l'adorent en raison de sa magnifique fourrure. Le chef des Rocket en possède un comme animal de compagnie.",
+		de: "Sehr beliebt bei Frauen wegen seines schönen Pelzes. Der Anführer der Rockets hält eines als Haustier."
 	},
 
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Froakie",
 		fr: "Grenousse",
+		de: "Froxy"
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Water Drip",
 				fr: "Goutte à Goutte",
+				de: "Spritzwasser"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
+		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+		de: "Es stößt aus Brust und Rücken elastische Blasen aus, mit denen es gegnerische Angriffe abfängt und so den erlittenen Schaden verringert."
 	},
 	variants: [
 		{

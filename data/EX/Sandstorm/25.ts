@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde boréale",
-				de: "Aurora Beam"
+				de: "Aurorastrahl"
 			},
 
 			damage: 30,
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Sonic",
 				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				de: "Aquaschall"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 50,
 

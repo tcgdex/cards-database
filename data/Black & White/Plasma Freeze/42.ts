@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Poison Horn",
 				fr: "Corne Empoisonnée",
+				de: "Gifthorn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Double Stomp",
 				fr: "Double Écrasement",
+				de: "Doppelstampfer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 60,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
+		de: "Sein ganzer Körper ist mit harten Schuppen bedeckt. Es beschützt sein Junges mit seinem Leben."
 	},
 
 	thirdParty: {

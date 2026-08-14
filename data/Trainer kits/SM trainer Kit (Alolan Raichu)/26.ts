@@ -27,10 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl"
+				en: "Defense Curl",
+				de: "Einigler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
+				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
+				de: "Wirf 1 Münze. Verhindere bei Kopf allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
 			}
 		},
 		{
@@ -38,10 +40,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Discharge"
+				en: "Discharge",
+				de: "Ladungsstoß"
 			},
 			effect: {
-				en: "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way."
+				en: "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way.",
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "30×"
 		},

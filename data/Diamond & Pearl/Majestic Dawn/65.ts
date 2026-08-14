@@ -37,6 +37,7 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+		de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 	},
 
 	attacks: [
@@ -72,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "With its sharp glare, it puts foes in a mild hypnotic state. It is a very fickle Pokémon.",
+		de: "Durch seinen scharfen Blick fallen seine Gegner in eine leichte Hypnose. Es ist sehr launenhaft."
 	},
 
 	thirdParty: {

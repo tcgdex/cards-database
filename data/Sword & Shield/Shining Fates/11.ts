@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+		de: "Der Rhythmus, den es mit seinem besonderen Schlägel erzeugt, verbreitet Schallwellen, die Pflanzen neue Vitalität verleihen können."
 	},
 
 	variants: [

@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "If your opponent has only 1 Prize card left and Regirock ☆ is the only Pokémon you have in play, this attack's base damage is 100 instead of 30.",
 				fr: "S'il reste à votre adversaire une seule carte Récompense et que Regirock ☆ est le seul Pokémon que vous ayez en jeu, les dégâts de base de cette attaque sont de 100 au lieu de 30.",
-				de: "Wenn dein Gegner nur noch einen Preis übrig hat, und Regirock ☆ das einzige Pokémon ist, das du im Spiel hast, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte anstelle von 30 Schadenspunkten."
+				de: "Wenn dein Gegner nur noch einen Preis übrig hat und Regirock ☆ das einzige Pokémon ist, das du im Spiel hast, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte anstelle von 30 Schadenspunkten."
 			},
 			damage: 30,
 

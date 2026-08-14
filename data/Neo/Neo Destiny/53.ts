@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Mysterious Wing",
 				fr: "Aile mystérieuse",
-				de: "Mysterious Wing"
+				de: "Seltsame Flügel"
 			},
 			effect: {
 				en: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same.",
 				fr: "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même.",
-				de: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same."
+				de: "Dein Gegner darf eine Baby-Pokémon-,Basis-Pokémon- oder Evolutionskarte aus seinem Ablagestapel wählen und auf seine Hand nehmen. Unabhängig davon darfst du dasselbe tun."
 			},
 
 		},
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Synchronize",
 				fr: "Synchronisation",
-				de: "Synchronize"
+				de: "Übereinstimmen"
 			},
 			effect: {
 				en: "If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing.",
 				fr: "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien.",
-				de: "If Light Venomoth and the Defending Pokémon have a differenz number of Energy cards attached to them, this attack does nothing."
+				de: "Wenn an Helles Omot und das verteidigende Pokémon eine unterschiedliche Anzahl Energiekarten angelegt sind, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "It defends itself by flapping its wings at high speed, spreading poisonous powder throughout the air.",
-		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
+		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs.",
+		de: "Es verteidigt sich selbst, indem es seine Flügel mit hoher Geschwindigkeit bewegt und dabei ein giftiges Puder in der Luft verteilt."
 	},
 
 

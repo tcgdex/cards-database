@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansear",
 		fr: "Flamajou",
+		de: "Grillmak"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Double Fire",
 				fr: "Double Feu",
+				de: "Duplexfeuer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 80,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+		de: "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif."
 	},
 
 	thirdParty: {

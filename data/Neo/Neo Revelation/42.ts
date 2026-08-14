@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Positive Ion",
 				fr: "Ion positif",
-				de: "Positive Ion"
+				de: "Positives Ion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Negative Ion",
 				fr: "Ion négatif",
-				de: "Negative Ion"
+				de: "Negatives Ion"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks Chinchou during your opponent's next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 				fr: "Si le Pokémon Défenseur attaque Loupio pendant le prochain tour de votre adversaire, les dégâts infligés à Loupio sont réduits de 10 (avant application de la Faiblesse et de la Résistance). (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "If the Defending Pokémon attacks Chinchou during your opponent´s next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)"
+				de: "Falls das verteidigende Pokémon Lampi während des nächsten Zuges deines Gegners angreift, werden alle Lampi zugefügten Schadenspunkte um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden). (Kommt eins der beiden Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
 			},
 			damage: 10,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
-		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
+		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer.",
+		de: "Auf dem dunklen Meeresboden kann es sich nur durch dauernd aufblinkende Lichter verständigen."
 	},
 
 

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fine fur feels sublime to the touch. It can expand its body by inhaling air.",
+		de: "Sein feines Fell fühlt sich herrlich an. Es kann sich größer machen, indem es Luft einatmet."
 	},
 
 	thirdParty: {

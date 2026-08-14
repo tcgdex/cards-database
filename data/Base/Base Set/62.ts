@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zugs anzugreifen versucht, wirft Dein Gegner eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
+				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zugs anzugreifen versucht, wirft Dein Gegner eine Münze. Bei „Zahl“ zeigt dieser Angriff keine Wirkung.",
 				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario deve lanciare una moneta. Se esce croce, quell'attacco non ha alcun effetto."
 
 			},
@@ -68,7 +68,8 @@ const card: Card = {
 	description: {
 		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
 		fr: "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.",
-		it: "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27"
+		it: "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27",
+		de: "Gräbt sich in trockenen Gebieten tief ein und erscheint nur, wenn es auf Beutesuche geht."
 	},
 
 	variants: [

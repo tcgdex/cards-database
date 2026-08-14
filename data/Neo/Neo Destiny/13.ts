@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Bubble",
 				fr: "Écume",
-				de: "Bubble"
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Jump",
 				fr: "Saute bulle",
-				de: "Bubble Jump"
+				de: "Blubbsprung"
 			},
 			effect: {
 				en: "If you have any Benched Pokémon, flip a coin. If heads, take 2 Energy cards attached to Light Azumarill and attach them to 1 of your Benched Pokémon. Then return Light Azumarill and all cards attached to it to your hand.",
 				fr: "Si vous avez des Pokémon sur votre Banc, lancez une pièce. Si c'est face, prenez 2 cartes Énergie attachées à Azumarill lumineux et attachez-les à l'un des Pokémon de votre Banc. Puis renvoyez Azumarill lumineux et toutes les cartes qui y sont attachées dans votre main.",
-				de: "If you have any Benched Pokémon, flip a coin. If heads, take 2 Energy cards attached to Light Azumarill and attach them to 1 of your Benched Pokémon. Then return Light Azumarill and all cards attached to it to your head."
+				de: "Wirf eine Münze, wenn du mindestens ein Pokémon auf der Bank hast. Nimm bei „Kopf“ zwei an Helles Azumarill angelegte Energiekarten und lege sie an eines deiner Pokémon auf der Bank an. Bringe dann Helles Azumarill und alle darin angelegten Karten auf deine Hand zurück."
 			},
 			damage: 30,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It curls up its long ears when swimming to prevent water from entering them.",
-		fr: "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre."
+		fr: "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre.",
+		de: "Es rollt beim Schwimmen seine langen Ohren ein, damit kein Wasser hineinkommt."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Rage",
-				de: "Rage"
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Dark Flareon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque compteur de dégâts sur Pyroli obscur.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Dark Flareon."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Dunkles Flamara zu."
 			},
 			damage: "10+",
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Playing with Fire",
 				fr: "Jouer avec le feu",
-				de: "Playing with Fire"
+				de: "Spiel mit dem Feuer"
 			},
 			effect: {
 				en: "Use this attack only if there are any Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage.",
 				fr: "N'utilisez cette attaque que si des cartes Énergie  sont attachées à Pyroli obscur. Lancez une pièce. Si c'est face, défaussez une de ces cartes Énergie et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts.",
-				de: "Use this attack only if there are any  Energy cards attached to Dark Flareon. Flip a coin. If heads, dicard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
+				de: "Diesen Angriff nur spielen, wenn {R}-Energiekarten auf Dunkles Flamara abgelegt sind. Wirf eine Münze. Entferne bei „Kopf“ eine dieser Energiekarten und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a hot temper that can't be controlled once it's angered. Capable of breathing flames hotter than 3000°.",
-		fr: "Ce Pokémon a le sang chaud et devient incontrôlable lorsqu'il s'emporte. Il peut cracher des flammes de plus de 3000°."
+		fr: "Ce Pokémon a le sang chaud et devient incontrôlable lorsqu'il s'emporte. Il peut cracher des flammes de plus de 3000°.",
+		de: "Ein jähzorniges Pokémon, das nicht unter Kontrolle gebracht werden kann, wenn es erzürnt ist. Es kann Feuer speien, das heißer als 1000° ist."
 	},
 
 

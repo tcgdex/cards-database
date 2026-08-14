@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands.",
-		fr: "Il utilise sa queue pour cueillir les fruits inaccessibles. Elle est plus agile que ses mains."
+		fr: "Il utilise sa queue pour cueillir les fruits inaccessibles. Elle est plus agile que ses mains.",
+		de: "Mit dem Schweif pflückt es hochhängende Früchte. Mit ihm ist es geschickter als mit den Händen."
 	},
 
 	thirdParty: {

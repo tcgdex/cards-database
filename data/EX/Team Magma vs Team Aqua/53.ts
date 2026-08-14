@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Self Charge",
 				fr: "Auto-chargement",
-				de: "Self Charge"
+				de: "Selbstaufladung"
 			},
 			effect: {
 				en: "Attach an Energy card from your hand to Team Aqua's Electrike.",
 				fr: "Attachez une carte Énergie de votre main à Dynavolt de Team Aqua.",
-				de: "Attach an Energy card from your hand to Team Aqua's Electrike."
+				de: "Lege eine Energiekarte von deiner Hand an Team Aquas Frizelbliz an."
 			},
 
 		},

@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Prinplup",
-		fr: "Prinplouf"
+		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -62,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Attack Command",
-				fr: "Ordre d'Assaut"
+				fr: "Ordre d'Assaut",
+				de: "Angriffsbefehl"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire)."
+				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und der deines Gegners) zu."
 			},
 			damage: 10,
 
@@ -84,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+		de: "Würde jemand seine Ehre verletzen, so würde es mit Flügeln angreifen, die Eis zerschneiden können."
 	},
 
 	thirdParty: {

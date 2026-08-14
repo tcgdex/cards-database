@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Nigosier-V",
-		en: "Cramorant V"
+		en: "Cramorant V",
+		de: "Urgl VMAX"
 	},
 
 	attacks: [{

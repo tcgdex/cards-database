@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+		de: "Sein gebogenes Geweih generiert via Luftänderung einen Raum, in dem die Wirklichkeit verzerrt wird."
 	},
 
 	variants: [

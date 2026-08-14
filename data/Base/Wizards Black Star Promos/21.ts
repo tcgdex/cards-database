@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Moltres",
-		fr: "Sulfura"
+		fr: "Sulfura",
+		de: "Lavados"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Flame",
-				fr: "Super flamme"
+				fr: "Super flamme",
+				de: "Hyperflamme"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can't discard Energy cards, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie  attachée à Sulfura. Si c'est pile, défaussez toutes les cartes Énergies attachées à Sulfura. Vous ne pouvez utiliser cette attaque que si vous pouvez défausser des cartes Énergies attachées à Sulfura."
+				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie  attachée à Sulfura. Si c'est pile, défaussez toutes les cartes Énergies attachées à Sulfura. Vous ne pouvez utiliser cette attaque que si vous pouvez défausser des cartes Énergies attachées à Sulfura.",
+				de: "Wirf eine Münze. Bei „Kopf“ entferne eine auf lavados abgelegte {R}-Energiekarte. Bei „Zahl“ entferne alle auf Lavados abgelegte Energiekarten. Du kannst diesen Angriff nur dann einsetzen, wenn du Energiekarten von Lavados entfernen kannst."
 			},
 			damage: 60,
 
@@ -55,7 +58,8 @@ const card: Card = {
 
 	description: {
 		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
-		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
+		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour.",
+		de: "Die Flammen auf den Flügeln dieses legendären Pokémon brennen so lichterloh, dass sie die Nacht scheinbar zum Tag machen."
 	},
 
 	variants: [

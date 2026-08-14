@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		it: "Pikachu",
 		de: "Pikachu"
 	},
 
@@ -25,6 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pichu",
+		it: "Pichu",
+		de: "Pichu"
 	},
 
 	stage: "Basic",
@@ -38,11 +41,13 @@ const card: Card = {
 			name: {
 				en: "Spark",
 				fr: "Étincelle",
-				de: "Funkensprung"
+				it: "Scintilla",
+				de: "Funkenregen"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)",
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegline uno. Questo attacco gli infligge 10 danni (non applicare Debolezza e Resistenza ai Pokémon in Panchina).",
 				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 20,
@@ -61,7 +66,9 @@ const card: Card = {
 
 	description: {
 		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+		it: "Quando Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini.",
+		de: "Wenn mehrere dieser Pokémon sich versammeln, kann ihre Elektrizität Gewitter verursachen."
 	},
 
 

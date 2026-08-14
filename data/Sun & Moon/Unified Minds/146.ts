@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Final GG GX",
 				it: "Fine dei Giochi GX",
 				pt: "GG e Pronto GX",
-				de: "GG Abschluss GX"
+				de: "GG Abschluss-GX"
 			},
 			effect: {
 				en: "Discard 1 of your opponent’s Pokémon and all cards attached to it. If this Pokémon has at least 3 extra Fighting Energy attached to it (in addition to this attack’s cost), discard 2 of your opponent’s Pokémon instead. (You can’t use more than 1 GX attack in a game.)",
@@ -93,7 +93,7 @@ const card: Card = {
 				es: "Descarta 1 de los Pokémon de tu rival y todas las cartas unidas a él. Si este Pokémon tiene por lo menos 3 Energías Fighting adicionales unidas a él (además de las del coste de este ataque), descarta 2 de los Pokémon de tu rival en vez de 1. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Scarta uno dei Pokémon del tuo avversario e tutte le carte a esso assegnate. Se questo Pokémon ha almeno tre Energie Fighting extra assegnate, in aggiunta a quelle del costo di questo attacco, invece scarta due dei suoi Pokémon. Non puoi usare più di un attacco GX a partita.",
 				pt: "Descarte 1 dos Pokémon do seu oponente e todas as cartas ligadas a ele. Se este Pokémon tiver pelo menos 3 Energias Fighting adicionais ligadas a ele (além do custo deste ataque), descarte 2 dos Pokémon do seu oponente ao invés de 1 (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege 1 Pokémon deines Gegners und alle an es angelegten Karten auf seinen Ablagestapel. Wenn an dieses Pokémon mindestens 3 extra Fighting-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege stattdessen 2 Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege 1 Pokémon deines Gegners und alle an es angelegten Karten auf seinen Ablagestapel. Wenn an dieses Pokémon mindestens 3 extra {F}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege stattdessen 2 Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		}

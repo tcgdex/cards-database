@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Poison Suction",
 				fr: "Succion Empoisonnée",
+				de: "Giftsauger"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, soignez 60 dégâts à ce Pokémon.",
+				de: "Wenn das Verteidigende Pokémon vergiftet ist, heile 60 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Sludge Crash",
 				fr: "Flot de Vase",
+				de: "Schlammrutsch"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.",
+		de: "Ihr Gestank ist unerträglich. Das starke Gift, aus dem ihr Körper besteht, macht jeder Pflanze in ihrem Weg den Garaus."
 	},
 
 	thirdParty: {

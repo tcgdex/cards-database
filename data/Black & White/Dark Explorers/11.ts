@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shelmet",
-		fr: "Escargaume"
+		fr: "Escargaume",
+		de: "Schnuthelm"
 	},
 
 	stage: "Stage1",
@@ -40,7 +41,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncer"
+				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 20,
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Deck and Cover",
-				fr: "Délit de Fuite"
+				fr: "Délit de Fuite",
+				de: "Peinigen und Abhauen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
+				fr: "Le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				de: "Das Verteidigende Pokémon ist jetzt paralysiert und vergiftet. Mische dieses Pokémon und alle daran angelegten Karten zurück in dein Deck."
 			},
 			damage: 50,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+		de: "Da es ohne Flüssigkeit an Kraft verliert, schützt es sich mit mehreren dünnen Hautschichten vor dem Austrocknen."
 	},
 
 	thirdParty: {

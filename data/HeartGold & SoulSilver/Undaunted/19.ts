@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Misdreavus",
-		fr: "Feuforeve"
+		fr: "Feuforeve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it."
+		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+		de: "Sein bizarrer, bannfluchartiger Ruf quält seine Gegner. Es verschwindet so plötzlich, wie es auftaucht."
 	},
 
 	variants: [

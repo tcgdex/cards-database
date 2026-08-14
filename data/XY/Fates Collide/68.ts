@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
+		de: "Kleine Pokémon fliehen beim Anblick seines Gesichts. Frauen aber finden es niedlich."
 	},
 
 	thirdParty: {

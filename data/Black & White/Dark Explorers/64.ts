@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Dive",
-				fr: "Ensablement"
+				fr: "Ensablement",
+				de: "Sandtaucher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt würde."
 			},
 
 		},
@@ -51,7 +53,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon"
+				fr: "Poing Tire-Bouchon",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 40,
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+		de: "Es lebt im Wüstensand. Der durch die Sonne erhitzte Sand gewährleistet, dass es immer schön warm eingepackt ist."
 	},
 
 	thirdParty: {

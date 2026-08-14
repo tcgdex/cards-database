@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -75,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+		de: "Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf."
 	},
 
 	thirdParty: {

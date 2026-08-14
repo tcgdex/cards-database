@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Trance",
 				fr: "Aqua-transe",
-				de: "Aqua Trance"
+				de: "Aquatrance"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep.",
 				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
+				de: "Nach dem nächsten Zug deines Gegners schläft das Verteidigende Pokémon."
 			},
 			damage: 20,
 

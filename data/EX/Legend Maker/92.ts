@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, any damage done to Registeel Star by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Registeel  par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Im nächsten Zug deines Gegners wird Schaden, der Registeel * durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Im nächsten Zug deines Gegners wird Schaden, der Registeel ☆ durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 

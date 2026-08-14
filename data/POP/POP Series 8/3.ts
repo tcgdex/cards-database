@@ -4,6 +4,7 @@ import Set from '../POP Series 8'
 const card: Card = {
 	name: {
 		en: "Luxray",
+		de: "Luxtra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -32,9 +34,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Intimidating Fang",
+				de: "Beeindruckende Fangzähne"
 			},
 			effect: {
 				en: "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance).",
+				de: "Solange Luxtra dein Aktives Pokémon ist, wird aller Schaden von gegnerischen Angriffen um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -49,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder",
+				de: "Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Luxray does 40 damage to itself.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Luxtra selbst 40 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -73,7 +79,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall."
+		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall.",
+		de: "Leuchten seine Augen golden auf, kann es Beute, die sich versteckt, sehen. Es kann durch Wände sehen."
 	},
 
 	retreat: 1,

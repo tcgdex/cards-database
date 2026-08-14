@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fury Strikes",
 				fr: "Attaques furieuses",
-				de: "Fury Strikes"
+				de: "Zornschläge"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -54,7 +54,8 @@ const card: Card = {
 
 	description: {
 		en: "It can shoot a burst of water from its mouth to propel itself backward at high speeds, allowing it to flee from surprised enemies.",
-		fr: "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis."
+		fr: "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis.",
+		de: "Es kann aus seinem Maul einen Wasserschwall ausstoßen, um sich mit hoher Geschwindigkeit rückwärts fortzubewegen. Das ermöglicht ihm, staunenden Gegnern zu entfliehen."
 	},
 
 

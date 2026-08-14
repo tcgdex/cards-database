@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 50 more damage.",
 				fr: "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wenn am Verteidigendem Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				de: "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+		de: "Sein Körper ist stahlhart. Es bedroht seine Gegner, indem es die Augen auf seinen Scheren zeigt."
 	},
 
 	thirdParty: {

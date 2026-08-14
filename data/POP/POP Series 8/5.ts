@@ -4,6 +4,7 @@ import Set from '../POP Series 8'
 const card: Card = {
 	name: {
 		en: "Yanmega",
+		de: "Yanmega"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Yanma",
+		de: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -34,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -49,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy attached to Yanmega.",
+				de: "Wirf 1 Münze. Bei „Zahl“ lege 1 an Yanmega angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -73,7 +79,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes."
+		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+		de: "Durch die Bewegung seiner Flügel entstehen Schockwellen, die dem Gegner innere Verletzungen zufügen."
 	},
 
 	retreat: 0,

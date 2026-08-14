@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Withdraw",
 				fr: "Repli",
-				de: "Withdraw"
+				de: "Panzerschutz"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Caratroc pendant le prochain tour de votre adversaire (Tous les autres effets ou attaques sont toujours valides.)",
-				de: "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)"
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ alle Schadenspunkte, die Pottrott während des nächsten gegnerischen Zuges zugefügt werden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Wrap",
 				fr: "Ligotage",
-				de: "Wrap"
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigenden Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "The Berries it stores in its vaselike shell decompose and become a gooey liquid.",
-		fr: "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant."
+		fr: "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant.",
+		de: "Die Beeren, die es in seinem vasenähnlichen Panzer speichert, zersetzen sich und werden zu einer klebrigen Flüssigkeit."
 	},
 
 

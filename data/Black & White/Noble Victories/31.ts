@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Frillish",
 		fr: "Viskuse",
+		de: "Quabbel"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "Does 20 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 10,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The fate of ships and crew that wander into Jellicent's habitats: all sunken, all lost, all vanished.",
+		de: "Dringt ein Schiff in sein Revier ein, bringt es dieses zum Kentern und saugt die Lebensenergie aus der Besatzung."
 	},
 
 	thirdParty: {

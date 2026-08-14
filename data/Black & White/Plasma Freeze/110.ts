@@ -34,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Raiden Knuckle",
 				fr: "Appel Foudroyant",
+				de: "Herr des Donners"
 			},
 			effect: {
 				en: "Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.",
 				fr: "Attachez une carte Énergie de votre pile de défausse à 1 de vos Pokémon de la Team Plasma sur votre Banc.",
+				de: "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an 1 Team Plasma-Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Thunderous Noise",
 				fr: "Grondement Tonitruant",
+				de: "Donnerschall"
 			},
 			effect: {
 				en: "If this Pok��mon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.",
 				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wenn an dieses Pokémon bereits Plasma-Energie angelegt ist, lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 90,
 

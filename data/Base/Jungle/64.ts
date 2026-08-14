@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poké Ball",
 		fr: "Poké Balle",
+		it: "Poké Ball",
 		de: "Poké Ball"
 	},
 
@@ -16,7 +17,8 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
 		fr: "Lancez une pièce. Si c'est face, vous pouvez chercher n'importe quelle carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
-		de: "Wirf eine Münze. Bei 'Kopf' darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese karte deinem gegner und nimm sie auf deine Hand. Mische dein Deck dannach,"
+		it: "Lancia una moneta. Se esce testa, puoi cercare nel tuo mazzo un Pokémon Base o una carta Evoluzione. Mostra la carta al tuo avversario e aggiungila alla tua mano. Poi rimischia le carte del tuo mazzo.",
+		de: "Wirf eine Münze. Bei „Kopf“ darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
 

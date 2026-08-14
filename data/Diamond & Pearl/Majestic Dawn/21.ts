@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
+		de: "Hippopotas"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Fighting Energy card and attach it to Hippowdon.",
 				fr: "Cherchez dans votre pile de défausse une carte Énergie Fighting et attachez-la à Hippodocus.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Hippoterus an."
+				de: "Durchsuche deinen Ablagestapel nach 1 {F}-Energiekarte und lege sie an Hippoterus an."
 			},
 			damage: 20,
 
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Fighting Energy attached to Hippowdon. This attack does 50 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à Hippodocus. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 1 Münze für jede an Hippoterus angelegte -Energie. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 1 Münze für jede an Hippoterus angelegte {F}-Energie. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50+",
 
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
+		de: "Sein Maul ist fast 2 m breit. Es hat genügend Kraft, um ein Auto zu zermalmen."
 	},
 
 	thirdParty: {

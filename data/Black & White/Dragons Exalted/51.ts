@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Steal",
 				fr: "Vol d'Ombre",
+				de: "Schattenklau"
 			},
 			effect: {
 				en: "Does 50 damage times the number of Special Energy cards in your opponent's discard pile.",
 				fr: "Inflige 50 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire.",
+				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Spezial-Energiekarten im Ablagestapel deines Gegners zu."
 			},
 			damage: 50,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Plentiful Placement",
 				fr: "Placement Multiple",
+				de: "Reiche Saat"
 			},
 			effect: {
 				en: "Put 4 damage counters on 1 of your opponent's Pokémon.",
 				fr: "Placez 4 marqueurs de dégâts sur 1 des Pokémon de votre adversaire.",
+				de: "Lege 4 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
+		de: "In der Dämmerung steigen ganze Schwärme in die Lüfte, verschwinden aber sofort, wenn man sie bemerkt."
 	},
 
 	thirdParty: {

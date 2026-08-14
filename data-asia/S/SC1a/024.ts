@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Sc1a"
+import Set from "../SC1a"
 
 const card: Card = {
 	set: Set,
@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "顫弦蠑螈VMAX"
 	},
 
+	dexId: [849],
 	illustrator: "5ban Graphics",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Lightning"],

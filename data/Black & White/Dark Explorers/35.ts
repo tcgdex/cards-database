@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Pulse",
-				fr: "Vibraqua"
+				fr: "Vibraqua",
+				de: "Aquawelle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.",
+		de: "Es schwimmt das Gewässer auf der Suche nach Torfmoos, seiner Leibspeise, ab. Ein talentierter Taucher."
 	},
 
 	thirdParty: {

@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Its round body is stuffed with souls and expands each time it leads someone away.",
+		de: "Sein runder Körper ist mit vielen Seelen gefüllt. Jedes Mal, wenn es jemanden entführt, wird es größer."
 	},
 
 	thirdParty: {

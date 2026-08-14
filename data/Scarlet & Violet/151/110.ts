@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+		de: "Sehr selten führt eine plötzliche Mutation eines Zwillings-Smogon zu einer Verbindung zu Smogmog."
 	},
 
 	variants: [

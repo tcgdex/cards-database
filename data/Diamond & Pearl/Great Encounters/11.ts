@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 
 	stage: "Stage2",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage. If tails, remove 3 damage counters from Togekiss.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires. Si c'est pile, retirez à Togekiss 3 marqueurs de dégât.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei \"Zahl\" entferne 3 Schadensmarken von Togekiss."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei „Zahl“ entferne 3 Schadensmarken von Togekiss."
 			},
 			damage: "40+",
 
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It will never appear where there is strife. Its sightings have become rare recently.",
+		de: "Es zeigt sich niemals dort, wo es Streitigkeiten gibt. In letzter Zeit wurde es nur selten gesehen."
 	},
 
 	thirdParty: {

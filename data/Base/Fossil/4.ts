@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
-		fr: "Draco"
+		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Step In",
 				fr: "Intervention",
-				de: "Einfligen"
+				de: "Einfliegen"
 			},
 			effect: {
 				en: "Once during your turn (before you attack) if Dragonite is on your Bench, you may switch it with your Active Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Dracolosse est sur votre Banc, vous pouvez l'échanger avec votre Pokémon Actif.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank sitzt, es mit deinem aktiven Pokémon austauschen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank sitzt, es mit dem aktiven Pokémon austauschen."
 			},
 		},
 	],
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 40 Schadenspunkte zu."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 40 Schadenspunkte zu."
 			},
 			damage: "40x",
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
-		fr: "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme."
+		fr: "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme.",
+		de: "Ein höchst seltenes Meeres-Pokémon. Seine Intelligenz soll der eines Menschen gleichen."
 	},
 
 

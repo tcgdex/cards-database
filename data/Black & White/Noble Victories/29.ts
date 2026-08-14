@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillish",
 		fr: "Sorboul",
+		de: "Gelatroppo"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Double Freeze",
 				fr: "Double Gelure",
+				de: "Doppelfroster"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads. If either of them is heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Si vous obtenez au moins un côté face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu. Wenn eine oder beide Münzen „Kopf“ zeigen, ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 40,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Frost Breath",
 				fr: "Souffle Glacé",
+				de: "Eisesodem"
 			},
 
 			damage: 60,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
+		de: "Bringt man beide Köpfe in Rage, stößt sein Horn heftige Eisböen aus, und alles in seiner Umgebung versinkt in Schnee."
 	},
 
 	thirdParty: {

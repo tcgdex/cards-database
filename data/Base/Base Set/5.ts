@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon schlafend.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon schlafend.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Addormentato."
 			},
 
@@ -86,7 +86,8 @@ const card: Card = {
 	description: {
 		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
-		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
+		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35",
+		de: "Piepis magischer und niedlicher Anreiz hat viele Bewunderer. Es ist selten und nur in bestimmten Gebieten aufzufinden."
 	},
 
 	variants: [

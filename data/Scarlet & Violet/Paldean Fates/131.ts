@@ -78,7 +78,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "﻿When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
 
 }

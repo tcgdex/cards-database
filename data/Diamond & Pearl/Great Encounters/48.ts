@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wingull",
 		fr: "Goelise",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Choose up to 2 basic Water Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way.",
 				fr: "Choisissez jusqu'à 2 cartes Énergie de base (W) de votre main et attachez-les à Bekipan. Retirez 2 marqueurs de dégât pour chaque carte Énergie attachée de cette façon.",
-				de: "Wähle bis zu 2 -Basis-Energiekarten von deiner Hand und lege sie an Pelipper an. Entferne für jede so angelegte Energiekarte 2 Schadensmarken von Pelipper."
+				de: "Wähle bis zu 2 {W}-Basis-Energiekarten von deiner Hand und lege sie an Pelipper an. Entferne für jede so angelegte Energiekarte 2 Schadensmarken von Pelipper."
 			},
 
 		},
@@ -84,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It dips its large bill in the sea, then scoops up numerous prey along with water.",
+		de: "Es taucht seinen großen Schnabel ins Wasser und fängt so eine Menge Beute."
 	},
 
 	thirdParty: {

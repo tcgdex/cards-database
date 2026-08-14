@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward.",
+		de: "Seine Flossen sind sehr schnell. Dadurch kann es rückwärts schwimmen, ohne seinen Kopf umzudrehen."
 	},
 
 	variants: [

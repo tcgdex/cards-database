@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
-				de: "Gnaw"
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Land Sonic",
 				fr: "Terre sonique",
-				de: "Land Sonic"
+				de: "Landschall"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Confus.",
-				de: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
+				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 40,
 

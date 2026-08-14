@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Observe",
 				fr: "[Observe]",
-				de: "Observe"
+				de: "Observe [Observe]"
 			},
 			effect: {
 				en: "Once during your turn (before you attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez regarder les 5 premières cartes du deck de votre adversaire et les replacer dans le même ordre.",
-				de: "Du kannst dir einmal während deines Zuges (vor deinem Angriff) die obersten fünf Karten des decks deines Gegners anschauen. lege die karten in derselben Reihenfolge zurück."
+				de: "Du kannst dir einmal während deines Zuges (vor deinem Angriff) die obersten fünf Karten des Decks deines Gegners anschauen. Lege die Karten in derselben Reihenfolge zurück."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
 

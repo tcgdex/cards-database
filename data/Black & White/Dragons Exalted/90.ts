@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
+		de: "Knarksel"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Mach Cut",
 				fr: "Coupe Vive",
+				de: "Schallschnitt"
 			},
 			effect: {
 				en: "Discard a Special Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Dragonblade",
 				fr: "Draco-Lame",
+				de: "Drachenklinge"
 			},
 			effect: {
 				en: "Discard the top 2 cards of your deck.",
 				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+		de: "Die schnelle Bewegung seiner Flügel erzeugt regelrechte Klingen des Windes, die Bäume fällen können."
 	},
 
 	thirdParty: {

@@ -74,7 +74,8 @@ const card: Card = {
 	description: {
 		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",
-		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
+		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti.",
+		de: "In vergangener Zeit war es stärker als die schwächlichen Nachkommen."
 	},
 
 	variants: [

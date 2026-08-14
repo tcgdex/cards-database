@@ -68,7 +68,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has the power to travel across time, but it is said to appear only in peaceful times."
+		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+		de: "Es kann durch die Zeit reisen, aber es erscheint nur zu friedlichen Zeiten."
 	},
 
 	variants: [

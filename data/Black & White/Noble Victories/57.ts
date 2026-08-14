@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes Calcinantes",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel it burns.",
+		de: "Es entfacht eine Flamme, die von der Lebensenergie eines Menschen oder eines Pokémon zehrt."
 	},
 
 	thirdParty: {

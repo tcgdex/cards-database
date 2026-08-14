@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiploom",
-		fr: "Floravol"
+		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any.",
 				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Cotovol, s'il en possède.",
-				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt, (nachdem Schwäche und Resistenz verrechnet wurden) entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
+				de: "Falls dieser Angriff dem verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
 			},
 			damage: 20,
 
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world.",
-		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
+		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde.",
+		de: "Sobald es den Wind fängt, steuert es geschickt seine Sporen, um so weit wie möglich zu schweben."
 	},
 
 

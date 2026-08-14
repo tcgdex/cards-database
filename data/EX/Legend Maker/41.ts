@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
-		fr: "Grainipiot"
+		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
 				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigendem Pokémon angelegten Trainerkarten auf den Ablagestapel."
+				de: "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigenden Pokémon angelegten Trainerkarten auf den Ablagestapel."
 			},
 			damage: 30,
 

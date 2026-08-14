@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Sticky Goo",
 				fr: "Boue collante",
-				de: "Sticky Goo"
+				de: "Klebrige Schmiere"
 			},
 			effect: {
 				en: "As long as Dark Muk is your Active Pokémon, your opponent pays 2 more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed.",
 				fr: "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé.",
-				de: "As long as Dark Muk is your Active Pokémon, your opponent pays   more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused,or Paralyed."
+				de: "Solange Dunkles Sleimok dein aktives Pokémon ist, zahlt dein Gegner {C}{C} mehr Rückzugskosten für sein oder ihr aktives Pokémon. Diese Fähigkeit verliert seine Wirkung, solange Dunkles Sleimok schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Sludge Punch",
 				fr: "Point gadoue",
-				de: "Sludge Punch"
+				de: "Schlammbadhieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
-		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
+		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit.",
+		de: "Sleimoks erscheinen plötzlich und verbreiten überall Schlamm. Jedesmal, wenn eines in der Stadt auftaucht, bricht Panik aus."
 	},
 
 

@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				de: "Durchbohren"
 			},
 
 			damage: 20,
@@ -62,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+		de: "Fühlt es sich bedroht, wehrt es sich, indem es eine großzügige Salve Dornen abfeuert."
 	},
 
 	thirdParty: {

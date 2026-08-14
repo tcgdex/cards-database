@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Because it is inept at walking on its newly grown legs, it always swims around in water.",
-		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
+		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager.",
+		de: "Da es auf seinen gerade gewachsenen Beinen nicht laufen kann, schwimmt es immer im Wasser umher."
 	},
 
 

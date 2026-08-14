@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mankey",
 		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Primeape is now Confused. Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Colosinge est maintenant Confus. Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Rasaff ist jetzt verwirrt. Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				de: "Rasaff ist jetzt verwirrt. Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 			damage: 50,
 
@@ -79,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+		de: "Siehst du ihm in die Augen, wird es wütend. Rennst du weg, wird es noch wütender. Ärgerst du es..."
 	},
 
 	thirdParty: {

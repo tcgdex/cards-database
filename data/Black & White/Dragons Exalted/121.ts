@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Rock Tumble",
 				fr: "Roule-Pierre",
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Pump-up Smash",
 				fr: "Taurocharge",
+				de: "Aufmöbler"
 			},
 			effect: {
 				en: "Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.",
 				fr: "Attachez 2 cartes Énergie de base de votre main à vos Pokémon de Banc, de la manière que vous voulez.",
+				de: "Lege 2 Basis-Energiekarten von deiner Hand nach Belieben an die Pokémon auf deiner Bank an."
 			},
 			damage: 90,
 

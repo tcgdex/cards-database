@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tranquill",
 		fr: "Colombeau",
+		de: "Navitaub"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Fly",
 				fr: "Vol",
+				de: "Fliegen"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 			damage: 50,
 
@@ -59,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Cutting Wind",
 				fr: "Vent Glacial",
+				de: "Schneidender Wind"
 			},
 
 			damage: 70,
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+		de: "Männchen schrecken Gegner ab, indem sie ihren Kopfschmuck schütteln. Weibchen verfügen über bessere Flugfertigkeiten."
 	},
 
 	thirdParty: {

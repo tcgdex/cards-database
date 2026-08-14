@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, whenever your opponent flips a coin, treat it as tails.",
 				fr: "Lors du prochain tour de votre adversaire, lorsque votre adversaire lance une pièce, considérez que c'est pile.",
-				de: "Im nächsten Zug deines Gegners zählen alle Ergebnisse von Münzwürfen deines Gegners als \"Zahl\"."
+				de: "Im nächsten Zug deines Gegners zählen alle Ergebnisse von Münzwürfen deines Gegners als „Zahl“."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier."
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

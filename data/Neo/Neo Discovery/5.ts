@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "If there are any Energy in your discard pile, choose 1 of them and attach it to Houndour.",
 				fr: "S'il y a des cartes Énergie  dans votre pile de défausse, choisissez l'une d'entre elles et attachez-la à Malosse.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wähle eine davon und lege sie an Hunduster an."
+				de: "Wenn mindestens eine {R}-Energiekarte in deinem Ablagestapel ist, wähle eine davon und lege sie an Hunduster an."
 			},
 			damage: 20,
 
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "To corner prey, they check each other's location using barks that only they can understand.",
-		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls."
+		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls.",
+		de: "Um Beute einzukreisen, verständigen sie sich mit einem Gebell, das nur sie verstehen können."
 	},
 
 

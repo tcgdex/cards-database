@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Expand",
 				fr: "Pousstoidla",
-				de: "Expand"
+				de: "Ausdehnen"
 			},
 			effect: {
 				en: "All damage done to Jigglypuff during your opponent's next turn is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Rondoudou pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "All damage done to Jigglypuff during your opponent´s next turn is reduced by 10 (after applying Weakness and Resistance)."
+				de: "Aller Schaden, der Pummeluff im nächsten Zug deines Gegners zugefügt wird, wird um 10 reduziert (nach Verrechnung von Schwäche und Resistenz)."
 			},
 			damage: 10,
 
@@ -64,7 +64,8 @@ const card: Card = {
 
 	description: {
 		en: "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep.",
-		fr: "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil."
+		fr: "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil.",
+		de: "Es bläst seinen Körper wie einen Ballon auf und singt ein Schlaflied, das alle, die es hören, sofort einschlafen lässt."
 	},
 
 

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
-		fr: "Nidorino"
+		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -34,7 +35,7 @@ const card: Card = {
 			name: {
 				en: "Territoriality",
 				fr: "Territorialité",
-				de: "Rasierverhalten"
+				de: "Revierverhalten"
 			},
 			effect: {
 				en: "If your Active Pokémon is damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon. You can't put more than 2 damage counters in this way.",
@@ -79,7 +80,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si ce sont des piles, cette attaque est sans effet.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 100,
 

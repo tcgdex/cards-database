@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "While it's an amiable Pokémon, if you touch it unexpectedly, it will heat up its body in an instant, and you'll be burned.",
+		de: "Es ist eigentlich sehr zutraulich. Berührt man es aber gegen seinen Willen, erhitzt es blitzartig seinen Körper, was zu Verbrennungen führt."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, choose 1 card from your opponent's hand without looking and discard it. If the first coin is tails, Gyarados is now Confused.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la. Si la première pièce est pile, Leviator est maintenant Confus.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Wähle für jedes Mal, wenn die Münze \"Kopf\" gezeigt hat, eine Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt die gewählte Karte auf seinen Ablagestapel. Wenn der allererste Wurf \"Zahl\" gezeigt hat, ist Garados jetzt verwirrt."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Wähle für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, eine Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt die gewählte Karte auf seinen Ablagestapel. Wenn der allererste Wurf „Zahl“ gezeigt hat, ist Garados jetzt verwirrt."
 			},
 			damage: 80,
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "Once it appears, its rage never settles until it has razed the fields and mountains around it.",
-		fr: "Lorsqu'il apparaît, sa rage ne cesse qu'après qu'il a rasé les plaines et montagnes alentour."
+		fr: "Lorsqu'il apparaît, sa rage ne cesse qu'après qu'il a rasé les plaines et montagnes alentour.",
+		de: "Sobald es erscheint, nimmt seine Wut nicht eher ab, bis es die Felder und Berge ringsum zerstört hat."
 	},
 
 	thirdParty: {

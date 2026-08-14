@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wailmer",
-		fr: "Wailmer"
+		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Wailord has any React Energy cards attached to it, the Retreat Cost for each of your Water Pokémon (excluding Pokémon-ex) is 0.",
 				fr: "Tant que Wailord possède des cartes Énergie réaction, le Coût de retraite de chacun de vos Pokémon  (Pokémon-ex exclus) est de 0.",
-				de: "Solange an Wailord mindestens eine Reaktions-Energiekarte angelegt ist, sind die Rückzugskosten deiner -Pokémon (außer Pokémon-ex) 0."
+				de: "Solange an Wailord mindestens eine Reaktions-Energiekarte angelegt ist, sind die Rückzugskosten deiner {W}-Pokémon (außer Pokémon-ex) 0."
 			},
 		},
 	],

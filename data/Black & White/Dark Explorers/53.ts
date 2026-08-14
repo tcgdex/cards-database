@@ -59,7 +59,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-Aile"
+				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 40,
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		de: "Dieses Pokémon flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
 	},
 
 	thirdParty: {

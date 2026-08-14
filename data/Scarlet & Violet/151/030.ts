@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
+		de: "Nähert sich Gefahr, schließen sie sich mit anderen Artgenossen zusammen und begegnen der Bedrohung mit einem Chor aus Ultraschallwellen."
 	},
 
 	variants: [

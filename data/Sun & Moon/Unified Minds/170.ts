@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por un ataque de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 2 contadores de daño en el Pokémon Atacante.",
 				it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo KO, metti due segnalini danno sul Pokémon attaccante.",
 				pt: "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 2 contadores de danos no Pokémon Atacante.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon."
+				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 4 Schadensmarken auf das Angreifende Pokémon."
 			},
 		},
 	],
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+		de: "Das faulste Pokémon der Welt. Es bewegt sich nur, wenn alles Essbare in Reichweite verputzt ist."
 	},
 
 	thirdParty: {

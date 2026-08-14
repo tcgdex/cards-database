@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fraxure",
 		fr: "Incisache",
+		de: "Sharfax"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar cualquier carta de Estadio en juego. Si lo haces, une hasta 3 cartas de Energía Fire y Metal, en cualquier combinación, de tu mano a este Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Stadio in gioco. Se lo fai, assegna fino a tre carte Energia Fire e Metal, in qualsiasi combinazione, dalla tua mano a questo Pokémon.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar qualquer carta de Estádio em jogo. Se fizer isto, ligue até 3 cartas de Energia Fire e Energia Metal da sua mão a este Pokémon em qualquer combinação.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 beliebige Stadionkarte im Spiel auf den Ablagestapel legen. Wenn du das machst, lege eine beliebige Kombination aus bis zu 3 Fire- und Metal-Energiekarten aus deiner Hand an dieses Pokémon an."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 beliebige Stadionkarte im Spiel auf den Ablagestapel legen. Wenn du das machst, lege eine beliebige Kombination aus bis zu 3 {R}- und {M}-Energiekarten aus deiner Hand an dieses Pokémon an."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+		de: "Hat eine eher sanfte Natur, doch bei Eindringlingen kennt es keine Gnade. Seine Stoßzähne durchbohren sogar Eisen."
 	},
 
 	thirdParty: {

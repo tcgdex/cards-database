@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},

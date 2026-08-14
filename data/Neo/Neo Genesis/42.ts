@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hoothoot",
-		fr: "Hoothoot"
+		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Glaring Gaze",
 				fr: "Regard perçant",
-				de: "Glaring Gaze"
+				de: "Starrender Blick"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire. Si votre adversaire possède une ou plusieurs cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck. Ce pouvoir ne peut être utilisé si Noarfang est Endormi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Schaue dir bei „Kopf“ die Hand deines Gegners an. Falls dein Gegner Trainerkarten auf der Hand hat, wähle eine von ihnen. Dein Gegner mischt diese Trainerkarte in sein Deck. Diese Fähigkeit kann nicht verwendet werden, falls Noctuh schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
-				de: "Wing Attack"
+				de: "Flügelschlag"
 			},
 
 			damage: 30,
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
-		fr: "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité."
+		fr: "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité.",
+		de: "Seine Augen sind besonders angepasst. Sie erfassen sogar schwaches Licht und ermöglichen ihm dadurch, in der Dunkelheit zu sehen."
 	},
 
 

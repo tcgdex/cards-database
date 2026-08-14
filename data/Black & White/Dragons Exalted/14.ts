@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Rosélia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Crosswise Whip",
 				fr: "Fouets Croisés",
+				de: "Kreuzschlag"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Poison Point",
 				fr: "Point Poison",
+				de: "Giftdorn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 60,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+		de: "Es kann mit beiden Händen verheerend angreifen. Seine Hände enthalten unterschiedliche Gifte."
 	},
 
 	thirdParty: {

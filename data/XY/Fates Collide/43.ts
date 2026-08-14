@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Fighting (excluido Regirock-EX) hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Fighting (escluso Regirock-EX) infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques dos seus Pokémon Fighting (exceto Regirock-EX) causam 10 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
-				de: "Die Angriffe deiner Fighting-Pokémon (außer Regirock-EX) fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Angriffe deiner {F}-Pokémon (außer Regirock-EX) fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],

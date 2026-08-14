@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+		de: "Ist es wütend, erreicht das Büschel auf seinem Kopf Temperaturen von bis zu 300 Grad. Es röstet sich damit auch Nüsse."
 	},
 
 	thirdParty: {

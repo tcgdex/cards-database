@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		de: "Früher verehrten die Menschen die Bronzong, weil sie sich davon Regen oder gute Ernten erhofften."
 	},
 
 	thirdParty: {

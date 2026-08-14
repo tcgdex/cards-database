@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Fire Spin",
 				fr: "Danseflamme",
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
+		de: "Mit seiner stolzen und königlichen Erscheinung gewinnt es die Herzen der Menschen."
 	},
 
 	thirdParty: {

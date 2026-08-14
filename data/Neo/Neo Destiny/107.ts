@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 1 Energy card and 1 Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.",
 				fr: "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts.",
-				de: "Lege eine jeweils an Schimmerndes Glurak angelegte -Energiekarte und -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei \"Zahl\" fügt sich Schimmerndes Glurak selbst 30 Schadenspunkte zu."
+				de: "Lege eine jeweils an Glurak angelegte {R}-Energiekarte und {L}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei „Zahl“ fügt sich Schimmerndes Glurak selber 30 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -67,7 +67,8 @@ const card: Card = {
 
 	description: {
 		en: "The flames it breathes are so hot that they can melt anything.",
-		fr: "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
+		fr: "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi.",
+		de: "Die Flammen, die es ausatmet, sind so heiß, dass sie alles zum Schmelzen bringen können."
 	},
 
 

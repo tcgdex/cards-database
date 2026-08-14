@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Koud'bec",
-				de: "Peck"
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Telekinesis",
 				fr: "Télékinésie",
-				de: "Telekinesis"
+				de: "Telekinese"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Ne pas appliquer la Faiblesse et la Résistance à cette attaque. (Tout autre effet ou attaque qui survient après application de la Faiblesse et de la Résistance est toujours valide.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz für diesen Angriff nicht an. (Alle anderen Auswirkungen von Angriffen, die nach der Anwendung von Schwäche und Resistenz stattfänden, finden immer noch statt.)"
 			}
 		},
 	],
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
-		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
+		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose.",
+		de: "Da seine Flügel noch nicht voll ausgewachsen sind, muss es hüpfen, um sich zurechtzufinden. Es starrt immer irgendetwas an."
 	},
 
 

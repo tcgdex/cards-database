@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "This kindhearted Pokémon nurses sick Pokémon to health. It senses feelings of sadness.",
-		fr: "Ce Pokémon au cœur d'or soigne les Pokémon malades. Il ressent la tristesse d'autrui."
+		fr: "Ce Pokémon au cœur d'or soigne les Pokémon malades. Il ressent la tristesse d'autrui.",
+		de: "Dieses gutherzige PKMN pflegt kranke PKMN gesund. Es spürt die Traurigkeit anderer Lebewesen."
 	},
 
 	thirdParty: {

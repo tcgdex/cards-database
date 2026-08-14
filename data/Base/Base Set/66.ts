@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "das verteidigende Pokémon ist vergiftet.",
+				de: "Das verteidigende Pokémon ist vergiftet.",
 				it: "Il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
@@ -82,7 +82,8 @@ const card: Card = {
 	description: {
 		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
-		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114"
+		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114",
+		de: "Sein ganzer Körper ist von breiten, seetangähnlichen Kletterpflanzen umhüllt."
 
 	},
 

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If Kecleon has any React Energy cards attached to it, Kecleon is Grass, Fire, Water, Lightning, Psychic, and Fighting type.",
 				fr: "Si Kecleon possède des cartes Énergie réaction, il est de type , , , ,  et .",
-				de: "Wenn an Kecleon mindestens eine Reaktions-Energiekarte angelegt ist, ist es vom Typ , , , ,  und ."
+				de: "Wenn an Kecleon mindestens eine Reaktions-Energiekarte angelegt ist, ist es vom Typ {G}, {R}, {W}, {L}, {P} und {F}."
 			},
 		},
 	],
@@ -71,7 +71,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

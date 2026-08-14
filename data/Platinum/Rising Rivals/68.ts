@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
+		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+		de: "Gase, die leichter als Luft sind, lassen es schweben. Diese Gase stinken und sind explosiv."
 	},
 
 	variants: [

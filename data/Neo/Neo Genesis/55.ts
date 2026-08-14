@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
-				de: "Supersonic"
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fleau",
-				de: "Flail"
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Chinchou.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Loupio.",
-				de: "Does 10 damage times the number of damage counters on Chinchou."
+				de: "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Lampi zu."
 			},
 			damage: "10x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
-		fr: "Il lance des arcs électriques positifs et négatifs entre ses antennes et électrocute ses ennemis."
+		fr: "Il lance des arcs électriques positifs et négatifs entre ses antennes et électrocute ses ennemis.",
+		de: "Es überträgt positive und negative Elektrizität zwischen den Spitzen seiner zwei Antennen hin und her und elektrisiert seine Feinde."
 	},
 
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Finneon",
 		fr: "Écayon",
+		de: "Finneon"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Deep down at the bottom of the ocean, prey is scarce. Lumineon get into fierce disputes with Lanturn over food.",
+		de: "Auf dem tiefen Meeresboden gibt es nur wenig Beute, weshalb es sich mit Lanturn heftige Kämpfe um das wertvolle Futter liefert."
 	},
 
 	thirdParty: {

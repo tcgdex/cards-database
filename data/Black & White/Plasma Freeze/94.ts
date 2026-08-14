@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, este Pokémon es del mismo tipo que el Pokémon Activo de tu rival.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, avrà lo stesso tipo del Pokémon attivo del tuo avversario.",
 				pt: "Desde que este Pokémon seja seu Pokémon Ativo, esse Pokémon é do mesmo tipo do Pokémon Ativo do seu oponente.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, ist dieses Pokémon vom gleichen Typ wie das Aktive Pokémon deines Gegners."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, hat dieses Pokémon den gleichen Typ wie das Aktive Pokémon deines Gegners."
 			},
 		},
 	],
@@ -58,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Imittack",
 				fr: "Imit’Attaque",
+				de: "Nachmacher"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. If this Pokémon has the necessary Energy to use that attack, use it as this attack.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Si ce Pokémon a l'Énergie nécessaire pour utiliser l'attaque choisie, utilisez-la  à la place de cette attaque.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Wenn an dieses Pokémon die für den gewählten Angriff erforderliche Energie angelegt ist, verwende ihn als diesen Angriff."
 			},
 
 		},
@@ -78,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
+		de: "Es kann nach Belieben seine Farbe ändern. Nur das gezackte Muster auf seinem Bauch bleibt gleich."
 	},
 
 	thirdParty: {

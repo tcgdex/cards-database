@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewott",
 		fr: "Mateloutre",
+		de: "Zwottronin"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+		de: "Schüchtert Gegner allein durch seinen Ruf ein. Ein Teil der Panzerung an seinen Vorderbeinen dient ihm als Langschwert."
 	},
 
 	thirdParty: {

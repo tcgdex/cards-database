@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Amnesia",
 				fr: "Amnésie",
-				de: "Amnesia"
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff während des nächsten Zuges deines Gegners nicht verwenden."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in cold water. It leaves the water to search for food when it gets cold outside.",
-		fr: "Ce Pokémon vit dans les eaux froides. Il sort de l'eau pour chercher de la nourriture lorsque la température baisse à l'extérieur."
+		fr: "Ce Pokémon vit dans les eaux froides. Il sort de l'eau pour chercher de la nourriture lorsque la température baisse à l'extérieur.",
+		de: "Dieses Pokémon lebt in kaltem Wasser. Es verlässt das Wasser auf der Suche nach Futter nur dann, wenn es draußen kalt wird."
 	},
 
 

@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+		de: "Das Wasser, das es im Büschel auf seinem Kopf sammelt, ist äußerst nahrhaft und verhilft Pflanzen zu großem Wachstum."
 	},
 
 	thirdParty: {

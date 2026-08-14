@@ -4,6 +4,7 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Growl",
+				de: "Heuler"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
+				de: "Falls das verteidigende Pokémon Pikachu während des nächsten gegnerischen Zuges angreift, werden die Schadenspunkte dieses Angriffs um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Wenn einer der beiden Pokémon auf die Bank geht, ist dieser Effekt somit beendet.)"
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -59,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+		de: "Wenn mehrere dieser Pokémon sich versammeln, kann ihre gesammelte Elektrizität sogar Gewitter verursachen."
 	},
 
 	variants: [

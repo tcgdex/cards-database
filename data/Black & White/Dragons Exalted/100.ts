@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Double Hit",
 				fr: "Coup Double",
+				de: "Doppelschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Hand Fling",
 				fr: "Catapu-Main",
+				de: "Handwurf"
 			},
 			effect: {
 				en: "Does 10 damage times the number of cards in your hand.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
 			},
 			damage: 10,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
+		de: "Es ist mit seinen beiden Schweifen so geschickt, dass es seine Hände nur noch selten gebraucht."
 	},
 
 	thirdParty: {

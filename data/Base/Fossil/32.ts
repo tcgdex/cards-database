@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellder",
-		fr: "Kokiyas"
+		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
 	stage: "Stage1",
@@ -46,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque n'a aucun effet (pas même les dégâts).",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
 			},
 
 			damage: 30
@@ -64,7 +65,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 30 Schadenspunkte zu."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
 			},
 			damage: "30x",
 
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
-		fr: "Lorsqu'il est attraqué, il projette ses cornes en rapides volées. Personne n'a jamais vu ses entrailles."
+		fr: "Lorsqu'il est attraqué, il projette ses cornes en rapides volées. Personne n'a jamais vu ses entrailles.",
+		de: "Wenn dieses Pokémon angegriffen wird, wirbelt es geschwind seine Hörner in die Höhe. Niemand hat jemals seine Innereien gesehen."
 	},
 
 

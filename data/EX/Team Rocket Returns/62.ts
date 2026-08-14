@@ -22,10 +22,6 @@ const card: Card = {
 		"Fighting",
 	],
 
-	evolveFrom: {
-		en: "Larvitar",
-	},
-
 	stage: "Basic",
 
 	attacks: [

@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Plusle sich selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Plusle sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -76,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
 	},
 
 	variants: [

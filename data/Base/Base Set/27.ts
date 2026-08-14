@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Quel que soit le résultat, vous ne pouvez plus utiliser cette attaque aussi longtemps que Canarticho reste en jeu (même renvoyer Canarticho sur le Banc ne vous permet pas de l'utiliser à nouveau).",
-				de: "Wir 1 Münze. Bei Zahl hat dieser Angriff keine Auswirkung. In jedem Fall kannst du diesen Angriff solange nicht mehr einsetzen, wie Porenta im Spiel bleibt (sogar wenn Porenta auf de Bank gesetzt wird, kan dieser Angriff nicht mehr eingesetzt werden.)",
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkung. In jedem Fall kannst Du diesen Angriff solange nicht mehr einsetzen, wie Porenta im Spiel bleibt (sogar wenn Porenta auf die Bank gesetzt wird, kann dieser Angriff nicht mehr eingesetzt werden.)",
 				it: "Lancia una moneta. Se esce croce, questo attacco non infligge alcun danno. Non puoi comunque usare di nuovo questo attacco finché Farfetch'd rimane in gioco (non puoi usarlo di nuovo anche se metti Farfetch'd in Panchina)."
 			},
 			damage: 30,
@@ -112,7 +112,8 @@ const card: Card = {
 	description: {
 		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 		fr: "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier.",
-		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83"
+		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83",
+		de: "Er hält die Lauchstange wie eine Waffe. Die Stange wird ähnlich wie ein Schwert verwendet."
 	}
 }
 

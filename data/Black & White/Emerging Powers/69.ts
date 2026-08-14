@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vullaby",
 		fr: "Vostourno",
+		de: "Skallyk"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Bone Rush",
 				fr: "Charge-Os",
+				de: "Knochenhatz"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Dark Pulse",
 				fr: "Vibrobscur",
+				de: "Finsteraura"
 			},
 			effect: {
 				en: "Does 10 more damage for each Darkness Energy attached to all of your Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
+				de: "Dieser Angriff fügt für jede {D}-Energie, die an deine Pokémon angelegt ist, 10 weitere Schadenpunkte zu."
 			},
 			damage: 20,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+		de: "Es überblickt das Areal aus der Luft und stürzt sich auf ein geschwächtes Opfer. Trägt gern Knochenschmuck."
 	},
 
 	thirdParty: {

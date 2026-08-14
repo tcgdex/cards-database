@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
+				de: "Wirf eine Münze, bis du „Zahl“ wirfst. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
-		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
+		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou.",
+		de: "Auf Feldern und Bergen anzutreffen. Da sie wie Felsen aussehen, stolpern oder fallen Wanderer oft über sie."
 	},
 
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou",
+		de: "Vegimak"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
 				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Stadium Drain",
 				fr: "Vampire de Stade",
+				de: "Stadionsauger"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				de: "Wenn eine Stadionkarte im Spiel ist, füge mit diesem Angriff 30 weitere Schadenspunkte zu und heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
 	thirdParty: {

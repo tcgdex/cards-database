@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
+		de: "Trotz seiner geringen Größe ist es sehr mutig. Um ein befreundetes Weibchen zu beschützen, riskiert es sein Leben und kämpft unerschrocken."
 	},
 
 	variants: [

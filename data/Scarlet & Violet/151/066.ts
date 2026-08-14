@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+		de: "Da es vor Kraft strotzt, hebt es zum Zeitvertreib Felsen. Dadurch gewinnt es an zusätzlicher Stärke."
 	},
 
 	variants: [

@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
-		fr: "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût."
+		fr: "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût.",
+		de: "Es mag kalte Klimata nicht, also bläst es glühende Flammen, um sich die Umgebung angenehm zu gestalten."
 	},
 
 

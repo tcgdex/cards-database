@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Tusk Toss",
 				fr: "Koud'défense",
-				de: "Tusk Toss"
+				de: "Stoßzahnstoß"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon.",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire. Si c'est pile, votre adversaire choisit un des Pokémon de son Banc et l'échange contre le Pokémon Défenseur.",
-				de: "If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon."
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wirf eine Münze. Bringe bei „Kopf“ das verteidigende Pokémon und alle daran angelegten Karten auf die Hand deines Gegners zurück. Bei „Zahl“ wählt dein Gegner eins seiner Pokémon auf der Bank und tauscht es mit dem verteidigenden Pokémon aus."
 			},
 
 		},
@@ -57,7 +58,7 @@ const card: Card = {
 			name: {
 				en: "Giant Tusk",
 				fr: "Défense géante",
-				de: "Giant Tusk"
+				de: "Riesenstoßzahn"
 			},
 
 			damage: 50,
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "The larger its tusks, the higher its status in the herd.",
-		fr: "Plus ses défenses sont grosses, plus c'est un membre important du troupeau."
+		fr: "Plus ses défenses sont grosses, plus c'est un membre important du troupeau.",
+		de: "Je länger die Stoßzähne, desto größer das Ansehen in der Herde."
 	},
 
 

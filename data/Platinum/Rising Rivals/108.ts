@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Energy attached to Infernape E4.",
 				fr: "Défaussez 2 Énergies attachées à Simiabraz .",
-				de: "Lege 2 an Panferno 4 angelegte Energien auf deinen Ablagestapel."
+				de: "Lege 2 an Panferno E4 angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

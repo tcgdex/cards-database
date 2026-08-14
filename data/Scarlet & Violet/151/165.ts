@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon de tu rival hacen 30 puntos de daño menos al Pokémon de Fase 1 al que esté unida esta carta (después de aplicar Debilidad y Resistencia).",
 		it: "Il Pokémon di Fase 1 a cui è assegnata questa carta subisce 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "O Pokémon Estágio 1 ao qual esta carta está ligada recebe 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
-		de: "Dem Phase-1-Pokémon, an das diese Karte angelegt ist, werden durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Dem Phase-1-Pokémon, an das diese Karte angelegt ist, werden durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

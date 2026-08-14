@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la Famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -50,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,
@@ -75,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
+		de: "Lebt in den Wipfeln der Waldbäume. Während es durch die Lüfte gleitet, entlädt es Strom aus seinen Fluglappen."
 	},
 
 	thirdParty: {

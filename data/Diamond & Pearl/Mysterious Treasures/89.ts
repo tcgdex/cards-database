@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez une pile, cette attaque est sans effet.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen 'Zahl' gezeigt haben, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ gezeigt haben, hat dieser Angriff keine Auswirklungen."
 			},
 			damage: 60,
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
-		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure.",
+		de: "Man sagt, es sei das schwächste PKMN der Welt. Niemand weiß, wie es bisher überleben konnte."
 	},
 
 	thirdParty: {

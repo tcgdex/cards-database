@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
-		fr: "Têtarte"
+		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing tire-bouchon",
-				de: "Corkscrew Punch"
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Submission",
 				fr: "Sacrifice",
-				de: "Submission"
+				de: "Überroller"
 			},
 			effect: {
 				en: "Poliwrath does 20 damage to itself.",
 				fr: "Tartard s'inflige 20 dégâts.",
-				de: "Poliwrath does 20 damage to itself"
+				de: "Quappo fügt sich selber 20 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
-		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
+		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme.",
+		de: "Obwohl es ein energischer, guter Schwimmer ist und alle seine Muskeln dabei einsetzt, lebt es im Trockenen."
 	},
 
 

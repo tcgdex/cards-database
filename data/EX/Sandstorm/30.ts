@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If you have Water Energy cards in your hand, attach as many Water Energy cards as you like to any of your Active Pokémon.",
 				fr: "Si vous avez des cartes Énergie  dans votre main, attachez-en autant que vous le voulez à votre ou vos Pokémon Actifs.",
-				de: "Falls du -Energiekarten auf der Hand hast, kannst du beliebig viele -Energiekarten an deine Aktiven Pokémon anlegen."
+				de: "Falls du {W}-Energiekarten auf der Hand hast, kannst du beliebig viele {W}-Energiekarten an deine Aktiven Pokémon anlegen."
 			},
 
 		},

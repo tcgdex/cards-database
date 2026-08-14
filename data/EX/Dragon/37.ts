@@ -21,10 +21,6 @@ const card: Card = {
 		"Fighting"
 	],
 
-	evolveFrom: {
-		en: "Meditite",
-	},
-
 	stage: "Basic",
 
 	attacks: [

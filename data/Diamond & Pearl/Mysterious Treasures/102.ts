@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, during your next turn, Spheal's Rollout attack's base damage is 40.",
 				fr: "Lancez une pièce. Si c'est face, les dégâts de base de l'attaque Roulade d'Obalie sont de 40 lors de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" beträgt in deinem nächsten Zug der Grundschaden von Seemops' Angriff Walzer 40 Schadenspunkte."
+				de: "Wirf 1 Münze. Bei „Kopf“ beträgt in deinem nächsten Zug der Grundschaden des von Seemops' Angriff Walzer 40 Schadenspunkte."
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
-		fr: "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage."
+		fr: "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage.",
+		de: "Es rollt über Eisschollen, um Land zu erreichen, da sein Körper zum Schwimmen nicht geeignet ist."
 	},
 
 	thirdParty: {

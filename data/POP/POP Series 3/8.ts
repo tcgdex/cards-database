@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Donphan",
-		fr: "Donphan"
+		fr: "Donphan",
+		de: "Donphan"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sniff Out",
-				fr: "Flairer"
+				fr: "Flairer",
+				de: "Rumschnüffeln"
 			},
 			effect: {
 				en: "Put any 1 card from your discard pile into your hand.",
-				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main."
+				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				de: "Wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 

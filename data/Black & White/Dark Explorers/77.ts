@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Klang",
-		fr: "Clic"
+		fr: "Clic",
+		de: "Kliklak"
 	},
 
 	stage: "Stage2",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Blast",
-				fr: "Explosion Métallique"
+				fr: "Explosion Métallique",
+				de: "Metallexplosion"
 			},
 			effect: {
 				en: "Does 20 more damage for each Metal Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie  attachée à ce Pokémon."
+				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie  attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {M}-Energie zu."
 			},
 			damage: 20,
 
@@ -58,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lock Gear",
-				fr: "Déclic Mécanique"
+				fr: "Déclic Mécanique",
+				de: "Volle Drehung"
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
+				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: 60,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "The gear with the red core is rotated at high speed for a rapid energy charge.",
+		de: "Indem es das Rad mit dem roten Zentrum mit hohem Tempo zum Rotieren bringt, kann es eine Turboladung durchführen."
 	},
 
 	thirdParty: {

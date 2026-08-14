@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for up to 3 Fire Energy cards and attach them to 1 of your Pokémon.",
 				fr: "Cherchez dans votre pile de défausse jusqu’à 3 cartes Énergie Fire et attachez-les à l’un de vos Pokémon.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 3 -Energiekarten und lege sie an 1 deiner Pokémon an."
+				de: "Durchsuche deinen Ablagestapel nach bis zu 3 {R}-Energiekarten und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Some legends claim that each of its nine tails has its own unique type of special mystical power."
+		en: "Some legends claim that each of its nine tails has its own unique type of special mystical power.",
+		de: "Eine Legende sagt, dass jedem seiner neun Schwänze eine einzigartige mystische Kraft innewohnt."
 	},
 
 	variants: [

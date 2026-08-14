@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dig",
 				fr: "Tunnel",
+				de: "Schaufler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
+		de: "Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist."
 	},
 
 	thirdParty: {

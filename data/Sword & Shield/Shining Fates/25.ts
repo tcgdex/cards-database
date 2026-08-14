@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		de: "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen."
 	},
 
 	variants: [

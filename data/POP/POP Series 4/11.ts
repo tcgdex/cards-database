@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				fr: "Super hypnovague",
+				de: "Super Hypno Welle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 

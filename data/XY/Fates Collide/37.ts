@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 60 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60×",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+		de: "Der Knochen, den dieses Pokémon hält, ist seine Primärwaffe. Es wirft ihn wie einen Bumerang."
 	},
 
 	thirdParty: {

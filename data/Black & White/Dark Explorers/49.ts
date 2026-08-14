@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psy Bolt",
-				fr: "Choc Mental"
+				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hand Press",
-				fr: "Pression des Mains"
+				fr: "Pression des Mains",
+				de: "Händedruck"
 			},
 			effect: {
 				en: "If you have more cards in your hand than your opponent, this attack does 30 more damage.",
-				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 30 dégâts supplémentaires."
+				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn du mehr Karten auf der Hand hast als dein Gegner, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
+		de: "Wird es von Muschas gebissen, wird es so intelligent, dass es sich mit Nobelpreisträgern messen kann."
 	},
 
 	thirdParty: {

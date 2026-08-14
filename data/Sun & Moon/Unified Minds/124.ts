@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fighting de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Fighting dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fighting da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Fighting-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 1 {F}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 20,
 
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.",
+		de: "In dieser Form vereint Zygarde 10 % seiner Zellen in sich. Mit seinen spitzen Fangzähnen stürzt es sich auf den Körper des Gegners."
 	},
 
 	thirdParty: {

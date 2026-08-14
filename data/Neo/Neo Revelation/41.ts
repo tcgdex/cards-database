@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
-		fr: "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre."
+		fr: "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre.",
+		de: "Es lebt auf sehr hohen Bäumen. Wenn es von Ast zu Ast hüpft, verwendet es seinen Schwanz, um das Gleichgewicht nicht zu verlieren."
 	},
 
 

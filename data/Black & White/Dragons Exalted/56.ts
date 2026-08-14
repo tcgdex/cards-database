@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gothita",
 		fr: "Scrutella",
+		de: "Mollimorba"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Hypnoblast",
 				fr: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Mind Shock",
 				fr: "Choc Cérébral",
+				de: "Verstandesschock"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		de: "Zieht seine Energie aus dem Sternenlicht. Bei Nacht bringt es Steine zum Schweben und bildet damit Sternzeichen nach."
 	},
 
 	thirdParty: {

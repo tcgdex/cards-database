@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 		fr: "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
-		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie.",
+		de: "Wähle eine auf einem Pokémon Deines Gegners abgelegte Energiekarte und entferne sie.",
 		it: "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
 	},
 
