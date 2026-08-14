@@ -84,6 +84,11 @@ const card: Card = {
 	description: {
 		en: "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

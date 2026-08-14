@@ -91,6 +91,11 @@ const card: Card = {
 	description: {
 		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

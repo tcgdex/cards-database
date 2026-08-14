@@ -90,6 +90,11 @@ const card: Card = {
 	description: {
 		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

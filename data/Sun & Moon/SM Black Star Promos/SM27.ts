@@ -85,6 +85,11 @@ const card: Card = {
 	description: {
 		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

@@ -96,6 +96,11 @@ const card: Card = {
 	description: {
 		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

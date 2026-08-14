@@ -74,6 +74,11 @@ const card: Card = {
 	description: {
 		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

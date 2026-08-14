@@ -94,6 +94,11 @@ const card: Card = {
 	description: {
 		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

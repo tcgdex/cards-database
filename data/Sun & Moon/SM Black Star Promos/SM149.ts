@@ -88,6 +88,11 @@ const card: Card = {
 	description: {
 		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

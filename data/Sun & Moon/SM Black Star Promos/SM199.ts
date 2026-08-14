@@ -60,6 +60,11 @@ const card: Card = {
 	description: {
 		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

@@ -100,6 +100,11 @@ const card: Card = {
 	description: {
 		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

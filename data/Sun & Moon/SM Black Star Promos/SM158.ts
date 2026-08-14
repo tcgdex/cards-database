@@ -90,6 +90,11 @@ const card: Card = {
 	description: {
 		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

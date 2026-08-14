@@ -93,6 +93,11 @@ const card: Card = {
 	description: {
 		en: "Although its name was Type: Null at first, the boy who evolved it into this form gave it the name by which it is now known.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

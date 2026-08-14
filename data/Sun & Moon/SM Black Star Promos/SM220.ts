@@ -66,6 +66,11 @@ const card: Card = {
 	description: {
 		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

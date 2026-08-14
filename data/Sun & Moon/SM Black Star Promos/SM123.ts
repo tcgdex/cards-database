@@ -96,6 +96,11 @@ const card: Card = {
 	description: {
 		en: "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

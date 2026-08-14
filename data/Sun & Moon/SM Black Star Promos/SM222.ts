@@ -81,6 +81,11 @@ const card: Card = {
 	description: {
 		en: "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

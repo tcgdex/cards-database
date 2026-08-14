@@ -83,6 +83,11 @@ const card: Card = {
 	description: {
 		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

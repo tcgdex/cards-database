@@ -71,6 +71,11 @@ const card: Card = {
 	description: {
 		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

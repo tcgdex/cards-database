@@ -94,6 +94,11 @@ const card: Card = {
 	description: {
 		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

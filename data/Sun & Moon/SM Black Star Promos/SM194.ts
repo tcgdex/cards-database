@@ -72,6 +72,11 @@ const card: Card = {
 	description: {
 		en: "Skilled in deduction, he's a self-proclaimed \"great detective.\" His detective hat is his trademark.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

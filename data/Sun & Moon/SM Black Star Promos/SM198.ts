@@ -77,6 +77,11 @@ const card: Card = {
 	description: {
 		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

@@ -76,6 +76,11 @@ const card: Card = {
 	description: {
 		en: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

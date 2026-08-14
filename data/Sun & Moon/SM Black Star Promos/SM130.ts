@@ -100,6 +100,11 @@ const card: Card = {
 	description: {
 		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

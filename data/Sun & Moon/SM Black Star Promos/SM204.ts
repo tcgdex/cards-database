@@ -92,6 +92,11 @@ const card: Card = {
 	description: {
 		en: "It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

@@ -87,6 +87,11 @@ const card: Card = {
 	description: {
 		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

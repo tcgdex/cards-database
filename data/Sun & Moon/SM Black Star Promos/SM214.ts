@@ -90,6 +90,11 @@ const card: Card = {
 	description: {
 		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

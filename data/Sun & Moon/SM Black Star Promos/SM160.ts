@@ -91,6 +91,11 @@ const card: Card = {
 	description: {
 		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

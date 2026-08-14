@@ -99,6 +99,11 @@ const card: Card = {
 	description: {
 		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

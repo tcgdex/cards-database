@@ -64,6 +64,11 @@ const card: Card = {
 	description: {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

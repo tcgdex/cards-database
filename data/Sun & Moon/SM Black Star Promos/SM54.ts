@@ -84,6 +84,11 @@ const card: Card = {
 	description: {
 		en: "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

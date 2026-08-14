@@ -90,6 +90,11 @@ const card: Card = {
 	description: {
 		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

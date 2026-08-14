@@ -24,7 +24,12 @@ const card: Card = {
 		it: "Una sola volta durante il turno di ciascun giocatore, se quel giocatore ha sei Pokémon in gioco, può curare 10 danni da ciascuno dei suoi Pokémon.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, se esse jogador possuir 6 Pokémon em jogo, ele ou ela poderá curar 10 de danos de cada um de seus próprios Pokémon.",
 		de: "Einmal während seines Zuges darf jeder Spieler, falls er 6 Pokémon im Spiel hat, 10 Schadenspunkte bei jedem seiner Pokémon heilen."
-	}
+	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

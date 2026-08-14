@@ -74,6 +74,11 @@ const card: Card = {
 	description: {
 		en: "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card

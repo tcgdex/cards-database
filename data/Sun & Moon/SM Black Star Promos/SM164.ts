@@ -88,6 +88,11 @@ const card: Card = {
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
 	},
+
+	thirdParty: {
+		tcgplayer: 0,
+		cardmarket: 0
+	},
 }
 
 export default card
