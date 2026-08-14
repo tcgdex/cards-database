@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+		de: "Selbst aus 100 m Entfernung treffen die Wassersalven, die es mit seinem Maul abfeuert, ihr Ziel."
 	},
 
 

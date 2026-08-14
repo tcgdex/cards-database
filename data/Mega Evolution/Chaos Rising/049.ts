@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+		de: "Über den Mund stößt es Ultraschallwellen aus, um seine Umgebung zu erkunden. So kann es selbst in engen Höhlen geschickt umherfliegen."
 	},
 
 

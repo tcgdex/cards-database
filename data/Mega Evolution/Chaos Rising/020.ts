@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		de: "Es schützt seine Haut mit feinen Blasen, die den Körper umhüllen. Obwohl es sich sorglos gibt, hat es die Umgebung stets aufmerksam im Auge."
 	},
 
 

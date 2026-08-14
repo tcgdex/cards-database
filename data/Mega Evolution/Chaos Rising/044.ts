@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
+		de: "Es ist viel stärker, als es aussieht. Wenn es seinen Rüssel umherschwingt und einen dabei am Arm erwischt, ist dieser wahrscheinlich gebrochen."
 	},
 
 

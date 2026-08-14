@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "This very friendly dragon Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+		de: "Dieses äußerst freundliche Drachen-Pokémon neigt dazu, seinen geliebten Trainer zu umarmen und so mit einer dicken Schleimschicht zu umhüllen."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Sliggoo"
+		en: "Sliggoo",
+		de: "Viscargot"
 	},
 
 	stage: "Stage2",

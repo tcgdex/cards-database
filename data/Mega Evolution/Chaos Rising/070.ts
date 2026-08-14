@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+		de: "Es hortet in seinen Backentaschen Futter, um tagelang Wache stehen zu können, und gibt Kameraden über seine Rute Signale."
 	},
 
 

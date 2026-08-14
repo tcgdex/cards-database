@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
+		de: "Damit die starken Psycho-Kräfte dieses Pokémon nicht unkontrolliert nach außen dringen, bedeckt es das Organ, das sie freisetzt, mit seinen Ohren."
 	},
 
 

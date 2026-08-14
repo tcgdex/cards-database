@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+		de: "Mit einer körpereigenen Leuchtsubstanz lässt es seine Augen und die Markierungen an seinem Körper aufleuchten. Dies schreckt seine Angreifer ab."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Patrat"
+		en: "Patrat",
+		de: "Nagelotz"
 	},
 
 	stage: "Stage1",
