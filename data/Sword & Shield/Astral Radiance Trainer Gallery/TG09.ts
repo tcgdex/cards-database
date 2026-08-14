@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si tu rival tiene algún Pokémon VMAX en juego, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
 			it: "Se il tuo avversario ha dei Pokémon-VMAX in gioco, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
 			pt: "Se o seu oponente tiver algum Pokémon VMAX em jogo, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-			de: "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+			de: "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
 		}
 	}],
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+		de: "Es jagt in Rudeln von ungefähr zehn Magnayen. Beim Einkreisen der Beute arbeiten sie perfekt zusammen."
 	},
 
 	variants: [
