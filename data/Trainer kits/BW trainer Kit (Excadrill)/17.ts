@@ -40,7 +40,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Metal Claw",
-			fr: "Griffe Acier"
+			fr: "Griffe Acier",
+			de: "Metallklaue"
 		},
 
 		damage: 30
@@ -52,11 +53,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Drill Run",
-			fr: "Tunnelier"
+			fr: "Tunnelier",
+			de: "Schlagbohrer"
 		},
 		effect: {
 			en: "Discard an Energy attached to the Defending Pokémon.",
-			fr: "Défaussez une Énergie attachée au Pokémon Défenseur."
+			fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+			de: "Lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 		},
 		damage: 80
 	}],
@@ -72,7 +75,8 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates."
+		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		de: "Seine zu Stahl weiterentwickelten Bohrer kriegen selbst Eisenplatten klein. Im Tunnelbau ist es ein absolutes Ass."
 	},
 
 	retreat: 2,
