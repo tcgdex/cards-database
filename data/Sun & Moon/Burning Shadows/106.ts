@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+		de: "Sein Zeitgefühl ist perfekt. Was auch immer passiert, es behält den Rhythmus, da sein Kopf wackelt."
 	},
 
 	thirdParty: {

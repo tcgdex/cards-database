@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansear",
 		fr: "Flamajou",
+		de: "Grillmak"
 	},
 
 	stage: "Stage1",
@@ -69,7 +70,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 50,
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+		de: "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif."
 	},
 
 	thirdParty: {

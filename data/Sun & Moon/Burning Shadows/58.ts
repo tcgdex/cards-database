@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whirlipede",
 		fr: "Scobolide",
+		de: "Rollum"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+		de: "Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest."
 	},
 
 	thirdParty: {

@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "They are timid and grow uneasy when not in a swarm with others of their kind. The pattern on their backs differs slightly from one to another.",
+		de: "Es ist scheu und fürchtet sich, wenn es nicht Teil des Schwarms ist. Das Muster auf seinem Rücken ist bei jedem Exemplar minimal anders."
 	},
 
 	thirdParty: {

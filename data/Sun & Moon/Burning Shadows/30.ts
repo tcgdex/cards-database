@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
+		de: "Sein Körper ist mit scharfen Stacheln gespickt. Wenn man sorglos ist und es berührt, kann man durch die Stacheln bewusstlos werden."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "For the purposes of planetary development, Porygon was updated with the most cutting-edge technology available.",
+		de: "In der Absicht, andere Planeten zu erforschen, verpasste man Porygon ein Upgrade auf dem höchsten Stand der damaligen Technologie."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador cambia su Pokémon Activo por 1 de sus Pokémon en Banca. Tu rival lo cambia primero. (Si algún jugador no tiene ningún Pokémon en Banca, no cambiará su Pokémon).",
 		it: "Ciascun giocatore scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina. Inizia il tuo avversario. Se un giocatore non ha Pokémon in panchina, non effettuerà lo scambio.",
 		pt: "Cada jogador troca o seu Pokémon Ativo por 1 dos próprios Pokémon no Banco. O seu oponente troca primeiro (se um jogador não possuir Pokémon no Banco, aquele jogador não troca o Pokémon).",
-		de: "Jeder Spieler tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus. Dein Gegener tauscht als Erster. (Hat ein Spieler kein Pokémon auf der Bank, tauscht jener Spieler kein Pokémon aus.)"
+		de: "Jeder Spieler tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus. Dein Gegner tauscht als Erster. (Hat ein Spieler kein Pokémon auf der Bank, tauscht jener Spieler kein Pokémon aus.) Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

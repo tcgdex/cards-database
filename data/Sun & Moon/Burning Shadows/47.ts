@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
+		de: "Normalerweise liegen seine Stacheln am Rücken an, aber wenn es sich aufregt, stellen sie sich auf und stechen angreifende Gegner."
 	},
 
 	thirdParty: {

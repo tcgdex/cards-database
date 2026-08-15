@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
+		de: "Rammt seine Gegner ohne Rücksicht auf Verluste mit dem Kopf und vermag damit sogar Züge zum Entgleisen zu bringen."
 	},
 
 	thirdParty: {

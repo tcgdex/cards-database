@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta es tu Pokémon Activo y queda Fuera de Combate por el daño de un ataque de tu rival, mueve hasta 3 cartas de Energía Básica de ese Pokémon a 1 de tus Pokémon en Banca.",
 		it: "Se il Pokémon a cui è assegnata questa carta è il tuo Pokémon attivo e viene messo KO dai danni inflitti da un attacco del tuo avversario, sposta fino a tre carte Energia base da quel Pokémon a uno di quelli nella tua panchina.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e ele for Nocauteado pelo dano de um ataque do seu oponente, mova até 3 cartas de Energia básica daquele Pokémon para 1 dos seus Pokémon no Banco.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch Schaden einer Attacke deines Gegners kampfunfähig wird, verschiebe bis zu 3 Basis-Energiekarten von jenem Pokémon auf 1 Pokémon auf deiner Bank."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch Schaden einer Attacke deines Gegners kampfunfähig wird, verschiebe bis zu 3 Basis-Energiekarten von jenem Pokémon auf 1 Pokémon auf deiner Bank. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

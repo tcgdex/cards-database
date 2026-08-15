@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ledyba",
 		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "While it's believed that starlight provides it with energy, this Pokémon also loves to eat berries. In the daytime, it curls up in the grass to sleep.",
+		de: "Es heißt, es ziehe seine Energie aus dem Licht der Sterne, aber es frisst trotzdem mit Wonne Beeren. Tagsüber schläft es im Gras."
 	},
 
 	thirdParty: {

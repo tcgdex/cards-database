@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta. Si es una carta de Partidario, descártala.",
 		it: "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta. Se si tratta di una carta Aiuto, scartala.",
 		pt: "Escolha 1 carta aleatória da mão do seu oponente. Seu oponente revela aquela carta. Se for uma carta de Apoiador, descarte-a.",
-		de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte. Wenn es eine Unterstützerkarte ist, lege sie auf seinen Ablagestapel."
+		de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte. Wenn es eine Unterstützerkarte ist, lege sie auf seinen Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

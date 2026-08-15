@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a este Pokémon por ataques de Pokémon Colorless.",
 				it: "Previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon Colorless.",
 				pt: "Previne todo o dano causado a este Pokémon por ataques de Pokémon Colorless.",
-				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Colorless-Pokémon zugefügt wird."
+				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von {C}-Pokémon zugefügt wird."
 			},
 		},
 	],
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Psychic de este Pokémon. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Psychic assegnate a questo Pokémon. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Psychic deste Pokémon. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma.",
-				de: "Lege alle Psychic-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {P}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "10+",
 
@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Rayo Negro GX",
 				it: "Raggio Nero-GX",
 				pt: "Raio Preto GX",
-				de: "Schwarzer Strahl GX"
+				de: "Schwarzer Strahl-GX"
 			},
 			effect: {
 				en: "This attack does 100 damage to each of your opponent’s Pokémon-GX and Pokémon-EX. This damage isn’t affected by Weakness or Resistance. (You can’t use more than 1 GX attack in a game.)",

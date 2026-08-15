@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Water de este Pokémon. Este ataque hace 120 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Scarta due Energie Water assegnate a questo Pokémon. Questo attacco infligge 120 danni a uno dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Descarte 2 Energias Water deste Pokémon. Este ataque causa 120 pontos de dano a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Lege 2 Water-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Lege 2 {W}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Tormenta Tapu GX",
 				it: "Taputempesta-GX",
 				pt: "Tempestade Tapu GX",
-				de: "Kapu-Sturm GX"
+				de: "Kapu-Sturm-GX"
 			},
 			effect: {
 				en: "Shuffle your opponent’s Active Pokémon and all cards attached to it into their deck. If your opponent has no Benched Pokémon, this attack does nothing. (You can’t use more than 1 GX attack in a game.)",

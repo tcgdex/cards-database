@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
+		de: "Es sieht sehr süß aus, aber wehe, es wird wütend. Mit seinen Armen wirbelnd haut es selbst den stärksten Wrestler um."
 	},
 
 	thirdParty: {

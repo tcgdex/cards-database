@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Fairy de tu mano a 1 de tus Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon una carta Energia Fairy dalla tua mano.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Fairy da sua mão a 1 dos seus Pokémon.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fairy-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {FAIRY}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Crepúsculo GX",
 				it: "Crepuscolo-GX",
 				pt: "Crepúsculo GX",
-				de: "Zwielicht GX"
+				de: "Zwielicht-GX"
 			},
 			effect: {
 				en: "Shuffle 10 cards from your discard pile into your deck. (You can’t use more than 1 GX attack in a game.)",

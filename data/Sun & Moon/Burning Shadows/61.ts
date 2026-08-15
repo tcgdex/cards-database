@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
+		de: "Der Groll eines verstorbenen Reisenden fuhr in einen Sandhügel, den ein Kind gebaut hatte, und brachte dieses Pokémon in die Welt."
 	},
 
 	thirdParty: {
