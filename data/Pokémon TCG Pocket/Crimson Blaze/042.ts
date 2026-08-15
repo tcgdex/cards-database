@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Buneary"
 	},
 
-	description: {
-		en: "It swings its ears like whips and strikes its\nenemies with them. It has an intensely\ncombative disposition."
-	},
-
 	stage: "Stage1",
 	suffix: "EX",
 

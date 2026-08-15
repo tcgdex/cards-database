@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Charmeleon"
 	},
 
-	description: {
-		en: "Its bond with its Trainer is the source of\nits power. It boasts speed and maneuverability\ngreater than that of a jet."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 

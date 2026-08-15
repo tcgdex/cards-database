@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Flaaffy"
 	},
 
-	description: {
-		en: "The tail's tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 

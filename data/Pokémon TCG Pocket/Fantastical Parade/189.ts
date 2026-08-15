@@ -16,10 +16,6 @@ const card: Card = {
 	hp: 180,
 	types: ["Colorless"],
 
-	description: {
-		en: "Mega Kangaskhan's strength derives from the\nmother's happiness about her child's growth.\nWatching it grow up keeps her spirits high."
-	},
-
 	stage: "Basic",
 	suffix: "EX",
 

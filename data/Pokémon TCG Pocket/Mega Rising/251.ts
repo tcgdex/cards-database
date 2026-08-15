@@ -16,10 +16,6 @@ const card: Card = {
 	hp: 170,
 	types: ["Grass"],
 
-	description: {
-		en: "The influence of Mega Evolution leaves it in a\nstate of constant excitement. It pierces enemies\nwith its two large horns before shredding them."
-	},
-
 	stage: "Basic",
 	suffix: "EX",
 

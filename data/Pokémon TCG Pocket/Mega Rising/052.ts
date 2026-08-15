@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Magikarp"
 	},
 
-	description: {
-		en: "Mega Evolution also affects its brain, leaving\nno other function except its destructive instinct\nto burn everything to cinders."
-	},
-
 	stage: "Stage1",
 	suffix: "EX",
 

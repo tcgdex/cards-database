@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Combusken"
 	},
 
-	description: {
-		en: "When facing a tough foe, it looses flames from\nits wrists. Its powerful legs let it jump clear over\nbuildings."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 
