@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergifet."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid."
+		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid.",
+		de: "Die Beeren, die es in seinem Inneren lagert, gären und daraus entsteht ein dickflüssiger Saft."
 	},
 
 	variants: [

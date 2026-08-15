@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
+		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains.",
+		de: "Da seine Flügel mit einem wasserabweisenden Puder überzogen sind, kann es im Regen Honig sammeln."
 	},
 
 	variants: [

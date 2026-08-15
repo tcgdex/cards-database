@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Draw a card for each Water Energy attached to all of your Pokémon.",
 				fr: "Piochez une carte pour chaque carte Énergie Water attachée à l’ensemble de vos Pokémon.",
-				de: "Ziehe eine Karte für jede -Energie, die an allen deinen Pokémon angelegt ist."
+				de: "Ziehe eine Karte für jede {W}-Energie, die an allen deinen Pokémon angelegt ist."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+		en: "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks.",
+		de: "Sein Nest baut es an scharfkantigen Felsklippen. Es ist den ganzen Tag auf Futtersuche für seine Jungen."
 	},
 
 	variants: [

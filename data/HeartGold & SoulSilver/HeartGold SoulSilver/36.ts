@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone."
+		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone.",
+		de: "Jeder, der einen Bissen von dem Ei, das HEITEIRA hält, nimmt, wird gegenüber anderen sorgsam und höflich."
 	},
 
 	variants: [

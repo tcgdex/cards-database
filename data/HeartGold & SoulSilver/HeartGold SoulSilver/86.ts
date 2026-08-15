@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful."
+		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful.",
+		de: "Seine starken Kiefer können alles zermalmen. Selbst sein Trainer muss sich vor ihm in Acht nehmen."
 	},
 
 	variants: [

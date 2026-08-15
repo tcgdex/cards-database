@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair."
+		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
+		de: "Aufgrund des gespeicherten Mondlichts in seinen Flügeln auf dem Rücken kann es in der Luft schweben."
 	},
 
 	variants: [

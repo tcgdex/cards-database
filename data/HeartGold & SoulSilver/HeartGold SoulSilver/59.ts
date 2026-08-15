@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature."
+		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
+		de: "Mit seinem aromatischem Blatt ist es in der Lage, die Temperatur und die Luftfeuchtigkeit zu messen"
 	},
 
 	variants: [

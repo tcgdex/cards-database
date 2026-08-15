@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
+		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier.",
+		de: "Es kann sich an jeden gefressenen Traum erinnern. Die Träume von Kindern bekommen ihm besser."
 	},
 
 	variants: [

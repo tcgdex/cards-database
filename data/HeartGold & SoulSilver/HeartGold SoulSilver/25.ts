@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ledyba",
-		fr: "Coxy"
+		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
+		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+		de: "Die Größe des Sternenmusters hängt direkt mit der Anzahl der Sterne am Firmament zusammen."
 	},
 
 	variants: [

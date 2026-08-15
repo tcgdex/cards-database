@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croconaw",
-		fr: "Crocodil"
+		fr: "Crocodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+		de: "Wenn es mit seinem kräftigen Kiefer zubeißt, schüttelt es seinen Kopf und reißt seine Opfer in Stücke."
 	},
 
 	variants: [

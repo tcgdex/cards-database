@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Draw a card for each of your Grass Pokémon in play.",
 				fr: "Piochez une carte pour chacun de vos Pokémon Grass en jeu.",
-				de: "Ziehe eine Karte für jedes deiner -Pokémon im Spiel."
+				de: "Ziehe eine Karte für jedes deiner {G}-Pokémon im Spiel."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This powerful Pokémon thrusts its prized horn under its enemies’ bellies, then lifts and throws them."
+		en: "This powerful Pokémon thrusts its prized horn under its enemies’ bellies, then lifts and throws them.",
+		de: "Dieses kräftige Pokémon rammt sein stolzes Horn unter den Rumpf des Gegners und wirft ihn um."
 	},
 
 	variants: [

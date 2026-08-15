@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos"
+		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -71,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
+		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane.",
+		de: "Dieses legendäre chinesische Pokémon wird wegen seiner Schönheit verehrt. Vor allem wegen der Mähne."
 	},
 
 	variants: [

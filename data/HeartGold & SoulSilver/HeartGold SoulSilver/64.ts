@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite."
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+		de: "Sein Schweif hat ein eigenes Gehirn. Achtung! Kommst du ihm zu nahe, kann es dich riechen und beißt."
 	},
 
 	variants: [

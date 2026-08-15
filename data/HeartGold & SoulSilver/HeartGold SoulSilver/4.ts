@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+		de: "Taucht es auf, randaliert es. Es beruhigt sich erst, wenn es alles um sich zerstört hat."
 	},
 
 	variants: [

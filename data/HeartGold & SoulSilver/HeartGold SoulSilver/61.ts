@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+		de: "Es ist immer gebeugt. Wird es angegriffen oder überrascht, schießen Flammen aus seinem Rücken."
 	},
 
 	variants: [

@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm."
+		en: "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm.",
+		de: "Wird es kalt, versammeln sich viele LEDYBA von nah und fern, um sich gegenseitig Wärme zu schenken."
 	},
 
 	variants: [

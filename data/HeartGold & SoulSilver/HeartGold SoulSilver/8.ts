@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hoothoot",
-		fr: "Hoothoot"
+		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+		de: "Sein Sehvermögen ist hervorragend. Selbst bei schwachem Licht kann es jedes Detail erkennen."
 	},
 
 	variants: [

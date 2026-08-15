@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c’est pile, Léviator s’inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Garados sich selbst 20 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt Garados sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake."
+		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake.",
+		de: "Man sagt, dass GARADOS in den alten Kriegen aufgetaucht sei und nichts als Ruinen hinterlassen hat."
 	},
 
 	variants: [
