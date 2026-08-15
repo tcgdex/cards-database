@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "They flock in great numbers. Though small, they flap their wings with great power.",
-		fr: "Ils volent en nombre. Bien que minuscule, il bat des ailes avec une vigueur impressionnante."
+		fr: "Ils volent en nombre. Bien que minuscule, il bat des ailes avec une vigueur impressionnante.",
+		de: "Ihr Schwarm ist stets groß. Obwohl es kleine PKMN sind, schwingen sie ihre Flügel mit enormer Kraft."
 	},
 
 	thirdParty: {

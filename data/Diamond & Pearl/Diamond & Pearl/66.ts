@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Unown B is on your Bench, you may flip a coin. If heads, discard all cards attached to any 1 of your Unown and shuffle that Pokémon back into your deck.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi B est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, défaussez toutes les cartes attachées à 1 de vos Zarbis et mélanger ce Pokémon à votre deck.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito B auf deiner Bank liegt, kannst du 1 Münze werfen. Bei \"Kopf\" lege alle Karten, die an 1 deiner Icognito angelegt sind, auf deinen Ablagestapel und mische danach dieses Pokémon in dein Deck."
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito B auf deiner Bank liegt, kannst du 1 Münze werfen. Bei „Kopf“ lege alle Karten, die an 1 deiner Icognito angelegt sind, auf deinen Ablagestapel und mische danach dieses Pokémon in dein Deck."
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

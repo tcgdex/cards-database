@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
+		de: "Charmian"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 50,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
-		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
+		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer.",
+		de: "Dieses PKMN ist ein Grobian, der sich in die Nester anderer PKMN einnistet und sie sich damit aneignet."
 	},
 
 	thirdParty: {

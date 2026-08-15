@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 30 more damage and the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: "60+",
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It punches with its four arms at blinding speed. It can launch 1,000 punches in two seconds.",
-		fr: "Ses quatre bras frappent à une vitesse aveuglante. Il peut porter 1000 coups en deux secondes."
+		fr: "Ses quatre bras frappent à une vitesse aveuglante. Il peut porter 1000 coups en deux secondes.",
+		de: "Mit seinen vier Armen schlägt es blitzschnell zu. Es kann in zwei Sekunden 1 000-mal zuschlagen."
 	},
 
 	thirdParty: {

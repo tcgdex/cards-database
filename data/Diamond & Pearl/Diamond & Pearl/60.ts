@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Storm Up",
 				fr: "La tempête se lève",
-				de: "Losstürme"
+				de: "Losstürmen"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 damage plus 20 more damage. Discard that Stadium card.",
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
-		fr: "Son cerveau s'est développé depuis qu'il tient debout. Sa corne peut traverser la pierre la plus dure."
+		fr: "Son cerveau s'est développé depuis qu'il tient debout. Sa corne peut traverser la pierre la plus dure.",
+		de: "Sein Gehirn entwickelt sich, wenn es sich auf die Hinterbeine stellt. Mit dem Horn bohrt es durch Gestein."
 	},
 
 	thirdParty: {

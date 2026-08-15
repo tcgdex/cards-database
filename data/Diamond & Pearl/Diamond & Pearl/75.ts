@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
-		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
+		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer.",
+		de: "Das kleine Bällchen enthält alles, was es für die Entwicklung braucht. Es ist süß und lecker."
 	},
 
 	thirdParty: {

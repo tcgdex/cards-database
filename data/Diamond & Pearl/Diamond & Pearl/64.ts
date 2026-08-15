@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Starly",
 		fr: "Etourmi",
+		de: "Staralili"
 	},
 
 	stage: "Stage1",
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
-		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
+		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées.",
+		de: "Auf der Suche nach Käfer-PKMN fliegt es über Wiesen und Wälder. Es bleibt in einem großen Schwarm."
 	},
 
 	thirdParty: {

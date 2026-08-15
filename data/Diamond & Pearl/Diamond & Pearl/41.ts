@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, déplacez tous les marqueurs de dégât de Qulbutoké sur le Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" entferne alle Schadensmarken von Woingenau und lege sie auf das Verteidigende Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ entferne alle Schadensmarken von Woingenau und lege sie auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -56,7 +56,8 @@ const card: Card = {
 
 	description: {
 		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
-		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
+		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret.",
+		de: "Verzweifelt versucht es, seinen schwarzen Schweif zu verstecken. Er soll ein Geheimnis enthalten."
 	},
 
 	thirdParty: {

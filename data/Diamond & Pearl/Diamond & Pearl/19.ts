@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Silcoon",
 		fr: "Armulys",
+		de: "Schaloko"
 	},
 
 	stage: "Stage2",
@@ -89,7 +90,8 @@ const card: Card = {
 
 	description: {
 		en: "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
-		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
+		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité.",
+		de: "Es besitzt ein aggressives Wesen. Es sticht seinen Rüssel in seine Beute und saugt sie aus."
 	},
 
 	thirdParty: {

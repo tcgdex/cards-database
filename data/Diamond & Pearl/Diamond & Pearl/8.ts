@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magneton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
 				fr: "Si votre Pokémon Actif possède des Énergies Metal, son Coût de retraite est de 0.",
-				de: "Wenn an dein Aktives Pokémon mindestens 1  Energie angelegt ist, hat dieses Pokémon Rückzugskosten 0."
+				de: "Wenn an dein Aktives Pokémon mindestens 1 {M}-Energie angelegt ist, hat dieses Pokémon Rückzugskosten 0."
 			},
 		},
 	],
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.",
 				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Metal attachée à Magnézone.",
-				de: "Dieser Angrif fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede  Energie, die an Magnezone angelegt ist, zu."
+				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede {M}-Energie, die an Magnezone angelegt ist, zu."
 			},
 			damage: "50+",
 
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+		de: "Es entwickelte sich, als es einem besonderen Magnetfeld ausgesetzt wurde."
 	},
 
 	thirdParty: {

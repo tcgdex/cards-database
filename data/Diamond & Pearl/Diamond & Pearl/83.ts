@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",
-		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
+		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique.",
+		de: "Es schlägt mit Krallen zu oder schnurrt, je nachdem, ob es gerade wütend oder zutraulich ist."
 	},
 
 	thirdParty: {

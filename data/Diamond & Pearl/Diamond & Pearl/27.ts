@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
 				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne soit plus qu'à 10 PV d'être mis K.O.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu sein."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu sein."
 			},
 
 		},
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "It hides in shadows. It is said that if Gengar is hiding, it cools that area by nearly 10 degrees F.",
-		fr: "On dit que lorsqu'Ectoplasma se cache dans l'ombre, la température alentour chute de 5°C."
+		fr: "On dit que lorsqu'Ectoplasma se cache dans l'ombre, la température alentour chute de 5°C.",
+		de: "Es versteckt sich im Schatten. Man sagt, wenn sich ein GENGAR versteckt, kühlt es sich um 5 Grad ab."
 	},
 
 	thirdParty: {

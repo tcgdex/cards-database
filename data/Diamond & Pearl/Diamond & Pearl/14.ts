@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, choose 1 Evolved Pokémon on your opponent's Bench, remove the highest Stage Evolution card from that Pokémon, and put it back into his or her hand. This power can't be used if Shiftry is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Tengalice est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, choisissez 1 Pokémon Évolué sur le Banc de votre adversaire, retirez-lui la carte Évolution au niveau le plus élevé et replacez-la dans sa main. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Tengulist dein Aktives Pokémon ist, kannst du 1 Münze werfen. Entferne die höchste Evolutionsstufe vom gewählten Pokémon. Dein Gegner nimmt diese Karte zurück auf die Hand. Diese Poke-Power kann nicht benutzt werden, wenn Tengulist von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Tengulist dein Aktives Pokémon ist, kannst du 1 Münze werfen. Bei „Kopf“ wähle 1 entwickeltes Pokémon auf der Bank deines Gegners. Entferne die höchste Evolutionskarte vom gewählten Pokémon. Dein Gegner nimmt diese Karte zurück auf die Hand. Diese Poké-Power kann nicht benutzt werden, wenn Tengulist von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50+",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.",
-		fr: "D'un coup de sa feuille éventail, il génère des bourrasques de 30 m/s capables de souffler une maison."
+		fr: "D'un coup de sa feuille éventail, il génère des bourrasques de 30 m/s capables de souffler une maison.",
+		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/sek erreichen können."
 	},
 
 	thirdParty: {

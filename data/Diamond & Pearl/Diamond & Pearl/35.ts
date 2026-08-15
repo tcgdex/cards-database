@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Pachirisu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts.",
-				de: "Wirf 1 Müntze. Bei \"Zahl\" fügt sich Pachirisu selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Pachirisu selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -79,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
-		fr: "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies."
+		fr: "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies.",
+		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Laporeille",
+		de: "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. Remove a number of damage counters equal to the number of heads from 1 of your Pokémon.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Retirez à 1 de vos Pokémon autant de marqueurs de dégât que vous obtenez de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis 'Zahl' kommt. Entferne für jedes Mal, wenn die Münze 'Kopf' gezeigt hat, 1 Schadensmarke von 1 deiner Pokémon."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Entferne für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 Schadensmarke von 1 deiner Pokémon."
 			},
 
 		},
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
-		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
+		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger.",
+		de: "Ein sehr vorsichtiges PKMN. Nimmt es Gefahr wahr, schützt es seinen Körper mit seinen weichen Ohren."
 	},
 
 	thirdParty: {

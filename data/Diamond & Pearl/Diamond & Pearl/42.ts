@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
-		fr: "Il se muscle en bousculant ses semblables lors de mêlées. Il raffole des fruits sucrés."
+		fr: "Il se muscle en bousculant ses semblables lors de mêlées. Il raffole des fruits sucrés.",
+		de: "Es wird stärker, indem es andere ständig anrempelt. Es liebt Süßigkeiten."
 	},
 
 	thirdParty: {

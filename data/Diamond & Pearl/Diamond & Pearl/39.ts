@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Grass Energy attached to Vespiquen and remove all damage counters from 1 of your Benched Grass Pokémon.",
 				fr: "Défaussez une Énergie Grass attachée à Apireine et retirez à 1 de vos Pokémon de Banc Grass tous ses marqueurs de dégât.",
-				de: "Lege eine -Energie, die an Honweisel angelegt ist, auf deinen Ablagestapel und entferne danach alle Schadensmarken von 1 -Pokémon auf deiner Bank."
+				de: "Lege eine {G}-Energie, die an Honweisel angelegt ist, auf deinen Ablagestapel und entferne danach alle Schadensmarken von 1 {G}-Pokémon auf deiner Bank."
 			},
 
 		},
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times the number of Grass Pokémon in play (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon Grass en jeu (les vôtres et ceux de votre adversaire).",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jedes -Pokémon im Spiel zu (deine und die deines Gegners)."
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jedes {G}-Pokémon im Spiel zu (deine und die deines Gegners)."
 			},
 			damage: "10x",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by COMBEE.",
-		fr: "Son abdomen est un rayon où vivent ses larves, élevées avec le nectar récolté par Apitrini."
+		fr: "Son abdomen est un rayon où vivent ses larves, élevées avec le nectar récolté par Apitrini.",
+		de: "Ihr Bauch ist die Wabe für die Larven. Sie füttert ihre Larven mit dem Honig, den WADRIBIE sammelt."
 	},
 
 	thirdParty: {

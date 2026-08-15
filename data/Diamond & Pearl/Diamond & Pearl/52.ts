@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shinx",
 		fr: "Lixy",
+		de: "Sheinux"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
-		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
+		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes.",
+		de: "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen."
 	},
 
 	thirdParty: {

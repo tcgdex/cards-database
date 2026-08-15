@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Reveal the top 5 cards of your deck. Your opponent chooses 3 of those cards. Put those cards into your hand and put other 2 cards on top of your deck. Shuffle your deck afterward.",
 		fr: "Retournez les 5 cartes du dessus de votre deck. Votre adversaire choisit 3 de ces cartes. Placez ces cartes dans votre main et placez les 2 autres cartes au dessus de votre deck. Ensuite, mélangez votre deck.",
-		de: "Decke die obersten 5 Karten deines Decks auf. Dein Gegner wählt 3 von diesen Karten. Nimm die gewählten Karten auf die Hand und lege die restlichen 2 Karten zurück auf dein Deck. Mische dein Deck danach."
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Decke die obersten 5 Karten deines Decks auf. Dein Gegner wählt 3 von diesen Karten. Nimm die gewählten Karten auf die Hand und lege die restlichen 2 Karten zurück auf dein Deck. Mische dein Deck danach."
 	},
 
 	trainerType: "Supporter",

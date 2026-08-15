@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "It can slip through any obstacle. It lurks inside walls to keep an eye on its foes.",
-		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
+		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis.",
+		de: "Es kann sich durch jedes Hindernis bewegen. Es versteckt sich in Wänden, um Gegner zu beobachten."
 	},
 
 	thirdParty: {

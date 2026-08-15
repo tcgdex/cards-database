@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
-		fr: "Les trois cornes de son bec sont le symbole de sa force. Celles du chef sont plus grosses que les autres."
+		fr: "Les trois cornes de son bec sont le symbole de sa force. Celles du chef sont plus grosses que les autres.",
+		de: "Die 3 Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner."
 	},
 
 	thirdParty: {
