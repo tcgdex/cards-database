@@ -49,7 +49,7 @@ const card: Card = {
 		effect: {
 			en: "This attack does 40 damage for each Pokémon in play that has \"Koffing\" or \"Weezing\" in its name (both yours and your opponent's).",
 			fr: "Cette attaque inflige 40 dégâts pour chaque Pokémon en jeu ayant \" Smogo \" ou \" Smogogo \" dans son nom (les vôtres et ceux de votre adversaire).",
-			de: "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem \"Smogon\" oder \"Smogmog\" zum Namen gehört, 40 Schadenspunkte zu.",
+			de: "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem „Smogon“ oder „Smogmog“ zum Namen gehört, 40 Schadenspunkte zu.",
 			it: "Questo attacco infligge 40 danni per ogni Pokémon in gioco che ha \"Koffing\" o \"Weezing\" nel nome, sia tuo che del tuo avversario.",
 			es: "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival).",
 			pt: "Este ataque causa 40 pontos de dano para cada Pokémon em jogo que tenha \"Koffing\" ou \"Weezing\" em seu nome (seus e do seu oponente).",

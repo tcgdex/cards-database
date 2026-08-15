@@ -23,7 +23,7 @@ const card: Card = {
 	effect: {
 		en: "Shuffle up to 5 Basic Energy cards from your discard pile into your deck.",
 		fr: "Mélangez jusqu'à 5 cartes Énergie de base de votre pile de défausse avec votre deck.",
-		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck.",
+		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 		es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		pt: "Embaralhe até 5 cartas de Energia Básica da sua pilha de descarte no seu baralho.",

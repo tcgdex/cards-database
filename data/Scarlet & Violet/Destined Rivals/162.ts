@@ -23,7 +23,7 @@ const card: Card = {
 	effect: {
 		en: "The Cynthia's Pokémon this card is attached to gets +70 HP.",
 		fr: "Le Pokémon de Cynthia auquel cette carte est attachée reçoit +70 PV.",
-		de: "Das Cynthias Pokémon, an das diese Karte angelegt ist, erhält +70 KP.",
+		de: "Das Cynthias Pokémon, an das diese Karte angelegt ist, erhält +70 KP. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
 		it: "Il Pokémon di Camilla a cui è assegnata questa carta ha 70 PS in più.",
 		es: "El Pokémon de Cintia al que esté unida esta carta obtiene 70 PS más.",
 		pt: "O Pokémon da Cíntia ao qual esta carta está ligada recebe 70 PS a mais.",
