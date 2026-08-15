@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Water de tu mano. Si lo haces, pon 3 contadores de daño en 1 de los Pokémon de tu rival.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Water dalla tua mano. Se lo fai, metti tre segnalini danno su uno dei Pokémon del tuo avversario.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode descartar um card de Energia Water da sua mão. Se fizer isso, coloque 3 contadores de danos em 1 dos Pokémon do seu oponente.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Water-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, lege 3 Schadensmarken auf 1 Pokémon deines Gegners."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {W}-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, lege 3 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 		},
 	],
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+		de: "Es stellt Wurfsterne aus komprimiertem Wasser her, die durch ihre hohe Drehgeschwindigkeit beim Werfen sogar Metall durchtrennen."
 	},
 
 	thirdParty: {

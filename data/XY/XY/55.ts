@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+		de: "Die Bäume des Waldes folgen ihm blind. Menschen, die dem Wald Schaden zufügen, hält es bis an ihr Lebensende darin gefangen."
 	},
 
 	thirdParty: {

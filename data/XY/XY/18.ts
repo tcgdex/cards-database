@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Jogue uma moeda. Se sair cara, procure em seu baralho um card de Apoiador, revele-o e coloque em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+		de: "Man sagt, es sei eines der ersten Pokémon, die mit Menschen zusammengelebt haben. Es ist sehr ruhig und friedfertig."
 	},
 
 	thirdParty: {

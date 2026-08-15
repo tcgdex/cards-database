@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		de: "Dieses Pokémon kann sich kaum bewegen. Bei drohender Gefahr verhärtet es seinen Panzer."
 	},
 
 	thirdParty: {

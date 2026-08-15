@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él no se puede ver afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon).",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Fairy assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
 				pt: "Cada um de seus Pokémon que possuir qualquer Energia Fairy ligada a ele não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
-				de: "Jedes deiner Pokémon, an das Fairy-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
+				de: "Jedes deiner Pokémon, an das {FAIRY}-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
 			},
 		},
 	],
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+		de: "Es verfügt über einen feinen Geruchssinn, mit dem es selbst die schwächsten Gerüche erkennen kann. Es hilft deshalb oft in Konditoreien aus."
 	},
 
 	thirdParty: {

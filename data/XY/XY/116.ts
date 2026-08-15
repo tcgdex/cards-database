@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta que evolucione de 1 de tus Pokémon y ponla sobre ese Pokémon. (Esto equivale a hacer evolucionar a ese Pokémon). Baraja las cartas de tu baraja después. No puedes usar esta carta durante tu primer turno o sobre un Pokémon que se haya puesto en juego en este turno.",
 		it: "Cerca nel tuo mazzo una carta che si evolve da uno dei tuoi Pokémon e mettila sopra quel Pokémon (quest'azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo. Non puoi usare questa carta durante il tuo primo turno o su un Pokémon che hai messo in gioco nel turno in corso.",
 		pt: "Procure em seu baralho um Pokémon que evolua de 1 dos seus Pokémon e coloque-o naquele Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards. Você não poderá usar esse card em sua primeira vez de jogar ou em um Pokémon que foi colocado em jogo na vez de jogar atual.",
-		de: "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
+		de: "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

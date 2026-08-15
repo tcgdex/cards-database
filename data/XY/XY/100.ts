@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Lanza 1 moneda por cada contador de daño en este Pokémon. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia una moneta per ogni segnalino danno presente su questo Pokémon. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda para cada contador de danos neste Pokémon. Esse ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "After heightening its will to fight by whipping itself with its three tails, it charges at full speed.",
+		de: "Es kämpft mit vollem Einsatz, nachdem es sich mit seinen drei Schweifen auspeitschte, um sich anzustacheln."
 	},
 
 	thirdParty: {

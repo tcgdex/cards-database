@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, tu rival no puede jugar ninguna carta de Partidario de su mano durante su próximo turno.",
 				it: "Lancia una moneta. Se esce testa, il tuo avversario non può giocare le carte Aiuto che ha in mano durante il suo prossimo turno.",
 				pt: "Jogue uma moeda. Se sair cara, seu oponente não poderá jogar nenhum card de Apoiador da mão dele ou dela durante a próxima vez de jogar desse oponente.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner während seines nächsten Zuges keine Unterstützerkarten von seiner Hand spielen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner während seines nächsten Zuges keine Unterstützerkarten von seiner Hand spielen."
 			},
 			damage: 50,
 
@@ -109,6 +109,7 @@ const card: Card = {
 
 	description: {
 		en: "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+		de: "Ein äußerst grausames Pokémon. Es greift jeden, der ihm unter die Augen kommt, mit seinen scharfen Reißzähnen an."
 	},
 
 	thirdParty: {

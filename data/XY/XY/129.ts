@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
 		it: "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 		pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

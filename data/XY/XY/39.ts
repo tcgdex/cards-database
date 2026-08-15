@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Lancia una moneta. Se esce testa, scambia questo Pokémon con uno della tua panchina.",
 				pt: "Jogue uma moeda. Se sair cara, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Wirf 1 Münze. Tausche bei \"Kopf\" dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				de: "Wirf 1 Münze. Tausche bei „Kopf“ dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+		de: "Es stößt aus Brust und Rücken elastische Blasen aus, mit denen es gegnerische Angriffe abfängt und so den erlittenen Schaden verringert."
 	},
 
 	thirdParty: {

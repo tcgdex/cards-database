@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, descarta 2 Energías unidas a este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta due Energie assegnate a questo Pokémon.",
 				pt: "Jogue uma moeda. Se sair coroa, descarte 2 Energias ligadas a este Pokémon.",
-				de: "Wirf 1 Münze. Lege bei \"Zahl\" 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+		de: "Kann auf einen Schlag große Massen von Menschen täuschen. Es kreiert Illusionen, um sein Revier zu schützen."
 	},
 
 	thirdParty: {

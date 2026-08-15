@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti i danni da attacchi inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, impedirá todos os danos causados a este Pokémon por ataques durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt würde."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt würde."
 			},
 
 		},
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+		de: "Der Panzer, der seinen Körper umgibt, bietet ihm Schutz vor Angreifern und straft direkte Angriffe postwendend mit spitzen Stacheln ab."
 	},
 
 	thirdParty: {

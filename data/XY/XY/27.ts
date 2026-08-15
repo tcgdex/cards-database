@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho um card de Energia Fire e ligue-o a este Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+		de: "Es speit Funken aus seinem Schnabel und fängt die Beute, die überrascht aus dem angesengten Gras hervorspringt."
 	},
 
 	thirdParty: {

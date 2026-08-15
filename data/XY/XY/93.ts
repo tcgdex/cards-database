@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Fairy unida a 1 de tus Pokémon a otro de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare a piacimento le carte Energia Fairy assegnate ai tuoi Pokémon.",
 				pt: "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode mover uma Energia Fairy ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Fairy-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {FAIRY}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+		de: "Es produziert verschiedene Düfte. Im Kampf verschafft es sich einen Vorteil, indem es einen Duft verströmt, der dem Gegner zuwider ist."
 	},
 
 	thirdParty: {

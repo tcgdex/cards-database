@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Fire unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Fire assegnata a questo Pokémon.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Energia Fire ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Fire-Energie zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {R}-Energie zu."
 			},
 			damage: 50,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+		de: "Es kann die Zukunft vorhersehen, indem es konzentriert in die Flamme an der Spitze seines Zweiges blickt."
 	},
 
 	thirdParty: {

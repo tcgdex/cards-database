@@ -77,7 +77,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Si ambas son cara, descarta la primera carta de la baraja de tu rival por cada contador de daño en este Pokémon.",
 				it: "Lancia due volte una moneta. Se esce entrambe le volte testa, scarta una carta in cima al mazzo del tuo avversario per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Jogue 2 moedas. Se ambas forem cara, descarte o card de cima do baralho do seu oponente para cada contador de danos neste Pokémon.",
-				de: "Wirf 2 Münzen. Zeigen beide \"Kopf\", lege für jede Schadensmarke auf diesem Pokémon die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Wirf 2 Münzen. Zeigen beide „Kopf“, lege für jede Schadensmarke auf diesem Pokémon die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+		de: "Durch seine panzerähnliche Körperhülle kann es in bis zu 2 000 °C heißer Lava leben."
 	},
 
 	thirdParty: {
