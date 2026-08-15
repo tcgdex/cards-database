@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nincada",
-		fr: "Ningale"
+		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
-				de: "Supersonic"
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending ´Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon verwirrt."
 			},
 			damage: 10,
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Sonic Wing",
 				fr: "Aile supersonique",
-				de: "Sonic Wing"
+				de: "Überschallflügel"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 30,
 

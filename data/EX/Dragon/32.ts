@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Crush",
 				fr: "Écras'dragon",
-				de: "Dragon Crush"
+				de: "Drachenmalmer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon. Discard an Energy card from each Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur. Défaussez une carte Énergie de chacun de ces Pokémon.",
-				de: "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon. Discard an Energy from each Defending Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff allen Verteidigenden Pokémon 10 Schadenspunkte zu. Lege eine Energiekarte von jedem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Sonic",
 				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				de: "Aquaschall"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistence."
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 80,
 

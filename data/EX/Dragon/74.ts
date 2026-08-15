@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Hop",
 				fr: "Trempette",
-				de: "Hop"
+				de: "Hüpfer"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale psy",
-				de: "Psybeam"
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

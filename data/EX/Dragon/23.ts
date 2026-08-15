@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
-				de: "Combustion"
+				de: "Glühen"
 			},
 
 			damage: 20,

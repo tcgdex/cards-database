@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spoink",
-		fr: "Spoink"
+		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Boom",
 				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				de: "Psychoknall"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede am Verteidigenden Pokémon angelegte Energie zu."
 			},
 			damage: "20+",
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Mind Trip",
 				fr: "Avoir l'esprit ailleurs",
-				de: "Mind Trip"
+				de: "Verstandesreise"
 			},
 			effect: {
 				en: "If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.",
 				fr: "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus.",
-				de: "If grumpig and the Defending Pokémon have the same number off Energy attached to them, the Defending Pokémon is now Confused."
+				de: "Falls an Groink und dem Verteidigenden Pokémon gleich viel Energie angelegt ist, ist das Verteidigende jetzt verwirrt."
 			},
 			damage: 50,
 

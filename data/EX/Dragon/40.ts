@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Seadra during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Hypocéan.",
-				de: "Wirf 1 Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Seemon zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Seemon zugefügt werden."
 			},
 			damage: 20,
 

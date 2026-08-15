@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	suffix: "ex",
@@ -35,12 +36,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Gas",
 				fr: "Gaz chimique",
-				de: "Toxic Gas"
+				de: "Giftgas"
 			},
 			effect: {
 				en: "As long as Muk ex is your Active Pokémon, ignore all Poké-Powers and Poké-Bodies other than Toxic Gas.",
 				fr: "Tant que Grotadmorv ex est votre Pokémon Actif, ignorez tous les Poké-Powers et les Poké-Bodies autres que Puanteur.",
-				de: "As long as Muk is your active Pokémon, ignore all Poke-Powers and Poke-Bodies other than Toxic Gas."
+				de: "Solange Sleimok ex dein Aktives Pokémon ist, ignoriere jede Poké-Power und jeden Poké-Body außer Giftgas."
 			},
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Poison Breath",
 				fr: "Haleine empoisonnée",
-				de: "Poison Breath"
+				de: "Gifthauch"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned"
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -72,12 +73,12 @@ const card: Card = {
 			name: {
 				en: "Slimy Water",
 				fr: "Eau gluante",
-				de: "Slimy Water"
+				de: "Glitschiges Wasser"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
-				de: "Does 40 damage plus 10 more damage for each  Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
+				de: "Fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
 			},
 			damage: "40+",
 

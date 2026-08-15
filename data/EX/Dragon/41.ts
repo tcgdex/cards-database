@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bagon",
-		fr: "Draby"
+		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Shelgon has any basic Energy cards attached to it, damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tant que Drackhaus possède des cartes Énergie de base, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Solange mindestens 1 Basis-Energiekarte an Draschel angelegt ist, wird jeder Schaden, der Draschel durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurde)."
+				de: "Solange mindestens 1 Basis-Energiekarte an Draschel angelegt ist, wird jeder Schaden, der Draschel durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],

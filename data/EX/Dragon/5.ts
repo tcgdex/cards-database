@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Rock Vengeance",
 				fr: "Grosse vengeance",
-				de: "Rock Vengeance"
+				de: "Steinrache"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur vos Pokémon Actifs.",
-				de: "Does 20 damage plus 10 more damage for each each damage counter on all of your Active Pokémon."
+				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf allen deinen Aktiven Pokémon zu."
 			},
 			damage: "20+",
 
@@ -59,12 +60,12 @@ const card: Card = {
 			name: {
 				en: "Rock Slide",
 				fr: "Éboulement",
-				de: "Rock Slide"
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à deux des Pokémon du banc de votre adversaire (ou un s'il n'y en a qu'un). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and resistance for Benched Pokémon.)"
+				de: "Fügt 2 gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu (falls 1 nur 1 vorhanden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

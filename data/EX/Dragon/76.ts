@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc.",
-				de: "Dein gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},

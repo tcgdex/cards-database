@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy card attached to Numel and then discard an Energy card attached to the Defending Pokémon.",
 				fr: "Défaussez une carte Énergie  attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege 1 -Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+				de: "Lege 1 {R}-Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
