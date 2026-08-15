@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -56,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",
 				fr: "Vous pouvez infliger 40 dégâts plus 60 dégâts supplémentaires. Dans ce cas, défaussez toutes les cartes Énergie Lightning attachées à Electrode.",
-				de: "Du kannst mit diesem Angriff kann 40 Schadenspunkte plus 60 weitere Schadenspunkte zufügen. Wenn du das machst, lege alle an Lektrobal angelegten -Energien auf deinen Ablagestapel."
+				de: "Du kannst mit diesem Angriff kann 40 Schadenspunkte plus 60 weitere Schadenspunkte zufügen. Wenn du das machst, lege alle an Lektrobal angelegten {L}-Energien auf deinen Ablagestapel."
 			},
 			damage: "40+",
 
@@ -80,7 +81,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
+		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding.",
+		de: "Es ist gefährlich. Besitzt es zu viel Elektrizität und Freizeit, amüsiert es sich, indem es explodiert."
 	},
 
 	variants: [

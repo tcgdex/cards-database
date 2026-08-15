@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
+		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger.",
+		de: "Es stellt seine Ohren auf, um die Umgebung zu prüfen. Spürt es Gefahr, greift es stets zuerst an."
 	},
 
 	variants: [

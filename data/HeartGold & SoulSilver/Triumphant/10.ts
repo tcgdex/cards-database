@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Choose Grass Fire Water Lightning Psychic Fighting Darkness Metal or Colorless type. Put 1 damage counter on each Pokémon your opponent has in play of the type you chose.",
 				fr: "Choisissez le type GrassFireWaterLightningPsychicFightingDarknessMetal ou Colorless. Placez un marqueur de dégât sur chacun des Pokémon que votre adversaire a en jeu et qui correspond au type choisi.",
-				de: "Wähle einen Typ: ,  oder . Lege auf jedes Pokémon des gewählten Typs, das dein Gegner im Spiel hat, 1 Schadensmarke."
+				de: "Wähle einen Typ: {G}{R}{W}{L}{P}{F}{D}{M} oder {C}. Lege auf jedes Pokémon des gewählten Typs, das dein Gegner im Spiel hat, 1 Schadensmarke."
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief."
+		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
+		de: "Es besteht aus 108 Geistern, die an einen Spiritkern gebunden sind, damit sie nichts mehr anstellen."
 	},
 
 	variants: [		{

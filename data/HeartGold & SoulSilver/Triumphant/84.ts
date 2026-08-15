@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
+		de: "Seine riesigen Augen verfügen über einen Blickwinkel von 360 Grad. Es erspäht mit ihnen Beutetiere."
 	},
 
 	variants: [

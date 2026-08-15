@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It bounces playfully like a ball. The more seawater it swallows, the higher it bounces."
+		en: "It bounces playfully like a ball. The more seawater it swallows, the higher it bounces.",
+		de: "Es hüpft gerne wie ein Ball herum. Je mehr Meerwasser es trinkt, desto höher kann es springen."
 	},
 
 	variants: [

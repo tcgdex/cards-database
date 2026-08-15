@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Gengar is your Active Pokémon, if any of your opponent's Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding. (Discard all cards attached to that Pokémon.)",
 				fr: "Tant qu’Ectoplasma est votre Pokémon Actif, si l’un des Pokémon de votre adversaire est mis K.O., placez ce Pokémon dans la Zone Perdue au lieu de le défausser. (Défaussez toutes les cartes attachées à ce Pokémon.)",
-				de: "Solange Gengar dein Aktives Pokémon ist, lege alle Pokémon deines Gegners, die kampfunfähig gemacht würden, nicht auf den Ablagestapel, sondern ins Nirgendwo. (Lege alle an dieses Pokémon angelegten Karten auf den jeweiligen Ablagestapel)."
+				de: "Solange Gengar dein Aktives Pokémon ist, lege alle Pokémon deines Gegners, die kampfunfähig gemacht würden, nicht auf den Ablagestapel, sondern ins Nirgendwo. (Lege alle an dieses Pokémon angelegten Karten auf den jeweiligen Ablagestapel.)"
 			}
 		},
 	],
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Look at your opponent's hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.",
 				fr: "Regardez la main de votre adversaire et choisissez-y autant de Pokémon qu’il existe de cartes Énergie Psychic attachées à Ectoplasma. Placez les Pokémon que vous avez choisis dans la Zone Perdue.",
-				de: "Schau dir die Handkarten deines Gegners an und wähle eine Anzahl Pokémon-Karten, die du dort findest, die höchstens der Anzahl der an Gengar angeleten -Energien entspricht. Lege die gewählten Pokémon-Karten ins Nirgendwo."
+				de: "Schau dir die Handkarten deines Gegners an und wähle eine Anzahl Pokémon-Karten, die du dort findest, die höchstens der Anzahl der an Gengar angeleten {P}-Energien entspricht. Lege die gewählten Pokémon-Karten ins Nirgendwo."
 			},
 
 		},

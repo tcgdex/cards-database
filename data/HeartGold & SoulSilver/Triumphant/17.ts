@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "The number of Benched Pokémon your opponent can have is now 4. If your opponent has 5 Benched Pokémon, your opponent must discard 1 of them and all cards attached to it.",
 				fr: "Le nombre de Pokémon de Banc de votre adversaire est maintenant limité à 4. Si votre adversaire a 5 Pokémon de Banc, il doit défausser l’un d’entre eux et toutes les cartes qui lui sont attachées.",
-				de: "Die Anzahl der Pokémon, die dein Gegner auf seiner Bank haben kann, beträgt nun 4. Falls dein Gegner 5 Pokémon auf der Bank hat, muss er 1 davon und alle daran angelegten Karten auf seinen Ablagestapel legen."
+				de: "Die Anzahl der Pokémon, die dein Gegner auf seiner Bank haben kann, beträgt nun 4. Falls dein Gegner 5 Pokémon auf seiner Bank hat, muss er 1 davon und alle daran angelegten Karten auf seinen Ablagestapel legen."
 			}
 		},
 	],
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
+		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise.",
+		de: "Seine Verwandlungskunst ist perfekt. Bringt man es jedoch zum Lachen, fällt seine Tarnung."
 	},
 
 	variants: [

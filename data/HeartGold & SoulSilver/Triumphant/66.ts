@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful."
+		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful.",
+		de: "Seine Zunge ist mit klebrigem Speichel bedeckt, der überall haftet. Dies ist sehr nützlich."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	stage: "Stage2",
@@ -87,7 +88,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory."
+		en: "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory.",
+		de: "An der Länge seines Stahlhorns erkennt man sein Alter. Als Revier beansprucht es einen ganzen Berg."
 	},
 
 	variants: [		{

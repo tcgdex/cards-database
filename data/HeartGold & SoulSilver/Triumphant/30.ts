@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
-		fr: "Carvanha"
+		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, your opponent discards all card from his or her hand.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté face, votre adversaire défausse toutes les cartes de sa main.",
-				de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, legt dein Gegner alle Handkarten auf seinen Ablagestapel."
+				de: "Wirf 2 Münzen. Wenn beide „Kopf“ zeigen, legt dein Gegner alle Handkarten auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
+		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea.",
+		de: "TOHAIDO mag Radau und schwimmt bis zu 120 km/h schnell, indem es Wasser aus seinem Hinterteil ausstößt."
 	},
 
 	variants: [

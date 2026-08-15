@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est jouée. Si une autre carte du même nom est en jeu, vous ne pouvez pas l’utiliser.",
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each Pokémon LEGEND in play (both yours and your opponent's) gets +30 HP.",
-		de: "Jede Pokémon-LEGENDE im Spiel (deine und die deines Gegners) erhält +30 KP."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Jede Pokémon-LEGENDE im Spiel (deine und die deines Gegners) erhält +30 KP."
 	},
 
 	trainerType: "Stadium",

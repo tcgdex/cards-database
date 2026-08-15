@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigenede Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -54,7 +54,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
+		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison.",
+		de: "Es wartet im Sand versteckt auf Beute, die es sich mit seinem giftigen Schweif krallt."
 	},
 
 	variants: [

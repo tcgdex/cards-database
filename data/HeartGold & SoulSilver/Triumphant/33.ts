@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Elektek angelegten -Energien auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege alle an Elektek angelegten {L}-Energien auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -75,7 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
+		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+		de: "Sein Körper entlädt sich ständig. Kommt man ihm zu nahe, stehen einem die Haare senkrecht vom Kopf ab."
 	},
 
 	variants: [

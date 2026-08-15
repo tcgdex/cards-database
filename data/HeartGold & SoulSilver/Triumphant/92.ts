@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Celebi is your Active Pokémon, you may attach a Grass Energy card from your hand to 1 of your Pokémon. This power can't be used if Celebi is affected by a Special Condition.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si Celebi est votre Pokémon Actif, vous pouvez attacher une carte Énergie Grass de votre main à l’un de vos Pokémon. Ce Poké-Power ne peut pas être utilisé si Celebi est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Celebi dein Aktives Pokémon ist, 1 -Energiekarte von deiner Hand an 1 deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Celebi von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Celebi dein Aktives Pokémon ist, 1 {G}-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Celebi von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

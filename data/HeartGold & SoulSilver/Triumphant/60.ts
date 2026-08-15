@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -77,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it is sad or lonely, the skull it wears shakes and emits a plaintive and mournful sound."
+		en: "If it is sad or lonely, the skull it wears shakes and emits a plaintive and mournful sound.",
+		de: "Ist es einsam oder traurig, wackelt der Schädel den es trägt und man hört es jammern und wimmern."
 	},
 
 	variants: [

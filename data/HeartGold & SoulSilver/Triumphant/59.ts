@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
+		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle.",
+		de: "Schwärme von KANIVANHA haben in Dschungelflüssen schon so manches Boot zerbissen und versenkt."
 	},
 
 	variants: [

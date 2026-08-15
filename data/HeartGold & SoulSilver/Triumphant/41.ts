@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don’t underestimate it."
+		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don’t underestimate it.",
+		de: "Zu finden ist es in Vulkankratern. Seine Körpertemperatur erreicht über 600 Grad. Vergiss das nicht!"
 	},
 
 	variants: [

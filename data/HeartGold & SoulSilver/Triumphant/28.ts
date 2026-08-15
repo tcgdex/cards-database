@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorina",
-		fr: "Nidorina"
+		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+		de: "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren."
 	},
 
 	variants: [

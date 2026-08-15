@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
+		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast.",
+		de: "Bei vollem Galopp berühren seine Hufe kaum den Boden, da es so unglaublich schnell ist."
 	},
 
 	variants: [		{

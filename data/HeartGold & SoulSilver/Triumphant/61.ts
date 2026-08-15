@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sand Veil",
 				fr: "Voile Sable",
-				de: "Sandschleicher"
+				de: "Sandschleier"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Diglett during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, prévenez tous les effets d’attaques (y compris les dégâts) infligés à Taupiqueur pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Digda zugefügt werden."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Digda zugefügt werden."
 			},
 
 		},
@@ -77,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+		de: "Setzt ein DIGDA Schaufler auf einem Acker ein, ist die Erde ideal gepflügt, um etwas anzupflanzen."
 	},
 
 	variants: [

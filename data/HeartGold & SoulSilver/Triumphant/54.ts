@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Yanma",
-		fr: "Yanma"
+		fr: "Yanma",
+		de: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
+		en: "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight.",
+		de: "Sein Flügelschlag ist ungemein mächtig. Fliegt es mit Kraft in die Höhe, mäht der Wind selbst große Bäume nieder."
 	},
 
 	variants: [
