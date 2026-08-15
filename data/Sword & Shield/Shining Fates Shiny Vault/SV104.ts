@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Moumouton",
-		en: "Wooloo"
+		en: "Wooloo",
+		de: "Wolly"
 	},
 
 	attacks: [{
@@ -79,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
+		de: "Seine prächtig gewachsenen Hörner dienen dazu, dem anderen Geschlecht zu imponieren. Es nutzt sie nicht als Waffe."
 	},
 
 	variants: [

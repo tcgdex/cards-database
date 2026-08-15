@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Linéon de Galar",
-		en: "Galarian Linoone"
+		en: "Galarian Linoone",
+		de: "Galar-Geradaks"
 	},
 
 	abilities: [{
@@ -80,7 +81,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+		de: "Durch das Austragen unzähliger Kämpfe hat es sich entwickelt. Formt es mit den Armen ein „X“ und stößt einen Schrei aus, verschreckt das jeden."
 	},
 
 	variants: [

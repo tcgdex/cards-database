@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Smogo",
-		en: "Koffing"
+		en: "Koffing",
+		de: "Smogon"
 	},
 
 	abilities: [{
@@ -79,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+		de: "Es saugt Schmutzpartikel aus der Atmosphäre und scheidet sie dann anstelle von Exkrementen in Form von sauberer Luft wieder aus."
 	},
 
 	variants: [

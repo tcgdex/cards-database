@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Chapotus",
-		en: "Hattrem"
+		en: "Hattrem",
+		de: "Brimano"
 	},
 
 	abilities: [{
@@ -84,7 +85,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
+		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
+		de: "Die starken Psycho-Kräfte, die es ausstrahlt, rufen Kopfschmerzen hervor. So hält es andere Lebewesen von sich fern."
 	},
 
 	variants: [

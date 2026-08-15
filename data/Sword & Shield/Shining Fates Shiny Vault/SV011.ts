@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Tournicoton",
-		en: "Gossifleur"
+		en: "Gossifleur",
+		de: "Cottini"
 	},
 
 	attacks: [{
@@ -41,7 +42,7 @@ const card: Card = {
 			es: "Busca en tu baraja hasta 3 cartas de Energía Grass y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a tre carte Energia Grass e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 3 cartas de Energia Grass no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Grass-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach bis zu 3 {G}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
@@ -69,7 +70,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+		de: "Aus dem Flaum auf seinem Kopf werden wunderschöne, glänzende Fäden gesponnen. Die Galar-Region ist bekannt für dieses Produkt."
 	},
 
 	variants: [

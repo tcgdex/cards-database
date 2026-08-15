@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Bibichut",
-		en: "Hatenna"
+		en: "Hatenna",
+		de: "Brimova"
 	},
 
 	attacks: [{
@@ -83,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently.",
+		de: "Empfindet jemand starke Emotionen, bringt es ihn auf gewaltsame Art zum Schweigen, egal, um wen es sich dabei handelt."
 	},
 
 	variants: [

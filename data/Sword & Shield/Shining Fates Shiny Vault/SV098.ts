@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it."
+		en: "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
+		de: "Es kennt jeden Winkel des Waldes. Trifft es ein verletztes Pokémon, findet es in Windeseile das passende Heilkraut und schreitet zur Behandlung."
 	},
 
 	variants: [

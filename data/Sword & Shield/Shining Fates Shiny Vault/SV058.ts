@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Crèmy",
-		en: "Milcery"
+		en: "Milcery",
+		de: "Hokumil"
 	},
 
 	attacks: [{
@@ -78,7 +79,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
+		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
+		de: "Es macht einem Trainer, dem es vertraut, mit Beeren samt Sahnedekoration eine Freude."
 	},
 
 	variants: [
