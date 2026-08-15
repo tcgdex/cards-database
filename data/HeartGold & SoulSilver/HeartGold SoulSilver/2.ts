@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 60,
 
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+		de: "Spielt es im Wasser, rollt es seine langen Ohren zusammen, um zu verhindern, dass Wasser eindringt."
 	},
 
 	variants: [

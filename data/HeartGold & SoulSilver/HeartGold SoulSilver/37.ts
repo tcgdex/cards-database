@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Water Energy attached to Corsola and remove all damage counters from Corsola.",
 				fr: "Défaussez une carte Énergie Water attachée à Corayon et retirez tous les marqueurs de dégâts sur Corayon.",
-				de: "Lege 1 an Corasonn angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Corasonn."
+				de: "Lege 1 an Corasonn angelegte {W}-Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Corasonn."
 			},
 
 		},
@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
 				fr: "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				de: "Wirf 2 Münzen. Wenn beide „Kopf“ zeigen, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
+		de: "Es häutet sich ständig und wächst. Seine Kopfspitze wurde als Schatz der Schönheit ausgezeichnet."
 	},
 
 	variants: [

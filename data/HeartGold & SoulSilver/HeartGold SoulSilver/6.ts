@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiploom",
-		fr: "Floravol"
+		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multiplié par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und deines Gegners) zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und der deines Gegners) zu."
 			},
 			damage: "10×",
 
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Once it catches the wind, it deftly controls its cotton-puff spores—it can even float around the world."
+		en: "Once it catches the wind, it deftly controls its cotton-puff spores—it can even float around the world.",
+		de: "Wenn es einmal vom Wind erfasst wurde, wird es mit seinen Fallschirmchen um den ganzen Erdball getragen."
 	},
 
 	variants: [

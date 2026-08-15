@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won’t grow.",
+		de: "Da es zu viel Elektrizität gespeichert hat, hat es Flecken, an denen nicht einmal feine Wolle wächst."
 	},
 
 	variants: [

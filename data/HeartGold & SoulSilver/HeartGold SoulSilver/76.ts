@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
+		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back.",
+		de: "Während es langsam heranwächst, sprießen große, exotische Pilze aus seinem Rücken."
 	},
 
 	variants: [

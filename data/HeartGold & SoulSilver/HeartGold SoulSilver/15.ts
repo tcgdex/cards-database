@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		de: "Webarak"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which."
+		en: "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which.",
+		de: "Da es Fäden sowohl mit dem Hinterleib, als auch mit dem Mund spinnt, verwechselt man die beiden leicht."
 	},
 
 	variants: [

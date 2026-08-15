@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, remove 3 damage counters from Chansey.",
 				fr: "Lancez une pièce. Si c’est face, retirez 3 marqueurs de dégâts de Leveinard.",
-				de: "Wirf eine Münze. Entferne bei \"Kopf\" 3 Schadensmarken von Chaneira."
+				de: "Wirf eine Münze. Entferne bei „Kopf“ 3 Schadensmarken von Chaneira."
 			},
 			damage: 30,
 
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+		de: "Es läuft extrem langsam, damit sein Ei nicht zerbricht. Es kann jedoch schnell davonlaufen."
 	},
 
 	variants: [

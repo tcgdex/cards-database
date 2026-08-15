@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c’est pile, défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei \"Zahl\" lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei „Zahl“ lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: "40+",
 

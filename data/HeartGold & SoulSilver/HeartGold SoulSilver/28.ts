@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Each player may search his or her deck for as many Basic Pokémon as he or she likes, put them onto his or her Bench, and shuffle his or her deck afterward. (You put your Pokémon on the Bench first.) Pichu is now Asleep.",
 				fr: "Chaque joueur peut chercher dans son deck autant de Pokémon de base qu’il le souhaite, les mettre sur son Banc, puis mélanger son deck. (Vous devez être le premier à mettre vos Pokémon sur le Banc.) Pichu est maintenant Endormi.",
-				de: "Jeder Spieler kann sein Deck nach beliebig vielen Basis-Pokémon-Karten durchsuchen, sie auf die Bank legen und anschließend sein Deck mischen. (Du legst deine Pokémon zuerst auf die Bank.) Pichu schläft jetzt."
+				de: "Jeder Spieler kann sein Deck nach beliebig vielen Basis-Pokémon-Karten durchsuchen, sie auf seine Bank legen und anschließend sein Deck mischen. (Du legst deine Pokémon zuerst auf die Bank.) Pichu schläft jetzt."
 			},
 
 		},
@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+		de: "Obwohl es so klein ist, kann es sogar Erwachsene überwältigen. Tritt dies ein, ist es selbst erstaunt."
 	},
 
 	variants: [

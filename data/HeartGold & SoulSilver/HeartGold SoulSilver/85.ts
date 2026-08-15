@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
+		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
+		de: "Manchmal fällt es plötzlich vom Himmel. Wird es von HABITAK angegriffen, schüttelt es seine Blätter."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep. This power can't be used if Hypno is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi. Ce pouvoir ne peut pas être utilisé si Hypnomade est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt. Diese Poké-Power kann nicht benutzt werden, wenn Hypno von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Diese Poké-Power kann nicht benutzt werden, wenn Hypno von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby."
+		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby.",
+		de: "Es hält immer ein Pendel, das es ständig bewegt. Das verursacht bei jedem in seiner Nähe Müdigkeit."
 	},
 
 	variants: [

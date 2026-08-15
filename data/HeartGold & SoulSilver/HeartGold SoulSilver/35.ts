@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chikorita",
-		fr: "Germignon"
+		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+		de: "Ein würziges Aroma geht von seinen Blättern aus. Das Aroma soll gesundheitsfördernd sein."
 	},
 
 	variants: [

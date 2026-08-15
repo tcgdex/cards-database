@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
+		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.",
+		de: "Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert."
 	},
 
 	variants: [

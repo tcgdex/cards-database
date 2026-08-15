@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy, Water Energy, and Lightning Energy attached to Lugia LEGEND.",
 				fr: "Défaussez-vous d’une Énergie Fire, d’une Énergie Water et d’une Énergie Lightning attachées à Lugia LÉGENDAIRE.",
-				de: "Lege 1 -Energie, 1 -Energie und 1 -Energie, die an Lugia-LEGENDE angelegt sind, auf deinen Ablagestapel."
+				de: "Lege 1 {R}-Energie, 1 {W}-Energie und 1 {L}-Energie, die an Lugia-LEGENDE angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 200,
 
@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
 	},
 
 	hp: 130,

@@ -76,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk."
+		en: "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk.",
+		de: "Wenn es seine Stange im Notfall auffrisst, begibt es sich sofort auf die Suche nach einer neuen."
 	},
 
 	variants: [

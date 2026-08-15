@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+		de: "Aufgrund seiner ungewöhnlichen Sternform, sagt man, es sei auf einem Meteor hierhergereist."
 	},
 
 	variants: [

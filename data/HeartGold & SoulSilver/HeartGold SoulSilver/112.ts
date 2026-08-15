@@ -32,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
 				fr: "Toute les énergies attachées au Ho-Oh LÉGENDAIRE sont de type Fire et non de leur type habituel.",
-				de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern -Energie anstelle ihres normalen Typs."
+				de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern {R}-Energie anstelle ihres normalen Typs."
 			}
 		},
 	],
@@ -78,7 +78,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings.",
+		de: "Man sagt, dass dieses Pokémon auf seinen siebenfarbigen Schwingen durch die Lüfte fliegt."
 	},
 
 	hp: 140,

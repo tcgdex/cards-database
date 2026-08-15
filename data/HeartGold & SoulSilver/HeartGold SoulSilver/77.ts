@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It swings its long snout around playfully, but because it is so strong, that can be dangerous."
+		en: "It swings its long snout around playfully, but because it is so strong, that can be dangerous.",
+		de: "Es wirft seinen langen Rüssel im Spiel wild hin und her. Da es so stark ist, könnte dies gefährlich werden."
 	},
 
 	variants: [

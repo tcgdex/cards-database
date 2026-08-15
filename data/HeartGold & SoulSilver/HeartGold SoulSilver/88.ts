@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				de: "Wirf eine Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film."
+		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
+		de: "Bewegt es sich an Land, bedeckt es seinen gesamten Körper mit einem schleimigen Giftfilm."
 	},
 
 	variants: [

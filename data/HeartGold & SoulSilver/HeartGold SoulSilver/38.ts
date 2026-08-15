@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Totodile",
-		fr: "Kaiminus"
+		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth."
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+		de: "Verliert es einen seiner Zähne, wächst ein neuer nach. Es hat immer 48 Zähne in seinem Kiefer."
 	},
 
 	variants: [

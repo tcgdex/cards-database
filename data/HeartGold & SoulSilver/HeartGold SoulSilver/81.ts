@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
+		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.",
+		de: "Es faulenzt am Wasser. Wenn es in den Schweif gebissen wird, bemerkt es das erst am nächsten Tag."
 	},
 
 	variants: [

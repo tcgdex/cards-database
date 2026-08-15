@@ -49,7 +49,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
+		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage.",
+		de: "Die Saugnäpfe an seinen Beinen haften auf jedem Untergrund. Es sucht hartnäckig in Bäumen nach Futter."
 	},
 
 	variants: [

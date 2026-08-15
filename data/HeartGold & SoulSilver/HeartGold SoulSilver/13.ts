@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Wobbuffet.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts sur Qulbutoke.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte mal der Anzahl an Schadensmarken auf Woingenau zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte mal der Anzahl an Schadensmarken auf Woingenau zu."
 			},
 			damage: "20×",
 
@@ -54,7 +54,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike."
+		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+		de: "Es hasst Licht und Schläge. Wird es angegriffen, pumpt es sich auf, um einen Gegenschlag vorzubereiten."
 	},
 
 	variants: [

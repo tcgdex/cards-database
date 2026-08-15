@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Caterpie",
-		fr: "Chenipan"
+		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Each of your Grass Pokémon has no Weakness.",
 				fr: "Vos Pokémon Grass ne subissent plus la Faiblesse.",
-				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
+				de: "Jedes deiner {G}-Pokémon hat keine Schwäche mehr."
 			}
 		},
 	],
@@ -71,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
+		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body.",
+		de: "Steht seine Entwicklung bevor, härtet es seine Schale, um seinen empfindlichen Körper zu schützen."
 	},
 
 	variants: [

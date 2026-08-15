@@ -54,7 +54,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
+		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep.",
+		de: "Schaut man ihm in seine niedlichen Kulleraugen, beginnt es zu singen und seine Gegner schlafen ein."
 	},
 
 	variants: [

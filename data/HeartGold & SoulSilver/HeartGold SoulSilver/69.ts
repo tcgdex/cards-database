@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling.",
+		de: "Es bewegt seinen Körper rhythmisch hin und her. Seine Gemütslage bestimmt den Rhythmus."
 	},
 
 	variants: [

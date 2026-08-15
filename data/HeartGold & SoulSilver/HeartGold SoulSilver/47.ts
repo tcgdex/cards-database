@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it is around babies, the milk it produces contains much more nutrition than usual."
+		en: "If it is around babies, the milk it produces contains much more nutrition than usual.",
+		de: "Wenn es gerade ein Junges hat, dann enthält seine Milch mehr Nährstoffe als gewöhnlich."
 	},
 
 	variants: [
