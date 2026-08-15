@@ -60,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		de: "Es hat Nerven wie Drahtseile, nichts kann es erschüttern. Es ist agiler und aktiver, als es scheint."
 	},
 
 	thirdParty: {

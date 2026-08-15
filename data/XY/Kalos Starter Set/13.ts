@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: '40+',
 
@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+		de: "Es kann kleine in Blasen gehüllte Steine mit solcher Präzision werfen, dass es selbst 30 m entfernte Dosen problemlos trifft."
 	},
 
 	thirdParty: {

@@ -77,7 +77,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+		de: "Es ist so stark, dass es selbst 50 t schwere Panzer umkippen kann. Es schützt seine Artgenossen, indem es sich ihnen als Schild anbietet."
 	},
 
 	thirdParty: {

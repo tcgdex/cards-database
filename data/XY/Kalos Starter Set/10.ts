@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+		de: "Es kann die Zukunft vorhersehen, indem es konzentriert in die Flamme an der Spitze seines Zweiges blickt."
 	},
 
 	thirdParty: {
