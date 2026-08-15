@@ -16,10 +16,6 @@ const card: Card = {
 	hp: 170,
 	types: ["Darkness"],
 
-	description: {
-		en: "As the energy of Mega Evolution fills it, its fur\nbristles. What you see on its back are not true\nwings, and this Pokémon isn't able to fly."
-	},
-
 	stage: "Basic",
 	suffix: "EX",
 

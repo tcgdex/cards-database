@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Wartortle"
 	},
 
-	description: {
-		en: "The cannon on its back is as powerful as a\ntank gun. Its tough legs and back enable it to\nwithstand the recoil from firing the cannon."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 

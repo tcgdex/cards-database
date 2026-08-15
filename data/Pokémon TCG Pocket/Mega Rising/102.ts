@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Swablu"
 	},
 
-	description: {
-		en: "On sunny days, it flies freely through the sky and\nblends into the clouds. It sings in a beautiful\nsoprano."
-	},
-
 	stage: "Stage1",
 	suffix: "EX",
 

@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Onix"
 	},
 
-	description: {
-		en: "To protect itself from opponents' attacks, it uses\nmagnetism to control pieces of its hard outer\nshell that have flaked off."
-	},
-
 	stage: "Stage1",
 	suffix: "EX",
 
