@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	attacks: [
@@ -92,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
+		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+		de: "Dieses Pokémon ist superstark. Es kann sich nur mit einem kraftregulierenden Gürtel bewegen."
 	},
 
 	thirdParty: {

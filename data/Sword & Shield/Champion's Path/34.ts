@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	attacks: [
@@ -84,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving."
+		en: "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving.",
+		de: "Es schüchtert seinen Gegner mit dem Muster auf seinem Bauch ein und nimmt ihn dann in den Würgegriff, bis es keinen Widerstand mehr spürt."
 	},
 
 	thirdParty: {

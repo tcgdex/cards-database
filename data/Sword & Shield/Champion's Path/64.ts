@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de tu baraja, elige 1 de ellas y pon el resto de las cartas de nuevo en tu baraja y barájalas todas. Después, pon la carta que has elegido en la parte superior de tu baraja.",
 		it: "Guarda le prime cinque carte del tuo mazzo, scegline una e rimischia le altre carte nel tuo mazzo. Poi metti la carta che hai scelto in cima al tuo mazzo.",
 		pt: "Olhe as 5 cartas de cima do seu baralho, escolha 1 delas e embaralhe as demais cartas de volta no seu baralho. Em seguida, coloque a carta escolhida como a carta de cima do seu baralho.",
-		de: "Schau dir die obersten 5 Karten deines Decks an, wähle 1 von ihnen und mische die anderen Karten zurück in dein Deck. Lege anschließend die von dir gewählte Karte oben auf dein Deck."
+		de: "Schau dir die obersten 5 Karten deines Decks an, wähle 1 von ihnen und mische die anderen Karten zurück in dein Deck. Lege anschließend die von dir gewählte Karte oben auf dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

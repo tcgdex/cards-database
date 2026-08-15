@@ -63,7 +63,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise.",
+		de: "Alte Leute verabscheuen es als das Desaster-Pokémon, aber seine Fähigkeit, Katastrophen vorherzusagen, findet immer mehr Anerkennung."
 	},
 
 	thirdParty: {

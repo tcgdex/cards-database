@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	abilities: [
@@ -97,7 +98,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		de: "Bei gutem Wetter mischt es sich unter die Wolken und genießt die Freiheit. Es hat eine entzückende Sopranstimme."
 	},
 
 	thirdParty: {

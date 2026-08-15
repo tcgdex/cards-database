@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drednaw V",
-		fr: "Torgamord-V"
+		fr: "Torgamord-V",
+		de: "Kamalm V"
 	},
 
 	abilities: [

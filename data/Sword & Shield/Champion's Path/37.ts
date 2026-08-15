@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Linoone",
-		fr: "Linéon de Galar"
+		fr: "Linéon de Galar",
+		de: "Galar-Geradaks"
 	},
 
 	abilities: [
@@ -98,7 +99,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct."
+		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.",
+		de: "Es verfügt über eine beeindruckende Stimmkraft. Sein von Schreien begleitetes Drohverhalten nennt man auch „Abblocker“."
 	},
 
 	thirdParty: {
