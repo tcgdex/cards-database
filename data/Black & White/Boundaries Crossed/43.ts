@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ducklett",
 		fr: "Couaneton",
+		de: "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Aerial Ace",
 				fr: "Aéropique",
+				de: "AeroAss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Defog",
 				fr: "Anti-Brume",
+				de: "Auflockern"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play. If you do, this attack does 40 more damage.",
 				fr: "Vous pouvez défausser une carte Stade en jeu. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Du kannst eine beliebige Stadionkarte aus dem Spiel auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+		de: "Sie wirken zerbrechlich, aber ihre starken Schwingen tragen sie in einem Stück bis zu 1 000 Kilometer weit."
 	},
 
 	thirdParty: {

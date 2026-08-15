@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'Pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "By extending its rolled up ears and striking the ground, it can bound so high it surprises itself.",
+		de: "Es kann selbst kaum glauben, wie hoch es fliegt, wenn es seine aufgerollten Ohren mit großer Wucht zu Boden schnellt."
 	},
 
 	thirdParty: {

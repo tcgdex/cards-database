@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de Poing Psy",
+				de: "Psyhieb"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		de: "Die schleifenförmigen Fühler erhöhen seine Psycho-Kräfte. Es scheint stets irgendetwas anzustarren."
 	},
 
 	thirdParty: {

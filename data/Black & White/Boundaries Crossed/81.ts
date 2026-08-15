@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Poison Ring",
 				fr: "Anneau de Poison",
+				de: "Giftring"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Night Slash",
 				fr: "Tranche-Nuit",
+				de: "Nachthieb"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 40,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
+		de: "Es fliegt lautlos am Himmel. Sobald es sich seiner Beute genähert hat, landet es augenblicklich einen Volltreffer."
 	},
 
 	thirdParty: {

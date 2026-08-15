@@ -34,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Hammerhead",
 				fr: "Massue",
+				de: "Hammerkopf"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Land's Judgment",
 				fr: "Jugement Terrestre",
+				de: "Mach dich vom Acker"
 			},
 			effect: {
 				en: "You may discard all Fighting Energy attached to this Pokémon. If you do, this attack does 70 more damage.",
 				fr: "Vous pouvez défausser toutes les Énergies Fighting attachées à ce Pokémon. Dans ce cas, cette attaque inflige 70 dégâts supplémentaires.",
+				de: "Du kannst alle an dieses Pokémon angelegten {F}-Energien auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 70 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dwebble",
 		fr: "Crabicoque",
+		de: "Lithomith"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Stone Edge",
 				fr: "Lame de Roc",
+				de: "Steinkante"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
+		de: "Wird bei Revierkämpfen der Stein auf seinem Rücken zerschlagen, fühlt es sich verwundbar und wird langsam schwächer."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gothita",
 		fr: "Scrutella",
+		de: "Mollimorba"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de Poing Psy",
+				de: "Psyhieb"
 			},
 
 			damage: 30,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Destructive Beam",
 				fr: "Rayon Désintégrateur",
+				de: "Zerstörungsstrahler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+		de: "Es manipuliert Pokémon und Menschen mit Hypnosetricks. In Märchen tritt es oft als Entführer auf."
 	},
 
 	thirdParty: {

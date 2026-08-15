@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Woobat",
 		fr: "Chovsourir",
+		de: "Fleknoil"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Jet Woofer",
 				fr: "Infrasons",
+				de: "Tieftonflieger"
 			},
 			effect: {
 				en: "For each Psychic Energy attached to this Pokémon, discard the top card of your opponent's deck.",
 				fr: "Pour chaque Énergie Psychic attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege für jede an dieses Pokémon angelegte {P}-Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Acrobatics",
 				fr: "Acrobatie",
+				de: "Akrobatik"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+		de: "Beim Abfeuern seiner Ultraschallwellen, mit denen es selbst Beton zertrümmern kann, wedelt es eifrig mit dem Schweif."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wartortle",
 		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir una carta de Energía Water de tu mano a 1 de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi assegnare a piacimento le carte Energia Water che hai in mano ai tuoi Pokémon.",
 				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Water da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Water-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {W}-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 60,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+		de: "Der Wasserstrahl, der aus den Wasserdüsen schießt, kann sogar Stahlwände durchdringen."
 	},
 
 	thirdParty: {

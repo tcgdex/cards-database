@@ -38,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt Bounce",
 				fr: "Culbute Surprise",
+				de: "Abrupter Kopfstoß"
 			},
 
 			damage: 60,
@@ -56,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+		de: "Verzweifelt versucht es, seinen schwarzen Schweif zu verstecken. Er soll ein Geheimnis enthalten"
 	},
 
 	thirdParty: {

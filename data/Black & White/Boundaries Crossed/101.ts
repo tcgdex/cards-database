@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Fang",
 				fr: "Croc de Dragon",
+				de: "Drachenzahn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 60,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Freeze Shock",
 				fr: "Éclair Gelé",
+				de: "Frostvolt"
 			},
 			effect: {
 				en: "This Pokémon can't attack during your next turn.",
 				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 150,
 

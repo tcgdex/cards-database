@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tepig",
 		fr: "Gruikui",
+		de: "Floink"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Firebreathing",
 				fr: "Souffle-Feu",
+				de: "Feuerhauch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.",
+		de: "Nutzt Nahrung als Brennstoff, um das Feuer in seinem Magen zu schüren. Mit Wut im Bauch heizt es ungleich stärker."
 	},
 
 	thirdParty: {

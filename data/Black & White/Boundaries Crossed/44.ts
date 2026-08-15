@@ -38,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 40,
@@ -56,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+		de: "Es schlingt seine schleierartigen Arme um seine Beute und entführt sie 8 000 Meter in die Tiefe, wo es sie schließlich tötet."
 	},
 
 	thirdParty: {

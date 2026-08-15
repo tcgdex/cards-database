@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 F.",
+		de: "Zum Schlafen zieht es Arme und Beine ein und senkt seine innere Körpertemperatur auf 600 Grad, um sich zu entspannen."
 	},
 
 	thirdParty: {

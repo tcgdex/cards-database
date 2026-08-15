@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Firefighting",
 				fr: "Anti-Flammes",
+				de: "Feuerwehr"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie Fire attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte {R}-Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "When headaches stimulate its brain cells, which are usually inactive, it can use a mysterious power.",
+		de: "Werden die Zellen seines Hirns durch starke Kopfschmerzen stimuliert, erhält es geheimnisvolle Kräfte."
 	},
 
 	thirdParty: {

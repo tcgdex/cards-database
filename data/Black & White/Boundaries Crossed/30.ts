@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Withdraw",
 				fr: "Repli",
+				de: "Panzerschutz"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt würde."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 60,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+		de: "Man sagt, es werde 10 000 Jahre alt. Sein buschiger Schweif ist ein Symbol für langes Leben."
 	},
 
 	thirdParty: {

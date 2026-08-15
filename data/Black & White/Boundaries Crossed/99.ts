@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vibrava",
 		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Flying Beatdown",
 				fr: "Dérouillée Volante",
+				de: "Fliegender Niederprügler"
 			},
 			effect: {
 				en: "You may discard a Grass Energy and a Fighting Energy attached to this Pokémon. If you do, the Defending Pokémon is now Paralyzed.",
 				fr: "Vous pouvez défausser une Énergie Grass et une Énergie Fighting attachées à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Du kannst 1 an dieses Pokémon angelegte {G}-Energie und {F}-Energie auf deinen Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as \"The Desert Spirit\" this Pokémon hides in the sandstorms it causes by beating its wings.",
+		de: "Auch bekannt als „Geist der Wüste“. Es versteckt sich in Sandstürmen, die es durch seinen Flügelschlag erzeugt."
 	},
 
 	thirdParty: {

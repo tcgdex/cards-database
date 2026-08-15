@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Powder",
 				fr: "Poudre Dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -64,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+		de: "Die Blätter auf seinem Kopf schmecken äußerst bitter, wirken aber erfrischend. Fallen sie aus, wachsen sie sofort nach."
 	},
 
 	thirdParty: {

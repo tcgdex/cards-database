@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador roba o descarta cartas hasta tener 5 cartas en su mano. (Tu rival lo hace primero.)",
 		it: "Ciascun giocatore pesca o scarta carte fino ad avere cinque carte in mano. Inizia il tuo avversario.",
 		pt: "Cada jogador compra ou descarta cards até ter 5 cards na mão. (Seu oponente faz isso primeiro.)",
-		de: "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis er 5 Karten auf der Hand hat. (Dein Gegner beginnt.)"
+		de: "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis er 5 Karten auf der Hand hat. (Dein Gegner beginnt.) Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

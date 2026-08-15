@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -62,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+		de: "Es schwimmt besser, als es fliegen kann. Am liebsten taucht es ins kühle Nass ab, um Torfmoos, seine Leibspeise, zu essen."
 	},
 
 	thirdParty: {

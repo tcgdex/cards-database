@@ -57,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Protection",
 				fr: "Protection Psy",
+				de: "Psychoschützer"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				de: "Während des nächsten Zuges deines Gegners hat dieses Pokémon keine Schwäche."
 			},
 			damage: 90,
 

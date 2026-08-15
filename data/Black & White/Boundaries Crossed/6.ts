@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Hundred Furious Lashes",
 				fr: "Multifouets Furieux",
+				de: "Hundert heftige Hiebe"
 			},
 			effect: {
 				en: "Does 30 damage times the amount of Grass Energy attached to this Pokémon. This Pokémon can't use Hundred Furious Lashes during your next turn.",
 				fr: "Inflige 30 dégâts multipliés par le nombre d'Énergies Grass attachées à ce Pokémon. Ce Pokémon ne peut pas utiliser Multifouets Furieux pendant votre prochain tour.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {G}-Energien zu. Tangoloss kann Hundert heftige Hiebe während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Mega Drain",
 				fr: "Méga-Sangsue",
+				de: "Megasauger"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 70,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+		de: "Seine regenerativen Kräfte sind so stark, dass ein Arm sofort nachwächst, wenn er gefressen wird."
 	},
 
 	thirdParty: {

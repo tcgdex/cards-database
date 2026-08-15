@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Purrloin",
 		fr: "Chacripan",
+		de: "Felilou"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Tail Trickery",
 				fr: "Queue Étourdissante",
+				de: "Schweiftrick"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Assist",
 				fr: "Assistance",
+				de: "Zuschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your Benched Pokémon's attacks and use it as this attack.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une attaque de l'un de vos Pokémon de Banc et utilisez-la en tant que cette attaque.",
+				de: "Wirf 1 Münze. Wähle bei „Kopf“ 1 Angriff eines Pokémon auf deiner Bank und verwende ihn als diesen Angriff."
 			},
 
 		},
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		de: "Sein anmutiges Auftreten verdankt es den Muskeln, die es entwickelt hat. Es prescht lautlos durch die Nacht."
 	},
 
 	thirdParty: {

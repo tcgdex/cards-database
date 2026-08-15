@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
+		de: "Ruht es sich nicht aus, kann es seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht."
 	},
 
 	thirdParty: {
