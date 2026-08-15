@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Larvitar δ",
 		fr: "Embrylex δ",
-		de: "Larvitar"
+		de: "Larvitar δ"
 	},
 
 	illustrator: "Hajime Kusajima",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Persian δ",
 		fr: "Persian δ",
-		de: "Snobilikat"
+		de: "Snobilikat δ"
 	},
 
 	illustrator: "Midori Harada",

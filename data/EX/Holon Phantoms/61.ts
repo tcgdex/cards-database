@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carvanha δ",
 		fr: "Carvanha δ",
-		de: "Kanivanha"
+		de: "Kanivanha δ"
 	},
 
 	illustrator: "Kouki Saitou",

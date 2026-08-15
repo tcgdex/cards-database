@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Feebas δ",
 		fr: "Barpau δ",
-		de: "Barschwa"
+		de: "Barschwa δ"
 	},
 
 	illustrator: "Yukiko Baba",

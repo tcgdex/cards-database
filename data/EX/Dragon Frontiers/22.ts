@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seadra δ",
 		fr: "Hypocéan δ",
-		de: "Seemon"
+		de: "Seemon δ"
 	},
 
 	illustrator: "Sachiko Adachi",

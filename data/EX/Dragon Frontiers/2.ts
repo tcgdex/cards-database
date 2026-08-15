@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Feraligatr δ",
 		fr: "Aligatueur δ",
-		de: "Impergator"
+		de: "Impergator δ"
 	},
 
 	illustrator: "Kouki Saitou",

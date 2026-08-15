@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Smeargle δ",
 		fr: "Queulorior δ",
-		de: "Farbeagle"
+		de: "Farbeagle δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

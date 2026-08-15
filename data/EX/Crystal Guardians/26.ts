@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pelipper δ",
 		fr: "Bekipan δ",
-		de: "Pelipper"
+		de: "Pelipper δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

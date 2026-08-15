@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Heracross δ",
 		fr: "Scarhino δ",
-		de: "Skaraborn"
+		de: "Skaraborn δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

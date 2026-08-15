@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kabutops ex",
 		fr: "Kabutops ex",
-		de: "Kabutops ex"
+		de: "Kabutops-ex"
 	},
 
 	illustrator: "Ryo Ueda",

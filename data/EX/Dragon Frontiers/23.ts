@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tropius δ",
 		fr: "Tropius δ",
-		de: "Tropius"
+		de: "Tropius δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

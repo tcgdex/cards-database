@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vibrava δ",
 		fr: "Vibraninf δ",
-		de: "Vibrava"
+		de: "Vibrava δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

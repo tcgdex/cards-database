@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Treecko δ",
 		fr: "Arcko δ",
-		de: "Geckarbor"
+		de: "Geckarbor δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

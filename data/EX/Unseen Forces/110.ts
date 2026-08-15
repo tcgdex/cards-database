@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Typhlosion ex",
 		fr: "Typhlosion ex",
-		de: "Tornupto ex"
+		de: "Tornupto-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",

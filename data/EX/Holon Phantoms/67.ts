@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kabuto δ",
 		fr: "Kabuto δ",
-		de: "Kabuto"
+		de: "Kabuto δ"
 	},
 
 	illustrator: "Hajime Kusajima",

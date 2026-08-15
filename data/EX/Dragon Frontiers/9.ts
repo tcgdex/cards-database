@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pinsir δ",
 		fr: "Scarabrute δ",
-		de: "Pinsir"
+		de: "Pinsir δ"
 	},
 
 	illustrator: "Yukiko Baba",

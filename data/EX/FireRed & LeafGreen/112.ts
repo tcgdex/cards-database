@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Venusaur ex",
 		fr: "Florizarre ex",
-		de: "Bisaflor ex"
+		de: "Bisaflor-ex"
 	},
 
 	illustrator: "Ryo Ueda",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Totodile δ",
 		fr: "Kaiminus δ",
-		de: "Karnimani"
+		de: "Karnimani δ"
 	},
 
 	illustrator: "Hisao Nakamura",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ninetales δ",
 		fr: "Feunard δ",
-		de: "Vulnona"
+		de: "Vulnona δ"
 	},
 
 	illustrator: "Hajime Kusajima",

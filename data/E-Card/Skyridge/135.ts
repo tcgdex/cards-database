@@ -4,7 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Mystery Plate γ",
-		de: "Geheimes Schild γ"
+		de: "Geheimnis-Schild γ"
 	},
 
 	illustrator: "Hiromichi Sugiyama",

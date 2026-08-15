@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellossom δ",
 		fr: "Joliflor δ",
-		de: "Blubella"
+		de: "Blubella δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

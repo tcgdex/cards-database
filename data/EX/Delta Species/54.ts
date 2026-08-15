@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shelgon δ",
 		fr: "Drackhaus δ",
-		de: "Draschel"
+		de: "Draschel δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

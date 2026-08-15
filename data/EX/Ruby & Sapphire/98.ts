@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hitmonchan ex",
 		fr: "Tygnon ex",
-		de: "Nockchan ex"
+		de: "Nockchan-ex"
 	},
 
 	illustrator: "Hiromichi Sugiyama",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mewtwo δ",
 		fr: "Mewtwo δ",
-		de: "Mewtu"
+		de: "Mewtu δ"
 	},
 
 	illustrator: "Ryo Ueda",
