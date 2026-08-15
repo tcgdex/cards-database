@@ -49,7 +49,7 @@ const card: Card = {
 		effect: {
 			en: "If a Pokémon that has \"Nidoking\" in its name is on your Bench, this attack does 120 more damage.",
 			fr: "Si un Pokémon ayant \" Nidoking \" dans son nom est sur votre Banc, cette attaque inflige 120 dégâts supplémentaires.",
-			de: "Wenn sich ein Pokémon auf deiner Bank befindet, bei dem \"Nidoking\" zum Namen gehört, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			de: "Wenn sich ein Pokémon auf deiner Bank befindet, bei dem „Nidoking“ zum Namen gehört, fügt diese Attacke 120 Schadenspunkte mehr zu.",
 			it: "Se un Pokémon che ha \"Nidoking\" nel nome è nella tua panchina, questo attacco infligge 120 danni in più.",
 			es: "Si hay un Pokémon en tu Banca que tenga \"Nidoking\" en su nombre, este ataque hace 120 puntos de daño más.",
 			pt: "Se um Pokémon que tiver \"Nidoking\" em seu nome estiver no seu Banco, este ataque causará 120 pontos de dano a mais.",

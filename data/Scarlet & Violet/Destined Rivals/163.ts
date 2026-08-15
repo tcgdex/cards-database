@@ -23,7 +23,7 @@ const card: Card = {
 	effect: {
 		en: "Draw 2 cards. If your opponent has 3 or fewer Prize cards remaining, draw 2 more cards.",
 		fr: "Piochez 2 cartes. S'il reste 3 cartes Récompense ou moins à votre adversaire, piochez 2 cartes supplémentaires.",
-		de: "Ziehe 2 Karten. Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, ziehe 2 Karten mehr.",
+		de: "Ziehe 2 Karten. Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Pesca due carte. Se il tuo avversario ha tre o meno carte Premio rimanenti, pesca altre due carte.",
 		es: "Roba 2 cartas. Si a tu rival le quedan 3 cartas de Premio o menos, roba 2 cartas más.",
 		pt: "Compre 2 cartas. Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, compre 2 cartas a mais.",
