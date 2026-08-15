@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Electabuzz",
 		fr: "Élektek",
+		de: "Elektek"
 	},
 
 	stage: "Stage1",
@@ -105,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It pushes the tips of its tails against its foes and then lets loose a high-voltage current. Its foes are burned to a crisp in an instant.",
+		de: "Es berührt Gegner mit seinen Schweifspitzen und entlädt dann starke Elektrizität. So kann es sie im Nullkommanichts verkohlen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Rattata",
 		fr: "Rattata d’Alola",
+		de: "Alola-Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
+		de: "Schart eine Gruppe Rattfratz um sich. Zwischen den Gruppen, die jeweils ihr eigenes Territorium besitzen, entbrennen oft Kämpfe um Futter."
 	},
 
 	thirdParty: {

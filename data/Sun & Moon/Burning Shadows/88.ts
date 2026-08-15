@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon está en tu pila de descartes, puedes ponerlo en tu Banca. Después, une 1 carta de Energía Darkness de tu pila de descartes a este Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è nella tua pila degli scarti, puoi metterlo in panchina. Poi, assegnagli una carta Energia Darkness dalla tua pila degli scarti.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), se este Pokémon estiver na sua pilha de descarte, você poderá colocá-lo no seu Banco. Em seguida, ligue 1 carta de Energia Darkness da sua pilha de descarte a este Pokémon.",
-				de: "Einmal während deines Zuges (bevor du angreifst), wenn sich dieses Pokémon in deinem Ablagestapel befindet, kannst du es auf deine Bank legen. Lege anschließend 1 Darkness-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Einmal während deines Zuges (bevor du angreifst), wenn sich dieses Pokémon in deinem Ablagestapel befindet, kannst du es auf deine Bank legen. Lege anschließend 1 {D}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 		},
 	],
@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Sin Retorno GX",
 				it: "Vicolo Cieco-GX",
 				pt: "Sem Saída GX",
-				de: "Sackgasse GX"
+				de: "Sackgasse-GX"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is affected by a Special Condition, that Pokémon is Knocked Out. (You can’t use more than 1 GX attack in a game.)",

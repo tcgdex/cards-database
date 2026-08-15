@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a violent temperament. It will attack anything that looks it in the eye. Its sharp claws inflict deep wounds.",
+		de: "Sieht man diesem ungestümen Pokémon nur in die Augen, fällt es einen bereits an. Seine scharfen Klauen hinterlassen tiefe Wunden."
 	},
 
 	thirdParty: {

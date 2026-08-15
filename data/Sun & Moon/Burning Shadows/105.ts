@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "In order to create a more advanced Pokémon, an additional program was installed, but apparently it contained a defect that makes it move oddly.",
+		de: "Zusätzliche Software wurde installiert, um das Pokémon zu verbessern. Etwas ging jedoch schief und seitdem benimmt es sich seltsam."
 	},
 
 	thirdParty: {

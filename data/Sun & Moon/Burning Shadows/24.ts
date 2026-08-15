@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+		de: "Mit seiner brandheißen Zunge bringt es Fermicula zum Schmelzen, um so an sein weiches Inneres zu gelangen."
 	},
 
 	thirdParty: {

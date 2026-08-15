@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It can discern the physical and emotional states of people, Pokémon, and other natural things from the shape of their aura waves.",
+		de: "Es sieht sowohl die Gefühle von Menschen und Pokémon als auch die ihn umgebende Natur in Form von Wellen, die Aura genannt werden."
 	},
 
 	thirdParty: {

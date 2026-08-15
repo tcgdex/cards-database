@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+		de: "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker."
 	},
 
 	thirdParty: {

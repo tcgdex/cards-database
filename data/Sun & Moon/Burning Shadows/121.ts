@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador juegue 1 Pokémon de su mano para hacer evolucionar a 1 de sus Pokémon, pon 3 contadores de daño en ese Pokémon.",
 		it: "Ogni volta che un giocatore gioca un Pokémon dalla sua mano per far evolvere uno dei suoi Pokémon, metti tre segnalini danno su quel Pokémon.",
 		pt: "Sempre que algum jogador jogar 1 Pokémon da própria mão para evoluir 1 dos próprios Pokémon, coloque 3 contadores de dano naquele Pokémon.",
-		de: "Lege jedes Mal, wenn ein Spieler 1 Pokémon aus seiner Hand spielt, um 1 seiner Pokémon zu entwickeln, 3 Schadensmarken auf jenes Pokémon."
+		de: "Lege jedes Mal, wenn ein Spieler 1 Pokémon aus seiner Hand spielt, um 1 seiner Pokémon zu entwickeln, 3 Schadensmarken auf jenes Pokémon. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

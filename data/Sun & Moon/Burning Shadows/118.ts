@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Coste de Retirada de cada Pokémon Básico en juego (tanto tuyos como de tu rival) es de Colorless más.",
 		it: "Il costo di ritirata di ciascun Pokémon Base in gioco, sia tuoi che del tuo avversario, aumenta di Colorless.",
 		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) será Colorless a mais.",
-		de: "Die Rückzugskosten jedes Basis-Pokémon im Spiel (deiner und der deines Gegners) erhöhen sich um Colorless."
+		de: "Die Rückzugskosten jedes Basis-Pokémon im Spiel (deiner und der deines Gegners) erhöhen sich um {C}. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

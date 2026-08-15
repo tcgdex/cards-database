@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou",
+		de: "Vegimak"
 	},
 
 	stage: "Stage1",
@@ -69,7 +70,7 @@ const card: Card = {
 				es: "Puedes unir 1 carta de Energía Grass de tu mano a 1 de tus Pokémon.",
 				it: "Puoi assegnare una carta Energia Grass dalla tua mano a uno dei tuoi Pokémon.",
 				pt: "Você pode ligar 1 carta de Energia Grass da sua mão a 1 dos seus Pokémon.",
-				de: "Du kannst 1 Grass-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Du kannst 1 {G}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 			damage: 50,
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		de: "Wer sich mit diesem temperamentvollen Pokémon anlegt, bekommt seinen mit Dornen bestückten Schweif zu spüren."
 	},
 
 	thirdParty: {

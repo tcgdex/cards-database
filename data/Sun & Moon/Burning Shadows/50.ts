@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		de: "Die flinken Angriffe von Sengo kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt."
 	},
 
 	thirdParty: {

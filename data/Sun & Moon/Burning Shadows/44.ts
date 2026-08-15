@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival tiene alguna Energía Water unida a él, este ataque hace 30 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha delle Energie Water assegnate, questo attacco infligge 30 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente possuir alguma Energia Water ligada a ele, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 {W}-Energie angelegt ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		de: "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen im Schwarm auf, gleicht seine Kraft der eines Blitzes."
 	},
 
 	thirdParty: {

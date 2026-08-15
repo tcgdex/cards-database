@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+		de: "In seinen Backen sammelt sich Gift. Es versucht, Beute zu überraschen und mit Giftfingern zu schnappen."
 	},
 
 	thirdParty: {

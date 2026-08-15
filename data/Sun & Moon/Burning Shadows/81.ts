@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
+		de: "Mithilfe seiner Vorderzähne knabbert es sich durch Wohnungstüren. Vibrierende Schnurrhaare helfen ihm, Futter zu finden und es zu stehlen."
 	},
 
 	thirdParty: {

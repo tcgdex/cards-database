@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
+		de: "Sleima, die zur Lösung der Abfallproblematik aus anderen Regionen nach Alola gebracht wurden, entwickelten sich eines Tages zu dieser Form."
 	},
 
 	thirdParty: {

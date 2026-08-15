@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+		de: "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten."
 	},
 
 	thirdParty: {

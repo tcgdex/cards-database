@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Cura 30 puntos de daño a cada uno de tus Pokémon Fairy.",
 				it: "Cura ciascuno dei tuoi Pokémon Fairy da 30 danni.",
 				pt: "Cure 30 pontos de dano de cada um dos seus Pokémon Fairy.",
-				de: "Heile 30 Schadenspunkte bei jedem deiner Fairy-Pokémon."
+				de: "Heile 30 Schadenspunkte bei jedem deiner {FAIRY}-Pokémon."
 			},
 			damage: 30,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+		de: "Dieses Pokémon ist eine Mutation von Rocara. Sein rosafarben schimmernder Körper gilt als schönster Anblick überhaupt."
 	},
 
 	thirdParty: {

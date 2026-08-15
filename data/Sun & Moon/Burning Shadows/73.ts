@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
+		de: "Schützt mit den Scheren seine Schwachstellen und bereitet einen Gegenschlag vor. Verliert es, bläst es Trübsal."
 	},
 
 	thirdParty: {

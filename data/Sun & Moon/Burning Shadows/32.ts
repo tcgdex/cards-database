@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Although weak and helpless, this Pokémon is incredibly fertile. They exist in such multitudes, you'll soon grow tired of seeing them.",
+		de: "Es ist schwach und unzuverlässig, aber es vermehrt sich unglaublich schnell. Deshalb trifft man es auch öfter an, als einem lieb ist."
 	},
 
 	thirdParty: {

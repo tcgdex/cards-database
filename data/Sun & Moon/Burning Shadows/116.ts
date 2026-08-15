@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 4 cartas de Energía Fire y únelas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja. Tu turno termina.",
 		it: "Cerca nel tuo mazzo fino a quattro carte Energia Fire e assegnale a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo. Il tuo turno finisce.",
 		pt: "Procure por até 4 cartas de Energia Fire no seu baralho e ligue-as a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho. A sua vez de jogar acaba.",
-		de: "Durchsuche dein Deck nach bis zu 4 Fire-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck. Dein Zug endet."
+		de: "Durchsuche dein Deck nach bis zu 4 {R}-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck. Dein Zug endet. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
