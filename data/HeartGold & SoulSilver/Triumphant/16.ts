@@ -78,7 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey."
+		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey.",
+		de: "Es sucht sich einen Ast, von dem aus es seiner Beute mit seinen gelenkigen Tentakeln auflauert."
 	},
 
 	variants: [

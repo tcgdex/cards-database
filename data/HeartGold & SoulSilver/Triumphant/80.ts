@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
+		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings.",
+		de: "Es treibt ziellos im Wasser. Es ist schwer zu erkennen und wird erst bemerkt, wenn es zusticht."
 	},
 
 	variants: [

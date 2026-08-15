@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
+		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light.",
+		de: "Gift bedeckt seinen Körper. Es fängt und frisst nachts kleine Käfer, die von Licht angelockt wurden."
 	},
 
 	variants: [

@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
+		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents.",
+		de: "Nach der Geburt ist es noch langsam, aber es wird bald schneller, da es seinen Eltern nachrennt."
 	},
 
 	variants: [

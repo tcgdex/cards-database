@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
-		fr: "Tentacool"
+		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf eine Münze. Lege bei \"Kopf\" eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf eine Münze. Lege bei „Kopf“ eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
+		en: "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net.",
+		de: "Im Kampf bilden seine 80 Tentakel ein Giftnetz, in dem es seine Gegner fängt und sie vergiftet."
 	},
 
 	variants: [

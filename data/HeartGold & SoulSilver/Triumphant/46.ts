@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♂",
-		fr: "Nidoran♂"
+		fr: "Nidoran♂",
+		de: "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
+		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated.",
+		de: "Es ist aufbrausend und setzt sein Horn, dessen Gift im Kampf noch potenter ist, ohne zu zögern ein."
 	},
 
 	variants: [

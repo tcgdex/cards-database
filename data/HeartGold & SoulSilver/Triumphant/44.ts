@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cubone",
-		fr: "Osselait"
+		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60×",
 
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
+		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others.",
+		de: "Es schlägt mit dem Knochen in seiner Hand gegen Felsen, um anderen Botschaften zu übermitteln."
 	},
 
 	variants: [

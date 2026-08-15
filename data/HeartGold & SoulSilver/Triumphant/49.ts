@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
+		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed.",
+		de: "Seine Fähigkeiten wurden verbessert. Es zeigt manchmal sogar Handlungen, die nicht einprogrammiert sind."
 	},
 
 	variants: [

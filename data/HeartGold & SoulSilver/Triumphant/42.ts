@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun."
+		en: "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun.",
+		de: "Die feurige Haut seines Körpers besitzt einen flackernden Glanz, der an die Sonne erinnert."
 	},
 
 	variants: [

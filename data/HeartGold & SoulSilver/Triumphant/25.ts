@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep."
+		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+		de: "Wurde erstmals vor 40 Jahren bei einem Meteoritenkrater entdeckt. Sein Blick wirkt einschläfernd."
 	},
 
 	variants: [

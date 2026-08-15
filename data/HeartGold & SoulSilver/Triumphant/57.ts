@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
-				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		de: "Obwohl sein Körper sehr schmal ist, schnappt es blitzschnell nach Beute."
 	},
 
 	variants: [

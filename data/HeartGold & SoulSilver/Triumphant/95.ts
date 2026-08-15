@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Machamp is on your Bench, you may move all Fighting Energy attached to your Active Pokémon to Machamp. If you do, switch Machamp with your Active Pokémon.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si Mackogneur est sur votre Banc, vous pouvez lui attribuer toutes les cartes Énergie Fighting attachées à votre Pokémon Actif. Dans ce cas, échangez Mackogneur avec votre Pokémon Actif.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Machomei auf deiner Bank befindet, alle an dein Aktives Pokémon angelegten -Energien an Machomei anlegen. Wenn du das machst, tausche Machomei mit deinem Aktiven Pokémon aus."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Machomei auf deiner Bank befindet, alle an dein Aktives Pokémon angelegten {F}-Energien an Machomei anlegen. Wenn du das machst, tausche Machomei gegen dein Aktives Pokémon aus."
 			}
 		},
 	],

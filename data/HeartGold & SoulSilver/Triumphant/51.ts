@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
+		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
+		de: "Sein flacher, dünner Körper hängt immer an Wänden. Seine Form scheint eine Bedeutung zu haben."
 	},
 
 	variants: [

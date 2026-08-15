@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger."
+		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
+		de: "Dieses Pokémon strotzt vor Lebensenergie. Es häutet sich ständig und wird dadurch größer."
 	},
 
 	variants: [

@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads."
+		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads.",
+		de: "Seine Schäfchenwolkenflügel pflegt es mit Quellwasser. Es liebt es, auf den Köpfen von Menschen zu sitzen."
 	},
 
 	variants: [

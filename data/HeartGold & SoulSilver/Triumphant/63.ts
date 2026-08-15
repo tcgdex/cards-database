@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Placez un marqueur de dégât sur l’un des Pokémon de votre adversaire.",
-				de: "Lege 1 Schadensmarken auf 1 Pokémon deines Gegners."
+				de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
+		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation.",
+		de: "Es hat einen gasförmigen Körper. Es kann jeden Gegner mit Giftgas einnebeln und dadurch ersticken."
 	},
 
 	variants: [

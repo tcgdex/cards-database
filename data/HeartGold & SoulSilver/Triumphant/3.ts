@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		de: "Dieses Pokémon reist durch Zeit und Raum. Bäume und Wiesen wuchern, wenn es in der Nähe ist."
 	},
 
 	variants: [		{

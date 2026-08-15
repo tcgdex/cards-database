@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
+		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way.",
+		de: "Obwohl es nicht aggressiv ist, malträtiert es seine Feinde bei Bedrohung mit seinen Giftstacheln."
 	},
 
 	variants: [

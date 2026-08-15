@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon2",
-		fr: "Porygon2"
+		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it on top of your deck. This power can't be used if Porygon-Z is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, cherchez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire, puis placez-la sur le dessus de votre deck. Ce Poké-Power ne peut pas être utilisé si Porygon-Z est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei \"Kopf\" durchsuche deinen Ablagestapel nach 1 Trainer-Karte, zeige sie deinem Gegner und lege sie oben auf dein Deck. Diese Poké-Power kann nicht benutzt werden, wenn Porygon-Z von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Trainer-Karte, zeige sie deinem Gegner und lege sie oben auf dein Deck. Diese Poké-Power kann nicht benutzt werden, wenn Porygon-Z von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…"
+		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…",
+		de: "Eine neue Software sollte es zu interdimensionalen Reisen befähigen, doch anscheinend ging etwas schief."
 	},
 
 	variants: [		{
