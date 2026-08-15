@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hail",
 				fr: "Grêle",
+				de: "Hagelsturm"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 30,
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+		de: "Fühlt es sich wohl, wird der Schleim, der aus seiner Nase trieft, klebrig, und die Stärke seiner Eis-Attacken nimmt zu."
 	},
 
 	thirdParty: {

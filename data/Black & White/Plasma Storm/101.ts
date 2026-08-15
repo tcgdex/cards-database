@@ -62,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Teampact",
 				fr: "Teampact",
+				de: "Teamwork"
 			},
 			effect: {
 				en: "Does 30 damage times the number of Team Plasma Pokémon you have in play.",
 				fr: "Inflige 30 dégâts multipliés par le nombre de Pokémon de la Team Plasma que vous avez en jeu.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte für jedes Team Plasma-Pokémon, das du im Spiel hast, zu."
 			},
 			damage: 30,
 
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "When its belly is full, it becomes too lethargic to even lift a finger, so it is safe to bounce on its belly.",
+		de: "Ist sein Magen voll, wird es sehr lethargisch. Nun kann man problemlos auf seinem Bauch umherspringen."
 	},
 
 	thirdParty: {

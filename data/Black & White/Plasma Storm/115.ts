@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Incessant Peck",
 				fr: "Rafal'Bec",
+				de: "Dauerpicker"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It stands up to massive opponents, not out of courage, but out of recklessness. But that is how it gets stronger.",
+		de: "Dass es sich mit großen Gegnern anlegt, ist kein Zeichen von Mut, sondern von Unüberlegtheit. Doch so wird es stärker."
 	},
 
 	thirdParty: {

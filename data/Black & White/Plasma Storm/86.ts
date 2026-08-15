@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		de: "Zurrokex"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Kick Away",
 				fr: "Coud'Pied Éjecteur",
+				de: "Wegkicken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Reinforced Headbutt",
 				fr: "Coup d’Boule Renforcé",
+				de: "Kräftige Kopfnuss"
 			},
 			effect: {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		de: "Es wehrt Angriffe mit seiner alten Haut ab und kontert mit Tritten. Sein Ego entspricht der Größe seines Kamms."
 	},
 
 	thirdParty: {

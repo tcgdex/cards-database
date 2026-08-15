@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 60,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Black Ballista",
 				fr: "Baliste Noire",
+				de: "Schwarze Schleuder"
 			},
 			effect: {
 				en: "Discard 3 Energy attached to this Pokémon.",
 				fr: "Défaussez 3 Énergies attachées à ce Pokémon.",
+				de: "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 200,
 

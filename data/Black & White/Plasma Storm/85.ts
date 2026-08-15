@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Proud of its sturdy skull, it suddenly headbutts everything, but its weight makes it unstable, too.",
+		de: "Verteilt gerne unvermittelt Kopfnüsse, deren Wucht auch seine Sinne vernebelt. Es ist stolz auf seinen robusten Schädel."
 	},
 
 	thirdParty: {

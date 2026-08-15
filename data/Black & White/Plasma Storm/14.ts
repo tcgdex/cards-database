@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Destructive Flame",
 				fr: "Flamme Destructrice",
+				de: "Verzehrende Flamme"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Power Flame",
 				fr: "Flamme Vigoureuse",
+				de: "Mächtige Flamme"
 			},
 			effect: {
 				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.",
 				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon bereits Plasma-Energie angelegt ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 

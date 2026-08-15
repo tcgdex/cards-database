@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Es erfasst warme Gefühle von Menschen und Pokémon mit seinen Hörnern und wärmt sich daran auf."
 	},
 
 	thirdParty: {

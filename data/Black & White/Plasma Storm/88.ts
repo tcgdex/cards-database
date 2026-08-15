@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Rigidify",
 				fr: "Solidification",
+				de: "Verfestiger"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				de: "Klammer"
 			},
 
 			damage: 20,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Two bodies comprise a fixed pair. They spin around each other to generate energy.",
+		de: "Sein Körper ist eine stets identische Anordnung von Einzelteilen, die Energie erzeugen, wenn sie gedreht werden."
 	},
 
 	thirdParty: {

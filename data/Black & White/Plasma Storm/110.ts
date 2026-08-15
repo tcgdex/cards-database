@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
+		de: "Eines dieser vorsichtigen Pokémon steht immer vor ihrem Bau Wache. Nähert sich jedoch ein Feind von hinten, ist es aus."
 	},
 
 	thirdParty: {

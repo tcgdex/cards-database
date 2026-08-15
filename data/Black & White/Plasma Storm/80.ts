@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Timburr",
 		fr: "Charpenti",
+		de: "Praktibalk"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Dynamic Punch",
 				fr: "Dynamopoing",
+				de: "Wuchtschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -61,6 +64,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 80,
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+		de: "Diese durchtrainierten Muskelprotze sind im Umgang mit Stahlträgern versiert und können damit ganze Häuser abreißen."
 	},
 
 	thirdParty: {

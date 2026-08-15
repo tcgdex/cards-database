@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Pile Up",
 				fr: "Amoncellement",
+				de: "Eindecken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, cherchez une carte Outil Pokémon dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Pokémon-Ausrüstung, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Toss",
 				fr: "Giclée Vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+		de: "Eine Mülltüte, der Industrieabfälle und chemische Reaktionen neues Leben eingehaucht haben."
 	},
 
 	thirdParty: {

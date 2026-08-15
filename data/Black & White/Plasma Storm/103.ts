@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togepi",
 		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Sweet Kiss",
 				fr: "Doux Baiser",
+				de: "Bitterkuss"
 			},
 			effect: {
 				en: "Your opponent draws a card.",
 				fr: "Votre adversaire pioche une carte.",
+				de: "Dein Gegner zieht 1 Karte."
 			},
 			damage: 30,
 
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "To share its happiness, it flies around the world seeking kind-hearted people.",
+		de: "Um sein Glück mit anderen zu teilen, fliegt es um die Welt auf der Suche nach gutherzigen Menschen."
 	},
 
 	thirdParty: {

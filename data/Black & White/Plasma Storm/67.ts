@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Ensnarl",
 				fr: "Empêtrement",
+				de: "Verstricker"
 			},
 			effect: {
 				en: "Does 20 damage times the number of Colorless in the Defending Pokémon's Retreat Cost.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de Colorless dans le coût de Retraite du Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Verteidigenden Pokémon zu."
 			},
 			damage: 20,
 
@@ -60,10 +63,12 @@ const card: Card = {
 			name: {
 				en: "Double Ducts",
 				fr: "Double Boyau",
+				de: "Doppelrinne"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 80,
 
@@ -81,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		de: "Jedes Mal, wenn es frischen Müll in sich aufsaugt, erzeugt es völlig neue Formen von Giftgasen und Toxinen."
 	},
 
 	thirdParty: {

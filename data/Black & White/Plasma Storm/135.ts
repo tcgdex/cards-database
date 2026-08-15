@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba un número de cartas igual al número de Pokémon en Banca (tanto tuyos como de tu rival).",
 		it: "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca un numero di carte pari al numero di Pokémon in panchina, sia tuoi che del tuo avversario.",
 		pt: "Embaralhe sua mão no seu baralho. Em seguida, compre um número de cards igual ao número de Pokémon no Banco (tanto seus quanto do seu oponente).",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners)."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners). Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

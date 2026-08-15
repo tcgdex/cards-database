@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Gyro Ball",
 				fr: "Gyroballe",
+				de: "Gyroball"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Danach tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 80,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+		de: "Gelegentlich erzeugen sie so starke Magnetfelder, dass sie sich gegenseitig anziehen und einander immobilisieren."
 	},
 
 	thirdParty: {

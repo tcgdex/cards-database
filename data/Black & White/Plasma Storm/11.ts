@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Dance",
 				fr: "Danse Éblouissante",
+				de: "Verwirrender Tanz"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Ambush",
 				fr: "Embuscade",
+				de: "Hinterhalt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -80,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.",
+		de: "Erzeugt durch rhythmische Bewegungen Töne, die dem Klang von Maracas ähneln und überraschte Pokémon verjagen."
 	},
 
 	thirdParty: {

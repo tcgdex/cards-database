@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Elgyem",
 		fr: "Lewsor",
+		de: "Pygraulon"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Lock Up",
 				fr: "Cage",
+				de: "Einsperren"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Damakinesis",
 				fr: "Dégâkinésie",
+				de: "Schadenstransfer"
 			},
 			effect: {
 				en: "Move 6 damage counters from any of your Pokémon to the Defending Pokémon.",
 				fr: "Déplacez 6 marqueurs de dégâts de vos Pokémon vers le Pokémon Défenseur.",
+				de: "Verschiebe 6 Schadensmarken von beliebigen deiner Pokémon auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Apparently, it communicates by flashing its three fingers, but those patterns haven't been decoded.",
+		de: "Es spricht, indem es seine Fingerspitzen leuchten lässt, doch noch konnte der Code dahinter nicht entziffert werden."
 	},
 
 	thirdParty: {

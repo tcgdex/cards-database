@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Double Headbutt",
 				fr: "Double Coup d'Boule",
+				de: "Doppelte Kopfnuss"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Rooting the tip of its snout into the ground, it searches for food. Sometimes, it even digs up a hot spring.",
+		de: "Spürt mit seiner Nase im Erdreich Futter auf und gräbt danach. Manchmal stößt es dabei auf heiße Quellen."
 	},
 
 	thirdParty: {

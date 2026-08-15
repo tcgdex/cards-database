@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Loud Howl",
 				fr: "Hurlement Tonitruant",
+				de: "Lauter Jauler"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Fire Tail Slap",
 				fr: "Coup de Queue Enflammé",
+				de: "Feuerschweifschlag"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+		de: "Es kontrolliert die Stärke des Feuers auf seinem Schweif geschickt, um Gegner auf Distanz zu halten."
 	},
 
 	thirdParty: {

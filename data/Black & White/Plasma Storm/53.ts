@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,
@@ -84,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
+		de: "Es benötigt keine Augen, da es seine Umgebung im Flug durch das Aussenden von Schallwellen erschließt."
 	},
 
 	thirdParty: {
