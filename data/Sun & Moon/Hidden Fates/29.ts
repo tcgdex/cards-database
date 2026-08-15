@@ -50,19 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Rendez-Vous Tous",
-			},
-			damage: 40,
-
-		},
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
 				fr: "Charge",
 			},
-
 			damage: 40,
 
 		},
