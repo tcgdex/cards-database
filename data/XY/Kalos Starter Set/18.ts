@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		de: "Gegner, die auf die blinkenden Punkte an seinem Körper blicken, werden geblendet und verlieren den Willen zu kämpfen."
 	},
 
 	thirdParty: {

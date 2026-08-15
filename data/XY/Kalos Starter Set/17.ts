@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza una moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		de: "Es wird stets die Befehle eines begabten Trainers befolgen. Dieses Verhalten geht darauf zurück, dass es früher im Rudel lebte."
 	},
 
 	thirdParty: {

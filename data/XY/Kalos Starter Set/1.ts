@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		de: "Es lebt bevorzugt in Wäldern und in hohem Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel."
 	},
 
 	thirdParty: {
