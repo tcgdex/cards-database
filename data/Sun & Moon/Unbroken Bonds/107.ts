@@ -71,20 +71,6 @@ const card: Card = {
 				pt: "Coloque 2 Pokémon GX Darkness e Pokémon EX Darkness da sua pilha de descarte no seu Banco em qualquer combinação. Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), ligue 2 cartas de Energia da sua pilha de descarte a cada Pokémon que colocou no seu Banco desta forma (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Lege eine beliebige Kombination aus 2 Darkness-Pokémon-GX und Darkness-Pokémon-EX aus deinem Ablagestapel auf deine Bank. Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), lege 2 Energiekarten aus deinem Ablagestapel an jedes auf diese Weise auf deine Bank gelegte Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
-			damage: "30+",
-
-		},
-		{
-			cost: [
-				"Darkness",
-				"Colorless",
-			],
-			name: {
-				fr: "Union Ténébreuse-GX",
-			},
-			effect: {
-				fr: "Ajoutez de votre pile de défausse à votre Banc une combinaison de 2 cartes choisies parmi des Pokémon-GX Darkness et des Pokémon-EX Darkness. Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), attachez 2 cartes Énergie de votre pile de défausse à chacun des Pokémon que vous avez placés sur votre Banc de cette façon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
 
 		},
 	],
