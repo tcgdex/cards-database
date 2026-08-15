@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Kick of Righteousness",
 				fr: "Coup de Pied Vertueux",
+				de: "Rechtschaffener Tritt"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 40 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein Team Plasma-Pokémon ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Low Sweep",
 				fr: "Balayette",
+				de: "Fußtritt"
 			},
 
 			damage: 60,
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+		de: "Es lebt zurückgezogen in den Bergen und trainiert Tag und Nacht, um seinen Karateschlag zu perfektionieren."
 	},
 
 	thirdParty: {

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Beam",
 				fr: "Bulles d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+		de: "Selbst aus 100 Metern Entfernung treffen die Wassersalven, die es mit seinem Maul abfeuert, ihr Ziel."
 	},
 
 	thirdParty: {

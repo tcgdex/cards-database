@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Adrenalash",
 				fr: "Adrénarush",
+				de: "Adrenalinschub"
 			},
 			effect: {
 				en: "During your next turn, each of this Pokémon's attacks does 50 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 50,
 
@@ -61,6 +64,7 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				de: "Stärke"
 			},
 
 			damage: 80,
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+		de: "Es durchstreift sein Revier und markiert Bäume, die Früchte oder Beeren tragen, mit Kratzern."
 	},
 
 	thirdParty: {

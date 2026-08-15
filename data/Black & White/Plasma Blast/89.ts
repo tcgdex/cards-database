@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todos los efectos de los ataques, incluido el daño, infligidos al Pokémon al que esté unida esta carta (excluidos los Pokémon-EX) por los Pokémon del Equipo Plasma de tu rival.",
 		it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti al Pokémon a cui è assegnata questa carta (esclusi i Pokémon-EX) dai Pokémon del Team Plasma del tuo avversario.",
 		pt: "Impede todos os efeitos de ataque, incluindo danos, causados ao Pokémon ao qual este card está ligado (exceto Pokémon-EX) e realizados pelo Pokémon da Equipe Plasma do oponente.",
-		de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die dem Pokémon, an das diese Karte angelegt ist (außer Pokémon-EX), durch Team Plasma-Pokémon deines Gegners zugefügt werden."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere alle Effekte von Angriffen, einschließlich Schaden, die dem Pokémon, an das diese Karte angelegt ist (außer Pokémon-EX), durch Team Plasma-Pokémon deines Gegners zugefügt werden. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen.<"
 	},
 
 	trainerType: "Tool",

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Misinformation",
 				fr: "Intox",
+				de: "Fehlinformation"
 			},
 			effect: {
 				en: "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
 				fr: "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
+				de: "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Tone-Deaf",
 				fr: "Dur d'Oreille",
+				de: "Unmusikalisch"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
+		de: "Seine Zunge ähnelt der eines Menschen. Daher kann es die menschliche Sprache gut nachahmen."
 	},
 
 	thirdParty: {

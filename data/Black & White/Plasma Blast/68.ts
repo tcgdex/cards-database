@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Axew",
 		fr: "Coupenotte",
+		de: "Milza"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard Paralysant",
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 40,
@@ -74,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf behutsam an den Felsen eines Flussbettes."
 	},
 
 	thirdParty: {

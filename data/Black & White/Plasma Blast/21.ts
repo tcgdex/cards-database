@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
+				de: "Pulverschnee"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+		de: "Gerüchten zufolge sammeln sich Schneppke unter riesigen Blättern und leben dort friedlich zusammen."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",
 		it: "Scarta la tua mano e pesca sette carte.",
 		pt: "Descarte sua mão e compre 7 cards.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

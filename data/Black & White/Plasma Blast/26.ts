@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snover",
 		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 40,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Bang Heads",
 				fr: "Choc Frontal",
+				de: "Prallköpfe"
 			},
 			effect: {
 				en: "Both this Pokémon and the Defending Pokémon are now Confused.",
 				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
+				de: "Dieses Pokémon und das Verteidigende Pokémon sind jetzt verwirrt."
 			},
 			damage: 80,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+		de: "Sie erscheinen beim Blühen der Schneeblumen und verschwinden wieder, sobald diese verblüht sind."
 	},
 
 	thirdParty: {

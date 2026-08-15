@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Téraclope",
+		de: "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Punch",
 				fr: "Poing Ombre",
+				de: "Finsterfaust"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {

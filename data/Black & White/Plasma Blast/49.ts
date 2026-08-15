@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "El daño de los ataques de cada uno de tus Pokémon Fighting no se ve afectado por Resistencia.",
 				it: "Il danno degli attacchi di ciascuno dei tuoi Pokémon Fighting non è influenzato dalla resistenza.",
 				pt: "Os danos de ataque de cada um de seus Pokémon Fighting não são afetados por Resistência.",
-				de: "Der Schaden jedes Angriffs deiner Fighting-Pokémon wird durch Resistenz nicht verändert."
+				de: "Der Schaden jedes Angriffs deiner {F}-Pokémon wird durch Resistenz nicht verändert."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Close Combat",
 				fr: "Close Combat",
+				de: "Nahkampf"
 			},
 			effect: {
 				en: "Flip a coin. If tails, during your opponent's next turn, any damage done to this Pokémon by attacks is increased by 30 (after applying Weakness and Resistance).",
 				fr: "Lancez une pièce. Si c'est pile, pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Wirf 1 Münze. Bei „Zahl“ wird Schaden, der diesem Pokémon durch Angriffe während des nächsten Zuges deines Gegners zugefügt wird, um 30 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 120,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
+		de: "Es erwischt Gegner mit harten Schlägen seiner kräftigen Arme und hackt mit enormer Geschwindigkeit."
 	},
 
 	thirdParty: {

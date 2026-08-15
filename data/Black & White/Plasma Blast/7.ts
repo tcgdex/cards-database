@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Yawn",
 				fr: "Bâillement",
+				de: "Gähner"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+		de: "Hält sich ein Laukaps in seiner Nähe auf und kommen beide mit Strom in Berührung, entwickeln sie sich."
 	},
 
 	thirdParty: {
