@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+		de: "In seinem Schweif steckt ein Zweig, den es bei Bedarf mit der Reibungswärme seiner Schweifhaare anzündet und im Kampf einsetzt."
 	},
 
 	thirdParty: {

@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más, y el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più e il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 40 de danos adicionais e o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu und das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu und das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: "60+",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+		de: "Man nimmt an, dass es der Menschheit vor ca. 2 000 Jahren das Betonmischen beigebracht hat."
 	},
 
 	thirdParty: {

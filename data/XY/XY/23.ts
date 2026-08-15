@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+		de: "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif."
 	},
 
 	thirdParty: {

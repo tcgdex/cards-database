@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+		de: "Ein kultiviertes Pokémon, das Beeren vor dem Verzehr stets anbrät. Es bietet den Menschen gerne seine Hilfe an."
 	},
 
 	thirdParty: {

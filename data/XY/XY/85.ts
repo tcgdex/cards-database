@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+		de: "Generationen von Königen hatten dieses Pokémon an ihrer Seite. Mit seiner mysteriösen Kraft kann es Menschen und Pokémon gleichermaßen kontrollieren."
 	},
 
 	thirdParty: {

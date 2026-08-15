@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 4 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		de: "Wenn es seine Kraft auf die sonst eher weichen Stacheln auf seinem Kopf konzentriert, werden diese robust genug, um damit Steine zu zertrümmern."
 	},
 
 	thirdParty: {

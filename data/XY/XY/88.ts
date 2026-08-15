@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+		de: "Es fesselt die Gegner mit seinen großen, runden Augen und versetzt sie in Schlaf, indem es eine beruhigende Melodie singt."
 	},
 
 	thirdParty: {

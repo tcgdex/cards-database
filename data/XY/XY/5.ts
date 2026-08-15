@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara. Si sale cara en todas, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa. Se esce testa tutte e tre le volte, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue 3 moedas. Esse ataque causa 40 de danos vezes o número de caras. Se todas elas forem cara, todos os efeitos de ataques, incluindo danos causados a este Pokémon, serão impedidos durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu. Zeigen alle Münzen \"Kopf\", verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu. Zeigen alle Münzen „Kopf“, verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 			damage: '40×',
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+		de: "Dieses Pokémon verfügt über drei Giftstachel. Es kann seine Gegner damit wiederholt stechen."
 	},
 
 	thirdParty: {

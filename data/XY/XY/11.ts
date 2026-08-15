@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		de: "Wer sich mit diesem temperamentvollen Pokémon anlegt, bekommt seinen mit Dornen bestückten Schweif zu spüren."
 	},
 
 	thirdParty: {

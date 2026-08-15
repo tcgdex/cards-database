@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda por cada Energía Fighting unida a este Pokémon. Este ataque hace 50 puntos de daño por cada cara.",
 				it: "Lancia una moneta per ogni Energia Fighting assegnata a questo Pokémon. Questo attacco infligge 50 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda para cada Energia Fighting ligada a este Pokémon. Esse ataque causa 50 de danos vezes o número de caras.",
-				de: "Wirf für jede an dieses Pokémon angelegte Fighting-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jede an dieses Pokémon angelegte {F}-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+		de: "Es feuert Kleinstein aus seinen Handflächen. Durch seinen Schützer erträgt es sogar Vulkanausbrüche."
 	},
 
 	thirdParty: {

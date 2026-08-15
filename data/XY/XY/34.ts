@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Psychic unida a él, este ataque hace 30 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Psychic assegnate, questo attacco infligge 30 danni in più.",
 				pt: "Se este Pokémon possuir alguma Energia Psychic ligada a ele, esse ataque causará 30 de danos adicionais.",
-				de: "Wenn an dieses Pokémon bereits Psychic-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wenn an dieses Pokémon bereits {P}-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+		de: "Der Kern dieses Pokémon leuchtet in den Farben des Regenbogens. Sein Kern gilt als Edelstein."
 	},
 
 	thirdParty: {

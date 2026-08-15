@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+		de: "Mit dem Alter wird der Körper dieses Pokémon immer länger. Es schläft um Äste gewickelt."
 	},
 
 	thirdParty: {

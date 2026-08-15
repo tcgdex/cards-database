@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Even if its body is torn, it can regenerate as long as the glowing central core remains intact.",
+		de: "Auch wenn sein Körper nicht mehr intakt ist, kann es sich regenerieren, wenn der Kern leuchtet."
 	},
 
 	thirdParty: {

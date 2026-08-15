@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
+		de: "Wird es von einem fliegenden Pokémon angegriffen, verstreut es schwarzen Puder. Der giftige Puder löst bei Berührung Paralyse aus."
 	},
 
 	thirdParty: {
