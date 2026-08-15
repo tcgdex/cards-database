@@ -14,7 +14,15 @@ const card: Card = {
 		ja: "場にある「ポケモンのどうぐ」または「スタジアム」を、2枚までトラッシュする。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864273,
+				tcgplayer: 684568,
+			},
+		},
+	],
 
 	trainerType: "Item",
 	regulationMark: "A",

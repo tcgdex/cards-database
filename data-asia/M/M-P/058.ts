@@ -14,7 +14,15 @@ const card: Card = {
 		ja: "自分の山札を上から4枚見る。その中からトレーナーズ（「トレーナーズポスト」をのぞく）を1枚選び、相手に見せてから、手札に加える。残りのカードは山札にもどし、山札を切る。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864270,
+				tcgplayer: 684565,
+			},
+		},
+	],
 
 	trainerType: "Item",
 	rarity: "Promo",

@@ -14,7 +14,15 @@ const card: Card = {
 		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。相手の場のポケモンについているエネルギーを、1個トラッシュする。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864275,
+				tcgplayer: 684570,
+			},
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "A",
