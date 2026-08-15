@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
-		fr: "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées."
+		fr: "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées.",
+		de: "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließen zerfetzt es die Gegner mit seinen scharfen Klauen."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Finneon",
 		fr: "Ecayon",
+		de: "Finneon"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lumineon during your opponent's next turn.",
 				fr: "Lancez  une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Luminéon lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Lumineon zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Lumineon zugefügt würden."
 			},
 			damage: 30,
 

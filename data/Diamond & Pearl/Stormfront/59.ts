@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
-		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
+		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil.",
+		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
 	},
 
 	thirdParty: {

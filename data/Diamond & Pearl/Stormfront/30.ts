@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "After your opponent's Pokémon uses a Poké-Power, you may search your discard pile for a basic Darkness Energy card and attach it to Tyranitar.",
 				fr: "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, vous pouvez chercher dans votre pile de défausse une Énergie de base Darkness et l'attacher à Tyranocif.",
-				de: "Nachdem dein Gegner 1 Poké-Power benutzt hat, kannst du deinen Ablagestapel nach 1 -Basis-Energiekarte durchsuchen und an Despotar anlegen."
+				de: "Nachdem dein Gegner 1 Poké-Power benutzt hat, kannst du deinen Ablagestapel nach 1 {D}-Basis-Energiekarte durchsuchen und an Despotar anlegen."
 			},
 		},
 	],

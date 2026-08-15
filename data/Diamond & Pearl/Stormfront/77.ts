@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Swinub does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Marcacrin s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Quiekel selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Quiekel selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -83,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
-		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
+		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes.",
+		de: "Es liebt Pilze, die unter totem Gras wachsen. Auf der Suche nach Nahrung findet es heiße Quellen."
 	},
 
 	thirdParty: {

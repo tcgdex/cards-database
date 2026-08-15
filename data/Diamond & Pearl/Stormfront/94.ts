@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Cyclone Energy provides Colorless Energy. When you attach this card from your hand to your Active Pokémon, switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. Your opponent chooses the Benched Pokémon to switch.",
 		fr: "Énergie Cyclone fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez 1 des Pokémon Défenseurs avec 1 des Pokémon de Banc de votre adversaire. Votre adversaire choisit le Pokémon de Banc à échanger.",
-		de: "Zyklon-Energie liefert -Energie. Wenn du Zyklon-Energie von deiner Hand an dein Aktives Pokémon anlegst, tausche 1 Verteidigendes Pokémon mit 1 Pokémon auf der Bank deines Gegners. Dein Gegner bestimmt, welches Pokémon auf der Bank getauscht wird."
+		de: "Zyklon-Energie liefert {C}-Energie. Wenn du diese Karte von deiner Hand an dein Aktives Pokémon anlegst, tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Dein Gegner wählt das Pokémon auf seiner Bank, das ausgetauscht werden soll."
 	},
 
 	energyType: "Special",

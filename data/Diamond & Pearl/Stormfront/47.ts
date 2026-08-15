@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
-		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
+		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz.",
+		de: "Sein Körper ist hart wie Fels. Es lässt mit Hochdruck Gas ab, um wie eine Rakete nach oben zu schießen."
 	},
 
 	thirdParty: {

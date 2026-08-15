@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -78,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
-		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
+		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse.",
+		de: "Es greift seine Beute mit den Krallen an seinem Schweif und vergiftet sie. Dann wartet es ab..."
 	},
 
 	thirdParty: {

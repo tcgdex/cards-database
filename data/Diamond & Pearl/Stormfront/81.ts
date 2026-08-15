@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie Lightning, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach einer {L}-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Voltorb does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Voltorbe s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Voltobal selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Voltobal selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -83,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
-		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
+		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher.",
+		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
 	},
 
 	thirdParty: {

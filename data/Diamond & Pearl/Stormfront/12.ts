@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snover",
 		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage to each of your opponent's Benched Pokémon, excluding Grass Pokémon and Water Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire, Pokémon Grass et Pokémon Water exclus. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, außer - und -Pokémon, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, außer {G}- und {W}-Pokémon, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 

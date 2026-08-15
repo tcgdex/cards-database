@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 100 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 100 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "100x",
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
-		fr: "Grâce à la température élevée et la haute pression souterraine, son corps est plus dur que le métal."
+		fr: "Grâce à la température élevée et la haute pression souterraine, son corps est plus dur que le métal.",
+		de: "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen."
 	},
 
 	thirdParty: {

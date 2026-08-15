@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magneti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
-		fr: "Il est formé de trois Magnéti liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
+		fr: "Il est formé de trois Magnéti liés par magnétisme. En groupe, ils déclenchent un orage magnétique",
+		de: "Eigentlich sind es drei MAGNETILO, die durch Magnetismus verbunden sind."
 	},
 
 	thirdParty: {

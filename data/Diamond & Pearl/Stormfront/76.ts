@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -85,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
-		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
+		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures.",
+		de: "Um sich zu schützen, versprüht es eine Substanz aus seinem Hinterleib, die 24 Stunden stinkt."
 	},
 
 	thirdParty: {

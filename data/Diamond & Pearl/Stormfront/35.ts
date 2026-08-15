@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duskull",
 		fr: "Skélénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant.",
+		de: "Sein Körper ist hohl. Man sagt, dass diejenigen, die in den Körper blicken, hineingezogen werden."
 	},
 
 	thirdParty: {

@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Put a number of damage counters on the Defending Pokémon equal to the number of Colorless Energy in Bronzor's Retreat Cost (after applying effects to the Retreat Cost).",
 				fr: "Placez autant de marqueurs de dégât sur le Pokémon Défenseur qu'il y a d'Énergies Colorless dans le Coût de Retraite d'Archéomire (après avoir appliqué les effets sur le Coût de Retraite).",
-				de: "Lege für jede -Energie in Bronzels Rückzugskosten (nachdem Effekte auf die Rückzugskosten verrechnet wurden) 1 Schadensmarke auf das Verteidigende Pokémon."
+				de: "Lege für jede {C}-Energie in Bronzels Rückzugskosten (nachdem Effekte auf die Rückzugskosten verrechnet wurden) 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -84,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
-		fr: "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés."
+		fr: "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés.",
+		de: "Sein Körper sieht aus, als seien Teile davon in alten Gräbern gefunden worden."
 	},
 
 	thirdParty: {

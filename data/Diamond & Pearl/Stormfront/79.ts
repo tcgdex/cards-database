@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
-		fr: "Ses plantes de pieds sont couvertes d'épines qui lui permettent de marcher au mur et au plafond"
+		fr: "Ses plantes de pieds sont couvertes d'épines qui lui permettent de marcher au mur et au plafond",
+		de: "Seine Fußsohlen sind mit kleinen Stacheln bedeckt, so dass es an Wänden und Decken Halt findet."
 	},
 
 	thirdParty: {

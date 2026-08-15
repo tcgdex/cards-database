@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Ponyta during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ponyta lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Ponita zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Ponita zugefügt würden."
 			},
 			damage: 20,
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
-		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance.",
+		de: "Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif."
 	},
 
 	thirdParty: {

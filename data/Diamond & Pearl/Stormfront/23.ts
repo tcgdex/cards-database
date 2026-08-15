@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Roselia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, discard an Energy card attached to that Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à ce Pokémon.",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am gewählten Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am gewählten Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 
 		},

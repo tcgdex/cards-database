@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bagon",
 		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
-		fr: "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant."
+		fr: "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant.",
+		de: "Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt."
 	},
 
 	thirdParty: {

@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, draw a card.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez une carte.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Ziehe pro \"Kopf\" 1 Karte."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Ziehe pro „Kopf“ 1 Karte."
 			},
 
 		},
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
-		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure.",
+		de: "Man sagt, es sei das schwächste PKMN der Welt. Niemand weiß, wie es bisher überleben konnte."
 	},
 
 	thirdParty: {

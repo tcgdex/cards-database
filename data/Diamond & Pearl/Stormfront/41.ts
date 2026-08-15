@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Machoke's boundless power is very dangerous, so it wears a belt that suppresses its energy.",
-		fr: "La force herculéenne du MACHOPEUR est très dangereuse. Il utilise une ceinture pour contenir son énergie."
+		fr: "La force herculéenne du MACHOPEUR est très dangereuse. Il utilise une ceinture pour contenir son énergie.",
+		de: "MASCHOCKs unbegrenzte Kraft ist gefährlich, daher trägt es einen Gürtel, der die Kraft unterdrückt."
 	},
 
 	thirdParty: {

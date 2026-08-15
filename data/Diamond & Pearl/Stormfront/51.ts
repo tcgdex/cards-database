@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -61,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -85,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
-		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
+		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h.",
+		de: "Es wird komplett von einer eisenharten Rüstung geschützt. Wenn es fliegt, erreicht es bis zu 300 km/h."
 	},
 
 	thirdParty: {
