@@ -70,7 +70,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin.  If heads, your opponent can't attach any Energy cards from his or her hand to the Active Pokémon during his or her next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas attacher de cartes Énergie de sa main aux Pokémon Actifs lors de son prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Energiekarten von seiner Hand an seine Aktiven Pokémon anlegen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Energiekarten von seiner Hand an seine Aktiven Pokémon anlegen."
 			},
 			damage: 20,
 

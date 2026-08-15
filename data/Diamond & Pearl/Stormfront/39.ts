@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Treecko",
 		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60x",
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
-		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
+		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie.",
+		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
 	},
 
 	thirdParty: {

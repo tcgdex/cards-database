@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If Budew is anywhere under Roselia, the Defending Pokémon is now Asleep and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné. Si Rozbouton se trouve sous Roselia, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt und ist vergiftet. Wenn Knospi sich an beliebiger Stelle unter Roselia befindet, schläft das Verteidigende Pokémon jetzt und ist vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt und ist vergiftet. Wenn Knospi sich an beliebiger Stelle unter Roselia befindet, schläft das Verteidigende Pokémon jetzt und ist vergiftet."
 			},
 			damage: 20,
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "Roselia raised on clean drinking water are known to grow vividly colored flowers.",
-		fr: "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées."
+		fr: "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées.",
+		de: "ROSELIA, die mit klarem Wasser aufgezogen wurden, bekommen Blüten in leuchtenden Farben."
 	},
 
 	thirdParty: {

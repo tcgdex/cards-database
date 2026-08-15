@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
-		fr: "Depuis sa naissance, une petite flamme brûle au bout de sa queue. Si cette flamme s'éteint, la vie de ce Pokémon s'éteindra elle aussi."
+		fr: "Depuis sa naissance, une petite flamme brûle au bout de sa queue. Si cette flamme s'éteint, la vie de ce Pokémon s'éteindra elle aussi.",
+		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie erlischt, erlischt auch sein Lebenslicht."
 	},
 
 	thirdParty: {

@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for up to 4 Lightning Energy cards, show them to your opponent, and put them into your hand.",
 				fr: "Cherchez dans votre pile de défausse jusqu'à 4 cartes Énergie Lightning, montrez-les à votre adversaire et placez-les dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 4 -Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
+				de: "Durchsuche deinen Ablagestapel nach bis zu 4 {L}-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
-		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité.",
+		de: "Seine Backentaschen sind noch recht klein. Daher kann es nicht allzu viel Elektrizität speichern."
 	},
 
 	thirdParty: {

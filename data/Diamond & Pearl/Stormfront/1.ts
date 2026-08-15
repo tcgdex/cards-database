@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Teraclope",
+		de: "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may draw 2 cards. If you have 7 or more cards in your hand, discard a number of cards until you have 6 cards in your hand. Then, put 2 damage counters on Dusknoir. This power can't be used if Dusknoir is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher 2 cartes. Si vous avez au moins 7 cartes en main, défaussez des cartes jusqu'à ce que vous n'ayez plus que 6 cartes en main. Ensuite, placez 2 marqueurs de dégât sur Noctunoir. Ce pouvoir ne peut être utilisé que si Noctunoir est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges(vor deinem Angriff) kannst du 2 Karten ziehen. Wenn du 7 oder mehr Karten auf deiner Hand hast, lege so viele Karten auf deinen Ablagestapel, bis du nur noch 6 Karten auf der Hand hast. Danach lege 2 Schadensmarken auf Zwirrfinst."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 2 Karten ziehen. Wenn du 7 oder mehr Karten auf deiner Hand hast, lege so viele Karten auf deinen Ablagestapel, bis du nur noch 6 Karten auf der Hand hast. Danach lege 2 Schadensmarken auf Zwirrfinst. Diese Poké-Power kann nicht benutzt werden, wenn Zwirrfinst von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Snover during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Blizzi lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Shnebedeck zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Shnebedeck zugefügt würden."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
-		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret.",
+		de: "Es lebt im Schnee der Berge. Es hatte bisher kaum Kontakt zu Menschen und ist daher sehr neugierig."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duskull",
 		fr: "Skélénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant.",
+		de: "Sein Körper ist hohl. Man sagt, dass diejenigen, die in den Körper blicken, hineingezogen werden."
 	},
 
 	thirdParty: {
