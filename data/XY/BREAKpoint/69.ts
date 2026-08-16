@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+		de: "Die Rohedelsteine, die beim Erweitern seiner Höhle zum Vorschein kommen, hortet es in seinem Nest."
 	},
 
 	thirdParty: {

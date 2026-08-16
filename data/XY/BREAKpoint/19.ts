@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+		de: "Es faulenzt am Wasser. Wenn es in den Schweif gebissen wird, bemerkt es das erst am nächsten Tag."
 	},
 
 	thirdParty: {

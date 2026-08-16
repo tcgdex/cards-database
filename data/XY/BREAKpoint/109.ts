@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar 2 cartas de Puzle Temporal de una vez.\n\n• Si has jugado 1 carta, mira las 3 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.\n• Si has jugado 2 cartas, pon 2 cartas de tu pila de descartes en tu mano.",
 		it: "Puoi giocare due carte Enigma Cronologico alla volta.\n\n• Se hai giocato una carta, guarda le prime tre carte del tuo mazzo e rimettile in cima al tuo mazzo nell'ordine che preferisci.\n• Se hai giocato due carte, prendi due carte dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 		pt: "Você pode jogar dois cards Enigma do Tempo de uma só vez.\n\n• Se você tiver jogado 1 card, olhe os 3 primeiros cards do seu baralho e coloque-os de volta em qualquer ordem.\n• Se você tiver jogado 2 cards, coloque 2 cards da sua pilha de descarte em sua mão.",
-		de: "Du kannst 2 Zeitpuzzle-Karten auf einmal spielen.\n\n• Wenn du 1 Karte gespielt hast, schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck.\n• Wenn du 2 Karten gespielt hast, nimm 2 Karten von deinem Ablagestapel auf deine Hand."
+		de: "Du kannst 2 Zeitpuzzle-Karten auf einmal spielen. Wenn du 1 Karte gespielt hast, schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen. Wenn du 2 Karten gespielt hast, nimm 2 Karten von deinem Ablagestapel auf deine Hand."
 	},
 
 	trainerType: "Item",

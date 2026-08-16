@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+		de: "Es taucht in großer Anzahl an Ufern auf. Nachts leuchtet der Kern in seiner Mitte rot auf."
 	},
 
 	thirdParty: {

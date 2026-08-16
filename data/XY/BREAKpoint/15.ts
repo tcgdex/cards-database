@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+		de: "Über den Schweif aufgesaugte Luft wird in eine Feuerzunge verwandelt, um damit Fermicula zu schmelzen und zu fressen."
 	},
 
 	thirdParty: {

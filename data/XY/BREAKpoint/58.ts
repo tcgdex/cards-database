@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+		de: "Es verfügt zwar über genug Psycho-Kräfte, um Objekte in einem Umkreis von 100 m wegzublasen, aber es kann sie noch nicht gut kontrollieren."
 	},
 
 	thirdParty: {

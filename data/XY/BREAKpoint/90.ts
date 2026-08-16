@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		de: "Es gräbt sich mit seinem Schweif in die Erde und baut ein labyrinthartiges Nest. Es kann kaum fliegen."
 	},
 
 	thirdParty: {

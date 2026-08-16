@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Durante el próximo turno de tu rival, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon Dragon.",
 				it: "Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon Dragon.",
 				pt: "Durante a próxima vez de jogar do seu oponente, previna todos os efeitos dos ataques a este Pokémon, inclusive danos, causados por Pokémon Dragon.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Dragon-Pokémon während des nächsten Zuges deines Gegners zugefügt werden."
+				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch {N}-Pokémon während des nächsten Zuges deines Gegners zugefügt werden."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+		de: "Ein feenhaftes und scheues Pokémon, das sofort die Flucht ergreift, wenn es Menschen wittert."
 	},
 
 	thirdParty: {

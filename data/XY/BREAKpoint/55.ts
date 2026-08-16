@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The guardians of an ancient city, they always fly the same route while keeping watch for invaders.",
+		de: "Vor langer Zeit war es der Wächter einer Stadt. Es fliegt auf der Suche nach Eindringlingen immer dieselbe Route ab."
 	},
 
 	thirdParty: {
