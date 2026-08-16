@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
 				fr: "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts.",
-				de: "Lege 2 an Deoxys angelegte -Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
+				de: "Lege 2 an Deoxys angelegte {P}-Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
 			},
 			damage: 60,
 
@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		de: "DEOXYS ist ein außerirdisches Virus, das zu einem Pokémon mutierte. Es erscheint in der Nähe von Auroras."
 	},
 
 	variants: [

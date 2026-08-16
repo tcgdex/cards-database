@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper.",
 				fr: "Si Seviper est Empoisonné, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Retirez ensuite l’État Spécial Empoisonné de Seviper.",
-				de: "Wenn Vipitis vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu; entferne den Speziellen Zustand \"Vergiftet\" von Vipitis."
+				de: "Wenn Vipitis vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu; entferne den Speziellen Zustand „Vergiftet“ von Vipitis."
 			},
 			damage: "20+",
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		de: "Die flinken Angriffe von SENGO kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt."
 	},
 
 	variants: [

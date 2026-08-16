@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees Fahrenheit.",
+		de: "Es speichert einen Teil seiner Atemluft in seinem Körper und erhitzt sie auf bis zu 1 700 Grad."
 	},
 
 	variants: [

@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
+		de: "Es ahmt seinen Gegner nach. Während dieser noch verblüfft dreinsieht, macht es sich aus dem Staub."
 	},
 
 	retreat: 0,

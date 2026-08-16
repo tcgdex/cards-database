@@ -24,6 +24,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, put 1 Energy card attached to the Defending Pokémon in the Lost Zone.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé. Si c’est pile, placez 1 carte Énergie attachée au Pokémon Défenseur dans la Zone Perdue.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" lege 1 an das Verteidigende Pokémon angelegte Energiekarte ins Nirgendwo."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ lege 1 an das Verteidigende Pokémon angelegte Energiekarte ins Nirgendwo."
 			},
 			damage: 30,
 
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+		de: "In warmen Jahreszeiten wuchern seine Ranken so dicht, dass man nicht einmal mehr seine Augen erkennt."
 	},
 
 	variants: [
