@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
 		it: "Guarda le prime cinque carte del tuo mazzo e rimettile a posto nell'ordine che preferisci.",
 		pt: "Olhe os 5 primeiros cards do seu baralho e coloque-os de volta em qualquer ordem.",
-		de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück in dein Deck."
+		de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

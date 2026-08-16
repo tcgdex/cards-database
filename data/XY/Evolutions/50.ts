@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato. Se esce croce, il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado. Se sair coroa, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt vergiftet. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+		de: "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist."
 	},
 
 	thirdParty: {

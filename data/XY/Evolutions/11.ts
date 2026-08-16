@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Todas las Energías unidas a este Pokémon son Energías Fire en vez de su tipo habitual.",
 				it: "Tutte le Energie assegnate a questo Pokémon sono Energie Fire anziché del loro solito tipo.",
 				pt: "Toda Energia ligada a este Pokémon é Energia Fire em vez do tipo usual.",
-				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern Fire-Energie anstelle ihres normalen Typs."
+				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern {R}-Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+		de: "Dieses Pokémon kann mit seinen Flügeln eine Höhe von bis zu 1 400 m erreichen. Es spuckt sehr heißes Feuer."
 	},
 
 	thirdParty: {

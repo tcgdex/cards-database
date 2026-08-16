@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 7 cartas en tu mano. Tu turno termina.",
 		it: "Pesca fino ad avere sette carte in mano. Il tuo turno finisce.",
 		pt: "Compre cards até ter 7 cards em sua mão. Sua vez de jogar termina.",
-		de: "Ziehe so viele Karten, bis du 7 Karten auf der Hand hast. Dein Zug endet."
+		de: "Ziehe so viele Karten, bis du 7 Karten auf der Hand hast. Dein Zug endet. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
