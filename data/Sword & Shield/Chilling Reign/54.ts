@@ -63,7 +63,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor.",
+		de: "Seine Nahrung aus Samen von Pflanzen, die nur in der Galar-Region wachsen, verleiht seiner Rute einen würzig-pikanten Geschmack."
 	},
 
 	variants: [

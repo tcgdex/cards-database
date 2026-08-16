@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
+		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+		de: "Wer die beste Trommeltechnik hat, wird zum Anführer. Da es ein ruhiges Gemüt hat, legt es viel Wert auf Harmonie in der Gruppe."
 	},
 
 	variants: [

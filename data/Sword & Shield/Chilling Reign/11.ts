@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons."
+		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+		de: "Sein Fell und sein Geruch ändern sich mit dem Wechsel der Jahreszeiten. Es ist der Bote des Saisonwechsels."
 	},
 
 	variants: [

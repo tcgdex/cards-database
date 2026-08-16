@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes descartar 1 Herramienta Pokémon de 1 Pokémon (tuyo o de tu rival).",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scartare una carta Oggetto Pokémon da un Pokémon, tuo o del tuo avversario.",
 			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá descartar 1 Ferramenta Pokémon de 1 Pokémon (seu ou do seu oponente).",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 1 Pokémon-Ausrüstung von 1 Pokémon (deinem oder dem deines Gegners) auf den Ablagestapel legen."
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 1 Pokémon-Ausrüstung von 1 Pokémon (deine oder dem deines Gegners) auf den Ablagestapel legen."
 		}
 	}],
 

@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
+		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power.",
+		de: "Diese Pokémon sind Einzelgänger und bilden keine Rudel. Sie gehorchen nur Trainern, die es schaffen, ihnen ihre ganze Kraft zu entlocken."
 	},
 
 	variants: [

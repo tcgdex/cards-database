@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells."
+		en: "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells.",
+		de: "Diesem Pokémon begegnet man häufig in Galar. Es ist sehr stolz auf seine Zähne, mit denen es jede noch so harte Beerenschale knacken kann."
 	},
 
 	variants: [

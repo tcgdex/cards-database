@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity."
+		en: "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity.",
+		de: "Es ist zwar imstande, auch im All zu überleben, aber in der Schwerelosigkeit kann es sich nicht gut fortbewegen."
 	},
 
 	variants: [

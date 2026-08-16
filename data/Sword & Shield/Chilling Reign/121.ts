@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
-		fr: 'Il n\'y a pas que son apparence qui change en\nfonction de la météo: son tempérament aussi !\nPlus il y a de vent, plus il se montre agressif.'
+		fr: 'Il n\'y a pas que son apparence qui change en\nfonction de la météo: son tempérament aussi !\nPlus il y a de vent, plus il se montre agressif.',
+		de: "Seine Gestalt ändert sich abhängig vom Wetter. Je ungestümer dieses ist, desto gröber wird auch sein Charakter."
 	},
 
 	abilities: [{

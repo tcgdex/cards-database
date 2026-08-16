@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now."
+		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
+		de: "Angeblich waren diese nach verpesteter Luft gierenden Pokémon früher weitaus häufiger in der Galar-Region anzutreffen als heute."
 	},
 
 	variants: [
