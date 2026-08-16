@@ -50,7 +50,8 @@ const card: Card = {
 	hp: 70,
 
 	evolveFrom: {
-		en: "Gastly"
+		en: "Gastly",
+		fr: "Fantominus"
 	},
 
 	description: {

@@ -35,7 +35,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Pawmo"
+		en: "Pawmo",
+		fr: "Pohmotte"
 	},
 
 	weaknesses: [{
