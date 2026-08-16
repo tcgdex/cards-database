@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Elige 2 de tus Pokémon en Banca. Une 1 carta de Energía Fire de tu pila de descartes a cada uno de esos Pokémon.",
 				it: "Scegli due dei tuoi Pokémon in panchina. Assegna a ciascuno di quei Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Escolha 2 dos seus Pokémon no Banco. Ligue um card de Energia Fire da sua pilha de descarte a cada um daqueles Pokémon.",
-				de: "Wähle 2 Pokémon auf deiner Bank. Lege 1 Fire-Energiekarte aus deinem Ablagestapel an jedes dieser Pokémon an."
+				de: "Wähle 2 Pokémon auf deiner Bank. Lege 1 {R}-Energiekarte aus deinem Ablagestapel an jedes dieser Pokémon an."
 			},
 			damage: 20,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		de: "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen."
 	},
 
 	thirdParty: {

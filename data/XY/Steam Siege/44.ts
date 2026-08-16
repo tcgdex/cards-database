@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+		de: "Ein aggressives Pokémon, das sehr flink angreift. Das Horn auf dem Kopf sondert starkes Gift ab."
 	},
 
 	thirdParty: {

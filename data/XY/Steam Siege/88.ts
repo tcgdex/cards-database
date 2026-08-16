@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		de: "Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen."
 	},
 
 	thirdParty: {

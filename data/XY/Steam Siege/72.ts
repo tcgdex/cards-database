@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 4 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.",
+		de: "Besteht aus kleinen und großen Rädern. Kehrt ein kleines Rad, das es abgefeuert hat, nicht zurück, wird es brenzlig."
 	},
 
 	thirdParty: {

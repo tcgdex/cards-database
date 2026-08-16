@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sala cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Descarta las 3 primeras cartas de tu baraja. Por cada carta de Energía Water descartada de esta manera, descarta las 3 primeras cartas de la baraja de tu rival.",
 				it: "Scarta le prime tre carte del tuo mazzo. Per ogni carta Energia Water scartata in questo modo, scarta le prime tre carte del mazzo del tuo avversario.",
 				pt: "Descarte 3 cards de cima do seu baralho. Para cada card de Energia Water descartado desta forma, descarte os 3 cards de cima do baralho do seu oponente.",
-				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Lege für jede Water-Energie, die du auf diese Weise auf deinen Ablagestapel gelegt hast, die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Lege für jede {W}-Energie, die du auf diese Weise auf deinen Ablagestapel gelegt hast, die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.",
+		de: "Mit den zahlreichen Arktip auf seinem Rücken sieht es aus wie ein Flugzeugträger aus Eis."
 	},
 
 	thirdParty: {
