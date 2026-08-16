@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Une cualquier cantidad de cartas de Energía Grass de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Grass dalla tua mano nel modo che preferisci.",
 			pt: "Ligue qualquer número de cartas de Energia Grass da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Grass-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			de: "Lege beliebig viele {G}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		},
 
 		cost: ["Grass"]

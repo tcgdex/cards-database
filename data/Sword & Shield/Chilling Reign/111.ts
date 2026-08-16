@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
+		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+		de: "Auf der Suche nach Eisen, seiner Nahrung, gräbt es mit seinen Stahlhörnern sogar Tunnel durch Felsen."
 	},
 
 	variants: [

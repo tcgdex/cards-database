@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
+		en: "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries.",
+		de: "Da es unentwegt Beeren futtert, ist es zäher als es aussieht. Man sieht es oft auf Feldern, wo es nach Beeren sucht."
 	},
 
 	variants: [

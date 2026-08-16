@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+		de: "Jubel für besonders gelungene Spielzüge schüren seinen Enthusiasmus. Spielt es aber zu sehr für die Publikumswirkung, geht dies oft nach hinten los."
 	},
 
 	variants: [

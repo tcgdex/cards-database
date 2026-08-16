@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta tiene \"de Galar\" en su nombre, los ataques de los Pokémon de tu rival le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 		it: "Se il Pokémon a cui è assegnata questa carta ha \"di Galar\" nel nome, subisce 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver \"de Galar\" em seu nome, ele receberá 30 pontos de dano a menos dos ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
-		de: "Wenn bei dem Pokémon, an das diese Karte angelegt ist, \"Galar\" zum Namen gehört, werden ihm durch Attacken der Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon, an das diese Karte angelegt ist, „Galar“ zum Namen gehört, werden ihm durch Attacken der Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

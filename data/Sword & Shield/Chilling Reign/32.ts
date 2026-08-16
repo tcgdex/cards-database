@@ -48,7 +48,7 @@ const card: Card = {
 			es: "Pon este Pokémon y todas las cartas unidas a él en tu baraja. Si lo haces, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Metti questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo. Se lo fai, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			pt: "Coloque este Pokémon e todas as cartas ligadas a ele no seu baralho. Se fizer isto, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Lege dieses Pokémon und alle angelegten Karten in dein Deck. Wenn du das machst, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			de: "Lege dieses Pokémon und alle angelegten Karten in dein Deck. Wenn du das machst, durchsuche anschließend dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food."
+		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food.",
+		de: "Es hat die Angewohnheit, seine eigene Nahrung mit Menschen und Pokémon zu teilen, und ist deshalb stets unterwegs auf Futtersuche."
 	},
 
 	variants: [

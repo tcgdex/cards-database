@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
+		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it.",
+		de: "Wenn es angegriffen wird, sondert es einen köstlich süß duftenden Angstschweiß ab, der leider meist nur noch weitere Feinde anlockt."
 	},
 
 	variants: [

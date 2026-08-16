@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y busca en tu baraja hasta 2 cartas de Entrenador, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Scarta le carte che hai in mano e cerca nel tuo mazzo fino a due carte Allenatore, mostrale e aggiungile alla tua mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Descarte a sua mão e procure por até 2 cartas de Treinador no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und durchsuche dein Deck nach bis zu 2 Trainerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und durchsuche dein Deck nach bis zu 2 Trainerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

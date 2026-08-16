@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you."
+		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you.",
+		de: "Nachts fliegt Ledian durch die Gegend und verstreut glitzernden Puder. Es soll Glück bringen, wenn man etwas davon abbekommt."
 	},
 
 	variants: [

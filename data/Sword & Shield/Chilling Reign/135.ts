@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
 		it: "I Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
 		pt: "Os Pokémon (seus e do seu oponente) não podem ser curados.",
-		de: "Pokémon (deine und die deines Gegners) können nicht geheilt werden."
+		de: "Pokémon (deine und die deines Gegners) können nicht geheilt werden. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+		de: "Es pflückt Beeren von Ästen, ohne seine Hände zu benutzen, und jongliert sie mit den Füßen. Damit trainiert es seine Fußfertigkeiten."
 	},
 
 	variants: [

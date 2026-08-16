@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
+		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+		de: "Seine kräftigen Stoßzähne können Eisschollen zerschmettern. Sein dicker Speck wehrt Angriffe ab."
 	},
 
 	variants: [

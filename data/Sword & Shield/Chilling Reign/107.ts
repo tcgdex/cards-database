@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails."
+		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+		de: "Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort."
 	},
 
 	variants: [

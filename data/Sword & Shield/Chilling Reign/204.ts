@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Psychic de tu mano a 1 de tus Pokémon Psychic en Banca. Si has unido Energía a un Pokémon de esta manera, roba 2 cartas.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon Psychic in panchina una carta Energia Psychic dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca due carte.",
 			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Psychic da sua mão a 1 dos seus Pokémon Psychic no Banco. Se você ligou Energia a um Pokémon desta forma, compre 2 cartas.",
-			de: "Einmal während deines Zuges kannst du 1 Psychic-Energiekarte aus deiner Hand an 1 Psychic-Pokémon auf deiner Bank anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 2 Karten."
+			de: "Einmal während deines Zuges kannst du 1 {P}-Energiekarte aus deiner Hand an 1 {P}-Pokémon auf deiner Bank anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 2 Karten."
 		}
 	}],
 
@@ -59,7 +59,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a todos tus Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata ai tuoi Pokémon.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a todos os seus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]
