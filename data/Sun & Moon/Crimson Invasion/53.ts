@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
+		de: "Sein Körper besteht aus Stein. Bricht im Kampf etwas heraus, wird es durch Stein wieder ersetzt."
 	},
 
 	thirdParty: {

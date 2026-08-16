@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It will use any means necessary to frighten people and absorb their life energy. It practices constantly to hone its skill in causing fear.",
+		de: "Es lässt nichts unversucht, um Menschen zu erschrecken und ihnen Lebensenergie abzusaugen. Dafür übt es regelmäßig."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -103,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+		de: "In alten Zeiten glaubte man, das Heulen dieses Pokémon sei der Ruf des Todes."
 	},
 
 	thirdParty: {

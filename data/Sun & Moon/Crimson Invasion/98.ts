@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Silvally-GX al que está unida esta carta es un Pokémon Psychic.",
 		it: "Il Silvally-GX a cui è assegnata questa carta è di tipo Psychic.",
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Psychic.",
-		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Psychic-Pokémon."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Amigento-GX, an das diese Karte angelegt ist, ist ein {P}-Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

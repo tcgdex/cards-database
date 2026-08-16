@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "For some reason, it likes to land on people's heads softly and act like it's a hat.",
+		de: "Aus irgendeinem Grund setzt es sich gerne auf den Kopf von Menschen und tut so, als sei es ein Hut."
 	},
 
 	thirdParty: {

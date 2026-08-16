@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+		de: "Man sagt, es sei eines der ersten Pokémon, die mit Menschen zusammengelebt haben. Es ist sehr ruhig und friedfertig."
 	},
 
 	thirdParty: {

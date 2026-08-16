@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		de: "Scoppel"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+		de: "Seine großen Ohren besitzen die Kraft, selbst Felsen, die 1 t schwer sind, mühelos hochzuheben. Es wird daher oft auf Baustellen eingesetzt."
 	},
 
 	thirdParty: {
