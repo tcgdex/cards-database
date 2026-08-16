@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+		de: "Es friert die Luft ringsum ein, um sein Gesicht mit einer Maske aus Eis zu schützen und seine Rückenflosse in Eisklingen zu verwandeln."
 	},
 
 }

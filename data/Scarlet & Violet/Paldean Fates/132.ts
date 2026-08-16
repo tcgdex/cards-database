@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Mithilfe seines Schweifs entlädt es Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen."
 	},
 
 }

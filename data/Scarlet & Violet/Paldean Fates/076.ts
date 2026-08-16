@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede buscar en su baraja 1 Pokémon Básico que no tenga un recuadro de regla y ponerlo en su Banca. Después, ese jugador baraja las cartas de su baraja. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può cercare nel suo mazzo un Pokémon Base che non ha una regola speciale e metterlo nella sua panchina. Poi quel giocatore rimischia le carte del suo mazzo. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá procurar no próprio baralho por um Pokémon Básico que não tiver uma Caixa de Regras e colocá-lo no próprio Banco. Em seguida, aquele jogador embaralha o próprio baralho. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Basis-Pokémon, das kein Regelfeld hat, durchsuchen und es auf seine Bank legen. Anschließend mischt jener Spieler sein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)"
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Basis-Pokémon, das kein Regelfeld hat, durchsuchen und es auf seine Bank legen. Anschließend mischt jener Spieler sein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.) Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

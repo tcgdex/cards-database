@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+		de: "Es ist intelligent und verwegen. Mit seinem Hammer schlägt es Felsen in die Luft und zielt damit auf fliegende Krarmor."
 	},
 
 }

@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
+		de: "Es lebt in Vulkankratern und ist bekannt dafür, dass die Höcker auf seinem Rücken alle zehn Jahre heftig ausbrechen."
 	},
 
 }

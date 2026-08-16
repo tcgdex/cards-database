@@ -110,6 +110,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+		de: "Sein Körper soll aus 1000 Münzen bestehen. Es ist sehr umgänglich und schließt mit jedem rasch Freundschaft."
 	},
 
 }

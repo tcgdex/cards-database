@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
+		de: "Kadabra verfügt über enorme psychokinetische Macht. Als Vorbereitung für seine Entwicklung speichert es im Stern auf der Stirn Psycho-Kräfte."
 	},
 
 }

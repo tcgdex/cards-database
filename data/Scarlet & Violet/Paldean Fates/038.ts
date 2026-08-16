@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
+		de: "Dieses Pokémon fühlt sich glatt und feucht an. Sein Atem enthält Hefe und bringt so alles in der Umgebung zum Gären."
 	},
 
 }

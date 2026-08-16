@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+		de: "Mithilfe seiner Flügel springt es behände umher und erledigt Gegner so mit eleganten Attacken. Diese Technik trainiert es in seinem Heimatwald."
 	},
 
 }

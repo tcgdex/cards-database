@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+		de: "Dieses Pokémon verstärkt seine Elektrizität durch Aufblasen des Kehlsacks. Es nutzt den Wind, um innerhalb eines Tages 700 km weit zu fliegen."
 	},
 
 }

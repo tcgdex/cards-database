@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
+		de: "Durch das Leben in Vulkankratern ähnelt Magbrants Körper seinem Umfeld. Es besitzt ein Organ, das einer Magmakammer gleicht."
 	},
 
 }
