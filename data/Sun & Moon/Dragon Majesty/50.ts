@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Descarta cualquier cantidad de Energías Fire de tus Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Fire che vuoi assegnate ai tuoi Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte qualquer quantidade de Energia Fire dos seus Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege beliebig viele Fire-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege beliebig viele {R}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "50×",
 
@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+		de: "Es greift mit Feuer und Giftgas aus den Nasenlöchern an. Sein Kot ist explosiv und vielseitig einsetzbar."
 	},
 
 	thirdParty: {

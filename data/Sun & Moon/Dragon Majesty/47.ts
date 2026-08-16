@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
 	thirdParty: {

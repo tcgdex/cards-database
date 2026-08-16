@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon Dragon.",
 				it: "Assegna a uno dei tuoi Pokémon Dragon una carta Energia base dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon Dragon.",
-				de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Dragon-Pokémon an."
+				de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner {N}-Pokémon an."
 			},
 			damage: 20,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
+		de: "Es ist sehr freundlich und liebt Kinder. Häufig kommt es aus den Bergen herab in die Städte, um mit seinen kleinen Freunden zu spielen."
 	},
 
 	thirdParty: {
