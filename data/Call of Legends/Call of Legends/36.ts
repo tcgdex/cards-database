@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
+		de: "Es ist zwar nicht groß, aber dennoch unübersehbar, denn es schlägt jederzeit ohne Vorwarnug zu."
 	},
 
 	retreat: 0,

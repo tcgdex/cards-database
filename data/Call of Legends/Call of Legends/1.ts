@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Mélofée"
+		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+		de: "Mit seinem sensiblen Gehör nimmt es entfernte Geräusche wahr. Es versteckt sich an ruhigen Orten."
 	},
 
 	variants: [

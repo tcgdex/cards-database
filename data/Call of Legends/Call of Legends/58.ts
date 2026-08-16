@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+		de: "Wenn es anfängt pausenlos zu treten, kann es seine Beine ausfahren, um fliehende Feinde zu treffen."
 	},
 
 	variants: [

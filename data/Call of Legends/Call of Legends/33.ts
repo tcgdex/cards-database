@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Remove all damage counters from Snorlax. Snorlax can't use Layabout during your next turn.",
 				fr: "Retirez tous ses marqueurs de dégâts à Ronflex. Ronflex ne peut pas utiliser Traîne-savates pendant votre prochain tour.",
-				de: "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzten."
+				de: "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzen."
 			},
 
 		},
@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
+		de: "Seine Magensäfte können jedes Gift zersetzen. Es kann sich sogar nur von Erdreich ernähren."
 	},
 
 	variants: [

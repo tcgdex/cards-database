@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Ho-Oh angelegten -Energien auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege alle an Ho-Oh angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
+		de: "Man sagt, dass dieses Pokémon auf seinen siebenfarbigen Schwingen durch die Lüfte fliegt."
 	},
 
 	variants: [
