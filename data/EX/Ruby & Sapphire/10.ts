@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
-		fr: "Medhyèna"
+		fr: "Medhyèna",
+		de: "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Intimidating Fang",
 				fr: "Croc intimidant",
-				de: "Intimidating Fang"
+				de: "Beeindruckende Fangzähne"
 			},
 			effect: {
 				en: "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
 				fr: "Tant que Grahyena est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+				de: "Solange Magnayen dein Aktives Pokémon ist, wird aller Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Shakedown",
 				fr: "Dépouiller",
-				de: "Shakedown"
+				de: "Abschütteln"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
-				de: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
+				de: "Wirf eine Münze. Bei „Kopf“ wähle 1 zufällige Karte von der Hand deines Gegners. Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 			damage: 40,
 

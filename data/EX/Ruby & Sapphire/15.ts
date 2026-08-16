@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	stage: "Stage2",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Clutch",
 				fr: "Serre",
-				de: "Clutch"
+				de: "Greifer"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegner nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -57,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
-				de: "Flamethrower"
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Blaziken.",
 				fr: "Défaussez une carte Énergie  attachée à Brasegali.",
-				de: "Discard a  Energy card attached to Blaziken."
+				de: "Lege 1 an Lohgock angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 80,
 
