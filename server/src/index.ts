@@ -95,7 +95,7 @@ if (cluster.isPrimary) {
 		await new Promise<void>((res) => {
 			let oneDone = false
 			process.on('message', (command: Command) => {
-				console.log('master sent', command)
+				console.log('master sent', command.type)
 				switch (command.type) {
 					case 'tcgplayer-update': {
 						fillTCGPlayerCache(command.data as any)
