@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charjabug",
 		fr: "Chrysapile",
+		de: "Akkup"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 carta de Energía Grass y 1 carta de Energía Lightning, y unirlas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo una carta Energia Grass e una carta Energia Lightning e assegnarle a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 carta de Energia Grass e por 1 carta de Energia Lightning no seu baralho e ligá-las aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Grass-Energiekarte und 1 Lightning-Energiekarte durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 {G}-Energiekarte und 1 {L}-Energiekarte durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pokémon with shocking beams of electrical energy.",
+		de: "In seinem Bauch hat es ein elektrisches Organ, welches Strom erzeugt. Mit seinem Elektrostrahl kann es auch Vogel-Pokémon überwältigen."
 	},
 
 	thirdParty: {

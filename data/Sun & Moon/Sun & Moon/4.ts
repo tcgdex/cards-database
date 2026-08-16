@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes.",
+		de: "Egal, wie viel Nahrung es auch zu sich nimmt, die Pilze, die auf seinem Rücken wachsen, entziehen ihm so gut wie alle Nährstoffe."
 	},
 
 	thirdParty: {

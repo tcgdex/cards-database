@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Pursued by Mareanie for the branches on its head, this Pokémon will sometimes snap its own branches off as a diversion while it escapes.",
+		de: "Drohen die Arme auf seinem Kopf von einem Garstella verschlungen zu werden, wirft es diese ab und sucht das Weite."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Herdier",
 		fr: "Ponchien",
+		de: "Terribark"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Intelligent, good-natured, and valiant, it's a trustworthy partner on rescue teams.",
+		de: "Es ist ein kluges, sanftmütiges und tapferes Pokémon. Für Mitglieder von Rettungstruppen stellt es einen zuverlässigen Partner dar."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rowlet",
 		fr: "Brindibou",
+		de: "Bauz"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+		de: "Dieses affektierte Pokémon pflegt sein Gefieder, wann immer es kann. Mit verschmutzten Federn hat es nämlich oft keine Lust zu kämpfen."
 	},
 
 	thirdParty: {
