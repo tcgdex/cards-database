@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bounsweet",
 		fr: "Croquine",
+		de: "Frubberl"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+		de: "Seinen Blütenkelch hat es zum Selbstschutz ausgebildet. Er ist so hart, dass selbst das Picken von Vogel-Pokémon es nicht stört."
 	},
 
 	thirdParty: {

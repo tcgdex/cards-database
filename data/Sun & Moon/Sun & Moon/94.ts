@@ -61,7 +61,7 @@ const card: Card = {
 				es: "Bofetón Cola",
 				it: "Codasberla",
 				pt: "Ataque de Cauda",
-				de: "Schweifstreich"
+				de: "Schweifschlag"
 			},
 
 			damage: 10,
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
+		de: "Seine Existenz konnte endlich nachgewiesen werden, nachdem es einem Angler gelang, es nach einem zehnstündigen Kampf zu fangen."
 	},
 
 	thirdParty: {

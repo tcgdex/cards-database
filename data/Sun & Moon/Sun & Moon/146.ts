@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador pone las cartas de su mano en su baraja, las baraja todas y lanza 1 moneda. Si sale cara, ese jugador roba 6 cartas. Si sale cruz, roba 3 cartas.",
 		it: "Entrambi i giocatori mettono le carte che hanno in mano nel loro mazzo e lo rimischiano, poi lanciano una moneta. Se a un giocatore esce testa, pesca sei carte. Se gli esce croce, pesca tre carte.",
 		pt: "Cada jogador embaralha a própria mão no próprio baralho e joga 1 moeda. Se sair cara, o jogador comprará 6 cartas. Se sair coroa, o jogador comprará 3 cartas.",
-		de: "Jeder Spieler mischt seine Handkarten in sein Deck und wirft 1 Münze. Bei Kopf zieht der Spieler 6 Karten. Bei Zahl zieht der Spieler 3 Karten."
+		de: "Jeder Spieler mischt seine Handkarten in sein Deck und wirft 1 Münze. Bei Kopf zieht der Spieler 6 Karten. Bei Zahl zieht der Spieler 3 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

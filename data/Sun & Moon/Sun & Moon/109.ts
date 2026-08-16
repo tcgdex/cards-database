@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+		de: "Mit seinen scharfen Zähnen schnappt es nach allem. Es lebte ursprünglich nicht in Alola und wurde aus einer anderen Region eingeführt."
 	},
 
 	thirdParty: {

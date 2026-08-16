@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -103,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
+		de: "Seine Augen sind so außergewöhnlich, dass es sogar in einem Sandsturm kleinste Beute aus 50 km Entfernung entdecken kann."
 	},
 
 	thirdParty: {
