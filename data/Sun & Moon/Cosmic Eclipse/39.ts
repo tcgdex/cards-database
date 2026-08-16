@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "If you carelessly approach it because it's cute, the boss of the pack, Ninetales, will appear and freeze you.",
+		de: "Wer sich Vulpix leichtsinnig nähert, weil es doch so süß ist, wird sogleich von Vulnona, dem Anführer des Rudels, eingefroren."
 	},
 
 	thirdParty: {

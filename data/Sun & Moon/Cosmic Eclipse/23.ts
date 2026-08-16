@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+		de: "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger."
 	},
 
 	thirdParty: {

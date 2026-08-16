@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
 	},
 
 	thirdParty: {

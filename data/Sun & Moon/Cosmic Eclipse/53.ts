@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía Water de tu pila de descartes a 1 de tus Pokémon.",
 				it: "Assegna a uno dei tuoi Pokémon due carte Energia Water dalla tua pila degli scarti.",
 				pt: "Ligue 2 cartas de Energia Water da sua pilha de descarte a 1 dos seus Pokémon.",
-				de: "Lege 2 Water-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+				de: "Lege 2 {W}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 
 		},
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
+		de: "Der Legende nach erschuf sein Regen das Meer. Es und Groudon lieferten sich einen langen Kampf."
 	},
 
 	thirdParty: {

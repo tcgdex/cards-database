@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 
 	stage: "Stage1",
@@ -92,7 +93,7 @@ const card: Card = {
 				es: "Caballero Plateado GX",
 				it: "Cavaliere d’Argento GX",
 				pt: "Cavaleiro Prateado GX",
-				de: "Silberner Ritter GX"
+				de: "Silberner Ritter-GX"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is an Ultra Beast, it is Knocked Out. (You can’t use more than 1 GX attack in a game.)",

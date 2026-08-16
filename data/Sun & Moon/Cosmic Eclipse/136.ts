@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta la primera carta de la baraja de tu rival.",
 				it: "Scarta la prima carta del mazzo del tuo avversario.",
 				pt: "Descarte a primeira carta do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Deck deines Gegners auf seinen Ablagestapel."
+				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+		de: "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen."
 	},
 
 	thirdParty: {

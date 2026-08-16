@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
+		de: "Es schwimmt so schnell wie ein Rennboot. Seine Flügel haben scharfe Seiten und können Packeis schneiden."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta las 7 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Objeto, ponlas en tu mano.",
 		it: "Scarta le prime sette carte del tuo mazzo. Se fra queste ci sono delle carte Strumento, aggiungile alle carte che hai in mano.",
 		pt: "Descarte as 7 primeiras cartas do seu baralho. Se houver cartas de Item entre elas, coloque-as na sua mão.",
-		de: "Lege die obersten 7 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Itemkarten sind, nimm sie auf deine Hand."
+		de: "Lege die obersten 7 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Itemkarten sind, nimm sie auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

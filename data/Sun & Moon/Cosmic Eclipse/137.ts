@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "After fleeing a volcanic eruption, it ended up moving to an area of snowy mountains. Its ice shell is as hard as steel.",
+		de: "Um sich vor Vulkanausbrüchen zu schützen, floh es in verschneites Gebirge. Sein Eispanzer ist hart wie Stahl."
 	},
 
 	thirdParty: {
