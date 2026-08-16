@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Elige el tipo Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy o Dragon. La Debilidad del Pokémon Defensor pasa a ser de ese tipo hasta el final de tu próximo turno. (La cantidad de Debilidad no cambia).",
 				it: "Scegli uno dei seguenti tipi: Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy o Dragon. La debolezza del Pokémon difensore diventa di quel tipo fino alla fine del tuo prossimo turno. Quanto è debole non cambia.",
 				pt: "Encolha o tipo Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy ou Dragon. A Fraqueza do Pokémon Defensor passa a ser daquele tipo até o final da sua próxima vez de jogar. (A quantidade de Fraqueza não muda.)",
-				de: "Wähle den Typ Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy oder Dragon. Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt dieser Typ. (Die Höhe der Schwäche ändert sich nicht.)"
+				de: "Wähle den Typ {G}, {R}, {W}, {L}, {P}, {F}, {D}, {M}, {FAIRY} oder {N}. Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt dieser Typ. (Die Höhe der Schwäche ändert sich nicht.)"
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Using the most advanced technologies, scientists finally succeeded in making the first artificial Pokémon.",
+		de: "Unter Einsatz der neuesten Technologie ist es Forschern endlich gelungen, das erste künstliche POKéMON zu erschaffen."
 	},
 
 	thirdParty: {

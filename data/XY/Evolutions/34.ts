@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
 				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
 				pt: "Jogue 2 moedas. Se uma delas for coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 180,
 
@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
+		de: "Es ist von Natur aus sehr aggressiv. Der Hyperstrahl, den es aus seinem Maul verschießt, äschert seine Gegner ein."
 	},
 
 	thirdParty: {

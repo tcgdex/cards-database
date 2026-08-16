@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon se hace 30 puntos de daño a sí mismo.",
 				it: "Lancia una moneta. Se esce croce, questo Pokémon infligge 30 danni a se stesso.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon causará 30 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 

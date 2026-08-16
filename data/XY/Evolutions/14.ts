@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+		de: "In seiner Jugend hat es sechs hinreißende Schweife. Während es wächst, kommen noch weitere neue Schweife hinzu."
 	},
 
 	thirdParty: {
