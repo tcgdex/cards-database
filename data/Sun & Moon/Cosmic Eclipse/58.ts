@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen, um Artgenossen vor Gefahr zu warnen."
 	},
 
 	thirdParty: {

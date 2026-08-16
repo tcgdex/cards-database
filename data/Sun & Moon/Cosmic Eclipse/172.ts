@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
+		de: "Da es alle Gerüche perfekt unterscheiden kann, findet es sogar Nahrung, die tief im Erdreich ist."
 	},
 
 	thirdParty: {

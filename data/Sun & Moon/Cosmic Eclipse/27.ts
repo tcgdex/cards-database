@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 				it: "Scarta le prime due carte del mazzo del tuo avversario.",
 				pt: "Descarte as 2 primeiras cartas do baralho do seu oponente.",
-				de: "Lege die obersten 2 Karten des Deck deines Gegners auf seinen Ablagestapel."
+				de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+		de: "Aus seinem porösen Schneckengehäuse sprudeln Feuerfontänen, die seinen Körper durchfluten."
 	},
 
 	thirdParty: {

@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It's frequently the cause of power outages, which is why some power plants send out electrical signals that it can't stand.",
+		de: "Da Magnetilo Stromausfälle verursacht, werden in vielen Kraftwerken Radiowellen ausgesendet, die es nicht leiden kann, um es zu vertreiben."
 	},
 
 	thirdParty: {

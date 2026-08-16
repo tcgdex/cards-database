@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 
 	stage: "Stage1",
@@ -105,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it can control its units known as Mini-Noses, they sometimes get lost and don't come back.",
+		de: "Es steuert kleine Einheiten, die man Mininasen nennt. Leider verirren sie sich manchmal, und es heißt, dass einige von ihnen nie wiederkehren."
 	},
 
 	thirdParty: {

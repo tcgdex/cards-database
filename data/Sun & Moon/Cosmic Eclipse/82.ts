@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en juego, es de tipo Psychic y Fighting.",
 				it: "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Fighting.",
 				pt: "Enquanto este Pokémon estiver em jogo, é do tipo Psychic e Fighting.",
-				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Fighting."
+				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ {P} und {F}."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+		de: "Da es selbst die leisesten Gedanken seines Gegners lesen kann, kann es immer zuerst angreifen."
 	},
 
 	thirdParty: {

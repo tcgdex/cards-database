@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deerling",
 		fr: "Vivaldaim",
+		de: "Sesokitz"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+		de: "An seinem Geweih kann man ablesen, wann eine neue Jahreszeit beginnt. Sein Revier wechselt mit jeder neuen Jahreszeit."
 	},
 
 	thirdParty: {

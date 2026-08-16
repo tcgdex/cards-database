@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmog",
 		fr: "Cosmog",
+		de: "Cosmog"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "The king who ruled Alola in times of antiquity called it the \"cocoon of the stars\" and built an altar to worship it.",
+		de: "Ein vor Urzeiten über Alola herrschender König nannte es „Sternenkokon“ und erbaute ihm zu Ehren ein Podium."
 	},
 
 	thirdParty: {

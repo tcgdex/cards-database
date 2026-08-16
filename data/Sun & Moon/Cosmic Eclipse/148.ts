@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
 				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
 				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer ◇-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
 			},
 			damage: "20×",
 
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
+		de: "Ein Störenfried, der heimlich in Wohnhäuser eindringt und dann wichtige Dinge versteckt sowie in allen Zimmern Watte verstreut."
 	},
 
 	thirdParty: {

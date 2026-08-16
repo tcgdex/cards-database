@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stufful",
 		fr: "Nounourson",
+		de: "Velursi"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
 				it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
 				pt: "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
+				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um {C}{C}."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
+		de: "Wenn es wild mit seinen Armen wedelt, ist das eine warnende Drohgebärde. Wem sein Leben lieb ist, sollte schleunigst die Flucht ergreifen."
 	},
 
 	thirdParty: {

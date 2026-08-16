@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		de: "Ignivor"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, pon 2 contadores de daño en 1 de los Pokémon de tu rival.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire che hai in mano. Se lo fai, metti due segnalini danno su uno dei Pokémon del tuo avversario.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Fire da sua mão. Se fizer isto, coloque 2 contadores de dano em 1 dos Pokémon do seu oponente.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {R}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 		},
 	],
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Pon 2 Energías Fire unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie Fire assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 cartas de Energia Fire ligadas a este Pokémon na sua mão.",
-				de: "Nimm 2 an dieses Pokémon angelegte Fire-Energien auf deine Hand."
+				de: "Nimm 2 an dieses Pokémon angelegte {R}-Energien auf deine Hand."
 			},
 			damage: 160,
 
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Onda Ígnea Masiva GX",
 				it: "Ondata Rovente GX",
 				pt: "Mormaço Brutal GX",
-				de: "Massive Hitzewelle GX"
+				de: "Massive Hitzewelle-GX"
 			},
 			effect: {
 				en: "Discard an Energy from each of your opponent’s Pokémon. (You can’t use more than 1 GX attack in a game.)",
