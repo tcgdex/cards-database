@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It can clear a 30-story building in a leap. Its fiery punches scorch its foes.",
+		de: "Mühelos springt es selbst über 30-stöckige Häuser. Sein Feuerschlag fügt dem Gegner Verbrennungen zu."
 	},
 
 	thirdParty: {

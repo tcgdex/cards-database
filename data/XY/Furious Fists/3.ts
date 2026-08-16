@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 Energía Grass unida a este Pokémon. Si lo haces, el Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare un'Energia Grass assegnata a questo Pokémon. Se lo fai, il Pokémon attivo del tuo avversario viene confuso e paralizzato.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá descartar uma Energia Grass ligada a este Pokémon. Se fizer isso, o Pokémon Ativo do seu oponente ficará Confuso e Envenenado.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 an dieses Pokémon angelegte Grass-Energie auf deinen Ablagestapel legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt verwirrt und vergiftet."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 an dieses Pokémon angelegte {G}-Energie auf deinen Ablagestapel legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt verwirrt und vergiftet."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+		de: "Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen."
 	},
 
 	thirdParty: {

@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Si se inflige cualquier daño a este Pokémon por ataques durante el próximo turno de tu rival, lanza 1 moneda. Si sale cara, evita ese daño.",
 				it: "Se questo Pokémon subisce danni da attacchi durante il prossimo turno del tuo avversario, lancia una moneta. Se esce testa, previeni quei danni.",
 				pt: "Se algum dano for causado a este Pokémon por ataques durante a próxima vez de jogar do seu oponente, jogue uma moeda. Se sair cara, o dano será evitado.",
-				de: "Wirf 1 Münze, wenn diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe Schaden zugefügt wird. Bei \"Kopf\" verhindere diesen Schaden."
+				de: "Wirf 1 Münze, wenn diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe Schaden zugefügt wird. Bei „Kopf“ verhindere diesen Schaden."
 			},
 			damage: 40,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+		de: "Seit es die schwere Muschel abgestreift hat, ist es viel leichter. Nun gleichen seine Kampfbewegungen denen eines Ninja."
 	},
 
 	thirdParty: {

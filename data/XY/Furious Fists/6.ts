@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+		de: "Es bevorzugt feuchte Orte. Am Tag sitzt es regungslos im Schatten des Waldes. Von seinem Kopf sondert es einen giftigen Puder ab."
 	},
 
 	thirdParty: {

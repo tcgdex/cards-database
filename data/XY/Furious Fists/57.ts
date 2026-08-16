@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It wields the fur on its arm like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+		de: "Es benutzt das Fell an seinen Armen als Peitsche. Beide Arme bewegen sich dabei mit atemberaubender Geschwindigkeit."
 	},
 
 	thirdParty: {

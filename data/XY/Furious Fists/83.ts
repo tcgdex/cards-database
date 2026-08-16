@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Elige 1 de los ataques del Pokémon Activo de tu rival. Ese Pokémon no puede usar ese ataque durante el próximo turno de tu rival.",
 				it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
 				pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Esse Pokémon não poderá usar esse ataque durante a próxima vez de jogar do seu oponente.",
-				de: "Wähle 1 Angriff des Aktiven Pokémon deines Gegners. Dieses Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
+				de: "Wähle 1 Angriff des Aktiven Pokémon deines Gegners. Das Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
 			},
 			damage: 50,
 
@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+		de: "Das faulste Pokémon der Welt. Es bewegt sich nur, wenn alles Essbare in Reichweite verputzt ist."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques de cada Pokémon Fighting en juego (tanto tuyos como de tu rival) hacen 20 puntos de daño más a los Pokémon-EX Defensores (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi di tutti i tuoi Pokémon Fighting in gioco, sia tuoi che del tuo avversario, infliggono 20 danni in più al Pokémon-EX difensore, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques de cada Pokémon Fighting em jogo (seus e do seu oponente) causam 20 de danos adicionais ao Pokémon -EX Defensor (antes da aplicação de Fraqueza e Resistência).",
-		de: "Die Angriffe jedes Fighting-Pokémon im Spiel (deiner und der deines Gegners)fügen dem Verteidigenden Pokémon-EX 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Die Angriffe jedes {F}-Pokémon im Spiel (deiner und der deines Gegners) fügen dem Verteidigenden Pokémon-EX 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",
