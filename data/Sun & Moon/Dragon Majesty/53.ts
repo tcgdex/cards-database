@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
+		de: "Miniras"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they're regrown.",
+		de: "Seine Schuppen wachsen sehr schnell nach. Jede neue Schuppe ist härter und schärfer als die vorherige."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes descartar las 5 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía Fire, únelas a este Pokémon.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scartare le prime cinque carte del tuo mazzo. Se fra queste ci sono delle carte Energia Fire, assegnale a questo Pokémon.",
 				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode descartar as 5 primeiras cartas do seu baralho. Se houver cartas de Energia Fire entre elas, ligue-as a este Pokémon.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen. Wenn unter jenen Karten Fire-Energiekarten sind, lege sie an dieses Pokémon an."
+				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen. Wenn unter jenen Karten {R}-Energiekarten sind, lege sie an dieses Pokémon an."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+		de: "Wenn Glutexo mit seinem Schwanz schwingt, steigt die Temperatur ins Unermessliche."
 	},
 
 	thirdParty: {

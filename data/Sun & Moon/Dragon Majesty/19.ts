@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Its reckless leaps make it easy pickings for predators. On the bright side, many Pokémon enjoy longer life spans, thanks to Magikarp.",
+		de: "Da es immer nur leichtsinnig herumplatscht, ist es leichte Beute für hungrige Pokémon. Für viele ist es daher ein Lebensretter."
 	},
 
 	thirdParty: {

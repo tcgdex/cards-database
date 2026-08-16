@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "The child in its pouch leaves home after roughly three years. That is the only time the mother is heard to cry wildly.",
+		de: "Das Junge verlässt den Beutel der Mutter im Alter von drei Jahren. Dies ist der einzige Zeitpunkt, zu dem man die Mutter laut weinen hört."
 	},
 
 	thirdParty: {

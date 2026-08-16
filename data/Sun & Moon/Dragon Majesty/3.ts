@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+		de: "Dieses Pokémon kann mit seinen Flügeln eine Höhe von bis zu 1 400 m erreichen. Es spuckt sehr heißes Feuer."
 	},
 
 	thirdParty: {
