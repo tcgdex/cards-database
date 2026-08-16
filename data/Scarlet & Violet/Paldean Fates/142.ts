@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+		de: "Seine Pfotenballen sind Organe zur elektrischen Entladung. Gelingt es ihm, auf den Hinterbeinen zu stehen, schießt es Strom aus den Vorderpfoten."
 	},
 
 }

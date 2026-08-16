@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
-		fr: "Medhyèna"
+		fr: "Medhyèna",
+		de: "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

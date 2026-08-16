@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
 	},
 
 	variants: [

@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+		de: "Da der wohlige Duft, den sein Körper verströmt, das Wachstum von Weizen begünstigt, schätzt man dieses Pokémon in Bauerndörfern sehr."
 	},
 
 }

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+		de: "Sonnenlicht lässt seine Wolle anwachsen. Wird das Volumen zu groß, zupft es die Wolle ab und verstreut sie überall in der Gegend."
 	},
 
 }

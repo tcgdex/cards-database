@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+		de: "Macht es ernst, so stellt es sich auf sein zuvor eingeklapptes Beinpaar und schaltet in den Showdown-Modus. So bezwingt es Gegner im Nu."
 	},
 
 	illustrator: "Taiga Kasai",

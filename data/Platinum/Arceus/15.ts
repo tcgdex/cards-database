@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi"
+		en: "Cherubi",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -35,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If any of your Grass Pokémon or Fire Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).",
-				de: "Schaden, der deinen - oder -Pokémon durch Angriffe zugefügt würde, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Schaden, der deinen {G}- oder {R}-Pokémon durch Angriffe zugefügt würde, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -52,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
+		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
+		de: "Spürt es Sonnenlicht, öffnet es seine Blütenblätter und nimmt die Energie der Sonnenstrahlen auf."
 	},
 
 	variants: [

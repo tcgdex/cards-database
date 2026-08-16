@@ -61,7 +61,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world."
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+		de: "Man sagt, es sei im Nichts aus einem Ei geschlüpft und habe dann die Welt geformt."
 	},
 
 	variants: [

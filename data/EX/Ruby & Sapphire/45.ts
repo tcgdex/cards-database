@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Claw",
 				fr: "Mâchoire",
-				de: "Claw"
+				de: "Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Slack Off",
 				fr: "Paresse",
-				de: "Slack Off"
+				de: "Tagedieb"
 			},
 			effect: {
 				en: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
 				fr: "Retirez à Paracool tous ses marqueurs de dégât. Paracool ne pourra pas attaquer pendant votre prochain tour.",
-				de: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+				de: "Entferne alle Schadensmarken von Bummelz. Bummelz kann in deinem nächsten Zug nicht angreifen."
 			},
 
 		},

@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko"
+		en: "Treecko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
+		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
 	},
 
 	variants: [

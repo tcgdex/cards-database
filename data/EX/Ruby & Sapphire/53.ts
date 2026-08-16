@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le ou les deux Pokémon Défenseurs sont maintenant Paralysés.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ sind alle Verteidigenden Pokémon jetzt gelähmt."
 			},
 
 		},

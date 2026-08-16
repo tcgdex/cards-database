@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Charjabug"
+		en: "Charjabug",
+		de: "Akkup"
 	},
 
 	stage: "Stage2",

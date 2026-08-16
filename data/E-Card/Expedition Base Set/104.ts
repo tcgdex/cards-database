@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussir",
-				de: "Singe"
+				de: "Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
-				de: "Quick Attack"
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

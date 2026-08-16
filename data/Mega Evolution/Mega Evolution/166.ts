@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.",
 		fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de {C}{C}.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C}{C}.",
+		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C} {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
 		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di {C}{C}.",
 		es: "El Coste de Retirada del Pokémon al que esté unida esta carta es de {C}{C} menos.",
 		pt: "O Custo de Recuo do Pokémon ao qual esta carta está ligada é {C}{C} a menos.",

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
-		fr: "Carvanha"
+		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Rough Skin",
 				fr: "Peau dure",
-				de: "Rough Skin"
+				de: "Rauhaut"
 			},
 			effect: {
 				en: "If Sharpedo is your Active Pokémon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 				fr: "Si Sharpedo est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Sharpedo est mis K.O.), placez un marqueur de dégât sur le Pokémon Attaquant.",
-				de: "If Sharpedo is your Active Pokémon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), put 2 damage counters on the Attacking Pokémon"
+				de: "Wenn Tohaido dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Tohaido dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon."
 			}
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Dark Slash",
 				fr: "Entaille",
-				de: "Dark Slash"
+				de: "Dunkler Hieb"
 			},
 			effect: {
 				en: "You may discard a Darkness Energy card attached to Sharpedo. If you do, this attack does 40 damage plus 30 more damage.",
 				fr: "Vous pouvez défausser une carte Énergie  attachée à Sharpedo. Les dégâts de base de cette attaque sont de 70 au lieu de 40.",
-				de: "You may discard a  Energy card attached to Sharpedo. If you do, this attack does 40 damage plus 30 more damage."
+				de: "Du kannst eine {W}-Energiekarte, die an Tohaido angelegt ist, auf den Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 70 Schadenspunkte anstelle von 40."
 			},
 			damage: "40+",
 

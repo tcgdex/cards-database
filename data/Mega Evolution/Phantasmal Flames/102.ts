@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It's dangerous for Wooper to travel alone. They line up in groups of three or four and help each other as they walk around the wetlands.",
+		de: "Da allein zu reisen für sie zu gefährlich ist, durchstreifen sie Sümpfe in Reihen aus drei bis vier Exemplaren und helfen dabei einander."
 	},
 
 	illustrator: "OKACHEKE",

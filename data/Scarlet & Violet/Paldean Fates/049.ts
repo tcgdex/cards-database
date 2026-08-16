@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain.",
+		de: "Seine Haut ist so hart, dass ihm nicht einmal der Zusammenprall mit einem Auto etwas anhaben kann. Regen setzt ihm jedoch stark zu."
 	},
 
 }

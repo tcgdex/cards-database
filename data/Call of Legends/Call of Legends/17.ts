@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may discard a Fire Energy from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie . Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {R}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years.",
+		de: "Seine neun schönen Schweife sind erfüllt von einer magischen Energie, um es 1000 Jahre leben zu lassen."
 	},
 
 	variants: [

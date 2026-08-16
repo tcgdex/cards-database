@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60×",
 

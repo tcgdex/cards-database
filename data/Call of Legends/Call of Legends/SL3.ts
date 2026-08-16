@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Entei's Retreat Cost is Colorless Energy less for each Fire Energy attached to Entei.",
 				fr: "Le Coût de retraite de Entei est Colorless de moins pour chaque Énergie Fire attachée à Entei.",
-				de: "Die Rückzugskosten von Entei verringern sich für jede an Entei angelegte -Energie um ."
+				de: "Die Rückzugskosten von Entei verringern sich für jede an Entei angelegte {R}-Energie um {C}."
 			},
 		},
 	],
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+		de: "Dieses Pokémon jagt über das Land. Man sagt, in jedem neuen Vulkan wird ein ENTEI geboren."
 	},
 
 	variants: [

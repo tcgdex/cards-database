@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy"
+		en: "Burmy",
+		de: "Burmy"
 	},
 
 	stage: "Stage1",
@@ -71,7 +72,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee."
+		en: "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee.",
+		de: "Es liebt Honig, sammelt ihn aber nicht, sondern stiehlt den Honig, der von WADRIBIE gesammelt wurde."
 	},
 
 	variants: [

@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Trumbeak"
+		en: "Trumbeak",
+		de: "Trompeck"
 	},
 
 	stage: "Stage2",

@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Votre adversaire montre sa main et vous piochez une carte pour chaque Pokémon que vous y trouvez.",
 		es: "Tu rival enseña las cartas de su mano, y tú robas 1 carta por cada Pokémon que encuentres entre ellas.",
 		'es-mx': "Tu rival muestra su mano, y tú robas 1 carta por cada Pokémon que encuentres en ella.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jedes Pokémon, das du dort findest.",
+		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jedes Pokémon, das du dort findest. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu peschi una carta per ogni Pokémon presente tra quelle carte.",
 		pt: "Seu oponente revela a mão dele e você compra uma carta para cada Pokémon que você encontrar lá."
 	},

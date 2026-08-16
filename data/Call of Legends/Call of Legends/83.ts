@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck. Then, draw 6 cards.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe danach 6 Karten.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Mische deine Handkarten in dein Deck. Ziehe danach 6 Karten.",
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 	},
 

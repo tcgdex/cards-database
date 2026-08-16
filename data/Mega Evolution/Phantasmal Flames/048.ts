@@ -40,7 +40,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 40 dégâts pour chacun de vos Pokémon ayant \" Tauros \" dans leur nom et ayant au moins un marqueur de dégâts.",
 			es: "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon que tengan \"Tauros\" en su nombre y algún contador de daño sobre ellos.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon que tengan \"Tauros\" en su nombre y algún contador de daño sobre ellos.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon, bei dem \"Tauros\" zum Namen gehört und auf dem mindestens 1 Schadensmarke liegt, 40 Schadenspunkte zu.",
+			de: "Diese Attacke fügt für jedes deiner Pokémon, bei dem „Tauros“ zum Namen gehört und auf dem mindestens 1 Schadensmarke liegt, 40 Schadenspunkte zu.",
 			it: "Questo attacco infligge 40 danni per ciascuno dei tuoi Pokémon che ha sia \"Tauros\" nel nome che dei segnalini danno.",
 			pt: "Este ataque causa 40 pontos de dano para cada um dos seus Pokémon que tem \"Tauros\" em seu nome que tiver algum contador de dano nele."
 		},
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
+		de: "Es hat einen muskulösen Körper und zeichnet sich im Nahkampf aus. Mit seinen kurzen Hörnern zielt es auf die Schwachstellen des Gegners ab."
 	},
 
 	illustrator: "Souichirou Gunjima",

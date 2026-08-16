@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+		de: "Dieses Pokémon verteidigt sein abgegrenztes Areal sorgsam gegen alle Eindringlinge."
 	},
 
 }

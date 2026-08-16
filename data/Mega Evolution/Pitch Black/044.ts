@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Antique Skull Fossil"
+		en: "Antique Skull Fossil",
+		de: "Antikes Kopffossil"
 	},
 
 	stage: "Stage1",

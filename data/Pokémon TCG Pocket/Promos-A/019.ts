@@ -64,7 +64,8 @@ const card: Card = {
 	hp: 120,
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal"
 	},
 
 	description: {

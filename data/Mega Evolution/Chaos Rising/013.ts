@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+		de: "Mit seinen Psycho-Kräften kontrolliert es einen 3000 °C heißen Flammenwirbel, mit dem es seine Gegner umhüllt und sie verbrennt."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Braixen"
+		en: "Braixen",
+		de: "Rutena"
 	},
 
 	stage: "Stage2",

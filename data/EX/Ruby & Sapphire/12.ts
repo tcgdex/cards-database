@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vigoroth",
-		fr: "Vigoroth"
+		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Lazy",
 				fr: "Fainéant",
-				de: "Lazy"
+				de: "Faulheit"
 			},
 			effect: {
 				en: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
 				fr: "Tant que Monaflemit est votre Pokémon Actif, le Pokémon de votre adversaire ne peut utiliser de Poké-Powers.",
-				de: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers."
+				de: "Solange Letarking dein Aktives Pokémon ist, können gegnerische Pokémon keine Poké-Power benutzen."
 			}
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Critical Move",
 				fr: "Mouvement décisif",
-				de: "Critical Move"
+				de: "Entscheidung"
 			},
 			effect: {
 				en: "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn.",
 				fr: "Défaussez une carte Énergie de base attachée à Monaflemit ou cette attaque est sans effet. Monaflemit ne pourra pas attaquer pendant votre prochain tour.",
-				de: "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn."
+				de: "Entferne 1 Basis-Energiekarte von Letarking und lege sie auf den Ablagestapel, sonst hat dieser Angriff keine Auswirkungen. Letarking kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 100,
 

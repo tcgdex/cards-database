@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle"
+		en: "Grovyle",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -54,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "70×",
 
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat."
+		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+		de: "Die Blätter an seinen Armen können dicke Bäume fällen. Im Dschungelkampf gibt es kein stärkeres PKMN."
 	},
 
 	variants: [

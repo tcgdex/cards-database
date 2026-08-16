@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Attach a basic Energy card from your hand to 1 of your Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre main à un de vos Pokémon.",
-				de: "Lege 1 Basis Energiekarte an 1 deiner Pokémon an."
+				de: "Lege 1 Basis-Energiekarte an 1 deiner Pokémon an."
 			},
 
 		},

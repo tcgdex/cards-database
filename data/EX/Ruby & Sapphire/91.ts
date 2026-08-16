@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
 		fr: "Retirez jusqu'à deux marqueurs de dégât à l'un de vos Pokémon.",
-		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
+		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses Pokémon nur 1 hat)."
 	},
 
 

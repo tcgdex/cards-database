@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Raikou's Retreat Cost is Colorless less for each Lightning Energy attached to Raikou.",
 				fr: "Le Coût de retraite de Raikou est Colorless de moins pour chaque Énergie Lightning attachée à Raikou",
-				de: "Die Rückzugskosten von Raikou verringern sich für jede an Raikou angelegte -Energie um ."
+				de: "Die Rückzugskosten von Raikou verringern sich für jede an Raikou angelegte {L}-Energie um {C}."
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage to 1 of your Pokémon and don't apply Weakness and Resistance to this damage.",
 				fr: "Inflige 20 dégâts à 1 de vos Pokémon. N’appliquez ni la Faiblesse ni la Résistance à ces dégâts.",
-				de: "Dieser Angriff fügt einem deiner Pokémon 20 Schadenspunkte zu; wende dabei Schwäche und Resistenz nicht an."
+				de: "Dieser Angriff fügt 1 deiner Pokémon 20 Schadenspunkte zu; wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 70,
 
@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that races across the land while barking a cry that sounds like crashing thunder.",
+		de: "Dieses Pokémon jagt über das Land und stößt dabei ein Gebrüll aus, das wie krachender Donner klingt."
 	},
 
 	variants: [

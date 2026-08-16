@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if you attach an Energy card to your Active Pokémon as part of your turn, you may attach an additional Energy card to that Pokémon at the same time. This power can't be used if Venusaur is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie de votre main à votre Pokémon Actif en tant qu'action de votre tour, vous pouvez attacher une carte Énergie supplémentaire à ce Pokémon. Ce pouvoir ne peut pas être utilisé si Florizarre est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff)kannst du, falls du als Bestandteil deines Zuges eine Energiekarte an dein Aktives Pokémon gelegt hast, gleichzeitig eine zusätzliche Energiekarte an dieses Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Bisaflor von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls du als Bestandteil deines Zuges eine Energiekarte aus deiner Hand an dein Aktives Pokémon angelegt hast, gleichzeitig eine zusätzliche Energiekarte an dieses Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Bisaflor von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 

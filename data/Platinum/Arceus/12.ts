@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos G.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Zapdos G an."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Zapdos G an."
 			},
 			damage: 10,
 
@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard all Lightning attached to Zapdos G. If you do, this attack's base damage is 80 instead of 40.",
-				de: "Du kannst alle -Energien von Zapdos G entfernen und auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 40 Schadenspunkten."
+				de: "Du kannst alle {L}-Energien von Zapdos G entfernen und auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 40 Schadenspunkten."
 			},
 			damage: 40,
 

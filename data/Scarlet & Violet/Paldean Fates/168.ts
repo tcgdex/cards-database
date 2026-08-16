@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+		de: "Friedwuff ist die Reinkarnation eines liebevoll betrauerten Pokémon. Es wird nur ungern am Fortsatz auf seinem Kopf berührt."
 	},
 
 }

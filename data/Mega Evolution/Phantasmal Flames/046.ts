@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+		de: "Weherba entstehen, wenn Seelen, die keinen Frieden finden, vom Wind fortgeweht werden und sich in verdorrtem Gras verheddern."
 	},
 
 	illustrator: "Takeshi Nakamura",

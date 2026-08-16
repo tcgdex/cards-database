@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude"
+		en: "Geodude",
+		de: "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty."
+		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+		de: "Rollt auf Bergpfaden, um sich fortzubewegen. Hat es erst mal Schwung geholt, kann man es kaum bremsen."
 	},
 
 	variants: [

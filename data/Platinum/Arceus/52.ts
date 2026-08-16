@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day."
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+		de: "Es träumt davon, eines Tages fliegen zu können und springt daher jeden Tag von hohen Klippen."
 	},
 
 	variants: [
