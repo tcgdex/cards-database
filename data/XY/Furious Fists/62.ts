@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
+		de: "Aufgrund der Zerstörungskraft seines Kiefers, der Stahl zerreißen kann, als wäre es Papier, galt es in seiner Zeit als unbesiegbar."
 	},
 
 	thirdParty: {

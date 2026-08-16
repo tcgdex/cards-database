@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Ignora todas las Energías Colorless en el coste de los ataques de tus Poliwag, Poliwhirl y Poliwrath.",
 				it: "Ignora tutte le Energie Colorless necessarie per usare gli attacchi dei tuoi Poliwag, Poliwhirl e Poliwrath.",
 				pt: "Ignore toda a Energia Colorless no custo do ataque para cada um dos ataques de seus Poliwag, Poliwhirl e Poliwrath.",
-				de: "Ignoriere alle Colorless-Energien in den Angriffskosten der Attacken deiner Quapsel, Quaputzi und Quappo."
+				de: "Ignoriere alle {C}-Energien in den Angriffskosten der Attacken deiner Quapsel, Quaputzi und Quappo."
 			},
 		},
 	],
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+		de: "Sind drei oder mehr von ihnen zusammen, lassen sie einen schallenden Ruf erklingen."
 	},
 
 	thirdParty: {

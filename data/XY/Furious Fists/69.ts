@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+		de: "Eine Ansammlung von Piepi bei Vollmond tanzen zu sehen, soll Freude verheißen."
 	},
 
 	thirdParty: {

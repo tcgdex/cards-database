@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+		de: "Es greift seine Beute mit den Krallen an seinem Schweif und vergiftet sie. Dann wartet es ab..."
 	},
 
 	thirdParty: {

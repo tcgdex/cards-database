@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful.",
+		de: "Seine Zunge ist mit klebrigem Speichel bedeckt, der überall haftet. Dies ist sehr nützlich."
 	},
 
 	thirdParty: {
