@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each Fire or Metal Energy card you discarded.",
-				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte - oder -Energiekarte zu."
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte {R}- oder {M}-Energiekarte zu."
 			},
 			damage: "60+",
 
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat."
+		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat.",
+		de: "Sein Körper besteht aus Stahl, hat aber aufgrund der eigenen Temperatur geschmolzene Stellen."
 	},
 
 	variants: [

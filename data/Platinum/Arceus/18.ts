@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snorunt"
+		en: "Snorunt",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -55,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 
@@ -72,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It prevents prey from escaping by instantaneously freezing moisture in the air."
+		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+		de: "Es verhindert, dass Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich einfriert."
 	},
 
 	variants: [

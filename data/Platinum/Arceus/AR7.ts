@@ -55,7 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed."
+		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+		de: "Die Mythologie erzählt, dass dieses PKMN geboren wurde, bevor das Universum überhaupt existierte."
 	},
 
 	variants: [

@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler"
+		en: "Graveler",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -52,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard as many Fighting Energy cards as you like from your hand. The attack does 30 damage times the number of Fighting Energy cards you discarded.",
-				de: "Lege beliebig viele -Energiekarten von deiner Hand auf den Ablagestapel. Dieser Angriff fügt für jede auf dieser Weise auf den Ablagestapel gelegte -Energiekarte 30 Schadenspunkte zu."
+				de: "Lege beliebig viele {F}-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise auf den Ablagestapel gelegte {F}-Energiekarte 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 

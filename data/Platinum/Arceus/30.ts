@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle"
+		en: "Grovyle",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -35,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.",
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
+				de: "Wenn du 1 {G}-Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
 			}
 		},
 	],
@@ -51,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage times the amount of Grass Energy attached to Sceptile.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten -Energien zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten {G}-Energien zu."
 			},
 			damage: "20×",
 

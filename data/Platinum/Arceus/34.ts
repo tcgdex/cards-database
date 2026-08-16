@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
 	},
 
 	variants: [

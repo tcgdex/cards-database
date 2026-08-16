@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter"
+		en: "Haunter",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -75,7 +76,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people."
+		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
+		de: "Der heimtückische Blick im Dunkel gehört einem GENGAR, das sich freut, Flüche auszustoßen."
 	},
 
 	variants: [
