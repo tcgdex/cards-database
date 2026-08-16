@@ -27,10 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash"
+				en: "Rock Smash",
+				de: "Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage."
+				en: "Flip a coin. If heads, this attack does 10 more damage.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 			},
 			damage: "10+"
 		},
