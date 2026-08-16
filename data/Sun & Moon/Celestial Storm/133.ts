@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de la baraja de cualquiera de los jugadores y elige 1 de ellas. Ese jugador pone el resto de cartas de nuevo en su baraja y las baraja todas. Después, pon la carta que has elegido en la parte superior de esa baraja.",
 		it: "Guarda le prime cinque carte del mazzo di uno dei giocatori e scegline una. Quel giocatore rimischia le altre carte nel suo mazzo. Poi metti la carta che hai scelto in cima a quel mazzo.",
 		pt: "Olhe as 5 primeiras cartas do baralho de qualquer um dos jogadores e escolha 1 delas. Aquele jogador embaralha as demais cartas de volta no próprio baralho. Em seguida, coloque a carta escolhida como a primeira carta daquele baralho.",
-		de: "Schau dir die obersten 5 Karten des Decks eines der beiden Spieler an und wähle 1 Karte. Jener Spieler mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf jenes Deck."
+		de: "Schau dir die obersten 5 Karten des Decks eines der beiden Spieler an und wähle 1 Karte. Jener Spieler mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf jenes Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

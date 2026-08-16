@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Strong impacts can knock it out of its shell. This Pokémon was born from mutated nanoparticles.",
+		de: "Heftige Stöße lassen seine Schale abblättern. Eine Mutation von Nanopartikeln brachte dieses Pokémon hervor."
 	},
 
 	thirdParty: {

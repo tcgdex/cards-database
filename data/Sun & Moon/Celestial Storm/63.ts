@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		de: "Es liebt Rachegefühle. Diese Pokémon hängen sich an Dachrinnen von Häusern, in denen Rachsüchtige leben."
 	},
 
 	thirdParty: {
