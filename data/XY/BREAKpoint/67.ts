@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+		de: "Es tarnt sich als Baum, um nicht angegriffen zu werden. Es hasst Wasser, darum läuft es bei Regen weg."
 	},
 
 	thirdParty: {

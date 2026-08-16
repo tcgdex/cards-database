@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen.Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort.",
+		de: "Da es seine verwundbarste Stelle beim Klammern preisgibt, tut es dies nur in wirklichen Notfällen."
 	},
 
 	thirdParty: {

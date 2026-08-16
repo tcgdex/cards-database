@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes lanzar 1 moneda. Si sale cara, mueve 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi lanciare una moneta. Se esce testa, sposta un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar) você pode jogar uma moeda. Se sair cara, mova uma Energia do Pokémon Ativo do seu adversário para 1 dos Pokémon no Banco dele(a).",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Verschiebe bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf 1 Pokémon auf der Bank deines Gegners."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Verschiebe bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf 1 Pokémon auf der Bank deines Gegners."
 			},
 		},
 	],
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.",
+		de: "Als Flegmon in den Kopf gebissen wurde, floss Gift in seinen Kopf und setzte eine gewaltige Kraft frei."
 	},
 
 	thirdParty: {
