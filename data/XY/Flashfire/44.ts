@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
+		de: "Als verfaulter Seetang getarnt, lauert es auf Beute und bespritzt alles und jeden, der sich ahnungslos nähert, mit flüssigem Gift, bevor es ihm den Rest gibt."
 	},
 
 	thirdParty: {

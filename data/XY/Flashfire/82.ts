@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Esse ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+		de: "Es rollt sich um seine Jungen, wenn diese schlafen sollen. Gegnern begegnet es mit Schnelligkeit."
 	},
 
 	thirdParty: {

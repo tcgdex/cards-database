@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it.",
+		de: "Es frisst einfach alles und kann daher auch in verschmutzter Umgebung leben. Niemand beachtet es."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todo el daño al Pokémon al que esté unida esta carta por ataques que este use.",
 		it: "Previeni tutti i danni inflitti al Pokémon a cui è assegnata questa carta da attacchi che usa.",
 		pt: "Impede todos os danos causados ao Pokémon ao qual este card está ligado pelos ataques que ele usa.",
-		de: "Verhindere allen Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch Angriffe, die es einsetzt, zugefügt würde."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere allen Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch Angriffe, die es einsetzt, zugefügt würde. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

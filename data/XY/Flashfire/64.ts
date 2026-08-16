@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon Grass en juego obtiene 20 PS más.",
 				it: "Tutti i tuoi Pokémon Grass in gioco hanno 20 PS in più.",
 				pt: "Cada um dos seus Pokémon Grass em jogo recebe +20 PS.",
-				de: "Jedes deiner Grass-Pokémon im Spiel erhält +20 KP."
+				de: "Jedes deiner {G}-Pokémon im Spiel erhält +20 KP."
 			},
 		},
 	],
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+		de: "Es fliegt auf Wiesen umher und kümmert sich um welkende Blumen. Es setzt deren geheime Kräfte frei und nutzt diese zum Kämpfen."
 	},
 
 	thirdParty: {

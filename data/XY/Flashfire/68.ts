@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, impedirá todos os efeitos dos ataques a este Pokémon, inclusive danos, durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Fairy unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Fairy assegnata a questo Pokémon.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Energia Fairy ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Fairy-Energie zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {FAIRY}-Energie zu."
 			},
 			damage: "40+",
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Born from temperatures and pressures deep underground, it fires beams from the stone in its head.",
+		de: "Dieses Pokémon entstand aus Druck und Hitze in den tiefsten Erdschichten. Mithilfe des Steines in seinem Kopf feuert es Energiestrahlen ab."
 	},
 
 	thirdParty: {
