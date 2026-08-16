@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cacnea",
 		fr: "Cacnea",
+		de: "Tuska"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+		de: "Ein nachtaktives Pokémon, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist."
 	},
 
 	thirdParty: {

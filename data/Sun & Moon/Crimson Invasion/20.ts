@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Marcacrin",
+		de: "Quiekel"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground.",
+		de: "Trotz kurzer Beine rutscht es auf eisigen Flächen nicht aus, da seine Hufe ihm genügend Halt bieten."
 	},
 
 	thirdParty: {

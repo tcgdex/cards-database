@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,7 @@ const card: Card = {
 				es: "Si alguno de los Pokémon de tu rival tiene alguna Energía Darkness unida a él, este ataque hace 60 puntos de daño más.",
 				it: "Se uno qualsiasi dei Pokémon del tuo avversario ha delle Energie Darkness assegnate, questo attacco infligge 60 danni in più.",
 				pt: "Se algum dos Pokémon do seu oponente tiver alguma Energia Darkness ligada a ele, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn an die Pokémon deines Gegners mindestens 1 Darkness-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				de: "Wenn an die Pokémon deines Gegners mindestens 1 {D}-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -103,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "It sheds its fine fur when the seasons change. The fur is gathered and spun into a luxurious yarn.",
+		de: "Pünktlich zum Wechsel der Jahreszeiten streift es sein kuschelig weiches Fell ab. Der Stoff, der sich daraus spinnen lässt, gilt als Luxusgut."
 	},
 
 	thirdParty: {

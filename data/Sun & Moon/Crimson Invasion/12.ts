@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Por cada Energía unida a los Pokémon de tu rival, une 1 carta de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 				it: "Per ogni Energia assegnata ai Pokémon del tuo avversario, assegna a piacimento ai tuoi Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Para cada Energia ligada aos Pokémon do seu oponente, ligue 1 carta de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Lege für jede an die Pokémon deines Gegners angelegte Energie 1 Fire-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
+				de: "Lege für jede an die Pokémon deines Gegners angelegte Energie 1 {R}-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "The bones it possesses were once its mother's. Its mother's regrets have become like a vengeful spirit protecting this Pokémon.",
+		de: "Die Knochen in seinem Besitz stammen von der Mutter. Nach ihrem Tod wurde ihre Trauer zu Flammen, die Knogga nun schützen."
 	},
 
 	thirdParty: {

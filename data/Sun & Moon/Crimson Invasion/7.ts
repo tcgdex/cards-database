@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+		de: "Ein mysteriöses Pokémon, das sich entwickelt, wenn es zusammen mit Schnuthelm einen Stromschlag abbekommt."
 	},
 
 	thirdParty: {

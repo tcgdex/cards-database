@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "A tough Pokémon that is perfectly fine even in dirty water. However, due to its ragged, shabby appearance, it isn't popular.",
+		de: "Dieses robuste Pokémon fühlt sich selbst in verschmutztem Wasser wohl. So schäbig und zerfetzt es ist, so unbeliebt ist es auch."
 	},
 
 	thirdParty: {

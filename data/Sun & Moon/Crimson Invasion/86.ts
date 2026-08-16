@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		de: "Picochilla"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
+		de: "Sein weißer Flaum fühlt sich wunderbar flauschig an und zieht weder Staub noch statische Elektrizität an."
 	},
 
 	thirdParty: {
