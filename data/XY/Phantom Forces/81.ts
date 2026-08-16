@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño por cada contador de daño en cada uno de tus Pokémon en Banca.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni per ogni segnalino danno presente sui tuoi Pokémon in panchina.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos vezes o número de contadores de danos em cada um dos seus Pokémon no Banco.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte für jede Schadensmarke auf den Pokémon auf deiner Bank zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte für jede Schadensmarke auf den Pokémon auf deiner Bank zu."
 			},
 			damage: "10×",
 
@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		de: "Eier, die es legt, stecken voller Fröhlichkeit. Schon ein Bissen erzeugt ein breites Lächeln."
 	},
 
 	thirdParty: {

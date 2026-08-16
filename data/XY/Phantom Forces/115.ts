@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 60 puntos de daño por cada cara.",
 				it: "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 60 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda para cada Energia ligada a este Pokémon. Esse ataque causa 60 de danos vezes o número de caras.",
-				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60×",
 

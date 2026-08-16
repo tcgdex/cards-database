@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The solar rays it absorbs are processed in its energy core and fired as a ball of light.",
+		de: "Es verarbeitet Sonnenstrahlen in seinem Energiekern zu Lichtkugeln weiter, um sie im Kampf auf seinen Gegner abzufeuern."
 	},
 
 	thirdParty: {

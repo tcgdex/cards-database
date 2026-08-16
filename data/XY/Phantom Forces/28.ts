@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+		de: "Es ist in der Wüste zu Hause und wandelt die Energie der Sonne in Körperkraft um, wodurch es auch ohne Nahrung auskommt."
 	},
 
 	thirdParty: {

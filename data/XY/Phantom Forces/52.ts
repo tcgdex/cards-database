@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
+		de: "Sein tiefer Ruf lockt andere Kramurx herbei. Man nennt es daher „Beschwörer der Nacht“."
 	},
 
 	thirdParty: {
