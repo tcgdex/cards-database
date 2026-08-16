@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, durante este turno, los ataques de tus Pokémon Fire Básicos hacen 30 puntos de daños más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire dalla tua mano. Se lo fai, durante questo turno gli attacchi dei tuoi Pokémon Base Fire infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode descartar um card de Energia Fire da sua mão. Se fizer isso, durante esta vez de jogar, os ataques dos seus Pokémon Fire Básicos causarão 30 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
-				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du 1 Fire-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügen die Angriffe deiner Basis-Fire-Pokémon dem Aktiven Pokémon deines Gegners während dieses Zuges 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Einmal während deines Zuges (vor deinem Angriff), kannst du 1 {R}-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügen die Angriffe deiner Basis-{R}-Pokémon dem Aktiven Pokémon deines Gegners während dieses Zuges 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],

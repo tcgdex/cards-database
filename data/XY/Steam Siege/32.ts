@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+		de: "Besiegt Gegner durch einen einzigen Hieb mit der Klinge an seinem Panzer. Ein böser Blick und seine Feinde verstummen."
 	},
 
 	thirdParty: {

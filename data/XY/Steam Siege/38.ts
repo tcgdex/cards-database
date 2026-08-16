@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+		de: "Es speichert viel Luft in seinem weichen Pelz. Dadurch ist es im Sommer kalt und im Winter warm."
 	},
 
 	thirdParty: {

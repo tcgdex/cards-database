@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
 				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore costano Colorless in più e il suo costo di ritirata aumenta di Colorless.",
 				pt: "Durante a próxima vez de jogar do seu oponente, o custo dos ataques do Pokémon Defensor será Colorless maior e o seu Custo para Recuar será Colorless maior.",
-				de: "Während des nächsten Zuges deines Gegners erhöhen sich die Angriffskosten und die Rückzugskosten des Verteidigenden Pokémon um Colorless."
+				de: "Während des nächsten Zuges deines Gegners erhöhen sich die Angriffskosten und die Rückzugskosten des Verteidigenden Pokémon um {C}."
 			},
 			damage: 20,
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+		de: "In Urzeiten muss es einen großen Schutzpanzer besessen haben. Es lebt in kleinen Wasserstellen."
 	},
 
 	thirdParty: {

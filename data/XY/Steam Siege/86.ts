@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Descarta tantas Energías Darkness unidas a tus Pokémon como quieras. Este ataque hace 50 puntos de daño por cada Energía Darkness que hayas descartado de esta manera.",
 				it: "Scarta a piacimento le Energie Darkness assegnate ai tuoi Pokémon. Questo attacco infligge 50 danni per ogni carta Energia Darkness che hai scartato in questo modo.",
 				pt: "Descarte tantas Energias Darkness ligadas aos seus Pokémon quanto desejar. Este ataque causa 50 de danos vezes a quantidade de cards de Energia Darkness descartados desta forma.",
-				de: "Lege beliebig viele an deine Pokémon angelegte Darkness-Energien auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte für jede der auf diese Weise abgelegte Darkness-Energie zu."
+				de: "Lege beliebig viele an deine Pokémon angelegte {D}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte für jede der auf diese Weise abgelegte {D}-Energie zu."
 			},
 			damage: "50×",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!",
+		de: "Ein kaltblütiges Pokémon, das auf alles reagiert, was sich bewegt, indem es mit seinen drei Köpfen danach schnappt."
 	},
 
 	thirdParty: {

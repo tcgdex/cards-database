@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho um card de Energia Fire e ligue-o a este Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 60,
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.",
+		de: "Sie bedrohen ihre Gegner, indem sie 6 000 °C heiße Atemluft ausstoßen. Die Weibchen beschützen die Jungen des Rudels."
 	},
 
 	thirdParty: {

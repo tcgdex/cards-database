@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
+		de: "Durch die Explosion körpereigener Gase feuert es wie eine Pistole Wassersalven ab, die aus kurzer Distanz selbst Felsen zerschmettern."
 	},
 
 	thirdParty: {

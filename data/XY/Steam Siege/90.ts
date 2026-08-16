@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+		de: "Sein Schweif ist so kräftig, dass es sich stundenlang damit an einem Ast in der Luft halten kann."
 	},
 
 	thirdParty: {
