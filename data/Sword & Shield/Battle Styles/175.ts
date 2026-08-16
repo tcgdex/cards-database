@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante este turno, el daño de los ataques de tus Pokémon VMAX no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 		it: "Durante questo turno, i danni degli attacchi dei tuoi Pokémon-VMAX non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
 		pt: "Durante este turno, o dano dos ataques dos seus Pokémon VMAX não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-		de: "Während dieses Zuges wird der Schaden durch Attacken deiner Pokémon-VMAX durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+		de: "Während dieses Zuges wird der Schaden durch Attacken deiner Pokémon-VMAX durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

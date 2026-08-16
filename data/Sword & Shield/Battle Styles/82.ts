@@ -45,7 +45,7 @@ const card: Card = {
 			es: "Descarta las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada carta de Energía Fighting que hayas descartado de esta manera.",
 			it: "Scarta le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni carta Energia Fighting che hai scartato in questo modo.",
 			pt: "Descarte as 6 cartas de cima do seu baralho. Este ataque causa 60 pontos de dano para cada carta de Energia Fighting descartada desta forma.",
-			de: "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Fighting-Energiekarte 60 Schadenspunkte zu."
+			de: "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte {F}-Energiekarte 60 Schadenspunkte zu."
 		},
 
 		damage: "60×",
@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.",
+		de: "Es rollt sich auf diese eigentümliche Weise zusammen, damit es den Sand aus seinem Sandbeutel effizienter verschießen kann."
 	},
 
 	variants: [

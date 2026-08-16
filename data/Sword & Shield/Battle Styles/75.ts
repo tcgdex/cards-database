@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists."
+		en: "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists.",
+		de: "Dreht es richtig auf, wirft es seine Betonpfeiler zur Seite und stürzt sich mit gezückter Faust auf den Gegner."
 	},
 
 	variants: [

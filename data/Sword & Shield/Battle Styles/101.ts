@@ -51,7 +51,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
+		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished.",
+		de: "Es heißt, wenn man es poliert, spiegelt sich die Wahrheit in ihm wider. Bronzel mag es jedoch überhaupt nicht, poliert zu werden."
 	},
 
 	variants: [

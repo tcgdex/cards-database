@@ -57,7 +57,7 @@ const card: Card = {
 			es: "Si el Pokémon Activo de tu rival es un Pokémon Metal, este ataque hace 90 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è di tipo Metal, questo attacco infligge 90 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Metal, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Metal-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			de: "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+",
@@ -81,7 +81,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
+		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found.",
+		de: "Sie streiten sich mit Sharfax aufs Heftigste um das Vorrecht auf Orte mit Felsen, an denen sie ihre Klingen schärfen können."
 	},
 
 	variants: [

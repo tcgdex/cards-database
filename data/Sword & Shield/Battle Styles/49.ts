@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander."
 	},
 
 	variants: [

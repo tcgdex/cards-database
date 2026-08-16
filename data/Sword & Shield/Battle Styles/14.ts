@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
+		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration.",
+		de: "Es liebt Sonnenlicht. Gönnt es sich regelmäßig Sonnenbäder, blüht es in prächtigen, satten Farben auf."
 	},
 
 	variants: [

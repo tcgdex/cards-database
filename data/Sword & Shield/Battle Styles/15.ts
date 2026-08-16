@@ -57,7 +57,7 @@ const card: Card = {
 			es: "Corte Solar",
 			it: "Taglio Solare",
 			pt: "Cortador Solar",
-			de: "Solarschneider"
+			de: "Solarschneide"
 		},
 
 		damage: 70,
@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon."
+		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon.",
+		de: "Es schlitzt Gegner mit tänzelnden Angriffen auf. Dank seiner Eleganz wird es auch als das anmutigste aller Pflanzen-Pokémon bezeichnet."
 	},
 
 	variants: [

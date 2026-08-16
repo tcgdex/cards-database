@@ -65,7 +65,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene alguna Energía Darkness unida a él, este ataque hace 70 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie Darkness assegnate, questo attacco infligge 70 danni in più.",
 			pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele, este ataque causará 70 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Darkness-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
+			de: "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Packs of them follow travelers through the desert until the travelers can no longer move."
+		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+		de: "Gruppen von Noktuska folgen müden Wüstenreisenden und warten, bis diese bewegungsunfähig werden."
 	},
 
 	variants: [
