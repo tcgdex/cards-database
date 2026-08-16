@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta"
+		en: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -65,7 +66,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance."
+		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.",
+		de: "In vollem Galopp funkelt seine leuchtende Mähne, was wiederum seine Schönheit unterstreicht."
 	},
 
 	variants: [

@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach 1 -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach 1 {R}-Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+		de: "Lodert die Flamme auf seinem Schweifspitz hell, ist GLUMANDA gesund."
 	},
 
 	variants: [

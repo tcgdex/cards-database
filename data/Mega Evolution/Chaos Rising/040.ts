@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
+		de: "Jüngst entdeckte man, dass seine Sorten nicht nur je nach Körpergröße variieren, sondern auch je nach der Größe der Seelen, die sie entführen."
 	},
 
 

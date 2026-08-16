@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, when you put Porygon-Z G from your hand onto your Bench, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and shuffle them into your deck.",
-				de: "Einmal während deines Zuges kannst du, wenn du Porygon-Z G von deiner Hand auf die Bank legst, deinen Ablagestapel nach bis zu 2 Pokémon-Ausrüstungs-Karten durchsuchen, sie deinem Gegner zeigen und in dein Deck mischen."
+				de: "Einmal während deines Zuges kannst du, wenn du Porygon-Z G von deiner Hand auf deine Bank legst, deinen Ablagestapel nach bis zu 2 Pokémon-Ausrüstungs-Karten durchsuchen, sie deinem Gegner zeigen und in dein Deck mischen."
 			}
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 40 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

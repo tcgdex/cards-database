@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Mitunter kann man beobachten, wie zwei Pachirisu ihre Backentaschen aneinanderreiben, um gespeicherte Elektrizität zu teilen."
 	},
 
 }

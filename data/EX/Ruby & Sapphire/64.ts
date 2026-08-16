@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
-				de: "Wirf eine Münze. Bei 'Kopf' wähle 1 zufällige Karte von der Hand deines Gegners. Dein Gegner legt diese Karte auf seinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Kopf“ wähle 1 zufällige Karte von der Hand deines Gegners. Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 
 		},

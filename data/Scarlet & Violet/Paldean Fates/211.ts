@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+		de: "Dieses Pokémon verknotet offenbar seinen Hals am Ansatz, damit die im Bauch gespeicherte Energie nicht über den Schnabel entweicht."
 	},
 
 }

@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela"
+		en: "Tangela",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut."
+		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
+		de: "Seine Arme bestehen aus Ranken, die sich an Dinge klammern und nach dem Abschneiden sofort nachwachsen."
 	},
 
 	variants: [		{

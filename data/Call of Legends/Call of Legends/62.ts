@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+		de: "Es hasst kalte Orte. Um es für sich angenehmer zu gestalten, erwärmt es seine Umgebung mit seinem Atem."
 	},
 
 	variants: [

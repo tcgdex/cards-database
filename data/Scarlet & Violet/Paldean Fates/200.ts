@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+		de: "Ein seltsames Exemplar, das nur selten gefunden wird. Die drei Köpfe repräsentieren Freude, Trauer und Wut."
 	},
 
 }

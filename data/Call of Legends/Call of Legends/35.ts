@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
-		fr: "Feurisson"
+		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	stage: "Stage2",
@@ -75,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		de: "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen."
 	},
 
 	variants: [

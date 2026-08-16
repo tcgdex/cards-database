@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
+		de: "Überlieferungen nach soll Lavados mit seinen wunderschön lodernden Flügeln Bergpfade erleuchtet und dadurch Verirrten geholfen haben."
 	},
 
 	illustrator: "Kazumasa Yasukuni",

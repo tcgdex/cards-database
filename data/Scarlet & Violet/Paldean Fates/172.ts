@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
+		de: "Es zeichnet sich durch seine dicken Muskeln und sein wildes Temperament aus. Diese Form wird „Gefechtvariante“ genannt."
 	},
 
 }

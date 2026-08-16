@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Goupix.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege 1 an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+		de: "Greift es ein größerer Gegner an, täuscht es eine Verletzung vor, um sicher vor ihm zu flüchten."
 	},
 
 	variants: [

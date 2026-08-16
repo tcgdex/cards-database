@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+		de: "Glänzende Dinge faszinieren es. Findet es etwas Schimmerndes, leuchtet auch die Münze an seinem Kopf aus unbekanntem Grund auf."
 	},
 
 	illustrator: "Uninori",

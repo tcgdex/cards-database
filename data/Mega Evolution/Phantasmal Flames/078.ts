@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+		de: "Griffel lebt auf hohen Bäumen. Es nutzt seinen Schweif geschickt, um das Gleichgewicht zu halten, wenn es von Ast zu Ast hüpft."
 	},
 
 	illustrator: "Saboteri",

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+		de: "Ein außerirdischer Virus kam mit einem Meteor auf die Erde. Seine DNA mutierte. So entstand Deoxys."
 	},
 
 

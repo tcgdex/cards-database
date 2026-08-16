@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon, and each Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur et les Paralysent.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff allen Verteidigenden Pokémon 10 Schadenspunkte zu und alle Verteidigenden Pokémon sind jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff allen Verteidigenden Pokémon 10 Schadenspunkte zu und alle Verteidigenden Pokémon sind jetzt gelähmt."
 			},
 
 		},

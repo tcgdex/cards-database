@@ -25,7 +25,7 @@ const card: Card = {
 		fr: "Les deux Pokémon non-{D} Actifs sont maintenant Confus.",
 		es: "Cualquier Pokémon Activo que no sea de tipo {D} pasa a estar Confundido.",
 		'es-mx': "Cualquier Pokémon Activo que no sea de tipo {D} ahora está Confundido.",
-		de: "Jedes Aktive Pokémon, das kein {D}-Pokémon ist, ist jetzt verwirrt.",
+		de: "Jedes Aktive Pokémon, das kein {D}-Pokémon ist, ist jetzt verwirrt. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Entrambi i Pokémon attivi non di tipo {D} vengono confusi.",
 		pt: "Qualquer Pokémon Ativo que não seja de tipo {D} agora está Confuso."
 	},

@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Gentle Slap",
+				de: "Sanfter Hieb"
 			},
 			damage: 20,
 		},
@@ -36,10 +37,12 @@ const card: Card = {
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
 				en: "Raging Cannon",
+				de: "Wutkanone"
 			},
 			damage: "100+",
 			effect: {
 				en: "If all your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage.",
+				de: "Wenn auf allen Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu."
 			},
 		},
 	],

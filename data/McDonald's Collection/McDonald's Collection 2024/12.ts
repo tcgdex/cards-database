@@ -37,10 +37,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Jet Cruise"
+				en: "Jet Cruise",
+				de: "Jet-Cruisen"
 			},
 			effect: {
-				en: "Your Pokémon in play have no Retreat Cost."
+				en: "Your Pokémon in play have no Retreat Cost.",
+				de: "Deine Pokémon im Spiel haben keine Rückzugskosten."
 			}
 		}
 	],
@@ -50,10 +52,12 @@ const card: Card = {
 			cost: ["Water", "Lightning", "Colorless"],
 			name: {
 				en: "Dragon Pulse",
+				de: "Drachenpuls"
 			},
 			damage: 180,
 			effect: {
 				en: "Discard the top 2 cards of your deck.",
+				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 		},
 	],

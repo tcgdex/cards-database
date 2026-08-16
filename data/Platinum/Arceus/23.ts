@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte"
+		en: "Omanyte",
+		de: "Amonitas"
 	},
 
 	stage: "Stage2",
@@ -38,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Evolved Pokémon. Remove the highest Stage Evolution card from that Pokémon and have your opponent shuffle that card into his or her deck.",
-				de: "Wähle 1 Pokémon deines Gegners. Entferne die höchste Evolutionskarte vom gewählten Pokémon, dein Gegner mischt diese Karte in sein Deck zurück."
+				de: "Wähle 1 entwickeltes Pokémon deines Gegners. Entferne die höchste Evolutionskarte vom gewählten Pokémon, dein Gegner mischt diese Karte in sein Deck zurück."
 			},
 
 		},
@@ -70,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large."
+		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large.",
+		de: "Man geht davon aus, dass das PKMN ausgestorben ist, weil seine spiralförmige Schale zu groß wurde."
 	},
 
 	variants: [

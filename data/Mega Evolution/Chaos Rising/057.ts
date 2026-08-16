@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		de: "Durch das Aufsaugen von Abfall erzeugt es in seinem Inneren völlig neue Formen von Giftgasen und Toxinen."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Trubbish"
+		en: "Trubbish",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",

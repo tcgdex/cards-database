@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Sharp Fang",
+				de: "Scharfe Fänge"
 			},
 			damage: 30,
 		},
@@ -36,9 +37,11 @@ const card: Card = {
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
 				en: "Lightning Laser",
+				de: "Blitzlaser"
 			},
 			effect: {
 				en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 90,
 		},

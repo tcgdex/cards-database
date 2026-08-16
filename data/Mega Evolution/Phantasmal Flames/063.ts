@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Because of this Pokémon's ability to detect danger, people mistook Absol as a bringer of doom.",
+		de: "Absol kann Gefahr verspüren, weshalb Menschen irrtümlicherweise dachten, dieses Pokémon bringe ihnen Unheil."
 	},
 
 	illustrator: "Takumi Wada",

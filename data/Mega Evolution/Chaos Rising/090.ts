@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		de: "Seine Schwanzspitze leuchtet hell. Ihr Licht ist von Weitem zu sehen und dient all jenen, die sich verirrt haben, als Orientierungspunkt."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Flaaffy"
+		en: "Flaaffy",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",

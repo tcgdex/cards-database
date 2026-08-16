@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita"
+		en: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts."
+		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
+		de: "Es liebt das Kräftemessen mit großen PKMN. Mit seinem Armwurf kann es LKW durch die Luft werfen."
 	},
 
 	variants: [

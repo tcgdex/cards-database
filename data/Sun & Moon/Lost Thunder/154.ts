@@ -50,17 +50,6 @@ const card: Card = {
 		},
 	],
 
-	attacks: [
-		{
-
-			name: {
-				fr: "Règle pour les cartes  (Prisme Étoile)",
-			},
-
-
-		},
-	],
-
 	weaknesses: [
 		{
 			type: "Fighting",

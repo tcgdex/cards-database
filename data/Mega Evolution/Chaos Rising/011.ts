@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+		de: "Wenn es Zweige frisst, schöpft es neue Kraft und stößt aus seinen großen Ohren über 200 °C heiße Luft aus."
 	},
 
 

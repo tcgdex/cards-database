@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		de: "Wenn seine Kulleraugen zu flackern beginnen, singt es ein mysteriöses, wohlklingendes Lied, das Zuhörer in Schlaf versetzt."
 	},
 
 	illustrator: "Naoyo Kimura",

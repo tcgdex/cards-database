@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
+		de: "Vibrieren die Flossen AQUANAs, bedeutet dies, dass es in den nächsten Stunden zu regnen beginnt."
 	},
 
 	variants: [

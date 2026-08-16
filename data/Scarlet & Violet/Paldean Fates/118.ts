@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+		de: "Ihm macht es nichts aus, von Fisch-Pokémon angeknabbert zu werden, da sich sein Körper bei Verletzungen im Nu regeneriert."
 	},
 
 }

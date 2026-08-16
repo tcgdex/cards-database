@@ -48,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
-				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
+				de: "Wirf eine Münze. Nimm bei „Kopf“ eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},

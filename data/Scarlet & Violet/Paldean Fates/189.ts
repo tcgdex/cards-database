@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+		de: "Wer dieses friedfertige Pokémon verärgert, wird durch einen Biss mit seinen scharfen, giftgetränkten Schneidezähnen gelähmt."
 	},
 
 }

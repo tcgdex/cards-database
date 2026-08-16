@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+		de: "Durch sein langes Fell ist es resistent gegen Kälte. Seine Stoßzähne aus Eis werden dicker, wenn es schneit."
 	},
 
 	illustrator: "Shinya Komatsu",

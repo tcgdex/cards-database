@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		en: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",

@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+		de: "Sein flauschiges Fell dient ihm als Batterie. Darin kann es dieselbe Menge an Strom speichern wie ein Elektroauto."
 	},
 
 }
