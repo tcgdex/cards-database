@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from it mouth.",
+		de: "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen."
 	},
 
 	thirdParty: {

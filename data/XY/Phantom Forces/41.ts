@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+		de: "Es entzündet ein Licht und gibt vor, dem Gegner den Weg zu weisen, doch eigentlich saugt es ihm seine Lebensenergie ab."
 	},
 
 	thirdParty: {

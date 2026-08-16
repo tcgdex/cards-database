@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+		de: "Dieses Pokémon sammelt eifrig Schlüssel, mit denen es wild herumfuchtelt, um Gegner abzuschrecken."
 	},
 
 	thirdParty: {

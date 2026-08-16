@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "It prefers to battle by biting apart foes' heads instantly while flying by at high speed.",
+		de: "Seine bevorzugte Strategie besteht darin, seine Gegner aus dem Flug blitzartig zur Strecke zu bringen."
 	},
 
 	thirdParty: {
