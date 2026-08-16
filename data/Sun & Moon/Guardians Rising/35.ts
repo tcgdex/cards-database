@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillish",
 		fr: "Sorboul",
+		de: "Gelatroppo"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Puedes descartar 2 Energías Water de este Pokémon. Si lo haces, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Puoi scartare due Energie Water assegnate a questo Pokémon. Se lo fai, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Você pode descartar 2 Energias Water deste Pokémon. Se fizer isto, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Du kannst 2 Water-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Du kannst 2 {W}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Each of its two heads has a brain, and when they are in agreement, it attacks its enemies by exhaling a violent blizzard.",
+		de: "Seine zwei Köpfe haben je ein eigenes Gehirn. Sind sich beide einig, greifen sie den Gegner an, indem sie heftige Eisböen ausstoßen."
 	},
 
 	thirdParty: {

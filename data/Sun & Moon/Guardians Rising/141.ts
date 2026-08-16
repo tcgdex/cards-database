@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
+		de: "Mediras"
 	},
 
 	suffix: "GX",
@@ -96,7 +97,7 @@ const card: Card = {
 				es: "Ultragancho GX",
 				it: "Ultramontante-GX",
 				pt: "Ultradireto GX",
-				de: "Ultrahieb GX"
+				de: "Ultrahieb-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",

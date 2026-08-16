@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Taillow",
 		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "If its two tail feathers are standing at attention, it is proof of good health. It soars elegantly in the sky.",
+		de: "Wenn seine beiden Schwanzfedern aufrecht stehen, zeigt das, dass es bei bester Gesundheit ist. Es fliegt elegant in den Himmel empor."
 	},
 
 	thirdParty: {

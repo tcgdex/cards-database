@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The eggs laid by Chansey are rich in nutrients and a favorite food of many Pokémon.",
+		de: "Die Eier, die es legt, sind ausgesprochen nahrhaft. Sie sind die Leibspeise vieler Pokémon."
 	},
 
 	thirdParty: {

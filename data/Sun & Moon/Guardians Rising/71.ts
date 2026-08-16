@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Barboach",
 		fr: "Barloche",
+		de: "Schmerbe"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "A glutton that devours anything that moves, it quietly lurks at the bottom of swamps, lying in wait for prey.",
+		de: "Es frisst einfach alles, was ihm vor die Kiemen kommt. Normalerweise verharrt es im Schlamm und wartet auf Beute."
 	},
 
 	thirdParty: {

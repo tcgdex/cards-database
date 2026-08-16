@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes cambiar este Pokémon por un Wishiwashi GX de tu mano. Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scambiare questo Pokémon con un Wishiwashi GX nella tua mano. Le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode trocar este Pokémon por 1 Wishiwashi GX na sua mão. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dieses Pokémon gegen 1 Lusardin GX auf deiner Hand austauschen. Alle an es angelegten Karten, Schadensmarken, Speziellen Zustände, Spielzüge sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dieses Pokémon gegen 1 Lusardin-GX auf deiner Hand austauschen. Alle an es angelegten Karten, Schadensmarken, Speziellen Zustände, Spielzüge sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
 			},
 		},
 	],
@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "When it's in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+		de: "Gerät es in Not, tränen seine Augen. Ihr Glänzen lockt Artgenossen an, mit denen es dann im Verbund den Feind angreift."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
 				it: "d",
 				pt: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
-				de: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Schadensmarke von 1 Pokémon auf 1 anderes Pokémon verschieben."
 			},
 		},
 	],
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		de: "Es saugt die Seele eines jeden auf, der in seinen Feuerkranz gerät, bis nur noch eine leere Hülle von ihm übrig ist."
 	},
 
 	thirdParty: {

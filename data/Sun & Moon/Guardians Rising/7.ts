@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Phantump",
 		fr: "Brocélôme",
+		de: "Paragoni"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is said to devour anyone daring to ravage the forest. To the creatures dwelling in the forest, it offers great kindness.",
+		de: "Menschen, die dem Wald Schaden zufügen, soll es angeblich auffressen. Es ist nett zu allen Lebewesen, die im Wald leben."
 	},
 
 	thirdParty: {
