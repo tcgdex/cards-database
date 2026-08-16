@@ -1,0 +1,10 @@
+services:
+  tcgdex:
+    build:
+      context: .
+      dockerfile: Dockerfile.en-ja
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - TCGCSV_USER_AGENT=TCGdex/1.0
