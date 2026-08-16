@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Loving couples have a soft spot for this Pokémon, so honeymoon hotels often release this Pokémon into their pools.",
+		de: "Da Liebiskus besonders bei Pärchen beliebt sind, findet man sie oft in Swimmingpools von Hotels für Frischvermählte."
 	},
 
 	thirdParty: {

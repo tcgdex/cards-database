@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
+		de: "Es lebt in den Tiefen des Meeres, zu denen kein Licht durchdringt. Es kommuniziert mit anderen Lampi, indem es seine Antennen aufblitzen lässt."
 	},
 
 	thirdParty: {

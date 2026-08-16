@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The same rocks that form its body have been found in ground layers around the world.",
+		de: "Die Steine, aus denen sein Körper besteht, stammen aus den unterschiedlichsten Ecken der Welt."
 	},
 
 	thirdParty: {

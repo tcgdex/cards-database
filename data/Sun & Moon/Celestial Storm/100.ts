@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Si el total de cartas de Premio que les queden a ambos jugadores es exactamente 6, este ataque se puede usar por 1 Energía Metal.",
 				it: "Se il totale delle carte Premio rimanenti a entrambi i giocatori è esattamente sei, il costo di questo attacco è Metal.",
 				pt: "Se a soma total das cartas de Prêmio restantes de ambos os jogadores for exatamente 6, este ataque poderá ser usado com 1 Energia Metal.",
-				de: "Wenn die Summe der verbleibenden Preiskarten beider Spieler genau 6 ist, kann diese Attacke für Metal eingesetzt werden."
+				de: "Wenn die Summe der verbleibenden Preiskarten beider Spieler genau 6 ist, kann diese Attacke für {M} eingesetzt werden."
 			},
 			damage: 160,
 
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+		de: "Diese Ultrabestie wurde dabei gesichtet, wie sie mithilfe des Gases, das aus ihren beiden Armen strömt, große Waldflächen niederbrannte."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spoink",
 		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes.",
+		de: "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner."
 	},
 
 	thirdParty: {

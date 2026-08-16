@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wingull",
 		fr: "Goélise",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire del Pokémon Activo de tu rival.",
 				it: "Scarta un’Energia Fire assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia Fire do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Fire-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				de: "Lege 1 {R}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "Gathering food is the work of young males. They store food in their capacious beaks and carry it back to others waiting in the nest.",
+		de: "Die jungen Männchen beschaffen die Nahrung. Sie sammeln die Beute in ihrem großen Schnabel und bringen sie zurück ins Nest zu den anderen."
 	},
 
 	thirdParty: {

@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
+		de: "Es prustet Meerwasser aus den über seinen Augen liegenden Nasenlöchern hinaus. Außerdem frisst es täglich eine Tonne Lusardin."
 	},
 
 	thirdParty: {

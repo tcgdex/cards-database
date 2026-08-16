@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+		de: "Es sucht nach reinem Wasser. Wenn es für längere Zeit kein Wasser trinkt, verwelkt das Blatt auf seinem Kopf."
 	},
 
 	thirdParty: {

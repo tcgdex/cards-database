@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+		de: "Es bewegt sich, indem es sich auf seinem Fuß dreht. Ein seltenes Pokémon, das in alten Ruinen lebte."
 	},
 
 	thirdParty: {
