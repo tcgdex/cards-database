@@ -23,25 +23,29 @@ const card: Card = {
 	illustrator: "Yoshinobu Saito",
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+		de: "Man sagt, es sei die Wiedergeburt des Nordwindes. Es kann verschmutztes Wasser im Nu reinigen."
 	},
 
 	attacks: [{
 		name: {
 			en: "Spiral Drain",
-			fr: "Spirale Épuisante"
+			fr: "Spirale Épuisante",
+			de: "Spiralsauger"
 		},
 
 		damage: 20,
 
 		effect: {
 			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts à ce Pokémon."
+			fr: "Soignez 20 dégâts à ce Pokémon.",
+			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		name: {
 			en: "Aurora Beam",
-			fr: "Onde Boréale"
+			fr: "Onde Boréale",
+			de: "Aurorastrahl"
 		},
 
 		damage: 80
