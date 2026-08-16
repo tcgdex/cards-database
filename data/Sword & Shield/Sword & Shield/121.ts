@@ -84,7 +84,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
+		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in.",
+		de: "Es schlägt mit den giftigen Krallen an seinem Schweif zu. Wer von ihnen gestochen wird, bekommt ein lähmendes Gift injiziert."
 	},
 
 	dexId: [451],
