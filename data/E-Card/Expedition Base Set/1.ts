@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kadabra",
-		fr: "Kadabra"
+		fr: "Kadabra",
+		de: "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn, instead of Alakazam's normal attack, you may choose 1 of your opponent's Pokémon's attacks. Alakazam copies that attack including its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type that Pokémon is, Alakazam's type is still Psychic.) This power can't be used if Alakazam is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour, à la place de l'attaque normale d'Alakazam, vous pouvez choisir une attaque d'un des Pokémon de votre adversaire. Alakazam copie cette attaque, y compris son coût d'Énergie et toute autre action requise pour utiliser cette attaque, comme par exemple, se défausser de cartes Énergie. (Quel que soit le type de l'autre Pokémon, Alakazam est toujours de type Psy.) Ce pouvoir ne peut pas être utilisé si Alakazam est affecté par un État spécial.",
-				de: "Einmal während deines Zuges kannst du anstatt Simsalas normalen Angriff 1 der Angriffe der Pokémon deines Gegners wählen. Simsala kopiert diesen Angriff (einschließlich der Energiekosten und allem anderen, was du tun musst, um diesen Angriff zu verwenden). (Unabhängig vom Typ dieses Pokémon bleibt Simsalas Typ Psycho.) Diese Fähigkeit kann nicht verwendet werden, falls Simsala von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges kannst du anstatt Simsalas normalem Angriff 1 der Angriffe der Pokémon deines Gegners wählen. Simsala kopiert diesen Angriff (einschließlich der Energiekosten und allem anderen, was du tun musst, um diesen Angriff zu verwenden). (Unabhängig vom Typ dieses Pokémon bleibt Simsalas Typ Psycho.) Diese Fähigkeit kann nicht verwendet werden, falls Simsala von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
