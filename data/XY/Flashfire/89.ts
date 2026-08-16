@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 1 carta de Energía Fire de tu mano. (Si no puedes descartar 1 carta de Energía Fire, no puedes jugar esta carta). Roba 2 cartas.",
 		it: "Scarta una carta Energia Fire presente tra le carte che hai in mano (se non puoi scartare una carta Energia Fire, non puoi giocare questa carta). Pesca due carte.",
 		pt: "Descarte um card de Energia Fire de sua mão. (Se você não puder descartar um card de Energia Fire, não poderá jogar esse card.) Compre 2 cards.",
-		de: "Lege 1 Fire-Energiekarte von deiner Hand auf deinen Ablagestapel. (Wenn du keine Fire-Energiekarte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 2 Karten."
+		de: "Lege 1 {R}-Energiekarte von deiner Hand auf deinen Ablagestapel. (Wenn du keine {R}-Energiekarte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 2 Karten. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

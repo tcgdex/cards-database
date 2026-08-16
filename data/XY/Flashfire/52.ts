@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+		de: "Es lebt in schneereichen Gebieten. Snibunna senden einander Signale, indem sie Zeichen in Rinde ritzen."
 	},
 
 	thirdParty: {

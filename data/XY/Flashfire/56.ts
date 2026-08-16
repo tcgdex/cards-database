@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+		de: "Wenn es sich durch den Sand gräbt, ragen nur noch Nase und Augen hervor. Die schwarze Haut dient als Augenschutz."
 	},
 
 	thirdParty: {
