@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Type: Null"
+		en: "Type: Null",
+		de: "Typ:Null"
 	},
 
 	stage: "Stage1",

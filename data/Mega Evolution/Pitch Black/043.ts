@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey"
+		en: "Mankey",
+		de: "Menki"
 	},
 
 	stage: "Stage1",

@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Inkay"
+		en: "Inkay",
+		de: "Iscalar"
 	},
 
 	stage: "Stage1",
