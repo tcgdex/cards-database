@@ -27,10 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growl"
+				en: "Growl",
+				de: "Heuler"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).",
+				de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 		{
@@ -39,7 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap"
+				en: "Flap",
+				de: "Flattern"
 			},
 			damage: 20
 		},
