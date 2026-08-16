@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+		de: "Während es wächst, wird das Fell seiner sechs warmen Schweife noch schöner und weicher."
 	},
 
 	name: {

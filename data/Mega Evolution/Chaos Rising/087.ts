@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		de: "Konzentriert es seine Kraft auf die sonst weichen Stacheln auf seinem Kopf, werden diese scharf und hart genug, um damit Steine zu durchbohren."
 	},
 
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+		de: "Um stärker zu werden, verlassen sie ihr Rudel und leben allein. Sie sind sehr hitzköpfig und streitlustig."
 	},
 
 

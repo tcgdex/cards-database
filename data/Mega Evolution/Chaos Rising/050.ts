@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+		de: "Das Blut anderer Lebewesen ist seine Leibspeise. Man sagt, dass es das abgesaugte Blut manchmal mit hungrigen Artgenossen teilt."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zubat"
+		en: "Zubat",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",

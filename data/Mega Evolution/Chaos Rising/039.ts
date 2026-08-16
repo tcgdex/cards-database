@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+		de: "Es nutzt seine Wurzeln als Nervensystem und kontrolliert so die Bäume des Waldes. Zu den Pokémon, die in ihm hausen, ist es stets nett."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Phantump"
+		en: "Phantump",
+		de: "Paragoni"
 	},
 
 	stage: "Stage1",

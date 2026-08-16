@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Échangez votre Pokémon Actif contre l'un de vos Pokémon de Banc. Si vous avez déplacé un Pokémon-ex vers votre Banc de cette façon, soignez 80 dégâts de ce Pokémon-là.",
 		es: "Cambia tu Pokémon Activo por uno de tus Pokémon en Banca. Si has movido un Pokémon ex a tu Banca de esta manera, cura 80 puntos de daño a ese Pokémon.",
 		'es-mx': "Cambia tu Pokémon Activo por 1 de tus Pokémon en Banca. Si moviste un Pokémon ex a tu Banca de esta manera, cura 80 puntos de daño a ese Pokémon.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du auf diese Weise ein Pokémon-ex auf deine Bank verschoben hast, heile 80 Schadenspunkte bei jenem Pokémon.",
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du auf diese Weise ein Pokémon-ex auf deine Bank verschoben hast, heile 80 Schadenspunkte bei jenem Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Scambia il tuo Pokémon attivo con uno nella tua panchina. Se hai spostato in panchina un Pokémon-ex in questo modo, cura quel Pokémon da 80 danni.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco. Se você moveu um Pokémon ex para o seu Banco desta forma, cure 80 pontos de dano daquele Pokémon."
 	},

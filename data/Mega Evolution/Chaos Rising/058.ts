@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
+		de: "Als verfaulter Seetang getarnt, bespritzt es Beute, die sich ahnungslos nähert, mit flüssigem Gift und gibt ihr so den Rest."
 	},
 
 

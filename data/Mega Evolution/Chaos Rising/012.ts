@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
+		de: "In seinem Schweif steckt ein Zweig, den es mit der Reibungswärme seiner Schweifhaare anzündet, um zu kämpfen."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Fennekin"
+		en: "Fennekin",
+		de: "Fynx"
 	},
 
 	stage: "Stage1",

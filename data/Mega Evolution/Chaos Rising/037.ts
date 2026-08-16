@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+		de: "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können."
 	},
 
 
@@ -27,7 +28,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Espurr"
+		en: "Espurr",
+		de: "Psiau"
 	},
 
 	stage: "Stage1",
