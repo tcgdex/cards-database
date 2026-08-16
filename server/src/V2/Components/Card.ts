@@ -149,7 +149,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	// console.timeEnd('loading providers')
 	// console.time('remapping card')
 	const res = {
-		...deepOmit(card, 'thirdParty'),
+		...card,
 		pricing: {
 			cardmarket: cardmarket,
 			tcgplayer: tcgplayer
