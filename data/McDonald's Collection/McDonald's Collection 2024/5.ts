@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Psychic"],
 			name: {
 				en: "Stampede",
+				de: "Zertrampeln"
 			},
 			damage: 10,
 		},
@@ -36,6 +37,7 @@ const card: Card = {
 			cost: ["Psychic", "Colorless"],
 			name: {
 				en: "Magical Shot",
+				de: "Magischer Schuss"
 			},
 			damage: 30,
 		},
