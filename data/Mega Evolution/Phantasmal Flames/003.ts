@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+		de: "Seine Knospe öffnet sich mit einem Knall. Anschließend beginnt es, seine allergenen, giftigen Pollen zu verteilen."
 	},
 
 	illustrator: "Shibuzoh.",

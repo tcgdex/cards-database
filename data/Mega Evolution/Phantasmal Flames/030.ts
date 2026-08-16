@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+		de: "Im Austausch gegen Leckerlis hilft dieser kleine Vielfraß Menschen bei der Arbeit. Beim Rennen wird es von knisternder Elektrizität umhüllt."
 	},
 
 	illustrator: "Ayako Ozaki",

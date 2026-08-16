@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+		de: "Bei Gefahr rollt es sich zusammen, stellt seine Rückenstacheln auf und schießt willkürlich mit Elektrizität um sich."
 	},
 
 	illustrator: "Orca",

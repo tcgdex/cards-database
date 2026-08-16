@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+		de: "Granbull ist in Wahrheit ängstlich und scheu. Wird es angegriffen, fuchtelt es wild mit den Armen und Beinen, um Gegner zu verscheuchen."
 	},
 
 	illustrator: "Ryuta Fuse",

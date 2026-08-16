@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
+		de: "Sein Körper, der aus einem speziellen Metall besteht, ist kratzfest, leicht und so glatt wie ein hochglanzpolierter Spiegel."
 	},
 
 	illustrator: "Shinji Kanda",

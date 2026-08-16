@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+		de: "Mit Elektrizität verstärkt es seine Beinkraft. So erreicht es mit Leichtigkeit eine Höchstgeschwindigkeit von über 90 km/h."
 	},
 
 	illustrator: "Orca",
