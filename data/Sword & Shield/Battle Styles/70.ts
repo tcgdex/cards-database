@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns."
+		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns.",
+		de: "Es kommuniziert mit seinen Kameraden durch rhythmisches Knochenklappern. Fast 50 Muster sind bisher bekannt."
 	},
 
 	variants: [

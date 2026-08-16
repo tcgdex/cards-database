@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
+		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging.",
+		de: "Da es robustere Hirnblutgefäße als andere Pokémon hat, wirkt sich selbst kontinuierlicher Zorn nicht schädlich auf seine Gesundheit aus."
 	},
 
 	variants: [

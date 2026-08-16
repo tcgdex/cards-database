@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy."
+		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy.",
+		de: "Obwohl man es als Schutzpatron bezeichnet, verfügt es über die nötige Härte, um seine Feinde erbarmungslos zu vernichten."
 	},
 
 	variants: [

@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
+		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder.",
+		de: "Der Schnabel eines Vogel-Pokémon kann seinem harten Körper keinen Kratzer zufügen. Es verteidigt sich, indem es Puder spuckt."
 	},
 
 	variants: [

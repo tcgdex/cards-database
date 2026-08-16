@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
+		en: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
+		de: "Kommt es zum Kampf, so lodert sein Kohleberg tiefrot auf und es sprüht glühende Funken, die seine Umgebung versengen."
 	},
 
 	variants: [

@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor."
+		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor.",
+		de: "Es erzeugt mit seinen Sohlen kalte Luft, die am Boden gefriert. Auf dieser Eisschicht übt es den ganzen Tag lang seinen Stepptanz."
 	},
 
 	variants: [
