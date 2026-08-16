@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast."
+		en: "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.",
+		de: "Es schwimmt rückwärts, indem es seine Schale öffnet und schließt, und ist damit überraschend schnell."
 	},
 
 	thirdParty: {

@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 
@@ -99,7 +99,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
+		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away.",
+		de: "Indem es Psycho-Kräfte ausstrahlt, erfasst es die Umgebung. Seine Observation umfasst dabei einen beeindruckenden Umkreis von 10 km."
 	},
 
 	dexId: [826],

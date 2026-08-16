@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Coste de Retirada del Pokémon al que está unida esta carta es de ColorlessColorless menos.",
 		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di ColorlessColorless.",
 		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é ColorlessColorless a menos.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C} {C}. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
