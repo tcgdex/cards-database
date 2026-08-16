@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Beware the poisonous liquid it shoots from its right arm. If even a little of it gets on you, you'll experience the effects of the unidentified toxin.",
+		de: "Vorsicht vor dem Gift, das es aus seinem rechten Arm sprüht! Kleinste Mengen genügen, um einen unbekannten Giftstoff zu übertragen."
 	},
 
 	thirdParty: {

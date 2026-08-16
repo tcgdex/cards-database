@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "When it finds others of its kind, they all stick together. When enough of them have collected, the mass resembles a cumulonimbus cloud.",
+		de: "Begegnen sie Freunden, hängen sie eng aufeinander. Wenn sich zu viele versammeln, sehen sie aus wie eine Gewitterwolke."
 	},
 
 	thirdParty: {

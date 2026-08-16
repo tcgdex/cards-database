@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno, después de lanzar cualquier moneda para un ataque, puedes ignorar todos los efectos de esos lanzamientos de monedas y empezar a lanzar esas monedas de nuevo. No puedes usar más de 1 Habilidad Tinovictoria en cada turno.",
 				it: "Una sola volta durante il tuo turno, dopo aver lanciato la moneta tutte le volte richieste da un attacco, puoi ignorare tutti gli effetti di quei lanci e lanciare nuovamente la moneta. Puoi usare l’abilità Vittorstella solo una volta per turno.",
 				pt: "Uma vez durante sua vez de jogar, após jogar quaisquer moedas para um ataque, você pode ignorar todos os efeitos das moedas jogadas e começar a jogá-las novamente. Não é possível usar mais de 1 Habilidade Estrela da Vitória por vez de jogar.",
-				de: "Einmal während deines Zuges, nachdem du Münzen für eine Attacke geworfen hast, kannst du alle daraus resultierenden Effekte ignorieren und die Münzen erneut werfen. Du kannst die Fähigkeit Triumphstern nur einmal pro Zug einsetzen."
+				de: "Einmal während deines Zuges, nachdem du mindestens 1 Münze für eine Attacke geworfen hast, kannst du alle Ergebnisse jenes Münzwurfs bzw. jener Münzwürfe ignorieren und jene Münze bzw. jene Münzen erneut werfen. Du kannst die Fähigkeit Triumphstern nur einmal pro Zug einsetzen."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		de: "Ein siegverheißendes Pokémon. Man sagt, Trainer, die ein Victini in ihrem Team haben, seien unschlagbar."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Legend says a boulder on an icy mountain absorbed the distress and regrets of a stranded mountaineer, giving rise to Glalie.",
+		de: "Man sagt, Firnontor sei aus dem Unmut verunglückter Bergsteiger geboren, der von einem Felsen Besitz ergriff."
 	},
 
 	thirdParty: {

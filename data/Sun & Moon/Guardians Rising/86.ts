@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It radiates such a powerful magnetic field that nearby electrical appliances become unusable.",
+		de: "Durch seinen starken Magnetismus macht es Elektrogeräte in seiner Nähe kaputt."
 	},
 
 	thirdParty: {

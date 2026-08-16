@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Even the most ferocious Pokémon become calm when they eat Blissey's egg, which is said to be filled with happiness.",
+		de: "Ein Bissen von seinem Glücks-Ei, das voller Fröhlichkeit steckt, lässt selbst das wildeste Pokémon ganz sanft und ruhig werden."
 	},
 
 	thirdParty: {

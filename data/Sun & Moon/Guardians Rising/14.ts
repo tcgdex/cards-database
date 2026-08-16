@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 Pokémon Fire Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre Pokémon Base Fire e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 Pokémon Fire Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Fire-Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {R}-Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
+		de: "Schlägt es mit den Flügeln, gibt es Zunder! Mit eleganten Ausfallschritten lässt es dann Feuer auf seine Gegner herabregnen."
 	},
 
 	thirdParty: {
