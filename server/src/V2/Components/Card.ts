@@ -183,7 +183,6 @@ export function toBrief(card: SDKCard): CardResume {
 		id: card.id,
 		localId: card.localId,
 		name: card.name,
-		image: card.image,
-		updated: card.updated
+		image: card.image
 	}
 }
