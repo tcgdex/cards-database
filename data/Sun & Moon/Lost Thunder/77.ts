@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareep",
 		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+		de: "Hat es sich mit Elektrizität aufgeladen, leuchtet sein Schweif und es feuert Haare ab, die sich entladen."
 	},
 
 	thirdParty: {

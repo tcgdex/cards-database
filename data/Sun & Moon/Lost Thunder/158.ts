@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Most people raise it for its milk, but it's quite tough and strong, so it's also well suited for battle.",
+		de: "Den meisten Menschen dient Miltank in erster Linie als Milchlieferant, doch es ist stark genug, um auch im Kampf eine gute Figur abzugeben."
 	},
 
 	thirdParty: {
