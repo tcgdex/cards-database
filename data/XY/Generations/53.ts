@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "kirisAki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Exhausted Tackle",
 				fr: "Tacle Épuisé",
+				de: "Erschöpfter Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage to your opponent's Active Pokémon. If tails, this Pokémon does 30 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Actif de votre adversaire. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff dem Aktiven Pokémon deines Gegners 30 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 
 		},
@@ -52,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		de: "Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen."
 	},
 
 	thirdParty: {

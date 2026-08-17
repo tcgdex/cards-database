@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Venusaur EX",
 		fr: "Florizarre-EX",
+		de: "Bisaflor-EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Frog Hop",
 				fr: "Bond de Grenouille",
+				de: "Froschhopser"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Poison Impact",
 				fr: "Impact Poison",
+				de: "Gifteffekt"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
 			},
 			damage: 80,
 
