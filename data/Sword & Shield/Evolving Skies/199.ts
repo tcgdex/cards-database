@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si lo haces, tu Pokémon Activo se recupera de todas las Condiciones Especiales.",
 		it: "Pesca due carte. Se lo fai, il tuo Pokémon attivo guarisce da tutte le condizioni speciali.",
 		pt: "Compre 2 cartas. Se fizer isto, seu Pokémon Ativo se recuperará de todas as Condições Especiais.",
-		de: "Ziehe 2 Karten. Wenn du das machst, erholt sich dein Aktives Pokémon von allen Speziellen Zuständen."
+		de: "Ziehe 2 Karten. Wenn du das machst, erholt sich dein Aktives Pokémon von allen Speziellen Zuständen. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

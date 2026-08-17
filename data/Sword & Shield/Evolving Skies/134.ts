@@ -74,7 +74,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
+		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago.",
+		de: "Uralte Wandmalereien sprechen dafür, dass Terribark schon seit langer Zeit an der Seite der Menschen lebt."
 	},
 
 	regulationMark: "E",

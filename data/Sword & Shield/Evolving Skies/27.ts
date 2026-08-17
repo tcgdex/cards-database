@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It communicates with others of its kind by lighting up the red orbs on its head. When the orbs are blinking, it's a warning sign."
+		en: "It communicates with others of its kind by lighting up the red orbs on its head. When the orbs are blinking, it's a warning sign.",
+		de: "Wenn Tentoxa untereinander kommunizieren, glühen ihre roten Kugeln. Ein wiederholtes Aufleuchten steht für ein Warnsignal."
 	},
 
 	dexId: [73],

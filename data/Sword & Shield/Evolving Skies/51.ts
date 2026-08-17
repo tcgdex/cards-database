@@ -57,7 +57,7 @@ const card: Card = {
 		es: "Jolteon V",
 		it: "Jolteon-V",
 		pt: "Jolteon V",
-		de: "Blitza-V"
+		de: "Blitza VMAX"
 	},
 
 	dexId: [135],

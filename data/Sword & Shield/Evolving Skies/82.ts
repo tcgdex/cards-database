@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes unir hasta 2 cartas de Energía Fighting de tu mano a este Pokémon.",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi assegnargli fino a due carte Energia Fighting dalla tua mano.",
 			pt: "When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Fighting Energy cards from your hand to this Pokémon.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du bis zu 2 Fighting-Energiekarten aus deiner Hand an dieses Pokémon anlegen."
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du bis zu 2 {F}-Energiekarten aus deiner Hand an dieses Pokémon anlegen."
 		}
 	}],
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "One kick from its powerful legs will pulverize a dump truck. Supposedly, this Pokémon runs through the mountains at over 180 mph."
+		en: "One kick from its powerful legs will pulverize a dump truck. Supposedly, this Pokémon runs through the mountains at over 180 mph.",
+		de: "Seine Beine sind so stark, dass es mit einem Tritt einen Kipplaster pulverisieren kann. Angeblich soll es mit 300 km/h durch Gebirge rennen."
 	},
 
 	dexId: [145],

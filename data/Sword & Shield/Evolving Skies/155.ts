@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon V al que está unida esta carta tiene \"Sylveon\" en su nombre y queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, ese jugador coge 1 carta de Premio menos.",
 		it: "Se il Pokémon-V a cui è assegnata questa carta ha \"Sylveon\" nel nome e viene messo KO dai danni di un attacco di un Pokémon del tuo avversario, quel giocatore prende una carta Premio in meno.",
 		pt: "Se o Pokémon V ao qual esta carta está ligada tiver \"Sylveon\" em seu nome e for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, aquele jogador pegará 1 carta de Prêmio a menos.",
-		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Feelinara\" zum Namen gehört und es durch eine Attacke von Pokémon deines Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Feelinara“ zum Namen gehört und es durch eine Attacke von Pokémon deines Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
