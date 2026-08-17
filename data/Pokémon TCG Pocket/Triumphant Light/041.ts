@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Pupitar"
+		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 	description: {
