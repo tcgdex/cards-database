@@ -4,14 +4,10 @@ import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
 
-const ALL_LANGS: Array<SupportedLanguages> = [
+const LANGS: Array<SupportedLanguages> = [
 	'en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
 	'ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'
 ]
-
-const LANGS: Array<SupportedLanguages> = process.env.COMPILE_LANGS
-	? (process.env.COMPILE_LANGS.split(',') as Array<SupportedLanguages>).filter((l) => ALL_LANGS.includes(l))
-	: ALL_LANGS
 
 const DIST_FOLDER = './generated'
 
