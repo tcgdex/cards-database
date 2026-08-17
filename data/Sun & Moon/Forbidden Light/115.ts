@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede buscar en su baraja 1 carta de Ultraente, enseñarla, ponerla en su mano y barajar las cartas de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può cercare nel suo mazzo una carta Ultracreatura, mostrarla, aggiungerla alle carte che ha in mano e rimischiare le carte del suo mazzo.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode procurar por 1 Ultracriatura no próprio baralho, revelá-la, colocá-la na própria mão e embaralhar o próprio baralho.",
-		de: "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach 1 Ultrabestien-Karte durchsuchen, sie seinem Gegner zeigen, auf seine Hand nehmen und sein Deck mischen."
+		de: "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach 1 Ultrabestien-Karte durchsuchen, sie seinem Gegner zeigen, auf seine Hand nehmen und sein Deck mischen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

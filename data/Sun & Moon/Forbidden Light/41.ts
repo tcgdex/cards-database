@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that its emergence gave humans the intelligence to improve their quality of life.",
+		de: "Man sagt, dass durch sein Auftauchen Menschen die Intelligenz erhielten, ihr Leben zu verbessern."
 	},
 
 	thirdParty: {

@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
+		de: "Sein Körper ist von einer schleimigen Schutzschicht umhüllt, die voller Bakterien steckt. Nach dem Anfassen also Hände waschen!"
 	},
 
 	thirdParty: {
