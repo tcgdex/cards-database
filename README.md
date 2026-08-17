@@ -61,9 +61,9 @@ _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your log
 </p>
 
 <p align="left">
-  <a href="https://cardcodex.com/" target="_blank" title="Card-Codex"><img height="80" width="19%" src="./.github/sponsors/card-codex.png" alt="TCGdex Sponsor Card-Codex" /></a>
-  <a href="https://pokecompare/" target="_blank" title="pokecompare"><img height="80" width="19%" src="./.github/sponsors/pokecompare.png" alt="TCGdex Sponsor pokecompare" /></a>
-  <a href="https://ninthpocket.com/" target="_blank" title="ninthpocket.com"><img height="80" width="19%" src="./.github/sponsors/ninthpocket.png" alt="TCGdex Sponsor ninthpocket.com" /></a>
+  <a href="https://cardcodex.com/" target="_blank" title="Card-Codex"><img height="80" width="19%" src="./.github/sponsors/cardcodex.svg" alt="TCGdex Sponsor Card-Codex" /></a>
+  <a href="https://ninthpocket.com/" target="_blank" title="ninthpocket.com"><img height="80" width="19%" src="./.github/sponsors/ninthpocket.svg" alt="TCGdex Sponsor ninthpocket.com" /></a>
+  <a href="https://pcc-grading.com/" target="blank" title="pcc-grading.com"><img height="80" width="19%" src="./.github/sponsors/pcc.svg" alt="TCGdex Sponsor PCC Grading" /></a>
 </p>
 
 ## Contributors ✨
