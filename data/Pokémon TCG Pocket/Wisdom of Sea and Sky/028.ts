@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Cyndaquil"
+		en: "Cyndaquil",
+		fr: "Héricendre"
 	},
 
 	description: {

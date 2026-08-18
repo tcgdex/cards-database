@@ -23,7 +23,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Old Amber"
+		en: "Old Amber",
+		fr: "Vieil Ambre"
 	},
 
 	suffix: "EX",

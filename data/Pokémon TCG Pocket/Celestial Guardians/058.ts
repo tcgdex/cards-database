@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Raichu ex",
-		fr: "Raichud'Alola-ex",
-		es: "Raichude Alola ex",
-		it: "Raichudi Alola-ex",
+		fr: "Raichu d’Alola-ex",
+		es: "Raichu de Alola ex",
+		it: "Raichu di Alola-ex",
 		de: "Alola-Raichu-ex",
-		'pt-br': "Raichude Alola ex",
+		'pt-br': "Raichu de Alola ex",
 		ko: "알로라라이츄 ex"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pikachu"
+		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",

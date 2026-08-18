@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pikachu"
+		en: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	description: {
