@@ -100,6 +100,13 @@ const card: Card = {
 				cardmarket: 895854,
 				tcgplayer: 704827
 			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 897298,
+				tcgplayer: 707027
+			}
 		}
 	],
 }
