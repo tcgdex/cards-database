@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+		de: "Es lebt in trockenen Wüstengebieten, wo es eine Trichterfalle baut und seelenruhig darauf wartet, dass Beute hinabrutscht."
 	},
 
 	thirdParty: {

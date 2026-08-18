@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has excellent judgment. If it decides it can't defeat an opponent, it immediately turns tail and vamooses.",
+		de: "Ein Pokémon mit ausgeprägtem Urteilsvermögen. Befindet es seinen Gegner für zu stark, zieht es den Schwanz ein und sucht sofort das Weite."
 	},
 
 	thirdParty: {

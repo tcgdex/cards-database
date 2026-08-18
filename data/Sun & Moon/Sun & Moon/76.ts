@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "When the sun goes down, it becomes active. It runs around town on a chase for good food for the boss of its nest—Raticate.",
+		de: "Es wird bei Sonnenuntergang aktiv. Für seinen Rudelführer Rattikarl durchstreift es die Stadt auf der Suche nach gutem Futter."
 	},
 
 	thirdParty: {

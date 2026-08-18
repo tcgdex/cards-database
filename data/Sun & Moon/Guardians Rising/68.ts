@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+		de: "Es hängt kopfüber von einem Ast und beobachtet seine Beute. Bei Gelegenheit stürzt es sich auf sie."
 	},
 
 	thirdParty: {

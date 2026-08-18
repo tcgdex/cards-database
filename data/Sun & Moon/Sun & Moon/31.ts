@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It marches over the land in search of bug Pokémon to eat. Then it takes them underwater so it can dine on them where it's safe.",
+		de: "Es geht an Land, um sich auf die Suche nach Käfer-Pokémon zu machen. Diese nimmt es als Beute mit ins Wasser, wo es sie verzehrt."
 	},
 
 	thirdParty: {

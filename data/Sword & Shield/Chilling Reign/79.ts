@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food."
+		en: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.",
+		de: "Der Lauch dient ihm als Waffe und zur Abwehr, aber viele essen ihn auch. Mit den harten Blättern pariert es und mit der scharfen Stange kontert es."
 	},
 
 	variants: [

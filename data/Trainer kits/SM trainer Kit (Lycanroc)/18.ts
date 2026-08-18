@@ -27,10 +27,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Surprise Attack"
+				en: "Surprise Attack",
+				de: "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 20
 		},
@@ -40,7 +42,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength"
+				en: "Strength",
+				de: "Stärke"
 			},
 			damage: 40
 		},

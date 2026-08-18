@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Slugma"
+		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	description: {

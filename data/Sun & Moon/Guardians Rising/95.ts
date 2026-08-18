@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Goomy",
 		fr: "Mucuscule",
+		de: "Viscora"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It has trouble drawing a line between friends and food. It will calmly try to melt and eat even those it gets along well with.",
+		de: "Die Grenze zwischen Freund und Fressen ist bei diesem Pokémon fließend. Als Freund geschätzt, zu Suppe zersetzt!"
 	},
 
 	thirdParty: {

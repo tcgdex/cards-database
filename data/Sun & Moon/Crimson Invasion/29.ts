@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "For the most part, it makes its home along the seashore. Its color and form differ according to its habitat and the quality of its food.",
+		de: "Es lebt hauptsächlich in Küstengebieten. Seine Form und Farbe ändern sich je nach Lebensraum und Futter."
 	},
 
 	thirdParty: {

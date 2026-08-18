@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives."
+		en: "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives.",
+		de: "Sie bilden Gruppen von 20 Exemplaren. Durch klare Aufgabenteilung haben sie den Gefahren der Natur getrotzt und bis heute überlebt."
 	},
 
 	variants: [

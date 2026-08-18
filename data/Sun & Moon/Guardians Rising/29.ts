@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to startle people. It fills itself up with seawater and plays by bouncing around like a ball.",
+		de: "Wailmer liebt es, Menschen zu erschrecken. Es trinkt so viel Meerwasser, dass es sich in einen Ball verwandeln und herumhüpfen kann."
 	},
 
 	thirdParty: {

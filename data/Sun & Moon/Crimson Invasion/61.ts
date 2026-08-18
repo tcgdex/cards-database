@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deino",
 		fr: "Solochi",
+		de: "Kapuno"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
+		de: "Seine zwei Köpfe sind sich spinnefeind. Beide versuchen, über Fresswettbewerbe die Oberhand zu gewinnen."
 	},
 
 	thirdParty: {

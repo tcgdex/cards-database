@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon tenga alguna carta de Energía Unidad LightningPsychicMetal unida a él, es un Pokémon Lightning, Psychic y Metal.",
 				it: "Fintanto che ha delle carte Energia Unione LightningPsychicMetal assegnate, questo Pokémon è di tipo Lightning, Psychic e Metal.",
 				pt: "Enquanto este Pokémon tiver Energia Unitária LightningPsychicMetal ligada a ele, será um Pokémon Lightning, Psychic e Metal.",
-				de: "Solang an dieses Pokémon Aggregat-Energie LightningPsychicMetal angelegt ist, ist es ein Lightning-, Psychic- und Metal-Pokémon."
+				de: "Solang an dieses Pokémon Aggregat-Energie {L}{P}{M} angelegt ist, ist es ein {L}-, {P}- und {M}-Pokémon."
 			},
 		},
 	],
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+		de: "Beim Beutefang passt es seine Farbe der Umgebung an. Nur das Muster auf seinem Bauch bleibt gleich."
 	},
 
 	thirdParty: {

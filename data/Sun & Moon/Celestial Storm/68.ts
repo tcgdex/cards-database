@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		de: "Deoxys ist ein außerirdisches Virus, das zu einem Pokémon mutierte. Es erscheint in der Nähe von Auroras."
 	},
 
 	thirdParty: {

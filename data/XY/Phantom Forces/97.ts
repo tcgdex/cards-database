@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques del Pokémon al que esté unida esta carta cuestan Colorless más.\n\nCuando se quite esta carta de un Pokémon por cualquier razón, pon esta carta en la pila de descartes de su dueño.",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta costano Colorless in più.\n\nSe per qualsiasi motivo questa carta viene rimossa da un Pokémon, metti questa carta nella pila degli scarti del suo proprietario.",
 		pt: "Os ataques do Pokémon ao qual este card está ligado custam Colorless a mais.\n\nQuando esse card for removido de um Pokémon por um motivo qualquer, coloque-o na pilha de descarte do seu dono.",
-		de: "Die Kosten der Angriffe des Pokémon, an das diese Karte angelegt ist, erhöhen sich um Colorless.\n\nLege diese Karte auf den Ablagestapel des Besitzers, wenn diese Karte aus irgendeinem Grund von einem Pokémon entfernt wird."
+		de: "Lege diese Pokémon-Ausrüstung an 1 Pokémon-EX deines Gegners an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Kosten der Angriffe des Pokémon, an das diese Karte angelegt ist, erhöhen sich um {C}. Lege diese Karte auf den Ablagestapel des Besitzers, wenn diese Karte aus irgendeinem Grund von einem Pokémon entfernt wird. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

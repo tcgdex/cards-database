@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Sandshrew",
-		fr: "Sabeletted'Alola",
-		es: "Sandshrewde Alola",
-		it: "Sandshrewdi Alola",
+		fr: "Sabelette d’Alola",
+		es: "Sandshrew de Alola",
+		it: "Sandshrew di Alola",
 		de: "Alola-Sandan",
-		'pt-br': "Sandshrewde Alola",
+		'pt-br': "Sandshrew de Alola",
 		ko: "알로라모래두지"
 	},
 

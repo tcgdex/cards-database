@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
+		en: "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength.",
+		de: "Mit seinen Hörnern erfasst es die Gefühle von Lebewesen, die sich in seiner Nähe aufhalten. Positive Gefühle sind die Quelle seiner Kraft."
 	},
 
 	variants: [

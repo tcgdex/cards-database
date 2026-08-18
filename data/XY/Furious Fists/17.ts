@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+		de: "Es hat extrem starke Muskeln und kann durch den Ozean schwimmen, ohne sich ausruhen zu müssen."
 	},
 
 	thirdParty: {

@@ -85,7 +85,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
+		de: "Dieses Pokémon ist zwar nicht besonders klug, aber dafür so stark, dass es durch Rammen sogar Hochhäuser zum Einsturz bringen kann."
 	},
 
 	dexId: [111],

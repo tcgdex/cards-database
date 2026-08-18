@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+		de: "Es gräbt sich in geringer Tiefe durch den Erdboden, dadurch hinterlässt es durchwühlte Erde und ist somit leicht zu finden."
 	},
 
 	thirdParty: {

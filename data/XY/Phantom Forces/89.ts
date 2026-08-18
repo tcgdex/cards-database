@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+		de: "Ein sehr zutrauliches Pokémon. Durch Zwitschern und Bewegen der Schwanzfedern sendet es Signale an seine Gefährten."
 	},
 
 	thirdParty: {

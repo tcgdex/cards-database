@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It can spontaneously become enraged. Everyone near it clears out as it rampages and the resulting loneliness makes it angrier still.",
+		de: "Es rastet häufig völlig unvermittelt aus. Danach findet es sich oft mutterseelenallein wieder. Das macht es schließlich noch wütender."
 	},
 
 	thirdParty: {

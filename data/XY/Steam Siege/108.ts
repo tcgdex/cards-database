@@ -77,7 +77,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 100 puntos de daño por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 100 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda até sair coroa. Este ataque causa 100 de danos vezes o número de caras.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "100×",
 

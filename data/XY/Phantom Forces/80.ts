@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to deliver happiness. Being compassionate, it shares its egg with injured people.",
+		de: "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten."
 	},
 
 	thirdParty: {

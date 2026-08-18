@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Its feathers, which fall off as it grows, are thin and sharp. In times long past, warriors used them as swords.",
+		de: "Die im Zuge seines Wachstums abgefallenen Federn sind sehr scharf. Krieger verwendeten sie früher als Schwerter."
 	},
 
 	thirdParty: {

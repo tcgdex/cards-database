@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Remoraid",
 		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a tendency to want to be in holes. It prefers rock crags or pots and sprays ink from them before attacking.",
+		de: "Es verkriecht sich gerne in Löchern, von wo aus es Gegner mit Tinte beschießt. Es bevorzugt Felsspalten und Vasen."
 	},
 
 	thirdParty: {

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 cartas de Energía Fire y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Fire e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas de Energia Fire no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Fire-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {R}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -98,7 +98,7 @@ const card: Card = {
 				es: "Puedes unir hasta 5 cartas de Energía Fire de tu mano a tus Pokémon de la manera que desees. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Puoi assegnare a piacimento ai tuoi Pokémon fino a cinque carte Energia Fire dalla tua mano. Non puoi usare più di un attacco GX a partita.",
 				pt: "Você pode ligar até 5 cartas de Energia Fire da sua mão aos seus Pokémon como desejar (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Du kannst bis zu 5 Fire-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Du kannst bis zu 5 {R}-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 180,
 

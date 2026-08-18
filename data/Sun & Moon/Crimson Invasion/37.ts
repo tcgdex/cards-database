@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It strikes at humans from total darkness. Those licked by its cold tongue grow weaker with each passing day until they die.",
+		de: "Es lauert Menschen im Dunkeln auf und leckt sie mit seiner kalten Zunge. Danach werden sie von Tag zu Tag schwächer, bis sie dahinscheiden."
 	},
 
 	thirdParty: {

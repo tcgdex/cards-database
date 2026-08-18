@@ -86,7 +86,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
+		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
+		de: "Sein flauschiges Fell schützt es vor Kälte und ermöglicht es ihm, noch heißere Feuer-Attacken auszuteilen."
 	},
 
 	dexId: [814],

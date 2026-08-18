@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
+		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies.",
+		de: "Sein flauschiges Fell duftet süß wie Zuckerwatte. Es stößt klebrige Fäden aus, mit denen es seine Gegner umwickelt."
 	},
 
 	variants: [

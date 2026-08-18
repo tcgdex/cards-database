@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
+		de: "Sein Körper ist heißer als Lava und wogt stets. Manchmal schießen Flammen aus seinem Haus."
 	},
 
 	thirdParty: {

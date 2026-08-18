@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dratini",
 		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
+		de: "Bauern verehren es schon seit Urzeiten, da es die Fähigkeit besitzt, das Wetter zu beeinflussen."
 	},
 
 	thirdParty: {

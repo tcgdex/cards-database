@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+		de: "Ein beharrliches Pokémon, das seine Beute jagt, bis diese erschöpft ist."
 	},
 
 	thirdParty: {

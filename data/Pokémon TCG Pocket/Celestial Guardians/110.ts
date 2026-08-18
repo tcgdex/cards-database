@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Grimer",
-		fr: "Tadmorvd'Alola",
-		es: "Grimerde Alola",
-		it: "Grimerdi Alola",
+		fr: "Tadmorv d’Alola",
+		es: "Grimer de Alola",
+		it: "Grimer di Alola",
 		de: "Alola-Sleima",
-		'pt-br': "Grimerde Alola",
+		'pt-br': "Grimer de Alola",
 		ko: "알로라질퍽이"
 	},
 

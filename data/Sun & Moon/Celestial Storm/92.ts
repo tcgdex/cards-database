@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, su Coste de Retirada es de Colorless menos por cada Beldum en tu Banca.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, il suo costo di ritirata è ridotto di Colorless per ogni Beldum nella tua panchina.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, seu custo de Recuo será Colorless a menos para cada Beldum no seu Banco.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verringern sich seine Rückzugskosten um Colorless für jedes Tanhel auf deiner Bank."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verringern sich seine Rückzugskosten um {C} für jedes Tanhel auf deiner Bank."
 			},
 		},
 	],
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "With magnetic traction, it pulls its opponents in close. When they're in range, it slashes them with its rear claws.",
+		de: "Es sendet magnetische Impulse aus, um Gegner zu sich heranzuziehen und sie dann mit den Krallen an seinem Hinterteil aufzuschlitzen."
 	},
 
 	thirdParty: {

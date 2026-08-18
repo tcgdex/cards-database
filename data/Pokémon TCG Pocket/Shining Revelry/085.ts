@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Clodsire ex",
-		fr: "Terraistede Paldea-ex",
-		es: "Clodsirede Paldea ex",
-		it: "Clodsiredi Paldea-ex",
+		fr: "Terraiste de Paldea-ex",
+		es: "Clodsire de Paldea ex",
+		it: "Clodsire di Paldea-ex",
 		de: "Paldea-Suelord-ex",
-		'pt-br': "Clodsirede Paldea ex",
+		'pt-br': "Clodsire de Paldea ex",
 		ko: "팔데아토오 ex"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Paldean Wooper"
+		en: "Paldean Wooper",
+		fr: "Axoloto de Paldea"
 	},
 
 	stage: "Stage1",

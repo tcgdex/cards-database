@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
+		de: "Mähikel"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de este Pokémon hacen 80 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi di questo Pokémon infliggono 80 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques deste Pokémon causam 80 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Attacken dieses Pokémon fügen den {G}-Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
+		de: "Es kann die Stimmung seines Trainers an der kleinsten Veränderung dessen Griffes um seine Hörner ablesen und galoppiert sofort los, wenn dieser es wünscht."
 	},
 
 	thirdParty: {

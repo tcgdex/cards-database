@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 			damage: 60,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+		de: "Das Gift, mit dem es Eindringlinge in seinem Revier bespritzt, ist ätzend genug, um sich durch den Stahl eines Tankschiffes zu fressen."
 	},
 
 	thirdParty: {

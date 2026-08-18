@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più. Se esce croce, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais. Se sair coroa, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: "60+",
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+		de: "Bei voller Ladung zucken feurige, blassweiße Funken zwischen seinen zwei Hörnern hin und her."
 	},
 
 	thirdParty: {

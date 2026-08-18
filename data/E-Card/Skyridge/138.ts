@@ -18,16 +18,6 @@ const card: Card = {
 		de: "Wähle 2 Karten aus deinem Deck und mische den Rest deines Decks. Lege die gewählten Karten in beliebiger Reihenfolge oben auf dein Deck."
 	},
 
-	attacks: [
-		{
-			// name intentionally left blank
-			name: {},
-			effect: {
-				en: "Choose 2 cards from your deck and shuffle the rest of your deck. Put the chosen cards on top of your deck in any order."
-			}
-		}
-	],
-
 	variants: [
 		{
 			type: 'normal',

@@ -58,7 +58,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		de: "Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax fest und lebt von Speiseresten."
 	},
 
 	variants: [

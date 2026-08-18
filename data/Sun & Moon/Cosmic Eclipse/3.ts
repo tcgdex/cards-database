@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+		de: "Dieses Pokémon sondert einen übelriechenden Geruch ab. Trotzdem halten einige Leute es im Haus."
 	},
 
 	thirdParty: {

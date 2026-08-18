@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "This is Castform's form when pelted by rain. In an experiment where it was placed in a shower, this Pokémon didn't change to this form.",
-		fr: 'Morphéo adopte cette apparence uniquement\n les jours de pluie. On a tenté de reproduire ce\nphénomène sous une douche, sans succès.'
+		fr: 'Morphéo adopte cette apparence uniquement\n les jours de pluie. On a tenté de reproduire ce\nphénomène sous une douche, sans succès.',
+		de: "Diese Gestalt nimmt Formeo an Regentagen an. Versuche, diesen Wandel künstlich mithilfe einer Dusche herbeizuführen, schlugen fehl."
 	},
 
 	abilities: [{

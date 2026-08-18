@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Básicas Psychic de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie base Psychic assegnate a questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Psychic básicas deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
-				de: "Lege alle Psychic-Basis-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 80 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {P}-Basis-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 80 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "20+",
 

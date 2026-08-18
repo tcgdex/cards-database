@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
+		de: "Ungeachtet seines kleinen Wuchses, erweist es sich, dank seiner Kampftechnik, gegenüber größeren Gegnern wie Machomei oder Hariyama als ebenbürtig."
 	},
 
 	thirdParty: {

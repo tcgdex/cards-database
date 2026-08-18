@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
+				de: "Lege alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

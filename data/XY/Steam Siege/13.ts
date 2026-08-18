@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+		de: "Es lockt seine Beute an, indem es die Hüte in Form von Pokébällen an seinen Armen rüttelt und einen Tanz aufführt."
 	},
 
 	thirdParty: {

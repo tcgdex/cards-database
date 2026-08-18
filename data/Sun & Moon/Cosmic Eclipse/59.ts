@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+		de: "Gerät es in Gefahr, versprüht es Wasser aus seinem Federkleid und nutzt den Sprühregen, um Reißaus zu nehmen."
 	},
 
 	thirdParty: {

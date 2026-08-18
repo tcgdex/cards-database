@@ -81,7 +81,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes.",
+		de: "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner."
 	},
 
 	variants: [

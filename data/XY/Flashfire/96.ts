@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
 		it: "Rimischia cinque Pokémon dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe 5 Pokémon da sua pilha de descarte no seu baralho.",
-		de: "Mische 5 Pokémon aus deinem Ablagestapel in dein Deck."
+		de: "Mische 5 Pokémon aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

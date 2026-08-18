@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When restored Anorith are released into the ocean, they don't thrive, because the water composition has changed since their era.",
+		de: "Wenn man es aus einem Fossil wiederherstellt und ins Meer entlässt, geht es ihm dort nicht gut, da die Wasserqualität sich verändert hat."
 	},
 
 	thirdParty: {

@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
 				pt: "Ligue um card de Energia Lightning da sua pilha de descarte a este Pokémon.",
-				de: "Nimm 1 Lightning-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+				de: "Nimm 1 {L}-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 
 		},
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
+		de: "Seine elektrischen Ladungen können bis zu 100 000 Volt erreichen. Unvorsichtiger Kontakt kann sogar einem indischen Elefanten das Bewusstsein nehmen."
 	},
 
 	thirdParty: {

@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, los Pokémon en juego, en la mano de cada jugador y en la pila de descartes de cada jugador no tienen ninguna habilidad (excepto Garbotoxina).",
 				it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, le abilità dei Pokémon in gioco, in mano ai giocatori o nelle loro pile degli scarti non hanno più effetto (a eccezione di Garbotossina).",
 				pt: "Se este Pokémon possuir um card de Ferramenta Pokémon ligado a ele, cada Pokémon em jogo, na mão de cada jogador, e também na pilha de descarte de cada jogador, não terá Habilidades (exceto Garbotoxina).",
-				de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler oder im Ablagestapel beider Spieler, keine Fähigkeit (außer Unratoxin)."
+				de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler und im Ablagestapel beider Spieler keine Fähigkeit (außer Unratoxin)."
 			},
 		},
 	],
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		de: "Jedes Mal, wenn es frischen Müll in sich aufsaugt, erzeugt es völlig neue Formen von Giftgasen und Toxinen."
 	},
 
 	thirdParty: {

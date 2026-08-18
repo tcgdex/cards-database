@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, si este Pokémon fuese a quedar Fuera de Combate por el daño de un ataque durante el próximo turno de tu rival, este Pokémon no queda Fuera de Combate, y sus PS restantes pasan a ser 10.",
 				it: "Lancia una moneta. Se esce testa, se questo Pokémon sta per essere messo KO dai danni di un attacco durante il prossimo turno del tuo avversario, non viene messo KO e i suoi PS rimanenti diventano 10.",
 				pt: "Jogue uma moeda. Se sair cara, se este Pokémon estiver prestes a ser Nocauteado por danos causados por um ataque durante a próxima vez de jogar do seu oponente, ele não será Nocauteado e o seu PS restante se tornará 10.",
-				de: "Wirf 1 Münze. Würde dieses Pokémon während des nächsten Zuges deines Gegners durch Schaden eines Angriffs kampfunfähig, wird es dies bei \"Kopf\" nicht und behält stattdessen 10 KP."
+				de: "Wirf 1 Münze. Würde dieses Pokémon während des nächsten Zuges deines Gegners durch Schaden eines Angriffs kampfunfähig, wird es dies bei „Kopf“ nicht und behält stattdessen 10 KP."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere Pokémon zu erschrecken."
 	},
 
 	thirdParty: {

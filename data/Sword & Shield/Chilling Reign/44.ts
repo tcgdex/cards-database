@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river.",
+		de: "Es ist darauf spezialisiert, Gegner mit vielen Treffern zu besiegen, indem es wie ein reißender Fluss Schläge auf sie niederprasseln lässt."
 	},
 
 	variants: [

@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Jogue uma moeda. Se sair coroa, descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Wirf 1 Münze. Lege bei \"Zahl\" 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+		de: "An seinem Rücken verbrennt es die Gase aus seinem Bauch. Geht es ihm schlecht, leuchtet es weniger hell."
 	},
 
 	thirdParty: {

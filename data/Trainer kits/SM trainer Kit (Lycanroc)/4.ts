@@ -37,10 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Seed"
+				en: "Bullet Seed",
+				de: "Kugelsaat"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage for each heads."
+				en: "Flip 4 coins. This attack does 20 damage for each heads.",
+				de: "Wirf 4 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: "20×"
 		},

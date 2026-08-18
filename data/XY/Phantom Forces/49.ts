@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fighting unida a este Pokémon y cúrale 50 puntos de daño.",
 				it: "Scarta un'Energia Fighting assegnata a questo Pokémon e curalo da 50 danni.",
 				pt: "Descarte uma Energia Fighting ligada a este Pokémon e cure 50 de danos desse Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fighting-Energie auf deinen Ablagestapel und heile 50 Schadenspunkte bei diesem Pokémon."
+				de: "Lege 1 an dieses Pokémon angelegte {F}-Energie auf deinen Ablagestapel und heile 50 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+		de: "Energie, die ungehindert aus seinem Körper austrat, hat sich an ihm zu orangefarbenen Kristallen verfestigt."
 	},
 
 	thirdParty: {

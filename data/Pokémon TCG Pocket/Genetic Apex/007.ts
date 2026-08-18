@@ -23,7 +23,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	abilities: [{

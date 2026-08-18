@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Roba 1 carta por cada uno de los Pokémon V en Banca de tu rival.",
 		it: "Pesca una carta per ciascuno dei Pokémon-V nella panchina del tuo avversario.",
 		pt: "Compre 1 carta para cada Pokémon V no Banco do seu oponente.",
-		de: "Ziehe 1 Karte für jedes Pokémon-V auf der Bank deines Gegners."
+		de: "Ziehe 1 Karte für jedes Pokémon-V auf der Bank deines Gegners. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

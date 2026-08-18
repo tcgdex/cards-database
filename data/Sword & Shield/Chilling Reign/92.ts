@@ -47,7 +47,7 @@ const card: Card = {
 			es: "Mientras este Pokémon esté en el Puesto Activo, el Coste de Retirada del Pokémon Activo de tu rival es de ColorlessColorless más.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, il costo di ritirata del Pokémon attivo del tuo avversario aumenta di Colorless Colorless.",
 			pt: "Enquanto este Pokémon estiver no Campo Ativo, o custo de Recuo do Pokémon Ativo do seu oponente será ColorlessColorless a mais.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Rückzugskosten des Aktiven Pokémon deines Gegners um ColorlessColorless."
+			de: "Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Rückzugskosten des Aktiven Pokémon deines Gegners um {C}{C}."
 		}
 	}],
 
@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+		de: "Um sein Können zu testen, kommt es an Land und begibt sich auf die Suche nach Gegnern. Sind die Kämpfe vorbei, kehrt es ins Meer zurück."
 	},
 
 	variants: [

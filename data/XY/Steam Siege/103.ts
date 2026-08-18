@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 de tus Pokémon Básicos en juego. Busca en tu baraja 1 Pokémon Básico y cámbialo por ese Pokémon. (Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon). Pon el primer Pokémon de nuevo en tu baraja y baraja todas las cartas.",
 		it: "Scegli uno dei tuoi Pokémon Base in gioco. Cerca nel tuo mazzo un Pokémon Base e scambialo con quel Pokémon (le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon). Poi rimischia il primo Pokémon nel tuo mazzo.",
 		pt: "Escolha 1 dos seus Pokémon Básicos em jogo. Procure em seu baralho 1 Pokémon Básico e troque-o com aquele Pokémon. (Quaisquer cards ligados, contadores de danos, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.) Embaralhe o primeiro Pokémon de volta no seu baralho.",
-		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Durchsuche dein Deck nach 1 Basis-Pokémon und tausche es gegen jenes Pokémon aus. (Alle angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.) Mische das erste Pokémon in dein Deck."
+		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Durchsuche dein Deck nach 1 Basis-Pokémon und tausche es gegen jenes Pokémon aus. (Alle angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.) Mische das erste Pokémon in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

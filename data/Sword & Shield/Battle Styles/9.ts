@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		de: "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann."
 	},
 
 	variants: [

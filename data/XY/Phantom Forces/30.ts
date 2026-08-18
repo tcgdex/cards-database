@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Descarta tantas Energías Lightning unidas a tus Pokémon como quieras. Este ataque hace 30 puntos de daño por cada carta de Energía que hayas descartado.",
 				it: "Scarta a piacimento le Energie Lightning assegnate ai tuoi Pokémon. Questo attacco infligge 30 danni per ogni carta Energia che hai scartato.",
 				pt: "Descarte quantas Energias Lightning ligadas a seus Pokémon quanto desejar. Esse ataque causa 30 de danos vezes o número de cards de Energia descartados.",
-				de: "Lege beliebig viele an deine Pokémon angelegte Lightning-Energien auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+				de: "Lege beliebig viele an deine Pokémon angelegte {L}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
 			},
 			damage: "30×",
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		de: "Die Strommenge, die ein Elezard mit ausgebreiteten Hautlappen durch Umwandlung von Sonnenstrahlen erzeugt, genügt zur Versorgung eines Wolkenkratzers."
 	},
 
 	thirdParty: {

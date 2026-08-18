@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shellos",
 		fr: "Sancoki",
+		de: "Schalellos"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It has strong regenerative capabilities. Even if parts of it are bitten off by fish Pokémon, it will return to normal within a few hours.",
+		de: "Es hat starke Regenerationskräfte. Selbst wenn Fisch-Pokémon ein Stück von ihm abbeißen, wächst es innerhalb weniger Stunden nach."
 	},
 
 	thirdParty: {

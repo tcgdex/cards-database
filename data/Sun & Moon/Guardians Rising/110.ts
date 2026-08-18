@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fletchling",
 		fr: "Passerouge",
+		de: "Dartiri"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them.",
+		de: "Es speit Funken aus seinem Schnabel und schreckt so die Beute auf. Einmal gefangen, wird sie geröstet und dann verspeist."
 	},
 
 	thirdParty: {

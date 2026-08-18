@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Protected by a hard shell, its body is very sturdy. It skewers prey with its claws to feed.",
+		de: "Sein robuster Körper wird von einem harten Panzer geschützt. Es spießt die Beute mit seinen Scheren auf, ehe es sie verspeist."
 	},
 
 	thirdParty: {

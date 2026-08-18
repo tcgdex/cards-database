@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire."
+		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+		de: "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind."
 	},
 
 	variants: [

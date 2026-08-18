@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Born of an icicle, this Pokémon uses its frosty breath to make ice crystals, causing snow to fall.",
+		de: "Dieses Pokémon ist aus einem Eiszapfen entstanden. Mit seinem kalten Odem erzeugt es Eiskristalle und lässt es schneien."
 	},
 
 	thirdParty: {

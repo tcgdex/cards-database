@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mudkip",
 		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Living on muddy ground that provides poor footing has made its legs sturdy.",
+		de: "Der zähe Morast seiner Heimat hat seine Beine gestählt und ihnen gewaltige Kraft verliehen."
 	},
 
 	thirdParty: {

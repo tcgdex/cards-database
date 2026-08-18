@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+		de: "Es ist in der Wüste zu Hause und wandelt die Energie der Sonne in Körperkraft um, wodurch es auch ohne Nahrung auskommt."
 	},
 
 	thirdParty: {

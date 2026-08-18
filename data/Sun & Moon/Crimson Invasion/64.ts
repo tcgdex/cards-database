@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+		de: "Mit seinem friedlichen Gesicht bringt es Gegner zur Selbstgefälligkeit und beißt anschließend mit seinem riesigen Kiefer gnadenlos zu."
 	},
 
 	thirdParty: {

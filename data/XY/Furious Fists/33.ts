@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+		de: "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen."
 	},
 
 	thirdParty: {

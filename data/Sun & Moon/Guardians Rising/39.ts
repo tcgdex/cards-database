@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+		de: "Mit seinem Giftstachel am Kopf attackiert es Beute. Ist diese geschwächt, umschlingt es sie mit seinen zehn Tentakeln und gibt ihr den Rest."
 	},
 
 	thirdParty: {

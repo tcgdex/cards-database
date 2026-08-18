@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Geodude"
+		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	description: {

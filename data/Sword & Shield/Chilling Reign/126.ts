@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it."
+		en: "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
+		de: "Trimmt man sein Fell nicht regelmäßig, wächst es ohne Unterlass. Allerdings lässt es sich nur von jemandem frisieren, dem es traut."
 	},
 
 	variants: [

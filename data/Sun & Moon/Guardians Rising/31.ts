@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Their numbers seem to have rapidly increased in Alola. Custom has it that houses where Snorunt live will be prosperous for generations to come.",
+		de: "Schneppke hat sich rasant in Alola verbreitet. Es heißt, das Haus, in dem es lebt, werde über viele Generationen blühen und gedeihen."
 	},
 
 	thirdParty: {

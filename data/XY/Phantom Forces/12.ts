@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 Energía Fire unida a este Pokémon. Si lo haces, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare un'Energia Fire assegnata a questo Pokémon. Se lo fai, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá descartar uma Energia Fire ligada a este Pokémon. Se você fizer isso, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel legen. Wenn du das machst, tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel legen. Wenn du das machst, tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 			},
 		},
 	],
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The male with the largest mane of fire is the leader of the pride.",
+		de: "Das Männchen mit der prächtigsten Feuermähne führt das Rudel an."
 	},
 
 	thirdParty: {

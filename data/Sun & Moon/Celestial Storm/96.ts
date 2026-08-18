@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cualquier daño infligido a este Pokémon por ataques se reduce en 10 (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 10, dopo aver applicato debolezza e resistenza.",
 				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 10 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow.",
+		de: "Sein Körper ist härter als jedes andere Metall. Untersuchungen zufolge ist es innen hohl."
 	},
 
 	thirdParty: {

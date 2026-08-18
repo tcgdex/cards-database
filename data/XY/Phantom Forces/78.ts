@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Very protective of its territory, it flaps its short wings busily to dart around at high speed.",
+		de: "Es beschützt sein Gebiet stets vor Eindringlingen. Daher fliegt es ständig wild umher."
 	},
 
 	thirdParty: {

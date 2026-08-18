@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de tu mano en tu baraja y barájalas todas. (Si no puedes poner 2 cartas, no puedes jugar esta carta). Después, roba 1 carta.",
 		it: "Rimischia due carte dalla tua mano nel tuo mazzo (se non puoi rimischiare due carte nel tuo mazzo, non potrai giocare questa carta). Poi, pesca una carta.",
 		pt: "Embaralhe 2 cards da sua mão em seu baralho. (Se você não puder embaralhar 2 cards em seu baralho, não poderá jogar esse card.) Em seguida, compre um card.",
-		de: "Mische 2 Karten von deiner Hand in dein Deck. (Wenn du keine 2 Karten in dein Deck mischen kannst, kannst du diese Karte nicht spielen.) Ziehe anschließend 1 Karte."
+		de: "Mische 2 Karten von deiner Hand in dein Deck. (Wenn du keine 2 Karten in dein Deck mischen kannst, kannst du diese Karte nicht spielen.) Ziehe anschließend 1 Karte. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

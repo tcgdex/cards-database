@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		de: "Findet es Honig, leuchtet die Sichel auf seinem Kopf. Es leckt oft seine mit Honig bedeckten Pfoten."
 	},
 
 	thirdParty: {

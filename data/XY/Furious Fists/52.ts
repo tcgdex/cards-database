@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cualquier daño infligido a este Pokémon por ataques de los Pokémon Fire o Water de tu rival se reduce en 30 (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire o Water del tuo avversario sono ridotti di 30, dopo aver applicato debolezza e resistenza.",
 				pt: "Qualquer dano feito a este Pokémon por ataques de Pokémon Fire ou Water do seu oponente será reduzido em 30 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe der Fire- oder Water- Pokémon deines Gegners zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Schaden, der diesem Pokémon durch Angriffe der {W}- oder {R}-Pokémon deines Gegners zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It stomps on the ground to build power. It can send a 10-ton truck flying with a straight-arm punch.",
+		de: "Es stampft auf den Boden, um Energie zu generieren. Ein einziger Armschlag reicht aus, um einen 10 t schweren LKW durch die Luft zu wirbeln."
 	},
 
 	thirdParty: {

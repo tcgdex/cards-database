@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Cada vez que tu rival lance una moneda durante su próximo turno, se considerará que ha salido cruz.",
 				it: "Ogni lancio della moneta del tuo avversario durante il suo prossimo turno verrà considerato croce.",
 				pt: "Sempre que seu oponente jogar uma moeda na próxima vez dele jogar, trate-a como coroa.",
-				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, wird das Ergebnis als \"Zahl\" gewertet."
+				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, wird das Ergebnis als „Zahl“ gewertet."
 			},
 
 		},
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.",
+		de: "Traumato versetzt Gegner in den Schlaf und frisst deren Träume. Von Alpträumen wird ihm aber übel."
 	},
 
 	thirdParty: {

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+		de: "Die metallischen Fortsätze auf seinem Kopf waren ursprünglich Haare. Es kommuniziert durch Schwanken mit anderen Digda."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shining core is thought to receive and transmit enigmatic signals. It has been known to cause headaches in those who approach it.",
+		de: "Offenbar sendet und empfängt sein leuchtender Kern mysteriöse Radiowellen. Kommt man ihm zu nahe, löst es eventuell Kopfschmerzen aus."
 	},
 
 	thirdParty: {

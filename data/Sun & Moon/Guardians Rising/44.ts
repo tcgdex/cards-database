@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		de: "Eguana"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		de: "Die Strommenge, die ein Elezard mit ausgebreiteten Hautlappen durch Umwandlung von Sonnenstrahlen erzeugt, genügt zur Versorgung eines Wolkenkratzers."
 	},
 
 	thirdParty: {

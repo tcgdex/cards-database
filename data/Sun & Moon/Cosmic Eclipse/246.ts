@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drilbur",
 		fr: "Rototaupe",
+		de: "Rotomurf"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		de: "Seine zu Stahl weiterentwickelten Bohrer kriegen selbst Eisenplatten klein. Im Tunnelbau ist es ein absolutes Ass."
 	},
 
 	thirdParty: {

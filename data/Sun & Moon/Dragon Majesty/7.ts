@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
 	},
 
 	thirdParty: {

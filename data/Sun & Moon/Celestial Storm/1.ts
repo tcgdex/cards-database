@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+		de: "Seine Knospe ähnelt einem Menschengesicht. Man sagt, dass es mit der legendären Mandragora verwandt ist."
 	},
 
 	thirdParty: {

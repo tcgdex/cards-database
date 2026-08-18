@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+		de: "Es lebt im Inneren pechschwarzer Höhlen. Seine riesen Ohren setzen Ultraschallwellen von 200 000 Hz frei."
 	},
 
 	thirdParty: {

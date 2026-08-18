@@ -23,7 +23,7 @@ const card: Card = {
 		es: "El Coste de Retirada de cada Pokémon Golpe Fluido en juego (tanto tuyos como de tu rival) es de ColorlessColorless menos.",
 		it: "Il costo di ritirata di ciascun Pokémon Colpo Rapido in gioco, sia tuoi che del tuo avversario, è ridotto di ColorlessColorless.",
 		pt: "O custo de Recuo de cada Pokémon Golpe Fluido em jogo (seus e do seu oponente) é ColorlessColorless a menos.",
-		de: "Die Rückzugskosten aller Fließender-Angriff-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um ColorlessColorless."
+		de: "Die Rückzugskosten aller Fließender-Angriff-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um {C}{C}. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	regulationMark: "E",

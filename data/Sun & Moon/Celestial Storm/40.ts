@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Its immense size is the reason for its popularity. Wailord watching is a favorite sightseeing activity in various parts of the world.",
+		de: "Es ist allein schon aufgrund seiner schieren Größe sehr beliebt. Wailord-Watching gilt vielerorts als beliebte Touristenattraktion."
 	},
 
 	thirdParty: {
