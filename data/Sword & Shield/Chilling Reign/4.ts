@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "These very cowardly Pokémon join together and use Reflect to protect their nest."
+		en: "These very cowardly Pokémon join together and use Reflect to protect their nest.",
+		de: "Es ist ein sehr scheues Pokémon. Gemeinsam mit seinen Artgenossen nutzt es Reflektor, um sein Nest zu beschützen."
 	},
 
 	variants: [

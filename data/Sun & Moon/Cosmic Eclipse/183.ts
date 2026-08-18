@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
+		de: "Dieses für ein bestimmten Zweck als Waffe kreierte Pokémon geriet bei einem Experiment außer Kontrolle und wurde deshalb stillgelegt."
 	},
 
 	thirdParty: {

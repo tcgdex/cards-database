@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Une 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon Fire.",
 		it: "Assegna a uno dei tuoi Pokémon Fire due carte Energia Fire dalla tua pila degli scarti.",
 		pt: "Ligue 2 cards de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon Fire.",
-		de: "Lege 2 Fire-Energiekarten von deinem Ablagestapel an 1 deiner Fire-Pokémon an."
+		de: "Lege 2 {R}-Energiekarten von deinem Ablagestapel an 1 deiner {R}-Pokémon an. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	thirdParty: {

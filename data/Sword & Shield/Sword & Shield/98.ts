@@ -97,7 +97,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit."
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+		de: "Sein ganzer Körper ist von einer panzerähnlichen Haut geschützt. Es kann sogar in bis zu 2 000 ºC heißer Lava leben."
 	},
 
 	dexId: [112],

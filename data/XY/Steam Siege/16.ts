@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Pon 2 cartas de Energía Fire de tu pila de descartes en tu mano.",
 				it: "Prendi due carte Energia Fire dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 cards de Energia Fire da sua pilha de descarte em sua mão.",
-				de: "Nimm 2 Fire-Energiekarten von deinem Ablagestapel auf deine Hand."
+				de: "Nimm 2 {R}-Energiekarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its legs grow strong while it chases after its parent. It runs in fields and mountains all day.",
+		de: "Seine Beine werden kräftig, da es seinen Eltern hinterherläuft. Es rennt den ganzen Tag umher."
 	},
 
 	thirdParty: {

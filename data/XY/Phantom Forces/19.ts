@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
+		de: "Es lebt tief auf dem Meeresboden. Das blinkende Muster auf seinen vier Rückenflossen zieht Beute an."
 	},
 
 	thirdParty: {

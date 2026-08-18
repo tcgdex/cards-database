@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!",
-		fr: 'Morphéo adopte cette apparence lorsqu\'il y a du soleil.\nSon corps rougeoyant est très sec au toucher.'
+		fr: 'Morphéo adopte cette apparence lorsqu\'il y a du soleil.\nSon corps rougeoyant est très sec au toucher.',
+		de: "Diese Gestalt nimmt Formeo bei einem heißen Sonnenbad an. Sein glühender Körper fühlt sich sehr trocken an."
 	},
 
 	abilities: [{

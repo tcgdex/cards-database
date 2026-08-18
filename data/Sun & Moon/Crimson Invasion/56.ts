@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stufful",
 		fr: "Nounourson",
+		de: "Velursi"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de los Pokémon no Fire de tu rival hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi dei Pokémon non di tipo Fire del tuo avversario, dopo aver applicato debolezza e resistenza.",
 				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques dos Pokémon do seu oponente que não são Pokémon Fire (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken der Pokémon deines Gegners, die keine Fire-Pokémon sind, 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Diesem Pokémon werden durch Attacken der Pokémon deines Gegners, die keine {R}-Pokémon sind, 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+		de: "Dieses Pokémon verfügt über immense Muskelkraft und ist äußerst gefährlich. Sein Habitat ist generell Sperrgebiet."
 	},
 
 	thirdParty: {

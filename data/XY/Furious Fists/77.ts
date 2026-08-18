@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza 1 moneda. Si sale cara, evita ese daño.",
 				it: "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, previeni quei danni.",
 				pt: "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, o dano será evitado.",
-				de: "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei \"Kopf\" verhindere diesen Schaden."
+				de: "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ verhindere diesen Schaden."
 			},
 		},
 	],
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+		de: "Es fliegt in finsterer, mondloser Nacht umher und macht Jagd auf achtlose Beute. Ist bei Dunkelheit jedem Gegner überlegen."
 	},
 
 	thirdParty: {

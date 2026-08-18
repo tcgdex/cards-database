@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire unidas a este Pokémon. Este ataque hace 60 puntos de daño más por cada carta de Energía descartada de esta manera.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon. Questo attacco infligge 60 danni in più per ogni carta Energia scartata in questo modo.",
 				pt: "Descarte toda a Energia Fire ligada a este Pokémon. Este ataque causa 60 de danos adicionais para cada card de Energia descartado desta forma.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel. Dieser Angriff fügt 60 weitere Schadenspunkte für jede Energiekarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
+				de: "Lege alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 60 weitere Schadenspunkte für jede Energiekarte zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
 			},
 			damage: "10+",
 

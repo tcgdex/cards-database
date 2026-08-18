@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The line running down its side can store sunlight. It shines vividly at night.",
+		de: "Die Linie an seiner Seite kann Sonnenlicht speichern. Nachts leuchtet es sehr intensiv."
 	},
 
 	thirdParty: {

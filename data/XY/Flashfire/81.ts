@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+		de: "Wenn es Wache hat, warnt es seine Artgenossen, indem es schreit und mit dem Schwanz auf den Boden schlägt."
 	},
 
 	thirdParty: {

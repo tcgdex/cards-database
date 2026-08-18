@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives around clean ponds. At night, its rear lights up. It converses with others by flashing its light.",
+		de: "Es lebt in der Nähe von reinen Teichen. Nachts leuchtet sein Hinterteil und es kommuniziert durch dessen Blinken mit Artgenossen."
 	},
 
 	thirdParty: {

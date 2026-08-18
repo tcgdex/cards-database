@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "There are people who swear that any place Gyarados appears is fated for destruction.",
+		de: "Manche Menschen sind fest davon überzeugt, dass Orte, an denen ein Garados erscheint, dem Untergang geweiht sind."
 	},
 
 	thirdParty: {

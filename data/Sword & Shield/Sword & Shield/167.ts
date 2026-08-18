@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de tu rival, roba cartas hasta que tengas 7 cartas en tu mano.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco dell'avversario, pesca fino ad avere sette carte in mano.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, compre cartas até ter 7 cartas na sua mão.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

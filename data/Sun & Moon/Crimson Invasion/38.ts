@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Should you feel yourself attacked by a sudden chill, it is evidence of an approaching Gengar. There is no escaping it. Give up.",
+		de: "Läuft es einem plötzlich eiskalt den Rücken hinunter, wurde man von Gengar als nächstes Opfer auserkoren. Widerstand ist zwecklos."
 	},
 
 	thirdParty: {

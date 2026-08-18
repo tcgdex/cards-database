@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Herdier",
 		fr: "Ponchien",
+		de: "Terribark"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It pays no mind to the cold, thanks to its long warm coat. Stoutland in Alola look a little uncomfortable.",
+		de: "Dank seines langen, warmen Fells kann ihm die Kälte nichts anhaben. In Alola hat es daher leider mit dem schwülen Klima zu kämpfen."
 	},
 
 	thirdParty: {

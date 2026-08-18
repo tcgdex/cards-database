@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+		de: "Wenn es am Abend kühler wird, kommen sie an Land, um nach Nahrung zu suchen."
 	},
 
 	thirdParty: {

@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is covered with a pure white fur. The colder the weather, the more active it becomes.",
+		de: "Sein Körper ist mit reinem, weißem Fell überzogen. Je kälter es wird, desto aktiver wird dieses Pokémon."
 	},
 
 	thirdParty: {

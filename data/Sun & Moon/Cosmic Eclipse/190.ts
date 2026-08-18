@@ -19,10 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: 'Destructive Drake GX',
+			de: "Zerstörerisches Drachendröhnen GX"
 		},
 		damage: '80×',
 		effect: {
-			en: 'Discard all basic Energy from this Pokémon. This attack does 80 damage for each card you discarded in this way. (you can\'t use mote than 1 GX attack in a game.)'
+			en: 'Discard all basic Energy from this Pokémon. This attack does 80 damage for each card you discarded in this way. (you can\'t use mote than 1 GX attack in a game.)',
+			de: "Lege alle Basis-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 80 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 		},
 		cost: [
 			'Colorless',
@@ -37,7 +39,7 @@ const card: Card = {
 		es: "",
 		it: "",
 		pt: "",
-		de: ""
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, die Attacke Drachenklaue hat, kann es die GX-Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.) Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Por cada cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue 2 moedas. Para cada cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 2 Münzen. Lege pro \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 2 Münzen. Lege pro „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		de: "Es kann mit einer körpereigenen Substanz seine Augen und seinen Torso aufleuchten lassen, um Gegner zu erschrecken."
 	},
 
 	thirdParty: {

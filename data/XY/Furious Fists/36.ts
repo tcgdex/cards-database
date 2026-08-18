@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized.",
+		de: "Es trägt ein Pendel. Man berichtet von einem Vorfall, bei dem es ein Kind mitnahm, das es zuvor hypnotisiert hatte."
 	},
 
 	thirdParty: {

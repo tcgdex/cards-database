@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Juega esta carta como si fuera un Pokémon Básico Colorless de 30 PS. En cualquier momento durante tu turno (antes de tu ataque), puedes descartar esta carta del juego. Esta carta no puede retirarse. Si esta carta queda Fuera de Combate, tu rival no puede coger ninguna carta de Premio por ella.",
 		it: "Gioca questa carta come se fosse un Pokémon Base Colorless con 30 PS. Durante il tuo turno, in qualsiasi momento, prima di attaccare, puoi scartare questa carta dal gioco. Non puoi far ritirare questa carta. Se questa carta viene messa KO, il tuo avversario non può prendere alcuna carta Premio.",
 		pt: "Jogue esse card como se ele fosse um Pokémon Básico Colorless com 30 de PS. A qualquer momento durante sua vez de jogar (antes de atacar), você pode descartar esse card do jogo. Esse card não pode recuar. Se este card for Nocauteado, seu oponente não poderá receber cards de Prêmio por ele.",
-		de: "Spiele diese Karte, als sei sie ein Colorless-Basis-Pokémon mit 30 KP. Du kannst diese Karte zu einem beliebigen Zeitpunkt während deines Zuges (vor deinem Angriff) aus dem Spiel nehmen und auf den Ablagestapel legen. Diese Karte kann sich nicht zurückziehen. Wenn diese Karte kampfunfähig wird, darf dein Gegner dafür keine Preiskarte nehmen."
+		de: "Spiele diese Karte, als sei sie ein {C}-Basis-Pokémon mit 30 KP. Du kannst diese Karte zu einem beliebigen Zeitpunkt während deines Zuges (vor deinem Angriff) aus dem Spiel nehmen und auf den Ablagestapel legen. Diese Karte kann sich nicht zurückziehen. Wenn diese Karte kampfunfähig wird, darf dein Gegner dafür keine Preiskarte nehmen. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

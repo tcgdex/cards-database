@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Puedes descartar 1 Energía Fire unida a este Pokémon. Si lo haces, este ataque hace 30 puntos de daño más.",
 				it: "Puoi scartare un'Energia Fire assegnata a questo Pokémon. Se lo fai, questo attacco infligge 30 danni in più.",
 				pt: "Você pode descartar uma Energia Fire ligada a este Pokémon. Se fizer isso, esse ataque causará 30 de danos adicionais.",
-				de: "Du kannst 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Du kannst 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "The male with the largest mane of fire is the leader of the pride.",
+		de: "Das Männchen mit der prächtigsten Feuermähne führt das Rudel an."
 	},
 
 	thirdParty: {

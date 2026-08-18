@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Loudred",
 		fr: "Ramboum",
+		de: "Krakeelo"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck.",
+		de: "Sein Grollen, das es während des Kampfs ausstößt, erschüttert den Boden ganz wie bei einem Erdbeben."
 	},
 
 	thirdParty: {

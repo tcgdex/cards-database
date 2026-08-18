@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
+		de: "Mit dem Stiel auf seinem Kopf hängt es sich an Äste. Bei starkem Wind fällt es durchaus einmal herunter."
 	},
 
 	thirdParty: {

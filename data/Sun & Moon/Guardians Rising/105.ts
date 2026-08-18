@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes its form depending on the weather. Changes in the temperature or humidity appear to affect its cellular structure.",
+		de: "Es ändert seine Erscheinung je nach Wetter. Seine Zellen reagieren anscheinend auf Temperatur- und Feuchtigkeitsschwankungen."
 	},
 
 	thirdParty: {

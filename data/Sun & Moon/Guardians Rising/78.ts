@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "They awaken at dusk and take wing in the twilight, leading to the expression, \"Get home before the Murkrow fly.\"",
+		de: "Es wacht bei Dämmerung auf und fliegt durch die Nacht. Daher das Sprichwort: „Flugs nach Haus, mein Kind, wenn Kramurx am Himmel sind!“"
 	},
 
 	thirdParty: {

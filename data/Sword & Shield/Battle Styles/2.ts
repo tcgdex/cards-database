@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid."
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		de: "Dieses Pokémon lähmt den Gegner mit Giftpuder, bevor es ihn mit Säure erledigt."
 	},
 
 	variants: [

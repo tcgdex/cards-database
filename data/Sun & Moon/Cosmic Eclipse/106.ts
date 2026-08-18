@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+		de: "Es bewegt sich nur 1 cm pro Jahr, aber in Notlagen bohrt es sich mit seinem Körper blitzschnell in den Boden."
 	},
 
 	thirdParty: {

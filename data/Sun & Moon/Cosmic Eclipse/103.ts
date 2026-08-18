@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating.",
+		de: "Schlüpft es in den Schatten seines Gegners, um dessen Bewegungen und Kräfte zu imitieren, kann es sogar stärker als das Original werden."
 	},
 
 	thirdParty: {

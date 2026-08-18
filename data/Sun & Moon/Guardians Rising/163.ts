@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige, en cualquier combinación, hasta 2 cartas de Herramienta Pokémon y cartas de Estadio en juego (tuyas o de tu rival) y descártalas.",
 		it: "Scegli fino a due carte Oggetto Pokémon o Stadio in gioco, in qualsiasi combinazione, tue o del tuo avversario, e scartale.",
 		pt: "Escolha até 2 cartas de Ferramenta Pokémon e de Estádio em jogo em qualquer combinação (suas e do seu oponente) e descarte-as.",
-		de: "Wähle eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen und Stadionkarten im Spiel (deine oder die deines Gegners) und lege sie auf den Ablagestapel."
+		de: "Wähle eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen und Stadionkarten im Spiel (deine oder die deines Gegners) und lege sie auf den Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

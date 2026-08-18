@@ -51,7 +51,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\"",
+		de: "Einem alten Sprichwort zufolge soll man sich von Häusern fernhalten, an denen sich bei Einbruch der Dunkelheit Shuppet aneinanderreihen."
 	},
 
 	variants: [

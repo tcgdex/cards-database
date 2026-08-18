@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
 				it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
 				pt: "Desde que este Pokémon esteja em seu Banco, previne todos os danos causados a este Pokémon por ataques (seus e do seu oponente).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Angriffe (deine und die deines Gegners) zugefügt wird."
+				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird."
 			},
 		},
 	],
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
+		de: "Sein unvorteilhaftes Aussehen macht es zwar unbeliebt, doch seine erstaunliche Lebenskraft hat das Interesse der Forscher an ihm geweckt."
 	},
 
 	thirdParty: {

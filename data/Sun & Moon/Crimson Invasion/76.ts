@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
+		de: "Miniras"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
+		de: "Mit einem Kampfschrei stürzt es sich auf seine Beute und reißt sie mithilfe seiner Schuppen in kleine Stücke."
 	},
 
 	thirdParty: {

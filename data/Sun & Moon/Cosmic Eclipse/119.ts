@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It follows Pangoro around like a henchman. When Pancham makes a big mistake, its leaf gets taken away.",
+		de: "Es folgt treu seinem großen Vorbild, Pandagro. Begeht Pam-Pam einen schwerwiegenden Fehler, nimmt ihm Pandagro sein Blatt ab."
 	},
 
 	thirdParty: {

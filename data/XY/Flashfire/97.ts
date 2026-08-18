@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta todas las cartas de Herramienta Pokémon unidas a cada uno de los Pokémon de tu rival.",
 		it: "Scarta tutte le carte Oggetto Pokémon assegnate ai Pokémon del tuo avversario.",
 		pt: "Descarte todos os cards de Ferramenta Pokémon ligados aos Pokémon do oponente.",
-		de: "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
+		de: "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they're rather cowardly.",
+		de: "Wittert es auch nur einen Hauch von Blut, greift es im Schwarm seine Beute an. Alleine ist es hingegen ziemlich furchtsam."
 	},
 
 	thirdParty: {

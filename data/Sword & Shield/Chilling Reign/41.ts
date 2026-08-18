@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged."
+		en: "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.",
+		de: "Wird seine Haut feucht, ändert sich ihre Farbe. Dies dient ihm zur Tarnung, da man es dann nicht mehr sehen kann."
 	},
 
 	variants: [

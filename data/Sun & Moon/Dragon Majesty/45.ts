@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+		de: "Es erwärmt seinen Körper, indem es mit den Flügeln das Sonnenlicht einfängt. Kühlt sein Körper ab, erstarrt es."
 	},
 
 	thirdParty: {

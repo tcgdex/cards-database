@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
+		en: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle.",
+		de: "Sie haben die Angewohnheit, sich einmal im Jahr zu einer bestimmten Zeit wie aus dem Nichts zu versammeln und in einem Kreis aufzustellen."
 	},
 
 	variants: [

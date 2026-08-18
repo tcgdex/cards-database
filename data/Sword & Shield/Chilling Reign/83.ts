@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it."
+		en: "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it.",
+		de: "Man sollte seinen schattenhaften Körper nicht berühren, sonst zeigt es einem die schauerlichen Erinnerungen, die in sein Bild eingraviert wurden."
 	},
 
 	variants: [

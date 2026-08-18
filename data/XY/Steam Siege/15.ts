@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso. Se esce croce, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso. Se sair coroa, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt verwirrt. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt verwirrt. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+		de: "Es heißt, als das Land einst unter einer düsteren Wolke aus Vulkanasche lag, übernahm es die Rolle der Sonne."
 	},
 
 	thirdParty: {

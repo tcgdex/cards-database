@@ -82,7 +82,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
+		de: "Viele Leute werden ihre Trainer, weil sie es niedlich finden, wie diese Pokémon in sanften Brisen herumwirbeln und voller Freude singen."
 	},
 
 	dexId: [829],

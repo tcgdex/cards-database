@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon deines Gegners jetzt."
 			},
 
 		},
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its adorable appearance makes it popular as a pet. However, it is rare and difficult to find.",
+		de: "Sein possierliches Aussehen macht es zu einem beliebten Haustier. Es ist jedoch sehr selten und schwer zu finden."
 	},
 
 	thirdParty: {

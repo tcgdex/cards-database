@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Puedes unir hasta 3 cartas de Energía Water de tu mano a tus Pokémon de la manera que desees. Si lo haces, cura 50 puntos de daño a esos Pokémon por cada carta que hayas unido a ellos de esta manera.",
 				it: "Puoi assegnare a piacimento ai tuoi Pokémon fino a tre carte Energia Water dalla tua mano. Se lo fai, cura quei Pokémon da 50 danni per ogni carta che gli hai assegnato in questo modo.",
 				pt: "Você pode ligar até 3 cartas de Energia Water da sua mão aos seus Pokémon como desejar. Se fizer isto, cure 50 pontos de dano daqueles Pokémon para cada carta ligada a eles desta forma.",
-				de: "Du kannst bis zu 3 Water-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen. Wenn du das machst, heile bei jenen Pokémon 50 Schadenspunkte mal der Anzahl der auf diese Weise an sie angelegten Karten."
+				de: "Du kannst bis zu 3 {W}-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen. Wenn du das machst, heile bei jenen Pokémon 50 Schadenspunkte mal der Anzahl der auf diese Weise an sie angelegten Karten."
 			},
 			damage: 150,
 
@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Lanzaburbujas GX",
 				it: "Bombardabolle GX",
 				pt: "Lançador de Bolhas GX",
-				de: "Blasenwerfer GX"
+				de: "Blasenwerfer-GX"
 			},
 
 			effect: {
@@ -78,7 +78,7 @@ const card: Card = {
 				es: "El Pokémon Activo de tu rival pasa a estar Paralizado. Si este Pokémon tiene por lo menos 3 Energías Water adicionales unidas a él (además de las del coste de este ataque), este ataque hace 150 puntos de daño más. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Il Pokémon attivo del tuo avversario viene paralizzato. Se questo Pokémon ha almeno tre Energie Water extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 150 danni in più. Non puoi usare più di un attacco GX a partita.",
 				pt: "O Pokémon Ativo do seu oponente agora está Paralisado. Se este Pokémon tiver pelo menos 3 Energias Water adicionais ligadas a ele (além do custo deste ataque), este ataque causará 150 pontos de dano a mais (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt paralysiert. Wenn an dieses Pokémon mindestens 3 extra Water-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 150 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Das Aktive Pokémon deines Gegners ist jetzt paralysiert. Wenn an dieses Pokémon mindestens 3 extra {W}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 150 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 			damage: "100+"

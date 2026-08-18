@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lillipup",
 		fr: "Ponchiot",
+		de: "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its dense black fur grows continuously. The high cost of keeping its hard fur properly groomed make this a troublesome Pokémon to train.",
+		de: "Sein dunkles Fell ist sehr widerstandsfähig und wächst schnell. Dadurch sind die Kosten für das Trimmen sehr hoch."
 	},
 
 	thirdParty: {

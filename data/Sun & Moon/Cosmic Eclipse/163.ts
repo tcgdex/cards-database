@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
+		de: "Mediras"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around.",
+		de: "Hat es seine Beute erlegt, stößt es ein Heulen aus, was von seinen Artgenossen nah und fern mit einem metallischen Rasseln gefeiert wird."
 	},
 
 	thirdParty: {

@@ -66,7 +66,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque se puede usar por 1 Energía Lightning.",
 			it: "Se questo Pokémon ha dei segnalini danno, il costo di questo attacco è Lightning.",
 			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque poderá ser usado por Lightning.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für Lightning eingesetzt werden."
+			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {L} eingesetzt werden."
 		},
 
 		damage: 130,
@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph."
+		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+		de: "Mit Elektrizität verstärkt es seine Beinkraft. So erreicht es mit Leichtigkeit eine Höchstgeschwindigkeit von über 90 km/h."
 	},
 
 	variants: [

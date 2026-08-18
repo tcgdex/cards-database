@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+		de: "Versprüht eine Substanz aus seinem Hinterleib, die in einem großen Radius andere Pokémon fernhält."
 	},
 
 	thirdParty: {

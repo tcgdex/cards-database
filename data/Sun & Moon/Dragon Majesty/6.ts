@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fire-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {R}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
 			},
 		},
 	],
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire de este Pokémon. Este ataque hace 20 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Scarta un’Energia Fire assegnata a questo Pokémon. Questo attacco infligge 20 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Descarte 1 Energia Fire deste Pokémon. Este ataque causa 20 pontos de dano a cada um dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Lege 1 Fire-Energie von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 90,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+		de: "Trifft es auf einen hartnäckigen Gegner, schießen Flammen aus seinen Handgelenken. Seine starken Beine ermöglichen ihm, über Häuser zu springen."
 	},
 
 	thirdParty: {

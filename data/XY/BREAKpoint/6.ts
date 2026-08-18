@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+		de: "Über seine Melodien teilt es seine Gefühle mit. Wissenschaftler untersuchen das Muster der Melodien."
 	},
 
 	thirdParty: {

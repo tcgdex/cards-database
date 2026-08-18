@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
+		de: "Ein sehr schwaches und leckeres Pokémon, auf das es stets irgendjemand abgesehen hat. Doch Vorsicht: Wer es ärgert, wird dies bereuen!"
 	},
 
 	thirdParty: {

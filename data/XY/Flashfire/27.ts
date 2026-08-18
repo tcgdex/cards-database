@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, tu rival no puede robar 1 carta al principio de su próximo turno.",
 				it: "Lancia una moneta. Se esce testa, il tuo avversario non può pescare una carta all'inizio del suo prossimo turno.",
 				pt: "Jogue uma moeda. Se sair cara, seu oponente não poderá comprar um card no começo da próxima vez de jogar dele ou dela.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner zu Beginn seines nächsten Zuges keine Karte ziehen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner zu Beginn seines nächsten Zuges keine Karte ziehen."
 			},
 
 		},
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love.",
+		de: "Es lebt in warmen Meeren. Man sagt, dass Verliebte, die es sehen, mit ewiger Liebe gesegnet sind."
 	},
 
 	thirdParty: {

@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Descarta las 4 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía Fire, únelas a tus Pokémon de la manera que desees.",
 				it: "Scarta le prime quattro carte del tuo mazzo. Se fra queste ci sono delle carte Energia Fire, assegnale a piacimento ai tuoi Pokémon.",
 				pt: "Descarte as 4 primeiras cartas do seu baralho. Se houver cartas de Energia Fire entre elas, ligue-as aos seus Pokémon como desejar.",
-				de: "Lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel. Wenn unter jenen Karten Fire-Energiekarten sind, lege sie beliebig an deine Pokémon an."
+				de: "Lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel. Wenn unter jenen Karten {R}-Energiekarten sind, lege sie beliebig an deine Pokémon an."
 			},
 			damage: 30,
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "If the fire burning within its shell goes out, it will die. Those who wish to raise one in their home must always keep something flammable at hand.",
+		de: "Erlöschen die Flammen in seinem Panzer, stirbt es. Will man es bei sich zu Hause halten, braucht man daher stets brennbares Material."
 	},
 
 	thirdParty: {

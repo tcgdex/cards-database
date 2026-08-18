@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,7 @@ const card: Card = {
 				es: "Descarta 3 Energías Fire de este Pokémon.",
 				it: "Scarta tre Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 3 Energias Fire deste Pokémon.",
-				de: "Lege 3 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 3 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 190,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Overflowing with beauty and majesty, this strong Pokémon appears in ancient Eastern folklore.",
+		de: "Ein anmutiges Pokémon, das Kraft und Stolz ausstrahlt. Bereits in alten Legenden aus dem weit entfernten Osten wurde von ihm berichtet."
 	},
 
 	thirdParty: {

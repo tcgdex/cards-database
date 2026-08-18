@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
+		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+		de: "Mancherorts sagt man, sie brächten den Frühling, da sie je nach Jahreszeit ihr Revier wechseln."
 	},
 
 	variants: [

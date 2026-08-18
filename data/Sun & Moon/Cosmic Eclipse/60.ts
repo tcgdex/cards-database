@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ducklett",
 		fr: "Couaneton",
+		de: "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+		de: "Sie wirken zerbrechlich, aber ihre starken Schwingen tragen sie in einem Stück bis zu 1 000 km weit."
 	},
 
 	thirdParty: {

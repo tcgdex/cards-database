@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its special mucus to close the wounds of injured Pokémon. The reason for this behavior remains unknown.",
+		de: "Es umarmt verletzte Pokémon und bedeckt ihre Wunden mit einem speziellen Schleim. Niemand weiß, warum es das tut."
 	},
 
 	thirdParty: {

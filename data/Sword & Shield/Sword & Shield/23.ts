@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -98,7 +98,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+		de: "Man sagt, es lebe 1 000 Jahre und jedem seiner Schweife wohnen übernatürliche Kräfte inne."
 	},
 
 	thirdParty: {

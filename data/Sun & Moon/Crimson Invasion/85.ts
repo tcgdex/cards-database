@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+		de: "Sie begrüßen einander, indem sie ihr Gegenüber mithilfe ihres Schweifs säubern."
 	},
 
 	thirdParty: {

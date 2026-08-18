@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+		de: "Es ist durch einen harten Panzer geschützt. Einmal im Leben stellt es eine bezaubernde Perle her."
 	},
 
 	thirdParty: {

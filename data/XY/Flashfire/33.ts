@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+		de: "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen."
 	},
 
 	thirdParty: {

@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+		de: "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht."
 	},
 
 	thirdParty: {

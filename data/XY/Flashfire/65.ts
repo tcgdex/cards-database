@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+		de: "Es fliegt auf Wiesen umher und kümmert sich um welkende Blumen. Es setzt deren geheime Kräfte frei und nutzt diese zum Kämpfen."
 	},
 
 	thirdParty: {

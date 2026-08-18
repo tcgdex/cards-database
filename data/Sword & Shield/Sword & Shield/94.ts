@@ -86,7 +86,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+		de: "Es kann seine Beine nach Belieben ausfahren und einziehen und so auch entfernte Gegner treffen."
 	},
 
 	dexId: [106],

@@ -47,7 +47,7 @@ const card: Card = {
 			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Grass de tu mano a 1 de tus Pokémon que no tenga un recuadro de regla (Pokémon V, Pokémon-GX, etc. tienen recuadros de regla).",
 			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon che non ha una regola speciale una carta Energia Grass dalla tua mano tutte le volte che vuoi. I Pokémon-V, i Pokémon-GX, ecc. hanno regole speciali.",
 			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia Grass da sua mão a 1 dos seus Pokémon que não tenha uma Caixa de Regras (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras).",
-			de: "Beliebig oft während deines Zuges kannst du 1 Grass-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen, das kein Regelfeld hat (Pokémon-V, Pokémon-GX usw. haben Regelfelder)."
+			de: "Beliebig oft während deines Zuges kannst du 1 {G}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen, das kein Regelfeld hat (Pokémon-V, Pokémon-GX usw. haben Regelfelder)."
 		}
 	}],
 
@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The faint scent that emanates from its full blossom entices bug Pokémon to it."
+		en: "The faint scent that emanates from its full blossom entices bug Pokémon to it.",
+		de: "Wenn es in voller Blüte steht, strömt es einen zarten Duft aus, der Käfer-Pokémon anlockt."
 	},
 
 	variants: [

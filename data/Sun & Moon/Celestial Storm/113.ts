@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day.",
+		de: "Solange es täglich drei Blätter zu essen bekommt, ist es zufrieden. Abgesehen davon schläft es 20 Stunden am Tag."
 	},
 
 	thirdParty: {

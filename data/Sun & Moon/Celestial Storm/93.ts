@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "With magnetic traction, it pulls its opponents in close. When they're in range, it slashes them with its rear claws.",
+		de: "Es sendet magnetische Impulse aus, um Gegner zu sich heranzuziehen und sie dann mit den Krallen an seinem Hinterteil aufzuschlitzen."
 	},
 
 	thirdParty: {

@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+		de: "Es reguliert seine Körpertemperatur mit dem Puder, das seinen Körper bedeckt, und kommt deswegen in jedem Klima und jeder Region zurecht."
 	},
 
 	variants: [

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roggenrola",
 		fr: "Nodulithe",
+		de: "Kiesling"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It explores caves in search of underground water. It's not comfortable around water, so this Pokémon takes great care in lapping it up.",
+		de: "Es sucht in Höhlen nach Grundwasser. Da es Wasser nicht gut verträgt, leckt es dieses ganz behutsam auf."
 	},
 
 	thirdParty: {

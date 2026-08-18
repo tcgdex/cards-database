@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.",
+		de: "Es versteckt sich, indem es mit seinen Flügeln Wüstensand aufwirbelt. Rote Augenlider schützen es vor dem Sand."
 	},
 
 	thirdParty: {

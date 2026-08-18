@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bagon",
 		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "They lurk deep within caves—motionless, neither eating nor drinking. Why they don't die is not known.",
+		de: "Es hält sich in den Tiefen einer Höhle versteckt, wo es weder trinkt noch isst. Niemand weiß so recht, wie es eigentlich überleben kann."
 	},
 
 	thirdParty: {

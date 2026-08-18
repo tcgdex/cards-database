@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Its two antennae glow softly to lure in prey, making it a useful Pokémon for night fishing.",
+		de: "Das schwache Licht seiner zwei Antennen zieht andere Pokémon an. Es ist somit ein idealer Begleiter beim Nachtangeln."
 	},
 
 	thirdParty: {

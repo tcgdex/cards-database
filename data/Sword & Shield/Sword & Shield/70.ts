@@ -60,7 +60,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
+		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own.",
+		de: "Wattzapf heftet sich an andere Pokémon und saugt ihnen statische Elektrizität ab. Es selbst kann keinen Strom produzieren."
 	},
 
 	dexId: [595],

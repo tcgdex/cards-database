@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+		de: "Wunderschöne Blumengärten sind sein Revier. Es badet in der von blühenden Blumen freigesetzten Energie und zieht daraus seine Kraft."
 	},
 
 	thirdParty: {

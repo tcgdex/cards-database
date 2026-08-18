@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+		de: "Verliert es einen seiner Zähne, wächst ein neuer nach. Es hat immer 48 Zähne in seinem Kiefer."
 	},
 
 	thirdParty: {

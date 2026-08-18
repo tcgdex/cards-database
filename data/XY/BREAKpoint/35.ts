@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+		de: "Es schießt eine lähmende Flüssigkeit aus den Beulen auf seinem Kopf. Es plagt seine Gegner mit Schallwellen."
 	},
 
 	thirdParty: {

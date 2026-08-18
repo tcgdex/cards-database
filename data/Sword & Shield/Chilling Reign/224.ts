@@ -77,7 +77,8 @@ const card: Card = {
 	illustrator: "Saki Hayashiro",
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		de: "Es ist erst satt wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein."
 	},
 
 	regulationMark: "D",

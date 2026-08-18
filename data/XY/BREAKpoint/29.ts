@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "They prefer unpolluted southern seas. Their coral branches lose their color and deteriorate in dirty water.",
+		de: "Hält sich lieber in den sauberen Seen im Süden auf. Seine Korallenarme verlieren in verschmutztem Wasser Farbe und Form."
 	},
 
 	thirdParty: {

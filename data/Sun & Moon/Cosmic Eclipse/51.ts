@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spheal",
 		fr: "Obalie",
+		de: "Seemops"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a very sensitive nose. It touches new things with its nose to examine them.",
+		de: "Die Nerven in seiner Nase sind sehr empfindlich. Sieht es etwas Neues, berührt es es zuerst mit der Nase."
 	},
 
 	thirdParty: {

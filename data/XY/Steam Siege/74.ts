@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.",
+		de: "Sein Körper und Herz sind aus Stahl. Gemeinsam mit seinen Gefährten bestrafte es alle Menschen, die Pokémon verletzen."
 	},
 
 	thirdParty: {

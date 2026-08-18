@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Si este Pokémon queda Fuera de Combate por el daño de un ataque de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate.",
 				it: "Se questo Pokémon viene messo KO dai danni inflitti da un attacco del tuo avversario, lancia una moneta. Se esce testa, il Pokémon attaccante viene messo KO.",
 				pt: "Se este Pokémon for Nocauteado por danos de um ataque do oponente, jogue uma moeda. Se sair cara, o Pokémon Atacante será Nocauteado.",
-				de: "Wenn dieses Pokémon durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Bei \"Kopf\" wird das Angreifende Pokémon kampfunfähig."
+				de: "Wenn dieses Pokémon durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Bei „Kopf“ wird das Angreifende Pokémon kampfunfähig."
 			},
 		},
 	],
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		de: "Es saugt die Seele eines jeden auf, der in seinen Feuerkranz gerät, bis nur noch eine leere Hülle von ihm übrig ist."
 	},
 
 	thirdParty: {

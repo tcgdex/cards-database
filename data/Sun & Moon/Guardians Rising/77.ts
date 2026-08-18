@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
+		de: "Es ernährt sich von Partikeln in der Atmosphäre. Die Farbe seines Kerns ist abhängig von der Zusammensetzung der Partikeln, die es frisst."
 	},
 
 	thirdParty: {

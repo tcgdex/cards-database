@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
+		de: "Miezunder"
 	},
 
 	stage: "Stage2",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
+		de: "Ein raues und selbstsüchtiges Pokémon. Wenn es keine Lust hat, ignoriert es auch schon mal die Befehle seines Trainers."
 	},
 
 	thirdParty: {

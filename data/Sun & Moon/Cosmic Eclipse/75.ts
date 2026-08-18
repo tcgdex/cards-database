@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Luz de la Protectora GX",
 				it: "Luce Protettrice GX",
 				pt: "Luz da Protetora GX",
-				de: "Licht der Beschützerin GX"
+				de: "Licht der Beschützerin-GX"
 			},
 			effect: {
 				en: "If you played Lillie’s Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

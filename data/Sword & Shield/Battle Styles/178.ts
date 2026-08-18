@@ -67,7 +67,8 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 
 	description: {
-		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
+		de: "Es umschlingt Beute mit seinen Tentakeln und verpasst ihr dann eine beherzte Kopfnuss mit seinem steinharten Schädel."
 	},
 
 	evolveFrom: {

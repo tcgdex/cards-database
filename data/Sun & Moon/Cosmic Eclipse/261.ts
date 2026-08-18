@@ -66,7 +66,7 @@ const card: Card = {
 				es: "Golpes Inflados GX",
 				it: "Distruttori Paffutelli GX",
 				pt: "Arraso Fofinho GX",
-				de: "Bauschbombe GX"
+				de: "Bauschbombe-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep. If this Pokémon has at least 4 extra Energy attached to it (in addition to this attack’s cost), this attack does 200 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",

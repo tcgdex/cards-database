@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes buscar en tu baraja hasta 2 cartas de Energía Lightning y unirlas a tus Pokémon Lightning de la manera que desees. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, este Pokémon queda Fuera de Combate.",
 			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi cercare nel tuo mazzo fino a due carte Energia Lightning e assegnarle ai tuoi Pokémon Lightning nel modo che preferisci. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, questo Pokémon viene messo KO.",
 			pt: "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá procurar por até 2 cartas de Energia Lightning no seu baralho e ligá-las aos seus Pokémon Lightning como desejar. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, este Pokémon será Nocauteado.",
-			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du dein Deck nach bis zu 2 Lightning-Energiekarten durchsuchen und sie beliebig an deine Lightning-Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du dein Deck nach bis zu 2 {L}-Energiekarten durchsuchen und sie beliebig an deine {L}-Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
 		}
 	}],
 
@@ -67,7 +67,8 @@ const card: Card = {
 	illustrator: "Ryo Ueda",
 
 	description: {
-		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+		de: "Es speichert eine riesige Menge Elektrizität in seinem Körper. Es explodiert beim kleinsten Ruck."
 	},
 
 	evolveFrom: {

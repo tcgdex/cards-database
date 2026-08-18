@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 cartas y descártalas. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo fino a tre carte e scartale. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure até 3 cards em seu baralho e descarte-os. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach bis zu 3 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

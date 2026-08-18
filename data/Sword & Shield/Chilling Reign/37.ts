@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+		de: "Sein Körper ist mit flauschigem Fell bedeckt. Das Fell sorgt dafür, dass es nicht friert, auch wenn es sich auf dem Eis hin und her rollt."
 	},
 
 	variants: [

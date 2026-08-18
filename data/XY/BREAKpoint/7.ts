@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+		de: "Da es nährstoffreiche Erde bevorzugt, kann man in Gebieten, in denen es lebt, für gewöhnlich reiche Ernten erwarten."
 	},
 
 	thirdParty: {

@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around."
+		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
+		de: "Ein zutrauliches und gutmütiges Pokémon. Wird es jedoch wütend, beschwört es heftige Stürme herauf, die alles und jeden davonfegen."
 	},
 
 	variants: [

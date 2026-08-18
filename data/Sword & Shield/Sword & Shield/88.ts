@@ -106,7 +106,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It drowses and dreams all the time. It's best to leave it be if it's just woken up, as it's a terrible grump when freshly roused from sleep."
+		en: "It drowses and dreams all the time. It's best to leave it be if it's just woken up, as it's a terrible grump when freshly roused from sleep.",
+		de: "Es schlummert und träumt immerzu. Wenn es geweckt wird, bekommt es schlechte Laune. Deshalb sollte man es lieber in Ruhe lassen."
 	},
 
 	dexId: [518],

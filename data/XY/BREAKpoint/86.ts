@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+		de: "Es heißt, dass die Besatzung von Schiffen, die sich in Tandraks Hoheitsgebiet begeben, nicht mehr lebend zurückkehrt."
 	},
 
 	thirdParty: {

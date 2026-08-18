@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Close examination of its large eyes reveals that each eye is composed of a myriad of tiny eyes.",
+		de: "Bei genauerer Betrachtung zeigt sich, dass seine zwei großen Augen jeweils aus einer Vielzahl an kleineren Augen bestehen."
 	},
 
 	thirdParty: {

@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Tus Pokémon Water no pueden pasar a estar Confundidos. Si esos Pokémon ya están Confundidos, elimina esa Condición Especial.",
 				it: "I tuoi Pokémon Water non possono venire confusi. Se tali Pokémon sono già confusi, rimuovine la condizione speciale.",
 				pt: "Seus Pokémon Water não podem ser Confundidos. Se aqueles Pokémon já estiverem Confusos, remova aquela Condição Especial.",
-				de: "Deine Water-Pokémon können nicht verwirrt werden. Wenn jene Pokémon bereits verwirrt sind, verliert jener Spezielle Zustand seine Wirkung."
+				de: "Deine {W}-Pokémon können nicht verwirrt werden. Wenn jene Pokémon bereits verwirrt sind, verliert jener Spezielle Zustand seine Wirkung."
 			},
 		},
 	],
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+		de: "Lässt sich in warmen Meeren treiben, kehrt aber immer an den Platz seiner Geburt zurück."
 	},
 
 	thirdParty: {

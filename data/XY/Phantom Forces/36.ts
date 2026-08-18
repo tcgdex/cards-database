@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, los Pokémon en juego, en la mano de cada jugador y en la pila de descartes de cada jugador no tienen ninguna habilidad (excepto los Pokémon Psychic).",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, le abilità dei Pokémon in gioco, in mano ai giocatori o nelle loro pile degli scarti non hanno più effetto (a eccezione dei Pokémon Psychic).",
 				pt: "Enquanto este Pokémon for seu Pokémon Ativo, nenhum dos Pokémon em jogo na mão de cada jogador, e também na pilha de descarte de cada jogador, terá Habilidades (exceto Pokémon Psychic).",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler oder im Ablagestapel beider Spieler keine Fähigkeit (außer Psychic-Pokémon)."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler oder im Ablagestapel beider Spieler keine Fähigkeit (außer {P}-Pokémon)."
 			},
 		},
 	],
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+		de: "Es hasst Licht und Schläge. Wird es angegriffen, pumpt es sich auf, um einen Gegenschlag vorzubereiten."
 	},
 
 	thirdParty: {

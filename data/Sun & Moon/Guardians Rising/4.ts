@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Although the leaves on its head are bitter enough to cause dizziness, they provide relief from weariness—even more so when boiled.",
+		de: "Die Blätter auf seinem Kopf sind furchtbar bitter, helfen aber bei Erschöpfung. Als Tee zubereitet, sind sie noch wirksamer."
 	},
 
 	thirdParty: {

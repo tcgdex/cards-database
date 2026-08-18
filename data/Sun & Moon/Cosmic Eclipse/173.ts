@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It has feuded with Seviper for many generations. Its sharp claws are its biggest weapons.",
+		de: "Seit Generationen ist es mit Vipitis verfeindet. Seine scharfen Klauen sind seine stärksten Waffen."
 	},
 
 	thirdParty: {

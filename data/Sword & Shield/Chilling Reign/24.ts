@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
+		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold.",
+		de: "Alten Legenden zufolge wurde es aus einem lodernden Kokon geboren, um von Kälte bedrohte Menschen und Pokémon zu retten."
 	},
 
 	variants: [

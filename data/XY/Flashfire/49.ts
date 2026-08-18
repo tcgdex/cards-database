@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Descarta tantas cartas de Energía Fighting como quieras de tu mano. Este ataque hace 30 puntos de daño por cada carta de Energía que hayas descartado.",
 				it: "Scarta tutte le carte Energia Fighting che vuoi dalla tua mano. Questo attacco infligge 30 danni per ogni carta Energia che hai scartato.",
 				pt: "Descarte tantos cards de Energia Fighting quanto desejar da sua mão. Esse ataque causa 30 de danos vezes o número de cards de Energia descartados.",
-				de: "Lege beliebig viele Fighting-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte für jede der von dir abgelegten Energiekarten zu."
+				de: "Lege beliebig viele {F}-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte für jede der von dir abgelegten Energiekarten zu."
 			},
 			damage: "30×",
 
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+		de: "Es entsteht bei der entwicklungsbedingten Aufspaltung der beiden Bithora in sieben Vertreter ihrer Art. Gemeinsam verfügen sie über die siebenfache Stärke."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon-GX en juego que evolucionen de Eevee cuestan Colorless menos. No puedes aplicar más de 1 habilidad Ovación Veloz a la vez.",
 				it: "Gli attacchi dei tuoi Pokémon-GX in gioco che si evolvono da Eevee costano Colorless in meno. Può essere applicata solo un’abilità Incitamento Rapido alla volta.",
 				pt: "Os ataques dos seus Pokémon-GX em jogo que evoluam de Eevee custam Colorless a menos. Você não pode usar mais de 1 Habilidade Torcida Veloz por vez.",
-				de: "Die Kosten der Attacken deiner Pokémon-GX im Spiel, die sich aus Evoli entwickeln, verringern sich um Colorless. Du kannst immer nur jeweils 1 Fähigkeit Geschwindigkeitsjubel einsetzen."
+				de: "Die Kosten der Attacken deiner Pokémon-GX im Spiel, die sich aus Evoli entwickeln, verringern sich um {C}. Du kannst immer nur jeweils 1 Fähigkeit Geschwindigkeitsjubel einsetzen."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.",
+		de: "Blitza verfügt über ein Organ in der Lunge, das Elektrizität erzeugt. Wenn dieses Pokémon ausatmet, hört man ein elektrisches Knistern."
 	},
 
 	thirdParty: {
