@@ -87,7 +87,7 @@ const card: Card = {
 		{
 			type: 'holo',
 			thirdParty: {
-				cardmarket: 789506,
+				cardmarket: 725095,
 				tcgplayer: 509719,
 				cardtrader: 255575
 			}
@@ -96,7 +96,8 @@ const card: Card = {
 			type: 'holo',
 			size: 'jumbo',
 			thirdParty: {
-				cardmarket: 725095
+				cardmarket: 789506,
+				tcgplayer: 602875
 			}
 		},
 	],
@@ -104,7 +105,7 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
-	
+
 }
 
 export default card
