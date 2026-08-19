@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokémon was born. Its favorite food is frozen souls.",
+		de: "Es ist aus dem Gram einer Frau entstanden, die auf schneebedeckten Bergen umgekommen ist. Am liebsten isst es gefrorene Seelen."
 	},
 
 	variants: [

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Al final de cada turno, si al Pokémon al que está unida esta carta le quedan 30 PS o menos y tiene algún contador de daño sobre él, cúrale 120 puntos de daño. Si has curado algún punto de daño de esta manera, descarta esta carta.",
 		it: "Alla fine di ogni turno, se il Pokémon a cui è assegnata questa carta ha 30 PS o meno rimanenti e se ha dei segnalini danno, cura quel Pokémon da 120 danni. Se hai curato dei danni in questo modo, scarta questa carta.",
 		pt: "No final de cada turno, se o Pokémon ao qual esta carta está ligada tiver PS restante de 30 ou menos e tiver algum contador de dano nele, cure 120 pontos de dano dele. Se você curou qualquer dano desta forma, descarte esta carta.",
-		de: "Am Ende jedes Zuges, wenn das Pokémon, an das diese Karte angelegt ist, 30 oder weniger verbleibende KP hat und auf ihm mindestens 1 Schadensmarke liegt, heile 120 Schadenspunkte bei jenem Pokémon. Wenn du auf diese Weise Schaden geheilt hast, lege diese Karte auf deinen Ablagestapel."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Am Ende jedes Zuges, wenn das Pokémon, an das diese Karte angelegt ist, 30 oder weniger verbleibende KP hat und auf ihm mindestens 1 Schadensmarke liegt, heile 120 Schadenspunkte bei jenem Pokémon. Wenn du auf diese Weise Schaden geheilt hast, lege diese Karte auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

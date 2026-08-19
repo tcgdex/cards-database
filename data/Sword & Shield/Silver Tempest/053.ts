@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities.",
+		de: "Die Erfindung eines jungen Tüftlers hat zu der Herstellung verschiedener Geräte geführt, die das Potenzial von Rotom nutzen können."
 	},
 
 	variants: [

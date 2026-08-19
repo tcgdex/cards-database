@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
+		de: "Dank seiner steinharten Schuppen und mit Fett gefüllten Schwimmblasen kann es dem Wasserdruck der Tiefsee standhalten."
 	},
 
 	variants: [

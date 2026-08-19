@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+		de: "Es verfügt über extrem hohe Intelligenz und soll sich an alles erinnern können, was zwischen seiner Geburt und seinem Tod passiert."
 	},
 
 	variants: [

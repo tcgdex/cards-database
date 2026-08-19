@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab.",
+		de: "Es schüchtert Gegner mit Geräuschen ein, die es mit seinen Giftbeuteln erzeugt. Gelingt ihm dies, erledigt es sein Ziel mit einem Giftangriff."
 	},
 
 	variants: [

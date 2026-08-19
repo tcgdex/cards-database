@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
+		de: "Eine Legende berichtet davon, wie Viridium einst mit Kobalium und Terrakium unermüdlich die Pokémon Einalls vor den Menschen beschützte."
 	},
 
 	variants: [

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When its mane is standing on end, you can tell it's feeling good. When it isn't feeling well, its fur will lie down flat.",
+		de: "Hat es seine Mähne aufgestellt, bedeutet dies, dass es guter Dinge ist. Geht es ihm jedoch schlecht, hängt sie schlaff nach hinten herab."
 	},
 
 	variants: [

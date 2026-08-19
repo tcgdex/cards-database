@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Grudges of the dead have possessed a mound of sand and become a Pokémon. Sandygast is fond of the shovel on its head.",
+		de: "Es entstand aus einem Sandhaufen, in den der Groll eines Verstorbenen fuhr. Die Schaufel auf Sankabuhs Kopf ist sein größter Schatz."
 	},
 
 	variants: [

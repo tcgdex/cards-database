@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
+		de: "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote."
 	},
 
 	variants: [
