@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 1 carta. Después, roba 2 cartas por cada una de las otras cartas de Blanca en tu pila de descartes.",
 		it: "Pesca una carta. Poi pesca due carte per ogni altra Chiara nella tua pila degli scarti.",
 		pt: "Compre 1 carta. Em seguida, compre 2 cartas para cada uma das outras Whitney na sua pilha de descarte.",
-		de: "Ziehe 1 Karte. Ziehe anschließend 2 Karten für jede andere Bianka-Karte in deinem Ablagestapel."
+		de: "Ziehe 1 Karte. Ziehe anschließend 2 Karten für jede weitere Bianka-Karte in deinem Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

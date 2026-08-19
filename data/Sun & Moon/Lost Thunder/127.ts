@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		de: "Es besitzt die Macht, die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
 	thirdParty: {

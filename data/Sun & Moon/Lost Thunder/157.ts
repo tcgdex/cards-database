@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It draws symbols all over the place to mark its territory. In towns with many Smeargle, the walls are covered in graffiti.",
+		de: "Hinterlässt allerlei Markierungen, um sein Revier zu kennzeichnen. Wände in Städten mit vielen Farbeagle sind daher ziemlich vollgeschmiert."
 	},
 
 	thirdParty: {

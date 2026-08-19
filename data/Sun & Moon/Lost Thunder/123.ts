@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
+		de: "Alola-Digda"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+		de: "Man hält es für die Verkörperung der Göttinnen des Landes. In der Alola-Region wird es daher außerordentlich geschätzt."
 	},
 
 	thirdParty: {
