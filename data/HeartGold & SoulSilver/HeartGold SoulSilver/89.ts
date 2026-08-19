@@ -4,7 +4,7 @@ import Set from '../HeartGold SoulSilver'
 const card: Card = {
 	name: {
 		en: "Bill",
-		fr: "Leo",
+		fr: "Léo",
 		de: "Bill"
 	},
 

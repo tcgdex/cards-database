@@ -4,7 +4,7 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sunflora",
-		fr: "Heliatronc",
+		fr: "Héliatronc",
 		de: "Sonnflora"
 	},
 
