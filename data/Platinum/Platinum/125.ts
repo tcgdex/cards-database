@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Palkia G LV.X",
-		fr: "Palkia ",
+		fr: "Palkia G NIV.X",
 		de: "Palkia G"
 	},
 
