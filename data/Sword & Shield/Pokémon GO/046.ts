@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+		de: "Einst wurde es für seine Fähigkeit verehrt, Eisen erschaffen zu können. Nach 3 000 Jahren ist es aus einem unerfindlichen Grund wieder erwacht."
 	},
 
 	

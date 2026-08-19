@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+		de: "Je stärker die Elektrizität ist, die Pikachu produziert, desto weicher und elastischer sind seine Backentaschen."
 	},
 
 

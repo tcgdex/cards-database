@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
+		de: "Es ist nutzlos, was Kraft und Geschwindigkeit angeht. Dieses Pokémon ist das schwächste und erbärmlichste der Welt."
 	},
 
 	

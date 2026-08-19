@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+		de: "Es taucht dort auf, wo Menschen leben. Beim Füttern muss man vorsichtig sein, da sich sonst schnell hunderte von ihnen versammeln können."
 	},
 
 	
