@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte a este Pokémon.",
 			it: "Questo attacco infligge 100 danni per ogni condizione speciale che influenza questo Pokémon.",
 			pt: "Este ataque causa 100 pontos de dano para cada Condição Especial afetando este Pokémon.",
-			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem dieses Pokémon betroffen ist, 100 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem diesem Pokémon betroffen ist, 100 Schadenspunkte zu."
 		},
 
 		damage: "100×"

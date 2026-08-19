@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Busca en tu baraja hasta 2 cartas de Energía Fighting y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia Fighting e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 2 cartas de Energia Fighting no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Fighting-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach bis zu 2 {F}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 		},
 
 		damage: 50
