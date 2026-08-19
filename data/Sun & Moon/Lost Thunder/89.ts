@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
+		de: "Über die Kugel an seiner Stirn feuert es Psycho-Kräfte ab. Geht ihm die Kraft aus, verliert die Farbe der Kugel an Glanz."
 	},
 
 	thirdParty: {

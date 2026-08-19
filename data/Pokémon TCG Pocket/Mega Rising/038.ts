@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisear"
+		en: "Simisear",
+		fr: "Flamoutan"
 	},
 
 	illustrator: "kirisAki",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Pansear"
+		en: "Pansear",
+		fr: "Flamajou"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fury Swipes"
+			en: "Fury Swipes",
+			fr: "Combo-Griffe"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Colorless"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 40 damage for each heads."
+			en: "Flip 3 coins. This attack does 40 damage for each heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face."
 		}
 	}],
 

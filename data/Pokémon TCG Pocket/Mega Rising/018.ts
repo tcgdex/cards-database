@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lilligant"
+		en: "Lilligant",
+		fr: "Fragilady"
 	},
 
 	illustrator: "Kanako Eo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Toughness Aroma"
+			en: "Toughness Aroma",
+			fr: "Arôme d'Endurance"
 		},
 
 		effect: {
-			en: "Each of your {G} Pokémon gets +20 HP."
+			en: "Each of your {G} Pokémon gets +20 HP.",
+			fr: "Chacun de vos Pokémon {G} reçoit + 20 PV."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Smack"
+			en: "Smack",
+			fr: "Claque"
 		},
 
 		damage: 50,

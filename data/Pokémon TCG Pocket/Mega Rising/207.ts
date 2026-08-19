@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furfrou"
+		en: "Furfrou",
+		fr: "Couafarel"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -26,17 +27,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fur Coat"
+			en: "Fur Coat",
+			fr: "Toison Épaisse"
 		},
 
 		effect: {
-			en: "This Pokémon takes −20 damage from attacks."
+			en: "This Pokémon takes −20 damage from attacks.",
+			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sharp Fang"
+			en: "Sharp Fang",
+			fr: "Croc Aiguisé"
 		},
 
 		damage: 50,

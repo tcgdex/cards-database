@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Parasect",
 		fr: "Parasect",
+		de: "Parasek"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Paras",
 		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Colorful Spores",
 				fr: "Spores Colorées",
+				de: "Bunte Sporen"
 			},
 			effect: {
 				en: "Choose 3 of your Pokémon. For each of those Pokémon, search your deck for a different type of basic Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
 				fr: "Choisissez 3 de vos Pokémon. Pour chacun de ces Pokémon, cherchez une carte Énergie de base de type différent dans votre deck et attachez-la au Pokémon. Mélangez ensuite votre deck.",
+				de: "Wähle 3 deiner Pokémon im Spiel. Durchsuche dein Deck nach jeweils 1 vom Typ her anderen Basis-Energiekarte für jedes dieser Pokémon und lege sie an diese Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "X-Scissor",
 				fr: "Plaie-Croix",
+				de: "Kreuzschere"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -73,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+		de: "Je größer der Pilz auf seinem Rücken wird, desto stärker werden auch die Sporen, die es verteilt"
 	},
 
 	thirdParty: {

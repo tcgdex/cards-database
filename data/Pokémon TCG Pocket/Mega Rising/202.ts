@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Herdier"
+		en: "Herdier",
+		fr: "Ponchien"
 	},
 
 	illustrator: "sui",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lillipup"
+		en: "Lillipup",
+		fr: "Ponchiot"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce"
+			en: "Headbutt Bounce",
+			fr: "Culbute Surprise"
 		},
 
 		damage: 40,

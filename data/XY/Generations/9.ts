@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pinsir",
 		fr: "Scarabrute",
+		de: "Pinsir"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Overhead Throw",
 				fr: "Soulève Corne",
+				de: "Überwerfer"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Heavy Suplex",
 				fr: "Suplex Imposant",
+				de: "Wuchtiger Suplex"
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "40+",
 
@@ -70,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It swings its long antlers wildly to attack. During cold periods, it hides deep in forests.",
+		de: "Beim Angriff verdreht es sein Geweih. In Kälteperioden versteckt es sich tief im Wald."
 	},
 
 	thirdParty: {

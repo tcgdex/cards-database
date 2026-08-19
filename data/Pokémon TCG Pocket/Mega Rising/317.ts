@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Decidueye ex"
+		en: "Decidueye ex",
+		fr: "Archéduc-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Dartrix"
+		en: "Dartrix",
+		fr: "Efflèche"
 	},
 
 	stage: "Stage2",
@@ -25,17 +27,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce the Pain"
+			en: "Pierce the Pain",
+			fr: "Acharnement Perçant"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 100 damage to 1 of your opponent's Pokémon that have damage on them."
+			en: "This attack does 100 damage to 1 of your opponent's Pokémon that have damage on them.",
+			fr: "Cette attaque inflige 100 dégâts à un des Pokémon de votre adversaire ayant subi des dégâts."
 		}
 	}, {
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: 80,

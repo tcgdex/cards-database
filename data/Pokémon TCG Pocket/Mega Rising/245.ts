@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hydreigon"
+		en: "Hydreigon",
+		fr: "Trioxhydre"
 	},
 
 	illustrator: "matazo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zweilous"
+		en: "Zweilous",
+		fr: "Diamat"
 	},
 
 	description: {
@@ -30,24 +32,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Roar in Unison"
+			en: "Roar in Unison",
+			fr: "Cri à l'Unisson"
 		},
 
 		effect: {
-			en: "Once during your turn, you may take 2 {D} Energy from your Energy Zone and attach it to this Pokémon. If you do, do 30 damage to this Pokémon."
+			en: "Once during your turn, you may take 2 {D} Energy from your Energy Zone and attach it to this Pokémon. If you do, do 30 damage to this Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez prendre 2 Énergies {D} de votre zone Énergie et les attacher à ce Pokémon. Dans ce cas, infligez 30 dégâts à ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hyper Ray"
+			en: "Hyper Ray",
+			fr: "Hyper Rayon"
 		},
 
 		damage: 130,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon."
 		}
 	}],
 

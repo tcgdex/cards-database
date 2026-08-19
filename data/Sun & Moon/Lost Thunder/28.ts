@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cascoon",
 		fr: "Blindalys",
+		de: "Panekon"
 	},
 
 	stage: "Stage2",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.",
+		de: "Wird es angegriffen, flattert es mit den Flügeln und verteilt giftigen Puder. Es ist nachtaktiv."
 	},
 
 	thirdParty: {

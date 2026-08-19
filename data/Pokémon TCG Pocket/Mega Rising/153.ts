@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drapion"
+		en: "Drapion",
+		fr: "Drascore"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Skorupi"
+		en: "Skorupi",
+		fr: "Rapion"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stun Poison"
+			en: "Stun Poison",
+			fr: "Poison Neural"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned and Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned and Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné et Paralysé."
 		}
 	}],
 

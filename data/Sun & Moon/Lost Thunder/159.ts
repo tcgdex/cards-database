@@ -92,7 +92,7 @@ const card: Card = {
 				es: "Purga Perdida GX",
 				it: "Esilio Perduto-GX",
 				pt: "Expurgação Perdida GX",
-				de: "Nirgendwo-Sturz GX"
+				de: "Nirgendwo-Sturz-GX"
 			},
 			effect: {
 				en: "Put your opponent’s Active Pokémon and all cards attached to it in the Lost Zone. (You can’t use more than 1 GX attack in a game.)",

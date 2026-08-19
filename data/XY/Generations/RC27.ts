@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wally",
 		fr: "Timmy",
+		de: "Heiko"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez dans votre deck une carte Évolution de l'un de vos Pokémon (excepté les Pokémon-EX) et placez-la sur ce dernier. (Cela équivaut à faire évoluer le Pokémon.) Mélangez ensuite votre deck. Vous ne pouvez utiliser cette carte ni pendant votre premier tour ni sur un Pokémon qui a été joué pendant ce tour.",
-		en: "Search your deck for a card that evolves from 1 of your Pokémon (excluding Pokémon-EX) and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. You can use this card during your first turn or on a Pokémon that was put into play this turn."
+		en: "Search your deck for a card that evolves from 1 of your Pokémon (excluding Pokémon-EX) and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. You can use this card during your first turn or on a Pokémon that was put into play this turn.",
+		de: "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon (außer Pokémon-EX) entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

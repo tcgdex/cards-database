@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chansey"
+		en: "Chansey",
+		de: "Chaneira"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind Wound",
+				de: "Wunden verbinden"
 			},
 			effect: {
-				en: "Flip a coin. If heads, heal 30 damage from 1 of your Pokémon."
+				en: "Flip a coin. If heads, heal 30 damage from 1 of your Pokémon.",
+				de: "Wirf 1 Münze. Heile bei Kopf 30 Schadenspunkte bei 1 deiner Pokémon."
 			},
 		},
 		{
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				de: "Einhämmern"
 			},
 			damage: 80,
 		}
