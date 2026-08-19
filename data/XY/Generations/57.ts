@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tauros",
 		fr: "Tauros",
+		de: "Tauros"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Seething Anger",
 				fr: "Furax",
+				de: "Schäumende Wut"
 			},
 			effect: {
 				en: "Flip a coin for each damage counter on this Pokémon. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque marqueur de dégâts placé sur ce Pokémon. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -70,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "After heightening its will to fight by whipping itself with its three tails, it charges at full speed.",
+		de: "Es kämpft mit vollem Einsatz, nachdem es sich mit seinen drei Schweifen auspeitschte, um sich anzustacheln."
 	},
 
 	thirdParty: {

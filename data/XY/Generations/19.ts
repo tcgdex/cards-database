@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -51,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+		de: "Eine harte Schale schützt dieses Pokémon. Nur wenn es diese öffnet, wird es verwundbar."
 	},
 
 	thirdParty: {
