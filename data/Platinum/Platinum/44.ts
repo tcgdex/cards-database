@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wurmple",
-		fr: "Chenipotte"
+		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Ascension",
 				fr: "Ascension",
-				de: "Ascension"
+				de: "Aufstieg"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon.) Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte qui évolue de Blindalys et placez-la sur Blindalys. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
-				de: "Search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon.) Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Karte, die sich aus Panekon entwickelt, und lege diese auf Panekon. (Dies zählt als Entwickeln von Panekon.) Mische dein Deck danach."
 			},
 
 		},
@@ -51,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Poison Thread",
 				fr: "Fil empoisonné",
-				de: "Poison Thread"
+				de: "Giftiger Faden"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+		de: "Es vergisst keinen Angriff, den es im Kokon erdulden musste. Nach der Entwicklung sinnt es auf Rache."
 	},
 
 	variants: [

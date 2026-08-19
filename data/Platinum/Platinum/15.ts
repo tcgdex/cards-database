@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
-				de: "Growth"
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Shaymin.",
 				fr: "Attachez à Shaymin une carte Énergie Grass de votre main",
-				de: "Attach a  Energy card from your hand to Shaymin."
+				de: "Lege 1 {G}-Energiekarte von deiner Hand an Shaymin an."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Air Slash",
 				fr: "Lame d'Air",
-				de: "Air Slash"
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy attached to Shaymin.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à Shaymin.",
-				de: "Flip a coin. If tails, discard all Energy attached to Shaymin."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 1 Energie, die an Shaymin angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -75,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude."
+		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.",
+		de: "Wird es umarmt, empfindet es Dankbarkeit, was wiederum dazu führt, dass seine Blumen blühen."
 	},
 
 	variants: [

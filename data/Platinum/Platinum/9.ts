@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Let Loose",
 				fr: "Libérer",
-				de: "Let Loose"
+				de: "Loslassen"
 			},
 			effect: {
 				en: "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Each player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Giratina de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque joueur mélange sa main à son deck et pioche jusqu'à 4 cartes. (Vous piochez vos cartes en premier.)",
-				de: "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Eac player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)"
+				de: "Einmal während deines Zuges kannst du, wenn du Giratina von deiner Hand auf deine Bank legst, diese Poké-Power benutzen. Jeder Spieler mischt seine Handkarten in sein Deck. Danach zieht jeder Spieler bis zu 4 Karten. (Du ziehst zuerst.)"
 			}
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Earth Power",
 				fr: "Telluriforce",
-				de: "Earth Power"
+				de: "Erdkräfte"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte mal der Anzahl „Kopf“ zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
