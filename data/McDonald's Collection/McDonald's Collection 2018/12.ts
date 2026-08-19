@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon"
+		en: "Porygon",
+		de: "Porygon"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Code Check",
+				de: "Code-Check"
 			},
 			effect: {
-				en: "Look at 1 of your opponent's face-down Prize cards."
+				en: "Look at 1 of your opponent's face-down Prize cards.",
+				de: "Schau dir 1 der verdeckten Preiskarten deines Gegners an."
 			},
 		},
 		{
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beam",
+				de: "Strahl"
 			},
 			damage: 10,
 		}

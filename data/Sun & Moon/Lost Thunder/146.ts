@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cutiefly",
 		fr: "Bombydou",
+		de: "Wommel"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, cada vez que tu rival juegue 1 carta de Partidario de su mano, evita todos los efectos de esa carta infligidos a tus Pokémon Fairy en juego.",
 				it: "Fintanto che questo Pokémon è nella tua panchina, ogni volta che il tuo avversario gioca una carta Aiuto dalla sua mano, previeni tutti gli effetti di quella carta sui tuoi Pokémon Fairy in gioco.",
 				pt: "Enquanto este Pokémon estiver no seu Banco, sempre que seu oponente jogar 1 carta de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados aos seus Pokémon Fairy em jogo.",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die deinen Fairy-Pokémon im Spiel zugefügt werden."
+				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die deinen {FAIRY}-Pokémon im Spiel zugefügt werden."
 			},
 		},
 	],
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Some of Ribombee's pollen puffs are highly nutritious. They are sometimes sold as supplements.",
+		de: "Unter den Pollenknödeln eines Bandelby finden sich so nahrhafte Varianten, dass sie als Nahrungsergänzungsmittel verkauft werden."
 	},
 
 	thirdParty: {

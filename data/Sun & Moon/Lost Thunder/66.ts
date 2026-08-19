@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Popplio",
 		fr: "Otaquin",
+		de: "Robball"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
+		de: "Fühlt sich anderen sehr verbunden. Wenn sein Trainer schlechte Laune hat, muntert es ihn mit einem Tänzchen auf."
 	},
 
 	thirdParty: {

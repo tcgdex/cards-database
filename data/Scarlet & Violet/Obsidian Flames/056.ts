@@ -70,7 +70,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 725136
+				cardmarket: 781857,
+				tcgplayer: 562166,
 			}
 		},
 		{
@@ -85,7 +86,7 @@ const card: Card = {
 
 	illustrator: "Atsuya Uki",
 
-	
+
 }
 
 export default card

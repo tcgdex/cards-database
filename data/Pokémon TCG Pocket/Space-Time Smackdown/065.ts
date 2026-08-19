@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Togetic"
+		en: "Togetic",
+		fr: "Togetic"
 	},
 
 	description: {
