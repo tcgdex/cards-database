@@ -81,7 +81,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere.",
+		de: "Wenn der in seinen Backentaschen gespeicherte Strom leer ist, stellt es seinen Schweif auf, um Elektrizität aus der Luft zu ziehen."
 	},
 
 	dexId: [26],

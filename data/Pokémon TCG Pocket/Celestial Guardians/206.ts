@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Muk ex",
-		fr: "Grotadmorvd'Alola-ex",
-		es: "Mukde Alola ex",
-		it: "Mukdi Alola-ex",
+		fr: "Grotadmorv d’Alola-ex",
+		es: "Muk de Alola ex",
+		it: "Muk di Alola-ex",
 		de: "Alola-Sleimok-ex",
-		'pt-br': "Mukde Alola ex",
+		'pt-br': "Muk de Alola ex",
 		ko: "알로라질뻐기 ex"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Grimer"
+		en: "Alolan Grimer",
+		fr: "Tadmorv d’Alola"
 	},
 
 	stage: "Stage1",

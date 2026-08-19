@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
+		de: "Venicro"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+		de: "Eines der Lebewesen, die Ultrabestien genannt werden. In seinem Körper bewahrt es Hunderte Liter giftiger Flüssigkeit auf."
 	},
 
 	thirdParty: {

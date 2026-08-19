@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Binacle",
 		fr: "Opermine",
+		de: "Bithora"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
+		de: "Arme und Beine verfügen über eigene Gehirne, was ihnen relative Bewegungsfreiheit gewährt. Sie ordnen sich jedoch zumeist den Befehlen des Kopfes unter."
 	},
 
 	thirdParty: {

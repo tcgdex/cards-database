@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.",
+		de: "Der Schutzpatron von Poni. Dieses Pokémon kontrolliert das Wasser. Man sagt, es könne schmutziges in klares Wasser verwandeln."
 	},
 
 	thirdParty: {

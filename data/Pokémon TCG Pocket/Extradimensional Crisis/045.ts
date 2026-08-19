@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Poipole"
+		en: "Poipole",
+		fr: "Vémini"
 	},
 
 	description: {

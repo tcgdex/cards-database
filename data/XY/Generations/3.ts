@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Caterpie",
 		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Adaptive Evolution",
 				fr: "Évolution Adaptative",
+				de: "Anpassungsfähige Entwicklung"
 			},
 			effect: {
 				en: "This Pokémon can evolve during your first turn or the turn you play it.",
 				fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+				de: "Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln."
 			},
 		},
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 10,
@@ -64,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+		de: "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab."
 	},
 
 	thirdParty: {

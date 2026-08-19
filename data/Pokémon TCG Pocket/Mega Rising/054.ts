@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lombre"
+		en: "Lombre",
+		fr: "Lombre"
 	},
 
 	illustrator: "miki kudo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Lotad"
+		en: "Lotad",
+		fr: "Nénupiot"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			en: "Gentle Slap",
+			fr: "Gifle Douce"
 		},
 
 		damage: 40,

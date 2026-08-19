@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+		de: "Anstelle eines Snacks kaut es unterwegs auf einem Zweig herum. Es schreckt Gegner ab, indem es über seine Ohren heiße Luft ausstößt."
 	},
 
 	thirdParty: {

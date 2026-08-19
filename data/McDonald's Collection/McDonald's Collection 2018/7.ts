@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cubone"
+		en: "Cubone",
+		de: "Tragosso"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Leer",
+				de: "Silberblick"
 			},
 			effect: {
-				en: "Flip a coin, If heas, your opponent's Active Pokémon is now Paralyzed"
+				en: "Flip a coin, If heas, your opponent's Active Pokémon is now Paralyzed",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 		},
 		{
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				de: "Kopfnuss"
 			},
 			damage: 20,
 		}

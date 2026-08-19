@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Si tienes 4 o menos Pokémon Grass en tu Banca, este ataque no hace nada.",
 				it: "Se hai quattro o meno Pokémon Grass in panchina, questo attacco non ha effetto.",
 				pt: "Se você tiver 4 ou menos Pokémon Grass no seu Banco, este ataque não fará nada.",
-				de: "Wenn du 4 oder weniger Grass-Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen."
+				de: "Wenn du 4 oder weniger {G}-Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
+		de: "Sein Bauch ist die Wabe für die Larven. Es füttert seine Larven mit dem Honig, den Wadribie sammelt."
 	},
 
 	thirdParty: {

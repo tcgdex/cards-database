@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	illustrator: "Narumi Sato",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dig Claws"
+			en: "Dig Claws",
+			fr: "Creusogriffes"
 		},
 
 		damage: 20,

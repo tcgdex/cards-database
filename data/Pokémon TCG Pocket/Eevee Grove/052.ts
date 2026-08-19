@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Dratini"
+		en: "Dratini",
+		fr: "Minidraco"
 	},
 
 	description: {

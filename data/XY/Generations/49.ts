@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 
 	illustrator: "Midori Harada",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -54,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+		de: "Aufgrund seiner kurzen Beine kann es sich nicht umdrehen. Es kann immer nur in eine Richtung laufen."
 	},
 
 	thirdParty: {

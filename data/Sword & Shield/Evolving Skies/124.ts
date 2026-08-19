@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
+		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
+		de: "Sein ganzer Körper besteht aus kristallisierter Drachen-Energie. Es soll über die Kräfte aller Drachen-Pokémon verfügen."
 	},
 
 	regulationMark: "E",

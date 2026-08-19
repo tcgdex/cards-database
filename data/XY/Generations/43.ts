@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Geodude",
 		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	illustrator: "MAHOU",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "This attack does 10 damage times the number of damage counters on this Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: "10×",
 
@@ -66,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+		de: "Wanderer stolpern in den Bergen häufig über dieses Pokémon, da es wie ein Stein aussieht."
 	},
 
 	thirdParty: {

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck"
+		en: "Psyduck",
+		de: "Enton"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confusion Wave",
+				de: "Verwirrende Welle"
 			},
 			effect: {
-				en: "Both Activate Pokémon are now Confused"
+				en: "Both Activate Pokémon are now Confused",
+				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 		},
 	],

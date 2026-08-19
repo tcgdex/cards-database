@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede buscar en su baraja 1 Pokémon Grass Evolución, enseñarlo y ponerlo en su mano. Después, ese jugador baraja las cartas de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può cercare nel suo mazzo un Pokémon Evoluzione Grass, mostrarlo e aggiungerlo alle carte che ha in mano. Poi quel giocatore rimischia le carte del suo mazzo.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá procurar por 1 Pokémon Grass de Evolução no próprio baralho, revelá-lo e colocá-lo na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Entwicklungs-Grass-Pokémon durchsuchen, es seinem Gegner zeigen und auf seine Hand nehmen. Anschließend mischt jener Spieler sein Deck."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Entwicklungs-{G}-Pokémon durchsuchen, es seinem Gegner zeigen und auf seine Hand nehmen. Anschließend mischt jener Spieler sein Deck. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

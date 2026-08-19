@@ -51,7 +51,8 @@ const card: Card = {
 	dexId: [371],
 
 	description: {
-		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution.",
+		de: "Einer Theorie zufolge werden durch seine Kopfstöße Zellen angeregt, die seine Entwicklung beeinflussen."
 	},
 
 	regulationMark: "E",

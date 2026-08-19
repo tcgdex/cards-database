@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zigzagoon"
+		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 20,

@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
 	},
 
 	thirdParty: {

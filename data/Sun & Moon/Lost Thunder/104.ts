@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its melodies are sung with a special vocalization method that can control the feels of those who hear it.",
+		de: "Wer die Melodie hört, die es in einer speziellen Stimmlage von sich gibt, steht voll in seinem Bann."
 	},
 
 	thirdParty: {

@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Teddiursa"
+		en: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	description: {

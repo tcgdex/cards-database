@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gothorita"
+		en: "Gothorita",
+		fr: "Mesmérella"
 	},
 
 	illustrator: "sowsow",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Gothita"
+		en: "Gothita",
+		fr: "Scrutella"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slap"
+			en: "Slap",
+			fr: "Gifle"
 		},
 
 		damage: 30,

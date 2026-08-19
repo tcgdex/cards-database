@@ -22,7 +22,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		fr: "Grillepattes"
 	},
 
 	attacks: [{

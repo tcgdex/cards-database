@@ -59,7 +59,8 @@ const card: Card = {
 	dexId: [718],
 
 	description: {
-		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
+		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
+		de: "Im Kampf gegen all jene, die das Ökosystem in Gefahr bringen, nimmt es angeblich eine noch mächtigere Form an."
 	},
 
 	regulationMark: "E",

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+		de: "Eine gefährliche Ultrabestie, die ununterbrochen mit Fressen beschäftigt zu sein scheint. Es wurden jedoch nie Exkremente gefunden."
 	},
 
 	thirdParty: {

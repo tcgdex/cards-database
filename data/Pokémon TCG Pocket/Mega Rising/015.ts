@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cottonee"
+		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It shoots cotton from its body to protect itself.\nIf it gets caught up in hurricane-strength winds,\nit can get sent to the other side of the Earth."
+		en: "It shoots cotton from its body to protect itself.\nIf it gets caught up in hurricane-strength winds,\nit can get sent to the other side of the Earth.",
+		fr: "Il sème du coton pour se protéger.\\nIl lui arrive d'être emporté par une\\ntempête à l'autre bout du monde."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: 20,

@@ -58,7 +58,7 @@ const card: Card = {
 			es: "Puedes descartar 3 Energías Lightning de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
 			it: "Puoi scartare tre Energie Lightning da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
 			pt: "You may discard 3 Lightning Energy from this Pokémon. If you do, this attack does 120 more damage.",
-			de: "Du kannst 3 Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			de: "Du kannst 3 {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+",
@@ -82,7 +82,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
+		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+		de: "Seine Schweifspitze strahlt ein starkes, helles Licht aus. Auf See gilt dieses Leuchten von alters her als bedeutender Wegweiser."
 	},
 
 	dexId: [181],

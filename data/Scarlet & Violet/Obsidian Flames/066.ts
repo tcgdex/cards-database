@@ -92,12 +92,20 @@ const card: Card = {
 				cardtrader: 255626
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756379,
+				tcgplayer: 538743,
+			},
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	
+
 }
 
 export default card

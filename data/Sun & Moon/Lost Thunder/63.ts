@@ -65,7 +65,7 @@ const card: Card = {
 				es: "Llamas Glaciales",
 				it: "Ghiacci Roventi",
 				pt: "Chamas Congelantes",
-				de: "Frostflammen"
+				de: "Frostflamme"
 			},
 			effect: {
 				en: "If this Pokémon has any Fire Energy attached to it, this attack does 80 more damage.",
@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 80 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 80 danni in più.",
 				pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "80+",
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
 	thirdParty: {

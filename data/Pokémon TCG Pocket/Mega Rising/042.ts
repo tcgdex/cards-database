@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lampent"
+		en: "Lampent",
+		fr: "Mélancolux"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litwick"
+		en: "Litwick",
+		fr: "Funécire"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			en: "Will-O-Wisp",
+			fr: "Feu Follet"
 		},
 
 		damage: 40,

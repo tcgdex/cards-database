@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stoutland"
+		en: "Stoutland",
+		fr: "Mastouffe"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Herdier"
+		en: "Herdier",
+		fr: "Ponchien"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dangerous Bite"
+			en: "Dangerous Bite",
+			fr: "Morsure Dangereuse"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 70 more damage."
+			en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 70 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 70 dégâts supplémentaires."
 		}
 	}],
 

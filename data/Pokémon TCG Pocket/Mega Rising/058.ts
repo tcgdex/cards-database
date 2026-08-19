@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish"
+		en: "Corphish",
+		fr: "Écrapince"
 	},
 
 	illustrator: "Sekio",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O"
 		},
 
 		damage: 20,
