@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Elige 1 carta de Entrenador de tu pila de descartes. Después, pregúntale a tu rival si puedes ponerla en tu mano. Si contesta que sí, pon esa carta en tu mano. Si contesta que no, roba 3 cartas.",
 		it: "Scegli una carta Allenatore dalla tua pila degli scarti. Poi chiedi al tuo avversario se puoi aggiungerla a quelle che hai in mano. Se dice di sì, aggiungila alle carte che hai in mano. Se dice di no, pesca tre carte.",
 		pt: "Escolha uma carta de Treinador da sua pilha de descarte. Em seguida, pergunte ao seu oponente se você pode colocá-la na sua mão. Se sim, coloque a carta na sua mão. Se não, compre 3 cartas.",
-		de: "Wähle 1 Trainerkarte aus deinem Ablagestapel. Frage anschließend deinen Gegner, ob du sie auf deine Hand nehmen darfst. Wenn ja, nimm sie auf deine Hand. Wenn nein, ziehe 3 Karten."
+		de: "Wähle 1 Trainerkarte aus deinem Ablagestapel. Frage anschließend deinen Gegner, ob du sie auf deine Hand nehmen darfst. Wenn ja, nimm sie auf deine Hand. Wenn nein, ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

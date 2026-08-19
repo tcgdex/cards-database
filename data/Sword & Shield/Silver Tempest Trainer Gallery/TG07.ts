@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!",
+		de: "Reibt es seinen steinernen Fellkragen an einem Trainer, ist das ein Zeichen seiner Zuneigung. Da er jedoch scharf ist, besteht Verletzungsgefahr."
 	},
 
 	variants: [
