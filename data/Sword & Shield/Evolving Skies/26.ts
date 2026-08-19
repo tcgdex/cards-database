@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison.",
+		de: "Es besteht zu 99 % aus Wasser. Das restliche 1 % wird von einem Organ für die Giftproduktion eingenommen."
 	},
 
 	dexId: [72],

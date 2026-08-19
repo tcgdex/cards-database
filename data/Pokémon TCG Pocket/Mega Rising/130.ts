@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile"
+		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge"
 		},
 
 		damage: 20,

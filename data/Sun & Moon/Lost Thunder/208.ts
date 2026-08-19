@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 carta de Herramienta Pokémon o 1 carta de Energía Especial unida a 1 de los Pokémon de tu rival, o cualquier carta de Estadio en juego, y ponla en la Zona Perdida.",
 		it: "Scegli una carta Oggetto Pokémon o Energia speciale assegnata a uno dei Pokémon del tuo avversario o una carta Stadio in gioco e mettila nell’area perduta.",
 		pt: "Escolha 1 carta de Ferramenta Pokémon ou Energia Especial ligada a 1 dos Pokémon do seu oponente, ou qualquer carta de Estádio em jogo, e coloque-a na Zona Perdida.",
-		de: "Wähle 1 Pokémon-Ausrüstung oder Spezial-Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, oder 1 beliebige Stadionkarte im Spiel und lege sie ins Nirgendwo."
+		de: "Wähle 1 Pokémon-Ausrüstung oder Spezial-Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, oder 1 beliebige Stadionkarte im Spiel und lege sie ins Nirgendwo. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

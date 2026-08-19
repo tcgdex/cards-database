@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne"
+		en: "Dedenne",
+		fr: "Dedenne"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Electric Nibbling"
+			en: "Electric Nibbling",
+			fr: "Grignotage Survolté"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Discard a {L} Energy from your opponent's Active Pokémon."
+			en: "Discard a {L} Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez au hasard une Énergie {L} du Pokémon Actif de votre adversaire."
 		}
 	}],
 

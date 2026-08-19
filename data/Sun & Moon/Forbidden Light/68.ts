@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
+		de: "Mit seinem gewaltigen Kiefer kann dieses Pokémon, das vor 100 Millionen Jahren lebte, ein Auto so leicht zermalmen, als wäre es ein reifer Apfel."
 	},
 
 	thirdParty: {

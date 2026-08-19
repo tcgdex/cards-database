@@ -36,24 +36,28 @@ const card: Card = {
 
 		name: {
 			en: "Hunting Claw",
-			fr: "Griffe de Chasse"
+			fr: "Griffe de Chasse",
+			de: "Jagdklaue"
 		},
 
 		effect: {
 			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
-			fr: "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins."
+			fr: "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins.",
+			de: "Mache 1 Pokémon deines Gegner im Spiel, das 60 oder weniger verbleibende KP hat, kampfunfähig."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
 			en: "Max Edge",
-			fr: "Lamomax"
+			fr: "Lamomax",
+			de: "Dyna-Kante"
 		},
 
 		effect: {
 			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 190

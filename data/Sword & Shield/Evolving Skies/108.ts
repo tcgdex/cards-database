@@ -57,7 +57,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly."
+		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.",
+		de: "Es lebt tief im Inneren von Höhlen. Von seiner harten Schale umgeben träumt es von dem Tag, an dem es am Himmel fliegt."
 	},
 
 	regulationMark: "E",

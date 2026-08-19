@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Este Pokémon puede tener hasta 2 cartas de Herramienta Pokémon unidas a él. Si pierde esta habilidad, descarta cartas de Herramienta Pokémon de él hasta que solo quede 1.",
 				it: "Questo Pokémon può avere fino a due carte Oggetto Pokémon assegnate. Se perde questa abilità, scarta le carte Oggetto Pokémon assegnategli finché ne resta solo una.",
 				pt: "Este Pokémon pode ter até 2 cartas de Ferramenta Pokémon ligadas a ele. Se ele perder esta Habilidade, descarte cartas de Ferramenta Pokémon dele até restar apenas 1.",
-				de: "An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein. Wenn es diese Fähigkeit verliert, lege von ihm so lang Pokémon-Ausrüstungen auf deinen Ablagestapel, bis nur 1 übrig ist."
+				de: "An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein. Wenn es diese Fähigkeit verliert, lege von ihm so lang Pokémon-Ausrüstungen auf deinen Ablagestapel, bis nur 1 verbleibt."
 			},
 		},
 	],
@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Quiebre Destructor GX",
 				it: "Sfondamento Difese-GX",
 				pt: "Destruidor Explosivo GX",
-				de: "Knacker GX"
+				de: "Knacker-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance. (You can’t use more than 1 GX attack in a game.)",

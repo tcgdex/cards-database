@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
+		de: "Vor langer Zeit wurde dieses Pokémon in der Kalos-Region als Leibgarde des Königs eingesetzt."
 	},
 
 	thirdParty: {

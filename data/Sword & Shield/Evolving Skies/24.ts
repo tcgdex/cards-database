@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
+		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache.",
+		de: "Es wurde herausgefunden, dass die Aktivität seiner Hirnzellen bei Kopfschmerzen auf das Zehnfache ansteigt."
 	},
 
 	dexId: [54],

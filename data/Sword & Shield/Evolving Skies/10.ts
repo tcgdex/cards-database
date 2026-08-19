@@ -61,7 +61,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot."
+		en: "It's well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+		de: "Es ist aufgrund seiner Schönheit bei anderen Pokémon beliebt. Die Blume an seinem Kopf verwelkt sofort, wenn man sie nicht pflegt."
 	},
 
 	dexId: [549],

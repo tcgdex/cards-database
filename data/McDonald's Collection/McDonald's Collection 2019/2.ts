@@ -9,25 +9,29 @@ const card: Card = {
 	dexId: [103],
 
 	description: {
-		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+		de: "Der Wachstumsschub machte seine Psycho-Kräfte überflüssig. Stattdessen wurden die in ihm schlafenden Drachen-Kräfte geweckt."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tropical Shake"
+			en: "Tropical Shake",
+			de: "Tropisches Schütteln"
 		},
 
 		damage: "20+",
 
 		effect: {
-			en: "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way."
+			en: "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way.",
+			de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der verschiedenen Basis-Energiekarten-Typen in deinem Ablagestapel zu. Du kannst auf diese Weise höchstens 100 Schadenspunkte mehr zufügen."
 		}
 	}],
 
 	name: {
-		en: "Alolan Exeggutor"
+		en: "Alolan Exeggutor",
+		de: "Alola-Kokowei"
 	},
 
 	rarity: "None",

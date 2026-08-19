@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippopotas"
+		en: "Hippopotas",
+		fr: "Hippopotas"
 	},
 
 	illustrator: "Yuya Oka",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud Shot"
+			en: "Mud Shot",
+			fr: "Tir de Boue"
 		},
 
 		damage: 30,

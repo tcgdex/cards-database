@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 de tus Pokémon y, después, lanza 2 monedas. Por cada cara, cura 30 puntos de daño a ese Pokémon.",
 		it: "Scegli uno dei tuoi Pokémon, quindi lancia due volte una moneta. Ogni volta che esce testa, cura quel Pokémon da 30 danni.",
 		pt: "Escolha 1 dos seus Pokémon e então jogue 2 moedas. Para cada cara, cure 30 pontos de dano daquele Pokémon.",
-		de: "Wähle 1 deiner Pokémon und wirf anschließend 2 Münzen. Heile pro Kopf 30 Schadenspunkte bei jenem Pokémon."
+		de: "Wähle 1 deiner Pokémon und wirf anschließend 2 Münzen. Heile pro Kopf 30 Schadenspunkte bei jenem Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

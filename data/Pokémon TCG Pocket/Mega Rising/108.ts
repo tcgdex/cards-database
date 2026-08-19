@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifblim"
+		en: "Drifblim",
+		fr: "Grodrive"
 	},
 
 	illustrator: "Yumi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon"
+		en: "Drifloon",
+		fr: "Baudrive"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Balloon Barrage"
+			en: "Balloon Barrage",
+			fr: "Barrage de Ballons"
 		},
 
 		damage: 20,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Energy attached to this Pokémon."
+			en: "This attack does 20 more damage for each Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée à ce Pokémon."
 		}
 	}],
 

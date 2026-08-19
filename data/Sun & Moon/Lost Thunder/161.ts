@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon tenga alguna carta de Energía Unidad GrassFireWater unida a él, es un Pokémon Grass, Fire y Water.",
 				it: "Fintanto che ha delle carte Energia Unione GrassFireWater assegnate, questo Pokémon è di tipo Grass, Fire e Water.",
 				pt: "Enquanto este Pokémon tiver Energia Unitária GrassFireWater ligada a ele, será um Pokémon Grass, Fire e Water.",
-				de: "Solang an dieses Pokémon Aggregat-Energie GrassFireWater angelegt ist, ist es ein Grass-, Fire- und Water-Pokémon."
+				de: "Solang an dieses Pokémon Aggregat-Energie {G}{R}{W} angelegt ist, ist es ein {G}-, {R}- und {W}-Pokémon."
 			},
 		},
 	],
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+		de: "Beim Beutefang passt es seine Farbe der Umgebung an. Nur das Muster auf seinem Bauch bleibt gleich."
 	},
 
 	thirdParty: {

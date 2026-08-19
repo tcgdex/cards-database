@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "To corner prey, they check each other's location using barks that only they can understand.",
+		de: "Sie treiben ihre Beute in die Enge und orientieren sich dabei anhand ihres Bellens, das nur sie verstehen."
 	},
 
 	thirdParty: {

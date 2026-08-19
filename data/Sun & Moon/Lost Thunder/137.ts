@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day.",
+		de: "Es brüllt, um seine Feinde zu verunsichern. Normalerweise geht es die Dinge gemütlich an und schläft den halben Tag."
 	},
 
 	thirdParty: {

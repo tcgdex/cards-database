@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewpider",
 		fr: "Araqua",
+		de: "Araqua"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite what its appearance suggests, it cares for others. If it finds vulnerable, weak Pokémon, it protectively brings them into its water bubble.",
+		de: "Es ist fürsorglicher, als es aussieht. Findet es einen kleinen, schwachen Artgenossen, gewährt es ihm Einlass in seine Wasserblase."
 	},
 
 	thirdParty: {
