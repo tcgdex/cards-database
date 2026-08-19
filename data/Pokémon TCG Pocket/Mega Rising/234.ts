@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jellicent"
+		en: "Jellicent",
+		fr: "Moyade"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frillish"
+		en: "Frillish",
+		fr: "Viskuse"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Bouncy Body"
+			en: "Bouncy Body",
+			fr: "Corps Rebondissant"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et subit les dégâts d'une attaque d'un Pokémon de votre adversaire, prenez une Énergie {W} de votre zone Énergie et attachez-la à un de vos Pokémon de Banc."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Surf"
+			en: "Surf",
+			fr: "Surf"
 		},
 
 		damage: 60,

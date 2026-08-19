@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandslash"
+		en: "Sandslash",
+		fr: "Sablaireau"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		en: "Sandshrew",
+		fr: "Sabelette"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Cut"
+			en: "Cut",
+			fr: "Coupe"
 		},
 
 		damage: 50,

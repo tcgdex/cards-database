@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dubwool"
+		en: "Dubwool",
+		fr: "Moumouflon"
 	},
 
 	illustrator: "You Iribi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Wooloo"
+		en: "Wooloo",
+		fr: "Moumouton"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Boundless Power"
+			en: "Boundless Power",
+			fr: "Puissance Illimitée"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack."
+			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 

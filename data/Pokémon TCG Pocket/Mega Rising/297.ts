@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwrath"
+		en: "Poliwrath",
+		fr: "Tartard"
 	},
 
 	illustrator: "MAHOU",
@@ -17,11 +18,13 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Poliwhirl"
+		en: "Poliwhirl",
+		fr: "Têtarte"
 	},
 
 	description: {
-		en: "Its body is solid muscle. When swimming through\ncold seas, Poliwrath uses its impressive arms to\nsmash through drift ice and plow forward."
+		en: "Its body is solid muscle. When swimming through\ncold seas, Poliwrath uses its impressive arms to\nsmash through drift ice and plow forward.",
+		fr: "Cette véritable montagne de muscles peut\\nse frayer un chemin même dans les eaux glaciales\\nen éclatant la banquise avec ses bras robustes."
 	},
 
 	stage: "Stage2",
@@ -30,17 +33,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Counterattack"
+			en: "Counterattack",
+			fr: "Contre-Attaque"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et subit les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant subit 20 dégâts."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Mega Punch"
+			en: "Mega Punch",
+			fr: "Ultimapoing"
 		},
 
 		damage: 80,
