@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Acabar con Todo GX",
 				it: "Presa Schiacciante-GX",
 				pt: "Aniquilação GX",
-				de: "Smackdown GX"
+				de: "Smackdown-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

@@ -71,6 +71,14 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786049,
+				tcgplayer: 602840,
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725185,
@@ -82,7 +90,7 @@ const card: Card = {
 
 	illustrator: "KYUPIYAMA",
 
-	
+
 }
 
 export default card

@@ -87,6 +87,14 @@ const card: Card = {
 
 	variants: [
 		{
+			type: 'normal',
+			stamp: ['pre-release'],
+			thirdParty: {
+				cardmarket: 727119,
+				tcgplayer: 515290,
+			}
+		},
+		{
 			type: 'holo',
 			thirdParty: {
 				cardmarket: 725152,
@@ -106,7 +114,7 @@ const card: Card = {
 
 	illustrator: "Anesaki Dynamic",
 
-	
+
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Marill",
 		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+		de: "Das blasenähnliche Muster auf seinem Bauch hilft ihm, sich perfekt zu tarnen, wenn es im Wasser ist."
 	},
 
 	thirdParty: {

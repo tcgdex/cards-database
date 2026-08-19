@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Beatdown",
 				fr: "Dérouillée",
+				de: "Niederprügler"
 			},
 
 			damage: 40,
@@ -56,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+		de: "Dieses Pokémon ist superstark. Es kann sich nur mit einem Kraft regulierenden Gürtel bewegen."
 	},
 
 	thirdParty: {

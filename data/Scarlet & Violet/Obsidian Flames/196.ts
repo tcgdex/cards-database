@@ -45,11 +45,26 @@ const card: Card = {
 				cardtrader: 256092
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 811161,
+				tcgplayer: 811245,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 815478,
+			},
+		},
 	],
 
 	illustrator: "Oswaldo KATO",
 
-	
+
 }
 
 export default card

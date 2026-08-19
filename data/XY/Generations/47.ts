@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hitmonlee",
 		fr: "Kicklee",
+		de: "Kicklee"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Stretch Kick",
 				fr: "Allonge",
+				de: "Streckkick"
 			},
 			effect: {
 				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Spiral Kick",
 				fr: "Coup'd Pied en Spirale",
+				de: "Drehtritt"
 			},
 
 			damage: 30,
@@ -65,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+		de: "Die Beine ziehen und strecken sich unabhängig voneinander. Mit seinen dehnbaren Beinen kann es einen entfernten Gegner treffen."
 	},
 
 	thirdParty: {

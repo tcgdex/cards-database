@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard EX",
 		fr: "Dracaufeu-EX",
+		de: "Glurak-EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Flame Cloak",
 				fr: "Manteau de Feu",
+				de: "Flammenumhang"
 			},
 			effect: {
 				en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
 				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				de: "Nimm 1 {R}-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Burning Breath",
 				fr: "Souffle de Feu",
+				de: "Heißer Hauch"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "80+",
 

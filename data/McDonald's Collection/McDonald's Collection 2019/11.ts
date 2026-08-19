@@ -9,25 +9,29 @@ const card: Card = {
 	dexId: [51],
 
 	description: {
-		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
+		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+		de: "Man hält es für die Verkörperung der Göttinnen des Landes. In der Alola-Region wird es daher außerordentlich geschätzt."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gold Rush"
+			en: "Gold Rush",
+			de: "Goldrausch"
 		},
 
 		damage: "30×",
 
 		effect: {
-			en: "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
+			en: "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way.",
+			de: "Lege beliebig viele {M}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 		}
 	}],
 
 	name: {
-		en: "Alolan Dugtrio"
+		en: "Alolan Dugtrio",
+		de: "Alola-Digdri"
 	},
 
 	rarity: "None",

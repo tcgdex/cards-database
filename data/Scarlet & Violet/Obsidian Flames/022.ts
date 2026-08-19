@@ -92,12 +92,28 @@ const card: Card = {
 				cardtrader: 255582
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				cardmarket: 780004,
+				tcgplayer: 213012,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756378,
+				tcgplayer: 538743,
+			},
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	
+
 }
 
 export default card

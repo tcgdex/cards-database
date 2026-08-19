@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+		de: "Es haust in Wäldern und auf Wiesen. Bei Angriffen wehrt es sich mit den Giftstacheln auf seinem Hinterteil."
 	},
 
 	thirdParty: {

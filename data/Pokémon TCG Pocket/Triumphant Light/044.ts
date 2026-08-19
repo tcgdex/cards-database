@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite"
+		en: "Meditite",
+		fr: "Méditikka"
 	},
 
 	description: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Altaria",
 		fr: "Altaria",
+		de: "Altaria"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -37,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				de: "Flattern"
 			},
 
 			damage: 20,
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Fairy Friend",
 				fr: "Ami Féérique",
+				de: "Feen-Freund"
 			},
 			effect: {
 				en: "If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.",
 				fr: "Si vous avez un Pokémon Fairy sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn du mindestens 1 {FAIRY}-Pokémon auf deiner Bank hast, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This fluffiness makes everyone go crazy. Is it really that charming?",
+		de: "Diese Flaumigkeit macht alle ganz verrückt. Ist sie wirklich so bezaubernd?"
 	},
 
 	thirdParty: {
