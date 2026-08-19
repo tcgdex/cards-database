@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
+		en: "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls.",
+		de: "Seine Perle ist sehr kostbar. Es heißt, sie sei mindestens zehnmal so viel wert wie jene von Muschas."
 	},
 
 	attacks: [{

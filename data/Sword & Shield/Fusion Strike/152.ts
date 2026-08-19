@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
+		de: "Sein Verstand ist ungefähr auf dem Level eines dreijährigen Kindes. Es macht ihm nichts aus, dass seine Tentakel oft abreißen, da sie nachwachsen."
 	},
 
 	attacks: [{

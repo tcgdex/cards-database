@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 
 	description: {
-		en: "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them."
+		en: "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them.",
+		de: "Es lässt seine Schwanzflosse rotieren und stößt mit einem Mal zu. Es durchsticht seine Beute mit einer Geschwindigkeit von über 100 Knoten."
 	},
 
 	attacks: [{

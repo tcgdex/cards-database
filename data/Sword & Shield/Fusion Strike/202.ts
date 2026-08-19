@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	description: {
-		en: "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small."
+		en: "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small.",
+		de: "Einst wurde es exzessiv von Wilddieben gejagt, die es auf das Ei in seinem Beutel abgesehen hatten. Mittlerweile ist es daher sehr selten."
 	},
 
 	attacks: [{

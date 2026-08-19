@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies."
+		en: "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies.",
+		de: "In dem Fortsatz auf seinem Rücken befindet sich sein winziges Gehirn. Es kann nur ans Fressen und an die Flucht vor seinen Feinden denken."
 	},
 
 	attacks: [{

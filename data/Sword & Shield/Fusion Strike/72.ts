@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "SATOSHI NAKAI",
 
 	description: {
-		en: "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt."
+		en: "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt.",
+		de: "Es ist sanftmütig, aber stark. Den Schneeball auf seinem Kopf kann es in Sekundenschnelle zu Eis erstarren lassen, um Kopfstöße zu verteilen."
 	},
 
 	attacks: [{

@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity."
+		en: "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity.",
+		de: "Es schmückt sich mit Knochen. Man kann wohl Trends beobachten, was für Knochenformen bei ihnen gerade besonders angesagt sind."
 	},
 
 	attacks: [{

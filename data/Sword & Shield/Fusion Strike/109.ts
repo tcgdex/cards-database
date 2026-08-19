@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 
 	description: {
-		en: "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order."
+		en: "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+		de: "Egal, wie viel es auch frisst, es wird sofort wieder hungrig. Es röstet Samen mit seiner Elektrizität und trägt diese dann vorsichtig mit sich herum."
 	},
 
 	attacks: [{

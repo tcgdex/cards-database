@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
+		en: "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants.",
+		de: "Es schleicht sich in Häuser ein und geht dort auf Diebeszug. Zudem verleibt es sich die negative Energie der deshalb verärgerten Menschen ein."
 	},
 
 	attacks: [{

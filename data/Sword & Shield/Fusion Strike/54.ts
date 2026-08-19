@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 
 	description: {
-		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch."
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+		de: "Es kommt gut mit Kälte zurecht und kann auch in eisigen Meeren problemlos schwimmen. Seine Haut fühlt sich glatt und kühl an."
 	},
 
 	attacks: [{

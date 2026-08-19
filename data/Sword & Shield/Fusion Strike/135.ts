@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
+		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
+		de: "Mit den Armen erklimmt es selbst steile Hänge. Unter den Menschen soll diese Klettermethode Vorbild für den Bouldersport gewesen sein."
 	},
 
 	attacks: [{

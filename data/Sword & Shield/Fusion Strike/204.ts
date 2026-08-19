@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
+		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it.",
+		de: "Wer ein Kangama-Junges sieht, das zum Spielen den Beutel verlassen hat, sollte sich ihm nicht nähern. Seine Mutter behält es stets im Auge."
 	},
 
 	attacks: [{

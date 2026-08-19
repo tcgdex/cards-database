@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+		de: "Alleine erzeugen sie nur geringe Mengen an Elektrizität, aber im Schwarm können sie mächtige Stromsalven abfeuern."
 	},
 
 	attacks: [{

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Lanza 1 moneda. Si sale cara, roba 2 cartas más.",
 		it: "Pesca due carte. Lancia una moneta. Se esce testa, pesca altre due carte.",
 		pt: "Compre 2 cartas. Jogue 1 moeda. Se sair cara, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wirf 1 Münze. Ziehe bei Kopf 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wirf 1 Münze. Ziehe bei Kopf 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

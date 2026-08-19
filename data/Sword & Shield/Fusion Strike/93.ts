@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 
 	description: {
-		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
+		de: "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich."
 	},
 
 	attacks: [{

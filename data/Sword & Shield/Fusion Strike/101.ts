@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity."
+		en: "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity.",
+		de: "Wenn es ein Akkup als Reservebatterie trägt, kann es im Flug eine Salve aus extrem starken Elextrostrahlen abfeuern."
 	},
 
 	attacks: [{

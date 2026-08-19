@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents."
+		en: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
+		de: "Mit seinem kleinen Körper kann es flink fliegen und so mithilfe von trickreichen Taktiken größere Gegner überlisten."
 	},
 
 	attacks: [{
