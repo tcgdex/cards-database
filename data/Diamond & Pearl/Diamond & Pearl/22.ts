@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Clefable",
-		fr: "Melodelfe",
+		fr: "Mélodelfe",
 		de: "Pixi"
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Melofée",
+		fr: "Mélofée",
 		de: "Piepi"
 	},
 

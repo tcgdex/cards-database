@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Ditto",
-		fr: "Metamorph",
+		fr: "Métamorph",
 		de: "Ditto"
 	},
 

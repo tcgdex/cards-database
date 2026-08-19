@@ -4,7 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant",
+		fr: "Débugant",
 		de: "Rabauz"
 	},
 
