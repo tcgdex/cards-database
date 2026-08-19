@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		en: "Growlithe",
+		de: "Fukano"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				de: "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself"
+				en: "This Pokémon does 20 damage to itself",
+				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 		},
