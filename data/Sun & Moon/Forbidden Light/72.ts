@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+		de: "Man nimmt an, dass es das Ökosystem beobachtet und über geheime Kräfte verfügt."
 	},
 
 	thirdParty: {

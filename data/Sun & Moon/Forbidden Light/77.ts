@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
+		de: "Eine rätselhafte Ultrabestie, die angeblich mit einem einzigen Schlag einen beladenen Laster pulverisieren kann."
 	},
 
 	thirdParty: {
