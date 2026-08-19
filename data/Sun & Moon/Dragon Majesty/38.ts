@@ -4,7 +4,7 @@ import Set from '../Dragon Majesty'
 const card: Card = {
 	name: {
 		en: "Vibrava",
-		fr: "Vibrava",
+		fr: "Vibraninf",
 		es: "Vibrava",
 		it: "Vibrava",
 		pt: "Vibrava",
