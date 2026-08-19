@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Jigglypuff posses a vocal range that exceeds 12 octaves, but each individual's singing skill depends on its own effort.",
+		de: "Sein Stimmumfang übersteigt zwölf Oktaven. Wie gut ein Pummeluff singen kann, hängt jedoch davon ab, wie fleißig es übt."
 	},
 
 	thirdParty: {
