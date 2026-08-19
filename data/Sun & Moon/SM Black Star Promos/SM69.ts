@@ -4,7 +4,7 @@ import Set from '../SM Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Buzzwole GX",
-		fr: "Câblifère GX",
+		fr: "Mouscoto GX",
 		es: "Buzzwole GX",
 		it: "Buzzwole GX",
 		pt: "Buzzwole GX",
