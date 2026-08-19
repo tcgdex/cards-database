@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
+		de: "Sein brutales Wesen sowie die speergleichen Stacheln haben ihm den Beinamen „Meeresdämon“ beschert. Es schlürft Gift, das ihm als Nahrung dient."
 	},
 
 	variants: [

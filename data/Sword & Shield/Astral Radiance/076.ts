@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.",
+		de: "Seine Besonderheit ist der harte Schädel. Mit seinem Kopfstoß fällte es Bäume, um deren Früchte fressen zu können."
 	},
 
 	variants: [

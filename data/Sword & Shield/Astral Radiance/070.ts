@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
+		de: "Sie patrouillieren ihr Revier zu zweit. In ihrem Fell lassen sich Komponenten von Magmagestein finden, was vermutlich auf vulkanische Aktivität innerhalb ihres Habitats verweist."
 	},
 
 	variants: [

@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		de: "Wenn sich sein Trainer freut, tanzt es in einem Schwall von Energie fröhlich kreisend umher."
 	},
 
 	variants: [

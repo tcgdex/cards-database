@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
+		de: "Manchmal bleiben in den Öffnungen in seinem Körper Steine stecken. Lithomith entfernen diese Steine, deswegen genießen sie seinen Schutz."
 	},
 
 	variants: [

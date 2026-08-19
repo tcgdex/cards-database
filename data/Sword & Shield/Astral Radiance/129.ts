@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "A versatile performer skilled in the imitation of human speech. It is said that older, more experienced Chatot can even understand the meaning of the words they mimic.",
+		de: "Es ist sehr geschickt darin, die menschliche Sprache zu imitieren. Man sagt, dass ältere und erfahrene Plaudagei sogar die Bedeutung der nachgeahmten Wörter verstehen."
 	},
 
 	variants: [

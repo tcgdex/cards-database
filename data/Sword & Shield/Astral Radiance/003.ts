@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
+		de: "Sonderbarerweise ähnelt seine Körperoberfläche der einer Aprikoko. Die elektrische Kraft, die es bei Frustration entlädt, gleicht der von zwanzig Blitzen."
 	},
 
 	variants: [

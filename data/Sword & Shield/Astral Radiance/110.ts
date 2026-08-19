@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is from roughly 100 million years ago. Its terrifyingly tough face is harder than steel.",
+		de: "Dieses Pokémon lebte vor etwa 100 Millionen Jahren. Sein unglaublich robustes Gesicht ist härter als Stahl."
 	},
 
 	variants: [

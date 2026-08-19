@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
 			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
 			pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von {R}-Pokémon deines Gegners zugefügt wird."
 		}
 	}],
 
@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
+		de: "Man verehrt es als Regenmacher. Wird es wütend, droht es mit einer unheimlichen Stimme, die wie der Ton einer Glocke klingt."
 	},
 
 	variants: [

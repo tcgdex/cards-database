@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
+		de: "Aufgrund seines Aussehens wird es in der freien Natur oft mit einem sich bewegenden Ei verwechselt. Sein argloses Lächeln ist Balsam für die Seele."
 	},
 
 	variants: [
