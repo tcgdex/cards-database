@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Darkness de tu pila de descartes a este Pokémon. No puedes usar más de 1 habilidad Alas Incendiarias en cada turno.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia Darkness dalla tua pila degli scarti. Puoi usare l'abilità Ali Estremafiamma solo una volta per turno.",
 			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Darkness da sua pilha de descarte a este Pokémon. Você não pode usar mais de 1 Habilidade Asas de Fogaréu por turno.",
-			de: "Einmal während deines Zuges kannst du 1 Darkness-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen. Du kannst immer nur jeweils 1 Fähigkeit Flammende Schattenflügel einsetzen."
+			de: "Einmal während deines Zuges kannst du 1 {D}-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen. Du kannst immer nur jeweils 1 Fähigkeit Flammende Schattenflügel einsetzen."
 		}
 	}],
 

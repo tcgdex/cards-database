@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
+		de: "Es wird kräftiger, indem es die von unzufriedenen Menschen und Pokémon ausgestoßene negative Energie einatmet."
 	},
 
 	variants: [

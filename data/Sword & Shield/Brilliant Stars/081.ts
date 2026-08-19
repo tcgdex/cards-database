@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "If you see a Sawk training in the mountains in its single-minded pursuit of strength, it's best to quietly pass by.",
+		de: "Es strebt unentwegt nach Stärke. Wer in den Bergen ein Karadonis beim Training erblickt, sollte sich ganz leise aus dem Staub machen."
 	},
 
 	variants: [

@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+		de: "Als sich Burmy entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab."
 	},
 
 	variants: [

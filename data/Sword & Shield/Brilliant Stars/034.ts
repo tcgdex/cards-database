@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
+		de: "Schneppke kann nur in besonders kalten Gebieten leben. Selbst bei -100 ºC hopst es munter umher."
 	},
 
 	variants: [

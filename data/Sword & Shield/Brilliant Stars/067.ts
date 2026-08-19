@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Since Dedenne can't generate as much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
+		de: "Dedenne selbst kann nur wenig Elektrizität erzeugen, weshalb es Strom von anderen Elektro-Pokémon oder aus Steckdosen stiehlt."
 	},
 
 	variants: [

@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "If you visit a beach at the end of summer, you'll be able to see groups of Staryu lighting up in a steady rhythm.",
+		de: "Bei spätsommerlichen Strandbesuchen kann man Gruppen von Sterndu begegnen, deren Kerne in gleichmäßigem Rhythmus aufblinken."
 	},
 
 	variants: [

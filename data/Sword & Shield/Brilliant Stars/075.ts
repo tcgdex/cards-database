@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+		de: "Die Schallwellen, die es durch seine hohe Flügelschlagfrequenz erzeugt, verursachen heftige Kopfschmerzen."
 	},
 
 	variants: [

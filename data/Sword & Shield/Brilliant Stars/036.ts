@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+		de: "Pliprin sind Einzelgänger. Ein Schlag ihrer kräftigen Flügel haut selbst große Bäume entzwei."
 	},
 
 	variants: [
