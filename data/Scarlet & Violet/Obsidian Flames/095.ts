@@ -108,11 +108,18 @@ const card: Card = {
 				cardtrader: 255780
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756344
+			},
+		},
 	],
 
 	illustrator: "Shigenori Negishi",
 
-	
+
 }
 
 export default card

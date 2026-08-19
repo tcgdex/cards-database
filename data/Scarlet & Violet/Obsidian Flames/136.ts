@@ -89,13 +89,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'holo',
-			foil: 'galaxy',
-			thirdParty: {
-				cardmarket: 858721
-			}
-		},
-		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725216,
@@ -103,11 +96,32 @@ const card: Card = {
 				cardtrader: 255821
 			}
 		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 858721
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785593
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785594
+			}
+		},
 	],
 
 	illustrator: "Bun Toujo",
 
-	
+
 }
 
 export default card

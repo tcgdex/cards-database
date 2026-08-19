@@ -93,11 +93,19 @@ const card: Card = {
 				cardtrader: 255777
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756360,
+				tcgplayer: 538732,
+			},
+		},
 	],
 
 	illustrator: "Tetsu Kayama",
 
-	
+
 }
 
 export default card

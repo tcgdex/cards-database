@@ -86,6 +86,14 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786048,
+				tcgplayer: 602869
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725097,
@@ -97,7 +105,7 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 
-	
+
 }
 
 export default card
