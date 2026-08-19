@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+		de: "Der schmutzige Schleim dieses Pokémon ist extrem toxisch. Selbst die Spuren, die es hinterlässt, enthalten Gift."
 	},
 
 	thirdParty: {

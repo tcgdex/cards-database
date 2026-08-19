@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawmo",
-		fr: "Pohmotte"
+		fr: "Pohmotte",
+		de: "Pamamo"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+		de: "Sein flauschiges Fell dient ihm als Batterie. Darin kann es dieselbe Menge an Strom speichern wie ein Elektroauto."
 	},
 
 	thirdParty: {

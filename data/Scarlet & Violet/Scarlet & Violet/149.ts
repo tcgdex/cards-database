@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Starly",
-		fr: "Étourmi"
+		fr: "Étourmi",
+		de: "Staralili"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+		de: "Da sie sich ihrer eigenen Schwäche bewusst sind, leben Staravia stets in Schwärmen. Sind sie allein, stoßen sie laute Rufe aus."
 	},
 
 	thirdParty: {

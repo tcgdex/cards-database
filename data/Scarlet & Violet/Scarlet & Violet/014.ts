@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sprigatito",
-		fr: "Poussacha"
+		fr: "Poussacha",
+		de: "Felori"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+		de: "Es lenkt geschickt die Ranke, die es unter seinem langen Fell verbirgt, und schleudert die harte Knospe an ihrem Ende auf Gegner."
 	},
 
 	thirdParty: {

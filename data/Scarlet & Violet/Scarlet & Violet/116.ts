@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandile",
-		fr: "Mascaïman"
+		fr: "Mascaïman",
+		de: "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+		de: "Ihre Augen sind von einer dünnen Membran umgeben und können auch nachts sehen. Sie bilden kleine Rudel."
 	},
 
 	thirdParty: {

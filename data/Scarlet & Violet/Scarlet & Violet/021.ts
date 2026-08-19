@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+		de: "Um sich vor Feinden zu schützen, sondert es aus der Frucht auf seinem Kopf Öl ab. Dieses ist so bitter, dass es einen zusammenzucken lässt."
 	},
 
 	thirdParty: {

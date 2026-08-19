@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		de: "Eier, die es legt, stecken voller Fröhlichkeit. Schon ein Bissen erzeugt ein breites Lächeln."
 	},
 
 	thirdParty: {

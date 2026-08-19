@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cambia tu Pokémon Activo por uno de tus Pokémon en Banca.",
 		it: "Scambia il tuo Pokémon attivo con uno della tua panchina.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
