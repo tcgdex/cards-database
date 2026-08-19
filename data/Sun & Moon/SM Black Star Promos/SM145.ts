@@ -90,6 +90,16 @@ const card: Card = {
 	description: {
 		en: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366052,
+				tcgplayer: 180521
+			}
+		}
+	],
 }
 
 export default card

@@ -74,6 +74,16 @@ const card: Card = {
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 399684,
+				tcgplayer: 204973
+			}
+		}
+	],
 }
 
 export default card

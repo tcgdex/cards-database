@@ -66,6 +66,16 @@ const card: Card = {
 	description: {
 		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449128,
+				tcgplayer: 211626
+			}
+		}
+	],
 }
 
 export default card

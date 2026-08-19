@@ -73,6 +73,16 @@ const card: Card = {
 	description: {
 		en: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412284,
+				tcgplayer: 201944
+			}
+		}
+	],
 }
 
 export default card
