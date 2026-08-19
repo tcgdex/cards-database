@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it."
+		en: "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it.",
+		de: "Manchmal hält es ein Kokowei für eine Palme und klettert es hinauf. Dieses schüttelt es dann wütend ab und verpasst ihm einen Tritt."
 	},
 
 	variants: [

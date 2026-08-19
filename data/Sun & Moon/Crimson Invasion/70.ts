@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Tajo GX",
 				it: "Sectio-GX",
 				pt: "Lâmina GX",
-				de: "Schwerthieb GX"
+				de: "Schwerthieb-GX"
 			},
 			effect: {
 				en: "Take a Prize card. (You can’t use more than 1 GX attack in a game.)",

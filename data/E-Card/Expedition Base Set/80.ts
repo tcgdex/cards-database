@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Nightmare",
 				fr: "Cauchemar",
-				de: "Nightmare"
+				de: "Nachtmahr"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -56,13 +57,13 @@ const card: Card = {
 			name: {
 				en: "Dream Eater",
 				fr: "Dévorêve",
-				de: "Dream Eater"
+				de: "Traumfresser"
 			},
 
 			effect: {
 				en: "If the Defending Pokémon isn't Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon isn't Asleep, this attack does nothing."
+				de: "Falls das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50,

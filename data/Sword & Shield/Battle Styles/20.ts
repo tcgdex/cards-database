@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Puedes unir 1 carta de Energía Fire de tu mano a este Pokémon.",
 			it: "Puoi assegnare a questo Pokémon una carta Energia Fire dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Fire da sua mão a este Pokémon.",
-			de: "Du kannst 1 Fire-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+			de: "Du kannst 1 {R}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
 		},
 
 		damage: 30,
@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+		de: "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus."
 	},
 
 	variants: [

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante este turno, los ataques de tus Pokémon Golpe Brusco hacen 20 puntos de daño más al Pokémon Activo de tu rival por cada carta de Premio que haya cogido tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Durante questo turno, gli attacchi dei tuoi Pokémon Colpo Singolo infliggono 20 danni in più al Pokémon attivo del tuo avversario per ogni carta Premio che ha preso, prima di aver applicato debolezza e resistenza.",
 		pt: "Durante este turno, os ataques dos seus Pokémon Golpe Decisivo causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada carta de Prêmio que ele(a) pegou (antes de aplicar Fraqueza e Resistência).",
-		de: "Während dieses Zuges fügen die Attacken deiner Fokussierter-Angriff-Pokémon dem Aktiven Pokémon deines Gegners für jede von deinem Gegner genommene Preiskarte 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Während dieses Zuges fügen die Attacken deiner Fokussierter-Angriff-Pokémon dem Aktiven Pokémon deines Gegners für jede von deinem Gegner genommene Preiskarte 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

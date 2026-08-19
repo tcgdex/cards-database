@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "There are structures throughout its whole body that produce energy when hit by sound waves with a cheerful rhythm.",
+		de: "Sein gesamter Körper ist mit einem Mechanismus ausgestattet, der Energie erzeugt, sobald es die Schallwellen eines fröhlichen Rhythmus empfängt."
 	},
 
 	illustrator: "Jerky",

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si tienes algún Pokémon Darkness en tu Banca, busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre él. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
 				it: "Se hai dei Pokémon Darkness in panchina, cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra (quest'azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
 				pt: "Se houver algum Pokémon Darkness em seu Banco, procure em seu baralho um card que evolua deste Pokémon e coloque-o nesse Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards.",
-				de: "Wenn du mindestens 1 Darkness-Pokémon auf deiner Bank hast, durchsuche dein Deck nach einer Karte, zu der sich dieses Pokémon entwickelt, und lege sie auf dieses Pokémon (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
+				de: "Wenn du mindestens 1 {D}-Pokémon auf deiner Bank hast, durchsuche dein Deck nach einer Karte, zu der sich dieses Pokémon entwickelt, und lege sie auf dieses Pokémon (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+		de: "Es starrt den Gegner finster an, um nicht unterschätzt zu werden, hat aber nur wenig Erfolg damit. Das Kauen auf einem Blatt ist sein Markenzeichen."
 	},
 
 	thirdParty: {

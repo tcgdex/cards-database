@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "As it drowses the day away, it nourishes itself by sucking from tree roots. It wakens at the fall of night, wandering off in search of a new tree.",
+		de: "Tagsüber saugt es im Schlaf Nährstoffe aus den Wurzeln der Bäume. Nachts wacht es auf und macht sich auf die Suche nach frischen Bäumen."
 	},
 
 	thirdParty: {

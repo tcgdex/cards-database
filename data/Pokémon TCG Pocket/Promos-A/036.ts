@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Electabuzz"
+		en: "Electabuzz",
+		fr: "Élektek"
 	},
 
 	description: {

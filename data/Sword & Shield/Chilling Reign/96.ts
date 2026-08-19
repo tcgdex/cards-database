@@ -47,7 +47,7 @@ const card: Card = {
 			es: "Cada Energía Darkness Básica unida a tus Pokémon que tengan “Weezing” en su nombre proporciona 2 Energías Darkness. No puedes aplicar más de 1 habilidad Fábrica de Energía a la vez.",
 			it: "Ogni Energia base Darkness assegnata ai tuoi Pokémon con “Weezing” nel nome fornisce Energia Darkness Darkness. Non puoi applicare più di un'abilità Fabbrica di Energia alla volta.",
 			pt: "Cada Energia Darkness básica ligada aos seus Pokémon que tenham “Weezing” em seu nome fornece Energia DarknessDarkness. Você não pode usar mais de 1 Habilidade Fábrica de Energia por vez.",
-			de: "Jede Basis-Darkness-Energie, die an deine Pokémon, bei denen das Wort „Smogmog“ zum Namen gehört, angelegt ist, liefert DarknessDarkness-Energie. Du kannst immer nur jeweils 1 Fähigkeit Energiefabrik einsetzen."
+			de: "Jede Basis-{D}-Energie, die an deine Pokémon, bei denen das Wort „Smogmog“ zum Namen gehört, angelegt ist, liefert {D}{D}-Energie. Du kannst immer nur jeweils 1 Fähigkeit Energiewerk einsetzen."
 		}
 	}],
 
@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason."
+		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason.",
+		de: "Als vor langer Zeit viele Fabriken die Luft mit Industrieabgasen verpesteten, nahm es diese Form aus unbekannten Gründen das erste Mal an."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Charge",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -52,7 +53,7 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe acier",
-				de: "Metal Claw"
+				de: "Metallklaue"
 			},
 
 			damage: 40,

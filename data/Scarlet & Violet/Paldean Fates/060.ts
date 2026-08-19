@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
+		de: "Es hat besonders robuste Haut, die seinen Körper schützt. Es heißt, wenn sich die Haut nicht weiter dehnen lässt, steht die Entwicklung bevor."
 	},
 
 }

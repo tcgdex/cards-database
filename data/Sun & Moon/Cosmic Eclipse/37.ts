@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litleo",
 		fr: "Hélionceau",
+		de: "Leufeo"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.",
+		de: "Männliche Exemplare faulenzen die meiste Zeit. Wird ihr Rudel von starken Gegnern angegriffen, verteidigen sie dieses jedoch mit ihrem Leben."
 	},
 
 	thirdParty: {

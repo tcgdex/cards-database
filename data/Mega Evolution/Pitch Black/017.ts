@@ -42,7 +42,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc ayant \" Ancien \" dans leur nom.",
 			es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon en Banca que tengan \"Antiguo\" en su nombre.",
 			'es-mx': "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon en Banca que tengan \"Antiguo\" en su nombre.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, bei dem \"Antikes\" oder \"Antiker\" zum Namen gehört, 30 Schadenspunkte mehr zu.",
+			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, bei dem „Antikes“ oder „Antiker“ zum Namen gehört, 30 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 30 danni in più per ciascuno dei Pokémon nella tua panchina che ha \"Vecchio\" o \"Vecchia\" nel nome.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada um dos seus Pokémon no Banco que tem \"Arcaico\" em seu nome."
 		}

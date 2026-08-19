@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by 10.",
+		de: "Es kämpft, während es sich wie ein Kreisel dreht. Die Zentrifugalkraft verzehnfacht seine Kampfkraft."
 	},
 
 	thirdParty: {

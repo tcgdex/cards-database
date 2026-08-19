@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Al final del turno de tu rival, si este Pokémon tiene algún contador de daño sobre él, lanza 1 moneda. Si sale cruz, pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
 				it: "Alla fine del turno del tuo avversario, se questo Pokémon ha dei segnalini danno, lancia una moneta. Se esce croce, rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
 				pt: "No final da vez de jogar do seu oponente, se este Pokémon tiver algum contador de dano nele, jogue 1 moeda. Se sair coroa, embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
-				de: "Wirf 1 Münze, wenn am Ende des nächsten Zuges deines Gegners auf diesem Pokémon mindestens 1 Schadensmarke liegt. Mische bei Zahl dieses Pokémon und alle an es angelegten Karten in dein Deck."
+				de: "Wirf 1 Münze, wenn am Ende des Zuges deines Gegners auf diesem Pokémon mindestens 1 Schadensmarke liegt. Mische bei Zahl dieses Pokémon und alle an es angelegten Karten in dein Deck."
 			},
 		},
 	],
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Wishiwashi assemble in this formation to face off against strong foes. It boasts a strength that earned it the name \"demon of the sea.\"",
+		de: "Diese Form nehmen Lusardin an, um ihrem Gegner zu trotzen. Aufgrund der enormen Stärke nennt man sie auch „Ungeheuer der Meere“."
 	},
 
 	thirdParty: {

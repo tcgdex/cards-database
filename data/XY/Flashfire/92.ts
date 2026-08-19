@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de Partidario de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia due carte Aiuto dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe 2 cards de Apoiador da sua pilha de descarte no seu baralho.",
-		de: "Mische 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

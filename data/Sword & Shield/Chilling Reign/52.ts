@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Puedes unir 1 carta de Energía Lightning de tu mano a 1 de tus Pokémon en Banca.",
 			it: "Puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Lightning da sua mão a 1 dos seus Pokémon no Banco.",
-			de: "Du kannst 1 Lightning-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
+			de: "Du kannst 1 {L}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
 		},
 
 		damage: 30,
@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked."
+		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+		de: "Es ist bei den Leuten verhasst, weil es auf seinen Rundflügen immer wieder Blitze erzeugt, die Waldbrände verursachen."
 	},
 
 	variants: [

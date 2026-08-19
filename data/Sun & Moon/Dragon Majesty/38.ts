@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+		de: "Um das Wachstum seiner Flügel zu fördern, schlürft es täglich große Mengen an Beute, die es zuvor in Säure aufgelöst hat."
 	},
 
 	thirdParty: {

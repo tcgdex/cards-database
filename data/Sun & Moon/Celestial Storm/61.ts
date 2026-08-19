@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si tienes a Solrock en juego, los Pokémon Fire en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad, excepto los Pokémon-GX y Pokémon-EX.",
 				it: "Se hai Solrock in gioco, le abilità dei Pokémon Fire in gioco, sia tuoi che del tuo avversario, non hanno effetto, a eccezione dei Pokémon-GX e dei Pokémon-EX.",
 				pt: "Se você tiver Solrock em jogo, os Pokémon Fire em jogo (seus e do seu oponente) não têm Habilidades, exceto pelos Pokémon-GX e Pokémon-EX.",
-				de: "Wenn du Sonnfel im Spiel hast, haben Fire-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten, außer Pokémon-GX und Pokémon-EX."
+				de: "Wenn du Sonnfel im Spiel hast, haben {R}-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten, außer Pokémon-GX und Pokémon-EX."
 			},
 		},
 	],
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+		de: "Wurde erstmals vor 40 Jahren bei einem Meteoritenkrater entdeckt. Sein Blick wirkt einschläfernd."
 	},
 
 	thirdParty: {

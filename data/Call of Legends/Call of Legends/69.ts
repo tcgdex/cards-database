@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Pendant le tour suivant de votre adversaire, les dégâts infligés par des attaques à Relicanth sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners, wird Schaden, der Relicanth durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Relicanth durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
+		de: "Es wurde zufällig bei einer Tiefsee- Expedition entdeckt. Seine Form ist seit 100 Millionen Jahren unverändert."
 	},
 
 	variants: [

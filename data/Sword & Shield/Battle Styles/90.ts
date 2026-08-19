@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly."
+		en: "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly.",
+		de: "In einem Schluck kann es bis zu 300 ml Blut absaugen. Manchmal trinkt es so viel, dass es nicht mehr fliegen kann."
 	},
 
 	variants: [

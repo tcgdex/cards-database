@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Powder",
 				fr: "Poudre dodo",
-				de: "Sleep Powder"
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		de: "Krabbox"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Water unida a él, este ataque hace 80 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 80 danni in più.",
 				pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "80+",
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!",
+		de: "Es speichert kalte Luft in seinen Scheren. Wenn es mit diesen um sich schlägt, kann es selbst dicke Eiswände zerbröckeln."
 	},
 
 	thirdParty: {

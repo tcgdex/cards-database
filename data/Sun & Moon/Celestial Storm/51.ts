@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+		de: "In seinem Fell speichert es statische Elektrizität für spätere Entladungen. Braut sich ein Sturm zusammen, entlädt es Funken."
 	},
 
 	thirdParty: {

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Este ataque hace 10 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 10 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 10 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "10+",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
 	thirdParty: {

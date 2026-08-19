@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cacnea",
 		fr: "Cacnea",
+		de: "Tuska"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+		de: "Gruppen von Noktuska folgen müden Wüstenreisenden und warten, bis diese bewegungsunfähig werden."
 	},
 
 	thirdParty: {

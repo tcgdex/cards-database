@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Vulpix",
-		fr: "Goupixd'Alola",
-		es: "Vulpixde Alola",
-		it: "Vulpixdi Alola",
+		fr: "Goupix d’Alola",
+		es: "Vulpix de Alola",
+		it: "Vulpix di Alola",
 		de: "Alola-Vulpix",
-		'pt-br': "Vulpixde Alola",
+		'pt-br': "Vulpix de Alola",
 		ko: "알로라식스테일"
 	},
 

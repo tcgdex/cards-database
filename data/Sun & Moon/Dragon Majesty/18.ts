@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocéan",
+		de: "Seemon"
 	},
 
 	suffix: "GX",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 50 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 50 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "10+",
 

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Pon 4 cartas de Energía Fire de tu pila de descartes en tu mano.",
 				it: "Prendi quattro carte Energia Fire dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 4 cartas de Energia Fire da sua pilha de descarte na sua mão.",
-				de: "Nimm 4 Fire-Energiekarten aus deinem Ablagestapel auf deine Hand."
+				de: "Nimm 4 {R}-Energiekarten aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "You can tell how it's feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.",
+		de: "Am Rauch, den es aus seinem Panzer ausstößt, erkennt man seine Verfassung. Stößt es diesen kraftvoll aus, geht es ihm gut."
 	},
 
 	thirdParty: {

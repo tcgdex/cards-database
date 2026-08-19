@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "They can be found lying dehydrated on beaches, but they are often still alive. When soaked in water, they will revive.",
+		de: "Am Strand kann man oft stark ausgetrocknete Exemplare finden, die aber noch leben. Taucht man sie in Wasser, werden sie wieder topfit."
 	},
 
 	thirdParty: {

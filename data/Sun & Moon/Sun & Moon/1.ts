@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+		de: "Es versucht, angreifende Vogel-Pokémon mit dem Gestank aus seinen Antennen in die Flucht zu schlagen. Das gelingt ihm aber nicht immer."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wingull",
 		fr: "Goélise",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "Gathering food is the work of young males. They store food in their capacious beaks and carry it back to others waiting in the nest.",
+		de: "Die jungen Männchen beschaffen die Nahrung. Sie sammeln die Beute in ihrem großen Schnabel und bringen sie zurück ins Nest zu den anderen."
 	},
 
 	thirdParty: {

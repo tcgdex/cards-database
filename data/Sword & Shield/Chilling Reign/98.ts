@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
+		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions.",
+		de: "Es murmelt unheimliche Beschwörungen, während es seinen Mageninhalt mit körpereigenen Toxinen mischt, um eine sonderbare Arznei herzustellen."
 	},
 
 	variants: [

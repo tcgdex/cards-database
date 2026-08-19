@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+		de: "Es ist sehr grob und streitlustig, lässt es aber nicht zu, dass Schwächere gemobbt werden. Mit seinem Blatt erspürt es die Bewegungen des Gegners."
 	},
 
 	thirdParty: {

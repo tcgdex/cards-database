@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "With its black fur, it blends into the darkness. It bides its time, and when prey appears, this Pokémon goes for its threat, and then eats it.",
+		de: "Sein schwarzes Fell verschmilzt mit der Nacht. Es lauert seiner Beute geduldig auf und beißt ihr bei erster Gelegenheit die Kehle durch."
 	},
 
 	thirdParty: {

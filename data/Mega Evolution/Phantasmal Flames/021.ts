@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+		de: "Dieses Pokémon verfügt über ein sehr hartes Horn. Mit Kopfstößen durchbricht es Eismassen in seinem Weg."
 	},
 
 	illustrator: "svlt",

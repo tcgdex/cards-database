@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander"
+		en: "Charmander",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -69,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars."
+		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+		de: "GLUTEXO leben in den Bergen. Die Flammen auf ihren Schweifspitzen leuchten in der Nacht wie Sterne."
 	},
 
 	variants: [

@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
+		de: "Der Verzehr gewaltiger Mengen an Lichtenergie bringt diese Form hervor. Es verschießt Laserstrahlen aus seinem ganzen Körper."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Wimpod"
+		en: "Wimpod",
+		fr: "Sovkipou"
 	},
 
 	description: {

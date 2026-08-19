@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "One summer, a group of Pikachu was found riding the waves at the local beach.",
+		de: "Eines Sommers fand man eine Gruppe Pikachu am örtlichen Strand Wellen reiten."
 	},
 
 	thirdParty: {

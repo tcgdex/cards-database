@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+		de: "Es nutzt eine besondere Kampftechnik, bei der es mit den Vorderpfoten zuschlägt und zeitgleich Elektroschocks aus den Pfotenballen schießt."
 	},
 
 }

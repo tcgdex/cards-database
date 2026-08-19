@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon Dragon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
 				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon Dragon e mettilo in panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon Dragon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Dragon-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+				de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 {N}-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream.",
+		de: "Es schwebt gemächlich durch den Himmel. Sein wunderschönes Summen gibt einem das Gefühl zu träumen."
 	},
 
 	thirdParty: {

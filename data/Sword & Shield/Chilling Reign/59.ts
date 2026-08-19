@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Wenn es mit seinen roten Hörnern freundliche Gefühle von Menschen oder Pokémon erfasst, erwärmt sich sein ganzer Körper ein bisschen."
 	},
 
 	variants: [

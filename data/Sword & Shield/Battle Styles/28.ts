@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
+		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it.",
+		de: "Kommt es unter ihnen zu Streitereien, setzt sich offenbar immer das Amfira durch, das von den meisten männlichen Molunk verehrt wird."
 	},
 
 	variants: [

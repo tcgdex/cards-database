@@ -37,10 +37,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Battle Sense"
+				en: "Battle Sense",
+				de: "Kampfsinn"
 			},
 			effect: {
-				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
+				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
+				de: "Einmal während deines Zuges kannst du dir die obersten 3 Karten deines Decks anschauen und 1 davon auf deine Hand nehmen. Lege die anderen Karten auf deinen Ablagestapel."
 			}
 		}
 	],
@@ -50,10 +52,12 @@ const card: Card = {
 			cost: ["Fire", "Fire"],
 			name: {
 				en: "Royal Blaze",
+				de: "Königsflamme"
 			},
 			damage: "100+",
 			effect: {
 				en: "This attack does 50 more damage for each Leon card in your discard pile.",
+				de: "Diese Attacke fügt für jede Delion-Karte in deinem Ablagestapel 50 Schadenspunkte mehr zu."
 			},
 		},
 	],

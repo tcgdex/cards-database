@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival tiene Resistencia a Fighting, este ataque hace 50 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha resistenza al tipo Fighting, questo attacco infligge 50 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente tiver Resistência Fighting, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber Fighting-Pokémon hat, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				de: "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber {F}-Pokémon hat, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over.",
+		de: "Die sechseckige Aushöhlung dient ihm als Ohr. Es bewegt sich immer auf Geräusche zu, fällt jedoch ratlos um, sobald diese verstummen."
 	},
 
 	thirdParty: {

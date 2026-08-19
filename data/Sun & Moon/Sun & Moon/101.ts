@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cuando unas 1 carta de Energía Básica de tu mano a este Pokémon, puedes buscar en tu baraja 1 carta que evolucione de este Pokémon y que sea del mismo tipo que esa carta de Energía y puedes ponerla sobre este Pokémon. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
 				it: "Quando assegni una carta Energia base dalla tua mano a questo Pokémon, puoi cercare nel tuo mazzo una carta che si evolve da questo Pokémon che sia dello stesso tipo della carta Energia che hai assegnato a questo Pokémon e mettergliela sopra (quest’azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
 				pt: "Ao ligar um card de Energia básica da sua mão a este Pokémon, você poderá procurar em seu baralho um card que evolua desse Pokémon e seja do mesmo tipo que esse card de Energia e, em seguida, colocá-lo nesse Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards.",
-				de: "Wenn du 1 Basis-Energiekarte von deiner Hand an dieses Pokémon anlegst, kannst du dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt und die denselben Energietyp wie diese Energiekarte hat, durchsuchen und sie auf dieses Pokémon legen. (Dies zählt als Entwicklung dieses Pokémon.) Mische anschließend dein Deck."
+				de: "Wenn du während deines Zuges 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt und die denselben Typ wie jene Energiekarte hat, durchsuchen und sie auf dieses Pokémon legen, um es zu entwickeln. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
+		de: "Sein instabiles Erbmaterial ermöglicht es ihm, sich zu verschiedenen Pokémon zu entwickeln."
 	},
 
 	thirdParty: {

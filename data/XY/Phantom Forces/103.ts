@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 1 moneda. Si sale cara, roba 3 cartas.",
 		it: "Lancia una moneta. Se esce testa, pesca tre carte.",
 		pt: "Jogue uma moeda. Se sair cara, compre 3 cards.",
-		de: "Wirf 1 Münze. Ziehe bei \"Kopf\" 3 Karten."
+		de: "Wirf 1 Münze. Ziehe bei „Kopf“ 3 Karten. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

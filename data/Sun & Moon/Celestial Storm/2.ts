@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Une hasta 2 cartas de Energía Grass de tu mano a este Pokémon.",
 				it: "Assegna a questo Pokémon fino a due carte Energia Grass dalla tua mano.",
 				pt: "Ligue até 2 cartas de Energia Grass da sua mão a este Pokémon.",
-				de: "Lege bis zu 2 Grass-Energiekarten aus deiner Hand an dieses Pokémon an."
+				de: "Lege bis zu 2 {G}-Energiekarten aus deiner Hand an dieses Pokémon an."
 			},
 
 		},
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		de: "Dieses Pokémon lähmt den Gegner mit Giftpuder, bevor es ihn mit Säure erledigt."
 	},
 
 	thirdParty: {

@@ -65,7 +65,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, descarta 1 Energía unida a este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta un'Energia assegnata a questo Pokémon.",
 				pt: "Jogue uma moeda. Se sair coroa, descarte uma Energia ligada a este Pokémon.",
-				de: "Wirf 1 Münze. Lege bei \"Zahl\" 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal.",
+		de: "Große Gruppen Qurtel siedeln sich in stillgelegten Bergwerken an und graben dort emsig nach Kohle."
 	},
 
 	thirdParty: {

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out.",
+		de: "Seine Kristalle bestehen aus verklumpten Toxinen. Fallen sie von seinem Körper ab, entweichen die tödlichen Giftstoffe."
 	},
 
 	thirdParty: {

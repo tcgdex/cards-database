@@ -21,7 +21,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		de: "Amphizel"
 	},
 	rarity: "Mega Hyper Rare",
 

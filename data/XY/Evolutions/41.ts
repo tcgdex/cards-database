@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más. Si sale cruz, este Pokémon se hace 10 puntos de daño a sí mismo.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più. Se esce croce, questo Pokémon infligge 10 danni a se stesso.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais. Se sair coroa, este Pokémon causará 10 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+		de: "Es konsumiert am liebsten Elektrizität. Gelegentlich sieht man es in der Nähe von Kraftwerken."
 	},
 
 	thirdParty: {

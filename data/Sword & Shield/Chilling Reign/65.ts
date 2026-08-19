@@ -63,7 +63,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
+		en: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day.",
+		de: "Golbit wurde aus Lehm erschaffen. Es führt heute noch Befehle aus, die ihm vor Jahrtausenden von seinem Meister aufgetragen wurden."
 	},
 
 	variants: [

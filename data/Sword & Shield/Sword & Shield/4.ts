@@ -106,7 +106,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
+		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips.",
+		de: "Mit dem süßlichen Duft seiner Blüten betört es seine Gegner, bevor es sie mit dornigen Ranken heftig auspeitscht."
 	},
 
 	thirdParty: {

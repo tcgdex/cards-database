@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	suffix: "GX",
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Explosión Alérgica GX",
 				it: "Esplosione Allergica GX",
 				pt: "Explosão Alérgica GX",
-				de: "Allergische Explosion GX"
+				de: "Allergische Explosion-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can’t use more than 1 GX attack in a game.)",

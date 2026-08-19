@@ -66,7 +66,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't."
+		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't.",
+		de: "Sensect ist ein schlaues Pokémon, da es immer fleißig Informationen sammelt. Seine Stärke lässt jedoch zu wünschen übrig."
 	},
 
 	dexId: [824],

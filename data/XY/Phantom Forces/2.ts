@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Cada vez que tu rival juegue 1 carta de Entrenador de su mano durante su próximo turno, tu rival lanza 1 moneda. Si sale cruz, esa carta no tiene efecto. (Tu rival todavía descarta esa carta).",
 				it: "Ogni volta che il tuo avversario gioca una carta Allenatore dalla sua mano durante il suo prossimo turno, il tuo avversario lancia una moneta. Se esce croce, quella carta non ha effetto (e il tuo avversario la scarta lo stesso).",
 				pt: "Sempre que seu oponente jogar um card de Treinador da mão dele ou dela durante a próxima vez de jogar desse oponente, ele ou ela jogará uma moeda. Se sair coroa, o card não terá efeito algum. (Seu oponente descartará esse card mesmo assim.)",
-				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Trainerkarte von seiner Hand spielt, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat diese Karte keine Auswirkungen. (Dein Gegner legt diese Karte trotzdem auf seinen Ablagestapel.)"
+				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Trainerkarte von seiner Hand spielt, wirft dein Gegner 1 Münze. Bei „Zahl“ hat diese Karte keine Auswirkungen. (Dein Gegner legt diese Karte trotzdem auf seinen Ablagestapel.)"
 			},
 
 		},
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+		de: "Wer die von ihm verstreuten Schuppen berührt, wird gelähmt und muss sich setzen."
 	},
 
 	thirdParty: {

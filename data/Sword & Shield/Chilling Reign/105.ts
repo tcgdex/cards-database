@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+		de: "Es beißt Angreifer und injiziert ihnen Gift, das selbst große Vogel-Pokémon, seine natürlichen Feinde, lähmt."
 	},
 
 	variants: [

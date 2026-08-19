@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más y cura 30 puntos de daño a este Pokémon.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più e curi questo Pokémon da 30 danni.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais e curará 30 de danos deste Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu und heilt 30 Schadenspunkte bei diesem Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu und heilt 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: "50+",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+		de: "An klaren Tagen erzeugt Folipurba saubere Luft, indem es Photosynthese betreibt."
 	},
 
 	thirdParty: {

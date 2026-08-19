@@ -45,7 +45,7 @@ const card: Card = {
 			es: "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
 			it: "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
 			pt: "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jede Water-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jede {W}-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
 		},
 
 		damage: "10×",
@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
+		en: "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear.",
+		de: "Bei Vollmond treiben Apoquallyp in Schwärmen an die Meeresoberfläche und lauern dort ihrer Beute auf."
 	},
 
 	variants: [

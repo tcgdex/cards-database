@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Its percentage of body fat is nearly zero. Its body is entirely muscle, which makes it heavy and forces its swimming prowess to develop.",
+		de: "Sein Körperfettanteil geht gegen null. Es ist sehr schwer, besteht aber fast nur aus Muskeln. So konnte es seine Schwimmfähigkeiten ausbauen."
 	},
 
 	thirdParty: {

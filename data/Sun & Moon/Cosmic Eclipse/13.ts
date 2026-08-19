@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It chats with others using the sounds of its colliding antennae. These sounds are fall hallmarks.",
+		de: "Diese Pokémon unterhalten sich, indem sie ihre Antennen aneinanderschlagen. Der Ton ist ihr Kennzeichen."
 	},
 
 	thirdParty: {

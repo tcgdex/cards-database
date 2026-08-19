@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -53,7 +54,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Grass y 1 Energía Lightning de este Pokémon.",
 				it: "Scarta un’Energia Grass e un’Energia Lightning assegnate a questo Pokémon.",
 				pt: "Descarte 1 Energia Grass e 1 Energia Lightning deste Pokémon.",
-				de: "Lege 1 Grass-Energie sowie 1 Lightning-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {G}-Energie sowie 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it's satisfied.",
+		de: "Eigentlich ist es ein äußerst sanftmütiges Pokémon, aber wenn man es verärgert, schlägt es alles um sich herum kurz und klein."
 	},
 
 	thirdParty: {

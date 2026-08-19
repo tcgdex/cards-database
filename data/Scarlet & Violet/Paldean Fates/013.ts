@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+		de: "Funktioniert der Mikrowellenherd nicht richtig, so leidet auch das Rotom darin."
 	},
 
 }

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Even fast-swimming fish Pokémon can be disabled by Golduck. It brings them to a standstill and seizes them.",
+		de: "Es bringt selbst schnelle Fisch-Pokémon zum Stillstand und ergreift sie anschließend mit Leichtigkeit."
 	},
 
 	thirdParty: {

@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Voracidad GX",
 				it: "Voracitas-GX",
 				pt: "Voracidade GX",
-				de: "Vielfraß GX"
+				de: "Vielfraß-GX"
 			},
 			effect: {
 				en: "If your opponent’s Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards. (You can’t use more than 1 GX attack in a game.)",

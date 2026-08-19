@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Although this Pokémon is not especially rare, its glittering, jewel-draped body draws attention from people.",
+		de: "Der Edelstein, der in seinem Körper steckt, ist zwar recht gewöhnlich, aber da er schön funkelt, ist das Pokémon trotzdem sehr beliebt."
 	},
 
 	thirdParty: {

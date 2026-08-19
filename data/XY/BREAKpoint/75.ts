@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
+		de: "Es greift mit mächtigen Armen an, die so stark sind, dass sie Strommasten wie Streichhölzer umknicken können. Gegenangriffe steckt es unbeeindruckt ein."
 	},
 
 	thirdParty: {

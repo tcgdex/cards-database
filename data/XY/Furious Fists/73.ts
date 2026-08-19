@@ -45,7 +45,7 @@ const card: Card = {
 				es: "La Resistencia de cada uno de tus Pokémon Fairy pasa a ser -40.",
 				it: "La resistenza di tutti i tuoi Pokémon Fairy è -40.",
 				pt: "A Resistência de cada um dos seus Pokémon Fairy agora é -40.",
-				de: "Die Resistenz jedes deiner Fairy-Pokémon ist jetzt -40."
+				de: "Die Resistenz jedes deiner {FAIRY}-Pokémon ist jetzt -40."
 			},
 		},
 	],
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+		de: "Dieses Pokémon sammelt eifrig Schlüssel, mit denen es wild herumfuchtelt, um Gegner abzuschrecken."
 	},
 
 	thirdParty: {

@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cualquier daño infligido por un ataque de tu rival a cada uno de tus Pokémon Water que tenga alguna Energía Water unida a él se reduce en 20 (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti dagli attacchi del tuo avversario ai tuoi Pokémon Water che hanno delle Energie Water assegnate sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
 				pt: "Qualquer dano causado pelo ataque de um oponente a cada um dos seus Pokémon Water que possua uma Energia Water ligada será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der deinen Water-Pokémon, an denen Water-Energie angelegt ist, durch einen gegnerischen Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Schaden, der deinen {W}-Pokémon, an denen {W}-Energie angelegt ist, durch einen gegnerischen Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+		de: "Mit der -150 °C kalten Luft, die den diamantförmigen Kristallen auf seinem Körper entströmt, friert es Gegner ein."
 	},
 
 	thirdParty: {

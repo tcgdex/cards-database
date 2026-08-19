@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Its magnificent bark conveys a sense of majesty. Anyone hearing it can't help but grovel before it.",
+		de: "Sein bezauberndes Bellen klingt majestätisch. Jeder, der es vernimmt, muss sich automatisch verbeugen."
 	},
 
 	thirdParty: {

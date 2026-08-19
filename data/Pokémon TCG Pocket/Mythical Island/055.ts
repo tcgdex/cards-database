@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Whirlipede"
+		en: "Whirlipede",
+		fr: "Scobolide"
 	},
 
 	description: {

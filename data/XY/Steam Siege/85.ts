@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+		de: "Wenn es sein Revier leergejagt hat, sucht es sich ein neues. Seine beiden Köpfe liegen ständig im Streit."
 	},
 
 	thirdParty: {

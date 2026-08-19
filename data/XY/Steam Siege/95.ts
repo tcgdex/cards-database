@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+		de: "Je heißer die Flammen im Feuersack seines Bauches lodern, desto schneller kann es fliegen. Es dauert jedoch eine Weile, bis es zur Zündung kommt."
 	},
 
 	thirdParty: {

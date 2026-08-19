@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The hardness of its shell surpasses the hardness of a diamond. In days gone by, people used the shells to make shields.",
+		de: "Ihre Schalen sind härter als Diamanten. Vor langer Zeit sammelte man die Schalen von Muschas und machte Schilde daraus."
 	},
 
 	thirdParty: {

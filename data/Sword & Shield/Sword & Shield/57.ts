@@ -86,7 +86,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
+		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+		de: "Das Sekret, das aus seinen Handflächen austritt, formt es zu Wasserkugeln. Diese nutzt es im Kampf für taktisch ausgeklügelte Angriffe."
 	},
 
 	dexId: [817],

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grubbin",
 		fr: "Larvibule",
+		de: "Mabula"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "From the food it digests, it generates electricity, and it stores this energy in its electric sac.",
+		de: "Beim Verdauen der Nahrung entsteht elektrische Energie, die es in seinem Strombeutel speichert."
 	},
 
 	thirdParty: {

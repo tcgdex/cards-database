@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "With its powerful legs and sturdy claws, it can crack even the hard shells of Shellder and pluck out their insides.",
+		de: "Mit seinen kräftigen Beinen und robusten Krallen kann es selbst die harte Schale eines Muschas aufbrechen und das Innere herauspicken."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Both its legs became wings, and as a result, it can't move well on the ground. All it can do is crawl around.",
+		de: "Es kann sich nur schwer am Boden fortbewegen, da aus seinen zwei Beinen Flügel geworden sind. Daher ist es nur zu Kriechbewegungen fähig."
 	},
 
 	thirdParty: {

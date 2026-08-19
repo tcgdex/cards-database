@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Fighting hacen 20 puntos de daño más a los Pokémon Activos de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Ciascuno degli attacchi dei tuoi Pokémon Fighting infligge 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques de cada um dos seus Pokémon Fighting causam 20 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
-				de: "Jeder Angriff deiner Fighting-Pokémon fügt dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Jeder Angriff deiner {F}-Pokémon fügt dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
+		de: "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen."
 	},
 
 	thirdParty: {

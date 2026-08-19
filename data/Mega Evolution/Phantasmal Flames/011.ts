@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
+		de: "Die Flamme an seiner Schwanzspitze zeigt seine Lebensenergie an. Geht es ihm nicht gut, wird die Flamme schwächer."
 	},
 
 	illustrator: "HYOGONOSUKE",

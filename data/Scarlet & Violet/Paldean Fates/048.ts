@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
+		de: "Es lebt in Nestern, die es an Flussufern baut. Nach dem Spielen im Schlamm muss es sich erst waschen, um sich wohlzufühlen."
 	},
 
 }

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, 6 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia sei carte Pokémon e Energia base, in qualsiasi combinazione, dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe qualquer combinação de 6 cards entre Pokémon e Energia básica da sua pilha de descarte para o seu baralho.",
-		de: "Mische eine beliebige Kombination aus 6 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck."
+		de: "Mische eine beliebige Kombination aus 6 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

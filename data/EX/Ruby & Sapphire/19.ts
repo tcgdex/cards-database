@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wingull",
-		fr: "Goélise"
+		fr: "Goélise",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,7 @@ const card: Card = {
 			effect: {
 				en: "After your attack, remove from Pelipper the number of damage counters equal to the damage you did to the Defending Pokémon. If Pelipper has fewer damage counters than that, remove all of them.",
 				fr: "Après avoir attaqué, retirez à Bekipan autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Bekipan a moins de marqueurs de dégât que de points infligés, retirez-lui tous ses marqueurs de dégât.",
-				de: "Entferne nach deinem Angriff Schadensmarken von Pelipper entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden. Sollten weniger Schadenspunkte auf Pelipper liegen, entferne alle."
+				de: "Entferne nach deinem Angriff Schadensmarken von Pelipper entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden. Sollten weniger Schadensmarken auf Pelipper liegen, entferne alle."
 			},
 			damage: 20,
 

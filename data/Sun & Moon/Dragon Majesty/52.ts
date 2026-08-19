@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.",
+		de: "Es lebt auf Bergen, auf die sich kein Mensch wagt. Indem es gegen andere Miniras kämpft, wird es stetig stärker."
 	},
 
 	thirdParty: {

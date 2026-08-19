@@ -64,7 +64,8 @@ const card: Card = {
 	hp: 120,
 
 	evolveFrom: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	description: {

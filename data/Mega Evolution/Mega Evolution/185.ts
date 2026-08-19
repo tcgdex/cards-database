@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.",
 		fr: "Demandez à votre adversaire si chaque personne peut récupérer une carte Récompense. Si oui, chaque personne récupère une carte Récompense. Sinon, vous piochez 4 cartes.",
-		de: "Frage deinen Gegner, ob jeder Spieler 1 Preiskarte nehmen kann. Wenn ja, nimmt jeder Spieler 1 Preiskarte. Wenn nein, ziehst du 4 Karten.",
+		de: "Frage deinen Gegner, ob jeder Spieler 1 Preiskarte nehmen kann. Wenn ja, nimmt jeder Spieler 1 Preiskarte. Wenn nein, ziehst du 4 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Chiedi al tuo avversario se ciascun giocatore può prendere una carta Premio. Se sì, ciascun giocatore prende una carta Premio. Se no, tu peschi quattro carte.",
 		es: "Pregúntale a tu rival si cada jugador puede coger una carta de Premio. Si contesta que sí, cada jugador coge una carta de Premio. Si contesta que no, tú robas 4 cartas.",
 		pt: "Pergunte ao seu oponente se cada jogador pode pegar uma carta de Prêmio. Se sim, cada jogador pegará uma carta de Prêmio. Se não, você comprará 4 cartas.",

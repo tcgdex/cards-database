@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Caterpie",
 		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+		de: "Sein harter Panzer birgt ein weiches Inneres. Um zu vermeiden, dass dieses versehentlich ausläuft, bewegt es sich kaum."
 	},
 
 	thirdParty: {

@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Cambia este Pokémon por 1 de tus Pokémon Lightning en Banca.",
 				it: "Scambia questo Pokémon con un Pokémon Lightning della tua panchina.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon Lightning no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Lightning-Pokémon auf deiner Bank aus."
+				de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike.",
+		de: "Es gleitet mit seinen Fluglappen, die einem Cape ähneln, durch die Luft. Es entlädt ständig Strom, der Freund und Feind Stromschläge verpasst."
 	},
 
 	thirdParty: {

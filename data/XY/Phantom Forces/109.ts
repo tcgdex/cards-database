@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
 		it: "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
 		pt: "Coloque um card de Apoiador da sua pilha de descarte em sua mão.",
-		de: "Nimm 1 Unterstützerkarte von deinem Ablagestapel auf deine Hand."
+		de: "Nimm 1 Unterstützerkarte von deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

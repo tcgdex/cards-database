@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verbrannt."
+				de: "Wirf eine Münze. Bei „Kopf“ sind alle Verteidigenden Pokémon jetzt verbrannt."
 			},
 
 		},

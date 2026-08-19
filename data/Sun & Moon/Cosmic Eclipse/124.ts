@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si tu rival tiene algún Pokémon-GX o Pokémon-EX en juego, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
 				it: "Se il tuo avversario ha dei Pokémon-GX o dei Pokémon-EX in gioco, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
 				pt: "Se o seu oponente tiver algum Pokémon-GX ou Pokémon-EX em jogo, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-				de: "Wenn dein Gegner mindestens 1 Pokémon-GX oder Pokémon-EX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+				de: "Wenn dein Gegner mindestens 1 Pokémon-GX oder Pokémon-EX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It has no problem ignoring orders it doesn't like. It doesn't seem to mind getting hurt at all—as long as it can finish off its opponent.",
+		de: "Befehle, die ihm nicht zusagen, missachtet es einfach. Um den Gegner zu besiegen, nimmt es auch Verletzungen in Kauf."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona 1 Energía Colorless.\n\nCuando unas esta carta de tu mano a tu Pokémon Activo, cambia ese Pokémon por 1 de tus Pokémon en Banca.",
 		it: "Questa carta fornisce Energia Colorless. \n\nQuando assegni questa carta dalla tua mano al tuo Pokémon attivo, scambia quel Pokémon con uno della tua panchina.",
 		pt: "Esta carta fornece Energia Colorless. \n\nQuando você liga esta carta da sua mão ao seu Pokémon Ativo, troque aquele Pokémon por 1 dos seus Pokémon no Banco.",
-		de: "Diese Karte liefert Colorless-Energie.\n\nWenn du diese Karte aus deiner Hand an dein Aktives Pokémon anlegst, tausche jenes Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		de: "Diese Karte liefert {C}-Energie. Wenn du diese Karte aus deiner Hand an dein Aktives Pokémon anlegst, tausche jenes Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
 	energyType: "Special",

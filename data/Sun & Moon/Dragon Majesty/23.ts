@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Totodile",
 		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",
+		de: "Hat es einmal zugebissen, lässt es erst los, wenn es seine Zähne verliert, die schnell nachwachsen."
 	},
 
 	thirdParty: {

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada Energía Water unida a este Pokémon a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario per ogni Energia Water assegnata a questo Pokémon. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 20 pontos de dano vezes a quantidade de Energia Water ligada a este Pokémon a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Pursued by Mareanie for the branches on its head, this Pokémon will sometimes snap its own branches off as a diversion while it escapes.",
+		de: "Drohen die Arme auf seinem Kopf von einem Garstella verschlungen zu werden, wirft es diese ab und sucht das Weite."
 	},
 
 	thirdParty: {

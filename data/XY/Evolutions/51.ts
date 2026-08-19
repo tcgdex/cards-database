@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon whose genetic code was repeatedly recombined for research. It turned vicious as a result.",
+		de: "Der genetische Code dieses Pokémon wurde wiederholt aus Forschungsgründen umstrukturiert. Daher ist es so bösartig."
 	},
 
 	thirdParty: {

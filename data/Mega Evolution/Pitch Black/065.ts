@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Drilbur"
+		en: "Drilbur",
+		de: "Rotomurf"
 	},
 
 	stage: "Stage1",

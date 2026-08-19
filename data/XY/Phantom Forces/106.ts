@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
 		it: "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
 		pt: "Coloque um Pokémon Básico da pilha de descarte do seu oponente no Banco desse oponente.",
-		de: "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank."
+		de: "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

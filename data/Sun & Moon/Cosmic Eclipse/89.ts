@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its movements are powered by a mysterious energy. It has continued to move since ancient times, so its power may soon run out.",
+		de: "Es wird seit uralten Zeiten durch eine Energie rätselhaften Ursprungs angetrieben. Manche gehen davon aus, dass diese bald erschöpft ist."
 	},
 
 	thirdParty: {

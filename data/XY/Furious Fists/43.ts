@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+		de: "Man munkelt, sein Schöpfer habe ihm aufgetragen, schützend über Pokémon und Menschen zu wachen."
 	},
 
 	thirdParty: {

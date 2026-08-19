@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada Energía Lightning unida a todos tus Pokémon.",
 				it: "Questo attacco infligge 20 danni per ogni Energia Lightning assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano vezes a quantidade de Energia Lightning ligada a todos os seus Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der an alle deine Pokémon angelegten Lightning-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der an alle deine Pokémon angelegten {L}-Energien zu."
 			},
 			damage: "20×",
 
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
+		de: "Je mehr es sich elektrisch auflädt, desto aggressiver wird es. Man vermutet, dass die Elektrizität den Stress verursache."
 	},
 
 	thirdParty: {

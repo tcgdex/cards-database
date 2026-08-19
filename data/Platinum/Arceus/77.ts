@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
+		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
+		de: "Die blauen Ranken an seinem Körper sind von feinen Haaren bedeckt. Es gilt zudem als kitzlig."
 	},
 
 	variants: [

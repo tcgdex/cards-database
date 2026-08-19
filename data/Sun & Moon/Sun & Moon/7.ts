@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon senses danger, a sweet fluid oozes from the tip of its heads. The taste of it disgusts bird Pokémon.",
+		de: "Wittert es Gefahr, scheidet es eine süßliche Flüssigkeit aus seinem Kopf aus. Vogel-Pokémon behagt dieser Geschmack überhaupt nicht."
 	},
 
 	thirdParty: {

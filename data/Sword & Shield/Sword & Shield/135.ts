@@ -101,7 +101,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe."
+		en: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
+		de: "Niemand wagt es, ihm den Himmel über Galar streitig zu machen. Sein schwarz glänzendes, stählernes Äußeres schüchtert jeden Gegner ein."
 	},
 
 	dexId: [823],

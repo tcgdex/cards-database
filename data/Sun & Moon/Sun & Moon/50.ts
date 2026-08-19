@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Water unida a él, este ataque hace 60 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 60 danni in più.",
 				pt: "Se este Pokémon possuir alguma Energia Water ligada a ele, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+		de: "Es blendet seine Beute mit einem starken Blitz. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an."
 	},
 
 	thirdParty: {

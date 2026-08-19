@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+		de: "Legenden nach kann dieses Pokémon ewiges Leben spenden. In Gestalt eines Baumes ist es aus seinem tausendjährigen Schlaf erwacht."
 	},
 
 	thirdParty: {

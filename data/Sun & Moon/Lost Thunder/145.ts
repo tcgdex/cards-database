@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.",
+		de: "Über den Köpfen von Menschen, deren Auren denen von Blumen gleichen, finden sich zahlreich Wommel ein."
 	},
 
 	thirdParty: {

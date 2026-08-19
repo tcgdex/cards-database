@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a tus Pokémon que tengan alguna Energía Grass unida a ellos por ataques de los Ultraentes de tu rival.",
 				it: "Previeni tutti i danni inflitti ai tuoi Pokémon, che hanno delle Energie Grass assegnate, dagli attacchi delle Ultracreature del tuo avversario.",
 				pt: "Previne todo o dano causado aos seus Pokémon que tenham alguma Energia Grass ligada a eles por ataques das Ultracriaturas do seu oponente.",
-				de: "Verhindere allen Schaden, der deinen Pokémon, an die mindestens 1 Grass-Energie angelegt ist, durch Attacken von Ultrabestien deines Gegners zugefügt wird."
+				de: "Verhindere allen Schaden, der deinen Pokémon, an die mindestens 1 {G}-Energie angelegt ist, durch Attacken von Ultrabestien deines Gegners zugefügt wird."
 			},
 		},
 	],
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey.",
+		de: "Flink zischt es durch den Dschungel. Mit den Blattklingen an seinen Armen schlägt es seine Beute."
 	},
 
 	thirdParty: {

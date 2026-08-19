@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+		de: "Über das Augenmuster auf der Innenseite seiner Ohren setzt es seine Psycho-Kräfte frei. Da diese aber viel zu stark sind, hält es das Muster bedeckt."
 	},
 
 	thirdParty: {

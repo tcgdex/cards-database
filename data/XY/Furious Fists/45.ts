@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+		de: "Dieses Pokémon ist superstark. Es kann sich nur mit einem Kraft regulierenden Gürtel bewegen."
 	},
 
 	thirdParty: {

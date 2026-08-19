@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
+		de: "Beim Umherflattern verstreut es geheimnisvoll leuchtenden Flügelstaub. Es heißt, wer diesen abbekomme, sei sofort wieder voller Energie."
 	},
 
 	thirdParty: {

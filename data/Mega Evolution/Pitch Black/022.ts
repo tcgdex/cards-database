@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Finizen"
+		en: "Finizen",
+		de: "Normifin"
 	},
 
 	stage: "Stage1",

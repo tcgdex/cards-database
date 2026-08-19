@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40,
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 1 Fire Energy card attached to Charizard.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
-				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
+				de: "Lege 1 an Glurak angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 

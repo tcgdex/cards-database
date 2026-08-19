@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Descarta las 6 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía Básica, únelas a 1 de tus Pokémon Dragon en Banca.",
 		it: "Scarta le prime sei carte del tuo mazzo. Se fra queste ci sono delle carte Energia base, assegnale a uno dei tuoi Pokémon Dragon in panchina.",
 		pt: "Descarte as 6 primeiras cartas do seu baralho. Se houver cartas de Energia básica entre elas, ligue-as a 1 dos seus Pokémon Dragon no Banco.",
-		de: "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Basis-Energiekarten sind, lege sie an 1 Dragon-Pokémon auf deiner Bank an."
+		de: "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Basis-Energiekarten sind, lege sie an 1 {N}-Pokémon auf deiner Bank an. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

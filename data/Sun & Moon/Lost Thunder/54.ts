@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Alolan home cooking involves drying Slowpoke tails and then simmering them into a salty stew.",
+		de: "In Alola bereiten viele Familien Flegmon-Ruten zu, indem sie diese zuerst trocknen und dann in Salzwasser kochen."
 	},
 
 	thirdParty: {

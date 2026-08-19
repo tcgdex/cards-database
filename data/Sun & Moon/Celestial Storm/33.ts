@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		de: "Die Flosse auf seinem Kopf prüft Strömungen des Wassers. Dieses Pokémon kann Felsen heben."
 	},
 
 	thirdParty: {

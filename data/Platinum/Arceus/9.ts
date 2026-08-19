@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gulpin"
+		en: "Gulpin",
+		de: "Schluppuck"
 	},
 
 	stage: "Stage1",
@@ -70,7 +71,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes."
+		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+		de: "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht."
 	},
 
 	variants: [

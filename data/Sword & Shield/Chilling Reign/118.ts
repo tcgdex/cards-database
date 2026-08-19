@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
+		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure.",
+		de: "Eine fehlerhafte neue Software führte zu seinem auffällig seltsamen Verhalten. Vermutlich handelt es sich um ein verkorkstes Experiment."
 	},
 
 	variants: [

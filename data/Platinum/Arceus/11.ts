@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk"
+		en: "Croagunk",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -53,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Toxicroak has any Psychic Energy attached to it, the Defending Pokémon is now Poisoned. If Toxicroak has any Fighting Energy attached to it, this attack does 30 damage plus 30 more damage.",
-				de: "Wenn an Toxiquak mindestens 1 -Energie angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn an Toxiquak mindestens 1 -Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wenn an Toxiquak mindestens 1 {P}-Energie angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn an Toxiquak mindestens 1 {F}-Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -70,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency."
+		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency.",
+		de: "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker."
 	},
 
 	variants: [

@@ -22,7 +22,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Maschiff"
+		en: "Maschiff",
+		de: "Mobtiff"
 	},
 
 	stage: "Stage1",

@@ -94,7 +94,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.",
+		de: "Es rollt sich auf diese eigentümliche Weise zusammen, damit es den Sand aus seinem Sandbeutel effizienter verschießen kann."
 	},
 
 	dexId: [844],

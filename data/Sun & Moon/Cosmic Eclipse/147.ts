@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
 				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
 				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer ◇-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
 			},
 			damage: "20×",
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
+		de: "Es schützt sich, indem es Watte verstreut. Wird es Regen ausgesetzt, saugt es sich voll und wird zu schwer, um sich zu bewegen."
 	},
 
 	thirdParty: {

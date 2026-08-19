@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+		de: "Diese Ultrabestie wurde dabei beobachtet, wie sie einen riesigen stählernen Turm mit nur einem Hieb ihrer Klingen zerteilte."
 	},
 
 	thirdParty: {

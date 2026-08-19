@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buneary"
+		en: "Buneary",
+		de: "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -69,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
+		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+		de: "Es hat sehr empfindliche Ohren. Fasst man sie zu rau an, wird es mit seinen grazilen Beinen zutreten."
 	},
 
 	variants: [

@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there.",
+		de: "Flackert in einem verlassenen alten Gebäude plötzlich ein rätselhaftes Licht auf, hält sich dort ein Nebulak versteckt."
 	},
 
 	thirdParty: {

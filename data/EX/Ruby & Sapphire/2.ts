@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silcoon",
-		fr: "Armulys"
+		fr: "Armulys",
+		de: "Schaloko"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Withering Dust",
 				fr: "Poussière desséchante",
-				de: "Withering Dust"
+				de: "Staub des Verdorrens"
 			},
 			effect: {
 				en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
 				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs.",
-				de: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon."
+				de: "Solange sich Papinella im Spiel befindet, werden die Resistenzen von allen Aktiven Pokémon nicht angewendet."
 			}
 		},
 	],
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Stun Spore",
 				fr: "Poussière paralysante",
-				de: "Stun Spore"
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -71,12 +72,12 @@ const card: Card = {
 			name: {
 				en: "Parallel Gain",
 				fr: "Gain parallèle",
-				de: "Parallel Gain"
+				de: "Allgemeine Erholung"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon, including Beautifly.",
 				fr: "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus.",
-				de: "Remove 1 damage counter from each of your Pokémon, including Beautifly"
+				de: "Entferne 1 Schadensmarke von allen deinen Pokémon inklusive Papinella."
 			},
 			damage: 50,
 

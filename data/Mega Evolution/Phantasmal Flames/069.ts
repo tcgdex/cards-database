@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+		de: "Indem der Kern in seinem Brustkorb die Energie absorbiert, die aus dem Boden der Galar-Region strömt, wird es aktiv."
 	},
 
 	illustrator: "akagi",

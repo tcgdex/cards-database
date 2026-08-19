@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Básica de tu pila de descartes a cada uno de tus Pokémon Dragon Básicos en Banca.",
 				it: "Assegna a ciascuno dei tuoi Pokémon Base Dragon in panchina una carta Energia base dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a cada um dos seus Pokémon Dragon Básicos no Banco.",
-				de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes Dragon-Basis-Pokémon auf deiner Bank an."
+				de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes {N}-Basis-Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+		de: "Mittels Telepathie kann es mit Menschen kommunizieren. Mit seinen Daunen, die das Licht brechen, kann es sein Aussehen verändern."
 	},
 
 	thirdParty: {

@@ -45,7 +45,7 @@ const card: Card = {
 			es: "Une cartas de Energía Psychic de tu pila de descartes a tus Pokémon de la manera que desees hasta que tus Pokémon y los Pokémon de tu rival tengan la misma cantidad total de Energías unidas a ellos.",
 			it: "Assegna ai tuoi Pokémon delle carte Energia Psychic dalla tua pila degli scarti nel modo che preferisci finché i tuoi Pokémon e quelli del tuo avversario non hanno lo stesso numero totale di Energie assegnate.",
 			pt: "Ligue cartas de Energia Psychic da sua pilha de descarte aos seus Pokémon como desejar até que seus Pokémon e os Pokémon do seu oponente tenham a mesma quantidade total de Energia ligada a eles.",
-			de: "Lege so lange Psychic-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an, bis an deine Pokémon und die Pokémon deines Gegners dieselbe Gesamtzahl von Energiekarten angelegt ist."
+			de: "Lege so lange {P}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an, bis an deine Pokémon und die Pokémon deines Gegners dieselbe Gesamtzahl von Energiekarten angelegt ist."
 		},
 
 		cost: ["Colorless"]
@@ -80,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
+		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+		de: "Es scheint, sein Ursprung geht auf altertümliche Lehmpuppen zurück. Durch Telekinese kann es schweben und sich bewegen."
 	},
 
 	variants: [

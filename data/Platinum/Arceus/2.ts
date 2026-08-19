@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snorunt"
+		en: "Snorunt",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -35,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, when you play Froslass from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
-				de: "Einmal während deines Zuges, wenn du Frosdedje von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dein Deck nach 1 belibigen Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach."
+				de: "Einmal während deines Zuges, wenn du Frosdedje von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dein Deck nach 1 beliebigen Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach."
 			}
 		},
 	],
@@ -69,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey."
+		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+		de: "Friert Beute durch seinen - 50 Grad kalten Atem ein. Es soll diese Beute dann heimlich ausstellen."
 	},
 
 	variants: [

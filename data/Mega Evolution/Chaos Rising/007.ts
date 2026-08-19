@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+		de: "Es ist so stark, dass es selbst 50 t schwere Panzer umkippen kann. Es schützt Kameraden, indem es sich ihnen als Schild anbietet."
 	},
 
 	name: {
@@ -26,7 +27,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Quilladin"
+		en: "Quilladin",
+		de: "Igastarnish"
 	},
 
 	stage: "Stage2",

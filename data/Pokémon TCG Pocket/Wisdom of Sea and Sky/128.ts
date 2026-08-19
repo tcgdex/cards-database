@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Klang"
+		en: "Klang",
+		fr: "Clic"
 	},
 
 	description: {

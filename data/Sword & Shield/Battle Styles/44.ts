@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company.",
+		de: "Es wird oft für Stromausfälle verantwortlich gemacht, doch viel häufiger handelt es sich um eine Folge menschlichen Fehlverhaltens."
 	},
 
 	variants: [

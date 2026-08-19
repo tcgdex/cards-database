@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skrelp",
 		fr: "Venalgue",
+		de: "Algitt"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This vicious Pokémon sprays a poisonous liquid on opponents that come near. For whatever reason, it gets along really well with Dhelmise.",
+		de: "Ein boshaftes Pokémon, das alle, die sich ihm nähern, mit Gift bespritzt. Einzig mit Moruda versteht es sich aus unbekannten Gründen gut."
 	},
 
 	thirdParty: {

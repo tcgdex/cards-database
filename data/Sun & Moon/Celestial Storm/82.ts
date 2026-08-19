@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
+		de: "Sankabuh"
 	},
 
 	stage: "Stage1",
@@ -99,7 +100,7 @@ const card: Card = {
 				es: "Temor Arena GX",
 				it: "Terrore Siliceo-GX",
 				pt: "Medo Arenoso GX",
-				de: "Sandfurcht GX"
+				de: "Sandfurcht-GX"
 			},
 			effect: {
 				en: "Look at the top 13 cards of your opponent’s deck and discard any number of Pokémon you find there. This attack does 60 damage for each card you discarded in this way. Your opponent shuffles the other cards back into their deck. (You can’t use more than 1 GX attack in a game.)",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is so famed for its intellect that a proverb still persists in some regions: \"When in doubt, ask Slowking.\"",
+		de: "Es ist so berühmt für seine Intelligenz, dass sich vielerorts das Sprichwort „Nicht verzagen, Laschoking fragen!“ durchgesetzt hat."
 	},
 
 	thirdParty: {

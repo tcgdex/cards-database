@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une hasta 2 cartas de Energía Fighting de tu mano a 1 de tus Pokémon.",
 				it: "Assegna fino a due carte Energia Fighting dalla tua mano a uno dei tuoi Pokémon.",
 				pt: "Ligue até 2 cartas de Energia Fighting da sua mão a 1 dos seus Pokémon.",
-				de: "Lege bis zu 2 Fighting-Energiekarten aus deiner Hand an 1 deiner Pokémon an."
+				de: "Lege bis zu 2 {F}-Energiekarten aus deiner Hand an 1 deiner Pokémon an."
 			},
 
 		},
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		de: "Sein Feuer erschuf einst das Land. Es und Kyogre lieferten sich einen langen Kampf."
 	},
 
 	thirdParty: {

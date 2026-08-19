@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Flabébé",
 		fr: "Flabébé",
+		de: "Flabébé"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes elegir 2 cartas aleatorias de la mano de tu rival. Tu rival enseña esas cartas, las pone en su baraja y las baraja todas.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scegliere due carte a caso dalla mano del tuo avversario. Il tuo avversario mostra quelle carte e le rimischia nel suo mazzo.",
 				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode escolher 2 cartas aleatórias da mão do seu oponente. Seu oponente revela aquelas cartas e as embaralha no próprio baralho.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 zufällige Karten aus der Hand deines Gegners wählen. Dein Gegner zeigt dir jene Karten und mischt sie in sein Deck."
+				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 zufällige Karte aus der Hand deines Gegners wählen. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It raises flowers and uses them as weapons. The more gorgeous the blossom, the more power it contains.",
+		de: "Es kämpft mit einer Blume, die es selbst gezüchtet hat. Je schöner ihre Blüte, desto stärker die Macht, die sie birgt."
 	},
 
 	thirdParty: {

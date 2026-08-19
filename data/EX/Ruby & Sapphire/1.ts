@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Retaliate",
 				fr: "Représailles",
-				de: "Retaliate"
+				de: "Vergeltung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage times the number of damage counters on Aggron.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts pour chaque marqueur de dégât sur Galeking.",
-				de: "Flip a coin. If heads, this attack does 10 damage times the numer of damage counters on Aggron"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff für jede Schadensmarke auf Stollos 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 
@@ -55,7 +56,7 @@ const card: Card = {
 			name: {
 				en: "Mega Punch",
 				fr: "Ultimapoing",
-				de: "Mega Punch"
+				de: "Megahieb"
 			},
 
 			damage: 40,
@@ -72,12 +73,12 @@ const card: Card = {
 			name: {
 				en: "Double Lariat",
 				fr: "Double lasso",
-				de: "Double Lariat"
+				de: "Doppel-Lasso"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de face.",
-				de: "Flip 2 coins. This attack does 70 damage times the numer of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "70×",
 
