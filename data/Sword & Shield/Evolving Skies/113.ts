@@ -59,7 +59,8 @@ const card: Card = {
 	dexId: [633],
 
 	description: {
-		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
+		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings.",
+		de: "Da es nichts sehen kann, beißt es zur Orientierung in alles hinein, was sich in seiner Umgebung befindet."
 	},
 
 	regulationMark: "E",

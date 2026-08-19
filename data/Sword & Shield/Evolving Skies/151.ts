@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon V al que está unida esta carta tiene \"Espeon\" o \"Umbreon\" en su nombre, cada vez que tu rival juegue 1 carta de Partidario de su mano, evita todos los efectos de esa carta infligidos a ese Pokémon.",
 		it: "Se il Pokémon-V a cui è assegnata questa carta ha \"Espeon\" o \"Umbreon\" nel nome, ogni volta che il tuo avversario gioca una carta Aiuto dalla sua mano, previeni tutti gli effetti di quella carta su quel Pokémon.",
 		pt: "Se o Pokémon V ao qual esta carta está ligada tiver \"Espeon\" ou \"Umbreon\" em seu nome, sempre que seu oponente jogar 1 carta de Apoiador da própria mão, previna todos os efeitos daquela carta causados àquele Pokémon.",
-		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Psiana\" oder \"Nachtara\" zum Namen gehört, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die jenem Pokémon zugefügt werden."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Psiana“ oder „Nachtara“ zum Namen gehört, verhindere jedes Mal, wenn dein Gegner 1 Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die diesem Pokémon zugefügt werden. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

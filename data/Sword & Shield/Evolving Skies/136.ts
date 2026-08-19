@@ -58,7 +58,8 @@ const card: Card = {
 	dexId: [627],
 
 	description: {
-		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries."
+		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries.",
+		de: "Seine starken Klauen können selbst harte Beeren zermalmen. Es ist so streitsüchtig, dass es jeden zum Kampf herausfordert, dem es begegnet."
 	},
 
 	regulationMark: "E",

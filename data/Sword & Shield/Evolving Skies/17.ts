@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+		de: "Nach der Geburt kriecht es sofort in einen Apfel und verspeist dessen Inneres, um zu wachsen. Seine Entwicklung hängt von dessen Aroma ab."
 	},
 
 	dexId: [840],

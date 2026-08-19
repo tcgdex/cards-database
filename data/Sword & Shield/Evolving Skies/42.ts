@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning."
+		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
+		de: "Es kommuniziert mit seinen Artgenossen über Schallwellen. Seine Warnrufe sind für Menschen und andere Pokémon nicht hörbar."
 	},
 
 	dexId: [535],

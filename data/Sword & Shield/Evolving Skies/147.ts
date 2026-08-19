@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon V al que está unida esta carta tiene \"Vaporeon\", \"Jolteon\" o \"Flareon\" en su nombre, sus ataques cuestan Colorless menos.",
 		it: "Se il Pokémon-V a cui è assegnata questa carta ha \"Vaporeon\", \"Jolteon\" o \"Flareon\" nel nome, il costo dei suoi attacchi è ridotto di Colorless.",
 		pt: "Se o Pokémon V ao qual esta carta está ligada tiver \"Vaporeon\", \"Jolteon\" ou \"Flareon\" em seu nome, seus ataques custarão Colorless a menos.",
-		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Aquana\", \"Blitza\" oder \"Flamara\" zum Namen gehört, verringern sich die Kosten seiner Attacken um Colorless."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Aquana“, „Blitza“ oder „Flamara“ zum Namen gehört, verringern sich die Kosten seiner Attacken um {C}. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

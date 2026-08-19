@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Pon 1 Pokémon Water de tu pila de descartes en tu Banca. Si lo haces, une hasta 3 cartas de Energía Water de tu pila de descartes a ese Pokémon.",
 			it: "Prendi un Pokémon Water dalla tua pila degli scarti e mettilo nella tua panchina. Se lo fai, assegna a quel Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
 			pt: "Put a Water Pokémon from your discard pile onto your Bench. If you do, attach up to 3 Water Energy cards from your discard pile to that Pokémon.",
-			de: "Lege 1 Water-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, lege bis zu 3 Water-Energiekarten aus deinem Ablagestapel an jenes Pokémon an."
+			de: "Lege 1 {W}-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, lege bis zu 3 {W}-Energiekarten aus deinem Ablagestapel an jenes Pokémon an."
 		},
 
 		cost: ["Colorless"]
@@ -77,7 +77,7 @@ const card: Card = {
 		es: "Vaporeon V",
 		it: "Vaporeon-V",
 		pt: "Vaporeon V",
-		de: "Aquana-V"
+		de: "Aquana VMAX"
 	},
 
 	dexId: [134],
