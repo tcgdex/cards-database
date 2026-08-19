@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+		de: "Seelen, die das Feuer seiner schaurigen Flammen gekostet haben, irren bis ans Ende der Tage ziellos durch diese Welt."
 	},
 
 	thirdParty: {

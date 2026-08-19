@@ -9,25 +9,29 @@ const card: Card = {
 	dexId: [25],
 
 	description: {
-		en: "A plan was recently announced to gather many Pikachu and make an electric power plant."
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Iron Tail"
+			en: "Iron Tail",
+			de: "Eisenschweif"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads."
+			en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+			de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 		}
 	}],
 
 	name: {
-		en: "Pikachu"
+		en: "Pikachu",
+		de: "Pikachu"
 	},
 
 	rarity: "None",

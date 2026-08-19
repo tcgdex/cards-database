@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes poner 2 cartas de Energía Lightning de tu mano en la Zona Perdida. Si lo haces, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi prendere due carte Energia Lightning dalla tua mano e metterle nell’area perduta. Se lo fai, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 2 cartas de Energia Lightning da sua mão na Zona Perdida. Se fizer isto, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 Lightning-Energiekarten aus deiner Hand ins Nirgendwo legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 {L}-Energiekarten aus deiner Hand ins Nirgendwo legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 		},
 	],
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		de: "Seine Schweifspitze ist so hell, dass viele Verschollene es als Orientierungspunkt nutzen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+		de: "Es ist noch schüchterner als Snubbull. Der Kontrast zwischen seinem Äußeren und seinem Wesen macht es bei jungen Leuten so beliebt."
 	},
 
 	thirdParty: {

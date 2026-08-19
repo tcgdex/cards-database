@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cuando el Pokémon Psychic al que esté unida esta carta quede Fuera de Combate por el daño de un ataque de tu rival, pon 4 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 		it: "Quando il Pokémon Psychic a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco del tuo avversario, distribuisci a piacimento quattro segnalini danno sui Pokémon del tuo avversario.",
 		pt: "Quando o Pokémon Psychic ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, coloque 4 contadores de dano nos Pokémon do seu oponente como desejar.",
-		de: "Wenn das Psychic-Pokémon, an das diese Karte angelegt ist, durch den Schaden einer Attacke deines Gegners kampfunfähig wird, lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das {P}-Pokémon, an das diese Karte angelegt ist, durch den Schaden einer Attacke deines Gegners kampfunfähig wird, lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
