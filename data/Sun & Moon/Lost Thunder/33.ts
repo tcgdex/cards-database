@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes curar 20 puntos de daño a tu Pokémon Grass Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi curare il tuo Pokémon Grass attivo da 20 danni.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode curar 20 pontos de dano do seu Pokémon Grass Ativo.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 20 Schadenspunkte bei deinem Aktiven Grass-Pokémon heilen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 20 Schadenspunkte bei deinem Aktiven {G}-Pokémon heilen."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+		de: "Es heißt, wenn die Gracidea blühen, drückt es seine Dankbarkeit aus, indem es hoch in die Lüfte fliegt."
 	},
 
 	thirdParty: {

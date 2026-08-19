@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -103,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "As it inhales, it expands…and expands…and expands. Wigglytuff compete to see which one can inflate itself the most.",
+		de: "Es kann sich größer machen, indem es Luft einatmet. Mit Artgenossen wetteifert es, wer sich am meisten aufblasen kann."
 	},
 
 	thirdParty: {
