@@ -9,33 +9,39 @@ const card: Card = {
 	dexId: [95],
 
 	description: {
-		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
+		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+		de: "Es lebt gewöhnlich unter der Erde. Während es sich mit 80 km/h durchs Erdreich bohrt, sucht es nach Nahrung."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Screech"
+			en: "Screech",
+			de: "Kreideschrei"
 		},
 
 		effect: {
-			en: "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance)."
+			en: "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance).",
+			de: "Während deines nächsten Zuges werden dem Verteidigenden Pokémon durch Attacken 20 Schadenspunkte mehr zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}, {
 		name: {
-			en: "Rage"
+			en: "Rage",
+			de: "Raserei"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon."
+			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
+			de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 		}
 	}],
 
 	name: {
-		en: "Onix"
+		en: "Onix",
+		de: "Onix"
 	},
 
 	rarity: "None",
