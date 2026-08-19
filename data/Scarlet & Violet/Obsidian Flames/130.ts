@@ -96,6 +96,13 @@ const card: Card = {
 		},
 		{
 			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785587
+			}
+		},
+		{
+			type: 'normal',
 			stamp: ['eb-games'],
 			thirdParty: {
 				cardmarket: 727071
@@ -127,7 +134,7 @@ const card: Card = {
 
 	illustrator: "rika",
 
-	
+
 }
 
 export default card

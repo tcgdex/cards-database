@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+		de: "Zieht elegant durch die Meere und ignoriert dabei Remoraid, die an seinen Flossen haften."
 	},
 
 	thirdParty: {

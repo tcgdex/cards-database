@@ -90,8 +90,10 @@ const card: Card = {
 	variants: [
 		{
 			type: 'normal',
+			stamp: ['pre-release'],
 			thirdParty: {
-				cardmarket: 785704
+				cardmarket: 727118,
+				tcgplayer: 515291
 			}
 		},
 		{
@@ -100,6 +102,14 @@ const card: Card = {
 				cardmarket: 725142,
 				tcgplayer: 509819,
 				cardtrader: 255622
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 781858,
+				tcgplayer: 554803
 			}
 		},
 		{
@@ -114,7 +124,7 @@ const card: Card = {
 
 	illustrator: "Souichirou Gunjima",
 
-	
+
 }
 
 export default card
