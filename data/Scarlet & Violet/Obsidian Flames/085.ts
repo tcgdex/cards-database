@@ -89,6 +89,13 @@ const card: Card = {
 
 	variants: [
 		{
+			type: 'normal',
+			stamp: ['pre-release'],
+			thirdParty: {
+				cardmarket: 727120
+			}
+		},
+		{
 			type: 'holo',
 			thirdParty: {
 				cardmarket: 725165,
@@ -100,14 +107,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 785705
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ['pre-release'],
-			thirdParty: {
-				cardmarket: 727120
+				cardmarket: 785705,
+				tcgplayer: 552783
 			}
 		},
 		{
@@ -122,7 +123,7 @@ const card: Card = {
 
 	illustrator: "Cona Nitanda",
 
-	
+
 }
 
 export default card

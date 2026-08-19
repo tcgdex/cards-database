@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Tauros",
-		fr: "Taurosde Paldea",
-		es: "Taurosde Paldea",
-		it: "Taurosdi Paldea",
+		fr: "Tauros de Paldea",
+		es: "Tauros de Paldea",
+		it: "Tauros di Paldea",
 		de: "Paldea-Tauros",
-		'pt-br': "Taurosde Paldea",
+		'pt-br': "Tauros de Paldea",
 		ko: "팔데아켄타로스"
 	},
 
