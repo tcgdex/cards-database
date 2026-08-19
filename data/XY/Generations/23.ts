@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gyarados",
 		fr: "Léviator",
+		de: "Garados"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -39,10 +41,12 @@ const card: Card = {
 			name: {
 				en: "Berserker Splash",
 				fr: "Folle Éclaboussure",
+				de: "Wahnsinnsplatscher"
 			},
 			effect: {
 				en: "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,
 
@@ -57,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Tail",
 				fr: "Hydroqueue",
+				de: "Nassschweif"
 			},
 			effect: {
 				en: "Flip a coin for each Water Energy attached to this Pokémon. This attack does 30 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Water attachée à ce Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf für jede an dieses Pokémon angelegte {W}-Energie 1 Münze. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "90+",
 
@@ -78,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+		de: "Ein gigantisches, sehr kraftvolles Pokémon. Es ist fähig, ganze Städte zu zerstören."
 	},
 
 	thirdParty: {

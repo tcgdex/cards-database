@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Krabby",
 		fr: "Krabby",
+		de: "Krabby"
 	},
 
 	illustrator: "kirisAki",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				de: "Klammer"
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-Masse",
+				de: "Krabbhammer"
 			},
 
 			damage: 50,
@@ -64,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+		de: "Wittert es Gefahr, hüllt es sich in Blasen aus seinem Maul, um größer zu erscheinen."
 	},
 
 	thirdParty: {
