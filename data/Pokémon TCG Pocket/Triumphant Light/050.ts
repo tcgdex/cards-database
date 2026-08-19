@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Golbat"
+		en: "Golbat",
+		fr: "Nosferalto"
 	},
 
 	description: {

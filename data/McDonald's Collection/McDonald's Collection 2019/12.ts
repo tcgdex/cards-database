@@ -9,21 +9,24 @@ const card: Card = {
 	dexId: [133],
 
 	description: {
-		en: "Current studies show it can evolve into an incredible eight different species of Pokémon."
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Nach derzeitigem Forschungsstand kann es sich zu acht verschiedenen Pokémon entwickeln."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			de: "Nagen"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		de: "Evoli"
 	},
 
 	rarity: "None",

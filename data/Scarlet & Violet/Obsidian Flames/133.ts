@@ -97,6 +97,13 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785591
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725213,
@@ -108,7 +115,7 @@ const card: Card = {
 
 	illustrator: "Haru Akasaka",
 
-	
+
 }
 
 export default card

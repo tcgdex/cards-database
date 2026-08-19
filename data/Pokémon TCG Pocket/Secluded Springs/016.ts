@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Tentacool"
+		en: "Tentacool",
+		fr: "Tentacool"
 	},
 
 	description: {

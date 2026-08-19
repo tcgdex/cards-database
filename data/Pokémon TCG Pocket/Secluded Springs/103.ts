@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Gabite"
+		en: "Gabite",
+		fr: "Carmache"
 	},
 
 	stage: "Stage2",

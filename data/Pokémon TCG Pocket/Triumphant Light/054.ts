@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Magnemite"
+		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	description: {

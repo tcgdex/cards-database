@@ -76,7 +76,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 791826
+				cardmarket: 791826,
+				tcgplayer: 613974,
 			}
 		},
 		{
@@ -91,7 +92,7 @@ const card: Card = {
 
 	illustrator: "Pani Kobayashi",
 
-	
+
 };
 
 export default card
