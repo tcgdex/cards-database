@@ -44,7 +44,7 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Poison Barb"
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
