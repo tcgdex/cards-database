@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ferroseed",
 		fr: "Grindur",
+		de: "Kastadur"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada Energía Metal unida a este Pokémon a 1 de los Pokémon en Banca de tu rival. No puedes hacer más de 100 puntos de daño a 1 Pokémon en Banca de esta manera. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 20 danni a uno dei Pokémon nella panchina del tuo avversario per ogni Energia Metal assegnata a questo Pokémon. Non puoi infliggere più di 100 danni a un Pokémon in panchina in questo modo. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 20 pontos de dano vezes a quantidade de Energia Metal ligada a este Pokémon a 1 dos Pokémon no Banco do seu oponente. Você não pode causar mais de 100 pontos de dano a um Pokémon no Banco desta forma (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Metal-Energien zu. Du kannst einem Pokémon auf der Bank auf diese Weise höchstens 100 Schadenspunkte zufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {M}-Energien zu. Du kannst einem Pokémon auf der Bank auf diese Weise höchstens 100 Schadenspunkte zufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,
 
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+		de: "Es setzt sich an der Decke von Höhlen fest und wirft seine dornengespickten Schlingen auf vorbeigehende Beute ab."
 	},
 
 	thirdParty: {

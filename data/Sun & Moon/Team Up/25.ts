@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wartortle",
 		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes mirar las 6 primeras cartas de tu baraja y unir cualquier cantidad de cartas de Energía Water que encuentres entre ellas a tus Pokémon de la manera que desees. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi guardare le prime sei carte del tuo mazzo e assegnare a piacimento un numero qualsiasi di carte Energia Water presenti tra esse ai tuoi Pokémon. Poi rimischia le altre carte nel tuo mazzo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode olhar as 6 primeiras cartas do seu baralho e ligar qualquer número de cartas de Energia Water que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dir die obersten 6 Karten deines Decks anschauen und beliebig viele Water-Energiekarten, die du dort findest, beliebig an deine Pokémon anlegen. Mische die anderen Karten zurück in dein Deck."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dir die obersten 6 Karten deines Decks anschauen und beliebig viele {W}-Energiekarten, die du dort findest, beliebig an deine Pokémon anlegen. Mische die anderen Karten zurück in dein Deck."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+		de: "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück."
 	},
 
 	thirdParty: {

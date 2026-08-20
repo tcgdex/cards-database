@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies over raging seas as if they were nothing. Observing this, a ship's captain dubbed this Pokémon \"the sea incarnate.\"",
+		de: "Es fliegt ohne Bedenken selbst über tosende Meere. Ein Schiffskapitän nannte es nach diesem Anblick die „Inkarnation des Meeres“."
 	},
 
 	thirdParty: {

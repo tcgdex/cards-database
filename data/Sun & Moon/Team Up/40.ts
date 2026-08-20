@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		de: "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze."
 	},
 
 	thirdParty: {

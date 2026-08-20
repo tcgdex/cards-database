@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It grills berries and bug Pokémon with electric shocks and makes a meal of them. It usually nests in the holes gouged in trees by Pikipek.",
+		de: "Mit Strom röstet es Beeren und Käfer-Pokémon, bevor es sie frisst. Es lebt hauptsächlich in Baumhöhlen, die von Peppeck gemeißelt wurden."
 	},
 
 	thirdParty: {

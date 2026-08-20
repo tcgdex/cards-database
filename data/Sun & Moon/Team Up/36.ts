@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Geodude",
 		fr: "Racaillou d’Alola",
+		de: "Alola-Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the \"fireworks of the earth.\"",
+		de: "Streiten sie sich untereinander, erzeugen sie ein lautes Knallen und grelles Leuchten, das von Einheimischen „Felsenfeuerwerk“ genannt wird."
 	},
 
 	thirdParty: {

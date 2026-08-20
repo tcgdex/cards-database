@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon.",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+		de: "Es speichert viel Luft in seinem weichen Pelz. Dadurch ist es im Sommer kalt und im Winter warm."
 	},
 
 	thirdParty: {

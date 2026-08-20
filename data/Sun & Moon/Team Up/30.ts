@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Enseña las 7 primeras cartas de tu baraja. Este ataque hace 30 puntos de daño más por cada Energía Water que encuentres entre ellas. Después, pon esas cartas de Energía de nuevo en tu baraja, barájalas todas y descarta el resto de cartas.",
 				it: "Mostra le prime sette carte del tuo mazzo. Questo attacco infligge 30 danni in più per ogni Energia Water presente tra quelle carte. Poi rimischia quelle carte Energia nel tuo mazzo e scarta le altre carte.",
 				pt: "Revele as 7 primeiras cartas do seu baralho. Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia Water que encontrar lá. Em seguida, embaralhe aquelas cartas de Energia de volta no seu baralho e descarte as demais cartas.",
-				de: "Zeige deinem Gegner die obersten 7 Karten deines Decks. Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Water-Energien zu, die du dort findest. Mische anschließend jene Energiekarten zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
+				de: "Zeige deinem Gegner die obersten 7 Karten deines Decks. Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {W}-Energien zu, die du dort findest. Mische anschließend jene Energiekarten zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
 			},
 			damage: "30+",
 
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It fires hyper beams in all directions, burning the surrounding area to ash. There are some regions where it's called \"the deity of destruction.\"",
+		de: "Mit seinem Hyperstrahl legt es die Umgebung in Schutt und Asche. Manchmal wird es auch als „Gottheit der Zerstörung“ bezeichnet."
 	},
 
 	thirdParty: {

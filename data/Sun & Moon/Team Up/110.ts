@@ -45,7 +45,7 @@ const card: Card = {
 				es: "La Resistencia de cada uno de tus Pokémon Metal pasa a ser -40.",
 				it: "La resistenza di ciascuno dei tuoi Pokémon Metal è -40.",
 				pt: "A Resistência de cada um dos seus Pokémon Metal agora é - 40.",
-				de: "Die Resistenz jedes deiner Metal-Pokémon ist jetzt -40."
+				de: "Die Resistenz jedes deiner {M}-Pokémon ist jetzt -40."
 			},
 		},
 	],
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
+		de: "Seinen Fortsatz steckt es gerne in metallene Zwischenräume, um Metall-Ionen abzusaugen. Sammelt aus unerfindlichen Gründen Schlüssel."
 	},
 
 	thirdParty: {

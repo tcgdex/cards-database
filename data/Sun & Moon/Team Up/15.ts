@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Its beautiful tails have made it very popular. However, if it's not brushed diligently, it will be a mass of tangles before you know it.",
+		de: "Dank seiner hübschen Schweife erfreut es sich großer Beliebtheit. Wird es aber nicht regelmäßig gebürstet, ist es sofort voller Fellknäuel."
 	},
 
 	thirdParty: {

@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+		de: "Hakt sich an der Decke von Höhlen fest und saugt die Mineralien aus dem Gestein. Bei Gefahr feuert es Dornen ab."
 	},
 
 	thirdParty: {

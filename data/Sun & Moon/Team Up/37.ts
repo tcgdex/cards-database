@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Graveler",
 		fr: "Gravalanch d’Alola",
+		de: "Alola-Georok"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Mueve cualquier cantidad de Energías Lightning de tus Pokémon en Banca a este Pokémon. Este ataque hace 20 puntos de daño por cada carta de Energía que hayas movido de esta manera.",
 				it: "Sposta un numero qualsiasi di Energie Lightning dai tuoi Pokémon in panchina a questo Pokémon. Questo attacco infligge 20 danni per ogni carta Energia che hai spostato in questo modo.",
 				pt: "Mova qualquer número de Energia Lightning dos seus Pokémon no Banco para este Pokémon. Este ataque causa 20 pontos de dano para cada carta de Energia movida desta forma.",
-				de: "Verschiebe beliebig viele Lightning-Energien von den Pokémon auf deiner Bank auf dieses Pokémon. Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der von dir auf diese Weise verschobenen Energiekarten zu."
+				de: "Verschiebe beliebig viele {L}-Energien von den Pokémon auf deiner Bank auf dieses Pokémon. Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der von dir auf diese Weise verschobenen Energiekarten zu."
 			},
 
 			damage: "20×"
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It's grumpy and stubborn. If you upset it, it discharges electricity from the surface of its body and growls with a voice like thunder.",
+		de: "Ein dickköpfiges und mürrisches Pokémon. Wenn man es verärgert, stößt es aus seinem Körper Strom aus und heult mit donnernder Stimme auf."
 	},
 
 	thirdParty: {

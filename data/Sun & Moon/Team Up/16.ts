@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 2 cartas de Energía Fire de tu mano. Si lo haces, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare due carte Energia Fire che hai in mano. Se lo fai, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 2 cartas de Energia Fire da sua mão. Se fizer isto, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 Fire-Energiekarten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 {R}-Energiekarten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 		},
 	],
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.",
+		de: "Dieses Pokémon ist sehr rachsüchtig. Wer seinen Groll provoziert, den verfolgt bis in seine Nachkommenschaft ein tausendjähriger Fluch."
 	},
 
 	thirdParty: {

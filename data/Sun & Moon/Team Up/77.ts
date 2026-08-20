@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon thrived 300 million years ago. It's said that living specimens can still be seen in a certain region—a rare sight.",
+		de: "Kabuto erlebte seine Blütezeit vor 300 Millionen Jahren. Doch in einer bestimmten Region gibt es angeblich noch einige lebende Exemplare."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+		de: "Es ist sehr stark und sein Panzer ist steinhart. Setzt es Fuchtler ein, kann es einen Berg umstürzen."
 	},
 
 	thirdParty: {

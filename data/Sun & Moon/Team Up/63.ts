@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.",
+		de: "Aufgrund von Futtermangel sieht man es immer seltener. Um es vom Aussterben zu bewahren, werden nun künstliche Schlammteiche angelegt."
 	},
 
 	thirdParty: {

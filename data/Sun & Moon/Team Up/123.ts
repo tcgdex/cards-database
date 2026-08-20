@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidgey",
 		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+		de: "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen."
 	},
 
 	thirdParty: {

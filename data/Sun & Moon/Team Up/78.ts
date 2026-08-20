@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kabuto",
 		fr: "Kabuto",
+		de: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body had begun to change so it could function on land. But it didn't adapt in time and went extinct.",
+		de: "Dieses Pokémon hatte begonnen, sich an das Leben an Land anzupassen, starb aber aus, bevor es den Wandel vollziehen konnte."
 	},
 
 	thirdParty: {
