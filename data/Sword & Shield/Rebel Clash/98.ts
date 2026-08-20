@@ -94,7 +94,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		de: "Mit Yoga-Training hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus."
 	},
 
 	variants: [

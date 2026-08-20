@@ -27,7 +27,7 @@ const card: Card = {
 				es: "",
 				it: "",
 				pt: "",
-				de: ""
+				de: "Feldspieler"
 			},
 			effect: {
 				en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",

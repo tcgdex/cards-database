@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+		de: "Lässt man beim Spielen gebaute Sandhaufen zurück, kann es vorkommen, dass sich eine Seele dort einnistet und ein Sankabuh entsteht."
 	},
 
 	variants: [

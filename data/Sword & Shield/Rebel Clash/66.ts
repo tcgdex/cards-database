@@ -97,7 +97,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams."
+		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+		de: "In seinem Bauch erzeugt es Elektrizität, die es in seinem großen Kiefer sammelt und dann als Hochleistungsstrahlen abfeuern kann."
 	},
 
 	variants: [

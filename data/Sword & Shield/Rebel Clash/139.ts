@@ -38,7 +38,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Metal de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Metal dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
+		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
+		de: "Es trägt nun eine Waffe, die es vor langer Zeit einmal führte. Selbst Gigadynamax-Pokémon bezwingt es damit auf einen Streich."
 	},
 
 	variants: [

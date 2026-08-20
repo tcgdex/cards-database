@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
+		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful.",
+		de: "Der Rhythmus von fröhlicher Musik aktiviert die Zellen von Kappalores und macht es so stärker."
 	},
 
 	variants: [

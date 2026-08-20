@@ -61,7 +61,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more."
+		en: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.",
+		de: "Es verbringt sein ganzes Leben im Inneren eines Apfels. Um sich vor Vogel-Pokémon, seinen Fressfeinden, zu schützen, imitiert es einen Apfel."
 	},
 
 	variants: [

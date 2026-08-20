@@ -70,7 +70,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue.",
+		de: "Es schwächt seine Beute mit Kopfschmerzen erregenden Schallwellen und umschlingt sie anschließend mit seiner klebrigen Zunge."
 	},
 
 	variants: [

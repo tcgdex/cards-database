@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si la has robado de tu baraja al principio de tu turno, antes de ponerla en tu mano.\n\nRoba 3 cartas.",
 		it: "Puoi giocare questa carta solo se l'hai pescata dal tuo mazzo all'inizio del tuo turno, prima di aggiungerla alle carte che hai in mano.\n\nPesca tre carte.",
 		pt: "Você só pode jogar esta carta se a tiver comprado do seu baralho no começo do seu turno, antes de colocá-la na sua mão.\n\nCompre 3 cartas.",
-		de: "Du kannst diese Karte nur spielen, wenn du sie zu Beginn deines Zuges von deinem Deck gezogen hast und bevor du sie auf deine Hand nimmst.\n\nZiehe 3 Karten."
+		de: "Du kannst diese Karte nur spielen, wenn du sie zu Beginn deines Zuges von deinem Deck gezogen hast und bevor du sie auf deine Hand nimmst. Ziehe 3 Karten. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

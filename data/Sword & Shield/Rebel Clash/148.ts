@@ -82,7 +82,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
+		de: "Durch flinke Angriffsmanöver raubt es seinen Gegnern ihre Kraft, um sie dann mit prachtvollen Spezialtechniken niederzuringen."
 	},
 
 	variants: [
