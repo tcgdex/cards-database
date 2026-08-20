@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poké Ball",
 		fr: "Poké Ball",
+		de: "Pokéball"
 	},
 
 	illustrator: "5ban Graphics",
