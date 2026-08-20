@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si descartas otras 3 cartas de tu mano.\nBusca en tu baraja 1 carta de Objeto, 1 carta de Herramienta Pokémon, 1 carta de Partidario y 1 carta de Estadio, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se scarti altre tre carte che hai in mano.\n\nCerca nel tuo mazzo una carta Strumento, una carta Oggetto Pokémon, una carta Aiuto e una carta Stadio, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se descartar outras 3 cartas da sua mão.\nProcure por uma carta de Item, uma carta de Ferramenta Pokémon, uma carta de Apoiador e uma carta de Estádio no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du 3 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\nDurchsuche dein Deck nach 1 Itemkarte, 1 Pokémon-Ausrüstung, 1 Unterstützerkarte und 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Du kannst diese Karte nur einsetzen, wenn du 3 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach 1 Itemkarte, 1 Pokémon-Ausrüstung, 1 Unterstützerkarte und 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

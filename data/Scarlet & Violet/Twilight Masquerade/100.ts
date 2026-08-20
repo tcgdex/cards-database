@@ -115,6 +115,7 @@ const card: Card = {
 
 	description: {
 		en: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
+		de: "Dieser Meister der Finten schnappt mit Fangzähnen zu, die in lodernde Flammen gehüllt sind. Ungeachtet seiner großen Statur narrt er Feinde mit leichtfüßigen, tänzelnden Bewegungen."
 	},
 
 	thirdParty: {

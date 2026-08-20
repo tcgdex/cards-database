@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
+		de: "Während es seinen langen Hals umherschwingt und damit Stöße austeilt, wird sein Hauptkopf vom harten Schweifkopf geschützt."
 	},
 
 	variants: [

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
+		de: "Seine Stacheln sind erhärtete Haut. Im Kampf rollt es sich zusammen und greift den Gegner mit den Stacheln an."
 	},
 
 	variants: [

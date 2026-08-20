@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+		de: "Es kann kleine in Blasen gehüllte Steine mit solcher Präzision werfen, dass es selbst 30 m entfernte Dosen problemlos trifft."
 	},
 
 	variants: [

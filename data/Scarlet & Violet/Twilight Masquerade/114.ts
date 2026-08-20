@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it's caught the scent of faraway prey, the leader gives a signal, and the whole pack moves out.",
+		de: "Sobald es Beute in großer Entfernung wittert, setzt sich das gesamte Rudel auf Befehl des Anführers hin sofort in Bewegung."
 	},
 
 	variants: [

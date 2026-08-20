@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si has robado alguna carta de esta manera y Centro Cultural está en juego, pon esta carta de Cuidador en tu baraja, en vez de descartarla, y barájalas todas.",
 		it: "Pesca due carte. Se hai pescato delle carte in questo modo e se Circolo Comunale è in gioco, rimischia questa carta Responsabile nel tuo mazzo invece di scartarla.",
 		pt: "Compre 2 cartas. Se você comprou qualquer carta desta forma e se Centro Comunitário estiver em jogo, embaralhe este Zelador no seu baralho ao invés de descartá-lo.",
-		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast und wenn Gemeindehaus im Spiel ist, mische diese Verwalter-Karte in dein Deck, anstatt sie auf deinen Ablagestapel zu legen."
+		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast und wenn Gemeindehaus im Spiel ist, mische diese Verwalter-Karte in dein Deck, anstatt sie auf deinen Ablagestapel zu legen. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise.",
+		de: "Volbeat kommuniziert mit seinen Artgenossen, indem es mit dem Licht an seinem Hinterteil blinkt. Es liebt den süßen Duft von Illumise."
 	},
 
 	variants: [

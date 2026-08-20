@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+		de: "Es kontrolliert die Macht seines speziellen Baumstumpfes durch Trommeln. Im Kampf manipuliert es damit Wurzeln."
 	},
 
 	variants: [

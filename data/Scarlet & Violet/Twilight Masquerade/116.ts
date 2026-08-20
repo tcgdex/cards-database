@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
+		de: "Rollum dreht sich mit hoher Geschwindigkeit und rammt seine Gegner. Dabei erreicht es Geschwindigkeiten von bis zu 100 km/h."
 	},
 
 	variants: [

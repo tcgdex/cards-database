@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
+		de: "Dieses Pokémon ist ausgesprochen energisch. Ein einziger Hieb mit seinen gewaltigen Armen macht selbst Lastwagen dem Erdboden gleich."
 	},
 
 	variants: [

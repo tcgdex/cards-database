@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "By gathering their tails together, they collectively generate powerful electricity from their claws.",
+		de: "Verbindet es seinen Schweif mit dem eines Artgenossen, können seine Krallen noch heftigere Stromstöße austeilen."
 	},
 
 	variants: [

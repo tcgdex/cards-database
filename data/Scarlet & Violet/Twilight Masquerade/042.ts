@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
+		de: "Die Haut seines gesamten Körpers ist feucht. Auf der Bauchspirale fühlt sie sich zudem glatt und weich an."
 	},
 
 	variants: [

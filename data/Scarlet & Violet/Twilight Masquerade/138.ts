@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Split into two, the tails are so adept at handling and doing things that Ambipom rarely uses its hands.",
+		de: "Sein Schweif hat sich in zwei gespalten. Es kann so geschickt mit diesen Schweifen umgehen, dass es seine Hände nur noch selten gebraucht."
 	},
 
 	variants: [

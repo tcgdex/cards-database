@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+		de: "Chaneira bewegt sich behutsam, damit sein Ei nicht zerbricht. Es kann jedoch sehr schnell davonlaufen."
 	},
 
 	variants: [

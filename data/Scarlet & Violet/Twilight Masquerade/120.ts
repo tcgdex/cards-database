@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
+		de: "Es frisst Eisenerz und manchmal auch Bahngleise. So bildet es einen Panzer aus Stahl, der seinen Körper schützt."
 	},
 
 	variants: [
