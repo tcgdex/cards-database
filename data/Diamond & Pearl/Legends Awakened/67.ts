@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
-		fr: "Il bouge si vite que l'œil a parfois du mal à le suivre. Ils se regroupent près de la sève des arbres."
+		fr: "Il bouge si vite que l'œil a parfois du mal à le suivre. Ils se regroupent près de la sève des arbres.",
+		de: "Es bewegt sich so schnell, dass es manchmal unsichtbar zu sein scheint. Es liebt Baumsaft."
 	},
 
 	thirdParty: {

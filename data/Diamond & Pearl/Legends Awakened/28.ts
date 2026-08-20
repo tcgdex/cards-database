@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pineco",
 		fr: "Tannza",
+		de: "Tannza"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Whenever you attach a basic Energy card from your hand to Forretress (excluding effects of attacks), you may flip a coin. If tails, put 2 damage counters on each Pokémon (both yours and your opponent's) (excluding any Forretress).",
 				fr: "Dès que vous attachez une carte Énergie de base de votre main à Forretress (effets d'attaques exclus), lancez une pièce. Si c'est pile, placez 2 marqueurs de dégât sur chaque Pokémon (les vôtres et ceux de votre adversaire) (n'importe quel Forretress exclus).",
-				de: "Jedes Mal, wenn du 1 Basis-Energiekarte von deiner Hand an Forstellka anlegst (ausgenommen durch Effekte von Angriffen), kannst du 1 Münze werfen. Bei \"Zahl\" lege 2 Schadensmarken auf jedes Pokémon (deine und die deines Gegners), außer allen Forstellka."
+				de: "Jedes Mal, wenn du 1 Basis-Energiekarte von deiner Hand an Forstellka anlegst (ausgenommen durch Effekte von Angriffen), kannst du 1 Münze werfen. Bei „Zahl“ lege 2 Schadensmarken auf jedes Pokémon (deine und die deines Gegners), außer allen Forstellka."
 			},
 		},
 	],
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
-		fr: "Il est prisonnier d'une coquille d'acier. Ses yeux vigilants sont la seule partie visible de son corps."
+		fr: "Il est prisonnier d'une coquille d'acier. Ses yeux vigilants sont la seule partie visible de son corps.",
+		de: "Dieses PKMN ist von einer Stahlhülle umgeben. Seine stechenden Augen sind alles, was man von ihm sieht."
 	},
 
 	thirdParty: {

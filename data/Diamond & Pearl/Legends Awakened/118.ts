@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to Shinx. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie Lightning et attachez-la à Lixy. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an Sheinux an. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an Sheinux an. Mische dein Deck danach."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
 	},
 
 	thirdParty: {

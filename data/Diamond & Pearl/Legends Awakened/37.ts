@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires et inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu und fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu und fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: "60+",
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
-		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes.",
+		de: "Es gibt eine Legende, wonach dieses PKMN die Kontinente mit einem Seil gezogen hat."
 	},
 
 	thirdParty: {

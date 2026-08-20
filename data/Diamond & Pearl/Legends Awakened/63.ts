@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Tragosso",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Marowak can't use Heavy Bone during your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, Ossatueur ne peut pas utiliser Os lourd lors de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" kann Knogga Riesenknochen in deinem nächsten Zug nicht einsetzen."
+				de: "Wirf 1 Münze. Bei „Zahl“ kann Knogga Riesenknochen in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 40,
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50x",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
-		fr: "Ce Pokémon sauvage possède des os depuis sa naissance. Il s'en sert pour combattre avec dextérité."
+		fr: "Ce Pokémon sauvage possède des os depuis sa naissance. Il s'en sert pour combattre avec dextérité.",
+		de: "Von Geburt an trägt dieses wilde Pokémon Knochen. Es setzt sie talentiert als Waffen ein."
 	},
 
 	thirdParty: {

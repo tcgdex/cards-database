@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
-		fr: "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange."
+		fr: "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange.",
+		de: "Ein PKMN, das aus 108 Geistern besteht. Es ist an einen Spalt in einem mysteriösen Stein gebunden."
 	},
 
 	thirdParty: {

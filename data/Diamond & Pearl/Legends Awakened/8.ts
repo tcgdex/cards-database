@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Luxray.",
 				fr: "Cherchez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Luxray.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Luxtra an."
+				de: "Durchsuche deinen Ablagestapel nach 1 {L}-Energiekarte und lege sie an Luxtra an."
 			},
 			damage: 40,
 
@@ -79,7 +80,7 @@ const card: Card = {
 			effect: {
 				en: "Discard all Lightning Energy attached to Luxray.",
 				fr: "Défaussez une Énergie Lightning attachée à Luxray.",
-				de: "Lege alle an Luxtra angelegten -Energien auf deinen Ablagestapel."
+				de: "Lege alle an Luxtra angelegten {L}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -102,7 +103,8 @@ const card: Card = {
 
 	description: {
 		en: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
-		fr: "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer."
+		fr: "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer.",
+		de: "Mit seinen Augen kann es durch alles hindurch sehen. So findet es auch Beute, die sich versteckt hat."
 	},
 
 	thirdParty: {

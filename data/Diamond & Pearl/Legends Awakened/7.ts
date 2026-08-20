@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Seemon",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for as many Water Energy cards as you like, show them to your opponent, and this attack does 10 damage for each Water Energy card you chose. Put those cards on top of your deck. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre pile de défausse autant de cartes Énergie Water que vous le voulez et montrez-les à votre adversaire. Cette attaque inflige 10 dégâts pour chaque Énergie Water choisie. Placez ces cartes au-dessus de votre deck. Ensuite, mélangez votre deck.",
-				de: "Durchsuche deinen Ablagestapel nach beliebig vielen -Energiekarten und zeige sie deinem Gegner. Dieser Angriff fügt 10 Schadenspunkte für jede auf diese Weise vorgezeigte -Energiekarte zu. Lege alle diese Energiekarten auf dein Deck. Mische dein Deck danach."
+				de: "Durchsuche deinen Ablagestapel nach beliebig vielen {W}-Energiekarten und zeige sie deinem Gegner. Dieser Angriff fügt 10 Schadenspunkte für jede auf diese Weise vorgezeigte {W}-Energiekarte zu. Lege alle diese Energiekarten auf dein Deck. Mische dein Deck danach."
 			},
 			damage: "10x",
 
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+		de: "Es lebt in Höhlen auf dem Meeresgrund. Jedes Mal, wenn es sich bewegt, entsteht ein Strudel."
 	},
 
 	thirdParty: {
