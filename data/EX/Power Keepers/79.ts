@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player pays ColorlessColorless less to retreat his or her Psychic Pokémon.",
 		fr: "Chaque joueur paye Incolore Incolore en moins pour faire battre son Pokémon Psy en retraite.",
-		de: "Jeder Spieler bezahlt   weniger, um seine -Pokémon zurückzuziehen.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Jeder Spieler bezahlt {C} {C} weniger, um seine {P}-Pokémon zurückzuziehen.",
 	},
 
 	thirdParty: {

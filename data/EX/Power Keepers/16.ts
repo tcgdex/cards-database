@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to all of your Pokémon (including Magneton).",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon (Magneton inclus).",
-				de: "Fügt für jede Energie, die an allen deinen Pokémon angelegt ist, 10 Schadenspunkte zu."
+				de: "Dieser Angriff Fügt für jede Energie, die an deinen Pokémon (einschließlich Magneton) angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
