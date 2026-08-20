@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.",
 				fr: "Lancez une pièce. Si c'est face, choisissez un État spécial (Endormi, Brûlé, Confus, Paralysé ou Empoisonné). Le Pokémon Défenseur est maintenant affecté par cet État spécial.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" einen Speziellen Zustand (schlafend, verbrannt, verwirrt, gelähmt oder vergiftet). Das Verteidigende Pokémon ist jetzt von diesem Speziellen Zustand betroffen."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ einen Speziellen Zustand (schlafend, verbrannt, verwirrt, gelähmt oder vergiftet). Das Verteidigende Pokémon ist jetzt von diesem Speziellen Zustand betroffen."
 			},
 
 			damage: 10

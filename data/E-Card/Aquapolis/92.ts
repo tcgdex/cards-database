@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 10 damage plus 10 more damage for each damage counter on Mankey.",
 				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Férosinge.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus zusätzliche 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 zusätzliche Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
 			damage: "10+",
 

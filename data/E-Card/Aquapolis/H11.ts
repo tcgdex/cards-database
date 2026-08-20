@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse.",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Hundemon angelegte -Energiekarte auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Lege bei „Zahl“ eine an Hundemon angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
