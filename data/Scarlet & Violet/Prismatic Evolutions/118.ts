@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 Pokémon ex de tu pila de descartes que tenga \"Ogerpon\" en su nombre y cámbialo por uno de tus Pokémon ex en juego que tenga \"Ogerpon\" en su nombre. Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon.",
 		pt: "Escolha um Pokémon ex da sua pilha de descarte que tenha \"Ogerpon\" em seu nome e troque-o por 1 dos seus Pokémon ex em jogo que tenha \"Ogerpon\" em seu nome. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, turnos em jogo e quaisquer outros efeitos permanecem no novo Pokémon.",
 		it: "Scegli un Pokémon-ex nella tua pila degli scarti che ha \"Ogerpon\" nel nome e scambialo con uno dei tuoi Pokémon-ex in gioco che ha \"Ogerpon\" nel nome. Le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon.",
-		de: "Wähle 1 Pokémon-ex aus deinem Ablagestapel, bei dem \"Ogerpon\" zum Namen gehört, und tausche es gegen 1 deiner Pokémon-ex im Spiel, bei dem \"Ogerpon\" zum Namen gehört, aus. Alle angelegten Karten, Schadensmarken, Speziellen Zustände, die Anzahl der Züge im Spiel sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
+		de: "Wähle 1 Pokémon-ex aus deinem Ablagestapel, bei dem „Ogerpon“ zum Namen gehört, und tausche es gegen 1 deiner Pokémon-ex im Spiel, bei dem „Ogerpon“ zum Namen gehört, aus. Alle angelegten Karten, Schadensmarken, Speziellen Zustände, die Anzahl der Züge im Spiel sowie alle anderen Effekte verbleiben auf dem neuen Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
