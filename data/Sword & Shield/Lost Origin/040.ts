@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Water de tu mano a 1 de tus Pokémon que tenga el ataque Nado Libre.",
 			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon che ha l'attacco Nuotata Libera una carta Energia Water dalla tua mano tutte le volte che vuoi.",
 			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia Water da sua mão a 1 dos seus Pokémon que tiver o ataque Nadar Sossegado.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Water-Energiekarte aus deiner Hand an 1 deiner Pokémon, das die Attacke Freischwimmen hat, anlegen."
+			de: "Beliebig oft während deines Zuges kannst du 1 {W}-Energiekarte aus deiner Hand an 1 deiner Pokémon, das die Attacke Freischwimmen hat, anlegen."
 		}
 	}],
 

@@ -72,7 +72,7 @@ const card: Card = {
 			es: "Mientras este Pokémon esté en juego, obtiene una habilidad que tiene el siguiente efecto: \"Los Pokémon V en juego de tu rival, excepto los Aerodactyl V-ASTRO, no tienen ninguna habilidad\". (No puedes usar más de 1 Poder V-ASTRO en una partida).",
 			it: "Finché questo Pokémon rimane in gioco, possiede un'abilità che ha l'effetto: \"i Pokémon-V in gioco del tuo avversario, a eccezione di qualsiasi Aerodactyl-V ASTRO, non hanno abilità\". Non puoi usare più di un Potere V ASTRO a partita.",
 			pt: "Até este Pokémon sair de jogo, ele ganhará uma Habilidade com o efeito \"Os Pokémon V do seu oponente em jogo, exceto por quaisquer Aerodactyl V-ASTRO, não têm Habilidades.\" (você não pode usar mais de 1 Poder V-ASTRO por partida).",
-			de: "Bis dieses Pokémon das Spiel verlässt, erhält es eine Fähigkeit mit dem Effekt \"Die Pokémon-V deines Gegners im Spiel, außer Aerodactyl-VSTAR, haben keine Fähigkeiten.\" (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+			de: "Bis dieses Pokémon das Spiel verlässt, erhält es eine Fähigkeit mit dem Effekt „Die Pokémon-V deines Gegners im Spiel, außer Aerodactyl-VSTAR, haben keine Fähigkeiten.“ (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
 		}
 	}],
 

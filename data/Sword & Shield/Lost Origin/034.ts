@@ -71,7 +71,7 @@ const card: Card = {
 			es: "Pon cualquier cantidad de Energías Water de tus Pokémon en tu baraja y baraja todas las cartas. Este ataque hace 40 puntos de daño por cada carta que hayas puesto en tu baraja de esta manera.",
 			it: "Rimischia nel tuo mazzo tutte le Energie Water che vuoi dai tuoi Pokémon. Questo attacco infligge 40 danni per ogni carta che hai rimischiato in questo modo.",
 			pt: "Embaralhe qualquer quantidade de Energia Water dos seus Pokémon no seu baralho. Este ataque causa 40 pontos de dano para cada carta embaralhada no seu baralho desta forma.",
-			de: "Mische beliebig viele Water-Energien von deinen Pokémon in dein Deck. Diese Attacke fügt für jede auf diese Weise in dein Deck gemischte Karte 40 Schadenspunkte zu."
+			de: "Mische beliebig viele {W}-Energien von deinen Pokémon in dein Deck. Diese Attacke fügt für jede auf diese Weise in dein Deck gemischte Karte 40 Schadenspunkte zu."
 		},
 
 		damage: "40×"
