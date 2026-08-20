@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chespin",
+		fr: "Marisson",
 		de: "Igamaro"
 	},
 

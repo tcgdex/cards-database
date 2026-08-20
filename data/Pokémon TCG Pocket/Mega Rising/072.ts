@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bounce"
+			en: "Bounce",
+			fr: "Rebond"
 		},
 
 		damage: 40,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
 		}
 	}],
 

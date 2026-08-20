@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Division",
 				fr: "Division",
-				de: "Division"
+				de: "Teilung"
 			},
 			effect: {
 				en: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez Tadmorv dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Sleima-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz toxik",
-				de: "Poison Gas"
+				de: "Giftwolke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth."
+		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+		de: "Es wurde geboren, als Schlamm von den Strahlen des Mondes getroffen wurde. Es erscheint, wo Unrat ist."
 	},
 
 	variants: [

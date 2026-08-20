@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goomy"
+		en: "Goomy",
+		fr: "Mucuscule"
 	},
 
 	illustrator: "Kariya",
@@ -26,17 +27,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sticky Membrane"
+			en: "Sticky Membrane",
+			fr: "Membrane Gluante"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 {C} more."
+			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 {C} more.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, les attaques utilisées par le Pokémon Actif de votre adversaire coûtent une Énergie {C} de plus."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 
 		damage: 30,

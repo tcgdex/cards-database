@@ -36,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Hyper Beam",
-			fr: "Ultralaser"
+			fr: "Ultralaser",
+			de: "Hyperstrahl"
 		},
 
 		effect: {
 			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 120
@@ -50,7 +52,8 @@ const card: Card = {
 
 		name: {
 			en: "Max Tyrant",
-			fr: "Tyranomax"
+			fr: "Tyranomax",
+			de: "Dyna-Tyrann"
 		},
 
 		damage: 240

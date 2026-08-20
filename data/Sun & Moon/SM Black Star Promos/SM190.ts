@@ -69,6 +69,16 @@ const card: Card = {
 	description: {
 		en: "He was the partner of Tim's father, Harry, who has gone missing. This Pikachu loves the dark coffee at the Hi-Hat Cafe.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 372210,
+				tcgplayer: 189805
+			}
+		}
+	],
 }
 
 export default card

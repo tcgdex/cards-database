@@ -61,7 +61,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
+		en: "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen.",
+		de: "Bandelby hassen es, vom Regen nass zu werden. Da die Galar-Region zu bewölktem Wetter neigt, lassen sie sich nur selten blicken."
 	},
 
 	dexId: [743],

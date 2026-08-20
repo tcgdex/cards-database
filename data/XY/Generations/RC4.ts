@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	illustrator: "Akira Komayama",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Call for Support",
 				fr: "Appel au Renfort",
+				de: "Ruf nach Unterstützung"
 			},
 			effect: {
 				en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -53,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 80,
@@ -71,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "My precious friend who is always with me. I have so many things I want to tell you.",
+		de: "Mein herzallerliebster Freund, der du immer bei mir ist. Ich habe dir so viel zu erzählen."
 	},
 
 	thirdParty: {

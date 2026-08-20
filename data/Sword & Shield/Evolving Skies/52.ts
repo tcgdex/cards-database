@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+		de: "Am dunklen Meeresgrund sind die ständig flackernden Lichter seiner Antennen sein einziges Kommunikationsmittel."
 	},
 
 	dexId: [170],

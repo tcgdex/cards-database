@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.",
+		de: "Verletzt man seinen großen Stolz oder macht die Münze an seiner Stirn schmutzig, so verfällt es in eine wahnsinnige Hysterie."
 	},
 
 	thirdParty: {

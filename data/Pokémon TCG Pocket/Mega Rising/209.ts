@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rookidee"
+		en: "Rookidee",
+		fr: "Minisange"
 	},
 
 	illustrator: "OKACHEKE",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flap"
+			en: "Flap",
+			fr: "Battement"
 		},
 
 		damage: 20,

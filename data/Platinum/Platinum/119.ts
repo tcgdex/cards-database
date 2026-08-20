@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Play Armor Fossil as if it were a Colorless Basic Pokémon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pokémon.)",
 		fr: "Jouez Fossile armure comme si c'était un Pokémon de base Colorless. (Fossile armure compte aussi comme une carte Dresseur mais si Fossile armure est mise K.O, elle compte comme un Pokémon K.O). Fossile armure ne peut pas être affectée par des États Spéciaux et ne peut pas battre en retraite. N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile armure. (Cela ne compte pas comme un Pokémon K.O.)",
-		de: "Play Armor Fossil as if it were a  Basic Pokémon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pokémon.)"
+		de: "Spiele Panzerfossil wie ein {C}-Basis-Pokémon. (Panzerfossil zählt gleichzeitig als Trainerkarte, aber wenn Panzerfossil kampfunfähig wird, zählt es als kampfunfähig gemachtes Pokémon.) Panzerfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Panzerfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
 	abilities: [
@@ -25,11 +25,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Armor Stone",
-				de: "Armor Stone"
+				de: "Panzerungsstein"
 			},
 			effect: {
 				en: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
-				de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
+				de: "Wenn Panzerfossil durch einen gegnerischen Angriff Schaden zugefügt würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Reduziere den Schaden dieses Angriffs um 10 Schadenspunkte mal der Anzahl „Kopf“."
 			}
 		},
 	],

@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
 		de: "Metang"
 	},
 

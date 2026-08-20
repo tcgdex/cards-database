@@ -93,6 +93,16 @@ const card: Card = {
 	description: {
 		en: "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 358429,
+				tcgplayer: 168245
+			}
+		}
+	],
 }
 
 export default card

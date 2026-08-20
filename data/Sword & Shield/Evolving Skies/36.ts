@@ -81,7 +81,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood.",
+		de: "Es schwimmt, indem es das Meerwasser, das es trinkt, aus seinem Hinterteil ausstößt. Für den Geruch von Blut ist es sehr empfänglich."
 	},
 
 	dexId: [319],

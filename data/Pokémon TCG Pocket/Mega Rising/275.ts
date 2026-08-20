@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greninja ex"
+		en: "Greninja ex",
+		fr: "Amphinobi-ex"
 	},
 
 	illustrator: "Raita Kazama",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal"
 	},
 
 	stage: "Stage2",
@@ -27,17 +29,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Shifting Stream"
+			en: "Shifting Stream",
+			fr: "Courant Changeant"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch your Active {W} Pokémon with 1 of your Benched Pokémon."
+			en: "Once during your turn, you may switch your Active {W} Pokémon with 1 of your Benched Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez échanger votre Pokémon {W} Actif contre un de vos Pokémon de Banc."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Aqua Edge"
+			en: "Aqua Edge",
+			fr: "Aqua-Dague"
 		},
 
 		damage: 100,

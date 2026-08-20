@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dustox"
+		en: "Dustox",
+		fr: "Papinox"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cascoon"
+		en: "Cascoon",
+		fr: "Blindalys"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Select Powder"
+			en: "Select Powder",
+			fr: "Poudre Select"
 		},
 
 		damage: 60,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Choose either Poisoned or Confused. Your opponent's Active Pokémon is now affected by that Special Condition."
+			en: "Choose either Poisoned or Confused. Your opponent's Active Pokémon is now affected by that Special Condition.",
+			fr: "Choisissez entre Empoisonné et Confus. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial."
 		}
 	}],
 

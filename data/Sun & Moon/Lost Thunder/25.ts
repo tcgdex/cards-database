@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
+		de: "Es trinkt den Tau, der sich in der Seide fängt, und wartet auf seine Entwicklung. Sein Kokon schützt es."
 	},
 
 	thirdParty: {

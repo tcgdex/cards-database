@@ -9,25 +9,29 @@ const card: Card = {
 	dexId: [27],
 
 	description: {
-		en: "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can."
+		en: "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+		de: "Bei einem der traditionellen Feste Alolas messen sich die Teilnehmer darin, ihre Sandan so weit wie möglich über Eisflächen gleiten zu lassen."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fury Swipes"
+			en: "Fury Swipes",
+			de: "Kratzfurie"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads."
+			en: "Flip 3 coins. This attack does 10 damage for each heads.",
+			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		}
 	}],
 
 	name: {
-		en: "Alolan Sandshrew"
+		en: "Alolan Sandshrew",
+		de: "Alola-Sandan"
 	},
 
 	rarity: "None",

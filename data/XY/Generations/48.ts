@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hitmonchan",
 		fr: "Tygnon",
+		de: "Nockchan"
 	},
 
 	illustrator: "match",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Bullet Punch",
 				fr: "Pisto-Poing",
+				de: "Patronenhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Mach Cross",
 				fr: "Passage Éclair",
+				de: "Tempo-Cross"
 			},
 
 			damage: 60,
@@ -68,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+		de: "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle drei Minuten ausruhen."
 	},
 
 	thirdParty: {

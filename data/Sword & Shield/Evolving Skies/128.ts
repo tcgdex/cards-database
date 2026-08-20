@@ -53,7 +53,8 @@ const card: Card = {
 	dexId: [235],
 
 	description: {
-		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
+		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.",
+		de: "Mit der Flüssigkeit, die aus seiner Schweifspitze austritt, hinterlässt es Markierungen. Die besten werden unter Fans zu hohen Preisen gehandelt."
 	},
 
 	regulationMark: "E",

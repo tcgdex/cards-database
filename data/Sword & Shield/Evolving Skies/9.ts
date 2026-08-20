@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
+		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area.",
+		de: "Sie bevorzugen sauberes Wasser und reine Erde. Sollten sich die Bedingungen in der Umgebung verschlechtern, ziehen sie in der Gruppe weiter."
 	},
 
 	dexId: [548],

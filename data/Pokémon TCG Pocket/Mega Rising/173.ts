@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan"
+		en: "Meltan",
+		fr: "Meltan"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy."
+		en: "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy.",
+		fr: "Il se nourrit du métal qu'il fait fondre, et produit de l'énergie en faisant circuler du métal liquide dans son corps."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Beam"
+			en: "Beam",
+			fr: "Rayon"
 		},
 
 		damage: 20,

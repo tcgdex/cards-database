@@ -22,6 +22,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
+		fr: "Croâporal",
 		de: "Amphizel"
 	},
 	rarity: "Mega Hyper Rare",

@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+		de: "Es entfacht eine Flamme, die von der Lebensenergie eines Menschen oder eines Pokémon zehrt."
 	},
 
 	thirdParty: {

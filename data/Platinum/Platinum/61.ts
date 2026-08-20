@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Seviper",
-		fr: "Seviper",
+		fr: "Séviper",
 		de: "Vipitis"
 	},
 
@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Shed Skin",
 				fr: "Mue",
-				de: "Shed Skin"
+				de: "Expidermis"
 			},
 			effect: {
 				en: "Remove 4 damage counters from Seviper.",
 				fr: "Retirez à Seviper 4 marqueurs de dégât.",
-				de: "Remove 4 damage counters from Seviper."
+				de: "Entferne 4 Schadensmarken von Vipitis."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Bite and Escape",
 				fr: "Mordre avant de s'échapper",
-				de: "Bite and Escape"
+				de: "Beißen und Abhauen"
 			},
 			effect: {
 				en: "You may switch Seviper with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Seviper avec 1 des Pokémon de votre Banc.",
-				de: "You may switch Seviper with 1 of your Benched Pokémon."
+				de: "Du kannst Vipitis gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 20,
 
@@ -64,12 +64,12 @@ const card: Card = {
 			name: {
 				en: "Paralyze Poison",
 				fr: "Poison paralysant",
-				de: "Paralyze Poison"
+				de: "Lähmendes Gift"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisened."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 40,
 

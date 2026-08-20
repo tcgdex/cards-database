@@ -36,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Spark Trap",
-			fr: "Piège Étincelle"
+			fr: "Piège Étincelle",
+			de: "Funkenfalle"
 		},
 
 		effect: {
 			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant."
+			fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant.",
+			de: "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch eine Attacke Schaden zugefügt wird (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 12 Schadensmarken auf das Angreifende Pokémon."
 		},
 
 		damage: 60
@@ -50,7 +52,8 @@ const card: Card = {
 
 		name: {
 			en: "Max Impact",
-			fr: "Impactomax"
+			fr: "Impactomax",
+			de: "Dyna-Einschlag"
 		},
 
 		damage: 200

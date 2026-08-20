@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luvdisc"
+		en: "Luvdisc",
+		fr: "Lovdisc"
 	},
 
 	illustrator: "sui",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Paired Tackle"
+			en: "Paired Tackle",
+			fr: "Tacle Tandem"
 		},
 
 		damage: 30,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "If you have exactly 2, 4, or 6 cards in your hand, this attack does 30 more damage."
+			en: "If you have exactly 2, 4, or 6 cards in your hand, this attack does 30 more damage.",
+			fr: "Si vous avez exactement 2, 4 ou 6 cartes dans votre main, cette attaque inflige 30 dégâts supplémentaires."
 		}
 	}],
 
