@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paldean Wooper",
-		fr: "Axoloto de Paldea"
+		fr: "Axoloto de Paldea",
+		de: "Paldea-Felino"
 	},
 
 	stage: "Stage1",

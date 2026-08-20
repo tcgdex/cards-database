@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Floragato",
-		fr: "Matourgeon"
+		fr: "Matourgeon",
+		de: "Feliospa"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il se sert de la réverbération de la lumière sur\nla fourrure de sa cape pour camoufler sa tige,\nce qui donne l'illusion que sa fleur flotte dans les airs.",
 		es: "Se sirve de la luz que reflejan los tricomas de\nsu manto de hojas para camuflar la vid y crear\nla ilusión óptica de que la flor flota en el aire.",
 		it: "I riflessi del pelo all'interno del mantello\ncamuffano lo stelo del suo fiore, che\ncosì sembra fluttuare nell'aria.",
-		de: "Es erweckt den Eindruck, als würde seine Blume\nschweben, indem es ihren Stiel mit der Reflexion\ndes Fells an der Innenseite seines Mantels tarnt.",
+		de: "Es erweckt den Eindruck, als würde seine Blume schweben, indem es ihren Stiel mit der Reflexion des Fells an der Innenseite seines Mantels tarnt.",
 		'pt-br': "Este Pokémon usa a pelugem reflexiva da sua capa\npara camuflar o caule da sua flor, criando a ilusão\nde que a flor está flutuando.",
 		ko: "꽃이 떠 있는 것처럼 보이는 것은\n망토 뒷면의 털이 빛을 반사해서\n줄기를 보이지 않게 하기 때문이다."
 	},
@@ -58,7 +59,7 @@ const card: Card = {
 			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-{ex}, cette attaque inflige 70 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon {ex}, este ataque hace 70 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-{ex}, questo attacco infligge 70 danni in più.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-{ex} ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
 			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {ex}, este ataque causará 70 pontos de dano a mais.",
 			ko: "상대의 배틀 포켓몬이 「포켓몬 {ex}」라면 70데미지를 추가한다."
 		}

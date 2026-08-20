@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Son corps est si puissant qu'il lui faut\nune ceinture pour maîtriser sa force.",
 		es: "Su musculoso cuerpo es tan fuerte que usa un\ncinto antifuerza para controlar sus movimientos.",
 		it: "Il suo corpo muscoloso è così forte che usa\nuna cintura per contenere la sua potenza.",
-		de: "Dieses Pokémon ist superstark. Es kann sich nur\nmit einem kraftregulierenden Gürtel bewegen.",
+		de: "Dieses Pokémon ist superstark. Es kann sich nur mit einem kraftregulierenden Gürtel bewegen.",
 		'pt-br': "Sua massa muscular é tão poderosa que ele\nprecisa usar um cinto de economia de energia\npara controlar seus movimentos.",
 		ko: "엄청나게 강한 육체를 지녔기 때문에\n파워 세이브 벨트를 차서\n힘을 제어하고 있다."
 	},

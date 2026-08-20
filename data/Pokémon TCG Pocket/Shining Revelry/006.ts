@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sprigatito",
-		fr: "Poussacha"
+		fr: "Poussacha",
+		de: "Felori"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il manie avec habileté la liane dissimulée\nsous ses longs poils et frappe ses adversaires\navec le bourgeon dur situé à son extrémité.",
 		es: "Maneja diestramente la vid oculta bajo su largo pelaje y propina\nlatigazos al enemigo con el capullo endurecido de la punta.",
 		it: "Muove con agilità la liana nascosta\nsotto il lungo pelo e sferza il nemico\ncon il duro bocciolo sulla punta.",
-		de: "Es lenkt geschickt die Ranke, die es unter\nseinem langen Fell verbirgt, und schleudert\ndie harte Knospe an ihrem Ende auf Gegner.",
+		de: "Es lenkt geschickt die Ranke, die es unter seinem langen Fell verbirgt, und schleudert die harte Knospe an ihrem Ende auf Gegner.",
 		'pt-br': "Floragato empunha com maestria o cipó escondido\nentre seus pelos longos. Golpeia seus oponentes\ncom o botão de flor rígido.",
 		ko: "긴 털 아래 숨긴 덩굴을\n능숙하게 다뤄서\n단단한 꽃봉오리로 상대를 가격한다."
 	},

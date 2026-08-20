@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gimmighoul",
-		fr: "Mordudor"
+		fr: "Mordudor",
+		de: "Gierspenst"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Son corps serait composé de 1 000 pièces. Sociable,\nil peut se lier d'amitié très rapidement avec n'importe qui.",
 		es: "Se dice que su cuerpo está formado por 1000\nmonedas. Es capaz de hacer buenas migas con\ncualquiera rápidamente por su sociabilidad.",
 		it: "Pare che il suo corpo sia formato da\n1.000 monete. È molto socievole e\nfa subito amicizia con chiunque.",
-		de: "Sein Körper soll aus 1000 Münzen bestehen.\nEs ist sehr umgänglich und schließt mit jedem\nrasch Freundschaft.",
+		de: "Sein Körper soll aus 1000 Münzen bestehen. Es ist sehr umgänglich und schließt mit jedem rasch Freundschaft.",
 		'pt-br': "Seu corpo parece ser feito de 1.000 moedas.\nEste Pokémon se dá bem com os outros\ne faz amizades com qualquer um rapidamente.",
 		ko: "몸은 1000개의 코인으로\n이뤄져 있다고 한다. 붙임성이 좋아서\n누구와도 금방 친해진다."
 	},
