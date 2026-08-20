@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "L'exposition aux rayons éblouissants du soleil a\nrévélé sa véritable apparence et son potentiel réel.",
 		es: "Los intensos rayos solares que bañan su hábitat le han conferido\nun poder y aspecto que muchos consideran su forma original.",
 		it: "L'esposizione a intensi raggi solari ha risvegliato\nl'aspetto e il potere originari di questo Pokémon.",
-		de: "Durch starke Sonneneinstrahlung wurden seine\neigentlichen Kräfte und seine wahre Gestalt freigesetzt.",
+		de: "Durch starke Sonneneinstrahlung wurden seine eigentlichen Kräfte und seine wahre Gestalt freigesetzt.",
 		'pt-br': "A luz solar escaldante revelou a verdadeira forma\ne os poderes deste Pokémon.",
 		ko: "쨍쨍 내리쬐는 태양 빛을\n받은 결과 본래의\n모습과 능력이 각성되었다."
 	},

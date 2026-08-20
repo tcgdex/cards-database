@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Jolteon",
-		es: "Jolteon"
+		es: "Jolteon",
+		de: "Blitza"
 	},
 
 	illustrator: "Mizue",
@@ -19,12 +20,14 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		es: "Eevee"
+		es: "Eevee",
+		de: "Evoli"
 	},
 
 	description: {
 		en: "It concentrates the weak electric charges emitted\nby its cells and launches wicked lightning bolts.",
-		es: "Concentra la débil actividad eléctrica de\nsus células para lanzar dañinas descargas."
+		es: "Concentra la débil actividad eléctrica de\nsus células para lanzar dañinas descargas.",
+		de: "Es sammelt die schwache elektrische Energie, die von seinen Zellen ausgeht, und feuert starke Blitze ab."
 	},
 
 	stage: "Stage1",
@@ -32,7 +35,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Beginning Bolt",
-			es: "Descarga de Arranque"
+			es: "Descarga de Arranque",
+			de: "Startspannung"
 		},
 
 		damage: 40,
@@ -40,7 +44,8 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon evolved during this turn, this attack does 20 more damage.",
-			es: "Si este Pokémon ha evolucionado durante este turno, este ataque hace 20 puntos de daño más."
+			es: "Si este Pokémon ha evolucionado durante este turno, este ataque hace 20 puntos de daño más.",
+			de: "Wenn sich dieses Pokémon während dieses Zuges entwickelt hat, fügt diese Attacke 20 Schadenspunkte mehr zu."
 		}
 	}],
 

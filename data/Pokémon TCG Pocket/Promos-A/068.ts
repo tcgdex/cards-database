@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rockruff",
-		fr: "Rocabot"
+		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il attaque ses proies à l'aide de ses griffes\net de ses crocs acérés. Il obéira toujours\nà son Dresseur s'il lui fait confiance.",
 		es: "Ataca a sus presas con sus afilados colmillos y\ngarras. Solo obedece las órdenes de aquellos\nEntrenadores que logran ganarse su confianza.",
 		it: "Caccia la sua preda usando le zanne e gli artigli affilatissimi.\nAscolta fedelmente le indicazioni degli Allenatori di cui si fida.",
-		de: "Es greift seine Beute mit scharfen Fangzähnen\nund Krallen an. Vertraut es einem Trainer,\nbefolgt es treu dessen Anweisungen.",
+		de: "Es greift seine Beute mit scharfen Fangzähnen und Krallen an. Vertraut es einem Trainer, befolgt es treu dessen Anweisungen.",
 		'pt-br': "Lycanroc ataca suas presas com seus caninos\ne garras afiadas. Obedece lealmente às instruções\nde um Treinador em quem confia.",
 		ko: "날카로운 발톱과 이빨로 먹이를 공격한다.\n신뢰하는 트레이너의 지시에는\n충실히 따른다."
 	},
