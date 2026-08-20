@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cofagrigus"
+		en: "Cofagrigus",
+		fr: "Tutankafer"
 	},
 
 	illustrator: "Apios",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Yamask"
+		en: "Yamask",
+		fr: "Tutafeh"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Soul Shot"
+			en: "Soul Shot",
+			fr: "Tir Spirituel"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
+			en: "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing.",
+			fr: "Défaussez 2 cartes de votre main. Si vous ne pouvez pas en défausser autant, cette attaque ne fait rien."
 		}
 	}],
 

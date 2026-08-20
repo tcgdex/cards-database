@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Goomy",
 		fr: "Mucuscule",
+		de: "Viscora"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.",
+		de: "Da es keine Zähne hat, sondert es einen alles zersetzenden Schleim auf seine Beute ab. Danach schlürft es diese genüsslich auf."
 	},
 
 	thirdParty: {

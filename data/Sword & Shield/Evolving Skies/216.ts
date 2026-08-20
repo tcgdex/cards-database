@@ -36,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Rubbish Collecting",
-			fr: "Ramassage de Déchets"
+			fr: "Ramassage de Déchets",
+			de: "Abfallsammler"
 		},
 
 		effect: {
 			en: "This Pokémon may have up to 2 Pokémon Tools attached to it. If it loses this Ability, discard Pokémon Tools from it until only 1 remains.",
-			fr: "Jusqu'à 2 Outils Pokémon peuvent être attachés à ce Pokémon. S'il perd ce talent, défaussez des Outils Pokémon jusqu'à ce qu'il ne lui en reste qu'un."
+			fr: "Jusqu'à 2 Outils Pokémon peuvent être attachés à ce Pokémon. S'il perd ce talent, défaussez des Outils Pokémon jusqu'à ce qu'il ne lui en reste qu'un.",
+			de: "An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein. Wenn es diese Fähigkeit verliert, lege von ihm so lang Pokémon-Ausrüstungen auf deinen Ablagestapel, bis nur 1 übrig ist."
 		}
 	}],
 
@@ -50,12 +52,14 @@ const card: Card = {
 
 		name: {
 			en: "G-Max Malodor",
-			fr: "Pestilence G-Max"
+			fr: "Pestilence G-Max",
+			de: "Giga-Gestank"
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
 		damage: 120

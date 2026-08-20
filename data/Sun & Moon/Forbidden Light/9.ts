@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Grass de tu mano a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Grass dalla tua mano.",
 				pt: "Ligue 1 carta de Energia Grass da sua mão a este Pokémon.",
-				de: "Lege1 Grass-Energiekarte aus deiner Hand an dieses Pokémon an."
+				de: "Lege1 {G}-Energiekarte aus deiner Hand an dieses Pokémon an."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
+		de: "Solange es Wasser und Sonnenlicht hat, kann es mit den Blättern auf seinem Rücken Energie erzeugen. Deswegen kommt es auch ohne Futter zurecht."
 	},
 
 	thirdParty: {

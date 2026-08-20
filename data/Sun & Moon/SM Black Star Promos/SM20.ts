@@ -97,6 +97,16 @@ const card: Card = {
 	description: {
 		en: "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297621,
+				tcgplayer: 131085
+			}
+		}
+	],
 }
 
 export default card

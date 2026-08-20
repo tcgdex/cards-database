@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zweilous"
+		en: "Zweilous",
+		fr: "Diamat"
 	},
 
 	illustrator: "kodama",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Deino"
+		en: "Deino",
+		fr: "Solochi"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Darkness Fang"
+			en: "Darkness Fang",
+			fr: "Croc Obscur"
 		},
 
 		damage: 40,

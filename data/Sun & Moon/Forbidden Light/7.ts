@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scatterbug",
 		fr: "Lépidonille",
+		de: "Purmel"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder.",
+		de: "Der Schnabel eines Vogel-Pokémon kann seinem harten Körper keinen Kratzer zufügen. Es verteidigt sich, indem es Puder spuckt."
 	},
 
 	thirdParty: {

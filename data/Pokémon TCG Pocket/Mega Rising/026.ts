@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Thwackey"
+		en: "Thwackey",
+		fr: "Badabouin"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Grookey"
+		en: "Grookey",
+		fr: "Ouistempo"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement"
 		},
 
 		damage: 50,

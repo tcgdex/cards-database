@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Inkay",
+		fr: "Sepiatop",
 		de: "Iscalar"
 	},
 

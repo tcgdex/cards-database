@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flabébé",
 		fr: "Flabébé",
+		de: "Flabébé"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 10,
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It's OK. No one will take away your flower. You look cute even when you're angry.",
+		de: "Keine Sorge. Niemand nimmt dir deine Blume weg. Auch wenn du wütend bist, siehst du niedlich aus."
 	},
 
 	thirdParty: {

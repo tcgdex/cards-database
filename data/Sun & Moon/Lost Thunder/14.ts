@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skiploom",
 		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	stage: "Stage2",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
 				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
 				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer ◇-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
 			},
 			damage: "20×",
 
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
+		de: "Auch im stärksten Wind kann es kontrollieren, wo seine Saat auf dem Erdball niedergehen soll."
 	},
 
 	thirdParty: {

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golurk"
+		en: "Golurk",
+		fr: "Golemastoc"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Golett"
+		en: "Golett",
+		fr: "Gringolem"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Heavy Rocket"
+			en: "Heavy Rocket",
+			fr: "Missile Lourd"
 		},
 
 		damage: 60,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pokémon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck."
+			en: "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pokémon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck.",
+			fr: "Montrez les 3 premières cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque Pokémon avec un Coût de Retraite de 3 ou plus que vous y trouvez. Mélangez les cartes montrées avec votre deck."
 		}
 	}],
 

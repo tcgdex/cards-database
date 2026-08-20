@@ -4,7 +4,7 @@ import Set from '../Unbroken Bonds'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant",
+		fr: "Débugant",
 		es: "Tyrogue",
 		it: "Tyrogue",
 		pt: "Tyrogue",

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Pon hasta 2 Pokémon, cada uno con 90 PS o menos, de tu pila de descartes en tu mano.",
 		it: "Prendi fino a due Pokémon, ciascuno con 90 PS o meno, dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
 		pt: "Coloque até 2 Pokémon, cada um com 90 PS ou menos, da sua pilha de descarte na sua mão.",
-		de: "Nimm bis zu 2 Pokémon, jedes mit 90 oder weniger KP, aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm bis zu 2 Pokémon, jedes mit 90 oder weniger KP, aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

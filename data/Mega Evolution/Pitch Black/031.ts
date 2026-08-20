@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
+		fr: "Ramoloss",
 		de: "Flegmon"
 	},
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arrokuda"
+		en: "Arrokuda",
+		fr: "Embrochet"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 20,
