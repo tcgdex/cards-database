@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Fiffyen",
+		de: "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
-		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
+		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur.",
+		de: "Es jagt seine Beute im Rudel. Den Befehlen eines erfahrenen Trainers wird es stets folgen."
 	},
 
 	thirdParty: {

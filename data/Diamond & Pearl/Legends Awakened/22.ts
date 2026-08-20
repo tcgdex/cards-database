@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Corphish",
 		fr: "Krebscorps",
+		de: "Krebscorps"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimmt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten auf seine Hand zurück."
+				de: "Wirf 1 Münze. Bei „Kopf“ nimmt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten auf seine Hand zurück."
 			},
 
 		},
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
-		fr: "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare."
+		fr: "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare.",
+		de: "Dieser Grobian ergreift andere PKMN mit seinen Scheren und wirft sie aus seinem Teich."
 	},
 
 	thirdParty: {

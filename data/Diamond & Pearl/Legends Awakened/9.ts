@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Piloswine",
 		fr: "Keifel",
+		de: "Keifel"
 	},
 
 	stage: "Stage2",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und lege 1 am Verteidigenden Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und lege 1 am Verteidigenden Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 
@@ -90,7 +91,8 @@ const card: Card = {
 
 	description: {
 		en: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
-		fr: "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire."
+		fr: "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire.",
+		de: "Die beeindruckenden Stoßzähne dieser PKMN sind aus Eis. Nach der Eiszeit nahm ihre Population ab."
 	},
 
 	thirdParty: {

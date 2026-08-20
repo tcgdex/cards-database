@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Quapsel",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness.",
+		de: "Das Spiralmuster auf seinem Bauch dreht sich langsam. Starrt man darauf, wird einem schwindelig."
 	},
 
 	thirdParty: {

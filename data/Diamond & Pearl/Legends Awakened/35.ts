@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Quaputzi",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "With extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
-		fr: "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
+		fr: "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique.",
+		de: "Es hat extrem starke Muskeln und kann durch den Ozean schwimmen, ohne sich ausruhen zu müssen."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tentacool",
 		fr: "Tentacha",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "With 80 tentacles for ensnaring victims, it prevents escape until the prey is weakened by poison.",
-		fr: "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet."
+		fr: "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet.",
+		de: "Es besitzt 80 Tentakel, um Beute zu fangen und festzuhalten. Diese wird durch Gift geschwächt."
 	},
 
 	thirdParty: {

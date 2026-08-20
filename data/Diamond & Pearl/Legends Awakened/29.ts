@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Choose up to 2 basic Fighting Energy cards from your hand and attach them to 1 of your Pokémon.",
 				fr: "Choisissez jusqu'à 2 cartes Énergie de base Fighting de votre main et attachez-les à 1 de vos Pokémon.",
-				de: "Wähle bis zu 2 -Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
+				de: "Wähle bis zu 2 {F}-Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Fighting Energy attached to Groudon and this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Défaussez 2 Énergies Fighting attachées à Groudon et cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Lege 2 an Groudon angelegte -Energien auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Lege 2 an Groudon angelegte {F}-Energien auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 100,
 
@@ -79,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago.",
-		fr: "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il a longtemps de cela."
+		fr: "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il a longtemps de cela.",
+		de: "Es hat seit dem Kampf gegen KYOGRE in Magma unter dem Erdboden geschlafen."
 	},
 
 	thirdParty: {

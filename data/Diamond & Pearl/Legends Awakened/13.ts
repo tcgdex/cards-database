@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Nasgnet",
+		de: "Nasgnet"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Any damage done to Probopass by your opponent's attacks is reduced by 10 for each Metal Energy attached to Probopass (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way.",
 				fr: "Tous dégâts infligés à Tarinorme par des attaques de votre adversaire sont réduits de 10 pour chaque Énergie Metal attachée à Tarinorme (après application de la Faiblesse et de la Résistance). Vous ne pouvez réduire de plus de 20 dégâts de cette façon.",
-				de: "Schaden, der Voluminas durch gegnerische Angriffe zugefügt wird, wird für jede an Voluminas angelegte -Energie um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Der Schaden kann auf diese Weise nicht um mehr als 20 Schadenspunkte reduziert werden."
+				de: "Schaden, der Voluminas durch gegnerische Angriffe zugefügt wird, wird für jede an Voluminas angelegte {M}-Energie um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Der Schaden kann auf diese Weise nicht um mehr als 20 Schadenspunkte reduziert werden."
 			},
 		},
 	],
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Choose a number of your opponent's Benched Pokémon up to the amount of Metal Energy attached to Probopass. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Vous pouvez choisir autant de Pokémon de Banc de votre adversaire qu'il y a d'Énergie Metal attachée à Tarinorme. Cette attaque inflige 20 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle eine Anzahl gegnerischer Pokémon, die höchstens der Anzahl der an Voluminas angelegten -Energien entspricht. Dieser Angriff fügt jedem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wähle eine Anzahl gegnerischer Pokémon, die höchstens der Anzahl der an Voluminas angelegten {M}-Energien entspricht. Dieser Angriff fügt jedem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It exudes strong magnetism from all over. It controls three small units call Mini-Noses.",
-		fr: "Son corps libère une puissante force magnétique. Il dirige trois petites unités appelées Mini-nez."
+		fr: "Son corps libère une puissante force magnétique. Il dirige trois petites unités appelées Mini-nez.",
+		de: "Es gibt starken Magnetismus ab. Es steuert drei kleine Einheiten, die sich Mininasen nennen."
 	},
 
 	thirdParty: {

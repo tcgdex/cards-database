@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Its legs can stretch double. First-time foes are startled by its extensible reach.",
-		fr: "Ses pattes élastiques s'allongent, ce qui ne manque jamais de surprendre au premier combat."
+		fr: "Ses pattes élastiques s'allongent, ce qui ne manque jamais de surprendre au premier combat.",
+		de: "Seine Beine können die doppelte Länge annehmen. Gegner, die das nicht wissen, erschrecken."
 	},
 
 	thirdParty: {

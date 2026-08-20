@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
-		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
+		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord.",
+		de: "Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden."
 	},
 
 	thirdParty: {
