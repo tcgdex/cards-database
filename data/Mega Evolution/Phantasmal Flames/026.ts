@@ -73,13 +73,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos',
-			thirdParty: {
-				cardmarket: 867791
-			}
-		},
-		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857601,
@@ -89,16 +82,27 @@ const card: Card = {
 		},
 		{
 			type: 'holo',
-			stamp: ['eb-games'],
+			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 858506
+				cardmarket: 867791,
+				tcgplayer: 670788
 			}
 		},
 		{
 			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 858506,
+				tcgplayer: 671234
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
 			stamp: ['gamestop'],
 			thirdParty: {
-				cardmarket: 858505
+				cardmarket: 858505,
+				tcgplayer: 666533
 			}
 		},
 	],
