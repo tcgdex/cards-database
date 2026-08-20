@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Le Pokémon {N} auquel cette carte est attachée subit 50 dégâts de moins provenant des attaques des Pokémon {G}, {R}, {W} ou {L} de votre adversaire (après application de la Faiblesse et de la Résistance).",
 		es: "Los ataques de los Pokémon {G}, {R}, {W} o {L} de tu rival hacen 50 puntos de daño menos al Pokémon {N} al que esté unida esta carta (después de aplicar Debilidad y Resistencia).",
 		'es-mx': "El Pokémon {N} al que esté unida esta carta recibe 50 puntos de daño menos de los ataques de los Pokémon {G}, {R}, {W} o {L} de tu rival (después de aplicar Debilidad y Resistencia).",
-		de: "Dem {N}-Pokémon, an das diese Karte angelegt ist, werden durch Attacken von {G}-, {R}-, {W}- oder {L}-Pokémon deines Gegners 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+		de: "Dem {N}-Pokémon, an das diese Karte angelegt ist, werden durch Attacken von {G}-, {R}-, {W}- oder {L}-Pokémon deines Gegners 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
 		it: "Il Pokémon {N} a cui è assegnata questa carta subisce 50 danni in meno dagli attacchi dei Pokémon {G}, {R}, {W} o {L} del tuo avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "O Pokémon {N} ao qual esta carta está ligada recebe 50 pontos de dano a menos de ataques dos Pokémon {G}, {R}, {W} ou {L} do seu oponente (depois de aplicar Fraqueza e Resistência)."
 	},

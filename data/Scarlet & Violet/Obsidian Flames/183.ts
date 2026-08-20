@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+		de: "Seine glatte, glänzende Haut ist sein ganzer Stolz. Über die Spitze seines Schwanzes setzt es einen konzentrierten Duft frei."
 	},
 
 	variants: [

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, hasta 5 cartas de Energía Básica y Pokémon de tu pila de descartes en tu mano.",
 		pt: "Coloque até 5 cartas de Pokémon e de Energia Básica da sua pilha de descarte na sua mão em qualquer combinação.",
 		it: "Prendi fino a cinque Pokémon e carte Energia base in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
-		de: "Nimm eine beliebige Kombination aus bis zu 5 Pokémon und Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Nimm eine beliebige Kombination aus bis zu 5 Pokémon und Basis-Energiekarten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

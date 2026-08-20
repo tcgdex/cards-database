@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+		de: "Trotz seiner harten Schale kann es sich frei bewegen. Es ist flink und äußerst zerstörerisch."
 	},
 
 	

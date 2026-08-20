@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Megumi Higuchi",
 
 	description: {
-		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
+		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!",
+		de: "Durch seinen stählernen Panzer sieht es zwar schwer aus, aber dennoch kann es bis zu 300 km/h schnell fliegen."
 	},
 
 	attacks: [{

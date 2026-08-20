@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il aime tellement la sève qu'il la défend\njalousement : à l'aide de son imposante corne,\nil projette quiconque s'en approche dans les airs.",
 		es: "Le encanta la savia dulce y usa su cuerno para lanzar\npor los aires a cualquiera que se acerque a ella.",
 		it: "È ghiotto della dolce linfa degli alberi e\nper non farsela rubare scaglia lontano\ni nemici con il suo possente corno.",
-		de: "Es liebt süßen Baumsaft. Mit seinem Horn, auf\ndas es sehr stolz ist, schleudert es Rivalen hinfort,\num allen Baumsaft für sich zu beanspruchen.",
+		de: "Es liebt süßen Baumsaft. Mit seinem Horn, auf das es sehr stolz ist, schleudert es Rivalen hinfort, um allen Baumsaft für sich zu beanspruchen.",
 		'pt-br': "Este Pokémon adora néctar doce. Para ficar com todo\no néctar para si mesmo, arremessa os rivais para longe\ncom seu chifre precioso.",
 		ko: "달콤한 꿀을 아주 좋아해서\n혼자 독차지하기 위해\n자랑스런 뿔을 써서 상대를 내동댕이친다."
 	},
@@ -53,7 +53,7 @@ const card: Card = {
 			fr: "Lancez 2 pièces. Si toutes sont côté face, cette attaque inflige 70 dégâts de plus.",
 			es: "Lanza 2 monedas. Si en las dos sale cara, este ataque hace 70 puntos de daño más.",
 			it: "Lancia 2 volte una moneta. Se esce testa entrambe le volte, questo attacco infligge 70 danni in più.",
-			de: "Wirf 2 Münzen. [Gr:Count p=\"Zeigen alle Münzen Kopf,\" one=\"Bei Kopf\" two=\"Zeigen beide Münzen Kopf,\" ] fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 70 Schadenspunkte mehr zu.",
 			'pt-br': "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 70 pontos de dano a mais.",
 			ko: "동전을 2번 던져서 모두 앞면이 나오면 70데미지를 추가한다."
 		}

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 de tus Pokémon en juego en tu mano. (Descarta todas las cartas unidas a ese Pokémon).",
 		pt: "Coloque 1 dos seus Pokémon em jogo na sua mão. (Descarte todas as cartas ligadas àquele Pokémon.)",
 		it: "Riprendi in mano uno dei tuoi Pokémon in gioco. Scarta tutte le carte assegnate a quel Pokémon.",
-		de: "Nimm 1 deiner Pokémon im Spiel auf deine Hand. (Lege alle an jenes Pokémon angelegten Karten auf deinen Ablagestapel.)"
+		de: "Nimm 1 deiner Pokémon im Spiel auf deine Hand. (Lege alle an jenes Pokémon angelegten Karten auf deinen Ablagestapel.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

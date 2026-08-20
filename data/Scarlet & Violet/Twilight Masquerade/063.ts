@@ -51,7 +51,7 @@ const card: Card = {
 			es: "Tajo Ondulante",
 			it: "Taglio Ondulante",
 			pt: "Corte Ondulado",
-			de: "Wellenschnitt"
+			de: "Wellenschnittt"
 		},
 
 		effect: {
@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.",
+		de: "Diese rätselhafte und wilde Kreatur ist nach einem Wassermonster benannt, das in einem alten Expeditionsbericht beschrieben wurde."
 	},
 
 	variants: [

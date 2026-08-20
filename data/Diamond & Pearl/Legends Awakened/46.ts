@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Claw Fossil",
 		fr: "Klauenfossil",
+		de: "Klauenfossil"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
-		fr: "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
+		fr: "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces.",
+		de: "Ein Vorfahre der PKMN, der aus einem Fossil neu belebt wurde. Es lebte im Meer und jagte mit Klauen."
 	},
 
 	thirdParty: {

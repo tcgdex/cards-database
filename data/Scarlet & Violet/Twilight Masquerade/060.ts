@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Its physical capabilities are no different than a Finizen's, but when its allies are in danger, it transforms and powers itself up.",
+		de: "Seine körperliche Kraft unterscheidet sich nicht von Normifin. Ist jedoch ein Artgenosse in Not, verwandelt es sich und wird viel stärker."
 	},
 
 	variants: [

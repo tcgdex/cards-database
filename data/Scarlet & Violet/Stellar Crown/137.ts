@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras el Pokémon al que esté unida esta carta esté en el Puesto Activo, el Coste de Retirada de ambos Pokémon Activos es de {C} más.",
 		it: "Fintanto che il Pokémon a cui è assegnata questa carta è in posizione attiva, il costo di ritirata di entrambi i Pokémon attivi aumenta di {C}.",
 		pt: "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, o custo de Recuo de ambos os Pokémon Ativos será {C} a mais.",
-		de: "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, erhöhen sich die Rückzugskosten beider Aktiven Pokémon um {C}."
+		de: "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, erhöhen sich die Rückzugskosten beider Aktiven Pokémon um {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

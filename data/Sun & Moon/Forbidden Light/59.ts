@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Pon 6 contadores de daño en vez de 2 en el Pokémon Quemado de tu rival entre turnos.",
 				it: "Tra un turno e l’altro, metti sei segnalini danno invece di due sul Pokémon bruciato del tuo avversario.",
 				pt: "Coloque 6 contadores de dano ao invés de 2 no Pokémon Queimado do seu oponente entre as vezes de jogar.",
-				de: "Lege zwischen den Zügen 6 Schadensmarken anstelle von 2 Schadensmarken auf das verbrannte Pokémon deines Gegners."
+				de: "Lege zwischen den Zügen 6 Schadensmarken anstelle von 2 Schadensmarken auf die verbrannten Pokémon deines Gegners."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+		de: "Es hält den Gegner mit flinken Bewegungen zum Narren. Im Kampf setzt es alle Gliedmaßen ein."
 	},
 
 	thirdParty: {

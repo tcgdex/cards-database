@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
+		de: "Da seine Flügel nicht voll ausgebildet sind, bewegt es sich hüpfend fort. Seinen Blick hat es stets starr auf ein Ziel gerichtet."
 	},
 
 	variants: [

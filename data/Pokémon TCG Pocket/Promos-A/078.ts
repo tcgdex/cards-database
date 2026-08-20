@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Dawn Wings Necrozma",
-		es: "Necrozma Alas del Alba"
+		es: "Necrozma Alas del Alba",
+		de: "Morgenschwingen-Necrozma"
 	},
 
 	illustrator: "nagimiso",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "Lunala no longer has a will of its own. Now under the\ncontrol of Necrozma, it continuously expels all of its energy.",
-		es: "En esta forma, Lunala no goza de voluntad propia. Necrozma\ntiene control absoluto y absorbe su energía poco a poco."
+		es: "En esta forma, Lunala no goza de voluntad propia. Necrozma\ntiene control absoluto y absorbe su energía poco a poco.",
+		de: "In dieser Form unterliegt Lunala gänzlich Necrozmas Kontrolle, es hat keinen eigenen Willen mehr. Seine Energie fließt ungehindert aus."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Psychobilly",
-			es: "Psychobilly"
+			es: "Psychobilly",
+			de: "Psychobilly"
 		},
 
 		damage: 100,
@@ -35,7 +38,8 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo."
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		}
 	}],
 

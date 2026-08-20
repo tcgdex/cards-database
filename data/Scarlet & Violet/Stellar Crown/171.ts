@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si a tu rival le quedan exactamente 2 cartas de Premio.\n\nDurante este turno, si el Pokémon Activo de tu rival queda Fuera de Combate por el daño de un ataque usado por tus Pokémon Teracristal, coge 1 carta de Premio más.",
 		it: "Puoi usare questa carta solo se il tuo avversario ha esattamente due carte Premio rimanenti.\nDurante questo turno, se il Pokémon attivo del tuo avversario viene messo KO dai danni inflitti da un attacco\nusato da un tuo Pokémon Teracristal, prendi una carta Premio in più.",
 		pt: "Você só pode usar esta carta se o seu oponente tiver exatamente 2 cartas de Prêmio restantes.\nDurante este turno, se o Pokémon Ativo do seu oponente for Nocauteado pelo dano de um ataque usado pelos seus Pokémon Tera, pegue 1 carta de Prêmio a mais.",
-		de: "Du kannst diese Karte nur einsetzen, wenn dein Gegner genau 2 verbleibende Preiskarten hat.\nWenn das Aktive Pokémon deines Gegners während dieses Zuges durch Schaden einer von deinen Terakristall-Pokémon eingesetzten Attacke kampfunfähig wird, nimm 1 Preiskarte mehr."
+		de: "Du kannst diese Karte nur einsetzen, wenn dein Gegner genau 2 verbleibende Preiskarten hat. Wenn das Aktive Pokémon deines Gegners während dieses Zuges durch Schaden einer von deinen Terakristall-Pokémon eingesetzten Attacke kampfunfähig wird, nimm 1 Preiskarte mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

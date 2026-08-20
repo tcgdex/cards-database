@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de tu mano en la parte inferior de tu baraja en el orden que quieras. Si pones 2 cartas en la parte inferior de tu baraja de esta manera, roba 4 cartas. (Si no puedes poner 2 cartas de tu mano en la parte inferior de tu baraja, no puedes usar esta carta).",
 		it: "Prendi due carte che hai in mano e mettile in fondo al tuo mazzo nell'ordine che preferisci. Se hai messo due carte in fondo al tuo mazzo in questo modo, pesca quattro carte. Se non puoi mettere due carte che hai in mano in fondo al tuo mazzo, non puoi usare questa carta.",
 		pt: "Coloque 2 cartas da sua mão como as cartas de baixo do seu baralho em qualquer ordem. Se você colocou 2 cartas como as cartas de baixo do seu baralho desta forma, compre 4 cartas. (Se você não puder colocar 2 cartas da sua mão como as cartas de baixo do seu baralho, não poderá usar esta carta.)",
-		de: "Lege 2 Karten aus deiner Hand in beliebiger Reihenfolge unter dein Deck. Wenn du auf diese Weise 2 Karten unter dein Deck gelegt hast, ziehe 4 Karten. (Wenn du nicht 2 Karten aus deiner Hand unter dein Deck legen kannst, kannst du diese Karte nicht einsetzen.)"
+		de: "Lege 2 Karten aus deiner Hand in beliebiger Reihenfolge unter dein Deck. Wenn du auf diese Weise 2 Karten unter dein Deck gelegt hast, ziehe 4 Karten. (Wenn du nicht 2 Karten aus deiner Hand unter dein Deck legen kannst, kannst du diese Karte nicht einsetzen.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

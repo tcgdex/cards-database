@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
+		de: "Es lebt in der Nähe von Vulkankratern. In seiner Schale aus ausgekühltem und erhärtetem Magma speichert es Feuer-Energie."
 	},
 
 	variants: [

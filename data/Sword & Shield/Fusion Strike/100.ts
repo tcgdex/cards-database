@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use."
+		en: "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use.",
+		de: "Gefressenes Laub verwandelt es während der Verdauung in elektrische Energie, die in einem Strombeutel in seinem Magen gespeichert wird."
 	},
 
 	attacks: [{

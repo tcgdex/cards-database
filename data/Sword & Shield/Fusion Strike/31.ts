@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+		de: "Dieses Pokémon ist intelligent, aber rachsüchtig. Wer zum Spaß einen seiner Schweife ergreift, kann sich einen tausendjährigen Fluch einhandeln."
 	},
 
 	abilities: [{

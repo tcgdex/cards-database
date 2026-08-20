@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Poison Breath",
 				fr: "Haleine empoisonnée",
-				de: "Poison Breath"
+				de: "Gifthauch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Sweet Saliva",
 				fr: "Douce salive",
-				de: "Sweet Saliva"
+				de: "Süßer Sabber"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Benched Pokémon.",
 				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon de Banc.",
-				de: "Remove 1 damage counter from each of your Benched Pokémon."
+				de: "Entferne 1 Schadensmarke von jedem Pokémon auf deiner Bank."
 			},
 			damage: 20,
 
@@ -75,7 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		de: "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann."
 	},
 
 	variants: [

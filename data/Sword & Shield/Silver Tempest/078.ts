@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+		de: "Es ist stolz auf seine beiden Arme und greift bei Kämpfen lieber auf diese zurück, anstatt seine übernatürlichen Kräfte einzusetzen."
 	},
 
 	variants: [

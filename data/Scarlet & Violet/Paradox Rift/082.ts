@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
+		de: "Es stellt seinen Hammer her, indem es Eisenspäne zusammenstampft. Diesen Vorgang wiederholt es so oft, bis es mit dem Ergebnis zufrieden ist."
 	},
 
 	variants: [

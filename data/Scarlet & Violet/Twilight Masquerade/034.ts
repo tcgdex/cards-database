@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+		de: "Das Feuer in seinem Inneren ist die Quelle seiner Kraft. Wird die Flamme zu klein, schläft es auf der Stelle ein."
 	},
 
 	variants: [

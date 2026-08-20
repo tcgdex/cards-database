@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 de tus Pokémon y todas las cartas unidas a él en tu mano.",
 		it: "Riprendi in mano uno dei tuoi Pokémon e tutte le carte a esso assegnate.",
 		pt: "Coloque 1 dos seus Pokémon e todas as cartas ligadas a ele na sua mão.",
-		de: "Nimm 1 deiner Pokémon und alle angelegten Karten auf deine Hand."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Nimm 1 deiner Pokémon und alle angelegten Karten auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Si sales primero, puedes usar este ataque durante tu primer turno. Busca en tu baraja 1 carta de Energía Lightning y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno. Cerca nel tuo mazzo una carta Energia Lightning e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Se você for primeiro, poderá usar este ataque no seu primeiro turno. Procure por 1 carta de Energia Lightning no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 Lightning-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Lightning", "Lightning"],
@@ -60,7 +60,7 @@ const card: Card = {
 			es: "Puedes descartar cualquier cantidad de Energías Lightning de tus Pokémon. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
 			it: "Puoi scartare tutte le Energie Lightning che vuoi dai tuoi Pokémon. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Você pode descartar qualquer quantidade de Energia Lightning dos seus Pokémon. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
-			de: "Du kannst beliebig viele Lightning-Energien von deinen Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu."
+			de: "Du kannst beliebig viele {L}-Energien von deinen Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu."
 		},
 
 		damage: "60×"

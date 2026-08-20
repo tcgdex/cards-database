@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		de: "Es stellt seinen Kragen auf und erzeugt so Strom. Ein einzelnes Elezard generiert genug Elektrizität, um einen ganzen Wolkenkratzer zu versorgen."
 	},
 
 	variants: [

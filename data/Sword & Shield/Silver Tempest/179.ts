@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Fighting de 1 de tus otros Pokémon a este Pokémon.",
 			it: "Durante il tuo turno, puoi spostare un'Energia Fighting da uno dei tuoi altri Pokémon a questo Pokémon tutte le volte che vuoi.",
 			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia Fighting de 1 dos seus outros Pokémon para este Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Fighting-Energie von 1 deiner anderen Pokémon auf dieses Pokémon verschieben."
+			de: "Beliebig oft während deines Zuges kannst du 1 {F}-Energie von 1 deiner anderen Pokémon auf dieses Pokémon verschieben."
 		}
 	}],
 
@@ -62,7 +62,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Energía Fighting unida a este Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia Fighting assegnata a questo Pokémon.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Fighting ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Fighting-Energie 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {F}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"

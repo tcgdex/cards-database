@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxel",
-		fr: "Toxizap"
+		fr: "Toxizap",
+		de: "Toxel"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts.",
+		de: "Durch wildes Kratzen an seinem Brustfortsatz erzeugt es Stromstöße, die mit Leichtigkeit eine Stärke von 15 000 Volt übersteigen."
 	},
 
 	thirdParty: {

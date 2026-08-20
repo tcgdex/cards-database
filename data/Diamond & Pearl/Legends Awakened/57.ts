@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Hunduster",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Fire Energy attached to Houndoom.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Fire attachées à Demolosse.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 2 -Energien, die an Hundemon angelegt sind, und lege sie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 2 {R}-Energien, die an Hundemon angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -95,7 +96,8 @@ const card: Card = {
 
 	description: {
 		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
-		fr: "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse."
+		fr: "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse.",
+		de: "In alten Zeiten glaubte man, das Heulen dieses PKMN sei der Ruf des Todes."
 	},
 
 	thirdParty: {

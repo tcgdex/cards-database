@@ -41,6 +41,7 @@ const card: Card = {
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
 				en: "Combustion",
+				de: "Glühen"
 			},
 			damage: 50,
 		},

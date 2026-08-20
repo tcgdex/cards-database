@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Los ataques de tus Pokémon Water Básicos, excepto de los Articuno, hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Base Water, a eccezione di qualsiasi Articuno, infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques dos seus Pokémon Water Básicos, exceto por quaisquer Articuno, causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken deiner Basis-Water-Pokémon, außer Arktos, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Die Attacken deiner Basis-{W}-Pokémon, außer Arktos, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+		de: "Seine wunderschönen blauen Flügel sollen aus Eis bestehen. Es fliegt über schneebedeckte Berge, während sein langer Schweif hinter ihm flattert."
 	},
 
 	

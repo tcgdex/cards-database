@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litten",
 		fr: "Flamiaou",
+		de: "Flamiau"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer's whole body covered in scratches.",
+		de: "Zutrauliche Miezunder schmiegen sich sogar an ihren Trainer an. Sie sind so stark, dass dieser dabei am ganzen Körper Kratzwunden erleidet."
 	},
 
 	thirdParty: {

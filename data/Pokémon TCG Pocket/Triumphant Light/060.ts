@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "La lumière lui a donné cette forme semblable à celle du créateur\nde toutes choses. La force qu'il déploie est telle que je ne peux\nm'empêcher de penser qu'il est sous sa forme véritable.",
 		es: "La luz desencadena el cambio a esta forma, que recuerda\nal creador de todo lo existente. La colosal fuerza de la que\nhace gala nos sugiere que se trata de su verdadera forma.",
 		it: "La luce ha cagionato in lui un cambio di forma radicale,\nrendendolo un simulacro della divinità creatrice sì potente\nche fatico a non ritenere questa la sua forma veritiera.",
-		de: "Licht lässt es eine Form annehmen, die der Schöpfergottheit\nzu gleichen scheint. Die gewaltige Stärke nährt den Verdacht,\ndass es sich bei dieser Gestalt um sein wahres Antlitz handelt.",
+		de: "Licht lässt es eine Form annehmen, die der Schöpfergottheit zu gleichen scheint. Die gewaltige Stärke nährt den Verdacht, dass es sich bei dieser Gestalt um sein wahres Antlitz handelt.",
 		'pt-br': "Uma luz radiante fez com que Dialga assumisse uma\nforma semelhante ao Pokémon criador. Sua força é tão\ncolossal que acreditam ser essa a sua verdadeira forma.",
 		ko: "밝은 빛이 폼체인지의 방아쇠가 되었다.\n창조신과 흡사한 이 모습이야말로 진정한 모습임에\n의심할 여지가 없을 정도로 강력한 힘을 발휘한다."
 	},

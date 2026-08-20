@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It booms out a victory croak when its prey goes down in defeat. This Pokémon and Seismitoad are related species."
+		en: "It booms out a victory croak when its prey goes down in defeat. This Pokémon and Seismitoad are related species.",
+		de: "Wenn es seine Beute erlegt, quakt es seinen Triumph in die Welt hinaus. Es ist artverwandt mit Branawarz."
 	},
 
 	attacks: [{

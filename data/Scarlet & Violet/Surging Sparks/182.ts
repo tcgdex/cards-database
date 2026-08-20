@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta todas las Herramientas Pokémon y Energías Especiales de todos los Pokémon de tu rival, y descarta 1 Estadio en juego.",
 		it: "Scarta tutte le carte Oggetto Pokémon e le Energie speciali dai Pokémon del tuo avversario e una carta Stadio in gioco.",
 		pt: "Descarte todas as Ferramentas Pokémon e Energias Especiais de todos os Pokémon do seu oponente, e descarte um Estádio em jogo.",
-		de: "Lege alle Pokémon-Ausrüstungen und Spezial-Energien von allen Pokémon deines Gegners auf seinen Ablagestapel und lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Lege alle Pokémon-Ausrüstungen und Spezial-Energien von allen Pokémon deines Gegners auf seinen Ablagestapel und lege 1 Stadionkarte im Spiel auf den Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

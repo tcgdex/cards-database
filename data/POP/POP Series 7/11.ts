@@ -4,7 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Burmy Plant Cloak",
-		fr: "Burmy Plant Cloak",
+		fr: "Cheniti Cape Plante",
 		de: "Burmy Pflanzenumhang"
 	},
 

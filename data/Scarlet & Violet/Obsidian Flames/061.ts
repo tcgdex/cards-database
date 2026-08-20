@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+		de: "Mit dem Wasserring an der Schwanzflosse spielt es gerne mit Artgenossen. Über Ultraschallwellen kann es die Gefühle anderer Lebewesen erfassen."
 	},
 
 	variants: [

@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 
 	description: {
-		en: "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
+		en: "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack.",
+		de: "Bevor es seinem Gegner mit einer Spezialtechnik ein Ende setzt, posiert es stets. Diesen Moment nutzt so mancher für einen Gegenangriff."
 	},
 
 	attacks: [{

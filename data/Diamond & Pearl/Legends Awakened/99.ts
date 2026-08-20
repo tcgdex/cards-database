@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
-		fr: "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes."
+		fr: "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes.",
+		de: "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle 3 Minuten ausruhen."
 	},
 
 	thirdParty: {

@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
-				de: "Thundershock"
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 10,
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Thunderpunch",
 				fr: "Poing-Éclair",
-				de: "Thunderpunch"
+				de: "Donnerschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Elektek s'inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on."
+		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+		de: "Es konsumiert am liebsten Elektrizität. Gelegentlich sieht man es in der Nähe von Kraftwerken."
 	},
 
 	variants: [

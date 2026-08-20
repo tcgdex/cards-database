@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
+		de: "Man wird schnell von seinem schönen Fell und seiner Anmut verleitet, aber es ist ein sehr launisches und gewalttätiges Pokémon."
 	},
 
 	variants: [

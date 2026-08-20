@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
+		de: "Miltanks Gesundheit leidet darunter, wenn es nicht jeden Tag gemolken wird. Der Geschmack seiner Milch ändert sich je nach Jahreszeit."
 	},
 
 	variants: [

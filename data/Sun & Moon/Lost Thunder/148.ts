@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Morelull",
 		fr: "Spododo",
+		de: "Bubungus"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
+		de: "Speit blinkende Sporen, die eine einschläfernde Wirkung haben. Schläft die Beute ein, wird ihr die Lebenskraft ausgesaugt."
 	},
 
 	thirdParty: {

@@ -29,7 +29,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
-				de: "Light Punch"
+				de: "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 			name: {
 				en: "Steady Punch",
 				fr: "Poing énergétique",
-				de: "Steady Punch"
+				de: "Ruhiger Schlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
+		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		de: "Es hat die eigenartige Fähigkeit, Gefühle wie Freude oder Wut in Wellenform zu sehen."
 	},
 
 	variants: [		{

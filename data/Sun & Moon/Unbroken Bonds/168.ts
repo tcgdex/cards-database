@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador cambie su Pokémon Activo Envenenado por 1 de sus Pokémon en Banca con el efecto de una carta de Entrenador, el nuevo Pokémon Activo pasa a estar afectado por esa Condición Especial.",
 		it: "Ogni volta che uno dei giocatori scambia il suo Pokémon attivo avvelenato con uno della sua panchina con l’effetto di una carta Allenatore, il nuovo Pokémon attivo è influenzato da quella condizione speciale.",
 		pt: "Sempre que qualquer um dos jogadores trocar o seu Pokémon Ativo Envenenado por 1 dos próprios Pokémon no Banco usando o efeito de uma carta de Treinador, o novo Pokémon Ativo será afetado por aquela Condição Especial.",
-		de: "Jedes Mal, wenn einer der beiden Spieler sein vergiftetes Aktives Pokémon durch den Effekt einer Trainerkarte gegen 1 Pokémon auf seiner Bank austauscht, ist das neue Aktive Pokémon jetzt von jenem Speziellen Zustand betroffen."
+		de: "Jedes Mal, wenn einer der beiden Spieler sein vergiftetes Aktives Pokémon durch den Effekt einer Trainerkarte gegen 1 Pokémon auf seiner Bank austauscht, ist das neue Aktive Pokémon jetzt von jenem Speziellen Zustand betroffen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

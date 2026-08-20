@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+		de: "Auf der Flucht vor seinen Feinden nutzt es die Schwimmhäute an seinen Hinterläufen, um von Insel zu Insel zu schwimmen."
 	},
 
 	thirdParty: {

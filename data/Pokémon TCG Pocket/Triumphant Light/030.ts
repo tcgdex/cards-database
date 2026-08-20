@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Mélofée"
+		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Ce Pokémon s'apparente à une petite fée\nqui n'apparaît que rarement devant les humains.\nIl court se cacher dès qu'il ressent une présence.",
 		es: "Este Pokémon de aspecto feérico, raramente\nvisto por los humanos, corre a esconderse\nen cuanto detecta que hay alguien cerca.",
 		it: "Timido Pokémon Fata, molto raro a\nvedersi. Scappa e si nasconde non\nappena avverte la presenza delle persone.",
-		de: "Ein feenhaftes und scheues Pokémon,\ndas sofort die Flucht ergreift, wenn es\nMenschen wahrnimmt.",
+		de: "Ein feenhaftes und scheues Pokémon, das sofort die Flucht ergreift, wenn es Menschen wahrnimmt.",
 		'pt-br': "Um tímido Pokémon fada raramente visto,\ncorre e esconde-se assim que percebe\na presença de pessoas.",
 		ko: "요정의 동료로 좀처럼\n사람 앞에 나타나지 않는다. 기척을\n느끼면 바로 도망가는 듯하다."
 	},
@@ -58,7 +59,7 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent − 30 dégâts.",
 			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen -30 puntos de daño.",
 			it: "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono -30 danni.",
-			de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon − 30 Schadenspunkte zu.",
+			de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon - 30 Schadenspunkte zu.",
 			'pt-br': "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão −30 pontos de dano.",
 			ko: "상대의 다음 차례에 이 기술을 받은 포켓몬이 사용하는 기술의 데미지를 -30한다."
 		}

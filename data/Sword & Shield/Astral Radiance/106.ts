@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
+		de: "Es entsteht durch den Zusammenschluss dreier Magnetilo und sendet starke Radiowellen aus, um seine Umgebung zu untersuchen."
 	},
 
 	variants: [

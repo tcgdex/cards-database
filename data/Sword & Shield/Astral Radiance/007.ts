@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+		de: "Es kann mühelos einen Erwachsenen umhertragen. Die Federn an seinem Hinterteil stabilisieren seinen Flug."
 	},
 
 	variants: [

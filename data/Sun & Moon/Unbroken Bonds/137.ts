@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togepi",
 		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+		de: "Es wird entmutigt, wenn es unter unfreundlichen Menschen ist. Es kann ohne Flügel niedrig schweben."
 	},
 
 	thirdParty: {

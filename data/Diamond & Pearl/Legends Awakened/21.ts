@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lileep",
 		fr: "Liliep",
+		de: "Liliep"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
-		fr: "Il vit dans les hauts-fonds des mers chaudes. Il déterre sa proie du sable quand la marée se retire."
+		fr: "Il vit dans les hauts-fonds des mers chaudes. Il déterre sa proie du sable quand la marée se retire.",
+		de: "Es lebt in seichten Stellen warmer Meere. Bei Ebbe sucht es im Sand nach Beute."
 	},
 
 	thirdParty: {

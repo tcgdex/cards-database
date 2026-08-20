@@ -62,7 +62,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 80 puntos de daño más, y el Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 80 danni in più e il Pokémon attivo del tuo avversario viene bruciato.",
 			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 80 pontos de dano a mais e o Pokémon Ativo do seu oponente ficará Queimado.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu und das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu und das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: "80+"
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
+		de: "Dieser Meister der Finten schnappt mit Fangzähnen zu, die in lodernde Flammen gehüllt sind. Ungeachtet seiner großen Statur narrt er Feinde mit leichtfüßigen, tänzelnden Bewegungen."
 	},
 
 	variants: [

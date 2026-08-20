@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il a longtemps été vénéré pour avoir apporté\nla pluie. On le trouve parfois enterré dans le sol.",
 		es: "Antaño se adoraba a este Pokémon para\nque propiciara lluvias abundantes. A veces,\npuede encontrarse enterrado bajo tierra.",
 		it: "È stato venerato per secoli come Pokémon che\nporta la pioggia. A volte lo si trova sepolto nel terreno.",
-		de: "Vor Urzeiten wurden sie als Regenmacher verehrt.\nManchmal findet man eines von ihnen im Boden vergraben.",
+		de: "Vor Urzeiten wurden sie als Regenmacher verehrt. Manchmal findet man eines von ihnen im Boden vergraben.",
 		'pt-br': "Nas idades antigas, este Pokémon era reverenciado\ncomo aquele que fazia chover. Ele foi descoberto\nenterrado no chão.",
 		ko: "비구름을 부르는 포켓몬으로\n아주 옛날부터 떠받들어졌다.\n가끔 땅에 묻혀 있다."
 	},

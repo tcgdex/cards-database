@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Lightning de este Pokémon.",
 				it: "Scarta un’Energia Lightning assegnata a questo Pokémon.",
 				pt: "Descarte 1 Energia Lightning deste Pokémon.",
-				de: "Lege 1 Lightning-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+		de: "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom."
 	},
 
 	thirdParty: {

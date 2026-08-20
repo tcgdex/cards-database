@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a un Pokémon, proporciona 1 Energía {C}.\n\nCuando unas esta carta de tu mano a un Pokémon, roba 4 cartas.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia {C}.\n\nQuando assegni questa carta dalla tua mano a un Pokémon, pesca quattro carte.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia {C}.\n\nQuando você ligar esta carta da sua mão a um Pokémon, compre 4 cartas.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\n\nWenn du diese Karte aus deiner Hand an ein Pokémon anlegst, ziehe 4 Karten."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie. Wenn du diese Karte aus deiner Hand an ein Pokémon anlegst, ziehe 4 Karten."
 	},
 
 	energyType: "Special",

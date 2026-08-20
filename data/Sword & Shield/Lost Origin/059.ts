@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 Pokémon Lightning, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo un Pokémon Lightning, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 Pokémon Lightning no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Lightning-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {L}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Lightning"],

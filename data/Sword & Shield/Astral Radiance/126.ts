@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Miltank produces highly nutritious milk, so it's been supporting the lives of people and other Pokémon since ancient times.",
+		de: "Dank seiner äußerst nährstoffreichen Milch trägt Miltank seit langer Zeit zum Wohl von Menschen und Pokémon bei."
 	},
 
 	variants: [

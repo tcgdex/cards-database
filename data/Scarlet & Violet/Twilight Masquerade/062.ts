@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
+		de: "Es ähnelt einem rätselhaften Objekt, von dem in einer alten Schrift die Rede ist. Bisher wurde dieses Pokémon erst zwei Mal gesichtet."
 	},
 
 	variants: [

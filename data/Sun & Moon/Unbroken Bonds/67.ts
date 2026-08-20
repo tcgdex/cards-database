@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that gas emanating from a graveyard was possessed by the grievances of the deceased and thus became a Pokémon.",
+		de: "Es heißt, dieses Pokémon sei aus einem tiefen Groll entstanden, der Gasen innewohnte, die auf Friedhöfen ausgeströmt waren."
 	},
 
 	thirdParty: {

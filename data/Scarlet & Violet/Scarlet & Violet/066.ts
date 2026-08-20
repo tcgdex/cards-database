@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+		de: "Sein Fell wächst ständig. Im Sommer wirft es sein ganzes Fell ab, aber dieses wächst binnen einer Woche wieder nach."
 	},
 
 	thirdParty: {

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Roba 3 cartas. Descarta un Estadio en juego.",
 		it: "Pesca tre carte. Scarta una carta Stadio in gioco.",
 		pt: "Compre 3 cartas. Descarte 1 Estádio em jogo.",
-		de: "Ziehe 3 Karten. Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+		de: "Ziehe 3 Karten. Lege 1 Stadionkarte im Spiel auf den Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
 				fr: "Qulbutoké s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
-				de: "Woingenau fügt sich selbst 10 Schadenspunkte zu. Wende keine Schwäche und Resistenz bei diesem Schaden an."
+				de: "Woingenau fügt sich selbst 10 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
 			},
 			damage: 50,
 

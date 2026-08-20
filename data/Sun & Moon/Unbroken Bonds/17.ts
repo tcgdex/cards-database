@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene por lo menos 2 Energías Grass unidas a él, cura 60 puntos de daño a este Pokémon.",
 				it: "Se questo Pokémon ha almeno due Energie Grass assegnate, curalo da 60 danni.",
 				pt: "Se este Pokémon tiver pelo menos 2 Energias Grass ligadas a ele, cure 60 pontos de dano dele.",
-				de: "Wenn an dieses Pokémon mindestens 2 Grass-Energien angelegt sind, heile 60 Schadenspunkte bei diesem Pokémon."
+				de: "Wenn an dieses Pokémon mindestens 2 {G}-Energien angelegt sind, heile 60 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 90,
 
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+		de: "Es umwickelt Beute, indem es seine Arme, die aus Ranken bestehen, verlängert."
 	},
 
 	thirdParty: {

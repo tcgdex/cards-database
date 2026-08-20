@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
+		de: "Seine riesigen, robusten Hauer sind sein größter Stolz. Es hält sie kräftig und gesund, indem es an Erde leckt, um Mineralstoffe aufzunehmen."
 	},
 
 	variants: [

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippowdon"
+		en: "Hippowdon",
+		fr: "Hippodocus"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Hippopotas"
+		en: "Hippopotas",
+		fr: "Hippopotas"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Crashing Fangs"
+			en: "Crashing Fangs",
+			fr: "Crocs Percutants"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack."
+			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+			fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour."
 		}
 	}],
 

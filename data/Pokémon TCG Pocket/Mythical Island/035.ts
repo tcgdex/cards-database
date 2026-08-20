@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Elgyem",
-		fr: "Lewsor"
+		fr: "Lewsor",
+		de: "Pygraulon"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "À chaque fois que Neitram se matérialise dans une pâture,\nun Moumouflon disparaît dans des circonstances mystérieuses.",
 		es: "Por algún extraño motivo, siempre que se avista un\nBeheeyem en una granja desaparece un Dubwool.",
 		it: "Per qualche strano motivo, nelle fattorie in cui\ncompare un Beheeyem sparisce sempre un Dubwool.",
-		de: "Jedes Mal, wenn ein Megalon auf einer Farm\nauftaucht, verschwindet bald darauf ein\nZwollock unter mysteriösen Umständen.",
+		de: "Jedes Mal, wenn ein Megalon auf einer Farm auftaucht, verschwindet bald darauf ein Zwollock unter mysteriösen Umständen.",
 		'pt-br': "Sempre que um Beheeyem visita uma fazenda,\num Dubwool desaparece misteriosamente.",
 		ko: "벰크가 나타난 목장에서는\n배우르 1마리가\n어느샌가 모습을 감춘다."
 	},

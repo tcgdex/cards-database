@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
+		de: "Der Eispanzer, der seinen Kiefer bedeckt, ist härter als Stahl und kann mühelos Felsgestein zermalmen. Ungestüm prescht es steile Bergpfade empor, indem es sich durch den Schnee pflügt."
 	},
 
 	variants: [

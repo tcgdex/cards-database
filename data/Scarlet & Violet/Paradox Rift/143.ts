@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "After artificial intelligence was implemented in Porygon2, the Pokémon began using a strange language that only other Porygon2 understand.",
+		de: "Als es mit künstlicher Intelligenz ausgestattet wurde, begann es, eine rätselhafte Sprache zu sprechen, die nur andere Porygon2 verstehen."
 	},
 
 	variants: [

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+		de: "Die lodernde Mähne dieses Pokémon flattert im Wind, wenn es mit einer Geschwindigkeit von 240 km/h über Felder und Wiesen galoppiert."
 	},
 
 	variants: [

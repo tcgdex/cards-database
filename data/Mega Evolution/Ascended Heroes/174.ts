@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+		de: "Ein tapferer Krieger der Lüfte, der für seine Kameraden ohne Rücksicht auf eigene Verletzungen immer weiterkämpft."
 	},
 
 	variants: [

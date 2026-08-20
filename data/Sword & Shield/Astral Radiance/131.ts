@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
+		de: "Obwohl sein Aussehen dem eines Kükens gleicht, ist es sehr heißblütig und nutzt jede Gelegenheit zum Kräftemessen mit den Eltern, um seine Stärke unter Beweis zu stellen."
 	},
 
 	variants: [

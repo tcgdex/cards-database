@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Il vole grâce à ses pouvoirs psychiques. Certains disent qu'il était\nle dieu protecteur d'une ville antique, d'autres, son messager.",
 		es: "Vuela gracias a sus poderes psíquicos. Dicen que\nhabía sido la deidad protectora de una antigua\nciudad, si bien otros creen que era su mensajero.",
 		it: "Vola grazie ai suoi poteri psichici. Si dice che fosse lo\nspirito custode di un'antica città o il suo messaggero.",
-		de: "Es fliegt mithilfe seiner Psycho-Kräfte. Einige\nsagen, es war einst der Wächter einer Stadt aus\nuralten Zeiten. Andere sagen, es war sein Bote.",
+		de: "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote.",
 		'pt-br': "O poder psíquico destes Pokémon permite que voem. Há quem diga que eles\neram os guardiões de uma cidade antiga. Outros dizem que, na verdade, eram\nos emissários dos guardiões.",
 		ko: "사이코 파워로 하늘을 난다.\n고대 도시의 수호신 또는\n수호신의 사자로 일컬어진다."
 	},

@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "The members of the trio spend all their time together. Each one has a slightly different taste in nectar.",
+		de: "Dieses Trio ist immer zusammen, aber jedes von ihnen hat leicht andere Vorlieben, was Blütenhonig angeht."
 	},
 
 	variants: [

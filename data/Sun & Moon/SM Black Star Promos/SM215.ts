@@ -87,6 +87,16 @@ const card: Card = {
 	description: {
 		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 394707,
+				tcgplayer: 197854
+			}
+		}
+	],
 }
 
 export default card

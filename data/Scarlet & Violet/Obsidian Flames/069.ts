@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+		de: "Es kriecht mithilfe seiner Arme an Land, stürzt sich auf seine Beute und zerrt sie augenblicklich ins Meer."
 	},
 
 	variants: [

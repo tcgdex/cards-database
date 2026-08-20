@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon orne souvent les blasons, car les plumes\nqu'il perd sont utilisées pour forger des épées.",
 		es: "Aparece a menudo en escudos heráldicos, pues se\npueden forjar espadas a partir de las plumas que pierde.",
 		it: "Le piume perse da Skarmory sono utilizzate\nper produrre spade. Per questo è molto\napprezzato come motivo degli stemmi nobiliari.",
-		de: "Es wird gern als Vorlage für Wappenmotive\ngenutzt, da aus den Federn, die ihm ausfallen,\nSchwerter hergestellt werden.",
+		de: "Es wird gern als Vorlage für Wappenmotive genutzt, da aus den Federn, die ihm ausfallen, Schwerter hergestellt werden.",
 		'pt-br': "As pessoas forjam espadas com as penas que caíram\nde Skarmory, por isso, a imagem deste Pokémon é\num elemento popular em brasões.",
 		ko: "빠진 깃털로 검을\n만들 수 있어서 문장\n도안으로 인기가 많다."
 	},

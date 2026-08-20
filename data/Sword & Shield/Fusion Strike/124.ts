@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	description: {
-		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it."
+		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+		de: "Wer die Melodie hört, die es in einer speziellen Stimmlage von sich gibt, steht voll in seinem Bann."
 	},
 
 	attacks: [{

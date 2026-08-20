@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
+		de: "Egal, wie sehr es sich auch vollstopft, es lebt in ständiger Sorge vor dem nächsten Hungeranfall und hortet daher Beeren in Schweif und Backen."
 	},
 
 	thirdParty: {

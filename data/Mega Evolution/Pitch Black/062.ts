@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shieldon",
+		fr: "Dinoclier",
 		de: "Schilterus"
 	},
 
@@ -93,6 +94,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 895847,
 				tcgplayer: 704819
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 897297,
+				tcgplayer: 707025
 			}
 		}
 	],

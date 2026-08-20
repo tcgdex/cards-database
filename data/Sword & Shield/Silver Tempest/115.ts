@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat.",
+		de: "Um dem kalten Wasser der Galar-Region zu trotzen, bilden seine Beine eine Kuppel, deren Inneres es mittels Körperwärme aufheizt."
 	},
 
 	variants: [

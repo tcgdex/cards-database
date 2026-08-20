@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers."
+		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+		de: "Unter Modeschöpfern gilt es als beliebtes Maskottchen, da es sich aus Blättern Kleidchen schneidert."
 	},
 
 	attacks: [{

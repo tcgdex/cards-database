@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Glimmora's petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
+		de: "Vor Kurzem wurde festgestellt, dass seine Blütenblätter, die aus kristallisierter toxischer Energie bestehen, Terakristallen ähneln."
 	},
 
 	variants: [

@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		de: "Es übertölpelt andere, indem es deren Gestalt annimmt. Angeblich tarnt es sich oft als wortkarges Kind."
 	},
 
 	variants: [

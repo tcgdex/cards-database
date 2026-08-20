@@ -68,7 +68,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				tcgplayer: 42399
+				tcgplayer: 42399,
+				cardmarket: 273750
 			},
 		},
 		{
@@ -76,14 +77,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107052
+				tcgplayer: 107052,
+				cardmarket: 660173
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107052
+				tcgplayer: 107052,
+				cardmarket: 660173
 			},
 		},
 		{

@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Many youths admire the way this Pokémon listlessly picks fights and keeps its cool no matter what opponent it faces.",
+		de: "Kein Gegner kann es aus der Fassung bringen. Dies und die Lässigkeit, mit der es Streit sucht, erklären wohl, warum die Jugend es so schätzt."
 	},
 
 	variants: [

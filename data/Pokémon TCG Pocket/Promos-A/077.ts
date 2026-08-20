@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Xurkitree",
-		es: "Xurkitree"
+		es: "Xurkitree",
+		de: "Voltriant"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it's alien to this world and a danger here, it's apparently\na common organism in the world where it normally lives.",
-		es: "Para los seres de este mundo resulta extraño y peligroso, pero\nen el mundo del que procede es una criatura muy común."
+		es: "Para los seres de este mundo resulta extraño y peligroso, pero\nen el mundo del que procede es una criatura muy común.",
+		de: "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Electronica",
-			es: "Electrónica"
+			es: "Electrónica",
+			de: "Electronica"
 		},
 
 		damage: 60,
@@ -35,7 +38,8 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido"
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		}
 	}],
 

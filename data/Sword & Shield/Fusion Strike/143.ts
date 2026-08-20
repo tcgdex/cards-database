@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 
 	description: {
-		en: "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully."
+		en: "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
+		de: "Hariyama sind nicht nur stark, wenn sie groß und schwer sind. Auch kleine und leichte Exemplare können Attacken effektiv einsetzen."
 	},
 
 	abilities: [{

@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		de: "Es hängt seinen Kiefer aus und verschlingt so selbst größere Beute am Stück. Danach rollt es sich zusammen und ruht sich aus."
 	},
 
 	thirdParty: {

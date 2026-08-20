@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Dialga G LV.X",
-		fr: "Dialga ",
+		fr: "Dialga G NIV.X",
 		de: "Dialga G"
 	},
 
@@ -30,12 +30,12 @@ const card: Card = {
 			name: {
 				en: "Time Crystal",
 				fr: "Crystal temporel",
-				de: "Time Crystal"
+				de: "Zeitkristall"
 			},
 			effect: {
 				en: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies.",
 				fr: "Chaque Pokémon (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) ne peut pas utiliser de Poké-Bodies.",
-				de: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies."
+				de: "Pokémon (deine und die deines Gegners) (außer Pokémon SP) können keine Poké-Body benutzen."
 			}
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Remove Lost",
 				fr: "Retire-perte",
-				de: "Remove Lost"
+				de: "Nirgendwo-Absauger"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez au Pokémon Défenseur une carte Énergie et placez-la dans la Zone Perdue.",
-				de: "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Entferne pro „Kopf“ 1 Energiekarte vom Verteidigenden Pokémon und lege sie ins Nirgendwo."
 			},
 			damage: 80,
 

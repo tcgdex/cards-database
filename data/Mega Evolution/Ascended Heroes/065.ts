@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+		de: "Es schützt sich mithilfe seines robusten Panzers. Durch die Spitzen an seinem Kiefer leitet es Strom, mit dem es sich gegen Angreifer wehrt."
 	},
 
 	variants: [

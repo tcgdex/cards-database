@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Headache",
 				fr: "Migraine",
-				de: "Headache"
+				de: "Kopfweh"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur, Supporter ou Stade de sa main lors de son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainer-, Unterstützer- und Stadion-Karten von seiner Hand spielen."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Latent Power",
 				fr: "Puissance dormante",
-				de: "Latent Power"
+				de: "Schlummernde Kräfte"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque n'inflige pas de dégâts au Pokémon Défenseur. Psykokwak est alors Confus.",
-				de: "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt dieser Angriff dem Verteidigenden Pokémon keinen Schaden zu, stattdessen ist Enton jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers."
+		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
+		de: "Leidet unter stetigem Kopfschmerz, ausgelöst durch seltsame Kräfte, die es aber auch einsetzen kann."
 	},
 
 	variants: [

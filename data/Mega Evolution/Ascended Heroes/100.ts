@@ -56,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		de: "Seine Haut ist sehr dünn. Wird es Licht ausgesetzt, erhitzt sich sein Blut und es wird schwach."
 	},
 
 	variants: [
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870296,
+			cardmarket: 870295,
 			tcgplayer: 677072
 		}
 	},
@@ -78,7 +79,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870295,
+			cardmarket: 870296,
 			tcgplayer: 676932
 		}
 	},

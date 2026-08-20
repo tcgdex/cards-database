@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
+		de: "Dieses auf Kopfstöße spezialisierte urzeitliche Pokémon soll einer Theorie zufolge wegen seines kleinen Hirns aus Dummheit ausgestorben sein."
 	},
 
 	variants: [

@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "Makes its home in swamps with murky water. The poor visibility hides this Pokémon from predators, and the slime on its body makes grasping it difficult.",
+		de: "Es lebt in trüben Sumpfgewässern, wo es dank der schlechten Sicht vor natürlichen Feinden geschützt ist. Der Schleim an seinem Körper macht es schwierig, Schmerbe zu greifen."
 	},
 
 	variants: [

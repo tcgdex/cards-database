@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food.",
+		de: "Es hat die Angewohnheit, seine eigene Nahrung mit Menschen und Pokémon zu teilen, und ist deshalb stets unterwegs auf Futtersuche."
 	},
 
 	thirdParty: {

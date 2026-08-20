@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+		de: "Wenn es in der Nähe ist, beginnen Fernseher zu flackern und fremdartige Landschaften zu zeigen. Diese stellen angeblich seine Heimat dar."
 	},
 
 	variants: [

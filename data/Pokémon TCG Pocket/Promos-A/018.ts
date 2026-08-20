@@ -51,7 +51,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	description: {
@@ -59,7 +60,7 @@ const card: Card = {
 		fr: "Sa plante donne une grosse fleur quand\nelle absorbe les rayons du soleil. Il est toujours\nà la recherche des endroits les plus ensoleillés.",
 		es: "La planta florece cuando absorbe energía solar,\nlo cual le obliga a buscar siempre la luz del sol.",
 		it: "Il fiore sboccia assorbendo energia solare.\nSi muove continuamente in cerca di luce.",
-		de: "Es nutzt Solarenergie als Nahrung und\nbringt so seine große Blume zum Blühen.\nEs geht dorthin, wo die Sonne scheint.",
+		de: "Es nutzt Solarenergie als Nahrung und bringt so seine große Blume zum Blühen. Es geht dorthin, wo die Sonne scheint.",
 		'pt-br': "Sua planta floresce ao absorver energia solar,\npor isso este Pokémon vive em busca da luz do sol.",
 		ko: "태양에너지를 양분으로\n큰 꽃을 피운다. 양지를 향해\n이끌려가듯이 이동한다."
 	},

@@ -86,6 +86,16 @@ const card: Card = {
 	description: {
 		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312558,
+				tcgplayer: 152609
+			}
+		}
+	],
 }
 
 export default card

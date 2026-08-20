@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Son corps plat et fin est toujours collé aux murs.\nOn pense que sa forme a une signification.",
 		es: "Su cuerpo fino y plano aparece siempre en los\nmuros. Su forma parece tener algún significado.",
 		it: "Il corpo piatto e sottile sta sempre attaccato ai muri.\nPare che la forma abbia un preciso significato.",
-		de: "Sein flacher, dünner Körper hängt immer an Wänden.\nSeine Form scheint eine Bedeutung zu haben.",
+		de: "Sein flacher, dünner Körper hängt immer an Wänden. Seine Form scheint eine Bedeutung zu haben.",
 		'pt-br': "Seu corpo delgado e plano fica sempre colado\nnas paredes. Sua forma parece ter algum propósito.",
 		ko: "몸 자체는 굉장히 얇고\n항상 벽에 들러붙어 있다.\n모습에는 뭔가 의미가 있는 듯하다."
 	},

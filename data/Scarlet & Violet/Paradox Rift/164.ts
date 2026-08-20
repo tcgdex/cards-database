@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon del futuro al que esté unida esta carta no tiene ningún Coste de Retirada, y los ataques que use hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Il Pokémon Tempo Futuro a cui è assegnata questa carta non ha costo di ritirata e gli attacchi che usa infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "O Pokémon Futurista ao qual esta carta está ligada não tem custo de Recuo, e os ataques que ele usa causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Das Pokémon aus der Zukunft, an das diese Karte angelegt ist, hat keine Rückzugskosten und die Attacken, die es einsetzt, fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Das Pokémon aus der Zukunft, an das diese Karte angelegt ist, hat keine Rückzugskosten und die Attacken, die es einsetzt, fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

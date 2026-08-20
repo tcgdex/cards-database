@@ -4,7 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Duskull",
-		fr: "Skelénox"
+		fr: "Skelénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",

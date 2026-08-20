@@ -88,7 +88,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
+		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar.",
+		de: "Da es hitzköpfig und aggressiv ist, hat es den Posten als Kurier in Galar an Krarmor verloren."
 	},
 
 	regulationMark: "E",

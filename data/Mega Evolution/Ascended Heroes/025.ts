@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+		de: "Dieses Pokémon jagt über das Land. Man sagt, in jedem neuen Vulkan wird ein Entei geboren."
 	},
 
 	variants: [

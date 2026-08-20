@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Caterpie",
 		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+		de: "Sein Panzer birgt ein dickflüssiges Inneres. In Vorbereitung auf seine Entwicklung wird seine Zellstruktur vollständig umgestaltet."
 	},
 
 	thirdParty: {

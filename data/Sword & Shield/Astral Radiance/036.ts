@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
+		de: "Dieses Pokémon baut sein Nest am Grund von Sümpfen. Es ist ein Vielfraß und verspeist Lebewesen aller Art."
 	},
 
 	variants: [

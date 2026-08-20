@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Myrapla",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
-		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
+		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres.",
+		de: "Der Honig, den es abgibt, riecht so entsetzlich, dass sich sogar Nasen in 2 km Entfernung rümpfen."
 	},
 
 	thirdParty: {

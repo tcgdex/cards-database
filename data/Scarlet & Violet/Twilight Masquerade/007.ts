@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+		de: "Tagsüber richtet es sich stets auf die Sonne aus, um ihr Licht aufzufangen und in Energie umzuwandeln."
 	},
 
 	variants: [

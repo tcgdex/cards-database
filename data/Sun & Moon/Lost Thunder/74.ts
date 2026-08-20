@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+		de: "Es blendet seine Beute mit einem starken Blitz. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo cuando sea la última carta en tu mano.\nBusca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se è l'ultima che hai in mano.\nCerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se ela for a última carta na sua mão.\nProcure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur einsetzen, wenn es die letzte Karte auf deiner Hand ist.\nDurchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur einsetzen, wenn es die letzte Karte auf deiner Hand ist. Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

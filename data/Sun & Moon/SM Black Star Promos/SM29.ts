@@ -83,6 +83,16 @@ const card: Card = {
 	description: {
 		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 296834,
+				tcgplayer: 129894
+			}
+		}
+	],
 }
 
 export default card

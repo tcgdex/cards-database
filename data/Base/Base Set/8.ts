@@ -92,17 +92,24 @@ const card: Card = {
 			type: "holo",
 			subtype: "unlimited",
 			thirdParty: {
-				cardmarket: 273703
+				cardmarket: 273703,
+				tcgplayer: 42425
 			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 660220
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660220
+			}
 		},
 		{
 			type: "holo",

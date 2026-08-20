@@ -74,7 +74,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it hears festive music, it begins moving in rhythm in order to amplify its power."
+		en: "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
+		de: "Es bewegt seinen Körper zu fröhlichen Rhythmen. Auf diese Weise erhöht es seine Kraft."
 	},
 
 	dexId: [272],

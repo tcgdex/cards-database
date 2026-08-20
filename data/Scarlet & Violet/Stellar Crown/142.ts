@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cuando el Pokémon Teracristal al que está unida esta carta usa un ataque, ese ataque cuesta una Energía menos. (La Energía puede ser de cualquier tipo).",
 		it: "Quando il Pokémon Teracristal a cui è assegnata questa carta usa un attacco, quell'attacco costa un'Energia in meno. L'Energia può essere di qualsiasi tipo.",
 		pt: "Quando o Pokémon Tera ao qual esta carta está ligada usar um ataque, aquele ataque custará 1 Energia a menos. (A Energia pode ser de qualquer tipo.)",
-		de: "Wenn das Terakristall-Pokémon, an das diese Karte angelegt ist, eine Attacke einsetzt, verringern sich die Kosten jener Attacke um 1 Energie. (Die Energie kann beliebigen Typs sein.)"
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Wenn das Terakristall-Pokémon, an das diese Karte angelegt ist, eine Attacke einsetzt, verringern sich die Kosten jener Attacke um 1 Energie. (Die Energie kann beliebigen Typs sein.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

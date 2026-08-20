@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
+		de: "Es reibt seine Fingerspitzen aneinander, um Salz auf verwundete Pokémon zu streuen. Dieses heilt selbst schwere Verletzungen im Nu."
 	},
 
 	variants: [

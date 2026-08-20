@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
+		de: "Es entzündet ein Licht und gibt vor, anderen den Weg zu weisen, doch eigentlich saugt es ihnen dabei die Lebensenergie aus."
 	},
 
 	variants: [

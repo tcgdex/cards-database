@@ -60,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
+		de: "Dieses äußerst gerissene Pokémon gibt vor, geschwächt zu sein, um so Beute anzulocken, die sein Partner daraufhin angreift."
 	},
 
 	variants: [

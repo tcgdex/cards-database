@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 2 cartas, baraja las cartas de tu baraja y, luego, pon esas cartas en la parte superior de tu baraja en el orden que quieras.",
 		pt: "Procure por 2 cartas no seu baralho, embaralhe o seu baralho e, em seguida, coloque aquelas cartas como as cartas de cima do seu baralho em qualquer ordem.",
 		it: "Cerca nel tuo mazzo due carte, rimischia le carte del tuo mazzo, poi metti quelle carte in cima al mazzo nell'ordine che preferisci.",
-		de: "Durchsuche dein Deck nach 2 Karten, mische dein Deck und lege jene Karten anschließend in beliebiger Reihenfolge auf dein Deck."
+		de: "Durchsuche dein Deck nach 2 Karten, mische dein Deck und lege jene Karten anschließend in beliebiger Reihenfolge auf dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

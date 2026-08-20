@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shroomish",
 		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Worry Seed",
 				fr: "Soucigraine",
+				de: "Sorgensamen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -53,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "I wonder if I would look a little cuter with a beautiful flower?",
+		de: "Ich frage mich, ob ich mit einer schönen Blume niedlicher aussehen würde?"
 	},
 
 	thirdParty: {

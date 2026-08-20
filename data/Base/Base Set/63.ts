@@ -97,20 +97,30 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107060
+				tcgplayer: 107060,
+				cardmarket: 660164
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107060
+				tcgplayer: 107060,
+				cardmarket: 660164
 			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			stamp: ["pikachu"],
+			thirdParty: {
+				cardmarket: 547246
+			},
+		},
 	],
 }
 

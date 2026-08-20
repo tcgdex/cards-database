@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si descartas otra carta de Objeto de tu mano.\nLanza 1 moneda. Si sale cara, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se scarti un'altra carta Strumento che hai in mano.\nLancia una moneta. Se esce testa, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se descartar outra carta de Item da sua mão.\nJogue 1 moeda. Se sair cara, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur verwenden, wenn du 1 andere Itemkarte aus deiner Hand auf deinen Ablagestapel legst.\nWirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur verwenden, wenn du 1 andere Itemkarte aus deiner Hand auf deinen Ablagestapel legst. Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

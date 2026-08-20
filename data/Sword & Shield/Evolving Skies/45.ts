@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As Avalugg moves about during the day, the cracks in its body deepen. The Pokémon's body returns to a pristine state overnight."
+		en: "As Avalugg moves about during the day, the cracks in its body deepen. The Pokémon's body returns to a pristine state overnight.",
+		de: "Die Risse auf seinem Körper werden im Zuge seiner täglichen Aktivitäten tiefer. Ihm genügt jedoch eine Nacht, um sie wieder zu schließen."
 	},
 
 	dexId: [713],

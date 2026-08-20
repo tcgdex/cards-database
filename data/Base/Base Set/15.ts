@@ -101,14 +101,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107010
+				tcgplayer: 107010,
+				cardmarket: 660213
 			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107010
+				tcgplayer: 107010,
+				cardmarket: 660213,
 			}
 		},
 		{

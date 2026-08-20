@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+		de: "Har dieses beharrliche Pokémon erst einmal eine bestimmte Beute ins Auge gefasst, jagt es dieser nach, bis sie völlig erschöpft ist."
 	},
 
 	variants: [

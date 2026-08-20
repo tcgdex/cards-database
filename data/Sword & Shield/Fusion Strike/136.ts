@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp."
+		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+		de: "Es bewegt sich rollend über Abhänge fort. Stürzt es versehentlich in einen Fluss, sprengt es sich in seiner Verzweiflung selbst in die Luft."
 	},
 
 	attacks: [{

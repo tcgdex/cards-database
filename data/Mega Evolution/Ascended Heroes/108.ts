@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		de: "Sein Feuer erschuf einst das Land. Es und Kyogre lieferten sich einen langen Kampf."
 	},
 
 	variants: [

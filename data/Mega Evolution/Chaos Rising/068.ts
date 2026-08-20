@@ -29,6 +29,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sliggoo",
+		fr: "Colimucus",
 		de: "Viscargot"
 	},
 
@@ -88,38 +89,24 @@ const card: Card = {
 
 	variants: [
 		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 886460,
+				tcgplayer: 693495
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 886460,
+				tcgplayer: 693495
+			}
+		},
+		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888530,
 				tcgplayer: 694638
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
-			}
-		},
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
-			}
-		},
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
 			}
 		},
 	],

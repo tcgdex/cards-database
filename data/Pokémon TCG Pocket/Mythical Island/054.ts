@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venipede",
-		fr: "Venipatte"
+		fr: "Venipatte",
+		de: "Toxiped"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Il se propulse sur ses ennemis en tournant\ntrès vite sur lui-même. Il peut ainsi atteindre\nune vitesse d'environ 100 km/h.",
 		es: "Gira a gran velocidad y carga contra sus\nrivales. Puede alcanzar los 100 km/h.",
 		it: "Attacca l'avversario turbinando rapidamente su se\nstesso. Può raggiungere una velocità di circa 100 km/h.",
-		de: "Rollum dreht sich mit hoher Geschwindigkeit\nund rammt seine Gegner. Dabei erreicht es\nGeschwindigkeiten von bis zu 100 km/h.",
+		de: "Rollum dreht sich mit hoher Geschwindigkeit und rammt seine Gegner. Dabei erreicht es Geschwindigkeiten von bis zu 100 km/h.",
 		'pt-br': "Este Pokémon gira o corpo rapidamente e ataca seus oponentes.\nSua velocidade máxima é de pouco mais de 100 km/h.",
 		ko: "고속으로 회전해 상대에게\n돌격한다. 최고 시속은\n약 100km에 달한다."
 	},

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tail moves with greater dexterity than its hands. Making deft use of this tail, Aipom lives high among the treetops.",
+		de: "Griffel lebt hoch oben in Baumwipfeln, wo es seinen Schweif geschickt einsetzt. Dieser ist viel beweglicher als seine Hände."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
+		de: "Der Beutel an Salangas Hals, den es wie einen Luftballon dehnen und zusammenziehen kann, gewinnt mit jeder Häutung an Elastizität."
 	},
 
 	thirdParty: {

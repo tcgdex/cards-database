@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.",
+		de: "Ein leicht süßlicher Duft geht von dem Blatt auf seinem Kopf aus. Es ist sanftmütig und badet gern in der Sonne."
 	},
 
 	variants: [

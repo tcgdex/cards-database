@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nuzleaf"
+		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Seedot"
+		en: "Seedot",
+		fr: "Grainipiot"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			en: "Gentle Slap",
+			fr: "Gifle Douce"
 		},
 
 		damage: 40,

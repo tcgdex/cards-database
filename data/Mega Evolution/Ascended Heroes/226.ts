@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+		de: "Es wird permanent von Kopfschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein."
 	},
 
 	variants: [

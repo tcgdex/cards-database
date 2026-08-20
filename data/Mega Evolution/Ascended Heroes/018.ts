@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+		de: "Die Fadenkugel, die seinen Körper umgibt, ist sehr elastisch. Selbst die Sicheln seines natürlichen Feindes Sichlor prallen an ihr ab."
 	},
 
 	variants: [
@@ -72,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870165,
+			cardmarket: 870166,
 			tcgplayer: 676867
 		}
 	},
@@ -80,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 869629,
+			cardmarket: 870165,
 			tcgplayer: 677007
 		}
 	},

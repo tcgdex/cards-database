@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dugtrio",
 		fr: "Triopikeur",
+		de: "Digdri"
 	},
 
 	illustrator: "Toyste Beach",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -54,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Rock Tumble",
 				fr: "Roule-Pierre",
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -75,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		de: "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung."
 	},
 
 	thirdParty: {

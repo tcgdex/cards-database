@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spewpa",
-		fr: "Pérégrain"
+		fr: "Pérégrain",
+		de: "Puponcho"
 	},
 
 	stage: "Stage2",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
+		de: "Dieses Pokémon erblickte in Landen mit blühenden Blumen das Licht der Welt. Im Kampf verstreut es bunten, giftigen Flügelstaub."
 	},
 
 	thirdParty: {

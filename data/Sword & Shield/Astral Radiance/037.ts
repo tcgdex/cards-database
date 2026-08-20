@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
+		de: "Regice kontrolliert bis zu -200 ºC kalte Luft, mit der es alles und jeden in seiner Nähe im Handumdrehen gefrieren lässt."
 	},
 
 	variants: [

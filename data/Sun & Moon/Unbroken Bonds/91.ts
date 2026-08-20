@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It throws bones at Mandibuzz to knock it down. It's thought that Marowak is trying to avenge its parent.",
+		de: "Es wirft seinen Knochen nach Grypheldis, um es vom Himmel zu holen. Man nimmt an, dass es sich für seine Mutter an ihm rächen will."
 	},
 
 	thirdParty: {

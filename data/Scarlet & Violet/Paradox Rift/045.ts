@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "People believe this Pokémon formed when two Vanillish stuck together. Its body temperature is roughly 21 degrees Fahrenheit.",
+		de: "Seine Körpertemperatur beträgt circa -6 ºC. Angeblich ist es aus der Verschmelzung von zwei Gelatroppo hervorgegangen."
 	},
 
 	variants: [

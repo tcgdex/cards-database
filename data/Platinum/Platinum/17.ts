@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Weavile G",
-		fr: "Dimoret ",
+		fr: "Dimoret G",
 		de: "Snibunna G"
 	},
 
@@ -30,12 +30,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
-				de: "Call for Family"
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for up to 2 basic Pokémon SP and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base SP et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 2 basic Pokémon SP and put them onto your Bench. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon SP-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Team Attack",
 				fr: "Attaque de groupe",
-				de: "Team Attack"
+				de: "Teamangriff"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Pokémon SP you have in play.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon SP que vous avez en jeu.",
-				de: "Does 10 damage plus 10 more damage for each Pokémon SP you have in play."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon SP, das du im Spiel hast, zu."
 			},
 			damage: "10+",
 

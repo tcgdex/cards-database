@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 
 	description: {
-		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water."
+		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+		de: "Das blasenähnliche Muster auf seinem Bauch hilft ihm, sich perfekt zu tarnen, wenn es im Wasser ist."
 	},
 
 	attacks: [{

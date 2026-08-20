@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a habit of biting at Clauncher even though it doesn’t feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+		de: "Es beißt sich oft an Scampisto fest, ohne dieses zu fressen. Das hält man für eine Angewohnheit aus einer Zeit, als Grolldra noch am Leben war."
 	},
 
 	variants: [

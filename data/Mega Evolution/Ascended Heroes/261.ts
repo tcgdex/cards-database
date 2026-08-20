@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Les Outils Pokémon attachés à chacun des Pokémon (les vôtres et ceux de votre adversaire) n'ont aucun effet.",
 		es: "Las Herramientas Pokémon unidas a cada Pokémon (tanto tuyos como de tu rival) no tienen ningún efecto.",
 		'es-mx': "Las Herramientas Pokémon unidas a cada Pokémon (tanto tuyos como de tu rival) no tienen ningún efecto.",
-		de: "Die an jedes Pokémon (deine und die deines Gegners) angelegten Pokémon-Ausrüstungen haben keinen Effekt.",
+		de: "Die an jedes Pokémon (deine und die deines Gegners) angelegten Pokémon-Ausrüstungen haben keinen Effekt. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden.",
 		it: "Le carte Oggetto Pokémon assegnate a ciascun Pokémon, sia tuo che del tuo avversario, non hanno effetto.",
 		pt: "Ferramentas Pokémon ligadas a cada Pokémon (seus e do seu oponente) não têm efeito."
 	},

@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Les blessures provoquées par son souffle enflammé\nsont permanentes, et la douleur ne disparaît jamais.",
 		es: "Si alguien se quema con las llamas que lanza\npor la boca, el dolor no desaparecerá nunca.",
 		it: "Se si viene ustionati dalle fiamme che sputa\ndalla bocca, il dolore rimarrà per sempre.",
-		de: "Wird man von den Flammen getroffen, die es\naus seinem Maul schießt, so erleidet man eine\nBrandwunde, deren Schmerz nie nachlässt.",
+		de: "Wird man von den Flammen getroffen, die es aus seinem Maul schießt, so erleidet man eine Brandwunde, deren Schmerz nie nachlässt.",
 		'pt-br': "Se você for queimado pelas chamas disparadas\nde sua boca, a dor nunca passará.",
 		ko: "입에서 뿜어내는 불꽃에 의해\n화상을 입으면 시간이 아무리 지나도\n상처 난 자리가 욱신거린다."
 	},

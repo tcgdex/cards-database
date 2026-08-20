@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
+		de: "Es gewinnt an Stärke, indem es sich an den traurigen und hasserfüllten Gefühlen der Menschen labt."
 	},
 
 	thirdParty: {

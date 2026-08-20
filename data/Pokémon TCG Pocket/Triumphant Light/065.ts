@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hoothoot",
-		fr: "Hoothoot"
+		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Ses yeux à la structure particulière\nsont capables de voir comme en plein\njour même quand il fait très sombre.",
 		es: "Tiene los ojos muy desarrollados y puede ver con\nincreíble claridad en la oscuridad más absoluta.",
 		it: "Grazie alla speciale struttura dei suoi occhi,\ngli basta la luce più fioca per vedere anche\nnell'oscurità come fosse pieno giorno.",
-		de: "Seine Augen sind so gut entwickelt, dass es selbst in fast\nkompletter Dunkelheit so klar sehen kann, als wäre es Tag.",
+		de: "Seine Augen sind so gut entwickelt, dass es selbst in fast kompletter Dunkelheit so klar sehen kann, als wäre es Tag.",
 		'pt-br': "Seus olhos são especialmente desenvolvidos\npara permitir que ele enxergue na mais sombria\nescuridão e com o mínimo de luz.",
 		ko: "특수한 구조의 두 눈은\n약간의 빛만 있으면\n어둠 속에서도 낮처럼 볼 수 있다."
 	},

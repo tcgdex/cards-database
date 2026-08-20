@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It causes blizzards as it flies around with its huge, chill-emanating wings. Clean meltwater is its favorite thing to drink.",
+		de: "Seine großen Flügel setzen beim Fliegen eine Eiseskälte frei, wodurch es Schneestürme auslöst. Klares Schmelzwasser trinkt es besonders gern."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+		de: "Freut es sich, erhitzt sich sein Körper und aus seinem Kopf und Schweif sprühen Funken. Es liebt Süßigkeiten."
 	},
 
 	variants: [

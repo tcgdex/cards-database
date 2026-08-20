@@ -84,7 +84,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland."
+		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland.",
+		de: "Es hat langes, dickes Fell. Vor einiger Zeit war es in kalten Gegenden üblich, dass jede Familie ein Bissbark im Haus hielt."
 	},
 
 	regulationMark: "E",

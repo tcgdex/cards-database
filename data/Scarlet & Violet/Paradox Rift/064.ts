@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Joltik latch on to other Pokémon and suck out static electricity. They're often found sticking to Yamper's hindquarters.",
+		de: "Es heftet sich an andere Pokémon und saugt ihnen statische Elektrizität aus. Häufig wird es an Hinterteilen von Voldi gesichtet."
 	},
 
 	variants: [

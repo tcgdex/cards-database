@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
+		de: "Es erneuert sein Fell zweimal pro Jahr. Wenn es mal wieder soweit ist, steckt es seinen Körper in Brand, um sein altes Haarkleid loszuwerden."
 	},
 
 	variants: [

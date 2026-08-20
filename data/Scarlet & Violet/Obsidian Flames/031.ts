@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
+		de: "Durch seinen Körper fließt bis zu 1200 ℃ heißes Magma. Wird es kalt, verfestigt sich das Magma und macht das Pokémon träge."
 	},
 
 	variants: [

@@ -62,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+		de: "Es lebt an dunklen Orten ohne Sonnenlicht. Menschen zeigt es sich nur, wenn es mit einem Lumpen bedeckt ist, der aussieht wie ein Pikachu."
 	},
 
 	variants: [
@@ -76,7 +77,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870290,
+			cardmarket: 870289,
 			tcgplayer: 677069
 		}
 	},
@@ -84,7 +85,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870289,
+			cardmarket: 870290,
 			tcgplayer: 676929
 		}
 	},

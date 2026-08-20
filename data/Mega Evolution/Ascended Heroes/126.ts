@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+		de: "Viele verabscheuen und hassen es, da sie glauben, es bringe Unglück, wenn sie ihm nachts begegnen."
 	},
 
 	variants: [
@@ -100,7 +101,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870334,
+			cardmarket: 870333,
 			tcgplayer: 677091
 		}
 	},
@@ -108,7 +109,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870333,
+			cardmarket: 870334,
 			tcgplayer: 676951
 		}
 	},

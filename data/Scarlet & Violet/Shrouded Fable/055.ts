@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques usados por el Pokémon Envenenado al que esté unida esta carta hacen 40 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi usati dal Pokémon avvelenato a cui è assegnata questa carta infliggono 40 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques usados pelo Pokémon Envenenado ao qual esta carta está ligada causam 40 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die eingesetzten Attacken von dem vergifteten Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 40 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Die eingesetzten Attacken von dem vergifteten Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 40 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

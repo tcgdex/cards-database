@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shinx",
 		fr: "Sheinux",
+		de: "Sheinux"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Luxio.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à Luxio.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne alle -Energien, die an Luxio angelegt sind, und lege sie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne alle {L}-Energien, die an Luxio angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
-		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
+		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes.",
+		de: "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen."
 	},
 
 	thirdParty: {

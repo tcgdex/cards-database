@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It can use its well-developed arms and legs to run on the surface of the water for a split second.",
+		de: "Mittels seiner starken Arme und Beine kann es für den Bruchteil einer Sekunde über Wasser laufen."
 	},
 
 	variants: [

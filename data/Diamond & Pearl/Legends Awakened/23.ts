@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Eneco",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If Delcatty is your Active Pokémon and is damaged by an opponent's attack (even if Delcatty is Knocked Out), flip a coin. If heads, the Attacking Pokémon is now Confused.",
 				fr: "Si Delcatty est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Delcatty est mis K.O), lancez une pièce. Si c'est face, le Pokémon Attaquant est maintenant Confus.",
-				de: "Wenn Enekoro dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Enekoro dadurch kampfunfähig wird), wirf 1 Münze. Bei \"Kopf\" ist das Angreifende Pokémon jetzt verwirrt."
+				de: "Wenn Enekoro dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Enekoro dadurch kampfunfähig wird), wirf 1 Münze. Bei „Kopf“ ist das Angreifende Pokémon jetzt verwirrt."
 			},
 		},
 	],
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
-		fr: "Les femmes Dresseurs raffolent de sa sublime fourrure. Il ne possède pas de nid."
+		fr: "Les femmes Dresseurs raffolent de sa sublime fourrure. Il ne possède pas de nid.",
+		de: "Dieses PKMN ist bei weiblichen Trainern aufgrund seines Fells beliebt."
 	},
 
 	thirdParty: {

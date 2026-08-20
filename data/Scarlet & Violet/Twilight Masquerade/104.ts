@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+		de: "Selbst wenn es von mehreren Profi-Wrestlern auf einmal angegriffen wird, lässt es dies dank seiner gestählten Muskeln kalt."
 	},
 
 	variants: [

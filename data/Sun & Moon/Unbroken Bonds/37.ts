@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite the danger, it wants to come up on land. So it does its best to waddle along, but when an enemy finds it, it rushes back to the water.",
+		de: "Trotz der Gefahren kommt es gerne an Land. Taucht ein Feind auf, flitzt es hastig auf seinen noch wackligen Beinen zurück ins Wasser."
 	},
 
 	thirdParty: {

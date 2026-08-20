@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
+		de: "Einigen wenigen Augenzeugenberichten zufolge hat dieses Pokémon mit seinen leuchtenden Schwertern riesige Bäume und Felsen zerkleinert."
 	},
 
 	variants: [

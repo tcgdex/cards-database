@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano.\n\nBusca en tu baraja hasta 2 Pokémon-GX Lightning y Pokémon-EX Lightning, en cualquier combinación, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\n\nCerca nel tuo mazzo fino a due Pokémon-GX Lightning e Pokémon-EX Lightning, in qualsiasi combinazione, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nProcure por até 2 Pokémon-GX Lightning e Pokémon-EX Lightning no seu baralho em qualquer combinação, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Lightning-Pokémon-GX und Lightning-Pokémon-EX, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 {L}-Pokémon-GX und {L}-Pokémon-EX, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

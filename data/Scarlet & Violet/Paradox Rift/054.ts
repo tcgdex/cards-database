@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+		de: "Wirft es überflüssige Teile seines Körpers ab, steigen seine Psycho-Kräfte. Der Geschmack des abgeworfenen Fleisches ist simpel, aber lecker."
 	},
 
 	variants: [

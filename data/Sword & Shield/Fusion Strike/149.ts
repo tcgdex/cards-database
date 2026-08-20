@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "Wanting to make sure it's taken seriously, Pancham's always giving others a glare. But if it's not focusing, it ends up smiling."
+		en: "Wanting to make sure it's taken seriously, Pancham's always giving others a glare. But if it's not focusing, it ends up smiling.",
+		de: "Es starrt den Gegner finster an, um nicht unterschätzt zu werden, doch wenn es sich entspannt, muss es unwillkürlich grinsen."
 	},
 
 	attacks: [{

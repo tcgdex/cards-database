@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
+		de: "Dank seines agilen Körpers und seiner scharfen Klauen ist es ihm ein Leichtes, überall Futter und Eier zu stehlen. Bellektro ist sein Erzfeind."
 	},
 
 	variants: [

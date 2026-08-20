@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+		de: "Diese Ultrabestie wird in der Welt, aus der sie kommt, so gemocht, dass sie oft als Partner für Reisen gewählt wird."
 	},
 
 	thirdParty: {
