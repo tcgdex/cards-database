@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Asako Ito",
 
 	description: {
-		en: "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!"
+		en: "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!",
+		de: "Ist es verärgert, atmet es möglichst viel Luft ein und bläst damit sein Volumen auf das bis zu Zwanzigfache auf."
 	},
 
 	attacks: [{

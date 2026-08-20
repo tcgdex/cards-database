@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it's attacked by an enemy."
+		en: "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it's attacked by an enemy.",
+		de: "Eines seiner Ohren ist stets aufgerollt, damit es im Falle eines gegnerischen Angriffs jederzeit zurückschlagen kann."
 	},
 
 	attacks: [{

@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow."
+		en: "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.",
+		de: "Es hat einen Hang zur Verschlagenheit und versucht, nachts seine Beute in den Wald zu locken. Angeblich kann es Äcker gedeihen lassen."
 	},
 
 	attacks: [{

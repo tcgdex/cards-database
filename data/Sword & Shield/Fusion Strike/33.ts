@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
+		en: "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings.",
+		de: "Dieses Pokémon verzaubert die Menschen seit Urzeiten mit seiner Schönheit. Obendrein ist es schnell und sehr wendig."
 	},
 
 	attacks: [{

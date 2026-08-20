@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain."
+		en: "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain.",
+		de: "Dieses streitsüchtige und leicht reizbare Pokémon kippt abgestandenes Wasser in sich hinein und nimmt die darin enthaltenen Giftstoffe in sich auf."
 	},
 
 	attacks: [{

@@ -24,7 +24,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived."
+		en: "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived.",
+		de: "Seine Fühler sind hochentwickelte Sinnesorgane. Da es dank ihnen Feinde sofort spüren und sich verstecken kann, hat es bis heute überlebt."
 	},
 
 	attacks: [{

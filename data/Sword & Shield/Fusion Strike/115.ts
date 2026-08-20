@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 
 	description: {
-		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
+		de: "Man sieht es ihm zwar nicht an, aber es ist recht feige. Lässt man es mit anderen kleinen Hunde-Pokémon spielen, wird es oft gehänselt."
 	},
 
 	attacks: [{

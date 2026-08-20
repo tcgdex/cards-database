@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+		de: "Hält sich bevorzugt in reinen Gewässern auf. Geht ihm das Wasser in seinem Kopf aus, tankt es mit seinem Schweif nach."
 	},
 
 	attacks: [{

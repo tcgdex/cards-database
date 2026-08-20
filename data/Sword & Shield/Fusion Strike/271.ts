@@ -25,7 +25,7 @@ const card: Card = {
 		es: "Gengar V",
 		it: "Gengar-V",
 		pt: "Gengar V",
-		de: "Gengar-V"
+		de: "Gengar VMAX"
 	},
 
 	stage: "VMAX",

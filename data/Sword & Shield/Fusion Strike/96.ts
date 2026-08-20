@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
+		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		de: "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend."
 	},
 
 	attacks: [{

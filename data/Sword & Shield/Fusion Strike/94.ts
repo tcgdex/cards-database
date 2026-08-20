@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
+		en: "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others.",
+		de: "Mit seinem aus Plasma bestehnden Körper kann es in verschiedene Geräte schlüpfen. Es liebt es, andere zu erschrecken."
 	},
 
 	attacks: [{

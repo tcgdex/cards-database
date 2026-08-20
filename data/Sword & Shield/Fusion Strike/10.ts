@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "0313",
 
 	description: {
-		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests."
+		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+		de: "Es schützt sich vor Kälte, indem es sich in Blätter einwickelt. Es durchstreift Wälder und frisst herabgefallenes Laub."
 	},
 
 	attacks: [{
