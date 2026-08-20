@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nosepass",
-		fr: "Tarinor"
+		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 
 	stage: "Stage1",
@@ -49,7 +50,7 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen -20 puntos de daño a este Pokémon.",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce -20 danni dagli attacchi.",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken − 20 Schadenspunkte zugefügt.",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken - 20 Schadenspunkte zugefügt.",
 			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá −20 pontos de dano de ataques.",
 			ko: "상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지를 -20한다."
 		}

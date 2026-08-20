@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Barboach",
-		fr: "Barloche"
+		fr: "Barloche",
+		de: "Schmerbe"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il est très protecteur vis-à-vis de son territoire.\nSi des ennemis approchent, il le défend\nen déclenchant des secousses terribles.",
 		es: "Protege su territorio por encima de todo. Si se acerca\nun enemigo, lo ataca con violentos temblores de tierra.",
 		it: "È molto protettivo del suo territorio e, se\nun nemico si avvicina, reagisce facendo\ntremare violentemente la terra.",
-		de: "Es hat ein ausgeprägtes Revierverhalten.\nNähert sich ein Feind, greift es diesen an,\nindem es die Erde heftig beben lässt.",
+		de: "Es hat ein ausgeprägtes Revierverhalten. Nähert sich ein Feind, greift es diesen an, indem es die Erde heftig beben lässt.",
 		'pt-br': "Protege seu território com muito afinco. Se algum\ninimigo se aproxima, ataca-o usando tremores perversos.",
 		ko: "영역 의식이 매우 강하여\n외부의 적이 다가오면 격렬하게\n지면을 울리며 덤벼든다."
 	},

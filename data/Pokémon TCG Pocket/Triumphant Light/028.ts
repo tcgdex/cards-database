@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Electrike",
-		fr: "Dynavolt"
+		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il diffuse de l'électricité dans ses membres\npour augmenter sa vitesse. C'est également\nainsi qu'il apaise ses douleurs musculaires.",
 		es: "La electricidad estimula su musculatura para\nque pueda moverse a gran velocidad y le ayuda\na recuperarse del dolor muscular rápidamente.",
 		it: "L'elettricità gli stimola i muscoli rendendolo più\nveloce e inoltre allevia i suoi dolori muscolari\nfacendolo tornare rapidamente in forma.",
-		de: "Da es seine Muskeln mit Elektrizität stimuliert,\nkann es sich sehr schnell bewegen.\nAuch Muskelkater heilt es sofort mit Strom.",
+		de: "Da es seine Muskeln mit Elektrizität stimuliert, kann es sich sehr schnell bewegen. Auch Muskelkater heilt es sofort mit Strom.",
 		'pt-br': "Estimula eletricamente os próprios músculos para\nmover-se mais rapidamente. Alivia também as suas dores\ncom eletricidade, para se recuperar mais rápido.",
 		ko: "전기로 근육을 자극해서\n재빠르게 움직일 수 있다. 근육통도\n전기로 풀기 때문에 금방 낫는다."
 	},

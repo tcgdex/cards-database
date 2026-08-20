@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Sa peau est si dure qu'une collision avec\nune voiture le laisserait indifférent. En revanche,\nil est extrêmement sensible à la pluie.",
 		es: "Su dura piel podría resistir el choque contra un coche sin\nsufrir un rasguño. La lluvia, sin embargo, es su punto débil.",
 		it: "La sua pelle è così dura che anche se sbatte\ncontro una macchina non si fa un graffio.\nLa pioggia è il suo punto debole.",
-		de: "Seine Haut ist so hart, dass ihm nicht einmal der\nZusammenprall mit einem Auto etwas anhaben kann.\nRegen setzt ihm jedoch stark zu.",
+		de: "Seine Haut ist so hart, dass ihm nicht einmal der Zusammenprall mit einem Auto etwas anhaben kann. Regen setzt ihm jedoch stark zu.",
 		'pt-br': "Donphan é recoberto por uma couraça resistente\ne não se abala nem quando é atingido por um carro.\nNo entanto, é extremamente vulnerável a chuva.",
 		ko: "튼튼한 피부로 둘러싸여 있기 때문에\n차에 부딪혀도 끄떡없다.\n그러나 비에는 매우 약하다."
 	},

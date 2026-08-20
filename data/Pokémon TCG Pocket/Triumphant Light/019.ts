@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snorunt",
-		fr: "Stalgamin"
+		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il congèle les êtres humains et les Pokémon\nqui lui plaisent. Il les emmène ensuite\ndans sa tanière pour les admirer à loisir.",
 		es: "Con su gélido aliento congela a todo Pokémon\no humano que le llame la atención y se lo lleva\na su guarida para usarlo como objeto decorativo.",
 		it: "Con il suo alito glaciale congela gli esseri\numani e i Pokémon che gli piacciono\ne li usa per decorare la sua tana.",
-		de: "Menschen und Pokémon, die ihm gefallen,\nfriert es mit eisiger Luft ein. Dann nimmt es\nsie mit in seinen Bau und stellt sie dort aus.",
+		de: "Menschen und Pokémon, die ihm gefallen, friert es mit eisiger Luft ein. Dann nimmt es sie mit in seinen Bau und stellt sie dort aus.",
 		'pt-br': "Quando encontra humanos ou Pokémon de que gosta,\ncongela-os e os leva para seu covil gelado,\nonde são transformados em decoração.",
 		ko: "마음에 든 인간과 포켓몬을\n냉기로 얼린 다음\n보금자리에 가져가서 장식한다."
 	},
