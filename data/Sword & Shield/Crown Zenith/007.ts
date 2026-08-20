@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+		de: "Es ernährt sich ausschließlich von den Tautropfen, die von den Blättern über ihm hinabfallen."
 	},
 
 	

@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It drifts in the ocean, blending in with floating seaweed. When other Pokémon come to feast on the seaweed, Skrelp feasts on them instead.",
+		de: "Es treibt versteckt zwischen Algen durchs Meer. Nähert sich ein Pokémon, um diese zu essen, wird es von Algitt erledigt und verspeist."
 	},
 
 	

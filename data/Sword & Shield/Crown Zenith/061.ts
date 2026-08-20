@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting.",
+		de: "Sein Schweif hat ein eigenes Gehirn. Achtung! Kommst du ihm zu nahe, kann es dich riechen und beißt."
 	},
 
 	

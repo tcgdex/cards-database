@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "With waves of its fan—made from leaves and its own fur—Oranguru skillfully gives instructions to other Pokémon.",
+		de: "Mit dem Fächer, den es aus Blättern und Fell gebaut hat, kommandiert es andere Pokémon herum. Er symbolisiert seine Befehlsgewalt."
 	},
 
 	

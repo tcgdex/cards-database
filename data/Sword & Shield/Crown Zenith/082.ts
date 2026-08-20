@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Dragalge uses a poisonous liquid capable of corroding metal to send tankers that enter its territory to the bottom of the sea.",
+		de: "Dringen Tankschiffe in sein Revier ein, versenkt es diese mithilfe eines Giftes, das selbst Metall zum Korrodieren bringt."
 	},
 
 	

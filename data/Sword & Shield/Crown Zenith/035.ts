@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
+		de: "Es lebt in den Korallenriffen warmer Meere und schläft besonders gern zwischen den Armen von Corasonn."
 	},
 
 	

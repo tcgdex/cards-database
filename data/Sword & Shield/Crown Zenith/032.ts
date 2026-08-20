@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
+		de: "Springt es mit seinem gewaltigen Körper von einer Welle ab, kann es Gegner allein mit der Wucht des Aufpralls besiegen."
 	},
 
 	

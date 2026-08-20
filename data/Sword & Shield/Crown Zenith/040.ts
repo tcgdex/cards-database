@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
+		de: "Durch Muskelkontraktionen erzeugt es Strom. Heftiges Zittern ist bei Sheinux ein Anzeichen dafür, dass es sehr viel Elektrizität generiert."
 	},
 
 	

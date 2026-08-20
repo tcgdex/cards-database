@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Descarta 1 de tus Pokémon V en Banca y todas las cartas unidas a él.",
 		it: "Scarta uno dei tuoi Pokémon-V in panchina e tutte le carte a esso assegnate.",
 		pt: "Descarte 1 dos seus Pokémon V no Banco e todas as cartas ligadas a ele.",
-		de: "Lege 1 Pokémon-V auf deiner Bank und alle angelegten Karten auf deinen Ablagestapel."
+		de: "Lege 1 Pokémon-V auf deiner Bank und alle angelegten Karten auf deinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

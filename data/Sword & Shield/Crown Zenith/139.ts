@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cura 30 puntos de daño a 1 de tus Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da 30 danni.",
 		pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
-		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
+		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

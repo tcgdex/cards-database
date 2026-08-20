@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
+		de: "Es existieren nur weibliche Exemplare. Sie stoßen Pheromongase aus, mit denen sie sich männliche Molunk hörig machen."
 	},
 
 	

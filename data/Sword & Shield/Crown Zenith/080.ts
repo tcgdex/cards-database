@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is quick to anger, and it has no problem using its prodigious strength to get its way. It lives for duels against Obstagoon.",
+		de: "Dieses aggressive Pokémon bringt Gegner mit seiner Muskelkraft zum Verstummen. Es liebt Kämpfe gegen Barrikadax."
 	},
 
 	

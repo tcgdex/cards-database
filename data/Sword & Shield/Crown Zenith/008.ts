@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+		de: "Schlägt es schnell mit den Flügeln, erzeugt es Schockwellen, durch die sogar Fenster zerbersten."
 	},
 
 	

@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
+		de: "Es treibt Gegner mit seinen scharfen Klingen in die Ecke. Diese schärft es an den Felsen eines Flussbettes."
 	},
 
 	
