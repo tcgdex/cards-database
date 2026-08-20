@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival descarta cartas de su mano hasta que tenga 3 cartas en su mano.",
 		it: "Il tuo avversario scarta delle carte che ha in mano fino ad averne tre in mano.",
 		pt: "Seu oponente descarta cartas da mão dele até ter 3 cartas na mão dele.",
-		de: "Dein Gegner legt so lange Karten aus seiner Hand auf seinen Ablagestapel, bis er 3 Karten auf seiner Hand hat."
+		de: "Dein Gegner legt so lange Karten aus seiner Hand auf seinen Ablagestapel, bis er 3 Karten auf seiner Hand hat. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
