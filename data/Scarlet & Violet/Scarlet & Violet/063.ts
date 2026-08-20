@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves while constantly hovering. It discharges electromagnetic waves and so on from the units at its sides.",
+		de: "Es bewegt sich schwebend. Seine Magnete an den Seiten senden unter anderem elektromagnetische Wellen aus."
 	},
 
 	thirdParty: {

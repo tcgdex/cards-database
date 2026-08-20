@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiddo",
-		fr: "Cabriolaine"
+		fr: "Cabriolaine",
+		de: "Mähikel"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
+		de: "Berührt es sein Gegenüber mit den Hörnern, kann es dessen Gefühle erspüren. Seit 5000 Jahren geht es den Menschen bei der Arbeit zur Hand."
 	},
 
 	thirdParty: {

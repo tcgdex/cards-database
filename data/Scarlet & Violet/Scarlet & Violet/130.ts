@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+		de: "Bläst es seine Giftbeutel auf, ertönt ein unheimliches Geräusch. Wenn Gegner dadurch zurückschrecken, vergiftet es sie."
 	},
 
 	thirdParty: {

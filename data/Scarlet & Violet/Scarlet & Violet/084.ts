@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
+		de: "Mit den roten Hörnern auf seinem Kopf kann es die Gefühle der Menschen genau erspüren."
 	},
 
 	thirdParty: {

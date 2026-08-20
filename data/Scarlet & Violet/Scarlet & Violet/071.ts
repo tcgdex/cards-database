@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
+		de: "Dieses selbstsüchtige und verzogene Pokémon speichert Gift und Elektrizität in zwei separaten Säcken in seinem Körper."
 	},
 
 	thirdParty: {

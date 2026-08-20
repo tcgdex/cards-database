@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Capsakid",
-		fr: "Pimito"
+		fr: "Pimito",
+		de: "Chilingel"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
+		de: "Der grüne Kopf hat eine brutale Veranlagung, da Scharfstoffe sein Gehirn stimulieren. Wütet er erst einmal, ist er nicht mehr aufzuhalten."
 	},
 
 	thirdParty: {

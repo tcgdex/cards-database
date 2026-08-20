@@ -60,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+		de: "Seine Fußspitzen schweben dank der Psycho-Kräfte, die von den Rüschen an seinem Bauch ausgehen, knapp 1 cm über dem Boden."
 	},
 
 	thirdParty: {

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -63,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+		de: "Erst lässt es den Gegner die giftigen Sporen einatmen, die es verstreut hat, dann traktiert es ihn mit heftigen Boxschlägen."
 	},
 
 	thirdParty: {
