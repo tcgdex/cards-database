@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los jugadores ponen las cartas de su mano en su baraja y las barajan todas. Después, cada jugador roba 4 cartas.",
 		it: "Ciascun giocatore rimischia le carte che ha in mano nel proprio mazzo e poi pesca quattro carte.",
 		pt: "Cada jogador embaralha sua mão em seu baralho e compra 4 cards.",
-		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
+		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

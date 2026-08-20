@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon cuestan Fairy menos.",
 				it: "Ciascuno degli attacchi dei tuoi Pokémon costa Fairy in meno",
 				pt: "Os ataques de cada um dos seus Pokémon custam Fairy a menos.",
-				de: "Die Angriffskosten jedes Angriffs deiner Pokémon verringern sich um Fairy."
+				de: "Die Angriffskosten jedes Angriffs dieses Pokémon verringern sich um {FAIRY}."
 			},
 		},
 	],
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+		de: "Die Schlossherren vergangener Zeiten haben Florges eingeladen, damit diese Blumengärten für sie anlegen, um so ihre Anwesen zu verschönern."
 	},
 
 	thirdParty: {

@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.",
+		de: "Sein Duft ist so stark, dass es für einen Trainer, der seinen Duft nicht mag, schwer ist, es an seiner Seite zu haben."
 	},
 
 	thirdParty: {

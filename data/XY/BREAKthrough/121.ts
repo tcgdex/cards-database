@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+		de: "Steht der Winter vor der Türe, hortet es Nahrung an vielen verschiedenen, nur ihm bekannten Orten."
 	},
 
 	thirdParty: {

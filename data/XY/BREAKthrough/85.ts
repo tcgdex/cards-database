@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía Fighting de tu pila de descartes a este Pokémon. Después, cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Assegna a questo Pokémon due carte Energia Fighting dalla tua pila degli scarti. Poi, scambia questo Pokémon con uno della tua panchina",
 				pt: "Ligue 2 cards de Energia Fighting da sua pilha de descarte a este Pokémon. Em seguida, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Lege 2 Fighting-Energiekarten von deinem Ablagestapel an dieses Pokémon an. Tausche dieses Pokémon anschließend gegen 1 Pokémon auf deiner Bank aus."
+				de: "Lege 2 {F}-Energiekarten von deinem Ablagestapel an dieses Pokémon an. Tausche dieses Pokémon anschließend gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Psychic unida a él, este ataque hace 50 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Psychic assegnate, questo attacco infligge 50 danni in più.",
 				pt: "Se este Pokémon possuir alguma Energia Psychic ligada a ele, este ataque causará 50 de danos adicionais.",
-				de: "Wenn an dieses Pokémon bereits Psychic-Energie angelegt ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Wenn an dieses Pokémon bereits {P}-Energie angelegt ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+		de: "Wer die Melodie hört, die es in einer speziellen Stimmlage von sich gibt, steht voll in seinem Bann."
 	},
 
 	thirdParty: {

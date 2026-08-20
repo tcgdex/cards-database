@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta y ponla en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Jogue uma moeda. Se sair cara, procure um card em seu baralho e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+		de: "Hat es eine Blume gefunden, die ihm gefällt, lebt es sein Leben lang in Symbiose mit ihr. Es lässt sich unbekümmert vom Wind treiben."
 	},
 
 	thirdParty: {

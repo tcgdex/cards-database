@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.",
+		de: "Wenn es seine Fäuste vors Gesicht hält und so eine Verteidigungshaltung einnimmt, kann es selbst eine Explosion überstehen."
 	},
 
 	thirdParty: {

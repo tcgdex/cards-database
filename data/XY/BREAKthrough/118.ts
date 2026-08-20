@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		de: "Es ist erst satt, wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein."
 	},
 
 	thirdParty: {

@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Nachts deckt es sich mit Schnee zu."
 	},
 
 	thirdParty: {

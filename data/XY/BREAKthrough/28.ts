@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+		de: "Es baut Nester, indem es Steine im Fluss mit seinem Horn aushöhlt. Es verteidigt seine Eier mit dem Leben."
 	},
 
 	thirdParty: {

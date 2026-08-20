@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon-EX Básico o 3 Pokémon Básicos (excepto Pokémon-EX) y ponlos en tu Banca. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo un Pokémon-EX Base o tre Pokémon Base (a eccezione dei Pokémon-EX) e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho por 1 Pokémon-EX Básico ou 3 Pokémon Básicos (exceto Pokémon-EX), e coloque-os no seu Banco. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach 1 Basis-Pokémon-EX oder 3 Basis-Pokémon (außer Pokémon-EX) und lege sie auf deine Bank. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Basis-Pokémon-EX oder 3 Basis-Pokémon (außer Pokémon-EX) und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
