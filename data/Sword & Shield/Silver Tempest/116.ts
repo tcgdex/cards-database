@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
+		de: "Es wandelt in seinen Backentaschen Elektrizität in Unlicht-Energie um. Wenn es der Hunger überkommt, wird es rasend vor Wut."
 	},
 
 	variants: [

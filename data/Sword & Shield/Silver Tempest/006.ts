@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+		de: "Warmes Sonnenlicht gibt ihm Energie. Daher wandert es stets dem Sonnenlicht hinterher."
 	},
 
 	variants: [

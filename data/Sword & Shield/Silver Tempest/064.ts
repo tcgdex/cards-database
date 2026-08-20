@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Its muttered curses can cause awful headaches or terrifying visions that torment others.",
+		de: "Es verursacht schreckliche Qualen, indem es Flüche flüstert, die schlimme Kopfschmerzen und fürchterliche Halluzinationen auslösen."
 	},
 
 	variants: [

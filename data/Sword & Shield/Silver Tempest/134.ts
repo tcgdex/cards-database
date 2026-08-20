@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Born when around 10% of Zygarde's cells have been gathered from all over, this form is skilled in close-range combat.",
+		de: "Diese Form nimmt es an, wenn 10 % seiner Zellen gesammelt wurden. Das Spezialgebiet von diesem Pokémon ist der Nahkampf."
 	},
 
 	variants: [

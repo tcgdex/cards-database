@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "No one knows what the Poké Ball–like pattern on Foongus means or why Foongus has it.",
+		de: "Bis heute kann niemand genau sagen, wieso Tarnpignon ein Pokéball-Muster aufweisen und welchen Zweck dies erfüllt."
 	},
 
 	variants: [

@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
+		de: "In der Urzeit lebte es im Meer. Nun ist es als Geister-Pokémon wiedererwacht und irrt rastlos durch seinen früheren Lebensraum."
 	},
 
 	variants: [

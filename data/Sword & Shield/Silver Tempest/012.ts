@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon puffs poisonous spores at its foes. If the spores aren't washed off quickly, they'll grow into mushrooms wherever they land.",
+		de: "Hutsassa versprüht Giftsporen. Wäscht man diese nicht sofort ab, wachsen dort, wo sie gelandet sind, Pilze."
 	},
 
 	variants: [

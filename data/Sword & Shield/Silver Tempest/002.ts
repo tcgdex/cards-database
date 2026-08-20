@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+		de: "Seine Flügel sind mit staubähnlichen Schuppen überzogen. Mit jedem Flügelschlag verliert es hochgiftigen Staub."
 	},
 
 	variants: [

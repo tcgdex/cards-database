@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Aggressive and cruel, this Pokémon will ruthlessly torment enemies that are helpless in the dark.",
+		de: "Ein heißblütiges und brutales Pokémon. Es fügt seinen in der Dunkelheit wehrlosen Gegnern gnadenlos Verletzungen zu."
 	},
 
 	variants: [

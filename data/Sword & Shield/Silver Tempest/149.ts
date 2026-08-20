@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+		de: "Mit entsetzlichem Kampfgeschrei geht dieses erbarmungslose, riesige Vogel-Pokémon auf Jagd. Es erzeugt Stoßwellen über Seen, um sodann die emportreibende Beute zu ergreifen."
 	},
 
 	variants: [

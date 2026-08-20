@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Krokorok has specialized eyes that enable it to see in the dark. This ability lets Krokorok hunt in the dead of night without getting lost.",
+		de: "Da es dank seiner besonderen Augen selbst im Dunkeln gut sieht, kann es auch nachts auf die Jagd gehen, ohne sich zu verirren."
 	},
 
 	variants: [

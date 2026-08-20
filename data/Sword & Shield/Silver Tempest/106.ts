@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
+		de: "Für seinen Chef geht es auf die Jagd nach glitzernden Objekten. Von vielen Menschen wird es als Überbringer des Unheils verabscheut."
 	},
 
 	variants: [

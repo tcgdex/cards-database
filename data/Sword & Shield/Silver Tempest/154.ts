@@ -23,7 +23,7 @@ const card: Card = {
 		es: "El Pokémon V al que esté unida esta carta puede usar el Poder V-ASTRO de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque).",
 		it: "Il Pokémon-V a cui è assegnata questa carta può usare il Potere V ASTRO di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
 		pt: "O Pokémon V ao qual esta carta está ligada pode usar o Poder V-ASTRO desta carta (você ainda precisa da Energia necessária para usar este ataque).",
-		de: "Das Pokémon-V, an das diese Karte angelegt ist, kann die VSTAR-Power auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon-V, an das diese Karte angelegt ist, kann die VSTAR-Power auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
