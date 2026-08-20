@@ -69,7 +69,7 @@ const card: Card = {
 			en: "Discard 2 Energy from this Pokémon.",
 			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel",
 			it: "Scarta due Energie da questo Pokémon.",
 			pt: "Descarte 2 Energias deste Pokémon.",
 			'es-mx': "Descarta 2 Energías de este Pokémon."
