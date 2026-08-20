@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Fire en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
 			it: "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Fire in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
 			pt: "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Fire em jogo (seus e do seu oponente) não terão Habilidades.",
-			de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Fire-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
+			de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben {R}-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
 		}
 	}],
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
+		de: "Wenn seine Flossen beginnen zu vibrieren, ist das ein sicheres Zeichen dafür, dass in den nächsten Stunden Regen aufziehen wird."
 	},
 
 	variants: [
