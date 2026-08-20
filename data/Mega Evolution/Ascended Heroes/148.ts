@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
+		de: "Es führt eine große Armee in den Kampf. Da es jedoch kein guter Stratege ist, muss es sich letztendlich auf rohe Gewalt verlassen."
 	},
 
 	variants: [

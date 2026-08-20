@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+		de: "Spinsidias hängt sich mit seinem Faden an Äste oder Decken und bewegt sich lautlos. Es erlegt seine Beute, bevor diese es bemerken kann."
 	},
 
 	variants: [

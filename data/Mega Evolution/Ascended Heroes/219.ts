@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+		de: "Die bunten Flügel sind sein Markenzeichen. Mit seinem Rüssel saugt es süßen Honig aus Blumen."
 	},
 
 	variants: [

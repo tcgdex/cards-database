@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
+		de: "Es verspeist am liebsten Gefühle wie Neid und Bosheit. Sein aufrechtes Horn fängt die Emotionen der Menschen ein."
 	},
 
 	variants: [

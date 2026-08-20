@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near.",
+		de: "Sein aus weicher Seide bestehender Körper erhärtet mit der Zeit. Sobald Risse sichtbar sind, steht die Entwicklung kurz bevor."
 	},
 
 	variants: [

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+		de: "Einzeln sind sie schwach, daher bilden sie Schwärme. Werden diese jedoch zu groß, zanken sie sich."
 	},
 
 	variants: [

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Bisharp mercilessly cuts its opponents to pieces with the sharp blades covering its body. It will do anything to win.",
+		de: "Mit den scharfen Klingen an seinem Körper hackt es Gegner gnadenlos in Stücke. Um den Sieg zu erringen, ist ihm jedes Mittel recht."
 	},
 
 	variants: [

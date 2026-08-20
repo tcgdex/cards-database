@@ -74,7 +74,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
 			es: "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
 			'es-mx': "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Wasser {W}-Energie 20 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
 			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon."
 		},
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		de: "Wenn es mit den Schwimmflossen an seinen langen Gliedmaßen schnell durchs Wasser schwimmt, beginnt seine Stirn zu glühen."
 	},
 
 	variants: [
