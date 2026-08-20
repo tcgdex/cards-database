@@ -66,7 +66,7 @@ const card: Card = {
 			name: {
 				en: "Vine Extract",
 				fr: "Extrait de plante",
-				de: "Vine Extrakt"
+				de: "Rankenextrakt"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned and Poisoned.",
