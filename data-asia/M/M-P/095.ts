@@ -39,7 +39,14 @@ const card: Card = {
 	weaknesses: [{ type: "Fire", value: "x2" }],
 	resistances: [],
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888187,
+			},
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "I",
