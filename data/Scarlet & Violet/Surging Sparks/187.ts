@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cambia tu Pokémon Activo por uno de tus Pokémon en Banca. Si lo haces, roba cartas hasta que tengas 5 cartas en tu mano.",
 		it: "Scambia il tuo Pokémon attivo con uno della tua panchina. Se lo fai, pesca fino ad avere cinque carte in mano.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco. Se fizer isto, compre cartas até ter 5 cartas na sua mão.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast."
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

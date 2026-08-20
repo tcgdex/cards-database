@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon hasta 2 cartas de Partidario de tu pila de descartes en tu mano.",
 		it: "Prendi fino a due carte Aiuto dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 		pt: "Coloque até 2 cartas de Apoiador da sua pilha de descarte na sua mão.",
-		de: "Nimm bis zu 2 Unterstützerkarten aus deinem Ablagestapel auf deine Hand."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Nimm bis zu 2 Unterstützerkarten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

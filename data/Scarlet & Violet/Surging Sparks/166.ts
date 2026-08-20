@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si sales en segundo lugar, y solo durante tu primer turno.\n\nPon 1 Energía unida a uno de los Pokémon de tu rival en su mano.",
 		it: "Puoi usare questa carta solo se inizi per secondo e solo durante il tuo primo turno.\n\nPrendi un'Energia assegnata a uno dei Pokémon del tuo avversario e aggiungila alle carte che ha in mano.",
 		pt: "Você só pode usar esta carta se for o segundo a jogar e somente durante o seu primeiro turno.\n\nColoque uma Energia ligada a 1 dos Pokémon do seu oponente na mão dele.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges.\n\nGib deinem Gegner 1 an eines seiner Pokémon angelegte Energie auf seine Hand."
+		de: "Du kannst diese Karte nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges. Gib deinem Gegner 1 an eines seiner Pokémon angelegte Energie auf seine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
