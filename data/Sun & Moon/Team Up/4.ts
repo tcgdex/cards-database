@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Grass unida a él, los ataques le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 				it: "Se questo Pokémon ha delle Energie Grass assegnate, subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Se este Pokémon tiver alguma Energia Grass ligada a ele, receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Wenn an dieses Pokémon mindestens 1 Grass-Energie angelegt ist, werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Wenn an dieses Pokémon mindestens 1 {G}-Energie angelegt ist, werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		de: "Dieses Pokémon kann sich kaum bewegen. Bei drohender Gefahr verhärtet es seinen Panzer."
 	},
 
 	variants: [

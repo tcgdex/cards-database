@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		de: "Es lebt bevorzugt in Wäldern und in hohem Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel."
 	},
 
 	thirdParty: {

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+		de: "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es."
 	},
 }
 

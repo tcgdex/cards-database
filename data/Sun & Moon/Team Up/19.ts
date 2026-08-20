@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire de este Pokémon. Después, descarta 1 carta de la parte superior de la baraja de tu rival por cada Energía que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon. Poi scarta una carta dalla cima del mazzo del tuo avversario per ogni Energia che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Fire deste Pokémon. Em seguida, descarte a primeira carta do baralho do seu oponente para cada Energia descartada desta forma.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel. Lege anschließend für jede auf diese Weise auf deinen Ablagestapel gelegte Energie 1 Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Lege anschließend für jede auf diese Weise auf deinen Ablagestapel gelegte Energie 1 Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+		de: "Dieses Pokémon ist der Legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer."
 	},
 
 	thirdParty: {

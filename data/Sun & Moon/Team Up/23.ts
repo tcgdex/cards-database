@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
 	thirdParty: {

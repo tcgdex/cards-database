@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta tiene un Coste de Retirada de exactamente 4, obtiene 50 PS más.",
 		it: "Se il costo di ritirata del Pokémon a cui è assegnata questa carta è esattamente pari a quattro, quel Pokémon ha 50 PS in più.",
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver um custo de Recuo de exatamente 4, receberá 50 PS a mais.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, Rückzugskosten von genau 4 hat, erhält es 50 KP mehr."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, Rückzugskosten von genau 4 hat, erhält es 50 KP mehr. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
