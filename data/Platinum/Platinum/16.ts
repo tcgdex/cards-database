@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vigoroth",
-		fr: "Vigoroth"
+		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Lazy Paunch",
 				fr: "Ventre paresseux",
-				de: "Lazy Paunch"
+				de: "Träge Wampe"
 			},
 			effect: {
 				en: "If Slaking used any attacks during your last turn, Slaking can't attack.",
 				fr: "Si Monaflemit a utilisé des attaques lors de votre tour précédent, il ne peut pas attaquer.",
-				de: "If Slaking used any attacks during your last turn, Slaking can't attack."
+				de: "Wenn Letarking in deinem letzten Zug einen Angriff eingesetzt hat, kann Letarking nicht angreifen."
 			}
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Best Dash",
 				fr: "Meilleure ruée",
-				de: "Best Dash"
+				de: "Endspurt"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Monaflemit par des attaques sont augmentés de 50 (après application de la Faiblesse et de la Résistance).",
-				de: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance)."
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Letarking durch Angriffe zugefügt wird, um 50 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 150,
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back."
+		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+		de: "Das faulste PKMN der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
 	},
 
 	variants: [

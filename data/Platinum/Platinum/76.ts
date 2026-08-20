@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Chaneira von deiner Hand auf Wonneira legen (das zählt als Entwickeln von Wonneira). Entferne alle Schadensmarken von Wonneira."
 			}
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Hospitality",
 				fr: "Hospitalité",
-				de: "Hospitality"
+				de: "Gastfreundschaft"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Retirez 2 marqueurs de dégât au nouveau Pokémon Défenseur.",
-				de: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon."
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Entferne 2 Schadensmarken vom neuen Verteidigenden Pokémon."
 			},
 
 		},
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble."
+		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble.",
+		de: "Hat immer einen kleinen Felsen bei sich. Wandelt zwischen den Füßen anderer, was diese stolpern lässt."
 	},
 
 	variants: [

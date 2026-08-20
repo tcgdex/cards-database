@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck.",
 		fr: "Regardez les 2 cartes du dessus de votre deck, choisissez-en 1 et placez-la dans votre main. Replacez l'autre carte au dessous de votre deck.",
-		de: "Look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck."
+		de: "Schau dir die obersten 2 Karten deines Decks an, wähle 1 davon und nimm sie auf die Hand. Lege die andere Karte unter dein Deck."
 	},
 
 	trainerType: "Item",

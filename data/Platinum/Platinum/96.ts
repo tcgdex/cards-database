@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Skull Bash",
 				fr: "Coud'krane",
-				de: "Skull Bash"
+				de: "Schädelwumme"
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
 	variants: [

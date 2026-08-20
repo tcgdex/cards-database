@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
-				de: "Splash"
+				de: "Platscher"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Trickle",
 				fr: "Goutte à goutte",
-				de: "Trickle"
+				de: "Rieseln"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea."
+		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea.",
+		de: "Sein starker Wasserstrahl verfehlt seine Gegner auch dann nicht, wenn das REMORAID unter Wasser ist."
 	},
 
 	variants: [

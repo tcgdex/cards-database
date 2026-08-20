@@ -30,12 +30,12 @@ const card: Card = {
 			name: {
 				en: "Anticipation",
 				fr: "Anticipation",
-				de: "Anticipation"
+				de: "Vorahnung"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, excluding damage, done to Toxicroak G.",
 				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Coatox .",
-				de: "Prevent all effects of attacks, excluding damage, done to Toxicroak G."
+				de: "Verhindere alle Effekte von Angriffen, außer Schaden, die Toxiquak G zugefügt würden."
 			}
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Deep Poison",
 				fr: "Poison profond",
-				de: "Deep Poison"
+				de: "Tiefengift"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage."
+				de: "Wenn das Verteidigende Pokémon vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
