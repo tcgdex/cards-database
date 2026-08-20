@@ -44,7 +44,7 @@ const card: Card = {
 				es: "Ataque Veloz",
 				it: "Attacco Rapido",
 				pt: "Ataque Veloz",
-				de: "Tempoattacke"
+				de: "Tempoangriff"
 			},
 			damage: 100,
 		},
