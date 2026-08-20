@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+		de: "Die regionale Küche Paldeas ist sehr scharf, weil die ausgefallenen Vorderzähne von Chilingel zum Würzen verwendet werden."
 	},
 
 	thirdParty: {

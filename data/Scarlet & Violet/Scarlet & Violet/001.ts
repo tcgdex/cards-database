@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
+		de: "Mit der klebrigen Flüssigkeit, die es über den Mund ausspeit, befestigt es Baumrinde an seinem Körper. An der Luft erhärtet dieser Klebstoff."
 	},
 
 	thirdParty: {

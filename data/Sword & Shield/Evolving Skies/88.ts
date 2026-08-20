@@ -82,7 +82,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Although its energy blasts can blow away a dump truck, they have a limitation— they can only be fired when the sun is out."
+		en: "Although its energy blasts can blow away a dump truck, they have a limitation— they can only be fired when the sun is out.",
+		de: "Seine Energiekugeln können einen Lastwagen durch die Luft schleudern. Diese kann es aber nur bei schönem Wetter abfeuern."
 	},
 
 	dexId: [526],

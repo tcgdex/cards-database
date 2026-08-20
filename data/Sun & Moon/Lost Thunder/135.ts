@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+		de: "Seine Schweifspitze ist mit Öl gefüllt, das leichter als Wasser ist, sodass es nicht untergeht."
 	},
 
 	thirdParty: {

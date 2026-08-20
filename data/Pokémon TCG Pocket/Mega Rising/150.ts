@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Absol"
+		en: "Absol",
+		fr: "Absol"
 	},
 
 	illustrator: "nagimiso",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ominous Claw"
+			en: "Ominous Claw",
+			fr: "Griffe du Malheur"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+			en: "Flip a coin. If heads, your opponent reveals their hand. Choose a Supporter card you find there and discard it.",
+			fr: "Lancez une pièce. Si c'est face, votre adversaire dévoile sa main. Choisissez une carte Supporter que vous y trouvez et défaussez-la."
 		}
 	}],
 

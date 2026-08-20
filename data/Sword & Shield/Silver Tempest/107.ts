@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
+		de: "Das Kämpfen überlässt es größtenteils seinen Untergebenen. Es macht sich nur die Flügel schmutzig, um dem Gegner den Rest zu geben."
 	},
 
 	variants: [

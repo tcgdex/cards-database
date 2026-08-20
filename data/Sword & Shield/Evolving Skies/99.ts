@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory."
+		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+		de: "Es gibt sich gerne wild, aber seine Familie, seine Kameraden und sein Revier liegen ihm sehr am Herzen."
 	},
 
 	dexId: [560],

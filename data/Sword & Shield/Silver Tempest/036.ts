@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+		de: "Seine wunderschönen blauen Flügel sollen aus Eis bestehen. Es fliegt über schneebedeckte Berge, während sein langer Schweif hinter ihm flattert."
 	},
 
 	variants: [

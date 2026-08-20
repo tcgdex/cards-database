@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
+		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf behutsam an einem geeigneten Felsen eines Flussbettes."
 	},
 
 	variants: [

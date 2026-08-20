@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo durante tu primer turno.\nBusca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo durante il tuo primo turno.\nCerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta durante o seu primeiro turno.\nProcure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur während deines ersten Zuges verwenden.\nDurchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur während deines ersten Zuges verwenden. Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

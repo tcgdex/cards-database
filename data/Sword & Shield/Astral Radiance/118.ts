@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+		de: "Einer unbestätigten Theorie zufolge sind seine Arme wie der Kopf eines urzeitlichen Drachen-Pokémon geformt."
 	},
 
 	variants: [

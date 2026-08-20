@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+		de: "Mit dem Blatt auf seinem Kopf bestimmt es die Temperatur und Feuchtigkeit. Es liebt Sonnenbäder."
 	},
 
 	thirdParty: {

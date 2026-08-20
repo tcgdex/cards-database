@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cuando tu Pokémon Activo queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, puedes mover 1 Energía Básica de ese Pokémon al Pokémon al que esté unida esta carta.",
 		it: "Quando il tuo Pokémon attivo viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, puoi spostare un'Energia base da quel Pokémon a quello a cui è assegnata questa carta.",
 		pt: "Quando o seu Pokémon Ativo for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, você poderá mover uma Energia Básica daquele Pokémon para o Pokémon ao qual esta carta está ligada.",
-		de: "Wenn dein Aktives Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du 1 Basis-Energie von jenem Pokémon auf das Pokémon verschieben, an das diese Karte angelegt ist."
+		de: "Wenn dein Aktives Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du 1 Basis-Energie von jenem Pokémon auf das Pokémon verschieben, an das diese Karte angelegt ist. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

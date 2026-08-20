@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bellsprout"
+		en: "Bellsprout",
+		fr: "Chétiflor"
 	},
 
 	illustrator: "MAHOU",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Even though its body is extremely skinny, it is\nblindingly fast when catching its prey."
+		en: "Even though its body is extremely skinny, it is\nblindingly fast when catching its prey.",
+		fr: "Même si son corps est très frêle, ce Pokémon\\nest extrêmement rapide quand il attaque ses adversaires."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			en: "Vine Whip",
+			fr: "Fouet Lianes"
 		},
 
 		damage: 20,

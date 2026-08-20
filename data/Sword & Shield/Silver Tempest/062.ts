@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
+		de: "In einer bestimmten Gegend von Galar wurde Rossana einst als „Königin des Eises“ gleichermaßen gefürchtet wie verehrt."
 	},
 
 	variants: [

@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+		de: "Es bewegt sich, indem es auf seinem Fuß kreiselt. Vereinzelt sieht man auch Puppance, die dies kopfüber tun."
 	},
 
 	variants: [

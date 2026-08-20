@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.",
+		de: "Bei Sonnenuntergang verlässt es seine Höhle und geht mithilfe von Ultraschallwellen auf die Suche nach reifem Obst."
 	},
 
 	variants: [

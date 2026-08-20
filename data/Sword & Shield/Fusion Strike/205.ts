@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "0313",
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		de: "Das Erbmaterial dieses besonderen Pokémon ist instabil, weshalb es das Potenzial für viele verschiedene Entwicklungen in sich trägt."
 	},
 
 	attacks: [{

@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si tienes por lo menos 3 Energías Darkness en juego, este ataque hace 90 puntos de daño más.",
 			it: "Se hai almeno tre Energie Darkness in gioco, questo attacco infligge 90 danni in più.",
 			pt: "Se você tiver pelo menos 3 Energias Darkness em jogo, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn du mindestens 3 Darkness-Energien im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			de: "Wenn du mindestens 3 {D}-Energien im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
+		de: "Sein brutales Wesen sowie die speergleichen Stacheln haben ihm den Beinamen „Meeresdämon“ beschert. Es schlürft Gift, das ihm als Nahrung dient."
 	},
 
 	variants: [

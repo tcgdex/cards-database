@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon VMAX al que está unida esta carta queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Se il Pokémon-VMAX a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Se o Pokémon VMAX ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Wenn das Pokémon-VMAX, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon-VMAX, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -83,7 +83,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its life can span several hundred years. It's said to devote its entire life to protecting gardens."
+		en: "Its life can span several hundred years. It's said to devote its entire life to protecting gardens.",
+		de: "Es hat eine Lebenserwartung von mehreren Hundert Jahren. Man sagt, es widme sein ganzes Dasein beharrlich der Pflege von Blumengärten."
 	},
 
 	dexId: [671],

@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient."
+		en: "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient.",
+		de: "Das Fleisch in seiner rechten Schere ist sehr fest. Wenn sie abfällt, wird sie aufgesammelt und zum Verzehr ins Ausland exportiert."
 	},
 
 	attacks: [{

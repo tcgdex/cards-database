@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 
 	description: {
-		en: "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph."
+		en: "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
+		de: "Es wird auch der „Bohrkönig“ genannt. Bei seinen Bohrmanövern im Erdreich erreicht es eine Spitzengeschwindigkeit von 150 km/h."
 	},
 
 	attacks: [{

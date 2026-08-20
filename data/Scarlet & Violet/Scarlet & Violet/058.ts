@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+		de: "In Herden aus circa fünf Artgenossen bewohnt es frostige Gebiete. Am liebsten frisst es Mineralien, die in Schnee und Eis enthalten sind."
 	},
 
 	thirdParty: {

@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "As it flies in a calm and relaxed manner, Altaria performs a humming song that would enrapture any audience.",
+		de: "Es schwebt gemächlich durch die Lüfte und lässt dabei ein wunderschönes Summen ertönen, das alle in seinen Bann zieht, die es hören."
 	},
 
 	variants: [

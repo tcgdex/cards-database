@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn't deal well with folks who aren't easily frightened.",
+		de: "Es genießt es, das Schluchzen eines Menschen nachzuahmen und andere damit zu erschrecken. Wen das kaltlässt, den kann es nicht leiden."
 	},
 
 	variants: [

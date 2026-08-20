@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
+		de: "Es benutzt seine zwei Schweife für alles, was es tut. Wenn es jemanden mit ihnen umarmt, ist das ein Beweis seiner Zuneigung."
 	},
 
 	

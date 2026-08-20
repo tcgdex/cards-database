@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+		de: "Es speichert eine riesige Menge Elektrizität in seinem Körper. Es explodiert beim kleinsten Ruck."
 	},
 
 	attacks: [{

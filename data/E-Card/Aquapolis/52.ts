@@ -4,7 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 

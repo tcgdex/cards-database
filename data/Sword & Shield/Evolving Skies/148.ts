@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta no tiene ninguna habilidad, los ataques de los Pokémon de tu rival le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 		it: "Se il Pokémon a cui è assegnata questa carta non ha abilità, subisce 20 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "Se o Pokémon ao qual esta carta está ligada não tiver Habilidades, ele receberá 20 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, keine Fähigkeiten hat, werden ihm durch Attacken der Pokémon deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Aktive Pokémon, an das diese Karte angelegt ist, keine Fähigkeit hat, werden ihm durch Attacken der Pokémon deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a 1 Pokémon, proporciona 2 Energías Colorless.\nLos ataques del Pokémon al que esté unida esta carta hacen 20 puntos de daño menos a\nlos Pokémon de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia Colorless Colorless.\nGli attacchi del Pokémon a cui è assegnata questa carta infliggono 20 danni in meno ai Pokémon del tuo avversario,\nprima di aver applicato debolezza e resistenza.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia ColorlessColorless.\nOs ataques do Pokémon ao qual esta carta está ligada causam 20 pontos de dano a menos aos Pokémon do seu oponente\n(antes de aplicar Fraqueza e Resistência).",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie ColorlessColorless-Energie.\nDie Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Pokémon deines Gegners 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}{C}-Energie. Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Pokémon deines Gegners 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
 	energyType: "Special",

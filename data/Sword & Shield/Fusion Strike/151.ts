@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest."
+		en: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.",
+		de: "Es schlägt seine Beute mit Attacken nieder, die Profikampfsportler erblassen lassen. Danach trägt es sie unter seinen beiden Armen in sein Versteck."
 	},
 
 	attacks: [{

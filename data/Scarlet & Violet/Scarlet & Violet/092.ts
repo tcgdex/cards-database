@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flabébé",
-		fr: "Flabébé"
+		fr: "Flabébé",
+		de: "Flabébé"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon uses red wavelengths of light to pour its own energy into flowers and draw forth their latent potential.",
+		de: "Über rote Farbwellenlängen lässt es Blumen seine Energie zukommen, um diesen so ihr volles Potenzial zu entlocken."
 	},
 
 	thirdParty: {

@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player may evolve a Pokémon that he or she just played or evolved during that turn.",
 		fr: "Chaque joueur peut faire évoluer un Pokémon qu'il ou elle a joué ou fait évolué ce tour-ci.",
-		de: "Each player may evolve a Pokémon that he or she just played or evolved during that turn."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Spieler können Pokémon im gleichen Zug entwickeln, in dem sie diese gespielt oder bereits entwickelt haben."
 	},
 
 	trainerType: "Stadium",

@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings.",
+		de: "Dank der geschmeidigen Flügel gleitet es lautlos durch die Luft. Aus seinem Gefieder kann es mit Geschick messerscharfe Federn schleudern."
 	},
 
 	variants: [

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+		de: "Man sagt, es sei die Wiedergeburt des Nordwindes. Es kann verschmutztes Wasser im Nu reinigen."
 	},
 
 	thirdParty: {

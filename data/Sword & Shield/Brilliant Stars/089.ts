@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Hasta el final de tu próximo turno, la Debilidad del Pokémon Defensor pasa a ser Darkness. (La cantidad de Debilidad no cambia).",
 			it: "Fino alla fine del tuo prossimo turno, la debolezza del Pokémon difensore diventa Darkness. Quanto è debole non cambia.",
 			pt: "Até o final do seu próximo turno, a Fraqueza do Pokémon Defensor será Darkness (a quantidade de Fraqueza não muda).",
-			de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Darkness. (Die Höhe der Schwäche ändert sich nicht.)"
+			de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt {D}. (Die Höhe der Schwäche ändert sich nicht.)"
 		}
 	}, {
 		cost: ["Darkness"],
@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Exactly 108 spirits gathered to become this Pokémon. Apparently there are some ill-natured spirits in the mix.",
+		de: "Es besteht aus 108 Geistern. Allerdings scheinen sich auch einige bösartige daruntergemischt zu haben."
 	},
 
 	variants: [

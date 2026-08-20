@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself.",
+		de: "Es ist sehr angriffslustig und schreckt auch nicht davor zurück, sich mit Gegnern anzulegen, die ihm haushoch überlegen sind."
 	},
 
 	attacks: [{

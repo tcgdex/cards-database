@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+		de: "Vermutlich ist das sumpfige Gelände Hisuis der Grund für seine robuste Statur sowie die neu errungene Fähigkeit, Torf nach Belieben manipulieren zu können."
 	},
 
 	variants: [

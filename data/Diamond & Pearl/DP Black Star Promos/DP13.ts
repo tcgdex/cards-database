@@ -9,7 +9,7 @@ const card: Card = {
 
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
-	category: "Trainer",
+	category: "Pokemon",
 	set: Set,
 
 	dexId: [

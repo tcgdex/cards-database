@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+		de: "Flegmon ist stets in Gedanken versunken, aber niemand weiß, worüber es nachdenkt. Seine Rute nutzt es geschickt zum Angeln."
 	},
 
 	thirdParty: {

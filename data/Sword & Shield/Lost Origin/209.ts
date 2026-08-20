@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de la baraja de tu rival y descarta cualquier cantidad de cartas de Objeto que encuentres entre ellas. Tu rival pone el resto de las cartas de nuevo en su baraja y las baraja todas.",
 		it: "Guarda le prime cinque carte del mazzo del tuo avversario e scarta un numero qualsiasi di carte Strumento presenti tra esse. Il tuo avversario rimischia le altre carte nel suo mazzo.",
 		pt: "Olhe as 5 cartas de cima do baralho do seu oponente e descarte qualquer número de cartas de Item que encontrar lá. Seu oponente embaralha as demais cartas de volta no próprio baralho.",
-		de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege beliebig viele Itemkarten, die du dort findest, auf seinen Ablagestapel. Dein Gegner mischt die anderen Karten zurück in sein Deck."
+		de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege beliebig viele Itemkarten, die du dort findest, auf seinen Ablagestapel. Dein Gegner mischt die anderen Karten zurück in sein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

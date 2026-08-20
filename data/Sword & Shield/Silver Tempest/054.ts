@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
+		de: "Emolga fliegt anmutig durch die Lüfte und entlädt dabei Strom. Es ist zwar niedlich, kann aber auch für viel Ärger sorgen."
 	},
 
 	variants: [

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Moonlight",
 				fr: "Rayon Lune",
+				de: "Mondschein"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 20,
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+		de: "Eine Ansammlung von Piepi bei Vollmond tanzen zu sehen, soll Freude verheißen."
 	},
 
 	thirdParty: {

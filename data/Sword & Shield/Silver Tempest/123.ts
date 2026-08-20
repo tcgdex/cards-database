@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
+		de: "Seine zwei Teile stehen einander näher als Zwillinge. Eine andere Kombination würde nicht halb so gut ineinandergreifen."
 	},
 
 	variants: [

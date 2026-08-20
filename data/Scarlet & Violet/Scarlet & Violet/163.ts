@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+		de: "Seit uralten Zeiten soll es Menschen auf seinem Rücken reiten lassen. Darstellungen davon finden sich auf 10 000 Jahre alten Wandmalereien."
 	},
 
 	thirdParty: {

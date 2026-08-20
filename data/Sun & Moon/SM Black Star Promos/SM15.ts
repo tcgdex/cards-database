@@ -80,6 +80,16 @@ const card: Card = {
 	description: {
 		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 296828,
+				tcgplayer: 129313
+			}
+		}
+	],
 }
 
 export default card

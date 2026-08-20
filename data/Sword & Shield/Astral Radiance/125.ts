@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia.",
+		de: "Mit seinem seltsam geformten Geweih kann es Betrachter verhexen. Zermalmt man die schwarzen Kugeln von abgefallenen Geweihen, so erhält man eine Medizin gegen Schlaflosigkeit."
 	},
 
 	variants: [

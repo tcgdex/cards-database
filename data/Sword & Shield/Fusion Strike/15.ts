@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "Legends say this Pokémon confounded opponents with its swift movements."
+		en: "Legends say this Pokémon confounded opponents with its swift movements.",
+		de: "Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon."
 	},
 
 	attacks: [{

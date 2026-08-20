@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mueve 1 Energía Básica de uno de tus Pokémon a otro de tus Pokémon.",
 		it: "Sposta un'Energia base da uno dei tuoi Pokémon a un altro.",
 		pt: "Mova uma Energia Básica de 1 dos seus Pokémon para outro Pokémon seu.",
-		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
+		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

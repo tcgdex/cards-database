@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane."
+		en: "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
+		de: "Seit es seine Muschel abgestreift hat, ist es viel leichter und agiler. Es umhüllt sich mit einer Schleimhaut, die es vor dem Austrocknen schützt."
 	},
 
 	attacks: [{

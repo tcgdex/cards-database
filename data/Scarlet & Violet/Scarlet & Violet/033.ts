@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+		de: "Sein Ruf bei der Beutejagd unterscheidet sich von dem Ruf, den es zum Kommunizieren mit Artgenossen verwendet."
 	},
 
 	thirdParty: {

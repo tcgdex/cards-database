@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+		de: "Diese Ultrabestie scheint diese Welt für unrein zu halten und zieht es daher vor, mit nichts und niemandem in Berührung zu kommen."
 	},
 
 	thirdParty: {

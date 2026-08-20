@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Este ataque hace 60 puntos de daño más por cada Energía Metal adicional unida a este Pokémon (además de las del coste de este ataque). No puedes añadir más de 120 puntos de daño de esta manera.",
 			it: "Questo attacco infligge 60 danni in più per ogni Energia Metal extra assegnata a questo Pokémon, in aggiunta a quelle del costo di questo attacco. Non puoi aggiungere più di 120 danni in questo modo.",
 			pt: "Este ataque causa 60 pontos de dano a mais para cada Energia Metal adicional ligada a este Pokémon (além do custo deste ataque). Você não pode adicionar mais de 120 pontos de dano desta forma.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte extra Metal-Energie (zusätzlich zu den Kosten dieser Attacke) 60 Schadenspunkte mehr zu. Du kannst auf diese Weise höchstens 120 Schadenspunkte mehr zufügen."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte extra {M}-Energie (zusätzlich zu den Kosten dieser Attacke) 60 Schadenspunkte mehr zu. Du kannst auf diese Weise höchstens 120 Schadenspunkte mehr zufügen."
 		},
 
 		damage: "160+"

@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name \"scalchop.\".",
+		de: "Es stammt aus Einall und setzt die Muschel an seinem Bauch ein um Feinde im Kampf damit aufzuschlitzen. Ich würde diese Waffe folglich auf den Namen \"Muschelklinge\" taufen."
 	},
 
 	variants: [

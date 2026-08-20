@@ -4,7 +4,7 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Mantine",
-		fr: "Demanta",
+		fr: "Démanta",
 		de: "Mantax"
 	},
 

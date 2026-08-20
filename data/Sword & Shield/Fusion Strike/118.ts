@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it."
+		en: "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it.",
+		de: "Vor dem geisterhaften Ektoplasma, das seine Seele umhüllt, ist Vorsicht geboten. Berührt man es, erstarrt man wie zu Stein."
 	},
 
 	attacks: [{

@@ -59,7 +59,7 @@ const card: Card = {
 			es: "Este ataque hace 50 puntos de daño menos por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 50 danni in meno per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 50 pontos de dano a menos para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte weniger zu."
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte weniger zu."
 		},
 
 		damage: "220-"
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Registeel's body is made of a strange material that is flexible enough to stretch and shrink but also more durable than any metal.",
+		de: "Es besteht aus einer seltsamen Substanz, die robuster als jedes Metall, jedoch zugleich auch weich und elastisch ist."
 	},
 
 	variants: [

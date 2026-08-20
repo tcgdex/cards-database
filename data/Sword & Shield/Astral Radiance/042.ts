@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+		de: "Seine meisterhafte Handhabung der beiden Muschelklingen ist wohl auf tägliche Übungen zurückzuführen. Damit stellt es selbst die erfahrensten Schwertkämpfer in den Schatten."
 	},
 
 	variants: [

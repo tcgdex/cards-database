@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	description: {
-		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		de: "Neigt sich seine Lebensspanne dem Ende zu, entzieht es anderen Lebewesen deren Energie und verwandelt sich zurück in einen Kokon."
 	},
 
 	attacks: [{

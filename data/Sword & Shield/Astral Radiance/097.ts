@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
+		de: "Schnell wie der Wind rauscht es über Felder und Berge. Sein gebogenes Horn ist sehr sensibel gegenüber herannahenden Naturkatastrophen."
 	},
 
 	variants: [

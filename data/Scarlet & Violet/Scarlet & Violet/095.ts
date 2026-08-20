@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
+		de: "Da es klein ist und sein elektrisches Organ nicht stark ausgebildet ist, zapft es mit seinem Schwanz in Häusern Strom ab, um sich aufzuladen."
 	},
 
 	thirdParty: {

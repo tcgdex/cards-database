@@ -4,7 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton",
 		it: "Magneton"
 	},

@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Si tienes algún Pokémon Lightning en tu Banca, este ataque hace 30 puntos de daño más.",
 				it: "Se hai dei Pokémon Lightning in panchina, questo attacco infligge 30 danni in più.",
 				pt: "Se você tiver algum Pokémon Lightning no seu Banco, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn du mindestens 1 Lightning-Pokémon auf deiner Bank hast, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				de: "Wenn du mindestens 1 {L}-Pokémon auf deiner Bank hast, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+		de: "Mit seinem Schwanz zapft es Kraftwerke sowie Steckdosen in Häusern an, um Strom zu tanken, den es über seine Schnurrhaare wieder entlädt."
 	},
 
 	thirdParty: {

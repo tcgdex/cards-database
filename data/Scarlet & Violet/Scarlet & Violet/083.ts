@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby.",
+		de: "Es hält immer ein Pendel, welches es in einem gleichmäßigen Rhythmus bewegt. Dies verursacht bei jedem in seiner Nähe Müdigkeit."
 	},
 
 	thirdParty: {

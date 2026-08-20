@@ -87,6 +87,13 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785589
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725211,
@@ -98,7 +105,7 @@ const card: Card = {
 
 	illustrator: "Scav",
 
-	
+
 }
 
 export default card

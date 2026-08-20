@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The skull it wears on its head is that of its dead mother. According to some, it will evolve when it comes to terms with the pain of her death.",
+		de: "Der Schädel auf seinem Kopf gehörte seiner verstorbenen Mutter. Überwindet es diesen Verlust, setzt angeblich die Entwicklung ein."
 	},
 
 	thirdParty: {

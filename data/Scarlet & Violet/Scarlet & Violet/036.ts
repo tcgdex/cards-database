@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco's head and flickers to and fro.",
+		de: "Sein Flammensack ist noch klein, weshalb überquellende Energie über die Vertiefung an seinem Kopf flackernd freigesetzt wird."
 	},
 
 	thirdParty: {

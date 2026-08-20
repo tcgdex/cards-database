@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Though Espurr's expression never changes, behind that blank stare is an intense struggle to contain its devastating psychic power.",
+		de: "Sein Gesicht ist stets ausdruckslos. Grund dafür ist die enorme Anstrengung, die es aufbringen muss, um seine Psycho-Kräfte zu kontrollieren."
 	},
 
 	variants: [

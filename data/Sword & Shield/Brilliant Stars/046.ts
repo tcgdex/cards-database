@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+		de: "In vielen Elektrizitätswerken werden Pokémon vom Typ Boden eingesetzt, um Elektek davon abzuhalten, den dortigen Strom anzuzapfen."
 	},
 
 	variants: [

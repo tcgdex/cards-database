@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes poner 2 contadores de daño en este Pokémon. Si lo haces, busca en tu baraja 1 carta de Energía Fighting y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, puoi mettere due segnalini danno su questo Pokémon. Se lo fai, cerca nel tuo mazzo una carta Energia Fighting e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Uma vez durante o seu turno, você poderá colocar 2 contadores de dano neste Pokémon. Se fizer isto, procure por 1 carta de Energia Fighting no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du 2 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach 1 Fighting-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Einmal während deines Zuges kannst du 2 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach 1 {F}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -71,7 +71,7 @@ const card: Card = {
 			es: "Descarta todas las Energías Fighting de este Pokémon. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Scarta tutte le Energie Fighting da questo Pokémon. Questo attacco infligge 60 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Descarte todas as Energias Fighting deste Pokémon. Este ataque causa 60 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Lege alle Fighting-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu."
+			de: "Lege alle {F}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+		de: "Es jagt seine Beute, indem es eine Kraft manipuliert, die Aura genannt wird. Dadurch kann es sogar große Felsen pulverisieren."
 	},
 
 	variants: [

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quaxwell",
-		fr: "Canarbello"
+		fr: "Canarbello",
+		de: "Fuentente"
 	},
 
 	stage: "Stage2",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+		de: "Mit einem einzigen Tritt kann es Lastwagen umwerfen. Es nutzt seine kräftigen Beine, um Tänze aus fernen Ländern aufzuführen."
 	},
 
 	thirdParty: {

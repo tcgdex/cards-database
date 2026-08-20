@@ -58,7 +58,8 @@ const card: Card = {
 	dexId: [333],
 
 	description: {
-		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		de: "Ständig pflegt es seine watteartigen Flügel. Falls es schmutzig wird, nimmt es eine Dusche, um sich zu putzen."
 	},
 
 	regulationMark: "E",

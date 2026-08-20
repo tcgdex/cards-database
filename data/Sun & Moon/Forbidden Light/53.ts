@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skrelp",
 		fr: "Venalgue",
+		de: "Algitt"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Envenenado.",
 				it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene avvelenato.",
 				pt: "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), o Pokémon Atacante será Envenenado.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
+				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+		de: "Es heißt, dass die Besatzung von Schiffen, die sich in Tandraks Hoheitsgebiet begeben, nicht mehr lebend zurückkehrt."
 	},
 
 	thirdParty: {

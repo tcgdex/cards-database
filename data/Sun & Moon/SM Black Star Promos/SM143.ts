@@ -92,6 +92,16 @@ const card: Card = {
 	description: {
 		en: "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366048,
+				tcgplayer: 180519
+			}
+		}
+	],
 }
 
 export default card

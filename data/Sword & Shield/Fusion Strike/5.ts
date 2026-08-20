@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+		de: "Erst lässt es den Gegner seine giftigen Sporen einatmen, dann traktiert es ihn mit Boxschlägen."
 	},
 
 	attacks: [{

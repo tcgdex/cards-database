@@ -80,6 +80,14 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786047,
+				tcgplayer: 602868
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 725096,
@@ -91,7 +99,7 @@ const card: Card = {
 
 	illustrator: "Kurata So",
 
-	
+
 }
 
 export default card

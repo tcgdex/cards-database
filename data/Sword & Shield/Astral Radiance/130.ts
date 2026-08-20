@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
+		de: "Es gibt eine Legende, wonach dieses Pokémon die Kontinente mit einem Seil gezogen hat."
 	},
 
 	variants: [

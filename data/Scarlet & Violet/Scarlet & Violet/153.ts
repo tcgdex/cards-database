@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "In search of happy feelings—such as joy and gratitude—Indeedee bustles around, taking diligent care of people and other Pokémon.",
+		de: "Auf der Suche nach positiven Gefühlen wie Freude und Dankbarkeit kümmert es sich unablässig um Menschen und Pokémon."
 	},
 
 	thirdParty: {

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish."
+		en: "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish.",
+		de: "Es ist aus einer überfüllten Mülltüte entstanden. Die Smogmog der Galar-Region sind verrückt nach den giftigen Gasen, die es ausstößt."
 	},
 
 	attacks: [{

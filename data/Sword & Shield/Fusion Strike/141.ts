@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "SATOSHI NAKAI",
 
 	description: {
-		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest."
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+		de: "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus."
 	},
 
 	attacks: [{

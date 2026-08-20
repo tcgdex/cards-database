@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights."
+		en: "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights.",
+		de: "Je kälter ihr Körper ist, desto wohler fühlen sie sich. Sie lassen ihren Atem zu Schneebällen gefrieren, um sich damit gegenseitig abzuwerfen."
 	},
 
 	attacks: [{

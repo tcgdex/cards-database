@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+		de: "Seine robusten Krallen eignen sich ideal dazu, steile Felswände zu erklimmen. Von den Spitzen tropft Gift, welches die Nerven seiner Beute lähmt."
 	},
 
 	variants: [

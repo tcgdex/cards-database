@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawniard",
-		fr: "Scalpion"
+		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+		de: "Es dient als Anführer einer Schar Gladiantri. Nach Revierkämpfen werden die Verlierer in die Gewinnerschar assimiliert."
 	},
 
 	thirdParty: {

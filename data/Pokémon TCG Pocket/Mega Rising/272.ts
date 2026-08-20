@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Pinsir ex"
+		en: "Mega Pinsir ex",
+		fr: "Méga-Scarabrute-ex"
 	},
 
 	illustrator: "Krgc",
@@ -21,14 +22,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Critical Scissors"
+			en: "Critical Scissors",
+			fr: "Ciseaux Acérés"
 		},
 
 		damage: 80,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 70 more damage."
+			en: "Flip a coin. If heads, this attack does 70 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts de plus."
 		}
 	}],
 

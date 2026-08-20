@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That's why this Pokémon is never cold."
+		en: "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That's why this Pokémon is never cold.",
+		de: "Sein wasserabweisendes Fell trocknet sofort und hält Marill warm, selbst wenn es aus kaltem Meerwasser auftaucht."
 	},
 
 	attacks: [{

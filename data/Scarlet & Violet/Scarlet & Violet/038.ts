@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Crocalor",
-		fr: "Crocogril"
+		fr: "Crocogril",
+		de: "Lokroko"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+		de: "Sein sanfter Gesang beruhigt die Seelen all derer, die ihm lauschen. Feinde verbrennt es mit 3000 ℃ heißen Flammen zu Asche."
 	},
 
 	thirdParty: {

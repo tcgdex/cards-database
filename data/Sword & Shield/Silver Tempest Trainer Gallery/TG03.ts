@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno (antes de tu ataque), puedes unir una carta de Energía Lightning de tu pila de descartes a 1 de tus Pokémon en Banca.",
 			it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua pila degli scarti.",
 			pt: "Uma vez na sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Lightning da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Lightning-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
+			de: "Einmal während deines Zuges kannst du 1 {L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
 		}
 	}],
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.",
+		de: "Sein flauschiges Fell speichert Elektrizität. Zu große Mengen bewirkten aber stellenweise einen Haarausfall, wo nun glatte Haut freiliegt."
 	},
 
 	variants: [
