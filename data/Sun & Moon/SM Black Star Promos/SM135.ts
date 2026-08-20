@@ -92,6 +92,16 @@ const card: Card = {
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364063,
+				tcgplayer: 175564
+			}
+		}
+	],
 }
 
 export default card

@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
+		de: "Sind seine beiden Ohren aufgerollt, deutet das darauf hin, dass es ihm körperlich oder psychisch nicht gut geht und es Zuwendung braucht."
 	},
 
 	variants: [

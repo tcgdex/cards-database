@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has an unparalleled horn. Heracross itself demonstrates tremendous power—it's capable of throwing several people trained in the traditional arts of war at once.",
+		de: "Dieses Pokémon demonstriert gern seine enorme Stärke, mit der es mehrere geschulte Kämpfer auf einen Schlag wegschleudern kann. Sein imposantes Horn sucht seinesgleichen."
 	},
 
 	variants: [

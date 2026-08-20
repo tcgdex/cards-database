@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "A Dedenne's whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
+		de: "Mit den Schnurrhaaren empfangen sie elektrische Wellen von Artgenossen. So teilen sie einander mit, wo Futter und Elektrizität zu finden sind."
 	},
 
 	variants: [

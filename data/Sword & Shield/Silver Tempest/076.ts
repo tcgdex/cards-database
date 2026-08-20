@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+		de: "Monozyto kommunizieren untereinander mittels Telepathie. Erfährt es eine starke Erschütterung, läuft die Flüssigkeit, die es umgibt, aus."
 	},
 
 	variants: [

@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "They say that any patisserie visited by Milcery is guaranteed success and good fortune.",
+		de: "Es heißt, dass den Konditoreien, in denen sich Hokumil zeigt, großer Wohlstand verheißen sei."
 	},
 
 	variants: [

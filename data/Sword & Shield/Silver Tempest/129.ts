@@ -51,6 +51,7 @@ const card: Card = {
 
 	description: {
 		en: "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
+		de: "Dratini lebt in der Nähe reißender Gewässer, wie etwa in tiefen Becken unter Wasserfällen. Es wächst, indem es sich immer wieder häutet."
 	},
 
 	variants: [

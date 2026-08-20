@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Houndoom",
-		fr: "Hypotrempe",
+		fr: "Démolosse",
 		de: "Hundemon"
 	},
 

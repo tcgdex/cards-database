@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+		de: "Wenn es sich durch die Erde gräbt, nimmt es viele harte Gegenstände auf, die seinen Körper erhärten."
 	},
 
 	

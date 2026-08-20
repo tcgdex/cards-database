@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skrelp"
+		en: "Skrelp",
+		fr: "Venalgue"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Razor Fin"
+			en: "Razor Fin",
+			fr: "Aileron-Rasoir"
 		},
 
 		damage: 40,

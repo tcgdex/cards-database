@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+		de: "Ein nettes Kerlchen, das so talentiert darin ist, Beeren aufzuspüren, dass es sie mit all seinen Kameraden teilt."
 	},
 
 	attacks: [{

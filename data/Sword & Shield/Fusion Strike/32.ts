@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm."
+		en: "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm.",
+		de: "Es ist sehr loyal und bellt jeden Gegner furchtlos an, um seinen Trainer vor Schaden zu bewahren."
 	},
 
 	attacks: [{

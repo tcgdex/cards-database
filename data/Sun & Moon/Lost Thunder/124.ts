@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pineco",
 		fr: "Pomdepik",
+		de: "Tannza"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It remains immovably rooted to its tree. It scatters piece of its hard shell to drive its enemies away.",
+		de: "Es bleibt stets bei seinem Baum. Es verstreut Teile seiner Schale, um so seine Feinde zu verjagen."
 	},
 
 	thirdParty: {

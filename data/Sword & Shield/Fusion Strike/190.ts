@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service."
+		en: "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service.",
+		de: "Aufgrund seiner unübertroffenen Flugfertigkeiten und seiner hohen Intelligenz ist es in der Galar-Region als Flugtaxi im Einsatz."
 	},
 
 	attacks: [{

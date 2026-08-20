@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
+		de: "Es besitzt ein wundersames Fell, das niemals Feuer fängt. Dreht es einem den Rücken zu, ist Vorsicht geboten. Damit signalisiert es, dass es im Begriff ist anzugreifen."
 	},
 
 	variants: [

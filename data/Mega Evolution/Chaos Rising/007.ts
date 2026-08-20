@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilladin",
+		fr: "Boguérisse",
 		de: "Igastarnish"
 	},
 

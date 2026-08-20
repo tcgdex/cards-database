@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Evita todo el daño infligido al Pokémon al que esté unida esta carta por ataques de los Pokémon de tu rival a los que les queden 40 PS o menos.",
 		it: "Previeni tutti i danni inflitti al Pokémon a cui è assegnata questa carta dagli attacchi dei Pokémon del tuo avversario che hanno 40 PS o meno rimanenti.",
 		pt: "Previna todo o dano causado ao Pokémon ao qual esta carta está ligada por ataques dos Pokémon do seu oponente que tenham PS restante de 40 ou menos.",
-		de: "Verhindere allen Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch Attacken von Pokémon deines Gegners, die 40 oder weniger verbleibende KP haben, zugefügt wird."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere allen Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch Attacken von Pokémon deines Gegners, die 40 oder weniger verbleibende KP haben, zugefügt wird. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

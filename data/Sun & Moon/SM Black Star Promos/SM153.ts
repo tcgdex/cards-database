@@ -67,6 +67,16 @@ const card: Card = {
 	description: {
 		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364322,
+				tcgplayer: 181000
+			}
+		}
+	],
 }
 
 export default card

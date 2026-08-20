@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Blaziken ex"
+		en: "Mega Blaziken ex",
+		fr: "Méga-Braségali-ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Combusken"
+		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -25,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Burning"
+			en: "Mega Burning",
+			fr: "Méga Calcination"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard Fire{R} Energy from this Pokémon. Your opponent's Active Pokémon is now Burned."
+			en: "Discard Fire{R} Energy from this Pokémon. Your opponent's Active Pokémon is now Burned.",
+			fr: "Défaussez une Énergie {R} de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 		}
 	}],
 

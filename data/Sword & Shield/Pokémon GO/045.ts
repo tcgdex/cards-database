@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+		de: "Sein Körper besteht aus geschmolzenem Stahl. Es bringt Eisen und andere Metalle im Boden zum Schmelzen, um sie dann zu absorbieren."
 	},
 
 	

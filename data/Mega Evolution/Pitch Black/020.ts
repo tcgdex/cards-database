@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Brionne",
+		fr: "Otarlette",
 		de: "Marikeck"
 	},
 
@@ -89,6 +90,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 895808,
+				tcgplayer: 704777
+			}
+		},
+		{
+			type: "reverse",
 			thirdParty: {
 				cardmarket: 895808,
 				tcgplayer: 704777

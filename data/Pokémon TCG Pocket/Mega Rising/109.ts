@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chingling"
+		en: "Chingling",
+		fr: "Korillon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Jingly Noise"
+			en: "Jingly Noise",
+			fr: "Tintement"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
+			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main."
 		}
 	}],
 

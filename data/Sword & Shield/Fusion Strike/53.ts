@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves."
+		en: "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves.",
+		de: "Es rotiert seinen geometrischen Körper, um sich im Wasser fortzubewegen. Wie es scheint, sendet es immerzu mysteriöse Radiowellen aus."
 	},
 
 	attacks: [{

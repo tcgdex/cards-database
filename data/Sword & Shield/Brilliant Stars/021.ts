@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+		de: "Schlägt dieses Legendäre Vogel-Pokémon mit den Flügeln, so leuchten die Flammen an seinen Schwingen in einem bezaubernden Rot."
 	},
 
 	variants: [

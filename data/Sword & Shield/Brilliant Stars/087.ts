@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
+		de: "Sie jagen ihre Beute in Gruppen. Im Team erledigen sie selbst große Ziele wie Mamutel mit Leichtigkeit."
 	},
 
 	variants: [

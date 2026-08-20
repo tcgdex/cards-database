@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Suffers perpetual headaches. If the agony grows too great, Psyduck's latent power erupts, contrary to Psyduck's intent. Ergo, I am exploring ways to ease the pain.",
+		de: "Es leidet permanent unter Kopfschmerzen. Bei starken Anfällen werden seine verborgenen Kräfte gegen seinen Willen entfesselt. Ich suche daher nach Wegen, diese Beschwerden zu lindern."
 	},
 
 	variants: [

@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
+		en: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest.",
+		de: "Sie werden rasend schnell größer. Wenn sie aus Schädelwindeln herauswachsen, werden diese von jüngeren Nestgefährten getragen."
 	},
 
 	attacks: [{

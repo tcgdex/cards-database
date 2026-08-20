@@ -81,7 +81,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds."
+		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds.",
+		de: "Es lebt in den einsamen Tiefen der Wälder. Man sagt, wenn es seine großen Fächer schwingt, jagen eisige Windböen über das Land."
 	},
 
 	dexId: [275],

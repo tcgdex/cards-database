@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ponyta"
+		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Combustion"
+			en: "Combustion",
+			fr: "Fournaise"
 		},
 
 		damage: 40,

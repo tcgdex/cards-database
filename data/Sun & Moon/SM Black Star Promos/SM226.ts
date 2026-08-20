@@ -76,6 +76,16 @@ const card: Card = {
 	description: {
 		en: "This Pokémon was created by Mewtwo to prove that copies can be even more powerful than their originals.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368851,
+				tcgplayer: 205171
+			}
+		}
+	],
 }
 
 export default card

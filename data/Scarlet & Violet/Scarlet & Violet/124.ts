@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+		de: "Offenbar ist dies die Kreatur Schwingenkönig, von der es in einem alten Expeditionsbericht hieß, sie habe die Erde mit bloßen Fäusten gespalten."
 	},
 
 	thirdParty: {

@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, search your deck for a Pokémon LV.X that levels up from 1 of your Pokémon, and put it onto that Pokémon. (This counts as leveling up that Pokémon.) Shuffle your deck afterward.",
 		fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck un Pokémon NIV.X qui change de niveau à partir d'1 de vos Pokémon et placez-le sur ce Pokémon. (Vous le faites ainsi passer au niveau supérieur.) Ensuite, mélangez votre deck.",
-		de: "Flip a coin. If heads, search your deck for a Pokémon LV.X that levels up from 1 of your Pokémon, and put it onto that Pokémon. (This counts as leveling up that Pokémon.) Shuffle your deck afterward."
+		de: "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach einer Pokémon LV.X-Karte, die auf 1 deiner Pokémon gelegt werden kann, und lege sie auf dieses Pokémon. (Dies zählt als Level-Up dieses Pokémon.) Mische dein Deck danach."
 	},
 
 	trainerType: "Item",

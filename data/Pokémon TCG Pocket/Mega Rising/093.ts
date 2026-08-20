@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galvantula"
+		en: "Galvantula",
+		fr: "Mygavolt"
 	},
 
 	illustrator: "Yumi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Joltik"
+		en: "Joltik",
+		fr: "Statitik"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Electro Ball"
+			en: "Electro Ball",
+			fr: "Boule Élek"
 		},
 
 		damage: 50,

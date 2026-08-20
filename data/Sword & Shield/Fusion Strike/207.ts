@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 
 	description: {
-		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
+		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
+		de: "Erblickt es einen Menschen, bohrt es mit seinem Schweif ein Loch und ergreift sofort die Flucht. Man braucht viel Glück, um ihm zu begegnen."
 	},
 
 	abilities: [{

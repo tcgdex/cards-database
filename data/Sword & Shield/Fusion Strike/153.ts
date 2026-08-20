@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+		de: "Um sein Können zu testen, kommt es an Land und begibt sich auf die Suche nach Gegnern. Sind die Kämpfe vorbei, kehrt es ins Meer zurück."
 	},
 
 	attacks: [{

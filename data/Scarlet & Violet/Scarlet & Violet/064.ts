@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
+		de: "Mehrere miteinander verbundene Magnetilo bilden dieses Pokémon. Es heißt, es erscheine in Massen, wenn vermehrt Sonnenflecken auftreten."
 	},
 
 	thirdParty: {

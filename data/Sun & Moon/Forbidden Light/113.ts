@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 1 carta de tu mano. Si lo haces, busca en tu baraja 1 Pokémon Psychic o Dragon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Scarta una delle carte che hai in mano. Se lo fai, cerca nel tuo mazzo un Pokémon Psychic o Dragon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Descarte 1 carta da sua mão. Se fizer isto, procure por 1 Pokémon Psychic ou Pokémon Dragon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach 1 Psychic- oder Dragon-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach 1 {P}- oder {N}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

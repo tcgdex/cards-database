@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
+		de: "Mit dem Hinterleib füllt es eine Wasserblase auf und hüllt seinen Kopf darin ein. Trifft es andere Araqua, vergleichen sie ihre Wasserblasengröße."
 	},
 
 	variants: [

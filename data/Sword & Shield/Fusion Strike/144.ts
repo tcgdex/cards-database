@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Sumiyoshi Kizuki",
 
 	description: {
-		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+		de: "Es wurde in antiken Ruinen entdeckt. Wenn es sich bewegt, dreht es sich. Auch im Schlaf steht es auf einem Bein."
 	},
 
 	attacks: [{

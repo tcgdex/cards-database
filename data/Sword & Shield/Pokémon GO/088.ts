@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cada jugador enseña las 3 primeras cartas de su baraja y pone todos los Pokémon que encuentre entre ellas en su mano. Después, cada jugador pone el resto de las cartas de nuevo en su baraja y las baraja todas.",
 		it: "Ciascun giocatore mostra le prime tre carte del proprio mazzo e aggiunge i Pokémon presenti tra esse alle carte che ha in mano. Poi ciascun giocatore rimischia le altre carte nel proprio mazzo.",
 		pt: "Cada jogador revela as 3 cartas de cima do próprio baralho e coloca todos os Pokémon que encontrar lá na própria mão. Em seguida, cada jogador embaralha as demais cartas de volta no próprio baralho.",
-		de: "Jeder Spieler zeigt die obersten 3 Karten seines Decks und nimmt alle Pokémon, die er dort findet, auf seine Hand. Anschließend mischt jeder Spieler die anderen Karten zurück in sein Deck."
+		de: "Jeder Spieler zeigt die obersten 3 Karten seines Decks und nimmt alle Pokémon, die er dort findet, auf seine Hand. Anschließend mischt jeder Spieler die anderen Karten zurück in sein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

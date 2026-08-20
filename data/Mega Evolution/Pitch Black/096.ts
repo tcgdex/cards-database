@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Fomantis",
+		fr: "Mimantis",
 		de: "Imantis"
 	},
 

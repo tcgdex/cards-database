@@ -69,7 +69,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down."
+		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down.",
+		de: "Im Kampf beißen die drei Köpfe abwechselnd zu und lassen nicht ab, bis ihr Opfer am Boden liegt."
 	},
 
 	regulationMark: "E",

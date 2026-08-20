@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pyroar"
+		en: "Pyroar",
+		fr: "Némélios"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litleo"
+		en: "Litleo",
+		fr: "Hélionceau"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Blast"
+			en: "Fire Blast",
+			fr: "Déflagration"
 		},
 
 		damage: 130,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon."
+			en: "Discard 2 {R} Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies {R} de ce Pokémon."
 		}
 	}],
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Murkrow"
+		en: "Murkrow",
+		fr: "Cornèbre"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Glide"
+			en: "Glide",
+			fr: "Glissement"
 		},
 
 		damage: 20,

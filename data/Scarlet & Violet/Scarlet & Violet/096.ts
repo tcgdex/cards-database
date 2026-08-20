@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
+		de: "Früher wurden Clavion von Adelsfamilien als Wächter für Tresorschlüssel geschätzt und über Generationen hinweg weitergegeben und umhegt."
 	},
 
 	thirdParty: {

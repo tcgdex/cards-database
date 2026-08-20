@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit."
+		en: "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+		de: "Mit seinem Blatt erspürt es die Bewegungen des Gegners. Seine Schläge sind so stark, dass es sogar Kipplaster zu Schrott verarbeiten kann."
 	},
 
 	attacks: [{

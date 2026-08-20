@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
+		de: "Oft tankt es Energie durch Sonnenbäder, was dem frostigen Klima geschuldet sein mag. Auf die Schärfe der Flügelklingen an seinen beiden Schwingen hat dies indes keinerlei Einfluss."
 	},
 
 	variants: [

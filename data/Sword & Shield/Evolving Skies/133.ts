@@ -64,7 +64,8 @@ const card: Card = {
 	dexId: [506],
 
 	description: {
-		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
+		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise.",
+		de: "Dieses pfiffige Pokémon ist besonders bei Anfängern beliebt, da es den Befehlen seines Trainers brav folgt und leicht zu trainieren ist."
 	},
 
 	regulationMark: "E",

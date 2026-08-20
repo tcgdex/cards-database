@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mueve hasta 2 contadores de daño de 1 de tus Pokémon a tus otros Pokémon de la manera que desees.",
 		it: "Sposta fino a due segnalini danno da uno dei tuoi Pokémon ai tuoi altri Pokémon nel modo che preferisci.",
 		pt: "Mova até 2 contadores de dano de 1 dos seus Pokémon para outros Pokémon seus como desejar.",
-		de: "Verschiebe bis zu 2 Schadensmarken von 1 deiner Pokémon beliebig auf deine anderen Pokémon."
+		de: "Verschiebe bis zu 2 Schadensmarken von 1 deiner Pokémon beliebig auf deine anderen Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

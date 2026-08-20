@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+		de: "Der Bau, den es sich in der Wüste errichtet, ist trichterförmig. Fällt man einmal hinein, gibt es kein Entkommen."
 	},
 
 	variants: [

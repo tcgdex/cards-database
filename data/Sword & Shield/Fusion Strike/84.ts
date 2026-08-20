@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
+		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow.",
+		de: "Es frisst den Schnee, der sich am Boden angesammelt hat. Je mehr es frisst, desto größer werden die Stacheln auf seinem Rücken."
 	},
 
 	attacks: [{

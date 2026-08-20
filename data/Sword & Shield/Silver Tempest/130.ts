@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
+		de: "Dragonir lebt in klaren Meeren und Seen. Mit seiner Gabe, das Wetter zu beeinflussen, schwingt es sich auf dem Wind in den Himmel."
 	},
 
 	variants: [

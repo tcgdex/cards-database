@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+		de: "Seine Beute ergreift es mit einem Seidenfaden. Bei Anbruch der Nacht verlässt es sein Netz und macht sich auf die Jagd."
 	},
 
 	variants: [

@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods.",
+		de: "Es heißt, dass es jene Menschen, die sein Revier zu enthüllen drohen, mit Illusionen täuscht und dazu bringt, unentwegt durch den Wald zu irren."
 	},
 
 	attacks: [{

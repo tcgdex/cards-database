@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Watchog"
+		en: "Watchog",
+		fr: "Miradar"
 	},
 
 	illustrator: "MAHOU",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Patrat"
+		en: "Patrat",
+		fr: "Ratentif"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Biting Fang"
+			en: "Biting Fang",
+			fr: "Croc Mordant"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage."
+			en: "Flip a coin. If heads, this attack does 40 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts de plus."
 		}
 	}],
 

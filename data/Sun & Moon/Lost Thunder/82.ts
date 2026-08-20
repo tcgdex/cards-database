@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron",
+		de: "Elezeba"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		de: "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann man Donnerhall vernehmen."
 	},
 
 	thirdParty: {

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano, y tú robas 1 carta por cada carta de Entrenador que encuentres entre ellas.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu peschi una carta per ogni carta Allenatore presente tra quelle carte.",
 		pt: "Seu oponente revela a própria mão e você compra 1 carta para cada carta de Treinador que encontrar lá.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jede Trainerkarte, die du dort findest."
+		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jede Trainerkarte, die du dort findest. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

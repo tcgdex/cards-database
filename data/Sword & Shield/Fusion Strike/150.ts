@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks."
+		en: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks.",
+		de: "Strampelt es zum Schutz mit den Vorderbeinen, sieht das zwar niedlich aus, aber ein Treffer mit ihnen ist stark genug, um große Bäume zu fällen."
 	},
 
 	attacks: [{

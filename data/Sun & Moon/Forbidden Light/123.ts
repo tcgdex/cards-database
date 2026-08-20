@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía Fighting de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon due carte Energia Fighting dalla tua pila degli scarti.",
 				pt: "Ligue 2 cartas de Energia Fighting da sua pilha de descarte a este Pokémon.",
-				de: "Lege 2 Fighting-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 2 {F}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 50,
 
@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Veredicto GX",
 				it: "Verdetto-GX",
 				pt: "Veredito GX",
-				de: "Urteilsspruch GX"
+				de: "Urteilsspruch-GX"
 			},
 			effect: {
 				en: "Prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
+		de: "Die großen, scharfen Sicheln an seinen Armen sind wahrlich furchteinflößende Waffen. Diese setzt es mit enormer Agilität ein und vereitelt so jegliche Fluchtversuche seiner Beute."
 	},
 
 	variants: [

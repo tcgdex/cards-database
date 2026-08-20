@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 
 	description: {
-		en: "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep."
+		en: "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep.",
+		de: "Mit seinen Krallen kann es gut Bäume erklimmen. Häufig macht es die Baumkrone dann gleich zu seinem Schlafplatz."
 	},
 
 	attacks: [{

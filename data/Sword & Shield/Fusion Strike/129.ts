@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy."
+		en: "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy.",
+		de: "Hat es kein Grolldra auf seinem Kopf, auf das es aufpassen kann, wird es nervös. Dann versucht es, ein anderes Pokémon auf seinen Kopf zu setzen."
 	},
 
 	attacks: [{

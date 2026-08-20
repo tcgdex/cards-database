@@ -79,7 +79,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings."
+		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings.",
+		de: "Als Ergebnis seines lang gehegten Wunsches haben seine Zellen eine plötzliche Mutation vollzogen und ihm sind Flügel gewachsen."
 	},
 
 	regulationMark: "E",

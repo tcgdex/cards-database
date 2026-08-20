@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swirlix"
+		en: "Swirlix",
+		fr: "Sucroquin"
 	},
 
 	illustrator: "Kurata So",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Cotton Guard"
+			en: "Cotton Guard",
+			fr: "Cotogarde"
 		},
 
 		damage: 10,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

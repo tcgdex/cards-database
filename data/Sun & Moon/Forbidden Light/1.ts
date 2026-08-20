@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Six of them together form a full-fledged Pokémon. It's often hunted by Crabrawler, but uses psychokinesis to drive it off.",
+		de: "Es besteht aus sechs Eiern. Krabbox versucht oft, es sich einzuverleiben, doch wehrt es sich tapfer mit seinen Psycho-Kräften."
 	},
 
 	variants: [

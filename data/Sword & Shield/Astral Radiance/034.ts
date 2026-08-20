@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
+		de: "Dieses friedliche Pokémon schwimmt anmutig durchs Meer. Wenn es beschleunigt, kann es auch kurz über den Wellen gleiten, wodurch es oft für ein Vogel-Pokémon gehalten wird."
 	},
 
 	variants: [

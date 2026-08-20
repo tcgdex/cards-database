@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+		de: "Es umarmt verletzte und geschwächte Pokémon liebevoll mit seinen Flossen und heilt sie mithilfe seiner speziellen Schleimschicht."
 	},
 
 	thirdParty: {

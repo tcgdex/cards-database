@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mira las 7 primeras cartas de tu baraja. Puedes enseñar 1 carta de Energía que encuentres entre ellas y ponerla en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Guarda le prime sette carte del tuo mazzo. Puoi mostrare una carta Energia presente tra esse e aggiungerla alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe as 7 cartas de cima do seu baralho. Você poderá revelar 1 carta de Energia que encontrar lá e colocá-la na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
-		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Energiekarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Energiekarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

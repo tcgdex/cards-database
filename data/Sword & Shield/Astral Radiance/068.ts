@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
+		de: "Es kann im Nu viele Diamanten erzeugen, indem es luftgebundene Kohlenstoffpartikel mit seinen Händen komprimiert."
 	},
 
 	variants: [

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "NC Empire",
 
 	description: {
-		en: "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
+		en: "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+		de: "Seine aus Wind und Donner gewonnene Energie sorgt für reiche Ernten, da sie den Boden mit Nährstoffen anreichert."
 	},
 
 	attacks: [{

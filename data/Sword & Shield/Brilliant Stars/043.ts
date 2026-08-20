@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel.",
+		de: "Die Reißzähne, die es aus gefrorenem Atem erzeugt hat, sind härter als Stahl. Es schwimmt auf der Suche nach Futter durch die Eismeere."
 	},
 
 	variants: [

@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cottony wings are full of air, making them light and fluffy to the touch. Swablu takes diligent care of its wings.",
+		de: "Seine watteartigen Flügel enthalten Luft und fühlen sich daher schön flauschig an. Wablu lässt keine Gelegenheit aus, sie zu pflegen."
 	},
 
 	variants: [

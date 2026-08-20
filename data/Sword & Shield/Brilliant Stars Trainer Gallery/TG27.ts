@@ -23,7 +23,7 @@ const card: Card = {
 		es: "$$$CARD.RULES.MISSING.TOKEN$$$",
 		it: "$$$CARD.RULES.MISSING.TOKEN$$$",
 		pt: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		de: "$$$CARD.RULES.MISSING.TOKEN$$$"
+		de: "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist. Lege 1 Fließender-Angriff-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, ziehe 5 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

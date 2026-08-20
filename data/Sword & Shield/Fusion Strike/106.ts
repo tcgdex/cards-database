@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "kodama",
 
 	description: {
-		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+		de: "Es ändert sein Toxin auf chemischer Ebene, um Strom zu erzeugen. Dieser ist zwar schwach, kann aber einen lähmenden Schlag verursachen."
 	},
 
 	attacks: [{

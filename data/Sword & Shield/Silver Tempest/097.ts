@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon.",
+		de: "Terrakium verfügt über unvergleichliche Kräfte. Wer kleinere Pokémon bedroht oder schlecht behandelt, wird von ihm zur Strecke gebracht."
 	},
 
 	variants: [

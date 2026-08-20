@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
+		de: "Sein Körper reagiert unerklärlicherweise auf Elektrizität. Die Anwesenheit von Schnuthelm löst bei ihm die Entwicklung aus."
 	},
 
 	variants: [
