@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
-		fr: "Tentacool"
+		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Strange Tentacles",
 				fr: "Tentacules étranges",
-				de: "Strange Tentacles"
+				de: "Seltsame Tentakel"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), as long as the number of Energy cards attached to the Defending Pokémon is less than the number of Energy cards attached to your Active Pokémon, you may choose an Energy card, if any, in your opponent's discard pile and attach it to the Defending Pokémon. This power can't be used if Tentacruel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), tant que le nombre de cartes Énergie attachées au Pokémon Défenseur est inférieur au nombre de cartes Énergie attachées à votre Pokémon Actif, vous pouvez choisir une carte Énergie dans la pile de défausse de votre adversaire, s'il en a, et l'attacher au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tentacruel est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), as long as the number of Energy cards attached to the Defending Pokémon is less than the number of Energy cards attached to your Active Pokémon, you may choose an Energy card, if any, in your opponent's discard pile and attach it to the Defending Pokémon. This power can't be used if Tentacruel is affected by a Special Condition."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, solange die Anzahl der an das Verteidigende Pokémon angelegten Energiekarten kleiner als die Anzahl der an dein Aktives Pokémon angelegten Energiekarten ist, eine Energiekarte aus dem Ablagestapel deines Gegners wählen, falls er dort welche hat, und sie an das Verteidigende Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Tentoxa von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -54,13 +55,13 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Gaz toxik",
-				de: "Poison Sting"
+				de: "Giftstachel"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20

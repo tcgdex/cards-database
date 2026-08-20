@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the amount of Energy attached to Onix. This attack does 20 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Onix. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so viele Münzen, wie Energie an Onix angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf so viele Münzen, wie Energie an Onix angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 

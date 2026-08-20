@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bellsprout",
-		fr: "Chétiflor"
+		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
-				de: "Growth"
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
 				fr: "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor.",
-				de: "Attach up to 2  Energy cards from your hand to Weepinbell."
+				de: "Lege bis zu zwei {G}-Energiekarten aus deiner Hand an Ultrigaria an."
 			},
 
 		},
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Double Razor Leaf",
 				fr: "Double tranch'herb",
-				de: "Double Razor Leaf"
+				de: "Doppelrasierblatt"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 

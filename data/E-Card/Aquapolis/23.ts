@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as there is a Grass Energy attached to Muk, you must pay an additional ColorlessColorless to retreat it.",
 				fr: "Tant qu'il y a une Énergie  attachée à Grotadmorv, vous devez payer  supplémentaire pour le faire battre en retraite.",
-				de: "Solange mindestens eine -Energie an Sleimok angelegt ist, musst du zusätzlich   bezahlen, um es zurückzuziehen."
+				de: "Solange mindestens eine {G}-Energie an Sleimok angelegt ist, musst du zusätzlich {C}{C} bezahlen, um es zurückzuziehen."
 			}
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the amount of Grass Energy attached to Muk. If any of them are heads, the Defending Pokémon is now Poisoned and Burned.",
 				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Grotadmorv. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Empoisonné et Brûlé.",
-				de: "Wirf so viele Münzen, wie -Energie an Sleimok angelegt ist. Falls mindestens eine von ihnen \"Kopf\" zeigt, ist das Verteidigende Pokémon jetzt vergiftet und verbrannt."
+				de: "Wirf so viele Münzen, wie {G}-Energie an Sleimok angelegt ist. Falls mindestens eine von ihnen „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt vergiftet und verbrannt."
 			},
 
 			damage: 10

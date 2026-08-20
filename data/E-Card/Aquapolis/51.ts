@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Ember"
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Growlithe.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Caninos.",
-				de: "Discard a  Energy card attached to Growlithe."
+				de: "Lege 1 an Fukano angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
