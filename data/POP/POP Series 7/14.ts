@@ -4,7 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Mareep",
-		fr: "Mareep",
+		fr: "Wattouat",
 		de: "Voltilamm"
 	},
 
