@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients.",
+		de: "Es saugt Nährstoffe, die in seinem Bällchen enthalten sind, und nutzt die Energie für seine Entwicklung."
 	},
 
 	thirdParty: {

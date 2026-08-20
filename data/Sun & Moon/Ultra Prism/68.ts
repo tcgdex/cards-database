@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+		de: "Es bedeckt sich mit Sand, um sich vor Keimen zu schützen. Es mag es gar nicht, wenn es nass wird."
 	},
 
 	thirdParty: {

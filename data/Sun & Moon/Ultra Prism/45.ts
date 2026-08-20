@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
 	},
 
 	thirdParty: {

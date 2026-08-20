@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Si alguno de tus Pokémon Fighting quedó Fuera de Combate por el daño de un ataque de tu rival durante su último turno, este ataque hace 70 puntos de daño más.",
 				it: "Se uno qualsiasi dei tuoi Pokémon Fighting è stato messo KO dai danni inflitti da un attacco del tuo avversario durante il suo ultimo turno, questo attacco infligge 70 danni in più.",
 				pt: "Se algum dos seus Pokémon Fighting tiver sido Nocauteado pelo dano de um ataque do seu oponente durante a última vez dele(a) jogar, este ataque causará 70 pontos de dano a mais.",
-				de: "Wenn mindestens 1 deiner Fighting-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 70 Schadenspunkte mehr zu."
+				de: "Wenn mindestens 1 deiner {F}-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
+		de: "Die Gelenke an seinen Klauen geben ein so starkes Gift ab, dass selbst ein kleiner Kratzer fatal ist."
 	},
 
 	thirdParty: {

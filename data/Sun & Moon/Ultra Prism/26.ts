@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
+		de: "Molunk"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
+		de: "Ihr Giftgas enthält viele Pheromone. Verdünnt man es, lässt sich daraus ein sinnliches Parfüm herstellen."
 	},
 
 	thirdParty: {

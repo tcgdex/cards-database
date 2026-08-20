@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cherubi",
 		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Tus Pokémon Grass no tienen Debilidad.",
 				it: "I tuoi Pokémon Grass non hanno debolezza.",
 				pt: "Seus Pokémon Grass não têm Fraqueza.",
-				de: "Deine Grass-Pokémon haben keine Schwäche."
+				de: "Deine {G}-Pokémon haben keine Schwäche."
 			},
 		},
 	],
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
+		de: "Spürt es Sonnenlicht, öffnet es seine Blütenblätter und nimmt die Energie der Sonnenstrahlen auf."
 	},
 
 	thirdParty: {

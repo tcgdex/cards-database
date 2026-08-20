@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Coste de Retirada del Pokémon al que esté unida esta carta es de Colorless menos, y puede retirarse incluso si está Dormido o Paralizado.",
 		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di Colorless e il Pokémon può ritirarsi anche se è addormentato o paralizzato.",
 		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é Colorless a menos e ele poderá recuar mesmo que esteja Adormecido ou Paralisado.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um Colorless und es kann sich zurückziehen, auch wenn es schläft oder paralysiert ist."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C} und es kann sich zurückziehen, auch wenn es schläft oder paralysiert ist. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
+		de: "Hält man eine seiner Federn, träumt man süß. Manche glauben, es sei die Verkörperung der Mondsichel."
 	},
 
 	thirdParty: {

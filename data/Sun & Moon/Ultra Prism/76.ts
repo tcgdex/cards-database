@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stunky",
 		fr: "Moufouette",
+		de: "Skunkapuh"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
+		de: "Es spritzt eine stinkende Substanz aus seinem Schweif. Hat sie lange gegärt, stinkt sie stärker."
 	},
 
 	thirdParty: {

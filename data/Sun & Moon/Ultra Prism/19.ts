@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "From its arm, it launches fireballs hotter than 3,500 degrees Fahrenheit. Its arm starts to melt when it fires a whole barrage.",
+		de: "Aus den Enden seiner Arme feuert es 2 000 °C heiße Feuerbälle ab. Dadurch verkohlen sie nach mehrmaligem Einsatz leicht."
 	},
 
 	thirdParty: {
