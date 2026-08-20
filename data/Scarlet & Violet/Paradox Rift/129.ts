@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
+		de: "Ihre mächtigen Kiefer können Felsen zerbeißen. Sie rotten sich zu Gruppen zusammen, um ihre Eier vor Sanaconda zu beschützen."
 	},
 
 	variants: [

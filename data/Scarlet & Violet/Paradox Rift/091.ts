@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
+		de: "Es fliegt direkt auf das Gesicht seiner Feinde zu und injiziert ihnen eine Überdosis Gift."
 	},
 
 	variants: [

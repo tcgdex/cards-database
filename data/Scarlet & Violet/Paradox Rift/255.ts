@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 4 cartas. Si sales en segundo lugar y es tu primer turno, roba 8 cartas en vez de 4.",
 		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca quattro carte. Se inizi per secondo ed è il tuo primo turno, invece pescane otto.",
 		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 4 cartas. Se você for o segundo a jogar e este for o seu primeiro turno, compre 8 cartas ao invés de 4.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ziehe stattdessen 8 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ziehe stattdessen 8 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+		de: "Im Inneren seines Panzers wächst es. Während es sich auf die Entwicklung vorbereitet, prüft es mit seinen Psycho-Kräften, was im Freien geschieht."
 	},
 
 	variants: [

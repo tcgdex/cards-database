@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "When Whismur cries, the sound of its own voice startles it, making the Pokémon cry even louder. It cries until it's exhausted, then it falls asleep.",
+		de: "Stößt Flurmel einen Schrei aus, so erschrickt es vor seiner eigenen Stimme und brüllt noch lauter, bis es erschöpft ist und sich schlafen legen muss."
 	},
 
 	variants: [

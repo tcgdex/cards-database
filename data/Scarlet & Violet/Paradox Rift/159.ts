@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon del pasado al que esté unida esta carta obtiene 60 PS más, se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
 		it: "Il Pokémon Tempo Passato a cui è assegnata questa carta ha 60 PS in più, guarisce da tutte le condizioni speciali e non può esserne influenzato.",
 		pt: "O Pokémon Ancestral ao qual esta carta está ligada recebe 60 PS a mais, recupera-se de todas as Condições Especiais e não pode ser afetado por quaisquer Condições Especiais.",
-		de: "Das Pokémon aus der Vergangenheit, an das diese Karte angelegt ist, erhält +60 KP, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden."
+		de: "Das Pokémon aus der Vergangenheit, an das diese Karte angelegt ist, erhält +60 KP, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

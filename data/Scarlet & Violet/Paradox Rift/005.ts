@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
 	variants: [

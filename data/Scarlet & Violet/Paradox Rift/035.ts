@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+		de: "Ein schäbiges, ja sogar hässliches Pokémon. Dafür ist es abgehärtet und überlebt auch mit wenig Wasser."
 	},
 
 	variants: [

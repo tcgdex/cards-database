@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+		de: "Dieses Pokémon schleicht sich völlig geräuschlos von hinten an seine Beute heran. Es bestreitet Revierkämpfe mit Gaunux."
 	},
 
 	variants: [

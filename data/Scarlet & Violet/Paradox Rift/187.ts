@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "No records exist of this species being caught. Data is lacking, but the Pokémon's traits match up with an object described in an old book.",
+		de: "Da es noch nie gefangen wurde, ist die Datenlage dürftig. Seine Merkmale decken sich mit einem Objekt, das in einer alten Schrift erwähnt wurde."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
+		de: "Seine mit atemberaubender Geschwindigkeit ausgeführten Tritte können selbst riesige Felsen in winzige Stücke zerschmettern."
 	},
 
 	variants: [

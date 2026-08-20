@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
+		de: "Es verbringt seinen Alltag damit, durchs Ödland zu rennen. Wenn jemand seine geliebten Beeren stiehlt, setzt es dem Täter nach und nimmt Rache."
 	},
 
 	variants: [

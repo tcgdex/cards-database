@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
+		de: "Es spinnt Fallen aus elektrischen Fäden nahe den Nestern von Vogel-Pokémon, um vor allem jene Jungen zu fangen, die nicht gut fliegen können."
 	},
 
 	variants: [

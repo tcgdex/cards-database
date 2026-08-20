@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
+		de: "Die Fühler haben ein unverkennbares Muster, das Augen ähnelt. Bei Regen werden sie schwer und es kann nicht fliegen."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
+		de: "In den letzten Jahren nahm es im Cyberspace bei der Suche nach verdächtigen Daten eine aktive Rolle ein."
 	},
 
 	variants: [
