@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "Draw 3 cards.",
 		fr: "Piochez 3 cartes.",
-		de: "Ziehe 3 Karten.",
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
 		es: "Roba 3 cartas.",
