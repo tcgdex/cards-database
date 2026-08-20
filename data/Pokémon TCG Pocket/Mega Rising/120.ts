@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klefki"
+		en: "Klefki",
+		fr: "Trousselin"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -26,17 +27,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dismantling Keys"
+			en: "Dismantling Keys",
+			fr: "Clés Séparatrices"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is on your Bench, you may discard all Pokémon Tools from your opponent's Active Pokémon. If you do, discard this Pokémon."
+			en: "Once during your turn, if this Pokémon is on your Bench, you may discard all Pokémon Tools from your opponent's Active Pokémon. If you do, discard this Pokémon.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez défausser tous les Outils Pokémon du Pokémon Actif de votre adversaire. Dans ce cas, défaussez ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hook"
+			en: "Hook",
+			fr: "Crochet"
 		},
 
 		damage: 20,

@@ -4,7 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Finneon",
-		fr: "Ecayon",
+		fr: "Écayon",
 		de: "Finneon"
 	},
 

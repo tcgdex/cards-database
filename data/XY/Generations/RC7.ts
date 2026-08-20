@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	illustrator: "MAHOU",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 10,
@@ -50,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "What a delicious-looking snowman! I think I'll sneak a bite. It's OK…no one's looking, right?",
+		de: "Was für ein köstlich aussehender Schneemann! Einfach zum reinbeißen. Es sieht ja keiner zu, oder?"
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Amaura",
 		fr: "Amagara",
+		de: "Amarino"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
+		de: "Es nutzt seine diamantförmigen Kristalle, um im Nu eine Wand aus Eis zur Abwehr gegnerischer Angriffe zu erschaffen."
 	},
 
 	thirdParty: {

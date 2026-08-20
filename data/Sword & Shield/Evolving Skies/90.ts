@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
 			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di Colorless e il suo costo di ritirata aumenta di Colorless.",
 			pt: "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
-			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um Colorless, und seine Rückzugskosten erhöhen sich um Colorless."
+			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um {C}, und seine Rückzugskosten erhöhen sich um {C}."
 		},
 
 		damage: 60,
@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages."
+		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages.",
+		de: "Es erfreut sich großer Beliebtheit bei Senioren, seit bekannt wurde, dass sich seine vibrierenden Beulen zur Massagetherapie einsetzen lassen."
 	},
 
 	dexId: [537],

@@ -94,6 +94,16 @@ const card: Card = {
 	description: {
 		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299575,
+				tcgplayer: 139090
+			}
+		}
+	],
 }
 
 export default card

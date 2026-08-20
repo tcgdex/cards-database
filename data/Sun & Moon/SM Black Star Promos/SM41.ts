@@ -88,6 +88,16 @@ const card: Card = {
 	description: {
 		en: "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299577,
+				tcgplayer: 139101
+			}
+		}
+	],
 }
 
 export default card

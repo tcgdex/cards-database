@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miltank"
+		en: "Miltank",
+		fr: "Écrémeuh"
 	},
 
 	illustrator: "saino misaki",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Body Slam"
+			en: "Body Slam",
+			fr: "Plaquage"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

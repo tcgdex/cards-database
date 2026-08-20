@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A professional swimmer, it can continue swimming for two days straight by waving its long tail skillfully."
+		en: "A professional swimmer, it can continue swimming for two days straight by waving its long tail skillfully.",
+		de: "Ein exzellenter Schwimmer. Wenn es seinen langen, beweglichen Schwanz geschickt einsetzt, kann es zwei Tage durchschwimmen."
 	},
 
 	dexId: [55],

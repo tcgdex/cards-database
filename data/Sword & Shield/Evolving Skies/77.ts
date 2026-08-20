@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Enseña las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada Pokémon Psychic que encuentres entre ellas. Después, pon esos Pokémon de nuevo en tu baraja, baraja todas las cartas y descarta el resto de las cartas que enseñaste.",
 			it: "Mostra le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni Pokémon Psychic presente tra esse. Poi rimischia quei Pokémon nel tuo mazzo e scarta le altre carte.",
 			pt: "Reveal the top 6 cards of your deck. This attack does 60 damage for each Psychic Pokémon you find there. Then, shuffle those Pokémon back into your deck and discard the other cards.",
-			de: "Zeige deinem Gegner die obersten 6 Karten deines Decks. Diese Attacke fügt für jedes Psychic-Pokémon, das du dort findest, 60 Schadenspunkte zu. Mische anschließend jene Pokémon zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
+			de: "Zeige deinem Gegner die obersten 6 Karten deines Decks. Diese Attacke fügt für jedes {P}-Pokémon, das du dort findest, 60 Schadenspunkte zu. Mische anschließend jene Pokémon zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
 		},
 
 		damage: "60×",
@@ -66,7 +66,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife."
+		en: "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife.",
+		de: "In Neumondnächten klopft Pumpdjinn an die Eingangstüren der Häuser. Wer sie ihm öffnet, wird von ihm ins Jenseits entführt."
 	},
 
 	dexId: [711],

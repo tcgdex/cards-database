@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+		de: "Es ist durch die Ultrapforte erschienen. Seine Überfälle auf Kraftwerke lassen vermuten, dass es seine Lebensenergie aus Strom bezieht."
 	},
 
 	thirdParty: {

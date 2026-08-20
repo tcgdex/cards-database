@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Strafe",
 				fr: "Bombarder",
-				de: "Strafe"
+				de: "Beharken"
 			},
 			effect: {
 				en: "You may switch Giratina with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Giratina avec 1 de vos Pokémon de Banc.",
-				de: "You may switch Giratina with 1 of your Benched Pokémon."
+				de: "Du kannst Giratina gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 20,
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Broken-space Blow",
 				fr: "Coup espace-brisé",
-				de: "Broken-space Blow"
+				de: "Raumzerfetzschlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to in the Lost Zone instead of the discard pile.",
 				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de les défausser.",
-				de: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them."
+				de: "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig wird, legt dein Gegner dieses Pokémon und alle Karten, die an es angelegt sind, nicht auf den Ablagestapel, sondern ins Nirgendwo."
 			},
 			damage: 50,
 
@@ -80,7 +80,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
+		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+		de: "Ein PKMN, von dem man sagt, es lebt in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen."
 	},
 
 	variants: [

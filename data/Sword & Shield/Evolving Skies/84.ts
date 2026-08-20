@@ -55,7 +55,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand."
+		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand.",
+		de: "Es ist hauptsächlich tagsüber aktiv. Die Nächte in der Wüste sind kalt, deswegen vergräbt es sich zum Schlafen tief im Sand."
 	},
 
 	dexId: [449],

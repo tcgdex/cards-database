@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Jab",
 				fr: "Taquet",
-				de: "Jab"
+				de: "Boxschlag"
 			},
 
 			damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 			name: {
 				en: "Special Punch",
 				fr: "Punch spécial",
-				de: "Special Punch"
+				de: "Spezialschlag"
 			},
 
 			damage: 40,
@@ -64,7 +64,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train."
+		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
+		de: "Der Geist eines Profi-Boxers hat dieses POKéMON inspiriert. Seine Faustschläge sind schneller als ein Hochgeschwindigkeitszug."
 	},
 
 	variants: [

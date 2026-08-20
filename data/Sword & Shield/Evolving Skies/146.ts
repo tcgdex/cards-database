@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si la has cogido de entre las cartas de Premio que están boca abajo, antes de ponerla en tu mano.\nBusca en tu baraja 1 Pokémon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se l'hai presa come carta Premio coperta, prima di aggiungerla alle carte che hai in mano.\nCerca nel tuo mazzo un Pokémon e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode jogar esta carta se a tiver pegado como uma das cartas de Prêmio viradas para baixo, antes de colocá-la na sua mão.\nProcure por 1 Pokémon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte genommen hast und bevor du sie auf deine Hand nimmst.\nDurchsuche dein Deck nach 1 Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte genommen hast und bevor du sie auf deine Hand nimmst. Durchsuche dein Deck nach 1 Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

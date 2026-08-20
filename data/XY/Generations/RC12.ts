@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gulpin",
 		fr: "Gloupti",
+		de: "Schluppuck"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Starvin'",
 				fr: "Affamé",
+				de: "Kohldampf"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -54,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "When Mom gets in the kitchen, the happiest things happen. I can feel my mouth watering!",
+		de: "Wenn Mutter in der Küche loslegt, passieren die leckersten Dinge. Mir läuft schon das Wasser im Mund zusammen!"
 	},
 
 	thirdParty: {

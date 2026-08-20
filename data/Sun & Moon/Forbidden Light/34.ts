@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 cartas de Energía Lightning, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Lightning, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Lightning no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Lightning-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {L}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It sends out electromagnetic waves, which let it float through the air. Touching it while it's eating electricity will give you a full-body shock.",
+		de: "Es sendet elektromagnetische Wellen aus und segelt durch die Luft. Berührt man es, während es Strom saugt, bekommt man einen Schlag."
 	},
 
 	thirdParty: {

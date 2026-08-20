@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+		de: "Es vergisst keinen Angriff, den es im Kokon erdulden musste. Nach der Entwicklung sinnt es auf Rache."
 	},
 
 	thirdParty: {

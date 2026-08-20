@@ -104,11 +104,19 @@ const card: Card = {
 				cardtrader: 255585
 			}
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 897338,
+				tcgplayer: 555695
+			}
+		},
 	],
 
 	illustrator: "kodama",
 
-	
+
 }
 
 export default card

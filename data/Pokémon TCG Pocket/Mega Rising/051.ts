@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados"
+		en: "Gyarados",
+		fr: "Léviator"
 	},
 
 	illustrator: "kawayoo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hammering Tail"
+			en: "Hammering Tail",
+			fr: "Queue-Masse"
 		},
 
 		damage: 100,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard the top card of your opponent's deck."
+			en: "Discard the top card of your opponent's deck.",
+			fr: "Défaussez la première carte du dessus du deck de votre adversaire."
 		}
 	}],
 

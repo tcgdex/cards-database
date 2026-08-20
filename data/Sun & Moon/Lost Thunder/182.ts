@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si a tu rival le quedan exactamente 3 cartas de Premio.\n\nEvita todo el daño infligido a tus Ultraentes por ataques durante el próximo turno de tu rival.",
 		it: "Puoi giocare questa carta solo se il tuo avversario ha esattamente tre carte Premio rimanenti.\n\nPrevieni tutti i danni inflitti alle tue Ultracreature da qualsiasi attacco durante il prossimo turno del tuo avversario.",
 		pt: "Você só pode jogar esta carta se seu oponente tiver exatamente 3 cartas de Prêmio restantes.\n\nPrevenirá todo o dano causado às suas Ultracriaturas por ataques durante a próxima vez de jogar do seu oponente.",
-		de: "Du kannst diese Karte nur spielen, wenn dein Gegner genau 3 verbleibende Preiskarten hat.\n\nVerhindere allen Schaden, der deinen Ultrabestien während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
+		de: "Du kannst nicht mehr als 1 ◇-Karte mit demselben Namen in deinem Deck haben. Wenn 1 ◇-Karte auf deinen Ablagestapel gelegt würde, lege sie stattdessen ins Nirgendwo. Du kannst diese Karte nur spielen, wenn dein Gegner genau 3 verbleibende Preiskarten hat. Verhindere allen Schaden, der deinen Ultrabestien während des nächsten Zuges deines Gegners durch Attacken zugefügt wird. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	thirdParty: {

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule"
 	},
 
 	illustrator: "Naoki Saito",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			en: "Flop",
+			fr: "Flop"
 		},
 
 		damage: 10,

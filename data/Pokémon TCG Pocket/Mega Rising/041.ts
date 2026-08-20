@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litwick"
+		en: "Litwick",
+		fr: "Funécire"
 	},
 
 	illustrator: "sowsow",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flare"
+			en: "Flare",
+			fr: "Flamboiement"
 		},
 
 		damage: 20,

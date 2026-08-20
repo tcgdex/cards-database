@@ -32,7 +32,7 @@ const card: Card = {
 		{
 			type: 'holo',
 			thirdParty: {
-				cardmarket: 742991,
+				cardmarket: 725268,
 				tcgplayer: 509780,
 				cardtrader: 256084
 			}
@@ -49,14 +49,14 @@ const card: Card = {
 			type: 'reverse',
 			stamp: ['regional-championships'],
 			thirdParty: {
-				cardmarket: 725268
+				cardmarket: 742991
 			}
 		},
 	],
 
 	illustrator: "kirisAki",
 
-	
+
 }
 
 export default card

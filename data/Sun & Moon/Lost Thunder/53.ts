@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si tienes algún Pokémon Fairy en juego, este Pokémon no tiene ningún Coste de Retirada.",
 				it: "Se hai dei Pokémon Fairy in gioco, questo Pokémon non ha costo di ritirata.",
 				pt: "Se você tiver algum Pokémon Fairy em jogo, este Pokémon não terá custo de Recuo.",
-				de: "Wenn du mindestens 1 Fairy-Pokémon im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+				de: "Wenn du mindestens 1 {FAIRY}-Pokémon im Spiel hast, hat dieses Pokémon keine Rückzugsktosten."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
+		de: "Wenn ihm heiß wird, erzeugt es mit seinen sechs Schweifen Kiesel aus Eis. Diese verteilt es in der Nähe, um seinen Körper abzukühlen."
 	},
 
 	thirdParty: {

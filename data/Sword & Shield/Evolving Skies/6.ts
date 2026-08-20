@@ -64,7 +64,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
+		de: "Die leckeren Früchte an seinem Hals sind sehr beliebt. In warmen Gebieten gibt es viele Farmen, auf denen Tropius gezüchtet werden."
 	},
 
 	dexId: [357],

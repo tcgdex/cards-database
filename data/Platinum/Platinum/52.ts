@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lotad",
-		fr: "Nénupiot"
+		fr: "Nénupiot",
+		de: "Loturzel"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Interrupt",
 				fr: "Interruption",
-				de: "Interrupt"
+				de: "Stören"
 			},
 			effect: {
 				en: "Flip a coin. If heads, look at your opponent's hand and choose 1 card, then have your opponent shuffle that card into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire et choisissez-y une carte. Ensuite, demandez à votre adversaire de la mélanger à son deck.",
-				de: "Flip a coin. If heads, look at your opponent's hand and choose 1 card, then have your opponent shuffle that card into his or her deck."
+				de: "Wirf 1 Münze. Bei „Kopf“ schau dir die Handkarten deines Gegners an und wähle 1 davon. Dein Gegner mischt die gewählte Karte in sein Deck."
 			},
 			damage: 20,
 
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle douce",
-				de: "Gentle Slap"
+				de: "Sanfter Hieb"
 			},
 
 			damage: 60,
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere."
+		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+		de: "Es hat ein spitzbübisches Wesen. Sieht es einen Angler, zieht es an der Angelschnur, um ihn zu ärgern."
 	},
 
 	variants: [

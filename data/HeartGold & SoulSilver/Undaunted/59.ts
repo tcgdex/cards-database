@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Murkrow",
-		fr: "Cornebre",
+		fr: "Cornèbre",
 		de: "Kramurx"
 	},
 

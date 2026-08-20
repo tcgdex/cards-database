@@ -32,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Life Leap",
 				fr: "Projection Vitale",
+				de: "Sprung ins Leben"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
+				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 			},
 			damage: 20,
 
@@ -49,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Shining Wind",
 				fr: "Vent Étincelant",
+				de: "Schimmernder Wind"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				de: "Während des nächsten Zuges deines Gegners hat dieses Pokémon keine Schwäche."
 			},
 			damage: 100,
 

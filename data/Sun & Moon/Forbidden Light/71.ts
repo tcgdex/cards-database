@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This is Zygarde's form when about 10% of its cells have been gathered. It runs across the land at speeds greater than 60 mph.",
+		de: "Diese Form besteht aus Zellen von Zygarde, die 10 % seiner maximalen Masse darstellen. An Land erreicht es bis zu 100 km/h."
 	},
 
 	thirdParty: {

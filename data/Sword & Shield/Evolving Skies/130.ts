@@ -74,7 +74,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+		de: "Würde es sich nicht bewegen, würde sein Stress unerträglich und es ginge ihm augenblicklich schlechter."
 	},
 
 	regulationMark: "E",

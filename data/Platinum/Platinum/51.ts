@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Teleportation Burst",
 				fr: "Téléportation explosive",
-				de: "Teleportation Burst"
+				de: "Blitz-Teleportation"
 			},
 			effect: {
 				en: "You may switch Kirlia with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "You may switch Kirlia with 1 of your Benched Pokémon."
+				de: "Du kannst Kirlia gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 30,
 
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy Bolt",
 				fr: "Super psy",
-				de: "Super Psy Bolt"
+				de: "Super-Psischlag"
 			},
 
 			damage: 60,
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
 	},
 
 	variants: [		{

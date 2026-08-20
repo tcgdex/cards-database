@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes descartar cualquier cantidad de cartas de tu mano. Después, roba cartas hasta que tengas 5 cartas en tu mano. Si no puedes robar ninguna carta de esta manera, no puedes jugar esta carta.",
 		it: "Puoi scartare un numero qualsiasi di carte che hai in mano. Poi pesca fino ad avere cinque carte in mano. Se non puoi pescare carte in questo modo, non puoi giocare questa carta.",
 		pt: "Você pode descartar qualquer número de cartas da sua mão. Em seguida, compre cartas até ter 5 cartas na sua mão. Se não puder comprar nenhuma carta desta forma, não poderá jogar esta carta.",
-		de: "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe anschließend so lang Karten, bis du 5 Karten auf deiner Hand hast. Wenn du auf diese Weise keine Karten ziehen kannst, kannst du diese Karte nicht spielen."
+		de: "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe anschließend so lang Karten, bis du 5 Karten auf deiner Hand hast. Wenn du auf diese Weise keine Karten ziehen kannst, kannst du diese Karte nicht spielen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

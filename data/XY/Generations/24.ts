@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vaporeon EX",
 		fr: "Aquali-EX",
+		de: "Aquana-EX"
 	},
 
 	illustrator: "Naoki Saito",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Drain",
 				fr: "Vide Bulle",
+				de: "Blasengully"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Deep Squall",
 				fr: "Rafale Profonde",
+				de: "Tiefer Sturm"
 			},
 			effect: {
 				en: "This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 130 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 130 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: "130−",
 

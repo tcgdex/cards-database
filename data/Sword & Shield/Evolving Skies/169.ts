@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
 			pt: "Your opponent's Active Pokémon is now Burned.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			de: "Das Aktive Pokémon deines Gegner ist jetzt verbrannt."
 		},
 
 		damage: 120,

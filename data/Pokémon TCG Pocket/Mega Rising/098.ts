@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xatu"
+		en: "Xatu",
+		fr: "Xatu"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Natu"
+		en: "Natu",
+		fr: "Natu"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Zen Headbutt"
+			en: "Zen Headbutt",
+			fr: "Psykoud'Boul"
 		},
 
 		damage: 80,

@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "To keep its pitch-black tail hidden, it live quietly in the darkness. It is never first to attack.",
+		de: "Es lebt in der Dunkelheit, um seinen schwarzen Schweif zu verstecken. Es greift nie zuerst an."
 	},
 
 	thirdParty: {

@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
+		de: "Mit seinem an verfaulten Seetang erinnernden Aussehen führt es den Gegner in die Irre, während es selbst Energie zur Weiterentwicklung speichert."
 	},
 
 	thirdParty: {
