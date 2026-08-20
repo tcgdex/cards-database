@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Lanza 2 monedas. Coge de tu pila de descartes una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en la parte superior de tu baraja en el orden que quieras.",
 		it: "Lancia due volte una moneta. Prendi dalla tua pila degli scarti un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e mettile in cima al tuo mazzo nell'ordine che preferisci.",
 		pt: "Jogue 2 moedas. Coloque um número de cartas da sua pilha de descarte como as cartas de cima do seu baralho em qualquer ordem até o número de caras.",
-		de: "Wirf 2 Münzen. Lege bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel in beliebiger Reihenfolge auf dein Deck."
+		de: "Wirf 2 Münzen. Lege bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel in beliebiger Reihenfolge auf dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

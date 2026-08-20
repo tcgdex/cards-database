@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Pon hasta 3 cartas de Energía Metal de tu pila de descartes en tu baraja y barájalas todas.",
 			it: "Rimischia fino a tre carte Energia Metal dalla tua pila degli scarti nel tuo mazzo.",
 			pt: "Embaralhe até 3 cartas de Energia Metal da sua pilha de descarte no seu baralho.",
-			de: "Mische bis zu 3 Metal-Energiekarten aus deinem Ablagestapel in dein Deck."
+			de: "Mische bis zu 3 {M}-Energiekarten aus deinem Ablagestapel in dein Deck."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
+		de: "Diese seltsam aussehende einäugige Eisenkugel schwebt anscheinend dank der magnetischen Kraft, die sie mit ihren hufeisenförmigen Magnetarmen erzeugt."
 	},
 
 	variants: [

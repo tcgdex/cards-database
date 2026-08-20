@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
+		de: "Es heißt, es locke kleine Kinder an sich heran, um sie dann ins Jenseits zu entführen. Unbestätigten Gerüchten zufolge besteht es aus wiedergeborenen Menschenseelen."
 	},
 
 	variants: [

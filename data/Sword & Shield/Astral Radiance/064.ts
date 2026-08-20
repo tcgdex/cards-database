@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
+		de: "Man sagt, es bestehe aus den Seelen derer, die voller Groll verstorben sind. Es treibt lautlos im Zwielicht dahin."
 	},
 
 	variants: [

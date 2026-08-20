@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct.",
+		de: "Sie sind schon auf 10 000 Jahre alten Wandmalereien abgebildet. Es gab Zeiten, in denen man sie für ausgestorben hielt."
 	},
 
 	variants: [

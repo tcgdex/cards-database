@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
+		de: "Dieses Pokémon wird als Krieger angesehen. Die Klingen an seinen Ellbogen benutzt es nur, um etwas zu beschützen."
 	},
 
 	variants: [

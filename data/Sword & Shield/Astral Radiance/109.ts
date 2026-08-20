@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Although its fossils can be found in layers of primeval rock, nothing but its face has ever been discovered.",
+		de: "Man findet zwar in uralten Erdschichten Fossilien dieses Pokémon, aber meist handelt es sich dabei nur um Teile des Gesichts."
 	},
 
 	variants: [

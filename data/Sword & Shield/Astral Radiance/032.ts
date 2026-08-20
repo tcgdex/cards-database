@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+		de: "Beim Angriff auf einen Gegner stellen sich seine Rückenhaare auf. Es hört außergewöhnlich gut."
 	},
 
 	variants: [
