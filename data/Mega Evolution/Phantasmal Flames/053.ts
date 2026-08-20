@@ -97,17 +97,26 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 858508
-			}
-		},
-		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857628,
 				tcgplayer: 662159,
 				cardtrader: 356836
+			}
+		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 858508,
+				tcgplayer: 664006
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 891754,
+				tcgplayer: 696232
 			}
 		},
 	],
