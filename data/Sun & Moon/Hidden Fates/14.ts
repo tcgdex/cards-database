@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Starmie GX",
 		fr: "Staross-GX",
+		de: "Starmie-GX"
 	},
 
 	illustrator: "PLANETA Otani",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	suffix: "GX",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Star Stream",
 				fr: "Flot Stellaire",
+				de: "Sternenfluss"
 			},
 			effect: {
 				en: "Attach 2 Water Energy cards from your discard pile to 1 of your Pokémon.",
 				fr: "Attachez 2 cartes Énergie Water de votre pile de défausse à l’un de vos Pokémon.",
+				de: "Lege 2 {W}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 40,
 
@@ -54,6 +58,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 100,
@@ -66,10 +71,12 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump GX",
 				fr: "Hydrocanon-GX",
+				de: "Hydropumpe-GX"
 			},
 			effect: {
 				en: "This attack does 40 more damage times the amount of Water Energy attached to this Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Cette attaque inflige 40 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Diese Attacke fügt 40 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "40+",
 

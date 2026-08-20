@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	illustrator: "kirisAki",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Moon Dance",
 				fr: "Danse à la Lune",
+				de: "Mondtanz"
 			},
 
 			damage: 30,
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
+		de: "Dieses beliebte Pokémon hat Seltenheitswert. Wer leichtsinnig damit prahlt, eins zu haben, könnte in das Visier von Dieben geraten."
 	},
 
 	thirdParty: {

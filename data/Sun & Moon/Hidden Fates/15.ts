@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,
@@ -50,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+		de: "Vor langer, langer Zeit war es anscheinend ziemlich stark, doch es wurde zusehends schwächer und schwächer."
 	},
 
 	thirdParty: {

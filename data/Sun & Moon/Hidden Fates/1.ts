@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Caterpie",
 		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -50,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
+		de: "Das nimmersatte Raupy verschlingt 100 Blätter am Tag. Vermutlich strebt es so ein schnelleres Wachstum an."
 	},
 
 	thirdParty: {
