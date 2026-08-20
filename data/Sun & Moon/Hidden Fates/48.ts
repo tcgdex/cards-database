@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Curiosity",
 				fr: "Curiosité",
+				de: "Neugier"
 			},
 			effect: {
 				en: "Your opponent reveals their hand.",
 				fr: "Votre adversaire dévoile sa main.",
+				de: "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Spin Tackle",
 				fr: "Charge Tournoyante",
+				de: "Dreh-Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei Zahl fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -68,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+		de: "Evoli ist das einzige Pokémon mit einem höchst instabilen Erbmaterial. Die Ursache dafür ist nach wie vor unklar."
 	},
 
 	thirdParty: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Koffing",
 		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -50,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+		de: "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist."
 	},
 
 	thirdParty: {

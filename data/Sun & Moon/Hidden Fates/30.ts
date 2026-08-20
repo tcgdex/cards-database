@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jynx",
 		fr: "Lippoutou",
+		de: "Rossana"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Slap",
 				fr: "Gifle",
+				de: "Hieb"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Lovely Kiss",
 				fr: "Grobisou",
+				de: "Todeskuss"
 			},
 
 			damage: 30,
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
+		de: "Es bewegt seine Hüften in einem eigentümlichen Rhythmus. Rossana in Alola beherrschen einen besonders anmutigen Hüftschwung."
 	},
 
 	thirdParty: {

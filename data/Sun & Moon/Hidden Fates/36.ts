@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Onix GX",
 		fr: "Onix-GX",
+		de: "Onix-GX"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Bind",
 				fr: "Étreinte",
+				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Heavy Impact",
 				fr: "Gros Impact",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 150,
@@ -67,10 +71,12 @@ const card: Card = {
 			name: {
 				en: "Rocky Avalanche GX",
 				fr: "Avalanche Rocheuse-GX",
+				de: "Felslawine-GX"
 			},
 			effect: {
 				en: "During your opponent’s next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance). (You can’t use more than 1 GX attack in a game.)",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance). (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 100 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 200,
 
