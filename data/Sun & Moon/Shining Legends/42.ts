@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+		de: "Wenn Jirachi erwacht, erfüllt es die Wünsche, die man auf die Zettel an seinem Kopf geschrieben hat."
 	},
 
 	thirdParty: {

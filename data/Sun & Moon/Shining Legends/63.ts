@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas y cura 20 puntos de daño a tu Pokémon Activo. Si no tienes ninguna carta en tu baraja, no puedes jugar esta carta.",
 		it: "Pesca due carte e cura il tuo Pokémon attivo da 20 danni. Se non hai carte nel mazzo, non puoi giocare questa carta.",
 		pt: "Compre 2 cartas e cure 20 pontos de dano do seu Pokémon Ativo. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
-		de: "Ziehe 2 Karten und heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
+		de: "Ziehe 2 Karten und heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

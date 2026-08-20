@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+		de: "Ein hochintelligentes Pokémon. Wenn es im Flug seine Flügel nach hinten legt, ist es schneller als ein Jet."
 	},
 
 	thirdParty: {

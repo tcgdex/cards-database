@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
+		de: "Das Horn an seinem Kopf ist eine scharfe Klinge. Neckt seine Gegner mit quirligen Bewegungen und greift blitzartig an."
 	},
 
 	thirdParty: {

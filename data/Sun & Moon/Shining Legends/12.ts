@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
+		de: "Es heißt, es sei ein Produkt der Sonne. Wenn es sich entwickelt, hüllt es sich in Flammen, die es aus seinen Hörnern bläst."
 	},
 
 	thirdParty: {
