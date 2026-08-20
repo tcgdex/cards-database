@@ -38,16 +38,19 @@ const card: Card = {
 			cost: ["Fighting", "Colorless"],
 			name: {
 				en: "Split Spiral Punch",
+				de: "Spiralhieb"
 			},
 			damage: 40,
 			effect: {
 				en: "Your opponent's Active Pokémon is now Confused.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
 				en: "Strength",
+				de: "Stärke"
 			},
 			damage: 130,
 		},

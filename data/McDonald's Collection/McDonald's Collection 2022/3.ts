@@ -29,9 +29,11 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Blot",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10
 		},

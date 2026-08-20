@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Corkscrew Punch",
+				de: "Korkenzieherhieb"
 			},
 			damage: 30,
 		},
@@ -36,9 +37,11 @@ const card: Card = {
 			cost: ["Water", "Fighting"],
 			name: {
 				en: "Berkshire",
+				de: "Wutausbruch"
 			},
 			effect: {
 				en: "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.",
+				de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "70+",
 		},

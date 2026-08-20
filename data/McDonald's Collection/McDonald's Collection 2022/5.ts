@@ -29,9 +29,11 @@ const card: Card = {
 			cost: ["Fire"],
 			name: {
 				en: "Victory Dive",
+				de: "Triumphzug"
 			},
 			effect: {
-				en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+				en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+				de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 			damage: 30,
 		},
