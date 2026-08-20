@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litten",
 		fr: "Flamiaou",
+		de: "Flamiau"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+		de: "Es trägt ein feuriges Glöckchen um den Hals. Immer, wenn es Flammen ausstößt, ertönt ein helles Läuten."
 	},
 
 	thirdParty: {

@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+		de: "Es kann die Luft von Giften reinigen und Ödland in ein üppig blühendes Blumenfeld verwandeln."
 	},
 
 	thirdParty: {

@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Darkness de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Darkness dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Darkness-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 1 {D}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 90,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+		de: "Wenn Schwingen und Schwanzgefieder dieses Legendären Pokémon rot leuchten, entzieht es Lebewesen deren Energie."
 	},
 
 	thirdParty: {
