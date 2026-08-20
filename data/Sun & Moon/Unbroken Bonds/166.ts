@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Involuciona a 1 de tus Pokémon evolucionados poniendo cualquier cantidad de cartas de Evolución que tenga sobre él en tu baraja y barajando todas las cartas. (Ese Pokémon no puede evolucionar en este turno).",
 		it: "Annulla l’evoluzione di uno dei tuoi Pokémon evoluti rimischiandone un numero qualsiasi di carte Evoluzione nel tuo mazzo. Quel Pokémon non può evolversi in questo turno.",
 		pt: "Reverta a evolução de 1 dos seus Pokémon evoluídos embaralhando qualquer número de cartas de Evolução sobre ele no seu baralho (aquele Pokémon não pode evoluir durante esta vez de jogar).",
-		de: "Rückentwickle 1 deiner entwickelten Pokémon, indem du beliebig viele auf ihm liegende Entwicklungskarten in dein Deck mischt. (Jenes Pokémon kann sich während dieses Zuges nicht entwickeln.)"
+		de: "Rückentwickle 1 deiner entwickelten Pokémon, indem du beliebig viele auf ihm liegende Entwicklungskarten in dein Deck mischt. (Jenes Pokémon kann sich während dieses Zuges nicht entwickeln.) Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes curar 30 puntos de daño a cada uno de tus Pokémon Fairy.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi curare ciascuno dei tuoi Pokémon Fairy da 30 danni.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode curar 30 pontos de dano de cada um dos seus Pokémon Fairy.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 30 Schadenspunkte bei jedem deiner Fairy-Pokémon heilen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 30 Schadenspunkte bei jedem deiner {FAIRY}-Pokémon heilen."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+		de: "Es heißt, Togekiss erscheine in friedlichen Zeiten und verteile alle möglichen Wohltaten."
 	},
 
 	thirdParty: {

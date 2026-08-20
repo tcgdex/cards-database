@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
-		fr: "Doudouvet"
+		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	suffix: "GX",
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Caja de Juguetes GX",
 				it: "Scatola dei Giochi GX",
 				pt: "Caixa de Brinquedos GX",
-				de: "Spielzeugkiste GX"
+				de: "Spielzeugkiste-GX"
 			},
 			effect: {
 				en: "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

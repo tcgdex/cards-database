@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It has always been supposed that Seel live only in cold seas. Their having shown up in Alola is a mystery.",
+		de: "Bisher wurde vermutet, dass es ausschließlich in kalten Gewässern lebe. Warum es auch in Alola auftaucht, ist noch ein Rätsel."
 	},
 
 	thirdParty: {

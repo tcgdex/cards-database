@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
+		de: "Molunk"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, roba 3 cartas.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire che hai in mano. Se lo fai, pesca tre carte.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Fire da sua mão. Se fizer isto, compre 3 cartas.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {R}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+		de: "Dieses tief in Höhlen lebende Pokémon hält sich männliche Molunk, die es sich mit Pheromonen hörig gemacht hat, als Diener."
 	},
 
 	thirdParty: {

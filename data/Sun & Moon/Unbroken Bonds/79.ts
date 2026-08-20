@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+		de: "Damit die starken Psycho-Kräfte dieses Pokémon nicht unkontrolliert nach außen dringen, ist das Organ, das diese freisetzt, von seinen Ohren bedeckt."
 	},
 
 	thirdParty: {

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Ultra Beast's body, which is as thin as paper, is like a sharpened sword.",
+		de: "Der Körper dieser Ultrabestie ist dünn wie Papier und so scharfkantig wie eine geschliffene Klinge."
 	},
 
 	thirdParty: {

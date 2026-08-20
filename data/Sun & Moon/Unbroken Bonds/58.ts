@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grubbin",
 		fr: "Larvibule",
+		de: "Mabula"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
 				it: "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",
 				pt: "Ligar a Vikavolt ou Vikavolt-GX como uma carta de Energia Especial.",
-				de: "Lege sie als Spezial-Energiekarte an Donarion oder Donarion-GX an."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du diese Karte aus deiner Hand an 1 deiner Donarion oder Donarion-GX als Spezial-Energie-Karte anlegen. Diese Karte liefert 2 {L}-Energien, aber nur solange sie an ein Pokémon angelegt ist."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
+		de: "Es vergräbt sich unter Blättern, wo es nahezu regungslos verharrt und Humus frisst. Tritt man versehentlich auf es, verteilt es Stromschläge."
 	},
 
 	thirdParty: {

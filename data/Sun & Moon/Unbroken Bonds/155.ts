@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was created using the cutting-edge science of 20 years ago, so many parts of it have since become obsolete.",
+		de: "Dieses Pokémon wurde vor etwa 20 Jahren künstlich erschaffen. Ein Großteil der damals verwendeten Technik ist heute längst überholt."
 	},
 
 	thirdParty: {

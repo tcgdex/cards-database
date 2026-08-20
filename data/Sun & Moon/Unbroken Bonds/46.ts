@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+		de: "Wittert es Gefahr, hüllt es sich in Blasen aus seinem Maul, um größer zu erscheinen."
 	},
 
 	thirdParty: {

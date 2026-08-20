@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Every once in a while, you'll see a Golbat that's missing some fangs. This happens when hunger drives it to try biting a Steel-type Pokémon.",
+		de: "Um seinen Hunger zu stillen, versucht es mitunter auch, in Stahl-Pokémon zu beißen, und bricht sich dabei die Reißzähne ab."
 	},
 
 	thirdParty: {

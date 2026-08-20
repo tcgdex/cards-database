@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Doduo",
 		fr: "Doduo",
+		de: "Dodu"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
+		de: "Lässt ein Feind auch nur einen der drei Köpfe für nur eine Sekunde aus den Augen, wird er sofort gepickt."
 	},
 
 	thirdParty: {

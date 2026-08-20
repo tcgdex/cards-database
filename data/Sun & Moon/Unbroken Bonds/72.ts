@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "In Alola, Komala is Hypno's main target. It rarely harms people.",
+		de: "In Alola hat es Hypno hauptsächlich auf Koalelu abgesehen. Menschen schadet es kaum."
 	},
 
 	thirdParty: {

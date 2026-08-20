@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si no tienes Pokémon con habilidades en juego.\n\nBusca en tu baraja hasta 2 cartas de Entrenador, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se hai in gioco Pokémon senza abilità.\n\nCerca nel tuo mazzo fino a due carte Allenatore, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode jogar esta carta se não tiver Pokémon com Habilidades em jogo.\n\nProcure por até 2 cartas de Treinador no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur spielen, wenn du kein Pokémon mit Fähigkeiten im Spiel hast.\n\nDurchsuche dein Deck nach bis zu 2 Trainerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn du kein Pokémon mit Fähigkeiten im Spiel hast. Durchsuche dein Deck nach bis zu 2 Trainerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

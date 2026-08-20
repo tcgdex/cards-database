@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wooper",
 		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -81,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a sluggish nature. It lies at the river's bottom, waiting for prey to stray into its mouth.",
+		de: "Ein träges Pokémon, das auf dem Grund des Flusses liegt und wartet, dass ihm Beute in Maul schwimmt."
 	},
 
 	thirdParty: {
