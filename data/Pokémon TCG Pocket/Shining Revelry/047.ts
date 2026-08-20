@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Depuis qu'une dispute territoriale l'a contraint\nà vivre sur la terre ferme, il protège son corps\nen le recouvrant d'un fluide toxique.",
 		es: "Tras perder una disputa territorial, se vio forzado\na vivir en tierra firme y desarrolló una membrana\nmucosa tóxica con la que proteger su cuerpo.",
 		it: "Vive sulla terraferma da quando perse una\nlotta territoriale. Per proteggere il corpo ha\nsviluppato una membrana mucosa tossica.",
-		de: "Ein verlorener Revierkampf zwang es, an Land\nzu leben. Um sich zu schützen, entwickelte es\neine giftige Schleimschicht auf seinem Körper.",
+		de: "Ein verlorener Revierkampf zwang es, an Land zu leben. Um sich zu schützen, entwickelte es eine giftige Schleimschicht auf seinem Körper.",
 		'pt-br': "Após perder uma disputa por território, Wooper passou a\nviver em terra firme. Seu corpo mudou ao longo do tempo,\ndesenvolvendo uma camada venenosa para protegê-lo.",
 		ko: "영역 다툼에서 밀려 육지에 살게 되면서\n독성을 띠는 점막으로\n몸을 보호하도록 변화했다."
 	},

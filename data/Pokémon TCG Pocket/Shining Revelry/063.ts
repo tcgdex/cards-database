@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lickitung",
-		fr: "Excelangue"
+		fr: "Excelangue",
+		de: "Schlurp"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Sa langue a l'incroyable faculté de s'allonger et\nd'atteindre plusieurs fois la taille de son corps.\nCe mystère de la nature reste entier.",
 		es: "Su lengua es un misterio sin resolver: no se sabe\ncómo puede extenderla hasta alcanzar longitudes\nque superan varias veces la de su propio cuerpo.",
 		it: "La sua lingua può misteriosamente allungarsi\nfino a molte volte la lunghezza del corpo.\nAncora non si è capito come faccia.",
-		de: "Seine sonderbare Zunge kann sich bis auf ein\nVielfaches seiner Körpergröße ausdehnen.\nNiemand weiß, wie das möglich ist.",
+		de: "Seine sonderbare Zunge kann sich bis auf ein Vielfaches seiner Körpergröße ausdehnen. Niemand weiß, wie das möglich ist.",
 		'pt-br': "A língua estranha de Lickilicky pode esticar e ficar\nmais longa do que seu corpo. Ninguém jamais descobriu\ncomo a língua deste Pokémon pode esticar tanto.",
 		ko: "몸의 몇 배의 길이로 늘어나는\n신비한 혀를 가졌다.\n그 비밀은 아직 밝혀지지 않았다."
 	},

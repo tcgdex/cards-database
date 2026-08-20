@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ses poings fendent l'air. Ils sont si rapides\nqu'un simple frôlement peut causer une brûlure.",
 		es: "Sus puñetazos cortan el aire. Son tan veloces que\nel mínimo roce podría causar una quemadura.",
 		it: "I suoi pugni fendono l'aria a una tale velocità che\nbasta venire sfiorati per riportare una scottatura.",
-		de: "Seine Fäuste zerschneiden regelrecht die Luft.\nSie sind so schnell, dass selbst die geringste\nBerührung Verbrennungen verursacht.",
+		de: "Seine Fäuste zerschneiden regelrecht die Luft. Sie sind so schnell, dass selbst die geringste Berührung Verbrennungen verursacht.",
 		'pt-br': "Seus murros cortam o ar. São tão\nvelozes que um simples toque pode\ncausar uma queimadura.",
 		ko: "주변의 공기를 가르는 펀치.\n스치기만 해도 화상을 입을 정도로\n펀치 스피드가 매우 빠르다."
 	},

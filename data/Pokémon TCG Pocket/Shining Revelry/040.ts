@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il possède un fantastique sens de l'équilibre, et peut donner\ndes rafales de coups de pied dans toutes les positions.",
 		es: "Este Pokémon tiene un sentido del equilibrio\nincreíble. Puede dar patadas desde cualquier posición.",
 		it: "Questo straordinario Pokémon ha\nun grande equilibrio. Può tirare\nraffiche di calci da qualsiasi posizione.",
-		de: "Dieses Pokémon besitzt einen formidablen\nGleichgewichtssinn. Es kann in jeder Position\npausenlos zutreten.",
+		de: "Dieses Pokémon besitzt einen formidablen Gleichgewichtssinn. Es kann in jeder Position pausenlos zutreten.",
 		'pt-br': "Este incrível Pokémon possui um ótimo equilíbrio.\nConsegue chutar repetidamente de qualquer posição.",
 		ko: "훌륭한 밸런스 감각으로\n어떤 자세라도 연속\n킥을 날리는 대단한 녀석이다."
 	},

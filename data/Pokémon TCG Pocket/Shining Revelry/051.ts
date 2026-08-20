@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shroodle",
-		fr: "Gribouraigne"
+		fr: "Gribouraigne",
+		de: "Sproxi"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Sa salive toxique change de couleur selon\nson alimentation. Il en enduit ses doigts pour\ndessiner des motifs sur les arbres de la forêt.",
 		es: "El color de su saliva venenosa varía según su\nalimentación. Se embadurna los dedos con ella\npara pintar motivos en los árboles del bosque.",
 		it: "Traccia dei motivi sugli alberi della foresta\ncon le dita imbrattate di saliva velenosa, il\ncui colore cambia in base all'alimentazione.",
-		de: "Es beschmiert seine Finger mit giftigem Speichel,\nder je nach Futter anders gefärbt ist, und malt\ndamit Muster auf die Bäume im Wald.",
+		de: "Es beschmiert seine Finger mit giftigem Speichel, der je nach Futter anders gefärbt ist, und malt damit Muster auf die Bäume im Wald.",
 		'pt-br': "A cor da saliva venenosa deste Pokémon depende\nda sua dieta. Grafaiai cobre seus dedos com saliva\ne desenha em árvores da floresta.",
 		ko: "먹이에 따라 색이 변하는\n독성의 침을 손가락에 묻혀서\n숲의 나무들에 무늬를 그린다."
 	},

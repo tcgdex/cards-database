@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Buizel",
-		fr: "Mustébouée"
+		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il gonfle sa bouée pour permettre aux gens de\nmonter sur son dos et il la dégonfle pour plonger.",
 		es: "Con la vejiga natatoria inflada, puede llevar a personas\nsobre su espalda. Antes de bucear, la desinfla.",
 		it: "Col galleggiante gonfio, può trasportare delle\npersone sul dorso. Per immergersi lo sgonfia.",
-		de: "Mit gefüllter Schwimmblase kann es Menschen\nauf seinem Rücken tragen. Lässt es Luft aus ihr\nheraus, taucht es unter.",
+		de: "Mit gefüllter Schwimmblase kann es Menschen auf seinem Rücken tragen. Lässt es Luft aus ihr heraus, taucht es unter.",
 		'pt-br': "Com sua bolsa de flutuação inflada, pode transportar\npessoas nas costas. Esvazia a bolsa antes de mergulhar.",
 		ko: "부낭을 부풀리면 사람을\n등에 태울 수 있다.\n부낭을 오그라들게 하여 잠수한다."
 	},
