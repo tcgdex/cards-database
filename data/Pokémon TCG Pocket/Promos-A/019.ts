@@ -65,7 +65,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
-		fr: "Croâporal"
+		fr: "Croâporal",
+		de: "Amphizel"
 	},
 
 	description: {
@@ -73,7 +74,7 @@ const card: Card = {
 		fr: "Il transforme des jets d'eau sous pression en redoutables\nshuriken. Une fois lancés, ils tournent si vite qu'ils peuvent\nmême couper le métal.",
 		es: "Comprime el agua y crea estrellas ninja con\nlas que ataca al enemigo. Cuando las hace girar\na gran velocidad, cortan en dos hasta el metal.",
 		it: "Crea lame d'acqua micidiali che ruotano ad alta\nvelocità e, se lanciate, possono perforare il metallo.",
-		de: "Es stellt Wurfsterne aus komprimiertem Wasser\nher, die durch ihre hohe Drehgeschwindigkeit\nbeim Werfen sogar Metall durchtrennen.",
+		de: "Es stellt Wurfsterne aus komprimiertem Wasser her, die durch ihre hohe Drehgeschwindigkeit beim Werfen sogar Metall durchtrennen.",
 		'pt-br': "Cria estrelas ninja de água comprimida.\nAo girá-las e atirá-las em alta velocidade,\nas estrelas podem dividir metais ao meio.",
 		ko: "물을 압축시켜 수리검을\n만들어 낸다. 고속으로 회전시키며\n던지면 금속도 두 동강이 난다."
 	},

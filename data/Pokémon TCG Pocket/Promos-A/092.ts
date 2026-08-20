@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
-		es: "Eevee"
+		es: "Eevee",
+		de: "Evoli"
 	},
 
 	illustrator: "nisimono",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
-		es: "Es capaz de evolucionar de muchas maneras\npara adaptarse sin problemas a cualquier medio."
+		es: "Es capaz de evolucionar de muchas maneras\npara adaptarse sin problemas a cualquier medio.",
+		de: "Um sich jeder Umgebung perfekt anpassen zu können, ist es in der Lage, sich zu verschiedenen Pokémon zu entwickeln."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tackle",
-			es: "Placaje"
+			es: "Placaje",
+			de: "Tackle"
 		},
 
 		damage: 20,

@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola"
+		fr: "Goupix d’Alola",
+		de: "Alola-Vulpix"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Parce qu'il vivait dans une montagne enneigée\nqui abritait une divinité, on le considérait jadis\ncomme un avatar de cette dernière.",
 		es: "Antaño lo veneraban como la encarnación de una deidad\nque se creía que moraba en las montañas nevadas.",
 		it: "In passato viveva su un impenetrabile monte innevato,\ndimora di una divinità di cui era considerato l'incarnazione.",
-		de: "Einst lebte es auf einem schneebedeckten Berg,\nder auch die Heimat einer Gottheit war, weshalb\nes als deren Verkörperung verehrt wurde.",
+		de: "Einst lebte es auf einem schneebedeckten Berg, der auch die Heimat einer Gottheit war, weshalb es als deren Verkörperung verehrt wurde.",
 		'pt-br': "Uma divindade vive nas montanhas nevadas que são o lar\ndeste Pokémon. Em tempos antigos, foi venerado como\na encarnação dessa divindade.",
 		ko: "눈으로 폐쇄된 신이 사는\n산에 살았기 때문에 과거에는\n신의 화신으로 숭상받아왔다."
 	},
