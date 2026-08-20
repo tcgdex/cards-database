@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Honedge",
 		fr: "Monorpale",
+		de: "Gramokles"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
+		de: "Nicht einmal ein Meister des Schwertkampfs kann den komplizierten aufeinanderfolgenden Angriffen der zwei Schwerter ausweichen."
 	},
 
 	thirdParty: {

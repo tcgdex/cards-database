@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tauros ex"
+		en: "Tauros ex",
+		fr: "Tauros-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,14 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wild Tackle"
+			en: "Wild Tackle",
+			fr: "Tacle Brutal"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this Pokémon also does 30 damage to itself."
+			en: "Flip a coin. If tails, this Pokémon also does 30 damage to itself.",
+			fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige aussi 30 dégâts."
 		}
 	}],
 

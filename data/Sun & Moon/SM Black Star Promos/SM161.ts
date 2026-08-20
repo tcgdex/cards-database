@@ -85,6 +85,16 @@ const card: Card = {
 	description: {
 		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368854,
+				tcgplayer: 183968
+			}
+		}
+	],
 }
 
 export default card

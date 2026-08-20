@@ -77,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels."
+		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels.",
+		de: "Es ernährt sich von Edelsteinen. Im Dunkeln funkeln seine beiden Augen wie Juwelen."
 	},
 
 	dexId: [302],

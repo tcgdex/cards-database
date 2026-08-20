@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Puedes usar este ataque solo si tienes Pokémon Grass, Water y Lightning en tu Banca. Busca en tu baraja hasta 3 cartas de Energía Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Puoi usare questo attacco solo se hai Pokémon Grass, Water e Lightning in panchina. Cerca nel tuo mazzo fino a tre carte Energia base e assegnale a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Você só pode usar este ataque se tiver Pokémon Grass, Water e Lightning no seu Banco. Procure por até 3 cartas de Energia básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-				de: "Du kannst diese Attacke nur einsetzen, wenn du Grass-, Water- und Lightning-Pokémon auf deiner Bank hast. Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+				de: "Du kannst diese Attacke nur einsetzen, wenn du {G}-, {W}- und {L}-Pokémon auf deiner Bank hast. Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 30,
 
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+		de: "Die Mythologie erzählt, dass dieses Pokémon geboren wurde, bevor das Universum überhaupt existierte."
 	},
 
 	thirdParty: {

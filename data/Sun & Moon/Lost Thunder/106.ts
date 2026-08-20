@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the Ultra Beasts, it's unclear whether or not this Pokémon is sentient, but sometimes it can be observed behaving like a young girl.",
+		de: "Eine Ultrabestie, die gelegentlich das Verhalten eines jungen Mädchens an den Tag legt. Es ist nicht bekannt, ob sie dies bewusst tut."
 	},
 
 	thirdParty: {

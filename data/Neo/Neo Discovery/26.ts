@@ -4,7 +4,7 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 

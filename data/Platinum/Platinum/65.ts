@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Double Slap",
 				fr: "Torgnoles",
-				de: "Double Slap"
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Rocket Tackle",
 				fr: "Lance roquette",
-				de: "Rocket Tackle"
+				de: "Raketenstart"
 			},
 			effect: {
 				en: "Wartortle does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Wartortle by attacks during your opponent's next turn.",
 				fr: "Carabaffe s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe par des attaques lors du prochain tour de votre adversaire.",
-				de: "Wartotle does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Wartortle by attacks during your opponent's next turn."
+				de: "Schillok fügt sich selbst 10 Schadenspunkte zu. Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Schillok im nächsten Zug deines Gegners durch Angriffe zugefügt würde."
 			},
 			damage: 30,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity."
+		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+		de: "Man sagt, es werde 10 000 Jahre alt. Sein buschiger Schweif ist ein Symbol für langes Leben."
 	},
 
 	variants: [

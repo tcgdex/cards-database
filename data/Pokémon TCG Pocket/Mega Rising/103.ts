@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duskull"
+		en: "Duskull",
+		fr: "Skelénox"
 	},
 
 	illustrator: "Naoki Saito",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ambush"
+			en: "Ambush",
+			fr: "Embuscade"
 		},
 
 		damage: 10,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts de plus."
 		}
 	}],
 

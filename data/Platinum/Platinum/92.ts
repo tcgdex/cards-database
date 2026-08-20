@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Hypnotic Gaze",
 				fr: "Regard hypnotique",
-				de: "Hypnotic Gaze"
+				de: "Hypnotischer Blick"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Fade Out",
 				fr: "Faiblir",
-				de: "Fade Out"
+				de: "Ausblenden"
 			},
 			effect: {
 				en: "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
 				fr: "Reprenez dans votre main Polychombr ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)",
-				de: "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)"
+				de: "Nimm Shuppet und alle daran angelegten Karten zurück auf die Hand. (Dieser Angriff hat keine Auswirkungen, wenn du keine Pokémon auf deiner Bank hast.)"
 			},
 			damage: 30,
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live."
+		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		de: "Es liebt Rachegefühle. Diese PKMN hängen sich an Dachrinnen von Häusern, in denen Rachsüchtige leben."
 	},
 
 	variants: [

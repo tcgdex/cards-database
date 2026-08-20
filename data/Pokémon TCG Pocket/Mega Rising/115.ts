@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spritzee"
+		en: "Spritzee",
+		fr: "Fluvetin"
 	},
 
 	illustrator: "MAHOU",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fairy Wind"
+			en: "Fairy Wind",
+			fr: "Vent Féérique"
 		},
 
 		damage: 20,

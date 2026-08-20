@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Espurr",
 		fr: "Psystigri",
+		de: "Psiau"
 	},
 
 	illustrator: "Kanako Eo",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Twinkle",
 				fr: "Étincellement",
+				de: "Funkeln"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -52,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "My number one. Exceptionally cute. A little princess.",
+		de: "Meine Nummer eins. Außergewöhnlich niedlich. Eine kleine Prinzessin."
 	},
 
 	thirdParty: {

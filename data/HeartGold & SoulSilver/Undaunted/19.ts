@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Mismagius",
-		fr: "Magireve",
+		fr: "Magirêve",
 		de: "Traunmagil"
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Misdreavus",
-		fr: "Feuforeve",
+		fr: "Feuforêve",
 		de: "Traunfugil"
 	},
 

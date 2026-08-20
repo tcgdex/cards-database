@@ -86,7 +86,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals."
+		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
+		de: "Manchmal unterstützt es das medizinische Personal in Krankenhäusern, wenn Patienten an Schlaflosigkeit leiden."
 	},
 
 	dexId: [97],

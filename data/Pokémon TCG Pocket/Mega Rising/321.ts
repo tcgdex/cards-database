@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex"
+		en: "Pikachu ex",
+		fr: "Pikachu-ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -20,14 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunderbolt"
+			en: "Thunderbolt",
+			fr: "Tonnerre"
 		},
 
 		damage: 150,
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toutes les Énergies de ce Pokémon."
 		}
 	}],
 

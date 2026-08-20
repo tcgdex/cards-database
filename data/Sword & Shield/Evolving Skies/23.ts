@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat."
+		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat.",
+		de: "Es kann 6 000 °C heiße Atemluft ausstoßen, die es jedoch nicht bei der Jagd verwendet. Seine Beute verspeist es nämlich lieber roh."
 	},
 
 	dexId: [668],

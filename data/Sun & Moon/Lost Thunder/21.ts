@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Treecko",
 		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 Pokémon Grass, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Grass, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 Pokémon Grass no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Grass-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 {G}-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
 	},
 
 	thirdParty: {

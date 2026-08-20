@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
+		de: "Alola-Vulpix"
 	},
 
 	suffix: "GX",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Sublimación GX",
 				it: "Sublimazione-GX",
 				pt: "Sublimação GX",
-				de: "Sublimation GX"
+				de: "Sublimation-GX"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is an Ultra Beast, it is Knocked Out. (You can’t use more than 1 GX attack in a game.)",

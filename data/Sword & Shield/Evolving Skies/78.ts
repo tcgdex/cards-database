@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
+		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back.",
+		de: "Es nimmt die Aura seiner Feinde wahr und erahnt ihren nächsten Zug. So kann es Angriffen geschickt ausweichen und zurückschlagen."
 	},
 
 	dexId: [742],

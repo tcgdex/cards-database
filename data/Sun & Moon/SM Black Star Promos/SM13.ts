@@ -88,6 +88,16 @@ const card: Card = {
 	description: {
 		en: "Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295305,
+				tcgplayer: 127188
+			}
+		}
+	],
 }
 
 export default card

@@ -51,7 +51,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties."
+		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties.",
+		de: "Die Krone auf seinem Kopf hat es sich aus Pollen von Blumen gebastelt. Sie besitzt eine heilende Wirkung."
 	},
 
 	dexId: [669],

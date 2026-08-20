@@ -4,7 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magnéti"
 	},
 
 	stage: "Stage1",

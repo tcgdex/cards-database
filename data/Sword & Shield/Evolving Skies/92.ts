@@ -28,7 +28,7 @@ const card: Card = {
 			es: "Garra Cinegética",
 			it: "Artiglio Implacabile",
 			pt: "Hunting Claw",
-			de: "Jagdklauen"
+			de: "Jagdklaue"
 		},
 
 		effect: {
@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Deja Fuera de Combate a 1 de los Pokémon en juego de tu rival al que le queden 60 PS o menos.",
 			it: "Metti KO uno dei Pokémon in gioco del tuo avversario che ha 60 PS o meno rimanenti.",
 			pt: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
-			de: "Mache 1 Pokémon deines Gegners im Spiel, das 60 oder weniger verbleibende KP hat, kampfunfähig."
+			de: "Mache 1 Pokémon deines Gegner im Spiel, das 60 oder weniger verbleibende KP hat, kampfunfähig."
 		},
 
 		cost: ["Fighting"]

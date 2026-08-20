@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snover",
 		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes unir 1 carta de Energía Grass de tu pila de descartes a 1 de tus Pokémon.",
 				it: "Quando giochi questo Pokémon dalla tua mano durante il tuo turno per far evolvere uno dei tuoi Pokémon, puoi assegnare a uno dei tuoi Pokémon una carta Energia Grass dalla tua pila degli scarti.",
 				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode ligar 1 carta de Energia Grass da sua pilha de descarte a 1 dos seus Pokémon.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Grass-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen."
+				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 {G}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+		de: "Es haust im Gebirge, wo ewiger Schnee liegt, und löst Blizzards aus, um sich zu verstecken."
 	},
 
 	thirdParty: {

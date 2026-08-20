@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palpitoad"
+		en: "Palpitoad",
+		fr: "Batracné"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Tympole"
+		en: "Tympole",
+		fr: "Tritonde"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			en: "Hyper Voice",
+			fr: "Mégaphone"
 		},
 
 		damage: 60,

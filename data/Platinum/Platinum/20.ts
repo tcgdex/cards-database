@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shieldon",
-		fr: "Dinoclier"
+		fr: "Dinoclier",
+		de: "Schilterus"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Metal Trait",
 				fr: "Trait métallique",
-				de: "Metal Trait"
+				de: "Metallcharakter"
 			},
 			effect: {
 				en: "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns.",
 				fr: "Tant que Bastiodon possède un Outil Pokémon, retirez-lui 1 marqueur de dégât entre 2 tours.",
-				de: "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns."
+				de: "Solange an Bollterus 1 Pokémon-Ausrüstung angelegt ist, entferne zwischen den Zügen 1 Schadensmarke von Bollterus."
 			}
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Iron Defense",
 				fr: "Mur de fer",
-				de: "Iron Defense"
+				de: "Eisenabwehr"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Bastiodon lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Bollterus zugefügt würden."
 			},
 			damage: 30,
 
@@ -74,12 +75,12 @@ const card: Card = {
 			name: {
 				en: "Iron Tackle",
 				fr: "Charge de fer",
-				de: "Iron Tackle"
+				de: "Eisentackle"
 			},
 			effect: {
 				en: "Bastiodon does 30 damage to itself.",
 				fr: "Bastiodon s'inflige 30 dégâts.",
-				de: "Bastiodon does 30 damage to itself."
+				de: "Bollterus fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 80,
 

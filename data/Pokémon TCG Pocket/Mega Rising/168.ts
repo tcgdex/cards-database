@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Durant"
+		en: "Durant",
+		fr: "Fermite"
 	},
 
 	illustrator: "kodama",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite Together"
+			en: "Bite Together",
+			fr: "Morsure Commune"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "If Durant is on your Bench, this attack does 40 more damage."
+			en: "If Durant is on your Bench, this attack does 40 more damage.",
+			fr: "Si Fermite est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires."
 		}
 	}],
 

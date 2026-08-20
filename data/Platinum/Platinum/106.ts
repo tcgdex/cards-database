@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Whenever any player plays any Pokémon from his or her hand to evolve his or her Pokémon, put 2 damage counters on that Pokémon.",
 		fr: "Lorsqu'1 des joueurs joue un Pokémon de sa main pour faire évoluer son Pokémon, placez 2 marqueurs de dégât sur ce Pokémon.",
-		de: "Whenever any player plays any Pokémon from his or her hand to evolve his or her Pokémon, put 2 damage counters on that Pokémon."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Immer wenn ein Spieler eine Pokémon-Karte von seiner Hand spielt, um eines seiner Pokémon zu entwickeln, lege 2 Schadensmarken auf dieses Pokémon."
 	},
 
 	trainerType: "Stadium",
