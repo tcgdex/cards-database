@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Pon hasta 3 cartas de Pokémon y de Partidario, en cualquier combinación, excepto Clamor del Team Yell, de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia fino a tre Pokémon e carte Aiuto, a eccezione di Tifo del Team Yell, in qualsiasi combinazione dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe até 3 cartas de Pokémon e de Apoiador, exceto por Torcida da Equipe Yell, da sua pilha de descarte no seu baralho em qualquer combinação.",
-		de: "Mische eine beliebige Kombination aus bis zu 3 Pokémon und Unterstützerkarten, außer Jubel von Team Yell, aus deinem Ablagestapel in dein Deck."
+		de: "Mische eine beliebige Kombination aus bis zu 3 Pokémon und Unterstützerkarten, außer Jubel von Team Yell, aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		de: "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab."
 	},
 
 	variants: [

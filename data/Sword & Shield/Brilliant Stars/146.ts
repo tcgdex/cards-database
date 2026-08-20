@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta no tiene un recuadro de regla, los ataques de los Pokémon de tu rival le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia). (Pokémon V, Pokémon-GX, etc. tienen recuadros de regla).",
 		it: "Se il Pokémon a cui è assegnata questa carta non ha una regola speciale, subisce 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza. I Pokémon-V, i Pokémon-GX, ecc. hanno regole speciali.",
 		pt: "Se o Pokémon ao qual esta carta está ligada não tiver uma Caixa de Regras, ele receberá 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência). (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras.)",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, kein Regelfeld hat, werden jenem Pokémon durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).(Pokémon-V, Pokémon-GX, usw. haben Regelfelder.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, kein Regelfeld hat, werden jenem Pokémon durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Pokémon-V, Pokémon-GX usw. haben Regelfelder.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

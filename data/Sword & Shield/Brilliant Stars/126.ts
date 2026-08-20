@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Cuando juegues este Pokémon de tu mano a tu Banca, puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 			pt: "Ao jogar este Pokémon da sua mão em seu Banco, você poderá fazer com que seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Wenn du dieses Pokémon von deiner Hand spielst und auf deine Bank legst, kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
 		}
 	}],
 
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+		de: "Mit der Energie aus seiner Rute erzeugt es wilde Stürme, die stark genug sind, um ganze Wohnhäuser davonzuwehen."
 	},
 
 	variants: [

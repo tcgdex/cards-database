@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+		de: "Sie bestehen aus Lehm und existieren schon sehr lange. Einige von ihnen haben den unerklärlichen Drang, große Felsen aneinanderzureihen."
 	},
 
 	variants: [

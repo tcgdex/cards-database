@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+		de: "Die Sahne, die Pokusan aus seinen Händen hervorbringt, wird noch süßer und intensiver im Geschmack, wenn es glücklich ist."
 	},
 
 	variants: [

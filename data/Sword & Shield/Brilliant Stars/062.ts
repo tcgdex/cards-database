@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
+		de: "Niemand weiß, ob es einen eigenen Willen hat. Über Radiowellen empfängt es Befehle aus dem Jenseits, Menschen und Pokémon zu entführen."
 	},
 
 	variants: [

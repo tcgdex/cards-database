@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+		de: "Shardrago ist grausam und gerissen. Es nimmt die selbstgegrabenen Höhlen anderer Pokémon ein, um sie zu seinem Unterschlupf zu machen."
 	},
 
 	variants: [
