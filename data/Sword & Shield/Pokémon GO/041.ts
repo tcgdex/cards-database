@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Night after night, they sneak into people's homes seeking food. A massive outbreak of them has become an issue of public concern.",
+		de: "Sie schleichen sich jede Nacht auf der Suche nach Futter in Wohnhäuser. Ihre massenhafte Verbreitung führt zu weitreichenden Problemen."
 	},
 
 	

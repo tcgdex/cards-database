@@ -50,7 +50,7 @@ const card: Card = {
 			es: "Descarta hasta 3 Energías Psychic de tus Pokémon. Este ataque hace 90 puntos de daño por cada carta que hayas descartado de esta manera.",
 			it: "Scarta fino a tre Energie Psychic dai tuoi Pokémon. Questo attacco infligge 90 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Descarte até 3 Energias Psychic dos seus Pokémon. Este ataque causa 90 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege bis zu 3 Psychic-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
+			de: "Lege bis zu 3 {P}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
 		},
 
 		damage: "90×"

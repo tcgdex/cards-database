@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
+		de: "Es heißt, dass der Körper von Onix so hart wie ein Diamant werde, wenn es mehr als 100 Jahre lebt."
 	},
 
 	

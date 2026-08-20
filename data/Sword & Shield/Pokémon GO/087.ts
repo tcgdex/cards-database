@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon Básico, ponlo en tu Banca y baraja las cartas de tu baraja. Si sale cruz, pon esta Incubadora en la parte inferior de tu baraja en vez de en la pila de descartes.",
 		it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon Base, mettilo nella tua panchina e rimischia le carte del tuo mazzo. Se esce croce, metti questa Incubatrice Uova in fondo al tuo mazzo invece che nella pila degli scarti.",
 		pt: "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon Básico no seu baralho, coloque-o no seu Banco e embaralhe o seu baralho. Se sair coroa, coloque esta Incubadora de Ovo como a carta de baixo do seu baralho ao invés da pilha de descarte.",
-		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Basis-Pokémon, lege es auf deine Bank und mische dein Deck. Lege bei Zahl diese Ei-Brutmaschine unter dein Deck, anstatt sie auf deinen Ablagestapel zu legen."
+		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Basis-Pokémon, lege es auf deine Bank und mische dein Deck. Lege bei Zahl diese Ei-Brutmaschine unter dein Deck, anstatt sie auf deinen Ablagestapel zu legen. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
