@@ -4,7 +4,7 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Electivire FB LV.X",
-		fr: "Elekable ",
+		fr: "Elekable FB NIV.X",
 		de: "Elevoltek FB"
 	},
 	illustrator: "Ryo Ueda",
