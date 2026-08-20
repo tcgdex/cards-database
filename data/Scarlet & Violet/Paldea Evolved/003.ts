@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life.",
+		de: "Es reist getragen von saisonalen Winden umher. Hat es all seine Baumwollsamen verbraucht, endet damit seine Reise und auch sein Leben."
 	},
 }
 

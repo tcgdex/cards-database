@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		de: "Es haust in düsteren Höhlen, wo es mit seinen spitzen Klauen Edelsteine ausgräbt und verspeist."
 	},
 }
 

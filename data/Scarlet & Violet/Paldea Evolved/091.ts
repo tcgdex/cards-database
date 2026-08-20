@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
+		de: "Es lullt Kinder mittels Hypnose in den Schlaf und entführt sie. In sternklaren Nächten ist besondere Vorsicht geboten."
 	},
 }
 

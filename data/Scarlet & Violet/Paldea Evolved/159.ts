@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+		de: "Es fungiert als fliegender Transporter, der kleine Pokémon in seinem Schnabel trägt. Um seine Flügel zu schonen, treibt es auf den Wellen."
 	},
 }
 

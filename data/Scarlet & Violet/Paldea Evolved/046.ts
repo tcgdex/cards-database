@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+		de: "Es trägt immer Nahrung bei sich. Man sagt, dass viele Menschen in Not nur dank seiner Essensration überlebt hätten."
 	},
 }
 

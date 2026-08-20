@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+		de: "Es überfällt Gruppen von Gladiantri und Caesurio, um Metall zu sammeln, das es zum Herstellen seines großen, robusten Hammers benötigt."
 	},
 }
 

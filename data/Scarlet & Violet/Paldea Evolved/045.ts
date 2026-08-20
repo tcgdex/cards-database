@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+		de: "Seine langen Ohren sind hervorragende Sensoren, mit denen es Geräusche unter Wasser unterscheiden und zuordnen kann."
 	},
 }
 

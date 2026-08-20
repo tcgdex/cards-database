@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Though very small, the brain in its tail is still considered an important organ because it emits powerful psychic energy.",
+		de: "Das Gehirn in seinem Schweif ist zwar winzig, stellt jedoch ein wichtiges Organ dar, da es mächtige Psycho-Kräfte freisetzt."
 	},
 }
 

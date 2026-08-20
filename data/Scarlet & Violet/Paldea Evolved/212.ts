@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+		de: "Sein Ruf ähnelt einer Beschwörung. Man sagt, dass er in seltenen Fällen über die Kraft verfüge, glücklich zu machen."
 	},
 }
 

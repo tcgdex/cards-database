@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
+		de: "Normalerweise sind Dartiri friedfertig, doch wenn sie kämpfen, ändert sich ihr Hormonhaushalt und sie werden angriffslustig."
 	},
 }
 

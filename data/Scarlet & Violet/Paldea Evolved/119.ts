@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
+		de: "Der Anführer steht an erster Stelle und gibt die Befehle. Er ist das stärkste und schlauste Glied dieses sechsteiligen Pokémon."
 	},
 }
 

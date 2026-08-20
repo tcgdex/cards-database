@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+		de: "Wenn es sich nicht bewegt, steigt sein Stresslevel ins Unermessliche und es geht ihm schlecht."
 	},
 }
 

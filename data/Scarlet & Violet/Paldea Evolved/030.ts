@@ -112,6 +112,7 @@ const card: Card = {
 
 	description: {
 		en: "It has top-notch flying capabilities. It flies around easily, even while carrying prey that weighs more than 220 lbs.",
+		de: "Es verfügt über erstklassige Flugfertigkeiten und kann selbst mit ergriffener Beute, die mehr als 100 kg wiegt, problemlos umherfliegen."
 	},
 }
 

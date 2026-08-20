@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head.",
+		de: "Bewunderer dieses Pokémon erkennen offenbar am Duft, den die Blüte auf seinem Kopf verströmt, wo ein Exemplar geboren wurde."
 	},
 }
 
