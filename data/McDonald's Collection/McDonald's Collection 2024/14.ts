@@ -33,7 +33,7 @@ const card: Card = {
 				es: "Bloqueo de Mandíbulas",
 				it: "Serrafauci",
 				pt: "Travamento de Mandíbula",
-				de: "Kiefersperre"
+				de: "Fesselbiss"
 			},
 			damage: 30,
 			effect: {
