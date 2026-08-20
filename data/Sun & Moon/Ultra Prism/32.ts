@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
 	},
 
 	thirdParty: {

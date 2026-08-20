@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 150 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 150 danni a uno dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon. Este ataque causa 150 pontos de dano a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon deines Gegners 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon deines Gegners 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
+		de: "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich."
 	},
 
 	thirdParty: {

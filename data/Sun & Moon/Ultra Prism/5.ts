@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Rosélia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Mueve cualquier cantidad de Energías Grass de tus Pokémon a tus otros Pokémon de la manera que desees.",
 				it: "Distribuisci a piacimento tutte le Energie Grass assegnate ai tuoi Pokémon.",
 				pt: "Mova qualquer número de Energia Grass dos seus Pokémon para outros Pokémon seus como desejar.",
-				de: "Verschiebe beliebig viele Grass-Energien von deinen Pokémon beliebig auf deine anderen Pokémon."
+				de: "Verschiebe beliebig viele {G}-Energien von deinen Pokémon beliebig auf deine anderen Pokémon."
 			},
 			damage: 100,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+		de: "Mit den Bewegungen eines Tänzers holt es aus und schlägt mit Ranken um sich, die giftige Dornen haben."
 	},
 
 	thirdParty: {

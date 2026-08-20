@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It sends out electromagnetic waves, which let it float through the air. Touching it while it's eating electricity will give you a full-body shock.",
+		de: "Es sendet elektromagnetische Wellen aus und segelt durch die Luft. Berührt man es, während es Strom saugt, bekommt man einen Schlag."
 	},
 
 	thirdParty: {

@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Eclipse de Sol GX",
 				it: "Eclissi di Sole-GX",
 				pt: "Eclipse do Sol GX",
-				de: "Solarfinsternis GX"
+				de: "Solarfinsternis-GX"
 			},
 			effect: {
 				en: "You can use this attack only if you have more Prize cards remaining than your opponent. (You can’t use more than 1 GX attack in a game.)",

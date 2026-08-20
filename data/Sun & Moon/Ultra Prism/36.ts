@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Water de este Pokémon.",
 				it: "Scarta un’Energia Water assegnata a questo Pokémon.",
 				pt: "Descarte 1 Energia Water deste Pokémon.",
-				de: "Lege 1 Water-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {W}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
+		de: "Da es seit jeher Beute im Wasser jagt, entwickelte es einen Rettungsring."
 	},
 
 	thirdParty: {

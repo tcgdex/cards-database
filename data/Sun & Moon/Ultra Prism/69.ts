@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
+		de: "Hippopotas"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,7 @@ const card: Card = {
 				es: "Este ataque hace 10 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 10 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 10 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "100+",
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+		de: "Es wirbelt im Körper gespeicherten Sand durch Öffnungen und generiert so einen Sandwirbelsturm."
 	},
 
 	thirdParty: {

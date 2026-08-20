@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
+		de: "Sein eisiger Atem beträgt -50 °C. Einige der älteren Einwohner von Alola nennen es bei seinem früheren Namen „Ke’oke’o“."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Sandshrew",
 		fr: "Sabelette d’Alola",
+		de: "Alola-Sandan"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's steel spikes are sheathed in ice. Stabs from these spikes cause deep wounds and severe frostbite as well.",
+		de: "Eis bedeckt seine stählernen Stacheln. Ein Angriff mit diesen Stacheln führt neben tiefen Wunden auch zu Erfrierungen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
+		de: "Alola-Digda"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Descarta cualquier cantidad de cartas de Energía Metal de tu mano. Este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta un numero qualsiasi di carte Energia Metal che hai in mano. Questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte qualquer número de cartas de Energia Metal da sua mão. Este ataque causa 30 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege beliebig viele Metal-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege beliebig viele {M}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "30×",
 
@@ -75,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+		de: "Man hält es für die Verkörperung der Göttinnen des Landes. In der Alola-Region wird es daher außerordentlich geschätzt."
 	},
 
 	thirdParty: {
