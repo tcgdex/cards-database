@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
+		de: "Über die Lücken zwischen seinen farbenfrohen Rüschen setzt es Psycho-Kräfte frei. Es kann eine Geschwindigkeit von bis zu 200 km/h erreichen."
 	},
 
 	variants: [

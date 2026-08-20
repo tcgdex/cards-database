@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its sweat is sweet, like syrup made from boiled- down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
+		de: "Sein Schweiß schmeckt so süß wie eingekochtes Obst und wurde daher früher, als es nur wenige Süßungsmittel gab, sehr geschätzt."
 	},
 
 	variants: [

@@ -51,6 +51,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon makes its home near volcanoes. At the end of the day, Magby soaks in magma, resting and recovering from the day's fatigue.",
+		de: "Es lebt in der Nähe von Vulkanen. Nach einem anstrengenden Tag badet es in Magma und schöpft so neue Energie."
 	},
 
 	variants: [

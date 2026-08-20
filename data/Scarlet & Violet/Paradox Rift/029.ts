@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+		de: "Es kontrolliert Flammen von 3000 ℃. Mühelos schwimmt es durch das Meer aus Lava, das es durch Schmelzen von Gestein und Kies erzeugt."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
+		de: "Aus dem Fortsatz an seinem Kopf sondert es eine süß duftende, sirupartige Flüssigkeit ab. Es lebt in Tümpeln, die reich an Wasserpflanzen sind."
 	},
 
 	variants: [

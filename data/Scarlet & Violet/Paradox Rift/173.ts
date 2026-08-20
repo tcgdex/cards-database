@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Pon 1 carta de Energía Básica de tu pila de descartes en tu mano.",
 		it: "Pesca due carte. Prendi una carta Energia base dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
 		pt: "Compre 2 cartas. Coloque uma carta de Energia Básica da sua pilha de descarte na sua mão.",
-		de: "Ziehe 2 Karten. Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand."
+		de: "Ziehe 2 Karten. Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

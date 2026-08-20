@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
+		de: "Die Angst, die in ein Gefäß für uralte Rituale gegossen wurde, hüllte sich in Steine und Erde und wurde zu diesem Pokémon."
 	},
 
 	variants: [

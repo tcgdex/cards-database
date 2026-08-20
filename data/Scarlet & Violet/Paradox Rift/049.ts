@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
+		de: "Tectass leben in Tiefseehöhlen und versunkenen Schiffswracks. Sie liefern sich Kämpfe mit Kaocto, nach denen der Sieger den Verlierer verspeist."
 	},
 
 	variants: [
