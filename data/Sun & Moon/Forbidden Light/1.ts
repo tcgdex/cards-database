@@ -67,10 +67,22 @@ const card: Card = {
 		de: "Es besteht aus sechs Eiern. Krabbox versucht oft, es sich einzuverleiben, doch wehrt es sich tapfer mit seinen Psycho-Kräften."
 	},
 
-	thirdParty: {
-		cardmarket: 355522,
-		tcgplayer: 165648
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 165648,
+				cardmarket: 355522
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 165648,
+				cardmarket: 355522
+			}
+		}
+	]
 }
 
 export default card
