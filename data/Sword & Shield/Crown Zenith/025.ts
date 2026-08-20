@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Volcarona scatters burning scales. Some say it does this to start fires. Others say it's trying to rescue those that suffer in the cold.",
+		de: "Einige sagen, es verstreue glühenden Flügelstaub, um Brände auszulösen. Andere meinen, es rette dadurch jene, die unter Kälte leiden."
 	},
 
 	

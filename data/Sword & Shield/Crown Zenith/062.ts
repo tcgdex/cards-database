@@ -59,7 +59,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
+		de: "Anscheinend steht die Zunahme seiner Kraft mit den Mondphasen in Verbindung, da es bei Vollmond aktiv wird."
 	},
 
 	

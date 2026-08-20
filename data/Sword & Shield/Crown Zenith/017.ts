@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+		de: "Ein warmherziges Pokémon, das über heilende und segnende Kräfte verfügt. In längst vergangenen Zeiten herrschte es über Galar."
 	},
 
 	

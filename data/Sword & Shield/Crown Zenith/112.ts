@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		de: "Es kann die menschliche Sprache nachahmen. Versammeln sie sich, bringen sich alle dasselbe bei."
 	},
 
 	

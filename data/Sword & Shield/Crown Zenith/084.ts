@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
+		de: "Das Leben bei einem kriegerischen Seefahrervolk hat es stärker gemacht. Manche Stellen an seinem Körper wandelten sich dabei zu Eisen."
 	},
 
 	

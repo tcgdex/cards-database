@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
+		de: "Es ist zwar sehr zutraulich, aber wegen seiner Angewohnheit zu beißen wird sein Training mit der Zeit zu einer ziemlichen Herausforderung."
 	},
 
 	

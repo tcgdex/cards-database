@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Psychic de tu pila de descartes a 1 de tus Pokémon.",
 			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia Psychic dalla tua pila degli scarti.",
 			pt: "Ligue até 2 cartas de Energia Psychic da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege bis zu 2 Psychic-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+			de: "Lege bis zu 2 {P}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		de: "Die Gene von Mew wurden neu angeordnet, wodurch dieses Pokémon entstand. Es hat ein wildes Herz."
 	},
 
 	

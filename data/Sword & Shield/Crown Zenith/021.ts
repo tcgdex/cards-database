@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene alguna Energía Fire unida a él, no tiene ningún Coste de Retirada.",
 			it: "Se questo Pokémon ha delle Energie Fire assegnate, non ha costo di ritirata.",
 			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, hat es keine Rückzugskosten."
+			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+		de: "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus."
 	},
 
 	

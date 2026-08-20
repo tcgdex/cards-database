@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Bulky pincers account for one third of Scizor's body weight. A single swing of one of these pincers will crush a boulder completely.",
+		de: "Mit einer seiner großen Scheren, die ein Drittel seines Körpergewichts ausmachen, kann es Felsen mit einem einzigen Schlag zermalmen."
 	},
 
 	
