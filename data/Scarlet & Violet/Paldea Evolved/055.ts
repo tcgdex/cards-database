@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+		de: "Es wandert in eisigen Schneegebieten umher. Mit den starken Muskeln und der dicken Fettschicht unter seiner Haut schützt es seinen Körper."
 	},
 }
 

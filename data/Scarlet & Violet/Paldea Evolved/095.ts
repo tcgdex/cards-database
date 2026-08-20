@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
+		de: "Wenn es seine Schaufel verliert, steckt es etwas anderes in seinen Kopf, zum Beispiel einen Zweig. So lenkt es sich ab, bis es eine neue findet."
 	},
 }
 

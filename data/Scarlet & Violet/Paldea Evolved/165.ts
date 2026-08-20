@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
+		de: "Seine hohe Intelligenz ist angeblich darauf zurückzuführen, dass es über ein größeres Gehirn verfügt als andere Vogel-Pokémon."
 	},
 }
 

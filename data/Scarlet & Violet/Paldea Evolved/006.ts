@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
+		de: "Es liebt süßen Baumsaft. Mit seinem Horn, auf das es sehr stolz ist, schleudert es Rivalen hinfort, um allen Baumsaft für sich zu beanspruchen."
 	},
 }
 

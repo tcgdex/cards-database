@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+		de: "Aus seinem Maul stößt es unfassbare Kälte aus, die sogar glühendes Magma augenblicklich gefrieren lässt."
 	},
 }
 

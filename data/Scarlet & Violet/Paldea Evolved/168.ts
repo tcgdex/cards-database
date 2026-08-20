@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
+		de: "Sie bauen große Nester mit diversen Räumen, die alle unterschiedlichen Zwecken dienen, wie etwa dem Schlafen oder Essen."
 	},
 }
 

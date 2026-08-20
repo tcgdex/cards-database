@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 carta de tu mano en la parte inferior de tu baraja. Si lo haces, roba cartas hasta que tengas 5 cartas en tu mano. (Si no tienes otras cartas en tu mano, no puedes usar esta carta).",
 		it: "Prendi una carta che hai in mano e mettila in fondo al tuo mazzo. Se lo fai, pesca fino ad avere cinque carte in mano. Se non hai altre carte in mano, non puoi usare questa carta.",
 		pt: "Coloque uma carta da sua mão como a carta de baixo do seu baralho. Se fizer isto, compre cartas até ter 5 cartas na sua mão. (Se você não tiver nenhuma outra carta na sua mão, não poderá usar esta carta.)",
-		de: "Lege 1 Karte aus deiner Hand unter dein Deck. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. (Wenn du keine anderen Karten auf deiner Hand hast, kannst du diese Karte nicht einsetzen.)"
+		de: "Lege 1 Karte aus deiner Hand unter dein Deck. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. (Wenn du keine anderen Karten auf deiner Hand hast, kannst du diese Karte nicht einsetzen.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

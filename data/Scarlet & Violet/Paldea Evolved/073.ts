@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
+		de: "Bei der Verdauung erzeugt es Elektrizität. Mit seinen fünf harten Zähnen schabt es Algen von Oberflächen ab und frisst sie."
 	},
 }
 

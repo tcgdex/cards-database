@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+		de: "Vor sehr langer Zeit verließ es das Meer, um an Land zu leben. Angeblich ist es eng mit Wailmer verwandt."
 	},
 }
 

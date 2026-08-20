@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+		de: "Obwohl es vorgibt, ein Baum zu sein, kommt seine Zusammensetzung einem Stein näher als einer Pflanze."
 	},
 }
 

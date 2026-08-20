@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+		de: "Sein Rumpf fungiert als Wabe für die Larven, die es mithilfe verschiedener Pheromone frei herumkommandieren kann."
 	},
 }
 

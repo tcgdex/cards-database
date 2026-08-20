@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+		de: "Dieses Pokémon kann in seiner großen Wamme Energie speichern. Setzt es diese auf einen Schlag frei, werden dadurch Feinde hinfortgeblasen."
 	},
 }
 

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a un Pokémon, proporciona cualquier tipo de Energía, pero proporciona solo una Energía a la vez.\nSi el Pokémon al que está unida esta carta tiene cualquier otra Energía Especial unida a él, esta carta proporciona 1 Energía {C} en vez de una Energía de cualquier otro tipo.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce un'Energia di qualsiasi tipo, ma solo una alla volta.\nSe il Pokémon a cui è assegnata questa carta ha un'altra Energia speciale assegnata, invece fornisce Energia {C}.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá todo tipo de Energia, mas fornecerá 1 Energia por vez.\nSe o Pokémon ao qual esta carta está ligada tiver qualquer outra Energia Especial ligada a ele, esta carta fornecerá Energia {C}.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur 1 Energie.\nWenn an das Pokémon, an das diese Karte angelegt ist, mindestens 1 andere Spezial-Energie angelegt ist, liefert diese Karte stattdessen {C}-Energie."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur 1 Energie. Wenn an das Pokémon, an das diese Karte angelegt ist, mindestens 1 andere Spezial-Energie angelegt ist, liefert diese Karte stattdessen {C}-Energie."
 	},
 
 	energyType: "Special",

@@ -113,6 +113,7 @@ const card: Card = {
 
 	description: {
 		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
+		de: "Es ist das faulste Pokémon der Welt, doch es kann eine fürchterliche Kraft freisetzen, wenn es die angestaute Energie auf einmal einsetzt."
 	},
 }
 

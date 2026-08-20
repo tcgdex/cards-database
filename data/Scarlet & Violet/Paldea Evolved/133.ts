@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+		de: "Dieses hinterlistige Pokémon nutzt den Schutz der Dunkelheit, um ahnungsloser Beute aufzulauern."
 	},
 }
 

@@ -111,6 +111,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+		de: "Erkennt es Gefahr, öffnet es seine kristallenen Blütenblätter, um aus seinem kegelförmigen Körper Strahlen abzufeuern."
 	},
 }
 

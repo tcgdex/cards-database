@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love.",
+		de: "Seine Herzform macht es sehr beliebt. In einigen Gegenden besteht noch heute der Brauch, einer Person, die man liebt, ein Liebiskus zu schenken."
 	},
 }
 

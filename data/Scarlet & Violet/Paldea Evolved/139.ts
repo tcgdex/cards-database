@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The two heads do not get along at all. If you don't give each head the same amount of attention, they'll begin fighting out of jealousy.",
+		de: "Seine Köpfe vertragen sich nicht. Schenkt man beiden nicht das gleiche Maß an Aufmerksamkeit, beginnen sie aus Eifersucht einen heftigen Streit."
 	},
 }
 

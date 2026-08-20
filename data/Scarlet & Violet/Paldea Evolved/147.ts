@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
+		de: "Zum Spaß füllt es seine Schürze aus Brustgefieder und ausgefallenen Federn mit allerlei Dingen, nur um diese von hoch oben wieder fallen zu lassen."
 	},
 }
 
