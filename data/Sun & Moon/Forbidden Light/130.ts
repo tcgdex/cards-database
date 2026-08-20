@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si 1 de tus Pokémon Fairy quedó Fuera de Combate durante el último turno de tu rival.\n\nPon 2 cartas de tu pila de descartes en tu mano.",
 		it: "Puoi giocare questa carta solo se uno dei tuoi Pokémon Fairy è stato messo KO durante l’ultimo turno del tuo avversario.\n\nPrendi due carte dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 		pt: "Você só pode jogar esta carta se 1 dos seus Pokémon Fairy tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nColoque 2 cartas da sua pilha de descarte na sua mão.",
-		de: "Du kannst diese Karte nur spielen, wenn 1 deiner Fairy-Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nNimm 2 Karten aus deinem Ablagestapel auf deine Hand."
+		de: "Du kannst diese Karte nur spielen, wenn 1 deiner {FAIRY}-Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde. Nimm 2 Karten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -52,7 +52,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
+		de: "Mit dem Stiel auf seinem Kopf hängt es sich an Äste. Bei starkem Wind kann es durchaus mal herunterfallen."
 	},
 
 	dexId: [273],

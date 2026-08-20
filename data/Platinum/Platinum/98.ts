@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Show Off",
 				fr: "Crâneur",
-				de: "Show Off"
+				de: "Vorzeigen"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Take Down"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Tauros does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Tauros s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Tauros does 10 damage to itself."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt Tauros sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature."
+		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+		de: "Sobald es einen Gegner ins Visier genommen hat, rennt es mit dem Kopf voran auf ihn zu."
 	},
 
 	variants: [

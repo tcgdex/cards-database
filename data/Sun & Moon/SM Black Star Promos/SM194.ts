@@ -72,6 +72,16 @@ const card: Card = {
 	description: {
 		en: "Skilled in deduction, he's a self-proclaimed \"great detective.\" His detective hat is his trademark.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368857,
+				tcgplayer: 185254
+			}
+		}
+	],
 }
 
 export default card

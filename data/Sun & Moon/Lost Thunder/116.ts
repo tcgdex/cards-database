@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes evitar todo el daño infligido a este Pokémon por ataques de tu rival hasta el final del próximo turno de tu rival.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi prevenire tutti i danni inflitti a questo Pokémon dagli attacchi del tuo avversario fino alla fine del suo prossimo turno.",
 				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você poderá prevenir todo o dano causado a este Pokémon por ataques do seu oponente até o final da próxima vez de jogar do seu oponente.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners allen Schaden durch Attacken deines Gegners, der diesem Pokémon zugefügt wird, verhindern."
+				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken deines Gegners zugefügt wird, verhindern."
 			},
 		},
 	],
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+		de: "Es ist sehr stark und sein Panzer ist steinhart. Setzt es Fuchtler ein, kann es einen Berg umstürzen."
 	},
 
 	thirdParty: {

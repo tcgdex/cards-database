@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seedot"
+		en: "Seedot",
+		fr: "Grainipiot"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade"
 		},
 
 		damage: 20,

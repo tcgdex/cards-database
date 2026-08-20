@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Antique Armor Fossil",
+		fr: "Fossile Armure Ancien",
 		de: "Antikes Panzerfossil"
 	},
 

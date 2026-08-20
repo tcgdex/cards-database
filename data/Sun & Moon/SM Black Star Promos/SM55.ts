@@ -94,6 +94,16 @@ const card: Card = {
 	description: {
 		en: "It fires arrow quills from its wings with such precision they can pierce a pebble at distances over a hundred yards.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312548,
+				tcgplayer: 164460
+			}
+		}
+	],
 }
 
 export default card

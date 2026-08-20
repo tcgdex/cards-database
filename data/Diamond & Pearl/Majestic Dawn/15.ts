@@ -4,7 +4,7 @@ import Set from '../Majestic Dawn'
 const card: Card = {
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptera",
+		fr: "Ptéra",
 		de: "Aerodactyl"
 	},
 

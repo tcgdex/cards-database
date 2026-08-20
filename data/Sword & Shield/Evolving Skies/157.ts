@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 1 Herramienta Pokémon unida a 1 de sus Pokémon en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere una carta Oggetto Pokémon assegnata a uno dei suoi Pokémon e aggiungerla alle carte che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar 1 Ferramenta Pokémon ligada a 1 dos próprios Pokémon na própria mão.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Pokémon-Ausrüstung, die an 1 seiner Pokémon angelegt ist, auf seine Hand nehmen."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Pokémon-Ausrüstung, die an 1 seiner Pokémon angelegt ist, auf seine Hand nehmen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

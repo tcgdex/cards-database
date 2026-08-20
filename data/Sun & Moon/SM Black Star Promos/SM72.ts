@@ -96,6 +96,16 @@ const card: Card = {
 	description: {
 		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301984,
+				tcgplayer: 151701
+			}
+		}
+	],
 }
 
 export default card

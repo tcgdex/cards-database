@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon del tuo avversario costano Colorless in più.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, os ataques dos Pokémon do seu oponente custam Colorless a mais.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Pokémon deines Gegners um Colorless."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Pokémon deines Gegners um {C}."
 			},
 		},
 	],
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
+		de: "Sein Körper ist von einer schleimigen Schutzschicht umhüllt, die voller Bakterien steckt. Nach dem Anfassen also Hände waschen!"
 	},
 
 	thirdParty: {

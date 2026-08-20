@@ -85,6 +85,16 @@ const card: Card = {
 	description: {
 		en: "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up the fields it passes over.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366057,
+				tcgplayer: 180530
+			}
+		}
+	],
 }
 
 export default card

@@ -84,6 +84,16 @@ const card: Card = {
 	description: {
 		en: "It's in its nature to store electricity. It feel stressed now and then if it's unable to fully discharge the electricity.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 363384,
+				tcgplayer: 179377
+			}
+		}
+	],
 }
 
 export default card

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Swim",
 				fr: "Nager",
-				de: "Swim"
+				de: "Schwimmen"
 			},
 			effect: {
 				en: "If your opponent has any Water Energy attached to any of his or her Pokémon, you may do 30 damage to any 1 Benched Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si les Pokémon de votre adversaire possèdent de l'Énergie Water, vous pouvez infliger 30 dégâts à n'importe lequel des Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "If your opponent has any  Energy attached to any of his or her Pokémon, you may do 30 damage to any 1 Benched Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wenn an den gegnerischen Pokémon mindestens 1 {W}-Energie angelegt ist, kannst du 1 beliebigen Pokémon auf der Bank 30 Schadenspunkte zufügen, anstelle dem Verteidigenden Pokémon Schaden zuzufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Water Slide",
 				fr: "Toboggan d'O",
-				de: "Water Slide"
+				de: "Wasserrutsche"
 			},
 			effect: {
 				en: "You may move all Energy cards attached to Golduck to 1 of your Benched Pokémon. If you do, this attack does 40 damage plus 20 more damage.",
 				fr: "Vous pouvez déplacer toutes les cartes Énergie attachées à Akwakwak sur 1 de vos Pokémon de Banc. Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "You may move all Energy cards attached to Golduck to 1 of your Benched Pokémon. If you do, this attack does 40 damage plus 20 more damage."
+				de: "Du kannst alle an Entoron angelegten Energiekarten entfernen und sie an 1 Pokémon auf deiner Bank anlegen. Wenn du das machst, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -72,7 +73,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers."
+		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+		de: "Die gut ausgeprägten Flossen ermöglichen einen sowohl eleganten als auch dynamischen Schwimmstil."
 	},
 
 	variants: [

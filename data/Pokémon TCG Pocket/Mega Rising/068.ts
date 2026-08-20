@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frillish"
+		en: "Frillish",
+		fr: "Viskuse"
 	},
 
 	illustrator: "Apios",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O"
 		},
 
 		damage: 20,

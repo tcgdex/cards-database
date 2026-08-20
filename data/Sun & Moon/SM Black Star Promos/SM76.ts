@@ -88,6 +88,16 @@ const card: Card = {
 	description: {
 		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295296,
+				tcgplayer: 146980
+			}
+		}
+	],
 }
 
 export default card

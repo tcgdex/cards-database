@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	illustrator: "match",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,
@@ -68,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		de: "Es berührt alles, was sich bewegt, mit seinen Ranken. Diese Berührungen kitzeln sehr."
 	},
 
 	thirdParty: {

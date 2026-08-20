@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Swift Swim",
 				fr: "Glissade",
-				de: "Swift Swim"
+				de: "Wassertempo"
 			},
 			effect: {
 				en: "If Lotad has any Water Energy attached to it, Lotad's Retreat Cost is 0.",
 				fr: "Si Nénupiot possède de l'Énergie Water, son coût de retraite est de 0.",
-				de: "If Lotad has any  Energy attached to it, Lotad's Retreat Cost is 0."
+				de: "Wenn an Loturzel mindestens 1 {W}-Energie angelegt ist, hat Loturzel Rückzugskosten 0."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Blot",
 				fr: "Pâté",
-				de: "Blot"
+				de: "Klecks"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Lotad.",
 				fr: "Retirez à Nénupiot 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from Lotad."
+				de: "Entferne 1 Schadensmarke von Loturzel."
 			},
 			damage: 10,
 
@@ -67,12 +67,12 @@ const card: Card = {
 			name: {
 				en: "Jump On",
 				fr: "Sauter",
-				de: "Jump On"
+				de: "Draufspringen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

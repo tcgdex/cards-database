@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Elekid",
-		fr: "Elekid",
+		fr: "Élekid",
 		de: "Elekid"
 	},
 

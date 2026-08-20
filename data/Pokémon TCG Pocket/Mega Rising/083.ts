@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flaaffy"
+		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Electric Punch"
+			en: "Electric Punch",
+			fr: "Poing Électrique"
 		},
 
 		damage: 40,

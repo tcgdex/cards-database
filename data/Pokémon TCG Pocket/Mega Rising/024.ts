@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant"
+		en: "Trevenant",
+		fr: "Desséliande"
 	},
 
 	illustrator: "Hiroyuki Yamamoto",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Phantump"
+		en: "Phantump",
+		fr: "Brocélôme"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Horn Leech"
+			en: "Horn Leech",
+			fr: "Encornebois"
 		},
 
 		damage: 60,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts de ce Pokémon."
 		}
 	}],
 

@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Flower Aroma",
 				fr: "Arôme floral",
-				de: "Flower Aroma"
+				de: "Blumenduft"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Shaymin. The Defending Pokémon is now Asleep.",
 				fr: "Retirez à Shaymin 2 marqueurs de dégât. Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Remove 2 damge counters from Shaymin. The Defending Pokémon is now Asleep."
+				de: "Entferne 2 Schadensmarken von Shaymin. Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Damage Aid",
 				fr: "Aide aux dégâts",
-				de: "Damage Aid"
+				de: "Schadensbeistand"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon.",
 				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires. Ensuite, retirez au Pokémon Défenseur tous ses États Spéciaux.",
-				de: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon."
+				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu. Danach entferne alle Speziellen Zustände vom Verteidigenden Pokémon."
 			},
 			damage: "30+",
 
@@ -78,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
+		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+		de: "Es lebt auf Blumenwiesen und rollt sich ein, um wie eine Blume auszusehen und nicht entdeckt zu werden."
 	},
 
 	variants: [

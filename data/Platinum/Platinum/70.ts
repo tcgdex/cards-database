@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Fire Punch",
 				fr: "Poing de feu",
-				de: "Fire Punch"
+				de: "Feuerschlag"
 			},
 
 			damage: 20,
@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires."
+		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+		de: "Dieses flinke PKMN löscht vor dem Schlafengehen die Flamme auf seinem Schweif, um Feuer zu verhindern."
 	},
 
 	variants: [

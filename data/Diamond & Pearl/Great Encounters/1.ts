@@ -4,7 +4,7 @@ import Set from '../Great Encounters'
 const card: Card = {
 	name: {
 		en: "Blaziken",
-		fr: "Brasegali",
+		fr: "Braségali",
 		de: "Lohgock"
 	},
 

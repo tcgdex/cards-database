@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Este ataque hace 50 puntos de daño por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
 			it: "Questo attacco infligge 50 danni per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
 			pt: "This attack does 50 damage for each of your opponent's Pokémon in play that has an Ability.",
-			de: "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes der Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte zu."
 		},
 
 		damage: "50×",
@@ -78,7 +78,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple."
+		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple.",
+		de: "Dieses Pokémon fliegt mit seinen Flügeln aus Apfelschale und spuckt extrem sauren Speichel aus. Es nimmt die Gestalt eines Apfels an."
 	},
 
 	regulationMark: "E",

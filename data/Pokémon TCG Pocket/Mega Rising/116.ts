@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aromatisse"
+		en: "Aromatisse",
+		fr: "Cocotine"
 	},
 
 	illustrator: "kirisAki",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Spritzee"
+		en: "Spritzee",
+		fr: "Fluvetin"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Confounding Cologne"
+			en: "Confounding Cologne",
+			fr: "Fragrance Étourdissante"
 		},
 
 		damage: 40,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

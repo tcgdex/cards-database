@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148 degrees Fahrenheit."
+		en: "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148 degrees Fahrenheit.",
+		de: "Es fängt seine Beute mit Ketten aus Eiskristallen und kühlt sie auf eine Temperatur von -100 °C ab."
 	},
 
 	dexId: [615],

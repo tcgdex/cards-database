@@ -55,7 +55,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place."
+		en: "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place.",
+		de: "Es lebt in extrem kalten Gebieten. Um sich an Arktilas zu befestigen, lässt es seine Beine an dessen Rücken festfrieren."
 	},
 
 	dexId: [712],

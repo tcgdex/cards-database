@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Copycat"
+		en: "Copycat",
+		fr: "Copieuse"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle your hand into your deck. Draw a card for each card in your opponent's hand."
+		en: "Shuffle your hand into your deck. Draw a card for each card in your opponent's hand.",
+		fr: "Mélangez votre main avec votre deck. Piochez une carte pour chaque carte dans la main de votre adversaire."
 	},
 
 	trainerType: "Supporter",
