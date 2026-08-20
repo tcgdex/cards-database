@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Salandit",
-		fr: "Tritox"
+		fr: "Tritox",
+		de: "Molunk"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Il étourdit ses adversaires avec son gaz toxique,\npuis il les asservit en exécutant une danse envoûtante.",
 		es: "Convierte a sus rivales en devotos súbditos\ntras marearlos con su gas venenoso y seducirlos\ncon los cautivadores movimientos de su cuerpo.",
 		it: "Trasforma gli avversari in seguaci stordendoli con del\ngas tossico per poi sedurli con movenze ammalianti.",
-		de: "Zuerst benebelt es Gegner mit Giftgas, um sie\ndanach mit fesselnden Körperbewegungen zu\nbetören und zu ergebenen Dienern zu machen.",
+		de: "Zuerst benebelt es Gegner mit Giftgas, um sie danach mit fesselnden Körperbewegungen zu betören und zu ergebenen Dienern zu machen.",
 		'pt-br': "Salazzle deixa os oponentes zonzos com seu\ngás venenoso, depois os cativa com movimentos\nfascinantes para transformá-los em servos leais.",
 		ko: "독가스에 어질어질해진 상대를\n요염한 몸놀림으로 유혹해서\n충실한 부하로 만들어 버린다."
 	},

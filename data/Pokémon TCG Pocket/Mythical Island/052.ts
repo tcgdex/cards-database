@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Purrloin",
-		fr: "Chacripan"
+		fr: "Chacripan",
+		de: "Felilou"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "On se laisse facilement éblouir par son pelage\nmagnifique et son allure élégante, mais gare\nà son caractère imprévisible et agressif.",
 		es: "Bajo su hermoso pelaje y cautivador estilo,\nque puede llevar fácilmente a engaño, se\noculta un carácter imprevisible y agresivo.",
 		it: "Pokémon dalla magnifica pelliccia e dalle linee aggraziate,\ndietro cui si nasconde un carattere volubile e feroce.",
-		de: "Man wird schnell von seinem schönen Fell und\nseiner Anmut verleitet, aber es ist ein sehr\nlaunisches und gewalttätiges Pokémon.",
+		de: "Man wird schnell von seinem schönen Fell und seiner Anmut verleitet, aber es ist ein sehr launisches und gewalttätiges Pokémon.",
 		'pt-br': "Não se deixe enganar pela sua pelugem fantástica e figura\nelegante. Este Pokémon é instável e perverso.",
 		ko: "아름다운 털과 스타일에\n쉽게 매료되지만 변덕스럽고\n흉포한 포켓몬이다."
 	},

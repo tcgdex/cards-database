@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Il se protège des décharges grâce à sa queue,\nqui dissipe l'électricité dans le sol.",
 		es: "Su cola actúa como toma de tierra\ny descarga electricidad al suelo, lo\nque le protege de los calambrazos.",
 		it: "La sua coda scarica elettricità a terra,\nproteggendolo dalle scosse elettriche.",
-		de: "Mithilfe seines Schweifs entlädt es Elektrizität\nin den Boden, um sich auf diese Weise vor\nelektrischen Schlägen zu schützen.",
+		de: "Mithilfe seines Schweifs entlädt es Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen.",
 		'pt-br': "Sua cauda descarrega a eletricidade\nno solo, protegendo-o contra choques.",
 		ko: "꼬리가 어스 역할을 하여\n전기를 지면으로 흘려보내므로\n자신은 감전되거나 하지 않는다."
 	},

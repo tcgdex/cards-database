@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Les aspérités de Racaillou s'adoucissent au fil\ndes années, tout comme sa personnalité.\nIl devient tout lisse, tout rond, et tout calme.",
 		es: "Con la edad, su temperamento se amansa\ny su cuerpo se va alisando hasta adquirir\nuna forma completamente redonda.",
 		it: "Col passare degli anni le asperità del suo corpo\nvengono levigate, rendendolo perfettamente\nrotondo, e il suo carattere si fa più tranquillo.",
-		de: "Mit dem Alter verliert es zunehmend seine\nKantigkeit, bis es vollkommen rund und auch\ncharakterlich immer ausgeglichener wird.",
+		de: "Mit dem Alter verliert es zunehmend seine Kantigkeit, bis es vollkommen rund und auch charakterlich immer ausgeglichener wird.",
 		'pt-br': "Geodude que já viveram muito são completamente\nredondos, porque todas as irregularidades foram polidas\npelo tempo. Sua natureza também se torna calma e tranquila.",
 		ko: "오래 산 꼬마돌은 모가 없이\n동그랗다. 성격도 매우\n차분하고 온화하다."
 	},
