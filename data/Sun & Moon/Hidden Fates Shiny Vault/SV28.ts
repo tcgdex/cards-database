@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magneton",
 		fr: "Magnéton",
+		de: "Magneton"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Shiny rare",
@@ -21,6 +22,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 	stage: "Stage1",
 
@@ -33,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Zap Cannon",
 				fr: "Élecanon",
+				de: "Blitzkanone"
 			},
 			effect: {
 				en: "This Pokémon can't use Zap Cannon during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				de: "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 80,
 
@@ -75,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
+		de: "Seine Stromstärke ist fast dreimal so hoch wie die eines Magnetilos. Es erscheint vermehrt, wenn Flecken auf der Sonne auftauchen."
 	},
 }
 

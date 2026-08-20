@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Zorua",
 		fr: "Zorua",
+		de: "Zorua"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Shiny rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -68,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		de: "Nicht selten überrumpelt es Gegner, indem es ihre Gestalt annimmt und den Überraschungseffekt zur Flucht nutzt."
 	},
 }
 

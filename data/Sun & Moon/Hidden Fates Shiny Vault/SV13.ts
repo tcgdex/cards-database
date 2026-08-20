@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Floating Electrons",
 				fr: "Électrons Flottants",
+				de: "Schwebende Elektronen"
 			},
 			effect: {
 				en: "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
 				fr: "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
+				de: "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Shock",
 				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -71,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		de: "Dieses Pokémon wird oftmals mit einem Pokéball verwechselt. Es lebt vorwiegend in Kraftwerken."
 	},
 }
 
