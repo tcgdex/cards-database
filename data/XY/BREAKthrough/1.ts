@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+		de: "Dieses Pokémon gräbt sich in den Boden und frisst Wurzeln. Die Pilze auf seinem Rücken sind Parasiten."
 	},
 
 	thirdParty: {

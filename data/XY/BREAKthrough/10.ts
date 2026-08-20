@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
 				it: "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
 				pt: "Jogue 4 moedas. Este ataque causa 40 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+		de: "Sie stärken ihre Beinmuskeln, indem sie sich gegenseitig anrempeln. Sie sind sehr freundlich und würden niemals einen Streit anfangen."
 	},
 
 	thirdParty: {

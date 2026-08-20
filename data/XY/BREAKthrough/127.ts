@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+		de: "Wird Staravia zu Staraptor, verlässt es die Gruppe und lebt allein. Seine Spannweite ist gigantisch."
 	},
 
 	thirdParty: {

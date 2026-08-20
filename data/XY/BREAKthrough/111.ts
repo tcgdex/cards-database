@@ -113,6 +113,7 @@ const card: Card = {
 
 	description: {
 		en: "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+		de: "Wenn es mit seinen robusten Hauern Stahl durchbohrt, bleiben diese unversehrt. Es ist von einem festen Panzer umgeben."
 	},
 
 	thirdParty: {

@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Mewtwo-EX",
 		it: "Mewtwo-EX",
 		pt: "Mewtwo-EX",
-		de: "Mewtu-EX"
+		de: "M-Mewtu EX"
 	},
 
 	stage: "MEGA",
