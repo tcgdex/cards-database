@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 20,
@@ -70,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		de: "Ständig pflegt es seine watteartigen Flügel. Falls es schmutzig wird, nimmt es eine Dusche, um sich zu putzen."
 	},
 }
 

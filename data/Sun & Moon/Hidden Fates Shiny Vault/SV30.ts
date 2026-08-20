@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 	illustrator: "Mizue",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Core Beam",
 				fr: "Faisceau Central",
+				de: "Kernstrahl"
 			},
 			effect: {
 				en: "Discard a Metal Energy from this Pokémon.",
 				fr: "Défaussez une Énergie Metal de ce Pokémon.",
+				de: "Lege 1 {M}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+		de: "Seine Zellen sind magnetisch geladen. Es kommuniziert mit anderen, indem es magnetische Impulse aussendet."
 	},
 }
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 	illustrator: "kirisAki",
 	rarity: "Shiny rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Fire Fang",
 				fr: "Crocs Feu",
+				de: "Feuerzahn"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -54,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie erlischt, erlischt auch sein Lebenslicht."
 	},
 }
 

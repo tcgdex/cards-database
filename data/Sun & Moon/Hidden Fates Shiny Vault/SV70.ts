@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Darkrai-GX",
 		fr: "Darkrai-GX",
+		de: "Darkrai-GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Restoration",
 				fr: "Renouveau",
+				de: "Restauration"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put it onto your Bench. Then, attach a Darkness Energy card from your discard pile to this Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon se trouve dans votre pile de défausse, vous pouvez le placer sur votre Banc. Ensuite, attachez une carte Énergie Darkness de votre pile de défausse à ce Pokémon.",
+				de: "Einmal während deines Zuges (bevor du angreifst), wenn sich dieses Pokémon in deinem Ablagestapel befindet, kannst du es auf deine Bank legen. Lege anschließend 1 {D}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 		},
 	],
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Dark Cleave",
 				fr: "Pénombre Pourfendue",
+				de: "Dunkle Spaltung"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 130,
 
@@ -61,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Dead End-GX",
 				fr: "Sans Issue-GX",
+				de: "Sackgasse-GX"
 			},
 			effect: {
 				en: "If your opponent's Active Pokémon is affected by a Special Condition, that Pokémon is Knocked Out. (You can't use more than 1 GX attack in a game.)",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, ce dernier est mis K.O. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, ist jenes Pokémon kampfunfähig. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

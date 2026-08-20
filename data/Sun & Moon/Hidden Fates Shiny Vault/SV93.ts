@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tapu Koko-GX",
 		fr: "Tokorico-GX",
+		de: "Kapu-Riki-GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Aero Trail",
 				fr: "Sentier Aérien",
+				de: "Luftspur"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may move any number of Lightning Energy from your other Pokémon to this Pokémon. If you do, switch this Pokémon with your Active Pokémon.",
 				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez déplacer autant d’Énergie Lightning que vous voulez de vos autres Pokémon vers ce Pokémon. Dans ce cas, échangez ce Pokémon avec votre Pokémon Actif.",
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du beliebig viele {L}-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben. Wenn du das machst, tausche dieses Pokémon gegen dein Aktives Pokémon aus."
 			},
 		},
 	],
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Sky-High Claws",
 				fr: "Griffes Gratte-Ciel",
+				de: "Himmelhohe Klauen"
 			},
 
 			damage: 130,
@@ -58,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Tapu Thunder-GX",
 				fr: "Toko Tonnerre-GX",
+				de: "Kapu-Donner GX"
 			},
 			effect: {
 				en: "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)",
 				fr: "Cette attaque inflige 50 dégâts multipliés par le nombre d’Énergies attachées aux Pokémon de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an alle Pokémon deines Gegners angelegten Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 50,
 
