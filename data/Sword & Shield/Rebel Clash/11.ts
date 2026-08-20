@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows."
+		en: "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows.",
+		de: "Seine Antennen erinnern an dünne Flügel und saugen leicht Flüssigkeit auf. Regentage verbringt es regungslos in Baumhöhlen."
 	},
 
 	variants: [

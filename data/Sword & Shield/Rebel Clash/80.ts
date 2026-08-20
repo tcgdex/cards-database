@@ -35,7 +35,7 @@ const card: Card = {
 				es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por un ataque de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
 				it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
 				pt: "Se este Pokémon for seu Pokémon Ativo e for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 3 contadores de danos no Pokémon Atacante.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
+				de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 			},
 		},
 	],
@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries."
+		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
+		de: "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote."
 	},
 
 	variants: [

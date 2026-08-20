@@ -99,7 +99,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Although it's a bit of a ruffian, this Pokémon will take lost Vullaby under its wing and care for them till they're ready to leave the nest."
+		en: "Although it's a bit of a ruffian, this Pokémon will take lost Vullaby under its wing and care for them till they're ready to leave the nest.",
+		de: "Grypheldis sind ziemliche Grobiane. Begegnet ihnen ein verirrtes Skallyk, kümmern sie sich aber liebevoll um es, bis es das Nest verlassen kann."
 	},
 
 	variants: [

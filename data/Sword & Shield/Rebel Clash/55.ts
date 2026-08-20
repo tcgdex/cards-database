@@ -34,7 +34,7 @@ const card: Card = {
 				es: "Cada vez que unas 1 carta de Energía Water de tu mano a este Pokémon durante tu turno, cúrale 30 puntos de daño.",
 				it: "Ogni volta che assegni una carta Energia Water a questo Pokémon dalla tua mano durante il tuo turno, curalo da 30 danni.",
 				pt: "Sempre que ligar 1 carta de Energia Water da sua mão a este Pokémon durante o seu turno, cure 30 pontos de dano dele.",
-				de: "Jedes Mal, wenn du während deines Zuges 1 Water-Energiekarte aus deiner Hand an dieses Pokémon anlegst, heile 30 Schadenspunkte bei diesem Pokémon."
+				de: "Jedes Mal, wenn du während deines Zuges 1 {W}-Energiekarte aus deiner Hand an dieses Pokémon anlegst, heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 		},
 	],

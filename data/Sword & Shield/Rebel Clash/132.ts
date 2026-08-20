@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
+		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles.",
+		de: "Es legt seine Eier im hintersten Winkel des Nests. Wenn es von Furnifraß bedroht wird, wehrt es sich mit seinen kräftigen Kiefern."
 	},
 
 	variants: [

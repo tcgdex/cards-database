@@ -52,7 +52,7 @@ const card: Card = {
 				es: "Chapoteo Ondulante",
 				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				de: "Platscher"
 			},
 
 			damage: 20,
@@ -83,7 +83,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.",
+		de: "Es baut sein Nest an Steilhängen und nutzt die Seebrise, um beim Gleiten am weiten Himmel an Höhe zu gewinnen."
 	},
 
 	variants: [
