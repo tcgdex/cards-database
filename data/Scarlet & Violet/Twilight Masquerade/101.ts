@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "When endangered, it may protect itself by increasing its magnetism and drawing nearby iron objects to its body.",
+		de: "Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht."
 	},
 
 	variants: [

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all.",
+		de: "Seine Magensäfte können jedes Gift zersetzen. Es macht ihm nichts aus, Dinge vom Boden zu fressen."
 	},
 
 	variants: [

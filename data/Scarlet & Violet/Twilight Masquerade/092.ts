@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "From the hollows in its arms, it fires the bones of its victims, which are all dried up after being drained of their vitality.",
+		de: "Aus den Hohlräumen in seinen Armen feuert es die Knochen seiner ausgetrockneten Opfer, deren Lebenskraft es ausgesaugt hat."
 	},
 
 	variants: [

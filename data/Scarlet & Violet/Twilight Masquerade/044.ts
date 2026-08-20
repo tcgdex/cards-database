@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.",
+		de: "Seine Brust-, Rücken- und Schwanzflossen bewegen sich anmutig. Daher nennt man es den „Wassertänzer“."
 	},
 
 	variants: [

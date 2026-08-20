@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+		de: "Der Status eines Pinsirs hängt von seinen Hörnern ab. Je dicker und stattlicher diese sind, desto beliebter ist es beim anderen Geschlecht."
 	},
 
 	variants: [

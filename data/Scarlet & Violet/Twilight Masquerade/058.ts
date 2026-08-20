@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
+		de: "Sein Gedächtnis ist schlecht, aber indem es so wenig Energie wie möglich für sein Gehirn nutzt, kann es sie stattdessen zum Kämpfen verwenden."
 	},
 
 	variants: [

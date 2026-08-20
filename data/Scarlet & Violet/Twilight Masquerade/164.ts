@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta tiene todos sus PS y fuese a quedar Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, no queda Fuera de Combate y sus PS restantes pasan a ser 10. Después, descarta esta carta.",
 		it: "Se il Pokémon a cui è assegnata questa carta ha tutti i PS e sta per essere messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, non viene messo KO e i suoi PS rimanenti diventano 10. Poi scarta questa carta.",
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver PS cheio e estiver prestes a ser Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, ele não será Nocauteado e o PS restante dele será 10. Em seguida, descarte esta carta.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig würde, wird es nicht kampfunfähig und seine verbleibenden KP sind gleich 10. Lege anschließend diese Karte auf deinen Ablagestapel."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Wenn das Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig würde, wird es nicht kampfunfähig und seine verbleibenden KP sind gleich 10. Lege anschließend diese Karte auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

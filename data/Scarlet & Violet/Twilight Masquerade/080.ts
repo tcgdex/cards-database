@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon uses its psychic powers while it sleeps. The contents of Abra's dreams affect the powers that the Pokémon wields.",
+		de: "Es setzt seine Psycho-Kräfte selbst im Schlaf ein. Der Inhalt seiner Träume hat Einfluss auf die Kräfte, die es verwendet."
 	},
 
 	variants: [

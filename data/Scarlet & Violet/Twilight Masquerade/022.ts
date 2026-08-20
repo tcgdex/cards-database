@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
+		de: "Es hält sich gern an dunklen und kalten Orten auf wie etwa unter Fußböden oder hinter Regalen. Nach Sonnenuntergang geht es auf Beutejagd."
 	},
 
 	variants: [

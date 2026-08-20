@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+		de: "Kadabras Psycho-Kräfte ermöglichen es ihm, schwebend zu schlafen. Seinen äußerst elastischen Schweif nutzt es dabei als Kissen."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon came to be when the spirit of a deceased child possessed a tree stump. It now wanders the forest searching for friends.",
+		de: "Es entstand, als sich die Seele eines verstorbenen Kindes in einem Baumstumpf einnistete. Auf der Suche nach Freunden durchstreift es den Wald."
 	},
 
 	variants: [

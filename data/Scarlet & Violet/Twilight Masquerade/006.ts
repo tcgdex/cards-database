@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
+		de: "Es ist sehr schwach und kann sich nur gegen Feinde verteidigen, indem es verzweifelt seine Blätter schüttelt."
 	},
 
 	variants: [

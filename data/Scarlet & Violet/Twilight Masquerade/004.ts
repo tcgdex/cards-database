@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
+		de: "Einige Fischer knüpfen sich aus seinem robusten Faden Netze, mit denen sie dann Fisch-Pokémon fangen."
 	},
 
 	variants: [

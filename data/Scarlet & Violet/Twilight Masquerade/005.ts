@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It wanders in search of food after darkness falls, never nesting in a specific place.",
+		de: "Anstatt sein Netz an einem festen Ort zu spinnen, wandert es nach Einbruch der Dunkelheit auf der Suche nach Beute umher."
 	},
 
 	variants: [

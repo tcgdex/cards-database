@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
+		de: "Es ist zwar artverwandt mit Thermopod, aber jedes Mal, wenn sich die beiden über den Weg krabbeln, streiten sie erbittert miteinander."
 	},
 
 	variants: [

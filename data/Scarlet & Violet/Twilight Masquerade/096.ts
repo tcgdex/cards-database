@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
+		de: "Schlägt es mit seinen anmutigen Flügeln, verteilt es Pheromone, durch die es Menschen und Pokémon in seinen Bann zieht."
 	},
 
 	variants: [
