@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croagunk",
-		fr: "Cradopaud"
+		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il esquive avec souplesse les attaques de ses\nadversaires tout en bondissant dans leur direction,\npuis il riposte de ses griffes empoisonnées.",
 		es: "Esquiva ágilmente los ataques de sus\nenemigos mientras va acortando distancias\npara contraatacar con sus garras venenosas.",
 		it: "Con il suo corpo flessibile schiva l'attacco del\nnemico e lo trafigge al volo con spine velenose.",
-		de: "Mit seinem geschmeidigen Körper weicht es\nAttacken aus und durchbricht die Deckung des\nGegners, um mit seinen Giftklauen zuzustechen.",
+		de: "Mit seinem geschmeidigen Körper weicht es Attacken aus und durchbricht die Deckung des Gegners, um mit seinen Giftklauen zuzustechen.",
 		'pt-br': "Balançando e desviando dos ataques dos inimigos,\neste Pokémon usa seu corpo flexível para se aproximar\ne, em seguida, atacar com suas garras venenosas.",
 		ko: "유연한 몸으로 상대의 공격을 피하며\n깊숙이 뛰어들어 독가시를 꿰찌른다."
 	},

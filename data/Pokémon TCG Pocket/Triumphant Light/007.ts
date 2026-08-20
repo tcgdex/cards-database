@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Pendant sa période de bourgeonnement, il reste\npresque totalement immobile et attend que le soleil se lève.",
 		es: "Permanece casi inmóvil cerrado en un capullo\na la espera de que lo bañen los rayos del sol.",
 		it: "Quando è un bocciolo rimane pressoché\nimmobile in attesa che spunti il sole.",
-		de: "Als Knospe verhält es sich ruhig und bewegt sich kaum,\nwährend es geduldig auf Sonnenschein wartet.",
+		de: "Als Knospe verhält es sich ruhig und bewegt sich kaum, während es geduldig auf Sonnenschein wartet.",
 		'pt-br': "Como um botão, quase não se move. Fica parado,\nesperando tranquilamente a luz do sol aparecer.",
 		ko: "봉오리일 때는 얌전하고\n거의 움직이지 않는다. 햇빛이\n들기를 가만히 기다리고 있다."
 	},

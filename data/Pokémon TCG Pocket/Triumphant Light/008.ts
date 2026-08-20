@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	description: {
@@ -32,7 +33,7 @@ const card: Card = {
 		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil.\nIl déborde alors d'énergie et reste très actif jusqu'au crépuscule.",
 		es: "Adopta esta forma cuando lo bañan los rayos del sol. Siempre\nestá rebosante de energía y se mantiene activo hasta el ocaso.",
 		it: "Assume questa forma dopo essersi esposto\nalla luce solare e aver fatto il pieno di energia.\nResta vivace fino al crepuscolo.",
-		de: "Diese Form nimmt Kinoso an, wenn es viel Sonne\ngetankt und dadurch seine Energie aufgefüllt hat.\nEs bleibt bis zum Sonnenuntergang aktiv.",
+		de: "Diese Form nimmt Kinoso an, wenn es viel Sonne getankt und dadurch seine Energie aufgefüllt hat. Es bleibt bis zum Sonnenuntergang aktiv.",
 		'pt-br': "Após absorver uma grande quantidade de luz solar,\nCherrim assume esta forma. Enquanto estiver assim, fica\ncheio de energia, e seu vigor permanece até o cair do sol.",
 		ko: "태양의 빛을 받아\n기운이 넘치는 모습.\n해가 지기 전까지는 활발하다."
 	},
