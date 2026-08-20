@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Un Pokémon tout à fait pathétique. En de très\nrares occasions, il est capable de sauter haut,\nmais jamais à plus de deux mètres.",
 		es: "Un Pokémon desvalido y patético. A veces es\ncapaz de saltar alto, pero rara vez más de 2 m.",
 		it: "Un Pokémon debole e patetico. Nelle rare\noccasioni in cui spicca alti salti, non riesce\ncomunque a raggiungere i due metri.",
-		de: "Ein schwaches und jämmerliches Pokémon.\nManchmal gelingen ihm hohe Sprünge,\naber über 2 m kommt es selten hinaus.",
+		de: "Ein schwaches und jämmerliches Pokémon. Manchmal gelingen ihm hohe Sprünge, aber über 2 m kommt es selten hinaus.",
 		'pt-br': "Este Pokémon é patético e nem um pouco\npoderoso. Às vezes, até pula bem alto,\nmas nunca mais de dois metros.",
 		ko: "힘없는 한심한 포켓몬이다.\n가끔 높이 뛰어오르지만\n2m를 겨우 넘기는 게 고작이다."
 	},

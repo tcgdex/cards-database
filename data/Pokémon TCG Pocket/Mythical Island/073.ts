@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Son corps étant petit et son organe générateur\nd'électricité peu développé, il se recharge en\naspirant l'électricité des maisons avec sa queue.",
 		es: "Como es menudo y su órgano electrógeno está\npoco desarrollado, absorbe electricidad de las\ncasas con la cola para recargar sus reservas.",
 		it: "A causa del corpo piccolo, l'organo che genera\nelettricità non è molto sviluppato. Si ricarica\nassorbendo l'elettricità dalle case con la coda.",
-		de: "Da es klein ist und sein elektrisches Organ nicht\nstark ausgebildet ist, zapft es mit seinem Schwanz\nin Häusern Strom ab, um sich aufzuladen.",
+		de: "Da es klein ist und sein elektrisches Organ nicht stark ausgebildet ist, zapft es mit seinem Schwanz in Häusern Strom ab, um sich aufzuladen.",
 		'pt-br': "Este Pokémon é pequeno, e seu órgão gerador de eletricidade ainda não se desenvolveu.\nAbastece a si mesmo usando sua cauda, com a qual absorve energia das casas das pessoas.",
 		ko: "몸집이 작고 발전 기관이 미숙하기 때문에\n사람이 사는 집의 전기를\n꼬리를 통해 흡수해서 충전한다."
 	},

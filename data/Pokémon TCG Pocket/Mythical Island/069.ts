@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Chacune de ses trois têtes pense de manière autonome.\nElles ne semblent s'intéresser qu'à elles-mêmes.",
 		es: "Cada una de las tres cabezas piensa\nde forma independiente y apenas\nmuestra interés por el resto.",
 		it: "Le sue tre teste ragionano in\nmodo indipendente. Sembra\nche ciascuna pensi solo a sé.",
-		de: "Jeder der drei Köpfe hat einen\neigenen Willen und scheint sich\nnur für sich selbst zu interessieren.",
+		de: "Jeder der drei Köpfe hat einen eigenen Willen und scheint sich nur für sich selbst zu interessieren.",
 		'pt-br': "Cada uma das três cabeças de Exeggutor está\npensando em coisas diferentes. Elas não parecem\nse interessar umas pelas outras.",
 		ko: "3개의 머리는 서로 다른\n생각을 하고 있다. 자신 외에는\n별로 흥미가 없는 듯하다."
 	},

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Whirlipede",
-		fr: "Scobolide"
+		fr: "Scobolide",
+		de: "Rollum"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Après avoir saisi sa proie à l'aide des\ngriffes de son cou, il la plaque au sol puis la\ntransperce avec ses épines empoisonnées.",
 		es: "Usa las garras que le sobresalen del cuello para\natrapar a su presa, golpearla contra el suelo y\nrematarla inoculando un potente veneno.",
 		it: "Sbatte a terra la preda afferrandola con gli artigli\ndel collo per poi infilzarla con le punte velenose.",
-		de: "Kriegt es seine Beute mit den Krallen an seinem\nHals zu fassen, wirft es sie zu Boden und rammt\ndie giftigen Spitzen der Krallen in sie hinein.",
+		de: "Kriegt es seine Beute mit den Krallen an seinem Hals zu fassen, wirft es sie zu Boden und rammt die giftigen Spitzen der Krallen in sie hinein.",
 		'pt-br': "Scolipede fixa-se à sua presa com as garras em seu pescoço. Em seguida,\nlança-a ao chão e a espeta com os espinhos tóxicos de suas garras.",
 		ko: "목의 가시로 먹이를 잡은 채\n그대로 땅으로 내동댕이쳐서\n독가시를 꽂는다."
 	},

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snivy",
-		fr: "Vipélierre"
+		fr: "Vipélierre",
+		de: "Serpifeu"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Il court comme s'il glissait sur le sol. Il déroute l'ennemi\npar ses mouvements et l'assomme d'un coup de liane.",
 		es: "Parece que se desliza al correr. Engaña a sus rivales\ncon su velocidad y los fustiga con su látigo.",
 		it: "Corre quasi scivolando sulle superfici. Confonde il nemico\ncon i rapidi movimenti, per poi attaccarlo con una frustata.",
-		de: "Huscht beinahe gleitend über den Boden\nund täuscht Gegner mit agilen Manövern,\nbis es mithilfe seiner Efeurute obsiegt.",
+		de: "Huscht beinahe gleitend über den Boden und täuscht Gegner mit agilen Manövern, bis es mithilfe seiner Efeurute obsiegt.",
 		'pt-br': "Move-se pelo chão como se estivesse deslizando.\nAtordoa seus inimigos com movimentos rápidos\ne os ataca com um chicote de vinha.",
 		ko: "땅을 미끄러지듯 달린다.\n빠른 움직임으로 상대를 혼란시키고\n덩굴채찍으로 꼼짝 못하게 한다."
 	},

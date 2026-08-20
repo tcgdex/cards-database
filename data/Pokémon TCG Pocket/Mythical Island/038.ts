@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Floette",
-		fr: "Floette"
+		fr: "Floette",
+		de: "Floette"
 	},
 
 	description: {
@@ -31,7 +32,7 @@ const card: Card = {
 		fr: "Ce Pokémon transforme son territoire en\nmagnifique jardin fleuri. Il tire sa puissance\ndes fleurs rouges qui ornent son cou.",
 		es: "Hace de su territorio un jardín esplendoroso.\nExtrae su poder de las flores rojas que lleva\nen torno al cuello.",
 		it: "Questo Pokémon trasforma il proprio territorio\nin uno splendido giardino fiorito. I suoi poteri\nderivano dai fiori rossi che ha attorno al collo.",
-		de: "In seinem Revier legt Florges einen prächtigen\nBlumengarten an. Es schöpft seine Kraft aus\nden roten Blumen um seinen Hals.",
+		de: "In seinem Revier legt Florges einen prächtigen Blumengarten an. Es schöpft seine Kraft aus den roten Blumen um seinen Hals.",
 		'pt-br': "Este Pokémon cria um jardim de flores impressionante em seu território.\nTraz consigo o poder das flores vermelhas ao redor do seu pescoço.",
 		ko: "자신의 영역에 멋진 화원을 만든다.\n목을 감싸고 있는\n빨간 꽃의 파워를 끌어낸다."
 	},
