@@ -35,14 +35,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107086
+				tcgplayer: 107086,
+				cardmarket: 660116
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107086
+				tcgplayer: 107086,
+				cardmarket: 660116
 			},
 		},
 		{
