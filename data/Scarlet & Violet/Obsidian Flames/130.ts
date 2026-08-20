@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+		de: "Wird es der Aura des Mondes ausgesetzt, glühen die ringförmigen Muster auf seinem Körper leicht und es erhält eine mysteriöse Kraft."
 	},
 
 	variants: [

@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is far brighter than the average child, and Lillipup won't forget the love it receives or any abuse it suffers.",
+		de: "Yorkleff ist deutlich intelligenter als die meisten Kinder und vergisst nie, wenn man ihm Zuneigung entgegenbringt oder es schlecht behandelt."
 	},
 
 	variants: [

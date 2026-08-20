@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
+		de: "Es verströmt ein süßes Aroma, das für gute Laune sorgt und auch als Duftnote für Deodorants sehr beliebt ist."
 	},
 
 	variants: [

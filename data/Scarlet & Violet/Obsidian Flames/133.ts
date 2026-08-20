@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+		de: "Wird man von den Flammen getroffen, die es aus seinem Maul schießt, so erleidet man eine Brandwunde, deren Schmerz nie nachlässt."
 	},
 
 	variants: [

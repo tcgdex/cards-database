@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+		de: "Die seitlichen Module halten es in der Luft, indem sie mit elektromagnetischen Wellen die Schwerkraft überlisten."
 	},
 
 	variants: [

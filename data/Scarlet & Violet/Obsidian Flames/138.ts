@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
+		de: "Man erzählt sich, dass die hypnotischen Kräfte dieses Pokémon mit einigen geschichtsträchtigen Ereignissen in Verbindung stehen."
 	},
 
 	variants: [

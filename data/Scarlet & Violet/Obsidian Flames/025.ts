@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+		de: "Sein roter Kopf wandelt Scharfstoffe in Feuer-Energie um und kann so feurig scharfe Flammen von sich geben."
 	},
 
 	variants: [

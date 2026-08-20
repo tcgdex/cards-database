@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
+		de: "Es merkt sofort, wenn jemand in der Nähe ist. Spürt es hinter sich die Präsenz eines Gegners, eliminiert es ihn, indem es scharfe Federn wirft."
 	},
 
 	variants: [

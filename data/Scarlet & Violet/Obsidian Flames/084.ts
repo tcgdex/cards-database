@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+		de: "Es kann, ohne mit den Flügeln zu schlagen, in der Luft schweben. Ein Mangel an gutherzigen Menschen in seiner Nähe schlägt ihm aufs Gemüt."
 	},
 
 	variants: [

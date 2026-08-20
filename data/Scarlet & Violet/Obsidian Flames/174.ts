@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
+		de: "Es lebt in Gruppen von circa 20 Artgenossen. Verrät ein Bisofank seine Herde, fällt ihm aus unbekannten Gründen das Fell am Kopf aus."
 	},
 
 	variants: [

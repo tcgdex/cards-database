@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+		de: "Seine zwei Barteln dienen ihm als empfindliches Radarsystem. Selbst in schlammigem Wasser kann es so die Position seiner Beute ausmachen."
 	},
 
 	variants: [

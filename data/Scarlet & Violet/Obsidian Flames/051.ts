@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+		de: "Gelegentlich singt es sehr schön. Je größer die Fortsätze an seinem Körper ausgebildet sind, desto ausgeprägter fällt sein Stimmumfang aus."
 	},
 
 	variants: [

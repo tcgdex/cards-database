@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence—or so it's said.",
+		de: "Angeblich soll früher in Häusern, wo Skelabra zur Beleuchtung verwendet wurden, eine Beerdigung auf die andere gefolgt sein."
 	},
 
 	variants: [

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
+		de: "Dieses Pokémon boxt Bäume und frisst dann die Beeren, die von ihnen herabfallen. So gelangt es an Nahrung und kann gleichzeitig trainieren."
 	},
 
 	variants: [

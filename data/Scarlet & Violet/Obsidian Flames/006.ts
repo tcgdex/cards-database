@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
+		de: "Normalerweise leben sie in Teichen, aber nach einem Schauer am Abend kann man sie auch in Pfützen in den Städten finden."
 	},
 
 	variants: [

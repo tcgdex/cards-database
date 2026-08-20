@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+		de: "Es lebt in feuchten Wäldern. Die Falten, die sich von seinem Körper lösen, sind gummiartig und sehr schmackhaft."
 	},
 
 	variants: [

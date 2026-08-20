@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
+		de: "Sie kommen verstärkt an den Küsten kalter Gebiete vor. Wenn einem Petznief kein Schleim aus der Nase hängt, ist es womöglich krank."
 	},
 
 	variants: [
