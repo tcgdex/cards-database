@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy attached to Vulpix.",
 				fr: "Défaussez une Énergie  attachée à Goupix.",
-				de: "Lege eine an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				de: "Lege eine an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 

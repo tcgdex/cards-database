@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Kopf“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
