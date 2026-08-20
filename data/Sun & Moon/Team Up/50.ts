@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		de: "Eguana"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Cambia este Pokémon por 1 de tus Pokémon Lightning en Banca.",
 				it: "Scambia questo Pokémon con un Pokémon Lightning della tua panchina.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon Lightning no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Lightning-Pokémon auf deiner Bank aus."
+				de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
 			},
 			damage: 90,
 
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+		de: "Es stimuliert seine Beinmuskulatur mit Strom, wodurch es ihm gelingt, 100 m in fünf Sekunden zurückzulegen."
 	},
 
 	thirdParty: {

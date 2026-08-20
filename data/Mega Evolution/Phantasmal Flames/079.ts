@@ -87,7 +87,7 @@ const card: Card = {
 	illustrator: "hncl",
 	variants: [
 		{
-			type: 'normal',
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857654,
 				tcgplayer: 662127

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Xurkitree",
 		fr: "Câblifère",
+		de: "Voltriant"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Blast",
 				fr: "Explosion de Lumière",
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Cablegram",
 				fr: "Câblogramme",
+				de: "Telegramm"
 			},
 			effect: {
 				en: "If you have exactly 3 Prize cards remaining, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "S’il vous reste exactement 3 cartes Récompense, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wenn du genau 3 verbleibende Preiskarten hast, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 100,
 
@@ -75,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+		de: "Es ist durch die Ultrapforte erschienen. Seine Überfälle auf Kraftwerke lassen vermuten, dass es seine Lebensenergie aus Strom bezieht."
 	},
 }
 

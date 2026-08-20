@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard GX",
 		fr: "Dracaufeu-GX",
+		de: "Glurak-GX"
 	},
 
 	illustrator: "aky CG Works",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	suffix: "GX",
@@ -40,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flammes",
+				de: "Flammenwurf"
 			},
 
 			damage: 140,
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Flare Blitz GX",
 				fr: "Boutefeu-GX",
+				de: "Flammenblitz-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
 				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 300,
 

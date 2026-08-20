@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		de: "Es ist von Natur aus tapfer und vertrauenswürdig und scheut auch vor Gegnern nicht zurück, die größer und stärker sind als es selbst."
 	},
 
 	variants: [

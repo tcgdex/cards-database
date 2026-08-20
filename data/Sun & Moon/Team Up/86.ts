@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 Pokémon Darkness, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon Darkness, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon Darkness no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {D}-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+		de: "Es hat ein hartnäckiges Wesen. Sein präziser Geruchssinn ermöglicht ihm, seiner Beute nachzujagen, ohne die Fährte zu verlieren."
 	},
 
 	thirdParty: {

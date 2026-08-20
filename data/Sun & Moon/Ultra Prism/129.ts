@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar 4 cartas de Trébol Perdido de una vez.\n\n• Si has jugado 1 carta, mira la primera carta de tu baraja.\n• Si has jugado 4 cartas, coge 1 carta de Premio. (Este efecto funciona 1 vez por 4 cartas).",
 		it: "Puoi giocare quattro carte Trifoglio Mancante alla volta.\n\n• Se giochi una carta, guarda la prima carta del tuo mazzo.\n• Se giochi quattro carte, prendi una carta Premio (questo effetto si applica una volta ogni quattro carte).",
 		pt: "Você pode jogar 4 cartas Trevo Perdido de uma vez.\n\n• Se você jogou 1 carta, olhe a primeira carta do seu baralho.\n• Se você jogou 4 cartas, pegue 1 carta de Prêmio (este efeito funciona uma vez para 4 cartas).",
-		de: "Du kannst 4 Fehlendes Kleeblatt-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, schau dir die oberste Karte deines Decks an.\n• Wenn du 4 Karten gespielt hast, nimm 1 Preiskarte. (Dieser Effekt funktioniert einmal für 4 Karten.)"
+		de: "Du kannst 4 Fehlendes Kleeblatt-Karten gleichzeitig spielen. Wenn du 1 Karte gespielt hast, schau dir die oberste Karte deines Decks an. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen. Wenn du 4 Karten gespielt hast, nimm 1 Preiskarte. (Dieser Effekt funktioniert einmal für 4 Karten.)"
 	},
 
 	trainerType: "Item",

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
+		de: "Es kämpft, indem es harte Beeren wirft. Trainern, die Pokébälle nicht gut werfen können, gehorcht es nicht."
 	},
 }
 

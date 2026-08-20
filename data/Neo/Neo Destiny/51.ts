@@ -56,7 +56,7 @@ const card: Card = {
 			name: {
 				en: "Slash About",
 				fr: "Grosse trempette",
-				de: "Splash About"
+				de: "Herumspritzen"
 			},
 			effect: {
 				en: "If there are more Energy cards attached to the Defending Pokémon than to Light Slowbro, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage.",

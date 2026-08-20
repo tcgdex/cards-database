@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		de: "Es kann die menschliche Sprache nachahmen. Versammeln sie sich, bringen sich alle dasselbe bei."
 	},
 
 	thirdParty: {

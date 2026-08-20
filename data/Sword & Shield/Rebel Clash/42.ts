@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+		de: "Ein Bote der Lüfte. Es bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit."
 	},
 
 	variants: [

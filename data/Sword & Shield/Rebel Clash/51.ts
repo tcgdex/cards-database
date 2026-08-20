@@ -62,7 +62,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
+				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -92,7 +92,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
+		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
+		de: "Es ist so stark, dass es seine Gegner mit einem Angriff vernichten könnte, aber zerstreut wie es ist, vergisst es öfters, wen es gerade bekämpft."
 	},
 
 	variants: [

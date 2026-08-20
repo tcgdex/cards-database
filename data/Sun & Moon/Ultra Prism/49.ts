@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Por cada uno de tus Pokémon en Banca que tenga el ataque Moflete Estático, busca en tu baraja 1 carta de Energía Lightning y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Lightning per ogni Pokémon nella tua panchina che abbia l’attacco Elettrococcola e assegnala a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Para cada um dos seus Pokémon no Banco que tiver o ataque Chamego, procure por 1 carta de Energia Lightning no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche für jedes Pokémon auf deiner Bank, das die Attacke Wangenrubbler hat, dein Deck nach 1 Lightning-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche für jedes Pokémon auf deiner Bank, das die Attacke Wangenrubbler hat, dein Deck nach 1 {L}-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander."
 	},
 
 	thirdParty: {

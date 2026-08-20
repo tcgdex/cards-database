@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying.",
+		de: "Auf der Suche nach süßem Honig durchstreift es die Wälder. Es ist stolz auf seine Stärke, aber fliegen kann es nicht besonders gut."
 	},
 
 	variants: [

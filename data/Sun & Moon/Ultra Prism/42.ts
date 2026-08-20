@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Pon 5 cartas de Energía Water de tu pila de descartes en tu baraja y barájalas todas.",
 				it: "Rimischia cinque carte Energia Water dalla tua pila degli scarti nel tuo mazzo.",
 				pt: "Embaralhe 5 cartas de Energia Water da sua pilha de descarte no seu baralho.",
-				de: "Mische 5 Water-Energiekarten aus deinem Ablagestapel in dein Deck."
+				de: "Mische 5 {W}-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		de: "Es besitzt die wundersame Fähigkeit, das Herz eines jeden anderen Pokémon anzurühren."
 	},
 
 	thirdParty: {

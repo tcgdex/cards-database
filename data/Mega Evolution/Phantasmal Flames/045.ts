@@ -65,9 +65,11 @@ const card: Card = {
 	illustrator: "kawayoo",
 	variants: [
 		{
-			type: 'normal',
+			type: 'holo',
 			thirdParty: {
-				cardmarket: 858507
+				cardmarket: 857620,
+				tcgplayer: 662244,
+				cardtrader: 356828
 			}
 		},
 		{
@@ -79,11 +81,18 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'holo',
+			type: 'normal',
 			thirdParty: {
-				cardmarket: 857620,
-				tcgplayer: 662244,
-				cardtrader: 356828
+				cardmarket: 858507,
+				tcgplayer: 664005
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 891734,
+				tcgplayer: 696145
 			}
 		},
 	],	

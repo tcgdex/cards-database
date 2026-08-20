@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga alguna Energía Metal unida a él no se puede ver afectado por ninguna Condición Especial. Elimina cualquier Condición Especial que afecte a esos Pokémon.",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Metal assegnate può essere influenzato da condizioni speciali. Rimuovi tutte le condizioni speciali che influenzano tali Pokémon.",
 				pt: "Cada um dos seus Pokémon que tiver alguma Energia Metal ligada a ele não poderá ser afetado por quaisquer Condições Especiais. Remova todas as Condições Especiais que afetem aqueles Pokémon.",
-				de: "Jedes deiner Pokémon, an das mindestens 1 Metal-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. Alle Speziellen Zustände auf jenen Pokémon verlieren ihre Wirkung."
+				de: "Jedes deiner Pokémon, an das mindestens 1 {M}-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. Alle Speziellen Zustände auf jenen Pokémon verlieren ihre Wirkung."
 			},
 		},
 	],

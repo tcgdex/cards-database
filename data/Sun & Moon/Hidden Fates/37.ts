@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cubone",
 		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	illustrator: "Hasuno",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Sharpshooting",
 				fr: "Tir de Précision",
+				de: "Scharfschuss"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -53,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "The skull it wears on its head is that of its dead mother. According to some, it will evolve when it comes to terms with the pain of her death.",
+		de: "Der Schädel auf seinem Kopf gehörte seiner verstorbenen Mutter. Überwindet es diesen Verlust, setzt angeblich die Entwicklung ein."
 	},
 
 	thirdParty: {

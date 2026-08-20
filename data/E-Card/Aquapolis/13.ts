@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Big Eggsplosion",
 				fr: "Grosse éclate",
-				de: "Big Eggsplosion"
+				de: "Große Eggsplosion"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+				de: "Wirf so viele Münzen, wie Energie an Kokowei angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Lateral Eggsplosion",
 				fr: "Éclate latérale",
-				de: "Lateral Eggsplosion"
+				de: "Seitliche Eggsplosion"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
 				fr: "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Flip a number of coins equal to the amount of Energy attached to all of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
+				de: "Wirf so viele Münzen, wie Energie an alle Pokémon auf deiner Bank angelegt ist. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 

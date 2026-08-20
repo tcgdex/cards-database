@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 carta de la pila de descartes de tu rival en la parte inferior de su baraja.",
 		it: "Prendi una carta dalla pila degli scarti del tuo avversario e mettila in fondo al suo mazzo.",
 		pt: "Coloque 1 carta da pilha de descarte do seu oponente como a última carta do baralho dele(a).",
-		de: "Lege 1 Karte aus dem Ablagestapel deines Gegners unter sein Deck."
+		de: "Lege 1 Karte aus dem Ablagestapel deines Gegners unter sein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

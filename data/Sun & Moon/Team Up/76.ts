@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Omanyte",
 		fr: "Amonita",
+		de: "Amonitas"
 	},
 
 	stage: "Stage2",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Its heavy shell is thought to be the reason this ancient Pokémon died out. It's apparently a distant ancestor of Octillery.",
+		de: "Diesem prähistorischen Pokémon wurde wohl das Gewicht seines Gehäuses zum Verhängnis. Es ist ein ferner Vorfahre von Octillery."
 	},
 
 	thirdParty: {

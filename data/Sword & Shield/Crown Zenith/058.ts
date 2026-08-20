@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
+		de: "Jeder der drei Köpfe hat einen eigenen Willen und scheint sich nur für sich selbst zu interessieren."
 	},
 
 	

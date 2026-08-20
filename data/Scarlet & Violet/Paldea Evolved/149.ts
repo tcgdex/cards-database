@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Using the pointy tip of its trunk, it carves off chunks of hard rocks to eat. It is very docile and helps people with physical labor.",
+		de: "Mit der scharfen Rüsselspitze schabt es an hartem Gestein und frisst die Bruchstücke. Es ist gutmütig und hilft Menschen bei deren körperlicher Arbeit."
 	},
 }
 

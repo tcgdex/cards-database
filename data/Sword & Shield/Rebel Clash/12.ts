@@ -72,7 +72,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
+		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down.",
+		de: "Es lebt auf verschneiten Bergen und steckt seine Füße in den Schnee, um über sie Wasser und Kälte zu absorbieren."
 	},
 
 	variants: [

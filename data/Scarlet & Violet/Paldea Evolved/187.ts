@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige hasta 2 de tus Pokémon y cura 50 puntos de daño a cada uno de ellos.",
 		it: "Scegli fino a due dei tuoi Pokémon e cura ciascuno di essi da 50 danni.",
 		pt: "Escolha até 2 dos seus Pokémon e cure 50 pontos de dano de cada um deles.",
-		de: "Wähle bis zu 2 deiner Pokémon und heile 50 Schadenspunkte bei jedem von ihnen."
+		de: "Wähle bis zu 2 deiner Pokémon und heile 50 Schadenspunkte bei jedem von ihnen. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

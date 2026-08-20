@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, pon 1 carta de tu pila de descartes en tu mano.",
 				it: "Lancia una moneta. Se esce testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
 				pt: "Jogue uma moeda. Se sair cara, coloque um card da sua pilha de descarte em sua mão.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimm 1 Karte von deinem Ablagestapel auf deine Hand."
+				de: "Wirf 1 Münze. Bei „Kopf“ nimm 1 Karte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The heart-shaped mark left on a body after a woobat has been attached to it is said to bring good fortune.",
+		de: "Es verheißt Glück, wenn sich ein Fleknoil an einem Menschen festsaugt und auf ihm einen herzförmigen Fleck hinterlässt."
 	},
 
 	thirdParty: {

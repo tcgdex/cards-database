@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "In many places, there are folktales of stardust falling into the ocean and becoming Staryu.",
+		de: "Einer weitverbreiteten Volkssage zufolge ist Sterndu aus Sternennebel entstanden, der ins Meer gefallen war."
 	},
 
 	thirdParty: {

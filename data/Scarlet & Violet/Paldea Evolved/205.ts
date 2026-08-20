@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
+		de: "An heißen Tagen stecken diese Pokémon ihre eisigen Köpfe zusammen, um sich gegenseitig abzukühlen."
 	},
 }
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "M Gardevoir EX",
 		fr: "M-Gardevoir-EX",
+		de: "M-Guardevoir-EX"
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",

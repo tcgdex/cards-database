@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
-		fr: "Nidorino"
+		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	abilities: [
@@ -37,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.",
 				fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
-				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Nidoking anlegst, ändert sich Nidokings Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+				de: "Immer wenn du eine {G}-, {L}- oder {F}-Basis-Energiekarte aus deiner Hand an Nidoking anlegst, wird Nidokings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie die Energiekarte."
 			}
 		},
 	],
@@ -78,7 +79,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun de Pokémon de votre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. Bei 'Zahl' fügt dieser Angriff jedem der Pokémon auf deiner Bank 10 Schadenspunkte zu. (wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem der Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 

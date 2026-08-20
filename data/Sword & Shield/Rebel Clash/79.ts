@@ -98,7 +98,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
+		de: "In ihm wuchs eine mysteriöse Kraft und so löste es sich von seinem Panzer los. Sein geisterhaftes Ektoplasma schützt die Seele im Kern."
 	},
 
 	variants: [

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
+		de: "Kleine Pokémon fliehen beim Anblick seines Gesichts. Frauen aber finden es niedlich."
 	},
 
 	thirdParty: {

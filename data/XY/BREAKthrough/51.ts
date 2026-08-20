@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, su Coste de Retirada es de Colorless menos por cada Magnemite en tu Banca.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, il suo costo di ritirata è ridotto di Colorless per ogni Magnemite nella tua panchina.",
 				pt: "Enquanto este Pokémon for seu Pokémon Ativo, seu Custo para Recuar é Colorless menor para cada Magnemite em seu Banco.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verringern sich die Rückzugskosten um Colorless für jedes Magnetilo auf deiner Bank."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verringern sich die Rückzugskosten um {C} für jedes Magnetilo auf deiner Bank."
 			},
 		},
 	],
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
+		de: "Es bewegt sich schwebend. Seine Magnete an den Seiten entladen eine Donnerwelle nach der nächsten."
 	},
 
 	thirdParty: {

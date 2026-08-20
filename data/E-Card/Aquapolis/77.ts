@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Continuous Eggsplosion",
 				fr: "Éclate continue",
-				de: "Continuous Eggsplosion"
+				de: "Dauernde Eggsplosion"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+				de: "Wirf eine Münze, bis du das erste Mal „Zahl“ wirfst. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Energy Support",
 				fr: "Maintien d'énergie",
-				de: "Energy Support"
+				de: "Energieunterstützung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
-				de: "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward."
+				de: "Wirf eine Münze. Durchsuche bei „Kopf“ dein Deck nach einer {P}-Energiekarte und lege sie an 1 der Pokémon an auf deiner Bank an. Mische dein Deck danach."
 			},
 
 		},

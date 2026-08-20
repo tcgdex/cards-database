@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Murkrow",
 		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "If its Murkrow cronies fail to catch food for it, or if it feels they have betrayed it, it will hunt them down wherever they are and punish them.",
+		de: "Untergebene Kramurx, die beim Beutefang versagen und Kramshef damit enttäuschen, jagt es bis ans Ende der Welt, um sie zu bestrafen."
 	},
 
 	thirdParty: {

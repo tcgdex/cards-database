@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
+		de: "Beim Beutefang setzt es seine Tentakel ein. Es zermalmt seine Beute mit seinem steinharten Kopf."
 	},
 
 	thirdParty: {

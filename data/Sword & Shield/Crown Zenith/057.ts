@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+		de: "Owei mag zwar Eiern ähneln, ist aber ein echtes Pokémon, das aus sechs Individuen besteht, die wohl telepathisch miteinander kommunizieren."
 	},
 
 	

@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
+		de: "Durch Magnetismus verschmolzen zwei Tanhel miteinander. Da es nun zwei Gehirne besitzt, haben sich seine Psycho-Kräfte verdoppelt."
 	},
 
 	

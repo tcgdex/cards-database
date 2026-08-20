@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clefable",
 		fr: "Mélodelfe",
+		de: "Pixi"
 	},
 
 	illustrator: "sui",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				de: "Pfund"
 			},
 
 			damage: 40,
@@ -52,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Moon Impact",
 				fr: "Impact Lunaire",
+				de: "Mondeinschlag"
 			},
 
 			damage: 90,
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren't many people or Pokémon.",
+		de: "Es hört eine fallende Nadel aus 1 km Entfernung und lebt daher tief in den Bergen, weit weg vom Lärm der Menschen und anderer Pokémon."
 	},
 
 	thirdParty: {

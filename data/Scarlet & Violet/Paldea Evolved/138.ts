@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
+		de: "Da es nichts sehen kann, beißt es in alles hinein, um es zu untersuchen. Bis Kapuno Vertrauen zu einem fasst, wird man mit Wunden übersät sein."
 	},
 }
 

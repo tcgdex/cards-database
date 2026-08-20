@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 1 carta de Energía Básica de su pila de descartes en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere una carta Energia base dalla propria pila degli scarti e aggiungerla alle carte che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar 1 carta de Energia básica da própria pilha de descarte na própria mão.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Energiekarte aus seinem Ablagestapel auf seine Hand nehmen."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Energiekarte aus seinem Ablagestapel auf seine Hand nehmen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

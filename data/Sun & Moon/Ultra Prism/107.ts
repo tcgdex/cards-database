@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Laporeille",
+		de: "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+		de: "Es hat sehr empfindliche Ohren. Fasst man sie zu rau an, wird es mit seinen grazilen Beinen zutreten."
 	},
 
 	thirdParty: {

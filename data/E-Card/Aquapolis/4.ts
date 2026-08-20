@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Turn",
 				fr: "Tourne-bulle",
-				de: "Bubble Turn"
+				de: "Blubbdrehung"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Azumarill est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, renvoyez Azumarill et toutes les cartes qui y sont attachées dans votre main.",
-				de: "Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Azumarill auf deiner Bank ist, eine Münze werfen. Bringe bei „Kopf“ Azumarill und alle daran angelegten Karten auf deine Hand zurück."
 			}
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Sonic",
 				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				de: "Wassersonar"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
-				de: "Don't apply Resistance."
+				de: "Wende Resistenz nicht an."
 			},
 			damage: 40,
 

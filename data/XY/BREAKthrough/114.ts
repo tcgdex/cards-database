@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño al Pokémon Activo de tu rival. Si sale cruz, este Pokémon se hace 30 puntos de daño a sí mismo.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni al Pokémon attivo del tuo avversario. Se esce croce, questo Pokémon infligge 30 danni a se stesso.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos ao Pokémon Ativo do seu oponente. Se sair coroa, este Pokémon causará 30 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Aktiven Pokémon deines Gegners 30 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff dem Aktiven Pokémon deines Gegners 30 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		de: "Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen."
 	},
 
 	thirdParty: {

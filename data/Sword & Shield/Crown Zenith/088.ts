@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
+		de: "Stollrak leben in Bergen, die reich an Quellwasser und Eisenerz sind, weshalb sie oft mit Menschen in Konflikt gerieten."
 	},
 
 	

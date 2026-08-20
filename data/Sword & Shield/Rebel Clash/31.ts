@@ -59,7 +59,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world."
+		en: "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world.",
+		de: "Seine Flamme wärmt seinen Körper leicht. Wer vom Weg abkommt, wird von ihm an der Hand genommen und ins Jenseits gelockt."
 	},
 
 	variants: [

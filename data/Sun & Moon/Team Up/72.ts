@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mankey",
 		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.",
+		de: "Wer es nervt, wird auf ewig verfolgt. Selbst nachdem es seinen Gegner zu Boden gebracht hat, kann es ihm noch nicht verzeihen."
 	},
 
 	thirdParty: {

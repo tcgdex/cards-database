@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drampa-GX",
 		fr: "Draïeul-GX",
+		de: "Sen-Long-GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Righteous Edge",
 				fr: "Lame Vertueuse",
+				de: "Edle Klinge"
 			},
 			effect: {
 				en: "Discard a Special Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Berserk",
 				fr: "Dracolère",
+				de: "Wutausbruch"
 			},
 			effect: {
 				en: "If your Benched Pokémon have any damage counters on them, this attack does 70 more damage.",
 				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires.",
+				de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: 80,
 
@@ -62,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Big Wheel-GX",
 				fr: "Grande Roue-GX",
+				de: "Riesenrad-GX"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)",
 				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 10 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 10 Karten. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

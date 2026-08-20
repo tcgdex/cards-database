@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+		de: "Es nutzt seine Flügel, um sich am Himmel in Position zu halten. Gegen seine Angriffe aus der Luft kann man sich nur schwer zur Wehr setzen."
 	},
 
 	thirdParty: {

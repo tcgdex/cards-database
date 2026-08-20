@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+		de: "Um seine Giftstacheln abzufeuern, muss es seinen Körper aufpumpen, indem es 10 l trinkt."
 	},
 
 	thirdParty: {

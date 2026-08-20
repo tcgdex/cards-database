@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle.",
+		de: "Dies ist die in Galar ansässige Form von Porenta. Dieser tapfere Krieger schwingt im Kampf eine dicke, robuste Lauchstange."
 	},
 
 	variants: [

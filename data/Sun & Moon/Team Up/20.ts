@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It doesn't allow its emotions to be easily seen. Earning its trust takes time. It prefers solitude.",
+		de: "Es zeigt nie seine Gefühle und ist am liebsten allein. Sein Zutrauen zu gewinnen, kann einige Zeit in Anspruch nehmen."
 	},
 
 	thirdParty: {

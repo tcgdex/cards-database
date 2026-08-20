@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Whenever you attach a Fire, Water, or Psychic basic Energy card from your hand to Lugia, Lugia's type (color) becomes the same as that Energy card type until the end of the turn.",
 				fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Lugia, le type de Lugia (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
-				de: "Immer wenn du eine -, - oder -Energiekarte aus deiner Hand an Lugia anlegst, wird Lugias Typ (Farbe) bis zum Ende des Zuges derselbe Typ wie diese Energiekarte."
+				de: "Immer wenn du eine {R}-, {W}- oder {P}-Basis-Energiekarte aus deiner Hand an Lugia anlegst, wird Lugias Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie diese Energiekarte."
 			}
 		},
 	],

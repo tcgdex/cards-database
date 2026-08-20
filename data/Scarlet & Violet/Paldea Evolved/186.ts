@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon de Fase 1 (tanto tuyos como de tu rival) hacen 10 puntos de daño más al Pokémon Activo del rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi dei Pokémon di Fase 1, sia tuoi che del tuo avversario, infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques dos Pokémon Estágio 1 (seus e do seu oponente) causam 10 pontos de dano a mais ao Pokémon Ativo do oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken von Phase-1-Pokémon (deinen und denen deines Gegners) fügen dem Aktiven Pokémon des Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Die Attacken von Phase-1-Pokémon (deinen und denen deines Gegners) fügen dem Aktiven Pokémon des Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electrode",
 		fr: "Électrode",
+		de: "Lektrobal"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -37,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Lightning Ball",
 				fr: "Boule Éclair",
+				de: "Kugelblitz"
 			},
 
 			damage: 30,
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Electroblast",
 				fr: "Électro-Explosion",
+				de: "Elektrokracher"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "60+",
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		de: "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider."
 	},
 
 	thirdParty: {

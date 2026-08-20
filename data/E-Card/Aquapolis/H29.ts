@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Umbreon is your Active Pokémon and has a Darkness Energy attached to it, once during your turn (before your attack), you may look at your opponent's hand. Choose from it a number of cards up to the number of Darkness Energy attached to Umbreon and shuffle them into your opponent's deck. Your opponent then draws the same number of cards from his or her deck. This power can't be used if Umbreon is affected by a Special Condition.",
 				fr: "Tant que Noctali est votre Pokémon Actif et tant qu'une Énergie  lui est attachée, une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder la main de votre adversaire. Choisissez-y le nombre de cartes que vous désirez, jusqu'au nombre de cartes Énergie  attachées à Noctali et mélangez-les au deck de votre adversaire. Votre adversaire pioche ensuite ce même nombre de cartes dans son deck. Ce pouvoir ne peut pas être utilisé si Noctali est affecté par un État spécial.",
-				de: "Solange Nachtara dein Aktives Pokémon ist und an es mindestens eine -Energie angelegt ist, kannst du einmal während deines Zuges (vor deinem Angriff) dir die Karten auf der Hand deines Gegners anschauen. Wähle von diesen Karten so viele, wie -Energie an Nachtara angelegt ist, und mische diese Karten in das Deck deines Gegners. Dein Gegner zieht dann dieselbe Anzahl von Karten von seinem Deck nach. Diese Fähigkeit kann nicht verwendet werden, falls Nachtara von einem Speziellen Zustand betroffen ist."
+				de: "Solange Nachtara dein Aktives Pokémon ist und an es mindestens eine {D}-Energie angelegt ist, kannst du einmal während deines Zuges (vor deinem Angriff) dir die Karten auf der Hand deines Gegners anschauen. Wähle von diesen Karten so viele, wie {D}-Energie an Nachtara angelegt ist, und mische diese Karten in das Deck deines Gegners. Dein Gegner zieht dann dieselbe Anzahl von Karten von seinem Deck nach. Diese Fähigkeit kann nicht verwendet werden, falls Nachtara von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

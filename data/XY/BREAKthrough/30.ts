@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+		de: "In der Körpermitte befindet sich ein roter Kern, der mysteriöse Radiowellen in die Nacht sendet."
 	},
 
 	thirdParty: {

@@ -88,7 +88,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid."
+		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid.",
+		de: "In seinem Magen speichert es eine stinkende Flüssigkeit, die es im Kampf aus seinem Schweif sprüht. Ihr Geruch hängt von seiner Nahrung ab."
 	},
 
 	variants: [

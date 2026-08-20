@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si descartas otras 2 cartas de tu mano.\nPon hasta 4 cartas de Energía Básica de tu pila de descartes en tu mano.\n(No puedes elegir una carta que hayas descartado con el efecto de esta carta).",
 		it: "Puoi usare questa carta solo se scarti altre due carte che hai in mano.\n\nPrendi fino a quattro carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano. Non puoi scegliere una carta che hai scartato per effetto di questa carta.",
 		pt: "Você só pode usar esta carta se descartar outras 2 cartas da sua mão.\nColoque até 4 cartas de Energia Básica da sua pilha de descarte na sua mão.\n(Você não pode escolher uma carta que descartou com o efeito desta carta.)",
-		de: "Du kannst diese Karte nur einsetzen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nNimm bis zu 4 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand. (Du kannst keine Karte wählen, die du mit dem Effekt dieser Karte auf deinen Ablagestapel gelegt hast.)"
+		de: "Du kannst diese Karte nur einsetzen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Nimm bis zu 4 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand. (Du kannst keine Karte wählen, die du mit dem Effekt dieser Karte auf deinen Ablagestapel gelegt hast.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

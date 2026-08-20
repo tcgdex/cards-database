@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+		de: "Es hält den Gegner mit flinken Bewegungen zum Narren. Im Kampf setzt es alle Gliedmaßen ein."
 	},
 
 	thirdParty: {

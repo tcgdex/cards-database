@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+		de: "Es weiß, wo es reinstes Quellwasser finden kann. Trägt andere Pokémon auf seinem Rücken dorthin."
 	},
 
 	thirdParty: {

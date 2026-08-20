@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.",
 				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Goupix.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Vulpix an."
+				de: "Wenn mindestens eine {R}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Vulpix an."
 			},
 			damage: 10,
 

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+		de: "Es schwimmt, indem es seine beiden Schweife wie eine Schiffsschraube rotieren lässt."
 	},
 
 	thirdParty: {

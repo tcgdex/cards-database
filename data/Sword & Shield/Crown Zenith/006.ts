@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.",
+		de: "Mit jedem Kampf werden seine Sicheln schärfer. Es kann selbst einen massiven Baumstamm mit nur einem Schnitt zerteilen."
 	},
 
 	

@@ -76,7 +76,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 80 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "80×",
 
@@ -101,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+		de: "Für Freunde stürzt es sich selbstlos in den Kampf. Es kann mit seinen Krallen Autos durch die Lüfte tragen."
 	},
 
 	thirdParty: {

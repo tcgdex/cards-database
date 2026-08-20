@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones.",
+		de: "Sie schützen ihren Bürzel mit einer Schädelwindel. Untereinander streiten sie sich um den Schädel mit dem höchsten Tragekomfort."
 	},
 
 	variants: [

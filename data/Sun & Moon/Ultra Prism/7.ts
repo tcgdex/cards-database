@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+		de: "Sein Körper lebt von der Photosynthese, die Sauerstoff freisetzt. Ist es durstig, welkt sein Blatt."
 	},
 
 	thirdParty: {

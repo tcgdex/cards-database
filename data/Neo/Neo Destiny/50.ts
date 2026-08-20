@@ -38,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Guiding Flame",
 				fr: "Flambeau",
-				de: "Fire Blast"
+				de: "Leitende Flamme"
 			},
 
 			effect: {

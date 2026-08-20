@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+		de: "Ein feenhaftes und scheues Pokémon, das sofort die Flucht ergreift, wenn es Menschen wahrnimmt."
 	},
 
 	variants: [

@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
+		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones.",
+		de: "Es drückt seine Zuneigung durch Umarmungen aus. Das ist ebenso sympathisch wie gefährlich, da diese zu Knochenbrüchen führen können."
 	},
 
 	variants: [

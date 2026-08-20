@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
+		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents.",
+		de: "Bei der Entwicklung hat es sich verdoppelt. Es reibt seine Klingen aneinander, um Gegner mit einem metallenen Geräusch einzuschüchtern."
 	},
 
 	variants: [

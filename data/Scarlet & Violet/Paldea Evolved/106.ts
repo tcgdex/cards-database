@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+		de: "Es lebt mit Artgenossen in Baumkronen. Verliert es sie aus den Augen, wird es vor Einsamkeit sofort zornig."
 	},
 }
 

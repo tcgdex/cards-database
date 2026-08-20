@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmog",
 		fr: "Cosmog",
+		de: "Cosmog"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+		de: "Unter seiner harten Schale häuft sich unaufhörlich etwas in seinem schwarzen Kern an. Es soll aus einer anderen Welt stammen."
 	},
 
 	thirdParty: {

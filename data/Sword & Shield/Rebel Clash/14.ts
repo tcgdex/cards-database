@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."
+		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon.",
+		de: "Die Seele eines Kindes, das sich im Wald verlief und dabei ums Leben kam, nistete sich in einem Baumstumpf ein und wurde zu diesem Pokémon."
 	},
 
 	variants: [

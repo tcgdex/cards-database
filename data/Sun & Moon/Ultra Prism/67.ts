@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
+		de: "Es kann aus 1 km Entfernung die Art und auch die Gefühle von Lebewesen erfassen. Es jagt im Rudel und manipuliert die Aura der Beute."
 	},
 
 	thirdParty: {

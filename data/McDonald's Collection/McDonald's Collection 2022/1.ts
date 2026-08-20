@@ -29,15 +29,18 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Collect",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
+				de: "Ziehe 1 Karte."
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Punch",
+				de: "Boxhieb"
 			},
 			damage: 20,
 		},

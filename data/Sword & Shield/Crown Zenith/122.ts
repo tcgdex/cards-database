@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
+		de: "Spannt man einen aus den elastischen Haaren von Zwollock gewobenen Teppich auf, kann man darauf hüpfen wie auf einem Trampolin."
 	},
 
 	

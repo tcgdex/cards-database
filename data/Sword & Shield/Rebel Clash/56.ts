@@ -60,7 +60,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		de: "Dieses Pokémon wird oftmals mit einem Pokéball verwechselt. Es lebt vorwiegend in Kraftwerken."
 	},
 
 	variants: [

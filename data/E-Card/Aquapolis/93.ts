@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Attach 1 Lightning Energy card from your discard pile to Mareep.",
 				fr: "Attachez une carte Énergie  de votre pile de défausse à Wattouat.",
-				de: "Lege eine -Energiekarte aus deinem Ablagestapel an Voltilamm an."
+				de: "Lege eine {L}-Energiekarte aus deinem Ablagestapel an Voltilamm an."
 			},
 
 		},

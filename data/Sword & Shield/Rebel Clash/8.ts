@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
+		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed.",
+		de: "Lombrero wird erst in der Abenddämmerung aktiv. Es ernährt sich von Moos, das am Boden von Flüssen gedeiht."
 	},
 
 	variants: [

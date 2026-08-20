@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+		de: "Wird es vom Mondschein getroffen, bewegt es sich. Nachts wandert es weite Wege, um seine Samen zu verstreuen."
 	},
 
 	

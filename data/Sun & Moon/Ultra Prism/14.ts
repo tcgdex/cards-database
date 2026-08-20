@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+		de: "Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen."
 	},
 
 	thirdParty: {

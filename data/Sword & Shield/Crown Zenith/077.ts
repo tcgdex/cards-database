@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
+		de: "Es bestiehlt liebend gerne Leute, um sich an ihrer Frustration zu erfreuen. Mit Kleptifux verbindet es eine tiefe Rivalität."
 	},
 
 	

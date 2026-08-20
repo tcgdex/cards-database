@@ -37,7 +37,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 Pokémon con Resistencia a Fighting, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon con resistenza al tipo Fighting, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon com Resistência Fighting no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Pokémon mit Fighting-Resistenz, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 Pokémon mit {F}-Resistenz, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -83,7 +83,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful—several hundred of them can gather at once."
+		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful—several hundred of them can gather at once.",
+		de: "Es taucht dort auf, wo Menschen leben. Beim Füttern muss man vorsichtig sein, da sich sonst schnell hunderte von ihnen versammeln können."
 	},
 
 	variants: [

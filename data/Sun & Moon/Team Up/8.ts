@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six.",
+		de: "Dieses Pokémon besteht aus sechs Individuen. Geht eines verloren, sind es am nächsten Morgen trotzdem auf jeden Fall wieder sechs."
 	},
 
 	thirdParty: {

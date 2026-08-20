@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+		de: "Es wird durch eine Energie angetrieben, die seinem Körper entspringt. Keiner weiß jedoch, woher diese Energie stammt."
 	},
 
 	thirdParty: {

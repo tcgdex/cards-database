@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocéan"
+		fr: "Hypocéan",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Crystal Type",
 				fr: "Type de cristal",
-				de: "Crystal Type"
+				de: "Kristall-Typ"
 			},
 			effect: {
 				en: "Whenever you attach a Water, Lightning, or Psychic basic Energy card from your hand to Kingdra, Kingdra's type (color) becomes the same as that Energy card type until the end of the turn.",
 				fr: "À chaque fois que vous attachez une carte Énergie de base ,  ou  de votre main à Hyporoi, le type de Hyporoi (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
-				de: "Whenever you attach a ,  or  basic Energy from your hand to Kabutops, Kabutops's type (color) become the same as that type of Energy until the end of the turn."
+				de: "Immer wenn du eine {W}-, {L}- oder {P}-Basis-Energiekarte aus deiner Hand an Seedraking anlegst, wird Seedrakings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie diese Energiekarte."
 			}
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Aquabomb",
 				fr: "Aquabombe",
-				de: "Aquabomb"
+				de: "Wasserbombe"
 			},
 			effect: {
 				en: "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
 				fr: "Hyporoi s'inflige 10 dégâts. (N'appliquez ni la Faiblesse, ni la Résistance quand Hyporoi s'inflige des dégâts avec cette attaque.)",
-				de: "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kindra damages itself with this attack.)"
+				de: "Seedraking fügt sich selber 10 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an, wenn Seedraking sich selber mit diesem Angriff Schadenspunkte zufügt.)"
 			},
 			damage: 40,
 
@@ -74,12 +75,12 @@ const card: Card = {
 			name: {
 				en: "Dual Burn",
 				fr: "Double brûlure",
-				de: "Dual Burn"
+				de: "Doppeltes Brennen"
 			},
 			effect: {
 				en: "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra.",
 				fr: "Lancez 2 pièces. Si c'est pile, défaussez-vous d'une carte Énergie attachée à Hyporoi.",
-				de: "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra."
+				de: "Wirf 2 Münzen. Lege für jedesmal „Zahl“ eine an Seedraking angelegte Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 
