@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seel",
 		fr: "Otaria",
+		de: "Jurob"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims through the ocean at a speed of eight knots, searching for Pokémon that will become its prey. It's especially fond of Wishiwashi.",
+		de: "Es schwimmt mit bis zu acht Knoten im Meer und sucht nach Beute. Für Lusardin hat es eine besondere Vorliebe."
 	},
 
 	thirdParty: {

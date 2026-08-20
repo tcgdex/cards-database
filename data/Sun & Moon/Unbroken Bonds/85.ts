@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It travels through tunnels that it digs underground. It hates sunlight, so it comes out only after the sun goes down.",
+		de: "Es gräbt unterirdische Tunnel und bewegt sich darin fort. Da es Licht verabscheut, taucht es erst nachts wieder an der Oberfläche auf."
 	},
 
 	thirdParty: {

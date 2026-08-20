@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.",
+		de: "Seine Nagezähne wachsen sein ganzes Leben über. Werden sie allzu lang, kann es damit nicht mehr fressen und verhungert."
 	},
 
 	thirdParty: {

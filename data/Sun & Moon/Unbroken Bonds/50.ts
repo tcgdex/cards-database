@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {W}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Water de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Scarta due Energie Water assegnate a questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Descarte 2 Energias Water deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
-				de: "Lege 2 Water-Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+				de: "Lege 2 {W}-Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 			},
 			damage: 110,
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+		de: "Ein Legendäres Eis-Pokémon, das auf den Helden wartet, der seinen verstümmelten Körper mit Wunsch und Wirklichkeit heilt."
 	},
 
 	thirdParty: {

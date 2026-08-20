@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+		de: "Es strotzt vor Energie. Um noch stärker zu werden, kämpft es weiter, auch wenn es verloren hat."
 	},
 
 	thirdParty: {

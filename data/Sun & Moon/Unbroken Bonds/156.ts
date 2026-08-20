@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "AI has been installed in it. It learns various things all on its own, but it even remembers things it doesn't need to know.",
+		de: "Es ist mit künstlicher Intelligenz ausgestattet und kann selbstständig verschiedene Dinge lernen. Darunter ist jedoch auch viel Unnützes."
 	},
 
 	thirdParty: {

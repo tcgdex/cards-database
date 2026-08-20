@@ -44,7 +44,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Metal, este ataque hace 40 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Metal, questo attacco infligge 40 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Metal, este ataque causará 40 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Metal-Pokémon ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+		de: "Sein Körper besteht aus geschmolzenem Stahl. Es bringt Eisen und andere Metalle im Boden zum Schmelzen, um sie dann zu absorbieren."
 	},
 
 	thirdParty: {

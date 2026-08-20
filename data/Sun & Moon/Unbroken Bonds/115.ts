@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandile",
 		fr: "Mascaïman",
+		de: "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Krokorok really hates it when its body gets cold. On nights when the temperature drops, it digs deep into the desert sands.",
+		de: "Rokkaiman verträgt es nicht gut, wenn sein Körper auskühlt. Deshalb vergräbt es sich an besonders kalten Abenden tief im Wüstensand."
 	},
 
 	thirdParty: {

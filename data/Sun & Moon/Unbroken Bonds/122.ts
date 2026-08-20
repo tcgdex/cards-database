@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
+		de: "Alola-Digda"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de tu rival hacen 10 puntos de daño menos a tus Pokémon Metal (después de aplicar Debilidad y Resistencia).",
 				it: "I tuoi Pokémon Metal subiscono 10 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza.",
 				pt: "Seus Pokémon Metal recebem 10 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
-				de: "Deinen Metal-Pokémon werden durch Attacken deines Gegners 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Deinen {M}-Pokémon werden durch Attacken deines Gegners 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Its metallic whiskers are heavy, so it's not very fast, but it has the power to dig through bedrock.",
+		de: "Da seine metallischen Haare schwer sind, ist es nicht besonders flink. Im Gegenzug kann es sich aber durch harte Felsschichten graben."
 	},
 
 	thirdParty: {

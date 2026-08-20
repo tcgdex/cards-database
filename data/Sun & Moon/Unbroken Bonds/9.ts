@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+		de: "Seine großen Augen bestehen aus vielen kleinen Augen. Nachts wird es von Licht angezogen."
 	},
 
 	thirdParty: {
