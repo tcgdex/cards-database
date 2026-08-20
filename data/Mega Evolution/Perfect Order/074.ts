@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Défaussez les 2 cartes du dessus de votre deck.",
 		es: "Descarta las 2 primeras cartas de tu baraja.",
 		'es-mx': "Descarta las primeras 2 cartas de tu mazo.",
-		de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
+		de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Scarta le prime due carte del tuo mazzo.",
 		pt: "Descarte as 2 cartas de cima do seu baralho."
 	},

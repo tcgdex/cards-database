@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Soignez 150 dégâts de l'un de vos Pokémon {P}.",
 		es: "Cura 150 puntos de daño a uno de tus Pokémon {P}.",
 		'es-mx': "Cura 150 puntos de daño a 1 de tus Pokémon {P}.",
-		de: "Heile 150 Schadenspunkte bei 1 deiner {P}-Pokémon.",
+		de: "Heile 150 Schadenspunkte bei 1 deiner {P}-Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Cura uno dei tuoi Pokémon {P} da 150 danni.",
 		pt: "Cure 150 pontos de dano de 1 dos seus Pokémon {P}."
 	},

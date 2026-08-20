@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Cherchez dans votre deck un Pokémon n'ayant pas d'encadré Règle, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck. (Les Pokémon-ex, Pokémon-V, etc. ont des encadrés Règle.)",
 		es: "Busca en tu baraja 1 Pokémon que no tenga un recuadro de regla, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja. (Los Pokémon ex, Pokémon V, etc., tienen recuadros de regla).",
 		'es-mx': "Busca en tu mazo 1 Pokémon que no tenga un Recuadro de Regla, muéstralo y ponlo en tu mano. Después, baraja tu mazo. (Los Pokémon ex, los Pokémon V, etc., tienen Recuadros de Regla).",
-		de: "Durchsuche dein Deck nach 1 Pokémon, das kein Regelfeld hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+		de: "Durchsuche dein Deck nach 1 Pokémon, das kein Regelfeld hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.) Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Cerca nel tuo mazzo un Pokémon che non ha una regola speciale, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
 		pt: "Procure no seu baralho por um Pokémon que não tiver uma Caixa de Regras, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)"
 	},
