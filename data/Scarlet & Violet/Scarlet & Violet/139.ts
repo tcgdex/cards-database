@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pineco",
-		fr: "Pomdepik"
+		fr: "Pomdepik",
+		de: "Tannza"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+		de: "Sein gesamter Körper steckt in einer stahlharten Schale. Ihr Inneres bleibt ein Geheimnis."
 	},
 
 	thirdParty: {

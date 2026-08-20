@@ -4,7 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton",
 		it: "Magneton"
 	},
@@ -109,14 +109,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107003
+				tcgplayer: 107003,
+				cardmarket: 660219
 			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107003
+				tcgplayer: 107003,
+				cardmarket: 660219
 			}
 		},
 		{

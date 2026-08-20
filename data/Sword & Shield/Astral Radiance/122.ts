@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
+		de: "Teddiursa leckt oft an seinen Pranken, da Honig an ihnen haftet. Listig, wie es ist, nimmt es sich diesen aus Wadribie-Stöcken, als ob er ihm gehören würde."
 	},
 
 	variants: [

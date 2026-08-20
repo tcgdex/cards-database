@@ -19,7 +19,7 @@ const card: Card = {
 		fr: "Insolourdo d'Okuba",
 		es: "Dunsparce de Laureano",
 		'es-mx': "Dunsparce de Laureano",
-		de: "Aokis Dummisel",
+		de: "Aokis Dummimisel",
 		it: "Dunsparce di Ubaldo",
 		pt: "Dunsparce do Lauro",
 	},

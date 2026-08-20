@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Skorgla",
+		de: "Skorgla"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Choose either Burned or Poisoned. The Defending Pokémon is now affected by that Special Condition. You may return Gliscor and all cards attached to it to your hand.",
 				fr: "Choisissez entre Brûlé et Empoisonné. Le Pokémon Défenseur est maintenant affecté par cet État Spécial. Vous pouvez reprendre Scorvol dans votre main ainsi que toutes les cartes qui lui sont attachées.",
-				de: "Wähle \"verbrannt\" oder \"vergiftet\". Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen. Du kannst Skorgro und alle daran angelegten Karten auf deine Hand zurücknehmen."
+				de: "Wähle „verbrannt“ oder „vergiftet“. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen. Du kannst Skorgro und alle daran angelegten Karten auf deine Hand zurücknehmen."
 			},
 
 		},
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-		fr: "Il guette sa proie pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+		fr: "Il guette sa proie pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
+		de: "Es hängt kopfüber von einem Ast und beobachtet seine Beute. Bei Gelegenheit stürzt es sich auf sie."
 	},
 
 	thirdParty: {

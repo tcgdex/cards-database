@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
+		de: "Wenn der Winter Hisui in eisige Kälte hüllt, streift es auf der Suche nach seinen Lieblingsbeeren durch Felder und Gebirge. Mit leerem Magen ist es leicht reizbar und äußerst brutal."
 	},
 
 	variants: [

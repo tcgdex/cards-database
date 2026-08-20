@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
+		de: "Es provoziert seine Beute und lockt sie in enge Felsspalten, wo es sie dann mit Giftgas ins Taumeln bringt und erlegt."
 	},
 
 	variants: [

@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez 2 autres cartes de votre main.\nCherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 		es: "Puedes usar esta carta solo si descartas otras 2 cartas de tu mano.\nBusca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		'es-mx': "Solo puedes usar esta carta si descartas otras 2 cartas de tu mano.\nBusca en tu mazo 1 Pokémon, muéstralo y ponlo en tu mano. Después, baraja tu mazo.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+		de: "Du kannst diese Karte nur einsetzen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Puoi usare questa carta solo se scarti altre due carte che hai in mano.\nCerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
 		pt: "Você só pode usar esta carta se descartar outras 2 cartas da sua mão.\nProcure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
 	},

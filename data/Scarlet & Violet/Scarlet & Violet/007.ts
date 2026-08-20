@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+		de: "Es lebt im tropischen Dschungel. Die süßen, leckeren Früchte an seinem Hals wachsen zweimal im Jahr."
 	},
 
 	thirdParty: {

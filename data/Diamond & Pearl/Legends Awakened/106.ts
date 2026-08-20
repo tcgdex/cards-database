@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
 				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ziehe 1 Karte."
+				de: "Wirf 1 Münze. Bei „Kopf“ ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen.Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
-		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
+		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne.",
+		de: "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen."
 	},
 
 	thirdParty: {

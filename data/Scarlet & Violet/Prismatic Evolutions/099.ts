@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante este turno, los ataques usados por tus Pokémon hacen 40 puntos de daño más al Pokémon ex Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		pt: "Durante este turno, os ataques usados pelos seus Pokémon causarão 40 pontos de dano a mais ao Pokémon ex Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		it: "Durante questo turno, gli attacchi usati dai tuoi Pokémon infliggono 40 danni in più al Pokémon-ex attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-		de: "Während dieses Zuges fügen die von deinen Pokémon eingesetzten Attacken dem Aktiven Pokémon-ex deines Gegners 40 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Während dieses Zuges fügen die von deinen Pokémon eingesetzten Attacken dem Aktiven Pokémon-ex deines Gegners 40 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

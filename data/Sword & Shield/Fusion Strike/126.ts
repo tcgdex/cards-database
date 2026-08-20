@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality."
+		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality.",
+		de: "Ein grauenvolles Pokémon, das seine Feinde in einen Sandsturm einschließt, um sie dann ihrer Lebensenergie zu berauben."
 	},
 
 	attacks: [{

@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+		de: "Es ist bei den Leuten verhasst, weil es auf seinen Rundflügen immer wieder Blitze erzeugt, die Waldbrände verursachen."
 	},
 
 	variants: [

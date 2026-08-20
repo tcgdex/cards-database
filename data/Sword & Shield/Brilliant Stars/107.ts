@@ -42,6 +42,7 @@ const card: Card = {
 
 	description: {
 		en: "Gible prefers to stay in narrow holes in the sides of caves heated by geothermal energy. This way, Gible can stay warm even during a blizzard.",
+		de: "Es mag enge Löcher in Höhlenwänden, die der Erdwärme ausgesetzt sind. Selbst wenn draußen ein Schneesturm wütet, friert es dort nicht."
 	},
 
 	variants: [

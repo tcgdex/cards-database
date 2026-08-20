@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+		de: "Der Wachstumsschub machte seine Psycho-Kräfte überflüssig. Stattdessen wurden die in ihm schlafenden Drachen-Kräfte geweckt."
 	},
 
 	thirdParty: {

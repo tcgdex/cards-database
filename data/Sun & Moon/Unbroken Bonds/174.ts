@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Descarta hasta 2 de tus Pokémon en Banca que no tengan contadores de daño sobre ellos y todas las cartas unidas a ellos.",
 		it: "Scarta fino a due dei tuoi Pokémon in panchina che non hanno segnalini danno insieme a tutte le carte a essi assegnate.",
 		pt: "Descarte até 2 dos seus Pokémon no Banco que não tenham contadores de dano neles e todas as cartas ligadas a eles.",
-		de: "Lege bis zu 2 Pokémon auf deiner Bank, auf denen keine Schadensmarken liegen, und alle an sie angelegten Karten auf deinen Ablagestapel."
+		de: "Lege bis zu 2 Pokémon auf deiner Bank, auf denen keine Schadensmarken liegen, und alle an sie angelegten Karten auf deinen Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

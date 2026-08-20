@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Minor Errand-Running",
 				fr: "Rendez-vous mineur",
-				de: "Minor Errand-Running"
+				de: "Kleine Besorgung"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Expand",
 				fr: "Pousstoidla",
-				de: "Expand"
+				de: "Ausdehnen"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Wattouat par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Voltilamm durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
+		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+		de: "Sein weiches Fell wird doppelt so dick, wenn sich Elektrizität aufbaut."
 	},
 
 	variants: [

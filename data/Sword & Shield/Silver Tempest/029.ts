@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Talonflame mainly preys upon other bird Pokémon. To intimidate opponents, it sends embers spewing from gaps between its feathers.",
+		de: "Fiaro ernährt sich vor allem von Vogel-Pokémon. Aus den Zwischenräumen seines Gefieders sprüht es Funken, um seine Gegner einzuschüchtern."
 	},
 
 	variants: [

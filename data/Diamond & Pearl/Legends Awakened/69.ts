@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Quiekel",
+		de: "Quiekel"
 	},
 
 	stage: "Stage1",
@@ -89,7 +90,8 @@ const card: Card = {
 
 	description: {
 		en: "Its shaggy coat makes it unable to see. It checks surroundings with its sensitive nose instead.",
-		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
+		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat.",
+		de: "Sein dichtes Fell verdeckt seine Augen. Es untersucht seine Umgebung mit seiner Nase."
 	},
 
 	thirdParty: {

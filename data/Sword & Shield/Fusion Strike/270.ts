@@ -25,7 +25,7 @@ const card: Card = {
 		es: "Espeon V",
 		it: "Espeon-V",
 		pt: "Espeon V",
-		de: "Psiana-V"
+		de: "Psiana VMAX"
 	},
 
 	stage: "VMAX",
@@ -84,7 +84,7 @@ const card: Card = {
 		effect: {
 			en: "This attack does 60 damage for each Energy attached to all of your opponent's Pokémon.",
 			fr: "Cette attaque inflige 60 dégâts pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 60 Schadenspunkte zu.",
+			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 60 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 60 puntos de daño por cada Energía unida a todos los Pokémon de tu rival.",
 			pt: "Este ataque causa 60 pontos de dano para cada Energia ligada a todos os Pokémon do seu oponente.",
 			it: "Questo attacco infligge 60 danni per ogni Energia assegnata ai Pokémon del tuo avversario."

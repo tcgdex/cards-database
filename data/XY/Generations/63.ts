@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Imakuni?",
 		fr: "Imakuni ?",
+		de: "Imakuni?"
 	},
 
 	illustrator: undefined,
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre Pokémon Actif est maintenant Confus.",
-		en: "Your Active Pokémon is now Confused."
+		en: "Your Active Pokémon is now Confused.",
+		de: "Dein Aktives Pokémon ist jetzt verwirrt. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+		de: "Drei Magnetilo sind durch ein starkes Magnetfeld verbunden. In seiner Nähe bekommt man Ohrensausen."
 	},
 
 	variants: [

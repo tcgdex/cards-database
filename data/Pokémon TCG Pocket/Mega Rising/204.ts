@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rufflet"
+		en: "Rufflet",
+		fr: "Furaiglon"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wing Attack"
+			en: "Wing Attack",
+			fr: "Cru-Ailes"
 		},
 
 		damage: 40,

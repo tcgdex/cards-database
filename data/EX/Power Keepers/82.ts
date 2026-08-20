@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player's Darkness Pokémon can't be Asleep, Confused, or Paralyzed.",
 		fr: "Les Pokémon Obscurité de chaque joueur ne peuvent pas être Endormis, Confus ou Paralysés.",
-		de: "Alle -Pokémon beider Spieler können nicht mehr schlafen, verwirrt oder gelähmt sein.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Alle {D}-Pokémon beider Spieler können nicht mehr schlafen, verwirrt oder gelähmt sein.",
 	},
 
 	thirdParty: {

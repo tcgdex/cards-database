@@ -4,7 +4,7 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Treecko",
-		fr: "Treecko"
+		fr: "Arcko"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",

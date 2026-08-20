@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Fighting, este ataque hace 40 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Fighting, questo attacco infligge 40 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Fighting, este ataque causará 40 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Fighting-Pokémon ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {F}-Pokémon ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "In the spring, it grows berries with the texture of frozen treats around its belly.",
+		de: "Im Frühjahr wachsen Beeren, die wie gefrorene Süßigkeiten aussehen, um seinen Bauch herum."
 	},
 
 	thirdParty: {

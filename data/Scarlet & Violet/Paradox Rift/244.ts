@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, hasta 4 cartas de Pokémon {P} y de Energía {P} Básica de tu pila de descartes en tu mano.",
 		it: "Prendi fino a quattro Pokémon {P} e carte Energia base {P} in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
 		pt: "Coloque até 4 cartas de Pokémon {P} e de Energia {P} Básica da sua pilha de descarte na sua mão em qualquer combinação.",
-		de: "Nimm eine beliebige Kombination aus bis zu 4 {P}-Pokémon und Basis-{P}-Energiekarten aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm eine beliebige Kombination aus bis zu 4 {P}-Pokémon und Basis-{P}-Energiekarten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",

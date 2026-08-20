@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bidoof"
+		en: "Bidoof",
+		fr: "Keunotor",
+		de: "Bidiza"
 	},
 
 	stage: "Stage1",

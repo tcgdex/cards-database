@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si a tu rival le quedan 3 cartas de Premio o menos, este Pokémon obtiene 150 PS más.",
 			it: "Se il tuo avversario ha tre o meno carte Premio rimanenti, questo Pokémon ha 150 PS in più.",
 			pt: "Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, este Pokémon receberá 150 PS a mais.",
-			de: "Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, erhält dieses Pokémon +150 KP."
+			de: "Wenn dein Gegner 3 oder weniger verbleibende Preiskarte hat, erhält dieses Pokémon +150 KP."
 		}
 	}],
 

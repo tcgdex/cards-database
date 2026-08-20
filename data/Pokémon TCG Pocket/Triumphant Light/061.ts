@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il vit dans le Monde Distorsion,\nun monde à l'opposé du nôtre\nqui échappe au sens commun.",
 		es: "Vive en el Mundo Distorsión, un mundo opuesto\nal nuestro y cuyas leyes desafían el sentido común.",
 		it: "Vive nel Mondo Distorto che, sfidando l'ordine\ncosmico, si trova sul lato opposto al nostro.",
-		de: "Es lebt in einer Zerrwelt, die auf der Kehrseite\nder unseren liegt und die sich aller Logik entzieht.",
+		de: "Es lebt in einer Zerrwelt, die auf der Kehrseite der unseren liegt und die sich aller Logik entzieht.",
 		'pt-br': "Dizem que este Pokémon vive em um mundo reverso\nao nosso, onde o senso comum é distorcido e estranho.",
 		ko: "상식이 통하지 않는\n이 세상의 이면에 있다고 불리는\n깨어진 세계에 서식한다."
 	},

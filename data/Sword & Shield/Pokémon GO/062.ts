@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
+		de: "Navitaub kann einigermaßen schnell fliegen. Es findet immer zu seinem Trainer und seinem Nest zurück, egal, wie weit entfernt es von ihnen ist."
 	},
 
 	

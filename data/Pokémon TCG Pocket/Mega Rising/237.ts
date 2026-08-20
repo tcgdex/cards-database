@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxray"
+		en: "Luxray",
+		fr: "Luxray"
 	},
 
 	illustrator: "GIDORA",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Luxio"
+		en: "Luxio",
+		fr: "Luxio"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flash Impact"
+			en: "Flash Impact",
+			fr: "Impact-Flash"
 		},
 
 		damage: 110,
 		cost: ["Lightning", "Colorless"],
 
 		effect: {
-			en: "This attack also does 20 damage to 1 of your Benched Pokémon."
+			en: "This attack also does 20 damage to 1 of your Benched Pokémon.",
+			fr: "Cette attaque inflige aussi 20 dégâts à un de vos Pokémon de Banc."
 		}
 	}],
 

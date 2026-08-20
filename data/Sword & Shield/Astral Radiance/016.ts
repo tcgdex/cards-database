@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+		de: "Die starke Beinmuskulatur verdankt es wohl dem Leben auf schneebedeckten Bergen. Über seine Blumenkrone verströmt es stimulierende Düfte."
 	},
 
 	variants: [

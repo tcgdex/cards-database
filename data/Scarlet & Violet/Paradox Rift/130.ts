@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
+		de: "Das blaue Auge auf der Parierstange ist sein wahrer Körper. Mithilfe eines alten Tuchs absorbiert es die Lebenskraft von Menschen."
 	},
 
 	variants: [

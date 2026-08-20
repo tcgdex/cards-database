@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	description: {
-		en: "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would."
+		en: "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would.",
+		de: "Seine Haare funktionieren wie Muskelfasern. Es kann diese vom Körper lösen und wie Tentakel verwenden, um Gegner einzufangen."
 	},
 
 	attacks: [{

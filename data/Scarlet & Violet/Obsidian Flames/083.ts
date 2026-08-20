@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
+		de: "Es gilt als Glücksbringer. Man sagt, seine Schale sei voll von purer Freude."
 	},
 
 	variants: [

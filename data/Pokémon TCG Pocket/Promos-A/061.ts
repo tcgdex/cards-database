@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Sa poitrine et son dos sécrètent une mousse\nqui lui permet de subir moins de dégâts en\namortissant le choc des attaques.",
 		es: "Secreta burbujas tanto por la espalda como\npor el pecho. Gracias a la elasticidad de estas,\npuede parar ataques y reducir el daño recibido.",
 		it: "Dal petto e dalla schiena secerne una schiuma che gli\npermette di attutire i danni causati dagli attacchi nemici.",
-		de: "Es stößt aus Brust und Rücken elastische Blasen aus,\nmit denen es gegnerische Angriffe abfängt und so\nden erlittenen Schaden verringert.",
+		de: "Es stößt aus Brust und Rücken elastische Blasen aus, mit denen es gegnerische Angriffe abfängt und so den erlittenen Schaden verringert.",
 		'pt-br': "Liberam bolhas flexíveis do peito e das costas.\nAs bolhas reduzem os danos que sofreriam\nao serem atacados.",
 		ko: "가슴과 등에서 거품을 내뿜는다.\n탄력 있는 거품으로 공격을\n막아내고 데미지를 줄인다."
 	},

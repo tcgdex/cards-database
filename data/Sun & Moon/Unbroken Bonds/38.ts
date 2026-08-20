@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it has become capable of living on land, it spends its time in the water, where its prey, fish Pokémon, are plentiful.",
+		de: "Es hat zwar gelernt, auch an Land zu überleben, hält sich aber trotzdem vorwiegend im Wasser auf, wo es nach Fisch-Pokémon jagen kann."
 	},
 
 	thirdParty: {

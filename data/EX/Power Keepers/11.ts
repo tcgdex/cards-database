@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -80,7 +81,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 

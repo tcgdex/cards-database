@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away.",
+		de: "Indem es Psycho-Kräfte ausstrahlt, erfasst es die Umgebung. Seine Observation umfasst dabei einen beeindruckenden Umkreis von 10 km."
 	},
 
 	variants: [

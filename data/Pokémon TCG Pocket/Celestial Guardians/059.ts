@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Geodude",
-		fr: "Racailloud'Alola",
-		es: "Geodudede Alola",
-		it: "Geodudedi Alola",
+		fr: "Racaillou d’Alola",
+		es: "Geodude de Alola",
+		it: "Geodude di Alola",
 		de: "Alola-Kleinstein",
-		'pt-br': "Geodudede Alola",
+		'pt-br': "Geodude de Alola",
 		ko: "알로라꼬마돌"
 	},
 

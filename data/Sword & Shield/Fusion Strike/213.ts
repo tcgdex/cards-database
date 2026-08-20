@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	description: {
-		en: "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs."
+		en: "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs.",
+		de: "Ein sehr vorsichtiges Pokémon, das Kämpfe zu vermeiden sucht. Mit seinen grazilen Beinen teilt es kräftige Tritte aus."
 	},
 
 	attacks: [{

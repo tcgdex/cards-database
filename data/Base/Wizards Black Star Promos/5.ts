@@ -4,7 +4,7 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Dragonite",
-		fr: "Dragonite",
+		fr: "Dracolosse",
 		de: "Dragoran (Dragonit)"
 	},
 

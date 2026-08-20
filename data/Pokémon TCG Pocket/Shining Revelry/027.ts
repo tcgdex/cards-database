@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pawmi"
+		en: "Pawmi",
+		fr: "Pohm",
+		de: "Pamo"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Quand on attaque son groupe, ce Pokémon\nest le premier à riposter. Il défait ses adversaires\navec un art martial qui repose sur l'électricité.",
 		es: "Cuando su manada se ve amenazada, atacan a la\nvanguardia usando un arte marcial caracterizado\npor el empleo de descargas eléctricas.",
 		it: "Quando il branco viene attaccato, lotta in prima\nfila contro il nemico per atterrarlo con tecniche\nmarziali che rilasciano scariche elettriche.",
-		de: "Wird seine Kolonie angegriffen, stürzt es sich\nsofort in den Kampf und besiegt den Feind mit\nKampftechniken, die auf Elektroschocks setzen.",
+		de: "Wird seine Kolonie angegriffen, stürzt es sich sofort in den Kampf und besiegt den Feind mit Kampftechniken, die auf Elektroschocks setzen.",
 		'pt-br': "Quando seu grupo é atacado, Pawmo é o primeiro a\nentrar na batalha, derrotando os inimigos com uma\ntécnica de combate que utiliza choques elétricos.",
 		ko: "무리가 공격을 받으면\n전격을 날리는 격투기로\n먼저 싸움을 걸고 적을 쓰러뜨린다."
 	},

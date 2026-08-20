@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Spacing out is basically all it does. It turns back into Slowpoke if its tail, along with Shellder, breaks off.",
+		de: "Ein von Grund auf begriffsstutziges Pokémon. Verliert es seine Rute mitsamt Muschas, entwickelt es sich zu Flegmon zurück."
 	},
 
 	thirdParty: {

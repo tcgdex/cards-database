@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
+		de: "Den Auspufflärm nutzt es als starke Drohgebärde. Es streckt seine Zunge aus dem zylindrischen Mund und verteilt dabei eine giftige Flüssigkeit."
 	},
 
 	variants: [

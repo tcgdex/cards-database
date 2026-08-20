@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents.",
+		de: "Sein ölgefüllter Schweif dient ihm als Rettungsboje, die es vor der Strömung reißender Flüsse schützt."
 	},
 
 	variants: [

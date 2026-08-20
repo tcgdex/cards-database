@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
-		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
+		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines.",
+		de: "Tagsüber verankert es sich mit seinen Wurzelfüßen im Boden. Nachts wandert es und verteilt Samen."
 	},
 
 	thirdParty: {

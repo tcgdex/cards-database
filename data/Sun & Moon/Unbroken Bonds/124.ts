@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+		de: "Ist verrückt nach Eisenerz. Bei Revierkämpfen stoßen Stollrak einander mit ihren Stahlkörpern."
 	},
 
 	thirdParty: {

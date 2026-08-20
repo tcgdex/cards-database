@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
+		en: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
+		de: "Es kann aus Sonnenlicht Elektrizität erzeugen. Unterbricht man es jedoch bei diesem Prozess, verliert es vor lauter Stress all seine Kraft."
 	},
 
 	attacks: [{

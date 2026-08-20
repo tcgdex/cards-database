@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
+		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.",
+		de: "Diese Pokémon leben in Herden. Drücken sie mit ihren kräftigen Rüsseln zu, können sie selbst massive Felsen zu Staub zermahlen."
 	},
 
 	attacks: [{

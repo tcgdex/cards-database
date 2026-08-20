@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
+		en: "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up.",
+		de: "Seine Bewegungsfreiheit ist stark eingeschränkt, wenn es vollgefressen ist. So wird es zu leichter Beute für Urgl, das es im Ganzen verschlingt."
 	},
 
 	attacks: [{

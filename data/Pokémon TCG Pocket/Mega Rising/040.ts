@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darmanitan"
+		en: "Darmanitan",
+		fr: "Darumacho"
 	},
 
 	illustrator: "kawayoo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Darumaka"
+		en: "Darumaka",
+		fr: "Darumarond"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Darmani-Hands"
+			en: "Darmani-Hands",
+			fr: "Daru-Mains"
 		},
 
 		damage: 80,
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 more damage for each heads."
+			en: "Flip 2 coins. This attack does 30 more damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Because the magnetic powers of these Pokémon get stronger in freezing temperatures, Metagross living on snowy mountains are full of energy.",
+		de: "Metagross, die auf verschneiten Bergen leben, sind besonders aktiv, da Temperaturen unter dem Gefrierpunkt ihren Magnetismus verstärken."
 	},
 
 	variants: [

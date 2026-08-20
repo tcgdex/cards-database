@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
+		de: "Sein unvorteilhaftes Aussehen macht es zwar unbeliebt, doch seine erstaunliche Lebenskraft hat das Interesse der Forscher an ihm geweckt."
 	},
 
 	variants: [

@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.",
+		de: "Mit seinen scharfen Fängen packt es seine Beute und pickt danach. Generell ist es ein Fleischfresser, es isst aber auch Beeren."
 	},
 
 	variants: [

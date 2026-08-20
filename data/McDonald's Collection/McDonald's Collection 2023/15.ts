@@ -50,9 +50,11 @@ const card: Card = {
 			cost: ["Psychic"],
 			name: {
 				en: "Phychic",
+				de: "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+				de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
 			},
 			damage: 20,
 		}

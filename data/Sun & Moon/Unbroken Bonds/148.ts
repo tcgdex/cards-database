@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
+		de: "Das Juwel auf seiner Stirn hat eine andere Farbe als jenes von Snobilikat aus Alola, doch die Zusammensetzung ist großteils gleich."
 	},
 
 	thirdParty: {

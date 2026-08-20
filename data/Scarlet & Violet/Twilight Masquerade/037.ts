@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		de: "Laternecto verschlingt Seelen, um seine Flamme zu nähren. Es streift durch Krankenhäuser und wartet darauf, dass Menschen verscheiden."
 	},
 
 	variants: [

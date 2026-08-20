@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja. Puedes cambiar ese Pokémon por tu Pokémon Activo.",
 		it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo. Puoi scambiare quel Pokémon con il tuo Pokémon attivo.",
 		pt: "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho. Você pode trocar aquele Pokémon pelo seu Pokémon Ativo.",
-		de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Du kannst jenes Pokémon gegen dein Aktives Pokémon austauschen."
+		de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Du kannst jenes Pokémon gegen dein Aktives Pokémon austauschen. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -62,12 +62,20 @@ const card: Card = {
 				cardtrader: 255602
 			}
 		},
+		{
+			type: 'holo',
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 785464,
+				tcgplayer: 579994,
+			}
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	
+
 }
 
 export default card

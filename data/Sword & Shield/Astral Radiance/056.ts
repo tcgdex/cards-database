@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+		de: "Man sagt, es zeige sich nur gutherzigen und einfühlsamen Menschen und überschütte sie dann mit Freude."
 	},
 
 	variants: [

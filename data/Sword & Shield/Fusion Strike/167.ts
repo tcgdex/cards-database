@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
 	},
 
 	attacks: [{

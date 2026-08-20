@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Quaputzi",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It gathers groups of others as their leader. Its cries make Poliwag obey.",
-		fr: "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard."
+		fr: "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard.",
+		de: "Es versammelt andere PKMN um sich herum und führt sie an. QUAPSEL gehorchen seinem Ruf."
 	},
 
 	thirdParty: {

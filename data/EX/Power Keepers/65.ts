@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Spheal during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Seemops während des nächsten Zuges deines Gegners zugefügt wird."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Seemops während des nächsten Zuges deines Gegners zugefügt wird."
 			},
 
 		},

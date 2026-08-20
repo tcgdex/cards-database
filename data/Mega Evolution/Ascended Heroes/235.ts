@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they’ve hardly been seen at all.",
+		de: "Es zeigt sich nie an Orten, wo Streit und Zwietracht herrschen. In letzter Zeit wird es kaum noch gesehen."
 	},
 
 	variants: [

@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
+		de: "Die Seele eines einsam Verstorbenen hat von halb ausgetrunkenem Schwarztee Besitz ergriffen. Fatalitee zeigt sich in Hotels und Wohnhäusern."
 	},
 
 	variants: [

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
+		de: "Es spielt mit seinen Feinden, indem es von einem sicheren Ort aus telekinetische Energie ausstrahlt, die starken Schwindel verursacht."
 	},
 
 	variants: [

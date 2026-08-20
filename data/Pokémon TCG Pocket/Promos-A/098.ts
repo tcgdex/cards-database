@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blissey ex"
+		en: "Blissey ex",
+		de: "Heiteira-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Chansey"
+		en: "Chansey",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -25,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Happy Punch"
+			en: "Happy Punch",
+			de: "Freudenschlag"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, heal 60 damage from this Pokémon."
+			en: "Flip a coin. If heads, heal 60 damage from this Pokémon.",
+			de: "Wirf 1 Münze. Heile bei Kopf 60 Schadenspunkte bei diesem Pokémon."
 		}
 	}],
 

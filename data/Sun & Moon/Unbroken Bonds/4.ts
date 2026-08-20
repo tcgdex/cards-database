@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+		de: "Sieht es ein Raupy, das von Vogel-Pokémon angegriffen wird, schlägt es diese mit seinem hochgiftigen Flügelstaub in die Flucht."
 	},
 
 	thirdParty: {

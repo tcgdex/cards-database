@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Type: Null",
+		fr: "Type:0",
 		de: "Typ:Null"
 	},
 
@@ -99,6 +100,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 895854,
 				tcgplayer: 704827
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 897298,
+				tcgplayer: 707027
 			}
 		}
 	],

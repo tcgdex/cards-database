@@ -63,13 +63,14 @@ const card: Card = {
 
 	description: {
 		en: "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
+		de: "Es merkt sofort, wenn jemand in der Nähe ist. Spürt es hinter sich die Präsenz eines Gegners, eliminiert es ihn, indem es scharfe Federn wirft."
 	},
 
 	variants: [
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 789504,
+				cardmarket: 725094,
 				tcgplayer: 509705,
 				cardtrader: 255574
 			}
@@ -78,7 +79,9 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 725094
+				cardmarket: 789504,
+				tcgplayer: 602866
+
 			}
 		},
 		{
@@ -93,7 +96,7 @@ const card: Card = {
 
 	illustrator: "sui",
 
-	
+
 }
 
 export default card

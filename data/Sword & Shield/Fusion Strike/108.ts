@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar."
+		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.",
+		de: "Wenn es mit speziellen Organen in seiner Brust Elektrizität erzeugt, erklingen dabei Geräusche, die an eine Bassgitarre erinnern."
 	},
 
 	abilities: [{

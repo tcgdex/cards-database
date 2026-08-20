@@ -50,7 +50,7 @@ const card: Card = {
 			es: "Elige 1 ataque de 1 de los Pokémon Dragon de tu pila de descartes y úsalo para este ataque.",
 			it: "Scegli un attacco di un Pokémon Dragon nella tua pila degli scarti e usalo al posto di questo attacco.",
 			pt: "Escolha um ataque de um Pokémon Dragon da sua pilha de descarte e use-o como este ataque.",
-			de: "Wähle 1 Attacke eines Dragon-Pokémon in deinem Ablagestapel und setze sie als diese Attacke ein."
+			de: "Wähle 1 Attacke eines {N}-Pokémon in deinem Ablagestapel und setze sie als diese Attacke ein."
 		}
 	}],
 

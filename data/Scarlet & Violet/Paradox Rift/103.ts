@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+		de: "Um seine Beute einzupökeln, überschüttet es sie mit Salz, das es auf sie spuckt. Dieser Prozess entzieht dem Körper der Beute Wasser."
 	},
 
 	variants: [

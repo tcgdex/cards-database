@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+		de: "Gerüchten zufolge versammeln sich Schneppke unter riesigen Blättern und leben dort friedlich zusammen."
 	},
 
 	variants: [

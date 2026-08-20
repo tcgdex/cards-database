@@ -93,6 +93,16 @@ const card: Card = {
 	description: {
 		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364328,
+				tcgplayer: 177903
+			}
+		}
+	],
 }
 
 export default card

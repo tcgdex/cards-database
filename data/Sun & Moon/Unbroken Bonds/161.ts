@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "Usually it's a well-behaved Pokémon, but if you take its round rock away, it will cry and fuss and throw a big old tantrum.",
+		de: "Eigentlich ein sehr braves Pokémon, das aber fürchterlich weint und tobt, wenn man den runden, weißen Stein aus seinem Beutel nimmt."
 	},
 
 	thirdParty: {

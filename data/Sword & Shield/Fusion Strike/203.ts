@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say."
+		en: "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say.",
+		de: "Es ist ein sehr liebevolles Pokémon. Nur ein Chaneira, das in völligem Einklang mit seinem Trainer ist, entwickelt sich zu Heiteira."
 	},
 
 	abilities: [{

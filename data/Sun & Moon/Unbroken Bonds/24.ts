@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Darumaka",
 		fr: "Darumarond",
+		de: "Flampion"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 cartas de Energía Fire, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Fire, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Fire no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Fire-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {R}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -75,7 +76,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire de este Pokémon.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte todas as Energias Fire deste Pokémon.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 110,
 
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+		de: "Nimmt es in einem heißen Kampf Schaden, wird es hart wie Stein und fällt in eine Trance, um seinen Verstand zu schärfen."
 	},
 
 	thirdParty: {

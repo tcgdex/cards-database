@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Bewitches humans with its helical tail and piercing gaze. Its hidden claws are quite sharp as well, making this Pokémon an exceedingly tricky opponent if antagonized.",
+		de: "Es betört Menschen mit seinem spiralförmigen Schweif und durchdringenden Blick. Die meist eingefahrenen Krallen sind scharf und stellen im Kampf überaus gefährliche Waffen dar."
 	},
 
 	variants: [

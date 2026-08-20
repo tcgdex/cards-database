@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When carrying a Charjabug, Vikavolt can receive electricity from it and then rapidly fire powerful electromagnetic beams from its large jaws.",
+		de: "Trägt es ein Akkup, wird es von diesem mit Strom versorgt, den es als starke elektromagnetische Strahlen aus seinem großen Kiefer abfeuert."
 	},
 
 	variants: [

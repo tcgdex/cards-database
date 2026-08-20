@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes evitar todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon hasta el final del próximo turno de tu rival.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi prevenire sia i danni che gli effetti degli attacchi dei Pokémon del tuo avversario inflitti a questo Pokémon fino alla fine del prossimo turno del tuo avversario.",
 			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá prevenir todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon até o final do próximo turno do seu oponente.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken der Pokémon deines Gegners, die diesem Pokémon zugefügt werden, verhindern."
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden, verhindern."
 		}
 	}],
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.",
+		de: "Knakrack lebt in vulkanischen Gebirgen. Es fliegt so schnell wie ein Jet durch die Lüfte und macht dabei unentwegt Jagd auf Beute."
 	},
 
 	variants: [

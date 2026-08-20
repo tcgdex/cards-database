@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
+		de: "Es knirscht stark mit den Zähnen, um sein Gehirn zu stimulieren. Die dabei erzeugten Psycho-Kräfte setzt es über den Fortsatz an seinem Kopf frei."
 	},
 
 	thirdParty: {

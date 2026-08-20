@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly."
+		en: "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
+		de: "Die toxische Flüssigkeit aus seinem rechten Arm ist sehr gefährlich. Angeschlagene Lebewesen kommen bei Kontakt sofort ums Leben."
 	},
 
 	attacks: [{

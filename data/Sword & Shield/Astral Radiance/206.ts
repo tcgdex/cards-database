@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si a tu rival le quedan 3 cartas de Premio o menos.\nCada jugador pone las cartas de su mano en su baraja y las baraja todas. Después, robas 6 cartas, y tu rival roba 2 cartas.",
 		it: "Puoi usare questa carta solo se il tuo avversario ha tre o meno carte Premio rimanenti.\nCiascun giocatore rimischia le carte che ha in mano nel proprio mazzo. Poi tu peschi sei carte e il tuo avversario ne pesca due.",
 		pt: "Você só pode usar esta carta se o seu oponente tiver 3 ou menos cartas de Prêmio restantes.\nCada jogador embaralha a própria mão no próprio baralho. Em seguida, você compra 6 cartas e o seu oponente compra 2 cartas.",
-		de: "Du kannst diese Karte nur verwenden, wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat.\nJeder Spieler mischt seine Handkarten in sein Deck. Anschließend ziehst du 6 Karten und dein Gegner zieht 2 Karten."
+		de: "Du kannst diese Karte nur verwenden, wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat. Jeder Spieler mischt seine Handkarten in sein Deck. Anschließend ziehst du 6 Karten und dein Gegner zieht 2 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -14,7 +14,15 @@ const card: Card = {
 		ja: "このカードをつけているポケモンのにげるために必要なエネルギーは、すべてなくなる。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864274,
+				tcgplayer: 684569,
+			},
+		},
+	],
 
 	trainerType: "Tool",
 	rarity: "Promo",

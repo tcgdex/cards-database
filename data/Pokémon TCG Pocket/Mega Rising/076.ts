@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chewtle"
+		en: "Chewtle",
+		fr: "Khélocrok"
 	},
 
 	illustrator: "Nurikabe",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague"
 		},
 
 		damage: 40,

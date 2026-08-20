@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Hawlucha live quietly without flocking together. They fight constantly with their natural enemies: noisy groups of Primeape.",
+		de: "Resladero lebt friedlich für sich allein. Unentwegt kämpft es gegen seine natürlichen Feinde: Rasaff, die in Gruppen randalieren."
 	},
 
 	variants: [

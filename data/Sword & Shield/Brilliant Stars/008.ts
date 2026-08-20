@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon Evolución en juego.",
 			it: "Questo attacco infligge 50 danni per ogni tuo Pokémon Evoluzione in gioco.",
 			pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon de Evolução em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 50 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 50 Schadenspunkt zu."
 		},
 
 		damage: "50×"
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+		de: "Kleine Pokémon fangen manchmal an, auf dem bewegungslosen Rücken Nester zu bauen."
 	},
 
 	variants: [

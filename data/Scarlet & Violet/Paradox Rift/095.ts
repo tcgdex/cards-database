@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+		de: "Ab und zu häutet es sich und verliert Schuppen. Medizin, die solche Schuppen enthält, macht müde Körper munter."
 	},
 
 	variants: [

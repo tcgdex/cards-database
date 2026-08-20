@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting."
+		en: "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.",
+		de: "Es hilft gerne Menschen oder anderen Pokémon, um Dankbarkeit zu ernten. Die Weibchen gelten als ausgezeichnete Babysitter."
 	},
 
 	attacks: [{

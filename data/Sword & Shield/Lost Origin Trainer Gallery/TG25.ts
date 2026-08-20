@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cura 70 puntos de daño a tu Pokémon Activo.",
 		it: "Cura il tuo Pokémon attivo da 70 danni.",
 		pt: "Cure 70 pontos de dano do seu Pokémon Ativo.",
-		de: "Heile 70 Schadenspunkte bei deinem Aktiven Pokémon."
+		de: "Heile 70 Schadenspunkte bei deinem Aktiven Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

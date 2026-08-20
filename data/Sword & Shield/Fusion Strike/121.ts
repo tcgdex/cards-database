@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	description: {
-		en: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
+		en: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare.",
+		de: "Während es Träume frisst, stößt es Dunst aus. Bei fröhlichen Träumen ist dieser rosafarben, bei Alpträumen schwärzlich."
 	},
 
 	attacks: [{

@@ -72,7 +72,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It relies on sound in order to monitor what's in its vicinity. When angered, it will attack without ever changing the direction it's facing."
+		en: "It relies on sound in order to monitor what's in its vicinity. When angered, it will attack without ever changing the direction it's facing.",
+		de: "Es nimmt die Umgebung über akustische Reize wahr. Ärgerliche Störenfriede kann es verfolgen, ohne sich ihnen zuwenden zu müssen."
 	},
 
 	dexId: [525],

@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
 		de: "Metang"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40+",
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
-		fr: "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
+		fr: "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction.",
+		de: "Das PKMN besteht aus zwei TANHEL. Es bekommt selbst dann keinen Kratzer, wenn ein Jet es streift."
 	},
 
 	thirdParty: {

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+		de: "Das Feuer an seinem Hinterteil wird durch Gase im Bauch genährt. Selbst Regen löscht es nicht."
 	},
 
 	variants: [

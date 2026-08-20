@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+		de: "Die beiden sind unzertrennlich. Finden sie Futter, teilen sie dieses in zwei identische Hälften, ehe sie es zu fressen beginnen."
 	},
 
 	thirdParty: {

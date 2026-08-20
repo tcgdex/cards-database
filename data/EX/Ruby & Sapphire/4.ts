@@ -4,7 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 

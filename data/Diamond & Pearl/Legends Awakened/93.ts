@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for up to 2 in any combination of Grass Basic Pokémon and Psychic Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck n'importe quelle combinaison de jusqu'à 2 Pokémon de base Grass et Pokémon de base Psychic et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Karten in beliebiger Kombination aus - und -Basis-Pokémon-Karten und lege sie auf deine Bank. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach bis zu 2 Karten in beliebiger Kombination aus {G}- und {P}-Basis-Pokémon-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
-		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
+		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare.",
+		de: "Die sechs Eier kommunizieren telepathisch. Werden sie getrennt, finden sie sich schnell wieder."
 	},
 
 	thirdParty: {

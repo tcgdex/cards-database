@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
+		de: "Es schläft auf dem Grund eines Sees. Man sagt, sein Geist verlasse den Körper und fliege über den See."
 	},
 
 	thirdParty: {

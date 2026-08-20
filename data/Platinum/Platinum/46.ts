@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skull Fossil",
-		fr: "Fossile crâne"
+		fr: "Fossile Crâne",
+		de: "Kopffossil"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Rock Smash",
 				fr: "Éclate-roc",
-				de: "Rock Smash"
+				de: "Zertrümmerer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Knock Over",
 				fr: "Culbute",
-				de: "Knock Over"
+				de: "Umwerfen"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
 				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 40,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts."
+		en: "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts.",
+		de: "Es lebt seit Urzeiten im Dschungel. Kann im Weg befindliche Bäume mit Kopfstößen aus dem Weg räumen."
 	},
 
 	variants: [

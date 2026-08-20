@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
+		de: "Dieses Pokémon lebt im Morast. Dank der dortigen Bakterien hat es ein Organ entwickelt, mit dem es Strom erzeugen kann."
 	},
 
 	variants: [

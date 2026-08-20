@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
+		de: "Aus den Fortsätzen an beiden Seiten seines Kopfes stößt es Ultraschallwellen aus, um sich in stockfinsteren Höhlen zurechtzufinden."
 	},
 
 	variants: [

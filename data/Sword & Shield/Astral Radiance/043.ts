@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
+		de: "Trotz mancher Unterschiede, wie etwa des sanften Wesens, weist es etliche Gemeinsamkeiten mit Barschuft auf. Infolgedessen habe ich es als Regionalform dieses Pokémon eingeordnet."
 	},
 
 	variants: [

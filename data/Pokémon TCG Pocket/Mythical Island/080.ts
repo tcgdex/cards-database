@@ -22,7 +22,7 @@ const card: Card = {
 		fr: "Ajoutez votre Mew-ex sur le Poste Actif à votre main.",
 		es: "Pon a tu Mew ex que esté en el Puesto Activo en tu mano.",
 		it: "Riprendi in mano il tuo Mew-ex in posizione attiva.",
-		de: "Nimm dein Mew-ex in der Aktiven Position auf deine Hand.",
+		de: "Nimm dein Mew-ex in der Aktiven Position auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		'pt-br': "Coloque seu Mew ex do Campo Ativo na sua mão.",
 		ko: "자신의 배틀필드의 「뮤 ex」 패로 되돌린다."
 	},

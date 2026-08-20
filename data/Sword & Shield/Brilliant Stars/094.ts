@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
+		de: "Wickelt es seine Haare um den ganzen Körper, verstärkt dies seine Muskelkraft. Das macht es so stark, dass es sogar Machomei bezwingen könnte."
 	},
 
 	variants: [

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+		de: "Dieses Pokémon ist für seine Willensstärke bekannt. Bläst es Körperflüssigkeit durch die Nase, entsteht eine Blase, die als Waffe fungiert."
 	},
 
 	thirdParty: {

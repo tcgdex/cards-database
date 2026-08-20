@@ -4,7 +4,8 @@ import Set from '../Generations'
 const card: Card = {
 	name: {
 		en: "Jolteon-EX",
-		fr: "Voltali-EX"
+		fr: "Voltali-EX",
+		de: "Blitza-EX"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
-				fr: "Météores"
+				fr: "Météores",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 30,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flash Ray",
-				fr: "Rayon Flash"
+				fr: "Rayon Flash",
+				de: "Blitzstrahl"
 			},
 			effect: {
 				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base."
+				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+				de: "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe von Basis-Pokémon zugefügt wird."
 			},
 			damage: 70,
 

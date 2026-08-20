@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!",
+		de: "Sein Gesang unterscheidet sich je nach der Region, in der es lebt. Mancherorts erinnert er mehr an Geschrei."
 	},
 
 	attacks: [{

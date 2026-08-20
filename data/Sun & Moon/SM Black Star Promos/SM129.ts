@@ -91,6 +91,16 @@ const card: Card = {
 	description: {
 		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 360556,
+				tcgplayer: 172930
+			}
+		}
+	],
 }
 
 export default card

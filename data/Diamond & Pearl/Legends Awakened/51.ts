@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy attached to Castform Sunny Form.",
 				fr: "Défaussez une Énergie Fire attachée à Morpheo Soleil.",
-				de: "Lege 1 an Formeo Sonnenform angelegte -Energie auf deinen Ablagestapel."
+				de: "Lege 1 an Formeo Sonnenform angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
-		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
+		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau.",
+		de: "Seine Gestalt ändert sich mit dem Wetter. Vor kurzem entdeckte man, dass seine Moleküle wie Wasser sind."
 	},
 
 	thirdParty: {

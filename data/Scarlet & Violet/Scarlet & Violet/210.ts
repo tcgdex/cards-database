@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When it twitches its nose, it can tell where someone is sleeping and what that person is dreaming about.",
+		de: "Wenn es mit seiner großen Nase zuckt, kann es feststellen, wo jemand schläft und was er gerade träumt."
 	},
 
 	thirdParty: {

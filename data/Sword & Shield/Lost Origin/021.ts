@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 			pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],

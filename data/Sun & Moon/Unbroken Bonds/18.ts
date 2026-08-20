@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 Pokémon Lightning, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon Lightning, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon Lightning no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Lightning-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {L}-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "If you find its nest, you shouldn't stick your hand inside. You'll get bitten by an irritated Grubbin.",
+		de: "Wer den Bau eines Mabula findet, sollte nicht die Hand hineinstecken. Das mag es nämlich gar nicht und schnappt dann gnadenlos zu."
 	},
 
 	thirdParty: {

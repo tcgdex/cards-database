@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charjabug",
 		fr: "Chrysapile",
+		de: "Akkup"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,7 @@ const card: Card = {
 				es: "Puedes descartar todas las Energías Lightning de este Pokémon. Si lo haces, este ataque hace 100 puntos de daño más.",
 				it: "Puoi scartare tutte le Energie Lightning assegnate a questo Pokémon. Se lo fai, questo attacco infligge 100 danni in più.",
 				pt: "Você pode descartar todas as Energias Lightning deste Pokémon. Se fizer isto, este ataque causará 100 pontos de dano a mais.",
-				de: "Du kannst alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 100 Schadenspunkte mehr zu."
+				de: "Du kannst alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 100 Schadenspunkte mehr zu."
 			},
 			damage: "120+",
 
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
+		de: "Es erzeugt mit einem Organ in seinem Bauch Elektrizität. In seinem großen Kiefer speichert es Strom für enorm starke Elektrosalven."
 	},
 
 	thirdParty: {

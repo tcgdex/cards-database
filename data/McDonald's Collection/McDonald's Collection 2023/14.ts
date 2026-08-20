@@ -29,9 +29,11 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Touring",
+				de: "Spritztour"
 			},
 			effect: {
 				en: "Draw 2 cards.",
+				de: "Ziehe 2 Karten."
 			},
 		},
 		{

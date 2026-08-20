@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
-		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
+		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson.",
+		de: "Es kommuniziert mit anderen durch magnetische Impulse. Im Schwarm bilden sie eine perfekte Einheit."
 	},
 
 	thirdParty: {

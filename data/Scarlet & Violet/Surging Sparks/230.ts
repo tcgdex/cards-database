@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 Pokémon ex, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon-ex, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 3 Pokémon ex no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 3 Pokémon-ex, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Pokémon-ex, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

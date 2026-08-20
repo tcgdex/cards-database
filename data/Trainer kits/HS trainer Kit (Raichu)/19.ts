@@ -18,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu",
 	},
 	stage: "Stage1",
 	attacks: [

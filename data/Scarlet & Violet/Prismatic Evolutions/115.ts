@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y busca en tu baraja 1 carta de Pokémon, 1 carta de Partidario y 1 carta de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		pt: "Descarte a sua mão e procure por um Pokémon, uma carta de Apoiador e uma carta de Energia Básica no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		it: "Scarta le carte che hai in mano e cerca nel tuo mazzo un Pokémon, una carta Aiuto e una carta Energia base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und durchsuche dein Deck nach 1 Pokémon, 1 Unterstützerkarte und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und durchsuche dein Deck nach 1 Pokémon, 1 Unterstützerkarte und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

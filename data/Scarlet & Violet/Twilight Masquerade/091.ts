@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It flings sand into the eyes of its prey and tries to close in on them while they're blinded, but since Sandygast is so slow, the prey tends to escape.",
+		de: "Es wirft seiner Beute Sand in die Augen, wodurch diese nichts sieht, und nähert sich ihr dann. Es ist jedoch so langsam, dass die Beute oft entkommt."
 	},
 
 	variants: [

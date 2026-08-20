@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Pon 1 de tus cartas de Premio que están boca abajo boca arriba. Si es 1 carta de Energía Fire, este ataque hace 50 puntos de daño más. (Esa carta de Premio permanecerá boca arriba durante el resto de la partida).",
 				it: "Gira a faccia in su una delle tue carte Premio che sono a faccia in giù. Se quella carta Premio è una carta Energia Fire, questo attacco infligge 50 danni in più. La carta Premio resta a faccia in su per il resto della partita.",
 				pt: "Vire para cima 1 das suas cartas de Prêmio. Se for uma carta de Energia Fire, este ataque causará 50 pontos de dano a mais (aquela carta de Prêmio permanecerá virada para cima pelo resto da partida).",
-				de: "Decke 1 deiner verdeckten Preiskarten auf. Wenn sie eine Fire-Energiekarte ist, fügt diese Attacke 50 Schadenspunkte mehr zu. (Jene Preiskarte bleibt für den Rest des Spiels aufgedeckt.)"
+				de: "Decke 1 deiner verdeckten Preiskarten auf. Wenn sie eine {R}-Energiekarte ist, fügt diese Attacke 50 Schadenspunkte mehr zu. (Jene Preiskarte bleibt für den Rest des Spiels aufgedeckt.)"
 			},
 			damage: "10+",
 
@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Descarta cualquier cantidad de cartas de Energía Fire de tu mano. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta un numero qualsiasi di carte Energia Fire che hai in mano. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte qualquer número de cartas de Energia Fire da sua mão. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege beliebig viele Fire-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege beliebig viele {R}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "50×",
 
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
+		de: "Dieses Wesen ist vermutlich eine Ultrabestie. Es nähert sich Menschen tänzelnd, nur um dann plötzlich seinen Kopf explodieren zu lassen."
 	},
 
 	thirdParty: {

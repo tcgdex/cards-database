@@ -38,7 +38,15 @@ const card: Card = {
 	weaknesses: [{ type: "Fighting", value: "x2" }],
 	resistances: [],
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 873884,
+				tcgplayer: 684581,
+			},
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",

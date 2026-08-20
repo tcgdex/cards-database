@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+		de: "Es neigt dazu, sich in großen Schwärmen zu bewegen. Zwischen diesen kommt es zu heftigen Kämpfen."
 	},
 
 	variants: [

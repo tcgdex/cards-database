@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
+		de: "Wird Suelord angegriffen, wehrt es sich, indem es dicke Stacheln ausfährt. Setzt es diese riskante Attacke ein, ist es bereit, aufs Ganze zu gehen."
 	},
 
 	variants: [

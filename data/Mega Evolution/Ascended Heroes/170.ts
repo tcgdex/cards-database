@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+		de: "Selbst mit einer Verletzung greift es immer weiter an. Es legt großen Wert auf das Aussehen seines Kamms."
 	},
 
 	variants: [

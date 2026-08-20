@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Braviary"
+		en: "Braviary",
+		fr: "Gueriaigle"
 	},
 
 	illustrator: "chibi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rufflet"
+		en: "Rufflet",
+		fr: "Furaiglon"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: 80,

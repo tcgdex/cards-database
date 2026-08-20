@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		de: "Iscalar"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Psychic de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Psychic dalla tua pila degli scarti.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Psychic da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Psychic-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {P}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
 			},
 		},
 	],
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+		de: "Mit seinen hypnotischen Kräften lockt es Gegner an, hält sie mit den Tentakeln an seinem Kopf fest und zersetzt sie dann mit Verdauungssekret."
 	},
 
 	thirdParty: {

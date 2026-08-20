@@ -46,7 +46,7 @@ const card: Card = {
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo. Si lo haces, este ataque hace 120 puntos de daño al nuevo Pokémon Activo. Si no has jugado Maquinaciones de Xero de tu mano durante este turno, este ataque no hace nada.",
 			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva. Se lo fai, questo attacco infligge 120 danni al nuovo Pokémon attivo. Se non hai giocato Macchinazioni di Xante dalla tua mano durante questo turno, questo attacco non ha effetto.",
 			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. Se fizer isto, este ataque causará 120 pontos de dano ao novo Pokémon Ativo. Se você não jogou Tramoias do Xerosic da sua mão durante este turno, este ataque não fará nada.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Wenn du das machst, fügt diese Attacke dem neuen Aktiven Pokémon 120 Schadenspunkte zu. Wenn du Xeros' Machinationen während dieses Zuges nicht aus deiner Hand gespielt hast, hat diese Attacke keine Auswirkungen."
+			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Wenn du das machst, fügt diese Attacke dem neuen Aktiven Pokémon 120 Schadenspunkte zu. Wenn du Xeros’ Machinationen während dieses Zuges nicht aus deiner Hand gespielt hast, hat diese Attacke keine Auswirkungen."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, si ese jugador juega una carta de Partidario de su mano durante su turno, puede curar 10 puntos de daño a cada uno de sus Pokémon.",
 		it: "Una sola volta durante il turno di ciascun giocatore, se quel giocatore ha giocato una carta Aiuto dalla propria mano durante questo turno, può curare ciascuno dei suoi Pokémon da 10 danni.",
 		pt: "Uma vez durante o turno de cada jogador, se ele jogou uma carta de Apoiador da própria mão neste turno, ele poderá curar 10 pontos de dano de cada um dos seus próprios Pokémon.",
-		de: "Einmal während des Zuges jedes Spielers, wenn er eine Unterstützerkarte während dieses Zuges aus seiner Hand gespielt hat, kann er 10 Schadenspunkte bei jedem seiner Pokémon heilen."
+		de: "Einmal während des Zuges jedes Spielers, wenn er eine Unterstützerkarte während dieses Zuges aus seiner Hand gespielt hat, kann er 10 Schadenspunkte bei jedem seiner Pokémon heilen. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

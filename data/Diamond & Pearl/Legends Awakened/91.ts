@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
-		fr: "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue."
+		fr: "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue.",
+		de: "Man nennt es “Illusion-Pokémon”, denn nur wenige haben es gesehen. Nur seine Haut wurde oft gefunden."
 	},
 
 	thirdParty: {

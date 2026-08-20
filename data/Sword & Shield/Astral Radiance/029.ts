@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
+		de: "Dieses Pokémon lebt in sanft fließenden Flüssen. Mit seinen langen Gliedmaßen schwimmt es voller Eleganz durch das Wasser."
 	},
 
 	variants: [

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "You may discard all Lightning Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50.",
 				fr: "Vous pouvez défausser toutes les Énergies  attachées à Lanturn. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
-				de: "Du darfst alle -Energiekarten, die an Lanturn angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 90 Schadenspunkte anstelle von 50 Schadenspunkten."
+				de: "Du darfst alle {L}-Energiekarten, die an Lanturn angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 90 Schadenspunkte anstelle von 50 Schadenspunkten."
 			},
 			damage: 50,
 

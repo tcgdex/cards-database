@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that a home visited by a Snorunt will prosper. It can withstand cold of −150 degrees Fahrenheit.",
+		de: "Man sagt, dass Schneppke den Häusern, die es besucht, Wohlstand bringt. Es kann Kälte von bis zu −100 ℃ ohne Weiteres überstehen."
 	},
 
 	variants: [

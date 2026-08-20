@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Monferno",
-		fr: "Chimpenfeu"
+		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Rushing Flames",
 				fr: "Flammes dévorantes",
-				de: "Rushing Flames"
+				de: "Brausende Flammen"
 			},
 			effect: {
 				en: "Discard as many Fire Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.",
 				fr: "Défaussez autant d'Énergies Fire attachées à vos Pokémon en jeu que vous voulez. Lancez une pièce pour chaque carte Énergie défaussée. Cette attaque inflige 80 dégâts multipliés par le nombre de faces.",
-				de: "Discard as many  Energy as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads."
+				de: "Entferne beliebig viele {R}-Energien von deinen Pokémon und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "80×",
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
-				de: "Rage"
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each damage counter on Infernape.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Simiabraz.",
-				de: "Does 30 damage plus 10 more damage for each damage counter on Infernape."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Panferno zu."
 			},
 			damage: "30+",
 
@@ -74,7 +75,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent."
+		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent.",
+		de: "Es verwendet einzigartige Attacken mit dem Feuer an seinen Händen und Füßen. Stellt sich jedem Gegner."
 	},
 
 	variants: [

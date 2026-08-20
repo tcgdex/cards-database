@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+		de: "Sie verfügen über exzellente Flugfertigkeiten. Weibchen können länger fliegen, aber dafür erreichen Männchen ein höheres Flugtempo."
 	},
 
 	

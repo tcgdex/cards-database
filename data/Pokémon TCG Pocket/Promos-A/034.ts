@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon est difficile à entraîner car il est très\ndésobéissant et déteste qu'on lui rende service.",
 		es: "No le gusta que lo cuiden. Como no aprecia el apoyo\nde su Entrenador, le cuesta coger confianza con él.",
 		it: "Molto orgoglioso. Difficile farci amicizia\nperché non ascolta mai i consigli dell'Allenatore.",
-		de: "Einmischung kann es gar nicht leiden. Es ist bockig\nund fasst nur schwer Zutrauen zu seinem Trainer.",
+		de: "Einmischung kann es gar nicht leiden. Es ist bockig und fasst nur schwer Zutrauen zu seinem Trainer.",
 		'pt-br': "Estes Pokémon não gostam que tomem conta deles.\nÉ muito difícil criar laços com eles,\npois não costumam obedecer aos seus Treinadores.",
 		ko: "신세를 지는 것을 싫어한다.\n트레이너의 지시를 듣지 않아\n친해지기 어렵다."
 	},

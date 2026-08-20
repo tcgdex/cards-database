@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon que no tenga ningún Coste de Retirada, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un Pokémon che non ha costo di ritirata, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon que não tenha custo de Recuo no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Pokémon, das keine Rückzugskosten hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Pokémon, das keine Rückzugskosten hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

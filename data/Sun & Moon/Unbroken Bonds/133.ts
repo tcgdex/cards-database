@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él.",
 				it: "Questo attacco infligge 30 danni in più per ogni tuo Pokémon che abbia delle Energie Fairy assegnate.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada um dos seus Pokémon que tiver alguma Energia Fairy ligada a ele.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl deiner Pokémon zu, an die mindestens 1 Fairy-Energie angelegt ist."
+				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl deiner Pokémon zu, an die mindestens 1 {FAIRY}-Energie angelegt ist."
 			},
 			damage: "10+",
 
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren't many people or Pokémon.",
+		de: "Es hört eine fallende Nadel aus 1 km Entfernung und lebt daher tief in den Bergen, weit weg vom Lärm der Menschen und anderer Pokémon."
 	},
 
 	thirdParty: {

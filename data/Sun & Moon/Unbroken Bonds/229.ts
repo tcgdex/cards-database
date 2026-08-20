@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si te quedan exactamente 6 cartas de Premio, y si el Pokémon-GX o Pokémon-EX Activo de tu rival queda Fuera de Combate por el daño de un ataque del Ultraente al que esté unida esta carta, coge 1 carta de Premio más.",
 		it: "Se hai esattamente sei carte Premio rimanenti, e se il Pokémon-GX o il Pokémon-EX attivo del tuo avversario viene messo KO dai danni di un attacco dell’Ultracreatura a cui è assegnata questa carta, prendi una carta Premio in più.",
 		pt: "Se você tiver exatamente 6 cartas de Prêmio restantes e o Pokémon-GX ou Pokémon-EX Ativo do seu oponente for Nocauteado pelo dano de um ataque da Ultracriatura à qual esta carta está ligada, pegue 1 carta de Prêmio a mais.",
-		de: "Wenn du genau 6 verbleibende Preiskarten hast und wenn das Aktive Pokémon-GX oder Pokémon-EX deines Gegners durch eine Attacke der Ultrabestie, an die diese Karte angelegt ist, kampfunfähig wird, nimm 1 Preiskarte mehr."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn du genau 6 verbleibende Preiskarten hast und wenn das Aktive Pokémon-GX oder Pokémon-EX deines Gegners durch eine Attacke der Ultrabestie, an die diese Karte angelegt ist, kampfunfähig wird, nimm 1 Preiskarte mehr. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	thirdParty: {

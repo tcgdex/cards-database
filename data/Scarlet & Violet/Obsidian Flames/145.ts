@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		de: "Vor Urzeiten wurden sie als Regenmacher verehrt. Manchmal findet man eines von ihnen im Boden vergraben."
 	},
 
 	variants: [

@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It’s gentle usually but fearsome when angered. With a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to ash.",
+		de: "Verärgert man dieses sanftmütige Pokémon, wird es rasend und stürzt sich mit seinem 1500 ℃ heißen Körper auf Gegner, um sie zu verbrennen."
 	},
 
 	variants: [

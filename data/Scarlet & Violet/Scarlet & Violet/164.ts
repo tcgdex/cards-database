@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It can sprint at over 70 mph while carrying a human. The rider's body heat warms Cyclizar's back and lifts the Pokémon's spirit.",
+		de: "Es kann mit 120 km/h umherdüsen, während es einen Menschen trägt. Die Körperwärme der Person wärmt seinen Rücken und gibt ihm Kraft."
 	},
 
 	thirdParty: {

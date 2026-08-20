@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Les Pokémon {G} de chaque personne peuvent évoluer en Pokémon {G} pendant le tour où elle les joue, sauf pendant son premier tour.",
 		es: "Los Pokémon {G} de cada jugador pueden evolucionar a Pokémon {G} durante el turno en que cada jugador los ponga en juego, excepto durante su primer turno.",
 		'es-mx': "Los Pokémon {G} de cada jugador pueden evolucionar a Pokémon {G} durante el turno en que se pongan en juego, excepto durante el primer turno de cada jugador.",
-		de: "Die {G}-Pokémon jedes Spielers können sich während des Zuges, in dem der Spieler jene Pokémon spielt, zu {G}-Pokémon entwickeln, außer während seines ersten Zuges.",
+		de: "Die {G}-Pokémon jedes Spielers können sich während des Zuges, in dem der Spieler jene Pokémon spielt, zu {G}-Pokémon entwickeln, außer während seines ersten Zuges. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn ein anderes Stadion ins Spiel kommt. Ein Stadion mit demselben Namen kann nicht gespielt werden.",
 		it: "I Pokémon {G} di ciascun giocatore possono evolversi in Pokémon {G} durante il turno in cui quei Pokémon vengono giocati, a eccezione del primo turno di ciascun giocatore.",
 		pt: "Os Pokémon {G} de cada jogador poderão evoluir para Pokémon {G} durante o turno em que eles jogaram aqueles Pokémon, exceto durante os primeiros turnos deles."
 	},

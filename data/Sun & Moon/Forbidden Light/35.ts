@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
+		de: "Seine Stromstärke ist fast dreimal so hoch wie die eines Magnetilos. Es erscheint vermehrt, wenn Flecken auf der Sonne auftauchen."
 	},
 
 	thirdParty: {

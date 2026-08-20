@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 150 puntos de daño a uno de tus Pokémon.\n\nEsta carta no puede ponerse ni en tu baraja ni en tu mano desde la pila de descartes.",
 		it: "Cura uno dei tuoi Pokémon da 150 danni.\n\nQuesta carta non può essere aggiunta alla tua mano o messa nel tuo mazzo dalla pila degli scarti.",
 		pt: "Cure 150 pontos de dano de 1 dos seus Pokémon.\n\nEsta carta não pode ser colocada da pilha de descarte na sua mão ou no seu baralho.",
-		de: "Heile 150 Schadenspunkte bei 1 deiner Pokémon.\nDiese Karte kann nicht aus deinem Ablagestapel auf deine Hand genommen oder in dein Deck gelegt werden."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Heile 150 Schadenspunkte bei 1 deiner Pokémon. Diese Karte kann nicht aus deinem Ablagestapel auf deine Hand genommen oder in dein Deck gelegt werden. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

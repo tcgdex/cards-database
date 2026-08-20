@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "While it prides itself on its varied kicking moves, it can also deliver powerful headbutts once its flames have heated up its forehead.",
+		de: "Vielfältige Tritt-Attacken sind sein ganzer Stolz, aber ein Stoß mit seiner Stirn, die durch sein Feuer erhitzt wurde, hat es ebenfalls in sich."
 	},
 
 	variants: [

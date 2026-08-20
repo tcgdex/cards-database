@@ -23,6 +23,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charcadet",
+		fr: "Charbambin",
 		de: "Knarbon"
 	},
 
@@ -65,6 +66,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 895800,
+				tcgplayer: 704769
+			}
+		},
+		{
+			type: "reverse",
 			thirdParty: {
 				cardmarket: 895800,
 				tcgplayer: 704769

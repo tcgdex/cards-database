@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
+		de: "Es fühlt sich in moosbewachsenen Höhlen wohl. Die im Moos enthaltenen Enzyme lassen seine Stacheln besonders groß und kräftig werden."
 	},
 
 	variants: [

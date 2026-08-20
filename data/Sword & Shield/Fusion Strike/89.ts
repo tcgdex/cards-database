@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Megumi Higuchi",
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
 	},
 
 	attacks: [{

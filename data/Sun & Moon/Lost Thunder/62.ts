@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubchoo",
 		fr: "Polarhume",
+		de: "Petznief"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+		de: "Kämpft mit Reißzähnen aus Eis, die es aus gefrorenem Atem herstellt. Es lebt im Norden, wo es kalt ist."
 	},
 
 	thirdParty: {

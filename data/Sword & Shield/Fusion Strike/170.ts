@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua.",
+		de: "Wenn man einem normalerweise geschwätzigen Kind begegnet, das plötzlich keinen Ton mehr spricht, könnte es ein verwandeltes Zorua sein."
 	},
 
 	attacks: [{

@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+		de: "Je mehr es frisst, desto mehr Brennstoff hat es, um das Feuer in seinem Magen zu schüren und so seine Kraft zu erhöhen."
 	},
 
 	variants: [

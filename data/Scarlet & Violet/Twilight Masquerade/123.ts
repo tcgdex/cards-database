@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+		de: "Es lebt in vulkanischen Höhlen. Mit seinen kreuzförmigen Klauen kann es sogar an der Decke laufen."
 	},
 
 	variants: [

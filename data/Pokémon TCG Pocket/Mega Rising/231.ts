@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chandelure"
+		en: "Chandelure",
+		fr: "Lugulabre"
 	},
 
 	illustrator: "REND",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Lampent"
+		en: "Lampent",
+		fr: "Mélancolux"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Slow Sear"
+			en: "Slow Sear",
+			fr: "Combustion Lente"
 		},
 
 		effect: {
-			en: "Once during your turn, you may discard the top card of your opponent's deck."
+			en: "Once during your turn, you may discard the top card of your opponent's deck.",
+			fr: "Une fois pendant votre tour, vous pouvez défausser la première carte du dessus du deck de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Heat Blast"
+			en: "Heat Blast",
+			fr: "Explosion de Chaleur"
 		},
 
 		damage: 80,

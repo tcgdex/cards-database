@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
+		de: "Seine Gestalt ändert sich abhängig vom Wetter. Je ungestümer dieses ist, desto gröber wird auch sein Charakter."
 	},
 
 	variants: [

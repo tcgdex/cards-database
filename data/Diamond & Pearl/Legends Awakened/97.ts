@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Myrapla",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 			damage: 30,
 
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
-		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
+		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres.",
+		de: "Der Honig, den es abgibt, riecht so entsetzlich, dass sich sogar Nasen in 2 km Entfernung rümpfen."
 	},
 
 	thirdParty: {

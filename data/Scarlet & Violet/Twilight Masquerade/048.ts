@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "A rough customer that wildly flails its giant claws. It is said to be extremely hard to raise.",
+		de: "Ein grobes Pokémon, das mit seinen riesigen Scheren wild um sich schlägt. Man sagt, dass es sehr schwer zu trainieren sei."
 	},
 
 	variants: [

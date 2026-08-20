@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Schneppke",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Psychic Energy attached to Froslass. During your opponent's next turn, if Froslass would be Knocked Out by damage from an attack, the Attacking Pokémon is Knocked Out.",
 				fr: "Défaussez une Énergie Psychic attachée à Momartik. Lors du prochain tour de votre adversaire, si Momartik est mis K.O par des dégâts d'une attaque, le Pokémon Attaquant est mis K.O.",
-				de: "Lege 1 an Frosdedje angelegte -Energie auf deinen Ablagestapel. Wenn Frosdedje im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, wird das Angreifende Pokémon kampfunfähig."
+				de: "Lege 1 an Frosdedje angelegte {P}-Energie auf deinen Ablagestapel. Wenn Frosdedje im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, wird das Angreifende Pokémon kampfunfähig."
 			},
 
 		},
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
-		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux."
+		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux.",
+		de: "Sein eisiger Atem mit minus 50 Grad friert Gegner ein. Was aussieht wie sein Körper ist tatsächlich hohl."
 	},
 
 	thirdParty: {

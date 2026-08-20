@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seismitoad"
+		en: "Seismitoad",
+		fr: "Crapustule"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Palpitoad"
+		en: "Palpitoad",
+		fr: "Batracné"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Split Spiral Punch"
+			en: "Split Spiral Punch",
+			fr: "Coup d'Poing en Demi Spirale"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

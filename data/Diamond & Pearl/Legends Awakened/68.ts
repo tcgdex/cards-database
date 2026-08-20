@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Mauzi",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
-		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
+		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans.",
+		de: "Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen."
 	},
 
 	thirdParty: {

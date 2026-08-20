@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out."
+		en: "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
+		de: "Bei zu viel Feuchtigkeit sucht es einen Vulkan auf, um auf dem warmen Erdboden seine aufgeweichte Haut wieder zu trocknen."
 	},
 
 	attacks: [{

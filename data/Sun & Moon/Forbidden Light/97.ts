@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
+		de: "Es besitzt schaufelähnliche Ohren, die durch ständiges Graben so kräftig werden, dass sie auch dicke Wurzeln durchtrennen können."
 	},
 
 	thirdParty: {

@@ -55,7 +55,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
+		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch.",
+		de: "Es bewegt sich stets auf Geräuschquellen zu. Dank seines Energiekerns fühlt es sich immer leicht warm an, wenn man es berührt."
 	},
 
 	dexId: [524],

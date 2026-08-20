@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Once during each player's turn, that player may choose a Fire or Fighting Energy attached to 1 of his or her Pokémon and move that Energy to 1 of his or her Pokémon.",
 		fr: "Une seule fois lors du tour de chaque joueur, ce joueur peut choisir une Énergie Feu ou Combat attachée à 1 de ses Pokémon et déplacer cette Énergie sur 1 de ses Pokémon Feu ou Combat.",
-		de: "Einmal während seines Zuges kann jeder Spieler 1 - oder -Energie, die an 1 seiner Pokémon angelegt ist, entfernen und an 1 seiner - oder -Pokémon anlegen.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Einmal während seines Zuges kann jeder Spieler 1 {R}- oder {F}-Energie, die an 1 seiner Pokémon angelegt ist, entfernen und an 1 seiner {R}- oder {F}-Pokémon anlegen.",
 	},
 
 	trainerType: "Stadium",

@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Ultra Necrozma ex",
-		es: "Ultra-Necrozma ex"
+		es: "Ultra-Necrozma ex",
+		de: "Ultra-Necrozma-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,7 +23,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Photon Claw",
-			es: "Garra Fotónica"
+			es: "Garra Fotónica",
+			de: "Photonenklaue"
 		},
 
 		damage: 60,
@@ -31,7 +33,8 @@ const card: Card = {
 	{
 		name: {
 			en: "Shoegaze",
-			es: "Shoegaze"
+			es: "Shoegaze",
+			de: "Shoegaze"
 		},
 
 		damage: 120,
@@ -39,7 +42,8 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 5 cards of each player's deck.",
-			es: "Descarta las 5 primeras cartas de la baraja de cada jugador."
+			es: "Descarta las 5 primeras cartas de la baraja de cada jugador.",
+			de: "Lege die obersten 5 Karten des Decks jedes Spielers ab."
 		}
 	}],
 

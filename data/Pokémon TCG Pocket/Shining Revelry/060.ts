@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon aime inspirer profondément\net chanter une mélodie mystérieuse qui endort\nimmédiatement tous ceux qui l'entendent.",
 		es: "Hincha su vientre considerablemente y entona una melodía\nmisteriosa que duerme en el acto a todo aquel que la oye.",
 		it: "Gonfia la pancia per cantare una melodia\nmisteriosa che fa addormentare chiunque l'ascolti.",
-		de: "Es kann tief einatmen und seinen Bauch mit Luft\nfüllen, um ein sonderbares Lied anzustimmen.\nWer dieses hört, schläft auf der Stelle ein.",
+		de: "Es kann tief einatmen und seinen Bauch mit Luft füllen, um ein sonderbares Lied anzustimmen. Wer dieses hört, schläft auf der Stelle ein.",
 		'pt-br': "Infla seu estômago e canta uma melodia misteriosa.\nSe você ouvir esta melodia,\nacabará dormindo na mesma hora.",
 		ko: "배를 크게 부풀려서\n신비한 멜로디를 노래한다.\n들으면 바로 졸음이 쏟아진다."
 	},

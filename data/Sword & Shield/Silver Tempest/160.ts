@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cada vez que tu rival juegue 1 carta de Partidario de su mano, evita todos los efectos de esa carta infligidos al Pokémon V-ASTRO o al Pokémon VMAX al que esté unida esta carta.",
 		it: "Ogni volta che il tuo avversario gioca una carta Aiuto che ha in mano, previeni tutti gli effetti di quella carta sul Pokémon-V ASTRO o Pokémon-VMAX a cui è assegnata questa carta.",
 		pt: "Sempre que seu oponente jogar 1 carta de Apoiador da própria mão, previna todos os efeitos daquela carta causados ao Pokémon V-ASTRO ou Pokémon VMAX ao qual esta carta está ligada.",
-		de: "Verhindere jedes Mal, wenn dein Gegner 1 Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dem Pokémon-VSTAR oder Pokémon-VMAX, an das diese Karte angelegt ist, zugefügt werden."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere jedes Mal, wenn dein Gegner 1 Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dem Pokémon-VSTAR oder Pokémon-VMAX, an das diese Karte angelegt ist, zugefügt werden. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

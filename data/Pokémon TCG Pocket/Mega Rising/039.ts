@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka"
+		en: "Darumaka",
+		fr: "Darumarond"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Reckless Charge"
+			en: "Reckless Charge",
+			fr: "Attaque Imprudente"
 		},
 
 		damage: 50,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			en: "This Pokémon also does 10 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 10 dégâts."
 		}
 	}],
 

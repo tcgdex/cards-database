@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt. Bei „Zahl“ schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is so thin, its internal organs are visible. It has trouble walking on its newly grown feet.",
+		de: "Seine Haut ist so dünn, dass man die inneren Organe sehen kann. Es hat Schwierigkeiten beim Laufen."
 	},
 
 	thirdParty: {

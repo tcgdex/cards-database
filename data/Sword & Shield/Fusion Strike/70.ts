@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin."
+		en: "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin.",
+		de: "Sie sind für ihre brutale Natur bekannt. Besonders häufig kriegen sie sich mit ganzen Schwärmen von rot gestreiften Exemplaren in die Haare."
 	},
 
 	attacks: [{

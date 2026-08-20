@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Soignez 20 dégâts et retirez un État Spécial de votre Pokémon Actif.",
 		es: "Cura 20 puntos de daño y elimina una Condición Especial de tu Pokémon Activo.",
 		'es-mx': "Cura 20 puntos de daño y elimina 1 Condición Especial de tu Pokémon Activo.",
-		de: "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon.",
+		de: "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Cura il tuo Pokémon attivo da 20 danni e rimuovi una condizione speciale che lo influenza.",
 		pt: "Cure 20 pontos de dano e remova uma Condição Especial do seu Pokémon Ativo."
 	},

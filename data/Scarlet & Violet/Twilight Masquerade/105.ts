@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
+		de: "Anstatt sich auf seine Stärke zu verlassen, setzt es Attacken ein, bei denen es seine Betonpfeiler mithilfe der Zentrifugalkraft umherschwingt."
 	},
 
 	variants: [

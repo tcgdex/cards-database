@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to a behavior of theirs known as \"synchronizing,\" an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
+		de: "Dank ihres synchronisierten Verhaltens können alle Mitglieder eines Schwarms perfekt aufeinander abgestimmte Angriffe ausführen."
 	},
 
 	thirdParty: {

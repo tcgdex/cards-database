@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can control water bubbles. It practice diligently so it can learn to make big bubbles.",
+		de: "Es kontrolliert Wasserblasen. Um eine große Blase zu erschaffen, muss es unermüdlich üben."
 	},
 
 	thirdParty: {

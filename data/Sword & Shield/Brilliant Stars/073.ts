@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+		de: "Es jagt bewegungslos, indem es Beute mit seinem starken Magnetfeld zu sich heranzieht. Manchmal sind jedoch auch Fressfeinde dabei."
 	},
 
 	variants: [

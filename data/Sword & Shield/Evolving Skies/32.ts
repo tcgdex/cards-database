@@ -63,7 +63,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water.",
+		de: "Da sein Blatt zu groß und schwer für das Leben an Land geworden ist, lebt es nun im Wasser schwimmend."
 	},
 
 	dexId: [270],

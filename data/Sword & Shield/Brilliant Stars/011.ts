@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It flutters around at night and steals honey from the Combee hive.",
+		de: "Nachts fliegt es emsig umher und stiehlt, während Wadribie schläft, Honig aus dessen Nest."
 	},
 
 	variants: [

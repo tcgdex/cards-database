@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Pupitar"
+		en: "Pupitar",
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Ce Pokémon est si fort qu'il est capable\nde modifier la topographie d'un lieu.\nIl ne se préoccupe pas des autres.",
 		es: "Tiene tanta fuerza que puede cambiar el paisaje.\nSu naturaleza insolente le hace ser muy egoísta.",
 		it: "Con la sua forza smisurata riesce a trasformare\nil paesaggio con estrema facilità. La sua indole\ninsolente lo rende indifferente al mondo.",
-		de: "Dieses kaltblütige und rücksichtslose Pokémon ist\nso stark, dass es mit Leichtigkeit das Aussehen\nganzer Landstriche verändern kann.",
+		de: "Dieses kaltblütige und rücksichtslose Pokémon ist so stark, dass es mit Leichtigkeit das Aussehen ganzer Landstriche verändern kann.",
 		'pt-br': "Extremamente forte, pode modificar a paisagem.\nÉ tão insolente que não se preocupa com os outros.",
 		ko: "주변 지형을 바꾸는 정도쯤은\n쉽게 해낼 정도의 힘을 가지고 있다.\n주위를 신경 쓰지 않는 대담한 성격."
 	},

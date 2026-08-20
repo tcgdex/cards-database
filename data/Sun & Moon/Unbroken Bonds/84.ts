@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandshrew",
 		fr: "Sabelette",
+		de: "Sandan"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Its claws and horns often break off. The broken claws and horns can be used to carve plows for tilling farm fields.",
+		de: "Seine Krallen und Stacheln brechen oft ab. Sie werden dann zu Werkzeugen für den Ackerbau verarbeitet."
 	},
 
 	thirdParty: {

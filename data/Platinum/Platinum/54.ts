@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Mightyena",
-		fr: "Grahyena",
+		fr: "Grahyèna",
 		de: "Magnayen"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
-		fr: "Medhyena"
+		fr: "Medhyena",
+		de: "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Cold Feet",
 				fr: "Pieds froids",
-				de: "Cold Feet"
+				de: "Kalte Füße"
 			},
 			effect: {
 				en: "If Mightyena is affected by a Special Condition, ignore all Energy necessary to use Mightyena's attacks.",
 				fr: "Si Grahyena est affecté par un État Spécial, ignorez toutes les Énergies nécessaires pour utiliser les attaques de Grahyena.",
-				de: "If Mightyena is affected by a Special Condition, ignore all Energy nessesary to use Mightyena's attacks."
+				de: "Wenn Magnayen von einem Speziellen Zustand betroffen ist, ignoriere alle Energiekosten von Magnayens Angriffen."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Collude",
 				fr: "Association louche",
-				de: "Collude"
+				de: "Verschwören"
 			},
 			effect: {
 				en: "If you played any Supporter card from your hand during this turn, this attack does 20 damage plus 20 more damage.",
 				fr: "Si vous avez joué une carte Supporter de votre main ce tour-ci, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If you played any Supporter card from your hand during this turn, this attack does 20 damage plus 20 more damage."
+				de: "Wenn du in diesem Zug mindestens 1 Unterstützerkarte von deiner Hand gespielt hast, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -72,12 +73,12 @@ const card: Card = {
 			name: {
 				en: "Desperate Attack",
 				fr: "Attaque désespérée",
-				de: "Desperate Attack"
+				de: "Verzweifelter Angriff"
 			},
 			effect: {
 				en: "If Mightyena has less Energy attached to it than the Defending Pokémon, this attack does 50 damage plus 30 more damage.",
 				fr: "Si Grahyena possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "If Mightyena has less Energy attached to it than the Defending Pokémon, this attack does 30 more damage."
+				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Magnayen, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

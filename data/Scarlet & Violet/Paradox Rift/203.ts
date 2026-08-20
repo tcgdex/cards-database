@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+		de: "Dieses rätselhafte Pokémon weist Ähnlichkeit mit einer Kreatur auf, die in einem alten Buch als Kriechflügel vorgestellt wurde."
 	},
 
 	variants: [
