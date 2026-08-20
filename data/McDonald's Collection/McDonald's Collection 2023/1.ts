@@ -41,6 +41,7 @@ const card: Card = {
 			cost: ["Grass", "Colorless"],
 			name: {
 				en: "Leafage",
+				de: "Blattwerk"
 			},
 			damage: 20,
 		},

@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Psychic"],
 			name: {
 				en: "Ram",
+				de: "Ramme"
 			},
 			damage: 10,
 		},
