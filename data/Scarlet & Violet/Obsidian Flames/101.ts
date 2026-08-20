@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+		de: "Man findet es meist schlafend auf Friedhöfen. Friedwuff ist das loyalste aller Hunde-Pokémon."
 	},
 
 	variants: [

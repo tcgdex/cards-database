@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		de: "Ständig pflegt es seine watteartigen Flügel. Falls es schmutzig wird, badet es und putzt sich sauber."
 	},
 
 	variants: [

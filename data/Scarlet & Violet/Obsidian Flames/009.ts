@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
+		de: "Einer Theorie zufolge fand der Entwickler des Pokéballs Gefallen an Tarnpignon. Jedoch konnte dies bisher nicht bestätigt werden."
 	},
 
 	variants: [

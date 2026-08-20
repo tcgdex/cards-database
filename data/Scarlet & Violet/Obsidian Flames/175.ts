@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments.",
+		de: "Es ist permanent in Alarmbereitschaft. Sobald es die Flügel eines Krarmors rascheln hört, gräbt es ein Loch und verschwindet im Boden."
 	},
 
 	variants: [

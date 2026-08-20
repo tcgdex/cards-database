@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+		de: "Je jünger das Opfer, dem es die Lebensenergie entzieht, desto höher und unheimlicher brennt die Flamme auf seinem Kopf."
 	},
 
 	variants: [

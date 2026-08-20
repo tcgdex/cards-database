@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
+		de: "Es soll die Wiedergeburt eines streunenden Hunde-Pokémon sein, das starb, ohne je in Berührung mit Menschen gekommen zu sein."
 	},
 
 	variants: [

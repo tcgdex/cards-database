@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
+		de: "Während es schläft, lässt es sich nicht mal mit Gewalt umstoßen. Aus diesem Grund ist es ein beliebtes Motiv für Glücksbringer."
 	},
 
 	variants: [

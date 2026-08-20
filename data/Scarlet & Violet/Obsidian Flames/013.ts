@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
+		de: "An engen, dunklen Orten fühlt es sich wohl. Manchmal zweckentfremdet es die Brusttasche oder den Beutel seines Trainers als Nest."
 	},
 
 	variants: [

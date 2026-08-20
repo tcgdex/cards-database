@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+		de: "Diese Puppe katapultiert sich in die Luft, indem sie Gas ausstößt, das sich in ihrem Körper angestaut hat, und sorgt so für Unruhe."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+		de: "Man sagt, es verteile Wohltaten. Aus diesem Grund wird sein Abbild seit Urzeiten für Glücksbringer verwendet."
 	},
 
 	variants: [

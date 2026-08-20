@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede buscar en su baraja 1 carta de Herramienta Pokémon, enseñarla y ponerla en su mano. Después, ese jugador baraja las cartas de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può cercare nel suo mazzo una carta Oggetto Pokémon, mostrarla e aggiungerla alle carte che ha in mano. Poi quel giocatore rimischia le carte del suo mazzo.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá procurar no próprio baralho por uma carta de Ferramenta Pokémon, revelá-la e colocá-la na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Pokémon-Ausrüstung durchsuchen, sie seinem Gegner zeigen und auf seine Hand nehmen. Anschließend mischt jener Spieler sein Deck."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Pokémon-Ausrüstung durchsuchen, sie seinem Gegner zeigen und auf seine Hand nehmen. Anschließend mischt jener Spieler sein Deck. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

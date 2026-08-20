@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
+		de: "Furchtlos stellt es sich selbst starken Gegnern. Im Ernstfall hält es sich an ihnen fest und sticht mit den vielen Klingen an seinem Körper zu."
 	},
 
 	variants: [

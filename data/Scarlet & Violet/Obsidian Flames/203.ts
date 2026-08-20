@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+		de: "Es wird tief im Erdreich geboren. Hat es einen Berg Erde gefressen, verpuppt sich dieses Pokémon."
 	},
 
 	variants: [

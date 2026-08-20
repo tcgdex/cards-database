@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+		de: "Steigert es sich in einen Kampf hinein, spuckt es Flammen, die alles in seiner Umgebung niederbrennen."
 	},
 
 	variants: [

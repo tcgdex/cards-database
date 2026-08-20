@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		de: "Es ist intelligent genug, um bei der Jagd über eine ganze Reihe von Rufen mit seinem Rudel zu kommunizieren."
 	},
 
 	variants: [
