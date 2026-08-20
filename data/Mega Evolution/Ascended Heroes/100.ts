@@ -56,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		de: "Seine Haut ist sehr dünn. Wird es Licht ausgesetzt, erhitzt sich sein Blut und es wird schwach."
 	},
 
 	variants: [

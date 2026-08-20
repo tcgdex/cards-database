@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
+		de: "Nachtaktives Pokémon, das vom Licht der Stadt angezogen wird und dort die Blätter der Bäume frisst."
 	},
 
 	variants: [

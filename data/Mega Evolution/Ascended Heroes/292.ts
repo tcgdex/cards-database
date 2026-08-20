@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Vous ne pouvez utiliser cette carte que si vous défaussez une autre carte de votre main.\nPiochez des cartes jusqu'à en avoir 6 en main.",
 		es: "Puedes usar esta carta solo si descartas otra carta de tu mano.\n\nRoba cartas hasta que tengas 6 cartas en tu mano.",
 		'es-mx': "Solo puedes usar esta carta si descartas otra carta de tu mano.\n\nRoba cartas hasta que tengas 6 cartas en tu mano.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du noch 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst.\n\nZiehe so lange Karten, bis du 6 Karten auf deiner Hand hast.",
+		de: "Du kannst diese Karte nur einsetzen, wenn du noch 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst. Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Puoi usare questa carta solo se scarti un'altra carta che hai in mano.\n\nPesca fino ad avere sei carte in mano.",
 		pt: "Você só pode usar esta carta se descartar outra carta da sua mão.\n\nCompre cartas até ter 6 cartas na sua mão."
 	},
