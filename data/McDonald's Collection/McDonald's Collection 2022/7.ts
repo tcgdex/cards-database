@@ -29,9 +29,11 @@ const card: Card = {
 			cost: ["Lightning"],
 			name: {
 				en: "Energize",
+				de: "Energiezufuhr"
 			},
 			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+				en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			}
 		},
 		{
