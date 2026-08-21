@@ -129,6 +129,22 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 	})
 }
 
+// Retry wrapper with exponential backoff for transient OS failures (e.g. Windows process pool exhaustion)
+export async function runCommandWithRetry(command: string, useSpawn = true, maxRetries = 3, baseDelay = 200): Promise<string> {
+	let lastError: unknown
+	for (let attempt = 0; attempt <= maxRetries; attempt++) {
+		try {
+			return await runCommand(command, useSpawn)
+		} catch (err) {
+			lastError = err
+			if (attempt < maxRetries) {
+				await new Promise(r => setTimeout(r, baseDelay * 2 ** attempt))
+			}
+		}
+	}
+	throw lastError
+}
+
 const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	console.log('Loading Git File Tree...')
@@ -139,17 +155,23 @@ export async function loadLastEdits() {
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
 	let processed = 0
-	const concurrent = process.platform === 'win32' ? 10 : 1000
+	let failed = 0
+	// Lower concurrency on Windows to reduce process handle exhaustion
+	const concurrent = process.platform === 'win32' ? 5 : 1000
 	const queue = new Queue(concurrent, 10)
 	queue.start()
 
 	for await (let file of files) {
+		if (!file || !file.trim()) {
+			continue
+		}
 		file = file.replace(/"/g, '').replace("\\303\\251", "é")
-		await queue.add(runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
+		await queue.add(runCommandWithRetry(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
 			lastEditsCache[file] = res
 		})
 		.catch(() => {
-			console.warn('could not load file', file, 'hope it does not break everything else lol')
+			console.warn('could not load last edit for', file, 'after retries')
+			failed++
 		})
 		.finally(() => {
 			processed++
@@ -157,18 +179,11 @@ export async function loadLastEdits() {
 				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
 			}
 		}))
-		// try {
-		// 	// don't really know why but it does not correctly execute the command when using Spawn
-		// 	lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
-		// } catch {
-		// 	console.warn('could not load file', file, 'hope it does not break everything else lol')
-		// }
-		// processed++
-		// if (processed % 1000 === 0) {
-		// 	console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-		// }
 	}
 	await queue.waitEnd()
+	if (failed > 0) {
+		console.warn(`${failed} files could not be loaded from git after retries (will use current date as fallback)`)
+	}
 	console.log('done loading files', objectSize(lastEditsCache))
 }
 
