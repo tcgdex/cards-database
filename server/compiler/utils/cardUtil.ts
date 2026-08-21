@@ -31,7 +31,8 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 		id: `${card.set.id}-${id}`,
 		image: img,
 		localId: id,
-		name: cardName
+		name: cardName,
+		updated: await getCardLastEdit(id, card, lang)
 	}
 }
 
