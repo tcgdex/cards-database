@@ -27,6 +27,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281103,
 		tcgplayer: 88160

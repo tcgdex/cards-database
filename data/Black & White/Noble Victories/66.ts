@@ -76,6 +76,16 @@ const card: Card = {
 		de: "Man nennt es den Urvater der Vogel-Pokémon. Da es nicht fliegen kann, bewegt es sich hüpfend von Ast zu Ast."
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "es", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280189,
 		tcgplayer: 83607

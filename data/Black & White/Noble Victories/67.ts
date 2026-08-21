@@ -92,6 +92,16 @@ const card: Card = {
 		de: "Bevor es abhebt, nimmt es am Boden Anlauf. Es ist schlau genug, seine Beute zusammen mit Artgenossen zu jagen."
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "es", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280190,
 		tcgplayer: 83609

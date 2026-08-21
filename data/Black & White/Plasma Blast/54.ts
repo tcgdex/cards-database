@@ -86,6 +86,16 @@ const card: Card = {
 		de: "Zu Fuß ist es schneller als in der Luft. Es muss ein Tempo von 40 km/h erreichen, bevor es sich in die Lüfte aufschwingt."
 	},
 
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281075,
 		tcgplayer: 83611

@@ -81,6 +81,16 @@ const card: Card = {
 		de: "Es wurde aus einem Fossil reanimiert. Da es nicht fliegen kann, bewegt es sich hüpfend von Ast zu Ast."
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse",
+			languages: ["en", "fr", "it", "de"]
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281074,
 		tcgplayer: 83608
