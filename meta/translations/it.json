@@ -302,5 +302,11 @@
 		"phanphy-error": "Errore di phanphy",
 		"peelable-ditto": "Ditto rimovibile",
 		"missing-retreat-cost": "Costo di ritirata mancante"
+	},
+	"variantLine": {
+		"main": "main",
+		"parallel": "parallel",
+		"restricted": "restricted",
+		"exclusive": "exclusive"
 	}
 }

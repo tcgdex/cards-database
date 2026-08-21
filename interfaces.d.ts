@@ -16,6 +16,7 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
+export type VariantLine = 'main' | 'parallel' | 'restricted' | 'exclusive'
 export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
 export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
@@ -96,6 +97,21 @@ export interface variant_detailed {
 	 * if not set, the variant is available in all languages
 	 */
 	languages?: SupportedLanguages[]
+
+	/**
+	 * which line is this variant available from:
+	 * main: this variant is available in booster packs (default)
+	 * parallel: this variant is available in specific products i.e. build and battle kits, preconstructed decks
+	 * restricted: this variant was only available to attendees of a specific event
+	 * exclusive: this variant was only available to workers, winners, top cuts of a specific event or job
+	 *
+	 * None of these are locked and maybe expanded upon as time progresses, when deciding what line to use for a variant
+	 * if it's available in more than one pick the lower line. i.e. some cards in the build and battle kits will be
+	 * available in boosters and therefore are 'main line' but some others the 'non-holo holos' would be parallel
+	 *
+	 * this is meant to assist with sperating out collections between full set/master set/grandmaster set
+	 */
+	line?: VariantLine
 
 	thirdParty?: {
 		tcgplayer?: number
