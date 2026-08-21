@@ -3,12 +3,12 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "M Latios EX",
-		fr: "M-Latios EX",
-		es: "M-Latios EX",
-		it: "M Latios EX",
-		pt: "M-Latios EX",
-		de: "M-Latios EX"
+		en: "M Latios-EX",
+		fr: "M-Latios-EX",
+		es: "M-Latios-EX",
+		it: "M Latios-EX",
+		pt: "M-Latios-EX",
+		de: "M-Latios-EX"
 	},
 
 	illustrator: "5ban Graphics",

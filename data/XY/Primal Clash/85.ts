@@ -3,12 +3,12 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Groudon EX",
-		fr: "Groudon EX",
-		es: "Groudon EX",
-		it: "Groudon EX",
-		pt: "Groudon EX",
-		de: "Groudon EX"
+		en: "Groudon-EX",
+		fr: "Groudon-EX",
+		es: "Groudon-EX",
+		it: "Groudon-EX",
+		pt: "Groudon-EX",
+		de: "Groudon-EX"
 	},
 
 	illustrator: "Ryota Murayama",

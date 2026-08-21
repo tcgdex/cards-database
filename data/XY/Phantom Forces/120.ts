@@ -3,12 +3,12 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "M Manectric EX",
-		fr: "M-Élecsprint EX",
-		es: "M-Manectric EX",
-		it: "M Manectric EX",
-		pt: "M-Manectric EX",
-		de: "M Voltenso EX"
+		en: "M Manectric-EX",
+		fr: "M-Élecsprint-EX",
+		es: "M-Manectric-EX",
+		it: "M Manectric-EX",
+		pt: "M-Manectric-EX",
+		de: "M Voltenso-EX"
 	},
 
 	illustrator: "5ban Graphics",

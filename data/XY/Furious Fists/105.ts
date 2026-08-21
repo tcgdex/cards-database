@@ -3,12 +3,12 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Heracross EX",
-		fr: "Scarhino EX",
-		es: "Heracross EX",
-		it: "Heracross EX",
-		pt: "Heracross EX",
-		de: "Skaraborn EX"
+		en: "Heracross-EX",
+		fr: "Scarhino-EX",
+		es: "Heracross-EX",
+		it: "Heracross-EX",
+		pt: "Heracross-EX",
+		de: "Skaraborn-EX"
 	},
 
 	illustrator: "Ryo Ueda",
