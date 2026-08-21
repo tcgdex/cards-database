@@ -20,7 +20,7 @@ import th from '../../../generated/th/cards.json'
 import zhcn from '../../../generated/zh-cn/cards.json'
 import zhtw from '../../../generated/zh-tw/cards.json'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
-import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
+import { getTCGPlayerPrice, type PricingMode } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import { deepOmit } from "../../util";
 
@@ -84,8 +84,8 @@ type MappedCard = SDKCard // (typeof en)[number]
 
 export type Card = SDKCard
 
-export async function getAllCards(lang: SupportedLanguages): Promise<Array<SDKCard>> {
-	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id))) as Promise<Array<SDKCard>>
+export async function getAllCards(lang: SupportedLanguages, pricingMode?: PricingMode): Promise<Array<SDKCard>> {
+	return Promise.all((cards[lang] as Array<MappedCard>).map((it) => loadCard(lang, it.id, pricingMode))) as Promise<Array<SDKCard>>
 }
 
 export function getCompiledCard(lang: SupportedLanguages, id: string): any {
@@ -100,9 +100,13 @@ export function getCompiledCard(lang: SupportedLanguages, id: string): any {
  * @param lang
  * @param id
  */
-async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard | null> {
-	const key = `${id}${lang}`.toLowerCase()
-	const value = cache.get<SDKCard>(key)
+async function loadCard(lang: SupportedLanguages, id: string, pricingMode: PricingMode = 'full'): Promise<SDKCard | null> {
+	// cacheKey includes pricingMode so different modes get separate cache entries
+	const cacheKey = `${id}${lang}${pricingMode}`.toLowerCase()
+	// listKey is mode-agnostic — used to look up the raw compiled card data
+	const listKey = `${id}${lang}`.toLowerCase()
+
+	const value = cache.get<SDKCard>(cacheKey)
 
 	// expect the cache to be present
 	if (value) {
@@ -112,7 +116,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 
 	// console.time('fetching DB')
 	// @ts-expect-error flemme
-	const card = list[key]
+	const card = list[listKey]
 	if (!card) {
 		return null
 	}
@@ -123,7 +127,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 		if (variant.thirdParty) {
 			const [cardmarket, tcgplayer] = await Promise.all([
 				getCardMarketPrice(variant),
-				getTCGPlayerPrice(variant),
+				getTCGPlayerPrice(variant, pricingMode),
 			]);
 			variant.pricing = { cardmarket, tcgplayer };
 		}
@@ -132,7 +136,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	// console.time('loading providers')
 	let [cardmarket, tcgplayer] = await Promise.all([
 		getCardMarketPrice(card),
-		getTCGPlayerPrice(card),
+		getTCGPlayerPrice(card, pricingMode),
 	])
 
 	if(!card.thirdParty) {
@@ -157,21 +161,21 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	} as SDKCard
 	// console.timeEnd('remapping card')
 
-	cache.set(key, res, 60 * 60)
+	cache.set(cacheKey, res, 60 * 60)
 	// console.timeEnd(`loading card ${id}${lang}`)
 	return res
 }
 
-export async function getCardById(lang: SupportedLanguages, id: string) {
-	return loadCard(lang, id)
+export async function getCardById(lang: SupportedLanguages, id: string, pricingMode?: PricingMode) {
+	return loadCard(lang, id, pricingMode)
 }
 
-export async function findCards(lang: SupportedLanguages, query: Query<SDKCard>) {
-	return executeQuery(await getAllCards(lang), query).data
+export async function findCards(lang: SupportedLanguages, query: Query<SDKCard>, pricingMode?: PricingMode) {
+	return executeQuery(await getAllCards(lang, pricingMode), query).data
 }
 
-export async function findOneCard(lang: SupportedLanguages, query: Query<SDKCard>) {
-	const res = await findCards(lang, query)
+export async function findOneCard(lang: SupportedLanguages, query: Query<SDKCard>, pricingMode?: PricingMode) {
+	const res = await findCards(lang, query, pricingMode)
 	if (res.length === 0) {
 		return undefined
 	}
