@@ -4,7 +4,7 @@ import Set from "../neo1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "染色",
+		ja: "バクフーン",
 	},
 
 	rarity: "Holo Rare",
