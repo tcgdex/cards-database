@@ -23,7 +23,7 @@
 
 # TCGdex - Pokémon TCG Cards Database
 
-A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards.
+A Multilanguage Pokémon TCG Database with Cards Pictures and most of the information contained on the cards.
 
 ## Getting Started
 
