@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tomomi Ozaki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [443],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",

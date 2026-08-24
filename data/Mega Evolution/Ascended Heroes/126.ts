@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Mugi Hamada",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [198],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",

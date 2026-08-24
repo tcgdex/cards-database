@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "matazo",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [709],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",

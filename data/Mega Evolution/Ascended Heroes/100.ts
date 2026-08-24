@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yuriko Akase",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [50],
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",

@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [103],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",

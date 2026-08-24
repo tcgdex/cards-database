@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [570],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",

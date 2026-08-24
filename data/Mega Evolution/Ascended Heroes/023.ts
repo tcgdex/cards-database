@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [218],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",

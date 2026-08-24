@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Fujimoto Gold",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [397],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",

@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Tomowaka",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [709],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",

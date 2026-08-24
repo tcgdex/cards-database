@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "MARINA Chikazawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [44],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
