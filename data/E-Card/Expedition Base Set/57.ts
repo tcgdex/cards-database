@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
+				fr: "Défaussez-vous de toutes les cartes Énergie {R} attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
 				de: "Lege alle an Vulnona angelegten {R}-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgeworfene Karte zu."
 			},
 			damage: "20+",

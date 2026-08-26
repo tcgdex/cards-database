@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a number of coins equal to the amount of Water Energy attached to Poliwrath. This attack does 40 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Tartard. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie {W} attachées à Tartard. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
 				de: "Wirf so viele Münzen, wie {W}-Energie an Quappo angelegt ist. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "40+",
