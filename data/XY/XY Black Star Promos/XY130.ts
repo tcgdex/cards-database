@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie  de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée."
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie {D} de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée."
 			},
 		},
 	],
