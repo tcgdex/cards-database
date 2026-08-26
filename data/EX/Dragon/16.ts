@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Colorless Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Énergie  de son Coût de retraite (après application des effets sur le Coût de retraite). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Énergie {C} de son Coût de retraite (après application des effets sur le Coût de retraite). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
 				de: "Wähle 1 gegnerisches Pokémon. Dieser Angriff fügt 10 Schadenspunkte für jede {C}-Energie in den Rückzugskosten des gewählten Pokémon zu (nachdem alle Effekte auf die Rückzugskosten verrechnet wurden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
