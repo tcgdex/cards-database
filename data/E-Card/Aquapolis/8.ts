@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Électrode est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse sur un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Électrode est affecté par un État spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Électrode est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie {L} de votre pile de défausse sur un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Électrode est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Lektrobal dein Aktives Pokémon ist, eine Münze werfen. Nimm bei „Kopf“ eine {L}-Energiekarte aus deinem Ablagestapel und lege sie an 1 deiner Pokémon an. Diese Fähigkeit kann nicht verwendet werden, falls Lektrobal von einem Speziellen Zustand betroffen ist."
 			}
 		},

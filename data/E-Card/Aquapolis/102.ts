@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Ponyta.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Ponyta.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Ponyta.",
 				de: "Lege 1 an Ponita angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,

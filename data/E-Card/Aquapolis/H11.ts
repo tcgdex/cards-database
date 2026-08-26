@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie {R} attachée à Démolosse.",
 				de: "Wirf eine Münze. Lege bei „Zahl“ eine an Hundemon angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
