@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Rayquaza has any basic Fire Energy cards and any basic Lightning Energy cards attached to it, prevent all effects, except damage, by an opponent's attack done to Rayquaza.",
-				fr: "Tant que Rayquaza possède des cartes Énergie de base  et , prévenez tous les effets, dégâts inclus, infligés à Rayquaza par une attaque de votre adversaire.",
+				fr: "Tant que Rayquaza possède des cartes Énergie de base {R} et {L}, prévenez tous les effets, dégâts inclus, infligés à Rayquaza par une attaque de votre adversaire.",
 				de: "As long as Rayquaza has any basic  Energy cards and any basic  Energy card attached to it, prevent all effects, except damage, by an opponent's attack done to Rayquaza."
 			},
 		},
