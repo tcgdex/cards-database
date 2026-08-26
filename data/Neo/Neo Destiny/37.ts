@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts pour chaque  carte Énergie attachée à Amonita obscur. N'appliquez ni la Faiblesse, ni la Résistance. Vous ne pouvez pas infliger plus de 30 dégâts de cette manière.",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts pour chaque {W} carte Énergie attachée à Amonita obscur. N'appliquez ni la Faiblesse, ni la Résistance. Vous ne pouvez pas infliger plus de 30 dégâts de cette manière.",
 				de: "Wähle eines der Pokémon deines Gegners. Dieser Angriff fügt für jede an Dunkles Amonitas angelegte {W}-Energiekarte 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Du kannst auf diese Weise nicht mehr als 30 Schadenspunkte verursachen."
 			},
 

@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard any number of Energy cards attached to your Pokémon. Flip a coin for each Energy card discarded in this way. This attack does 40 damage times the number of heads.",
-				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
+				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie {R} attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie {R} défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
 				de: "Du kannst eine beliebige Anzahl an dein Pokémon angelegte {R}-Energiekarten auf deinen Ablagestapel legen. Wirf für jede {R}-Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40x",

@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Energy card attached to Shining Mewtwo or this attack does nothing. This attack does 40 damage plus 10 damage for each Energy attached to the Defending Pokémon.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Mewtwo brillant ou cette attaque ne fait rien. Cette attaque inflige 40 dégâts plus 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Mewtwo brillant ou cette attaque ne fait rien. Cette attaque inflige 40 dégâts plus 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur.",
 				de: "Lege eine an Schimmerndes Mewtu angelegte {R}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Dieser Angriff fügt 40 Schadenspunkte plus weitere 10 Schadenspunkte für jede an das verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: "40+",

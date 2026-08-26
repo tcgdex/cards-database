@@ -47,7 +47,7 @@ const card: Card = {
 
 			effect: {
 				en: "If the Defending Pokémon has Dark in its name or is a Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50.",
-				fr: "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon , lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50.",
+				fr: "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon {D}, lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50.",
 				de: "Wirf eine Münze, wenn das verteidigende Pokémon „Dunkles“ in seinem Namen hat oder ein {D}-Pokémon ist. Bei „Kopf“ fügt dieser Angriff 100 Schadenspunkte statt 50 zu."
 			},
 

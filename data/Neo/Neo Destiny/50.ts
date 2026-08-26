@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Energy card attached to Light Ninetales in order to use this attack.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Feunard lumineux pour utiliser cette attaque.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Feunard lumineux pour utiliser cette attaque.",
 				de: "Lege eine an Helles Vulnona angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
 			},
 			damage: 50,
