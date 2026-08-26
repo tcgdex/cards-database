@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
+		fr: "Lainergie",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Mareep",
+		fr: "Wattouat",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -26,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Spear",
+				fr: "Lance-éclair",
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 			},
 		},
 		{
@@ -39,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair",
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 40,
 		},

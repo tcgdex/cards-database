@@ -32,6 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 			},
 			damage: "30×",
 		},
