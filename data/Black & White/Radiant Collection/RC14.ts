@@ -1,18 +1,18 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
+		en: "Eevee",
 	},
 
-	illustrator: "sui",
-	rarity: "Common",
+	illustrator: "kirisAki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-		572,
+		133,
 	],
 
 	hp: 60,
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
+				en: "Surprise Attack",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 			},
-			damage: 10,
+			damage: 20,
 
 		},
 	],
@@ -49,11 +49,11 @@ const card: Card = {
 
 
 	description: {
-		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
 	},
 
 	thirdParty: {
-		cardmarket: 281128
+		cardmarket: 281138
 	}
 }
 

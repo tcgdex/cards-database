@@ -1,21 +1,21 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
-		en: "Reshiram",
+		en: "Growlithe",
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Ultra Rare",
+	illustrator: "Sanosuke Sakuma",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-		643,
+		58,
 	],
 
-	hp: 130,
+	hp: 80,
 
 	types: [
 		"Fire",
@@ -30,27 +30,26 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
+				en: "Rest",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
+				en: "Heal all damage from this Pokémon. This Pokémon is now Asleep.",
 			},
-			damage: 20,
 
 		},
 		{
 			cost: [
 				"Fire",
-				"Fire",
+				"Colorless",
 				"Colorless",
 			],
 			name: {
-				en: "Blue Flare",
+				en: "Lunge",
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to this Pokémon.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 			},
-			damage: 120,
+			damage: 40,
 
 		},
 	],
@@ -65,11 +64,11 @@ const card: Card = {
 
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
+		en: "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
 	},
 
 	thirdParty: {
-		cardmarket: 281139
+		cardmarket: 281146
 	}
 }
 

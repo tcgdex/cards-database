@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
