@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have any Pokémon on your Bench, remove all Energy cards from Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon.",
-				fr: "Si vous avez un ou plusieurs Pokémon  sur votre Banc, retirez toutes les cartes Énergie  sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon.",
+				fr: "Si vous avez un ou plusieurs Pokémon {G} sur votre Banc, retirez toutes les cartes Énergie {G} sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon.",
 				de: "Falls du mindestens ein {G}-Pokémon auf deiner Bank hast, entferne alle {G}-Energiekarten von Ledian und lege sie an eines dieser Pokémon an, und tausche dann Ledian mit diesem Pokémon aus."
 			},
 			damage: 30,

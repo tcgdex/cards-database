@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Meganium is in play, each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed.",
-				fr: "Aussi longtemps que Meganium est en jeu, chaque carte Énergie  attachée à vos Pokémon  fournit  . Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé.",
+				fr: "Aussi longtemps que Meganium est en jeu, chaque carte Énergie {G} attachée à vos Pokémon {G} fournit {G}{G}. Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé.",
 				de: "Solange Meganie im Spiel ist, liefert jede {G}-Energie, die an deine {G}-Pokémon angelegt ist, stattdessen {G}{G}. Diese Fähigkeit verliert ihre Wirkung, solange Meganie schläft, verwirrt oder gelähmt ist."
 			},
 		},

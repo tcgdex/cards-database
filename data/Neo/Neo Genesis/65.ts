@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "For each Mareep in play, you may search your deck for a Energy card and attach it to Mareep. Shuffle your deck afterward.",
-				fr: "Pour chaque Wattouat en jeu, vous pouvez chercher une carte Énergie  dans votre deck et l'attacher à Mareep. Mélangez ensuite votre deck.",
+				fr: "Pour chaque Wattouat en jeu, vous pouvez chercher une carte Énergie {L} dans votre deck et l'attacher à Mareep. Mélangez ensuite votre deck.",
 				de: "Für jedes Voltilamm im Spiel kannst du dein Deck nach einer {L}-Energiekarte durchsuchen und sie an Voltilamm anlegen. Mische dein Deck danach."
 			},
 

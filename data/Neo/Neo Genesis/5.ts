@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage plus 10 damage times the number of Energy cards in your discard pile. Then, shuffle all Energy cards from your discard pile into your deck.",
-				fr: "Inflige 10 dégâts plus 10 dégâts multipliés par le nombre de cartes Énergie  dans votre pile de défausse. Ensuite, mélangez toutes les cartes Énergie  de votre pile de défausse dans votre deck.",
+				fr: "Inflige 10 dégâts plus 10 dégâts multipliés par le nombre de cartes Énergie {W} dans votre pile de défausse. Ensuite, mélangez toutes les cartes Énergie {W} de votre pile de défausse dans votre deck.",
 				de: "Fügt 10 Schadenspunkte plus 10 Schadenspunkte mal der Anzahl an {W}-Energiekarten in deinem Ablagestapel zu. Mische danach alle {W}-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 			damage: "10+",
@@ -77,7 +77,7 @@ const card: Card = {
 
 		effect: {
 			en: "As often as you like during your turn (before your attack, you may discard a -Energy card from your hand. This power can´t be used if Feligatr is Asleep, Confused, or Paralyzed.",
-			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé.",
+			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie {W} de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé.",
 			de: "Bist du am Zug, kannst du (vor deinem Angriff) beliebig viele {W}-Energiekarten aus deiner Hand abwerfen. Diese Fähigkeit kann nicht verwendet werden, wenn Impergator schläft, verwirrt oder gelähmt ist."
 		},
 
