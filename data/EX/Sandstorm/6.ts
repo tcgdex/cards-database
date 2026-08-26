@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard all Lightning Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40.",
-				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40.",
+				fr: "Vous pouvez défausser toutes les cartes Énergie {L} attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40.",
 				de: "Du kannst alle {L}-Energiekarten, die an Blitza angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 70 Schadenspunkte zu anstelle von 40 Schadenspunkten."
 			},
 			damage: 40,

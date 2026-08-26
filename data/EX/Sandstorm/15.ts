@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Arcanine.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie  attachées à Arcanin.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie {R} attachées à Arcanin.",
 				de: "Wirf 1 Münze. Bei „Zahl“ lege alle an Arkani angelegten {R}-Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 60,
