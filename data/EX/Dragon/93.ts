@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy and a Water Energy attached to Latias ex.",
-				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias ex.",
+				fr: "Défaussez une Énergie {R} et une Énergie {W} attachée à Latias ex.",
 				de: "Entferne 1 {R}-Energie und 1 {W}-Energie, die an Latias ex angelegt sind und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,

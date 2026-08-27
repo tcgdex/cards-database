@@ -77,7 +77,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {C} dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
 				de: "Fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
 			},
 			damage: "40+",

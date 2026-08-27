@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned. Flip a coin. If tails, discard a Fire Energy card attached to Torkoal.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Chartor.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Chartor.",
 				de: "Das Verteidigende Pokémon ist jetzt verbrannt. Wirf 1 Münze. Bei „Zahl“ lege 1 an Qurtel angelegt {R}-Energiekarte auf deinen Ablagestapel."
 			},
 
