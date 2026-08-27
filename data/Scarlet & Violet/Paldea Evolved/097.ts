@@ -83,6 +83,14 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'holo',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785611,
+				tcgplayer: 515672
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 715572,
