@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may make Floodlight do 10 more damage for each Water Energy attached to Lanturn but not used to pay for Floodlight's Energy cost. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed.",
-				fr: "Vous pouvez augmenter de 10 le nombre de dégâts infligés par Projecteur pour chaque Énergie  attachée à Lanturn mais non utilisée pour payer le coût en Énergie de Projecteur. Ce pouvoir ne peut être utilisé si Lanturn est Endormi, Confus ou Paralysé.",
+				fr: "Vous pouvez augmenter de 10 le nombre de dégâts infligés par Projecteur pour chaque Énergie {W} attachée à Lanturn mais non utilisée pour payer le coût en Énergie de Projecteur. Ce pouvoir ne peut être utilisé si Lanturn est Endormi, Confus ou Paralysé.",
 				de: "Du kannst mit Flutlicht 10 Schadenspunkte mehr für jede an Lanturn angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für Flutlicht verwendet wird, zufügen. Diese Fähigkeit kann nicht verwendet werden, falls Lanturn schläft, verwirrt oder gelähmt ist."
 			},
 		},
