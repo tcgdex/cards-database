@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack.) (No matter what type the Defending Pokémon is, Togetic is still Colorless.) Togetic performs that attack.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une des attaques du Pokémon Défenseur. Mini métronome copie cette attaque à l'exception de son coût en Énergie. (Vous devez toujours accomplir les autres actions afin d'utiliser cette attaque.) (Quel que soit le type du Pokémon Défenseur, Togetic reste .) Togetic accomplit cette attaque.",
+				fr: "Lancez une pièce. Si c'est face, choisissez une des attaques du Pokémon Défenseur. Mini métronome copie cette attaque à l'exception de son coût en Énergie. (Vous devez toujours accomplir les autres actions afin d'utiliser cette attaque.) (Quel que soit le type du Pokémon Défenseur, Togetic reste {C}.) Togetic accomplit cette attaque.",
 				de: "Wirf eine Münze. Wähle bei „Kopf“ 1 der Angriffe des Verteidigenden Pokémon. Mini-Metronom kopiert diesen Angriff außer den Energiekosten. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.) (Unabhängig vom Typ des Verteidigenden Pokémon ist Togetic immer noch {C}.) Togetic führt diesen Angriff aus."
 			},
 

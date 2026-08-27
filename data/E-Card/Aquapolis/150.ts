@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.",
-				fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
+				fr: "À chaque fois que vous attachez une carte Énergie de base {G}, {L}, ou {F} de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
 				de: "Immer wenn du eine {G}-, {L}- oder {F}-Basis-Energiekarte aus deiner Hand an Nidoking anlegst, wird Nidokings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie die Energiekarte."
 			}
 		},

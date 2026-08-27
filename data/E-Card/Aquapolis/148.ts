@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Whenever you attach a Water, Lightning, or Psychic basic Energy card from your hand to Kingdra, Kingdra's type (color) becomes the same as that Energy card type until the end of the turn.",
-				fr: "À chaque fois que vous attachez une carte Énergie de base ,  ou  de votre main à Hyporoi, le type de Hyporoi (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
+				fr: "À chaque fois que vous attachez une carte Énergie de base {W}, {L}, ou {P} de votre main à Hyporoi, le type de Hyporoi (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
 				de: "Immer wenn du eine {W}-, {L}- oder {P}-Basis-Energiekarte aus deiner Hand an Seedraking anlegst, wird Seedrakings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie diese Energiekarte."
 			}
 		},

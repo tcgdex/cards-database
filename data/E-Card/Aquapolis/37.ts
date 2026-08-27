@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
-				fr: "Pour attacher une carte Énergie  de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie , et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)",
+				fr: "Pour attacher une carte Énergie {W} de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie {W}, et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)",
 				de: "Um eine {W}-Energiekarte aus deiner Hand an Suicune anzulegen, musst du eine an Suicune angelegte Energiekarte auf deinen Ablagestapel legen. (Lege erst die {W}-Energie an, und lege dann eine an Suicune angelegte Energiekarte auf den Ablagestapel.)"
 			}
 		},

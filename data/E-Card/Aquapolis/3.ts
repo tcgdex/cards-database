@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
-				fr: "Tant que Migalos est en jeu, chaque joueur doit payer un  supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un  supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu.",
+				fr: "Tant que Migalos est en jeu, chaque joueur doit payer un {C} supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un {C} supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu.",
 				de: "Solange Ariados im Spiel ist, muss jeder Spieler zusätzlich {C} bezahlen, um sein Aktives Pokémon zurückzuziehen. Selbst wenn mehr als 1 Ariados im Spiel ist, muss ein Spieler wegen des Klebrigen Schleims nie mehr als 1 zusätzliches {C} bezahlen, um ein Pokémon zurückzuziehen."
 			}
 		},
