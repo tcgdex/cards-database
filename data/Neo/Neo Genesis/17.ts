@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Fire Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse sur un de vos Pokémon . Ce pouvoir ne peut être utilisé si Typhlosion est Endormi, Confus ou Paralysé.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie {R} de votre pile de défausse sur un de vos Pokémon {R}. Ce pouvoir ne peut être utilisé si Typhlosion est Endormi, Confus ou Paralysé.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Lege bei „Kopf“ eine {R}-Energiekarte aus deinem Ablagestapel auf eines deiner {R}-Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Tornupto schläft, verwirrt oder gelähmt ist."
 			},
 		},

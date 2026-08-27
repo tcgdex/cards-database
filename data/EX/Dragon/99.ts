@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Reptincel.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Reptincel.",
 				de: "Wirf 1 Münze. Entferne bei „Zahl“ eine {R}-Energiekarte von Glutexo."
 			},
 			damage: 40,

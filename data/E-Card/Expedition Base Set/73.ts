@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Fire Energy card attached to Charmeleon.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Reptincel.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Reptincel.",
 				de: "Lege 1 an Glutexo angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 50,

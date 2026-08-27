@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
-				fr: "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor.",
+				fr: "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies {G} de votre main à Boustiflor.",
 				de: "Lege bis zu zwei {G}-Energiekarten aus deiner Hand an Ultrigaria an."
 			},
 

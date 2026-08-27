@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward.",
-				fr: "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie  et attachez-les à Typhlosion. Mélangez ensuite votre deck.",
+				fr: "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie {R} et attachez-les à Typhlosion. Mélangez ensuite votre deck.",
 				de: "Wenn du Tornupto aus deiner Hand spielst, kannst du eine Münze werfen. Suche bei „Kopf“ in deinem Deck nach bis zu 4 {R}-Energiekarten und lege sie an Tornupto an. Mische dein Deck danach."
 			},
 		},
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 3 Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 3 cartes Énergie  attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				fr: "Défaussez 3 cartes Énergie {R} attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
 				de: "Lege 3 an Tornupto angelelgte {R}-Energiekarten auf deinen Ablagestapel, um diesen Angriff zu verwenden. Füge allen Pokémon auf der Bank 20 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,

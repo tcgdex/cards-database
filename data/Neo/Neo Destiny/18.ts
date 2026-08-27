@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Energy card attached to Dark Magcargo when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez vous défausser d'une carte Énergie  attachée à Volcaropod obscur quand vous utilisez cette attaque. Si vous le faites, et si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 20 dégâts (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				fr: "Vous pouvez vous défausser d'une carte Énergie {R} attachée à Volcaropod obscur quand vous utilisez cette attaque. Si vous le faites, et si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 20 dégâts (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
 				de: "Du kannst eine an Dunkles Magcargo angelegte {R}-Energiekarte auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Falls du dies tust und falls dein Gegner mindestens ein Pokémon auf der Bank hat, bestimmme eines von diesen. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,

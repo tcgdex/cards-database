@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops brillant mais non utilisée pour payer le coût d'Énergie de cette attaque. N'appliquez pas la Résistance.",
+				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Kabutops brillant mais non utilisée pour payer le coût d'Énergie de cette attaque. N'appliquez pas la Résistance.",
 				de: "Fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Schimmerndes Kabutops angelegte {W}-Energie, die nicht zum Zahlen der Angriffskosten verwendet wird, zu. Wende Resistenz nicht an."
 			},
 			damage: "50+",

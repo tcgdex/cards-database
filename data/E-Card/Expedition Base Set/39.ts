@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Fire Energy card attached to Charizard.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Dracaufeu.",
 				de: "Lege 1 an Glurak angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,

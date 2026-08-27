@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Quilava in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Feurisson afin d'utiliser cette attaque.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Feurisson afin d'utiliser cette attaque.",
 				de: "Lege eine an Igelavar angelegte {R}-Energiekarte ab, um diesen Angriff zu verwenden."
 			},
 			damage: 30,

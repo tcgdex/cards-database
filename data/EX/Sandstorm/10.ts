@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Darkness Energy card attached to Sableye. If you do, the Defending Pokémon is now Paralyzed.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Tenefix. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
+				fr: "Vous pouvez défausser une carte Énergie {D} attachée à Tenefix. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Du kannst eine {D}-Energiekarte, die an Zobiris angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,

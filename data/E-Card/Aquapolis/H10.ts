@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage times the amount of Grass Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque inflige 10 dégâts multipliés par la quantité d'Énergie  attachée à Noadkoko. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque inflige 10 dégâts multipliés par la quantité d'Énergie {G} attachée à Noadkoko. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wähle 1 der Pokémon auf der Bank deines Gegners. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an {G}-Energie, die an Kokowei angelegt ist, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			}
 

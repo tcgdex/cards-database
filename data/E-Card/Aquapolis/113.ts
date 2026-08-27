@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
+				fr: "Défaussez-vous d'une carte Énergie {W} attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
 				de: "Lege 1 an Tentacha angelegte {W}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Entferne alle Schadensmarken von Tentacha."
 			},
 

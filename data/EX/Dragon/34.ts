@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Houndoom.",
-				fr: "Défaussez une carte Énergie  attachée à Démolosse.",
+				fr: "Défaussez une carte Énergie {R} attachée à Démolosse.",
 				de: "Entferne 1 {R}-Energiekarte von Hundemon und lege sie auf den Ablagestapel."
 			},
 			damage: 50,

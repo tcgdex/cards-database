@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Growlithe.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Caninos.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Caninos.",
 				de: "Lege 1 an Fukano angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,

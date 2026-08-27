@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, you may attach up to 2 Energy cards from your hand to Sunkern.",
-				fr: "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Tournegrin.",
+				fr: "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies {G} de votre main à Tournegrin.",
 				de: "Wirf eine Münze. Bei „Kopf“ kannst du bis zu zwei {G}-Energiekarten aus deiner Hand an Sonnkern anlegen."
 			},
 

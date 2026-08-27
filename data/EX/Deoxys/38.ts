@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 damage plus 10 more damage for each Lightning Energy attached to Manectric. If you do, Manectric does 10 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Elecsprint. Elecsprint s'inflige alors 10 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {L} attachée à Elecsprint. Elecsprint s'inflige alors 10 dégâts.",
 				de: "You may do 40 damage plus 10 more damage for each  Energy attached to Manectric. If you do, Manectric. If you do, Manectric does 10 damage to itself."
 			},
 			damage: "40+",
