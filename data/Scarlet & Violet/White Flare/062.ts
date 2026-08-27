@@ -92,6 +92,13 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 836016,
+				tcgplayer: 642174
+			}
+		},
+		{
+			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
 				cardmarket: 836607,
@@ -111,6 +118,7 @@ const card: Card = {
 			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 867788,
+				tcgplayer: 668959
 			}
 		},
 	],

@@ -71,13 +71,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 835923,
-				tcgplayer: 642126
-			}
-		},
-		{
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {

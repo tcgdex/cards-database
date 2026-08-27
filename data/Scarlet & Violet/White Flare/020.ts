@@ -79,6 +79,7 @@ const card: Card = {
 			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 867787,
+				tcgplayer: 668958
 			}
 		},
 	],

@@ -86,7 +86,8 @@ const card: Card = {
 			foil: "cosmos", 
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 865205
+				cardmarket: 865205,
+				tcgplayer: 668956
 			}
 		} 
 	],
