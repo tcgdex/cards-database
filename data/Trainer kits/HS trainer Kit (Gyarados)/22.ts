@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Pokémon Communication",
+		fr: "Communication Pokémon",
 	},
 
 	illustrator: "Takashi Yamaguchi",

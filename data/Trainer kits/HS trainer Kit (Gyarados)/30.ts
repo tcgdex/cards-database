@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Gyarados",
+		fr: "Léviator",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Splash",
+				fr: "Hydro-éclaboussure",
 			},
 			damage: 50,
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				fr: "Ultralaser",
 			},
 			effect: {
 				en: "Discard an Energy card attached to the Defending Pokémon.",
+				fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 		},

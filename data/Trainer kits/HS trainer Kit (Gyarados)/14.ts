@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Totodile",
+		fr: "Kaiminus",
 	},
 
 	illustrator: "kawayoo",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Ronge",
 			},
 			damage: 10,
 		},
@@ -33,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse vague",
 			},
 			damage: 20,
 		},
