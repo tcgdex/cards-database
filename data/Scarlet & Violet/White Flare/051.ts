@@ -98,6 +98,14 @@ const card: Card = {
 			tcgplayer: 642333
 		}
 	},
+	{
+		type: "holo",
+		stamp: ["fossil-museum"],
+		thirdParty: {
+			cardmarket: 889383,
+			tcgplayer: 695136
+		}
+	},
 ],
 }
 
