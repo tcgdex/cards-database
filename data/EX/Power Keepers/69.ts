@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Vulpix.",
-				fr: "Défaussez une Énergie  attachée à Goupix.",
+				fr: "Défaussez une Énergie {R} attachée à Goupix.",
 				de: "Lege eine an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,

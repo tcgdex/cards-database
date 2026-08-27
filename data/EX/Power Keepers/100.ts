@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Flareon ☆.",
-				fr: "Défaussez une Énergie  attachée à Pyroli ☆.",
+				fr: "Défaussez une Énergie {R} attachée à Pyroli ☆.",
 				de: "Entferne eine {R}-Energie von Flamara ☆ und lege sie auf deinen Ablagestapel."
 			},
 			damage: 50,
