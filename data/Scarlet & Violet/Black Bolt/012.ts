@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 835926,
 				tcgplayer: 642461
