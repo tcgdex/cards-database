@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have any benched Pokémon, search your deck for a Energy card and attach it to 1 of them. Then shuffle your deck.",
-				fr: "Si vous avez des Pokémon sur votre Banc, cherchez une carte Énergie  dans votre deck et attachez-la à l'un d'eux. Mélangez ensuite votre deck.",
+				fr: "Si vous avez des Pokémon sur votre Banc, cherchez une carte Énergie {R} dans votre deck et attachez-la à l'un d'eux. Mélangez ensuite votre deck.",
 				de: "Falls du mindestens ein Pokémon auf deiner Bank hast, durchsuche dein Deck nach einer {R}-Energiekarte und lege diese an eines dieser Pokémon an. Mische dein Deck danach."
 			},
 
@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, discard a Energy card attached to Light Flareon or this attack does nothing. This attack does 30 damage plus 20 damage for each heads.",
-				fr: "Lancez 2 pièces. Pour chaque face, défaussez-vous d'une carte Énergie  attachée à Pyroli lumineux ou cette attaque ne fait rien. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez 2 pièces. Pour chaque face, défaussez-vous d'une carte Énergie {R} attachée à Pyroli lumineux ou cette attaque ne fait rien. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
 				de: "Wirf zwei Münzen. Lege pro „Kopf“ eine an Helles Flamara angelegte {R}-Energiekarte auf deinen Ablagestapel oder dieser Angriff hat keine Auswirkungen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jeden „Kopf“ zu."
 			},
 			damage: "30+",

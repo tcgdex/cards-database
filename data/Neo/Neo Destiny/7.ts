@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there are any Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the Energy you discarded). If there aren't any, this attack does 30 damage.",
-				fr: "S'il y a des cartes Énergie  attachées à Démolosse obscur, défaussez-vous en d'une. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires (plus 10 dégâts pour la carte Énergie  défaussée). Sinon, cette attaque inflige 30 dégâts.",
+				fr: "S'il y a des cartes Énergie {D} attachées à Démolosse obscur, défaussez-vous en d'une. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires (plus 10 dégâts pour la carte Énergie {D} défaussée). Sinon, cette attaque inflige 30 dégâts.",
 				de: "Falls mindestens eine {D}-Energiekarte an Dunkles Hundemon angelegt ist, lege eine davon auf deinen Ablagestapel, und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu (plus 10 weitere für die abgelegte {D}-Energiekarte). Sonst fügt dieser Angriff 30 Schadenspunkte zu."
 			},
 			damage: "30+",

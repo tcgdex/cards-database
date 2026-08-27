@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays more to retreat the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, pendant le prochain tour de votre adversaire, votre adversaire paie  supplémentaires pour faire battre en retraite le Pokémon Défenseur.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, pendant le prochain tour de votre adversaire, votre adversaire paie {C} supplémentaires pour faire battre en retraite le Pokémon Défenseur.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ bezahlt dein Gegner während seines nächsten Zuges {C} mehr, wenn er das verteidigende Pokémon zurückziehen will."
 			},
 			damage: 20,
