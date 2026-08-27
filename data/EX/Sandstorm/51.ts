@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Fire Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				fr: "Vous pouvez défausser une carte Énergie {R} attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Du kannst eine {R}-Energiekarte, die an Igelavar angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 40,
