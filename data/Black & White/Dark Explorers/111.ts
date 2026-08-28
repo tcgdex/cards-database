@@ -26,6 +26,12 @@ const card: Card = {
 		de: "Tausche das Aktive Pokémon deines Gegners gegen 1 Pokémon auf seiner Bank aus. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 280439
 	}
