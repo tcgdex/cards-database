@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [644],
 	hp: 130,
 	types: ["Dragon"],
 	stage: "Basic",

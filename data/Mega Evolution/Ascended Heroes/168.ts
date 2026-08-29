@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Natsumi Miyanose",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [396],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",

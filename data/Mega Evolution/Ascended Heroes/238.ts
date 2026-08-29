@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [778],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",

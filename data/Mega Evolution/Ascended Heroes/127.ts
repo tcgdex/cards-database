@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "hncl",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [430],
 	hp: 130,
 	types: ["Darkness"],
 	stage: "Stage1",

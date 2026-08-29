@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [219],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",

@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [150],
 	hp: 280,
 	types: ["Psychic"],
 	stage: "Basic",

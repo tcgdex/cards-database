@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "mingo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [940],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",

@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "takashi shiraishi",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [71],
 	hp: 150,
 	types: ["Grass"],
 	stage: "Stage2",

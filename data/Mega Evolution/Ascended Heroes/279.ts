@@ -28,6 +28,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [939],
 	hp: 280,
 	types: ["Lightning"],
 	stage: "Stage1",

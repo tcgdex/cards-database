@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [70],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",

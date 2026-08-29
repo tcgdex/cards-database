@@ -28,6 +28,7 @@ const card: Card = {
 	illustrator: "Raita Kazama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [571],
 	hp: 280,
 	types: ["Darkness"],
 	stage: "Stage1",

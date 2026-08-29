@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [775],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",

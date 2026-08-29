@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [444],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",

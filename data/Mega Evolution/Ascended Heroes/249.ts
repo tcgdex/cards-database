@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "kantaro",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [398],
 	hp: 150,
 	types: ["Colorless"],
 	stage: "Stage2",

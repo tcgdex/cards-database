@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [52],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
