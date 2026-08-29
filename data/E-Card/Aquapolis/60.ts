@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless less to retreat Skiploom for each Grass Energy attached to it.",
-				fr: "Vous payez  de moins pour faire battre Floravol en retraite pour chaque Énergie  qui lui est attachée.",
+				fr: "Vous payez {C} de moins pour faire battre Floravol en retraite pour chaque Énergie {G} qui lui est attachée.",
 				de: "Für jede an Hubelupf angelegte {C}-Energie zahlst du {G} weniger, wenn du es zurückziehst."
 			}
 		},

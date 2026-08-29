@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une carte Énergie  et l'attacher à 1 de vos Pokémon. Placez 2 marqueurs de dégât sur ce Pokémon. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une carte Énergie {P} et l'attacher à 1 de vos Pokémon. Placez 2 marqueurs de dégât sur ce Pokémon. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach einer {P}-Energiekarte durchsuchen und an 1 deiner Pokémon anlegen. Lege 2 Schadensmarken auf dieses Pokémon. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Guardevoir von einem Speziellen Zustand betroffen ist."
 			},
 		},

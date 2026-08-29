@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
-				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor.",
+				fr: "Vous ne pouvez pas attacher de cartes Énergie {L} depuis votre main à Electhor.",
 				de: "Du kannst keine {L}-Energiekarten aus deiner Hand an Zapdos anlegen."
 			}
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Zapdos.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
+				fr: "Si vous avez des cartes Énergie {L} dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
 				de: "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Zapdos an."
 			},
 			damage: 10,

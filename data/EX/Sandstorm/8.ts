@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Solrock is in play, you may use this power. Until the end of your turn, Lunatone's type is Darkness. This power can't be used if Lunatone is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Solaroc est en jeu, vous pouvez utiliser ce pouvoir. Jusqu'à la fin de votre tour, Seleroc est . Ce pouvoir ne peut pas être utilisé si Seleroc est affecté par un État Spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Solaroc est en jeu, vous pouvez utiliser ce pouvoir. Jusqu'à la fin de votre tour, Seleroc est {D}. Ce pouvoir ne peut pas être utilisé si Seleroc est affecté par un État Spécial.",
 				de: "Du kannst diese Poké-Power einmal während deines Zuges (vor deinem Angriff) anwenden, falls sich Sonnfel im Spiel befindet. Bis zum Ende des Zuges erhält Lunastein den Typ {D}. Diese Poké-Power kann nicht verwendet werden, falls Lunastein von einem Speziellen Zustand betroffen ist."
 			}
 		},

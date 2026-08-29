@@ -23,7 +23,7 @@
 
 # TCGdex - Pokémon TCG Cards Database
 
-A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards.
+A Multilanguage Pokémon TCG Database with Cards Pictures and most of the information contained on the cards.
 
 ## Getting Started
 
@@ -57,6 +57,9 @@ _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your log
 <p align="center">
   <a href="https://dzeio.com" target="_blank" title="Dzeio">
     <img height="128" width="32%" src="./.github/sponsors/dzeio.svg" alt="TCGdex Sponsor Dzeio" />
+  </a>
+  <a href="https://folio.fyi" target="_blank" title="Dzeio">
+    <img height="128" width="32%" src="./.github/sponsors/folio.svg" alt="TCGdex Sponsor Folio.fyi" />
   </a>
 </p>
 

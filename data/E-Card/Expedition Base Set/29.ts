@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "All Energy attached to Tyranitar is Darkness Energy instead of its usual type.",
-				fr: "Toutes les cartes Énergie attachées à Tyranocif sont d'Énergie  au lieu de leur type habituel.",
+				fr: "Toutes les cartes Énergie attachées à Tyranocif sont d'Énergie {D} au lieu de leur type habituel.",
 				de: "Alle Energie, die an Despotar angelegt ist, ist anstatt ihrem normalen Typ {D}-Energie."
 			},
 		},

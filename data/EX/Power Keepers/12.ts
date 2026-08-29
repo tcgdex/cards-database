@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Raichu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Raichu.",
+				fr: "Cherchez dans votre pile de défausse une carte Énergie {L} et attachez-la à Raichu.",
 				de: "Durchsuche deinen Ablagestapel nach einer {L}-Energiekarte und lege sie an Raichu an."
 			},
 			damage: 10,

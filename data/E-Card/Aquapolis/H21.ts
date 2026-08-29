@@ -77,7 +77,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a number of coins equal to the amount of Metal Energy attached to Scizor. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Cizayox. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie {M} attachées à Cizayox. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
 				de: "Wirf so viele Münzen, wie {M}-Energie an Scherox angelegt ist. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",

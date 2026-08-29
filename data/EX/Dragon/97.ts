@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard either all Fire Energy or all Lightning Energy attached to Rayquaza ex. This attack does 40 damage times the amount of Fire or Lightning Energy discarded.",
-				fr: "Défaussez soit toutes les Énergies  soit toutes les Énergies  attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie  ou  défaussées.",
+				fr: "Défaussez soit toutes les Énergies {R} soit toutes les Énergies {L} attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie {R} ou {L} défaussées.",
 				de: "Entferne entweder jede {R}-Energie oder jede {L}-Energie, die an Rayquaza ex angelegt ist, und lege sie auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise abgelegte Energie 40 Schadenspunkte zu."
 			},
 			damage: "40×",

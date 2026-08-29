@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
+				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie {P} et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
 				de: "Wirf eine Münze. Durchsuche bei „Kopf“ dein Deck nach einer {P}-Energiekarte und lege sie an 1 der Pokémon an auf deiner Bank an. Mische dein Deck danach."
 			},
 

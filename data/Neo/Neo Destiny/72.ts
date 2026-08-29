@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon .",
+				fr: "Attachez jusqu'à 2 cartes Énergie {G} de votre main à l'un de vos Pokémon {G}.",
 				de: "Lege bis zu zwei 2 {G}-Energiekarten aus deiner Hand an eines deiner {G}-Pokémon an."
 			},
 

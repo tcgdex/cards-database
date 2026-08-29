@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless less to retreat Arcanine for each Energy attached to it.",
-				fr: "Vous payez  de moins pour faire battre Arcanin en retraite pour chaque Énergie qui lui est attachée.",
+				fr: "Vous payez {C} de moins pour faire battre Arcanin en retraite pour chaque Énergie qui lui est attachée.",
 				de: "Für jede an Arkani angelegte Energie zahlst du {C} weniger, wenn du es zurückziehst."
 			}
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads.",
-				fr: "Vous pouvez vous défausser d'autant de cartes Énergie  attachées à Arcanin que vous le désirez. Si vous le faites, lancez un nombre de pièces égal au nombre de cartes Énergie  dont vous vous êtes défaussé. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque face.",
+				fr: "Vous pouvez vous défausser d'autant de cartes Énergie {R} attachées à Arcanin que vous le désirez. Si vous le faites, lancez un nombre de pièces égal au nombre de cartes Énergie {R} dont vous vous êtes défaussé. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque face.",
 				de: "Du kannst eine beliebige Anzahl an Arkani angelegter {R}-Energiekarten auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Falls du dies tust, wirf eine Anzahl Münzen gleich der Anzahl so abgelegter {R}-Energiekarten. Dieser Angriff fügt 30 Schadenspunkte plus 30 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",

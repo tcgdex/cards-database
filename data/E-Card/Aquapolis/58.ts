@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Water Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies {W} attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
 				de: "Wirf so viele Münzen, wie {W}-Energie an Seemon angelegt ist. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",

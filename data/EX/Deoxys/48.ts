@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Starmie has any Psychic Energy attached to it, damage done to Starmie by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tant que Statoss possède une Énergie , les dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				fr: "Tant que Statoss possède une Énergie {P}, les dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "As long as Starmie has any  Energy attached to it, damage done to Starmie by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},

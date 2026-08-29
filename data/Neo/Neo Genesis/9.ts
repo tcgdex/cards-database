@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
-				fr: "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque.",
+				fr: "Défaussez une carte Énergie {R}, une carte Énergie {W} et une carte Énergie {L} attachées à Lugia pour pouvoir utiliser cette attaque.",
 				de: "Lege eine {R}-Energiekarte, eine {W}-Energiekarte und eine {L}-Energiekarte ab, die an Lugia angelegt sind, um diesen Angriff zu verwenden."
 			},
 			damage: 90,

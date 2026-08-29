@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck des Pokémon de base  et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck des Pokémon de base {G} et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach {G}-Basis-Pokémon-Karten und lege beliebige viele von ihnen auf deine Bank. Mische dein Deck danach."
 			},
 

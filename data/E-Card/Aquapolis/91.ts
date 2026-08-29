@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
-				fr: "Vous payez  de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc.",
+				fr: "Vous payez {C} de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc.",
 				de: "Für jedes Magnetilo auf deiner Bank zahlst du {C} weniger, wenn du Magnetilo zurückziehst."
 			}
 		},

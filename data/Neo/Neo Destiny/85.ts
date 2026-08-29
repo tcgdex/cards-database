@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
 				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Karnimani angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
 			},
 			damage: "10+",

@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Grass Energy card attached to Grimer. The Defending Pokémon is now Poisoned.",
-				fr: "Défaussez une carte Énergie  attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné.",
+				fr: "Défaussez une carte Énergie {G} attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Entferne 1 {G}-Energiekarte von Sleima und lege sie auf den Ablagestapel. Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 

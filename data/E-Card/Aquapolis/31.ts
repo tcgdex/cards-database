@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard a Fire Energy card attached to Rapidash and this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie  attachée à Galopa et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie {R} attachée à Galopa et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Lege bei „Kopf“ eine an Gallopa angelegte {R}-Energiekarte auf deinen Ablagestapel und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",

@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
-				fr: "Vous payez  de moins pour faire battre Granivol en retraite pour chaque Énergie  qui lui est attachée.",
+				fr: "Vous payez {C} de moins pour faire battre Granivol en retraite pour chaque Énergie {G} qui lui est attachée.",
 				de: "Für jede an Hoppspross angelegte {G}-Energie zahlst du {C} weniger, wenn du es zurückziehst."
 			}
 		},

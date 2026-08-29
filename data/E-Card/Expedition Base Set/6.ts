@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may turn all basic Energy attached to all of your Pokémon into Fire Energy for the rest of the turn. This power can't be used if Charizard is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez changer toutes les Énergies de base attachées à tous vos Pokémon en Énergie  pour le reste du tour. Ce pouvoir ne peut pas être utilisé si Dracaufeu est affecté par un État spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez changer toutes les Énergies de base attachées à tous vos Pokémon en Énergie {R} pour le reste du tour. Ce pouvoir ne peut pas être utilisé si Dracaufeu est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du alle Basis-Energie, die an alle deine Pokémon angelegt ist, bis zum Ende des Zuges in {R}-Energie umwandeln. Diese Fähigkeit kann nicht verwendet werden, falls Glurak von einem Speziellen Zustand betroffen ist."
 			},
 		},

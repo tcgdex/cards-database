@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Raichu.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
+				fr: "Si vous avez des cartes Énergie {L} dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
 				de: "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Raichu an."
 			},
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Lightning Energy cards attached to Raichu or this attack does nothing.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Raichu ou cette attaque ne fait rien.",
+				fr: "Défaussez-vous de toutes les cartes Énergie {L} attachées à Raichu ou cette attaque ne fait rien.",
 				de: "Lege alle an Raichu angelegten {L}-Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 60,

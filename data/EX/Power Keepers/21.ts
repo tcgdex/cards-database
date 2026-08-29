@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck un Pokémon  (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck un Pokémon {L} (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach einem {L}-Pokémon (außer Pokémon-ex), zeige es deinem Gegner und nimm es auf deine Hand. Mische dein Deck danach."
 			},
 

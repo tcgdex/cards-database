@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to Manectric ex and then choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les Énergies  attachées à Elecsprint ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				fr: "Défaussez toutes les Énergies {L} attachées à Elecsprint ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
 				de: "Discard all  Energy attached to Manectric ex and then choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 

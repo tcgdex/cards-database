@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+				fr: "Cherchez une carte Énergie {L} dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 			},
 
 		},

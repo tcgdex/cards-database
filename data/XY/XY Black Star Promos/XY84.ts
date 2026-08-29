@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergies que vous avez défaussées."
+				fr: "Défaussez toutes les Énergies {L} attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergies que vous avez défaussées."
 			},
 			damage: "50×",
 

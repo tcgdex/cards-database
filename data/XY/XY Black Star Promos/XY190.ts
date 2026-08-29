@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon  dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+				fr: "Cherchez un Pokémon {W} dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
