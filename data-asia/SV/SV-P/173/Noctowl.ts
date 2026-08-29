@@ -1,5 +1,5 @@
-import { Card } from "../../../interfaces";
-import Set from "../SV-P";
+import { Card } from "../../../../interfaces";
+import Set from "../../SV-P";
 
 const card: Card = {
 	set: Set,

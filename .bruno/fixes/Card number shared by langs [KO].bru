@@ -1,0 +1,17 @@
+meta {
+  name: Card number shared by langs [KO]
+  type: http
+  seq: 11
+}
+
+get {
+  url: {{BASE_URL}}/v2/ko/cards/SV-P-173
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq SV-P-173
+  res.body.name: eq 메타몽
+}
