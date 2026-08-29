@@ -159,7 +159,7 @@ export interface Set {
 	tcgOnline?: string
 
 	cardCount: {
-		official: number
+		official: Languages<number> | number
 	}
 
 	boosters?: Record<string, {

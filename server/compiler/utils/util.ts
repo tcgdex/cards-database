@@ -190,3 +190,17 @@ export function resolveText<T>(text: Languages<T> | undefined, lang: SupportedLa
 	}
 	return res
 }
+
+export function resolveCount(count: Languages<number> | number | undefined, lang: SupportedLanguages): number {
+	let res: number
+	if (typeof count === 'number') {
+		res = count
+	} else {
+		res = count[lang]
+		if (typeof res === 'undefined' && !lang.includes('-')) {
+			const key = Object.keys(count).find(key => key.startsWith(lang))
+			return count[key as keyof Languages<number>]
+		}
+	}
+	return res
+}

@@ -2,7 +2,7 @@ import { objectKeys, objectMap } from '@dzeio/object-util'
 import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
-import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
+import { DB_PATH, fetchRemoteFile, getDataFolder, resolveCount, resolveText, setIsLegal, smartGlob } from './util'
 import path from 'node:path'
 
 
@@ -70,8 +70,8 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 	const pics = await getSetPictures(set, lang)
 	return {
 		cardCount: {
-			official: set.cardCount.official,
-			total: Math.max(set.cardCount.official, cards.length)
+			official: resolveCount(set.cardCount.official,lang),
+			total: Math.max(resolveCount(set.cardCount.official,lang), cards.length)
 		},
 		id: set.id,
 		logo: pics[0],
@@ -106,9 +106,9 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 			firstEd: cards.reduce((count, card) => count + getVariantCountForType(card[1],"firstEdition"), 0),
 			holo: cards.reduce((count, card) => count + getVariantCountForType(card[1],"holo"), 0),
 			normal: cards.reduce((count, card) => count + getVariantCountForType(card[1],"normal"), 0),
-			official: set.cardCount.official,
+			official: resolveCount(set.cardCount.official,lang),
 			reverse: cards.reduce((count, card) => count + getVariantCountForType(card[1],"reverse"), 0),
-			total: Math.max(set.cardCount.official, cards.length)
+			total: Math.max(resolveCount(set.cardCount.official,lang), cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
 		id: set.id,
