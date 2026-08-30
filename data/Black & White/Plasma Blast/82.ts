@@ -27,6 +27,15 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 281103,
 		tcgplayer: 88160
