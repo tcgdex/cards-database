@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				es: "Ataque Ala",
 				it: "Attacco d'Ala",
 				de: "Flügelschlag"
 			},
@@ -80,6 +81,7 @@ const card: Card = {
 	description: {
 		en: "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another.",
 		fr: "Un Pokémon recréé à partir d'un fossile. Il vit à la cime des arbres, mais ne peut voler et saute de branche en branche.",
+		es: "Ha renacido a partir de fósiles antiguos. Vive en la copa de los árboles y salta de una rama a otra porque no puede volar.",
 		it: "Rigenerato da un fossile, viveva sugli alberi e rincorreva le prede saltando di ramo in ramo perché non sapeva volare.",
 		de: "Es wurde aus einem Fossil reanimiert. Da es nicht fliegen kann, bewegt es sich hüpfend von Ast zu Ast."
 	},
