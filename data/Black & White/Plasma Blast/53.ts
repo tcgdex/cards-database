@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				it: "Attacco d'Ala",
 				de: "Flügelschlag"
 			},
 
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another.",
+		it: "Rigenerato da un fossile, viveva sugli alberi e rincorreva le prede saltando di ramo in ramo perché non sapeva volare.",
 		de: "Es wurde aus einem Fossil reanimiert. Da es nicht fliegen kann, bewegt es sich hüpfend von Ast zu Ast."
 	},
 
