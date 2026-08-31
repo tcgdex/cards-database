@@ -84,6 +84,13 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
+		thirdParty: {
+			cardmarket: 835995,
+			tcgplayer: 642163
+		}
+	},
+	{
+		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
 			cardmarket: 836585,
