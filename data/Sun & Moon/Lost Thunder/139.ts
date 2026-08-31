@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
+		de: "Es nimmt die Gefühle der Menschen und Pokémon mit großer Sorgfalt wahr. Spürt es Feindseligkeit, versteckt es sich."
 	},
 
 	thirdParty: {

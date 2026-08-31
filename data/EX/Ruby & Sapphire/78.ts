@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card or both cards of a pair to your opponent and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck les Pokémon Armulys et Charmillon ou Blindalys et Papinox. Montrez à votre adversaire la ou les cartes composant une paire et placez-les dans votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach Schaloko oder Papinella oder Panekon und Pudox. Zeige deinem Gegner 1 oder beide Karten des gewählten Paars und nimm sie auf deine Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach Schaloko und Papinella oder Panekon und Pudox. Zeige deinem Gegner 1 oder beide Karten des gewählten Paars und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},

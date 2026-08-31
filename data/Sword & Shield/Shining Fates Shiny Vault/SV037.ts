@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Fossile Rare",
-		en: "Rare Fossil"
+		en: "Rare Fossil",
+		de: "Seltenes Fossil"
 	},
 
 	attacks: [{
@@ -79,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
+		de: "Es fängt seine Beute, indem es seine Umgebung einfriert, doch da sich sein Maul oben auf seinem Kopf befindet, ist Fressen für es sehr umständlich."
 	},
 
 	variants: [

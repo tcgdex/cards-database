@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+				de: "Wirf 1 Münze. Bei „Zahl“ kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 80,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Extremely cautious, it quickly bounds off when it senses danger.",
+		de: "Es ist extrem vorsichtig. Wenn es Gefahr wittert, macht es sich mit flinken Sprüngen aus dem Staub."
 	},
 
 	thirdParty: {

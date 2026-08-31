@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+		de: "Jüngsten Forschungsergebnissen zufolge gibt es mehr als 20 verschiedene Musterungen, die Arboks Bauch aufweisen kann."
 	},
 
 	thirdParty: {

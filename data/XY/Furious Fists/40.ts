@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		de: "Zieht seine Energie aus dem Sternenlicht. Bei Nacht bringt es Steine zum Schweben und bildet damit Sternzeichen nach."
 	},
 
 	thirdParty: {

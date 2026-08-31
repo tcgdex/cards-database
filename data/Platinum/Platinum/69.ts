@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Healing Trial",
 				fr: "Défi guérison",
-				de: "Healing Trial"
+				de: "Heilprobe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, retirez à Leveinard 3 marqueurs de dégât. Si c'est pile, retirez au Pokémon Défenseur 3 marqueurs de dégât.",
-				de: "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ entferne 3 Schadensmarken von Chaneira. Bei „Zahl“ entferne 3 Schadensmarken vom Verteidigenden Pokémon."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Pulled Punch",
 				fr: "Poing-doux",
-				de: "Pulled Punch"
+				de: "Verhaltener Schlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 10 au lieu de 40.",
-				de: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40."
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, beträgt der Grundschaden dieses Angriffs 10 Schadenspunkte anstelle von 40 Schadenspunkten."
 			},
 			damage: 40,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
+		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		de: "Ein freundliches Pokémon, das seine nahrhaften Eier mit verletzten Pokémon und Menschen teilt."
 	},
 
 	variants: [

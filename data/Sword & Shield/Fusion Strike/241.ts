@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano. Descarta, en cualquier combinación, hasta 2 cartas de Herramienta Pokémon, cartas de Energía Especial y cartas de Estadio de su mano.",
 		it: "Il tuo avversario mostra le carte che ha in mano. Scarta fino a due carte Oggetto Pokémon, carte Energia speciale e carte Stadio presenti tra esse in qualsiasi combinazione.",
 		pt: "Seu oponente revela a própria mão. Descarte até 2 cartas de Ferramenta Pokémon, cartas de Energia Especial e cartas de Estádio em qualquer combinação da mão dele(a).",
-		de: "Dein Gegner zeigt dir seine Handkarten. Lege eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen, Spezial-Energiekarten und Stadionkarten aus seiner Hand auf seinen Ablagestapel."
+		de: "Dein Gegner zeigt dir seine Handkarten. Lege eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen, Spezial-Energiekarten und Stadionkarten aus seiner Hand auf seinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

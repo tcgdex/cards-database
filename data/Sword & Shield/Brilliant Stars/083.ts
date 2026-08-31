@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+		de: "In uralten Festungen finden sich heute noch Sockel, die Golgantes beim Abfeuern seiner Strahlen wohl als Halt dienen sollten."
 	},
 
 	variants: [

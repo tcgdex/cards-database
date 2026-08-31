@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
+		de: "Golbat kann trotz seiner kleinen Beine geschickt laufen. Es schleicht sich an schlafende Beute an, stößt seine Zähne in sie und schlürft ihr Blut."
 	},
 
 	variants: [

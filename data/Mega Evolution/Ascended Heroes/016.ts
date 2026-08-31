@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+		de: "Es verstreut giftigen Pollen. Je sauberer das Wasser war, mit dem es gegossen wurde, desto stärker ist der Giftstoff."
 	},
 
 	variants: [

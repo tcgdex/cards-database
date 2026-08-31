@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja a un Pokémon con 90 PV o menos, enséñalo y ponlo en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo un Pokémon con un massimo di 90 PV, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho um Pokémon com PS igual ou inferior a 90, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach 1 Pokémon mit 90 oder weniger KP, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Pokémon mit 90 oder weniger KP, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

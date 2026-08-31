@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
 			it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
 			pt: "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
-			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
+			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um {C}{C}."
 		}
 	}],
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+		de: "Im frostigen Hochland kann diesem Einzelgänger kein anderes Pokémon das Wasser reichen, da er neben hochwirksamem Gift über herausragende körperliche Fähigkeiten verfügt."
 	},
 
 	variants: [

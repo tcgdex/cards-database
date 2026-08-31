@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoriyuki Ikegami",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [43],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
@@ -58,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "When it is woken by moonlight, it wanders about. But during the day, it stays still underground.",
+		de: "Es erwacht bei Mondschein und wandert umher. Tagsüber verharrt es still unter der Erde."
 	},
 
 	variants: [

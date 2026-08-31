@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.",
+		de: "Aufgrund der synchronisierten Gehirnströme von Kopf und Schweif sind seine Psycho-Kräfte zehnmal so stark wie die von Girafarig."
 	},
 }
 

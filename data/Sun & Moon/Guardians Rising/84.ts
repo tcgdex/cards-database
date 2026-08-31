@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -70,7 +71,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Metal de este Pokémon.",
 				it: "Scarta un’Energia Metal assegnata a questo Pokémon.",
 				pt: "Descarte 1 Energia Metal deste Pokémon.",
-				de: "Lege 1 Metal-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {M}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
+		de: "Zwei Tanhel haben sich vereinigt und so ihre Psycho-Kräfte verdoppelt. Ihre Denkfähigkeit bleibt dabei aber unverändert."
 	},
 
 	thirdParty: {

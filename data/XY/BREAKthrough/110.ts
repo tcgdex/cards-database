@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Dragon, este ataque hace 40 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Dragon, questo attacco infligge 40 danni in più, prima di aver applicato debolezza e resistenza.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, este ataque causará 40 de danos adicionais (antes da aplicação de Fraqueza e Resistência).",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, fügt dieser Angriff 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {N}-Pokémon ist, fügt dieser Angriff 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: "60+",
 
@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf behutsam an den Felsen eines Flussbettes."
 	},
 
 	thirdParty: {

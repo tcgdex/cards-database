@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+		de: "Es tollt rastlos umher. Begegnet es einem anderen Pokémon, rempelt es dieses absichtlich an, um einen Streit anzuzetteln."
 	},
 
 	variants: [

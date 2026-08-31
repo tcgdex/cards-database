@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Weedle"
+		en: "Weedle",
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Incapable de se déplacer de lui-même,\nil se défend en durcissant sa carapace.",
 		es: "Casi incapaz de moverse, este Pokémon solo\npuede endurecer su caparazón para protegerse.",
 		it: "Quasi incapace di muoversi, questo Pokémon può\nsolo indurire il proprio guscio per proteggersi.",
-		de: "Dieses Pokémon kann sich kaum bewegen.\nBei drohender Gefahr verhärtet es seinen Panzer.",
+		de: "Dieses Pokémon kann sich kaum bewegen. Bei drohender Gefahr verhärtet es seinen Panzer.",
 		'pt-br': "Quase incapaz de se mover, esse Pokémon\npode apenas endurecer sua carapaça para\nse proteger quando está em perigo.",
 		ko: "스스로는 거의 움직일 수 없지만\n위험할 때는 단단해져서\n몸을 보호하고 있는 것 같다."
 	},

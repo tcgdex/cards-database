@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx.",
+		de: "Zwar ist es stolz und aggressiv, aber wenn man seine Krone berührt, soll es sich augenblicklich beruhigen."
 	},
 
 	variants: [

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Owei",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Discard as many Energy cards as you like attached to your Pokémon. For each Energy card you discarded, flip a coin. This attack does 50 damage times the number of heads.",
 				fr: "Défaussez autant de cartes Énergie attachées à votre Pokémon que vous le voulez. Pour chaque carte Énergie défaussée, lancez une pièce. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Du kannst beliebig viele Energiekarten von deinen Pokémon entfernen und auf deinen Ablagestapel legen. Wirf für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Du kannst beliebig viele Energiekarten von deinen Pokémon entfernen und auf deinen Ablagestapel legen. Wirf für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50x",
 
@@ -75,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an Exeggcute.",
-		fr: "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF."
+		fr: "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF.",
+		de: "Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI."
 	},
 
 	thirdParty: {

@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "The egg Chansey carries is not only delicious but also packed with nutrition. It's used as a high-class cooking ingredient.",
+		de: "Seine Eier sind äußerst nahrhaft und schmecken köstlich, weshalb sie als erlesene Kochzutat gelten."
 	},
 
 	

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todo el daño infligido al Pokémon Fairy al que esté unida esta carta por ataques de los Pokémon-GX Ultraentes y Pokémon-EX Ultraentes de tu rival.",
 		it: "Previeni tutti i danni inflitti al Pokémon Fairy a cui è assegnata questa carta dagli attacchi dei Pokémon-GX Ultracreatura e dei Pokémon-EX Ultracreatura del tuo avversario.",
 		pt: "Previne todo o dano causado ao Pokémon Fairy ao qual esta carta está ligada por ataques dos Pokémon-GX Ultracriaturas e Pokémon-EX Ultracriaturas do seu oponente.",
-		de: "Verhindere allen Schaden, der dem Fairy-Pokémon, an das diese Karte angelegt ist, durch Attacken von Ultrabestien-Pokémon-GX und Ultrabestien-Pokémon-EX deines Gegners zugefügt wird."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere allen Schaden, der dem {FAIRY}-Pokémon, an das diese Karte angelegt ist, durch Attacken von Ultrabestien-Pokémon-GX und Ultrabestien-Pokémon-EX deines Gegners zugefügt wird. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

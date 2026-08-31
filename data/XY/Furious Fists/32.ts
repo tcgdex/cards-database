@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+		de: "Mit elektrischen Schlägen regen Plusle und Minun den Blutkreislauf an und lösen so Verspannungen."
 	},
 
 	thirdParty: {

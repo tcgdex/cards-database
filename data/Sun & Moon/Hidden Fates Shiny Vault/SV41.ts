@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 	illustrator: "kirisAki",
 	rarity: "Shiny rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Energy Evolution",
 				fr: "Évolution de l'Énergie",
+				de: "Energie-Evolution"
 			},
 			effect: {
 				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
 				fr: "Lorsque vous attachez pendant votre tour une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte qui est l’évolution de ce Pokémon et du même type que cette carte Énergie. Mettez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+				de: "Wenn du während deines Zuges 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt und die denselben Typ wie jene Energiekarte hat, durchsuchen und sie auf dieses Pokémon legen, um es zu entwickeln. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Quick Draw",
 				fr: "Pioche Rapide",
+				de: "Schnellzieher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
 				fr: "Lancez une pièce. Si c’est face, piochez une carte.",
+				de: "Wirf 1 Münze. Ziehe bei Kopf 1 Karte."
 			},
 
 		},
@@ -64,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Sein instabiles Erbmaterial ermöglicht es ihm, sich zu verschiedenen Pokémon zu entwickeln."
 	},
 }
 

@@ -15,7 +15,15 @@ const card: Card = {
 		ja: "このカードは[竜]ポケモンにしかつけられず、ついているかぎりすべてのタイプのエネルギー2個ぶんとしてはたらく。（このカードが[竜]ポケモン以外についているなら、トラッシュする。）",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864277,
+				tcgplayer: 684572,
+			},
+		},
+	],
 
 	rarity: "Promo",
 };

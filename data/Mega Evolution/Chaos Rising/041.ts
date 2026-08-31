@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Pumpkaboo"
+		en: "Pumpkaboo",
+		fr: "Pitrouille",
+		de: "Irrbis"
 	},
 
 	stage: "Stage1",

@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Professor Elm's Training Method",
+		fr: "Méthode d'entraînement du Prof. Orme",
 	},
 
 	illustrator: "Ken Sugimori",

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong."
+		en: "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
+		de: "Werden seine Haare zu lang, kann es sich nicht mehr bewegen. Der aus Wollys Wolle gewobene Stoff ist unglaublich robust."
 	},
 
 	attacks: [{

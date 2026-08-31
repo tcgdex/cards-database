@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
+		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+		de: "Es scheint, sein Ursprung geht auf altertümliche Lehmpuppen zurück. Durch Telekinese kann es schweben und sich bewegen."
 	},
 
 	attacks: [{

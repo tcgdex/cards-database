@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city."
+		en: "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+		de: "Stellt es seine kragenartigen Hautlappen auf und absorbiert damit Sonnenlicht, kann ein Elezard genug Strom für eine Großstadt produzieren."
 	},
 
 	attacks: [{

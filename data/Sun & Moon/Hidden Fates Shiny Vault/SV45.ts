@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Armor Press",
 				fr: "Pression Cuirassée",
+				de: "Panzerpresse"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Slashing Claw",
 				fr: "Griffe Taillante",
+				de: "Schlitzende Klaue"
 			},
 
 			damage: 70,
@@ -67,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+		de: "Seine schwere Maske unterdrückt seine wahre Macht. In ihm schlummern nämlich besondere Kräfte."
 	},
 }
 

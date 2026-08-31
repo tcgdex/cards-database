@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
+		de: "Es imitiert sein großes Vorbild Pandagro, wo es nur kann. So lernt es, wie man kämpft und jagt."
 	},
 
 	

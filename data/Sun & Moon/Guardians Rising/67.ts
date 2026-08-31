@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+		de: "Es hängt meist an Klippen. Erspäht es Beute, spreizt es seine Flügel und greift diese sofort an."
 	},
 
 	thirdParty: {

@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+		de: "Jeder Frontalangriff wird abgeschmettert. Dieses friedliche Pokémon ernährt sich von Gras und Beeren."
 	},
 
 	thirdParty: {

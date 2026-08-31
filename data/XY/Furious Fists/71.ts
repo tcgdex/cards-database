@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+		de: "Es kann eine Nadel hören, die in 1 km Entfernung zu Boden fällt. Es lebt in der Stille der Berge."
 	},
 
 	thirdParty: {

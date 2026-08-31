@@ -62,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+		de: "Es kann frei den Fluss der Zeit manipulieren und so Vergangenheit wie Zukunft bereisen."
 	},
 
 	variants: [

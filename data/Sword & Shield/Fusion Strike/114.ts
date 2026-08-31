@@ -25,7 +25,7 @@ const card: Card = {
 		es: "Mew V",
 		it: "Mew-V",
 		pt: "Mew V",
-		de: "Mew-V"
+		de: "Mew VMAX"
 	},
 
 	stage: "VMAX",

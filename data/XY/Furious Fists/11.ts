@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho um card de Energia Fire e ligue-o a este Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 30,
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It blasts fireballs of over 3,600 degrees Fahrenheit from the ends of its arms. It lives in volcanic craters.",
+		de: "Aus den Enden seiner Arme schießen Feuerbälle mit 2 000 °C. Es lebt in Vulkankratern."
 	},
 
 	thirdParty: {

@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "Its melodious cries are actually warnings. Fletchling will mercilessly peck at anything that enters its territory.",
+		de: "Sein wunderschönes Zwitschern ist in Wirklichkeit eine Warnung. Wer in sein Revier eindringt, wird gnadenlos von ihm gepickt."
 	},
 
 	variants: [

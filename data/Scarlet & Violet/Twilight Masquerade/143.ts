@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 7 primeras cartas de tu baraja. Puedes enseñar, en cualquier combinación, hasta 2 cartas de Energía {G} Básica y Pokémon {G} que encuentres entre ellas y ponerlas en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Guarda le prime sette carte del tuo mazzo. Puoi mostrare fino a due Pokémon {G} e carte Energia base {G} presenti tra esse in qualsiasi combinazione e aggiungerli alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe as 7 cartas de cima do seu baralho. Você pode revelar até 2 cartas de Pokémon {G} e de Energia {G} Básica que encontrar lá em qualquer combinação e colocá-las na sua mão. Embaralhe as outras cartas de volta no seu baralho.",
-		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst eine beliebige Kombination aus bis zu 2 {G}-Pokémon und Basis-{G}-Energiekarten, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+		de: "Schau dir die obersten 7 Karten deines Decks an. Du kannst eine beliebige Kombination aus bis zu 2 {G}-Pokémon und Basis-{G}-Energiekarten, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

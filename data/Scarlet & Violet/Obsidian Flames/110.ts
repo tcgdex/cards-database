@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
+		de: "Es reguliert seinen Wasserhaushalt, indem es überschüssige Flüssigkeit durch die Augen ableitet. Es wirkt nur so, als würde es weinen."
 	},
 
 	variants: [

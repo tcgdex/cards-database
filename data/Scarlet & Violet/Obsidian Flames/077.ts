@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+		de: "Dehnt und kontrahiert es seinen elastischen Körper, erzeugt der Nabeldynamo in seinem Bauch große Mengen an Elektrizität."
 	},
 
 	variants: [

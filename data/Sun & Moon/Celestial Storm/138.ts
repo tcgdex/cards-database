@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 3 monedas. Por cada cara, pon 1 Pokémon Evolución de tu pila de descartes en tu mano.",
 		it: "Lancia tre volte una moneta. Ogni volta che esce testa, prendi un Pokémon Evoluzione dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
 		pt: "Jogue 3 moedas. Para cada cara, coloque 1 Pokémon de Evolução da sua pilha de descarte na sua mão.",
-		de: "Wirf 3 Münzen. Nimm pro Kopf 1 Entwicklungs-Pokémon aus deinem Ablagestapel auf deine Hand."
+		de: "Wirf 3 Münzen. Nimm pro Kopf 1 Entwicklungs-Pokémon aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

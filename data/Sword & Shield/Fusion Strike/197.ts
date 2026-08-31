@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "Its form of offense is forcefully stretching out its horns. The strikes land 100 times harder than any blow from a heavyweight boxer."
+		en: "Its form of offense is forcefully stretching out its horns. The strikes land 100 times harder than any blow from a heavyweight boxer.",
+		de: "Es greift mit seinen ausfahrbaren Fühlern an, deren Durchschlagskraft hundertmal so stark wie der Faustschlag eines Schwergewichtsboxers ist."
 	},
 
 	abilities: [{

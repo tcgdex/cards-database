@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		de: "Es schützt seine Haut mit feinen Blasen, die seinen Körper umhüllen. Es mag unbekümmert aussehen, behält die Umgebung aber immer aufmerksam im Auge."
 	},
 
 	variants: [
@@ -70,7 +71,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 725136
+				cardmarket: 781857,
+				tcgplayer: 562166,
 			}
 		},
 		{
@@ -85,7 +87,7 @@ const card: Card = {
 
 	illustrator: "Atsuya Uki",
 
-	
+
 }
 
 export default card

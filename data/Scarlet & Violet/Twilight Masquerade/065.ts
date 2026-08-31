@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+		de: "Zapdos kann Elektrizität manipulieren. Überlieferungen nach soll sein Nest inmitten pechschwarzer Gewitterwolken liegen."
 	},
 
 	variants: [

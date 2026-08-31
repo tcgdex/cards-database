@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.",
+		de: "Erscheint es mitten in der Nacht, so sagt man, steht starker Schneefall bevor. Es ernährt sich von Eis und Schnee."
 	},
 
 	variants: [

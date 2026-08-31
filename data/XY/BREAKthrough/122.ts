@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue 2 moedas. Este ataque causa 40 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "80+",
 
@@ -101,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+		de: "Trotz seines riesigen Körpers ist es ein guter Kletterer. Es frisst und schläft in Baumkronen."
 	},
 
 	thirdParty: {

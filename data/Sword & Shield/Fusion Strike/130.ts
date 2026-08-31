@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds."
+		en: "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds.",
+		de: "Die Grolldra, die in seinen Hörnern sitzen, warten angeblich voller Spannung darauf, mit Mach-Geschwindigkeit abgefeuert zu werden."
 	},
 
 	attacks: [{

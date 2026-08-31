@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The tip of its forked tail quivers when it is predicting its opponent's next move.",
+		de: "Die Spitze seines geteilten Schweifs bebt, wenn es die nächste Attacke seines Feindes voraussagt."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		de: "Webarak"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Gluey Slime",
 				fr: "Bave gluante",
-				de: "Gluey Slime"
+				de: "Klebriger Schleim"
 			},
 			effect: {
 				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
-				fr: "Tant que Migalos est en jeu, chaque joueur doit payer un  supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un  supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu.",
-				de: "As long as Ariados is in play, each player must pay an additional  to retreat his or her Active Pokémon. Gluey Slime can´t make a player pay more than an additional  to retreat a Pokémon, even if there is more than 1 Ariados in play."
+				fr: "Tant que Migalos est en jeu, chaque joueur doit payer un {C} supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un {C} supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu.",
+				de: "Solange Ariados im Spiel ist, muss jeder Spieler zusätzlich {C} bezahlen, um sein Aktives Pokémon zurückzuziehen. Selbst wenn mehr als 1 Ariados im Spiel ist, muss ein Spieler wegen des Klebrigen Schleims nie mehr als 1 zusätzliches {C} bezahlen, um ein Pokémon zurückzuziehen."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Spider Force",
 				fr: "Arachno-force",
-				de: "Spider Force"
+				de: "Spinnenkraft"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 20 dégâts et le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu und das Verteidigende Pokémon ist jetzt gelähmt."
 			},
 			damage: "20+",
 

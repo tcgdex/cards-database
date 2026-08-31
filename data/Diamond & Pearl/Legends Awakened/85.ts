@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't use any Poké-Powers during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners keine Poké-Power benutzen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners keine Poké-Power benutzen."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
-		fr: "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil."
+		fr: "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil.",
+		de: "Es bevorzugt heiße und feuchte Umgebungen. Seine Beute fängt es blitzschnell mit seinen Ranken."
 	},
 
 	thirdParty: {

@@ -60,7 +60,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar."
+		en: "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar.",
+		de: "Es lebt in pflanzenreichen Teichen und Sümpfen und streitet sich oft mit Araqua, da sie ähnliche Habitate haben und ähnliches Futter fressen."
 	},
 
 	variants: [

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Leafeon EX",
 		fr: "Phyllali-EX",
+		de: "Folipurba-EX"
 	},
 
 	illustrator: "Naoki Saito",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Blade",
 				fr: "Lame-Feuille",
+				de: "Laubklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Nature's Breath",
 				fr: "Souffle de la Nature",
+				de: "Atem der Natur"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				de: "Wenn eine Stadionkarte im Spiel ist, füge mit diesem Angriff 30 weitere Schadenspunkte zu und heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: "90+",
 

@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength."
+		en: "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength.",
+		de: "Es hat viele heftige Kämpfe überstanden und dabei gelernt, die Stärke seiner Gegner stets korrekt einzuschätzen."
 	},
 
 	attacks: [{

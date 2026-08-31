@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cranidos",
 		fr: "Kranidos",
+		de: "Koknodon"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Records exist of a revived fossil that evolved into Rampardos. It proceeded to escape and then destroy a skyscraper with a headbutt.",
+		de: "Es ist die Weiterentwicklung eines fossilen Pokémon. Einmal entkam ein Rameidon und zerstörte per Kopfstoß ein ganzes Hochhaus."
 	},
 
 	thirdParty: {

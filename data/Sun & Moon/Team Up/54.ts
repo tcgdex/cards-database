@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
+		de: "Dieses Pokémon ist sehr klein, verfügt aber über starke Gifte. Das Weibchen hat ein kleineres Horn."
 	},
 }
 

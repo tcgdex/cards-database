@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It freezes prey by blowing its −58 degree Fahrenheit breath. It is said to then secretly display its prey.",
+		de: "Sein −50 ℃ kalter Atem friert Beute ein. Es soll diese dann an geheimen Orten ausstellen."
 	},
 
 	variants: [

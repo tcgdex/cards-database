@@ -59,7 +59,7 @@ const card: Card = {
 			es: "Este ataque hace 60 puntos de daño por cada Energía unida a todos los Pokémon de tu rival.",
 			it: "Questo attacco infligge 60 danni per ogni Energia assegnata ai Pokémon del tuo avversario.",
 			pt: "This attack does 60 damage for each Energy attached to all of your opponent's Pokémon.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 60 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "60×",
@@ -84,7 +84,7 @@ const card: Card = {
 		es: "Espeon V",
 		it: "Espeon-V",
 		pt: "Espeon V",
-		de: "Psiana-V"
+		de: "Psiana VMAX"
 	},
 
 	dexId: [196],

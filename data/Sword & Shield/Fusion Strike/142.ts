@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita."
+		en: "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
+		de: "Es heißt, es gebe einen Eintopf, den Trainer auf traditionelle Weise zubereiten, um Makuhita damit noch stärker zu machen."
 	},
 
 	attacks: [{

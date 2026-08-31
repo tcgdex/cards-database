@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
+		de: "Mit seinem Saugnapf hängt es sich an Äste oder unter Vordächer. Es kennt sieben verschiedene Schreie."
 	},
 
 	thirdParty: {

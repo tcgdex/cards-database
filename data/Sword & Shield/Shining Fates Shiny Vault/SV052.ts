@@ -57,7 +57,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
+		de: "Es heißt, eine einsame Seele habe Besitz von einer abgestellten, kalten Tasse Schwarztee ergriffen und sei zu diesem Pokémon geworden."
 	},
 
 	variants: [

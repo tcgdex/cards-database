@@ -99,7 +99,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
+		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+		de: "Seine Schale ist extrem hart und kann nicht einmal durch eine Bombe zerschmettert werden. Sie öffnet sich nur, wenn es angreift."
 	},
 
 	thirdParty: {

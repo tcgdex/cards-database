@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people."
+		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
+		de: "Viele Trainer sind davon fasziniert, dass dieses Pokémon innerhalb eines Tages 10 000 km zurücklegen kann."
 	},
 
 	variants: [

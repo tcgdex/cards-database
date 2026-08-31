@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de 1 de tus Pokémon Psychic a otro de tus Pokémon Psychic.",
 				it: "Durante il tuo turno, puoi spostare un segnalino danno da uno a un altro dei tuoi Pokémon Psychic tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon Psychic para outro Pokémon Psychic seu.",
-				de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Psychic-Pokémon auf 1 anderes deiner Psychic-Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner {P}-Pokémon auf 1 anderes deiner {P}-Pokémon verschieben."
 			},
 		},
 	],
@@ -107,7 +107,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
+		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing.",
+		de: "Wenn Schatten bei Vollmond plötzlich anfangen, sich zu bewegen und zu lachen, steckt zweifellos Gengar dahinter."
 	},
 
 	dexId: [94],

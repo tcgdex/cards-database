@@ -4,7 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium",
+		fr: "Méganium",
 		de: "Meganie"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	stage: "Stage2",

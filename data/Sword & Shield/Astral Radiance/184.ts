@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si has robado alguna carta de esta manera, une hasta 2 cartas de Energía Grass de tu mano a 1 de tus Pokémon en Banca.",
 		it: "Pesca due carte. Se hai pescato delle carte in questo modo, assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Grass dalla tua mano.",
 		pt: "Compre 2 cartas. Se você comprar qualquer carta desta forma, ligue até 2 cartas de Energia Grass da sua mão a 1 dos seus Pokémon no Banco.",
-		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, lege bis zu 2 Grass-Energiekarten aus deiner Hand an 1 Pokémon auf deiner Bank an."
+		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, lege bis zu 2 {G}-Energiekarten aus deiner Hand an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

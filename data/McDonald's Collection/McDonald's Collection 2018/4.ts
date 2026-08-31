@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu"
+		en: "Pikachu",
+		de: "Pikachu"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pika Draw",
+				de: "Pika-Zug"
 			},
 			effect: {
-				en: "Draw a card"
+				en: "Draw a card",
+				de: "Ziehe 1 Karte."
 			},
 		},
 		{
@@ -32,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads this attack does 20 more damage."
+				en: "Flip a coin. If heads this attack does 20 more damage.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+"
 		},

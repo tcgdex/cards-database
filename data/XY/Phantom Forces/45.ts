@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Gourgante",
 				it: "Beffa di Gourgeist",
 				pt: "Gourgântico",
-				de: "Pu?mperlgesund"
+				de: "Pumperlgesund"
 			},
 			effect: {
 				en: "If this Pokémon has any Grass Energy attached to it, its maximum HP is 200.",
@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Grass unida a él, sus PS máximos son 200.",
 				it: "Se questo Pokémon ha delle Energie Grass assegnate, i suoi PS massimi diventano 200.",
 				pt: "Se este Pokémon possuir alguma Energia Grass ligada a ele, seu PS máximo será 200.",
-				de: "Wenn an dieses Pokémon bereits Grass-Energie angelegt ist, verfügt es über 200 Grund-KP."
+				de: "Wenn an dieses Pokémon bereits {G}-Energie angelegt ist, verfügt es über 200 Grund-KP."
 			},
 		},
 	],
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+		de: "Unter unheimlichen Gesängen durchstreift es in Neumondnächten Städte und Dörfer. Wer dem unheilvollen Gesang lauscht, wird verflucht."
 	},
 
 	thirdParty: {

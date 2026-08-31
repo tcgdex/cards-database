@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+		de: "Harter Fels schützt seinen Körper, während es mit den wuchtigen Äxten gewaltige Bäume fällt. Begegnet man diesem ungestümen Pokémon in der Wildnis, so suche man sein Heil in der Flucht!"
 	},
 
 	variants: [

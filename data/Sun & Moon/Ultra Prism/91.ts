@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
+		de: "Dieses Pokémon wurde vor über 500 Jahren künstlich erschaffen. Es versteht die Sprache der Menschen, ohne sie selbst zu sprechen."
 	},
 
 	thirdParty: {

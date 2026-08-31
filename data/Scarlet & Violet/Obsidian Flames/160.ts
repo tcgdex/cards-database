@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+		de: "Spürt es eine enge Verbindung zu jemandem, umschließt es ihn mit seinen schönen, weichen Flügeln und summt dabei."
 	},
 
 	variants: [

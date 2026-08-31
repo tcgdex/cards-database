@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Elige 2 de tus Pokémon en Banca. Para cada uno de esos Pokémon, busca en tu baraja 1 carta de Energía Fairy y únela a ese Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Scegli due dei tuoi Pokémon in panchina. Per ognuno di essi, cerca nel tuo mazzo una carta Energia Fairy e assegnagliela. Poi rimischia le carte del tuo mazzo.",
 				pt: "Escolha 2 dos seus Pokémon no Banco. Para cada um desses Pokémon, procure em seu baralho um card de Energia Fairy e ligue-o a esse Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Wähle 2 Pokémon auf deiner Bank aus. Durchsuche dein Deck nach jeweils 1 Fairy-Energiekarte für jedes dieser Pokémon und lege sie an das jeweilige Pokémon an. Mische anschließend dein Deck."
+				de: "Wähle 2 Pokémon auf deiner Bank aus. Durchsuche dein Deck nach jeweils 1 {FAIRY}-Energiekarte für jedes dieser Pokémon und lege sie an das jeweilige Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+		de: "Es heißt, dieses Pokémon spende ewiges Leben, sobald das Geweih auf seinem Haupt in sieben verschiedenen Farben leuchtet."
 	},
 
 	thirdParty: {

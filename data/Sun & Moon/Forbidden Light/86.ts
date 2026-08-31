@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Floette",
 		fr: "Floette",
+		de: "Floette"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a este Pokémon por ataques de Pokémon Dragon durante el próximo turno de tu rival.",
 				it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Dragon durante il prossimo turno del tuo avversario.",
 				pt: "Prevenirá todo o dano causado a este Pokémon por ataques dos Pokémon Dragon durante a próxima vez de jogar do seu oponente.",
-				de: "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken von Dragon-Pokémon zugefügt wird."
+				de: "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken von {N}-Pokémon zugefügt wird."
 			},
 			damage: 70,
 
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+		de: "Die Schlossherren vergangener Zeiten haben Florges eingeladen, damit diese Blumengärten für sie anlegen, um so ihre Anwesen zu verschönern."
 	},
 
 	thirdParty: {

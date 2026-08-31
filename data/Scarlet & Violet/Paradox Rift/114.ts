@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+		de: "Es wiegt andere durch liebenswertes Verhalten in Sicherheit, kratzt sie dann plötzlich und amüsiert sich prächtig darüber."
 	},
 
 	variants: [

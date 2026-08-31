@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più. Se esce croce, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais. Se sair coroa, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: "80+",
 
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		de: "Seine Schweifspitze ist so hell, dass viele Verschollene es als Orientierungspunkt nutzen."
 	},
 
 	thirdParty: {

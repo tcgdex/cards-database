@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Raichu",
+		fr: "Raichu",
 	},
 
 	illustrator: "match",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -26,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Tail",
+				fr: "Queue de fer",
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 			},
 			damage: "30×",
 		},
@@ -39,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
+				fr: "Tonnerre",
 			},
 			effect: {
 				en: "Discard all Energy attached to Raichu.",
+				fr: "Défaussez toutes les cartes Énergie attachées à Raichu.",
 			},
 			damage: 100,
 		},

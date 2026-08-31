@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lotad",
-		fr: "Nenupiot"
+		fr: "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Lombre has any Water Energy attached to it, the Retreat Cost for Lombre is 0.",
-				fr: "Si Lombre possède une Énergie , son Coût de retraite est de 0.",
+				fr: "Si Lombre possède une Énergie {W}, son Coût de retraite est de 0.",
 				de: "If Lombre has any  Energy attached to it, the Retreat Cost of Lombre is 0."
 			},
 		},

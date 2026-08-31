@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Grind",
 				fr: "Écrase",
-				de: "Grind"
+				de: "Zermahlen"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Lapras.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
-				de: "Does 10 damage times the amount of Energy attached to Lapras."
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der an Lapras angelegten Energien zu."
 			},
 			damage: "10×",
 
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser glace",
-				de: "Ice Beam"
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
+		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+		de: "Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen."
 	},
 
 	variants: [

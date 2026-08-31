@@ -49,8 +49,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Cyndaquil.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
-				de: "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Héricendre.",
+				de: "Lege 1 an Feurigel angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 

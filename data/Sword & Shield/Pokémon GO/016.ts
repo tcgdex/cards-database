@@ -62,7 +62,7 @@ const card: Card = {
 			es: "Este ataque hace 10 puntos de daño más por cada Energía Water unida a este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 			pt: "Este ataque causa 10 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 10 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+		de: "Es gilt als Symbol für Langlebigkeit. Sehr alte Exemplare erkennt man daran, dass ihr Panzer mit Algen übersät ist."
 	},
 
 	

@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Elige 2 de los Pokémon de tu rival y pon 2 contadores de daño en cada uno de ellos.",
 				it: "Scegli due dei Pokémon del tuo avversario e metti due segnalini danno su ciascuno di essi.",
 				pt: "Escolha 2 dos Pokémon do seu oponente e coloque 2 contadores de dano em cada um deles.",
-				de: "Wähle 2 Pokémon deines Gegners und lege j2 Schadensmarken auf jedes von ihnen."
+				de: "Wähle 2 Pokémon deines Gegners und lege 2 Schadensmarken auf jedes von ihnen."
 			},
 
 		},
@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's a quiet, lonely Pokémon, if you try to look at what's under its rag, it will become agitated and resist violently.",
+		de: "Eigentlich ist es friedlich und sehnt sich nur nach Gesellschaft, doch versucht man, unter seinen Lumpen zu linsen, wehrt es sich heftig."
 	},
 
 	thirdParty: {

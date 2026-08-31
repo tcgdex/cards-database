@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The younger they are, the more they smell like fresh grass. With age, their fragrance takes on the odor of fallen leaves.",
+		de: "Je jünger sie sind, desto stärker riechen sie nach frischem Gras. Wenn sie älter werden, verströmen sie den Geruch von herabgefallenem Laub."
 	},
 
 	variants: [

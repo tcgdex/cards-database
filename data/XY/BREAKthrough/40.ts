@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Dragon, este pasa a estar Paralizado.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Dragon, viene paralizzato.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, ele será Paralisado.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, ist es jetzt paralysiert."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {N}-Pokémon ist, ist es jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+		de: "Es haust im Gebirge, wo ewiger Schnee liegt, und löst Blizzards aus, um sich zu verstecken."
 	},
 
 	thirdParty: {

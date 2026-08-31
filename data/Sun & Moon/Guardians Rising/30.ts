@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,7 @@ const card: Card = {
 				es: "Cura 30 puntos de daño a cada uno de tus Pokémon Water.",
 				it: "Cura ciascuno dei tuoi Pokémon Water da 30 danni.",
 				pt: "Cure 30 pontos de dano de cada um dos seus Pokémon Water.",
-				de: "Heile 30 Schadenspunkte bei jedem deiner Water-Pokémon."
+				de: "Heile 30 Schadenspunkte bei jedem deiner {W}-Pokémon."
 			},
 			damage: 80,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Wailord pursue their prey in pods. With their large mouths, they can swallow entire schools of Wishiwashi whole.",
+		de: "Wailord jagt seine Beute in der Gruppe. Mit seinem enormen Maul kann es ganze Schwärme von Lusardin auf einmal verschlingen."
 	},
 
 	thirdParty: {

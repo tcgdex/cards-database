@@ -60,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "Applin lives inside an apple. When an Applin is separated from its apple, its body loses moisture and the Pokémon grows weak.",
+		de: "Dieses Pokémon lebt im Inneren eines Apfels. Ohne diesen verliert sein Körper Flüssigkeit, wodurch es schwächer wird."
 	},
 
 	variants: [

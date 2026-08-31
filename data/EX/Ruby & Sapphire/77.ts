@@ -4,7 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Wingull",
-		fr: "Goelise",
+		fr: "Goélise",
 		de: "Wingull"
 	},
 
@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

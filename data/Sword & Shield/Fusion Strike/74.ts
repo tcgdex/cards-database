@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
+		en: "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight.",
+		de: "Das Ungleichgewicht, das entsteht, wenn es zur Fortbewegung Wasser aus der rechten Schere spritzt, hindert es daran, gerade zu schwimmen."
 	},
 
 	attacks: [{

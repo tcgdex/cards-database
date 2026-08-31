@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Por cada uno de los Pokémon de tu rival en juego, une 1 carta de Energía Psychic de tu pila de descartes a tus Pokémon de la manera que desees.",
 				it: "Per ogni Pokémon del tuo avversario in gioco, assegna a piacimento ai tuoi Pokémon una carta Energia Psychic dalla tua pila degli scarti.",
 				pt: "Para cada Pokémon em jogo do seu oponente, ligue 1 carta de Energia Psychic da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Lege für jedes Pokémon deines Gegners im Spiel 1 Psychic-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
+				de: "Lege für jedes Pokémon deines Gegners im Spiel 1 {P}-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
+		de: "Man sagt, es komme aus einer anderen Welt. Es verschlingt unaufhörlich Licht und sorgt so auch am helllichten Tag für Dunkelheit."
 	},
 }
 

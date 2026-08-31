@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder's sharp talons finish it off.",
+		de: "Es speit Funken in Nisthöhlen und erlegt die erschrocken daraus hervorkommende Beute mit seinen scharfen Krallen."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
+		de: "Jüngsten Erkenntnissen zufolge bestehen seine zwei Arme, die es beliebig verlängern kann, aus gebündelten Ranken."
 	},
 
 	variants: [

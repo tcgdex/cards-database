@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+		de: "So manches kleine Kind soll schon verschwunden sein, weil es ein Driftlon festhielt, das es mit einem Ballon verwechselt hatte."
 	},
 
 }

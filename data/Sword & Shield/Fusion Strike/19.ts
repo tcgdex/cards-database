@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head."
+		en: "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head.",
+		de: "Es verlässt das Wasser nur selten. Wenn es auf Futtersuche an Land kommt, hüllt es seinen Kopf in eine Wasserblase."
 	},
 
 	attacks: [{

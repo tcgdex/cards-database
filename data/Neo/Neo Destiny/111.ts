@@ -42,7 +42,7 @@ const card: Card = {
 
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to that Pokémon for each Energy attached to Shining Raichu. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque inflige 10 dégâts à ce Pokémon pour chaque Énergie  attachée à Raichu brillant. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque inflige 10 dégâts à ce Pokémon pour chaque Énergie {W} attachée à Raichu brillant. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wenn dein Gegner mindestens ein Pokémon auf seiner Bank hat, wähle eines von diesen und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte für jede an Schimmerndes Raichu angelegte {W}-Energie zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 

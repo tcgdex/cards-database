@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it.",
+		de: "Sein unheimliches Heulen ist unverkennbar. Früher wurde es von den Menschen als Bote des Todes gefürchtet."
 	},
 
 	variants: [

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
+		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+		de: "Es setzt an seinem Kopf Giftsporen frei. Werden diese eingeatmet, verursachen sie Schmerzen."
 	},
 
 	attacks: [{

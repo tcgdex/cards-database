@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
+		de: "Im Morgengrauen schallt sein ominöses Geheule über das Gebiet, das es für sich beansprucht."
 	},
 
 	thirdParty: {

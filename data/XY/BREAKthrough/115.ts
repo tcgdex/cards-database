@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
 				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
 				pt: "Jogue 2 moedas. Se uma delas for coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		de: "Die Gehirne der beiden Köpfe kommunizieren ihre Gefühle über Telepathie."
 	},
 
 	thirdParty: {

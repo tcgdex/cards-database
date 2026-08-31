@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+		de: "In seinen Pfoten stecken scharfe Krallen. Es fährt sie blitzschnell aus, um Gegner zu überraschen."
 	},
 
 	variants: [

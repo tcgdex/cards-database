@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Cualquier daño infligido a este Pokémon por un ataque de tu rival se reduce en 10 por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti a questo Pokémon da un attacco del tuo avversario sono ridotti di 10 per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario, dopo aver applicato debolezza e resistenza.",
 				pt: "Qualquer dano causado a este Pokémon por ataques de um oponente será reduzido em 10 para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch einen gegnerischen Angriff zugefügt wird, wird um 10 Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Schaden, der diesem Pokémon durch einen gegnerischen Angriff zugefügt wird, wird um 10 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
+		de: "Der rote Zentralbestandteil dient als Energiespeicher. Darin geladene Energie feuert es über seine Stacheln ab."
 	},
 
 	thirdParty: {

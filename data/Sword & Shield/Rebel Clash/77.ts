@@ -98,7 +98,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time."
+		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+		de: "Man sagt, es sei so still und in sich gekehrt, weil es die Zukunft und die Vergangenheit parallel sieht."
 	},
 
 	variants: [

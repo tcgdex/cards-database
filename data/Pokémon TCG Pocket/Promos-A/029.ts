@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wartortle"
+		en: "Wartortle",
+		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Il écrase ses adversaires de tout son poids\npour leur faire perdre connaissance.\nIl rentre dans sa carapace s'il se sent en danger.",
 		es: "Para acabar con su enemigo, lo aplasta\ncon el peso de su cuerpo. En momentos\nde apuro, se esconde en el caparazón.",
 		it: "Mette KO gli avversari schiacciandoli sotto il corpo\npossente. Se è in difficoltà, può ritrarsi nella corazza.",
-		de: "Es begräbt seine Gegner mit seinem enormen\nKörpergewicht. Wenn es in einer aussichtslosen\nLage steckt, zieht es sich in seinen Panzer zurück.",
+		de: "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück.",
 		ko: "무거운 몸으로 상대를\n덮쳐서 기절시킨다.\n위기에 처하면 등껍질에 숨는다.",
 		'pt-br': "Esmaga seus inimigos com seu corpo pesado\naté que desmaiem. Quando está em apuros,\nse esconde dentro do seu casco."
 	},

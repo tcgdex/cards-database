@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Old Amber"
+		en: "Old Amber",
+		de: "Altbernstein"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades."
+		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		de: "Dieses PKMN flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
 	},
 
 	variants: [

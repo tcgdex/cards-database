@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean is sure to be teeming with fish Pokémon.",
+		de: "Fischer halten gerne Ausschau nach Wingull, denn wo diese ihre Kreise ziehen, scharen sich unter Wasser Schwärme von Fisch-Pokémon."
 	},
 
 	thirdParty: {

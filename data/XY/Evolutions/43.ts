@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
+		de: "Seine großen Ohren schlagen wie Flügel, wenn es Geräusche in weiter Entfernung hört. Es fährt giftige Stacheln aus, wenn es verärgert ist."
 	},
 }
 

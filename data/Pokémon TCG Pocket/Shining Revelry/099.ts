@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Il préfère ce qui est chaud. En cas de pluie,\nde la vapeur se forme autour de sa queue.",
 		es: "Prefiere las cosas calientes. Dicen que cuando\nllueve le sale vapor de la punta de la cola.",
 		it: "Ama le cose calde. Si dice che quando piove\ngli esca vapore dalla punta della coda.",
-		de: "Dieses Pokémon bevorzugt heiße Dinge.\nBei Regen soll seine Schwanzspitze dampfen.",
+		de: "Dieses Pokémon bevorzugt heiße Dinge. Bei Regen soll seine Schwanzspitze dampfen.",
 		'pt-br': "Prefere coisas quentes. Quando chove, dizem\nque solta vapor pela ponta de sua cauda.",
 		ko: "뜨거운 것을 좋아하는 성격이다.\n비에 젖으면 꼬리 끝에서\n연기가 난다고 한다."
 	},

@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Light Punch",
+				de: "Leichter Hieb"
 			},
 			damage: 10,
 		},

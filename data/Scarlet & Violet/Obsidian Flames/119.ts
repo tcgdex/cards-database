@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+		de: "Diese Pokémon gründen Kolonien, die tief im Wald leben. Sie können es nicht ausstehen, wenn ihnen Fremde zu nahe kommen."
 	},
 
 	variants: [

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador una 1 carta de Energía de su mano a 1 de sus Pokémon no Psychic, pon 2 contadores de daño en ese Pokémon.",
 		it: "Ogni volta che un giocatore assegna a uno dei suoi Pokémon non di tipo Psychic una carta Energia dalla propria mano, metti due segnalini danno su quel Pokémon.",
 		pt: "Sempre que algum jogador ligar 1 carta de Energia da própria mão a 1 dos próprios Pokémon que não seja de tipo Psychic, coloque 2 contadores de dano naquele Pokémon.",
-		de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon, das kein Psychic-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon."
+		de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon, das kein {P}-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	regulationMark: "E",

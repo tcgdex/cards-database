@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareep",
 		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -69,7 +70,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon.",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+		de: "Hat es sich mit Elektrizität aufgeladen, leuchtet sein Schweif und es feuert Haare ab, die sich entladen."
 	},
 
 	thirdParty: {

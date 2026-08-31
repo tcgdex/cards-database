@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sudowoodo",
 		fr: "Simularbre",
+		de: "Mogelbaum"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Shiny rare",
@@ -27,10 +28,12 @@ const card: Card = {
 			name: {
 				en: "Roadblock",
 				fr: "Barrage Routier",
+				de: "Hindernis"
 			},
 			effect: {
 				en: "Your opponent can't have more than 4 Benched Pokémon. If they have 5 or more Benched Pokémon, they discard Benched Pokémon until they have 4 Pokémon on the Bench. If more than one effect changes the number of Benched Pokémon allowed, use the smaller number.",
 				fr: "Votre adversaire ne peut pas avoir plus de 4 Pokémon de Banc. S’il a 5 Pokémon de Banc ou plus, il doit défausser des Pokémon de Banc jusqu’à en avoir 4 sur le Banc. Si plus d’un effet change le nombre de Pokémon de Banc autorisés, utilisez le nombre le plus petit.",
+				de: "Dein Gegner kann nicht mehr als 4 Pokémon auf seiner Bank haben. Wenn er 5 Pokémon oder mehr auf seiner Bank hat, legt er so lange Pokémon von seiner Bank auf seinen Ablagestapel, bis er 4 Pokémon auf seiner Bank hat. Wenn mehr als 1 Effekt die Anzahl der auf der Bank erlaubten Pokémon verändert, verwende die kleinere Anzahl."
 			},
 		},
 	],
@@ -43,6 +46,7 @@ const card: Card = {
 			name: {
 				en: "Rock Throw",
 				fr: "Jet-Pierres",
+				de: "Steinwurf"
 			},
 
 			damage: 40,
@@ -63,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "To avoid attack, it mimics a tree. It will run off if splashed with water, which it hates.",
+		de: "Es tarnt sich als Baum, um Angriffen aus dem Weg zu gehen. Es hasst jedoch Wasser und ergreift die Flucht, wenn man es nass macht."
 	},
 }
 

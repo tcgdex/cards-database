@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+		de: "Es öffnet die Zweige auf dem Kopf, um Beute zu verschlingen. Hat es dieser genug Lebensenergie entzogen, spuckt es sie aus und entsorgt sie so."
 	},
 
 	illustrator: "Tetsu Kayama",

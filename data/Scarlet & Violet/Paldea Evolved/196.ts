@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+		de: "Die Zusammensetzung seines weichen Fells ähnelt der von Pflanzen. Es reinigt penibel sein Gesicht, um zu verhindern, dass dieses austrocknet."
 	},
 }
 

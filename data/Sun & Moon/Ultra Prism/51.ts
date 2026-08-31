@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "If for some reason its body bursts, its soul spills out with a screaming sound.",
+		de: "Wenn aus irgendeinem Grund sein Körper platzt, entweicht seine Seele mit einem Geräusch, das wie ein Schrei klingt."
 	},
 
 	thirdParty: {

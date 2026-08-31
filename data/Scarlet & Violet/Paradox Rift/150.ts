@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon can do more than just shout. To communicate with others of its kind, it'll emit all sorts of sounds from the holes in its body.",
+		de: "Es nutzt nicht nur seine laute Stimme, sondern stößt auch über seine Körperöffnungen allerlei Töne aus, um mit Artgenossen zu kommunizieren."
 	},
 
 	variants: [

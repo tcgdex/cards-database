@@ -87,7 +87,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind."
+		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind.",
+		de: "Es wird dafür gefürchtet, Menschen zu fressen, die Bäume im Wald fällen. Zu den Pokémon, die den Wald bewohnen, ist es aber stets nett."
 	},
 
 	variants: [

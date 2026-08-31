@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a 1 Pokémon, proporciona 1 Energía Colorless.\nSi el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, roba cartas hasta que tengas 7 cartas en tu mano.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia Colorless.\nSe il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, pesca fino ad avere sette carte in mano.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia Colorless.\nSe o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, compre cartas até ter 7 cartas na sua mão.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Colorless-Energie.\nWenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
 	},
 
 	energyType: "Special",

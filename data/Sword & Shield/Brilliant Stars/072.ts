@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+		de: "Es dreht sich um sich selbst und verteilt Tritte. Gewinnt es ausreichend an Schwung, bohrt es sich dabei in den Boden."
 	},
 
 	variants: [

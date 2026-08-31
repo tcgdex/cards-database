@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golem EX",
 		fr: "Grolem-EX",
+		de: "Geowaz-EX"
 	},
 
 	illustrator: "Toyste Beach",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Boulder Crush",
 				fr: "Rocher Écrasant",
+				de: "Felsenquetscher"
 			},
 
 			damage: 80,
@@ -49,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Megaton Fall",
 				fr: "Chute Mégatonne",
+				de: "Megatonnenfall"
 			},
 			effect: {
 				en: "This Pokémon does 60 damage to itself.",
 				fr: "Ce Pokémon s'inflige 60 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 180,
 

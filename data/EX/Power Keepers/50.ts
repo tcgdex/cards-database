@@ -4,7 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skélénox",
+		fr: "Skelénox",
 		de: "Zwirrlicht"
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

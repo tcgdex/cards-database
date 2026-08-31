@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+		de: "Dieses kaltblütige und rücksichtslose Pokémon ist so stark, dass es mit Leichtigkeit das Aussehen ganzer Landstriche verändern kann."
 	},
 }
 

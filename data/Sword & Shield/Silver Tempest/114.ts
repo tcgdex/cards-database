@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin.",
+		de: "Wird man von seinen Stacheln gestochen, setzt zunächst Taubheit ein, gefolgt von einem nahezu unerträglich starken Juckreiz."
 	},
 
 	variants: [

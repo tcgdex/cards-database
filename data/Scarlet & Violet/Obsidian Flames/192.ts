@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques usados por cada Pokémon Básico en juego (tanto tuyos como de tu rival) cuestan {C} más.",
 		it: "Il costo degli attacchi usati da ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, aumenta di {C}.",
 		pt: "Os ataques usados por cada Pokémon Básico em jogo (seus e do seu oponente) custam {C} a mais.",
-		de: "Die Kosten der von allen Basis-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um {C}."
+		de: "Die Kosten der von allen Basis-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um {C}. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

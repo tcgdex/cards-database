@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+		de: "Die runden Flecken sind Organe, die Strom erzeugen. Es schlingt sich um seinen Gegner, presst sie gegen ihn und aktiviert sie."
 	},
 
 	variants: [

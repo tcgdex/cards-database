@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+		de: "Es schwingt seinen handgeschmiedeten Hammer, um sich zu schützen. Dieser wird ihm allerdings oft von Pokémon gestohlen, die Metall fressen."
 	},
 }
 

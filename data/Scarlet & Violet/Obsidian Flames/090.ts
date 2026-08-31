@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
+		de: "Hört es je auf umherzuspringen, stirbt es. Die Perle auf seinem Kopf verstärkt seine Psycho-Kräfte."
 	},
 
 	variants: [

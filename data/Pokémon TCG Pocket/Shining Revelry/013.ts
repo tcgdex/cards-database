@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Tauros",
-		fr: "Taurosde Paldea",
-		es: "Taurosde Paldea",
-		it: "Taurosdi Paldea",
+		fr: "Tauros de Paldea",
+		es: "Tauros de Paldea",
+		it: "Tauros di Paldea",
 		de: "Paldea-Tauros",
-		'pt-br': "Taurosde Paldea",
+		'pt-br': "Tauros de Paldea",
 		ko: "팔데아켄타로스"
 	},
 
@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ses cornes atteignent les 1 000 °C lorsqu'elles\nsont chauffées par énergie incandescente.\nElles infligent blessures et brûlures à ses adversaires.",
 		es: "Sus cuernos alcanzan los 1000 °C cuando los\ncalienta con energía ígnea. Quienes reciben una\nde sus cornadas sufren heridas y quemaduras.",
 		it: "Le corna arroventate dalla sua energia\nFuoco raggiungono i 1.000 ºC e causano\nal nemico trafitto sia ferite che ustioni.",
-		de: "Seine Hörner erreichen mithilfe von Feuer-Energie\n1000 ºC. Spießt es damit Gegner auf, so erleiden\ndiese Verletzungen und Verbrennungen.",
+		de: "Seine Hörner erreichen mithilfe von Feuer-Energie 1000 ℃. Spießt es damit Gegner auf, so erleiden diese Verletzungen und Verbrennungen.",
 		'pt-br': "Quando aquecido por energia de fogo, seus chifres podem\nchegar a mais de 980 ºC. Aqueles que forem atacados\npor eles sofrerão com feridas e queimaduras.",
 		ko: "불꽃 에너지로 가열된 뿔은\n섭씨 1000도에 달하며, 뿔에 찔린 상대는\n상처와 화상에 고통받게 된다."
 	},

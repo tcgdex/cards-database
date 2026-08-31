@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+		de: "Wenn Raichu sich auflädt, stimuliert dies seine Muskeln und es wird kampflustiger als sonst."
 	},
 
 	variants: [

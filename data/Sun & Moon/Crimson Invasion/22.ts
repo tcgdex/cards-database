@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
+		de: "Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 m entfernt ist."
 	},
 
 	thirdParty: {

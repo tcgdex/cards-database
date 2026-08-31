@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "In its true form, it possess a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.",
+		de: "In seiner wahren Gestalt verfügt es über enorme Kräfte. Legenden zufolge hat es einst ein ganzes Schloss gestohlen, weil es den darin versteckten Schatz für sich haben wollte."
 	},
 
 	thirdParty: {

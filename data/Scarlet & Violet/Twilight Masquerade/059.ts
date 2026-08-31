@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
+		de: "Sein Wasserring besteht aus einer Mischung aus Meerwasser und einer klebrigen Flüssigkeit, die aus dem Blasloch auf seinem Kopf austritt."
 	},
 
 	variants: [

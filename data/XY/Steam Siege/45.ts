@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+		de: "Ein Schlag mit seinem gewaltigen Schweif kann einen Telegrafenmast knicken wie ein Streichholz."
 	},
 
 	thirdParty: {

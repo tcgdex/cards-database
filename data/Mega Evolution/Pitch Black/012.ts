@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charcadet"
+		en: "Charcadet",
+		fr: "Charbambin",
+		de: "Knarbon"
 	},
 
 	stage: "Stage1",
@@ -64,6 +66,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 895800,
+				tcgplayer: 704769
+			}
+		},
+		{
+			type: "reverse",
 			thirdParty: {
 				cardmarket: 895800,
 				tcgplayer: 704769

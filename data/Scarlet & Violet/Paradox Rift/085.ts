@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
+		de: "Granforgita schwingt den über 100 kg schweren Hammer mühelos umher. Es schleppt alles mit sich nach Hause, was ihm gefällt."
 	},
 
 	variants: [

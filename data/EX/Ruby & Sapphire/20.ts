@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grovyle",
-		fr: "Massko"
+		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 

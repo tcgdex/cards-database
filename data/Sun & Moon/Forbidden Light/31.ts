@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Water de tu mano. Si lo haces, tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Water dalla tua mano. Se lo fai, il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Water da sua mão. Se fizer isto, seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Water-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, tauscht dein Gegner sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, tauscht dein Gegner sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 		},
 	],
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		de: "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen."
 	},
 
 	thirdParty: {

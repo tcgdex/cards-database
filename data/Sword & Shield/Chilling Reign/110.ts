@@ -72,7 +72,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
+		en: "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders.",
+		de: "Gelegentlich demonstriert es seine Kraft, indem es mit der Größe der Funken angibt, die entstehen, wenn es seinen stählernen Körper in Felsen rammt."
 	},
 
 	variants: [

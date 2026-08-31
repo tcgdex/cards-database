@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Ditto",
-		fr: "Metamorph",
+		fr: "Métamorph",
 		de: "Ditto"
 	},
 
@@ -52,7 +52,8 @@ const card: Card = {
 
 	description: {
 		en: "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
-		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
+		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit.",
+		de: "Es kann seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht."
 	},
 
 	thirdParty: {

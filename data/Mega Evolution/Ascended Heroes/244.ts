@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "hncl",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [442],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -58,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+		de: "Aufgrund seiner ständigen Untaten wurde es mit mysteriösen Künsten an einen Spiritkern gebunden."
 	},
 
 	variants: [

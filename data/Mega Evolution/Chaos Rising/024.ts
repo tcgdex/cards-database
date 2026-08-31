@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
+		de: "Sein eisbedeckter Körper ist so hart wie Stahl. Es nutzt diese stahlharte Hülle, um Hindernisse zu zerschmettern und sich so seinen Weg zu bahnen."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Bergmite"
+		en: "Bergmite",
+		fr: "Grelaçon",
+		de: "Arktip"
 	},
 
 	stage: "Stage1",

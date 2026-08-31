@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidoran♂",
 		fr: "Nidoran♂",
+		de: "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -81,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+		de: "Es überwacht mit seinen riesigen Ohren die Umgebung. Registriert es eine Bewegung, greift es an."
 	},
 
 	thirdParty: {

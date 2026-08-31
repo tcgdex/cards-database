@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scyther",
 		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	illustrator: "Hasuno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Scythe",
 				fr: "Faucille Acérée",
+				de: "Scharfe Sense"
 			},
 
 			damage: 30,
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating.",
+		de: "Seine scharfen Sicheln sind nicht nur Waffen. Vor einer Mahlzeit filetiert es damit auch geschickt seine Beute."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Rock Body",
 				fr: "Corps roc",
-				de: "Rock Body"
+				de: "Steinkörper"
 			},
 			effect: {
 				en: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
+				de: "Aller Schaden, der Geowaz von Angriffen zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Rock Tumble",
 				fr: "Roule-pierre",
-				de: "Rock Tumble"
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
-				de: "Don't apply Resistance."
+				de: "Wende Resistenz nicht an."
 			},
 			damage: 60,
 

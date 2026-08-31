@@ -94,6 +94,13 @@ variants: [
 	},
 	{
 		type: "reverse",
+		thirdParty: {
+			cardmarket: 835935,
+			tcgplayer: 642466
+		}
+	},
+	{
+		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
 			cardmarket: 836525,

@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck.",
-				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie  attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
+				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie {F} attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
 				de: "Wirf so viele Münzen, wie an Dunkles Despotar {F}-Energiekarten angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Lege dann für jedes Mal „Kopf“ die oberste Karte vom Deck deines Gegners auf den Ablagestapel."
 			},
 			damage: "20x",

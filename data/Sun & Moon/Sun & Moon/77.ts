@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Rattata",
 		fr: "Rattata d’Alola",
+		de: "Alola-Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "This gourmet Pokémon is particular about the taste and freshness of its food. Restaurants where Raticate live have a good reputation.",
+		de: "Ein Gourmet, dem Geschmack und Frische seines Futters wichtig sind. Restaurants gelten als angesehen, wenn sich ein Rattikarl einnistet."
 	},
 
 	thirdParty: {

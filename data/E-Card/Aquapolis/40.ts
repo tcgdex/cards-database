@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy card attached to 1 of your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à l'un des Pokémon de votre adversaire.",
-				de: "Wirf eine Münze. Lege bei 'Kopf' 1 Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, auf seinen Ablagestapel."
+				de: "Wirf eine Münze. Lege bei „Kopf“ 1 Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, auf seinen Ablagestapel."
 			},
 
 		},

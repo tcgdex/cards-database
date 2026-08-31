@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Unsanitary places are what they like best. They can be spotted in Alola, often with Grimer in hot pursuit.",
+		de: "Es liebt schmutzige Orte. In Alola sieht man oft, wie es von Sleima verfolgt wird."
 	},
 
 	thirdParty: {

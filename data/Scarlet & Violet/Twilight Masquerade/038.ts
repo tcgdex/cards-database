@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It absorbs spirits, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+		de: "Skelabra saugt Seelen ein und verbrennt sie. Durch das Schwenken der Flammen an seinen Armen hypnotisiert es seine Gegner."
 	},
 
 	variants: [

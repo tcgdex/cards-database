@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+		de: "In seinem vasenförmigen Panzer gelagerte Beeren verwandeln sich mit der Zeit zu einem dickflüssigen Saft."
 	},
 
 	variants: [

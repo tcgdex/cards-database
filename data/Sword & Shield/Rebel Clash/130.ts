@@ -94,7 +94,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell."
+		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
+		de: "Man verehrt es als Regenmacher. Wird es wütend, droht es mit einer unheimlichen Stimme, die wie der Ton einer Glocke klingt."
 	},
 
 	variants: [

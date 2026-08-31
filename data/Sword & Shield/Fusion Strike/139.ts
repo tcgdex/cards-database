@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+		de: "Man glaubt, dass sich sein Körper aufgrund des Schluckens von eisenhaltiger Erde verwandelt habe."
 	},
 
 	attacks: [{

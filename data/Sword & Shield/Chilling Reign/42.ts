@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
+		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere.",
+		de: "Es ist intelligent, fühlt sich aber schnell von jeder Kleinigkeit genervt. Damit kein Feind in sein Revier eindringt, stellt es überall Fallen auf."
 	},
 
 	variants: [

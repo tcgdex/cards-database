@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
+		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair.",
+		de: "Es nutzt eine Taktik, bei der es sich niederwirft und vorgibt, sich zu entschuldigen, nur um dann mit seinem speerartigen Haar zuzustoßen."
 	},
 
 	variants: [

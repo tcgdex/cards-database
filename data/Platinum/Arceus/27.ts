@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu"
+		en: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -54,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Lightning Energy card attached to Raichu.",
-				de: "Entferne 1 -Energiekarte, die an Raichu angelegt ist, und lege sie auf den Ablagestapel."
+				de: "Entferne 1 {L}-Energiekarte, die an Raichu angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Es entlädt Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schüzten."
 	},
 
 	thirdParty: {

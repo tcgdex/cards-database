@@ -24,7 +24,7 @@ const card: Card = {
 		es: "Toxtricity V",
 		it: "Toxtricity-V",
 		pt: "Toxtricity V",
-		de: "Riffex-V"
+		de: "Riffex VMAX"
 	},
 
 	attacks: [

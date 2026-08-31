@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
+		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest.",
+		de: "Es ist sehr rauflustig. Nähert sich ein Gegner seinem Unterschlupf, geht es gnadenlos auf ihn los."
 	},
 
 	variants: [

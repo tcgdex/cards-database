@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [206],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -58,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+		de: "Wird es entdeckt, gräbt es sich mit seinem Schwanz ins Erdreich, um zu fliehen. Setzt es seine Flügel ein, kann es ein bisschen schweben."
 	},
 
 	variants: [

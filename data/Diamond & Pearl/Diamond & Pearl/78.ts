@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Cleffa",
-		fr: "Melo",
+		fr: "Mélo",
 		de: "Pii"
 	},
 

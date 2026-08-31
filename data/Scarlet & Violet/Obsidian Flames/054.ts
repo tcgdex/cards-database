@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
+		de: "Dieses grimmige, fleischfressende Pokémon bläst eisigen Atem auf gefangene Beute, um sie einzufrieren und so zu konservieren."
 	},
 
 	variants: [

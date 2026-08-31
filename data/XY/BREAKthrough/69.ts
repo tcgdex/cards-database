@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+		de: "Seine Psycho-Kräfte erlauben es ihm, den Raum um sich zu verformen und so in die Zukunft zu sehen."
 	},
 
 	thirdParty: {

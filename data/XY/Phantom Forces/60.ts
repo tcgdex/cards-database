@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+		de: "Früher glaubten die Menschen, dem Muster auf seinem Rücken wohne eine mysteriöse Kraft inne."
 	},
 
 	thirdParty: {

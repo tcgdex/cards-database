@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo cuando es la última carta en tu mano.\n\nRoba 2 cartas por cada Pokémon Fire que tengas en juego.",
 		it: "Puoi giocare questa carta solo se è l’ultima carta che hai in mano.\n\nPesca due carte per ogni Pokémon Fire che hai in gioco.",
 		pt: "Você só pode jogar esta carta se ela for a última carta na sua mão.\n\nCompre 2 cartas para cada Pokémon Fire que você tiver em jogo.",
-		de: "Du kannst diese Karte nur spielen, wenn sie die letzte Karte auf deiner Hand ist.\n\nZiehe 2 Karten für jedes Fire-Pokémon, das du im Spiel hast."
+		de: "Du kannst diese Karte nur spielen, wenn sie die letzte Karte auf deiner Hand ist. Ziehe 2 Karten für jedes {R}-Pokémon, das du im Spiel hast. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Pokémon Collector",
+		fr: "Collectionneur de Pokémon",
 	},
 
 	illustrator: "Masakazu Fukuda",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croconaw",
 		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Water de tu mano.",
 				it: "Durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Water che hai in mano tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode descartar 1 carta de Energia Water da sua mão.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Water-Energiekarte aus deiner Hand auf deinen Ablagestapel legen."
+				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen."
 			},
 		},
 	],
@@ -75,7 +76,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada carta de Energía Water en tu pila de descartes. Después, pon esas cartas en tu baraja y barájalas todas.",
 				it: "Questo attacco infligge 20 danni in più per ogni carta Energia Water nella tua pila degli scarti. Poi rimischia quelle carte nel tuo mazzo.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada carta de Energia Water na sua pilha de descarte. Em seguida, embaralhe aquelas cartas no seu baralho.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Water-Energiekarten in deinem Ablagestapel zu. Mische jene Karten anschließend in dein Deck."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der {W}-Energiekarten in deinem Ablagestapel zu. Mische jene Karten anschließend in dein Deck."
 			},
 			damage: "10+",
 
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+		de: "Wenn es mit seinem kräftigen Kiefer zubeißt, schüttelt es seinen Kopf und reißt seine Opfer in Stücke."
 	},
 
 	thirdParty: {

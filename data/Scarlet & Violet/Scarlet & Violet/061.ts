@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+		de: "Es ist zwar ein Vielfraß, doch die Jagd liegt ihm nicht. Deshalb schließt es sich mit Nigiragi zusammen, um Beute zu fangen."
 	},
 
 	thirdParty: {

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
+		de: "Dank seiner vier Flügel kann es frei in alle Richtungen fliegen, sogar seitwärts und rückwärts."
 	},
 
 	variants: [

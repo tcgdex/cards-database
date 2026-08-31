@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+		de: "Es verhindert, dass seine Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich gefrieren lässt."
 	},
 
 	variants: [

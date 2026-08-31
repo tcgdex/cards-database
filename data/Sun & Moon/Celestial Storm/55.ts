@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It creates an electric charge by rubbing its feathers together. It dances over to its enemies and delivers shocking electrical punches.",
+		de: "Es reibt seine Federn aneinander, um sich elektrisch aufzuladen. Danach tanzt es zum Gegner und verpasst ihm einen Elektrohieb."
 	},
 
 	thirdParty: {

@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Light Dragonite is your Active Pokémon, each Special Energy card provides Colorless Energy instead of its usual type and its other effects stop working. This power stops working while Light Dragonite is Asleep, Confused, or Paralyzed.",
-				fr: "Tant que Dracolosse lumineux est votre Pokémon Actif, toutes les cartes Énergie spéciale fournissent de l'Énergie  au lieu de leur type d'Énergie habituel et leurs autres effets cessent de fonctionner. Ce pouvoir cesse de fonctionner si Dracolosse lumineux est Endormi, Confus ou Paralysé.",
+				fr: "Tant que Dracolosse lumineux est votre Pokémon Actif, toutes les cartes Énergie spéciale fournissent de l'Énergie {C} au lieu de leur type d'Énergie habituel et leurs autres effets cessent de fonctionner. Ce pouvoir cesse de fonctionner si Dracolosse lumineux est Endormi, Confus ou Paralysé.",
 				de: "Solange Helles Dragoran dein aktives Pokémon ist, erzeugt jede Spezialenergiekarte {C}-Energie statt ihres normalen Typs, und alle ihre anderen Effekte funktionieren nicht. Diese Fähigkeit verliert ihre Wirkung, solange Helles Dragoran schläft, verwirrt oder gelähmt ist."
 			},
 		},

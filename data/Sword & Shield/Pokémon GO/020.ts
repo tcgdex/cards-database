@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.",
+		de: "Es entwickelte sich, als ein Muschas in seine Rute biss. Das süße Aroma, das aus der Rute strömt, hat Muschas in eine Art Trance versetzt."
 	},
 
 	

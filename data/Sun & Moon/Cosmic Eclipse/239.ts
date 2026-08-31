@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+		de: "Einmischung kann es gar nicht leiden. Es ist bockig und fasst nur schwer Zutrauen zu seinem Trainer."
 	},
 
 	thirdParty: {

@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
+		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
+		de: "Es hortet in seinem Schweif Beeren. Versucht es, zu viele unterzubringen, fallen sie heraus. Da es jedoch nicht allzu clever ist, bemerkt es das nicht."
 	},
 
 	variants: [

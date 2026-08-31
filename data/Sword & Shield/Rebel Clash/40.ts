@@ -91,7 +91,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
+		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
+		de: "Es ist von Natur aus sehr aggressiv. Der Hyperstrahl, den es aus seinem Maul verschießt, äschert seine Gegner ein."
 	},
 
 	variants: [

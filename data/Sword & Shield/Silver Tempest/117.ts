@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.",
+		de: "Mit der Magnetkraft, die es an seinem Hinterteil erzeugt, zieht es Gegner ruckartig zu sich heran, um sie mit seinen scharfen Krallen aufzuspießen."
 	},
 
 	variants: [

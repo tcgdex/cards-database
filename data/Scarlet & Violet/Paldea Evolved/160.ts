@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+		de: "Es schläft 20 Stunden am Tag. Eines seiner Talente besteht darin, jeden, der es anschaut, schläfrig zu machen."
 	},
 }
 

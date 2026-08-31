@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
+		de: "Findet Manguspektor Spuren potenzieller Beute, legt es sich geduldig auf die Lauer und verharrt bis Sonnenuntergang am selben Ort."
 	},
 
 	variants: [

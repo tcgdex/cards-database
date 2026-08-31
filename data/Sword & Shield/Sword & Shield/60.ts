@@ -79,7 +79,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
+		de: "Im Kampf greift es mit dem steinharten Horn auf seinem Kopf an. Schreckt der Gegner zurück, schnappt es zu und lässt nicht wieder los."
 	},
 
 	dexId: [833],

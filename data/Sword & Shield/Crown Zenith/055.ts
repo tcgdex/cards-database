@@ -72,7 +72,7 @@ const card: Card = {
 			es: "Elige 1 de los Pokémon de tu rival 4 veces. (Puedes elegir el mismo Pokémon más de una vez). Por cada vez que elijas 1 Pokémon, hazle 60 puntos de daño a ese Pokémon. Este daño no se ve afectado por Debilidad o Resistencia. (No puedes usar más de 1 Poder V-ASTRO en una partida).",
 			it: "Scegli quattro volte uno dei Pokémon del tuo avversario. Puoi scegliere lo stesso Pokémon più di una volta. Ogni volta che scegli un Pokémon, infliggigli 60 danni. Questi danni non sono influenzati dalla debolezza o dalla resistenza. Non puoi usare più di un Potere ASTRO a partita.",
 			pt: "Escolha 1 dos Pokémon do seu oponente 4 vezes (você pode escolher o mesmo Pokémon mais de uma vez). Para cada vez que você escolher um Pokémon, cause 60 pontos de dano a ele. Este dano não é afetado por Fraqueza ou Resistência (você não pode usar mais de 1 Poder V-ASTRO por partida).",
-			de: "Wähle 4-mal 1 Pokémon deines Gegners. (Du kannst dasselbe Pokémon mehr als einmal wählen.) Jedes Mal, wenn du ein Pokémon wählst, füge ihm 60 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+			de: "Wähle 4-mal 1 Pokémon deines Gegners. (Du kannst dasselbe Pokémon mehr als einmal wählen.) Jedes Mal, wenn du ein Pokémon wählst, füge ihm 60 Schadenspunkte zu. Dieser Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
 		}
 	}],
 

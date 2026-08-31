@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees in half with a single hit.",
+		de: "Pliprin sind Einzelgänger. Mit ihren Flügeln teilen sie kräftige Schläge aus, die selbst große Bäume entzweihauen."
 	},
 
 	illustrator: "Atsuya Uki",

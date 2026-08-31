@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Esse ataque causa 60 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60×",
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+		de: "Bildet mit mehreren Artgenossen ein Rudel. Eine Membran schützt seine Augen vor Sandstürmen."
 	},
 
 	thirdParty: {

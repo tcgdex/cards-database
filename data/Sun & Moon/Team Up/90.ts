@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		de: "Es tarnt sich als Mensch oder als andere Pokémon. Es schützt sich vor Gefahren, indem es seine wahre Gestalt geheim hält."
 	},
 
 	thirdParty: {

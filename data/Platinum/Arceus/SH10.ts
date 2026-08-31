@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				de: "Wirf 2 Münzen. Wenn mindestens eine Münze \"Zahl\" gezeigt hat, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn mindestens eine Münze „Zahl“ gezeigt hat, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -64,7 +64,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day."
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+		de: "Es träumt davon, eines Tages fliegen zu können und springt daher jeden Tag von hohen Klippen."
 	},
 
 	variants: [

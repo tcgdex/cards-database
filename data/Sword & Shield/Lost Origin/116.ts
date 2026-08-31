@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Cambia este Pokémon por 1 de tus Pokémon Darkness en Banca.",
 			it: "Scambia questo Pokémon con uno dei Pokémon Darkness della tua panchina.",
 			pt: "Troque este Pokémon por 1 dos seus Pokémon Darkness no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Darkness-Pokémon auf deiner Bank aus."
+			de: "Tausche dieses Pokémon gegen 1 {D}-Pokémon auf deiner Bank aus."
 		},
 
 		damage: 60

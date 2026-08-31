@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Pokémon a este Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare un segnalino danno da uno dei tuoi Pokémon a questo Pokémon tutte le volte che vuoi.",
 				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover 1 contador de danos de 1 dos seus Pokémon para este Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff ) kannst du 1 Schadensmarke von 1 deiner Pokémon auf dieses Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Pokémon auf dieses Pokémon verschieben."
 			},
 		},
 	],
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to take lost spirits into its pliant body and guide them home.",
+		de: "Man sagt, dass es verlorene Seelen in seinem biegsamen Körper nach Hause geleite."
 	},
 
 	thirdParty: {

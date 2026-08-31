@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
+		de: "Es wird in manchen Regionen für seine Nasenform verehrt, die angeblich Glück bringen soll."
 	},
 
 }

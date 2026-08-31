@@ -4,7 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Minun",
-		fr: "Negapi",
+		fr: "Négapi",
 		de: "Minun"
 	},
 

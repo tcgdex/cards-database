@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Due to the coal tar created inside it, the heap of coal on Carkol’s back never falls apart, even when the Pokémon rolls around at high speeds.",
+		de: "Der Kohlehaufen auf seinem Rücken zerfällt selbst bei sehr schneller Fortbewegung nicht, was an dem Teer liegt, den es darin produziert."
 	},
 
 	variants: [

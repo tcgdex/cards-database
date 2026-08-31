@@ -71,7 +71,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas."
+		en: "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas.",
+		de: "Es erhitzt die Körperflüssigkeit, die es in seinen Giftsäcken produziert, mit Flammen aus seiner Rute. Dadurch wird Giftgas freigesetzt."
 	},
 
 	thirdParty: {

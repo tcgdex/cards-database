@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+		de: "Gibt man ihm besonders nahrhaftes Quellwasser zu trinken, entwickelt es Blüten in seltenen Farben."
 	},
 
 	thirdParty: {

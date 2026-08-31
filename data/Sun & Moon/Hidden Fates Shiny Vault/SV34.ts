@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Draining Kiss",
 				fr: "Vampibaiser",
+				de: "Diebeskuss"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -58,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Es erfasst warme Gefühle von Menschen und Pokémon mit seinen Hörnern und wärmt sich daran auf."
 	},
 }
 

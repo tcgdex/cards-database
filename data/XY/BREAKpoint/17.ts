@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc.",
+		de: "Seine Vorderbeine besitzen Schwimmhäute, um es perfekt ans Wasser anzupassen. Daher schwimmt es elegant in Flüssen."
 	},
 
 	thirdParty: {

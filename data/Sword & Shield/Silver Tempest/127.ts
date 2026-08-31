@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
+		de: "Der Schweif an seinem Rücken absorbiert Blitze und Angriffe von Elektro-Pokémon. Es speichert den so gewonnenen Strom in Elektrotaschen."
 	},
 
 	variants: [

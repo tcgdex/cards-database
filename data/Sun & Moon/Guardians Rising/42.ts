@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Graveler",
 		fr: "Gravalanch d’Alola",
+		de: "Alola-Georok"
 	},
 
 	stage: "Stage2",
@@ -54,7 +55,7 @@ const card: Card = {
 				es: "Lanza 1 moneda por cada Energía Lightning unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
 				it: "Lancia una moneta per ogni Energia Lightning assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
 				pt: "Jogue 1 moeda para cada Energia Lightning ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
-				de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Lightning-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+				de: "Wirf 1 Münze für jede an dieses Pokémon angelegte {L}-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -80,7 +81,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño menos por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 30 danni in meno per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 30 pontos de dano a menos para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 30 Schadenspunkte weniger mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte weniger mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "200-",
 
@@ -105,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
+		de: "Es feuert elektrisch geladene Felsen ab. Selbst eine Schramme genügt, um seine Gegner damit bewusstlos zu machen."
 	},
 
 	thirdParty: {

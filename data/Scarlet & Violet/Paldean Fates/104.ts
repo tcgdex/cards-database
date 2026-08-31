@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+		de: "Dieses Pokémon ist sehr friedlich und gütig. Es teilt sein leckeres, nährstoffreiches Öl mit geschwächten Pokémon."
 	},
 
 }

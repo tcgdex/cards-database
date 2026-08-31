@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+		de: "Sein Körper ist vollkommen hohl. Wenn es sein Maul öffnet, saugt es wie ein schwarzes Loch alles in sich auf."
 	},
 
 	

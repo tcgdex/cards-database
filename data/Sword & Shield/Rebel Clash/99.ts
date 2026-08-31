@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
+		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud.",
+		de: "Sein schleimiger Körper ist schwer zu greifen. In einer Region sagt man, es sei aus gehärtetem Schlamm entstanden."
 	},
 
 	variants: [

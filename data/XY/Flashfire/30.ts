@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+		de: "Es wehrt gegnerische Angriffe mit seinem in Eis gehüllten Körper ab. Bruchstellen bessert es mit aus kalter Luft gewonnenem neuen Eis aus."
 	},
 
 	thirdParty: {

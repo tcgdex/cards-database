@@ -67,7 +67,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
+		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat.",
+		de: "Ist es kampfbereit, verströmt es von seiner Nasenspitze und von den Ballen an seinen Läufen Hitze."
 	},
 
 	dexId: [813],

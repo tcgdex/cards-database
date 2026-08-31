@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Grass, este ataque hace 30 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Grass, questo attacco infligge 30 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Grass, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Grass-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {G}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Farmers whose fields are troubled by bug Pokémon appreciate Spearow for its vigorous appetite and look after it.",
+		de: "Bauern, deren Felder von Käfer-Pokémon befallen sind, schätzen Habitak wegen seines unstillbaren Appetits ganz besonders."
 	},
 
 	thirdParty: {

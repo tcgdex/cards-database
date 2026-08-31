@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
+		de: "Sein Zwitschern ist wunderschön, aber wenn Gegner sein Revier betreten, kennt es keine Gnade."
 	},
 
 	thirdParty: {

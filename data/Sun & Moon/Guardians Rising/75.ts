@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The mud stuck to Mudbray's hooves enhances its grip and its powerful running gait.",
+		de: "Der ganze Schlamm an seinen Füßen sorgt für die nötige Bodenhaftung, die es für seinen kraftvollen Lauf braucht."
 	},
 
 	thirdParty: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rowlet",
 		fr: "Brindibou",
+		de: "Bauz"
 	},
 	illustrator: "sui",
 	rarity: "Shiny rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Leafage",
 				fr: "Feuillage",
+				de: "Blattwerk"
 			},
 
 			damage: 20,
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+		de: "Ein wachsames und nachtaktives Pokémon. Tagsüber sammelt es per Photosynthese Kräfte, um fit für die Nacht zu sein."
 	},
 }
 

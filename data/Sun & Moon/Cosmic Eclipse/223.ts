@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Orden Caótico GX",
 				it: "Ordine Caotico GX",
 				pt: "Ordem Caótica GX",
-				de: "Chaosordnung GX"
+				de: "Chaosordnung-GX"
 			},
 			effect: {
 				en: "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pokémon has at least 1 extra Psychic Energy and 1 extra Darkness Energy attached to it (in addition to this attack’s cost), take 2 Prize cards. (You can’t use more than 1 GX attack in a game.)",
@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Pon todas tus cartas de Premio boca arriba. (Esas cartas de Premio permanecerán boca arriba durante el resto de la partida). Si este Pokémon tiene por lo menos 1 Energía Psychic adicional y 1 Energía Darkness adicional unidas a él (además de las del coste de este ataque), coge 2 cartas de Premio. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Gira tutte le tue carte Premio a faccia in su (rimarranno così per il resto della partita). Se questo Pokémon ha almeno un’Energia Psychic e un’Energia Darkness extra assegnate, in aggiunta a quelle del costo di questo attacco, prendi due carte Premio. Non puoi usare più di un attacco GX a partita.",
 				pt: "Vire para cima todas as suas cartas de Prêmio (elas permanecerão viradas para cima pelo resto da partida). Se este Pokémon tiver pelo menos 1 Energia Psychic adicional e 1 Energia Darkness adicional ligadas a ele (além do custo deste ataque), pegue 2 cartas de Prêmio (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Decke alle deine Preiskarten auf. (Jene Preiskarten bleiben für den Rest des Spiels aufgedeckt.) Wenn an dieses Pokémon mindestens 1 extra Psychic-Energie und 1 extra Darkness-Energie angelegt sind (zusätzlich zu den Kosten dieser Attacke), nimm 2 Preiskarten. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Decke alle deine Preiskarten auf. (Jene Preiskarten bleiben für den Rest des Spiels aufgedeckt.) Wenn an dieses Pokémon mindestens 1 extra {P}-Energie und 1 extra {D}-Energie angelegt sind (zusätzlich zu den Kosten dieser Attacke), nimm 2 Preiskarten. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			}
 
 		},

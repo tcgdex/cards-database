@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "À la nuit tombée, les Apitrini s'agglutinent\npar grappes de cent pour dormir.",
 		es: "Cuando llega la noche, se juntan unos cien\nCombee y duermen formando una gran colmena.",
 		it: "Scesa la notte, formano dei grandi alveari di\ncirca 100 esemplari e dormono raggruppati.",
-		de: "Des Nachts schmiegen sich bis zu 100 Wadribie\naneinander und formieren sich so zum Schlafen\nzu einem großen Gebilde.",
+		de: "Des Nachts schmiegen sich bis zu 100 Wadribie aneinander und formieren sich so zum Schlafen zu einem großen Gebilde.",
 		'pt-br': "À noite, Combee dormem amontados\nem grupos de aproximadamente cem indivíduos.",
 		ko: "밤이 되면 100마리 정도의\n세꿀버리가 모여\n커다란 덩어리가 되어 잠잔다."
 	},

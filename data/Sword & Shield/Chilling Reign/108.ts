@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves."
+		en: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.",
+		de: "Wulaosu lebt in den Bergen einer fernen Region. Um die Beine zu stählen und seine Kampftechnik zu verbessern, rennt es steile Klippen entlang."
 	},
 
 	variants: [

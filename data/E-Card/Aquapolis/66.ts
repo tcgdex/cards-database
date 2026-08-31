@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue battoir",
-				de: "Tail Whap"
+				de: "Schweifvertrimmerer"
 			},
 
 			damage: 10,
@@ -44,12 +44,12 @@ const card: Card = {
 			name: {
 				en: "Deep Dive",
 				fr: "Gros plongeon",
-				de: "Deep Dive"
+				de: "Tieftaucher"
 			},
 			effect: {
 				en: "Flip 3 coins. For each heads, remove 1 damage counter on Wooper.",
 				fr: "Lancez 3 pièces. Pour chaque face, retirez un marqueur de dégâts de Axoloto.",
-				de: "Flip 3 coins. For each heads, remove 1 damage counter from Wooper."
+				de: "Wirf 3 Münzen. Entferne für jedesmal „Kopf“ eine Schadensmarke von Felino."
 			},
 
 		},

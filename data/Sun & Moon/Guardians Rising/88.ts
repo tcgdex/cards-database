@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its adorable behavior and appearance make it popular with men and women, young and old. Its numbers are few, however.",
+		de: "Dank seiner verspielten Art und seines süßen Aussehens ist es bei Jung und Alt sehr beliebt. Dieses Pokémon ist jedoch selten."
 	},
 
 	thirdParty: {

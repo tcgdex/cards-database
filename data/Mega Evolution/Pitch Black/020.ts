@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Brionne"
+		en: "Brionne",
+		fr: "Otarlette",
+		de: "Marikeck"
 	},
 
 	stage: "Stage2",
@@ -88,6 +90,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 895808,
+				tcgplayer: 704777
+			}
+		},
+		{
+			type: "reverse",
 			thirdParty: {
 				cardmarket: 895808,
 				tcgplayer: 704777

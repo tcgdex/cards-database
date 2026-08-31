@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Puedes descartar todas las Energías Fire unidas a este Pokémon. Si lo haces, este ataque hace 80 puntos de daño más.",
 				it: "Puoi scartare tutte le Energie Fire assegnate a questo Pokémon. Se lo fai, questo attacco infligge 80 danni in più.",
 				pt: "Você pode descartar toda a Energia Fire ligada a este Pokémon. Se fizer isso, este ataque causará 80 de danos adicionais.",
-				de: "Du kannst alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+				de: "Du kannst alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 80 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 

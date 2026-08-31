@@ -73,7 +73,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
+		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+		de: "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab."
 	},
 
 	dexId: [10],

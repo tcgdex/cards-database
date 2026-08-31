@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+		de: "Seine Schnurrhaare dienen ihm als Antennen. Durch das Senden und Empfangen von elektrischen Wellen kann es mit weit entfernten Freunden kommunizieren."
 	},
 
 	thirdParty: {

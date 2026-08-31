@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It spits sticky threads and winds them around branches, then swings nimbly from tree to tree in a pendulum-like motion.",
+		de: "Es spuckt klebrige Fäden, die es um Äste wickelt, um sich dann mit pendelnden Bewegungen geschickt von Baum zu Baum zu schwingen."
 	},
 
 	variants: [

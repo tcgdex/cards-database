@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
+		de: "Es ist ein hervorragender Kletterer. Besonders gern steigt es auf Bäume und frisst die jungen Triebe ab."
 	},
 
 	variants: [

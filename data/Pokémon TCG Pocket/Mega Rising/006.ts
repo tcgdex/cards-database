@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cascoon"
+		en: "Cascoon",
+		fr: "Blindalys"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Wurmple"
+		en: "Wurmple",
+		fr: "Chenipotte"
 	},
 
 	description: {
@@ -28,13 +30,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Harden"
+			en: "Harden",
+			fr: "Armure"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less."
+			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less.",
+			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques si ces dégâts sont inférieurs ou égaux à 40."
 		}
 	}],
 

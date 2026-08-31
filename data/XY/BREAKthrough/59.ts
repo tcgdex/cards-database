@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It licks with its gaseous tongue to steal the victim's life force. It lurks in darkness for prey.",
+		de: "Es beleckt seine Opfer mit seiner Zunge und stiehlt ihnen so Lebenskraft. Es lauert im Dunkeln auf sie."
 	},
 
 	thirdParty: {

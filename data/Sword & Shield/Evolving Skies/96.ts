@@ -61,7 +61,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They live in holes bored in large trees. The sound of Nuzleaf's grass flute fills listeners with dread."
+		en: "They live in holes bored in large trees. The sound of Nuzleaf's grass flute fills listeners with dread.",
+		de: "Sie leben in Löchern, die sie in große Bäume gebohrt haben. Der Ton ihrer Grasflöten erfüllt Zuhörer mit Unruhe."
 	},
 
 	dexId: [274],

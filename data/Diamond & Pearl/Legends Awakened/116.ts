@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+		de: "Ein beharrliches PKMN, das seine Beute jagt, bis diese erschöpft ist."
 	},
 
 	thirdParty: {

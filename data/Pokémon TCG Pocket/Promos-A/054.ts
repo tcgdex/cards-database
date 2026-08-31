@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "D'ordinaire, ce Pokémon est plutôt calme,\nmais lorsqu'il se bat, il élimine ses adversaires\navec des mouvements rapides comme l'éclair.",
 		es: "Este Pokémon es normalmente bastante calmado,\npero, una vez en combate, derriba a sus rivales\ncon movimientos de una velocidad vertiginosa.",
 		it: "Di solito è piuttosto flemmatico, ma\nquando si trova a lottare atterra il\nnemico con movimenti fulminei.",
-		de: "Dieses Pokémon ist für gewöhnlich sehr gelassen,\ndoch sobald ein Kampf beginnt, streckt es den Gegner\nmit blitzschnellen Bewegungen zu Boden.",
+		de: "Dieses Pokémon ist für gewöhnlich sehr gelassen, doch sobald ein Kampf beginnt, streckt es den Gegner mit blitzschnellen Bewegungen zu Boden.",
 		'pt-br': "Este Pokémon costuma demorar para reagir, mas quando\nentra na batalha, derrota seus oponentes\ncom golpes na velocidade da luz.",
 		ko: "평소에는 느긋하지만\n싸움이 시작되면 전광석화와도 같은\n몸놀림으로 적을 때려눕힌다."
 	},
@@ -35,7 +35,9 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Pawmo"
+		en: "Pawmo",
+		fr: "Pohmotte",
+		de: "Pamamo"
 	},
 
 	weaknesses: [{

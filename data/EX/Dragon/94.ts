@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 3 Energy attached to Latios ex.",
 				fr: "Défaussez trois Énergies attachées à Latios ex.",
-				de: "Discard 3 Energy attach to Latios EX"
+				de: "Entferne 3 an Latios ex angelegte Energiekarten und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

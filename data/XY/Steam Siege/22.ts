@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+		de: "Sie verlassen ihr Rudel schon sehr früh, um stärker zu werden und auf eigenen Pfoten zu stehen. Sie sind sehr hitzköpfig und streitlustig."
 	},
 
 	thirdParty: {

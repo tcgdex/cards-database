@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
+		de: "Es lebt an Stränden oder in flachen Gewässern. Im Kampf und zum Schnappen von Beute lässt es seine Organe hervorschnellen."
 	},
 
 	thirdParty: {

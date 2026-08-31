@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -38,13 +39,13 @@ const card: Card = {
 			name: {
 				en: "Karate Chop",
 				fr: "Poing-Karaté",
-				de: "Karate Chop"
+				de: "Karateschlag"
 			},
 
 			effect: {
 				en: "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
 				fr: "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge.",
-				de: "Damage from this attack is reduced by 10 for each damage counter on Primeape."
+				de: "Der Schaden durch diesen Angriff wird für jede Schadensmarke auf Rasaff um 10 reduziert."
 			},
 
 			damage: "40-"
@@ -58,12 +59,12 @@ const card: Card = {
 			name: {
 				en: "Sudden Charge",
 				fr: "Charge soudaine",
-				de: "Sudden Charge"
+				de: "Plötzlicher Ansturm"
 			},
 			effect: {
 				en: "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a.",
-				de: "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				de: "Rasaff fügt sich selber 10 Schadenspunkte zu. Dann tauscht dein Gegner das Verteidigende Pokémon mit 1 der Pokémon auf seiner Bank, falls er dort mindestens eins hat."
 			},
 			damage: 40,
 

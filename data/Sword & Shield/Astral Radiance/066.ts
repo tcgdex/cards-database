@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Si tienes a Uxie y a Azelf en juego, cada uno de tus Pokémon no tiene ninguna Debilidad.",
 			it: "Se hai Uxie e Azelf in gioco, nessuno dei tuoi Pokémon ha debolezza.",
 			pt: "Caso você possua Uxie e Azelf em jogo, seus Pokémon não terão Fraqueza.",
-			de: "Wenn du Selfe und Tobutz im Spiel hast, hat jedes deiner Pokémon keine Schwäche."
+			de: "Wenn du Selfe und Tobutz im Spiel hast, haben deine Pokémon keine Schwäche."
 		}
 	}],
 
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
+		de: "Es schläft auf dem Grund eines Sees. Man sagt, sein Geist verlasse den Körper und fliege über den See."
 	},
 
 	variants: [

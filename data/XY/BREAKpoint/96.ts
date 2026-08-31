@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, si el Pokémon Activo de ese jugador está Dormido, puede eliminar esa Condición Especial y curar 30 puntos de daño a ese Pokémon.",
 		it: "Una sola volta durante il turno di ciascun giocatore, se il Pokémon attivo del giocatore è addormentato, quel giocatore può rimuovere tale condizione speciale e curare quel Pokémon da 30 danni.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, se o Pokémon Ativo daquele jogador estiver Adormecido, o jogador pode remover aquela Condição Especial e curar 30 de danos daquele Pokémon.",
-		de: "Einmal während seines Zuges kann jeder Spieler, wenn sein Aktives Pokémon schläft, diesen Speziellen Zustand entfernen und 30 Schadenspunkte bei diesem Pokémon heilen."
+		de: "Einmal während seines Zuges kann jeder Spieler, wenn sein Aktives Pokémon schläft, diesen Speziellen Zustand entfernen und 30 Schadenspunkte bei diesem Pokémon heilen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Dans ce cas, pendant ce tour, les attaques de vos Pokémon  de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie {R} de votre main. Dans ce cas, pendant ce tour, les attaques de vos Pokémon {R} de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],

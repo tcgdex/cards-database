@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
 				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
 				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Cura 30 puntos de daño a cada uno de tus Pokémon Fairy.",
 				it: "Cura ciascuno dei tuoi Pokémon Fairy da 30 danni.",
 				pt: "Cura 30 de danos de cada um dos seus Pokémon Fairy.",
-				de: "Heile 30 Schadenspunkte bei jedem deiner Fairy-Pokémon."
+				de: "Heile 30 Schadenspunkte bei jedem deiner {FAIRY}-Pokémon."
 			},
 			damage: 60,
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+		de: "Dieses Pokémon ist eine Mutation von Rocara. Sein rosafarben schimmernder Körper gilt als schönster Anblick überhaupt."
 	},
 
 	thirdParty: {

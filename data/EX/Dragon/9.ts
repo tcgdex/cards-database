@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Rosélia",
 		de: "Roselia"
 	},
 
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 2 Grass Energy cards from your hand to your Pokémon in any way you like.",
-				fr: "Attachez jusqu'à deux cartes Énergie  de votre main à vos Pokémon de la façon que vous voulez.",
+				fr: "Attachez jusqu'à deux cartes Énergie {G} de votre main à vos Pokémon de la façon que vous voulez.",
 				de: "Lege bis zu 2 {G}-Energiekarten von deiner Hand an deine Pokémon an."
 			},
 

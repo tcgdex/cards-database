@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
+		en: "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth.",
+		de: "Es wäscht sich regelmäßig das Gesicht, um die Münze auf seiner Stirn sauber zu halten. Es hat kein gutes Verhältnis zu den Mauzi aus Galar."
 	},
 
 	attacks: [{

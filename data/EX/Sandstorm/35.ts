@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Electabuzz.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Elektek.",
+				fr: "Si vous avez des cartes Énergie {L} dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Elektek.",
 				de: "Wirf 1 Münze. Bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Elektek an."
 			},
 			damage: 10,

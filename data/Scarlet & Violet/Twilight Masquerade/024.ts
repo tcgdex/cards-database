@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
+		de: "Es liebt Streiche und steckt voller Neugier. Zum Kämpfen nutzt es die typenspezifische Energie der Maske, die es trägt."
 	},
 
 	variants: [

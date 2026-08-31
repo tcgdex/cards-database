@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.",
+		de: "Um sein Umfeld zu erkunden, nutzt es all seine Sinne – bis auf den Sehsinn. Wer von Phantoross getreten wird, verliert angeblich seine Seele."
 	},
 
 	variants: [

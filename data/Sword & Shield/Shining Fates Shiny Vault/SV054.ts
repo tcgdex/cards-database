@@ -69,7 +69,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you."
+		en: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
+		de: "Mit dem Fortsatz an seinem Kopf kann es die Gefühle von Lebewesen wahrnehmen. Es öffnet nur geruhsam veranlagten Leuten sein Herz."
 	},
 
 	variants: [

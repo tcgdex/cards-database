@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Si sale cara en alguna de ellas, tu rival enseña las cartas de su mano. Después, por cada cara, descarta 1 carta de la mano de tu rival.",
 				it: "Lancia tre volte una moneta. Se esce almeno una volta testa, il tuo avversario mostra le carte che ha in mano. Poi, per ogni volta che è uscita testa, scarta una carta dalla mano del tuo avversario.",
 				pt: "Jogue 3 moedas. Se alguma delas sair cara, o seu oponente revelará sua própria mão. Em seguida, para cada cara, descarte um card da mão do seu oponente.",
-				de: "Wirf 3 Münzen. Zeigt mindestens 1 dieser Münzen \"Kopf\", deckt dein Gegner seine Handkarten auf. Lege anschließend pro \"Kopf\" 1 Handkarte deines Gegners auf dessen Ablagestapel."
+				de: "Wirf 3 Münzen. Zeigt mindestens 1 dieser Münzen „Kopf“, deckt dein Gegner seine Handkarten auf. Lege anschließend pro „Kopf“ 1 Handkarte deines Gegners auf dessen Ablagestapel."
 			},
 
 		},
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "By flapping its leafy fan, it can whip up gusts of 100 feet per second that can level houses.",
+		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/s erreichen können."
 	},
 
 	thirdParty: {

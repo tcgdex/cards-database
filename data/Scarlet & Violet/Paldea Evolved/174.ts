@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador una 1 carta de Energía de su mano a uno de sus Pokémon no {W} Básicos, pon 2 contadores de daño en ese Pokémon.",
 		it: "Ogni volta che un giocatore assegna a uno dei suoi Pokémon Base non di tipo {W} una carta Energia dalla propria mano, metti due segnalini danno su quel Pokémon.",
 		pt: "Sempre que algum jogador ligar uma carta de Energia da própria mão a 1 dos próprios Pokémon Básicos que não seja de tipo {W}, coloque 2 contadores de dano naquele Pokémon.",
-		de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Basis-Pokémon, das kein {W}-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon."
+		de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Basis-Pokémon, das kein {W}-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

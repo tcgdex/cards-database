@@ -1,15 +1,15 @@
+import * as Sentry from "@sentry/node"
 import express, { type Response } from 'express'
-import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-import openapi from './V2/endpoints/openapi'
-import graphql from './V2/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
-import status from './status'
-import * as Sentry from "@sentry/node"
 import { fillCardMarketDatas, getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
 import { fillTCGPlayerCache, getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
 import { Command } from './libs/threadUtils'
+import status from './status'
+import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import openapi from './V2/endpoints/openapi'
+import graphql from './V2/graphql'
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -41,7 +41,6 @@ if (cluster.isPrimary) {
 
 		// handle sub processes
 		worker.on('message', async (command: Command) => {
-			console.log('worker sent', command)
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
@@ -95,7 +94,6 @@ if (cluster.isPrimary) {
 		await new Promise<void>((res) => {
 			let oneDone = false
 			process.on('message', (command: Command) => {
-				console.log('master sent', command.type)
 				switch (command.type) {
 					case 'tcgplayer-update': {
 						fillTCGPlayerCache(command.data as any)

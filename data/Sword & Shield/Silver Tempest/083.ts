@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy.",
+		de: "Die Menge an Zucker, die es pro Tag verschlingt, entspricht seinem Körpergewicht. Bekommt es nicht genügend Zucker, wird es unausstehlich."
 	},
 
 	variants: [

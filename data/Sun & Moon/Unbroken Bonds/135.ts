@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to its bouncy body and fine fur, this Pokémon is sought after. Holding one in your arms while you sleep feels great.",
+		de: "Dank seines elastischen Körpers und feinen Fells ist es sehr beliebt. Es fühlt sich herrlich an, mit Knuddeluff in den Armen einzuschlafen."
 	},
 
 	thirdParty: {

@@ -84,6 +84,13 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
+		thirdParty: {
+			cardmarket: 835995,
+			tcgplayer: 642163
+		}
+	},
+	{
+		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
 			cardmarket: 836585,
@@ -96,6 +103,14 @@ const card: Card = {
 		thirdParty: {
 			cardmarket: 836586,
 			tcgplayer: 642333
+		}
+	},
+	{
+		type: "holo",
+		stamp: ["fossil-museum"],
+		thirdParty: {
+			cardmarket: 889383,
+			tcgplayer: 695136
 		}
 	},
 ],

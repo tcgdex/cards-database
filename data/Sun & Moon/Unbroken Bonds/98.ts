@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene ningún Coste de Retirada.",
 				it: "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
 				pt: "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
-				de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
+				de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+		de: "Es hängt meist an Klippen. Erspäht es Beute, spreizt es seine Flügel und greift diese sofort an."
 	},
 
 	thirdParty: {

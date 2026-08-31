@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Gible"
+		en: "Gible",
+		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Lorsqu'il mue, il perd parfois ses écailles. Les remèdes\nconcoctés à partir de celles-ci sont de puissants toniques.",
 		es: "Muy ocasionalmente puede mudar la piel y\nperder las escamas. Las medicinas que las usan\ncomo ingrediente son muy reconstituyentes.",
 		it: "Fa la muta molto di rado. Con le scaglie perse\nin questo modo si possono preparare tonici che\nalleviano la stanchezza e ripristinano le energie.",
-		de: "Ab und zu häutet es sich und verliert Schuppen.\nMedizin, die solche Schuppen enthält, macht\nmüde Körper munter.",
+		de: "Ab und zu häutet es sich und verliert Schuppen. Medizin, die solche Schuppen enthält, macht müde Körper munter.",
 		'pt-br': "Troca de pele raramente e deixa suas escamas para trás.\nRemédios feitos com suas escamas farão um adoecido\nsentir-se revigorado.",
 		ko: "드물게 탈피해서 비늘이 벗겨진다.\n그 성분이 들어 있는 약은\n피곤한 몸을 회복시켜 준다."
 	},

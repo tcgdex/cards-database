@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+		de: "Es jagt durch enge Höhlengänge und spießt seine Gegner mit spitzen Klauen auf. Seine Kopfhaut ist fester als Stein."
 	},
 
 	thirdParty: {

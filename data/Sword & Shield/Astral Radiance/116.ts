@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
+		de: "Es hat stets ein Gefolge aus mehreren Gladiantri und achtet immer streng darauf, dass ihm keiner seiner Handlanger in den Rücken fällt."
 	},
 
 	variants: [

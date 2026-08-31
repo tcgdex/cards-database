@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
-				de: "Earthquake"
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Fügt jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Double Stab",
 				fr: "Coup double",
-				de: "Double Stab"
+				de: "Doppelstich"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 

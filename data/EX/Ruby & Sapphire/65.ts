@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Bind",
 				fr: "Étreinte d'ombre",
-				de: "Shadow Bind"
+				de: "Schattenbindung"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 

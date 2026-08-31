@@ -83,6 +83,14 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'holo',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785611,
+				tcgplayer: 515672
+			}
+		},
+		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 715572,
@@ -96,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+		de: "Es lebt an dunklen Orten ohne Sonnenlicht. Menschen zeigt es sich nur, wenn es mit einem Lumpen bedeckt ist, der aussieht wie ein Pikachu."
 	},
 }
 

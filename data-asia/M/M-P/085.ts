@@ -14,7 +14,14 @@ const card: Card = {
 		ja: "自分の山札からポケモン（「ルールを持つポケモン」をのぞく）を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 684580,
+			},
+		},
+	],
 
 	trainerType: "Item",
 	regulationMark: "J",

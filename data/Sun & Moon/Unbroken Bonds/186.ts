@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todos los efectos de las habilidades de tu rival infligidos al Pokémon al que esté unida esta carta. Elimina los efectos ya existentes.",
 		it: "Previeni tutti gli effetti delle abilità del tuo avversario inflitti al Pokémon a cui è assegnata questa carta. Rimuovi anche tutti gli effetti esistenti dello stesso genere.",
 		pt: "Previne todos os efeitos das Habilidades do seu oponente causados ao Pokémon ao qual esta carta está ligada. Remova todos os efeitos existentes destas Habilidades.",
-		de: "Verhindere alle Effekte der Fähigkeiten deines Gegners, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. Entferne alle solche bestehenden Effekte."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere alle Effekte der Fähigkeiten deines Gegners, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. Entferne alle solche bestehenden Effekte. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

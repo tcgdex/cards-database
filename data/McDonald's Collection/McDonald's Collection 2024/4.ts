@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Psychic"],
 			name: {
 				en: "Pound",
+				de: "Klaps"
 			},
 			damage: 20
 		},
@@ -36,9 +37,11 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Let's All Rollout",
+				de: "Gemeinsamer Walzer"
 			},
 			effect: {
 				en: "This attack does 20 more damage for each of your Benched Pokémon that has the Let's Rollout Attack.",
+				de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, das die Attacke Gemeinsamer Walzer hat, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 		},

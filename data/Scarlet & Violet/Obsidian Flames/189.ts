@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival.\nBusca en tu baraja hasta 3 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario.\nCerca nel tuo mazzo fino a tre carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente.\nProcure por até 3 cartas de Energia Básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\nDurchsuche dein Deck nach bis zu 3 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde. Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
@@ -45,11 +45,26 @@ const card: Card = {
 				cardtrader: 256085
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756397,
+				tcgplayer: 538762,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				cardmarket: 780009,
+			},
+		},
 	],
 
 	illustrator: "Toyste Beach",
 
-	
+
 }
 
 export default card

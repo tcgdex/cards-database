@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Lightning Energy and a Psychic Energy attached to Arceus.",
 				fr: "Défaussez une Énergie Lightning et une Énergie Psychic attachée à Arceus.",
-				de: "Lege 1 -Energie und 1 -Energie, die an Arceus angelegt sind, auf deinen Ablagestapel."
+				de: "Lege 1 {L}-Energie und 1 {P}-Energie, die an Arceus angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 100,
 

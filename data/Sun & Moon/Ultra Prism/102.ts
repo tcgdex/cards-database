@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
+		de: "Seine Zunge ist doppelt so lang wie sein Körper. Es kann sie wie einen Arm bewegen, um damit Nahrung zu greifen oder zu attackieren."
 	},
 
 	thirdParty: {

@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon Básicos de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon Base del tuo avversario costano Colorless in più.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, o custo dos ataques dos Pokémon Básicos do seu oponente será Colorless maior.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Angriffskosten der Basis-Pokémon deines Gegners um Colorless."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Angriffskosten der Basis-Pokémon deines Gegners um {C}."
 			},
 		},
 	],
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+		de: "Es nutzt seine Wurzeln als Nervensystem und kontrolliert so andere Bäume. Es ist nett zu den Pokémon, die in ihm leben."
 	},
 
 	thirdParty: {

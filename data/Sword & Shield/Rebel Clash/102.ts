@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
+		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+		de: "Eine antike Malerei, die mit einem mächtigen Fluch versehen wurde, nahm die Seele eines Makabaja auf und erwachte zum Leben."
 	},
 
 	variants: [

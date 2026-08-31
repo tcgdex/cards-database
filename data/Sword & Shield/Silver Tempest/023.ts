@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon fino a due carte Energia Fire dalla tua pila degli scarti nel modo che preferisci.",
 			pt: "Ligue até 2 cartas de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Fire-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+			de: "Lege bis zu 2 {R}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 		},
 
 		damage: 20
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
 	},
 
 	variants: [

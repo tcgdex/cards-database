@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti i danni da attacchi inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, impedirá todos os danos causados a este Pokémon por ataques durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird."
 			},
 
 		},
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+		de: "Es lebt in der Dunkelheit, um seinen schwarzen Schweif zu verstecken. Es greift nie zuerst an."
 	},
 
 	thirdParty: {

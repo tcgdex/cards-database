@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a tus Pokémon en Banca por ataques.",
 				it: "Previeni tutto il danno inflitto dagli attacchi ai tuoi Pokémon in panchina.",
 				pt: "Impede todos os danos causados por ataques a seus Pokémon no Banco.",
-				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+				de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 4 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+		de: "Es ist geschickt darin, Menschen zu beeinflussen. Man sagt, es könne dünne Wände aus Luft nur durch Mimen entstehen lassen."
 	},
 
 	thirdParty: {

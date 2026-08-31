@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face.",
+		de: "Makabaja sind Seelen von Menschen aus uralten Zeiten, die zu Pokémon wurden. Sie suchen in Ruinen nach Leuten, die ihr Gesicht kennen."
 	},
 
 	variants: [

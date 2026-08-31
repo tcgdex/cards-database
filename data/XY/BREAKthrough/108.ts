@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+		de: "Markiert sein Revier, indem es mit seinen Fängen Kerben in Bäume schlägt. Brechen diese einmal ab, wachsen sie sofort nach."
 	},
 
 	thirdParty: {

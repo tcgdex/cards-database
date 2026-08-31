@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
+		de: "Es trägt nun eine Waffe, die es vor langer Zeit einmal führte. Selbst Gigadynamax-Pokémon bezwingt es damit auf einen Streich."
 	},
 
 	

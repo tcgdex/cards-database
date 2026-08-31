@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Sandslash",
-		fr: "Sablaireaud'Alola",
-		es: "Sandslashde Alola",
-		it: "Sandslashdi Alola",
+		fr: "Sablaireau d’Alola",
+		es: "Sandslash de Alola",
+		it: "Sandslash di Alola",
 		de: "Alola-Sandamer",
-		'pt-br': "Sandslashde Alola",
+		'pt-br': "Sandslash de Alola",
 		ko: "알로라고지"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Alolan Sandshrew"
+		en: "Alolan Sandshrew",
+		fr: "Sabelette d’Alola"
 	},
 
 	description: {

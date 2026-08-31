@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+		de: "Ist es erwachsen, lässt es sich gern von seinen Kameraden Fußabdrücke auf den Rücken setzen."
 	},
 
 	thirdParty: {

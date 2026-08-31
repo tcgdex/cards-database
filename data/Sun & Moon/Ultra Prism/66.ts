@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It's tough enough to run right through the night, and it's also a hard worker, but it's still just a youngster.",
+		de: "Dieses junge Pokémon ist bereits so robust und willensstark, dass es die ganze Nacht hindurch rennen kann."
 	},
 
 	thirdParty: {

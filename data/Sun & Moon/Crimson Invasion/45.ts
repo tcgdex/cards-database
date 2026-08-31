@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pumpkaboo",
 		fr: "Pitrouille",
+		de: "Irrbis"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+		de: "Unter unheimlichen Gesängen durchstreift es in Neumondnächten Städte und Dörfer. Wer dem unheilvollen Gesang lauscht, wird verflucht."
 	},
 
 	thirdParty: {

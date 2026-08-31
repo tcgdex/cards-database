@@ -61,7 +61,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
+		en: "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away.",
+		de: "Aus seinem Hinterleib sprüht es Gegnern eine fürchterlich stinkende Flüssigkeit ins Gesicht. Dabei hat es eine Reichweite von bis zu 5 m."
 	},
 
 	variants: [

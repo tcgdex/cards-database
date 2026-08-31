@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy and a Lightning Energy attached to Rayquaza.",
 				fr: "Défaussez une Énergie Fire et une Énergie Lightning attachées à Rayquaza.",
-				de: "Lege 1 - und 1 -Energie, die an Rayquaza angelegt sind, auf deinen Ablagestapel."
+				de: "Lege 1 {R}- und 1 {L}-Energie, die an Rayquaza angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -62,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
+		de: "Da es in der Ozonschicht hoch über den Wolken lebt, bekam es bis vor Kurzem noch niemand zu Gesicht."
 	},
 
 	variants: [

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pignite",
 		fr: "Grotichon",
+		de: "Ferkokel"
 	},
 
 	stage: "Stage2",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		de: "Steckt mit dem Feuer um sein Kinn seine Fäuste in Brand und holt zu feurigen Fausthieben aus. Zeigt großen Teamgeist."
 	},
 
 	thirdParty: {

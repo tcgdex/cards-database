@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+		de: "Es setzt Ultraschallwellen frei, während es sich vom Wind über große Distanzen tragen lässt."
 	},
 
 	variants: [

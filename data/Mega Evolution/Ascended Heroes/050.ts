@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [583],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		de: "Es produziert Eiskörner, indem es die Luft um sich herum abkühlt, und friert mit diesen seine Gegner ein."
 	},
 
 	variants: [

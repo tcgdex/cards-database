@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
+		de: "Auch im stärksten Wind kann es kontrollieren, wo seine Saat auf dem Erdball niedergehen soll."
 	},
 
 	thirdParty: {

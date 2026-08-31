@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
+		de: "In der Vergangenheit hatten vornehme Damen, anstatt Parfüm zu benutzen, immer ein Parfi dabei, das ihren Lieblingsduft verströmte."
 	},
 
 	thirdParty: {

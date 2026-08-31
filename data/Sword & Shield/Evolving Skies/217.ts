@@ -36,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Azure Pulse",
-			fr: "Pouls Azur"
+			fr: "Pouls Azur",
+			de: "Azurpuls"
 		},
 
 		effect: {
 			en: "Once during your turn, you may discard your hand and draw 3 cards.",
-			fr: "Une fois pendant votre tour, vous pouvez défausser votre main et piocher 3 cartes."
+			fr: "Une fois pendant votre tour, vous pouvez défausser votre main et piocher 3 cartes.",
+			de: "Einmal während deines Zuges kannst du deine Handkarten auf deinen Ablagestapel legen und 3 Karten ziehen."
 		}
 	}],
 
@@ -50,12 +52,14 @@ const card: Card = {
 
 		name: {
 			en: "Max Burst",
-			fr: "Détonomax"
+			fr: "Détonomax",
+			de: "Dyna-Detonation"
 		},
 
 		effect: {
 			en: "You may discard any amount of basic Fire Energy or any amount of basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
-			fr: "Vous pouvez défausser autant d'Énergies  de base ou autant d'Énergies  de base que vous le voulez de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon."
+			fr: "Vous pouvez défausser autant d'Énergies  de base ou autant d'Énergies  de base que vous le voulez de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			de: "Du kannst beliebig viele Basis-{R}-Energien oder beliebig viele Basis-{L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"

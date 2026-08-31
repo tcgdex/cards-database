@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il naît dans les profondeurs terrestres. Après\navoir englouti une quantité de terre équivalente\nà une montagne, il se transforme en chrysalide.",
 		es: "Nacido en las profundidades subterráneas,\neste Pokémon se convierte en pupa al comer\nla cantidad de tierra equivalente a una montaña.",
 		it: "Nasce nel profondo sottosuolo e dopo\naver mangiato una montagna di terra\nsi trasforma in una crisalide.",
-		de: "Es wird tief im Erdreich geboren. Hat es einen Berg\nErde gefressen, verpuppt sich dieses Pokémon.",
+		de: "Es wird tief im Erdreich geboren. Hat es einen Berg Erde gefressen, verpuppt sich dieses Pokémon.",
 		'pt-br': "Este Pokémon nasce no subsolo e se torna uma pupa\napós comer terra o suficiente para fazer uma montanha.",
 		ko: "땅속 깊은 곳에서 태어나\n산을 이룰 정도의 흙을 먹고 나면\n몸을 만들기 위해 번데기가 된다."
 	},

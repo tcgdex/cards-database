@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 Pokémon Grass, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo fino a tre Pokémon Grass, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho até 3 Pokémon Grass, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach bis zu 3 Grass-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {G}-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
+		de: "Wenn seine zwei Antennen sich berühren, erklingt ein Ruf wie das Spiel eines Xylophons."
 	},
 
 	thirdParty: {

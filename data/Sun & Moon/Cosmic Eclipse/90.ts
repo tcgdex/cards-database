@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golett",
 		fr: "Gringolem",
+		de: "Golbit"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Some say that ancient people invented Golurk to serve as a laborer. It follows its master's orders faithfully.",
+		de: "Es heißt, Golgantes sei von einem alten Volk erschaffen worden, um diesem als Arbeiter zu dienen. Deshalb befolgt es ergeben Befehle."
 	},
 
 	thirdParty: {

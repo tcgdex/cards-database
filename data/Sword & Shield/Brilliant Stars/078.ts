@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience.",
+		de: "Es besitzt so viel Ausdauer, dass es die ganze Nacht rennen könnte. Wer mit ihm spazieren gehen will, kann nur schwer mit ihm Schritt halten."
 	},
 
 	variants: [

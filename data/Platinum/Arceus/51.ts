@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy Trash Cloak"
+		en: "Burmy Trash Cloak",
+		de: "Burmy Lumpenumhang"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
+		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
+		de: "Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm."
 	},
 
 	variants: [

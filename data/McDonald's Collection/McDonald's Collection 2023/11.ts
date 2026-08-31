@@ -41,10 +41,12 @@ const card: Card = {
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
 				en: "Adrenaline Hammer",
+				de: "Adrenalinhammer"
 			},
 			damage: 130,
 			effect: {
 				en: "This Pokémon is now Confused.",
+				de: "Dieses Pokémon ist jetzt verwirrt."
 			},
 		},
 	],

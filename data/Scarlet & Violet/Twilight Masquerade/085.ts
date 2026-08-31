@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+		de: "Sein Ruf hallt im Hohlraum seines Körpers wider und wird zu einem wunderschönen Klang, der Gegner erschreckt und verjagt."
 	},
 
 	variants: [

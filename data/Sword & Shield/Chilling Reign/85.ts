@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
+		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches.",
+		de: "Es denkt nicht lange nach und schlägt einfach zu. Laut manchen Berichten kann es mit seinen schnellen Schlägen selbst Lawinen stoppen."
 	},
 
 	variants: [

@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Marill",
+		fr: "Marill",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Splash",
+				fr: "Éclaboussure",
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
 			},
 			damage: "10+",
 		},
@@ -37,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud’keu",
 			},
 			damage: 30,
 		},

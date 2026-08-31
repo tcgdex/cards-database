@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+		de: "Eingehüllt in seinen gasförmigen, Gift enthaltenden Körper würde jeder in Ohnmacht fallen."
 	},
 
 	variants: [

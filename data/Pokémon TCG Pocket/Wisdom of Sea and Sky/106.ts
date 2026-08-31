@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Binacle"
+		en: "Binacle",
+		fr: "Opermine"
 	},
 
 	description: {

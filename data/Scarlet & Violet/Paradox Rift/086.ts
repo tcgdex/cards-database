@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+		de: "Bisher wurde es nur ein Mal gesichtet. Es ähnelt einer rätselhaften Kreatur, die in einem alten Expeditionsbericht beschrieben wurde."
 	},
 
 	variants: [

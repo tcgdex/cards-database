@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+		de: "Sein Können als Pantomime ist verblüffend. Vor lauter Bewunderung merkt man gar nicht, wie plötzlich eine echte Wand vor einem erscheint."
 	},
 
 	thirdParty: {

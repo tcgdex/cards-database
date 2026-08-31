@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charjabug",
 		fr: "Chrysapile",
+		de: "Akkup"
 	},
 
 	suffix: "GX",
@@ -96,7 +97,7 @@ const card: Card = {
 				es: "Gigatrón GX",
 				it: "Gigatrone-GX",
 				pt: "Gigatron GX",
-				de: "Gigatron GX"
+				de: "Gigatron-GX"
 			},
 			effect: {
 				en: "This attack does 60 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",

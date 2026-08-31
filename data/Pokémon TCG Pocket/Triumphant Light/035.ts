@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Son corps semblable à de l'électricité lui permet\nde prendre le contrôle de certains appareils\nménagers pour jouer des tours aux autres.",
 		es: "Con su cuerpo eléctrico puede infiltrarse en algunos\naparatos para controlarlos y hacer travesuras.",
 		it: "Il suo corpo simile all'elettricità può introdursi in alcuni\napparecchi, di cui prende il controllo per combinare guai.",
-		de: "Sein Körper ähnelt Elektrizität und erlaubt es ihm,\nin einige Geräte einzudringen, um dann damit für\nChaos zu sorgen.",
+		de: "Sein Körper ähnelt Elektrizität und erlaubt es ihm, in einige Geräte einzudringen, um dann damit für Chaos zu sorgen.",
 		'pt-br': "Seu corpo elétrico pode penetrar em alguns tipos\nde máquinas e assumir o controle para fazer malvadezas.",
 		ko: "전기 같은 몸은\n일부 기계에 들어갈 수 있다.\n그리고 그 몸으로 장난을 친다."
 	},

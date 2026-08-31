@@ -78,7 +78,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
+		en: "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation.",
+		de: "Sein Pelz ist wunderbar flauschig. Wagt man es jedoch, diesen zu berühren, setzt es sich ohne Rücksicht auf Verluste zur Wehr."
 	},
 
 	variants: [

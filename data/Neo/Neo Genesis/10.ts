@@ -4,7 +4,7 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium",
+		fr: "Méganium",
 		de: "Meganie"
 	},
 
@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.",
-				fr: "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon  en jeu.",
+				fr: "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon {G} en jeu.",
 				de: "Wenn du Meganie aus deiner Hand ausspielst, kannst du eine Münze werfen. Entferne bei „Kopf“ alle Schadensmarken von allen {G}-Pokémon im Spiel."
 			},
 		},

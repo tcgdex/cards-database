@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Silvally-GX al que está unida esta carta es un Pokémon Fighting.",
 		it: "Il Silvally-GX a cui è assegnata questa carta è di tipo Fighting.",
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Fighting.",
-		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Fighting-Pokémon."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Amigento-GX, an das diese Karte angelegt ist, ist ein {F}-Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

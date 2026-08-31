@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Grillepattes",
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	attacks: [{
@@ -41,7 +42,7 @@ const card: Card = {
 			es: "Por cada Energía Fire unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
 			it: "Per ogni Energia Fire assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
 			pt: "Para cada Energia Fire ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege für jede an dieses Pokémon angelegte Fire-Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			de: "Lege für jede an dieses Pokémon angelegte {R}-Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		cost: ["Fire"]
@@ -78,7 +79,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies."
+		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+		de: "Wenn es Hitze erzeugt, beträgt seine Temperatur etwa 800 ºC. Es bewegt seinen Körper wie eine Peitsche, um dann den Gegner anzuspringen."
 	},
 
 	variants: [

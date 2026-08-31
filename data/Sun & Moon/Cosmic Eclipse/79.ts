@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Natu",
 		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that while this Pokémon has the power to predict the future, it's not powerful enough to change the future it sees.",
+		de: "Dieses Pokémon kann zwar angeblich die Zukunft voraussehen, aber seine Kräfte reichen nicht aus, um diese auch zu ändern."
 	},
 
 	thirdParty: {

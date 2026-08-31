@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+		de: "Es hat ein hartnäckiges Wesen. Sein präziser Geruchssinn ermöglicht ihm, seiner Beute nachzujagen, ohne die Fährte zu verlieren."
 	},
 
 	variants: [

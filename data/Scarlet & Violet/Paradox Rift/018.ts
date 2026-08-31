@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
+		de: "Es entzieht der Vegetation Energie, sodass umliegende Wälder auf der Stelle verdorren und Felder unfruchtbar werden."
 	},
 
 	variants: [

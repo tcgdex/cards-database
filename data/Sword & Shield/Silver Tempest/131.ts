@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
+		de: "Erspäht dieses gutherzige Pokémon ertrinkende Menschen oder Pokémon, so kann es gar nicht anders, als sie zu retten."
 	},
 
 	variants: [

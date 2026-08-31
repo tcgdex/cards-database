@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mira la primera carta de tu baraja. Puedes cambiar esa carta por 1 de tus cartas de Premio que están boca abajo. (Las cartas permanecen boca abajo).",
 		it: "Guarda la prima carta del tuo mazzo. Puoi scambiare quella carta con una delle tue carte Premio coperte. Le carte restano coperte.",
 		pt: "Olhe a carta de cima do seu baralho. Você pode trocar aquela carta por 1 das suas cartas de Prêmio viradas para baixo (as cartas continuam viradas para baixo).",
-		de: "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte gegen 1 deiner verdeckten Preiskarten austauschen. (Die Karten bleiben verdeckt.)"
+		de: "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte gegen 1 deiner verdeckten Preiskarten austauschen. (Die Karten bleiben verdeckt.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

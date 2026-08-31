@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferrothorn"
+		en: "Ferrothorn",
+		fr: "Noacier"
 	},
 
 	illustrator: "Hasuno",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Ferroseed"
+		en: "Ferroseed",
+		fr: "Grindur"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			en: "Guard Press",
+			fr: "Pression de Garde"
 		},
 
 		damage: 50,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

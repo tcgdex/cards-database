@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival."
+		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.",
+		de: "Es hält die Klinge an seinem Schweif scharf, indem es sie ständig an Steinen wetzt. Es ist der Erzfeind von Sengo."
 	},
 
 	variants: [

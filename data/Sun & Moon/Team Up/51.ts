@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon está en tu Banca, puedes elegir 2 de tus Pokémon en Banca y unirle 1 carta de Energía Lightning de tu pila de descartes a cada uno de ellos. Si lo haces, descarta todas las cartas de este Pokémon y ponlo en la Zona Perdida.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è nella tua panchina, puoi scegliere due dei tuoi Pokémon in panchina e assegnare a ognuno di essi una carta Energia Lightning dalla tua pila degli scarti. Se lo fai, scarta tutte le carte assegnate a questo Pokémon e mettilo nell’area perduta.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), se este Pokémon estiver no seu Banco, você poderá escolher 2 dos seus Pokémon no Banco e ligar 1 carta de Energia Lightning da sua pilha de descarte a cada um deles. Se fizer isto, descarte todas as cartas deste Pokémon e coloque-o na Zona Perdida.",
-				de: "Einmal während deines Zuges (bevor du angreifst), wenn sich dieses Pokémon auf deiner Bank befindet, kannst du 2 Pokémon auf deiner Bank wählen und an jedes 1 Lightning-Energiekarte aus deinem Ablagestapel anlegen. Wenn du das machst, lege alle Karten von diesem Pokémon auf deinen Ablagestapel und dieses Pokémon ins Nirgendwo."
+				de: "Einmal während deines Zuges (bevor du angreifst), wenn sich dieses Pokémon auf deiner Bank befindet, kannst du 2 Pokémon auf deiner Bank wählen und an jedes 1 {L}-Energiekarte aus deinem Ablagestapel anlegen. Wenn du das machst, lege alle Karten von diesem Pokémon auf deinen Ablagestapel und dieses Pokémon ins Nirgendwo."
 			},
 		},
 	],
@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
+		de: "Mit atemberaubendem Tempo bringt es Gegner aus dem Konzept. Es ist aufbrausend, vergisst aber sofort, warum es so wütend geworden ist."
 	},
 }
 

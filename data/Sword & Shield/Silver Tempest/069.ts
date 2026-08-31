@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
+		de: "Es kann die Zukunft vorhersagen. Beschützt es seinen Trainer, erreicht seine Kraft ihren Höhepunkt."
 	},
 
 	variants: [

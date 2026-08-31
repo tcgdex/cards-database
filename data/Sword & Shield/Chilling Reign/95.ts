@@ -45,7 +45,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Une 1 carta de Energía Darkness de tu pila de descartes a este Pokémon.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso. Assegna a questo Pokémon una carta Energia Darkness dalla tua pila degli scarti.",
 			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Ligue 1 carta de Energia Darkness da sua pilha de descarte a este Pokémon.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege 1 Darkness-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege 1 {D}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Darkness"]
@@ -65,7 +65,7 @@ const card: Card = {
 			es: "Este ataque hace 20 puntos de daño más por cada Energía Darkness unida a todos tus Pokémon.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia Darkness assegnata ai tuoi Pokémon.",
 			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Darkness ligada a todos os seus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Darkness-Energie 20 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {D}-Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+",
@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing."
+		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+		de: "Sehr selten führt eine plötzliche Mutation eines Zwillings-Smogon zu einer Verbindung zu Smogmog."
 	},
 
 	variants: [

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede unir 1 carta de Energía Fire de su pila de descartes a 1 de sus Pokémon Fire en Banca. Si algún jugador ha unido Energía a un Pokémon de esta manera, se ponen 2 contadores de daño en ese Pokémon.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può assegnare a uno dei suoi Pokémon Fire in panchina una carta Energia Fire dalla sua pila degli scarti. Se un giocatore ha assegnato dell'Energia a un Pokémon in questo modo, metti due segnalini danno su quel Pokémon.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá ligar 1 carta de Energia Fire da própria pilha de descarte a 1 dos próprios Pokémon Fire no Banco. Se um jogador ligou Energia a um Pokémon desta forma, coloque 2 contadores de dano naquele Pokémon.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Fire-Energiekarte aus seinem Ablagestapel an 1 Fire-Pokémon auf seiner Bank legen. Wenn ein Spieler auf diese Weise Energie an ein Pokémon angelegt hat, lege 2 Schadensmarken auf jenes Pokémon."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 {R}-Energiekarte aus seinem Ablagestapel an 1 {R}-Pokémon auf seiner Bank legen. Wenn ein Spieler auf diese Weise Energie an ein Pokémon angelegt hat, lege 2 Schadensmarken auf jenes Pokémon. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

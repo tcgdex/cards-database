@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+		de: "Sobald die Knospe auf seinem Rücken groß wird, kann Bisaknosp nicht mehr auf zwei Beinen stehen."
 	},
 
 	

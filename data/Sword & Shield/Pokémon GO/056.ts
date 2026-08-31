@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
+		de: "Es sitzt in Baumwipfeln und hält Ausschau nach Beute. Sieht es ein Frubberl, sein Leibgericht, stürzt es begeistert auf es herab."
 	},
 
 	

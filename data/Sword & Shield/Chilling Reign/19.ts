@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 Pokémon Grass, enséñalo y ponlo en tu mano. Si sales segundo y es tu primer turno, busca hasta 3 Pokémon Grass en vez de 1. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo un Pokémon Grass, mostralo e aggiungilo alle carte che hai in mano. Se inizi per secondo ed è il tuo primo turno, cerca fino a tre Pokémon Grass invece di uno. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 Pokémon Grass no seu baralho, revele-o e coloque-o na sua mão. Se você for o segundo a jogar e este for o seu primeiro turno, procure por até 3 Pokémon Grass ao invés de 1. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Grass-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach bis zu 3 Grass-Pokémon anstelle von 1. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {G}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach bis zu 3 {G}-Pokémon anstelle von 1. Mische anschließend dein Deck."
 		},
 
 		cost: ["Grass"]
@@ -56,7 +56,7 @@ const card: Card = {
 			es: "Este ataque hace 20 puntos de daño más por cada Energía Grass unida a este Pokémon.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia Grass assegnata a questo Pokémon.",
 			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Grass ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Grass-Energie 20 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegten {G}-Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
+		de: "Reißen die an seinem Körper wachsenden Ranken ab, werden sie zu Nährstoffen für den Boden, was den Pflanzen im Wald zum Wachstum verhilft."
 	},
 
 	variants: [

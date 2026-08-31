@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgey"
+		en: "Pidgey",
+		fr: "Roucool"
 	},
 
 	illustrator: "kodama",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 30,

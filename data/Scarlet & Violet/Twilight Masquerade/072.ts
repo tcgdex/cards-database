@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a small stomach. If it isn't constantly eating the seeds it keeps in its pockets, it will get hungry immediately.",
+		de: "Da sein Magen klein ist, wird es sofort hungrig, wenn es nicht ständig die Samen aus seinen Taschen frisst."
 	},
 
 	variants: [

@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
+		de: "Es gibt vor, ein Baum zu sein, doch damit führt es nicht einmal Kinder in die Irre. Sein Körper fühlt sich nicht wie Rinde, sondern wie Stein an. Erwähnenswert ist auch seine Abscheu vor Wasser."
 	},
 
 	variants: [

@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+		de: "Ein vorwiegend in Wäldern lebendes Pokémon, das zur Verteidigung mit den Flügeln Sand aufwirbelt."
 	},
 
 	thirdParty: {

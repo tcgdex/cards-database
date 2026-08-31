@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cetoddle",
-		fr: "Piétacé"
+		fr: "Piétacé",
+		de: "Flaniwal"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
+		de: "Im Horn seines Oberkiefers speichert es Eis-Energie, wodurch dieses eisige Temperaturen annimmt und sein Umfeld einfriert."
 	},
 
 	thirdParty: {

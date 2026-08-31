@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torchic",
 		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+		de: "Im Kampf lodert sein inneres Feuer hoch auf. Wo seine mächtigen Tritte landen, wächst kein Gras mehr."
 	},
 
 	thirdParty: {

@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Switch",
+		fr: "Échange",
 	},
 
 	illustrator: "Hideaki Hakozaki",

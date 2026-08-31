@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+		de: "In dieser Welt wirkt es gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen."
 	},
 
 	thirdParty: {

@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
+		de: "Es wurde aus einem Fossil wiederbelebt. Vor circa 100 Millionen Jahren war es im Meer zu Hause, wo es mit seinen beiden Klauen auf Jagd ging."
 	},
 
 	variants: [

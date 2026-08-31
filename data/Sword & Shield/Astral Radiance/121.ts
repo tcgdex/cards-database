@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+		de: "Seine Augen sind so gut entwickelt, dass es selbst in fast kompletter Dunkelheit so klar sehen kann, als wäre es Tag."
 	},
 
 	variants: [

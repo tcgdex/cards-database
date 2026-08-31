@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+		de: "Die kristallenen Bälle an seinem Schweif scheinen es ihm zu ermöglichen, das Wetter nach Belieben zu beeinflussen."
 	},
 
 	variants: [

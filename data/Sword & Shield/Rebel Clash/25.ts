@@ -94,7 +94,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+		de: "Man sagt, es lebe 1 000 Jahre und jedem seiner Schweife wohnen übernatürliche Kräfte inne."
 	},
 
 	variants: [

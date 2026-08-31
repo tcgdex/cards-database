@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its lithe muscles allow it to walk without making a sound. It attacks in an instant.",
+		de: "Aufgrund seiner geschmeidigen Muskeln kann es sich lautlos bewegen. Es greift ohne Vorwarnung an."
 	},
 
 	thirdParty: {

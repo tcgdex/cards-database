@@ -67,7 +67,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
+		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+		de: "Es schützt sich, indem es Dornen verschießt. Ein Kastadur muss jahrelang trainieren, um präzise zielen zu können."
 	},
 
 	dexId: [597],

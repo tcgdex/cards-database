@@ -63,13 +63,14 @@ const card: Card = {
 
 	description: {
 		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+		de: "Steigert es sich in einen Kampf hinein, spuckt es Flammen, die alles in seiner Umgebung niederbrennen."
 	},
 
 	variants: [
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 727117,
+				cardmarket: 725107,
 				tcgplayer: 509708,
 				cardtrader: 255587
 			}
@@ -77,7 +78,8 @@ const card: Card = {
 		{
 			type: 'holo',
 			thirdParty: {
-				cardmarket: 725107
+				cardmarket: 727117,
+				tcgplayer: 523956,
 			}
 		},
 		{
@@ -92,7 +94,7 @@ const card: Card = {
 
 	illustrator: "Ryota Murayama",
 
-	
+
 }
 
 export default card

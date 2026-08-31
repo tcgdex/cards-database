@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
+		de: "Die Müllanlagen Alolas beherbergen  rund hundert Exemplare dieses Pokémon. Sie sind fleißig dabei, riesige Mengen an Müll zu verilgen."
 	},
 
 	thirdParty: {

@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Its sweat is sweet, like syrup made from boiled-down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
+		de: "Sein Schweiß schmeckt so süß wie eingekochtes Obst und wurde daher früher, als es nur wenige Süßungsmittel gab, sehr geschätzt."
 	},
 
 	variants: [
@@ -77,6 +78,14 @@ const card: Card = {
 				cardmarket: 725096,
 				tcgplayer: 509734,
 				cardtrader: 255576
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786047,
+				tcgplayer: 602868
 			}
 		},
 		{
@@ -91,7 +100,7 @@ const card: Card = {
 
 	illustrator: "Kurata So",
 
-	
+
 }
 
 export default card

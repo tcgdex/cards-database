@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		de: "Es lebt in der Ozonschicht hoch über den Wolken und kann daher vom Boden aus nicht gesehen werden."
 	},
 
 	variants: [

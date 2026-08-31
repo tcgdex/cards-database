@@ -4,7 +4,7 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Dragonite FB",
-		fr: "Dracolosse ",
+		fr: "Dracolosse FB",
 		de: "Dragoran FB"
 	},
 	illustrator: "Shin Nagasawa",

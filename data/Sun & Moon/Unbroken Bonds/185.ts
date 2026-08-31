@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si ambos Pokémon Activos son del mismo tipo, roba 2 cartas más.",
 		it: "Pesca due carte. Se entrambi i Pokémon attivi sono dello stesso tipo, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se ambos os Pokémon Ativos forem do mesmo tipo, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn beide Aktiven Pokémon denselben Typ haben, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn beide Aktiven Pokémon denselben Typ haben, ziehe 2 Karten mehr. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

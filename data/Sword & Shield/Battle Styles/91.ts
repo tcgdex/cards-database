@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It feeds on the blood of living people and Pokémon. If it can't drink any blood for even a short while, it becomes weak and unable to fly."
+		en: "It feeds on the blood of living people and Pokémon. If it can't drink any blood for even a short while, it becomes weak and unable to fly.",
+		de: "Frisches Blut von Menschen und Pokémon ist seine Nahrung. Ohne konstanten Nachschub wird es schwach und kann nicht mehr fliegen."
 	},
 
 	variants: [

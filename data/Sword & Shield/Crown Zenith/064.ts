@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Although called a guardian deity, Tapu Lele is devoid of guilt about its cruel disposition and can be described as nature incarnate.",
+		de: "Obwohl man es Schutzpatron nennt, verkörpert sein zugleich unschuldiges und grausames Gemüt das zwiegespaltene Wesen der Natur."
 	},
 
 	

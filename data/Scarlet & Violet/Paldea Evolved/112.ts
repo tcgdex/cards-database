@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.",
+		de: "Sein hartes Training macht es stärker. Es ist ein willensstarkes Pokémon, das jedem Angriff trotzen kann."
 	},
 }
 

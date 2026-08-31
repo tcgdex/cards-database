@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+		de: "Es wurde erstmals vor 40 Jahren bei einem Meteoritenkrater entdeckt. Gegner versetzt es allein mit seinem Blick in Schlaf."
 	},
 
 	variants: [
@@ -93,11 +94,19 @@ const card: Card = {
 				cardtrader: 255777
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756360,
+				tcgplayer: 538732,
+			},
+		},
 	],
 
 	illustrator: "Tetsu Kayama",
 
-	
+
 }
 
 export default card

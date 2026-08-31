@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+		de: "Es bindet sich mit Seide an Äste und trinkt Regenwasser, während es starr auf seine Entwicklung wartet."
 	},
 
 	variants: [

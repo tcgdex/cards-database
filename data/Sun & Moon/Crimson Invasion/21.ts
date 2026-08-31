@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Piloswine",
 		fr: "Cochignon",
+		de: "Keifel"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+		de: "Es existiert schon seit Urzeiten. Mamutel wurde sogar schon in 10 000 Jahre altem Eis gefunden."
 	},
 
 	thirdParty: {

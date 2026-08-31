@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+		de: "Sein drittes Beinpaar ist eingeklappt. In einer Notlage kann es dank dessen Kraft mehr als 10 m weit springen."
 	},
 }
 

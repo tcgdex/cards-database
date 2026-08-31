@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Teary Eyes",
 				fr: "Des larmes dans les yeux",
-				de: "Teary Eyes"
+				de: "Tränende Augen"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à Osselait par des attaques sont réduits de 20.",
-				de: "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20."
+				de: "Aller Schaden, der Lahmus im nächsten Zug deines Gegners durch Angriffe zugefügt wird, wird um 20 reduziert."
 			},
 
 		},

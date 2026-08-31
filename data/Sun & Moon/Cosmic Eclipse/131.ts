@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
+		de: "Alola-Sleima"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
+		de: "In seinem Inneren befinden sich mehr als 100 verschiedene Toxine. Seine Lebenskraft zieht es aus den chemischen Reaktionen zwischen ihnen."
 	},
 
 	thirdParty: {

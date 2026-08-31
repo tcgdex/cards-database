@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Vous ne pouvez utiliser cette carte que s'il vous reste plus de cartes Récompense qu'à votre adversaire.\n\nAttachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Niveau 2.",
 		es: "Puedes usar esta carta solo si te quedan más cartas de Premio que a tu rival.\n\nUne hasta 2 cartas de Energía Básica de tu pila de descartes a uno de tus Pokémon de Fase 2.",
 		'es-mx': "Solo puedes usar esta carta si te quedan más cartas de Premio que a tu rival.\n\nUne hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon de Fase 2.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nLege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Phase-2-Pokémon an.",
+		de: "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Phase-2-Pokémon an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Puoi usare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nAssegna a uno dei tuoi Pokémon di Fase 2 fino a due carte Energia base dalla tua pila degli scarti.",
 		pt: "Você só poderá usar esta carta se tiver mais cartas de Prêmio restantes que seu oponente.\n\nLigue até 2 cartas de Energia Básica da sua pilha de descarte a 1 dos seus Pokémon Estágio 2."
 	},

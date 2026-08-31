@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 o ambas opciones:\n\n• Pon hasta 2 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.\n• Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Scegli uno o entrambi gli effetti:\n\n• Rimischia fino a due Pokémon dalla tua pila degli scarti nel tuo mazzo.\n\n• Rimischia fino a due carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Escolha 1 ou ambas:\n\n• Embaralhe até 2 Pokémon da sua pilha de descarte no seu baralho.\n\n• Embaralhe até 2 cartas de Energia básica da sua pilha de descarte no seu baralho.",
-		de: "Wähle 1 oder beide aus:\n\n• Mische bis zu 2 Pokémon aus deinem Ablagestapel in dein Deck.\n\n• Mische bis zu 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Wähle 1 aus: Mische bis zu 2 Pokémon aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen. Mische bis zu 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
 
 	trainerType: "Item",

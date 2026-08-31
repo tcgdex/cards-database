@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.",
+		de: "Ein launenhaftes und selbstsüchtiges Pokémon. Manche Trainer geben ihm nur zu gerne die Aufmerksamkeit, nach der es sich sehnt."
 	},
 
 	thirdParty: {

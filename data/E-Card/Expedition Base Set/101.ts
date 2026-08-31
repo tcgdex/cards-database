@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Shining Fingers",
 				fr: "Doigts brillants",
-				de: "Leuchtender Finger"
+				de: "Leuchtende Finger"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",

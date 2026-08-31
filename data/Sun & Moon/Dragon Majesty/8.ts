@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.",
+		de: "Zum Schlafen zieht es Arme und Beine ein und senkt seine innere Körpertemperatur auf 600 °C, um sich zu entspannen."
 	},
 
 	thirdParty: {

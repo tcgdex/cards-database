@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
+		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey.",
+		de: "Wird es wütend, färbt das auch auf seine Kameraden ab. In einer Schar von Menki kehrt daher niemals Ruhe ein."
 	},
 
 	variants: [

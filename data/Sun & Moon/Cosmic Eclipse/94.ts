@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Phantump",
 		fr: "Brocélôme",
+		de: "Paragoni"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It's feared as a ghost of the forest. Lumberjacks bring along Fire types, which Trevenant hates, when they enter the forest.",
+		de: "Ein gefürchtetes Waldungeheuer. Holzfäller betreten den Wald daher nur in Begleitung von Feuer-Pokémon, die Trombork verabscheut."
 	},
 
 	thirdParty: {

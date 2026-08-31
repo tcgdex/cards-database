@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Crobat G",
-		fr: "Nostenfert ",
+		fr: "Nostenfert G",
 		de: "Iksbat G"
 	},
 
@@ -30,12 +30,12 @@ const card: Card = {
 			name: {
 				en: "Flash Bite",
 				fr: "Morsure flash",
-				de: "Flash Bite"
+				de: "Blitzbiss"
 			},
 			effect: {
 				en: "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Nostenfert  de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "One during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon."
+				de: "Einmal während deines Zuges kannst du, wenn du Iksbat G von deiner Hand auf deine Bank legst, 1 Schadensmarke auf 1 Pokémon deines Gegners legen."
 			}
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Fang",
 				fr: "Croc toxik",
-				de: "Toxic Fang"
+				de: "Giftiger Reißzahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "The Defending pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},

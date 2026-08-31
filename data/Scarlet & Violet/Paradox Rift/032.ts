@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Scales shed by this Pokémon have such a splendorous gleam to them that they've been given to royalty as gifts.",
+		de: "Seine abgefallenen Schuppen tragen einen tiefen Glanz in sich und sind so hochwertig, dass selbst Königshäuser mit ihnen beschenkt werden."
 	},
 
 	variants: [

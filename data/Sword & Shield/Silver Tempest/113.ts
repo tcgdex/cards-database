@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is known as the Bully of the Sands. Krookodile's mighty jaws can bite through heavy plates of iron with almost no effort at all.",
+		de: "Es wird auch als „Tyrann der Wüste“ bezeichnet. Mit seinem mächtigen Kiefer durchbeißt es selbst dicke Eisenplatten mit Leichtigkeit."
 	},
 
 	variants: [

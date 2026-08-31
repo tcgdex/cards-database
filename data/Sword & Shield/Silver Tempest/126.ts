@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Los ataques de tus Pokémon Básicos hacen 30 puntos de daño más al Pokémon Darkness Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Base infliggono 30 danni in più al Pokémon attivo Darkness del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques dos seus Pokémon Básicos causam 30 pontos de dano a mais ao Pokémon Darkness Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken deiner Basis-Pokémon fügen dem Aktiven Darkness-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Die Attacken deiner Basis-Pokémon fügen dem Aktiven {D}-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon appears in a legend alongside Terrakion and Virizion, fighting against humans in defense of the Unova region's Pokémon.",
+		de: "Legenden zufolge kämpfte es einst zusammen mit Terrakium und Viridium gegen die Menschen, um die Pokémon der Einall-Region zu beschützen."
 	},
 
 	variants: [

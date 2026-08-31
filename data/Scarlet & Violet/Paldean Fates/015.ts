@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+		de: "Es entwickelte sich durch die Rüstung eines heldenhaften Kriegers zu dieser Form. Crimanzo besitzt einen ausgeprägten Sinn für Loyalität."
 	},
 
 }

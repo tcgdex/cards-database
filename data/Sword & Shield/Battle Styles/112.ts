@@ -60,7 +60,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!"
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+		de: "Wer Essbares dabeihat, sollte sich nicht in Ibitaks Revier begeben, da sonst ein Überfall aus heiterem Himmel droht."
 	},
 
 	variants: [

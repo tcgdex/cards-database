@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its jaws are strong enough to crush rocks but so heavy that it can't get up if it flips over. Sandile seize those moments as their chance.",
+		de: "Sein Kiefer kann sogar Felsen zermalmen, ist aber so schwer, dass es sich nicht aufrichten kann, wenn es hinfällt. Das nutzen Ganovil aus."
 	},
 
 	thirdParty: {

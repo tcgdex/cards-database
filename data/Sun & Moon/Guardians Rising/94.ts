@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The weakest of all Dragon-type Pokémon, it's unable to breathe if its skin dries out, so it sticks to shady places.",
+		de: "Das schwächste aller Drachen-Pokémon. Wenn seine Haut austrocknet, erstickt es. Daher hält es sich bevorzugt im Schatten auf."
 	},
 
 	thirdParty: {

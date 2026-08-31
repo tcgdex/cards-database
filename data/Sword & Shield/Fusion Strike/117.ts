@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches."
+		en: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches.",
+		de: "Es entstand aus einem Corasonn, das durch plötzliche Änderungen in seinem Habitat umkam. Mit den Armen raubt es Leuten Lebensenergie."
 	},
 
 	attacks: [{

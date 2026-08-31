@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle",
+		fr: "Hélédelle",
 		de: "Schwalboss"
 	},
 

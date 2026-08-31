@@ -60,7 +60,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
+		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others.",
+		de: "Sein Körper weist immer Narben auf, selbst wenn es gar nicht gekämpft hat. Die beiden Köpfe nehmen sich ständig gegenseitig das Futter weg."
 	},
 
 	regulationMark: "E",

@@ -84,6 +84,16 @@ const card: Card = {
 	description: {
 		en: "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297863,
+				tcgplayer: 133829
+			}
+		}
+	],
 }
 
 export default card

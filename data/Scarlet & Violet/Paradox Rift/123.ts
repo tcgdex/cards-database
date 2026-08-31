@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+		de: "Es ist gut möglich, dass es sich hierbei um jene Kreatur handelt, die in einem gewissen Buch unter dem Namen Wutpilz auftaucht."
 	},
 
 	variants: [

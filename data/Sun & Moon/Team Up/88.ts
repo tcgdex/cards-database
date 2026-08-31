@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, su Coste de Retirada es de Colorless más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, il suo costo di ritirata aumenta di Colorless.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, seu custo de Recuo será Colorless a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, erhöhen sich dessen Rückzugskosten um Colorless."
+				de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, erhöhen sich dessen Rückzugskosten um {C}."
 			},
 		},
 	],
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "30+",
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's said to bring disaster, in actuality, this Pokémon possesses a calm disposition and warns people of any crises that loom.",
+		de: "Es heißt, Absol sei ein Unheilsbote, doch in Wahrheit hat es ein sanftes Wesen. Es warnt die Menschen vor drohenden Katastrophen."
 	},
 
 	thirdParty: {

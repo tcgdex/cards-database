@@ -45,7 +45,7 @@ const card: Card = {
 			es: "Descarta de tu mano cualquier cantidad de cartas de Objeto que tengan la palabra \"Ball\" en su nombre. Este ataque hace 40 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Scarta un numero qualsiasi di carte Strumento con \"Ball\" nel nome dalla tua mano. Questo attacco infligge 40 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Descarte qualquer número de cartas de Item que tenham a palavra \"Bola\" em seu nome da sua mão. Este ataque causa 40 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Lege beliebig viele Itemkarten, bei denen das Wort \"Ball\" zum Namen gehört, aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu."
+			de: "Lege beliebig viele Itemkarten, bei denen das Wort „Ball“ zum Namen gehört, aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly."
+		en: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
+		de: "Dank seiner unterhaltsamen Bewegungen ist es allseits sehr beliebt. Von dem Muster auf seinem Bauch sendet es Psycho-Kräfte aus."
 	},
 
 	variants: [

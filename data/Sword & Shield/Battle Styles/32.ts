@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
+		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+		de: "Dieses Pokémon kann rückwärts schwimmen, indem es Flügel und Schwanz als Flossen einsetzt."
 	},
 
 	variants: [

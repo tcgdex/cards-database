@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+		de: "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab."
 	},
 
 	thirdParty: {

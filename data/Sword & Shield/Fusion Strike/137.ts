@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "It detonates its own body. The power from that explosion can propel it up steep mountain paths with amazing speed."
+		en: "It detonates its own body. The power from that explosion can propel it up steep mountain paths with amazing speed.",
+		de: "Es kann sich in die Luft sprengen. Diese Explosionen setzt es ein, um selbst steile Bergpfade in rasantem Tempo zu meistern."
 	},
 
 	abilities: [{

@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue."
+		en: "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue.",
+		de: "Es kann mit seiner Zunge geschickter umgehen als mit seinen Armen und Beinen. Selbst winzige Böhnchen hebt es mit ihrer Hilfe problemlos auf."
 	},
 
 	variants: [

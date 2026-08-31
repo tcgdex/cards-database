@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+		de: "Dieses Pokémon lebt im Schatten großer Bäume. Es frisst Insekten und wird von Licht angezogen."
 	},
 
 	variants: [

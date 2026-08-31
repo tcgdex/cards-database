@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Voltoutou",
-		en: "Yamper"
+		en: "Yamper",
+		de: "Voldi"
 	},
 
 	attacks: [{
@@ -79,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
+		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+		de: "Es generiert Strom und lässt ihn zur Unterstützung beim Rennen in seine Beine fließen. Dadurch kann es drei Tage und Nächte ohne Pause rennen."
 	},
 
 	variants: [

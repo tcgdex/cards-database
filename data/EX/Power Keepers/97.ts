@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nuzleaf",
-		fr: "Pifeuil"
+		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
 	suffix: "ex",
@@ -42,8 +43,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at your opponent's hand and choose a Basic Pokémon or Evolution card you find there. Choose 1 of that Pokémon's attacks. Skill Hack copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Shiftry ex's type is still Darkness.) Shiftry ex performs that attack.",
-				fr: "Regardez la main de votre adversaire et choisissez un Pokémon de base ou une carte Évolution. Choisissez 1 des attaques de ce Pokémon. Entaille pro copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) (Peu importe le type de ce Pokémon, Tengalice ex est toujours de type .) Tengalice ex utilise cette attaque.",
-				de: "Schau dir die Handkarten deines Gegners an und wähle daraus 1 Basis-Pokémon- oder Evolutionskarte. Wähle 1 Angriff auf dieser Karte. Geübter Schnabelhieb kopiert diesen Angriff, mit Ausnahme der Energiekosten. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.) (Unabhängig von der Farbe des gewählten Pokémon bleibt Tengulist ex ein -Pokémon.) Tengulist ex führt diesen Angriff aus."
+				fr: "Regardez la main de votre adversaire et choisissez un Pokémon de base ou une carte Évolution. Choisissez 1 des attaques de ce Pokémon. Entaille pro copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) (Peu importe le type de ce Pokémon, Tengalice ex est toujours de type {D}.) Tengalice ex utilise cette attaque.",
+				de: "Schau dir die Handkarten deines Gegners an und wähle daraus 1 Basis-Pokémon- oder Evolutionskarte. Wähle 1 Angriff auf dieser Karte. Geübter Schnabelhieb kopiert diesen Angriff, mit Ausnahme der Energiekosten. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.) (Unabhängig von der Farbe des gewählten Pokémon bleibt Tengulist ex ein {D}-Pokémon.) Tengulist ex führt diesen Angriff aus."
 			},
 
 		},

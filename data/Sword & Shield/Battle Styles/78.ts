@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
+		en: "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it.",
+		de: "Auch auf steinigen, schlecht befahrbaren Wegen fährt es problemlos, als wäre es ein Einrad. Es verbrennt Steinkohle, um zu überleben."
 	},
 
 	variants: [

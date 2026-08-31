@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+		de: "Ein Vorfahre der Pokémon, der aus einem Fossil neu belebt wurde. Es lebte im Meer und jagte mit Klauen."
 	},
 
 	thirdParty: {

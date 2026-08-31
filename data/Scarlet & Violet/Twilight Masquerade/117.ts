@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes.",
+		de: "Kriegt es seine Beute mit den Krallen an seinem Hals zu fassen, wirft es sie zu Boden und rammt die giftigen Spitzen der Krallen in sie hinein."
 	},
 
 	variants: [

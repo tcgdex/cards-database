@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison.",
+		de: "Es wartet im Sand versteckt auf Beute, die es sich mit seinem giftigen Schweif krallt."
 	},
 
 	thirdParty: {

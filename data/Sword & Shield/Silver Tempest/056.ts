@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+		de: "Schnell wie der Blitz nähert es sich seinen Feinden, um sie dann mit seinen scharfen Klauen in Stücke zu reißen."
 	},
 
 	variants: [

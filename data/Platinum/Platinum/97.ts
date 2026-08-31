@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sing",
 				fr: "Berceuse",
-				de: "Sing"
+				de: "Gesang"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Run Around",
 				fr: "Courir dans tous les sens",
-				de: "Run Around"
+				de: "Herumrennen"
 			},
 			effect: {
 				en: "You may switch Swablu with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Tylton avec 1 des Pokémon de votre Banc.",
-				de: "You may switch Swablu with 1 of your Benched Pokémon."
+				de: "Du kannst Wablu gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 
@@ -74,7 +74,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings."
+		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+		de: "Es kann nicht entspannen, wenn es oder seine Umgebung dreckig ist. Säubert alles mit den Flügeln."
 	},
 
 	variants: [

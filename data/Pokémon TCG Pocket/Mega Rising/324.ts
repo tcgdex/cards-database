@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Passimian ex"
+		en: "Passimian ex",
+		fr: "Quartermac-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,17 +23,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Offload Pass"
+			en: "Offload Pass",
+			fr: "Passe Latérale"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all {F} Energy from this Pokémon to 1 of your Benched Pokémon."
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all {F} Energy from this Pokémon to 1 of your Benched Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et qu'il est mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire, déplacez toute l'Énergie {F} de ce Pokémon vers l'un de vos Pokémon de Banc."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Seismic Toss"
+			en: "Seismic Toss",
+			fr: "Frappe Atlas"
 		},
 
 		damage: 60,

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
+		de: "Dieses Pokémon verfügt über einen Röntgenblick. So kann es im Nu Beute aufspüren, selbst wenn sich diese hinter dicken Wänden versteckt."
 	},
 
 	

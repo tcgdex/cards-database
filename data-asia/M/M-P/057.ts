@@ -14,7 +14,15 @@ const card: Card = {
 		ja: "自分のトラッシュから特殊エネルギーを2枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 864269,
+				tcgplayer: 684564,
+			},
+		},
+	],
 
 	trainerType: "Item",
 	rarity: "Promo",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vaporeon",
 		fr: "Aquali",
+		de: "Aquana"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Drain",
 				fr: "Vide Bulle",
+				de: "Blasengully"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 80,
 
@@ -73,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Clean, clear waters are its usual habitat. When it's about to be attacked by an invading enemy, it dives into the water to hide.",
+		de: "Es lebt meist an klaren Gewässern. Wittert es einen feindlichen Angriff, verschwindet es ins Wasser und macht sich unsichtbar."
 	},
 
 	thirdParty: {

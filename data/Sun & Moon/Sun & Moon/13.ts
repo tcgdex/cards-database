@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+		de: "Um nicht von Vogel-Pokémon angegriffen zu werden, zieht es Orte vor, an denen Elektro-Pokémon leben."
 	},
 
 	thirdParty: {

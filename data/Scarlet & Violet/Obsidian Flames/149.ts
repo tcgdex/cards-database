@@ -82,13 +82,14 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+		de: "Es dient als Anführer einer Schar Gladiantri. Nach Revierkämpfen werden die Verlierer in die Gewinnerschar assimiliert."
 	},
 
 	variants: [
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 781860,
+				cardmarket: 725229,
 				tcgplayer: 509936,
 				cardtrader: 255834
 			}
@@ -97,7 +98,7 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 725229
+				cardmarket: 781860
 			}
 		},
 		{
@@ -112,7 +113,7 @@ const card: Card = {
 
 	illustrator: "GIDORA",
 
-	
+
 }
 
 export default card

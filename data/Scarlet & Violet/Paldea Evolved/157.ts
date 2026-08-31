@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+		de: "Mit seinem harten Schweif höhlt es tief unter der Erde Felsgestein aus, um seinen Bau zu graben. Dessen Gänge können bis zu 10 km lang werden."
 	},
 }
 

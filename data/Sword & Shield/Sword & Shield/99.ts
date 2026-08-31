@@ -104,7 +104,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It relies on its carapace to deflect incoming attacks and throw its enemy off balance. As soon as that happens, it drives its drill into the foe."
+		en: "It relies on its carapace to deflect incoming attacks and throw its enemy off balance. As soon as that happens, it drives its drill into the foe.",
+		de: "Mit seinem Schützer wehrt es Angriffe ab und durchsticht dann den verdutzten Gegner mit seinem Bohrer, auf den es sehr stolz ist."
 	},
 
 	dexId: [464],

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a 1 Pokémon que no sea un Pokémon V o un Pokémon-GX, proporciona 2 Energías Colorless.\n\nSi esta carta está unida a un Pokémon V o a un Pokémon-GX, proporciona 1 Energía Colorless en vez de 2.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon che non è un Pokémon-V o un Pokémon-GX, fornisce Energia ColorlessColorless.\n\nSe questa carta è assegnata a un Pokémon-V o a un Pokémon-GX, invece fornisce Energia Colorless.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon que não seja um Pokémon V ou um Pokémon-GX, ela fornecerá Energia ColorlessColorless.\n\nSe esta carta estiver ligada a um Pokémon V ou um Pokémon-GX, ela fornecerá Energia Colorless.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, das kein Pokémon-V oder Pokémon-GX ist, liefert diese Karte ColorlessColorless-Energie.\n\nWenn diese Karte an ein Pokémon-V oder Pokémon-GX angelegt ist, liefert sie stattdessen Colorless-Energie."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, das kein Pokémon-V oder Pokémon-GX ist, liefert diese Karte {C}{C}-Energie. Wenn diese Karte an ein Pokémon-V oder Pokémon-GX angelegt ist, liefert sie stattdessen {C}-Energie."
 	},
 
 	energyType: "Special",

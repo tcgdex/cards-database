@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		de: "Eguana"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Si tu rival tiene algún Pokémon Lightning en juego, este ataque hace 90 puntos de daño más.",
 				it: "Se il tuo avversario ha dei Pokémon Lightning in gioco, questo attacco infligge 90 danni in più.",
 				pt: "Se o seu oponente tiver algum Pokémon Lightning em jogo, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn dein Gegner mindestens 1 Lightning-Pokémon im Spiel hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				de: "Wenn dein Gegner mindestens 1 {L}-Pokémon im Spiel hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		de: "Die Strommenge, die ein Elezard mit ausgebreiteten Hautlappen durch Umwandlung von Sonnenstrahlen erzeugt, genügt zur Versorgung eines Wolkenkratzers."
 	},
 
 	thirdParty: {

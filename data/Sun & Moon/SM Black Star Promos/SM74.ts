@@ -88,6 +88,16 @@ const card: Card = {
 	description: {
 		en: "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301986,
+				tcgplayer: 151703
+			}
+		}
+	],
 }
 
 export default card

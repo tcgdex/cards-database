@@ -4,7 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Attract",
 				fr: "Attraction",
-				de: "Attract"
+				de: "Anziehung"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
 				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur.",
-				de: "Choose 1 of your opponent´s Benched Pokémon and switch the Defending Pokémon with it."
+				de: "Wähle 1 der Pokémon auf der Bank deines Gegners und tausche es mit dem Verteidigenden Pokémon."
 			},
 
 		},

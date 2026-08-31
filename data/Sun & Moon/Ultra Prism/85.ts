@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shieldon",
 		fr: "Dinoclier",
+		de: "Schilterus"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a tus Pokémon Metal por ataques de los Pokémon de tu rival que tengan alguna Energía Especial unida a ellos.",
 				it: "Previeni tutti i danni inflitti ai tuoi Pokémon Metal dagli attacchi dei Pokémon del tuo avversario che abbiano delle Energie speciali assegnate.",
 				pt: "Previne todo o dano causado aos seus Pokémon Metal por ataques dos Pokémon do seu oponente que tenham alguma Energia Especial ligada a eles.",
-				de: "Verhindere allen Schaden, der deinen Metal-Pokémon durch Attacken von Pokémon deines Gegners, an die mindestens 1 Spezial-Energie angelegt ist, zugefügt wird."
+				de: "Verhindere allen Schaden, der deinen {M}-Pokémon durch Attacken von Pokémon deines Gegners, an die mindestens 1 Spezial-Energie angelegt ist, zugefügt wird."
 			},
 		},
 	],
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It lived in the same environments as Rampardos. Their fossils have been found together—seemingly from after they'd fought to the finish.",
+		de: "Es lebte in denselben Gebieten wie Rameidon. Manche Fossilienfunde legen nahe, dass sie sich erbitterte Kämpfe geliefert haben."
 	},
 
 	thirdParty: {

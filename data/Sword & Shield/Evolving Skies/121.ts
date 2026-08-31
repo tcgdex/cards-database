@@ -78,7 +78,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack."
+		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack.",
+		de: "Sein Körper wird von süßem Nektar bedeckt und die Schale auf seinem Rücken ist besonders süß. Früher war diese ein Leckerbissen für Kinder."
 	},
 
 	regulationMark: "E",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Electabuzz",
 		fr: "Élektek",
+		de: "Elektek"
 	},
 
 	stage: "Stage1",
@@ -54,7 +55,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Metal, este pasa a estar Paralizado.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Metal, viene paralizzato.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Metal, ele será Paralisado.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Metal-Pokémon ist, ist es jetzt paralysiert."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, ist es jetzt paralysiert."
 			},
 			damage: 60,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+		de: "Wenn es sich aufregt, schlägt es sich kräftig auf die Brust. Bei jedem Schlag sprühen Funken und es ertönt ein Donnern."
 	},
 
 	thirdParty: {

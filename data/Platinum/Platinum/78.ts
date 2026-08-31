@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
-				de: "Lullaby"
+				de: "Wiegenlied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+		de: "Seine Beine sind kurz. Stolpert es, klappern seine starren Antennen und klingen wie ein Xylophon."
 	},
 
 	variants: [

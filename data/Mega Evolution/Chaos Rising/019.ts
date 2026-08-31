@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Keldeo has strengthened its resolve for battle filling its body with power and changing its form.",
+		de: "Durch seinen starken Kampfeswillen wurde sein Körper mit purer Willenskraft erfüllt, woraufhin es diese Form annehmen konnte."
 	},
 
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+		de: "Dieses Pokémon hat sich aus mehreren Metang gebildet. Mit seinen vier Gehirnen besitzt es die Intelligenz eines Supercomputers."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Metang"
+		en: "Metang",
+		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",

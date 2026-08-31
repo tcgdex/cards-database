@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+		de: "Es knabbert ständig an Holz und Steinen, um seine Vorderzähne zu kürzen. Es nistet am Wasser."
 	},
 
 

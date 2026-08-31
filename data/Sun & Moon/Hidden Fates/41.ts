@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	illustrator: "Mizue",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Singing Voice",
 				fr: "Voix Harmonieuse",
+				de: "Gesangsstimme"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 30,
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+		de: "In der Bettenabteilung von Kaufhäusern erhält man auch CDs mit Pummeluffs wundersam einlullendem Gesang."
 	},
 
 	thirdParty: {

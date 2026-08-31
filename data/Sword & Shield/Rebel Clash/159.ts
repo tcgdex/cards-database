@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu Pokémon Activo se recupera de todas las Condiciones Especiales.",
 		it: "Il tuo Pokémon attivo guarisce da tutte le condizioni speciali.",
 		pt: "O seu Pokémon Ativo se recupera de todas as Condições Especiais.",
-		de: "Dein Aktives Pokémon erholt sich von allen Speziellen Zuständen."
+		de: "Dein Aktives Pokémon erholt sich von allen Speziellen Zuständen. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

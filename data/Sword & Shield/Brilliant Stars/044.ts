@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "The hair on its head connects to the surface of its brain. When this Pokémon has something on its mind, its hair chills the air around it.",
+		de: "Das Haar auf seinem Kopf ist mit der Oberfläche seines Gehirns verbunden. Immer wenn es über etwas nachgrübelt, erzeugt es eine Kältewelle."
 	},
 
 	variants: [

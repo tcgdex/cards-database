@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
+		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!",
+		de: "Gibt es einen sonderbaren Laut von sich, sollte man schnell in Deckung gehen, da eine rasante Angriffsserie aus Schlägen und Tritten folgt."
 	},
 
 	variants: [

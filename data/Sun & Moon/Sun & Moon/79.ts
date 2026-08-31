@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d’Alola",
+		de: "Alola-Mauzi"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its round face and smooth coat—softer than the most high-class velvet—have made this a very popular Pokémon in Alola.",
+		de: "Sein rundes Gesicht und sein Fell, das weicher ist als erstklassiger Samt, machen es in Alola zu einem sehr beliebten Pokémon."
 	},
 
 	thirdParty: {

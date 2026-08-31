@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira la primera carta de la baraja de cualquiera de los jugadores. Puedes descartar esa carta o devolverla a la parte superior de la baraja.",
 		it: "Guarda la carta in cima al mazzo di uno dei giocatori. Puoi scartare quella carta o rimetterla in cima al mazzo.",
 		pt: "Olhe o card de cima do baralho de cada jogador. Você pode descartá-lo ou devolvê-lo para cima do baralho.",
-		de: "Schau dir die oberste Karte des Decks eines Spielers an. Du kannst diese Karte auf den Ablagestapel oder zurück auf das Deck legen."
+		de: "Schau dir die oberste Karte des Decks eines Spielers an. Du kannst diese Karte auf den Ablagestapel oder zurück auf das Deck legen. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

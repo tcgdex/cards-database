@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
+		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries.",
+		de: "Die an Speiseeis erinnernden Beeren, die an seinem Bauch wachsen, sind bei den Flampion Galars ein sehr beliebter Snack."
 	},
 
 	variants: [

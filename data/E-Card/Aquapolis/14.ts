@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -59,8 +60,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez-vous de toutes les cartes Énergie  attachée à Démolosse.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Hundemon angelegten -Energiekarten auf deinen Ablagestapel."
+				fr: "Lancez une pièce. Si c'est pile, défaussez-vous de toutes les cartes Énergie {R} attachée à Démolosse.",
+				de: "Wirf eine Münze. Bei „Zahl“ lege alle an Hundemon angelegten {R}-Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 60,
 

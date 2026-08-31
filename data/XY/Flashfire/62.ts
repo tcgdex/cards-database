@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+		de: "Es entlockt Blumen ihre geheimen Kräfte und kontrolliert diese nach Belieben. Die Blume, die es trägt, ist wie ein Teil seines Körpers."
 	},
 
 	thirdParty: {

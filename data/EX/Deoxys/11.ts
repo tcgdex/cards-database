@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Metagross",
-		fr: "Metalosse",
+		fr: "Métalosse",
 		de: "Metagross"
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Métang"
 	},
 
 	stage: "Stage2",
@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Psychic or Metal Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Metagross is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie  ou  et l'attacher à votre Pokémon Actif. Placez alors un marqueur de dégât sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Metalosse est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie {P} ou {M} et l'attacher à votre Pokémon Actif. Placez alors un marqueur de dégât sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Metalosse est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may search your discard pile for a  or  Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Metagross is affected by a Special Condition."
 			},
 		},

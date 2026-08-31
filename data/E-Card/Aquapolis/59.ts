@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seaking.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Poissoroy.",
-				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächstens Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Golking zugefügt werden."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Golking zugefügt werden."
 			},
 			damage: 30,
 

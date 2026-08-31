@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+		de: "Sein Fell wächst ständig. Im Sommer wird es geschoren, aber sein Fell wächst binnen einer Woche nach."
 	},
 
 	variants: [

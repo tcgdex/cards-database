@@ -51,7 +51,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
+		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
+		de: "Es lässt die Punkte auf seinem Körper blinken, um Gegnern den Kampfeswillen zu rauben. Diesen Moment nutzt es dann, um zu fliehen."
 	},
 
 	variants: [

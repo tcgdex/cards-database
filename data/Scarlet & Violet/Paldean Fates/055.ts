@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+		de: "Es hüllt seine Beute in seinen Gaskörper ein und schwächt sie, indem es sie nach und nach über die Haut vergiftet."
 	},
 
 }

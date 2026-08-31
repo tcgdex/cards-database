@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, cada vez que tu rival juegue 1 carta de Partidario de su mano, evita todos los efectos de esa carta infligidos a tus Pokémon Water en Banca.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, ogni volta che il tuo avversario gioca una carta Aiuto dalla sua mano, previeni tutti gli effetti di quella carta sui tuoi Pokémon Water in panchina.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, sempre que seu oponente jogar 1 carta de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados aos seus Pokémon Water no Banco.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die den Water-Pokémon auf deiner Bank zugefügt werden."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die den {W}-Pokémon auf deiner Bank zugefügt werden."
 			},
 		},
 	],
@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Mueve 2 Energías Water de este Pokémon a 1 de tus Pokémon en Banca.",
 				it: "Sposta due Energie Water da questo Pokémon a uno di quelli nella tua panchina.",
 				pt: "Mova 2 Energias Water deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 2 Water-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				de: "Verschiebe 2 {W}-Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 70,
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+		de: "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert."
 	},
 
 	thirdParty: {

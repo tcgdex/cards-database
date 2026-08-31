@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "Only the central head has a brain. It is very intelligent, but it thinks only of destruction.",
+		de: "Nur der mittlere Kopf hat ein Gehirn. Dieses Pokémon verfügt zwar über einen hohen Intellekt, denkt aber an nichts anderes als Zerstörung."
 	},
 }
 

@@ -64,7 +64,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground."
+		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground.",
+		de: "Diese kraftvollen Digda-Drillinge graben bis zu 100 km tief. Keiner weiß, wie sie unter der Erde aussehen."
 	},
 
 	variants: [

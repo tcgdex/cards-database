@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Green-feathered flocks hold the most sway. When they're out searching for food in the mornings and evenings, it gets very noisy.",
+		de: "Krawalloro mit grünem Gefieder haben den größten Einfluss. Die Futtersuche am Morgen und Abend ist mit sehr viel Lärm verbunden."
 	},
 
 	thirdParty: {

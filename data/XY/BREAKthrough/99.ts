@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, elige 3 cartas aleatorias de la mano de tu rival. Tu rival enseña esas cartas, las pone en su baraja y las baraja todas.",
 				it: "Lancia una moneta. Se esce testa, scegli tre carte a caso dalla mano del tuo avversario. Il tuo avversario mostra quelle carte e le rimischia nel suo mazzo.",
 				pt: "Jogue uma moeda. Se sair cara, escolha 3 cards aleatórios da mão do seu oponente. Seu oponente revela estes cards e os embaralha de volta no baralho dele ou dela.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
 			},
 
 		},
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It can make most any Pokémon run away simply by opening its mouth wide to reveal its big fangs.",
+		de: "Es kann fast jedes Pokémon vertreiben, indem es sein Maul weit öffnet und seine scharfen Reißzähne zeigt."
 	},
 
 	thirdParty: {

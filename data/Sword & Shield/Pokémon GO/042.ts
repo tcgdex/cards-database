@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It commands a nest of Rattata. Different nests don't get along, whipping up severe fights over feeding grounds.",
+		de: "Es schart eine Gruppe von Rattfratz um sich. Die verschiedenen Rudel vertragen sich jedoch nicht und streiten stets um Futterstellen."
 	},
 
 	

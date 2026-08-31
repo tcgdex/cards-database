@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+		de: "Es lässt seine Ruten wie eine Schiffsschraube rotieren, um sich im Wasser fortzubewegen und Algen zu zerschneiden, die an ihm haften."
 	},
 
 	variants: [

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
+		de: "Blicken Menschen und Pokémon in das Licht, das aus den Löchern seines Kürbisses dringt, werden sie hypnotisiert und von Irrbis kontrolliert."
 	},
 
 	variants: [

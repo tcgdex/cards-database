@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelénox"
 	},
 
 	stage: "Stage1",

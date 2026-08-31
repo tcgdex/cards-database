@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -60,8 +61,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Fire Energy card attached to Charmeleon.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Reptincel.",
-				de: "Lege 1 an Glutexo angelegte -Energiekarte auf deinen Ablagestapel."
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Reptincel.",
+				de: "Lege 1 an Glutexo angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 50,
 

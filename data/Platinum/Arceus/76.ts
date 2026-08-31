@@ -73,7 +73,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
+		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
+		de: "Die blauen Ranken an seinem Körper sind von feinen Haaren bedeckt. Es gilt zudem als kitzlig."
 	},
 
 	variants: [

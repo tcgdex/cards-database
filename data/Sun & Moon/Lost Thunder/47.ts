@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+		de: "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus."
 	},
 
 	thirdParty: {

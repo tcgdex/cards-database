@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims along with its mouth open and swallows down seawater along with its food. It sprays excess water out of its nostrils.",
+		de: "Es schwimmt mit offenem Maul und nimmt mit dem Wasser sein Futter auf. Überschüssiges Wasser stößt es durch seine Nasenlöcher aus."
 	},
 
 	thirdParty: {

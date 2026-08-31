@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+		de: "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle drei Minuten ausruhen."
 	},
 
 	thirdParty: {

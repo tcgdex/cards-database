@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [52],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+		de: "Es schläft den ganzen Tag. Nachts patrouilliert es sein Revier mit glühenden Augen."
 	},
 
 	variants: [
@@ -94,7 +96,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870388,
+			cardmarket: 870387,
 			tcgplayer: 677118
 		}
 	},
@@ -102,7 +104,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870387,
+			cardmarket: 870388,
 			tcgplayer: 676978
 		}
 	},

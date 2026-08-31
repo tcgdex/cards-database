@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks."
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
 	},
 
 	attacks: [{

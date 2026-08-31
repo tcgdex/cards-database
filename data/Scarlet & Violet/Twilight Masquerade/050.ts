@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+		de: "Es lebt auf dem Grund von klaren, ungetrübten Seen. Zu Kriegszeiten erscheint es, um die Herzen der Menschen zu besänftigen."
 	},
 
 	variants: [

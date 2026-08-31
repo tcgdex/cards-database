@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
+		de: "Man nannte es die „Larve, welche die Sonne stahl“. Die Flammen, die es aus seinen Hörnern feuert, können selbst Eisenplatten zerteilen."
 	},
 
 	variants: [

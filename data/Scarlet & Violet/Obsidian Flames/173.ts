@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
+		de: "Berührt dieses herzensgute Pokémon jemanden mit seinen Fühlern, kann es dessen körperliche Verfassung und Gemütszustand ertasten."
 	},
 
 	variants: [

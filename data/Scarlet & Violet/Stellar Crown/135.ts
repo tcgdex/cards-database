@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si tienes algún Pokémon Teracristal en juego.\n\nElige hasta 2 de tus Pokémon {C} en Banca y une 1 carta de Energía Básica de tu pila de descartes a cada uno de ellos.",
 		it: "Puoi usare questa carta solo se hai dei Pokémon Teracristal in gioco.\nScegli fino a due dei tuoi Pokémon {C} in panchina e assegna a ognuno di essi una carta Energia base dalla tua pila degli scarti.",
 		pt: "Você só pode usar esta carta se tiver algum Pokémon Tera em jogo.\nEscolha até 2 dos seus Pokémon {C} no Banco e ligue uma carta de Energia Básica da sua pilha de descarte a cada um deles.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du mindestens 1 Terakristall-Pokémon im Spiel hast.\nWähle bis zu 2 {C}-Pokémon auf deiner Bank und lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes von ihnen an."
+		de: "Du kannst diese Karte nur einsetzen, wenn du mindestens 1 Terakristall-Pokémon im Spiel hast. Wähle bis zu 2 {C}-Pokémon auf deiner Bank und lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes von ihnen an. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

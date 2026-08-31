@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
+		de: "Es wird gern als Vorlage für Wappenmotive genutzt, da aus den Federn, die ihm ausfallen, Schwerter hergestellt werden."
 	},
 
 	variants: [

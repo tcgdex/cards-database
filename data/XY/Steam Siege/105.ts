@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de Energía Especial de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia due carte Energia speciale dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe 2 cards de Energia Especial da sua pilha de descarte em seu baralho.",
-		de: "Mische 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

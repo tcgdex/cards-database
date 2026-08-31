@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers.",
+		de: "Es schwingt seine großen Arme wie Hämmer und vertreibt damit Gruppen von Flampion, die es auf Shnebedeck abgesehen haben."
 	},
 
 	variants: [

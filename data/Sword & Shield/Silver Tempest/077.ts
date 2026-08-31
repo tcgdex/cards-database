@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+		de: "Die gewaltigen Psycho-Kräfte, die entstehen, wenn seine zwei Denkapparate einer Meinung sind, sollen im Umkreis von 1 km zu spüren sein."
 	},
 
 	variants: [

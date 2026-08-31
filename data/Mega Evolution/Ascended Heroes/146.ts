@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Any chips in its blades would prove fatal for it. After each battle, it diligently maintains its blades using its favorite sharpening stone.",
+		de: "Nach jedem Kampf pflegt es seine Klingen sorgfältig mit seinem Lieblingswetzstein. Schartige Klingen könnten seinen Tod bedeuten."
 	},
 
 	variants: [

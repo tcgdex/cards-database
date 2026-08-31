@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",
+		de: "Es wird für seine Flüche und Beschwörungen gefürchtet. Wenn ihm danach ist, spricht es auch mal Bannsprüche, die Menschen helfen."
 	},
 
 	thirdParty: {

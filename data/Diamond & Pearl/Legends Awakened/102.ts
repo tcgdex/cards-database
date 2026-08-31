@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
-		fr: "Il niche à l'ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d'encre opaque."
+		fr: "Il niche à l'ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d'encre opaque.",
+		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
 	thirdParty: {

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking.",
+		de: "Lebt auf Baumwipfeln im tiefsten Dschungel. Ab und an erscheint es am Strand, um sich epische Quiz-Duelle mit Laschoking zu liefern."
 	},
 
 	thirdParty: {

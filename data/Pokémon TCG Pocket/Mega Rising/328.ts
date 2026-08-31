@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arceus ex"
+		en: "Arceus ex",
+		fr: "Arceus-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -22,24 +23,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fabled Luster"
+			en: "Fabled Luster",
+			fr: "Éclat de Légende"
 		},
 
 		effect: {
-			en: "This Pokémon can't be affected by any Special Conditions."
+			en: "This Pokémon can't be affected by any Special Conditions.",
+			fr: "Ce Pokémon ne peut être affecté par aucun État Spécial."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ultimate Force"
+			en: "Ultimate Force",
+			fr: "Pouvoir Ultime"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon."
+			en: "This attack does 20 more damage for each of your Benched Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc."
 		}
 	}],
 

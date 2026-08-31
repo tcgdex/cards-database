@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mankey",
 		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It has been known to become so angry that it dies as a result. Its face looks peaceful in death, however.",
+		de: "Manchmal rastet es so aus, dass es auf der Stelle tot umfällt. Sein Gesichtsausdruck ist danach jedoch äußerst friedlich."
 	},
 
 	thirdParty: {

@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Los ataques de tus Pokémon Lightning Básicos hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Base Lightning infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques dos seus Pokémon Lightning Básicos causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken deiner Basis-Lightning-Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Die Attacken deiner Basis-{L}-Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 

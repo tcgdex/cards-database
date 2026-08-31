@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+		de: "Es speichert viel Luft in seinem weichen Pelz. Dadurch ist es im Sommer kalt und im Winter warm."
 	},
 
 	thirdParty: {

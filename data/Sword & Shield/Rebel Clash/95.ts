@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
+		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat.",
+		de: "Porenta, die viele Schlachten überstanden haben, entwickeln sich zu Lauchzelot. Verwelkt seine Lauchstange, zieht es sich vom Kämpfen zurück."
 	},
 
 	variants: [
