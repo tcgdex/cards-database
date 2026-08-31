@@ -78,18 +78,25 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [635],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 487079
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 487079,
+				tcgplayer: 218583
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 218582
+			}
+		},
+	],
 }
 
 export default card

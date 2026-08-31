@@ -66,18 +66,25 @@ const card: Card = {
 
 	dexId: [877],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 427106
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 427106,
+				tcgplayer: 206428
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 549431,
+				tcgplayer: 232766
+			}
+		},
+	],
 }
 
 export default card
