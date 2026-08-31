@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
+		de: "Tohaido trägt den Spitznamen „Tyrann des Meeres“. Schiffe, die in sein Revier eindringen, greift es ausnahmslos an."
 	},
 
 	variants: [

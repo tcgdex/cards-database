@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 		fr: "Pendant ce tour, les attaques utilisées par vos Pokémon {F} infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-		de: "Während dieses Zuges fügen die von deinen {F}-Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+		de: "Während dieses Zuges fügen die von deinen {F}-Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Durante questo turno, gli attacchi usati dai tuoi Pokémon {F} infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		es: "Durante este turno, los ataques usados por tus Pokémon {F} hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		pt: "Durante este turno, os ataques usados pelos seus Pokémon {F} causarão 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",

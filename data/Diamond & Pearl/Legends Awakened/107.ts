@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
-		fr: "Feuforeve",
+		fr: "Feuforêve",
 		de: "Traunfugil"
 	},
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves to sneak up on people late at night, then startle them with its shrieklike cry.",
-		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident."
+		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident.",
+		de: "Es liebt es, sich nachts an andere heranzuschleichen und sie mit einem schrillen Schrei zu erschrecken."
 	},
 
 	thirdParty: {

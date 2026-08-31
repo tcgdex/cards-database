@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Nach derzeitigem Forschungsstand kann es sich zu acht verschiedenen Pokémon entwickeln."
 	},
 
 	thirdParty: {

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them.",
+		de: "Krawells abgeworfene Scheren sind köstlich. Manche Trainer suchen sogar gezielt mit Ferkuli in den Bergen danach."
 	},
 
 	variants: [

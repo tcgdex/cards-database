@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Milotic is breathtakingly beautiful. Those that see it are said to forget their combative spirits.",
+		de: "Milotic ist atemberaubend schön. Man sagt, dass diejenigen, die es sehen, vergessen zu kämpfen."
 	},
 
 	thirdParty: {

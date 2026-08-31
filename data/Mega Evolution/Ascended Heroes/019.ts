@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [918],
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+		de: "Spinsidias hängt sich mit seinem Faden an Äste oder Decken und bewegt sich lautlos. Es erlegt seine Beute, bevor diese es bemerken kann."
 	},
 
 	variants: [
@@ -106,7 +108,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870168,
+			cardmarket: 870167,
 			tcgplayer: 677008
 		}
 	},
@@ -114,7 +116,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870167,
+			cardmarket: 870168,
 			tcgplayer: 676868
 		}
 	},

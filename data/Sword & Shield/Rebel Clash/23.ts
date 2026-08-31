@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
+		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on.",
+		de: "Nach dem Verzehr eines süßen Apfels hat es sich entwickelt. Es verströmt einen süßen Duft und lockt damit sein Futter an: Käfer-Pokémon."
 	},
 
 	variants: [

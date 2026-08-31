@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
 			it: "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
 			pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+			de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 		},
 
 		damage: 30,
@@ -70,7 +70,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
+		de: "Sein an aufpoliertes Metall erinnernder Körper ist nicht nur leicht, sondern auch robust. Er hat jedoch den Nachteil, schnell zu rosten."
 	},
 
 	variants: [

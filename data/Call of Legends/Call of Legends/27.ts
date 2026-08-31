@@ -4,7 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium",
+		fr: "Méganium",
 		de: "Meganie"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	stage: "Stage2",
@@ -84,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
+		de: "MEGANIE kann mit seinem Atem abgestorbene Gräser und Planzen reanimieren. Sie sind dann gesund."
 	},
 
 	variants: [

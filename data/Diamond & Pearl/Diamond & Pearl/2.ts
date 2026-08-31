@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon que tenga esta carta unida a él no se puede ver afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a ese Pokémon).",
 		it: "Il Pokémon a cui è assegnata questa carta non può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tale Pokémon).",
 		pt: "O Pokémon ao qual este card está ligado não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esse Pokémon.)",
-		de: "Das Pokémon, an das diese Karte angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

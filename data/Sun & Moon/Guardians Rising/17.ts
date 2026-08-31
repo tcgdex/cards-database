@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+		de: "Sein Rückenpanzer ist explosiv, man sollte ihm also niemals auf den Rücken klopfen. Das Loch in seinem Bauch ist seine Schwachstelle."
 	},
 
 	thirdParty: {

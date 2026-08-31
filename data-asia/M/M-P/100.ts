@@ -14,7 +14,14 @@ const card: Card = {
 		ja: "自分の山札から「たねポケモン」「1進化ポケモン」「2進化ポケモン」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888192,
+			},
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "I",

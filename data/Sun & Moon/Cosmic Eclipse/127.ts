@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
+		de: "Sankabuh"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Each of its grains of sand has its own will. Palossand eats small Pokémon and siphons away their vital essence while they're still alive.",
+		de: "Jedes einzelne seiner Körner verfügt über einen eigenen Willen. Kleine Pokémon verschluckt es lebendig und saugt ihnen die Lebensenergie aus."
 	},
 
 	thirdParty: {

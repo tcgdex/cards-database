@@ -14,7 +14,14 @@ const card: Card = {
 		ja: "おたがいのポケモン全員のHPを、それぞれ「50」回復する。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888191,
+			},
+		},
+	],
 
 	trainerType: "Supporter",
 	regulationMark: "J",

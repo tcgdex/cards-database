@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Piochez des cartes jusqu'à en avoir 5 en main. Si tous vos Pokémon en jeu sont des Pokémon de la Team Rocket, piochez des cartes jusqu'à en avoir 8 en main à la place.",
 		es: "Roba cartas hasta que tengas 5 cartas en tu mano. Si todos tus Pokémon en juego son Pokémon del Team Rocket, roba cartas hasta que tengas 8 cartas en tu mano en vez de 5.",
 		'es-mx': "Roba cartas hasta que tengas 5 cartas en tu mano. Si todos tus Pokémon en juego son Pokémon del Equipo Rocket, roba cartas hasta que tengas 8 cartas en tu mano en lugar de 5.",
-		de: "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Wenn alle deine Pokémon im Spiel Team Rockets Pokémon sind, ziehe stattdessen so lange Karten, bis du 8 Karten auf deiner Hand hast.",
+		de: "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Wenn alle deine Pokémon im Spiel Team Rockets Pokémon sind, ziehe stattdessen so lange Karten, bis du 8 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Pesca fino ad avere cinque carte in mano. Se tutti i tuoi Pokémon in gioco sono Pokémon del Team Rocket, invece pesca fino ad avere otto carte in mano.",
 		pt: "Compre cartas até ter 5 cartas na sua mão. Se todos os seus Pokémon em jogo forem Pokémon da Equipe Rocket, compre cartas até ter 8 cartas na sua mão ao invés de 5."
 	},

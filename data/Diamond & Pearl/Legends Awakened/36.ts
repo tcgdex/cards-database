@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit.",
-		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
+		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C.",
+		de: "Sein Körper besteht aus Eis aus der Eiszeit. Es kontrolliert gefrorene Luft, die minus 200 Grad kalt ist."
 	},
 
 	thirdParty: {

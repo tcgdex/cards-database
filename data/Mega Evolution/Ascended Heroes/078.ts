@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [103],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+		de: "Es heißt, in sehr seltenen Fällen falle einer seiner Köpfe zu Boden und lebe als Owei weiter."
 	},
 
 	variants: [
@@ -110,7 +112,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870258,
+			cardmarket: 870257,
 			tcgplayer: 677053
 		}
 	},
@@ -118,7 +120,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870257,
+			cardmarket: 870258,
 			tcgplayer: 676913
 		}
 	},

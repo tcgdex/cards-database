@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
+		de: "Es schreckt vor nichts zurück, um zu gewinnen. Sieht es eine Chance, schlägt es zu und gibt dem Opfer mit seinen Klauen schließlich den Rest."
 	},
 
 	

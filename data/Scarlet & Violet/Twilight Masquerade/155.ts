@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, hasta 3 cartas de Energía Básica y Pokémon que no tengan un recuadro de regla de tu pila de descartes en tu mano. (Pokémon ex, Pokémon V, etc. tienen recuadros de regla).",
 		it: "Prendi fino a tre Pokémon che non hanno una regola speciale e carte Energia base in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano. I Pokémon-ex, i Pokémon-V, ecc. hanno regole speciali.",
 		pt: "Coloque até 3 Pokémon que não têm uma Caixa de Regras e cartas de Energia Básica da sua pilha de descarte na sua mão em qualquer combinação. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)",
-		de: "Nimm eine beliebige Kombination aus bis zu 3 Pokémon, die kein Regelfeld haben, und Basis-Energiekarten aus deinem Ablagestapel auf deine Hand. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)"
+		de: "Nimm eine beliebige Kombination aus bis zu 3 Pokémon, die kein Regelfeld haben, und Basis-Energiekarten aus deinem Ablagestapel auf deine Hand. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

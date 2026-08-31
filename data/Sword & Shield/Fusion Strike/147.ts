@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it."
+		en: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
+		de: "Ein Pokémon, das sich bei Landwirten mäßiger Beliebtheit erfreut, da es beim Graben durchs Erdreich gelegentlich ihre Ernten ruiniert."
 	},
 
 	attacks: [{

@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
+		de: "Ein Choreogel, das gelben Nektar geschlürft hat. Mit seinem heiteren Tanz kann es selbst die Herzen seiner Gegner mit Wonne erfüllen."
 	},
 
 	thirdParty: {

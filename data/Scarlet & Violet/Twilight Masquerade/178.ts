@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they're a popular delicacy.",
+		de: "Es nistet an Steilküsten. Seine Nester sind als Delikatesse geschätzt, da ihre Textur ein seltsames Knistergefühl im Mund erzeugt."
 	},
 
 	variants: [

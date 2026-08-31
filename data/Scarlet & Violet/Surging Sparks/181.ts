@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival cuenta las cartas de su mano, baraja esas cartas y las pone en la parte inferior de su baraja. Si lo hace, tu rival roba esa misma cantidad de cartas.",
 		it: "Il tuo avversario conta le carte che ha in mano, rimischia quelle carte e le mette in fondo al suo mazzo. Se lo fa, il tuo avversario pesca lo stesso numero di carte.",
 		pt: "Seu oponente conta as cartas na mão dele, embaralha aquelas cartas e as coloca como as cartas de baixo do baralho dele. Se ele fizer isto, ele comprará aquele mesmo número de cartas.",
-		de: "Dein Gegner zählt die Karten auf seiner Hand, mischt jene Karten und legt sie unter sein Deck. Wenn er das macht, zieht er genauso viele Karten."
+		de: "Dein Gegner zählt die Karten auf seiner Hand, mischt jene Karten und legt sie unter sein Deck. Wenn er das macht, zieht er genauso viele Karten. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

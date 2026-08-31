@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Mira las 4 primeras cartas de tu baraja y une cualquier cantidad de cartas de Energía Metal que encuentres entre ellas a 1 de tus Pokémon. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 				it: "Guarda le prime quattro carte del tuo mazzo e assegna un numero qualsiasi di carte Energia Metal presenti tra quelle carte a uno dei tuoi Pokémon. Poi rimischia le altre carte nel tuo mazzo.",
 				pt: "Olhe as 4 primeiras cartas do seu baralho e ligue qualquer número de cartas de Energia Metal que encontrar lá a 1 dos seus Pokémon. Embaralhe as demais cartas de volta no seu baralho.",
-				de: "Schau dir die obersten 4 Karten deines Decks an und lege beliebig viele Metal-Energiekarten, die du dort findest, an 1 deiner Pokémon an. Mische die anderen Karten zurück in dein Deck."
+				de: "Schau dir die obersten 4 Karten deines Decks an und lege beliebig viele {M}-Energiekarten, die du dort findest, an 1 deiner Pokémon an. Mische die anderen Karten zurück in dein Deck."
 			},
 
 		},
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
+		de: "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen."
 	},
 
 	thirdParty: {

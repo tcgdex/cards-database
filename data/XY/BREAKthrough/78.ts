@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+		de: "Der Knochen, den dieses Pokémon hält, ist seine Primärwaffe. Es wirft ihn wie einen Bumerang."
 	},
 
 	thirdParty: {

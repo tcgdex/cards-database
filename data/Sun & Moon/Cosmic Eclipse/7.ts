@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
+		de: "Manchmal fällt es plötzlich vom Himmel. Wird es von Habitak angegriffen, schüttelt es seine Blätter."
 	},
 
 	thirdParty: {

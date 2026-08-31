@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Psychic unida a él, los ataques le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 				it: "Se questo Pokémon ha delle Energie Psychic assegnate, subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Se este Pokémon tiver alguma Energia Psychic ligada a ele, receberá 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Wenn an dieses Pokémon mindestens 1 Psychic-Energie angelegt ist, werden ihm durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Wenn an dieses Pokémon mindestens 1 {P}-Energie angelegt ist, werden ihm durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+		de: "Es heißt, es sei die weibliche Endstufe der Entwicklungsreihe von Cosmog. Ist sein drittes Auge aktiviert, zieht es in eine andere Welt."
 	},
 
 	thirdParty: {

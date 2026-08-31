@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Armor Fossil"
+		en: "Armor Fossil",
+		fr: "Fossile Armure"
 	},
 
 	description: {

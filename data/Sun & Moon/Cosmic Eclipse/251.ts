@@ -67,7 +67,7 @@ const card: Card = {
 				es: "Pilar de Llamas Carmesís GX",
 				it: "Scia di Fuoco Rosso GX",
 				pt: "Coluna de Chamas Carmim GX",
-				de: "Feuerrote Flammensäule GX"
+				de: "Feuerrote Flammensäule-GX"
 			},
 			effect: {
 				en: "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), your opponent’s Active Pokémon is now Burned and Confused. (You can’t use more than 1 GX attack in a game.)",
@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Une 5 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees. Si este Pokémon tiene por lo menos 1 Energía adicional unida a él (además de las del coste de este ataque), el Pokémon Activo de tu rival pasa a estar Confundido y Quemado. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Assegna a piacimento ai tuoi Pokémon cinque carte Energia base dalla tua pila degli scarti. Se questo Pokémon ha almeno un’Energia extra assegnata, in aggiunta a quelle del costo di questo attacco, il Pokémon attivo del tuo avversario viene bruciato e confuso. Non puoi usare più di un attacco GX a partita.",
 				pt: "Ligue 5 cartas de Energia básica da sua pilha de descarte aos seus Pokémon como desejar. Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), o Pokémon Ativo do seu oponente será Confundido e Queimado (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege 5 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), ist das Aktive Pokémon deines Gegners jetzt verbrannt und verwirrt. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege 5 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), ist das Aktive Pokémon deines Gegners jetzt verbrannt und verwirrt.  (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

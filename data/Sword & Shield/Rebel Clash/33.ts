@@ -92,7 +92,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
+		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames.",
+		de: "Dieses Pokémon bewohnt gerne alte Anwesen. Es hypnotisiert seine Opfer, indem es die Flammen an seinen Armen auf unheimliche Weise schwenkt."
 	},
 
 	variants: [

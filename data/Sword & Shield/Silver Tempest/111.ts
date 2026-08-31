@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "The desert gets cold at night, so when the sun sets, this Pokémon burrows deep into the sand and sleeps until sunrise.",
+		de: "Da die Wüste nachts abkühlt, vergräbt es sich tief im Sand und schläft dort, bis die Sonne wieder aufgeht."
 	},
 
 	variants: [

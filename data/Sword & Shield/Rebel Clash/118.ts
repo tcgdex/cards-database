@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
+		de: "Es frisst Müll und verdaut ihn in seinem Inneren zu Gift. Je nach Art des Mülls, den es verzehrt, ändern sich die Hauptbestandteile des Giftes."
 	},
 
 	variants: [

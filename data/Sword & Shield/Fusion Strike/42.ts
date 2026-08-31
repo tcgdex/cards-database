@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
+		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry.",
+		de: "Ein Choreogel, das roten Nektar geschlürft hat. Es neigt zur Theatralik. Gibt ihm sein Trainer einen falschen Befehl, macht es ihm eine Szene."
 	},
 
 	abilities: [{

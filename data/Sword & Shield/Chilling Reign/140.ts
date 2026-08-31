@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta de Energía Psychic o 1 Pokémon Psychic Básico, enseña esa carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Energia Psychic o un Pokémon Base Psychic, mostra la carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 carta de Energia Psychic ou por 1 Pokémon Psychic Básico no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Psychic-Energiekarte oder 1 Basis-Psychic-Pokémon, zeige jene Karte deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 {P}-Energiekarte oder 1 Basis-{P}-Pokémon, zeige jene Karte deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	regulationMark: "E",

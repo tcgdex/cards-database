@@ -10,7 +10,7 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
-	category: "Trainer",
+	category: "Pokemon",
 	set: Set,
 
 	dexId: [

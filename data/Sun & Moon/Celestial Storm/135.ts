@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 120 puntos de daño a 1 de tus Pokémon a los que le queden 30 PS o menos.",
 		it: "Cura da 120 danni uno dei tuoi Pokémon che ha 30 PS o meno rimanenti.",
 		pt: "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos.",
-		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen."
+		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

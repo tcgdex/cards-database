@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull"
+		en: "Wingull",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -56,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf solange 1 Münze bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegt Energiekarte auf den Ablagestapel deines Gegners."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 
@@ -80,7 +81,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+		de: "Ein Bote der Lüfte. Bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit."
 	},
 
 	variants: [

@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall.",
+		de: "Leuchten seine Augen golden auf, kann es Beute, die sich versteckt, sehen. Es kann durch Wände sehen."
 	},
 
 	thirdParty: {

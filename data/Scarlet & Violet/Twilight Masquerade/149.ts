@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada Pokémon que tenga alguna Energía unida (tanto tuyos como de tu rival) se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
 		it: "Ciascun Pokémon che ha delle Energie assegnate, sia tuo che del tuo avversario, guarisce da tutte le condizioni speciali e non può esserne influenzato.",
 		pt: "Cada Pokémon que tem alguma Energia ligada a ele (seus e do seu oponente) recupera-se de todas as Condições Especiais e não pode ser afetado por quaisquer Condições Especiais.",
-		de: "Jedes Pokémon (deine und die deines Gegners), an das mindestens 1 Energie angelegt ist, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden."
+		de: "Jedes Pokémon (deine und die deines Gegners), an das mindestens 1 Energie angelegt ist, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

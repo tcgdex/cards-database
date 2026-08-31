@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes poner 2 contadores de daño en este Pokémon. Si lo haces, busca en tu baraja hasta 2 cartas de Energía Fire y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi mettere due segnalini danno su questo Pokémon. Se lo fai, cerca nel tuo mazzo fino a due carte Energia Fire e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 2 contadores de dano neste Pokémon. Se fizer isto, procure por até 2 cartas de Energia Fire no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach bis zu 2 Fire-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 2 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach bis zu 2 {R}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -75,7 +76,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire de este Pokémon. Este ataque hace 50 puntos de daño más por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon. Questo attacco infligge 50 danni in più per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Fire deste Pokémon. Este ataque causa 50 pontos de dano a mais para cada carta descartada desta forma.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "30+",
 
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+		de: "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf."
 	},
 
 	thirdParty: {

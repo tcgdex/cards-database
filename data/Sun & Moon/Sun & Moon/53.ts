@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon. Este ataque causa 30 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "30×",
 
@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+		de: "Sein langer Stachel fungiert als Blitzableiter. Damit zieht es Blitze auf sich, die es dann in seinen Elektrotaschen speichert."
 	},
 
 	thirdParty: {

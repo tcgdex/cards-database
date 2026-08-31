@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto"
+		en: "Kabuto",
+		de: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -71,7 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land."
+		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land.",
+		de: "Man geht davon aus, dass dieses PKMN an Land kam, weil seine Beute ebenfalls irgendwann an Land kam."
 	},
 
 	variants: [

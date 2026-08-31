@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Saboteri",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [845],
 	hp: 110,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -64,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Cramorant instinctively swallow everything whole. They’re at their most formidable when they’re struggling to swallow overly large prey.",
+		de: "Es hat die Angewohnheit, alles in einem Stück zu verschlingen. Je mehr es damit ringt, übergroße Beute runterzuschlucken, desto zäher wird es."
 	},
 
 	variants: [

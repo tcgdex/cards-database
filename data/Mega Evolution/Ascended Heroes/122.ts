@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+		de: "Diesem ungehobelten Pokémon steigt das Blut schnell zu Kopf. Es schwingt die Kette an seinem Hals, um alles zu zerstören."
 	},
 
 	variants: [

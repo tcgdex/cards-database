@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+		de: "Dieses kleine Drachen-Pokémon lebt im Maul von Heerashai, wodurch es vor Feinden geschützt ist."
 	},
 
 	thirdParty: {

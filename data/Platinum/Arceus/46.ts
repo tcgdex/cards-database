@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
+		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+		de: "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger."
 	},
 
 	variants: [

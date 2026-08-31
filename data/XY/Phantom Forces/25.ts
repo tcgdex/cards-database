@@ -47,7 +47,7 @@ const card: Card = {
 				es: "La Debilidad del Pokémon Defensor pasa a ser Lightning hasta el final de tu próximo turno. (La cantidad de Debilidad no cambia).",
 				it: "La debolezza del Pokémon difensore diventa Lightning fino alla fine del tuo prossimo turno. Quanto è debole non cambia.",
 				pt: "A Fraqueza do Pokémon Defensor passa a ser Lightning até o final da sua próxima vez de jogar. (A quantidade de Fraqueza não muda.)",
-				de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Lightning. (Die Höhe der Schwäche ändert sich nicht.)"
+				de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt {L}. (Die Höhe der Schwäche ändert sich nicht.)"
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
 	},
 
 	thirdParty: {

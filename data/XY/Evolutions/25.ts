@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
+		de: "Ein formidabler Schwimmer. Es kann Brustschwimmen, Freistil und Schmetterling. Kein Mensch kann schneller schwimmen."
 	},
 
 	thirdParty: {

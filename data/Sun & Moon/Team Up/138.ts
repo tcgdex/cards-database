@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas 1 Pokémon Darkness de tu mano.\n\nDescarta 1 carta de Herramienta Pokémon o 1 carta de Energía Especial de 1 de los Pokémon de tu rival, o descarta cualquier carta de Estadio en juego.",
 		it: "Puoi giocare questa carta solo se scarti un Pokémon Darkness che hai in mano.\n\nScarta una carta Oggetto Pokémon o Energia speciale assegnata a uno dei Pokémon del tuo avversario oppure scarta una carta Stadio qualsiasi in gioco.",
 		pt: "Você só pode jogar esta carta se descartar 1 Pokémon Darkness da sua mão.\n\nDescarte 1 carta de Ferramenta Pokémon ou de Energia Especial de 1 dos Pokémon do seu oponente ou descarte qualquer carta de Estádio em jogo.",
-		de: "Du kannst diese Karte nur spielen, wenn du 1 Darkness-Pokémon aus deiner Hand auf deinen Ablagestapel legst.\n\nLege 1 Pokémon-Ausrüstung oder Spezial-Energiekarte von 1 Pokémon deines Gegners auf seinen Ablagestapel oder lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
+		de: "Du kannst diese Karte nur spielen, wenn du 1 {D}-Pokémon aus deiner Hand auf deinen Ablagestapel legst. Lege 1 Pokémon-Ausrüstung oder Spezial-Energiekarte von 1 Pokémon deines Gegners auf seinen Ablagestapel oder lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

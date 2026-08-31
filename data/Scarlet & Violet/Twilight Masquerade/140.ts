@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that many artists have taken inspiration from the sight of a Swanna performing a beautiful dance in the light of dawn.",
+		de: "Der bezaubernde Tanz, den dieses Pokémon bei Dämmerung aufführt, soll schon vielen Künstlern als Inspiration gedient haben."
 	},
 
 	variants: [

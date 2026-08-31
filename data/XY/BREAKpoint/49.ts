@@ -54,7 +54,7 @@ const card: Card = {
 				es: "El daño de los ataques de tus Pokémon Lightning no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 				it: "I danni degli attacchi dei tuoi Pokémon Lightning non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
 				pt: "O dano causado pelos ataques do seu Pokémon Lightning não é afetado por nenhum efeito no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden der Angriffe deiner Lightning-Pokémon wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				de: "Der Schaden der Angriffe deiner {L} Pokémon wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 		},
 	],
@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival tiene Resistencia a Fighting, este ataque hace 60 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha resistenza al tipo Fighting, questo attacco infligge 60 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente tiver Resistência Fighting, este ataque causará 60 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber Fighting-Pokémon hat, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				de: "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber {F}-Pokémon hat, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		de: "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann man Donnerhall vernehmen."
 	},
 
 	thirdParty: {

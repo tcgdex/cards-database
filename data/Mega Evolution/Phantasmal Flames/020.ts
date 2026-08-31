@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+		de: "Die Flammenschwerter an beiden Armen lodern mit dem Groll eines Schwertkämpfers, der fiel, ehe er sein Ziel erreichen konnte."
 	},
 
 	illustrator: "Gemi",

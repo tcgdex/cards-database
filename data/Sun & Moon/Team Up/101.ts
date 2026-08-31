@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
 				it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
 				pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
-				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
+				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von {R}-Pokémon deines Gegners zugefügt wird."
 			},
 		},
 	],
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		de: "Früher verehrten die Menschen die Bronzong, weil sie sich davon Regen oder gute Ernten erhofften."
 	},
 
 	thirdParty: {

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.",
+		de: "Das Kauen auf einem Blatt ist sein Markenzeichen. Dieses sehr ungezogene Pokémon dürfte frischgebackene Trainer überfordern."
 	},
 
 	thirdParty: {

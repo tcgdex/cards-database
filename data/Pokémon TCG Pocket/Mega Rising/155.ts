@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Deino"
+		en: "Deino",
+		fr: "Solochi"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 20,

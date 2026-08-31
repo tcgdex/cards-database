@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé",
+		de: "Gelatini"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Fighting, este ataque hace 30 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Fighting, questo attacco infligge 30 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Fighting, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Fighting-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {F}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Hot days cause its body to melt. It can be restored by refreezing it, but the process leaves its body slightly warped.",
+		de: "An heißen Tagen schmilzt sein Körper. Friert man es ein, nimmt es seine alte Gestalt wieder an, aber sein Körper ist leicht verbogen."
 	},
 
 	thirdParty: {

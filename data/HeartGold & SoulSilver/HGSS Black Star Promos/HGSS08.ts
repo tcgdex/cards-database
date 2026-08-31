@@ -4,7 +4,7 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium"
+		fr: "Méganium"
 	},
 	illustrator: "Noriko Hotta",
 	rarity: "Promo",

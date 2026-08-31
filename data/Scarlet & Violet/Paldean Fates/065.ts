@@ -112,6 +112,7 @@ const card: Card = {
 
 	description: {
 		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+		de: "Mit seinen nunmehr acht Zylindern lässt es ein Gasgemisch aus Gift und Gesteinsmineralien explodieren, um daraus Energie zu gewinnen."
 	},
 
 }

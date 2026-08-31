@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Sterndu",
+		de: "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -55,7 +56,7 @@ const card: Card = {
 			name: {
 				en: "Core Flash",
 				fr: "Flash-coeur",
-				de: "Kernlitz"
+				de: "Kernblitz"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon that has any Poké-Powers or Poké-Bodies. This attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
@@ -75,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
-		fr: "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne."
+		fr: "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne.",
+		de: "In der Körpermitte befindet sich ein roter Kern, der mysteriöse Radiowellen in die Nacht sendet."
 	},
 
 	thirdParty: {

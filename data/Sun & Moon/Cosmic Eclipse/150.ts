@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.",
+		de: "Ohne die Kräfte einer Blume ist es relativ schutzlos. Es sucht jedoch so lange, bis es eine findet, deren Form und Farbe ihm zusagt."
 	},
 
 	thirdParty: {

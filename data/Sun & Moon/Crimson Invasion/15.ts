@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies.",
+		de: "Es taucht in großer Zahl an Ufern auf. Nachts erstrahlt der Kern in seiner Mitte in einem unheimlichen Rot."
 	},
 
 	thirdParty: {

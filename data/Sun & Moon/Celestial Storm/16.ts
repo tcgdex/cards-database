@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Surskit",
 		fr: "Arakdo",
+		de: "Gehweiher"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
+		de: "Seine Flügel und Fühler sind empfindlich gegen Feuchtigkeit. Nachdem es geregnet hat, streckt es sie gen Sonne, um sie zu trocknen."
 	},
 
 	thirdParty: {

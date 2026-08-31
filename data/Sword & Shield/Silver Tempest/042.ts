@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a body of ice that won't melt, even with fire. It can instantly freeze moisture in the atmosphere.",
+		de: "Seinen Eiskörper bringt nichts zum Schmelzen, auch Feuer nicht. Es kann Feuchtigkeit in der Luft sofort in Eis verwandeln."
 	},
 
 	variants: [

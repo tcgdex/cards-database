@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Darkness de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Darkness dalla tua pila degli scarti.",
 				pt: "Ligue um card de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Darkness-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 1 {D}-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+				de: "Wirf 1 Münze. Bei „Zahl“ kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 100,
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		de: "Neigt sich seine Lebensspanne dem Ende zu, entzieht es anderen Lebewesen deren Energie und verwandelt sich zurück in einen Kokon."
 	},
 
 	thirdParty: {

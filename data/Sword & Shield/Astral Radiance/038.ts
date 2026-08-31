@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
+		de: "Dieses Pokémon ist in der Lage, seine Körpertemperatur rapide zu senken. Es lässt die Luft gefrieren und bringt dadurch feine Eiskristalle zum Tanzen, die wie Edelsteine glitzern."
 	},
 
 	variants: [

@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
+		de: "Es verteilt über das gelbe Muster auf seinem Körper starke Stromstöße. Immer wenn es Strom absondert, grinst es. Niemand weiß, wieso."
 	},
 
 	variants: [

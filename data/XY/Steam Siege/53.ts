@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sala cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far.",
+		de: "Es ist immer außerordentlich wütend. Nimmt es die Verfolgung auf, bleibt es dem Opfer hartnäckig auf den Fersen, egal wie weit oder wie lange."
 	},
 
 	thirdParty: {

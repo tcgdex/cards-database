@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		de: "Puppance"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that it originates from clay dolls made by an ancient civilization.",
+		de: "In die Puppe, die Menschen vor 20 000 Jahren aus Lehm formten, ist anscheinend Leben eingefahren."
 	},
 
 	thirdParty: {

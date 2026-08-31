@@ -68,7 +68,7 @@ const card: Card = {
 			es: "Este ataque hace 100 puntos de daño a cada uno de los Pokémon ex y Pokémon V de tu rival. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
 			it: "Questo attacco infligge 100 danni a ciascuno dei Pokémon-ex e dei Pokémon-V del tuo avversario. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
 			pt: "Este ataque causa 100 pontos de dano a cada um dos Pokémon ex e Pokémon V do seu oponente. O dano deste ataque não é afetado por Fraqueza ou Resistência.",
-			de: "Diese Attacke fügt jedem Pokémon-ex und Pokémon-V deines Gegners 100 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert."
+			de: "Diese Attacke fügt jedem Pokémon-ex  und Pokémon-V deines Gegners 100 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 		}
 	}],
 

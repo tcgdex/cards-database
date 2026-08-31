@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Buzzwole",
 		fr: "Mouscoto",
+		de: "Masskito"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sledgehammer",
 				fr: "Coup de Masse",
+				de: "Vorschlaghammer"
 			},
 			effect: {
 				en: "If your opponent has exactly 4 Prize cards remaining, this attack does 90 more damage.",
 				fr: "S’il reste exactement 4 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				de: "Wenn dein Gegner genau 4 verbleibende Preiskarten hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: 30,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Swing Around",
 				fr: "Balançoire",
+				de: "Gegenschwung"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: 80,
 
@@ -70,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
+		de: "Eine rätselhafte Ultrabestie, die angeblich mit einem einzigen Schlag einen beladenen Laster pulverisieren kann."
 	},
 }
 

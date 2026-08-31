@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Puedes unir 1 carta de Energía Fire de tu mano a 1 de tus Pokémon en Banca.",
 				it: "Puoi assegnare una carta Energia Fire dalla tua mano a uno dei tuoi Pokémon in panchina.",
 				pt: "Você pode ligar 1 carta de Energia Fire da sua mão a 1 dos seus Pokémon no Banco.",
-				de: "Du kannst 1 Fire-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
+				de: "Du kannst 1 {R}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
 			},
 			damage: 30,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		de: "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen."
 	},
 
 	thirdParty: {

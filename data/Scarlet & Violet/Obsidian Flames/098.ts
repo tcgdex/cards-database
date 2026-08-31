@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The tea that composes Polteageist's body has a distinct and enjoyable flavor. Drinking too much, however, can be fatal.",
+		de: "Sein aus Schwarztee bestehender Körper hat ein markantes, doch angenehmes Aroma. Übermäßiger Genuss kann aber zum Tod führen."
 	},
 
 	variants: [

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+		de: "Je länger es Sonnenlicht tankt, desto intensiver werden die Scharfstoffe in seinem Körper und umso pikanter fallen seine Attacken aus."
 	},
 
 	variants: [

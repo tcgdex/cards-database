@@ -91,7 +91,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
+		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains.",
+		de: "Man sagt, es sei aus Dunkelheit entstanden, um denjenigen, die sich in den Bergen verirrt haben, das Leben zu rauben."
 	},
 
 	variants: [

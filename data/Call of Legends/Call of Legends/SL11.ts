@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Suicune's Retreat Cost is Colorless less for each Water Energy attached to Suicune.",
 				fr: "Le Coût de retraite de Suicune est Colorless de moins pour chaque Énergie Water attachée à Suicune.",
-				de: "Die Rückzugskosten von Suicune verringern sich für jede an Suicune angelegte -Energie um ."
+				de: "Die Rückzugskosten von Suicune verringern sich für jede an Suicune angelegte {W}-Energie um {C}."
 			},
 		},
 	],
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.",
+		de: "Dieses Pokémon jagt über das Land. Man sagt, der kalte Nordwind begleite es auf seinen Wegen."
 	},
 
 	variants: [

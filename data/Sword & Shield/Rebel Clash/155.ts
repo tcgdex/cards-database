@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon Fire al que está unida esta carta está en el Puesto Activo y resulta dañado por un ataque de tu rival (incluso si queda Fuera de Combate), el Pokémon Atacante pasa a estar Quemado.",
 		it: "Se il Pokémon Fire a cui è assegnata questa carta è in posizione attiva e viene danneggiato da un attacco dell'avversario, anche se viene messo KO, il Pokémon attaccante viene bruciato.",
 		pt: "Se o Pokémon Fire ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque do seu oponente (mesmo que ele seja Nocauteado), o Pokémon Atacante ficará Queimado.",
-		de: "Wenn das Fire-Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das {R}-Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it bites, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+		de: "Dieses Pokémon saugt dem Gegner selbst dann noch Energie ab, wenn es zu schwer zum Fliegen wird."
 	},
 
 	thirdParty: {

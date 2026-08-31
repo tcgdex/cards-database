@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "They don't like to reveal themselves in front of people. They live quietly in packs deep in the mountains.",
+		de: "Es zeigt sich Menschen nur ungern und führt zusammen mit anderen Artgenossen ein abgeschiedenes Leben tief in den Bergen."
 	},
 
 	thirdParty: {

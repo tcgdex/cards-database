@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+		de: "Dieses Pokémon ist für gewöhnlich sehr gelassen, doch sobald ein Kampf beginnt, streckt es den Gegner mit blitzschnellen Bewegungen zu Boden."
 	},
 }
 

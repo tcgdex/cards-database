@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Doduo",
 		fr: "Doduo",
+		de: "Dodu"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Double Stab",
 				fr: "Entaille Double",
+				de: "Doppelstich"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Doduo Delivery",
 				fr: "Livraison Doduo",
+				de: "Dodu-Lieferung"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -75,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		de: "Die Gehirne der beiden Köpfe kommunizieren ihre Gefühle über Telepathie."
 	},
 
 	thirdParty: {

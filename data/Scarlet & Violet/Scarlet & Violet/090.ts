@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drifloon",
-		fr: "Baudrive"
+		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
+		de: "Indem es Gas in seinem Körper erzeugt und wieder ausstößt, reguliert es seine Flughöhe."
 	},
 
 	thirdParty: {

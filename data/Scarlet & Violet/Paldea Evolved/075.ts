@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+		de: "Wird seine Kolonie angegriffen, stürzt es sich sofort in den Kampf und besiegt den Feind mit Kampftechniken, die auf Elektroschocks setzen."
 	},
 }
 

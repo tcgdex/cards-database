@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of -40 degrees Fahrenheit.",
+		de: "Unter seinem hellblauen Pelz liegt eine dicke und feste Haut. Es ist bei frostigen -40 °C noch aktiv."
 	},
 
 	thirdParty: {

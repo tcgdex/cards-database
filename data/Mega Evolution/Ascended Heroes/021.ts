@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		de: "Es schlägt mit dem Schwanz um sich und stößt damit seine Gegner um. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen."
 	},
 
 	variants: [

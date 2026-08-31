@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes usar esta habilidad. Todas las Energías unidas a tus Pokémon son Energías Fire en vez de su tipo habitual hasta el final de tu turno. (Esto incluye cartas que entran en juego durante este turno).",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi usare questa abilità. Tutte le Energie assegnate ai tuoi Pokémon sono Energie Fire anziché del loro solito tipo fino alla fine del tuo turno, incluse le carte che entrano in gioco in questo turno.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode usar esta Habilidade. Todas as Energias ligadas aos seus Pokémon são Energias Fire ao invés do seu tipo usual até o final da sua vez de jogar (isto inclui cartas que entrarem em jogo nesta rodada).",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du diese Fähigkeit einsetzen. Bis zum Ende deines Zuges sind alle an deine Pokémon angelegten Energien Fire-Energien anstelle ihres normalen Typs. (Dies schließt Karten, die während dieses Zuges ins Spiel gebracht werden, ein.)"
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du diese Fähigkeit einsetzen. Bis zum Ende deines Zuges sind alle an deine Pokémon angelegten Energien {R}-Energien anstelle ihres normalen Typs. (Dies schließt Karten, die während dieses Zuges ins Spiel gebracht werden, ein.)"
 			},
 		},
 	],
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		de: "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen."
 	},
 
 	thirdParty: {

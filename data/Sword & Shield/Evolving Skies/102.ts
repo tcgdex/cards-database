@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua.",
+		de: "Wenn man einem normalerweise geschwätzigen Kind begegnet, das plötzlich keinen Ton mehr spricht, könnte es ein verwandeltes Zorua sein."
 	},
 
 	dexId: [570],

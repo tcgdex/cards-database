@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si tienes exactamente 4 cartas en tu mano, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
 			it: "Se hai esattamente quattro carte in mano, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
 			pt: "Se você tiver exatamente 4 cartas na sua mão, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-			de: "Wenn du genau 4 Karten auf deiner Hand hast, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+			de: "Wenn du genau 4 Karten auf deiner Hand hast, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
 		}
 	}],
 
@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		de: "Mit Yoga-Training hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus."
 	},
 
 	variants: [

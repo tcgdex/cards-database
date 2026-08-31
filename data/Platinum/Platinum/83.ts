@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Take Back",
 				fr: "Reprendre",
-				de: "Take Back"
+				de: "Zurücknehmen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy."
+		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
+		de: "Ein Pokémon, das Menschen mitten in der Nacht erschreckt. Es sammelt die Angst als seine Energie."
 	},
 
 	variants: [

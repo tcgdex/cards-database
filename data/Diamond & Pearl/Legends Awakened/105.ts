@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Root Fossil",
 		fr: "Wurzelfossil",
+		de: "Wurzelfossil"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
-		fr: "Il vivait au fond de la mer il y a 100 millions d'années. La science a permis de le ressusciter."
+		fr: "Il vivait au fond de la mer il y a 100 millions d'années. La science a permis de le ressusciter.",
+		de: "Vor 100 Millionen Jahren lebte dieses PKMN auf dem Meeresgrund. Die Wissenschaft belebte es neu."
 	},
 
 	thirdParty: {

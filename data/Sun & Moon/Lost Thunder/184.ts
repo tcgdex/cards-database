@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar 2 cartas de Hierbas Combinadas de una vez.\n\n• Si has jugado 1 carta, elimina 1 Condición Especial de tu Pokémon Activo.\n• Si has jugado 2 cartas, cura 90 puntos de daño y elimina todas las Condiciones Especiales de tu Pokémon Activo. (Este efecto funciona 1 vez por 2 cartas).",
 		it: "Puoi giocare due carte Infuso di Erbe alla volta.\n\n• Se giochi una carta, rimuovi una condizione speciale dal tuo Pokémon attivo.\n• Se giochi due carte, cura il tuo Pokémon attivo da 90 danni e rimuovi tutte le condizioni speciali che lo influenzano (questo effetto si applica una volta ogni due carte).",
 		pt: "Você pode jogar 2 cartas Mistura de Ervas de uma vez.\n\n• Se você jogou 1 carta, remova 1 Condição Especial do seu Pokémon Ativo.\n• Se você jogou 2 cartas, cure 90 pontos de dano e remova todas as Condições Especiais do seu Pokémon Ativo (este efeito funciona uma vez para 2 cartas).",
-		de: "Du kannst 2 Kräutermischung-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, entferne 1 Speziellen Zustand von deinem Aktiven Pokémon.\n• Wenn du 2 Karten gespielt hast, heile 90 Schadenspunkte und entferne alle Speziellen Zustände von deinem Aktiven Pokémon. (Dieser Effekt funktioniert einmal für 2 Karten.)"
+		de: "Du kannst 2 Kräutermischung-Karten gleichzeitig spielen. Wenn du 1 Karte gespielt hast, entferne 1 Speziellen Zustand von deinem Aktiven Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen. Wenn du 2 Karten gespielt hast, heile 90 Schadenspunkte und entferne alle Speziellen Zustände von deinem Aktiven Pokémon. (Dieser Effekt funktioniert einmal für 2 Karten.)"
 	},
 
 	trainerType: "Item",

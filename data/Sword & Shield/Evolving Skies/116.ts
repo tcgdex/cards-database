@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Descarta cualquier cantidad de Energías Water de tus Pokémon. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
 			it: "Scarta tutte le Energie Water che vuoi dai tuoi Pokémon. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.",
-			de: "Lege beliebig viele Water-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu."
+			de: "Lege beliebig viele {W}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu."
 		},
 
 		damage: "60×",
@@ -48,7 +48,8 @@ const card: Card = {
 	dexId: [646],
 
 	description: {
-		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
 	regulationMark: "E",

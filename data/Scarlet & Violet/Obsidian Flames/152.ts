@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+		de: "Sie leben in Gruppen. Doch wenn die Zeit reif ist, nimmt ein starkes Meltan seine Artgenossen in sich auf und entwickelt sich."
 	},
 
 	variants: [

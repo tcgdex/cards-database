@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dartrix",
 		fr: "Efflèche",
+		de: "Arboretoss"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
+		de: "Dieses Pokémon kann die Federn seiner Flügel wie Pfeile verschießen. Dabei ist es so präzise, dass es einen Kiesel auf 100 m durchbohrt."
 	},
 
 	thirdParty: {

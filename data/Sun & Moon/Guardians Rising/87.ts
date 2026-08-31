@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
+		de: "Es heißt, es komme aus einer anderen Welt. Sein ganzer Körper leuchtet strahlend hell und macht die finsterste Nacht zum Tage."
 	},
 
 	thirdParty: {

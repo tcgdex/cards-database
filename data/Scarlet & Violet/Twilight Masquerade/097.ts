@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "No matter how high a place it falls from, this Pokémon can save itself by rolling into a ball and bouncing.",
+		de: "Egal, aus welcher Höhe dieses Pokémon fällt, es kann den Sturz abfangen, indem es sich zusammenrollt und vom Boden abprallt."
 	},
 
 	variants: [

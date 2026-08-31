@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies."
+		en: "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies.",
+		de: "Seine dünne Haut erleidet bei Sonnenlicht Verbrennungen. Bei Kälte schmiegt es sich an seine Artgenossen, um sich zu wärmen."
 	},
 
 	variants: [

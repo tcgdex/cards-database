@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove a number of damage counters from 1 of your Benched Pokémon equal to the number of Energy cards attached to Shining Celebi. If the Pokémon has fewer damage counters than that, remove all of them.",
-				fr: "Retirez un nombre de marqueurs de dégâts sur un des Pokémon de votre Banc égal au nombre d'Énergies  attachées à Celebi brillant. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous.",
+				fr: "Retirez un nombre de marqueurs de dégâts sur un des Pokémon de votre Banc égal au nombre d'Énergies {W} attachées à Celebi brillant. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous.",
 				de: "Entferne so viele Schadensmarken von einem deiner Pokémon, wie {W}-Energie an Schimmerndes Celebi angelegt sind. Wenn dieses Pokémon weniger Schadensmarken hat, entferne alle."
 			},
 

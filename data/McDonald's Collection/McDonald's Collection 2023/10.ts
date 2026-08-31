@@ -38,6 +38,7 @@ const card: Card = {
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
 				en: "Skull Bash",
+				de: "Schädelwumme"
 			},
 			damage: 30,
 		},
@@ -45,9 +46,11 @@ const card: Card = {
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
 				en: "Sandstorm Spray",
+				de: "Sandsturmspray"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Wenn du auf diese Weise mindestens 1 Energie auf deinen Ablagestapel gelegt hast, mischt dein Gegner sein Aktives Pokémon und alle angelegten Karten in sein Deck."
 			},
 		},
 	],

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,7 @@ const card: Card = {
 				es: "Si alguno de los Pokémon de tu rival tiene alguna Energía Water unida a él, puedes hacer 90 puntos de daño a 1 de los Pokémon en Banca de tu rival en vez de a su Pokémon Activo. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Se uno qualsiasi dei Pokémon del tuo avversario ha delle Energie Water assegnate, puoi infliggere 90 danni a uno dei Pokémon nella panchina del tuo avversario invece che al suo Pokémon attivo. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Se algum dos Pokémon do seu oponente tiver alguma Energia Water ligada a ele, você poderá causar 90 pontos de dano a 1 dos Pokémon no Banco do seu oponente ao invés de causar dano ao Pokémon Ativo dele(a) (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Wenn an die Pokémon deines Gegners mindestens 1 Water-Energie angelegt ist, kannst du 1 Pokémon auf der Bank deines Gegners anstelle seines Aktiven Pokémon 90 Schadenspunkte zufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wenn an die Pokémon deines Gegners mindestens 1 {W}-Energie angelegt ist, kannst du 1 Pokémon auf der Bank deines Gegners anstelle seines Aktiven Pokémon 90 Schadenspunkte zufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 90,
 
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Even fast-swimming fish Pokémon can be disabled by Golduck. It brings them to a standstill and seizes them.",
+		de: "Es bringt selbst schnelle Fisch-Pokémon zum Stillstand und ergreift sie anschließend mit Leichtigkeit."
 	},
 
 	thirdParty: {

@@ -101,7 +101,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps."
+		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps.",
+		de: "Sobald es ein anderes Pokémon als Feind erkennt, schlägt es dieses mit seinen stahlharten Scheren gnadenlos in Stücke."
 	},
 
 	variants: [

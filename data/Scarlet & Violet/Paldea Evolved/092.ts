@@ -112,6 +112,7 @@ const card: Card = {
 
 	description: {
 		en: "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
+		de: "Es entfesselt Psycho-Kräfte und lässt Gegner so vom Ende des Universums träumen. Man sagt, diese Träume seien ätherisch und wunderschön."
 	},
 }
 

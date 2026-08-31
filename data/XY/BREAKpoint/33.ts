@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen. Es verständigt sich über den Rhythmus dieser Wellen."
 	},
 
 	thirdParty: {

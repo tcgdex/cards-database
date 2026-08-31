@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife.",
+		de: "In Neumondnächten klopft Pumpdjinn an die Eingangstüren der Häuser. Wer sie ihm öffnet, wird von ihm ins Jenseits entführt."
 	},
 
 	variants: [

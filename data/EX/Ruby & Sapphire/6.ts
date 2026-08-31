@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cascoon",
-		fr: "Blindalys"
+		fr: "Blindalys",
+		de: "Panekon"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Protective Dust",
 				fr: "Poussière protectrice",
-				de: "Protective Dust"
+				de: "Schützender Staub"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
 				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant.",
-				de: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon."
+				de: "Verhindere alle Effekte von Angriffen außer Schaden, die Pudox von dem Angreifenden Pokémon zugefügt werden."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Toxic",
 				fr: "Toxik",
-				de: "Toxic"
+				de: "Toxin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours.",
-				de: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the defending Pokémon between turns."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -71,7 +72,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
-				de: "Gust"
+				de: "Windstoß"
 			},
 
 			damage: 50,

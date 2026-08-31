@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes dejar Fuera de Combate a este Pokémon y unirlo a 1 de tus Pokémon Lightning como carta de Energía Especial. Esta carta proporciona 2 Energías Lightning solo mientras esta carta esté unida a un Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi mettere KO questo Pokémon e assegnarlo a uno dei tuoi Pokémon Lightning come una carta Energia speciale. Questa carta fornisce due Energie Lightning solo quando è assegnata a un Pokémon.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode Nocautear este Pokémon e o ligar a um dos seus Pokémon Lightning como um card de Energia Especial. Este card fornece 2 Energias Lightning somente quando está ligado a um Pokémon.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dieses Pokémon kampfunfähig machen und an 1 deiner Lightning-Pokémon als 1 Spezial-Energiekarte anlegen. Diese Karte liefert nur dann 2 Lightning-Energien, wenn sie an ein Pokémon angelegt ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dieses Pokémon kampfunfähig machen und an 1 deiner {L}-Pokémon als 1 Spezial-Energiekarte anlegen. Diese Karte liefert nur dann 2 {L}-Energien, wenn sie an ein Pokémon angelegt ist."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		de: "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider."
 	},
 
 	thirdParty: {

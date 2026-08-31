@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Si vous jouez en premier, vous pouvez utiliser cette carte pendant votre premier tour.\n\nCherchez dans votre deck jusqu'à 3 Pokémon de la Team Rocket de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		es: "Si sales en primer lugar, puedes usar esta carta durante tu primer turno.\n\nBusca en tu baraja hasta 3 Pokémon del Team Rocket Básicos, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		'es-mx': "Si sales en primer lugar, puedes usar esta carta durante tu primer turno.\n\nBusca en tu mazo hasta 3 Pokémon del Equipo Rocket Básicos, muéstralos y ponlos en tu mano. Después, baraja las cartas de tu mazo.",
-		de: "Wenn du als Erster am Zug bist, kannst du diese Karte während deines ersten Zuges einsetzen.\n\nDurchsuche dein Deck nach bis zu 3 Basis-Team-Rockets-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+		de: "Wenn du als Erster am Zug bist, kannst du diese Karte während deines ersten Zuges einsetzen. Durchsuche dein Deck nach bis zu 3 Basis-Team-Rockets-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Se inizi per primo, puoi usare questa carta durante il tuo primo turno.\n\nCerca nel tuo mazzo fino a tre Pokémon del Team Rocket Base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia\nle carte del tuo mazzo.",
 		pt: "Se você for o primeiro a jogar, poderá usar esta carta durante o seu primeiro turno.\n\nProcure por até 3 Pokémon da Equipe Rocket Básicos no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
 	},

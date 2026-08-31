@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Water"],
 			name: {
 				en: "Icicle",
+				de: "Eiszapfen"
 			},
 			damage: 10,
 		},
@@ -36,6 +37,7 @@ const card: Card = {
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
 				en: "Sharp Fin",
+				de: "Schneidige Flosse"
 			},
 			damage: 50,
 		},

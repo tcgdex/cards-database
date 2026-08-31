@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
+		de: "Es wurde aus einem Fossil zurückverwandelt. Wie von Forschern vermutet, kann Flapteryx zwar nicht fliegen, dafür aber umso besser springen."
 	},
 
 	variants: [

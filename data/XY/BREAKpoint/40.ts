@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Puedes devolver 1 Energía Water de este Pokémon a tu mano. Si lo haces, este ataque hace 20 puntos de daño más.",
 				it: "Puoi riprendere in mano un'Energia Water assegnata a questo Pokémon. Se lo fai, questo attacco infligge 20 danni in più.",
 				pt: "Você pode retornar uma Energia Water deste Pokémon para a sua mão. Se fizer isso, este ataque causará 20 de danos adicionais.",
-				de: "Du kannst 1 Water-Energie von diesem Pokémon zurück auf deine Hand nehmen. Wenn du das machst, fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Du kannst 1 {W}-Energie von diesem Pokémon zurück auf deine Hand nehmen. Wenn du das machst, fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+		de: "Kaum hat man es erspäht, verschwindet es auch schon wieder. Mit der Agilität eines Ninjas verwirrt es seine Gegner, um sie dann mit Wasser-Shuriken anzugreifen."
 	},
 
 	thirdParty: {

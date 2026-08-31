@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
+		de: "Schlapor behält seine Umgebung stets im Auge. Wenn Gefahr im Verzug ist, setzt es sich mit vernichtenden Tritten zur Wehr."
 	},
 
 	variants: [

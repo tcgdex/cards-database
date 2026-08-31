@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Grass de tu mano. Si lo haces, roba 3 cartas.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Grass che hai in mano. Se lo fai, pesca tre carte.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode descartar um card de Energia Grass da sua mão. Se fizer isso, compre 3 cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Grass-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {G}-Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+		de: "Dieses Pokémon wurde als Wächter des Waldes gefürchtet. Es kann die Gedanken des Gegners lesen und präventiv handeln."
 	},
 
 	thirdParty: {

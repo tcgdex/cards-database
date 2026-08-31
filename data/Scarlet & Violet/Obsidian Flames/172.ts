@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
+		de: "Seinen üppigen Schnauzbart trägt es mit Stolz. Angeblich entscheidet dessen Länge über die Rangordnung innerhalb dieser Pokémon-Art."
 	},
 
 	variants: [

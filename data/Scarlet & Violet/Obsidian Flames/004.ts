@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+		de: "Es bahnt sich mit seinen scharfen Sicheln so schnell einen Weg durch das Gras, dass es dabei für das menschliche Auge unsichtbar ist."
 	},
 
 	variants: [

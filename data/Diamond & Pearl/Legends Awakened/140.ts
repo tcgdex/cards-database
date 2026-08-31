@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Each of your Psychic Pokémon has no Weakness.",
 				fr: "Chacun de vos Pokémon Psychic ne possède pas de Faiblesse.",
-				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
+				de: "Jedes deiner {P}-Pokémon hat keine Schwäche mehr."
 			},
 		},
 	],

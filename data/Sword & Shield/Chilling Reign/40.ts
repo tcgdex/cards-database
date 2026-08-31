@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini."
+		en: "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.",
+		de: "Man bezeichnet es zwar als Schutzpatron, doch all jene, die sich ihm unbedacht nähern, werden von furchtbaren Katastrophen heimgesucht."
 	},
 
 	variants: [

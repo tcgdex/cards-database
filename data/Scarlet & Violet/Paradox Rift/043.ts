@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
+		de: "Es entstand angeblich aus einem Eiszapfen und speit -50 ºC kalte Luft aus, um die Umgebung auf seine Wohlfühltemperatur abzukühlen."
 	},
 
 	variants: [

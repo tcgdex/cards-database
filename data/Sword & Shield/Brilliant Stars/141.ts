@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 Pokémon Básicos que no tengan un recuadro de regla y ponlos en tu Banca. Después, baraja las cartas de tu baraja. (Pokémon V, Pokémon-GX, etc. tienen recuadros de regla).",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon Base che non hanno una regola speciale e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo. I Pokémon-V, i Pokémon-GX, ecc. hanno regole speciali.",
 		pt: "Procure por até 3 Pokémon Básicos no seu baralho que não tenham uma Caixa de Regras e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras).",
-		de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon, die kein Regelfeld haben, und lege sie auf deine Bank. Mische anschließend dein Deck. (Pokémon-V, Pokémon-GX, usw. haben Regelfelder.)"
+		de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon, die kein Regelfeld haben und lege sie auf deine Bank. Mische anschließend dein Deck. (Pokémon-V, Pokémon-GX usw. haben Regelfelder.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

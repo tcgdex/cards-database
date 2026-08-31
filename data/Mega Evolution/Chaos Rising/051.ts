@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+		de: "Seine zwei Beine wurden zu Flügeln. Es fliegt schnell und lautlos zu seiner Beute, um ihr dann die Zähne in den Nacken zu bohren."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Golbat"
+		en: "Golbat",
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -96,13 +99,6 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 888531,
-				tcgplayer: 694630
-			}
-		},
-		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 886443,
@@ -114,6 +110,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 886443,
 				tcgplayer: 693470
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888531,
+				tcgplayer: 694636
 			}
 		},
 	],

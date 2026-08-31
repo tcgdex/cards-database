@@ -45,7 +45,7 @@ const card: Card = {
 			es: "Enseña cualquier cantidad de cartas de Golpe Fluido de tu mano. Este ataque hace 40 puntos de daño por cada carta que hayas enseñado de esta manera. Después, pon esas cartas en tu baraja y barájalas todas.",
 			it: "Mostra un numero qualsiasi di carte Colpo Rapido che hai in mano. Questo attacco infligge 40 danni per ogni carta che hai mostrato in questo modo. Poi rimischia quelle carte nel tuo mazzo.",
 			pt: "Revele qualquer número de cartas Golpe Fluido da sua mão. Este ataque causa 40 pontos de dano para cada carta revelada desta forma. Em seguida, embaralhe aquelas cartas no seu baralho.",
-			de: "Zeige deinem Gegner beliebig viele Fließender-Angriff-Karten auf deiner Hand. Diese Attacke fügt für jede auf diese Weise gezeigte Karte 40 Schadenspunkte zu. Mische jene Karten anschließend in dein Deck."
+			de: "Zeige deinem Gegner beliebig viele Fließender-Angriff-Karten aus deiner Hand. Diese Attacke fügt für jede auf diese Weise gezeigte Karte 40 Schadenspunkte zu. Mische jene Karten anschließend in dein Deck."
 		},
 
 		damage: "40×",
@@ -69,7 +69,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events."
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
+		de: "Man erzählt sich, dass die hypnotischen Kräfte dieses Pokémon mit einigen geschichtsträchtigen Ereignissen in Verbindung stehen."
 	},
 
 	variants: [

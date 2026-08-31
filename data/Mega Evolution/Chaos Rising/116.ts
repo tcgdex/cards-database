@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal",
+		de: "Amphizel"
 	},
 
 	stage: "Stage2",

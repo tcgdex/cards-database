@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -48,7 +48,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment."
+		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+		de: "Es strotzt vor Lebenskraft und kann in jeder Umgebung leben. Es ist extrem vorsichtig."
 	},
 
 	variants: [

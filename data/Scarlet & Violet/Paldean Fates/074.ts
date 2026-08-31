@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+		de: "In Kämpfen beschützt das größere Paar die Kleinen. Um sich starken Gegnern zu stellen, schließen sich alle zusammen."
 	},
 
 }

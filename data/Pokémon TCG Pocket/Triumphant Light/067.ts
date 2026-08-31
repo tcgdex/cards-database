@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Starly"
+		en: "Starly",
+		fr: "Étourmi",
+		de: "Staralili"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Conscient de sa faiblesse, il vit toujours en groupe.\nQuand il se retrouve seul, il se met à piailler bruyamment.",
 		es: "Son conscientes de su debilidad, así que siempre viven\nen grupo. Si se encuentran solos, lloran a gritos.",
 		it: "Conscio della propria debolezza, forma grandi\ngruppi con i propri simili. Quando si ritrova\nsolo, canta con voce insistente e fastidiosa.",
-		de: "Da sie sich ihrer eigenen Schwäche bewusst sind,\nleben Staravia stets in Schwärmen. Sind sie allein,\nstoßen sie laute Rufe aus.",
+		de: "Da sie sich ihrer eigenen Schwäche bewusst sind, leben Staravia stets in Schwärmen. Sind sie allein, stoßen sie laute Rufe aus.",
 		'pt-br': "Reconhecendo suas próprias fraquezas, eles sempre vivem\nem grupo. Quando sozinho, um Staravia chora\nde forma ruidosa.",
 		ko: "자신의 약함을 잘 알고 있기에\n항상 무리를 지어 살고 있다.\n혼자가 되면 요란하게 운다."
 	},

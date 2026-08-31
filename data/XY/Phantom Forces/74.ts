@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Darkness de tu pila de descartes a tu Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare al tuo Pokémon attivo una carta Energia Darkness dalla tua pila degli scarti.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Darkness da sua pilha de descarte ao seu Pokémon Ativo.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Darkness-Energiekarte von deinem Ablagestapel an dein Aktives Pokémon anlegen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {D}-Energiekarte von deinem Ablagestapel an dein Aktives Pokémon anlegen."
 			},
 		},
 	],
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Their heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+		de: "Die Köpfe an seinen beiden Armen haben kein eigenes Gehirn. Seine drei Mäuler kauen alles radikal kurz und klein."
 	},
 
 	thirdParty: {

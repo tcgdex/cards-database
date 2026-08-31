@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It is thought that Uxie, Mesprit and Azelf all came from the same egg.",
+		de: "Man glaubt, dass Selfe, Vesprit und Tobutz alle aus demselben Ei kamen."
 	},
 
 	thirdParty: {

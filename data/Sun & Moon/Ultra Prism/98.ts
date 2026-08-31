@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gible",
 		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Shiny objects are its passion. It can be found in its cave, scarcely moving, its gaze fixed on the jewels it's amassed or Carbink it has caught.",
+		de: "Es liebt funkelnde Dinge. Edelsteine und gefangene Rocara nimmt es mit in sein Nest, um sich an ihrem Anblick zu weiden."
 	},
 
 	thirdParty: {

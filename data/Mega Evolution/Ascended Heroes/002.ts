@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "MARINA Chikazawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [44],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -68,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
+		de: "Es scheidet klebrigen, speichelähnlichen Nektar aus. Obwohl dieser sehr süß ist, stinkt er so schlimm, dass man sich ihm nicht nähern kann."
 	},
 
 	variants: [

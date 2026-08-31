@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
+				de: "Lege alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Si tienes menos de 10 cartas de Energía Fire en tu pila de descartes, este ataque no hace nada. Pon 10 cartas de Energía Fire de tu pila de descartes en tu baraja y barájalas todas.",
 				it: "Se hai meno di dieci carte Energia Fire nella tua pila degli scarti, questo attacco non ha effetto. Rimischia dieci carte Energia Fire dalla tua pila degli scarti nel tuo mazzo.",
 				pt: "Se você possuir menos de 10 cards de Energia Fire na sua pilha de descarte, este ataque não fará nada. Embaralhe 10 cards de Energia Fire da sua pilha de descarte em seu baralho.",
-				de: "Wenn du weniger als 10 Fire-Energiekarten in deinem Ablagestapel hast, hat dieser Angriff keine Auswirkungen. Mische 10 Fire-Energiekarten aus deinem Ablagestapel in dein Deck."
+				de: "Wenn du weniger als 10 {R}-Energiekarten in deinem Ablagestapel hast, hat dieser Angriff keine Auswirkungen. Mische 10 {R}-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 			damage: 200,
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+		de: "Es hält den Gegner mit flinken Bewegungen zum Narren. Im Kampf setzt es alle Gliedmaßen ein."
 	},
 
 	thirdParty: {

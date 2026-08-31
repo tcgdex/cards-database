@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Si tienes alguna carta de Energía Lightning en la Zona Perdida, este ataque hace 90 puntos de daño más.",
 				it: "Se hai delle carte Energia Lightning nell’area perduta, questo attacco infligge 90 danni in più.",
 				pt: "Se você tiver alguma carta de Energia Lightning na Zona Perdida, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn du mindestens 1 Lightning-Energiekarte im Nirgendwo hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				de: "Wenn du mindestens 1 {L}-Energiekarte im Nirgendwo hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity.",
+		de: "Dieses aggressive Pokémon speichert Energie in seinem Körper und entlädt sie, wenn es über das Land streift."
 	},
 
 	thirdParty: {

@@ -4,7 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Boost Energy",
-		fr: "Boost Energy"
+		fr: "Énergie super"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",

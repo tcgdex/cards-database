@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
+		de: "Seine kräftigen Scheren sind robuste Waffen. Sie sind hart genug, um selbst in den Schützern von Rihornior Risse zu hinterlassen."
 	},
 
 	variants: [

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon uses its rocky mane to slash any who approach. It will even disobey its Trainer if it dislikes the orders it was given.",
+		de: "Mit seiner steinernen Mähne schaltet es jeden aus, der sich ihm nähert. Den Anweisungen seines Trainers folgt es nur, wenn diese ihm zusagen."
 	},
 
 	variants: [

@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+		de: "Es baut an dunklen Orten Labyrinthe. Wird es von jemandem entdeckt, gräbt es mit seinem Schwanz ein Loch und versucht so zu entkommen."
 	},
 }
 

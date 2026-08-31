@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+		de: "Seine zwei Schwerter wechseln sich in einer hektischen Aufeinanderfolge von Angriff und Verteidigung ab, um seine Beute zu erlegen."
 	},
 
 	variants: [

@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like.",
+		de: "Fühlt es sich wohl, erhöht sich die Klebrigkeit seines Nasenschleims. Wer es verärgert, wird damit angeschmiert."
 	},
 
 	variants: [

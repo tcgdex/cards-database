@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabominable"
+		en: "Crabominable",
+		fr: "Crabominable"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Crabrawler"
+		en: "Crabrawler",
+		fr: "Crabagarre"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Last-Chance Punch"
+			en: "Last-Chance Punch",
+			fr: "Coup d'Poing Désespéré"
 		},
 
 		damage: 30,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "If this Pokémon's remaining HP is 30 or less, this attack does 60 more damage."
+			en: "If this Pokémon's remaining HP is 30 or less, this attack does 60 more damage.",
+			fr: "S'il reste 30 PV ou moins à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires."
 		}
 	}],
 

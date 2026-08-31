@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [115],
 	hp: 230,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -64,7 +65,7 @@ const card: Card = {
 			fr: "Si vous avez joué de votre main une carte Supporter ayant \" Team Rocket \" dans son nom pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Si has jugado una carta de Partidario de tu mano que tenga \"Team Rocket\" en su nombre durante este turno, este ataque hace 100 puntos de daño más.",
 			'es-mx': "Si jugaste alguna carta de Partidario de tu mano que tenga \"Equipo Rocket\" en su nombre durante este turno, este ataque hace 100 puntos de daño más.",
-			de: "Wenn du eine Unterstützerkarte, bei der \"Team Rocket\" zum Namen gehört, während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			de: "Wenn du eine Unterstützerkarte, bei der „Team Rocket“ zum Namen gehört, während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 100 Schadenspunkte mehr zu.",
 			it: "Se hai giocato una carta Aiuto che ha \"Team Rocket\" nel nome dalla tua mano durante questo turno, questo attacco infligge 100 danni in più.",
 			pt: "Se você jogou uma carta de Apoiador que tem \"Equipe Rocket\" em seu nome da sua mão durante este turno, este ataque causará 100 pontos de dano a mais."
 		},

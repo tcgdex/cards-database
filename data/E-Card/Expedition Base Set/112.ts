@@ -28,12 +28,12 @@ const card: Card = {
 		name: {
 			en: "Sleep Powder",
 			fr: "Poudre dodo",
-			de: "Dornkanone"
+			de: "Schlafpuder"
 		},
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 			fr: "Le Pokémon Défenseur est maintenant Endormi.",
-			de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			de: "Das Verteidigende Pokémon schläft jetzt."
 		},
 		damage: "20x",
 

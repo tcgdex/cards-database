@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
+		de: "Seine zarten Flügel sind so dünn, dass man hindurchsehen kann. Beim Fliegen wirbelt es mit diesen jedoch einen starken Wind auf, der selbst ganze Häuser wegzufegen vermag."
 	},
 
 	variants: [

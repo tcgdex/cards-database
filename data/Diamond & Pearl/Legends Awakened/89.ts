@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Lancez une pièce. Si c'est face, choisissez sans regarder une carte de la main de votre adversaire et défaussez-la.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
-		fr: "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
+		fr: "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise.",
+		de: "Ein robustes PKMN, das sich jeder Umgebung anpassen kann. Seine Zangen geben keine Beute frei."
 	},
 
 	thirdParty: {

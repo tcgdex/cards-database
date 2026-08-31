@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It's Seviper's archrival. To threaten those it encounters, it fans out the claws on its front paws.",
+		de: "Dieses Pokémon ist der Erzfeind von Vipitis. Begegnet es ihm, fährt es unverzüglich die Klauen an den Vorderbeinen aus, um es einzuschüchtern."
 	},
 
 	thirdParty: {

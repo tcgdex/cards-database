@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei 'Zahl' fügt sich Waaty selber 20 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt sich Waaty selber 20 Schadenspunkte zu."
 			},
 			damage: 50,
 

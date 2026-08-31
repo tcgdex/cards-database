@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+		de: "Je größer und länger die Stoßzähne, desto höher ist ihr Rang in der Herde, doch das dauert lange."
 	},
 
 	variants: [

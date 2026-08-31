@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokemon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
+		de: "Dieses Pokémon hat einen Putzfimmel. Es benutzt seinen Schweif als Staubwedel und fegt seinen Bau, bis alles picobello ist."
 	},
 
 

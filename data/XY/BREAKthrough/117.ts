@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
 				it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
 				pt: "Enquanto este Pokémon estiver no seu Banco, o Custo para Recuar do seu Pokémon Ativo é ColorlessColorless menor.",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
+				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um {C}{C}."
 			},
 		},
 	],
@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 40 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+		de: "Ein seltsames Exemplar, das nur selten gefunden wird. Die drei Köpfe repräsentieren Freude, Trauer und Wut."
 	},
 
 	thirdParty: {

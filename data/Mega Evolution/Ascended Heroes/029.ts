@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		de: "Es weicht flink gegnerischen Angriffen aus und schießt Feuerbälle aus seinem Rüssel. Bevor es Beeren verspeist, röstet es sie mit Flammen."
 	},
 
 	variants: [
@@ -76,7 +77,7 @@ const card: Card = {
 		}
 	},
 	{
-		type: "reverse",
+		type: "holo",
 		foil: "cosmos",
 		thirdParty: {
 			cardmarket: 878075,

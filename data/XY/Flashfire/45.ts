@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+		de: "Wanderer stolpern in den Bergen häufig über dieses Pokémon, da es wie ein Stein aussieht."
 	},
 
 	thirdParty: {

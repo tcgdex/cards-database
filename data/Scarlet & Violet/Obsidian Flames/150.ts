@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+		de: "Allein das Caesurio an der Spitze seiner riesigen Armee kann sich zu Gladimperio entwickeln."
 	},
 
 	variants: [

@@ -15,8 +15,8 @@ const card: Card = {
 
 	effect: {
 		en: "Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.",
-		fr: "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de combat 01.",
-		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Kampf-Würfel 01 auf deinen Ablagestapel."
+		fr: "Attachez cette carte à l'un de vos Pokémon {F} en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de combat 01.",
+		de: "Lege diese Karte an 1 deiner {F}-Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Kampf-Würfel 01 auf deinen Ablagestapel."
 	},
 
 	attacks: [

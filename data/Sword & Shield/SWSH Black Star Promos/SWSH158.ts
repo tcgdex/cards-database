@@ -78,7 +78,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Water Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {W} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Water"],

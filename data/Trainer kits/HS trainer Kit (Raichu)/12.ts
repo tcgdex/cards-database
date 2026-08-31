@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Meowth",
+		fr: "Miaouss",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pay Day",
+				fr: "Jackpot",
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte.",
 			},
 			damage: 10,
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Claws",
+				fr: "Creusogriffes",
 			},
 			damage: 20,
 		},

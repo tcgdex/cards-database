@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido e Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt und ist vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon deines Gegners jetzt und ist vergiftet."
 			},
 
 		},
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+		de: "Eingehüllt in seinen gasförmigen, Gift enthaltenden Körper würde jeder in Ohnmacht fallen."
 	},
 
 	thirdParty: {

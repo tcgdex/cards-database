@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+		de: "Mit seiner Rückenflosse absorbiert es Wärme und wandelt diese in Eis-Energie um. Je wärmer es ist, desto mehr Energie kann es speichern."
 	},
 }
 

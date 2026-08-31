@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Some say an additional program made this Pokémon evolve, but even academics can't agree on whether Porygon-Z is really an evolution.",
+		de: "Es heißt, es habe sich durch eine neue Software entwickelt, doch Wissenschaftler sind sich nicht einig, ob Porygon-Z wirklich eine Entwicklung ist."
 	},
 
 	variants: [

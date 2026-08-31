@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Seeper",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "You may discard up to 2 Water Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.",
 				fr: "Vous pouvez défausser jusqu'à 2 cartes Énergie Water de votre main. Cette attaque inflige alors 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée.",
-				de: "Du kannst bis zu 2 -Energiekarten von deiner Hand auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte zu."
+				de: "Du kannst bis zu 2 {W}-Energiekarten von deiner Hand auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte zu."
 			},
 			damage: "30+",
 
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
-		fr: "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
+		fr: "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle.",
+		de: "Seine Stacheln schützen es. Seine Flossen und Knochen werden bei der Herstellung von Medizin verwendet."
 	},
 
 	thirdParty: {

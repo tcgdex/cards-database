@@ -73,7 +73,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle."
+		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+		de: "Es entfernt Schmutz mit seinem Schweif. Beim Hausputz ist es eine große Hilfe, aber sein Putzfimmel kann auch anstrengend werden."
 	},
 
 	variants: [

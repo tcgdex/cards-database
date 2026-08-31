@@ -29,18 +29,22 @@ const card: Card = {
 			cost: ["Colorless"],
 			name: {
 				en: "Wintry Call",
+				de: "Winterlicher Ruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck."
+				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Mel-Karten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			}
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
 				en: "Icy Wind",
+				de: "Eissturm"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep."
+				en: "Your opponent's Active Pokémon is now Asleep.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 50,
 		},

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d’Alola",
+		de: "Alola-Mauzi"
 	},
 
 	stage: "Stage1",
@@ -51,7 +52,7 @@ const card: Card = {
 				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon de equipo de RELEVOS y Ultraentes de tu rival, y por los Pokémon de tu rival que tengan alguna Energía Especial unida a ellos.",
 				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon ALLEATI e dalle Ultracreature del tuo avversario, e dai Pokémon del tuo avversario che hanno Energie speciali assegnate.",
 				pt: "Previne todos os efeitos de ataques, incluindo dano, causados a este Pokémon pelos Pokémon ALIADOS, Ultracriaturas e Pokémon que tenham alguma Energia Especial ligada a eles do seu oponente.",
-				de: "Verhindere alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon durch {TAG TEAM} Pokémon und Ultrabestien deines Gegners sowie durch Pokémon deines Gegners, an die mindestens 1 Spezial-Energie angelegt ist, zugefügt werden."
+				de: "Verhindere alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon durch TAG TEAM Pokémon und Ultrabestien deines Gegners sowie durch Pokémon deines Gegners, an die mindestens 1 Spezial-Energie angelegt ist, zugefügt werden."
 			},
 		},
 	],
@@ -87,7 +88,7 @@ const card: Card = {
 				es: "Garras Acechantes GX",
 				it: "Artigli Braccanti GX",
 				pt: "Garras Assombrosas GX",
-				de: "Lauernde Krallen GX"
+				de: "Lauernde Krallen-GX"
 			},
 			effect: {
 				en: "This attack does 120 damage to 1 of your opponent’s Pokémon. This damage isn’t affected by Weakness, Resistance, or any other effects on that Pokémon. (You can’t use more than 1 GX attack in a game.)",

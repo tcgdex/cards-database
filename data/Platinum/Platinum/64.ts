@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slakoth",
-		fr: "Parecool"
+		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque imprudente",
-				de: "Reckless Charge"
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Vigoroth does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Vigoroth s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Vigoroth does 10 damage to itself."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt Muntier sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Fight Back",
 				fr: "Rendre les coups",
-				de: "Fight Back"
+				de: "Zur Wehr setzen"
 			},
 			effect: {
 				en: "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage.",
 				fr: "Si Vigoroth possède des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage."
+				de: "Wenn auf Muntier mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment."
+		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
+		de: "Sein Herz schlägt schneller als das anderer Lebewesen. Daher kann es nicht für einen Moment still sitzen."
 	},
 
 	variants: [

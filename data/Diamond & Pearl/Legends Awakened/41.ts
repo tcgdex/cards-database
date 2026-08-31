@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned and Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé et Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt und gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt und gelähmt."
 			},
 			damage: 30,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
-		fr: "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger."
+		fr: "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger.",
+		de: "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab."
 	},
 
 	thirdParty: {

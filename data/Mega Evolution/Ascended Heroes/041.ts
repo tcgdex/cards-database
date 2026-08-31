@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		de: "Dieses Pokémon ist trotz seiner geringen Größe sehr wild. Sobald es sieht, dass sich etwas bewegt, schnappt es danach."
 	},
 
 	variants: [

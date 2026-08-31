@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+		de: "Ein Pokémon, das Menschen mitten in der Nacht erschreckt. Es sammelt die Angst als seine Energie."
 	},
 }
 

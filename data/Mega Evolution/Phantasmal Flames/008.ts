@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+		de: "Es lebte vor 300 Millionen Jahren. Team Plasma modifizierte es und pflanzte ihm am Rücken eine Kanone ein."
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -93,9 +94,11 @@ const card: Card = {
 		},
 		{
 			type: 'holo',
+			foil: 'cosmos',
 			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 858502
+				cardmarket: 858502,
+				tcgplayer: 664012
 			}
 		},
 	],

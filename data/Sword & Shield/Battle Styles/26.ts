@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
+		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
+		de: "Es nutzt eine Flamme als Zunge. Damit bringt es die Panzer von Fermicula zum Schmelzen und verspeist im Anschluss ihr Inneres."
 	},
 
 	variants: [

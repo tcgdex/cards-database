@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.",
+		de: "Bei der Jagd erreicht es Geschwindigkeiten von bis zu 500 km/h. Es erledigt seine Beute mit einem kräftigen Tritt."
 	},
 
 	thirdParty: {

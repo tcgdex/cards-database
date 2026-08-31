@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
+		de: "Es schleudert messerscharfe Federn auf seine Gegner. Aber auch seine Tritte sind nicht zu unterschätzen, denn es hat sehr kräftige Beine."
 	},
 
 	thirdParty: {

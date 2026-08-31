@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo cuando sea la última carta en tu mano.\n\nPon 1 Pokémon Golpe Fluido de tu pila de descartes en tu Banca. Si lo haces, roba 5 cartas.",
 		it: "Puoi giocare questa carta solo se è l'ultima carta che hai in mano.\n\nPrendi un Pokémon Colpo Rapido dalla tua pila degli scarti e mettilo in panchina. Se lo fai, pesca cinque carte.",
 		pt: "Você só pode jogar esta carta se ela for a última carta na sua mão.\n\nColoque 1 Pokémon Golpe Fluido da sua pilha de descarte no seu Banco. Se fizer isto, compre 5 cartas.",
-		de: "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nLege 1 Fließender-Angriff-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, ziehe 5 Karten."
+		de: "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist. Lege 1 Fließender-Angriff-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, ziehe 5 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

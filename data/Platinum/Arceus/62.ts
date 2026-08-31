@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, Electrike does 10 damage to itself.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt Frizelbliz sich selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt Frizelbliz sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+		de: "Die Elektrizität, die es im Fell speichert, nutzt es, um seine Muskeln zu stimulieren."
 	},
 
 	variants: [

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scatterbug",
-		fr: "Lépidonille"
+		fr: "Lépidonille",
+		de: "Purmel"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Spewpa doesn't live in a fixed location. It roams where it pleases across the fields and mountains, building up the energy it needs to evolve.",
+		de: "Puponcho hat kein festes Zuhause. Es zieht über Wiesen und Berge, wie es ihm gefällt, und sammelt Energie für seine Entwicklung."
 	},
 
 	thirdParty: {

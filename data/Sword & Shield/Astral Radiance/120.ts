@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+		de: "Es steht immer auf einem Bein. Es wechselt sein Standbein so schnell, dass man es kaum sieht."
 	},
 
 	variants: [

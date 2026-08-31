@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Cherchez dans votre deck un Pokémon-ex Méga-Évolution, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 		es: "Busca en tu baraja 1 Pokémon ex Megaevolución, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		'es-mx': "Busca en tu mazo 1 Pokémon ex Megaevolución, muéstralo y ponlo en tu mano. Después, baraja tu mazo.",
-		de: "Durchsuche dein Deck nach 1 Mega-Entwicklungs-Pokémon-ex, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+		de: "Durchsuche dein Deck nach 1 Mega-Entwicklungs-Pokémon-ex, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Cerca nel tuo mazzo un Pokémon-ex Megaevoluzione, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
 		pt: "Procure por um Pokémon ex de Megaevolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
 	},

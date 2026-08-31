@@ -4,7 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Linoone",
-		fr: "Lineon",
+		fr: "Linéon",
 		de: "Geradaks"
 	},
 

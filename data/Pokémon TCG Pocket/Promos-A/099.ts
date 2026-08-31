@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marill"
+		en: "Marill",
+		de: "Marill"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The fur on its body naturally repels water. It can\nstay dry even when it plays in the water."
+		en: "The fur on its body naturally repels water. It can\nstay dry even when it plays in the water.",
+		de: "Sein Fell ist von Natur aus wasserabweisend. Es bleibt trocken, auch wenn es im Wasser spielt."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			de: "Tackle"
 		},
 
 		damage: 10,

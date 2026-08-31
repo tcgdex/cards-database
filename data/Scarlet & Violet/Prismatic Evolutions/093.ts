@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 4 cartas. Al final de este turno, si tienes 5 cartas o más en tu mano, descarta las cartas de tu mano.",
 		pt: "Compre 4 cartas. No final deste turno, se você tiver 5 ou mais cartas na sua mão, descarte a sua mão.",
 		it: "Pesca quattro carte. Alla fine di questo turno, se hai cinque o più carte in mano, scarta le carte che hai in mano.",
-		de: "Ziehe 4 Karten. Am Ende dieses Zuges, wenn du 5 oder mehr Karten auf deiner Hand hast, lege deine Handkarten auf deinen Ablagestapel."
+		de: "Ziehe 4 Karten. Am Ende dieses Zuges, wenn du 5 oder mehr Karten auf deiner Hand hast, lege deine Handkarten auf deinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

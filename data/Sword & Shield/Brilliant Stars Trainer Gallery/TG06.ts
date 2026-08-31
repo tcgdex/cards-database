@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Todas las Energías Especiales unidas a los Pokémon (tanto tuyos como de tu rival) proporcionan 1 Energía Colorless y no tienen ningún otro efecto.",
 			it: "Tutte le Energie speciali assegnate ai Pokémon, sia tuoi che del tuo avversario, forniscono Energia Colorless e non hanno altri effetti.",
 			pt: "Todas as Energias Especiais ligadas aos Pokémon (seus e do seu oponente) fornecem Energia Colorless e não têm nenhum outro efeito.",
-			de: "Alle Spezial-Energien, die an Pokémon (deine und die deines Gegners) angelegt sind, liefern Colorless-Energie und haben keinen anderen Effekt."
+			de: "Alle Spezial-Energien, die an Pokémon (deine und die deines Gegners) angelegt sind, liefern {C}-Energie und haben keinen anderen Effekt."
 		}
 	}],
 
@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
+		de: "Niemand weiß, ob es einen eigenen Willen hat. Über Radiowellen empfängt es Befehle aus dem Jenseits, Menschen und Pokémon zu entführen."
 	},
 
 	variants: [

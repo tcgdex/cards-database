@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
+		de: "Das schäbigste Pokémon von allen. Es lebt in großen Gruppen auf dem Grund von Flüssen, wo viele Wasserpflanzen wachsen."
 	},
 
 	variants: [

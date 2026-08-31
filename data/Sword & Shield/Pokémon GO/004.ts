@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+		de: "Es nutzt Solarenergie als Nahrung und bringt so seine große Blume zum Blühen. Es geht dorthin, wo die Sonne scheint."
 	},
 
 	

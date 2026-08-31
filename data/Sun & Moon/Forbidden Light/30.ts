@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bergmite",
 		fr: "Grelaçon",
+		de: "Arktip"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "The way several Bergmite huddle on its back makes it look like an aircraft carrier made of ice.",
+		de: "Mit den zahlreichen Arktip auf seinem Rücken sieht es aus wie ein Flugzeugträger aus Eis."
 	},
 
 	thirdParty: {

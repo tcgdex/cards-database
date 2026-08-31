@@ -46,16 +46,28 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 881890,
+				tcgplayer: 688898
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894230,
+				tcgplayer: 704457
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 894231,
+				tcgplayer: 704458
+			}
 		}
 	],
 

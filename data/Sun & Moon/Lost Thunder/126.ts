@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cualquier daño infligido a este Pokémon por ataques se reduce en 10 (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 10, dopo aver applicato debolezza e resistenza.",
 				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 10 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Once it has identified an enemy, this Pokémon smashes it mercilessly with pincers hard as steel.",
+		de: "Sobald es einen Gegner bemerkt, schlägt es ihn mit seinen stahlharten Scheren erbarmungslos nieder."
 	},
 
 	thirdParty: {

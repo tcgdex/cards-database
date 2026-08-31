@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful.",
+		de: "Einen Teil seiner Beute vergräbt es als Notration im Sand. Auf sie greift es zurück, wenn es von einer erfolglosen Jagd zurückkehrt."
 	},
 
 	

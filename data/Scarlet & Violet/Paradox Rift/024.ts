@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
+		de: "Seine Feuer-Energie und sein Überschuss an Lebenskraft brachten gemeinsam den eiförmigen Feuerball auf seinem Kopf hervor."
 	},
 
 	variants: [

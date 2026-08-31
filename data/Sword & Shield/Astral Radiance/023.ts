@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
+		de: "Dieses ängstliche Pokémon aus Johto trifft man zumeist zusammengekugelt an, doch in seinem Inneren schlummert eine mächtige Feuerkraft."
 	},
 
 	variants: [

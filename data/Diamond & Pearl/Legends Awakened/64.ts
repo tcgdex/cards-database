@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
 		de: "Metang"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Metang during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Metang lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Metang zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Metang zugefügt würden."
 			},
 			damage: 20,
 
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
-		fr: "Il est formé de deux TERHAL soudés. Son corps de fer résiste à un choc avec un avion à réaction."
+		fr: "Il est formé de deux TERHAL soudés. Son corps de fer résiste à un choc avec un avion à réaction.",
+		de: "Das PKMN besteht aus zwei TANHEL. Es bekommt selbst dann keinen Kratzer, wenn ein Jet es streift."
 	},
 
 	thirdParty: {

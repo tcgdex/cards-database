@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+		de: "Zwei Tanhel haben sich zu diesem Pokémon vereint. Sein stählerner Körper bleibt sogar bei einer Kollision mit einem Jet unversehrt."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Beldum"
+		en: "Beldum",
+		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.",
+		de: "Es hält Trauerfeiern für verstorbene Knogga ab. Findet sich ein Haufen Erde am Straßenrand, so handelt es sich um das Grab eines Knogga."
 	},
 
 	thirdParty: {

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	illustrator: "Mina Nakai",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Knuckle Punch",
 				fr: "Coud'Phalange",
+				de: "Knöchelhieb"
 			},
 
 			damage: 10,
@@ -50,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		de: "Es hebt Georok hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art von Kampfsport."
 	},
 
 	thirdParty: {

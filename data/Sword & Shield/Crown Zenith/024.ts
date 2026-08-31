@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "The people of ancient times believed that Larvesta fell from the sun.",
+		de: "Vor langer Zeit glaubten die Menschen, Ignivor sei von der Sonne herabgefallen."
 	},
 
 	

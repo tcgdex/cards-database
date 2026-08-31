@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wooper",
 		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Water de 1 de tus Pokémon en Banca a tu Pokémon Activo.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare un’Energia Water da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode mover 1 Energia Water de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Water-Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {W}-Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben."
 			},
 		},
 	],
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "60+",
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.",
+		de: "Dieses genügsame Pokémon ist sehr umgänglich. Beim Schwimmen stößt es immer wieder gegen Schiffe."
 	},
 
 	thirdParty: {

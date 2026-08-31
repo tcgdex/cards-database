@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Evita todos los efectos de las habilidades de los Pokémon de tu rival infligidos a cada uno de tus Pokémon que tenga alguna Energía Psychic unida a él, excepto a los Enamorus V.",
 			it: "Previeni tutti gli effetti delle abilità dei Pokémon del tuo avversario inflitti ai tuoi Pokémon che hanno delle Energie Psychic assegnate, a eccezione di qualsiasi Enamorus-V.",
 			pt: "Previna todos os efeitos das Habilidades dos Pokémon do seu oponente causados a cada um dos seus Pokémon que tiver alguma Energia Psychic ligada a ele, exceto por quaisquer Enamorus V.",
-			de: "Verhindere alle Effekte von Fähigkeiten der Pokémon deines Gegners, die jedem deiner Pokémon, an das mindestens 1 Psychic-Energie angelegt ist, außer Cupidos-V, zugefügt werden."
+			de: "Verhindere alle Effekte von Fähigkeiten der Pokémon deines Gegners, die jedem deiner Pokémon, an das mindestens 1 {P}-Energie angelegt ist, außer Cupidos-V, zugefügt werden."
 		}
 	}],
 

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Floette",
-		fr: "Floette"
+		fr: "Floette",
+		de: "Floette"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
+		de: "Es heißt, die von ihm angelegten Blumengärten sollen unablässig eine Energie verströmen, die Körper und Geist heilt."
 	},
 
 	thirdParty: {

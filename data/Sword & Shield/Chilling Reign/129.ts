@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mueve hasta 3 contadores de daño de tu Pokémon Activo al Pokémon Activo de tu rival.",
 		it: "Sposta fino a tre segnalini danno dal tuo Pokémon attivo al Pokémon attivo del tuo avversario.",
 		pt: "Mova até 3 contadores de dano do seu Pokémon Ativo para o Pokémon Ativo do seu oponente.",
-		de: "Verschiebe bis zu 3 Schadensmarken von deinem Aktiven Pokémon auf das Aktive Pokémon deines Gegners."
+		de: "Verschiebe bis zu 3 Schadensmarken von deinem Aktiven Pokémon auf das Aktive Pokémon deines Gegners. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

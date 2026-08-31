@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+		de: "Es sammelt Beeren in seiner Schale. Um sich vor Attacken zu schützen, versteckt es sich unter Steinen."
 	},
 
 	thirdParty: {

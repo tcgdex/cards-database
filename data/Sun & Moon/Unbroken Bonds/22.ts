@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -54,7 +55,7 @@ const card: Card = {
 				es: "Une 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina due carte Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 2 cartas de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 2 Fire-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 2 {R}-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 120,
 
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Legends tell of its fighting alongside a general and conquering a whole country.",
+		de: "Der Legende nach soll es vor langer Zeit an der Seite eines Kriegshelden gekämpft und so an der Eroberung eines Landes mitgewirkt haben."
 	},
 
 	thirdParty: {

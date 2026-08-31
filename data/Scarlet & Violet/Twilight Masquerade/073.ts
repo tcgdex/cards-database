@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+		de: "Durch den in seinem Körper gespeicherten Strom kann es schweben. Bei Gewittern schwebt es höher über dem Boden als gewöhnlich."
 	},
 
 	variants: [

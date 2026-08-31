@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon Dragon Evolución en juego.",
 				it: "Questo attacco infligge 50 danni per ogni tuo Pokémon Evoluzione Dragon in gioco.",
 				pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon Dragon de Evolução em jogo.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl deiner Dragon-Entwicklungs-Pokémon im Spiel zu."
+				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl deiner {N}-Entwicklungs-Pokémon im Spiel zu."
 			},
 			damage: "50×",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		de: "Es ist hochintelligent und versteht sogar die menschliche Sprache. Es ist friedlich und meidet Konflikte."
 	},
 
 	thirdParty: {

@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
-		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
+		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles.",
+		de: "Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist."
 	},
 
 	thirdParty: {

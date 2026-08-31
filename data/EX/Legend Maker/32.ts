@@ -4,7 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Electrode",
-		fr: "Electrode",
+		fr: "Électrode",
 		de: "Lektrobal"
 	},
 

@@ -104,7 +104,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight."
+		en: "It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight.",
+		de: "Es wird auch „Wüstendämon“ genannt, weil es so grausam ist. Nur mit Hippoterus legt es sich nie an, sondern verhält sich ruhig."
 	},
 
 	dexId: [452],

@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Attachez jusqu'à 2 cartes Énergie {M} de base de votre pile de défausse à l'un de vos Pokémon {M}.",
 		es: "Une hasta 2 cartas de Energía {M} Básica de tu pila de descartes a uno de tus Pokémon {M}.",
 		'es-mx': "Une hasta 2 cartas de Energía {M} Básica de tu pila de descartes a 1 de tus Pokémon {M}.",
-		de: "Lege bis zu 2 Basis-{M}-Energiekarten aus deinem Ablagestapel an 1 deiner {M}-Pokémon an.",
+		de: "Lege bis zu 2 Basis-{M}-Energiekarten aus deinem Ablagestapel an 1 deiner {M}-Pokémon an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Assegna a uno dei tuoi Pokémon {M} fino a due carte Energia base {M} dalla tua pila degli scarti.",
 		pt: "Ligue até 2 cartas de Energia {M} Básica da sua pilha de descarte a 1 dos seus Pokémon {M}."
 	},

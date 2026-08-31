@@ -52,7 +52,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+		de: "Es lebt am Ufer, wo die Sonne scheint. Tagsüber schläft es in einem Bett aus Wasserpflanzen, nachts wird es dann aktiv."
 	},
 
 	dexId: [271],

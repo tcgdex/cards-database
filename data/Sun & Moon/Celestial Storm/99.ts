@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Metal unida a él, no tiene ninguna Debilidad.",
 				it: "Se questo Pokémon ha delle Energie Metal assegnate, non ha debolezza.",
 				pt: "Se este Pokémon tiver alguma Energia Metal ligada a ele, não terá Fraqueza.",
-				de: "Wenn an dieses Pokémon mindestens 1 Metal-Energie angelegt ist, hat es keine Schwäche."
+				de: "Wenn an dieses Pokémon mindestens 1 {M}-Energie angelegt ist, hat es keine Schwäche."
 			},
 		},
 	],
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
+		de: "Es heißt, es komme aus einer anderen Welt. Sein ganzer Körper leuchtet strahlend hell und macht die finsterste Nacht zum Tage."
 	},
 
 	thirdParty: {

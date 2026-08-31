@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
+		de: "Als Junges lernt es die Jagd von weiblichen Pyroleo. Sobald es herangewachsen ist, verlässt es das Rudel, um auf eigenen Pfoten zu stehen."
 	},
 
 	variants: [

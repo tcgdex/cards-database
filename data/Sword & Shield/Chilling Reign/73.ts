@@ -91,7 +91,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch."
+		en: "If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch.",
+		de: "Es wird auch „Hexe des Waldes“ genannt. Wer Lärm veranstaltet, wird unter Umständen von der Klaue an seinem Fühler auseinandergenommen."
 	},
 
 	variants: [

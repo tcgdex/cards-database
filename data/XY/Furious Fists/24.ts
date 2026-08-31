@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Energia Water ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Water-Energie zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: "50+",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+		de: "Aus seinen gewaltigen Scheren feuert es mächtige Wassergeschosse ab, die selbst den Rumpf eines Tankschiffes durchdringen."
 	},
 
 	thirdParty: {

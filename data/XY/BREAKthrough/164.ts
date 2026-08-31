@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño por cada Energía Psychic unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni per ogni Energia Psychic assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 de danos vezes a quantidade de Energia Psychic ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Psychic-Energien zu."
+				de: "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {P}-Energien zu."
 			},
 			damage: "30×",
 

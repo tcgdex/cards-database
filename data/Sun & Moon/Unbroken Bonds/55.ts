@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Puedes usar este ataque solo si te quedan por lo menos 3 cartas de Premio más que a tu rival. Une todas las cartas de Energía Lightning de tu pila de descartes a tus Pokémon de la manera que desees.",
 				it: "Puoi usare questo attacco solo se hai almeno tre carte Premio rimanenti più del tuo avversario. Assegna a piacimento ai tuoi Pokémon tutte le carte Energia Lightning dalla tua pila degli scarti.",
 				pt: "Você só pode usar este ataque se tiver pelo menos 3 cartas de Prêmio restantes a mais do que seu oponente. Ligue todas as cartas de Energia Lightning da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Du kannst diese Attacke nur einsetzen, wenn du mindestens 3 verbleibende Preiskarten mehr hast als dein Gegner. Lege alle Lightning-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+				de: "Du kannst diese Attacke nur einsetzen, wenn du mindestens 3 verbleibende Preiskarten mehr hast als dein Gegner. Lege alle {L}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
+		de: "Je mehr es sich elektrisch auflädt, desto aggressiver wird es. Man vermutet, dass die Elektrizität den Stress verursache."
 	},
 
 	thirdParty: {

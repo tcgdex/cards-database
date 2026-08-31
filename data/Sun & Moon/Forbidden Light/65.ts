@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Darkness unida a él, este ataque hace 30 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie Darkness assegnate, questo attacco infligge 30 danni in più.",
 				pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 Darkness-Energie angelegt ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.",
+		de: "Das Kauen auf einem Blatt ist sein Markenzeichen. Dieses sehr ungezogene Pokémon dürfte frischgebackene Trainer überfordern."
 	},
 
 	thirdParty: {

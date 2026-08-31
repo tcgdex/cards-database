@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it still can't fly, its jumping power is outstanding. It jumps way up into trees and plucks the buds from the branches.",
+		de: "Natu kann noch nicht fliegen, aber hervorragend springen. So erreicht es selbst hoch liegende Äste, an deren Knospen es dann pickt."
 	},
 
 	thirdParty: {

@@ -38,6 +38,7 @@ const card: Card = {
 			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Hammer In",
+				de: "Einhämmern"
 			},
 			damage: 50,
 		},
@@ -45,10 +46,12 @@ const card: Card = {
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
 				en: "Sweeping Tackle",
+				de: "Fege-Tackle"
 			},
 			damage: "200-",
 			effect: {
 				en: "This attack does 20 less damage for each damage counter on this",
+				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
 			},
 		},
 	],

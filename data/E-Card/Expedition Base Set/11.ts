@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Wirkung."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50,

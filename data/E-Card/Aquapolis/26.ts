@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Remoraid",
-		fr: "Rémoraid"
+		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 

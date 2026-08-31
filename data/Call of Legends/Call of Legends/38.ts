@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -76,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+		de: "Pumpt sich eines der zwei SMOGON auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt."
 	},
 
 	variants: [

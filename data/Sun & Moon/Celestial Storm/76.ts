@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+		de: "Es isst gerade mal eine Beere am Tag. Durch Hunger wird sein Geist ruhiger und schärfer."
 	},
 
 	thirdParty: {

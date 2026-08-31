@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		de: "Dank seiner mit winzigen Stacheln besetzten Sohlen haftet es sogar kopfüber an Wänden und Decken."
 	},
 
 	thirdParty: {

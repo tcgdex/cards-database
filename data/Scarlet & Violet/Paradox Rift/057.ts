@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
+		de: "Der Hass derjenigen, die vor langer Zeit durch das Schwert umkamen, hüllte sich in Schnee und wurde zu diesem Pokémon."
 	},
 
 	variants: [

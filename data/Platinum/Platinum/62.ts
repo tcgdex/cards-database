@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Armor Fossil",
-		fr: "Fossile armure"
+		fr: "Fossile Armure",
+		de: "Panzerfossil"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Endure",
 				fr: "Ténacité",
-				de: "Endure"
+				de: "Ausdauer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, if Shieldon would be Knocked Out by damage from an attack, Shieldon is not Knocked Out and its remaining HP becomes 10 instead.",
 				fr: "Lancez une pièce. Si c'est face, lors du prochain tour de votre adversaire, si Dinoclier est mis K.O par les dégâts d'une attaque, il n'est pas mis K.O mais il ne lui reste que 10 PV.",
-				de: "Flip a coin. If heads, during your opponent's next turn, if Shieldon would be Knocked Out by damage from an attack, Shieldon is not Knocked Out and its remaining HP becomes 10 instead."
+				de: "Wirf 1 Münze. Bei „Kopf“ wird Schilterus, wenn es im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
 			},
 
 		},
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Rock Slide",
 				fr: "Éboulement",
-				de: "Rock Slide"
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight."
+		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
+		de: "Es ist sehr gut gepanzert und muss daher während des Essens von Gras und Beeren keinen Kampf fürchten."
 	},
 
 	variants: [

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Descarta las 5 primeras cartas de tu baraja y une cualquier carta de Energía que hayas descartado de esta manera a tus Pokémon Fighting en Banca de la manera que desees.",
 		it: "Scarta le prime cinque carte del tuo mazzo e assegna ai tuoi Pokémon Fighting in panchina le carte Energia che hai appena scartato nel modo che preferisci.",
 		pt: "Descarte as 5 cartas de cima do seu baralho e ligue quaisquer cartas de Energia que você descartou desta forma aos seus Pokémon Fighting no Banco como desejar.",
-		de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die Fighting-Pokémon auf deiner Bank an."
+		de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die {F}-Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

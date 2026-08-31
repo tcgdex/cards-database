@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment.",
+		de: "Es verfügt über die Fähigkeit, seinen Körper perfekt an die jeweilige Umgebung anzupassen."
 	},
 
 	variants: [

@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Apparently, the larger the green parts of this Pokémon, the more collectors value it. It's a particular favorite among elderly people.",
+		de: "Es ist vor allem bei alten Leuten beliebt. Je größer sein Grünanteil, desto mehr wird es in Fankreisen geschätzt."
 	},
 
 	thirdParty: {

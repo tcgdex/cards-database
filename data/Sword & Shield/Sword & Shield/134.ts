@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
+		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found.",
+		de: "Sie streiten sich mit Sharfax aufs Heftigste um das Vorrecht auf Orte mit Felsen, an denen sie ihre Klingen schärfen können."
 	},
 
 	dexId: [625],

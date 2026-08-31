@@ -92,7 +92,7 @@ const card: Card = {
 				es: "Amigos Megatón GX",
 				it: "Amici Megatonici GX",
 				pt: "Amigos Megaton GX",
-				de: "Megatonnen-Freunde GX"
+				de: "Megatonnen-Freunde-GX"
 			},
 
 			effect: {

@@ -50,17 +50,6 @@ const card: Card = {
 		},
 	],
 
-	attacks: [
-		{
-
-			name: {
-				fr: "Règle pour les cartes  (Prisme Étoile)",
-			},
-
-
-		},
-	],
-
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -72,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "With its astonishing capacity for metamorphosis, it can get along with anything. It does not get along well with its fellow Ditto.",
+		de: "Dank seiner Fähigkeiten als Gestaltwandler kann es sich mit allen Lebewesen anfreunden. Nur mit Artgenossen kommt es nicht zurecht."
 	},
 
 	thirdParty: {

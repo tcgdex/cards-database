@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sunkern",
 		fr: "Tournegrin",
+		de: "Sonnkern"
 	},
 
 	stage: "Stage1",
@@ -53,7 +54,7 @@ const card: Card = {
 				es: "Durante tu próximo turno, ignora todas las Energías en los costes de los ataques de Pokémon Grass y Pokémon Fire. (Esto incluye Pokémon que entran en juego en ese turno).",
 				it: "Durante il tuo prossimo turno, ignora tutte le Energie necessarie per usare gli attacchi dei Pokémon Grass e dei Pokémon Fire, inclusi i Pokémon entrati in gioco in quel turno.",
 				pt: "Durante a sua próxima vez de jogar, ignore todas as Energias nos custos dos ataques dos Pokémon Grass e Pokémon Fire (isto inclui Pokémon que entrarem em jogo naquela rodada).",
-				de: "Ignoriere während deines nächsten Zuges alle Energien in den Kosten der Attacken von Grass-Pokémon und Fire-Pokémon. (Dies schließt Pokémon, die während jenes Zuges ins Spiel gebracht werden, ein.)"
+				de: "Ignoriere während deines nächsten Zuges alle Energien in den Kosten der Attacken von {G}-Pokémon und {R}-Pokémon. (Dies schließt Pokémon, die während jenes Zuges ins Spiel gebracht werden, ein.)"
 			},
 
 		},
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "As the hot season approaches, the petals on this Pokémon's face become more vivid and lively.",
+		de: "Steht der Sommer bevor, werden die Blätter um das Gesicht dieses Pokémon aktiv und lebhaft."
 	},
 
 	thirdParty: {

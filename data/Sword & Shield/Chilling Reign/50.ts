@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		de: "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen von Strom als Morsecode."
 	},
 
 	variants: [

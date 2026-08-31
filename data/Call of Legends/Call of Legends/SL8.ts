@@ -56,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.",
+		de: "Es kann frei das Gefüge des Raums manipulieren und so an entlegene Orte oder Dimensionen reisen."
 	},
 
 	variants: [

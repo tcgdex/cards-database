@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		de: "Krabbox"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
+		de: "Schlägt erst einmal wahllos zu. Kommt es hart auf hart, stößt es seine Scheren ab und verschießt sie wie Raketen."
 	},
 
 	thirdParty: {

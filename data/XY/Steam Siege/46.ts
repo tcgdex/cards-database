@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are called the \"Signpost for Wandering Spirits.\" Children holding them sometimes vanish.",
+		de: "Auch bekannt als „Wegweiser für umherstreifende Geister“. Kinder, die sie halten, verschwinden manchmal."
 	},
 
 	thirdParty: {

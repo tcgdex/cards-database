@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon sights its prey, it swirls its ribbonlike feelers as a distraction. A moment later, it pounces.",
+		de: "Hat es Beute entdeckt, wedelt es mit seinen bandförmigen Fühlern, um diese abzulenken. Bei Erfolg stürzt es sich auf sie."
 	},
 
 	thirdParty: {

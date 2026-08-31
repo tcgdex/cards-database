@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Vullaby"
+		en: "Vullaby",
+		fr: "Vostourno",
+		de: "Skallyk"
 	},
 
 	stage: "Stage1",

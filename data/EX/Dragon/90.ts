@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Water Energy card and a Lightning Energy card attached to Dragonite ex.",
-				fr: "Défaussez une carte Énergie  et une carte Énergie  attachée à Dracolosse ex.",
+				fr: "Défaussez une carte Énergie {W} et une carte Énergie {L} attachée à Dracolosse ex.",
 				de: "Entferne 1 {W}-Energiekarte und 1 {L}-Energiekarte, die an Dragoran ex angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 70,

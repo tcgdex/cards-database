@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Fire Punch",
 				fr: "Poing de Feu",
+				de: "Feuerschlag"
 			},
 
 			damage: 50,
@@ -51,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+		de: "Mit seinem brennenden Körper und glühenden Atem heizt es seine Umgebung auf. Beim Niesen stößt es Flammen aus."
 	},
 
 	thirdParty: {

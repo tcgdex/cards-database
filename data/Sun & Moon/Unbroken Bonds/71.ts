@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It can be spotted near recreational facilities, intending to eat the pleasant dreams of children who enjoyed themselves there that day.",
+		de: "Traumato hat es auf die lustigen Träume von Kindern abgesehen. Man sieht es daher oft in der Nähe von Freizeiteinrichtungen."
 	},
 
 	thirdParty: {

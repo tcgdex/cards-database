@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta cualquier carta de Estadio en juego. Si lo haces, tu rival descarta 3 cartas de su mano.",
 		it: "Scarta una carta Stadio in gioco. Se lo fai, il tuo avversario scarta tre delle carte che ha in mano.",
 		pt: "Descarte algum card de Estádio em jogo. Se fizer isso, o seu oponente descarta 3 cards da própria mão.",
-		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Wenn du das machst, legt dein Gegner 3 seiner Handkarten auf seinen Ablagestapel."
+		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Wenn du das machst, legt dein Gegner 3 seiner Handkarten auf seinen Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

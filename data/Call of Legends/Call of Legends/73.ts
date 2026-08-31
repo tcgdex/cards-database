@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn, and any damage done to Teddiursa by attack is reduced by 30 (after applying weakness and resistance).",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes\nDresseur de sa main lors de son prochain tour, et tous les dégâts infligés à Teddiursa par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Wirf eine Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen und Schaden, der Teddiursa durch Angriffe zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Wirf eine Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen und Schaden, der Teddiursa durch Angriffe zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		de: "Findet es Honig, leuchtet die Sichel auf seinem Kopf. Es leckt oft seine mit Honig bedeckten Pfoten."
 	},
 
 	variants: [

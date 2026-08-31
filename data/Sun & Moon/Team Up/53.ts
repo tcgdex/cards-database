@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Casa del Terror GX",
 				it: "Casa degli Orrori GX",
 				pt: "Casa do Horror GX",
-				de: "Spukhaus GX"
+				de: "Spukhaus-GX"
 			},
 			effect: {
 				en: "Your opponent can’t play any cards from their hand during their next turn. If this Pokémon has at least 1 extra Psychic Energy attached to it (in addition to this attack’s cost), each player draws cards until they have 7 cards in their hand. (You can’t use more than 1 GX attack in a game.)",
@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Tu rival no puede jugar ninguna carta de su mano durante su próximo turno. Si este Pokémon tiene por lo menos 1 Energía Psychic adicional unida a él (además de las del coste de este ataque), cada jugador roba cartas hasta tener 7 cartas en su mano. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Il tuo avversario non può giocare le carte che ha in mano durante il suo prossimo turno. Se questo Pokémon ha almeno un’Energia Psychic extra assegnata, in aggiunta a quelle del costo di questo attacco, ciascun giocatore pesca fino ad avere sette carte in mano. Non puoi usare più di un attacco GX a partita.",
 				pt: "Seu oponente não poderá jogar nenhuma carta da própria mão durante a próxima vez dele(a) jogar. Se este Pokémon tiver pelo menos 1 Energia Psychic adicional ligada a ele (além do custo deste ataque), cada jogador comprará cartas até ter 7 cartas na própria mão (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Karten aus seiner Hand spielen. Wenn an dieses Pokémon mindestens 1 extra Psychic-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), zieht jeder Spieler so lang Karten, bis er 7 Karten auf seiner Hand hat. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Dein Gegner kann während seines nächsten Zuges keine Karten aus seiner Hand spielen. Wenn an dieses Pokémon mindestens 1 extra {P}-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), zieht jeder Spieler so lang Karten, bis er 7 Karten auf seiner Hand hat. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

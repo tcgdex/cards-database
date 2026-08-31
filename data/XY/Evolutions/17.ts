@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		de: "Es ist sehr freundlich und bleibt den Menschen treu. Durch Bellen und Beißen versucht es, Gegner zu verscheuchen."
 	},
 
 	thirdParty: {

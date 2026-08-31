@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
+		de: "Der von ihm verströmte Duft verzückt jeden, der ihn riecht. Je nachdem, was es frisst, ändert sich sein Duft."
 	},
 
 	thirdParty: {

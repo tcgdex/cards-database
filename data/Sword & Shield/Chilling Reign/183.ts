@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Cada vez que unas 1 carta de Energía de tu mano a este Pokémon, elimina todas sus Condiciones Especiales.",
 			it: "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano, rimuovi tutte le condizioni speciali che lo influenzano.",
 			pt: "Sempre que ligar 1 carta de Energia da sua mão a este Pokémon, remova todas as Condições Especiais dele.",
-			de: "Jedes Mal, wenn du 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, verlieren alle Speziellen Zustände auf diesem Pokémon ihre Wirkung."
+			de: "Jedes Mal, wenn du 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, erholt es sich von allen Speziellen Zuständen."
 		}
 	}],
 

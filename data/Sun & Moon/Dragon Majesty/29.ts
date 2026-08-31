@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Feebas",
 		fr: "Barpau",
+		de: "Barschwa"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+		de: "Es lebt auf dem Grund von klaren, ungetrübten Seen. Zu Kriegszeiten taucht es empor, um die Menschen zu besänftigen."
 	},
 
 	thirdParty: {

@@ -51,6 +51,7 @@ const card: Card = {
 
 	description: {
 		en: "It's not good at storing electricity yet. This Pokémon sneaks into people's homes, looking for electrical outlets to eat electricity from.",
+		de: "Es kann Elektrizität noch nicht so gut speichern. Um sich diese einzuverleiben, schleicht es sich auf der Suche nach Steckdosen in fremde Häuser."
 	},
 
 	variants: [

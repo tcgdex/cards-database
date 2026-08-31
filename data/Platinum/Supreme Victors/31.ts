@@ -4,7 +4,7 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Lucario C",
-		fr: "Lucario ",
+		fr: "Lucario C",
 		de: "Lucario C"
 	},
 	illustrator: "kawayoo",

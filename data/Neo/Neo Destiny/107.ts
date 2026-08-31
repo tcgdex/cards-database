@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card and 1 Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.",
-				fr: "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts.",
+				fr: "Défaussez-vous d'une carte Énergie {R} et d'une carte Énergie {L} attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts.",
 				de: "Lege eine jeweils an Glurak angelegte {R}-Energiekarte und {L}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei „Zahl“ fügt sich Schimmerndes Glurak selber 30 Schadenspunkte zu."
 			},
 			damage: 100,

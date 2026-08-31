@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Pure Body",
 				fr: "Corps pur",
-				de: "Pure Body"
+				de: "Reiner Körper"
 			},
 			effect: {
 				en: "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
-				fr: "Pour attacher une carte Énergie  de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie , et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)",
-				de: "To attach a -Energy from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the -Energy, and then discard an Energy card from Suicune)."
+				fr: "Pour attacher une carte Énergie {W} de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie {W}, et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)",
+				de: "Um eine {W}-Energiekarte aus deiner Hand an Suicune anzulegen, musst du eine an Suicune angelegte Energiekarte auf deinen Ablagestapel legen. (Lege erst die {W}-Energie an, und lege dann eine an Suicune angelegte Energiekarte auf den Ablagestapel.)"
 			}
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Hypno Wave",
 				fr: "Hypnovague",
-				de: "Hypno Wave"
+				de: "Hypno-Welle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu, und das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: "30+",
 

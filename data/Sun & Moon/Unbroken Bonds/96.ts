@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
+		de: "Dieses Pokémon lebt in Eiswasser. Wird es an Land kalt, verlässt es das Wasser und sucht nach Futter."
 	},
 
 	thirdParty: {

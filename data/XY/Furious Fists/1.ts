@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		de: "Obwohl sein Körper sehr schmal ist, schnappt es blitzschnell nach Beute."
 	},
 
 	thirdParty: {

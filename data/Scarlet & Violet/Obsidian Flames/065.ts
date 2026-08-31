@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
+		de: "Es heißt, dass es beim Herumfliegen mysteriöse Funkwellen aussende und unbekannte Wellen empfange."
 	},
 
 	variants: [

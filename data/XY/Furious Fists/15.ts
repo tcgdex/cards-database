@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
+		de: "Seine glatte, schwarze Haut ist dünn und feucht. Teilweise sind seine Innereien als spiralförmige Muster sichtbar."
 	},
 
 	thirdParty: {

@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Flaming Punch",
 				fr: "Poing de flammes",
-				de: "Flaming Punch"
+				de: "Flammender Hieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Thrash",
 				fr: "Mania",
-				de: "Thrash"
+				de: "Fuchtler"
 			},
 			effect: {
 				en: "Flip a coin. If heads this attack does 30 damage plus 10 more damage. If tails, Magmar does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Magmar s'inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Magmar does 10 damage to itself."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich Magmar selber 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 

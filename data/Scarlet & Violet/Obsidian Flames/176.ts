@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food.",
+		de: "Sein Magen füllt beinahe seinen ganzen Körper aus. Auf der Suche nach frischem Futter schlägt es täglich denselben Pfad ein."
 	},
 
 	variants: [

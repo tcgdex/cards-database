@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
+		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon.",
+		de: "Einer Sage nach sind Quabbel in Wirklichkeit Bewohner einer uralten, im Meer versunkenen Stadt, die zu Pokémon wurden."
 	},
 
 	variants: [

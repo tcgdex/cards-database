@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+		de: "Es erlegt seine Beute mit schnellen Bewegungen und scharfen Klauen. Kurven zu nehmen bereitet ihm aber große Schwierigkeiten."
 	},
 
 	variants: [

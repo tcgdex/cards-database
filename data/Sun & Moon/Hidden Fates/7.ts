@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+		de: "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell."
 	},
 
 	thirdParty: {

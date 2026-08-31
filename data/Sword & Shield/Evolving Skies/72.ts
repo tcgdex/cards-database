@@ -73,7 +73,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed."
+		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.",
+		de: "Es überträgt seine Kraft auf Blumen und pflegt diese mit ganzem Herzen. Es verzeiht keinem, der sein Blumenbeet verwüstet."
 	},
 
 	dexId: [670],

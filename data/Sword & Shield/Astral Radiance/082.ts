@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
+		de: "Die Kiele seiner Federn enthalten Luft und erlauben es ihm so, der extremen Kälte Hisuis zu trotzen. Ein eindeutiger Beweis dafür, dass die Umwelt Einfluss auf die Entwicklung haben kann!"
 	},
 
 	variants: [

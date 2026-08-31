@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+		de: "Lebt tief im Wald. Es baut sich eine Flöte aus den Blättern seines Kopfes. Ihr Ton verbreitet Schrecken."
 	},
 
 	thirdParty: {

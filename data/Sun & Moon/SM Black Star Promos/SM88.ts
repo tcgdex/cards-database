@@ -85,6 +85,16 @@ const card: Card = {
 	description: {
 		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312559,
+				tcgplayer: 152607
+			}
+		}
+	],
 }
 
 export default card

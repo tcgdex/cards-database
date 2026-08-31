@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Este ataque hace 10 puntos de daño a cada uno de los Pokémon de tu rival por cada Colorless en su Coste de Retirada. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 10 danni a ciascuno dei Pokémon del tuo avversario per ogni Colorless nel suo costo di ritirata. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 10 de danos a todos os Pokémon do seu oponente para cada Colorless no Custo para Recuar daquele Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des jeweiligen Pokémon zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des jeweiligen Pokémon zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+		de: "Es setzt sich an der Decke von Höhlen fest und wirft seine dornengespickten Schlingen auf vorbeigehende Beute ab."
 	},
 
 	thirdParty: {

@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Fossile Rare",
-		en: "Rare Fossil"
+		en: "Rare Fossil",
+		de: "Seltenes Fossil"
 	},
 
 	abilities: [{
@@ -71,7 +72,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
+		de: "Durch das Zittern seines gefrorenen Oberkörpers entsteht Elektrizität. Das Laufen fällt ihm äußerst schwer."
 	},
 
 	variants: [

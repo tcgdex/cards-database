@@ -22,7 +22,7 @@ const card: Card = {
 		es: "La próxima vez que lances cualquier cantidad de monedas para el efecto de un ataque, habilidad o carta de Entrenador en este turno, elige cara o cruz para el primer lanzamiento de moneda.",
 		it: "La prossima volta che lanci una moneta un numero qualsiasi di volte per effetto di un attacco, di un’abilità o di una carta Allenatore durante questo turno, scegli se far uscire testa o croce per il primo lancio.",
 		pt: "Na próxima vez que jogar qualquer quantidade de moedas para o efeito de um ataque, Habilidade ou carta de Treinador durante esta rodada, escolha se o resultado é cara ou coroa para a primeira jogada de moeda.",
-		de: "Wenn du während dieses Zuges das nächste Mal für den Effekt einer Attacke, Fähigkeit oder Trainerkarte 1 oder mehr Münzen wirfst, wähle Kopf oder Zahl für den ersten Münzwurf."
+		de: "Wenn du während dieses Zuges das nächste Mal für den Effekt einer Attacke, Fähigkeit oder Trainerkarte 1 oder mehr Münzen wirfst, wähle Kopf oder Zahl für den ersten Münzwurf. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

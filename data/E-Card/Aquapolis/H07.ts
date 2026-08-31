@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Super Dynamo",
 				fr: "Super dynamo",
-				de: "Super Dynamo"
+				de: "Super-Dynamo"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Électrode est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse sur un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Électrode est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a  Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Électrode est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie {L} de votre pile de défausse sur un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Électrode est affecté par un État spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Lektrobal dein Aktives Pokémon ist, eine Münze werfen. Nimm bei „Kopf“ eine {L}-Energiekarte aus deinem Ablagestapel und lege sie an 1 deiner Pokémon an. Diese Fähigkeit kann nicht verwendet werden, falls Lektrobal von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
-				de: "Swift"
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet en action sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				de: "Die Schadenspunkte dieses Angriffs werden nicht durch Schwäche, Resistenz, Poké-Powers, Poké-Bodies oder andere das Verteidigende Pokémon betreffende Effekte beeinflusst."
 			},
 			damage: 30,
 

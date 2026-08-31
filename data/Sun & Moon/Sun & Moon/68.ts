@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It is known for its fantastic strength, but as it grows older, it focuses more on training Makuhita.",
+		de: "Es ist für seine unglaubliche Stärke bekannt, lässt das Kämpfen mit dem Alter aber sein und trainiert stattdessen Makuhita."
 	},
 
 	thirdParty: {

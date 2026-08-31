@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano.\n\nBusca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\n\nCerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nProcure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

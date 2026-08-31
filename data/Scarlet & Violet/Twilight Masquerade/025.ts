@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía {G} Básica de tu mano a este Pokémon. Si has unido Energía a un Pokémon de esta manera, roba 1 carta.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia base {G} dalla tua mano. Se hai assegnato dell'Energia a un Pokémon in questo modo, pesca una carta.",
 			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {G} Básica da sua mão a este Pokémon. Se você ligou Energia a um Pokémon desta forma, compre uma carta.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-{G}-Energiekarte aus deiner Hand an dieses Pokémon anlegen. Wenn du auf diese Weise Energie an ein Pokémon angelegt hast, ziehe 1 Karte."
+			de: "Einmal während deines Zuges kannst du 1 Basis-{G}-Energiekarte aus deiner Hand an dieses Pokémon anlegen. Wenn du auf diese Weise Energien an ein Pokémon angelegt hast, ziehe 1 Karte."
 		}
 	}],
 

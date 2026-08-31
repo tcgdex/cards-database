@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	suffix: "GX",
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Fragmentos Rocosos GX",
 				it: "Schegge Radiali GX",
 				pt: "Estilhaços Afiados GX",
-				de: "Splitterregen GX"
+				de: "Splitterregen-GX"
 			},
 			effect: {
 				en: "This attack does 30 damage for each Energy card in your opponent’s discard pile. (You can’t use more than 1 GX attack in a game.)",

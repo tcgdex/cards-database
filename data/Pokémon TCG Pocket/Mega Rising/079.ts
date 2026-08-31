@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barraskewda"
+		en: "Barraskewda",
+		fr: "Hastacuda"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Arrokuda"
+		en: "Arrokuda",
+		fr: "Embrochet"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Double-Edge"
+			en: "Double-Edge",
+			fr: "Damoclès"
 		},
 
 		damage: 80,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

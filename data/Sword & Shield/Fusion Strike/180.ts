@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "0313",
 
 	description: {
-		en: "These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth."
+		en: "These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.",
+		de: "Je dunkler die Münze an seiner Stirn, desto fester ist sie und desto mehr Respekt hat seine Gruppe vor ihm. Es ist tapfer und kennt keine Angst."
 	},
 
 	attacks: [{

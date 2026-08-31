@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "The black fur that covers this Pokémon's body is dense and springy. Even sharp fangs bounce right off.",
+		de: "Das dunkle Fell, das seinen Körper bedeckt, ist sehr dicht und federnd. Selbst Angriffe mit scharfen Fangzähnen prallen davon ab."
 	},
 
 	variants: [

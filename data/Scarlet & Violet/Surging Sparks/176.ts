@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja cualquier cantidad de cartas de Energía Básica de diferentes tipos, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un numero qualsiasi di carte Energia base di tipo diverso, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por qualquer número de cartas de Energia Básica de tipos diferentes no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach beliebig vielen Basis-Energiekarten verschiedenen Typs, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Durchsuche dein Deck nach beliebig vielen Basis-Energiekarten verschiedenen Typs, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

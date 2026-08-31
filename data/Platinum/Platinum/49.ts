@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Turtwig",
-		fr: "Tortipouss"
+		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-vie",
-				de: "Absorb"
+				de: "Absorber"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Grotle.",
 				fr: "Retirez à Boskara 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from Grotle."
+				de: "Entferne 1 Schadensmarke von Chelcarain."
 			},
 			damage: 30,
 
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				de: "Rasierblatt"
 			},
 
 			damage: 60,
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back."
+		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+		de: "Es weiß, wo es reinstes Quellwasser finden kann. Trägt andere Pokémon auf seinem Rücken dorthin."
 	},
 
 	variants: [

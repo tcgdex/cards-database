@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+		de: "Ein Blick auf das Pendel versetzt einen in drei Sekunden in Schlaf, selbst wenn man gar nicht müde ist."
 	},
 
 	thirdParty: {

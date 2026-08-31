@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toedscool",
-		fr: "Terracool"
+		fr: "Terracool",
+		de: "Tentagra"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
+		de: "Mit den zehn Tentakeln umschlingt es Beute und saugt ihr auf schmerzhafte Weise die Nährstoffe aus. Die Falten am Hutsaum sind eine Delikatesse."
 	},
 
 	thirdParty: {

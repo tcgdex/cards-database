@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
+		de: "Ist sein Fell vollständig elektrisch geladen, leuchtet sein Schweif. Es feuert Haare ab, die sich bei Berührung entladen."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		en: "Mareep",
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",

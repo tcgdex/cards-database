@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Lightning de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Lightning da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
+		de: "Die Regenwolken, die es trägt, ermöglichen es ihm, Gewitter zu erzeugen. Es strotzt vor Blitzen."
 	},
 
 	thirdParty: {

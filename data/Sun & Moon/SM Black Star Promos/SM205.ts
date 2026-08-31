@@ -87,6 +87,16 @@ const card: Card = {
 	description: {
 		en: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 377529,
+				tcgplayer: 196717
+			}
+		}
+	],
 }
 
 export default card

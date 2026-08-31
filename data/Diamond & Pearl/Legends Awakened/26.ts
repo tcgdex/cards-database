@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
-		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
+		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique.",
+		de: "Ein außerirdischer Virus kam mit einem Meteor auf die Erde. Seine DNA mutierte. So entstand DEOXYS."
 	},
 
 	thirdParty: {

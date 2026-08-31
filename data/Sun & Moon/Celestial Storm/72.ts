@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		de: "Trotz seiner geringen Größe ist es stark. Es kann einen Erwachsenen mühelos auf dem Rücken tragen."
 	},
 
 	thirdParty: {

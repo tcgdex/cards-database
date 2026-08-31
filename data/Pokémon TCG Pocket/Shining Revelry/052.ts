@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il se défend en brandissant un marteau qu'il a créé\nlui-même, mais les Pokémon qui se nourrissent\nde métaux ont tendance à le lui voler.",
 		es: "Agita su martillo forjado a mano para ahuyentar\na posibles amenazas, pero los Pokémon que se\nalimentan a base de metal suelen robárselo.",
 		it: "Si difende adoperando un martello che ha\nforgiato personalmente, anche se spesso\ni Pokémon ghiotti di metallo glielo rubano.",
-		de: "Es schwingt seinen handgeschmiedeten Hammer,\num sich zu schützen. Dieser wird ihm allerdings oft\nvon Pokémon gestohlen, die Metall fressen.",
+		de: "Es schwingt seinen handgeschmiedeten Hammer, um sich zu schützen. Dieser wird ihm allerdings oft von Pokémon gestohlen, die Metall fressen.",
 		'pt-br': "Balança seu martelo feito à mão para se proteger,\nmas o martelo é roubado com frequência\npor Pokémon que comem metal.",
 		ko: "손수 만든 해머를 휘둘러\n몸을 지키려 하나\n금속을 먹는 포켓몬에게 자주 빼앗기고 만다."
 	},

@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "On trouve souvent ce Pokémon dans les forêts\net les hautes herbes. L'aiguillon de 5 cm\nsur sa tête contient un venin très toxique.",
 		es: "Suele habitar bosques y praderas.\nTiene un afilado y venenoso aguijón\nde unos 5 cm encima de la cabeza.",
 		it: "Vive soprattutto nei boschi e nei prati. Sul capo\nha un affilato e velenoso pungiglione lungo 5 cm.",
-		de: "Es lebt bevorzugt in Wäldern und in hohem Gras.\nAuf dem Kopf trägt es einen circa 5 cm langen,\nspitzen, giftigen Stachel.",
+		de: "Es lebt bevorzugt in Wäldern und in hohem Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel.",
 		'pt-br': "Encontrado frequentemente em florestas e\npradarias. Possui uma farpa afiada e tóxica\nde cerca de 5 cm em cima da cabeça.",
 		ko: "숲이나 풀밭에 많이 서식한다.\n머리끝에 5cm 정도의\n작고 날카로운 독침을 지니고 있다."
 	},

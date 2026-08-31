@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+		de: "Es ist ihm völlig gleichgültig, wenn Stücke aus ihm herausbrechen, während es Berge hinabrollt."
 	},
 
 	thirdParty: {

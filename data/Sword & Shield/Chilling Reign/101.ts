@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+		de: "Die kleinen Stacheln an seinem Körper sind aus Schuppen entstanden. Damit injiziert es Gift, das zu Ohnmacht führt."
 	},
 
 	variants: [

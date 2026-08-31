@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it naturally prefers colder locales, Delibird in Alola seem able to withstand the heat to a certain extent.",
+		de: "Sie bevorzugen eigentlich kühle Gegenden, aber die Botogel Alolas können bis zu einem gewissen Grad auch heißes Klima ertragen."
 	},
 
 	thirdParty: {

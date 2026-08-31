@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cuando se aplique Debilidad al daño infligido al Pokémon Activo de tu rival por los ataques del Pokémon al que esté unida esta carta, se aplica la Debilidad ×3.",
 		it: "Quando applichi la debolezza ai danni inflitti al Pokémon attivo del tuo avversario dagli attacchi del Pokémon a cui è assegnata questa carta, applicala come ×3.",
 		pt: "Quando aplicar Fraqueza ao dano de ataques do Pokémon ao qual esta carta está ligada causados ao Pokémon Ativo do seu oponente, aplique-a como ×3.",
-		de: "Wenn Schwäche mit Schaden, der dem Aktiven Pokémon deines Gegners durch Attacken des Pokémon, an das diese Karte angelegt ist, verrechnet wird, verrechne sie als ×3."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn Schwäche mit Schaden, der dem Aktiven Pokémon deines Gegners durch Attacken des Pokémon, an das diese Karte angelegt ist, verrechnet wird, verrechne sie als ×3. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

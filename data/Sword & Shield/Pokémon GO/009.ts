@@ -62,7 +62,7 @@ const card: Card = {
 			es: "Descarta 1 Energía Fire de este Pokémon.",
 			it: "Scarta un'Energia Fire da questo Pokémon.",
 			pt: "Descarte 1 Energia Fire deste Pokémon.",
-			de: "Lege 1 Fire-Energie von diesem Pokémon auf deinen Ablagestapel."
+			de: "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 100
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+		de: "Es ist brutal veranlagt. Im Kampf schlägt es mit seinem brennenden Schweif um sich und schlitzt Gegner mit seinen scharfen Klauen auf."
 	},
 
 	

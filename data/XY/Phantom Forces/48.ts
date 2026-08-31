@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+		de: "Hat ein sechseckiges Ohr. Sein durch das Erdreich gepresster Körper steht Stahl in Sachen Härte in nichts nach."
 	},
 
 	thirdParty: {

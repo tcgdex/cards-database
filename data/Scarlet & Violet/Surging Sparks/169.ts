@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si te quedan más cartas de Premio que a tu rival, los ataques usados por el Pokémon al que esté unida esta carta cuestan {C} menos.",
 		it: "Se hai più carte Premio rimanenti del tuo avversario, il costo degli attacchi usati dal Pokémon a cui è assegnata questa carta è ridotto di {C}.",
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques usados pelo Pokémon ao qual esta carta está ligada custarão {C} a menos.",
-		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, verringern sich die Kosten der eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, um {C}."
+		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, verringern sich die Kosten der eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, um {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
+		de: "Für gewöhnlich ist es überaus unschuldig. Entdeckt es etwas Unsichtbares, so starrt es stumm und ohne zu blinzeln in dessen Richtung."
 	},
 }
 

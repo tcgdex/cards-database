@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wurmple",
-		fr: "Chenipotte"
+		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Hard Cocoon",
 				fr: "Carapace",
-				de: "Hard Cocoon"
+				de: "Harter Kokon"
 			},
 			effect: {
 				en: "During your opponent's turn, if Cascoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30.",
 				fr: "Pendant le tour de votre adversaire, si l'une de ses attaques inflige des dégâts à Blindalys (après application de la Faiblesse et de la Résistance), lancez une pièce. Si c'est face, réduisez ces dégâts de 30.",
-				de: "During your opponent's turn, if Cascoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30."
+				de: "Wirf eine Münze, wenn Panekon im Zug deines Gegner Schaden (nachdem Schwäche und Resistenz verrechnet wurden) von einem gegnerischen Angriff bekommen würde. Bei „Kopf“ wird der Schaden um 30 Schadenspunkte reduziert."
 			}
 		},
 	],
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Poison Thread",
 				fr: "Fil empoisonné",
-				de: "Poison Thread"
+				de: "Giftiger Faden"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
+		de: "Es ist das faulste Pokémon der Welt. Doch kann es überaus kräftige Angriffe fahren, wenn es die komplette angestaute Energie auf einmal einsetzt."
 	},
 
 	thirdParty: {

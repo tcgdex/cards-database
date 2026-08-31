@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
+		de: "Weibliche Psiaugon sind etwas aggressiver und eigensinniger als männliche. Wer ihnen die Laune verdirbt, bekommt ihre Psycho-Kräfte zu spüren."
 	},
 
 	variants: [

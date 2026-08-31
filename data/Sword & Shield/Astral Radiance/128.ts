@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+		de: "Damit es bedrohlicher und größer aussieht, umschlingt es seine Taille fest mit seinem gespaltenen Schweif."
 	},
 
 	variants: [

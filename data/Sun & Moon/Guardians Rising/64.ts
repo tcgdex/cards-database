@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "As a result of its continual workouts, it has developed tremendous power. It uses that power to help people with their work.",
+		de: "Es hat sich durch unerbittliches Training unglaubliche Kräfte angeeignet, mit denen es die Menschen bei der Arbeit unterstützt."
 	},
 
 	thirdParty: {

@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, impedirá todos os efeitos dos ataques a este Pokémon, inclusive danos, durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder.",
+		de: "Der Schnabel eines Vogel-Pokémon kann seinem harten Körper keinen Kratzer zufügen. Es verteidigt sich, indem es Puder spuckt."
 	},
 
 	thirdParty: {

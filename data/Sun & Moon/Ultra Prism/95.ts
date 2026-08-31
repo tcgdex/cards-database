@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,7 @@ const card: Card = {
 				es: "Lanza 1 moneda por cada Energía Grass unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
 				it: "Lancia una moneta per ogni Energia Grass assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
 				pt: "Jogue 1 moeda para cada Energia Grass ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
-				de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Grass-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+				de: "Wirf 1 Münze für jede an dieses Pokémon angelegte {G}-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Alola is the best environment for this Pokémon. Local people take pride in its appearance, saying this is how Exeggutor ought to look.",
+		de: "In Alola herrschen für Kokowei die besten Bedingungen. Die Einwohner behaupten voller Stolz, dass dies seine ursprüngliche Form sei."
 	},
 
 	thirdParty: {

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite"
+		en: "Magnemite",
+		de: "Magnetilo"
 	},
 
 	rarity: "None",
@@ -21,9 +22,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searching Magnet",
+				de: "Suchmagnet"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+				en: "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+				de: "Durchsuche dein Deck nach bis zu 3 {M}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 		},
 		{
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 			damage: 10,
 		}

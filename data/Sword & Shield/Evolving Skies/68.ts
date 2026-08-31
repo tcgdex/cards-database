@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
+		de: "Es fliegt umher und sendet Ultraschallwellen aus, um Käfer-Pokémon aufzuspüren, welche ihm als Nahrung dienen."
 	},
 
 	dexId: [527],

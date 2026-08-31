@@ -14,7 +14,14 @@ const card: Card = {
 		ja: "自分の山札から好きなカードを3枚まで選び、トラッシュする。そして山札を切る。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 684566,
+			},
+		},
+	],
 
 	trainerType: "Item",
 	rarity: "Promo",

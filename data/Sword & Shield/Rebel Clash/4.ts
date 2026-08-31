@@ -75,7 +75,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
+		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating.",
+		de: "Seine scharfen Sicheln sind nicht nur Waffen. Vor einer Mahlzeit filetiert es damit auch geschickt seine Beute."
 	},
 
 	variants: [

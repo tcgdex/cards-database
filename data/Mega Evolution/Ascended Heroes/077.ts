@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [102],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -64,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
+		de: "Die Köpfe nutzen untereinander Telepathie, die nur sie wahrnehmen können, um stets eine Gruppe von sechs Exemplaren zu bilden."
 	},
 
 	variants: [
@@ -78,7 +80,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870256,
+			cardmarket: 870255,
 			tcgplayer: 677052
 		}
 	},
@@ -86,7 +88,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 869688,
+			cardmarket: 870256,
 			tcgplayer: 676912
 		}
 	},

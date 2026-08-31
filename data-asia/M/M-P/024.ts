@@ -15,7 +15,14 @@ const card: Card = {
 		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	variants: [{ type: "normal" }],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 682954,
+			},
+		},
+	],
 
 	rarity: "Promo",
 };

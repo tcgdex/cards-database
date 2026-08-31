@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Energy cards attached to this Pokémon in order to use this attack.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Pharamp obscur ou cette attaque ne fait rien.",
+				fr: "Défaussez-vous de toutes les cartes Énergie {L} attachées à Pharamp obscur ou cette attaque ne fait rien.",
 				de: "Lege alle an Dunkles Ampharos angelegten {L}-Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 50,

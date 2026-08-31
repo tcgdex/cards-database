@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		de: "Shuppet"
 	},
 	illustrator: "sui",
 	rarity: "Shiny rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Will-O-Wisp",
 				fr: "Feu Follet",
+				de: "Irrlicht"
 			},
 
 			damage: 20,
@@ -68,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		de: "Es liebt Rachegefühle. Diese Pokémon hängen sich an Dachrinnen von Häusern, in denen Rachsüchtige leben."
 	},
 }
 

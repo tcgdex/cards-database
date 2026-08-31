@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to this Pokémon in order to use this attack.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Goupix pour pouvoir utiliser cette attaque.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Goupix pour pouvoir utiliser cette attaque.",
 				de: "Lege eine an Vulpix angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
 			},
 			damage: 30,

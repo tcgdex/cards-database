@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
-				de: "Collect"
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
-				de: "Draw a card."
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Shoot Through",
 				fr: "Passer à travers",
-				de: "Shoot Through"
+				de: "Durchschießen"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -75,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN."
+		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
+		de: "Dieses Trio ist von Geburt an zusammen. Fleißig bringt es Blütenhonig zu HONWEISEL."
 	},
 
 	variants: [

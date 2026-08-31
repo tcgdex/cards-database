@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il est né avec le pouvoir incroyable de créer\ndes liens avec n'importe quel Pokémon.",
 		es: "Nace con un maravilloso poder que le permite\nestablecer vínculos con cualquier tipo de Pokémon.",
 		it: "Dispone di un potere innato che lo fa\nlegare con qualsiasi specie di Pokémon.",
-		de: "Es wird mit einer wundersamen Kraft geboren,\ndie eine Bindung zu jedem anderen Pokémon\nmöglich macht.",
+		de: "Es wird mit einer wundersamen Kraft geboren, die eine Bindung zu jedem anderen Pokémon möglich macht.",
 		'pt-br': "Ele nasce com um poder extraordinário\nque o permite se ligar a qualquer tipo de Pokémon.",
 		ko: "태어났을 때부터 가지고 있는\n이상한 힘을 쓰면 어떤 포켓몬과도\n마음이 서로 통하게 된다."
 	},

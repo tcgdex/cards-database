@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Ultrigaria",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
-		fr: "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif."
+		fr: "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif.",
+		de: "In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist."
 	},
 
 	thirdParty: {

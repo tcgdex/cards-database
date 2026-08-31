@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Woobat",
 		fr: "Chovsourir",
+		de: "Fleknoil"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+		de: "Beim Abfeuern seiner Ultraschallwellen, mit denen es selbst Beton zertrümmern kann, wedelt es eifrig mit dem Schweif."
 	},
 
 	thirdParty: {

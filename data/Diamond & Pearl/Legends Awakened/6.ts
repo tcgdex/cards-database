@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may move a Fire Energy attached to 1 of your Pokémon to Heatran. This power can't be used if Heatran is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer sur Heatran une Énergie Fire attachée à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Heatran est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energie, die an 1 deiner Pokémon angelegt ist, an Heatran anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Heatran von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {R}-Energie, die an 1 deiner Pokémon angelegt ist, an Heatran anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Heatran von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -75,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
-		fr: "Il hante les grottes volcaniques. Il rampe au mur et au plafond grâce à ses pieds en formes de croix."
+		fr: "Il hante les grottes volcaniques. Il rampe au mur et au plafond grâce à ses pieds en formes de croix.",
+		de: "Es lebt in vulkanischen Höhlen. Mit seinen kreuzförmigen Klauen kann es sogar an der Decke laufen."
 	},
 
 	thirdParty: {

@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch.",
+		de: "Vorsicht vor den Giftsporen, die Hutsassa versprüht! Wo auch immer diese landen, wachsen Pilze, die seinen Hüten ähneln."
 	},
 
 	variants: [

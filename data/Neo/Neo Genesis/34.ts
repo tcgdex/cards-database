@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Flaaffy in order to use this attack. Flip a number of coins equal to the number of Energy cards you discarded. This attack does 30 damage times the number of heads.",
-				fr: "Défaussez toutes les cartes Énergie  attachées à Lainergie afin de pouvoir utiliser cette attaque. Lancez un nombre de pièces égal au nombre de cartes Énergie  que vous avez défaussé. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				fr: "Défaussez toutes les cartes Énergie {L} attachées à Lainergie afin de pouvoir utiliser cette attaque. Lancez un nombre de pièces égal au nombre de cartes Énergie {L} que vous avez défaussé. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Lege alle an Waaty angelegten {L}-Energiekarten auf den Ablagestapel, um diesen Angriff zu verwenden. Wirf eine Anzahl Münzen gleich der Anzahl so abgelegter {L}-Energiekarten. Dieser Angriff fügt 30 Schadens-punkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Take 1 Energy card attached to Flaaffy and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card.",
-				fr: "Prenez une carte Énergie  attachée à Lainergie et attachez-la à 1 des Pokémon de votre Banc. Si vous n'avez pas de Pokémon sur votre Banc, défaussez cette carte énergie.",
+				fr: "Prenez une carte Énergie {L} attachée à Lainergie et attachez-la à 1 des Pokémon de votre Banc. Si vous n'avez pas de Pokémon sur votre Banc, défaussez cette carte énergie.",
 				de: "Nimm eine an Waaty angelegte {L}-Energiekarte und lege sie auf eines deiner Pokémon auf der Bank. Falls du keine Pokémon auf der Bank hast, lege diese Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 20,

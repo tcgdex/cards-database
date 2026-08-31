@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si te quedan más cartas de Premio que a tu rival.\nCura 60 puntos de daño a uno de tus Pokémon.",
 		it: "Puoi usare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\nCura uno dei tuoi Pokémon da 60 danni.",
 		pt: "Você só pode usar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\nCure 60 pontos de dano de 1 dos seus Pokémon.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\nHeile 60 Schadenspunkte bei 1 deiner Pokémon."
+		de: "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. Heile 60 Schadenspunkte bei 1 deiner Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful"
+		en: "Stufful",
+		fr: "Nounourson"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Magnum Punch"
+			en: "Magnum Punch",
+			fr: "Poing Magnum"
 		},
 
 		damage: 40,

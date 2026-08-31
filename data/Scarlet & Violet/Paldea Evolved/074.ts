@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+		de: "Seine elektrischen Backentaschen sind nicht ganz ausgebildet. Um Strom zu erzeugen, muss es mit den Ballen der Vorderpfoten kräftig daran reiben."
 	},
 }
 

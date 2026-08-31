@@ -71,13 +71,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 835923,
-				tcgplayer: 642126
-			}
-		},
-		{
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
@@ -98,6 +91,7 @@ const card: Card = {
 			foil: "tinsel",
 			thirdParty: {
 				cardmarket: 836668,
+				tcgplayer: 642126
 			}
 		},
 	],

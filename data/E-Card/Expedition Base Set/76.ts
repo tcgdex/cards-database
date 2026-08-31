@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to Electabuzz. Shuffle your deck afterward.",
 				fr: "Vous pouvez chercher une carte Énergie de base et l'attacher à Élektek. Mélangez ensuite votre deck.",
-				de: "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und an Elektek anlegen. Mische dein Deck danach."
+				de: "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und sie an Elektek anlegen. Mische dein Deck danach."
 			},
 
 		},

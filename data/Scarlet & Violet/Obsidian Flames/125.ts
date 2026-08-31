@@ -92,12 +92,41 @@ const card: Card = {
 				cardtrader: 255810
 			}
 		},
+		{
+			type: 'holo',
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 749033,
+				tcgplayer: 581987,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756342,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 782239,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 811099,
+			},
+		},
 	],
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	
+
 }
 
 export default card

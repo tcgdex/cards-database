@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "What gives meaning to its life is surprising others. If you set your ear against the red orbs around its neck, you can hear shrieking.",
+		de: "Andere zu erschrecken ist sein Lebenssinn. Wenn man das Ohr auf die roten Kugeln an seinem Hals legt, kann man Hilfeschreie hören."
 	},
 
 	thirdParty: {

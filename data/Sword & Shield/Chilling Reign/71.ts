@@ -51,7 +51,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
+		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people.",
+		de: "Es liebt Orte, wo sonst niemand ist. Nimmt es starke Emotionen wahr, macht es sich so schnell es kann aus dem Staub."
 	},
 
 	variants: [

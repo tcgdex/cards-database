@@ -63,7 +63,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce pour chaque carte Énergie  attachée à Tyranocif brillant. Pour chaque face, défaussez-vous d'une carte Énergie  attachée à Tyranocif brillant ou cette attaque ne fait rien. Puis, pour chaque face, choisissez une carte Énergie attachée au Pokémon Défenseur et obligez votre adversaire à s'en défausser. S'il a moins de cartes Énergie, il doit se défausser de toutes ses cartes Énergie.",
+			fr: "Lancez une pièce pour chaque carte Énergie {R} attachée à Tyranocif brillant. Pour chaque face, défaussez-vous d'une carte Énergie {R} attachée à Tyranocif brillant ou cette attaque ne fait rien. Puis, pour chaque face, choisissez une carte Énergie attachée au Pokémon Défenseur et obligez votre adversaire à s'en défausser. S'il a moins de cartes Énergie, il doit se défausser de toutes ses cartes Énergie.",
 			de: "Wirf für jede an Schimmerndes Despotar abgelegte -Energiekarte eine Münze. Lege für jedes Mal 'Kopf' eine an Schimmerndes Despotar abgelegte -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wähle dann für jedes Mal 'Kopf' eine an das verteidigende Pokémon angelegte Energiekarte und lege diese auf den Ablagestapel deines gegners. Wenn das verteidigende Pokémon weniger Energiekarten hat, lege sie alle ab."
 		},
 

@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Each school has its own territory. Any intruders are mercilessly attacked with fangs bared.",
+		de: "Schwärme von Kanivanha schützen ihr Revier, indem sie sich mit gefletschten Zähnen gnadenlos auf Eindringlinge stürzen."
 	},
 
 	thirdParty: {

@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+		de: "Macht es Ernst, greift das kleine äußere Rad in das große Rad, was die Drehgeschwindigkeit merklich erhöht."
 	},
 
 	variants: [

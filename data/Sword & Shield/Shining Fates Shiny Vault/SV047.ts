@@ -58,7 +58,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
+		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away.",
+		de: "Ein Blick in die Augen seines Gegenübers reicht ihm, um seine Absichten zu erkennen. Vor Leuten, die böse Gedanken hegen, läuft es sofort davon."
 	},
 
 	variants: [

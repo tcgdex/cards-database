@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It freely controls three small units called Mini-Noses using magnetic force.",
+		de: "Es steuert drei kleine Einheiten mithilfe von starkem Magnetismus. Man nennt sie Mininasen."
 	},
 
 	thirdParty: {

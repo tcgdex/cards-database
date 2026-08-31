@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		de: "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend."
 	},
 
 	

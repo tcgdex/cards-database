@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 Pokémon Golpe Fluido Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon Base Colpo Rapido e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 3 Pokémon Golpe Fluido Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 3 Basis-Fließender-Angriff-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Basis-Fließender-Angriff-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Toxizap",
-		en: "Toxel"
+		en: "Toxel",
+		de: "Toxel"
 	},
 
 	attacks: [{
@@ -78,7 +79,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
+		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+		de: "Wenn es am Fortsatz an seiner Brust kratzt und dadurch Strom erzeugt, dann erklingt in der Umgebung ein Ton wie von einer Gitarre."
 	},
 
 	variants: [

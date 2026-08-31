@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
 		fr: "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc.",
-		de: "Tausche dein Aktives Pokémon mit 1 der Pokémon auf der Bank aus."
+		de: "Tausche dein Aktives Pokémon mit 1 der Pokémon auf deiner Bank aus."
 	},
 
 	variants: [

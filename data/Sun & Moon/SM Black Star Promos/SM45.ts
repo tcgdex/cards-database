@@ -89,6 +89,16 @@ const card: Card = {
 	description: {
 		en: "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 300306,
+				tcgplayer: 173399
+			}
+		}
+	],
 }
 
 export default card

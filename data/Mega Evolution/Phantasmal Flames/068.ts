@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
+		de: "Wenn es Elektrizität absondert und dabei giftigen Schweiß verspritzt, so erklingt in der Umgebung eine Melodie wie von einer Gitarre."
 	},
 
 	illustrator: "DOM",
@@ -95,16 +96,17 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 858509
-			}
-		},
-		{
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 857643,
 				tcgplayer: 660409
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 858509,
+				tcgplayer: 663937
 			}
 		}
 	],	

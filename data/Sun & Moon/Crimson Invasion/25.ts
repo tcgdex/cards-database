@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Corphish",
 		fr: "Écrapince",
+		de: "Krebscorps"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
+		de: "Dieser Grobian ergreift andere Pokémon mit seinen Scheren und wirft sie aus seinem Teich."
 	},
 
 	thirdParty: {

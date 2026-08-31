@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+		de: "Es ist meist in Wäldern anzutreffen. Es ist ruhig und verjagt seine Feinde, indem es Sand aufwirbelt."
 	},
 
 	variants: [

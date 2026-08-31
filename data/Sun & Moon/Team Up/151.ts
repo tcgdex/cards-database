@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si el Pokémon Activo de tu rival es un Pokémon Básico.\n\nPon 1 Energía del Pokémon Activo de tu rival en la parte superior de su baraja.",
 		it: "Puoi giocare questa carta solo se il Pokémon attivo del tuo avversario è un Pokémon Base.\n\nPrendi un’Energia dal Pokémon attivo del tuo avversario e mettila in cima al suo mazzo.",
 		pt: "Você só pode jogar esta carta se o Pokémon Ativo do seu oponente for um Pokémon Básico.\n\nColoque 1 Energia do Pokémon Ativo do seu oponente como a primeira carta do baralho dele(a).",
-		de: "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist.\n\nLege 1 Energie vom Aktiven Pokémon deines Gegners oben auf sein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist. Lege 1 Energie vom Aktiven Pokémon deines Gegners oben auf sein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

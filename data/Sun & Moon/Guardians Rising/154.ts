@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		de: "Garstella"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Protección Total GX",
 				it: "Rifugio Totale-GX",
 				pt: "Proteção Total GX",
-				de: "Vollschutz GX"
+				de: "Vollschutz-GX"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

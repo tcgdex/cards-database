@@ -4,7 +4,7 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Ditto",
-		fr: "Metamorph",
+		fr: "Métamorph",
 		de: "Ditto"
 	},
 

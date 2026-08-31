@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machop"
+		en: "Machop",
+		de: "Machollo"
 	},
 
 	rarity: "None",
@@ -21,6 +22,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dynamic Chop",
+				de: "Wuchthieb"
 			},
 			damage: 50,
 		},

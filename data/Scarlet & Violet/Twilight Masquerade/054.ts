@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+		de: "Wenn es seine Körpertemperatur senkt, erstarren die Haare seines Fells zu Eis und dienen ihm als nadelartige Geschosse."
 	},
 
 	variants: [

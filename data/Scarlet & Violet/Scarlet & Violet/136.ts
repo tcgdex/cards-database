@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+		de: "Kiefer und Fangzähne dieses Pokémon sind gut entwickelt und stark genug, Felsen zu zerbeißen. Seine dicke Fettschicht bietet optimalen Schutz."
 	},
 
 	thirdParty: {

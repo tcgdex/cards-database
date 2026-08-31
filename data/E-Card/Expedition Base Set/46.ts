@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croconaw",
-		fr: "Crocrodil"
+		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -36,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -51,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Double Claw",
 				fr: "Combo-griffe",
-				de: "Double Claw"
+				de: "Doppelkralle"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 

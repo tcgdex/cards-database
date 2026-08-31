@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 2 cartas de Energía Metal de su pila de descartes en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere due carte Energia Metal dalla propria pila degli scarti e aggiungerle alle carte che ha in mano.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode colocar 2 cartas de Energia Metal da própria pilha de descarte na própria mão.",
-		de: "Einmal während des Zuges jedes Spielers kann der Spieler 2 Metal-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen."
+		de: "Einmal während des Zuges jedes Spielers kann der Spieler 2 {M}-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+		de: "Die Futtersuche treibt es an Land. Eine Wasserblase versorgt es mit Atemluft und schützt zugleich seinen weichen Kopf."
 	},
 
 	thirdParty: {

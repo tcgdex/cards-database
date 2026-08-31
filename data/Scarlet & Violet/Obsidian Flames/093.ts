@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		de: "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es."
 	},
 
 	variants: [

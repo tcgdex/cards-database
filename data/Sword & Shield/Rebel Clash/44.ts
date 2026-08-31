@@ -59,7 +59,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
+		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below.",
+		de: "Man sagt, wenn auf Wasseroberflächen schöne Kräuselwellen zu sehen sind, liege das an Schallquap, die unter Wasser schrill rufen."
 	},
 
 	variants: [

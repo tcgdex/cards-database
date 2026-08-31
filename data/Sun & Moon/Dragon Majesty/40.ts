@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Dragon hacen 20 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Dragon infliggono 20 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques do seu Pokémon Dragon causam 20 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência).",
-				de: "Die Angriffe deiner Dragon-Pokémon fügen den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Attacken deiner {N}-Pokémon fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		de: "Bei gutem Wetter mischt es sich unter die Wolken und genießt die Freiheit. Es hat eine entzückende Sopranstimme."
 	},
 
 	thirdParty: {

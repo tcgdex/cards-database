@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.",
+		de: "Seine Haut ist grün. Beim Wachsen streift es sie ab und verpuppt sich in einen Seidenkokon."
 	},
 
 	thirdParty: {

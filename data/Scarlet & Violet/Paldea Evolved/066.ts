@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+		de: "Es bewegt sich rollend fort. Rollt es über unebenen Boden, kann es plötzlich explodieren."
 	},
 }
 

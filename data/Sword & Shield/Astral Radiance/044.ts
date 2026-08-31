@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+		de: "Es hüllt sich in die Seelen von Artgenossen, die auf der Reise stromaufwärts ihr Leben ließen. In den Flüssen Hisuis findet sich kein Lebewesen, welches ihm das Wasser reichen könnte."
 	},
 
 	variants: [

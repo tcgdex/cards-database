@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 
 	description: {
-		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest."
+		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+		de: "Es sammelt täglich Honig. Es reibt ihn in seine Beinhaare, um ihn in sein Nest zu transportieren."
 	},
 
 	abilities: [{

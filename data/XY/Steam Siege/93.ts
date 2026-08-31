@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Este ataque hace 120 puntos de daño menos 20 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 120 danni meno 20 per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 120 de danos menos 20 de danos para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente.",
-				de: "Dieser Angriff fügt 120 Schadenspunkte minus 20 Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Dieser Angriff fügt 120 Schadenspunkte minus 20 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "120−",
 
@@ -107,6 +107,7 @@ const card: Card = {
 
 	description: {
 		en: "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+		de: "Für Freunde stürzt es sich selbstlos in den Kampf. Es kann mit seinen Krallen Autos durch die Lüfte tragen."
 	},
 
 	thirdParty: {

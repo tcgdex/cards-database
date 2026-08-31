@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Searching Magnet",
 				fr: "Aimant Inquisiteur",
+				de: "Suchmagnet"
 			},
 			effect: {
 				en: "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
 				fr: "Cherchez jusqu’à 3 cartes Énergie Metal dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 3 {M}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -69,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It sends out electromagnetic waves, which let it float through the air. Touching it while it's eating electricity will give you a full-body shock.",
+		de: "Es sendet elektromagnetische Wellen aus und segelt durch die Luft. Berührt man es, während es Strom saugt, bekommt man einen Schlag."
 	},
 }
 

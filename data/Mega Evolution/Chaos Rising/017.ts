@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+		de: "Es schläft instinktiv in Löchern. Oft usupiert es die Schlafplätze von anderen."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Remoraid"
+		en: "Remoraid",
+		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	stage: "Stage1",

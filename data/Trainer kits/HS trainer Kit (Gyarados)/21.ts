@@ -4,6 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Energy Switch",
+		fr: "Échange d’Énergie",
 	},
 
 	illustrator: "Wataru Kawahara",

@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction.",
+		de: "Es ernährt sich von Industrieabfällen, die durch umweltfreundliche Methoden nun aber knapp werden. Es ist daher vom Aussterben bedroht."
 	},
 
 	variants: [

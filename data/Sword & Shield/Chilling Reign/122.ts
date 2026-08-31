@@ -68,7 +68,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
+		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is.",
+		de: "Seine Färbung ändert sich nicht nur zur Tarnung, sondern auch je nach Laune und Verfassung. Je kräftiger seine Farben sind, desto vitaler ist es."
 	},
 
 	variants: [

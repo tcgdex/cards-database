@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas. Si has descartado 1 carta de Energía de esta manera, roba 2 cartas más.",
 		it: "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte. Se hai scartato una carta Energia in questo modo, pesca altre due carte.",
 		pt: "Descarte 1 carta da sua mão. Se fizer isto, compre 2 cartas. Se você descartou uma carta de Energia desta forma, compre 2 cartas a mais.",
-		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten. Wenn du auf diese Weise eine Energiekarte auf den Ablagestapel gelegt hast, ziehe 2 Karten mehr."
+		de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten. Wenn du auf diese Weise eine Energiekarte auf den Ablagestapel gelegt hast, ziehe 2 Karten mehr. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

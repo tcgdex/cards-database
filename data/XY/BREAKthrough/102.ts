@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más y cura 20 puntos de daño a este Pokémon.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più e curi questo Pokémon da 20 danni.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais e curará 20 de danos deste Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu. Heile 20 Schadenspunkte bei diesem Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu. Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: "20+",
 
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+		de: "Wenn die Blumen auf einem liebevoll gepflegten Blumenbeet blühen, erscheint es und feiert den Anblick mit einem eleganten Tanz."
 	},
 
 	thirdParty: {

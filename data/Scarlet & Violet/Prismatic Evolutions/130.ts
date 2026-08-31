@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si descartas otra carta de tu mano.\n\nBusca en tu baraja hasta 2 Pokémon del futuro, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		pt: "Você só pode usar esta carta se descartar outra carta da sua mão.\n\nProcure por até 2 Pokémon Futuristas no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		it: "Puoi usare questa carta solo se scarti un'altra carta che hai in mano.\n\nCerca nel tuo mazzo fino a due Pokémon Tempo Futuro, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-		de: "Du kannst diese Karte nur einsetzen, wenn du noch 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach bis zu 2 Pokémon aus der Zukunft, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur einsetzen, wenn du noch 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach bis zu 2 Pokémon aus der Zukunft, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "If you have 6 Arceus in play and each of them is a different type, search your deck for up to 6 basic Energy cards. Attach each of those Energy cards to a different Pokémon you have in play. Shuffle your deck afterward.",
 				fr: "Si vous avez 6 Arceus en jeu et que chacun de ces Arceus est de type différent, choisissez jusqu'à 6 cartes Énergie de base dans votre deck. Attachez chacune de ces cartes Énergie à un autre Pokémon que vous avez en jeu. Ensuite, mélangez votre deck.",
-				de: "Wenn du 6 Arceus jeweils unterschiedlichen Typs im Spiel hast, durchsuche dein Deck nach bis zu 6 Basis-Energiekarten. Lege jeder dieser Energiekarten an ein anderes deiner Pokémon im Spiel an. Mische dein Deck danach."
+				de: "Wenn du 6 Arceus jeweils unterschiedlichen Typs im Spiel hast, durchsuche dein Deck nach bis zu 6 Basis-Energiekarten. Lege jede dieser Energiekarten an ein anderes deiner Pokémon im Spiel an. Mische dein Deck danach."
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world."
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+		de: "Man sagt, es sei im Nichts aus einem Ei geschlüpft und habe dann die Welt geformt."
 	},
 
 	variants: [

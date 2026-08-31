@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Pendant le prochain tour de votre adversaire, ses Pokémon Empoisonnés ne peuvent pas battre en retraite. (Cela comprend les nouveaux Pokémon Empoisonnés.)",
 		es: "Durante el próximo turno de tu rival, sus Pokémon Envenenados no pueden retirarse. (Esto incluye los Pokémon recién Envenenados).",
 		'es-mx': "Durante el próximo turno de tu rival, sus Pokémon Envenenados no pueden retirarse. (Esto incluye los nuevos Pokémon que queden Envenenados).",
-		de: "Während des nächsten Zuges deines Gegners können sich seine vergifteten Pokémon nicht zurückziehen. (Dies schließt Pokémon ein, die neu vergiftet werden.)",
+		de: "Während des nächsten Zuges deines Gegners können sich seine vergifteten Pokémon nicht zurückziehen. (Dies schließt Pokémon ein, die neu vergiftet werden.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Durante il prossimo turno del tuo avversario, il suo Pokémon avvelenato non può ritirarsi. Questo include i Pokémon che sono stati appena avvelenati.",
 		pt: "Durante o próximo turno do seu oponente, os Pokémon Envenenados dele não poderão recuar. (Isso inclui Pokémon recém-Envenenados.)"
 	},

@@ -77,7 +77,7 @@ const card: Card = {
 		es: "Tornadus V",
 		it: "Tornadus-V",
 		pt: "Tornadus V",
-		de: "Boreos-V"
+		de: "Boreos VMAX"
 	},
 
 	regulationMark: "E",

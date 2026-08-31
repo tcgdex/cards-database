@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs."
+		en: "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs.",
+		de: "Sein Körper besteht aus sieben verschiedenen Bithora, wobei der Kopf das Sagen über die anderen Gliedmaßen hat."
 	},
 
 	variants: [

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		de: "Mit jeder Bewegung erzeugt es durch das Strecken und Zusammenziehen seiner Muskeln Elektrizität. Steckt es in der Klemme, leuchtet es."
 	},
 }
 

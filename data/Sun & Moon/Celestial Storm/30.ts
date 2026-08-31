@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Oricorio has sipped red nectar. Its passionate dance moves cause its enemies to combust in both body and mind.",
+		de: "Ein Choreogel, das roten Nektar geschlürft hat. Mit seinen hitzigen Tanzschritten versengt es Körper und Geist eines jeden Gegners."
 	},
 
 	thirdParty: {

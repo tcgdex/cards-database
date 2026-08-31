@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), when you attach a Metal Energy card from your hand to Beldum (excluding effects of attacks or Poké-Powers), you may search your deck for Beldum and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous attachez une carte Énergie Metal de votre main à Terhal (effets d'attaques ou Poké-Powers exclus), vous pouvez chercher Terhal dans votre deck et le placer sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Terhal est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du 1 -Energiekarte von deiner Hand an Tanhel anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Power), dein Deck nach 1 Tanhel-Karte durchsuchen und auf deine Bank legen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Tanhel von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du 1 {M}-Energiekarte von deiner Hand an Tanhel anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Power), dein Deck nach 1 Tanhel-Karte durchsuchen und auf deine Bank legen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Tanhel von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
-		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
+		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson.",
+		de: "Es kommuniziert mit anderen durch magnetische Impulse. Im Schwarm bilden sie eine perfekte Einheit."
 	},
 
 	thirdParty: {

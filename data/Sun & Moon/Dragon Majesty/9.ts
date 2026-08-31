@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Darumaka",
 		fr: "Darumarond",
+		de: "Flampion"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Une hasta 3 cartas de Energía Fire de tu mano a tus Pokémon de la manera que desees.",
 				it: "Assegna a piacimento ai tuoi Pokémon fino a tre carte Energia Fire dalla tua mano.",
 				pt: "Ligue até 3 cartas de Energia Fire da sua mão aos seus Pokémon como desejar.",
-				de: "Lege bis zu 3 Fire-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+				de: "Lege bis zu 3 {R}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 			},
 
 		},
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.",
+		de: "Erhitzt das Innere seines Körpers auf 1 400 °C und erlangt so die Kraft, um mit der Faust Laster zu zerstören."
 	},
 
 	thirdParty: {

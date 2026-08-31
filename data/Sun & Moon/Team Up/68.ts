@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
+		de: "Es bewegt seine Hüften in einem eigentümlichen Rhythmus. Rossana in Alola beherrschen einen besonders anmutigen Hüftschwung."
 	},
 
 	thirdParty: {

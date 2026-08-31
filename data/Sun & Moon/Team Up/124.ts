@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidgeotto",
 		fr: "Roucoups",
+		de: "Tauboga"
 	},
 
 	stage: "Stage2",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+		de: "Dieses Pokémon schnellt bei der Jagd blitzschnell unter Wasser, um seine ahnungslose Beute zu fangen."
 	},
 
 	thirdParty: {

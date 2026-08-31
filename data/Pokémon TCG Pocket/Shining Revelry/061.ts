@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Jigglypuff"
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il a une très belle fourrure. Mieux vaut éviter de le mettre\nen colère, ou il gonflera avant d'attaquer de tout son corps.",
 		es: "Tiene un pelaje muy fino. Se recomienda no enfadarlo,\no se inflará y golpeará con todo su cuerpo.",
 		it: "Ha un pelo molto fino. Attenzione a non farlo adirare,\nperché può gonfiarsi e caricare con tutto il suo peso.",
-		de: "Es hat sehr feines Fell. Doch Vorsicht: Verärgert\nman Knuddeluff, bläst es sich stark auf und stürzt\nsich mit seinem ganzen Körper auf einen.",
+		de: "Es hat sehr feines Fell. Doch Vorsicht: Verärgert man Knuddeluff, bläst es sich stark auf und stürzt sich mit seinem ganzen Körper auf einen.",
 		'pt-br': "Ele tem a pele muito fina. Tome cuidado para\nnão zangá-lo ou ele pode inflar permanentemente\ne golpear com uma pancada de corpo.",
 		ko: "얇고 고운 털을 지니고 있다.\n화나게 하면 몸을 점점 부풀리며\n덮쳐 오기 때문에 주의가 필요하다."
 	},

@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "By joining its tail with that of another Luxio, this Pokémon can receive some of the other Luxio's electricity and power up its own electric blasts.",
+		de: "Verbindet es seinen Schweif mit dem eines Artgenossen, absorbiert es einen Teil von dessen Elektrizität und teilt stärkere Stromschläge aus."
 	},
 
 	

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 cartas de Energía Water y Psychic, en cualquier combinación, y únelas a 1 de tus Pokémon en Banca. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Water e Psychic in qualsiasi combinazione e assegnale a uno dei tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Water e Psychic no seu baralho em qualquer combinação e ligue-as a 1 dos seus Pokémon no Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 Water- und Psychic-Energiekarten und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 {W}- und {P}-Energiekarten und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 			},
 			damage: 40,
 
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Its sparkling core is called \"the gem of the sea.\" This core can be made into high-priced accessories that are traded in secret.",
+		de: "Sein leuchtender Kern, das „Juwel des Meeres“, ist so wertvoll, dass manche ihn zu Schmuck verarbeiten und unter der Hand verkaufen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cada Energía Grass Básica unida a tus Pokémon proporciona Energía GrassGrass. No puedes aplicar más de 1 habilidad Dominio de la Selva a la vez.",
 				it: "Ogni Energia base Grass assegnata ai tuoi Pokémon fornisce GrassGrass. Può essere applicata solo un’abilità Signore della Giungla alla volta.",
 				pt: "Cada Energia Grass básica ligada aos seus Pokémon fornece Energias GrassGrass. Você não pode usar mais de 1 Habilidade Totem da Selva por vez.",
-				de: "Jede an deine Pokémon angelegte Grass-Basis-Energie liefert GrassGrass-Energie. Du kannst immer nur jeweils 1 Fähigkeit Dschungelherrschaft einsetzen."
+				de: "Jede an deine Pokémon angelegte {G}-Basis-Energie liefert {G}{G}-Energie. Du kannst immer nur jeweils 1 Fähigkeit Dschungelherrschaft einsetzen."
 			},
 		},
 	],
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
+		de: "Es spreizt die breiten Blätter seiner Blüte, um seinen Körper mit Sonnenenergie zu durchfluten."
 	},
 
 	thirdParty: {

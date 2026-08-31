@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+		de: "Es kontrolliert die Stärke des Feuers an seinem Schweif geschickt, um Gegner auf idealer Distanz zu halten."
 	},
 
 	variants: [

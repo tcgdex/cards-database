@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lombre",
 		fr: "Lombre",
+		de: "Lombrero"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful.",
+		de: "Der Rhythmus von Partymusik bringt das Blut von Kappalores in Wallung und es wird dadurch stärker."
 	},
 
 	thirdParty: {

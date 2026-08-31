@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
+		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color.",
+		de: "Harte Knochenarbeit kann man problemlos ihm überlassen. Sein Körper aus Kupfer rostet im Regen und nimmt eine leuchtend grüne Farbe an."
 	},
 
 	attacks: [{

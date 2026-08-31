@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Puedes unir 1 carta de Energía Metal de tu mano a este Pokémon.",
 			it: "Puoi assegnare a questo Pokémon una carta Energia Metal dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Metal da sua mão a este Pokémon.",
-			de: "Du kannst 1 Metal-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+			de: "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
 		},
 
 		damage: 50

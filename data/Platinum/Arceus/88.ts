@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach Lucky Egg to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. When the Pokémon this card is attached to is Knocked Out by damage from an opponent's attack, draw cards until you have 7 cards in your hand.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, ziehe so viele Karten, bis du 7 Karten auf deiner Hand hast."
+		de: "Lege Glücks-Ei an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn dieses Pokémon kampfunfähig wird, lege Glücks-Ei auf den Ablagestapel. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, ziehe so viele Karten, bis du 7 Karten auf deiner Hand hast."
 	},
 
 	trainerType: "Tool",

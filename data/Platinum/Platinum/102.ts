@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Reheat",
 				fr: "Réchauffer",
-				de: "Reheat"
+				de: "Wiedererwärmen"
 			},
 			effect: {
 				en: "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards.",
 				fr: "Défaussez jusqu'à 2 cartes Énergie de votre main. Pour chaque carte défaussée, piochez 2 cartes.",
-				de: "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards."
+				de: "Lege bis zu 2 Energiekarten von deiner Hand auf deinen Ablagestapel. Ziehe für jede auf diese Weise auf den Ablagestapel gelegte Karte 2 Karten."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -68,7 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails."
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
 	},
 
 	variants: [

@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "Discard your hand and draw 7 cards.",
 		fr: "Défaussez votre main, puis piochez 7 cartes.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten.",
+		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Scarta le carte che hai in mano e pesca sette carte.",
 		pt: "Descarte a sua mão e compre 7 cartas.",
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",

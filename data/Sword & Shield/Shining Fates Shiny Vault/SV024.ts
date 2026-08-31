@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Darumarond de Galar",
-		en: "Galarian Darumaka"
+		en: "Galarian Darumaka",
+		de: "Galar-Flampion"
 	},
 
 	attacks: [{
@@ -79,7 +80,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
+		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
+		de: "Es lagert Futter in dem Schneeball auf seinem Kopf und trägt es nach Hause. Bei Schneestürmen steigt es zu den Siedlungen der Menschen hinab."
 	},
 
 	variants: [

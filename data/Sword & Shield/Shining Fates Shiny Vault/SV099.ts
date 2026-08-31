@@ -56,7 +56,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries.",
+		de: "Es ist überall in der Galar-Region anzutreffen. Hat es keine Beeren, die es in seinen beiden Backen horten kann, wird es unruhig."
 	},
 
 	variants: [

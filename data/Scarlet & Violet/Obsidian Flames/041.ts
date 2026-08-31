@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
+		de: "In heißen Gebieten ist sein brennender Körper unbeliebt, aber in kalten Gegenden wird es als Verkörperung der Sonne verehrt."
 	},
 
 	variants: [

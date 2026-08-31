@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Hypnoblast",
 				fr: "Hypnoblast",
-				de: "Hypnoblast"
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 

@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+		de: "Es beschmiert seine Finger mit giftigem Speichel, der je nach Futter anders gefärbt ist, und malt damit Muster auf die Bäume im Wald."
 	},
 }
 

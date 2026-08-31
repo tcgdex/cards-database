@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+		de: "Es ist sehr reinlich und duldet nicht mal das kleinste Staubkorn. Es beschichtet sein Nest mit dem Öl, das sein Körper absondert."
 	},
 
 	variants: [

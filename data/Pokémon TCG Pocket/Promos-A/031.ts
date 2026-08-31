@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Minccino"
+		en: "Minccino",
+		fr: "Chinchidou",
+		de: "Picochilla"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il ne supporte pas de voir le moindre grain de poussière.\nIl utilise l'huile qu'il sécrète pour recouvrir son nid\nd'un revêtement protecteur.",
 		es: "Es tan sumamente pulcro que no puede ver\nni una mota de polvo. La grasa que exuda\npor el cuerpo le sirve de película protectora.",
 		it: "È un maniaco della pulizia e non sopporta la\nvista neanche di un granello di polvere. Riveste\nla tana del grasso che trasuda dal suo corpo.",
-		de: "Es ist sehr reinlich und duldet nicht mal das\nkleinste Staubkorn. Es beschichtet sein Nest\nmit dem Öl, das sein Körper absondert.",
+		de: "Es ist sehr reinlich und duldet nicht mal das kleinste Staubkorn. Es beschichtet sein Nest mit dem Öl, das sein Körper absondert.",
 		'pt-br': "Seu corpo secreta um óleo que este Pokémon\nespalha sobre seu ninho para protegê-lo de poeira.\nCinccino não suporta nem um grãozinho de sujeira.",
 		ko: "먼지 한 톨도 용납하지 않는 결벽증.\n몸에서 나오는 기름을\n둥지에 발라서 코팅한다."
 	},

@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it will eat anything, it prefers fresh living things, so it marches down streets in search of prey.",
+		de: "Es ist zwar ein Allesfresser, bevorzugt aber frische oder lebendige Nahrung. Auf der Suche nach Beute marschiert es die Straßen entlang."
 	},
 
 	

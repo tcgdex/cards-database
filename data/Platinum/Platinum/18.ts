@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Midnight Eyes",
 				fr: "Yeux de minuit",
-				de: "Midnight Eyes"
+				de: "Mitternachtsaugen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Perish Song",
 				fr: "Requiem",
-				de: "Perish Song"
+				de: "Abgesang"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out.",
 				fr: "Si le Pokémon Défenseur est Endormi et que l'attaque Yeux de minuit lui a infligé des dégâts lors de votre tour précédent, il est mis K.O.",
-				de: "If the Defending Pokémo is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out."
+				de: "Wenn das Verteidigende Pokémon schläft und in deinem letzten Zug durch Mitternachtsaugen Schaden erhalten hat oder von dessen Effekt betroffen wurde, ist das Verteidigende Pokémon jetzt kampfunfähig."
 			},
 
 		},
@@ -71,12 +72,12 @@ const card: Card = {
 			name: {
 				en: "Healing Song",
 				fr: "Chanson guérisseuse",
-				de: "Healing Song"
+				de: "Heilgesang"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from each of your Pokémon."
+				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 			damage: 40,
 

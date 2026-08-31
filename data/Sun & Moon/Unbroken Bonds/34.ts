@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+		de: "Bei Gefahr zieht dieses Pokémon seinen Kopf ein. Die Schwanzspitze ragt jedoch aus dem Panzer heraus."
 	},
 
 	thirdParty: {

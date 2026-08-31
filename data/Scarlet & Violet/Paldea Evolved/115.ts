@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
+		de: "Mit seinem geschmeidigen Körper weicht es Attacken aus und durchbricht die Deckung des Gegners, um mit seinen Giftklauen zuzustechen."
 	},
 }
 

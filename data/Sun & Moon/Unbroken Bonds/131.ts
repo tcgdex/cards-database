@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "On nights with many shooting stars, they gather in packs and dance in circles. If you should see them, something good will happen!",
+		de: "In Nächten mit vielen Sternschnuppen bilden Pii einen Kreis und tanzen. Der Anblick dieses Spektakels soll Glück bringen."
 	},
 
 	thirdParty: {

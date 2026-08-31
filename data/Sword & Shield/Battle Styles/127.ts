@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Pon 1 Energía Especial unida a 1 de los Pokémon de tu rival en la parte inferior de su baraja.",
 		it: "Prendi un'Energia speciale assegnata a uno dei Pokémon del tuo avversario e mettila in fondo al suo mazzo.",
 		pt: "Coloque 1 Energia Especial ligada a 1 dos Pokémon do seu oponente como a carta de baixo do baralho dele(a).",
-		de: "Lege 1 an ein Pokémon deines Gegners angelegte Spezial-Energie unter sein Deck."
+		de: "Lege 1 an ein Pokémon deines Gegners angelegte Spezial-Energie unter sein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

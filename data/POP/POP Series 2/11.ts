@@ -4,7 +4,8 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "TV Reporter",
-		fr: "Journaliste télé"
+		fr: "Journaliste télé",
+		de: "TV Reporter"
 	},
 
 	illustrator: "Ken Sugimori",

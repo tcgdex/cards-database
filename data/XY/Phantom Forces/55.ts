@@ -39,7 +39,7 @@ const card: Card = {
 				es: "B Cancelar",
 				it: "(B) Annulla",
 				pt: "Cancelamento B",
-				de: "B"
+				de: "B: Abbrechen"
 			},
 			effect: {
 				en: "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+		de: "Ein Pokémon, das aus 108 Geistern besteht. Es ist an einen Spalt in einem mysteriösen Stein gebunden."
 	},
 
 	thirdParty: {

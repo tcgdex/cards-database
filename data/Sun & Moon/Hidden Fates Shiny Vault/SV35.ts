@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Shiny rare",
@@ -21,6 +22,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 	stage: "Stage1",
 
@@ -33,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 20,
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Magical Shot",
 				fr: "Coup Magique",
+				de: "Magischer Schuss"
 			},
 
 			damage: 30,
@@ -71,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+		de: "Die fröhliche Stimmung seines Trainers verleiht ihm Energie für psychokinetische Kraft. Wenn es glücklich ist, tanzt und dreht es sich."
 	},
 }
 

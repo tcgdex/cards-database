@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The force of this Pokémon's loud voice isn't just the sound—it's also the wave of air pressure that blows opponents away and damages them.",
+		de: "Sein Brüllen ist nicht nur ein Angriff aufs Gehör, sondern erzeugt auch Schockwellen, durch die Gegner weggefegt und verletzt werden."
 	},
 
 	variants: [

@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
+		de: "Seine Verwandlungskunst ist perfekt. Bringt man es jedoch zum Lachen, fliegt seine Tarnung auf."
 	},
 
 }

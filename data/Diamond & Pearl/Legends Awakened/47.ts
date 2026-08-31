@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Numel",
 		fr: "Camaub",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
-		fr: "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
+		fr: "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption.",
+		de: "Auf seinem Rücken befinden sich Vulkane. Magma bildet sich in seinem Körper, die irgendwann ausbricht."
 	},
 
 	thirdParty: {

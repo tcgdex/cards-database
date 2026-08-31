@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Marshtomp",
 		fr: "Flobio",
+		de: "Moorabbel"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "80+",
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+		de: "Es kann im Schwimmen ein großes Schiff ziehen. Seine Gegner schlägt es mit Schlägen seiner Arme zurück."
 	},
 
 	thirdParty: {

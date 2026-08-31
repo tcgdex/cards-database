@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Cura 40 puntos de daño a cada uno de tus Pokémon Grass.",
 				it: "Cura ciascuno dei tuoi Pokémon Grass da 40 danni.",
 				pt: "Cure 40 de danos de cada um dos seus Pokémon Grass.",
-				de: "Heile 40 Schadenspunkte bei jedem deiner Grass-Pokémon."
+				de: "Heile 40 Schadenspunkte bei jedem deiner {G}-Pokémon."
 			},
 			damage: 80,
 
@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "110+",
 
@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+		de: "In warmen Jahreszeiten wuchern seine Ranken so dicht, dass man nicht einmal mehr seine Augen erkennt."
 	},
 
 	thirdParty: {

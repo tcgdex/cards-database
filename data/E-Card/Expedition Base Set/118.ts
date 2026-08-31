@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
-				de: "Flail"
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "This attack does 10 damage times the number of damage counters on Magikarp.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
-				de: "This attack does 10 damage times the number of damage counters on Magikarp."
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Karpador zu."
 			},
 			damage: "10×",
 

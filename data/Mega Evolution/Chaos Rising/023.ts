@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It blocks opponents' attacks with the ice that shields its body. If the ice breaks, this Pokémon uses cold air to quickly create new ice.",
+		de: "Das Eis, das seinen Körper umhüllt, schützt es vor gegnerischen Angriffen. Bruchstellen friert es mithilfe von kalter Luft wieder zu."
 	},
 
 

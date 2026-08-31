@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität zu speichern. Die Wälder, in denen Pikachu leben, bergen stets die Gefahr eines Blitzgewitters."
 	},
 
 	thirdParty: {

@@ -36,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Missing in the Forest",
-			fr: "Perdus en Forêt"
+			fr: "Perdus en Forêt",
+			de: "Verschollen im Wald"
 		},
 
 		effect: {
 			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire."
+			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire.",
+			de: "Diese Attacke fügt für jede Unterstützerkarte im Ablagestapel deines Gegners 40 Schadenspunkte zu."
 		},
 
 		damage: "40×"
@@ -50,7 +52,8 @@ const card: Card = {
 
 		name: {
 			en: "Max Tree",
-			fr: "Arbromax"
+			fr: "Arbromax",
+			de: "Dyna-Baum"
 		},
 
 		damage: 180

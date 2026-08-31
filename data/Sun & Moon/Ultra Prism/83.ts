@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Metal de tu mano a 1 de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon una carta Energia Metal dalla tua mano tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Metal da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Metal-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {M}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting signals of unknown purpose.",
+		de: "Es heißt, dass es beim Herumfliegen mysteriöse Funkwellen aussende und unbekannte empfange."
 	},
 
 	thirdParty: {

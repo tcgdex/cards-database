@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
+		de: "Es kann die körperliche und seelische Verfassung anderer anhand ihres Körpergeruchs erkennen. Dies versucht man für die Medizin zu nutzen."
 	},
 
 	variants: [

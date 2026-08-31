@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Shieldon"
+		en: "Shieldon",
+		fr: "Dinoclier",
+		de: "Schilterus"
 	},
 
 	stage: "Stage2",
@@ -92,6 +94,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 895847,
 				tcgplayer: 704819
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 897297,
+				tcgplayer: 707025
 			}
 		}
 	],

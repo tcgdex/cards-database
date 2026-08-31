@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sliggoo",
 		fr: "Colimucus",
+		de: "Viscargot"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cada vez que unas 1 carta de Energía Water de tu mano a este Pokémon, cúrale 20 puntos de daño.",
 				it: "Ogni volta che assegni una carta Energia Water a questo Pokémon dalla tua mano, curalo da 20 danni.",
 				pt: "Sempre que ligar 1 carta de Energia Water da sua mão a este Pokémon, cure 20 pontos de dano dele.",
-				de: "Heile jedes Mal, wenn du 1 Water-Energiekarte aus deiner Hand an dieses Pokémon anlegst, 20 Schadenspunkte bei ihm."
+				de: "Heile jedes Mal, wenn du 1 {W}-Energiekarte aus deiner Hand an dieses Pokémon anlegst, 20 Schadenspunkte bei ihm."
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It gets picked on because it's meek. But then, whoever teased it gets to feel the full force of its horns and a good swatting from its thick tail.",
+		de: "Wer dieses Pokémon nicht ernst nimmt, bekommt es mit seinen Fühlern zu tun oder wird von seinem Schwanz umgehauen."
 	},
 
 	thirdParty: {

@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata"
+		en: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at your opponent's hand, choose a Supporter card you find there, and discard it. Then, use the effect of that card as the effect of this attack.",
-				de: "Schau dir die Handkarten deines Gegners an, wähle 1 Unterstüzerkarte, die du dort gefunden hast, und lege sie auf den Ablagestapel deines Gegners. Danach nutze den Effekt der gewählten Karte als Effekt dieses Angriffs."
+				de: "Schau dir die Handkarten deines Gegners an, wähle 1 Unterstützerkarte, die du dort gefunden hast, und lege sie auf den Ablagestapel deines Gegners. Danach nutze den Effekt der gewählten Karte als Effekt dieses Angriffs."
 			},
 
 		},
@@ -66,7 +67,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."
+		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+		de: "Es wetzt seine ständig wachsenden Zähne an harten Dingen. Es kann Wände aus Beton zernagen."
 	},
 
 	variants: [

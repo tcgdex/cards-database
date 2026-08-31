@@ -65,7 +65,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
+		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
+		de: "Seine Rücken- und Brustflossen sind muskelähnlich entwickelt. Es erreicht beim Schwimmen eine Geschwindigkeit von bis zu fünf Knoten."
 	},
 
 	thirdParty: {

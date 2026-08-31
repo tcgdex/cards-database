@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zorua"
+		en: "Zorua",
+		fr: "Zorua"
 	},
 
 	description: {

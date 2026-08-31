@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
+		de: "Es versteckt sich im Schatten der Menschen und absorbiert deren Wärme, sodass die Menschen frieren."
 	},
 
 	thirdParty: {

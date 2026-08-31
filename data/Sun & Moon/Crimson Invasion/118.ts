@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	suffix: "GX",
@@ -95,7 +96,7 @@ const card: Card = {
 				es: "Carrusel Torre GX",
 				it: "Girotondo Spilungone-GX",
 				pt: "Carrossel Alto GX",
-				de: "Turmreihum GX"
+				de: "Turmreihum-GX"
 			},
 			effect: {
 				en: "Move any number of Energy from your Pokémon to your other Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",

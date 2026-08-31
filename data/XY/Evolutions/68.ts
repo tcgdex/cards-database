@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
+		de: "Es läuft stets mit einer Lauchstange umher. Damit baut es sein Nest."
 	},
 
 	thirdParty: {

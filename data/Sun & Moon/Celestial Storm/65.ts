@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		de: "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
+		de: "Starke Gefühle des Hasses machten aus einer Puppe ein Pokémon. Öffnet es seinen Mund, kann die ganze verfluchte Energie hinaus."
 	},
 
 	thirdParty: {

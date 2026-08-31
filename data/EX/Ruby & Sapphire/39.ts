@@ -4,7 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint",
+		fr: "Élecsprint",
 		de: "Voltenso"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Electrike",
-		fr: "Dynavolt"
+		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
-				de: "Thundershock"
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Gigashock",
 				fr: "Electrochok",
-				de: "Gigashock"
+				de: "Gigaschock"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à deux des Pokémon du Banc de votre adversaire (ou un s'il n'y en a qu'un). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 10 damage to 2 of your opponent's Benched Pokémon. (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Dieser Angriff fügt 2 gegnerischen Pokémon auf der Bank (1 wenn nur 1 vorhanden ist) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

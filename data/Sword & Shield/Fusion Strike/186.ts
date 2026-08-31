@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "MAHOU",
 
 	description: {
-		en: "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
+		en: "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements.",
+		de: "Früher lebte es in Minen. Da sein mineralisches Futter dort aber immer seltener wird, findet man es nun auch in Menschensiedlungen."
 	},
 
 	attacks: [{

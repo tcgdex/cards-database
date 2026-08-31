@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+		de: "Die Haare auf seinem Kopf haben sich zu etwas verhärtet, das an einen eisernen Helm erinnert. Es ist von Natur aus kriegerisch veranlagt."
 	},
 
 	

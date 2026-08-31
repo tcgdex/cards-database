@@ -23,7 +23,7 @@ const card: Card = {
 		es: "El Pokémon al que esté unida esta carta puede atacar incluso si está Dormido o Paralizado.",
 		it: "Il Pokémon a cui è assegnata questa carta può attaccare anche se è addormentato o paralizzato.",
 		pt: "O Pokémon ao qual esta carta está ligada pode atacar mesmo se estiver Adormecido ou Paralisado.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, kann angreifen, auch wenn es schläft oder paralysiert ist."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, kann angreifen, auch wenn es schläft oder paralysiert ist. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

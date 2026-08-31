@@ -4,7 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Melofée",
+		fr: "Mélofée",
 		de: "Piepi"
 	},
 

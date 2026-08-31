@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "Almost all its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
-		fr: "Il est principalement composé d'un estomac dont les sucs digestifs dissolvent tout ce qu'il avale."
+		fr: "Il est principalement composé d'un estomac dont les sucs digestifs dissolvent tout ce qu'il avale.",
+		de: "Sein Körper besteht fast nur aus Magen. Seine starken Verdauungssäfte zersetzen alles sehr schnell."
 	},
 
 	thirdParty: {

@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si todos tus Pokémon en juego son de tipo Darkness, puedes tener hasta 8 Pokémon en tu Banca y no puedes poner Pokémon no Darkness en juego. (Si esta habilidad deja de funcionar, descarta Pokémon de tu Banca hasta que tengas 5).",
 			it: "Se tutti i tuoi Pokémon in gioco sono di tipo Darkness, puoi avere fino a otto Pokémon nella tua panchina e non puoi mettere in gioco Pokémon che non siano di tipo Darkness. Se questa abilità smette di funzionare, scarta i Pokémon dalla tua panchina fino ad averne cinque.",
 			pt: "Se todos os seus Pokémon em jogo forem de tipo Darkness, você poderá ter até 8 Pokémon no seu Banco e não poderá colocar Pokémon que não sejam de tipo Darkness em jogo (se esta Habilidade parar de funcionar, descarte Pokémon até ter 5 no seu Banco).",
-			de: "Wenn alle deine Pokémon im Spiel vom Typ Darkness sind, kannst du bis zu 8 Pokémon auf deiner Bank haben und Pokémon, die keine Darkness-Pokémon sind, nicht ins Spiel bringen. (Wenn diese Fähigkeit nicht mehr aktiv ist, lege so lange Pokémon von deiner Bank auf deinen Ablagestapel, bis du  5 hast.)"
+			de: "Wenn alle deine Pokémon im Spiel vom Typ {D} sind, kannst du bis zu 8 Pokémon auf deiner Bank haben und Pokémon, die keine {D}-Pokémon sind, nicht ins Spiel bringen. (Wenn diese Fähigkeit nicht mehr aktiv ist, lege so lange Pokémon von deiner Bank auf deinen Ablagestapel, bis du  5 hast.)"
 		}
 	}],
 
@@ -71,7 +71,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Darkness en juego.",
 			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Darkness in gioco.",
 			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Darkness em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Darkness-Pokémon im Spiel 30 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes deiner {D}-Pokémon im Spiel 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"

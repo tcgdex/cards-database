@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
+		de: "Da sein Körper aus Gas besteht, kann es schon von einem leichten Luftzug weggeweht werden. Aber das scheint ihm nichts auszumachen."
 	},
 
 	thirdParty: {

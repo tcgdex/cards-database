@@ -21,7 +21,7 @@ const card: Card = {
 		en: "Attach a Basic Energy card from your discard pile to 1 of your Benched N's Pokémon.",
 		fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de N de Banc.",
 		es: "Une 1 carta de Energía Básica de tu pila de descartes a uno de tus Pokémon de N en Banca.",
-		de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Ns Pokémon auf deiner Bank an.",
+		de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Ns Pokémon auf deiner Bank an. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Assegna a uno dei tuoi Pokémon di N in panchina una carta Energia base dalla tua pila degli scarti.",
 		pt: "Ligue uma carta de Energia Básica da sua pilha de descarte a 1 dos seus Pokémon do N no Banco.",
 		'es-mx': "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon de N en Banca."

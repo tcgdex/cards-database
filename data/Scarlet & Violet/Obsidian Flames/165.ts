@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "There are records of a lost human child being raised by a childless Kangaskhan.",
+		de: "Es liegen Berichte vor, laut denen Kangama ohne eigenen Nachwuchs stattdessen Menschenkinder in Not aufgezogen haben."
 	},
 
 	variants: [

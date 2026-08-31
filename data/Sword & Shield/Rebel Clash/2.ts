@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
+		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+		de: "In diesem Zustand wartet es auf die Entwicklung. Es kann nur seinen Panzer erhärten, daher bewegt es sich nicht, um nicht angegriffen zu werden."
 	},
 
 	variants: [

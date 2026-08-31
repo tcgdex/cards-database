@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It has mystical powers but doesn't recall that it has used them. That is why it always looks puzzled.",
+		de: "Es besitzt mystische Kräfte, die es unbewusst einsetzt. Daher ist sein Blick immer verwirrt."
 	},
 
 	thirdParty: {

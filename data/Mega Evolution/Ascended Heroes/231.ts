@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "mingo",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [940],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -64,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+		de: "Trifft Wind auf seine Flügel, erzeugen deren Knochen Strom. Es fängt Beute, indem es ins Meer taucht und ihr einen Stromschlag verpasst."
 	},
 
 	variants: [

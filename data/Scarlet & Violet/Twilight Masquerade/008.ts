@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
+		de: "Mit seiner gewaltigen Kraft kann es Objekte, die hundertmal sein Körpergewicht haben, mühelos werfen."
 	},
 
 	variants: [

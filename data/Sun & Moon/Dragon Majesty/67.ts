@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	suffix: "GX",
@@ -96,7 +97,7 @@ const card: Card = {
 				es: "Pon 3 Pokémon Dragon de tu pila de descartes en tu Banca. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Prendi tre Pokémon Dragon dalla tua pila degli scarti e mettili nella tua panchina. Non puoi usare più di un attacco GX a partita.",
 				pt: "Coloque 3 Pokémon Dragon da sua pilha de descarte no seu Banco (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege 3 Dragon-Pokémon aus deinem Ablagestapel auf deine Bank. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege 3 {N}-Pokémon aus deinem Ablagestapel auf deine Bank. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

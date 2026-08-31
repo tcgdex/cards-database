@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pancham"
+		en: "Pancham",
+		fr: "Pandespiègle"
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Punch"
+			en: "Punch",
+			fr: "Koud'Poing"
 		},
 
 		damage: 20,

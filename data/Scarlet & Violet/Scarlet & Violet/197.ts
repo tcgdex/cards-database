@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques del Pokémon al que esté unida esta carta hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques do Pokémon ao qual esta carta está ligada causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede descartar 3 cartas de la parte superior de su baraja. Si algún jugador ha descartado alguna carta de Objeto de esta manera, pone esas cartas de Objeto en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare tre carte dalla cima del proprio mazzo. Se un giocatore ha scartato delle carte Strumento in questo modo, aggiunge quelle carte Strumento alle carte che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá descartar as 3 cartas de cima do próprio baralho. Se um jogador descartou qualquer carta de Item desta forma, colocará aquelas cartas de Item na própria mão.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler die obersten 3 Karten seines Decks auf den Ablagestapel legen. Wenn ein Spieler auf diese Weise mindestens 1 Itemkarte auf den Ablagestapel gelegt hat, nimmt jener Spieler jene Itemkarten auf seine Hand."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler die obersten 3 Karten seines Decks auf den Ablagestapel legen. Wenn ein Spieler auf diese Weise mindestens 1 Itemkarte auf den Ablagestapel gelegt hat, nimmt jener Spieler jene Itemkarten auf seine Hand. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

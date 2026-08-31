@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Smoliv",
-		fr: "Olivini"
+		fr: "Olivini",
+		de: "Olini"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+		de: "Bereitwillig teilt dieses Pokémon sein köstliches, frisch duftendes Öl mit anderen. Seit langer Zeit schon lebt es Seite an Seite mit den Menschen."
 	},
 
 	thirdParty: {

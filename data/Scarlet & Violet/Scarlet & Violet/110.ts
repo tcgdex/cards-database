@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+		de: "Es vergisst nie sein tägliches Yogatraining. Durch Meditation erhöht es seine innere Stärke."
 	},
 
 	thirdParty: {

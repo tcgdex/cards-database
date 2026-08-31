@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vibrava",
 		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a tus Pokémon Dragon. (No se eliminan los efectos ya existentes).",
 				it: "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti ai tuoi Pokémon Dragon. Gli effetti esistenti non vengono rimossi.",
 				pt: "Previne todos os efeitos de ataques do seu oponente, exceto dano, causados aos seus Pokémon Dragon (efeitos existentes não são removidos).",
-				de: "Verhindere alle Effekte von Attacken deines Gegners, außer Schaden, die deinen Dragon-Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt.)"
+				de: "Verhindere alle Effekte von Attacken deines Gegners, außer Schaden, die deinen {N}-Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt.)"
 			},
 		},
 	],
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+		de: "Da es sich stets im Zentrum des von ihm entfachten Sandsturms aufhält, bekommen Menschen es so gut wie nie zu Gesicht."
 	},
 
 	thirdParty: {

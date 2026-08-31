@@ -64,7 +64,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
+		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey.",
+		de: "Es kühlt sein Gesicht ständig mit Eis, da dieses Hitze nicht gut verträgt. Das Haar auf dem Kopf hängt es ins Meer und angelt sich damit Beute."
 	},
 
 	dexId: [875],
