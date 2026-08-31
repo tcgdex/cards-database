@@ -104,6 +104,15 @@ const card: Card = {
 		de: "Aufgrund seines feinen Gefieders glückt die Zurückverwandlung dieses urzeitlichen Pokémon nur Experten mit langjähriger Erfahrung."
 	},
 
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
 	thirdParty: {
 		cardmarket: 388407,
 		tcgplayer: 195077
