@@ -1,8 +1,24 @@
 import express from 'express'
 import fs from 'node:fs'
 import path from 'node:path'
+import { execSync } from 'node:child_process'
 
 const START_TIME = new Date()
+
+const git = (cmd: string) => {
+	try { return execSync(cmd, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim() } catch { return null }
+}
+let GIT_VERSION = 'dev'
+let GIT_COMMIT  = 'unknown'
+try {
+	const info = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../generated/git-info.json'), 'utf8'))
+	GIT_VERSION = info.version ?? 'dev'
+	GIT_COMMIT  = info.commit  ?? 'unknown'
+} catch {
+	// dev environment — git-info.json not built yet, query git directly
+	GIT_VERSION = git('git describe --tags --abbrev=0') ?? 'dev'
+	GIT_COMMIT  = git('git rev-parse --short=7 HEAD')   ?? 'unknown'
+}
 
 const langsToName: Record<string, string> = {
 	'zh-cn': 'Chinese (simplified)',
@@ -124,6 +140,8 @@ export default express.Router()
 			server: {
 				startedAt: START_TIME.toISOString(),
 				uptime: Math.floor((now - START_TIME.getTime()) / 1000),
+				version: GIT_VERSION,
+				commit: GIT_COMMIT,
 			},
 			languages: Object.fromEntries(
 				Object.entries(langStats).map(([lang, s]) => [lang, {
@@ -349,7 +367,7 @@ const STATUS_HTML = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TCGdex Status</title>
+<title>TCGdex Card Database Status</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300..700&display=swap" rel="stylesheet">
 <style>
@@ -507,8 +525,12 @@ tr:hover td { background: var(--bg2); }
 <body>
 <div class="page">
   <header>
-    <h1>TCGdex Status</h1>
-    <span class="uptime-badge" id="uptime-badge">Loading…</span>
+    <h1>TCGdex Cards Database Status</h1>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span class="uptime-badge" id="uptime-badge">Loading…</span>
+      <a class="uptime-badge" href="https://github.com/tcgdex/cards-database" target="_blank" rel="noopener" style="text-decoration:none" id="version-badge">Loading…</a>
+      <a class="uptime-badge" href="https://status.tcgdex.dev/" target="_blank" rel="noopener" style="text-decoration:none">Server Status ↗</a>
+    </div>
   </header>
 
   <nav class="filters" id="filter-bar">
@@ -628,8 +650,9 @@ tr:hover td { background: var(--bg2); }
     return
   }
 
-  // ── uptime badge ──────────────────────────────────────────────────────────
+  // ── uptime / version badges ───────────────────────────────────────────────
   document.getElementById('uptime-badge').textContent = 'Up ' + fmtUptime(data.server.uptime)
+  document.getElementById('version-badge').textContent = data.server.version + ' (' + data.server.commit + ') ↗'
 
   // ── language table ────────────────────────────────────────────────────────
   const langs = data.languages
