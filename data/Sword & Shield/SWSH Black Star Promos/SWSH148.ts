@@ -66,20 +66,19 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576724,
+				tcgplayer: 250578
+			}
+		},
+	],
 
 	hp: 200,
 	types: ["Dragon"],
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 576724
-	}
+	retreat: 0
 }
 
 export default card

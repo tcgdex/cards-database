@@ -20,12 +20,17 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572164,
+				tcgplayer: 247365
+			}
+		},
+	],
 
 	name: {
 		en: "Zacian V-UNION",
@@ -90,14 +95,8 @@ const card: Card = {
 			fr: "Défaussez 3 Énergies de ce Pokémon."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572163
-	}
+	retreat: 0
 }
 
 export default card

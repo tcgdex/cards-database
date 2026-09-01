@@ -54,10 +54,16 @@ const card: Card = {
 	description: {
 		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
 	},
-
-	thirdParty: {
-		cardmarket: 583200
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 583200,
+				tcgplayer: 253409
+			}
+		},
+	],
 }
 
 export default card

@@ -76,10 +76,16 @@ const card: Card = {
 	description: {
 		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	},
-
-	thirdParty: {
-		cardmarket: 684387
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 684387,
+				tcgplayer: 454226
+			}
+		},
+	],
 }
 
 export default card

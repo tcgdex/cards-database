@@ -63,19 +63,18 @@ const card: Card = {
 	retreat: 2,
 	dexId: [282],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 561770
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 561770,
+				tcgplayer: 238545
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

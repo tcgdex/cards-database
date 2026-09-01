@@ -78,19 +78,26 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [855],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 461664
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 461664,
+				tcgplayer: 214235
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 576518,
+				tcgplayer: 214236
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

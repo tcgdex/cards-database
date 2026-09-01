@@ -79,10 +79,16 @@ const card: Card = {
 	description: {
 		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
 	},
-
-	thirdParty: {
-		cardmarket: 566761
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 682976,
+				tcgplayer: 475623
+			}
+		},
+	],
 }
 
 export default card

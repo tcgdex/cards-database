@@ -14,19 +14,24 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
 	},
 
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 571388,
+				tcgplayer: 247386
+			}
+		},
+	],
 
 	name: {
 		en: "Special Delivery Bidoof"
@@ -59,12 +64,6 @@ const card: Card = {
 			en: "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
-
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 571388
-	}
 }
 
 export default card

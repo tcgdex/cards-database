@@ -69,10 +69,23 @@ const card: Card = {
 	description: {
 		en: "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls."
 	},
-
-	thirdParty: {
-		cardmarket: 665983
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 665983,
+				tcgplayer: 285254
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 680245
+			}
+		},
+	],
 }
 
 export default card

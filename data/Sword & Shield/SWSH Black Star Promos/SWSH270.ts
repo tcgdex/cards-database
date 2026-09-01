@@ -79,10 +79,23 @@ const card: Card = {
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind."
 	},
-
-	thirdParty: {
-		cardmarket: 681799
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 681799,
+				tcgplayer: 451845
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 451885
+			}
+		},
+	],
 }
 
 export default card

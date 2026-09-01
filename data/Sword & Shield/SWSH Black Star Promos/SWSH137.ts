@@ -11,12 +11,25 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576736,
+				tcgplayer: 251093
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576909,
+				tcgplayer: 260877
+			}
+		},
+	],
 
 	name: {
 		en: "Light Toxtricity",
@@ -90,10 +103,6 @@ const card: Card = {
 
 	description: {
 		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
-	},
-
-	thirdParty: {
-		cardmarket: 576736
 	}
 }
 

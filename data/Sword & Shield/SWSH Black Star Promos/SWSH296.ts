@@ -26,10 +26,48 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-
-	thirdParty: {
-		cardmarket: 671798
-	}
+	variants: [
+		{
+			type: "normal",
+			stamp: ["worlds-2022"],
+			thirdParty: {
+				cardmarket: 671798,
+				tcgplayer: 575154
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "champion"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "quarter-finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "semi-finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "staff"],
+			thirdParty: {
+				cardmarket: 672087,
+				tcgplayer: 503454
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "top-sixteen"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2022", "top-thirty-two"]
+		},
+	],
 }
 
 export default card

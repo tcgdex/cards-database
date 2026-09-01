@@ -67,11 +67,16 @@ const card: Card = {
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
-
-	thirdParty: {
-		cardmarket: 461594,
-		tcgplayer: 277039
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 653698,
+				tcgplayer: 277039
+			}
+		},
+	],
 }
 
 export default card
