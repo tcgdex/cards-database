@@ -80,12 +80,25 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576731,
+				tcgplayer: 251088
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576905,
+				tcgplayer: 252817
+			}
+		},
+	],
 
 	hp: 150,
 	types: ["Psychic"],
@@ -101,9 +114,6 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 549386
-	}
 };
 
 export default card;

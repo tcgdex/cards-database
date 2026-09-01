@@ -14,12 +14,21 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576503,
+				tcgplayer: 247296
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	name: {
 		en: "Vaporeon V",
@@ -77,14 +86,8 @@ const card: Card = {
 			it: "Scambia questo Pokémon con uno della tua panchina."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 576503
-	}
+	retreat: 2
 }
 
 export default card
