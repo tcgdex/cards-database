@@ -7,6 +7,8 @@ import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
 import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
+import { existsSync } from "fs";
+import { directoryExists } from "./directoryUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -172,6 +174,80 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 	}
 }
 
+interface CardFileLocation {
+	/** path usable with dynamic import() from this file's location */
+	importPath: string
+	/** path matching the git-tracked relative path used by getLastEdit's cache */
+	gitPath: string
+}
+
+class CardNotFoundError extends Error {}
+
+async function resolveCardFile(set: Set, id: string, lang: SupportedLanguages): Promise<CardFileLocation> {
+	const dataFolder = getDataFolder(lang)
+
+	/** perform a search using the readable string first and fallback to ids if not matched */
+	const bases = [
+		{ serie: set.serie.name.en ?? set.serie.name[lang], setName: set.name.en ?? set.name[lang] },
+		{ serie: set.serie.id, setName: set.id }
+	]
+
+	for (const { serie, setName } of bases) {
+		const flatImportPath = `../../${DB_PATH}/${dataFolder}/${serie}/${setName}/${id}.ts`
+		const dirRelativePath = `../../${DB_PATH}/${dataFolder}/${serie}/${setName}/${id}`
+		const hasDirectory = directoryExists(dirRelativePath)
+
+		let flatExists = true
+		try {
+			await import(flatImportPath)
+		} catch {
+			flatExists = false
+		}
+
+		if (flatExists && hasDirectory) {
+			throw new Error(
+				`Card (${serie}/${setName}/${id}) has both a flat file (${id}.ts) and a directory (${id}/) defined — only one is allowed`
+			)
+		}
+
+		if (flatExists) {
+			return {
+				importPath: flatImportPath,
+				gitPath: `../${dataFolder}/${serie}/${setName}/${id}.ts`
+			}
+		}
+
+		if (!hasDirectory) {
+			continue
+		}
+
+		const files = await smartGlob(`${DB_PATH}/${dataFolder}/${serie}/${setName}/${id}/*.ts`)
+		const matches: Array<CardFileLocation> = []
+		for (const file of files.sort()) {
+			const fileName = pathLib.basename(file)
+			try {
+				const importPath = `../../${DB_PATH}/${dataFolder}/${serie}/${setName}/${id}/${fileName}`
+				const card = (await import(importPath)).default as Card
+				if (card.name?.[lang]) {
+					matches.push({ importPath, gitPath: `../${dataFolder}/${serie}/${setName}/${id}/${fileName}` })
+				}
+			} catch {
+			}
+		}
+
+		if (matches.length > 1) {
+			throw new Error(
+				`Card (${serie}/${setName}/${id}) has conflicting definitions for lang (${lang}) in files: ` +
+				matches.map((m) => m.gitPath).join(', ')
+			)
+		}
+		if (matches.length === 1) {
+			return matches[0]
+		}
+	}
+	throw new CardNotFoundError(`Card (${id}) not found for lang (${lang})`)
+}
+
 /**
  *
  * @param setName the setname of the card
@@ -179,11 +255,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(set: Set, id: string, lang: SupportedLanguages): Promise<Card> {
-	try {
-		return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${set.serie.name.en ?? set.serie.name[lang]}/${set.name.en ?? set.name[lang]}/${id}.ts`)).default
-	} catch {
-		return (await import(`../../${DB_PATH}/${getDataFolder(lang)}/${set.serie.id}/${set.id}/${id}.ts`)).default
-	}
+		const { importPath } = await resolveCardFile(set, id, lang)
+		return (await import(importPath)).default
 }
 
 /**
@@ -193,40 +266,70 @@ export async function getCard(set: Set, id: string, lang: SupportedLanguages): P
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	let cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && (set.serie.name.en ?? set.serie.name[lang])) ?? '*'}/${(set && (set.name.en ?? set.name[lang])) ?? '*'}/*.ts`)
-	if (cards.length === 0) {
-		cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && set.serie.id) ?? '*'}/${(set && set.id) ?? '*'}/*.ts`)
+	const serieByName = (set && (set.serie.name.en ?? set.serie.name[lang])) ?? '*'
+	const setByName = (set && (set.name.en ?? set.name[lang])) ?? '*'
+	const serieById = (set && set.serie.id) ?? '*'
+	const setById = (set && set.id) ?? '*'
+
+	let flatCards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serieByName}/${setByName}/*.ts`)
+	let dirCards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serieByName}/${setByName}/*/*.ts`)
+	if (flatCards.length === 0 && dirCards.length === 0) {
+		flatCards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serieById}/${setById}/*.ts`)
+		dirCards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serieById}/${setById}/*/*.ts`)
 	}
+
 	const list: Array<[string, Card]> = []
-	for (const path of cards) {
-		let items = path.split(pathLib.sep)
-		items = items.slice(items.length - 3)
 
-		// get the card id
-		let id = items[2]
-		id = id.substring(0, id.lastIndexOf('.'))
+	for (const path of flatCards) {
+		try {
+			let items = path.split(pathLib.sep)
+			items = items.slice(items.length - 3)
+			let id = items[2]
+			id = id.substring(0, id.lastIndexOf('.'))
+			const setName = items[1]
+			const serieName = items[0]
 
-		// get it's set name
-		const setName = items[1]
+			const resolvedSet = await getSet(setName, serieName, lang)
+			if (!(lang in resolvedSet.name)) continue
 
-		// get it's serie name
-		const serieName = items[0]
-
-		const set = await getSet(setName, serieName, lang)
-
-		if (!(lang in set.name)) {
-			continue
+			const c = await getCard(resolvedSet, id, lang)
+			if (!c.name[lang]) continue
+			list.push([id, c])
+		} catch (e) {
+			if (e instanceof CardNotFoundError) {
+				continue
+			}
+			throw e
 		}
-
-		// console.log(path, id, set, lang)
-		const c = await getCard(set, id, lang)
-		if (!c.name[lang]) {
-			continue
-		}
-		list.push([id, c])
 	}
 
-	// Sort by id when possible
+	const dirIds = new Map<string, { serieName: string; setName: string, id:string }>()
+	for (const path of dirCards) {
+		let items = path.split(pathLib.sep)
+		items = items.slice(items.length - 4)
+		const serieName = items[0]
+		const setName = items[1]
+		const id = items[2]
+		const key = `${serieName}/${setName}/${id}`
+		if (!dirIds.has(key)) {
+			dirIds.set(key, { serieName, setName, id })
+		}
+	}
+
+	for (const [, { serieName, setName, id }] of dirIds) {
+		const resolvedSet = await getSet(setName, serieName, lang)
+		if (!(lang in resolvedSet.name)) continue
+
+		try {
+			const c = await getCard(resolvedSet, id, lang)
+			if (!c.name[lang]) continue
+			list.push([id, c])
+		} catch (e) {
+			if (e instanceof CardNotFoundError) continue
+			throw e
+		}
+	}
+
 	return list.sort(([a], [b]) => {
 		const ra = parseInt(a, 10)
 		const rb = parseInt(b, 10)
@@ -239,16 +342,11 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 
 export async function getCardLastEdit(localId: string, card: Card, lang: SupportedLanguages): Promise<string> {
 	try {
-		const path = `../${getDataFolder(lang)}/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
-		return getLastEdit(path)
+		const { gitPath } = await resolveCardFile(card.set, localId, lang)
+		return getLastEdit(gitPath)
 	} catch (e) {
-		try {
-			const path = `../${getDataFolder(lang)}/${card.set.serie.id}/${card.set.id}/${localId}.ts`
-			return getLastEdit(path)
-		} catch (e2) {
-			console.error(card)
-			console.error(e)
-			throw e2
-		}
+		console.error(card)
+		console.error(e)
+		throw e
 	}
 }

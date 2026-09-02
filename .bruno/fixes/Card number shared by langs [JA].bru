@@ -1,0 +1,17 @@
+meta {
+  name: Card number shared by langs [JA]
+  type: http
+  seq: 10
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/cards/SV-P-173
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq SV-P-173
+  res.body.name: eq ヨルノズク
+}
