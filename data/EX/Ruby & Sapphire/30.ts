@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Lightning Energy card from your discard pile to Electrike.",
-				fr: "Attachez une carte Énergie  de votre pile de défausse à Dynavolt.",
+				fr: "Attachez une carte Énergie {L} de votre pile de défausse à Dynavolt.",
 				de: "Nimm eine {L}-Energiekarte von deinem Ablagestapel und lege sie an Frizelbliz an."
 			},
 

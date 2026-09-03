@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
-				fr: "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
+				fr: "Lorsque vous attachez une carte Énergie {R} à Galifeu, retirez-lui tous ses États Spéciaux.",
 				de: "Wenn du eine {R}-Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
 			}
 		},

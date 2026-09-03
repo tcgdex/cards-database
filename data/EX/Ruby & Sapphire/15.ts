@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Blaziken.",
-				fr: "Défaussez une carte Énergie  attachée à Brasegali.",
+				fr: "Défaussez une carte Énergie {R} attachée à Brasegali.",
 				de: "Lege 1 an Lohgock angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 80,

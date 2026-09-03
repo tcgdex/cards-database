@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie {W} de votre main à Laggron, retirez-lui un marqueur de dégât.",
 				de: "Einmal in deinem Zug (vor deinem Angriff), wenn du eine {W}-Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
 			}
 		},
