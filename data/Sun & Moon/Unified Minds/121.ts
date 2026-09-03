@@ -104,10 +104,22 @@ const card: Card = {
 		de: "Aufgrund seines feinen Gefieders glückt die Zurückverwandlung dieses urzeitlichen Pokémon nur Experten mit langjähriger Erfahrung."
 	},
 
-	thirdParty: {
-		cardmarket: 388407,
-		tcgplayer: 195077
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 388407,
+				tcgplayer: 195077
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 388407,
+				tcgplayer: 195077
+			}
+		}
+	]
 }
 
 export default card

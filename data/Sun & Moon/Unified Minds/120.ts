@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es wurde lange Zeit für den Urahn aller Vogel-Pokémon gehalten, doch jüngste Forschungen führen zu unterschiedlichen Theorien."
 	},
 
-	thirdParty: {
-		cardmarket: 388402,
-		tcgplayer: 195075
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 388402,
+				tcgplayer: 195075
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 388402,
+				tcgplayer: 195075
+			}
+		}
+	]
 }
 
 export default card
