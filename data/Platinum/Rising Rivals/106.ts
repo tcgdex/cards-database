@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Gallade E4 LV.X",
-		fr: "Gallame  Niv. X",
+		fr: "Gallame 4 Niv. X",
 		de: "Galagladi 4"
 	},
 	illustrator: "Ryo Ueda",
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you put Gallade E4 LV.X from your hand onto your Active Gallade E4, you may put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Gallame  LV.X de votre main sur votre Gallame  Actif, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Gallame 4 LV.X de votre main sur votre Gallame 4 Actif, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Galagladi 4 LV.X von deiner Hand auf dein Aktives Galagladi 4 legst, 1 Schadensmarke auf jedes Pokémon deines Gegners legen."
 			}
 		},

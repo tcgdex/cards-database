@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Vespiquen E4",
-		fr: "Apireine  Niv. 50",
+		fr: "Apireine 4 Niv. 50",
 		de: "Honweisel 4"
 	},
 	illustrator: "Kouki Saitou",
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Vespiquen E4, remove 1 damage counter from Vespiquen E4.",
-				fr: "Lorsque vous attachez une carte Énergie Grass à Apireine , retirez-lui 1 marqueur de dégât.",
+				fr: "Lorsque vous attachez une carte Énergie Grass à Apireine 4, retirez-lui 1 marqueur de dégât.",
 				de: "Wenn du 1 {G}-Energiekarte von deiner Hand an Honweisel 4 anlegst, entferne 1 Schadensmarke von Honweisel 4."
 			}
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Grass Energy attached to Vespiquen E4. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Grass attachée à Apireine . Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez une pièce pour chaque Énergie Grass attachée à Apireine 4. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
 				de: "Wirf 1 Münze für jede an Honweisel 4 angelegte {G}-Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",

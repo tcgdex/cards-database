@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Hippowdon E4",
-		fr: "Hippodocus  Niv. 52",
+		fr: "Hippodocus 4 Niv. 52",
 		de: "Hippoterus 4"
 	},
 	illustrator: "Kagemaru Himeno",
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Hippowdon E4 has any Fighting Energy attached to it, any damage done to Hippowdon E4 by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Si  Hippodocus  possède de l'Énergie Fighting, tous dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				fr: "Si Hippodocus 4 possède de l'Énergie Fighting, tous dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Wenn an Hippoterus 4 mindestens 1 {F}-Energie angelegt ist, wird Schaden, der Hippoterus 4 durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},

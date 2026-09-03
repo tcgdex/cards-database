@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Machamp GL",
-		fr: "Mackogneur  Niv. 64",
+		fr: "Mackogneur GL Niv. 64",
 		de: "Machomei GL"
 	},
 

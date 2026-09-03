@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Heracross E4",
-		fr: "Scarhino  Niv. 51",
+		fr: "Scarhino 4 Niv. 51",
 		de: "Skaraborn 4"
 	},
 	illustrator: "Kouki Saitou",
@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your next turn, Heracross E4's Megahorn attack's base damage is 100.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Megacorne de Scarhino  sont de 100.",
+				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Megacorne de Scarhino 4 sont de 100.",
 				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Vielender von Skaraborn 4 100 Schadenspunkte."
 			},
 

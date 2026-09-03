@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Forretress G",
-		fr: "Forretress  Niv. 35",
+		fr: "Forretress G Niv. 35",
 		de: "Forstellka G"
 	},
 
@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Forretress G can't use Shell Scatter during your next turn.",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Forretress  ne peut pas utiliser Écras'coquille lors de votre prochain tour.",
+				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Forretress G ne peut pas utiliser Écras'coquille lors de votre prochain tour.",
 				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Forstellka G kann Streugranate in deinem nächsten Zug nicht einsetzen."
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, Forretress G does 80 damage to itself.",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Lancez une pièce. Si c'est pile, Forretress  s'inflige 80 dégâts.",
+				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Lancez une pièce. Si c'est pile, Forretress G s'inflige 80 dégâts.",
 				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei „Zahl“ fügt Forstellka G sich selbst 80 Schadenspunkte zu."
 			},
 			damage: 80,
