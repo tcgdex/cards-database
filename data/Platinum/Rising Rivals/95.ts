@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Team Galactic's Invention G-107 Technical Machine G",
-		fr: "Machine Technique  Invention G-107 de Team Galaxie",
+		fr: "Machine Technique G Invention G-107 de Team Galaxie",
 		de: "Team Galaktiks Erfindung G-107 Technische Maschine"
 	},
 

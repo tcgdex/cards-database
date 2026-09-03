@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Water Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck 2 cartes Énergie Water, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck 2 cartes Énergie {W}, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach bis zu 2 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 

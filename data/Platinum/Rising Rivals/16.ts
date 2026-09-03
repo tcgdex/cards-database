@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Bronzong E4",
-		fr: "Archéodong  Niv. 54",
+		fr: "Archéodong 4 Niv. 54",
 		de: "Bronzong 4"
 	},
 	illustrator: "Mitsuhiro Arita",

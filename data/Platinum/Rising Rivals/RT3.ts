@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. Heat Rotom's type is Fire until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Chaleur est de type Fire jusqu'à la fin de votre tour.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Chaleur est de type {R} jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. HItze-Rotoms Typ ist {R} bis zum Ende des Zuges."
 			}
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Fire et attachez-la à 1 des Pokémon de votre Banc. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck une carte Énergie {R} et attachez-la à 1 des Pokémon de votre Banc. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische dein Deck danach."
 			},
 

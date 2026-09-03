@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Golem E4",
-		fr: "Grolem  Niv. 52",
+		fr: "Grolem 4 Niv. 52",
 		de: "Geowaz 4"
 	},
 	illustrator: "Kagemaru Himeno",
@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Golem E4 does 60 damage to itself.",
-				fr: "Grolem  s'inflige 60 dégâts.",
+				fr: "Grolem 4 s'inflige 60 dégâts.",
 				de: "Geowaz 4 fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 100,

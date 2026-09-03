@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you play Walrein from your hand to evolve 1 of your Pokémon, you may attach as many Water Energy cards from your hand to Walrein as you like.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Kaimorse de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez attacher autant de cartes Énergie Water de votre main sur Kaimorse que vous le voulez.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Kaimorse de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez attacher autant de cartes Énergie {W} de votre main sur Kaimorse que vous le voulez.",
 				de: "Einmal während deines Zuges (vor deinem Angriff), wenn du Walraisa von deiner Hand spielst, um 1 deiner -Energiekarten von deiner Hand an Walraisa anlegen"
 			}
 		},

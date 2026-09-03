@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting card and attach it to Trapinch.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Kraknoix est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Fighting et l'attacher à Kraknoix.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Kraknoix est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie {F} et l'attacher à Kraknoix.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Knacklion dein Aktives Pokémon ist, deinen Ablagestapel nach 1 {F}-Basis-Energiekarte durchsuchen und sie an Knacklion anlegen."
 			}
 		},

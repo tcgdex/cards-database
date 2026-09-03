@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Bastiodon GL",
-		fr: "Bastiodon  Niv. 41",
+		fr: "Bastiodon GL Niv. 41",
 		de: "Bollterus GL"
 	},
 
@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove 1 damage counter from Bastiodon GL.",
-				fr: "Retirez à Bastiodon  1 marqueur de dégât.",
+				fr: "Retirez à Bastiodon GL 1 marqueur de dégât.",
 				de: "Entferne 1 Schadensmarke von Bollterus GL."
 			},
 			damage: 60,

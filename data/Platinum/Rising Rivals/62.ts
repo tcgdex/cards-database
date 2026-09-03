@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Gliscor E4",
-		fr: "Scorvol  Niv. 53",
+		fr: "Scorvol 4 Niv. 53",
 		de: "Skorgo 4"
 	},
 	illustrator: "Kagemaru Himeno",

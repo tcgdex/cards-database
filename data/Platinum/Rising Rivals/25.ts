@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to Hippowdon. Before doing damage, you may search your discard pile for a Fighting Energy card and attach it to Hippowdon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Hippodocus. Avant d'infliger des dégâts, vous pouvez chercher une carte Énergie Fighting dans votre pile de défausse et l'attacher à Hippodocus.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Hippodocus. Avant d'infliger des dégâts, vous pouvez chercher une carte Énergie {F} dans votre pile de défausse et l'attacher à Hippodocus.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Hippoterus angelegte Energie zu. Bevor der Schaden zugefügt wird kannst du deinen Ablagestapel nach einer {F}-Energiekarte durchsuchen und sie an Hippoterus anlegen."
 			},
 			damage: "20+",

@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
-				fr: "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
+				fr: "Kecleon est de type {G}{R}{W}{L}{P}{F}{D}{M}{C}.",
 				de: "Kecleons Typ ist {G}{R}{W}{L}{P}{F}{D}{M}{C}."
 			}
 		},
