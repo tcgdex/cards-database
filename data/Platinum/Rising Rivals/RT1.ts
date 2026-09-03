@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. Fan Rotom's type is Colorless until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Hélice est de type Colorless jusqu'à la fin de votre tour.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Hélice est de type {C} jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wirbel-Rotoms Typ ist {C} bis zum Ende des Zuges."
 			}
 		},

@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. Frost Rotom's type is Water until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Froid est de type Water jusqu'à la fin de votre tour.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Froid est de type {W} jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Frost-Rotoms Typ ist {W} bis zum Ende des Zuges."
 			}
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Colorless dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {C} dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
 				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon zu (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
 			},
 			damage: "40+",

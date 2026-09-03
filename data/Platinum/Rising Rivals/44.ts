@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Metal Energy attached to Lairon. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Metal attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				fr: "Lancez une pièce pour chaque Énergie {M} attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
 				de: "Wirf 1 Münze für jede an Stollrak angelegte {M}-Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",

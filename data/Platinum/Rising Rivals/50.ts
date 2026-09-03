@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Water Energy card, show it to your opponent, and put it into your hand. This power can't be used if Starmie is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie Water. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé si Staross est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie {W}. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé si Staross est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 {W}-Energiekarte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Starmie von einem Speziellen Zustand betroffen ist."
 			}
 		},

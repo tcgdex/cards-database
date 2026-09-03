@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove all damage counters from 1 of your Benched Grass Pokémon.",
-				fr: "Retirez à 1 de vos Pokémon de Banc Grass tous ses marqueurs de dégât.",
+				fr: "Retirez à 1 de vos Pokémon de Banc {G} tous ses marqueurs de dégât.",
 				de: "Entferne alle Schadensmarken von 1 {G}-Pokémon auf deiner Bank."
 			},
 

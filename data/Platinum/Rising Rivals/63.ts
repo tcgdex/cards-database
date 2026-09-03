@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Fire et attachez-la à Caninos. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck une carte Énergie {R} et attachez-la à Caninos. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
 			},
 

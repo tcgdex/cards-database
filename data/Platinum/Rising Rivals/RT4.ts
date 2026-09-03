@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. Mow Rotom's type is Grass until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Tonte est de type Grass jusqu'à la fin de votre tour.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Tonte est de type {G} jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Schneid-Rotoms Typ ist {G} bis zum Ende des Zuges."
 			}
 		},

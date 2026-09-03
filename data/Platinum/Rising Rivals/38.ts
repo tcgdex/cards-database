@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.",
-				fr: "Défaussez une carte Énergie Psychic attachée à Alakazam 4 et retirez-lui 4 marqueurs de dégât.",
+				fr: "Défaussez une carte Énergie {P} attachée à Alakazam 4 et retirez-lui 4 marqueurs de dégât.",
 				de: "Lege 1 an Simsala 4 angelegte {P}-Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
 			},
 
