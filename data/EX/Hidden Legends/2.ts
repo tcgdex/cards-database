@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.",
-				fr: "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie  supplémentaire pour utiliser ses attaques.",
+				fr: "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie {C} supplémentaire pour utiliser ses attaques.",
 				de: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays  more Energy to use its attacks."
 			}
 		},

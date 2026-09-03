@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.",
-				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main.",
+				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie {G} ou {D} de votre main.",
 				de: "Attack up to 1  or  Energy card from your hand to your Pokémon."
 			},
 

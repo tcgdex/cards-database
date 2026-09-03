@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Metang.",
-				fr: "Choisissez une carte Énergie  dans votre pile de défausse et attachez-la à Metang.",
+				fr: "Choisissez une carte Énergie {M} dans votre pile de défausse et attachez-la à Metang.",
 				de: "Search your discard pile for a  Energy card and attach it to Metang."
 			},
 
