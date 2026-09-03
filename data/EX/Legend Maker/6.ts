@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Fighting Energy card and attach it to Golem. If you do, remove 2 damage counters from Golem.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Grolem. Retirez-lui alors 2 marqueurs de dégât.",
+				fr: "Cherchez dans votre pile de défausse une carte Énergie {F} et attachez-la à Grolem. Retirez-lui alors 2 marqueurs de dégât.",
 				de: "Durchsuche deinen Ablagestapel nach 1 {F}-Energiekarte und lege sie an Geowaz an. Wenn du das machst, entferne 2 Schadensmarken von Geowaz."
 			},
 

@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Magmar is an Evolved Pokémon, all Energy attached to Magmar are Fire Energy instead of their usual types.",
-				fr: "Tant que Magmar est un Pokémon Évolué, toutes les Énergies qui lui sont attachées sont des Énergies  au lieu de leur type habituel.",
+				fr: "Tant que Magmar est un Pokémon Évolué, toutes les Énergies qui lui sont attachées sont des Énergies {R} au lieu de leur type habituel.",
 				de: "Solange Magmar ein entwickeltes Pokémon ist, zählen alle Energiekarten, die an Magmar angelegt sind, als {R}-Energiekarten anstelle ihres normalen Typs."
 			},
 		},

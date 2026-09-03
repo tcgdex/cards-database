@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as you have Lunatone in play, each player's Colorless Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.",
-				fr: "Tant que votre Seleroc est en jeu, les Pokémon  de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
+				fr: "Tant que votre Seleroc est en jeu, les Pokémon {C} de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
 				de: "Solange du Lunastein im Spiel hast, können die -Pokémon aller Spieler (außer Pokémon-ex) keine Poké-Power benutzen."
 			},
 		},

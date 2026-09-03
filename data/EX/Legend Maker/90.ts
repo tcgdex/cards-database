@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has only 1 Prize card left and Regice ☆ is the only Pokémon you have in play, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "S'il reste à votre adversaire une seule carte Récompense et que Regice ☆  est le seul Pokémon que vous ayez en jeu, cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				fr: "S'il reste à votre adversaire une seule carte Récompense et que Regice ☆ est le seul Pokémon que vous ayez en jeu, cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 				de: "Wenn dein Gegner nur noch einen Preis übrig hat und Regice ☆ das einzige Pokémon ist, das du im Spiel hast, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,

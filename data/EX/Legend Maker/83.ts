@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Whenever you attach a Fire Energy from your hand to Arcanine ex, remove 1 damage counter and all Special Conditions from Arcanine ex.",
-				fr: "Lorsque vous attachez une Énergie  de votre main à Arcanin ex, retirez-lui 1 marqueur de dégât et tous ses États Spéciaux.",
+				fr: "Lorsque vous attachez une Énergie {R} de votre main à Arcanin ex, retirez-lui 1 marqueur de dégât et tous ses États Spéciaux.",
 				de: "Immer wenn du eine {R}-Energiekarte von deiner Hand an Arkani ex anlegst, entferne 1 Schadensmarke und alle Speziellen Zustände von Arkani ex."
 			},
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 				de: "Flammenwirbel"
 			},
 			effect: {
-				fr: 'Défaussez 2 Énergies  ou 1 carte Énergie réaction attachée à Arcanin ex.',
+				fr: 'Défaussez 2 Énergies {R} ou 1 carte Énergie réaction attachée à Arcanin ex.',
 				de: "Lege 2 -Energie oder 1 Reaktions-Energiekarte, die an Arkani ex angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 100
