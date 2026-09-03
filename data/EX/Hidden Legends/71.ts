@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Seedot.",
-				fr: "Attachez une carte Énergie  de votre main à Grainipiot.",
+				fr: "Attachez une carte Énergie {G} de votre main à Grainipiot.",
 				de: "Attach a  Energy card from your hand to Seedot."
 			},
 

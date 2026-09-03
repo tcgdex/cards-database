@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Ninetales ex.",
-				fr: "Défaussez une Énergie  attachée à Feunard ex.",
+				fr: "Défaussez une Énergie {R} attachée à Feunard ex.",
 				de: "Discard a  Energy card attached to Ninetales ex."
 			},
 			damage: 100,

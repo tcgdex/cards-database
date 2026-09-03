@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has any Pokémon-ex in play, search your deck for up to 2 Grass Energy cards and attach them to Heracross. Shuffle your deck afterward.",
-				fr: "Si votre adversaire a des Pokémon-ex en jeu, cherchez dans votre deck jusqu'à 2 cartes Énergie  et attachez-les à Scarhino. Ensuite, mélangez votre deck.",
+				fr: "Si votre adversaire a des Pokémon-ex en jeu, cherchez dans votre deck jusqu'à 2 cartes Énergie {G} et attachez-les à Scarhino. Ensuite, mélangez votre deck.",
 				de: "If your opponent has any Pokémon-ex in play, search your deck for up to 2  Energy cards and attach them to Heracross. Shuffle your deck afterward."
 			},
 

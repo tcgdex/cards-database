@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Psychic Energy in play.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  en jeu.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {P} en jeu.",
 				de: "Does 20 damage plus 10 more damage for each  Energy in play."
 			},
 			damage: "20+",

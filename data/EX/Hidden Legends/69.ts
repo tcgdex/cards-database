@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre main à un de vos Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie {L} de votre main à un de vos Pokémon.",
 				de: "Flip a coin. If heads, attach a  Energy card from your hand to any of your Pokémon."
 			},
 
