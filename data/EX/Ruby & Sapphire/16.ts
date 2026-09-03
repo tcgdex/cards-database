@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {F} attachée à Chapignon.",
 				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kapilz angelegte {F}-Energie zu."
 			},
 			damage: "40+",

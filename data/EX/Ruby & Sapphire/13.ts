@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à votre Pokémon Actif. Ce pouvoir ne peut être utilisé si Laggron est affecté par un État Spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {W} de votre main à votre Pokémon Actif. Ce pouvoir ne peut être utilisé si Laggron est affecté par un État Spécial.",
 				de: "Während deines Zuges (vor deinem Angriff) kannst du einmal eine {W}-Energiekarte von deiner Hand an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht verwendet werden, falls Sumpex von einem Speziellen Zustand betroffen ist."
 			}
 		},

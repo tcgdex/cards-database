@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition.",
-				fr: "Pendant votre tour (avant votre attaque), vous pouvez déplacer autant de fois que vous le voulez une carte Énergie  attachée à un de vos Pokémon sur un autre de vos Pokémon. Ce pouvoir ne peut être utilisé si Jungko est affecté par un État Spécial.",
+				fr: "Pendant votre tour (avant votre attaque), vous pouvez déplacer autant de fois que vous le voulez une carte Énergie {G} attachée à un de vos Pokémon sur un autre de vos Pokémon. Ce pouvoir ne peut être utilisé si Jungko est affecté par un État Spécial.",
 				de: "Während deines Zuges kannst du (vor deinem Angriff) beliebig oft eine an 1 deiner Pokémon angelegte -Energiekarte nehmen und an 1 anderes anlegen. Diese Poké-Power kann nicht verwendet werden, falls Gewaldro von einem Speziellen Zustand betroffen ist."
 			}
 		},

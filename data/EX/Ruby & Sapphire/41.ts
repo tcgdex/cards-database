@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
+				fr: "Lorsque vous attachez une carte Énergie {W} de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
 				de: "Wenn du eine {W}-Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
 			}
 		},

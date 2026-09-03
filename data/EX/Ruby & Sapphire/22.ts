@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Darkness Energy card attached to Sharpedo. If you do, this attack does 40 damage plus 30 more damage.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Sharpedo. Les dégâts de base de cette attaque sont de 70 au lieu de 40.",
+				fr: "Vous pouvez défausser une carte Énergie {D} attachée à Sharpedo. Les dégâts de base de cette attaque sont de 70 au lieu de 40.",
 				de: "Du kannst eine {W}-Energiekarte, die an Tohaido angelegt ist, auf den Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 70 Schadenspunkte anstelle von 40."
 			},
 			damage: "40+",
