@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Darkness Pokémon or has Dark in its name, this attack does 40 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon  ou si son nom comporte Obscur, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				fr: "Si le Pokémon Défenseur est un Pokémon {D} ou si son nom comporte Obscur, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
 				de: "If the Defending Pokémon is a  Pokémon or has Dark in its name, this attack does 40 damage plus 30 more damage."
 			},
 			damage: "40+",

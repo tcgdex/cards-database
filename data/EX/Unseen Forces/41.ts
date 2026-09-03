@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Magcargo has any Fighting Energy attached to it, Magcargo is both Fire and Fighting type.",
-				fr: "Tant que Volcaropod possède des Énergies , il est de type  et .",
+				fr: "Tant que Volcaropod possède des Énergies {F}, il est de type {R} et {F}.",
 				de: "As long as Magcargo has any  Energy attached to it, Magcargo is both  and  type."
 			},
 		},

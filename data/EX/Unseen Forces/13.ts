@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Slowbro has any Psychic Energy attached to it, Slowbro is both Water and Psychic type.",
-				fr: "Tant que Flagadoss possède des Énergies , il est à la fois de type  et .",
+				fr: "Tant que Flagadoss possède des Énergies {P}, il est à la fois de type {W} et {P}.",
 				de: "As long as Slowbro has any  Energy attached to it, Slowbro is both  and  type."
 			},
 		},
