@@ -78,20 +78,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576739,
+				tcgplayer: 251096
+			}
+		},
+	],
 
 	hp: 300,
 	types: ["Lightning"],
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 576738
-	}
+	retreat: 0
 }
 
 export default card

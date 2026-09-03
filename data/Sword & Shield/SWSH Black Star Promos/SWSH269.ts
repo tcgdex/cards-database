@@ -66,10 +66,23 @@ const card: Card = {
 	description: {
 		en: "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it."
 	},
-
-	thirdParty: {
-		cardmarket: 681798
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 681798,
+				tcgplayer: 451844
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 451884
+			}
+		},
+	],
 }
 
 export default card

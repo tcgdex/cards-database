@@ -78,10 +78,16 @@ const card: Card = {
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes."
 	},
-
-	thirdParty: {
-		cardmarket: 665990
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 665990,
+				tcgplayer: 285258
+			}
+		},
+	],
 }
 
 export default card

@@ -62,10 +62,16 @@ const card: Card = {
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen."
 	},
-
-	thirdParty: {
-		cardmarket: 580167
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 580167,
+				tcgplayer: 253406
+			}
+		},
+	],
 }
 
 export default card

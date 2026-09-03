@@ -56,13 +56,18 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: [
-			{
-				type: "holo",
-			}
-		],
+	regulationMark: "D",
 
-	regulationMark: "D"
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 668172,
+				tcgplayer: 282259
+			}
+		},
+	],
 }
 
 export default card

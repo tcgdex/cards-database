@@ -77,10 +77,16 @@ const card: Card = {
 	description: {
 		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile."
 	},
-
-	thirdParty: {
-		cardmarket: 665989
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 665989,
+				tcgplayer: 285262
+			}
+		},
+	],
 }
 
 export default card

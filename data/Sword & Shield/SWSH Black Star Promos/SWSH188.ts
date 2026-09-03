@@ -88,10 +88,20 @@ const card: Card = {
 	description: {
 		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker."
 	},
-
-	thirdParty: {
-		cardmarket: 606602
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 606602,
+				tcgplayer: 264280
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

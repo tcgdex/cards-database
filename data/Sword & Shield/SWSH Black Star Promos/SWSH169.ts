@@ -69,10 +69,16 @@ const card: Card = {
 	description: {
 		en: "It's covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up."
 	},
-
-	thirdParty: {
-		cardmarket: 580166
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 580166,
+				tcgplayer: 253405
+			}
+		},
+	],
 }
 
 export default card

@@ -64,12 +64,22 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [421],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 546936,
+				tcgplayer: 234276
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 
 	attacks: [{
 		name: {
@@ -84,12 +94,6 @@ const card: Card = {
 		damage: 70,
 		cost: ["Grass", "Colorless", "Colorless"]
 	}],
-
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 546936
-	}
 }
 
 export default card

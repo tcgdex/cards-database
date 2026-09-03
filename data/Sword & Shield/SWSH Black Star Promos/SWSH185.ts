@@ -56,10 +56,20 @@ const card: Card = {
 	description: {
 		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
 	},
-
-	thirdParty: {
-		cardmarket: 606599
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 606599,
+				tcgplayer: 264277
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

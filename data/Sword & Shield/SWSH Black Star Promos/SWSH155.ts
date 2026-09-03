@@ -14,12 +14,25 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572155,
+				tcgplayer: 248887
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 576912,
+				tcgplayer: 250251
+			}
+		},
+	],
 
 	name: {
 		en: "Greninja V-UNION",
@@ -116,14 +129,8 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572155
-	}
+	retreat: 0
 }
 
 export default card

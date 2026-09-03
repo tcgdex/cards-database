@@ -72,10 +72,16 @@ const card: Card = {
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
 	},
-
-	thirdParty: {
-		cardmarket: 580168
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 580168,
+				tcgplayer: 253407
+			}
+		},
+	],
 }
 
 export default card

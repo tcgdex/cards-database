@@ -88,10 +88,16 @@ const card: Card = {
 	description: {
 		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
 	},
-
-	thirdParty: {
-		cardmarket: 566760
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 682975,
+				tcgplayer: 475622
+			}
+		},
+	],
 }
 
 export default card

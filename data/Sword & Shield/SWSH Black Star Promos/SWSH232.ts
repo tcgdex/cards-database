@@ -56,10 +56,16 @@ const card: Card = {
 	description: {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	},
-
-	thirdParty: {
-		cardmarket: 547031
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 664338,
+				tcgplayer: 275829
+			}
+		},
+	],
 }
 
 export default card

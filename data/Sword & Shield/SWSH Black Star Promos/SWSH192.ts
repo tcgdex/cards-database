@@ -86,10 +86,16 @@ const card: Card = {
 	description: {
 		en: "The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts."
 	},
-
-	thirdParty: {
-		cardmarket: 604998
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 606749,
+				tcgplayer: 264285
+			}
+		},
+	],
 }
 
 export default card
