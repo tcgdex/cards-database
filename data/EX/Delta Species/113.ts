@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Metal Energy cards and attach them to Metagross Star.",
-				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Metalosse .",
+				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie {M} et attachez-les à Metalosse ☆.",
 				de: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many  Energy cards and attach them to Metagross *."
 			},
 			damage: 10,

@@ -78,7 +78,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Lightning Energy card attached to Jolteon ex.",
-				fr: "Défaussez une carte Énergie  attachée à Voltali ex.",
+				fr: "Défaussez une carte Énergie {L} attachée à Voltali ex.",
 				de: "Lege eine an Blitza angelegte -Energiekarte auf den Ablegestapel."
 			},
 			damage: 70,

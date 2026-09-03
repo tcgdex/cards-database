@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Eevee.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie {M} et attachez-la à Evoli.",
 				de: "Search your discard pile for a  Energy card and attach it to Eevee."
 			},
 			damage: 10,

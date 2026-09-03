@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Any damage done to Azumarill by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Azumarill par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				fr: "Tous dégâts infligés à Azumarill par des attaques de Pokémon {R} et {W} sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 				de: "Any damage done to Azumarill by attacks from  Pokémon and  Pokémon is reduced by 30 (after applying Weakness and Resistance)."
 			},
 		},
