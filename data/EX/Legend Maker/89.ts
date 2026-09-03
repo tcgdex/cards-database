@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Walrein ex is your Active Pokémon, put 1 damage count on each Active Pokémon (both yours and your opponent's) between turns, excluding Water Pokémon.",
-				fr: "Tant que Kaimorse ex est votre Pokémon Actif, placez 1 marqueur de dégât sur chaque Pokémon Actif (les vôtres et ceux de votre adversaire) entre deux tours, Pokémon  exclus.",
+				fr: "Tant que Kaimorse ex est votre Pokémon Actif, placez 1 marqueur de dégât sur chaque Pokémon Actif (les vôtres et ceux de votre adversaire) entre deux tours, Pokémon {W} exclus.",
 				de: "Solange Walraisa ex dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (deins und die deines Gegners), mit der Ausnahme von {W}-Pokémon."
 			},
 		},
@@ -72,7 +72,7 @@ const card: Card = {
 				de: "Eiswurf"
 			},
 			effect: {
-				fr: 'Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 120 au lieu de 80.',
+				fr: 'Si le Pokémon Défenseur est un Pokémon {F}, les dégâts de base de cette attaque sont de 120 au lieu de 80.',
 				de: "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden 120 Schadenspunkte anstelle von 80 Schadenspunkten."
 			},
 			damage: 80

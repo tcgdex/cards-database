@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Kecleon has any React Energy cards attached to it, Kecleon is Grass, Fire, Water, Lightning, Psychic, and Fighting type.",
-				fr: "Si Kecleon possède des cartes Énergie réaction, il est de type , , , ,  et .",
+				fr: "Si Kecleon possède des cartes Énergie réaction, il est de type {G}, {R}, {W}, {L}, {P} et {F}.",
 				de: "Wenn an Kecleon mindestens eine Reaktions-Energiekarte angelegt ist, ist es vom Typ {G}, {R}, {W}, {L}, {P} und {F}."
 			},
 		},
