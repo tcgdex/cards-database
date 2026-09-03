@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, when you play Typhlosion ex from your hand to evolve 1 of your Pokémon, count the number of your opponent's Benched Pokémon. You may search your deck for up to that number of Fire Energy cards and attach them to 1 of your Fire Pokémon. Shuffle your deck afterward.",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Typhlosion ex de votre main pour faire évoluer 1 de vos Pokémon, comptez le nombre de Pokémon de Banc de votre adversaire. Vous pouvez chercher dans votre deck autant de cartes Énergie  et les attacher à 1 de vos Pokémon . Ensuite, mélangez votre deck.",
+				fr: "Une seule fois lors de votre tour, lorsque vous jouez Typhlosion ex de votre main pour faire évoluer 1 de vos Pokémon, comptez le nombre de Pokémon de Banc de votre adversaire. Vous pouvez chercher dans votre deck autant de cartes Énergie {R} et les attacher à 1 de vos Pokémon {R}. Ensuite, mélangez votre deck.",
 				de: "Once during your turn, when you play Thyplosion ex from your hand to evoled q of your Pokémon, count the number of your opponent's Benched Pokémon. You may search your deck for up to that number of  Energy cards and attach them to 1 of your  Pokémon. Shuffle your deck afterward."
 			},
 		},

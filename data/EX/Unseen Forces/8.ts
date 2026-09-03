@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie  et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie {L} et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
 				de: "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
 			},
 			damage: 20,

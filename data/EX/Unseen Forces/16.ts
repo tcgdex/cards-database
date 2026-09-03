@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {G} attachée à tous vos Pokémon.",
 				de: "Does 20 damage plus 10 more damage for each  Energy attached to all of your Pokémon."
 			},
 			damage: "20+",
