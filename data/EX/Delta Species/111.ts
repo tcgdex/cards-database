@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Fighting Energy cards and attach them to Groudon Star.",
-				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Groudon .",
+				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie {F} et attachez-les à Groudon ☆.",
 				de: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many  Energy cards and attach them to Groudon *."
 			},
 			damage: 10,
@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fighting Energy card attached to Groudon Star.",
-				fr: "Défaussez une carte Énergie  attachée à Groudon .",
+				fr: "Défaussez une carte Énergie {F} attachée à Groudon ☆.",
 				de: "Discard a Energy card attached to Groudon *."
 			},
 			damage: 80,

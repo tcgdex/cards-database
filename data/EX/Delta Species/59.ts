@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless to retreat Beldum for each Beldum on your Bench.",
-				fr: "Tant que Terhal est votre Pokémon Actif, vous payez un  de moins pour faire battre Terhal en retraite pour chaque Terhal se trouvant sur votre Banc.",
+				fr: "Tant que Terhal est votre Pokémon Actif, vous payez un {C} de moins pour faire battre Terhal en retraite pour chaque Terhal se trouvant sur votre Banc.",
 				de: "As long as Beldum is your Active Pokémon, you pay  less to retreat Beldum for each Beldum on your Bench."
 			},
 		},

@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Water Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).",
-				fr: "Défaussez une carte Énergie  attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4).",
+				fr: "Défaussez une carte Énergie {W} attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4).",
 				de: "Discard a  Energy attached to Staryu and remove 4 damage counters from Staryu (all if there als less than 4)."
 			},
 
