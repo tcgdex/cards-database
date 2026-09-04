@@ -157,6 +157,11 @@ export interface CardResume {
 	 */
 	name: string;
 	image?: string;
+	/**
+	 * Last time this card's data was edited, ISO 8601 date string.
+	 * Lets consumers do incremental syncs without re-fetching the full card list.
+	 */
+	updated?: string;
 }
 
 /**
