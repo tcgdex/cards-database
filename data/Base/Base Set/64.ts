@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
-				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
+				fr: "Défaussez 1 carte Énergie {W} attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
 				de: "Entferne eine auf Starmie abgelegte {W} Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
 				it: "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
 			},

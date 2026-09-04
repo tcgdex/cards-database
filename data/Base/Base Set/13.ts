@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies {W} supplémentaires après la seconde ne comptent pas.",
 				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Quappo abgelegte {W} Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen.",
 				it: "Infligge 30 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Poliwrath che non viene usata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
 			},

@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed.",
-				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie  attachée à 1 de vos Pokémon et l'attacher à un autre. Ce pouvoir ne peut être utilisé si Florizarre est Endormi, Confus ou Paralysé.",
+				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie {G} attachée à 1 de vos Pokémon et l'attacher à un autre. Ce pouvoir ne peut être utilisé si Florizarre est Endormi, Confus ou Paralysé.",
 				de: "Bist Du am Zug kannst Du (vor Deinem Angriff) beliebig oft eine auf einem Deiner Pokémon abgelegte {G} Energiekarte nehmen und auf ein anderes legen. Diese Fähigkeit kann nicht eingesetzt werden, falls Bisaflor schlafend, verwirrt oder gelähmt ist.",
 				it: "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi prendere una carta Energia Erba assegnata a uno dei tuoi Pokémon ed assegnarla a un altro. Questo potere non può essere usato se Venusaur è Addormentato, Confuso o Paralizzato.",
 			},

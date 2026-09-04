@@ -64,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Reptincel pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Glutexo abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
 			},
