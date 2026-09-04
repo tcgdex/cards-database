@@ -62,7 +62,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Artikodin ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Artikodin ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base  attachées à votre Pokémon que vous le voulez et les placer sur Artikodin ex.",
+			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Artikodin ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Artikodin ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base {W} attachées à votre Pokémon que vous le voulez et les placer sur Artikodin ex.",
 			de: "Once during your turn, when you put Articuno ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Articuno ex. If you do, you may also move any number of basic  Energy cards attached to your Pokémon to Articuno ex."
 		},
 
