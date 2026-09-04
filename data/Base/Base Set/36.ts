@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Magmar in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Magmar pour pouvoir utiliser cette attaque.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Magmar pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Magmar abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata a Magmar per poter usare questo attacco."
 			},

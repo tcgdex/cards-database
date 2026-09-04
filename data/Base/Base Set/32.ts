@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Kadabra in order use this attack. Remove all damage counters from Kadabra.",
-				fr: "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
+				fr: "Défaussez 1 carte Énergie {P} attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
 				de: "Entferne eine auf Kadabra abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra.",
 				it: "Scarta una carta Energia Psico assegnata a Kadabra per poter usare questo attacco. Togli tutti i segnalini danno da Kadabra.",
 			},

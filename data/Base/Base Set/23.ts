@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Arcanine in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Arcanin pour pouvoir utiliser cette attaque.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Arcanin pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Arkani abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata ad Arcanine per poter usare questo attacco."
 			},
