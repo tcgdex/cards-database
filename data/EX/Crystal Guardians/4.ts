@@ -63,7 +63,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Metal Energy attached to Charizard.",
-				fr: "Défaussez toutes les Énergies  attachées à Dracaufeu.",
+				fr: "Défaussez toutes les Énergies {M} attachées à Dracaufeu.",
 				de: "Lege alle an Glurak angelegte {M}-Energie auf deinen Ablagestapel."
 			},
 			damage: 120,

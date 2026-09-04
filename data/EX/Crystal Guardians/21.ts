@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You pay Colorless less to retreat your Jigglypuff, Wigglytuff, Wigglytuff ex, and Igglybuff.",
-				fr: "Vous payez un  de moins pour faire battre Rondoudou, Groudoudou, Grodoudou ex et Toudoudou en retraite.",
+				fr: "Vous payez un {C} de moins pour faire battre Rondoudou, Groudoudou, Grodoudou ex et Toudoudou en retraite.",
 				de: "Der Rückzug deiner Pummeluff, Knuddeluff, Knuddeluff ex und Fluffeluff kostet dich {C} weniger.",
 			},
 		},
