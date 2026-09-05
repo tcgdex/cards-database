@@ -114,6 +114,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			: variantsToVariantsDetailed(card.variants, lang),
 
 		dexId: card.dexId,
+		cameoDexIds: card.cameoDexIds,
 		hp: card.hp,
 		types: card.types?.map((t) => translate('types', t, lang)) as Array<Types>,
 		evolveFrom: card.evolveFrom && resolveText(card.evolveFrom, lang),

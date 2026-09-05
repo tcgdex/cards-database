@@ -219,6 +219,7 @@ export interface Card extends CardResume {
 	 * Pokemon Pokedex ID
 	 */
 	dexId?: Array<number>;
+	cameoDexIds?: Array<number>;
 	/**
 	 * Pokemon HP
 	 */

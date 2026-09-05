@@ -280,6 +280,11 @@ export interface Card {
 	dexId?: Array<number>
 
 	/**
+	 * Additional Pokedex IDs for Pokemon that appear in the artwork but are not the card's main Pokemon.
+	 */
+	cameoDexIds?: Array<number>
+
+	/**
 	 * Pokemon HP
 	 */
 	hp?: number
