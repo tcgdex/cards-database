@@ -39,6 +39,7 @@ export function formatVariant(variant: variant_detailed, lang: SupportedLanguage
 			? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
 			: undefined,
 		foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
+		line: variant.line ? translate('variantLine', variant.line, lang) : translate('variantLine', "main", lang),
 		thirdParty: variant.thirdParty
 	};
 }

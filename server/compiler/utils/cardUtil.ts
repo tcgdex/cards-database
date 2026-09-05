@@ -52,7 +52,8 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 			type: type as VariantType,
 			size: translate('variantSize', "standard", lang) as any,
 			stamp: stamps.length > 0 ? stamps as Array<VariantStamps> : undefined,
-			variantId: "generated"
+			variantId: "generated",
+			line: "main"
 		});
 	};
 

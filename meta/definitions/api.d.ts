@@ -68,6 +68,7 @@ interface variant_detailed {
 		tcgplayer?: number
 	}
 	variantId: string
+	line: string
 }
 
 export interface SetResume {
