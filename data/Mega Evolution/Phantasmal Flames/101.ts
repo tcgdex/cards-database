@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [270, 328, 329, 946],
 
 	name: {
 		en: "Flygon",

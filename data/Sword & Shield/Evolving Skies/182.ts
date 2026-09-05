@@ -3,6 +3,7 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [201, 333, 827],
 
 
 	name: {

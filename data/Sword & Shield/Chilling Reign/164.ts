@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [898],
 	set: Set,
+	cameoDexIds: [216, 363, 585, 667],
 
 	name: {
 		fr: "Sylveroy Cavalier du Froid V",

@@ -3,6 +3,7 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [995],
 
 	name: {
 		en: "Pikachu",

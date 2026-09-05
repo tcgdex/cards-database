@@ -4,6 +4,7 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	dexId: [134],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Vaporeon ex",

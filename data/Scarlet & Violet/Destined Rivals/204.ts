@@ -4,6 +4,7 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	dexId: [115],
 	set: Set,
+	cameoDexIds: [195],
 
 	name: {
 		en: "Kangaskhan",

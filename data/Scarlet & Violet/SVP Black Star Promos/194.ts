@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [939],
 	set: Set,
+	cameoDexIds: [81],
 
 	name: {
 		en: "Iono's Bellibolt ex",

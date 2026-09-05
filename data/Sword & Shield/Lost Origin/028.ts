@@ -4,6 +4,7 @@ import Set from "../Lost Origin"
 const card: Card = {
 	dexId: [667],
 	set: Set,
+	cameoDexIds: [122],
 
 	name: {
 		en: "Litleo",

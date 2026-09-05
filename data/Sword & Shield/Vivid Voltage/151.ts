@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [479],
 
 	effect: {
 		en: "Your opponent reveals their hand. If they do, look at the top card of your opponent's deck.",

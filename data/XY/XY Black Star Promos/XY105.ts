@@ -11,6 +11,7 @@ const card: Card = {
 	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [303],
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Mysdibule-EX.",

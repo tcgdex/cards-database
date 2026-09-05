@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [133],
 
 	dexId: [
 		700,

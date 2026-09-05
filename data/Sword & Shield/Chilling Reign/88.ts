@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [766],
 	set: Set,
+	cameoDexIds: [816],
 
 	name: {
 		en: "Passimian",

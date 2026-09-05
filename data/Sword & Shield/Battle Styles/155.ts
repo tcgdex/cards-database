@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [248],
 	set: Set,
+	cameoDexIds: [499],
 
 	name: {
 		en: "Tyranitar V",

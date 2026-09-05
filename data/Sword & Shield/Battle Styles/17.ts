@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [824],
 	set: Set,
+	cameoDexIds: [891],
 
 	name: {
 		en: "Blipbug",

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [341],
 	set: Set,
+	cameoDexIds: [661],
 
 	name: {
 		en: "Corphish",

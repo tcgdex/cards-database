@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [231],
 	set: Set,
+	cameoDexIds: [232],
 
 	name: {
 		en: "Phanpy",

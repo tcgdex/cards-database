@@ -3,6 +3,7 @@ import Set from "../Perfect Order"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [121],
 
 	dexId: [121],
 

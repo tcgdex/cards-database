@@ -3,6 +3,7 @@ import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [179, 278, 337, 749],
 
 	name: {
 		en: "Banette",

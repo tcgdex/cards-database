@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [25, 335, 336],
 
 	name: {
 		en: "Toxtricity",

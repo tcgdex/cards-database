@@ -3,6 +3,7 @@ import Set from "../Paradox Rift"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [143],
 
 	name: {
 		en: "Snorlax Doll",

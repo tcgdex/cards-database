@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [425],
 
 	evolveFrom: {
 		en: "Clefairy",

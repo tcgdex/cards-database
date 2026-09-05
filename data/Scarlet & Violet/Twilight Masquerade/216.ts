@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [901],
 	set: Set,
+	cameoDexIds: [216, 446, 742],
 
 	name: {
 		en: "Bloodmoon Ursaluna ex",

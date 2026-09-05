@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [37, 129],
 
 	dexId: [25],
 

@@ -4,6 +4,7 @@ import Set from "../Shrouded Fable"
 const card: Card = {
 	dexId: [611],
 	set: Set,
+	cameoDexIds: [610],
 
 	name: {
 		en: "Fraxure",

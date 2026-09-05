@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [868],
 	set: Set,
+	cameoDexIds: [25, 39, 77, 143],
 
 	name: {
 		en: "Milcery",

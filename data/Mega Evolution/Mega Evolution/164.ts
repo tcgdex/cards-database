@@ -3,6 +3,7 @@ import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [115],
 
 	name: {
 		en: "Mega Kangaskhan ex",

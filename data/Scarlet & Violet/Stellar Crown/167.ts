@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [1019],
 	set: Set,
+	cameoDexIds: [840],
 
 	name: {
 		en: "Hydrapple ex",

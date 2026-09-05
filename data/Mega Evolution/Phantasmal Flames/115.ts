@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [428],
 
 	name: {
 		en: "Mega Lopunny ex",

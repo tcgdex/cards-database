@@ -4,6 +4,7 @@ import Set from "../Brilliant Stars"
 const card: Card = {
 	dexId: [467],
 	set: Set,
+	cameoDexIds: [466],
 
 	name: {
 		en: "Magmortar",

@@ -13,6 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 	trainerType: "Stadium",
 	set: Set,
+	cameoDexIds: [61],
 
 	dexId: [129],
 

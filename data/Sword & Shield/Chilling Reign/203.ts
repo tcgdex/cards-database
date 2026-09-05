@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [898],
 	set: Set,
+	cameoDexIds: [361, 363, 364],
 
 	name: {
 		en: "Ice Rider Calyrex VMAX",

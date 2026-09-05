@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [144],
 	set: Set,
+	cameoDexIds: [170, 627],
 
 	name: {
 		fr: "Artikodin de Galar V",

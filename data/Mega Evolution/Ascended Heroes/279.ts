@@ -3,6 +3,7 @@ import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [81, 938],
 
 	name: {
 		en: "Iono's Bellibolt ex",

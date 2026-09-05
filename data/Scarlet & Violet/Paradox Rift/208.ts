@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [208],
 	set: Set,
+	cameoDexIds: [532, 533],
 
 	name: {
 		en: "Steelix",

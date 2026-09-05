@@ -4,6 +4,7 @@ import Set from "../151"
 const card: Card = {
 	dexId: [4],
 	set: Set,
+	cameoDexIds: [6],
 
 	name: {
 		fr: "Salamèche",

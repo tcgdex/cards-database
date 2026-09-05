@@ -4,6 +4,7 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	dexId: [20],
 	set: Set,
+	cameoDexIds: [19],
 
 	name: {
 		en: "Team Rocket's Raticate",

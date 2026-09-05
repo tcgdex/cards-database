@@ -4,6 +4,7 @@ import Set from "../Pokémon GO"
 const card: Card = {
 	dexId: [1],
 	set: Set,
+	cameoDexIds: [43],
 
 	name: {
 		en: "Bulbasaur",

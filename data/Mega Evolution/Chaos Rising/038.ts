@@ -3,6 +3,7 @@ import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [670],
 
 	description: {
 		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",

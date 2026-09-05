@@ -3,6 +3,7 @@ import Set from '../Celebrations'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [10, 12, 43, 47],
 
 
 	name: {

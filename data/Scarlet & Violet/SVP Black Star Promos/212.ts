@@ -3,6 +3,7 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [577, 578],
 
 	name: {
 		en: "Reuniclus",

@@ -3,6 +3,7 @@ import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [658],
 
 	description: {
 		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",

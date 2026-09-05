@@ -3,6 +3,7 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [6, 53, 61, 96, 113, 215],
 
 	name: {
 		en: "Team Rocket's Wobbuffet",

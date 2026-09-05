@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [923],
 	set: Set,
+	cameoDexIds: [921, 922],
 
 	name: {
 		en: "Pawmot",

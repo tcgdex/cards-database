@@ -3,6 +3,7 @@ import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [670],
 
 	description: {
 		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",

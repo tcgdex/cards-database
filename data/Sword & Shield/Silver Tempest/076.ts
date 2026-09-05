@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [577],
 	set: Set,
+	cameoDexIds: [872],
 
 	name: {
 		en: "Solosis",

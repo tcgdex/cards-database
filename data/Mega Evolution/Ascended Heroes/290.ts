@@ -3,6 +3,7 @@ import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [147, 148, 149],
 
 	name: {
 		en: "Mega Dragonite ex",

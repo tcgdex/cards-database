@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [479],
 
 	effect: {
 		fr: "Après avoir compté vos cartes Récompense, mélangez-les avec votre deck. Prenez alors le même nombre de cartes du dessus de votre deck et placez-les faces cachées comme cartes Récompense.",

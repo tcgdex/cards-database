@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [820],
 	set: Set,
+	cameoDexIds: [819],
 
 	name: {
 		en: "Greedent V",

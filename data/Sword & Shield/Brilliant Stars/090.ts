@@ -4,6 +4,7 @@ import Set from "../Brilliant Stars"
 const card: Card = {
 	dexId: [509],
 	set: Set,
+	cameoDexIds: [35],
 
 	name: {
 		en: "Purrloin",

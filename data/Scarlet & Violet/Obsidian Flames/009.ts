@@ -4,6 +4,7 @@ import Set from "../Obsidian Flames"
 const card: Card = {
 	dexId: [590],
 	set: Set,
+	cameoDexIds: [192],
 
 	name: {
 		fr: "Trompignon",

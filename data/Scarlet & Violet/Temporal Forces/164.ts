@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [388],
 	set: Set,
+	cameoDexIds: [183, 396],
 
 	name: {
 		en: "Grotle",
